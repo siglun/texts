@@ -3,7 +3,7 @@
 #
 # We remove all subject menus
 #
-rm -rf subjects
+# rm -rf subjects
 
 #
 # The blog entryoids lives in entries hierarchy. We merge in them in the
