@@ -1,0 +1,3508 @@
+<?xml version="1.0" encoding="iso-8859-1"?>
+
+<html>
+  <head>
+    <title>Teknisk samverkan mellan svenska ämnesportaler - Test
+och utvärdering av portalprogramvaran TKL</title>
+    <link href="/css-style/html_print.css" type="text/css" rel="stylesheet"/>
+  </head>
+  <body>
+
+    <p>
+      [
+      <a href="http://www.kb.se/bibsam/utredn/grund.htm">Se bibsams sidor</a>
+      ||
+      <a href="./TKL_rapport.pdf">Rapporten i pdf</a>
+      ||
+      <a href="./hur_vi_skrev.html">Hur vi skrev rapporten</a>
+      ||
+      <a href="../">2003</a>
+      ]
+    </p>
+
+    <h1 class="title">Teknisk samverkan mellan svenska
+      ämnesportaler - Test och utvärdering av
+      portalprogramvaran TKL</h1>
+
+    <p class="author"><a href="http://www.lub.lu.se/~colm/doyle.html ">Colm Doyle</a>, <a href="http://www.lub.lu.se/~jorgen/eriksson.html ">Jörgen
+	Eriksson</a>,<br/>
+      <a href="http://www.lub.lu.se/~siglun/ ">Sigfrid Lundberg</a> och
+      <a href="http://www.lub.lu.se/~tomas/schonthal.html ">Tomas
+	Schönthal</a><br/>
+      Biblioteksdirektionen<br/>
+      Lunds universitets bibliotek<br/>
+      30/05/2003</p>
+
+    <h2>Innehållsförteckning</h2>
+
+    <ul>
+<li><a href="http://www.lub.lu.se/knowtech/projects/toolkit/TKL_rapport.html#item1">
+Bakgrund</a></li>
+
+<li><a href="http://www.lub.lu.se/knowtech/projects/toolkit/TKL_rapport.html#item2">
+Uppdraget</a> 
+
+<ul>
+<li><a href="http://www.lub.lu.se/knowtech/projects/toolkit/TKL_rapport.html#item3">
+Syfte med projektet</a></li>
+
+<li><a href="http://www.lub.lu.se/knowtech/projects/toolkit/TKL_rapport.html#item4">
+Genomförande</a></li>
+</ul>
+</li>
+
+<li><a href="http://www.lub.lu.se/knowtech/projects/toolkit/TKL_rapport.html#item5">
+Projekt- och referensgrupper</a> 
+
+<ul>
+<li><a href="http://www.lub.lu.se/knowtech/projects/toolkit/TKL_rapport.html#item6">
+Projektgruppen</a></li>
+
+<li><a href="http://www.lub.lu.se/knowtech/projects/toolkit/TKL_rapport.html#item7">
+Referensgrupp 1</a></li>
+
+<li><a href="http://www.lub.lu.se/knowtech/projects/toolkit/TKL_rapport.html#item8">
+Referensgrupp 2 - policy, innehåll och kvalitet</a></li>
+</ul>
+</li>
+
+<li><a href="http://www.lub.lu.se/knowtech/projects/toolkit/TKL_rapport.html#item9">
+Allmän beskrivning av testförloppet</a></li>
+
+<li><a href="http://www.lub.lu.se/knowtech/projects/toolkit/TKL_rapport.html#item10">
+Toolkit Lite</a> 
+
+<ul>
+<li><a href="http://www.lub.lu.se/knowtech/projects/toolkit/TKL_rapport.html#item11">
+Bakgrund</a></li>
+
+<li><a href="http://www.lub.lu.se/knowtech/projects/toolkit/TKL_rapport.html#item12">
+Om programvaran</a></li>
+
+<li><a href="http://www.lub.lu.se/knowtech/projects/toolkit/TKL_rapport.html#item13">
+Vad TKL gör, egentligen</a></li>
+
+<li><a href="http://www.lub.lu.se/knowtech/projects/toolkit/TKL_rapport.html#item14">
+Implementeringar</a></li>
+
+<li><a href="http://www.lub.lu.se/knowtech/projects/toolkit/TKL_rapport.html">
+Sammanfattning</a></li>
+</ul>
+</li>
+
+<li><a href="http://www.lub.lu.se/knowtech/projects/toolkit/TKL_rapport.html#item16">
+Omvärlden - en orientering</a> 
+
+<ul>
+<li><a href="http://www.lub.lu.se/knowtech/projects/toolkit/TKL_rapport.html#item17">
+Portalverktyg - vad har hänt. Nya verktyg.</a></li>
+
+<li><a href="http://www.lub.lu.se/knowtech/projects/toolkit/TKL_rapport.html#item18">
+Kommersiella verktyg</a></li>
+
+<li><a href="http://www.lub.lu.se/knowtech/projects/toolkit/TKL_rapport.html#item19">
+Storbrittanien</a></li>
+
+<li><a href="http://www.lub.lu.se/knowtech/projects/toolkit/TKL_rapport.html#item20">
+Danmark</a></li>
+
+<li><a href="http://www.lub.lu.se/knowtech/projects/toolkit/TKL_rapport.html#item21">
+Norge</a></li>
+
+<li><a href="http://www.lub.lu.se/knowtech/projects/toolkit/TKL_rapport.html#item22">
+Finland</a></li>
+
+<li><a href="http://www.lub.lu.se/knowtech/projects/toolkit/TKL_rapport.html#item23">
+Tyskland</a></li>
+
+<li><a href="http://www.lub.lu.se/knowtech/projects/toolkit/TKL_rapport.html#item24">
+Nederländerna</a></li>
+
+<li><a href="http://www.lub.lu.se/knowtech/projects/toolkit/TKL_rapport.html#item25">
+Renardus</a></li>
+
+<li><a href="http://www.lub.lu.se/knowtech/projects/toolkit/TKL_rapport.html#item26">
+Utbyte av poster mellan tjänster</a></li>
+
+<li><a href="http://www.lub.lu.se/knowtech/projects/toolkit/TKL_rapport.html#item27">
+Sammanfattning</a></li>
+</ul>
+</li>
+
+<li><a href="http://www.lub.lu.se/knowtech/projects/toolkit/TKL_rapport.html#item28">
+Testresultat</a></li>
+
+<li><a href="http://www.lub.lu.se/knowtech/projects/toolkit/TKL_rapport.html#item29">
+A. Innehåll i tjänsten</a> 
+
+<ul>
+<li><a href="http://www.lub.lu.se/knowtech/projects/toolkit/TKL_rapport.html#item30">
+Grundläggande förutsättningar</a></li>
+
+<li><a href="http://www.lub.lu.se/knowtech/projects/toolkit/TKL_rapport.html#item31">
+Testförlopp</a></li>
+
+<li><a href="http://www.lub.lu.se/knowtech/projects/toolkit/TKL_rapport.html#item32">
+Konvertering av Agora</a></li>
+
+<li><a href="http://www.lub.lu.se/knowtech/projects/toolkit/TKL_rapport.html#item33">
+Konvertering av Biogate</a></li>
+
+<li><a href="http://www.lub.lu.se/knowtech/projects/toolkit/TKL_rapport.html#item34">
+Sammanfattning och slutsatser</a></li>
+
+<li><a href="http://www.lub.lu.se/knowtech/projects/toolkit/TKL_rapport.html#item35">
+Export av data</a></li>
+
+<li><a href="http://www.lub.lu.se/knowtech/projects/toolkit/TKL_rapport.html#item36">
+Ämnesrubriker och klassifikation</a></li>
+
+<li><a href="http://www.lub.lu.se/knowtech/projects/toolkit/TKL_rapport.html#item37">
+Metadatamodellen</a></li>
+</ul>
+</li>
+
+<li><a href="http://www.lub.lu.se/knowtech/projects/toolkit/TKL_rapport.html#item38">
+B. Administrativt gränssnitt</a> 
+
+<ul>
+<li><a href="http://www.lub.lu.se/knowtech/projects/toolkit/TKL_rapport.html#item39">
+Grundläggande förutsättningar</a></li>
+
+<li><a href="http://www.lub.lu.se/knowtech/projects/toolkit/TKL_rapport.html#item40">
+Testförlopp</a></li>
+
+<li><a href="http://www.lub.lu.se/knowtech/projects/toolkit/TKL_rapport.html#item41">
+Formulären</a></li>
+
+<li><a href="http://www.lub.lu.se/knowtech/projects/toolkit/TKL_rapport.html#item42">
+Stabilitet</a></li>
+
+<li><a href="http://www.lub.lu.se/knowtech/projects/toolkit/TKL_rapport.html#item43">
+Effektivitet</a></li>
+
+<li><a href="http://www.lub.lu.se/knowtech/projects/toolkit/TKL_rapport.html#item44">
+Pågående utveckling</a></li>
+</ul>
+</li>
+
+<li><a href="http://www.lub.lu.se/knowtech/projects/toolkit/TKL_rapport.html#item45">
+C. Användargränssnitt</a> 
+
+<ul>
+<li><a href="http://www.lub.lu.se/knowtech/projects/toolkit/TKL_rapport.html#item46">
+Testförlopp</a></li>
+
+<li><a href="http://www.lub.lu.se/knowtech/projects/toolkit/TKL_rapport.html#item47">
+Sammanfattning av referensgruppenssynpunkter</a></li>
+
+<li><a href="http://www.lub.lu.se/knowtech/projects/toolkit/TKL_rapport.html#item48">
+Hur ett användargränssnitt i TKL byggs</a></li>
+</ul>
+</li>
+
+<li><a href="http://www.lub.lu.se/knowtech/projects/toolkit/TKL_rapport.html#item49">
+D. Central drift och utveckling</a> 
+
+<ul>
+<li><a href="http://www.lub.lu.se/knowtech/projects/toolkit/TKL_rapport.html#item50">
+Testförlopp</a></li>
+
+<li><a href="http://www.lub.lu.se/knowtech/projects/toolkit/TKL_rapport.html#item51">
+Grundläggande förutsättningar</a></li>
+
+<li><a href="http://www.lub.lu.se/knowtech/projects/toolkit/TKL_rapport.html#item52">
+Val av teknisk arkitektur</a></li>
+</ul>
+</li>
+
+<li><a href="http://www.lub.lu.se/knowtech/projects/toolkit/TKL_rapport.html#item53">
+Slutsatser</a></li>
+
+<li><a href="#item54">Bilaga 1 - Testschema</a> 
+
+<ul>
+<li><a href="http://www.lub.lu.se/knowtech/projects/toolkit/TKL_rapport.html#item54">
+A. Innehåll i tjänsten</a></li>
+
+<li><a href="http://www.lub.lu.se/knowtech/projects/toolkit/TKL_rapport.html#item55">
+B. Administrativa gränssnitt</a></li>
+
+<li><a href="http://www.lub.lu.se/knowtech/projects/toolkit/TKL_rapport.html#item56">
+C. Användargränssnitt</a></li>
+
+<li><a href="http://www.lub.lu.se/knowtech/projects/toolkit/TKL_rapport.html#item57">
+D. Teknisk arkitektur. Vad klarar TKL?</a></li>
+</ul>
+</li>
+
+<li><a href="#item58">Bilaga 2 - Dokumentarkiv</a> 
+
+<ul>
+<li><a href="http://www.lub.lu.se/knowtech/projects/toolkit/TKL_rapport.html#item58">
+Bakgrund</a></li>
+
+<li><a href="http://www.lub.lu.se/knowtech/projects/toolkit/TKL_rapport.html#item59">
+Kriterieunderlag</a></li>
+
+<li><a href="http://www.lub.lu.se/knowtech/projects/toolkit/TKL_rapport.html#item60">
+Testschema</a></li>
+
+<li><a href="http://www.lub.lu.se/knowtech/projects/toolkit/TKL_rapport.html#item61">
+Referensgruppens rapporter</a></li>
+</ul>
+
+<h2 id="item1">Bakgrund</h2>
+
+<p>BIBSAM har under de senaste fem åren lämnat
+ekonomiskt stöd till flertalet ansvarsbibliotek för
+uppbyggnad av s.k. ämnesportaler. Totalt har drygt 8 miljoner
+kronor betalts ut i detta syfte. Arbetet har mestadels skett
+på försöksbasis, och på olika tekniska
+plattformar.</p>
+
+<p>I september 2000 tillsattes en arbetsgrupp med deltagande
+från ansvarsbiblioteken och med uppgift att se över
+möjligheterna till samordning av arbetet med portalerna. I maj
+2001 utfärdade gruppen enhälligt en rekommendation att
+detta arbete i fortsättningen skulle samordnas i en gemensam
+databas, något som ansågs ge klara fördelar i form
+av lägre kostnader för såväl registrering som
+utveckling, samt förenklad samsökning av portalerna.</p>
+
+<p>Kungl biblioteket/BIBSAM presenterade i maj 2002
+förstudierapporten &#8221;Samordning ansvarsbibliotekens
+ämnesportaler. Grov teknisk kravspecifikation.&#8221;, skriven
+av Tomas Friberg, LIBRIS-avdelningen, och Henrik Åslund,
+BIBSAM.<br/>
+ &lt; <a href="http://www.kb.se/bibsam/utredn/amnesportaler.pdf">http://www.kb.se/bibsam/utredn/amnesportaler.pdf</a>
+&gt; I rapporten föreslås bl.a. en utvärdering av
+programvaran DEF Toolkit som används för hantering av
+ämnesportaler inom ramen för Danmarks Elektroniska
+Forskningsbibliotek.</p>
+
+<h2 id="item2">Uppdraget</h2>
+
+<p>Den 4 oktober 2002 beviljades Biblioteksdirektionen vid Lunds
+universitet medel för installation och testdrift av
+nämnda programvara samt deltagande i utvärderingen.</p>
+
+<h3 id="item3">Syfte med projektet</h3>
+
+<p>Att fastställa programvaran DEF Toolkits lämplighet
+för uppbyggnad av de svenska ansvarsbibliotekens gemensamma
+ämnesportal.</p>
+
+<h3 id="item4">Genomförande</h3>
+
+<p>Arbetet har delats in i följande moment:</p>
+
+<ul>
+<li>utarbetande av ett kriterieunderlag som utgör grunden
+för testen. Kriterieunderlaget översattes därefter
+till ett testschema med en översiktlig lista av punkter som
+skulle testas av antingen Lund eller referensgruppen under
+testfasen.</li>
+
+<li>tekniskt förarbete; installation, konfiguration och
+förberedelser för test av programvaran. Dessutom har en
+arkiverad mailinglista satts upp<br/>
+ &lt; <a href="http://www.lub.lu.se/def-ref/">http://www.lub.lu.se/def-ref/</a>
+&gt; och en projektwebbplats skapats<br/>
+ &lt; <a href="http://www.lub.lu.se/knowtech/projects/toolkit/">http://www.lub.lu.se/knowtech/projects/toolkit/</a>
+&gt;. Webbplatsen ger tillgång till all dokumentation och
+testinstallationer.</li>
+
+<li>test; (bedömning av möjligheter till
+förändring av gränssnitt, hantering av flera
+ämnesområden i samma tjänst, olika
+registreringsformulär, import av befintliga data från
+existerande ämnesportaler m.m.)</li>
+
+<li>rapport</li>
+</ul>
+
+<p>Projektet att testa och utvärdera programvaran DEF Toolkit
+Lite (TKL) har pågått sedan slutet av januari 2003.
+Avsikten var från början att utvärdera programvaran
+Toolkit Classic (TKC). I januari meddelades från DEF att
+utvecklingen och anpassningen av TKC avbrutits och inte skulle
+gå vidare på grund av att leverantören av TKC
+bedömdes att inte kunna uppfylla sina åtaganden. I
+stället valde DEF att ytterligare vidareutveckla TKL.
+Projektgruppen för DEF Toolkit-projektet beslöt då
+att gå vidare med en utvärdering av enbart TKL.</p>
+
+<h2 id="item5">Projekt- och referensgrupper</h2>
+
+<h3 id="item6">Projektgruppen</h3>
+
+<p>Teknisk förberedelse och test av programvaran
+genomfördes i Lund av en grupp bestående av Colm Doyle,
+Jörgen Eriksson, Sigfrid Lundberg och Tomas Schönthal.
+Arbetet har följts av regelbundna möten med
+projektgruppen som består av följande representanter
+från Lund, Bibsam och Libris.</p>
+
+<ul>
+<li>Colm Doyle (LUB)</li>
+
+<li>Karl Isaksson (Bibsam)</li>
+
+<li>Ulla-Britt Nordin Siebolds (Bibsam)</li>
+
+<li>Kristin Olofsson (Libris)</li>
+</ul>
+
+<h3 id="item7">Referensgrupp 1</h3>
+
+<p>Förutom projektgruppen beslöt man att knyta en
+referensgrupp bestående av representanter för
+ansvarsbiblioteken till projektet. Syftet har varit att ge
+deltagarna möjlighet till att testa programvaran och att ge
+synpunkter utifrån &quot;sitt&quot; ansvarsbiblioteks synvinkel.
+Huvudparten av deltagarna i referensgruppen har anknytning till de
+ämnesportaler som har byggts inom det svenska
+ansvarsbibliotekssystemet. De har finansierats av Bibsam inom ramen
+för uppgiften att sammanställa systematiska
+ingångar till kvalitetsbedömda informationsresurser
+på Internet/WWW. Samtliga anvarsbibliotek erbjöds att
+delta. Undantaget i referensgruppen är Malmö
+högskola som har fått medel från Bibsam för
+att utvecka sin &#8221;Länksamling för pedagoger&#8221;
+som i nuläget är uppbyggd med statiska html-sidor till en
+ämnesportal.</p>
+
+<p>I referensgrupp 1 deltar följande:</p>
+
+<ul>
+<li>Maria Cederblad: (Malmö Högskola) - Länksamling
+för pedagoger</li>
+</ul>
+
+<ul>
+<li>Ann-Sofi Cullhed (Uppsala UB) - Agora &lt; <a href="http://agora.ub.uu.se/">http://agora.ub.uu.se/</a> &gt;</li>
+</ul>
+
+<ul>
+<li>Ylva Gavel, (Karolinska institutets universitetsbibliotek),
+Diseases, Disorders and Related Topics, Biomedical Information
+Resources<br/>
+ &lt; <a href="http://www.mic.ki.se/Diseases/index.html">http://www.mic.ki.se/Diseases/index.html</a>
+&gt;<br/>
+&lt; <a href="http://www.mic.ki.se/Other.htm">http://www.mic.ki.se/Other.htm</a>
+&gt;</li>
+</ul>
+
+<ul>
+<li>Kjell Jansson (Kungl Tekniska högskolans bibliotek), - fd.
+EELS</li>
+</ul>
+
+<ul>
+<li>Åse Paulsson (Biologibiblioteket, Lund) - Biogate &lt; <a href="http://biogate.lub.lu.se/">http://biogate.lub.lu.se/</a>
+&gt;</li>
+</ul>
+
+<ul>
+<li>Alexandra Machol Ravnskov (Stockholms UB), -
+Rättskällan<br/>
+&lt; <a href="http://www.sub.su.se/rattskallan/home.asp">http://www.sub.su.se/rattskallan/home.asp</a>
+&gt;</li>
+</ul>
+
+<ul>
+<li>Gullbritt Åhman (Göteborgs UB)- Samweb &lt; <a href="http://www.ub.gu.se/samwebb/">http://www.ub.gu.se/samwebb/</a>
+&gt;</li>
+</ul>
+
+<ul>
+<li>Per Åkerlund (Sveriges lantbruksuniversitets bibliotek) -
+NOVAgate<br/>
+&lt; <a href="http://novagate.nova-university.org/nova.html">http://novagate.nova-university.org/nova.html</a>
+&gt;</li>
+</ul>
+
+<h3 id="item8">Referensgrupp 2 - policy, innehåll och
+kvalitet</h3>
+
+<p>Projektgruppen samt referensgrupp 1, som redan bildats för
+utvärderingen av TKC och TKL, fick i uppgift att
+sammanställa en teknisk kravspecifikation. Det finns en rad
+frågor som det var viktigt att särskilja från den
+tekniska utvärderingen, men som likväl måste
+undersökas närmare. I Friberg och Åslunds rapport
+föreslogs det att titta på frågor såsom</p>
+
+<ul>
+<li>Samordning av kvalitetskriterier, metadataprofiler</li>
+
+<li>Definition av den övergripande ämnesstrukturen</li>
+
+<li>Insamling och sammanställning av ansvarsbibliotekens
+ämnesrubriker</li>
+
+<li>Definiera mappningar mellan rubriker</li>
+
+<li>Insamling och sammanställning av existerande mappningar
+mellan engelska och svenska</li>
+
+<li>Rubriker</li>
+
+<li>Klarlägga vilka möjligheter och vilka behov som finns
+av att översätta och mappa</li>
+
+<li>Ämnesingångar som enbart har engelska rubriker</li>
+</ul>
+
+<p>Därför tillsattes Referensgrupp 2 med uppdraget att
+föreslå lösningar på de &#8221;mjuka&#8221;
+frågorna.</p>
+
+<p>Det övergripande syftet är samma för båda
+grupperna, dvs att fastställa programvaran DEF Toolkits
+lämplighet vad avser en gemensam databas för de svenska
+ansvarsbibliotekens ämnesportaler. Syftet för grupp 2
+är att undersöka de generella koordineringsbehov för
+en gemensam svensk ämnesportal som finns och att lämna
+förslag på hur de bäst löses. Uppdraget
+utgår från BIBSAM. Gruppen består av Gullbritt
+Åhman, GUB (sammankallande), Inga Nyman, SUB och Lena
+Åkerbäck Ågren, UUB.</p>
+
+<p>Referensgrupp 1 skall lämna en rapport om den tekniska
+utvärderingen den 31 maj 2003. Det är tänkt att
+Referensgrupp 2 ska kunna lämna ett policydokument innan
+midsommar. Styrgruppen för DEF Toolkit-projektet har sedan att
+besluta om DEF Toolkit Lite kan användas för en gemensam
+svensk ämnesportal för de ingående
+ansvarsbiblioteken. Beslutar styrgruppen att gå vidare med
+TKL fortsätter Referensgrupp 2 sitt arbete under hösten
+2003 med målet att TKL kan implementeras och tas i drift i
+början av 2004.</p>
+
+<h2 id="item9">Allmän beskrivning av testförloppet</h2>
+
+<p>Testet delades upp i två områden.</p>
+
+<p>a) LUB skulle testa och bedöma generella krav som t ex
+serverarkitektur, möjligheter till förändring av
+gränssnitt, hantering av flera ämnesområden i samma
+tjänst, olika registreringsformulär, import av befintlig
+data från existerande ämnesportaler m.m.</p>
+
+<p>b) Referensgruppen testade verktyget utifrån ett
+testschema baserat på kriterieunderlagets
+sammanställning.</p>
+
+<p>Testfasen började med ett möte för
+referensgruppen i Lund 05/03 där vi gick igenom programvaran
+och testschemat. Under mötet fick alla i referensgruppen
+tillgång till var sin &quot;portal&quot; att arbeta med. Testet
+pågick till vecka 15. Kompletterande tester fortsatte 14-25
+april. Under testfasen fördes det en aktiv diskussion om
+verktyget dess begränsningar och möjligheter på
+DEF-REF mailinglistan. Diskussionen är arkiverad och finns
+tillgänglig på &lt; <a href="http://www.lub.lu.se/def-ref/">http://www.lub.lu.se/def-ref/</a>
+&gt;</p>
+
+<p>Efter referengruppsmötet kom det fram att det fanns behov
+av en kortfattad manual eller lathund för att underlätta
+för referensgruppen att sätta sig in i systemet. I detta
+syfte skapades följande dokument som är tillgängligt
+i dokumentarkivet<br/>
+ &lt; <a href="http://www.lub.lu.se/knowtech/projects/toolkit/dokument.html">
+http://www.lub.lu.se/knowtech/projects/toolkit/dokument.html</a>
+&gt;</p>
+
+<ul>
+<li>&quot;Administration av TKL&quot;</li>
+
+<li>&quot;Att skapa, editera och makulera poster&quot;</li>
+</ul>
+
+<p>Själva testschemat var indelat i fyra områden</p>
+
+<ul>
+<li>A. Innehåll i tjänsten</li>
+
+<li>B. Gränssnitt</li>
+
+<li>C. Användargränssnitt</li>
+
+<li>D. Central drift och utveckling</li>
+</ul>
+
+<p>där specifika krav och önskmål var numererade.
+Anledning till detta var att få ett överskådligt
+sätt att arbeta med och presentera svaren till listan
+över krav och önskemål för ett gemensam svensk
+ämnesportal. Målsättningen var att testa praktiskt
+eller göra en bedömning av hur TKL lever upp till var och
+en av punkterna. Kraven och önskemålen skulle testas
+på olika sätt beroende på deras natur. I vissa
+fall handlade det om att testa programvarans egenskaper eller
+bakomliggande strukturer medan det i andra fall handade om
+funktionalitetstester som genomfördes av referensgruppen.</p>
+
+<p>Samtliga representanter fick en TKL med administrativt och
+användargränssnitt att arbeta med. Testportalerna är
+tillgängliga från följande URL.<br/>
+ &lt; <a href="http://www.lub.lu.se/knowtech/projects/toolkit/testportaler.html">
+http://www.lub.lu.se/knowtech/projects/toolkit/testportaler.html</a>
+&gt;. Vi delade upp oss i tre grupper</p>
+
+<ul>
+<li>Testgrupp 1 = A=AGORA, B=Biogate,</li>
+
+<li>Testgrupp 2 = S=SAMWEBB, SU=SUB, K=KIB, E=EELS; N=Novagate,
+MAH,</li>
+
+<li>Testgrupp 3 = Lund</li>
+</ul>
+
+<p>Testgrupp 1 fick ett administrativt gränssnitt som
+innehöll poster från deras egna ämnesportaler.
+Anledning till detta var att bedöma möjligheten att
+importera poster från befintliga system, i detta fall
+från SQL och ROADS-baserade tjänster. Vi tittade
+även på möjligheten att importera resurser
+från statiska html länksamlingar. Målet var
+även att testa import av länkar från KIBs
+länksamling. Efter diskussion och undersökning kom vi
+fram till att det pga av tjänstens uppbyggnad vilket
+tillsammans med kopplingen till MESH skulle vara för
+resurskrävande att få fram en motsvarande TKL portal
+under testfasen. Resultatet av importen var att Grupp 1 fick en
+förbättrad möjlighet att jämföra TKL med
+sin egen befintliga programkvara, med egna poster i TKL. De fick
+därmed testa andra uppgifter än grupp 2.</p>
+
+<p>Testgrupp 2 fick ett mer eller mindre tomt skal nära TKLs
+default att arbeta med och hade möjlighet att testa portalens
+grundfunktionalitet.</p>
+
+<p>Under testförloppet höll vi regelbunden kontakt med
+Indexdata, det danska företaget bakom programvaran. Detta
+gjordes bla genom att bevaka TKL-utvecklingsmailinglista men
+även genom specifika diskussioner och frågor när
+något dök upp under ämnesportalens eller våra
+egna tester. Vi blev tidigt medvetna om att TKL-programvaran var
+under snabb utveckling pga de krav och önskemål som de
+danska ämnesportalerna och den centrala Def-redaktionen
+ställde på systemet. En ny version skulle släppas
+under våren men datum för släppet var oklart. Under
+hela testförloppet och en tid därefter var vi beredda att
+ersätta vår testversion med den nya för att se om
+en del av de brister som vi upptäckte blivit lösta. Den
+nya versionen av det administrativa gränssnittet släpptes
+till sist mitt i rapportskrivandet, men vi har försökt
+att undersöka om något har hänt som påverkar
+slutsatserna från testen.</p>
+
+<h2 id="item10">Toolkit Lite</h2>
+
+<h3 id="item11">Bakgrund</h3>
+
+<p>Det ursprungliga förslaget från rapporten &quot;Samordning
+av ansvarsbibliotekens ämnesportaler. Grov teknisk
+kravspecifikation&quot; var att testa Def Toolkit. I början av
+uppdraget uppmärksammades att det fanns två parallella
+utvecklingar som med viss rätt kunde kallas för Def
+Toolkit, nämligen Toolkit Classic (TC) och Toolkit Lite (TKL).
+Toolkit Classic var tänkt att ersätta och fullfölja
+utvecklingen av det verktyg som används i DEFs fagportaler.
+TKL skulle bli ett mera basalt alternativ för den som inte
+behövde alla de finesser som TC var tänkt att
+innehålla. Utvecklingen av Toolkit Classic avbröts
+på ett mycket sent stadium (i januari 2003) och då
+beslutade DEF att i stället finansiera en vidareutveckling av
+Toolkit Lite (TKL)så pass att det skulle kunna användas
+av de existerande fagportalerna. Den utvecklingen pågår
+nu under våren 2003. Tanken är att de danska
+ämnesportalerna i DEF samarbetet skall kunna gå
+över TKL som portalverktyg under 2003.</p>
+
+<h3 id="item12">Om programvaran</h3>
+
+<p>TKL (&quot;Toolkit Lite&quot;) &lt; <a href="http://www.indexdata.dk/tkl/">http://www.indexdata.dk/tkl/</a>
+&gt; är ett mjukvarusystem för att driva
+informationsportaler och andra webbplatser. Enligt Indexdatas
+beskrivning kan det användas (förutom ämnesportaler)
+även för organisations- eller personliga hemsidor, dvs
+ett slags Content Management System. Med TKL leveras en
+&quot;grundportal&quot;, där kan det rymmas en hierarkisk organiserad
+samling metadata och länkar till externa resurser, men som
+även kan presentera annat eget innehåll; artikler,
+nyheter, mm. TKL är baserat på öppna standarder.
+TKL-dokument/resurser lagras i XML och presenteras via
+XSLT-baserade stylesheets. Mjukvaran ska stödja XML schema,
+SOAP och Z39.50 inom kort.</p>
+
+<p>Alla de programvaror som används i TKL är
+<strong>portabla</strong> i den mening att de fungerar under flera
+olika operativsystem. Det vill säga
+programmeringsspråket PHP, XSLT-processorn Sablotron,
+XML-programvarorna expat och XML-Lib och sökmaskinen Zebra
+fungerar alla under olika smakriktningar av Windows NT, Unix och
+Linux och tillsammans med en webbservrar av olika märken.
+Däremot är TKL självt bäst testad under olika
+varianter av Linux och alla av oss kända installationer
+kör under webbservern Apache.</p>
+
+<h3 id="item13">Vad TKL gör, egentligen</h3>
+
+<p>TKL bygger på en lika enkel som god idé. En
+webbsajt, ämnesportal eller vad som, har en viss
+uppsättning med dokument av olika typ att leverera till dess
+användare. Alla filer som skall levereras av TKL ges
+fil-suffixet .tkl. Webbservern, normalt Apache (se ovan)
+konfigureras så att filer med detta suffix passerar genom ett
+program som heter shell.php. Detta program har en rad olika
+uppgifter, men den viktigaste är att välja en
+XML-stilmall (skriven i XSLT) som passar ihop med dokumentet. Ett
+axplock av dokumenttyper som är standard i TKL är</p>
+
+<table border="1">
+<tbody>
+<tr>
+<th>Dokumenttyp</th>
+<th>funktion</th>
+</tr>
+
+<tr>
+<td>link</td>
+<td>metadata för en resurs</td>
+</tr>
+
+<tr>
+<td>news</td>
+<td>nyhetsblänkare</td>
+</tr>
+
+<tr>
+<td>article</td>
+<td>längre text (på prosa)</td>
+</tr>
+
+<tr>
+<td>subject</td>
+<td>en ämneskategori</td>
+</tr>
+
+<tr>
+<td>search</td>
+<td>En sökning i portalen</td>
+</tr>
+
+<tr>
+<td>soap</td>
+<td>En &quot;XML-baserad&quot; sökning i en soap-databas</td>
+</tr>
+
+<tr>
+<td>portal</td>
+<td>En portals toppsida</td>
+</tr>
+</tbody>
+</table>
+
+<p>Var och en av dessa dokumenttyper knyts till XML-stilmallar, och
+all väsentlig konfigurering och programmering görs
+följaktligen i XSLT. Även sökningar. För att,
+till exempel, möjliggöra access till en Z39.50-databas
+finns ett antal nya funktioner i XSLT definierade i TKL i form av
+särskilda länkar (URLar) vilka sedan hanteras av
+shell.php.</p>
+
+<p>Stilmallen som hör samman med ett dokument av typen
+'subject' utnyttjar en funktion som ger alla länkar till
+underordnade ämneskategorier, och en annan funktion för
+att få tillgång till alla 'link'-dokument som hör
+samman med den aktuella ämneskategorin.</p>
+
+<p>Genom att man kan skapa nya dokumenttyper med en särskild
+schema-editor blir systemet mycket flexibelt. När planerade
+förbättringar som uppladdning av filer och ett system
+för redigering av stilmallar blivit förverkligade är
+TKL i allt väsentligt ett Content Management System.</p>
+
+<h3 id="item14">Implementeringar</h3>
+
+<p>Under senaste halvåret har flera implementeringar av TKL
+igångsatts. Listan kommer med all sannolikhet att öka
+under det närmaste halvåret när flera av de danska
+ämnesportalerna i DEF samarbetet ersätter sina befintliga
+portalverktyg med TKL. Följande är en lista av befintliga
+tjänster som använder eller för tillfället
+utvecklar tjänsten mha TKL:</p>
+
+<ol>
+<li>Def Portalen &lt; <a href="http://www.deff.dk/">http://www.deff.dk/</a> &gt;</li>
+
+<li>Aalborg Universitet - Tidskriftvejviser &lt; <a href="http://portaler.aub.auc.dk/journals/">http://portaler.aub.auc.dk/journals/</a>
+&gt;</li>
+
+<li>DOAJ (LUB) &lt; <a href="http://www.doaj.org/">http://www.doaj.org/</a> &gt;</li>
+
+<li>University of North Texas (Portal om Texas historia, bara
+påbörjad)</li>
+
+<li>Material.dk &lt; <a href="http://materials.dk/">http://materials.dk/</a> &gt;</li>
+
+<li>Svenskt Resurscentrum för Vetenskaplig Kommunikation
+ScieCom.org<br/>
+ &lt; <a href="http://www.sciecom.org/">http://www.sciecom.org/</a>
+&gt;. Betaversionen ligger på &lt; <a href="http://sciecom.lub.lu.se/">http://sciecom.lub.lu.se/</a> &gt;
+(Släpps inom kort)</li>
+</ol>
+
+<h3 id="item15">Sammanfattning</h3>
+
+<p>TKL är under snabb utveckling och därmed har det varit
+vanskligt att göra en utvärdering av en ganska tidig
+version av programvaran. Det finns tydliga nackdelar och buggar i
+produkten som vi återkommer till i följande kapitel men
+vi vill passa på att nämna några generella
+kommentarer utöver de tekniska.</p>
+
+<p>Redan nu kan vi konstatera att TKL ser ut att ha en relativt
+trygg framtid. Den är nära kopplad till den nationella
+utvecklingen av ämnesportaler i Danmark. Programvaran har
+skapats i synnerhet för ämnesportaler och används
+redan idag av flera ämnesportaler eller liknande
+tjänster. Indexdata är ett känt företag som
+genom åren levererat flera bra produkter. Ett samarbete
+mellan danska och svenska nationella lösningar omkring
+koordination av utveckling av TKL är väl inte en
+omöjlighet att tänka sig. Sett ur en svensk
+ämnesportals perspektiv krävs dock en hel del utveckling
+och överenskommelser för att komma dit hän.</p>
+
+<h2 id="item16">Omvärlden - en orientering</h2>
+
+<p>Trenden vad gäller ämnesportaler är som vi
+uppfattar den på väg mot förenkling vad gäller
+det manuella arbetet och integration i den meningen att
+länksamlingen är en mer eller mindre integrerad del i en
+portal som också erbjuder andra tjänster. En av
+orsakerna är de förbättringar som de allmänna
+robotgenererade söktjänsterna på Internet har
+genomgått vad gäller sökgränssnitt och
+rankningsalgoritmer (Google!) vilket gör att behovet inte
+känns lika angeläget. En annan är den relativt
+höga kostnaden för att manuellt bygga upp en
+ämnesportal, vilket tillsammans med bristen på
+användarundersökningar som visar på att nyttan
+verkligen uppväger kostnaden har gjort att den manuellt
+skapade ämnesportalen med rik metadata allt oftare
+ifrågasätts. Ett löfte som inte heller har
+förverkligats är de möjligheter till
+arbetsfördelning och samordning på internationell
+nivå som de tidiga visionärerna drömde om.
+Renardus, som är det störst anlagda försöket i
+den riktningen har nu efter projektfinansieringens slut mycket
+svårt att hitta någon huvudman som är beredd att
+finansiera det gemensamma goda. Försök görs
+också med att skapa hybrider mellan manuellt uppbyggda och
+robotgenererade ämnesportaler för att få lägre
+kostnader som tillåter långsiktig drift men
+ändå samtidigt behåller delar av
+kvalitetsurvalsmodellen. Den nya versionen av EELS är ett
+sådant exempel liksom den danska DEF-portalen
+Material.dk.</p>
+
+<h3 id="item17">Portalverktyg - vad har hänt. Nya
+verktyg.</h3>
+
+<p>Fram till år 2002 var ROADS den enda tillgängliga
+programvaran specifikt designad för att bygga
+ämnesportaler. Detta har ändrat sig från 2002 och
+nu finns det några alternativ vid sidan av TKL
+tillgängliga som open source. Vi kommer att lista dem
+här. Vi har inte haft tid inom ramen för den här
+utvärderingen att testa dem.</p>
+
+<ol>
+<li>Scout Portal Toolkit &lt; <a href="http://scout.wisc.edu/research/SPT/download.html">http://scout.wisc.edu/research/SPT/download.html</a>
+&gt; SPT har utvecklats av Internet Scout Project med stöd
+från Andrew Mellon Foundation och sägs vara en
+nyckelfärdig lösning för att bygga internetportaler.
+En presentation av programvaran finns på<br/>
+ &lt; <a href="http://www.dlib.org/dlib/november02/almasy/11almasy.html">http://www.dlib.org/dlib/november02/almasy/11almasy.html</a>
+&gt;</li>
+
+<li>iVia &lt; <a href="http://infomine.ucr.edu/iVia/">http://infomine.ucr.edu/iVia/</a>
+&gt; iVia har utvecklats i anslutning till University of
+Californias Infomine och understödjer både manuellt
+skapande av metadata och roborgenererade index. En presentation av
+iVia finns på<br/>
+ &lt; <a href="http://www.dlib.org/dlib/january03/mitchell/01mitchell.html">http://www.dlib.org/dlib/january03/mitchell/01mitchell.html</a>
+&gt;</li>
+</ol>
+
+<h3 id="item18">Kommersiella verktyg</h3>
+
+<p>Vad gäller komersiella verktyg hänvisar vi till
+genomgången som gjordes i Friberg och Åslunds rapport
+Samordning av ansvarsbibliotekens ämnesportaler.<br/>
+ &lt; <a href="http://www.kb.se/bibsam/utredn/amnesportaler.pdf">http://www.kb.se/bibsam/utredn/amnesportaler.pdf</a>
+&gt;</p>
+
+<p>Det stämmer att produkter som Metalib mm. innehåller
+intressanta funktionaliteter i närliggande områden men
+vi kan konstatera att slutsatsen gäller även idag att
+ingen av de kommersiella lösningar motsvarar de specifika
+behov som behövs för utvecklandet av en gemensam portal
+för ansvarsbiblioteken.</p>
+
+<h3>Ämnesportaler internationellt - exempel på
+uppbyggnad av broker-lösningar</h3>
+
+<p>Här följer en mycket kortfattad genomgång av hur
+olika länder/tjänster har hanterat samordning av
+ämnesportaler.</p>
+
+<h3 id="item19">Storbrittanien</h3>
+
+<p>Storbrittanien satsade tidigt på att bygga upp
+ämnesportaler som ett av projektområdena inom
+elib-programmet. Inom ramen för samma projektområde
+utvecklade man också portalprogramvaran ROADS som länge
+var det enda fritt tillgängliga programmet för
+ämnesportaler. I en andra fas har man utvecklat en
+samsöknings- och koordinationstjänst, Resource Discovery
+Network (RDN). Utvecklingen av ämnesportalerna och den
+centrala tjänsten har finansierats av Joint Information
+Systems Committee (JISC). RDN &lt; <a href="http://www.rdn.ac.uk/">http://www.rdn.ac.uk/</a> &gt;</p>
+
+<p>Målgupp: primärt internetanvändare inom
+högre utbildning och forskning. Bläddring: RDN
+består av en mycket grund bläddringsstruktur som
+länkar till de delagande ämnesportalernas
+bläddringshierarkier. Om man klickar på länken
+Business i RDN så hamnar man i den avdelningen inom Social
+Sciences Information Gateway (SOSIG), om man väljer
+Engineering så hamnar man i EEVL. Man har alltså valt
+att inte skapa ett gemensamt klassifikationssystem eller ett
+gemensamt användargränssnitt för bläddring.
+Sökning: De enskilda ämnesportalerna kan samsökas i
+en enkel sökruta från RDN. RDN använde
+ursprungligen Z39.50 för att åstadkomma
+samsökningen, men har nu övergått till att
+använda OAI-MHP för att skörda data från
+ämnesportalerna till en gemensam databas. Databasen är i
+sin tur möjlig att skörda med OAI-MHP eller samsöka
+med z39.50. För mera information om teknologin se artikel av
+Peter Cliff: Building Resource Finder, Ariadne issue 30<br/>
+ &lt; <a href="http://www.ariadne.ac.uk/issue30/rdn-oai/">http://www.ariadne.ac.uk/issue30/rdn-oai/</a>
+&gt;.</p>
+
+<p>Portalprogramvara: De enskilda ämnesportalerna
+använder ROADS eller olika hemmautvecklade program för
+sina portaler. ROADS slutade utvecklas och underhållas
+centralt i slutet av 90-talet så även de ROADS-baserade
+tjänster har gjort ganska mycket egenutveckling.</p>
+
+<h3 id="item20">Danmark</h3>
+
+<p>I Danmark har det byggts fagportaler inom ramen för
+DEF-projektet 1999-2002. De enskilda fagportalerna är
+självständiga i förhållande till huvudportalen
+men måste uppfylla vissa interoperabilitetskrav vad
+gäller metadata och teknik.</p>
+
+<p>Den gemensamma ingången finns på &lt; <a href="http://www.deff.dk/">http://www.deff.dk/</a> &gt;.
+Målgupp: primärt internetanvändare inom högre
+utbildning och forskning Bläddring: Man har ingen gemensam
+bläddring utan fagportalerna hittas bland andra resurser under
+repektive ämne under länken &quot;Faglige links&quot;.
+Sökning: Det finns samsökning som bygger på Z39.50.
+Ett sökgränssnitt där man kan välja att
+samsöka mellan grupper av tjänster; DEF fagportaler,
+Andre Fagportaler och Generelle faglige links (den gemensamma
+portalens länksamling). Möjligheten &quot;Avancerad
+sökning&quot; &lt; <a href="http://soeg.deff.dk/?page=search&amp;grp=all">http://soeg.deff.dk/?page=search&amp;grp=all</a>
+&gt; innebär att de enskilda portalerna är grupperade
+efter ämne och man har möjlighet att göra en egen
+kombination av ämnesportaler, både DEF-portaler och
+andra (I dagsläget främst RDN-portaler).</p>
+
+<p>Portalprogramvara: Inom ramen för projektet använde
+samtliga fagportaler en vidareutveckling av DTVs Internet Pointer
+Guide (IPG). Allteftersom nya krav på funktionalitet
+ställdes under projektets gång bedömde man att
+gränsen för att lappa och bygga på IPG var
+nådd och beslöt att under 2002 utveckla en ny
+programvara (Toolkit Classic) baserat på de samlade
+funktionalitetskraven som kommit fram under projektets gång.
+Samtidigt initierade man en utveckling av en enklare variant,
+Toolkit Lite (TKL). Utvecklingen av Toolkit Classic försenades
+och i januari 2003 beslöt DEF-projektets ledning att
+lägga ner utvecklingen. I stället satsar DEF på en
+utökning av TKLs funktionaliteter bl. a. med stöd
+för Z39.50 och harvesting i första omgången. Status
+är att alla fagportalerna utom Materials.dk fortfarande
+använder den gamla programvaran i väntan på den nya
+versionen av TKL. Materials.dk som bygger på robotinsamling
+av resurser med automatklassificering använde sig av TKL
+från början. &lt; <a href="http://www.deflink.dk/">http://www.deflink.dk/</a> &gt;</p>
+
+<h3 id="item21">Norge</h3>
+
+<p>Bibsys emneportal &lt; <a href="http://sgate.bibsys.no/cgi-bin/ep">http://sgate.bibsys.no/cgi-bin/ep</a>
+&gt; Målgrupp: studenter och anställda inom universitet
+och högskolor. Norge valde från början en
+centraliserad lösning. År 2000 sattes under BIBSYS
+ledning upp en ämnesportal där universitets- och
+högskolebiblioteken gemensamt registrerar resurser. Det finns
+27 &quot;fagredaktioner&quot; med medlemmar från de flesta
+BIBSYS-bibliotek och en redaktionsgrupp med överordnat ansvar
+för tjänsten. BIBSYS står för driften.
+Portalen täcker alla ämnen. Programvara som används
+är en modifierad variant av ROADS. Mera om BIBSYS emneportal
+&lt; <a href="http://www.bibsys.no/roads/">http://www.bibsys.no/roads/</a>
+&gt;</p>
+
+<h3 id="item22">Finland</h3>
+
+<p>Finnish Virtual Library (FVL) &lt; <a href="http://www.jyu.fi/library/virtuaalikirjasto/engvirli.htm">http://www.jyu.fi/library/virtuaalikirjasto/engvirli.htm</a>
+&gt; Målgrupp: Finska forskare FVL består av
+något över 60 ämnesingångar som
+underhålls av 18 finska universitets- och
+högskolebibliotek. Man har gemensamma urvalskriterier. I
+övrigt består samordningen av en ingångssida med
+länkar till de enskilda ämnessamlingarna, en enkel
+samsökning som inte täcker riktigt alla
+ämnesingångarna, gemensam hjälp och
+användarfeedback. Programvara som används är
+framför allt ROADS. Ett bibliotek använder sig av TRIP
+Highway och några samlingar är uppbyggda som
+länklistor i HTML.</p>
+
+<h3 id="item23">Tyskland</h3>
+
+<p>Die Virtuelle Fachbibliothek &lt; <a href="http://www.virtuellefachbibliothek.de/">http://www.virtuellefachbibliothek.de/</a>
+&gt; Der Deutschen Forschungsgemeinschaft (DFG) finansierar
+uppbyggnaden av en gemensam portal och de ämnesspecifika
+tjänsterna. De sistnämnda byggs upp av
+forskningsbibliotek runt om i landet. UB/TiB<a href="http://early-drafts.lub.lu.se/def-test/wiki.cgi?action=edit&amp;id=Orientering/TiB">
+?</a> koordinerar projektet och man samarbetar bland annat med
+META-LIB, ett metadata-projekt för samordning av metadata inom
+tyska bibliotek. Den gemensamma portalen länkar till de
+enskilda ämnesportalerna och man planerar att införa
+någon form av samsökning i framtiden.</p>
+
+<h3 id="item24">Nederländerna</h3>
+
+<p>Duchess &lt; <a href="http://www.kb.nl/dutchess/index.html">http://www.kb.nl/dutchess/index.html</a>
+&gt; Den nederländska ämnesportalen är uppbyggd
+efter en centralistisk modell med en gemensam portal som
+täcker alla ämnen. Duchess utvecklades av Koninklijke
+Bibliotheek. Efter utvecklingsfasen har flera universitetsbibliotek
+engagerat sig i uppbyggnaden och man har formaliserat samarbetet.
+Dutchess använder sig av ROADS som portalprogramvara.</p>
+
+<h3 id="item25">Renardus</h3>
+
+<p>Renardus &lt; <a href="http://www.renardus.org/">http://www.renardus.org/</a> &gt;
+Inom EU-projektet Renardus utvecklades en broker-lösning
+för ett större antal europeiska ämnesportaler.
+Samsökningen bygger på Z39.50. Mera intressant är
+att man har utvecklat sambrowsing genom att mappa de olika
+portalernas klassifikationssystem mot DDC. Inom ramen för den
+delen av projektet har metodologi för konsistent mappning
+tagits fram liksom verktyg för att understödja
+mappningsarbetet. Renardus framtid efter projekttiden är
+osäker, PICA/OCLC har visat intresse för att finansiera
+tjänsten men ingenting är klart.</p>
+
+<h3 id="item26">Utbyte av poster mellan tjänster</h3>
+
+<p>Eftersom det finns önskemål om utbyte av poster
+mellan ämnesportalerna har vi också som hastigast tittat
+på den frågan i förhållande till de ovan
+beskrivna tjänsterna. Ingen av dem har någon
+modell/system för utbyte av poster. Frågan var
+föremål för en WP i Renardus och SUB-Göttingen
+tog fram en rudimentär programvara och det skrevs en rapport i
+ämnet. Behovet av utbyte av poster visade sig vara lågt
+liksom överlappningen mellan tjänsterna.</p>
+
+<h3 id="item27">Sammanfattning</h3>
+
+<p>En slutsats man kan dra av denna (ytliga) genomgång
+är att de länder/tjänster som har utvecklat
+decentraliserade system har begränsat samsökning i de
+gemensamma portalerna till i de flesta fall enkel sökning.
+Där använder man sig av oftast av Z39.50 och i ett fall
+av OAI-MHP. Egentlig sambläddring förekommer inte i
+någon av tjänsterna. I stället sorterar man de
+deltagande tjänsterna efter en grov ämnesindelning och
+länkar sedan till de enskilda ämnesportalerna.</p>
+
+<p>En annan slutsats är att trots flera initiativ till
+koordinering, samsökning mm. finns ingen given lösning
+varken vad gäller programvara för den enskilda portalen
+eller för nationell/ämneskoordinering av tjänster.
+Sverige kan mycket väl delta i ett Renardus samarbete och
+enskilda svenska portaler kan öka samarbete med liknande
+tjänster i andra länder men det finns dock ingen &quot;killer
+application&quot; som enkelt löser de &quot;mjuka&quot; samt tekniska
+problemen på vägen dit. Oberoende på vilken
+teknisk lösning som väljs måste mål och
+överenskommelser vara på plats och teknisk utveckling
+ske. Budskapet är dock tydligt från en analys av
+förutsättningar i andra europeiska länder - utan en
+medveteten långsiktig och strategisk koordinering,
+integrering och nära samarbete är
+förutsättningen för att driva ämnesportaler
+på lång sikt minimal.</p>
+
+<h2 id="item28">Testresultat</h2>
+
+<p>I det följande presenterar vi slutsatser från de
+tester som har utförts. Uppdelningen var som följer</p>
+
+<ul>
+<li>LUB testade generella krav som t ex severarkitektur,
+möjligheter till förändring av gränssnitt,
+hantering av flera ämnesområden i samma tjänst,
+olika registreringsformulär, import av befintlig data
+från existerande ämnesportaler m.m.</li>
+
+<li>Referensgruppen testade verktyget utifrån ett testschema
+baserat på kriterieunderlagets sammanställning.</li>
+</ul>
+
+<p>Schemat är indelat i fyra områden</p>
+
+<ul>
+<li><a href="#item29">A</a> Innehåll i tjänsten</li>
+
+<li><a href="#item38">B</a> Gränssnitt</li>
+
+<li><a href="#item45">C</a> Användargränssnitt</li>
+
+<li><a href="#item49">D</a> Central drift och utveckling</li>
+</ul>
+
+<p>För samtliga områden förs en diskussion och ges
+sammanfattande slutsatser som bygger på resultaten som
+presenterats i testschemat. Dessutom har vi lagt korta kommentarer
+i <a href="#item54">Bilaga 1 - Testschema</a> samt svarat ja eller
+nej till hurvida TKL tillfredsställer de krav och
+önskemål som formulerades i testschemat.</p>
+
+<h2 id="item29">A. Innehåll i tjänsten</h2>
+
+<h3 id="item30">Grundläggande förutsättningar</h3>
+
+<p>Vi utgår från några av de befintliga
+ämnesportalerna med existerande metadata och
+klassifikationssystem/ämnesstrukturer.</p>
+
+<h3 id="item31">Testförlopp</h3>
+
+<p>Mål för testet var att identifiera de
+begränsningar och klargöra de möjligheter som
+TKL-programvaran tillför vad gäller hanteringen av
+innehållet i de svenska ämnesportalerna. Behandling av
+import av resurser från befintliga tjänster,
+möjligheten till export av resurser och stöd för
+relevanta standarder är frågor som belyses här. Vi
+undersökte även hur pass väl TKL hanterar komplexa
+metadatarelationer.</p>
+
+<ul>
+<li>Import av data</li>
+
+<li>Export av data</li>
+
+<li>Ämnesrubriker och klassifikation</li>
+
+<li>Metadata - Datamodellen</li>
+</ul>
+
+<h3>Import av Data och automatisk konvertering av
+ämnesportaler till TKL</h3>
+
+<p>Automatisk konvertering är en procedur för att helst
+utan manuellt ingripande översätta en ämnesportals
+samtliga poster från ett format till ett annat, i detta fall
+till TKL. Det är frågan om en skräddarsydd rutin
+anpassad till portalformatet (ROADS t ex) och till den aktuella
+portalens fältuppsättning och benämningar. Det
+bör betonas att konverteringen i detta fall är
+experimentell; det är alltså inte meningen att replikera
+någon ämnesportal fullt ut. Konverteringen
+översätter naturligtvis heller inte portalens
+användargränssnitt och layout; det måste göras
+manuellt.</p>
+
+<p>En sak måste däremot alltid göras manuellt i
+samband med att en portals data konverteras, nämligen att
+upprätta ett metadataschema för posterna.</p>
+
+<p>I det aktuella projektet har två olika portaler
+konverterats:<br/>
+ Agora, &lt; <a href="http://agora.ub.uu.se/">http://agora.ub.uu.se/</a> &gt; (MS
+SQL-baserad). Biogate, &lt; <a href="http://biogate.lub.lu.se/">http://biogate.lub.lu.se/</a> &gt;
+(ROADS-baserad). Dessutom övervägde vi att konvertera
+någon del av KIBs samling av statiska HTML-sidor men avstod
+från det, när vi efter samtal med KIBs representant
+fått klart för oss vidden av ett sådant
+åtagande; det fanns helt enkelt inte någon rimlig
+möjlighet att klara av något sådant inom ramen
+för detta projekt.</p>
+
+<p>I båda fallen har ett färdigt
+användargränssnitt för den dansk/engelska
+Bibliothecia-portalen utnyttjats, samma som för de
+experimentportaler, som inte tillhandahåller egna dataposter
+och bläddringsstrukturer.</p>
+
+<p>I följande avsnitt beskrivs konverteringarna av Agora resp
+Biogate var för sig. Avslutningsvis sammanfattas
+konverteringsresultaten.</p>
+
+<h3 id="item32">Konvertering av Agora</h3>
+
+<p>Underlaget till Agora består av tabelldumpar, inalles 20
+st filer samt en detaljerad dokumentationsbilaga, som bortsett
+från ett par uppenbara sakfel betr fältens inbördes
+ordning har varit till stor hjälp för att
+förstå materialet.</p>
+
+<p>Agoras poster beskriver humanioraresurser över hela
+världen. Användargränssnittet är
+svenskt/engelskt, medan posterna ofta följer de beskrivna
+resursernas eget språk. Det bör noteras att posterna
+är klassade på två sätt: Dels med
+fullständiga Sab-koder och dels med positioner i en
+särskild bläddringsstruktur i fyra nivåer. Det
+är den senare som har realiserats i Unix filsystem med
+hjälp av underkataloger och s k symboliska länkar.</p>
+
+<p>Bland de konverterade fälten märks identifier (URL),
+description, MailAddress (till utgivare), title, StandardNumber, (t
+ex ISBN), SabCode, ResourceType, SubjectWord (fria ämnesord),
+Institution (utgivande) samt Person (ansvarig utgivare).</p>
+
+<p>Några fältpar har representerats av kombinationen
+gemensamt XML-element med attribut. Fältparet
+CreatedDate/EditDate har inte, som sig borde, representerats enligt
+TKL-standard, som attribut till postens huvudelement, link. Att
+åstadkomma detta innebär dessbättre endast en
+trivial ändring av konverteringsprogrammet.</p>
+
+<p>Följande auktoritetsfiler har automatiskt härletts ur
+materialet: PersonInsitutionType (utgivande institutions/persons
+roll), ResourceType, Sab (klassifikationskoder/benämningar),
+StandardNumberType (kontrollerad vokabulär för
+fältet StandardNumber) samt SubjectWordType (huruvida ett
+ämnesord avser ämne, geografisk omfattning eller
+tidsperiod).</p>
+
+<p>För att åstadkomma detta har 15 av Agoras tabeller
+utnyttjats. Det har ibland varit omständligt att återge
+kopplingarna mellan de olika tabellerna, men det har alltid
+löst sig tack vare Agoras utmärkta
+fältdokumentation.</p>
+
+<p>Av inalles ca 2.300 poster har drygt 1.700 framgångsrikt
+kunnat konverteras. Att en så stor andel poster har fallit
+ifrån, tycks bero på att felaktiga radbrytningar i
+tabelldumparna; konverteringsprogrammet har slaviskt följt
+Agoras dokumenterade fältsyntax.</p>
+
+<p>En fungerande, första version av ett schema för Agora
+har också upprättats, vilket var en nyttig övning,
+eftersom det blottlade en del svagheter hos TKL's schemaeditor.</p>
+
+<h3 id="item33">Konvertering av Biogate</h3>
+
+<p>Underlaget till Biogate bestod av ca 1.700 s k IAFA-templates,
+som samtliga lät sig konverteras. Biogate var enklare att
+konvertera, eftersom all information om en resurs är samlad i
+en egen fil. Biogate, som beskriver biologiresurser över hela
+världen, är strikt engelskspråkigt både till
+innehåll och gränssnitt. Klassifikationssystemet och
+bläddringsträdet är ett och samma och består
+av tolv huvudingångar samt är fyra nivåer djupt.
+Det har realiserats i TKL på samma sätt som Agoras
+bläddringsstruktur.</p>
+
+<p>Bland de konverterade fälten märks title, identifier
+(URL), description, AuthorName, Category, Comments (opublicerade
+redaktörskommentarer), Geography (geografisk täckning),
+Keyword (fria ämnesord), Language (resursens språk, som
+övervägande är engelska) samt PublisherName.</p>
+
+<p>Följande auktoritetsfil har automatiskt härletts ur
+materialet: Geography.</p>
+
+<p>En fungerande, första version av ett schema för
+Biogate har också upprättats.</p>
+
+<h3 id="item34">Sammanfattning och slutsatser</h3>
+
+<p>Konverteringsprogrammet, som både tar hand om Agora och
+Biogate utgörs av ett Perl-script om knappt 800 rader. Det har
+framgångsrikt använts för att överföra de
+båda portalernas väsentligaste datafält för
+experiment i TKL.</p>
+
+<p>KIBs samling av statiska HTML-sidor bedömdes som
+alltför svåra att konvertera inom ramen för detta
+projekt.</p>
+
+<p>Konverteringsprogrammet bör relativt enkelt kunna anpassas
+för att åstadkomma en produktionsmässig
+konvertering av Agora och Biogate, förutsatt att underlag
+för det upprättas av portalernas utgivare. Även om
+exempelvis inte alla Agoras fält hittills har hanterats
+på ett sätt som överensstämmer med äkta
+Agora, har åtminstone något av de svårare fallen
+framgångsrikt kunnat emuleras i TKL. Att förfina
+programmet, så att produktionsmässighet uppnås
+för dessa båda portaler, bör därför kunna
+uppnås med en betydligt mindre insats än det hittills
+nedlagda arbetet.</p>
+
+<p>För att konvertera andra portalers data krävs mer
+arbete, men vissa grundläggande delar som bildandet av
+bläddringsstrukturen bör kunna
+återanvändas.</p>
+
+<h3 id="item35">Export av data</h3>
+
+<p>Det är vår bedömning att
+återanvändbarheten av URLografiska poster i de svenska
+ämnesportalerna är en synnerligen viktig fråga.
+Dessa poster skall inte bara kunna återanvändas inom
+ämnesportalsväsendet utan även inom andra
+tjänster av helt andra slag. Det skulle kunna röra sig om
+tjänster liknande My Library &lt; <a href="http://mylibrary.lub.lu.se/">http://mylibrary.lub.lu.se/</a>
+&gt; och Mitt Kursbibliotek &lt; <a href="http://mittkursbibl.lub.lu.se/">http://mittkursbibl.lub.lu.se/</a>
+&gt;.</p>
+
+<p>Tre vägar ut från en TKL-baserad portal existerar
+eller kan utvecklas.</p>
+
+<ul>
+<li>OAI-PMH &lt; <a href="http://www.openarchives.org/">http://www.openarchives.org/</a>
+&gt;. TKL kommer med en nästan körfärdig OAI-server.
+Vi ger exempel på hur det fungerar i DOAJ (jmfr &lt; <a href="http://www.doaj.org/articles/questions/#metadata">http://www.doaj.org/articles/questions/#metadata</a>
+&gt;)</li>
+
+<li>RSS &lt; <a href="http://purl.org/RSS/">http://purl.org/RSS/</a> &gt;.
+Indexdata har rapporterat en implementering av detta</li>
+
+<li>Z39.50</li>
+</ul>
+
+<p>Av dessa förutser vi att den första och
+sistnämnda har störst potential. OAI-PMH har blivit
+något av en Swiss-Army-knife för att lösa problem
+som rör överföring av bibliografiska poster
+från en databas till en annan.</p>
+
+<p>Det är jämförelsevis enkelt att implementera en
+OAI-server med TKL. I skrivande stund kräver det en stunds
+programmering i php och XSLT, men detta torde vara en
+engångsinsats för varje portal. Att utöka en
+servers syntaxrepertoar är också relativt enkelt. Vad
+som krävs är en syntax som är möjlig att
+validera mot en XML Schema. Tre sådana existerar idag, vilka
+bör täcka de flesta behov</p>
+
+<ul>
+<li>oai_dc &lt; <a href="http://www.openarchives.org/OAI/openarchivesprotocol.htm">http://www.openarchives.org/OAI/openarchivesprotocol.htm</a>
+&gt;</li>
+
+<li>MODS &lt; <a href="http://www.loc.gov/standards/mods/">http://www.loc.gov/standards/mods/</a>
+&gt;</li>
+
+<li>Marc21 &lt; <a href="http://www.loc.gov/standards/marcxml/">http://www.loc.gov/standards/marcxml/</a>
+&gt;</li>
+
+<li>oai_def_portal</li>
+</ul>
+
+<p>TKL kommer med stöd oai_dc och ett speciellt oai_def_portal
+som används för samarbetet mellan ämnesportaler inom
+DEF. Ett beslut att stödja TKL skulle öppna
+möjligheten för större nordisk samarbete i
+fråga om vidareutveckling på detta området.</p>
+
+<p>TKL kommer med en sökmaskin, idZebra, som talar Z39.50 med
+omvärlden. Att vidga detta till att täcka olika former av
+samsökning är en enkel uppgift. Det kräver dock en
+viss utvecklingsinsats, eftersom implementeringen av Z39.50 i TKL
+inte är helt ortodox, databasen fungerar mer som en native XML
+search engine än som Z39.50-server. Att utveckla en
+traditionell Z39.50 target är närmast trivialt.</p>
+
+<p>Som alltid kräver framgång när det gäller
+delning av metadata också samordning och
+överenskommelser när det gäller val av
+metadamodeller.</p>
+
+<h3 id="item36">Ämnesrubriker och klassifikation</h3>
+
+<p>Allt material i en TKL-baserad tjänst är dokument. De
+resurser som skall presenteras i en tjänst matas in som
+katalogposter. För varje typ av katalogpost finns ett
+inmatningsformulär. Så långt känner man igen
+sig i många andra ämnesportalverkyg som har byggts under
+åren. Det stora skillnaden är dock att all navigering
+baseras på att man bygger och beskriver resurser i en
+katalogstruktur. Alltså katalogposterna inordnas i ett
+hierarkiskt klassifikations- eller ämnesordssystem. Resultatet
+syns i varje sida i administrationsverktyget och vi
+återkommer till detta under
+administrationsgränssnittsdiskussionen.</p>
+
+<p>Förutom den överordnade hierarkiska ämnessystem
+finns även möjlighet att lägga till, importera och
+anpassa andra standardiserade hierarkier, datum, tid, andra
+klassifikationsträd mm.</p>
+
+<p>Att använda bläddringssystemet på detta viset
+har vissa fördelar och bygger på en tydlig logik. Det
+ställer dock krav på val av ämnessystem samt
+på funktioner och gränssnittet i portalsystemet
+själv. På det praktiska planet innebär det ett
+annat sätt för redaktörer att arbeta. Det
+ställer krav på enkla och smidiga redskap för att
+få en översikt av bläddringssystems och de inlagda
+resurser. Något som inte fungerar tillfredställande
+idag. Valet av ett allt för stort och komplext
+bläddringssystem skulle också ställa till problem
+för den dagliga skötseln av ämnesportalen.</p>
+
+<p>Alltså var det inte oväntat att detta sätt att
+strukturera portalen har varit svårast för
+testpersonerna att acceptera. Vår egna erfarenheter
+från att bygga nya portaler från grunden mha TKL visar
+dock på att det går att bygga tjänster på
+detta viset utan stora problem. Flexibiliteten i systemet innebar t
+ex att vi kunde i DOAJ &lt; <a href="http://www.doaj.org/">http://www.doaj.org/</a> &gt;
+använda LCC som klassifikationssystem samt en förenklad
+visualisering av detta system. Vi har upplevt att de största
+svårigheterna ligger i administrationsgränssnittets
+nuvarande upplägg och de buggar i testversionen som
+upptäckts efterhand. Vi återkommer till detta i kapiteln
+om administrationsgränssnittet.</p>
+
+<p>Sammanfattningsvis kan vi konstatera att det går att
+anpassa presentationen av en ämnesstrukturerad databas men att
+det kräver en viss utveckling.</p>
+
+<h3 id="item37">Metadatamodellen</h3>
+
+<p>Som nämns ovan kan allt innehåll i en TKL-baserad
+tjänst ses som dokument. De resurser som skall presenteras i
+en tjänst matas in som katalogposter. För varje typ av
+katalogpost finns ett inmatningsformulär. Likaså är
+all navigering baserad på att man bygger en katalogstruktur.
+I varje sida i administrationsverktyget finns några
+stående rubriker som reflekterar detta.</p>
+
+<p>När man lägger i material, dvs katalogposter till en
+TKL-baserad tjänst, redigerar man sin text genom att fylla i
+formulär. När texten är färdig är det ett
+dokument.</p>
+
+<p>Alla dokumenttyper går att redigera med hjälp av ett
+formulär. Definitionen av dokumenttyper görs genom att
+redigera ett schema. I vårt arbete med import av resurser
+från Agora och Biogate innebar det anpassning av relativ
+komplex metadata till en TKL-schema. Resultaten visade att det var
+möjligt att definiera och anpassa metadataformuläret
+så att standardiserade element, delelement och kontrollerade
+hierarkier kunde användas. Alltså stöd finns
+för alla metadatafält som nu finns i portalen eller som
+finns i DCMES (Dublin Core). Samtidigt är det fullt
+möjligt att lägga till &quot;lokalmetadata&quot; som är till
+för den enskilda portalens behov. Det som saknas i dag var en
+&quot;bäst-före&quot; funktion, dock det skulle gå att
+utveckla utan större problem. De största
+svårigheterna ligger igen i
+administrationsgränssnittet.</p>
+
+<h2 id="item38">B. Administrativt gränssnitt</h2>
+
+<h3 id="item39">Grundläggande förutsättningar</h3>
+
+<p>Vi förutsätter att det kommer att utvecklas ett
+centralt samt individuella gränssnitt till delmängder av
+data.</p>
+
+<h3 id="item40">Testförlopp</h3>
+
+<p>Mål för testet var att belysa TKLs administrativa
+gränssnittet. Samtliga representanter fick ett administrativt
+gränssnitt att arbeta med. Testportalerna är
+tillgänglig från &lt; <a href="http://www.lub.lu.se/knowtech/projects/toolkit/testportaler.html">
+http://www.lub.lu.se/knowtech/projects/toolkit/testportaler.html</a>
+&gt;.</p>
+
+<p>På detta viset fick referensgruppen möjlighet att
+bedöma hur det är att arbeta praktiskt med TKL. Vid
+slutet av testfasen lämnade alla in en sammanfattning av sina
+intryck av verktyget och redogjorde för hur pass väl TKL
+skulle fylla deras ämnesportalens funktionella behov. (Se <a href="#item61">Bilaga 2 - Dokumentarkiv - Referensgruppens
+rapporter</a>)</p>
+
+<h3>Ämnesportalernas synpunkter på
+administrationsgränssnittet</h3>
+
+<p>Som vi har konstaterat tidigare bygger den administrativa
+systemet på annorlunda principer än det som är
+vanligt i portalverktygsimplementationer. Allt material i en
+TKL-baserad tjänst är dokument. De resurser som skall
+presenteras i en tjänst matas in som katalogposter men man
+bygger och beskriver resurser i en katalogstruktur. För att
+skapa en ny post i systemet bläddrar man sig ner till den
+relevanta nivån och lägger in sin beskrivning
+där.</p>
+
+<p>Att skapa innehåll i en ämnesportal är ett
+tidskrävande intellektuellt arbete där en av de allra
+viktigaste redskapen är själva gränssnittet där
+innehållet matas in. Ämnesportalerna har olika
+organisationella modeller för hur inmatningen sker. Agora
+är t ex ett kollaborativt arbete där över trettio
+personer är verksamma som redaktörer. Å andra sida
+finns portaler där en eller två personer sköter
+inmatning och skötsel av tjänsten. I alla tjänster
+finns ett visst antal redaktörer som arbetar kontinuerligt och
+för dessa blir det enklare att lära sig ett nytt system.
+För andra där det kan dröja mellan gångerna
+man använder systemet blir det betydligt svårare att
+sätta sig in i ett nytt system. Det ställer höga
+krav på lätthanterliga och
+lättöverskådliga funktioner - något som inte
+testinstallationen uppfyllde.</p>
+
+<p>Ett exempel av konsekvensen av den speciella uppbyggnaden av
+bläddringssystemet är hur man dubbelklassar ett dokument.
+För att dubbelklassa en post måste man upprätta en
+referens till posten från en annan katalog. Att upphäva
+dubbelklassningar eller att klassa om en post från
+början kan därmed inte göras via det vanliga
+registeringsformuläret, utan man måste använda ett
+särskilt formulär för det, där man f n tvingas
+orientera sig via klassifikationskoderna istället för
+klartextsbenämningar. Förutom att det är
+långsamt, inbjuder det till oavsiktliga fel som att man kan
+råka placera en post i fel i hierarkin eller rentav
+utanför den, radera en post eller t o m åstadkomma
+bestående fel i bläddringsstrukturen, vilket
+testpersonerna faktiskt har råkat ut för. Testpersonerna
+har inte lyckats länka till poster utanför den egna
+portalen.</p>
+
+<p>Liknande erfarenheter har upplevts av redaktörerna för
+de nya portalerna i Lund. Det är &quot;onödigt
+krångligt&quot; att redigera resurser och ändra
+dubbelklassningar. Oöverskådliget innebär att
+resurser tar alldeles för lång tid att hitta.</p>
+
+<p>Bläddringssystemet är den del av TKL, som
+testpersonerna har haft svårast för att acceptera.</p>
+
+<h3 id="item41">Formulären</h3>
+
+<p>TKL är ett mycket flexibelt system. I och med att allt
+material i en TKL-baserad tjänst kan ses som dokument
+innebär det att för varje typ av katalogpost finns ett
+inmatningsformulär. När man lägger i material, dvs
+katalogposter till en TKL-baserad tjänst, redigerar man sin
+text genom att fylla i formulär. När texten är
+färdig är det ett dokument.</p>
+
+<p>Testpersonerna har uppskattat att man förutom dataposterna
+kan redigera auktoritetsfiler, metadataschemat och filen med
+medarbetarna. Tyvärr framstår formulären som
+klumpiga och inte allt för användarvänliga; man
+tvingas scrolla fram och tillbaka alldeles för mycket. Det
+speciella formuläret, som används för att redigera
+bläddringsstrukturen hade testpersonerna genomgående
+haft svårt för att tillägna sig.
+Auktoritetsfilseditorn uppfattades som lite väl trög
+för stora vokabulärer. Vidare är det självklart
+olämpligt att man tvingas upprepa klassifikationskoden varje
+gång man definierar en ny översättning av en viss
+term.</p>
+
+<p>En del av de andra funktioner som erbjuds inom samma
+administrativa gränssnittet upplevs som positiv, nyhets- och
+artikelpublicering tex. En av testpersonerna har uttryckt sig
+uppskattande om nyhetspubliceringsssystemet men efterlyser
+automatiskt hanterade första- och sistadatum.</p>
+
+<h3 id="item42">Stabilitet</h3>
+
+<p>Testpersonerna har genomgående klagat på att TKL
+ännu inte är färdigutvecklat och därför
+behäftat med en hel del allvarliga fel. De allvarligaste
+klagomålen gäller redigeringen av
+bläddringsstrukturen. Andra fel gäller schemaeditorn
+där man skapar och anpassar metadata, dvs tjänstens
+datamodell. Naturligtvis är detta inget som man ändrar
+varje dag, men helt klart upplevs det som otympligt. Efter att ha
+definierat ett fält kan man inte gå tillbaka och
+ändra vissa av dess parametrar i efterhand, t ex
+inmatningsformatet för att ta ett exempel. Schemaeditorn har
+stor potential, men i praktiken fungerar inte underfält
+så bra. Det är heller inte möjligt för
+närvarande att definiera mer än ett attribut per
+fält. Det var möjligt att mata in text (t ex HTML-taggar
+för att länka till externa hjälptexter), som fick
+formuläret att krascha med fullkomliga felkoder.
+Länkkontrollfunktionen rönte uppskattning, medan
+dublettkontrollfunktionen inte tycks fungera
+tillfredställande.</p>
+
+<h3 id="item43">Effektivitet</h3>
+
+<p>Det är livsviktigt att registreringen kan ske så
+effektivt som möjligt: Dels är den avsatta tiden
+begränsad och dels löper redaktörerna annars risken
+att förlora motivationen med följd att portalen
+självdör. Därför är det viktigt att
+stabilitetsproblemen och problemen med dubbelklassning blir
+lösta på ett bra sätt, så att man kan dra
+fördel av exempelvis en distribuerad redaktion.</p>
+
+<h3 id="item44">Pågående utveckling</h3>
+
+<p>Det är både glädjande och en aning frustrerande
+att utvärdera en programvara stadd i snabb utveckling.
+Våra slutsatser angående det administrativa
+gränssnittet är baserade på version 1.1 av TKL, den
+senaste versionen 1.2 av programvaran släpptes nyligen. De
+flesta synbara förändringarna gäller just det
+administrativa gränssnittet.</p>
+
+<p>I skrivande stund har vi inte hunnit portera våra egna
+portaler till version 1.2. De mest påtagliga
+förändringarna är visuella; gränsnittet är
+inte bara visuellt mera tilltalande utan där finns även
+påtagliga förbättringar när det gäller
+säkerheten vid inloggning och framför allt är
+gränssnittet flerspråkigt. De flesta av formulären
+genereras nu med XSLT från portalens XML-filer, och alla
+förklarande texter finns samlade på i en fil för
+enkelt underhåll.</p>
+
+<p>En av de komponenter i systemet som fått lägst betyg
+av testgruppen har tyvärr inte förändrats. Detta
+gäller den så kallade schema-editorn, varmed
+definitionen av portalens olika dokumenttyper definieras.</p>
+
+<p>En komponent som fått lågt betyg och som faktiskt
+blivit bättre är editorn för auktoritetsfiler. Den
+består fortfarande av en &quot;lång lista&quot; av formulär,
+men den nya utformningen av sidorna gör att man kan leva med
+detta. En del av deltagarnas frustration när det gäller
+detta verktyg måste nog ses som ett pedagogiskt problem. TKLs
+auktoritetsfiler är inte tänkt att fungera som en tabell
+i en relationsdatabas (RDBMS). Om man försöker lägga
+en stor del av SABs ämnesord i en TKL-auktoritetsfil gör
+man något den aldrig var tänkt för.</p>
+
+<p>Det går utmärkt att implementera en funktionalitet
+som liknar separat lagring av ämnesord i en tabell i en RDBMS.
+Det kräver en del utveckling, men den behöver inte vara
+omfattande eftersom XML har lämpliga verktyg för
+ändamålet. Till exempel XPointer och XLink.</p>
+
+<p>Även det faktum att TKL 1.2 tillåter bindningar
+även till SQL utöver de existerande till SOAP och Z39.50
+ges det nya möjligheter när det gäller
+förfinade datamodeller.</p>
+
+<h2 id="item45">C. Användargränssnitt</h2>
+
+<h3 id="item46">Testförlopp</h3>
+
+<p>Mål för testet var att identifiera de
+begränsningar och klargöra de möjligheter som
+TKL-programvaran tillför vad gäller
+användargränssnittet. Samtliga representanter fick testa
+en mer eller mindre default version av
+användargränssnittet. Möjligheten att ge
+skräddarsydda gränssnitt under testfasen var
+begränsad.</p>
+
+<h3 id="item47">Sammanfattning av referensgruppenssynpunkter</h3>
+
+<p>Eftersom det krävs kunskaper i XSLT för att man ska
+kunna påverka användargränssnittet alltifrån
+layout till funktionalitet, har det funnits stora
+begränsningar i vad referensgruppen kunde testa vilket flera
+av testpersonerna har beklagat.</p>
+
+<p>Som nämnts ovan fanns i den version av TKL vi testat inga
+möjligheter att via det administrativa gränssnittet
+redigera stilmallarna. Ett sådant är
+nödvändigt för att de enskilda
+portaladministratörerna på ett enkelt sätt
+själva skall kunna utforma sina gränssnitt.</p>
+
+<p>XSLT är kanske med sina fyra år på nacken en
+relativt ny teknologi och därför är
+inlärningströskeln högre än för
+traditionella system vars användargränssnitt byggs med
+mallar, templates eller vars programmering utförs som
+inbäddad i html-sidor (php, perl, asp m fl populära
+system erbjuder sådana faciliteter). Vidare kräver
+XML-baserade system renare taggning än för traditionell
+webbredigering. Ett gränssnitt tillverkat i programvaror som
+MS Frontpage kan kräva en hel del arbete att
+överföra till TKL.</p>
+
+<p>Det är därför sannolikt så att många
+portaler kommer att behöva XML/XSLT-stöd av ett slag som
+många biblioteks IT-personal inte kan bistå med.
+Behovet är naturligtvis störst under portalernas
+uppbyggnad, men på många håll kan det finnas
+behov av även stöd för smärre justeringar
+även under drift.</p>
+
+<p>Å andra sidan är vi bara i början av en
+utveckling mot att kunskap i XSLT är ett lika naturligt krav
+på en webbdesigner som kunskap i bildbehandling (text
+behandling är viktigt det med - det finns trots allt mer text
+än bild på Internet). Vi ser detta som ett
+övergående problem.</p>
+
+<h3 id="item48">Hur ett användargränssnitt i TKL
+byggs</h3>
+
+<p>Elegansen i TKLs användning av XSLT blir uppenbar av
+följande schema:</p>
+
+<p><img src="http://sigge.lub.lu.se/2003/def-test/xslt_in_tkl.png" alt="Skiss över hur XSLT används i TKL"/></p>
+
+<p>Varje dokumenttyp som ligger i en *.tkl-fil kan levereras
+från servern givet att det existerar ett tillhörande
+XSLT-skript. All global formgivning är samlad i en stilmall
+som anropas från de enskilda stilmallarna. Som nämnts
+ovan finns det också ett bibliotek av funktioner
+tillgängliga inifrån XSLT som är implementerade som
+URLar, vilka returnerar XML. Detta används till exempel
+för att inkludera dokument av typen link i dokument av typen
+subject. Detsamma gäller träffar i filer av typen subject
+vid sökning, som visas i träfflistan. Klickar man
+på en sådan får man bläddringssidan för
+den aktuella kategorin.</p>
+
+<p>Ingen kedja är starkare än den svagaste länken.
+Den svagaste länken i TKL är redigeringen; det existerar
+en hel rad XML-dokumenttyper som inte går att redigera enkelt
+i ett formulär, men som likväl går att presentera
+för användare med hjälp av TKL. Enda kravet är
+att det går att skriva en stilmall.</p>
+
+<p>Metoden är tillräckligt generell för att
+tillåta oss att ersätta de enkla subject-dokumenten med
+något mera komplicerat. För att ta något
+närliggande så skulle det gå att använda Mesh
+i XML i samma plats &lt;<a href="http://www.nlm.nih.gov/mesh/filelist.html">http://www.nlm.nih.gov/mesh/filelist.html</a>
+&gt;. Inom varje sådan fil kan TKL inducera en
+Z39.50-sökning på aktuella Mesh-termer för att
+åstadkomma listor med länkar, och likaledes generera
+länkar till andra termfiler från NLM.</p>
+
+<h2 id="item49">D. Central drift och utveckling</h2>
+
+<h3 id="item50">Testförlopp</h3>
+
+<p>Mål för testet är att identifiera de
+begränsningar och klargöra möjligheter som
+TKL-programvaran ger vad gäller uppbyggande och driftsrutiner
+kring ett gemensamt system.</p>
+
+<h3 id="item51">Grundläggande förutsättningar</h3>
+
+<p>Gemensam databas definierar vi som</p>
+
+<ul>
+<li>portalerna går att underhålla och utveckla
+gemensamt som ett centralt system och att samordningsvinster
+därvid görs.</li>
+
+<li>det finns, eller går att utveckla, ett system som
+gör att de olika portalerna kan återanvända
+varandras metadata för resurser som är
+tvärvetenskapliga eller inom gränsområdena mellen
+deltagande tjänster och att underhållet av
+katalogposterna därvid förbilligas.</li>
+</ul>
+
+<p>En gemensam databaslösning har flera fördelar.
+Användningen av gemensam programvara förbilligar
+underhåll och utveckling, givetvis under
+förutsättning att alla portalers krav är rimligt
+lika eller om de kan jämkas samman. Den uppenbara
+fördelen skulle naturligtvis vara att genom ett
+utvecklingssamarbete kommer en viss facilitet bara att behöva
+köpas en gång.</p>
+
+<p>Även rent redaktionellt arbete kan göras billigare, en
+post som tillverkats inom en portal skall kunna
+återanvändas i en annan med delvis överlappande
+målgrupper och inriktning. Sådan
+återanvändning kan ske på tre olika sätt</p>
+
+<ol>
+<li>Samsökning - vilket ger en virtuell samkatalog av
+självständiga portaler</li>
+
+<li>Direkt kopiering av poster mellan portaler.</li>
+
+<li>En stor central portal, vilken ämnesmässigt
+&quot;stratifieras&quot; på ett sådant sätt att den kan
+fås att framstå som kanske ett dussin
+självständiga portaler</li>
+</ol>
+
+<p>Självklart ställer dessa tre olika vägar olika
+krav på hård- och mjukvaror. Därutöver
+tillkommer den olika grader av sammanjämkning som krävs
+för framgång. Vi har avsiktligt ovan sorterat de tre
+olika sätten efter den grad av samarbetsvillighet som skulle
+avkrävas av varje portal för att nå till
+målet.</p>
+
+<p>Priset för att nå fram till samordning är olika
+högt beroende på hur nära man vill samarbeta, och
+det är naturligtvis högst för nivå tre. Priset
+skulle vara högt för alla, och vägen till
+målet kan vara lång och därtill snårig och
+beströdd av törnen.</p>
+
+<p>Det är i form av omkatalogisering av de befintliga
+portalernas resurser de vassaste taggarna visar sig.
+Ämnesklassningar i enlighet med nya ämnesvokabulärer
+måste tillföras. Nya fält tillkommer och
+måste befolkas av beskrivningar. Om man väljer den
+högsta graden av integrering kan <strong>dessutom</strong>
+tidigare investeringar i form av fält som inte passar in i den
+nya gemensamma strukturen och som mödosamt fyllts av
+hårt katalogiserande bibliotekarier komma att behöva
+skatta åt förgängelsen.</p>
+
+<p>Oavsett vilken nivå av samordning det svenska akademiska
+portalväsendet kommer att kunna enas om, kommer denna inte att
+kunna nås utan utveckling av en åtminstone delvis
+gemensam metadatamodell för samsökning av resurser, samt
+att portalerna kan förmås att samsas om en
+överordnad ämneshierarki som kan kan länkas eller
+&quot;mappas&quot; mot de som används i de befintliga portalerna.</p>
+
+<p>Den test av TKL-programvaran som vi har genomfört behandlar
+inte dessa frågor, och dessa problem ligger utanför
+denna rapports område. Här följer en
+genomgång av vad som är möjligt och/eller rimligt
+att göra med TKL.</p>
+
+<h3 id="item52">Val av teknisk arkitektur</h3>
+
+<p>Oavsett vilken nivå man väljer för integrering
+av finns det pengar och resurser att spara enbart på
+samordnat mjukvaruunderhåll. Det finns finns ytterligare
+vinster om tjänsterna samlokaliseras på en central
+server eller ett centralt kluster. Samlokalisering av
+tjänsterna till en central server eller ett centralt serverrum
+innebär också att de kommer kunna underhållas av
+personal som kommer att lära sig att sköta dem.</p>
+
+<p>Hur kan man tänka sig att organisera ett svenskt
+nätverk av ämnesportaler? Vi har slängt ihop en
+skiss över ett bläddringsträd.</p>
+
+<p><img src="http://sigge.lub.lu.se/2003/def-test/bladdring.png" alt="Hypotetisk samling ämnesportaler och en likaledes hypotetisk      samkatolog äver dem"/></p>
+
+<p>I figuren återfinns olika ämnen A,B,... Q samt U.
+Ämnet U är unionen av det mänskliga vetandet.
+Inringade ämnen tänker vi oss som sjävständiga
+ämnesportaler, med delivis egna kvalitets- och
+selektionskriterier och dessutom sitt eget gränssnitt. Varje
+portal har sitt eget ämnesträd - portalen U har ett
+träd som direkt importerar de övriga portalerna och
+slutligen har vi ett litet specialarrangemang mellan B och C vilka
+delar på ämnet J (det återfinns alltså i
+båda portalerna). Detsamma gäller ämnet L som finns
+i C och D. Eftersom ämnet K i sig är en underordnad term
+till ämnet C finns hela K-portalens bestånd även i
+C.</p>
+
+<p>Tack vare TKLs öppna arkitektur är det med en modest
+teknisk arbetsinsats (men långt gående samordning
+när det gäller metadata och vokabulärer är
+detta en möjlig arkitektur). Det är inget förslag
+från vår sida, utan snarare ett exempel som är
+tänkt att väcka till eftertanke.</p>
+
+<p>Ett mindre ambitiöst sätt att åstadkomma
+samordning är samsökning. Exakt hur det skall göras
+beror av valet av integrationsnivå. Den enklaste metoden
+är att helt enkelt harvestera metadata från samtliga
+portaler och lägga posterna i ett sökindex.</p>
+
+<p>Det finns många sätt att lösa
+integrationsproblemet. Många, kanske de flesta men alls inte
+alla, är förenliga med TKL. Vad vi vet är att
+<strong>alla</strong> har det gemensamt att de kräver
+samordning när det gäller de &quot;mjuka frågorna&quot;.</p>
+
+<h2 id="item53">Slutsatser</h2>
+
+<p>Efter den genomförda testen av TKL anser vi att
+programvaran är ett kraftfullt och flexibelt verktyg för
+skötsel och drift av ämnesportaler. Utvärderingen
+har försvårats av att programvaran är en relativt
+ofärdig produkt. Den skulle kräva en del vidareutveckling
+för att planteras i ett svenskt nätverk av
+ämnesportaler. Vi kan inte heller utesluta att vissa av
+våra slutsatser var obseleta redan medan vi skrev rapporten.
+Utvecklingen av TKL har fortsatt efter att vi avslutat vårt
+arbete.</p>
+
+<p>Som referensgruppen har konstaterat var den version som testades
+en buggig produkt. Den bygger på ett ovanligt koncept och
+därför kan man förvänta sig att det blir en
+ganska stor omställning för svenska
+ämnesportalsredaktörer att vänja sig vid den.</p>
+
+<p>Version 1.2 har på klara förbättringar vad
+gäller administrativt gränssnitt och
+användarvänlighet men det behövs fortfarande
+utveckling för att tillfredställa
+referensgruppenssynpunkter och önskemål. Schema-editorn
+t ex förblir oförändrad i den nya versionen. Om vi
+tittar på listan av krav och önskemål som
+ställdes i testschemat klarar TKL av en ganska stor andel
+redan nu och ännu fler med en som vi bedömer det rimlig
+vidareutvecklingsinsats.</p>
+
+<p>Som vi har nämnt tidigare anser vi att &quot;better is the enemy
+of good enough&quot;. Dock måste &quot;good enough&quot; innebära att
+det inte försvårar eller förhindrar det
+redaktionella arbetet. Det är avgörande att det finns ett
+buggfritt och användarvänligt
+registreringsformulär.</p>
+
+<p>TKL är skapat som ett verktyg för att bygga enskilda
+portaler, inte för brokerlösningar. Som vi har
+kommenterat i vår internationella överblick finns det
+ingen nyckelfärdig lösning för att bygga en
+nationell svensk ämnesportaltjänst.</p>
+
+<p>Utifrån våra erfarenheter under testfasen kan vi
+konstatera att TKL mycket väl skulle kunna användas som
+grundstomme att bygga den nationella lösningen på.
+För att det skall fungera måste flera
+förutsättningar vara uppfyllda:</p>
+
+<ul>
+<li>Klara direktiv och dimensioneringen för arbetet nationella
+portalen är på plats</li>
+
+<li>Det måste råda konsensus mellan portalerna om de
+&quot;mjuka&quot; frågorna; överenskommelser som bildar underlaget
+till den nationella tjänsten.</li>
+</ul>
+
+<p>Att användargränssnittet kräver XSLT-kunskaper
+för att kunna förändras är en nackdel idag.
+Kanske inte om några år. Oavsett vilket, balanseras
+denna nackdel av att tjänsten är tänkt att drivas
+centralt. Problemet behöver inte vara avgörande eftersom
+den kompetensen då bara behöver finnas på ett
+ställe.</p>
+
+<p>Av vad vi kan bedöma har TKL om man jämför med
+andra freeware produkter, en ovanlig trygg bas och tydligt
+vidareutvecklingsfokus tack vare samordning och samarbete med en
+nationell organisation. En jämförelse med ROADS för
+att se de tidigare bristerna i ett område som myllrar av
+egenutvecklingar och återvändsgränder.
+Företaget bakom TKL har bevisligen levererat flera bra och
+användbara produkter tidigare. En annan klar fördel med
+ett val av TKL är att det kan öppna vägen till
+samarbete om samma verktyg med en annan nationell nordisk
+ämnesportaltjänst.</p>
+
+<h2 id="item54">Bilaga 1 - Testschema</h2>
+
+<h3>A. Innehåll i tjänsten</h3>
+
+<table border="1">
+<tbody>
+<tr>
+<td valign="top">A.</td>
+<td valign="top"/>
+<td valign="top"/>
+<td valign="top">Innehåll i tjänsten.</td>
+</tr>
+
+<tr>
+<td valign="top">A.1</td>
+<td valign="top"/>
+<td valign="top"/>
+<td valign="top">Import av data.</td>
+</tr>
+
+<tr>
+<td valign="top">A.1.1</td>
+<td valign="top">Skall</td>
+<td valign="top">Ja</td>
+<td valign="top">Möjlighet till import av data från
+existerande ämnesportaler.<br/>
+<br/>
+Gjort för Biogate (ROADS-baserad) och Agora (MS-SQL-baserad).
+I och för sig utanför TKL som sådant. Se vidare <a href="#item31">&quot;Import av data&quot;</a>.</td>
+</tr>
+
+<tr>
+<td valign="top">A.2</td>
+<td valign="top">Skall</td>
+<td valign="top">Ja</td>
+<td valign="top">Export av data.<br/>
+<br/>
+Filernas format (XML) innebär inte något problem.
+Däremot innebär den omständighet att klassningarna
+inte kan avläsas ur själva posten utan istället
+avgörs av i vilken katalog posten är förlagd samt av
+eventuellt ytterligare referenser till poster från andra
+kataloger en försvårande om än inte
+oöverstiglig omständighet.</td>
+</tr>
+
+<tr>
+<td valign="top">A.2.1</td>
+<td valign="top">Bör</td>
+<td valign="top">Nej</td>
+<td valign="top">Renarduskompatibilitet.<br/>
+<br/>
+TKL är <strong>inte</strong> Renarduskompatibelt. Tekniskt
+är detta relativt enkelt att åstadkomma, däremot
+kräver detta att det att deltagande tjänster etablerar en
+detaljerad omvandlingstabell mellan tjänsternas
+klassifikationssystem och DDC.</td>
+</tr>
+
+<tr>
+<td valign="top">A.2.2</td>
+<td valign="top">Bör</td>
+<td valign="top">Ja</td>
+<td valign="top">OAI-kompatibilitet.<br/>
+<br/>
+TKL stödjer en delmängd av OAI, och det är enkelt
+att konfigurera exporten av metadata.</td>
+</tr>
+
+<tr>
+<td valign="top">A.2.3</td>
+<td valign="top">Bör</td>
+<td valign="top">Ja</td>
+<td valign="top">Z39.50-kompatibilitet.<br/>
+<br/>
+Med en liten ansträngning åstadkoms ett fullt utbyggt
+stöd för Marc 21 och BIB-1 sökattribut. Kräver
+samordning av tjänsternas metadatamodeller.</td>
+</tr>
+
+<tr>
+<td valign="top">A.2.4</td>
+<td valign="top">Skall</td>
+<td valign="top">Ja</td>
+<td valign="top">Kompatibiltet med centrala standarder, främst
+XML, Dublin Core, Z39.50.<br/>
+<br/>
+Se ovan. Dessutom erbjuder TKL SOAP-funktionsanrop.</td>
+</tr>
+
+<tr>
+<td valign="top">A.2.5</td>
+<td valign="top">Skall</td>
+<td valign="top">Ja</td>
+<td valign="top">Sidor, där länkarna presenteras, ska
+vara synliga för sökrobotar (dvs det insamlade materialet
+ska inte vara &quot;gömt&quot; i databasen).<br/>
+<br/>
+I en TKL-portal kan alla bläddringsuppslag nås via
+länkföljning från ingångssidan, vilket
+medför att de också kan samlas in automatiskt av en
+robot. Det går naturligtvis inte för någon
+söktjänst att förutsätta för
+fritextssökresultat, eftersom det inte går att
+förutsätta att några länkar leder till
+dessa.</td>
+</tr>
+
+<tr>
+<td valign="top">A.2.6</td>
+<td valign="top">Skall</td>
+<td valign="top">Ja</td>
+<td valign="top">Inlagda poster skall kunna återexporteras
+till ansvarsbiblioteken (t ex för användning i
+applikationer, som ligger utanför ramen för det
+gemensamma systemet.<br/>
+<br/>
+Se A.2.</td>
+</tr>
+
+<tr>
+<td valign="top">A.3</td>
+<td valign="top"/>
+<td valign="top"/>
+<td valign="top">Ämnesrubriker och klassifikation.</td>
+</tr>
+
+<tr>
+<td valign="top">A.3.1</td>
+<td valign="top">Skall</td>
+<td valign="top">Nej</td>
+<td valign="top">Hantering av flera ämnesområden i samma
+tjänst/på samma server.<br/>
+<br/>
+Det finns stora möjligheter att påverka presentationen
+av en ämnesstrukturerad databas. Kräver viss
+utveckling.</td>
+</tr>
+
+<tr>
+<td valign="top">A.3.2</td>
+<td valign="top">Skall</td>
+<td valign="top">Ja</td>
+<td valign="top">Olika klassifikationssystem/kontrollerade
+vokabulärer.<br/>
+<br/>
+TKL kan användas för att presentera samma data på
+olika sätt. I <a href="http://www.doaj.org/">DOAJ</a>
+används både LCC och en visualisering av detta system.
+Ämnesredaktörerna och tillgång till en separat
+ämnesportal som vars bläddringsstruktur strikt
+följer LCC.</td>
+</tr>
+
+<tr>
+<td valign="top">A.4</td>
+<td valign="top"/>
+<td valign="top"/>
+<td valign="top">Metadata/datamodellen</td>
+</tr>
+
+<tr>
+<td valign="top">A.4.1</td>
+<td valign="top">Skall</td>
+<td valign="top">Ja</td>
+<td valign="top">Inmatningsgränssnitt - olika
+registreringsformulär. (Se B.1)</td>
+</tr>
+
+<tr>
+<td valign="top">A.4.2</td>
+<td valign="top">Skall</td>
+<td valign="top">Ja</td>
+<td valign="top">Fördefinierade metadatafält -
+obligatoriska fält.<br/>
+<br/>
+Se B.1.</td>
+</tr>
+
+<tr>
+<td valign="top">A.4.3</td>
+<td valign="top">Skall</td>
+<td valign="top">Ja</td>
+<td valign="top">Det skall finnas stöd för alla
+metadatafält som nu används i portalen och/eller som
+förekommer i Dublin Core Element Set.<br/>
+<br/>
+Se B.1.</td>
+</tr>
+
+<tr>
+<td valign="top">A.4.4</td>
+<td valign="top">Skall</td>
+<td valign="top">Nej</td>
+<td valign="top">Fält för &quot;bäst-före&quot;-datum
+bör finnas i formuläret, så att temporära
+resurser kan döljas i användargränssnittet, då
+det angivna datumet överskridits.<br/>
+<br/>
+Datum för senaste modifiering av en post lagras med
+sekundnogrannhet i varje post. Det går att utveckla en
+sökning som väljer ut poster som inte kontrollerats under
+någon given tidsperiod.</td>
+</tr>
+</tbody>
+</table>
+
+<h3 id="item55">B. Administrativa gränssnitt</h3>
+
+<table border="1">
+<tbody>
+<tr>
+<td valign="top">B.</td>
+<td valign="top"/>
+<td valign="top"/>
+<td valign="top">Administrativa gränssnitt.</td>
+</tr>
+
+<tr>
+<td valign="top">B.1</td>
+<td valign="top">Skall</td>
+<td valign="top">Ja</td>
+<td valign="top">Skräddarsydda
+registreringsformulär.<br/>
+<br/>
+Metadatamodeller kan definieras med hjälp av TKLs
+schema-editor.</td>
+</tr>
+
+<tr>
+<td valign="top">B.1.1</td>
+<td valign="top">Skall</td>
+<td valign="top">Ja</td>
+<td valign="top">Inmatningsformulär ska finnas och ska skall
+kunna hantera nyregistrering, uppdatering och makulering av
+poster.<br/>
+<br/>
+Alla elementära databasoperationer stöds av TKL.</td>
+</tr>
+
+<tr>
+<td valign="top">B.1.2</td>
+<td valign="top">Skall</td>
+<td valign="top">Ja</td>
+<td valign="top">Möjlighet till anpassning av
+registreringsformulären skall finnas.<br/>
+<br/>
+Klaras av med hjälp av schema-editorn, där man inte bara
+kan definiera vilka fält man ska ha utan också hur de
+ska matas in, huruvida de ska vara upprepningsbara och/eller
+obligatoriska. Det går också att mata in kortare
+hjälptexter, men tyvärr går det inte att länka
+till externa hjälptexter.<br/>
+Möjligheterna att påverka det redaktionella
+gränssnittet har ökat i TKL version 1.2, i vilket
+formulär skapas med hjälp av XSLT. Därför
+är det numera möjligt att konstruera länkar till
+annan dokumentation inifrån verktyget.</td>
+</tr>
+
+<tr>
+<td valign="top">B.1.3</td>
+<td valign="top">Skall</td>
+<td valign="top">Ja</td>
+<td valign="top">Registreringsformuläret skall
+tillhandahålla möjlighet till och god hantering av
+upprepningsbara fält utan principiell begränsning av
+antalet fält (t ex titlar, upphovsmän).</td>
+</tr>
+
+<tr>
+<td valign="top">B.1.4</td>
+<td valign="top">Skall</td>
+<td valign="top">Ja?</td>
+<td valign="top">Registreringsformuläret skall
+tillhandahålla möjlighet till och god hantering av
+förvalsmenyer/flervalmenyer.<br/>
+<br/>
+Klarar i skrivande stund bara av envalsmenyer.</td>
+</tr>
+
+<tr>
+<td valign="top">B.1.5</td>
+<td valign="top">Skall</td>
+<td valign="top">Ja?</td>
+<td valign="top">Registreringsformuläret skall ha
+fileringsfunktion för titlar.<br/>
+<br/>
+Ett elementärt system för avlägsnande av danska
+bestämda artiklar (den, det m fl) från titlar vid
+sortering finns.</td>
+</tr>
+
+<tr>
+<td valign="top">B.1.6</td>
+<td valign="top">Skall</td>
+<td valign="top">Ja</td>
+<td valign="top">Registreringsformuläret skall kunna kopplas
+till kontrollerade vokabulärer.<br/>
+<br/>
+(Schemaeditor: Inmatningstyp = dropdown + koppling till
+autkoritetsfil.)</td>
+</tr>
+
+<tr>
+<td valign="top">B.1.7</td>
+<td valign="top">Skall</td>
+<td valign="top">Ja</td>
+<td valign="top">Möjlighet för redaktörerna att vid
+behov själv lägga till nya ämnesord och
+klassningar.<br/>
+<br/>
+Redaktörerna kan tillåtas att uppdatera auktoritetsfiler
+via ett särskilt formulär (genom att det går att
+lägga individuella auktoritetsfiler i egna kataloger om
+så önskas, kan man undvika &quot;befogenhetsinflation&quot;.
+Däremot kan TKL inte tillåta redaktören att
+för ett och samma fält välja mellan rullgardinsmeny
+och textinmatningsruta som i Agora, där det sistnämnda
+valet medför utvidgning av auktoritetsfilen.</td>
+</tr>
+
+<tr>
+<td valign="top">B.1.8</td>
+<td valign="top">Skall</td>
+<td valign="top">Ja?</td>
+<td valign="top">Geografiska och kronologiska ämnesord skall
+kunna särskiljas från andra ämnesordstyper.<br/>
+<br/>
+TKL klarar detta, vilket dock är en fråga för om
+val av metadatamodell. Lösningen skulle vara att skapa
+två fält, låt oss kalla dem temporal coverage
+respektive spacial coverage (efter var de hör hemma i Dublin
+Core). Vanliga ämnesord skulle hamna i subject.</td>
+</tr>
+
+<tr>
+<td valign="top">B.1.9</td>
+<td valign="top">Skall</td>
+<td valign="top">Ja</td>
+<td valign="top">Dublettkontroll skall finnas för
+länkadress, ämnesord och klassningar.<br/>
+<br/>
+Finns för URL men troligtvis inte i övrigt, alltså
+att exemplevis att ett visst ämnesord upprepas i en post.</td>
+</tr>
+
+<tr>
+<td valign="top">B.1.10</td>
+<td valign="top">Skall</td>
+<td valign="top">Ja</td>
+<td valign="top">Hjälptexter skall finnas kopplade till
+formuläret.<br/>
+<br/>
+TKL understöder hjälptexter, som lagras lokalt i
+schemafilen. (jfr B.1.2)</td>
+</tr>
+
+<tr>
+<td valign="top">B.1.11</td>
+<td valign="top">Skall</td>
+<td valign="top">Ja</td>
+<td valign="top">Förhandsgranskning av alla uppgifter som
+registrerats och/eller som i formuläret legat som standardval
+skall finnas.<br/>
+<br/>
+Förhandsgranskning finns så tillvida att en post kan
+markeras såsom icke publicerad. Den kan i så fall
+granskas av andra - fast inte i tjänstens gränssnitt utan
+i metadataformuläret.</td>
+</tr>
+
+<tr>
+<td valign="top">B.1.12</td>
+<td valign="top">Skall</td>
+<td valign="top">Ja</td>
+<td valign="top">Om obligatoriska fält lämnats oifyllda
+skall posten ej accepteras i databasen och förklarande
+felmeddelande visas.</td>
+</tr>
+
+<tr>
+<td valign="top">B.1.12.1</td>
+<td valign="top">Skall</td>
+<td valign="top">Ja</td>
+<td valign="top">Vissa fält skall vara obligatoriska =
+registrering skall ej kunna slutföras utan att dessa har
+ifyllts.<br/>
+<br/>
+Se B.1.12.</td>
+</tr>
+
+<tr>
+<td valign="top">B.1.12.2</td>
+<td valign="top">Bör</td>
+<td valign="top">Ja</td>
+<td valign="top">Fördefinierade metadatafält -
+obligatoriska fält.<br/>
+<br/>
+Se B.1.</td>
+</tr>
+
+<tr>
+<td valign="top">B.1.13</td>
+<td valign="top">Skall</td>
+<td valign="top">Ja</td>
+<td valign="top">Vid makulering av poster skall inte anknutna
+ämnesord eller klassningar makuleras ens om ingen annan post
+har knutits till dessa.</td>
+</tr>
+
+<tr>
+<td valign="top">B.2</td>
+<td valign="top"/>
+<td valign="top"/>
+<td valign="top">Postadministration.</td>
+</tr>
+
+<tr>
+<td valign="top">B.2.1</td>
+<td valign="top">Skall</td>
+<td valign="top">Ja</td>
+<td valign="top">Datum för skapande av ny post och datum
+för ändring av befintliga poster skall skapas som dolda
+värden i tabellen och vara separerade från
+varandra.<br/>
+<br/>
+Klaras av, fast f n buggigt.</td>
+</tr>
+
+<tr>
+<td valign="top">B.2.2</td>
+<td valign="top">Skall</td>
+<td valign="top">Nej</td>
+<td valign="top">Varje post ska kunna knytas till ett ID-nr
+för registrerande redaktör.<br/>
+<br/>
+Varje post knyts till redaktörens användaridentitet. Man
+får i princip denna funktionalitet genom att man byter
+lösenord på en identitet när en redaktör
+pensioneras men återanvänder identiteten.</td>
+</tr>
+
+<tr>
+<td valign="top">B.3</td>
+<td valign="top">Skall</td>
+<td valign="top">Ja</td>
+<td valign="top">Stöd för flerspråkighet.<br/>
+<br/>
+TKL klarar flerspråkighet på såväl
+redaktörs-, användargränssnittsnivå och
+fältinnehållsnivå. Version 1.2 har dessutom
+möjlighet till språkval för redaktörer. Det
+administrativa gränssnittets texter lagras i en XML-fil.</td>
+</tr>
+
+<tr>
+<td valign="top">B.4</td>
+<td valign="top">Skall</td>
+<td valign="top">Ja</td>
+<td valign="top">Sökformulär för internt behov skall
+finnas (redaktörsmässig sökning).<br/>
+<br/>
+Redaktörerna får använda tjänstens
+sökfunktionen, och de kan, om de är inloggade, ladda
+poster i inmatningsverktyget.</td>
+</tr>
+
+<tr>
+<td valign="top">B.5</td>
+<td valign="top">Skall</td>
+<td valign="top">Ja</td>
+<td valign="top">Accesskontroll.<br/>
+<br/>
+Se B.8.1 och B.8.2. Accesskontrollen för redaktörer har i
+vissa avseenden förbättrats i version 1.2. Det är
+dock fortfarande omöjligt att logga ut.</td>
+</tr>
+
+<tr>
+<td valign="top">B.6</td>
+<td valign="top">Skall</td>
+<td valign="top">Ja</td>
+<td valign="top">Hantering av presentation av kontrollerade
+vokabulärer.<br/>
+<br/>
+Finns en enkel auktoritetsfilseditor samt möjlighet i
+schemaeditorn att knyta inmatningsfält i form av
+rullgardinsmenyer till auktoritetsfiler. Presentationen av
+träffar görs med XSLT, och det går att hämta
+termer via deras ID i aktoritetsfilerna.</td>
+</tr>
+
+<tr>
+<td valign="top">B.6.1</td>
+<td valign="top">Bör</td>
+<td valign="top">Ja</td>
+<td valign="top">Det skall finnas stöd för automatisk
+kontroll av att termer hämtade ur en thesaurus är
+korrekta.<br/>
+<br/>
+Se B.6</td>
+</tr>
+
+<tr>
+<td valign="top">B.6.2</td>
+<td valign="top">Bör</td>
+<td valign="top">Ja</td>
+<td valign="top">Det skall vara möjligt att vid indexering
+representera en indexeringsterm ur en thesaurus med ett unikt ID
+istället för för klartexten för
+ämnesordet.<br/>
+<br/>
+Klaras av med TKLs auktoritetsfiler. Ämnesord som hanteras via
+auktoritetsfilerna blir tyvärr inte sökbara vid
+sökning.</td>
+</tr>
+
+<tr>
+<td valign="top">B.6.3</td>
+<td valign="top">Skall</td>
+<td valign="top">Ja</td>
+<td valign="top">Thesaurusen skall kunna underhållas
+oberoende av länkarna, lämpligen genom att man importerar
+unika ID med tillhörande klartexter som en separat
+tabell.<br/>
+<br/>
+Att automatiskt bilda auktoritetsfiler enligt TKL är enkelt.
+Se vidare <a href="#item31">&quot;Import av data&quot;</a>.</td>
+</tr>
+
+<tr>
+<td valign="top">B.6.4</td>
+<td valign="top">Skall</td>
+<td valign="top">Ja</td>
+<td valign="top">Flerspråkiga thesaurer skall kunna
+importeras och hanteras av bläddringsstrukturen.<br/>
+<br/>
+Klaras av, under förutsättning av att tesaurens struktur
+är oberoende av språkval. (Två givna termer
+får alltså inte stå i olika relation till
+varandra i olika språk).</td>
+</tr>
+
+<tr>
+<td valign="top"><a id="B6.6.5" name="B6.6.5">B.6.5</a></td>
+<td valign="top">Skall</td>
+<td valign="top">Nej</td>
+<td valign="top">Ändring/makulering av inlagda ämnesord
+och klassifikationer (spärrad
+uppdateringsbehörighet).<br/>
+<br/>
+Notera att i TKL ligger posterna ligger i klassifikationen, dvs som
+en fil i bläddringsstrukturen. Det är alltså inte
+möjligt att makulera en klassifikation utan att först
+flytta eller makulera posterna i den. Att förändra
+auktoriteter kräver normalt
+administratörsbehörighet.</td>
+</tr>
+
+<tr>
+<td valign="top">B.6.6</td>
+<td valign="top">Skall</td>
+<td valign="top">Nej</td>
+<td valign="top">Stöd för mappning av av
+ämneshierarkier, resurstyper (och ämnesord?) mellan de
+portaler som integreras i tjänsten skall finnas så att
+sökning och visning i databasen kan ske.<br/>
+<br/>
+Understöds inte av TKL internt. Ett sådant system har
+implementerats i <a href="http://www.doaj.org/">DOAJ</a> separat
+utanför TKL.</td>
+</tr>
+
+<tr>
+<td valign="top">B.6.7</td>
+<td valign="top">Bör</td>
+<td valign="top">Nej</td>
+<td valign="top">Att kunna utnyttja databasen &quot;Svenska
+ämnesord&quot; för registrering och sökning med
+ämnesord.<br/>
+<br/>
+Inte utan ytterligare utveckling. Notera att vad vi vet
+stödjer inte &quot;Svenska ämnesord&quot; några
+standardiserade format för export. Det skulle gå
+definiera en nätverksburen form av vokabulärsauktoritet
+om så varit fallet.</td>
+</tr>
+
+<tr>
+<td valign="top">B.7</td>
+<td valign="top">Skall</td>
+<td valign="top">Ja</td>
+<td valign="top">Länkkontroll.</td>
+</tr>
+
+<tr>
+<td valign="top">B.7.1</td>
+<td valign="top">Bör</td>
+<td valign="top">Nej</td>
+<td valign="top">Inmatningssystemet skall automatiskt kunna
+kontrollera om innehållet på en sida har ändrats
+sedan länken som pekar ut den lades in.<br/>
+<br/>
+Bör gå att implementera med viss utveckling. Vad det
+skulle kosta beror naturligtvis på hur förändring
+skall mätas.</td>
+</tr>
+
+<tr>
+<td valign="top">B.7.2</td>
+<td valign="top">Skall</td>
+<td valign="top">Ja</td>
+<td valign="top">Central, automatisk länkkontroll måste
+kunna integreras.<br/>
+<br/>
+Baserad på HTTP statuskoder.</td>
+</tr>
+
+<tr>
+<td valign="top">B.7.3</td>
+<td valign="top">Skall</td>
+<td valign="top">Nej</td>
+<td valign="top">Länkkontrollen skall kunna koplas och styras
+till ansvarig ämnesredaktör. (Föranlett av att
+användarklick på trasiga länkar.)<br/>
+<br/>
+Förefaller onödigt med tanke på B.7.4. Detta
+förutsätter loggning av användning av utgående
+länkar, och automatisk kontroll av just dem. En normal
+ämnesportal är inte större än att alla
+länkar kan kontrolleras regelbundet.</td>
+</tr>
+
+<tr>
+<td valign="top">B.7.4</td>
+<td valign="top">Skall</td>
+<td valign="top">Ja</td>
+<td valign="top">Länkkontrollen skall dessutom kunna
+göras centralt med jämna mellanrum.<br/>
+<br/>
+Se B.7.2</td>
+</tr>
+
+<tr>
+<td valign="top">B.7.5</td>
+<td valign="top">Skall</td>
+<td valign="top">Ja</td>
+<td valign="top">Statusrapporterna skall kunna identifiera olika
+typer av länkfel.<br/>
+<br/>
+Klaras troligen av. För närvande dock baserat på
+HTTP-statuskoder.</td>
+</tr>
+
+<tr>
+<td valign="top">B.8</td>
+<td valign="top">Skall</td>
+<td valign="top">Ja</td>
+<td valign="top">Administration av redaktörer.</td>
+</tr>
+
+<tr>
+<td valign="top">B.8.1</td>
+<td valign="top">Skall</td>
+<td valign="top">Ja</td>
+<td valign="top">Access till registrering skall kunna
+begränsas och vara lösenordsbelagd.<br/>
+<br/>
+Klaras av men buggig i nuvarande version. Förbättrat i
+version 1.2.</td>
+</tr>
+
+<tr>
+<td valign="top">B.8.2</td>
+<td valign="top">Bör</td>
+<td valign="top">Nej</td>
+<td valign="top">Redaktörerna skall själva kunna
+ändra sina lösenord och namnuppgifter.<br/>
+<br/>
+Möjligt om redaktörerna har
+administratörsstatus</td>
+</tr>
+
+<tr>
+<td valign="top">B.9</td>
+<td valign="top">Skall</td>
+<td valign="top">Nej</td>
+<td valign="top">E-postsystem.<br/>
+<br/>
+TKL har inget eget e-postsystem, men kan skicka e-mail från
+tips-formulär och dylikt.</td>
+</tr>
+
+<tr>
+<td valign="top">B.9.1</td>
+<td valign="top">Skall</td>
+<td valign="top">Nej</td>
+<td valign="top">Deltagande redaktörer skall ha egna (men
+opersonligt utformade för att underlätta vid
+redaktörsbyte) e-postadresser, dit användarkontakter och
+länkfelsrapporter skall kunna styras direkt utan central
+förmedling.<br/>
+<br/>
+Skulle förmoda att ingen existerande portal-programvara har
+detta inbyggt i själva portalen. Det är å andra
+sidan trivialt att implementera utanför genom mail-alias.</td>
+</tr>
+
+<tr>
+<td valign="top">B.9.2</td>
+<td valign="top">Bör</td>
+<td valign="top">Nej</td>
+<td valign="top">Skräppostfilter bör finnas på
+servern.<br/>
+<br/>
+Kan med fördel läggas utanför TKL.</td>
+</tr>
+
+<tr>
+<td valign="top">B.10</td>
+<td valign="top">Bör</td>
+<td valign="top">Ja</td>
+<td valign="top">Systemet skall vara skalbart; antalet
+redaktörer skall därför inte behöva vara
+intressant.</td>
+</tr>
+</tbody>
+</table>
+
+<h3 id="item56">C. Användargränssnitt</h3>
+
+<table border="1">
+<tbody>
+<tr>
+<td valign="top">C.</td>
+<td valign="top"/>
+<td valign="top"/>
+<td valign="top">Användargränssnitt.</td>
+</tr>
+
+<tr>
+<td valign="top">C.1</td>
+<td valign="top">Bör</td>
+<td valign="top">Ja</td>
+<td valign="top">Usability-aspekter bör beaktas, även
+för användare med funktionshinder.<br/>
+<br/>
+Det finns inget som hindrar implementatörer att bygga
+såväl utmärkta som förfärliga
+gränssnitt med TKL.</td>
+</tr>
+
+<tr>
+<td valign="top">C.2</td>
+<td valign="top"/>
+<td valign="top"/>
+<td valign="top">Skräddarsydda sök- och
+bläddringsgränssnitt.</td>
+</tr>
+
+<tr>
+<td valign="top">C.2.1</td>
+<td valign="top">Skall</td>
+<td valign="top">Ja</td>
+<td valign="top">Möjlighet till skräddarsydda sök-
+och bläddringsgraänssnitt skall finnas för
+både för varje deltagande tjänst och för
+användare.<br/>
+<br/>
+TKL erbjuder enkel anpassning av portalers metadatamodeller. Det
+råder dock en omvänd relation mellan möjligheter
+till samordnad sökning och navigering mellan portalerna och
+antalet implementerade egenheter inom var och en av dem.</td>
+</tr>
+
+<tr>
+<td valign="top">C.2.2</td>
+<td valign="top">Skall</td>
+<td valign="top">Ja</td>
+<td valign="top">Flera gränssnitt (även ett gemensamt,
+icke ämnesspecifikt).<br/>
+<br/>
+Ett sådan gränssnitt måste dock utvecklas separat.
+Det följer inte med TKL (som man ju får gratis).</td>
+</tr>
+
+<tr>
+<td valign="top">C.3</td>
+<td valign="top"/>
+<td valign="top"/>
+<td valign="top">Presentation av resultat.</td>
+</tr>
+
+<tr>
+<td valign="top">C.3.1</td>
+<td valign="top">Skall</td>
+<td valign="top">Ja</td>
+<td valign="top">Det skall vara möjligt att konstruera en URL
+som adresserar sig till en viss rubrik i bläddringsstrukturen
+(vanligtvis svarande mot en viss term ur thesaurusen)<br/>
+<br/>
+Se A.2.5.</td>
+</tr>
+
+<tr>
+<td valign="top">C.3.2</td>
+<td valign="top">Skall</td>
+<td valign="top">Ja</td>
+<td valign="top">Länk till ämnesrubrikerna i
+bläddringsstrukturen skall på alla nivåer vara
+stabil, så att det går att i andra sammanhang
+direktlänka till olika ämnesrubriker oavsett hierarkisk
+nivå.<br/>
+<br/>
+Se A.2.5.</td>
+</tr>
+
+<tr>
+<td valign="top">C.3.3</td>
+<td valign="top">Skall</td>
+<td valign="top">Ja</td>
+<td valign="top">Rubrikerna i ämnesstrukturen skall gå
+att presentera som länkar till sidor där innebörden
+av termen förklaras.<br/>
+<br/>
+Klaras av (relativt enkel anpassning av XSLT script).</td>
+</tr>
+
+<tr>
+<td valign="top">C.3.4</td>
+<td valign="top">Bör</td>
+<td valign="top">Ja</td>
+<td valign="top">Viktiga grenar i hierarkin skall skall kunna
+från rotnivån i bläddringsstrukturen (dvs man
+skall inte behöva bläddra sig ner till rätt
+nivå i hierarkinför att hitta länkar indexerade med
+termer ur den grenen av hierarkin.<br/>
+<br/>
+Finns i princip redan. Går att åstadkomma även med
+specialfallsprogrammering av XSLT-script (givetvis
+tillrådligt bara om bläddringsstrukturen är
+stabil).</td>
+</tr>
+
+<tr>
+<td valign="top">C.3.5</td>
+<td valign="top">Skall</td>
+<td valign="top">Nej</td>
+<td valign="top">Polyhierarkiska thesaurer (där samma term kan
+återfinnas på flera platser i hierarkin) skall hanteras
+korrekt i bläddringsstrukturen.<br/>
+<br/>
+TKL klarar inte detta eftersom bläddringsstrukturen är
+hårt knuten till filsystemet. Å andra sidan kan TKL
+leverera allt som går att formulera i XML och kan omvandlas
+till hypertext med XSLT. MESHs struktur är av detta slag.
+Efter granskning av XML-kodningen av MESH som den levereras av NLM,
+uppfattar vi denna uppgift som görbar men dessutom sannolikt
+karaktärsdanande och nyttig uppgift för någon
+stöddig XSLT-programmerare.</td>
+</tr>
+
+<tr>
+<td valign="top">C.3.6</td>
+<td valign="top">Bör</td>
+<td valign="top">Nej?</td>
+<td valign="top">Bläddringsstrukturen skall kunna presentera
+alla länkar indexerade med termer ur ett visst delträd av
+hierarkin på samma sida. (Detta kan vara önskvärt
+om antalet utnyttjade termer från thesauren är stort i
+förhållande till antalet indexerade länkar.)<br/>
+<br/>
+TKL klarar inte detta som standard. Vi ställer oss dessutom
+frågan om det verkligen är önskvärt att
+presentera de delar av (en omfattande) vokabulär som inte
+används?</td>
+</tr>
+
+<tr>
+<td valign="top">C.3.7</td>
+<td valign="top">Skall</td>
+<td valign="top">Ja</td>
+<td valign="top">Om vissa nivåer i en stor, hierarkisk
+thesaurus inte utnyttjas vid indexering, skall luckorna kunna
+hanteras av bläddringsstrukturen.<br/>
+<br/>
+Kan realiseras som tom vidarenavigeringsnod, som utelämnad nod
+eller som nod med upplysningen att inget material finns
+förlagt hit. Man kan även rekursivt slå samman
+poster till närmast liggande bredare termer.</td>
+</tr>
+
+<tr>
+<td valign="top">C.3.7.1</td>
+<td valign="top">Skall</td>
+<td valign="top">Ja</td>
+<td valign="top">Ämnesrubriker, ämnesord och klassningar
+till vilket för tillfället inga poster finns knutna skall
+döljas i sökformuläret och resultatlistor i det
+externa gränssnittet.<br/>
+<br/>
+Se C.3.7.</td>
+</tr>
+
+<tr>
+<td valign="top">C.3.8</td>
+<td valign="top">Skall</td>
+<td valign="top">Ja</td>
+<td valign="top">Rubrikerna i bläddringsstrukturen inom ett
+ämnesområde skall kunna bestå både av termer
+ur en thesaurus och egna termer, som kompletterar thesauren.</td>
+</tr>
+
+<tr>
+<td valign="top">C.3.9</td>
+<td valign="top">Skall</td>
+<td valign="top">Ja</td>
+<td valign="top">Användaren skall vid bläddring kunna
+begränsa till resurser på ett visst språk.<br/>
+<br/>
+Kommentar: Detta är det klassiska &quot;filterproblemet&quot;, som
+går igen i många söktjänster. Lösningen,
+som i och för sig inte har med TKL att göra, utnyttjar
+att XSLT-script har förmågan att testa huruvida en
+CGI-variabel är definierad eller inte. I fallet att den (t ex
+en språkvalsmeny) är det tar XSLT-scriptet istället
+för alla poster i aktuellt bläddringsuppslag exempelvis
+bara de med language = 'se'.</td>
+</tr>
+
+<tr>
+<td valign="top">C.3.10</td>
+<td valign="top">Skall</td>
+<td valign="top">Ja</td>
+<td valign="top">Gränssnitt för ämnesdefinierad
+bläddring i databasen skall finnas, med möjlighet till
+vidarenavigering på minst 4 hierarkiska nivåer.</td>
+</tr>
+
+<tr>
+<td valign="top">C.3.11</td>
+<td valign="top">Skall</td>
+<td valign="top">Ja</td>
+<td valign="top">Under varje ämne i blädderstrukturen
+skall skall en sekundär sortering efter resurstyp vara
+möjlig, och i de fall en resurs knutits till flera resurstyper
+skall den visas under varje resurstypsrubrik.<br/>
+<br/>
+Sekundär resurstypsortering kan realiseras med XSLT. Dock
+osäkert om en träff kan upprepas för alla de
+resurstyper den klassats som. Standard är sortering efter
+titel.</td>
+</tr>
+
+<tr>
+<td valign="top">C.3.12</td>
+<td valign="top">Bör</td>
+<td valign="top">Ja</td>
+<td valign="top">Under varje ämne i blädderstrukturen
+bör dessutom alfabetiska listor kunna väljas.<br/>
+<br/>
+Om önskemålet gäller sortering alfabetiskt map
+titel finns det redan. Andra sorteringar går direkt att
+åstadkomma med hjälp av XSLT. Om alfabetiska
+ämnesuppslagslistor ska kunna väljas, ligger detta
+troligen utanför TKL som sådant. En framkomlig väg
+skulle kunna vara att ämnesträdet traverseras t ex en
+gång per dygn och en alfabetisk länksamling
+framställs. Den görs tillgänglig på varje
+bläddringsnivå via det XSLT-script, som framställer
+bläddringsuppslagen.</td>
+</tr>
+
+<tr>
+<td valign="top">C.3.13</td>
+<td valign="top">Skall</td>
+<td valign="top">Ja</td>
+<td valign="top">I den bläddringsbara ämnesstrukturen
+skall kontaktuppgifter till ämnesansvarig redaktör vara
+lätt tillgänglig.<br/>
+<br/>
+Är faktiskt så enkelt som en lay-outfråga.</td>
+</tr>
+
+<tr>
+<td valign="top">C.4</td>
+<td valign="top"/>
+<td valign="top"/>
+<td valign="top">Sökfunktion.</td>
+</tr>
+
+<tr>
+<td valign="top">C.4.1</td>
+<td valign="top">Skall</td>
+<td valign="top">Ja</td>
+<td valign="top">Unicode.<br/>
+<br/>
+I skrivande stund är inmatningen fortfarande i ISO-8859-1, men
+detta bör enkelt gå att ändra. Sökindex
+är däremot i UTF-8.</td>
+</tr>
+
+<tr>
+<td valign="top">C.4.2</td>
+<td valign="top">Skall</td>
+<td valign="top">Ja</td>
+<td valign="top">&quot;Specialtecken&quot; (å, ä, ö, etc)
+skall kunna anges med eller utan diakritiska tecken och
+ändå ge samma sökresultat.<br/>
+<br/>
+Tja, det bor ga att astadkomma detta. Fragan ar om man vill att
+<b>ål</b> (fisk) och <b>al</b> (trad) skall ge samma
+traffar?</td>
+</tr>
+
+<tr>
+<td valign="top">C.4.3</td>
+<td valign="top">Skall</td>
+<td valign="top">Ja</td>
+<td valign="top">Frassökning.<br/>
+<br/>
+Finns inte som standard. Enkelt och billigt.</td>
+</tr>
+
+<tr>
+<td valign="top">C.4.4</td>
+<td valign="top">Skall</td>
+<td valign="top">Ja</td>
+<td valign="top">Högertrunkering.<br/>
+<br/>
+Standard.</td>
+</tr>
+
+<tr>
+<td valign="top">C.4.5</td>
+<td valign="top">Skall</td>
+<td valign="top">Nej</td>
+<td valign="top">Maskering.<br/>
+<br/>
+Bör gå att implementera genom sökning med
+regularutryck. Vem vill ha det?</td>
+</tr>
+
+<tr>
+<td valign="top">C.4.6</td>
+<td valign="top">Skall</td>
+<td valign="top">Ja</td>
+<td valign="top">Sökning med booleska operatorer.<br/>
+<br/>
+Standard. Försökspersonerna har rapporterat att bara
+enordssökning i testportalerna klaras av. Detta är en
+känd bugg, en fix kom i början av februari. Prova t ex
+sökning på &quot; <a href="http://www.doaj.org/search.tkl?query=chemistry+and+molecules">
+chemistry and molecules</a>&quot; och &quot;<a href="http://www.doaj.org/search.tkl?query=chemistry+or+molecules">chemistry
+or molecules</a>&quot; i <a href="http://www.doaj.org/">DOAJ.
+Sökspråket är CCL, men fältsökning enligt
+denna standard stöds ej.</a> </td>
+</tr>
+
+<tr>
+<td valign="top">C.4.7</td>
+<td valign="top">Skall</td>
+<td valign="top">Nej</td>
+<td valign="top">Fritextssökning.<br/>
+<br/>
+Fritextsökning i hela posten är standard. Däremot
+finns inte fritextsökning i dokumentent. Kräver
+harvesting. Kan utvecklas, och inte särskilt
+tidskrävande.</td>
+</tr>
+
+<tr>
+<td valign="top">C.4.8</td>
+<td valign="top">Skall</td>
+<td valign="top">Ja</td>
+<td valign="top">Strukturerad sökning (kombinerade
+sökfält).<br/>
+<br/>
+Se C.4.6. Boolesk fältsökning går att implementera,
+och är relativt enkelt att åstadkomma.</td>
+</tr>
+
+<tr>
+<td valign="top">C.4.9</td>
+<td valign="top">Bör</td>
+<td valign="top">Ja</td>
+<td valign="top">Ämnesord ur thesauren skall vara sökbara
+både som fraser och fritext.<br/>
+<br/>
+TKL ger träffar i såväl kategorier som i poster,
+ungefär som Yahoo brukade göra förr i tiden.</td>
+</tr>
+
+<tr>
+<td valign="top">C.4.10</td>
+<td valign="top">Bör</td>
+<td valign="top">Nej</td>
+<td valign="top">Ett sökbart index över det
+innehåll som pekas ut av länkarna skall kunna
+byggas.<br/>
+<br/>
+Kräver en insamlingsrobot, som producerar TKL/link-poster
+enligt uppgjort schema. Se C.4.7.</td>
+</tr>
+
+<tr>
+<td valign="top">C.4.11</td>
+<td valign="top">Bör</td>
+<td valign="top">Ja</td>
+<td valign="top">Ämnesord ur thesauren skall vara sökbara
+både som fraser och fritext.<br/>
+<br/>
+Som standard gäller fritext. Se C.4.9.</td>
+</tr>
+
+<tr>
+<td valign="top">C.4.12</td>
+<td valign="top">Skall</td>
+<td valign="top">Ja</td>
+<td valign="top">Fritextssökning samt strukturerad
+sökning skall finnas tillgänglig från alla
+sidor.<br/>
+<br/>
+En enkel sökruta finns redan tillgänglig från alla
+portalens sidor. Att därifrån länka till ett mera
+avancerat sökformulär kräver bara en enkel
+XSLT-ändring. (Se C.4.6.)</td>
+</tr>
+
+<tr>
+<td valign="top">C.4.13</td>
+<td valign="top">Skall</td>
+<td valign="top">Ja</td>
+<td valign="top">Den detaljerade katalogposten skall ge
+möjlighet till vidaresökning på relaterade poster i
+databasen.<br/>
+<br/>
+Att generera länkar för sökning efter relaterade
+poster i databasen ska kunna realiseras enkelt. Se C.5.2.</td>
+</tr>
+
+<tr>
+<td valign="top">C.4.14</td>
+<td valign="top">Bör</td>
+<td valign="top">Ja</td>
+<td valign="top">Den detaljerade katalogposten skall ge
+möjlighet till vidaresökning på relaterade poster i
+LIBRIS (och gärna andra tjänster), åtminstone
+på ämnesord.<br/>
+<br/>
+Z39.50- och SOAP-gränssnitt är integrerade i TKL.</td>
+</tr>
+
+<tr>
+<td valign="top">C.5</td>
+<td valign="top"/>
+<td valign="top"/>
+<td valign="top">Svarspresentation (vid sökning och
+bläddring).</td>
+</tr>
+
+<tr>
+<td valign="top">C.5.1</td>
+<td valign="top">Bör</td>
+<td valign="top">Ja</td>
+<td valign="top">Användaren skall kunna välja
+utförlighetsnivå på presentationen.<br/>
+<br/>
+Se C.5.2.</td>
+</tr>
+
+<tr>
+<td valign="top">C.5.2</td>
+<td valign="top">Skall</td>
+<td valign="top">Ja</td>
+<td valign="top">Det skall kunna finnas en lättillgänglig
+möjlighet att gå in i den detaljerade
+katalogposten.<br/>
+<br/>
+Fullpostvisning i TKL har framgångsrikt implementerats i
+DOAJ.</td>
+</tr>
+
+<tr>
+<td valign="top">C.6</td>
+<td valign="top"/>
+<td valign="top"/>
+<td valign="top">Nya poster.</td>
+</tr>
+
+<tr>
+<td valign="top">C.6.1</td>
+<td valign="top">Skall</td>
+<td valign="top">Ja?</td>
+<td valign="top">Flagga för nyinlagda poster skall
+finnas.<br/>
+<br/>
+Se C.6.3.</td>
+</tr>
+
+<tr>
+<td valign="top">C.6.2</td>
+<td valign="top">Bör</td>
+<td valign="top">Nej</td>
+<td valign="top">Mjölighet att flagga för poster som
+använder andra alfabet än det latinska.<br/>
+<br/>
+Om alla poster är i UTF-8 är det inte trivialt att
+avgöra vilka alfabet de kräver.</td>
+</tr>
+
+<tr>
+<td valign="top">C.6.3</td>
+<td valign="top">Skall</td>
+<td valign="top">Ja?</td>
+<td valign="top">Separat utmatning av nyinlagda poster skall finnas
+på särskild sida.<br/>
+<br/>
+Borde kunna gå att realiseras med ett XSLT-script, som
+utnyttjar det datum posten skapades.</td>
+</tr>
+
+<tr>
+<td valign="top">C.7</td>
+<td valign="top">Skall</td>
+<td valign="top">Ja</td>
+<td valign="top">Formulär för länkförslag och
+synpunkter från användaren skall finnas.<br/>
+<br/>
+Standard</td>
+</tr>
+
+<tr>
+<td valign="top">C.8</td>
+<td valign="top">Bör</td>
+<td valign="top">Nej</td>
+<td valign="top">Personalisering.<br/>
+<br/>
+Populärt krav. Går att åstadkomma här.
+Session-cookies finns implementerade redan och kan utnyttjas
+för ändamålet.</td>
+</tr>
+</tbody>
+</table>
+
+<h3 id="item57">D. Teknisk arkitektur. Vad klarar TKL?</h3>
+
+<table border="1">
+<tbody>
+<tr>
+<td valign="top">D.1</td>
+<td valign="top"/>
+<td valign="top"/>
+<td valign="top">Teknisk arkitektur. Vad klarar TKL?</td>
+</tr>
+
+<tr>
+<td valign="top">D.1.1</td>
+<td valign="top"/>
+<td valign="top"/>
+<td valign="top">Samsökningsmodellen</td>
+</tr>
+
+<tr>
+<td valign="top">D.1.2</td>
+<td valign="top">Bör</td>
+<td valign="top">Ja</td>
+<td valign="top">Möjlighet till samsökning med andra
+ämnesportaler och t ex LIBRIS<br/>
+<br/>
+Samsökning mellan TKL-portaler går lätt att
+implementera, antingen via OAI-harvesting av dem, eller genom att
+var och en av dem öppnar en Z39.50 server (vilket i princip
+ingår i TKL).</td>
+</tr>
+
+<tr>
+<td valign="top">D.1.3</td>
+<td valign="top">Bör</td>
+<td valign="top">Nej</td>
+<td valign="top">Central databas<br/>
+<br/>
+Även om samtliga svenska ämnesportaler samlades på
+en server är det tveksamt om man skulle kalla denna samling av
+tjänster för en central databas. Det beror på vad
+man menar med 'central' och med 'databas'.</td>
+</tr>
+
+<tr>
+<td valign="top">D.1.4</td>
+<td valign="top">Bör</td>
+<td valign="top">Ja</td>
+<td valign="top">Portalen och databasen skall kunna användas
+som ett helt integrerat, gemensamt och centralt system<br/>
+<br/>
+Det är fullt möjligt att, utifrån ett nätverk
+av TKL-baserade tjänster (oavsett om de lever sitt liv i en
+central databas eller ej), åstadkomma en central tjänst
+som för användaren framstår som helt integrerad och
+gemensam. Det enda som begränsar möjligheterna att
+uppnå detta är mjuka frågor som gemensamma
+metadatamodeller och katalogiseringsregler.</td>
+</tr>
+
+<tr>
+<td valign="top">D.1.5</td>
+<td valign="top">Bör</td>
+<td valign="top">Nej</td>
+<td valign="top">Central databas för integrerade
+tjänster/portaler skall finnas, eller en motsvarande
+arkitektur som till alla delar och lika enkelt erbjuder samma
+möjligheter till administrativ och teknisk
+samordning/rationalisering som en central
+databaslösning.<br/>
+<br/>
+(Se diskussionen i <a href="#item49">D. Central drift och
+utveckling</a> )</td>
+</tr>
+
+<tr>
+<td valign="top">D.1.6</td>
+<td valign="top">Bör</td>
+<td valign="top">Nej</td>
+<td valign="top">Samsökningsmodell för icke integrerade
+tjänster/portaler skall skapas.<br/>
+<br/>
+Måste utvecklas. (Se diskussionen i <a href="#item29">A.
+Innehåll i tjänsten</a>)</td>
+</tr>
+
+<tr>
+<td valign="top">D.2</td>
+<td valign="top"/>
+<td valign="top"/>
+<td valign="top">Teknisk plattform</td>
+</tr>
+
+<tr>
+<td valign="top">D.2.1</td>
+<td valign="top">Bör</td>
+<td valign="top">Ja</td>
+<td valign="top">Plattformsoberoende<br/>
+<br/>
+De i TKL använda komponenterna fungerar i både Windows
+och Unix/Linux miljöer. Verktyget är dock bara testat
+under Unix.</td>
+</tr>
+
+<tr>
+<td valign="top">D.2.2</td>
+<td valign="top">Bör</td>
+<td valign="top">Ja</td>
+<td valign="top">Stöd av XML (export/import av data via
+XML)</td>
+</tr>
+
+<tr>
+<td valign="top">D.2.3</td>
+<td valign="top">Bör</td>
+<td valign="top">Ja</td>
+<td valign="top">Skall kunna hantera Unicode<br/>
+<br/>
+UTF-8 stöds.</td>
+</tr>
+
+<tr>
+<td valign="top">D.2.3</td>
+<td valign="top">Bör</td>
+<td valign="top">Ja</td>
+<td valign="top">Språkform. Portalen måste stödja
+möjlighet till flerspråkighet. Se även ovan
+B.3.</td>
+</tr>
+
+<tr>
+<td valign="top">D.2.4</td>
+<td valign="top">Bör</td>
+<td valign="top">Ja</td>
+<td valign="top">Skalbarhet<br/>
+<br/>
+TKL skalerar för alla vanliga storlekar på akademiska
+svenska ämnesportaler, dvs 2000 -- 5000 poster.</td>
+</tr>
+
+<tr>
+<td valign="top">D.3</td>
+<td valign="top">Skall</td>
+<td valign="top">Ja</td>
+<td valign="top">Autentificiering</td>
+</tr>
+
+<tr>
+<td valign="top">D. 4</td>
+<td valign="top">Skall</td>
+<td valign="top">Nej</td>
+<td valign="top">Hantering av statistik för den gemensamma och
+lokala tjänster<br/>
+<br/>
+Kan utvecklas</td>
+</tr>
+
+<tr>
+<td valign="top">D.4.1</td>
+<td valign="top">Skall</td>
+<td valign="top">Nej</td>
+<td valign="top">Hantering av statistik: Det skall finnas
+statistiktjänster, både användarstatistik och
+&quot;katalogiseringsstatistik&quot;. Användarstatistiken bör kunna
+skilja på katalogisatörers och slutanvändares
+besök.<br/>
+<br/>
+Kan utvecklas</td>
+</tr>
+
+<tr>
+<td valign="top">D.5</td>
+<td valign="top">Bör</td>
+<td valign="top">Ja</td>
+<td valign="top">Nyhetsservice<br/>
+<br/>
+TKL kommer med en nyhetsservice integrerad. Den kan även
+leverera material med RSS.</td>
+</tr>
+
+<tr>
+<td valign="top">D.5.1</td>
+<td valign="top">Bra att ha</td>
+<td valign="top">Nej</td>
+<td valign="top">Möjlighet till e-postkopplad nyhetsservice
+skall finnas.</td>
+</tr>
+
+<tr>
+<td valign="top">D.6</td>
+<td valign="top"/>
+<td valign="top"/>
+<td valign="top">Kalendarium</td>
+</tr>
+
+<tr>
+<td valign="top">D.6.1</td>
+<td valign="top">Bra att ha</td>
+<td valign="top">Nej</td>
+<td valign="top">Möjlighet till databasregistrering av
+nyhetsblänkare till &quot;Aktuellt&quot;-spalter/motsvarande skall
+finnas.</td>
+</tr>
+
+<tr>
+<td valign="top">D.6.2</td>
+<td valign="top">Bra att ha</td>
+<td valign="top">Nej</td>
+<td valign="top">Kalendarium bör finnas</td>
+</tr>
+
+<tr>
+<td valign="top">D.7</td>
+<td valign="top">Bör</td>
+<td valign="top">Nej</td>
+<td valign="top">Insamling av resurser med robot<br/>
+<br/>
+Kan utvecklas.</td>
+</tr>
+
+<tr>
+<td valign="top">D.7.1</td>
+<td valign="top">Bör</td>
+<td valign="top">Nej</td>
+<td valign="top">En &quot;harvester&quot;-funktion för att
+automatindexera utvalda webbplatser.<br/>
+<br/>
+Kan utvecklas</td>
+</tr>
+</tbody>
+</table>
+
+<pre>
+     
+</pre>
+
+<br/>
+<br/>
+ 
+
+<h2>Teknisk samverkan mellan svenska ämnesportaler -
+dokumentarkiv</h2>
+
+<h3 id="item58">Bakgrund</h3>
+
+<ul>
+<li><a href="DEF-projektorganisation.doc">DEF-utvärdering -
+projektorganisation</a> (.doc)</li>
+
+<li><a href="DEF-test.doc">Projektbeskrivning. DEF Toolkit - test
+och utvärdering</a> (.doc)</li>
+
+<li><a href="http://matport.cvt.dk/maintain.htm">Materials.dk:
+vejledning til administrationsgrænsefladen</a>
+(Hjälptext för en av de danska fagportaler som
+använder TKL</li>
+
+<li><a href="http://www.indexdata.dk/tkl-site/Toolkit%20Lite.htm">TKL
+Dokumentation: IndexData</a></li>
+</ul>
+
+<h3 id="item59">Kriterieunderlag</h3>
+
+<ul>
+<li><a href="kriterieunderlaget2.doc">Kriterieunderlag V0.01</a>
+Skickat till referensgruppen 2002-12-20 (.doc)</li>
+
+<li><a href="Kriteriesvar_sammanstallning01.doc">Kriterier för
+utvärdering av DEF Toolkit: Sammanställning av svaren
+från ansvarsbiblioteken</a> 2003-01-28 (.doc)</li>
+
+<li><a href="Kriteriesvar_sammanstallning02.doc">Kriterier för
+utvärdering av DEF Toolkit: Sammanställning av svaren
+från ansvarsbiblioteken</a> 2003-02-11 (.doc)</li>
+</ul>
+
+<br/>
+ 
+
+<h3 id="item60">Testschema</h3>
+
+<ul>
+<li><a href="testschema.doc">Testschema 1.0</a> Presenterad
+på referensgruppsmötet i Lund 2003-03-05 (.doc)</li>
+
+<li><a href="admin.doc">Administration av TKL</a> ger tips om
+användaradministration, att ändra metadataformuläret
+och att skapa en kontrollerad vokabulär (.doc)</li>
+
+<li><a href="skapa_poster.doc">Att skapa, editera och makulera
+poster</a> även med information om att &quot;dubbelklassa&quot; en post
+och att flytta en post i ämneshierarkin (.doc)</li>
+</ul>
+
+<h3 id="item61">Referensgruppens rapporter</h3>
+
+<ul>
+<li>Maria Cederblad: (Malmö Högskola) - Länksamling
+för pedagoger <a href="Testrapport_MAH.doc">(Rapport)</a></li>
+
+<li>Ann-Sofi Cullhed (Uppsala UB) - Agora <a href="Testrapport_agora.doc">(Rapport)</a></li>
+
+<li>Ylva Gavel, (Karolinska institutets universitetsbibliotek) <a href="Testrapport_KIB.doc">(Rapport)</a></li>
+
+<li>Kjell Jansson (Kungl Tekniska högskolans bibliotek), - fd.
+EELS <a href="Testrapport_KTH.doc">(Rapport)</a></li>
+
+<li>Åse Paulsson (Biologibiblioteket, Lund) - Biogate <a href="Testrapport_biogate.doc">(Rapport)</a></li>
+
+<li>Alexandra Machol Ravnskov (Stockholms UB), -
+Rättskällan <a href="Testrapport_SUB.doc">(Rapport)</a></li>
+
+<li>Gullbritt Åhman (Göteborgs UB)- Samweb <a href="Testrapport_GUB.doc">(Rapport)</a></li>
+
+<li>Per Åkerlund (Sveriges lantbruksuniversitets bibliotek) -
+NOVAgate <a href="Testrapport_novagate.doc">(Rapport)</a></li>
+</ul>
+</li>
+</ul>
+</body>
+</html>

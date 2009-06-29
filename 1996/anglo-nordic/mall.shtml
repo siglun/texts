@@ -1,0 +1,26 @@
+<html>
+<title>
+table of contents
+</title>
+<body bgcolor"#FFFFFF" background="bggif.gif" width="800">
+<table>
+<tr>
+<td valign="top">
+<a href="slidex.shtml"><img src="previous.gif" align="left" border=0></a>
+<br clear="left">
+<!--#include file="left_col.html" -->
+</td>
+<td valign="top">
+<h1 align="right"><em>How to create a metadata "aware"<br>
+robot based search service</em></h1>
+<img src="space.gif" width=440 height=1><br>
+<hr noshade>
+<h3 align="right">Table of contents</h3>
+</td>
+<td valign="top" align="right">
+<a href="slide1.shtml><img src="next.gif" align="right" alt=[next] border=0>
+</a><br clear="right">
+<img src="space.gif" width=50 height=1><br>
+</td>
+</table>
+</body></html>

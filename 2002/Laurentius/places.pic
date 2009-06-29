@@ -1,0 +1,10 @@
+.PS 6.0 3.0
+BIGBOX: box invis wid 3 ht 2
+A: box invis wid 2.2 "Name-geographic (58)" with .e at BIGBOX.w
+B: box invis wid 2.2 "history-origin-place (5022)" with .w at BIGBOX.ne
+C: box invis wid 2.2 "history-provenance-place (5028)" with .w at BIGBOX.e
+D: box invis wid 2.2 "history-acquisision-place (5042)" with .w at BIGBOX.se
+arrow <- chop from A.e to B.w
+arrow <- chop from A.e to C.w 
+arrow <- chop from A.e to D.w
+.PE

@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE article PUBLIC "-//OASIS//DTD DocBook XML V4.1.2//EN"
+  "http://www.oasis-open.org/docbook/xml/4.1.2/docbookx.dtd" [
+]>
+
+<?xml-stylesheet
+      href="./db_special.xsl"
+      type="text/xsl"
+      media="screen"
+      title="default" ?>
+
+<article lang="sv">
+  <articleinfo>
+    <title>Sciecom -- Svenskt Resurscentrum för vetenskaplig kommunikation</title>
+    <author>
+      <firstname>Sigfrid</firstname>
+      <surname>Lundberg</surname>
+    </author>
+    <affiliation>
+      <orgname>Biblioteksdirektion, Lunds universitet</orgname>
+    </affiliation>
+    <revhistory>
+      <revision>
+	<revnumber>$Revision$</revnumber>
+	<date>$Date$</date>
+	<authorinitials>$Author$</authorinitials>
+      </revision>
+    </revhistory>
+    <indexterm>
+      <primary><ulink url="documentation.xml">Documentation</ulink></primary>
+      <seealso><ulink url="keystone-hotel.xml">Keystone Hotel</ulink></seealso>
+    </indexterm>
+  </articleinfo>
+
+  <sect1  id="top">
+    <title>About the web site</title>
+
+    <para>Sciecom lives on balder.lub.lu.se:/localdisk1/sciecom. The services
+      has two virtual servers on that machine, www.sciecom.org and
+      sciecom.lub.lu.se, where the latter is a sandbox for experimental
+      purposes (currently used by sciecom staff for testing ideas concerning
+      user interface and the structural design of the site). Most content on
+      the site maintained using the Keystone Software.</para> 
+
+    <para>There is one exception; the collection of articles &amp; news
+      distributed as <title>Sciecom Info</title> (available on <ulink
+	url="http://www.sciecom.org/sciecominfo/">http://www.sciecom.org/sciecominfo/</ulink>)
+      is a symbolic link from another directory /home/lubwww/lub/www/sciecom/sciecominfo
+      imported using NFS from yoda:/export/lubwww.</para>
+
+    <para>The service is based on the Biblioteca<footnoteref
+	linkend="note-biblioteca"/> service distributed by 
+      Indexdata. Sciecom is a founding member of the <ulink
+	url="keystone-hotel.xml">Keystone Hotel</ulink>.</para> 
+
+  </sect1>
+
+  <bibliography>
+    <title>Notes</title>
+    <biblioentry id="note-biblioteca">
+      <title><ulink
+	  url="http://www.indexdata.dk/keystone/doc/interface-base.tkl">The
+	  base portal Bibliotheca</ulink>
+      </title>
+    </biblioentry>
+  </bibliography>
+
+</article>

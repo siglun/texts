@@ -1,0 +1,209 @@
+body {
+    color: black;
+    font-family: arial,sans-serif;
+    font-size: 100%;
+    font-weight: normal;
+    margin-top: 5%;
+    margin-left: 10%;
+    margin-right:10%;
+}
+
+blockquote.abstract {
+    font-size: 90%;
+    text-align: left;
+    margin-left: +10%;
+    background-color: white;
+}
+
+blockquote {
+    font-size: 90%;
+    font-style: italic;
+    text-align: left;
+    margin-left: +10%;
+    background-color: white;
+}
+
+dl, p, li {
+    font-size: 90%;
+    text-align: left;
+    margin-left:  +2%;
+    margin-right: +2%;
+    background-color: white;
+}
+
+p.navigation {
+    font-size: 80%;
+    text-align: right;
+    background-color: white;
+}
+
+p.right {
+    font-size: 80%;
+    text-align: right;
+    background-color: white;
+}
+
+div {
+    text-align: left;
+    margin-left:  +2%;
+    margin-right: +2%;
+    background-color: white;
+}
+
+
+pre {
+    font-family: courier;
+    width: 80%;
+}
+
+p.author {
+    font-style: italic;
+    text-align: center;
+    background-color: white;
+}
+
+h1.title {
+    font-size: 120%;
+    font-family: arial,sans-serif;
+    font-weight: bold;
+    text-align: center;
+    background-color: white;
+    margin-left:  +2%;
+    margin-right: +2%;
+}
+
+.level1 {
+    background-color: white;
+}
+
+.level2 {
+    background-color: white;
+}
+
+.level3 {
+    background-color: white;
+}
+
+.level4 {
+    background-color: white;
+}
+
+h1 {
+    font-size: 120%;
+    font-weight: bold;
+    font-family: arial,sans-serif;
+    background-color: white;
+    margin-left:  +2%;
+    margin-right: +2%;
+}
+
+h2, h3, h4 {
+    font-family: arial,sans-serif;
+    font-size: 100%;
+    font-weight: bold;
+    background-color: white;
+}
+
+table {
+    text-align: left;
+    width: 80%;
+    color: black;
+    background-color: #eeeeee;
+    margin-left: +5%;
+    vertical-align: top;
+}
+
+caption {
+    text-align: center;
+    color: black;
+    background-color: #eeeeee;
+    font-weight: bold;
+    font-size: 90%;
+    vertical-align: top;
+    margin-left: +5%;
+    border-top: solid thin;
+    border-bottom: none;
+    border-right: none;
+    border-left: solid thin;
+}
+
+td {
+    text-align: left;
+    color: black;
+    background-color: #ffffff;
+    font-size: 90%;
+    vertical-align: top;
+    border-top: solid thin;
+    border-bottom: none;
+    border-right: none;
+    border-left: solid thin;
+}
+
+th {
+    text-align: left;
+    color: black;
+    background-color: #ffffff;
+    font-size: 90%;
+    vertical-align: top;
+    border-top: solid thin;
+    border-bottom: none;
+    border-right: none;
+    border-left: solid thin;
+}
+
+table.navigation {
+    text-align: center;
+    color: black;
+    background-color: white;
+    font-size: 90%;
+    vertical-align: top;
+}
+
+td.left {
+    text-align: left;
+    color: black;
+    background-color: white;
+    vertical-align: top;
+    border: none;
+}
+
+td.center {
+    text-align: center;
+    color: black;
+    background-color: white;
+    vertical-align: top;
+    border:none;
+    background-color: white;
+}
+
+td.right {
+    text-align: right;
+    color: black;
+    background-color: white;
+    vertical-align: top;
+    border:none;
+    background-color: white;
+}
+
+span.red {
+	color: red;
+}
+
+a:active {
+    color: #660000;
+}
+
+a:link {
+    color: #000066;
+}
+
+a:visited {
+    color: #660000;
+}
+
+hr {
+    border-top: solid thin;
+    border-bottom: none;
+    border-right: none;
+    border-left: none;
+} 

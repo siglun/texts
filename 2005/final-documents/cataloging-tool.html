@@ -1,0 +1,55 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html><head><title>Cataloging and publishing in XERXES and Scripa</title><link rel="stylesheet" href="/css-style/html_print.css"/><meta http-equiv="Content-Type" content="text/html; charset=UTF-8"/></head><body><p class="right"><strong>
+	  Back:
+	</strong><a href="documentation.html">Documentation</a><strong>
+		See also:
+	      </strong><a href="jarring.html">Jarring</a>,
+	    <a href="ediffah.html">Ediffah</a></p><div class="box"><h1 class="title"><em>Cataloging and publishing in XERXES and Scripa</em></h1><p class="author">
+      Sigfrid
+      Lundberg
+    <br/>
+      Biblioteksdirektion, Lunds universitet
+    <br/><strong>Revision:</strong>$Revision$,
+      <strong>Date:</strong>$Date$,
+      <strong>Editor:</strong>$Author$</p><div class="level1"><h2>Table of contents</h2><ul><li><a href="#top">Introduction</a></li><li><a href="#we_is_the_code">Where is the code maintained?</a></li><li><a href="#footnoteshere">
+	    Footnotes
+	  </a></li></ul></div><div class="level1" id="top">
+    <h1 class="level1">Introduction</h1>
+
+    <p>
+
+    </p>
+  </div><div class="level1" id="we_is_the_code">
+    <h1 class="level1">Where is the code maintained?</h1>
+
+    <p>This is the code repository for the cataloging tool used in XERXES
+      and Scripta Academica Lundensia. The problem addressed is how to share as 
+      much code between the services, and still be able to maintain the
+      differences without too much trouble. The code store contains
+      directories with code with various degree of specialization as
+      follows:</p>
+
+    <table>
+      <caption>The code repository of the cataloging tool</caption>
+      
+	<tr><td>
+	      <em>Directory</em>
+	    </td><td>
+	      <em>Content</em>
+	    </td></tr><tr><td>generic</td><td>Common code and files</td></tr><tr><td>author</td><td>Code used by authors only in
+			both services</td></tr><tr><td>staff</td><td>Code used by staff only in
+			both services</td></tr><tr><td>scripta/generic</td><td>Common code and files in scripta</td></tr><tr><td>scripta/author</td><td>Code used by authors only in scripta</td></tr><tr><td>scripta/staff</td><td>Code used by staff only in scripta</td></tr><tr><td>xerxes/generic</td><td>Common code and files in xerxes</td></tr><tr><td>xerxes/author</td><td>Code used by authors only in xerxes</td></tr><tr><td>xerxes/staff</td><td>Code used by staff only in xerxes</td></tr>
+      
+    </table>
+
+    <p>The program ./bin/create_services.pl searches these directories and
+      creates symbolic links to the content here in the directories used in
+      the actual services. In searching it first looks in the generic
+      directory to identify files, then it looks corresponding directories
+      containing specialized code. If it finds such code it will use that,
+      and if there is such code, it will take that instead.</p>
+
+    <p>The goal is to have almost everything except configuration files in
+      the generic directory.</p> 
+
+  </div><div class="level1"><h1 id="footnoteshere">Notes</h1></div></div></body></html>

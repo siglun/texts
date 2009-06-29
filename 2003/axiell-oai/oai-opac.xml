@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="ISO-8859-1"?> 
+<!DOCTYPE TEI.2 SYSTEM 'http://sigge.lub.lu.se/tei/tei2.dtd' [
+<!ENTITY % TEI.XML "INCLUDE">  
+<!ENTITY % TEI.prose "INCLUDE" > 
+<!ENTITY % TEI.linking "INCLUDE" > 
+<!ENTITY % TEI.figures "INCLUDE" >
+<!ENTITY bakgrund      SYSTEM "bakgrund.xml">
+<!ENTITY oaipmh        SYSTEM "oai-pmh.xml">
+<!ENTITY opac          SYSTEM "opac.xml">
+<!ENTITY programvara   SYSTEM "oai-programvara.xml">
+<!ENTITY words         SYSTEM "nagra_ord.xml">
+<!ENTITY slutsatser    SYSTEM "oai-slutsatser.xml">
+<!ENTITY tack          SYSTEM "acknowledgements.xml">
+<!ENTITY eacute  "&#233;" >
+<!ENTITY ccedil  "&#231;" >
+<!ENTITY ndash "<ndash/>" >
+<!ENTITY mdash "<mdash/>" >
+<!ENTITY approx "<approx/>" >
+]>
+
+<TEI.2>
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+	<title type="main">Implementering av OAI-PMH i ett
+         bibliotekssystem</title>
+	<author>Sigfrid Lundberg</author>
+      </titleStmt>
+      <publicationStmt>
+	<publisher>Författaren</publisher>
+	<pubPlace>Lund</pubPlace> <date>2001</date>
+      </publicationStmt>
+      <sourceDesc><p>Detta är en orginalpublikation</p></sourceDesc>
+    </fileDesc>
+  </teiHeader>
+  <text>
+    <front>
+      <titlePage>
+	<docTitle>
+          <titlePart type="main">Implementering av OAI-PMH i ett
+         bibliotekssystem</titlePart>
+	  <titlePart type="sub">&mdash; Några ord på vägen</titlePart> 
+	</docTitle>
+	<byline>av
+	  <docAuthor><![CDATA[Sigfrid Lundberg (sigfrid.lundberg@lub.lu.se)
+Biblioteksdirektionen
+Lunds universitet]]></docAuthor>
+        </byline>
+      </titlePage>
+        <div type="abstract">
+	<p>Syftet med denna text är att ge lite kött på benen om vad OAI-PMH är,
+vad det kan användas till och hur det skulle kunna integreras i ett bibliotekssystem.
+Det är inte en ersättning för andra dokument utan skall ses som några ord på vägen för organisationer som planerar att eller är i färd med att implementera OAI-PMH.</p>
+      </div>
+    </front>
+    <body>
+
+      &bakgrund;
+      &oaipmh;
+      &opac;
+      &programvara;
+      &words;
+      &slutsatser;
+      &tack;
+
+      </body>
+
+    </text>
+
+<!--
+
+  $Id$
+ 
+  $Log$
+  Revision 1.1  2009/06/29 11:10:56  sigfrid
+  Initial revision
+
+  Revision 1.4  2003/04/22 12:39:58  sigge
+  Lagt till acknowledgments
+
+  Revision 1.3  2003/04/21 19:56:10  siglun
+  Lagt till sammanfattning
+
+  Revision 1.2  2003/04/21 17:42:32  siglun
+  Kört rättstavning
+
+  Revision 1.1  2003/04/18 18:27:55  siglun
+  Initial revision
+
+
+-->
+
+</TEI.2>

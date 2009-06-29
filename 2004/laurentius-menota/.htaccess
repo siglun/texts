@@ -1,0 +1,8 @@
+AuthType Basic
+AuthName "A nordic union catalogue for medieval manuscripts?"
+AuthGroupFile /dev/null
+AuthUserFile /home/sigge/WWW/2004/laurentius-menota/.access_dir/passwd
+require user partner
+
+AddDescription "Project Proposal" samkatalog_hosting.html
+

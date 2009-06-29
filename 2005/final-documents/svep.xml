@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE article PUBLIC "-//OASIS//DTD DocBook XML V4.1.2//EN"
+  "http://www.oasis-open.org/docbook/xml/4.1.2/docbookx.dtd" [
+]>
+
+<?xml-stylesheet
+      href="./db_special.xsl"
+      type="text/xsl"
+      media="screen"
+      title="default" ?>
+
+<article lang="sv">
+  <articleinfo>
+    <title>SVEP project web site</title>
+    <author>
+      <firstname>Sigfrid</firstname>
+      <surname>Lundberg</surname>
+    </author>
+    <affiliation>
+      <orgname>Biblioteksdirektion, Lunds universitet</orgname>
+    </affiliation>
+    <revhistory>
+      <revision>
+	<revnumber>$Revision$</revnumber>
+	<date>$Date$</date>
+	<authorinitials>$Author$</authorinitials>
+      </revision>
+    </revhistory>
+    <indexterm>
+      <primary><ulink url="documentation.xml">Documentation</ulink></primary>
+      <seealso><ulink url="keystone-hotel.xml">Keystone Hotel</ulink></seealso>
+    </indexterm>
+  </articleinfo>
+
+
+  <sect1  id="top">
+    <title>About the web site</title>
+
+    <para>SVEP lives on balder.lub.lu.se:/localdisk1/svep-project. The service
+      has one virtual server on that machine, www.svep-project.se 
+      Most content on the site are maintained by project partners using the
+      Keystone Software.</para>
+
+    <para>There is one exception; in addition to the public site the project
+      also has a password protected intranet. Parts of that intranet is
+      maintained using an upload script which permits partners to upload
+      internal information. The intranet is on <ulink
+	url="http://www.svep-projekt.se/internt/">http://www.svep-projekt.se/internt/</ulink>.
+      The password protection is a very simple one, with a .htaccess file in
+      the protected directory. In addition the project has a mailing list
+      maintained by majordomo@munin.lub.lu.se with a standard web
+      archive.</para> 
+
+    <para>The service is based on the Biblioteca<footnoteref
+	linkend="note-biblioteca"/> service distributed by 
+      Indexdata. See <ulink url="keystone-hotel.xml">Keystone
+	Hotel</ulink></para> 
+
+
+  </sect1>
+
+  <bibliography>
+    <title>Notes</title>
+    <biblioentry id="note-biblioteca">
+      <title><ulink
+	  url="http://www.indexdata.dk/keystone/doc/interface-base.tkl">The
+	  base portal Bibliotheca</ulink>
+      </title>
+    </biblioentry>
+  </bibliography>
+
+</article>

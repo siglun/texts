@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<div type="display" rend="box">
+  <head>Exampel 3. Strindbergsbrevet i Exempel 2 i klartext</head>
+  <div>
+    <opener>
+      <address>
+	<addrLine>Till</addrLine>
+         <name
+	reg="Strindberg, Kerstin"
+         type="person">Kerstin Strindberg</name>
+    </address>
+    <dateline>
+      <name type="place">Lund</name> <date value="1897-03-29">29 Mars 1897</date>
+    </dateline>
+    <salute>Kära stackars Lilltösen,</salute>
+  </opener>
+  <p>Du har varit sjuk, har haft det svårt och jag
+    trodde du var ond. Förlåt! Men jag anade det,
+    kände det. Den natten du sjuknade drömde jag,
+    att jag såg dig falla ned från en trädtopp,
+    du föll från gren till gren; men när jag full
+    av ängslan kom springande, satt du helt lugnt på
+    nedersta grenen. Alltså tur i sista ögonblicket.</p>
+  <p>Vad säger
+    <name type="person"
+      reg="Uhl, Frida">Frida</name>-mamma om din sjukdom?
+  </p>
+  <p><name type="person"
+      reg="Uhl, Marie">Mormor</name> har rätt:
+    livet förgår och det bästa få vi
+    ej njuta. Vi leva var och en i sin ödemark,
+    främmande för varandra, åtskils, ansatta av
+    samvetsagg. Så kan våra öden länkas.</p>
+  <p>Här händer ingenting. Har tråkigt,
+    då jag icke kan arbeta; väntar bara på
+    ett slut, vilket som helst, i eländet.</p>
+    <p>Våren har gått sin väg, luften är svart
+      som i november; regn som i oktober.
+      Kallt som i december.</p>
+    <closer>
+      <salute>Lev väl!</salute>
+      <signed>Pappa <name type="person"
+	  reg="Strindberg, August">August</name>.</signed>
+    </closer>
+  </div>
+</div>

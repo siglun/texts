@@ -1,0 +1,310 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE office:document-content PUBLIC "-//OpenOffice.org//DTD OfficeDocument
+1.0//EN" "office.dtd">
+<office:document-content xmlns:office="http://openoffice.org/2000/office"
+  xmlns:style="http://openoffice.org/2000/style"
+  xmlns:text="http://openoffice.org/2000/text"
+  xmlns:table="http://openoffice.org/2000/table"
+  xmlns:draw="http://openoffice.org/2000/drawing"
+  xmlns:fo="http://www.w3.org/1999/XSL/Format"
+  xmlns:xlink="http://www.w3.org/1999/xlink"
+  xmlns:number="http://openoffice.org/2000/datastyle"
+  xmlns:svg="http://www.w3.org/2000/svg"
+  xmlns:chart="http://openoffice.org/2000/chart"
+  xmlns:dr3d="http://openoffice.org/2000/dr3d"
+  xmlns:math="http://www.w3.org/1998/Math/MathML"
+  xmlns:form="http://openoffice.org/2000/form"
+  xmlns:script="http://openoffice.org/2000/script" office:class="text"
+  office:version="1.0">
+  <office:script/>
+  <office:font-decls><style:font-decl style:name="Tahoma1"
+      fo:font-family="Tahoma"/><style:font-decl style:name="Andale Sans UI"
+      fo:font-family="&apos;Andale Sans UI&apos;"
+      style:font-pitch="variable"/><style:font-decl style:name="Tahoma"
+      fo:font-family="Tahoma" style:font-pitch="variable"/><style:font-decl
+      style:name="Thorndale" fo:font-family="Thorndale"
+      style:font-family-generic="roman"
+      style:font-pitch="variable"/>
+  </office:font-decls>
+  <office:automatic-styles>
+    <style:style style:name="EadHeader" style:family="table">
+      <style:properties style:width="5.7674inch" table:align="margins"/>
+    </style:style><style:style style:name="EadHeader.A"
+      style:family="table-column">
+      <style:properties style:column-width="2.8833inch"
+	style:rel-column-width="32767*"/></style:style><style:style
+      style:name="EadHeader.B" style:family="table-column"><style:properties
+	style:column-width="2.884inch"
+	style:rel-column-width="32768*"/></style:style><style:style
+      style:name="did" style:family="table"><style:properties
+	style:width="5.7674inch"
+	table:align="margins"/></style:style><style:style style:name="did.A"
+      style:family="table-column"><style:properties
+	style:column-width="2.8833inch"
+	style:rel-column-width="32767*"/></style:style><style:style
+      style:name="did.B" style:family="table-column"><style:properties
+	style:column-width="2.884inch"
+	style:rel-column-width="32768*"/></style:style><style:style
+      style:name="did.A1" style:family="table-cell"><style:properties
+	fo:padding="0.0382inch" fo:border-left="0.0007inch solid #000000"
+	fo:border-right="none" fo:border-top="0.0007inch solid #000000"
+	fo:border-bottom="0.0007inch solid #000000"/></style:style><style:style
+      style:name="Table1" style:family="table"><style:properties
+	style:width="5.7674inch"
+	table:align="margins"/></style:style><style:style style:name="Table1.A"
+      style:family="table-column"><style:properties
+	style:column-width="2.8833inch"
+	style:rel-column-width="32767*"/></style:style><style:style
+      style:name="Table1.B" style:family="table-column"><style:properties
+	style:column-width="2.884inch"
+	style:rel-column-width="32768*"/></style:style><style:style
+      style:name="Table1.A1" style:family="table-cell"><style:properties
+	fo:padding="0.0382inch" fo:border-left="0.0007inch solid #000000"
+	fo:border-right="none" fo:border-top="0.0007inch solid #000000"
+	fo:border-bottom="0.0007inch solid #000000"/></style:style><style:style
+      style:name="Sect1"
+      style:family="section"><style:properties><style:columns
+	  fo:column-count="0"
+	  fo:column-gap="0inch"/></style:properties></style:style></office:automatic-styles>
+  <office:body><text:sequence-decls><text:sequence-decl text:display-outline-level="0" text:name="Illustration"/><text:sequence-decl text:display-outline-level="0" text:name="Table"/><text:sequence-decl text:display-outline-level="0" text:name="Text"/><text:sequence-decl text:display-outline-level="0" text:name="Drawing"/></text:sequence-decls>
+    <text:section text:style-name="Sect1" text:name="EADheader">
+      <text:h text:style-name="Heading">The archive XXX: An Inventory of at the.. </text:h>
+      <text:h text:style-name="Heading">Header information</text:h>
+	<table:table table:name="EadHeader" table:style-name="EadHeader">
+	  <table:table-column
+	    table:style-name="EadHeader.A"/><table:table-column
+	    table:style-name="EadHeader.B"/><table:table-row><table:table-cell
+	      table:value-type="string"><text:p
+		text:style-name="Standard">Title</text:p></table:table-cell><table:table-cell table:value-type="string"><text:p text:style-name="Standard">:</text:p></table:table-cell></table:table-row><table:table-row><table:table-cell table:value-type="string"><text:p text:style-name="Standard">Subtitle</text:p></table:table-cell><table:table-cell table:value-type="string"><text:p text:style-name="Standard">An Inventory of at the </text:p></table:table-cell></table:table-row><table:table-row><table:table-cell table:value-type="string"><text:p text:style-name="Standard">Author</text:p></table:table-cell><table:table-cell table:value-type="string"><text:p text:style-name="Standard">Inventory prepared by </text:p></table:table-cell></table:table-row><table:table-row><table:table-cell table:value-type="string"><text:p text:style-name="Standard">Publisher</text:p></table:table-cell><table:table-cell table:value-type="string"><text:p text:style-name="Standard"/></table:table-cell></table:table-row><table:table-row><table:table-cell table:value-type="string"><text:p text:style-name="Standard">Publisher&apos;s address</text:p></table:table-cell><table:table-cell table:value-type="string"><text:p text:style-name="Standard"/></table:table-cell></table:table-row><table:table-row><table:table-cell table:value-type="string"><text:p text:style-name="Standard">Date published</text:p></table:table-cell><table:table-cell table:value-type="string"><text:p text:style-name="Standard"><text:span text:style-name="Date"/></text:p></table:table-cell></table:table-row><table:table-row><table:table-cell table:value-type="string"><text:p text:style-name="Standard">Identifier</text:p></table:table-cell><table:table-cell table:value-type="string"><text:p text:style-name="Standard"/></table:table-cell></table:table-row><table:table-row><table:table-cell table:value-type="string"><text:p text:style-name="Standard">Identifier code</text:p></table:table-cell><table:table-cell table:value-type="string"><text:p text:style-name="Standard"/></table:table-cell></table:table-row><table:table-row><table:table-cell table:value-type="string"><text:p text:style-name="Standard">Language of finding aid (code)</text:p></table:table-cell><table:table-cell table:value-type="string"><text:p text:style-name="Standard"/></table:table-cell></table:table-row></table:table>
+    </text:section>
+    <text:h text:style-name="EAD Archival description" text:level="1">archdesc: collection</text:h>
+    <text:h text:style-name="did" text:level="2">Collection Summary</text:h>
+    <table:table table:name="did" table:style-name="did">
+      <table:table-column table:style-name="did.A"/>
+      <table:table-column table:style-name="did.B"/>
+      <table:table-row>
+	<table:table-cell table:style-name="did.A1" table:value-type="string">
+	  <text:p text:style-name="Standard">Repository</text:p>
+	</table:table-cell><table:table-cell table:style-name="did.A1"
+	  table:value-type="string"><text:p
+	    text:style-name="Standard"><text:bookmark-start
+	      text:name="did_repository-N1003E"/><text:bookmark-end
+	      text:name="did_repository-N1003E"/></text:p>
+	</table:table-cell>
+      </table:table-row>
+      <table:table-row>
+	<table:table-cell table:style-name="did.A1" table:value-type="string">
+	  <text:p text:style-name="Standard">Creator</text:p>
+	</table:table-cell>
+	<table:table-cell table:style-name="did.A1" table:value-type="string">
+	  <text:p text:style-name="Standard"><text:bookmark-start text:name="did_origination-N1003E"/><text:bookmark-end text:name="did_origination-N1003E"/></text:p></table:table-cell></table:table-row><table:table-row><table:table-cell table:style-name="did.A1" table:value-type="string"><text:p text:style-name="Standard">Title</text:p></table:table-cell><table:table-cell table:style-name="did.A1" table:value-type="string"><text:p text:style-name="Standard"><text:bookmark-start text:name="did_unittitle-N1003E"/><text:bookmark-end text:name="did_unittitle-N1003E"/></text:p></table:table-cell></table:table-row><table:table-row><table:table-cell table:style-name="did.A1" table:value-type="string"><text:p text:style-name="Standard">Quantity</text:p></table:table-cell><table:table-cell table:style-name="did.A1" table:value-type="string"><text:p text:style-name="Standard"><text:bookmark-start text:name="did_physdesc-N1003E"/><text:bookmark-end text:name="did_physdesc-N1003E"/></text:p></table:table-cell></table:table-row><table:table-row><table:table-cell table:style-name="did.A1" table:value-type="string"><text:p text:style-name="Standard">Abstract</text:p></table:table-cell><table:table-cell table:style-name="did.A1" table:value-type="string"><text:p text:style-name="Standard"><text:bookmark-start text:name="did_abstract-N1003E"/><text:bookmark-end text:name="did_abstract-N1003E"/></text:p></table:table-cell></table:table-row><table:table-row><table:table-cell table:style-name="did.A1" table:value-type="string"><text:p text:style-name="Standard">Identification</text:p></table:table-cell><table:table-cell table:style-name="did.A1" table:value-type="string"><text:p text:style-name="Standard"><text:bookmark-start text:name="did_unitid-N1003E"/><text:bookmark-end text:name="did_unitid-N1003E"/></text:p></table:table-cell></table:table-row><table:table-row><table:table-cell table:style-name="did.A1" table:value-type="string"><text:p text:style-name="Standard">Language of the Material</text:p></table:table-cell><table:table-cell table:style-name="did.A1" table:value-type="string"><text:p text:style-name="Standard"><text:bookmark-start text:name="did_langmaterial-N1003E"/><text:bookmark-end text:name="did_langmaterial-N1003E"/></text:p></table:table-cell></table:table-row><table:table-row><table:table-cell table:style-name="did.A1" table:value-type="string"><text:p text:style-name="Standard">Material Specific Details</text:p></table:table-cell><table:table-cell table:style-name="did.A1" table:value-type="string"><text:p text:style-name="Standard"><text:bookmark-start text:name="did_materialspec-N1003E"/><text:bookmark-end text:name="did_materialspec-N1003E"/></text:p></table:table-cell></table:table-row><table:table-row><table:table-cell table:style-name="did.A1" table:value-type="string"><text:p text:style-name="Standard">Note</text:p></table:table-cell><table:table-cell table:style-name="did.A1" table:value-type="string"><text:p text:style-name="Standard"><text:bookmark-start text:name="did_note-N1003E"/><text:bookmark-end text:name="did_note-N1003E"/></text:p></table:table-cell></table:table-row></table:table> 
+
+    <text:h text:style-name="bioghist" text:level="2">Biography of </text:h>
+
+    <text:p text:style-name="Text body">A concise essay or chronology that
+      places the archival materials in context by providing information about
+      their creator(s). Includes significant information about the life of an
+      individual or family, or the administrative history of a corporate
+      body. The &lt;bioghist&gt; may contain just text in a series of
+      paragraphs, and/or a Chronology List</text:p>
+
+    <text:h text:style-name="scopecontent" text:level="2">Scope and Contents of
+      the Collection</text:h>
+
+    <text:p text:style-name="Text body">A prose statement summarizing the range
+      and topical coverage of the described materials, often mentioning the
+      form and arrangement of the materials and naming significant
+      organizations, individuals, events, places, and subjects represented. The
+      purpose of the &lt;scopecontent&gt; element is to assist readers in evaluating
+      the potential relevance of the materials to their research. It may
+      highlight particular strengths of, or gaps in, the described materials
+      and may summarize in narrative form some of the descriptive information
+      entered in other parts of the finding aid.</text:p> 
+
+    <text:h text:style-name="arrangement" text:level="2">Arrangement of the
+      Papers</text:h>
+
+    <text:p text:style-name="Text body">Information on how the described
+      materials have been subdivided into smaller units, e.g., record groups
+      into series, identifying the logical or physical groupings within a
+      hierarchical structure. Can also be used to express the filing sequence
+      of the described materials, such as the principle characteristics of the
+      internal structure, or the physical or logical ordering of materials,
+      including alphabetical, chronological, geographical, office of origin,
+      and other schemes. Identifying logical groupings and the arrangement
+      pattern may enhance retrieval by researchers.</text:p>
+
+    <text:h text:style-name="accessrestrict" text:level="2">Restrictions on Access</text:h>
+
+    <text:p text:style-name="Text body">Information about conditions that
+      affect the availability of the materials being described. May indicate
+      the need for an appointment or the nature of restrictions imposed by the
+      donor, legal statute, repository, or other agency. May also indicate the
+      lack of restrictions.</text:p> 
+
+    <text:p text:style-name="Text body" >Do not confuse with Conditions
+      Governing Use &lt;userestrict&gt;, which designates information
+    about limitations on the use of the described materials after access has
+    been granted.</text:p>
+
+    <text:h text:style-name="userestrict" text:level="2" >Restrictions on Use</text:h>
+
+    <text:p text:style-name="Text body">Information about conditions that
+    affect use of the described materials after access has been granted. May
+    indicate limitations, regulations, or special procedures imposed by a
+    repository, donor, legal statute, or other agency regarding reproduction,
+    publication, or quotation of the described materials. May also indicate the
+    absence of restrictions, such as when copyright or literary rights have
+    been dedicated to the public. Do not confuse with Conditions Governing
+    Access &lt;accessrestrict&gt;, which designates information about
+    conditions affecting the availability of the described materials. Preferred
+    Citation &lt;prefercite&gt; may be used in conjunction with &lt;userestrict&gt;
+    to encode statements specifying how the described materials should be
+    referenced when reproduced, published, or quoted by patrons.</text:p>
+
+    <text:h text:style-name="relatedmaterial" text:level="2">Related Materials</text:h>
+    <text:h text:style-name="Text body"/>
+    <text:h text:style-name="separatedmaterial" text:level="2">Separated Materials</text:h>
+    <text:p text:style-name="Text body"/>
+    <text:h text:style-name="odd" text:level="2">Other Descriptive Data</text:h>
+    <text:p text:style-name="Text body"/>
+    <text:h text:style-name="originalsloc" text:level="2">Location of Originals</text:h>
+    <text:p text:style-name="Text body"/>
+    <text:h text:style-name="altformavail" text:level="2">Other Formats</text:h>
+    <text:p text:style-name="Text body"/>
+    <text:h text:style-name="custodhist" text:level="2">Custodial History</text:h>
+    <text:p text:style-name="Text body"/>
+    <text:h text:style-name="phystech" text:level="2">Physical Characteristics
+      and Technical Requirements</text:h>
+    <text:p text:style-name="Text body"/>
+    <text:h text:style-name="prefercite" text:level="2">Preferred Citation</text:h>
+    <text:p text:style-name="Text body"/>
+    <text:h text:style-name="acqinfo" text:level="2">Acquisition Information</text:h>
+    <text:p text:style-name="Text body"/>
+    <text:h text:style-name="processinfo" text:level="2">Processing
+      Information</text:h>
+    <text:p text:style-name="Text body"/>
+    <text:h text:style-name="appraisal" text:level="2">Appraisal</text:h>
+    <text:p text:style-name="Text body"/>
+    <text:h text:style-name="accruals" text:level="2">Accruals</text:h>
+    <text:p text:style-name="Text body"/>
+    <text:h text:style-name="otherfindaid" text:level="2">Other Finding
+      Aids</text:h>
+    <text:p text:style-name="Text body"/>
+    <text:h text:style-name="fileplan" text:level="2">File Plan</text:h>
+    <text:p text:style-name="Text body"/>
+    <text:h text:style-name="index" text:level="2">Index</text:h>
+    <text:h text:style-name="bibliography" text:level="2">Bibliography</text:h>
+    <text:p text:style-name="Text body"/>
+    <text:p text:style-name="Text body"/>
+    <text:h text:style-name="EAD Content 1" text:level="1">
+      <text:bookmark text:name="series1"/>c01: series</text:h>
+    <text:h text:style-name="did" text:level="2">Collection summary</text:h>
+    <table:table table:name="Table1"
+      table:style-name="Table1"><table:table-column
+	table:style-name="Table1.A"/><table:table-column
+	table:style-name="Table1.B"/><table:table-row><table:table-cell
+	  table:style-name="Table1.A1" table:value-type="string"><text:p
+	    text:style-name="Standard">Repository</text:p></table:table-cell><table:table-cell table:style-name="Table1.A1" table:value-type="string"><text:p text:style-name="Standard"><text:bookmark-start text:name="did_repository-N10185"/><text:bookmark-end text:name="did_repository-N10185"/></text:p></table:table-cell></table:table-row><table:table-row><table:table-cell table:style-name="Table1.A1" table:value-type="string"><text:p text:style-name="Standard">Creator</text:p></table:table-cell><table:table-cell table:style-name="Table1.A1" table:value-type="string"><text:p text:style-name="Standard"><text:bookmark-start text:name="did_origination-N10185"/><text:bookmark-end text:name="did_origination-N10185"/></text:p></table:table-cell></table:table-row><table:table-row><table:table-cell table:style-name="Table1.A1" table:value-type="string"><text:p text:style-name="Standard">Title</text:p></table:table-cell><table:table-cell table:style-name="Table1.A1" table:value-type="string"><text:p text:style-name="Standard"><text:bookmark-start text:name="did_unittitle-N10185"/><text:bookmark-end text:name="did_unittitle-N10185"/></text:p></table:table-cell></table:table-row><table:table-row><table:table-cell table:style-name="Table1.A1" table:value-type="string"><text:p text:style-name="Standard">Quantity</text:p></table:table-cell><table:table-cell table:style-name="Table1.A1" table:value-type="string"><text:p text:style-name="Standard"><text:bookmark-start text:name="did_physdesc-N10185"/><text:bookmark-end text:name="did_physdesc-N10185"/></text:p></table:table-cell></table:table-row><table:table-row><table:table-cell table:style-name="Table1.A1" table:value-type="string"><text:p text:style-name="Standard">Abstract</text:p></table:table-cell><table:table-cell table:style-name="Table1.A1" table:value-type="string"><text:p text:style-name="Standard"><text:bookmark-start text:name="did_abstract-N10185"/><text:bookmark-end text:name="did_abstract-N10185"/></text:p></table:table-cell></table:table-row><table:table-row><table:table-cell table:style-name="Table1.A1" table:value-type="string"><text:p text:style-name="Standard">Identification</text:p></table:table-cell><table:table-cell table:style-name="Table1.A1" table:value-type="string"><text:p text:style-name="Standard"><text:bookmark-start text:name="did_unitid-N10185"/><text:bookmark-end text:name="did_unitid-N10185"/></text:p></table:table-cell></table:table-row><table:table-row><table:table-cell table:style-name="Table1.A1" table:value-type="string"><text:p text:style-name="Standard">Language of the Material</text:p></table:table-cell><table:table-cell table:style-name="Table1.A1" table:value-type="string"><text:p text:style-name="Standard"><text:bookmark-start text:name="did_langmaterial-N10185"/><text:bookmark-end text:name="did_langmaterial-N10185"/></text:p></table:table-cell></table:table-row><table:table-row><table:table-cell table:style-name="Table1.A1" table:value-type="string"><text:p text:style-name="Standard">Material Specific Details</text:p></table:table-cell><table:table-cell table:style-name="Table1.A1" table:value-type="string"><text:p text:style-name="Standard"><text:bookmark-start text:name="did_materialspec-N10185"/><text:bookmark-end text:name="did_materialspec-N10185"/></text:p></table:table-cell></table:table-row><table:table-row><table:table-cell table:style-name="Table1.A1" table:value-type="string"><text:p text:style-name="Standard">Note</text:p></table:table-cell><table:table-cell table:style-name="Table1.A1" table:value-type="string"><text:p text:style-name="Standard"><text:bookmark-start text:name="did_note-N10185"/><text:bookmark-end text:name="did_note-N10185"/></text:p></table:table-cell></table:table-row></table:table>
+    <text:h text:style-name="bioghist" text:level="2">Biography of </text:h>
+    <text:p text:style-name="Text body"/>
+    <text:h text:style-name="scopecontent" text:level="2">Scope and Contents of the Collection</text:h>
+    <text:p text:style-name="Text body">Blah blah blah</text:p>
+    <text:h text:style-name="arrangement" text:level="2">Arrangement of the Papers</text:h>
+    <text:p text:style-name="Text body">This collection is arranged... </text:p>
+    <text:h text:style-name="accessrestrict" text:level="2">Restrictions on Access</text:h>
+    <text:p text:style-name="Text body"/>
+    <text:h text:style-name="userestrict" text:level="2">Restrictions on Use</text:h>
+    <text:p text:style-name="Text body"/>
+    <text:h text:style-name="relatedmaterial" text:level="2">Related Materials</text:h>
+    <text:h text:style-name="Text body"/>
+    <text:h text:style-name="separatedmaterial" text:level="2">Separated Materials</text:h>
+    <text:p text:style-name="Text body"/>
+    <text:h text:style-name="odd" text:level="2">Other Descriptive Data</text:h>
+    <text:p text:style-name="Text body"/>
+    <text:h text:style-name="originalsloc" text:level="2">Location of Originals</text:h>
+    <text:p text:style-name="Text body"/>
+    <text:h text:style-name="altformavail" text:level="2">Other Formats</text:h>
+    <text:p text:style-name="Text body"/>
+    <text:h text:style-name="custodhist" text:level="2">Custodial History</text:h>
+    <text:p text:style-name="Text body"/>
+    <text:h text:style-name="phystech" text:level="2">Physical Characteristics
+      and Technical Requirements</text:h>
+    <text:p text:style-name="Text body"/>
+    <text:h text:style-name="prefercite" text:level="2">Preferred Citation</text:h>
+    <text:p text:style-name="Text body"/>
+    <text:h text:style-name="acqinfo" text:level="2">Acquisition Information</text:h>
+    <text:p text:style-name="Text body"/>
+    <text:h text:style-name="processinfo" text:level="2">Processing
+      Information</text:h>
+    <text:p text:style-name="Text body"/>
+    <text:h text:style-name="appraisal" text:level="2">Appraisal</text:h>
+    <text:p text:style-name="Text body"/>
+    <text:h text:style-name="accruals" text:level="2">Accruals</text:h>
+    <text:p text:style-name="Text body"/>
+    <text:h text:style-name="otherfindaid" text:level="2">Other Finding
+      Aids</text:h>
+    <text:p text:style-name="Text body"/>
+    <text:h text:style-name="fileplan">File Plan</text:h>
+    <text:p text:style-name="Text body"/>
+    <text:h text:style-name="index">Index</text:h>
+    <text:h text:style-name="bibliography">Bibliography</text:h>
+    <text:p text:style-name="Text body"/>
+    <text:p text:style-name="Text body"/>
+
+    <text:h text:style-name="EAD Content 2" text:level="2">
+      <text:bookmark text:name="series1"/>c01: series</text:h>
+    <text:h text:style-name="did" text:level="3">Collection summary</text:h>
+    <table:table table:name="Table1"
+      table:style-name="Table1"><table:table-column
+	table:style-name="Table1.A"/><table:table-column
+	table:style-name="Table1.B"/><table:table-row><table:table-cell
+	  table:style-name="Table1.A1" table:value-type="string"><text:p
+	    text:style-name="Standard">Repository</text:p></table:table-cell><table:table-cell table:style-name="Table1.A1" table:value-type="string"><text:p text:style-name="Standard"><text:bookmark-start text:name="did_repository-N10185"/><text:bookmark-end text:name="did_repository-N10185"/></text:p></table:table-cell></table:table-row><table:table-row><table:table-cell table:style-name="Table1.A1" table:value-type="string"><text:p text:style-name="Standard">Creator</text:p></table:table-cell><table:table-cell table:style-name="Table1.A1" table:value-type="string"><text:p text:style-name="Standard"><text:bookmark-start text:name="did_origination-N10185"/><text:bookmark-end text:name="did_origination-N10185"/></text:p></table:table-cell></table:table-row><table:table-row><table:table-cell table:style-name="Table1.A1" table:value-type="string"><text:p text:style-name="Standard">Title</text:p></table:table-cell><table:table-cell table:style-name="Table1.A1" table:value-type="string"><text:p text:style-name="Standard"><text:bookmark-start text:name="did_unittitle-N10185"/><text:bookmark-end text:name="did_unittitle-N10185"/></text:p></table:table-cell></table:table-row><table:table-row><table:table-cell table:style-name="Table1.A1" table:value-type="string"><text:p text:style-name="Standard">Quantity</text:p></table:table-cell><table:table-cell table:style-name="Table1.A1" table:value-type="string"><text:p text:style-name="Standard"><text:bookmark-start text:name="did_physdesc-N10185"/><text:bookmark-end text:name="did_physdesc-N10185"/></text:p></table:table-cell></table:table-row><table:table-row><table:table-cell table:style-name="Table1.A1" table:value-type="string"><text:p text:style-name="Standard">Abstract</text:p></table:table-cell><table:table-cell table:style-name="Table1.A1" table:value-type="string"><text:p text:style-name="Standard"><text:bookmark-start text:name="did_abstract-N10185"/><text:bookmark-end text:name="did_abstract-N10185"/></text:p></table:table-cell></table:table-row><table:table-row><table:table-cell table:style-name="Table1.A1" table:value-type="string"><text:p text:style-name="Standard">Identification</text:p></table:table-cell><table:table-cell table:style-name="Table1.A1" table:value-type="string"><text:p text:style-name="Standard"><text:bookmark-start text:name="did_unitid-N10185"/><text:bookmark-end text:name="did_unitid-N10185"/></text:p></table:table-cell></table:table-row><table:table-row><table:table-cell table:style-name="Table1.A1" table:value-type="string"><text:p text:style-name="Standard">Language of the Material</text:p></table:table-cell><table:table-cell table:style-name="Table1.A1" table:value-type="string"><text:p text:style-name="Standard"><text:bookmark-start text:name="did_langmaterial-N10185"/><text:bookmark-end text:name="did_langmaterial-N10185"/></text:p></table:table-cell></table:table-row><table:table-row><table:table-cell table:style-name="Table1.A1" table:value-type="string"><text:p text:style-name="Standard">Material Specific Details</text:p></table:table-cell><table:table-cell table:style-name="Table1.A1" table:value-type="string"><text:p text:style-name="Standard"><text:bookmark-start text:name="did_materialspec-N10185"/><text:bookmark-end text:name="did_materialspec-N10185"/></text:p></table:table-cell></table:table-row><table:table-row><table:table-cell table:style-name="Table1.A1" table:value-type="string"><text:p text:style-name="Standard">Note</text:p></table:table-cell><table:table-cell table:style-name="Table1.A1" table:value-type="string"><text:p text:style-name="Standard"><text:bookmark-start text:name="did_note-N10185"/><text:bookmark-end text:name="did_note-N10185"/></text:p></table:table-cell></table:table-row></table:table>
+    <text:h text:style-name="bioghist" text:level="3">Biography of </text:h>
+    <text:p text:style-name="Text body"/>
+    <text:h text:style-name="scopecontent" text:level="3">Scope and Contents of the Collection</text:h>
+    <text:p text:style-name="Text body">Blah blah blah</text:p>
+    <text:h text:style-name="arrangement" text:level="3">Arrangement of the Papers</text:h>
+    <text:p text:style-name="Text body">This collection is arranged... </text:p>
+    <text:h text:style-name="accessrestrict" text:level="3">Restrictions on Access</text:h>
+    <text:p text:style-name="Text body"/>
+    <text:h text:style-name="userestrict" text:level="3">Restrictions on Use</text:h>
+    <text:p text:style-name="Text body"/>
+    <text:h text:style-name="relatedmaterial" text:level="3">Related Materials</text:h>
+    <text:h text:style-name="Text body"/>
+    <text:h text:style-name="separatedmaterial" text:level="3">Separated Materials</text:h>
+    <text:p text:style-name="Text body"/>
+    <text:h text:style-name="odd" text:level="3">Other Descriptive Data</text:h>
+    <text:p text:style-name="Text body"/>
+    <text:h text:style-name="originalsloc" text:level="3">Location of Originals</text:h>
+    <text:p text:style-name="Text body"/>
+    <text:h text:style-name="altformavail" text:level="3">Other Formats</text:h>
+    <text:p text:style-name="Text body"/>
+    <text:h text:style-name="custodhist" text:level="3">Custodial History</text:h>
+    <text:p text:style-name="Text body"/>
+    <text:h text:style-name="phystech" text:level="3">Physical Characteristics
+      and Technical Requirements</text:h>
+    <text:p text:style-name="Text body"/>
+    <text:h text:style-name="prefercite" text:level="3">Preferred Citation</text:h>
+    <text:p text:style-name="Text body"/>
+    <text:h text:style-name="acqinfo" text:level="3">Acquisition Information</text:h>
+    <text:p text:style-name="Text body"/>
+    <text:h text:style-name="processinfo" text:level="3">Processing
+      Information</text:h>
+    <text:p text:style-name="Text body"/>
+    <text:h text:style-name="appraisal" text:level="3">Appraisal</text:h>
+    <text:p text:style-name="Text body"/>
+    <text:h text:style-name="accruals" text:level="3">Accruals</text:h>
+    <text:p text:style-name="Text body"/>
+    <text:h text:style-name="otherfindaid" text:level="3">Other Finding
+      Aids</text:h>
+    <text:p text:style-name="Text body"/>
+    <text:h text:style-name="fileplan" text:level="3">File Plan</text:h>
+    <text:p text:style-name="Text body"/>
+    <text:h text:style-name="index" text:level="3">Index</text:h>
+    <text:h text:style-name="bibliography" text:level="3">Bibliography</text:h>
+    <text:p text:style-name="Text body"/>
+    <text:p text:style-name="Text body"/>
+  </office:body>
+</office:document-content> 

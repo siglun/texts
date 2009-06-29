@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<html xmlns="http://www.w3.org/1999/xhtml">
+  <head>
+    <title>Diverse texter om digitalisering</title>
+    <link rel="stylesheet" href="/css-style/html.css" />
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+  </head>
+  <body>
+
+    <div class="top_left_box">
+      <!--#include virtual="../navigation.html" -->
+    </div>
+
+    <div class="top_right_box">
+
+      <h1>Diverse texter om digitalisering</h1>
+
+      <p>och även bilder.</p>
+
+      <ul>
+	<li>Här finns en text (ett "position paper") om vad jag anser att <a
+	  href="position.pdf">ett bra textarkiv bör kunna</a></li>
+	<li>Två bilder som beskriver arkitekturen för en digitaliseringstjänst
+	  och närmare bestämt hur
+	  <ol>
+	    <li><a href="dig-service.png">objekt kommer in i ett arkiv av
+		digitaliserade objekt</a></li>
+	    <li><a href="dig-outlet.png">information om de digitaliserade
+		objekten bör kunna spridas</a></li>
+	  </ol>
+	</li>
+	<li>En presentation jag höll vid ett möte på KB
+	  2004-11-04. Presentationen finns i
+	  <a href="presentation_04-11-04.html">html</a> och i
+	  <a href="presentation_04-11-04.pdf">pdf</a>
+	</li>
+      </ul>
+
+    </div>
+  </body>
+</html>

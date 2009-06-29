@@ -1,0 +1,150 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE article PUBLIC "-//OASIS//DTD DocBook XML V4.1.2//EN"
+  "http://www.oasis-open.org/docbook/xml/4.1.2/docbookx.dtd" [
+]>
+
+<?xml-stylesheet
+      href="./db_special.xsl"
+      type="text/xsl"
+      media="screen"
+      title="default" ?>
+<!--
+
+$Id$
+
+Last changed $Date$ by $Author$
+
+-->
+
+<article lang="sv">
+  <articleinfo>
+    <title>The changes done to the Keystone DLS in Xerxes and Scripta</title>
+    <author>
+      <firstname>Sigfrid</firstname>
+      <surname>Lundberg</surname>
+    </author>
+    <affiliation>
+      <orgname>Biblioteksdirektion, Lunds universitet</orgname>
+    </affiliation>
+    <revhistory>
+      <revision>
+	<revnumber>$Revision$</revnumber>
+	<date>$Date$</date>
+	<authorinitials>$Author$</authorinitials>
+      </revision>
+    </revhistory>
+    <indexterm>
+      <primary>
+	<ulink url="documentation.xml">Documentation</ulink>
+      </primary>
+      <seealso>
+	<ulink url="cataloging-tool.xml">Cataloging tool</ulink>
+      </seealso>
+      <seealso>
+	<ulink url="keystone-hotel.xml">Keystone Hotel</ulink>
+      </seealso>
+      <seealso>
+	<ulink url="xerxes-scripta.xml">Xerxes &amp; Scripta</ulink>
+      </seealso>
+      </indexterm>
+    </articleinfo>
+
+  <sect1  id="top">
+    <title>Changes done to the TKL php library</title>
+
+    <para>Everything in tklite is identical with the original keystone 
+      distribution except for the bits and pieces of code below. Code
+      fragments are shown, together with the rationale for making the
+      change.</para>
+
+    <sect2 id="server-side-sorting">
+      <title>Server side sorting</title>
+
+      <para>In these services we do sorting serverside (i.e., in idZebra)
+	rather than in xslt. For that purpose I have added the following in
+	function_search in shell.php</para>
+
+      <programlisting>
+<![CDATA[
+	$sortfields = array ();
+	if ($att['sortby']) {
+	   if ($arr = xml_getelement($document, 'sort')) {
+ 	      foreach ($arr as $elem) {
+		if (!preg_match("'<sort\s.*by=\"(.*?)\".*>(.*?)<\/sort>'",
+	             $elem, $match))
+                     continue;
+		$sortfield = $match[1];
+		$sortattr = $match[2];
+		$sortfields[$sortfield] = $sortattr;
+              }
+	    }
+	}
+
+	if($sortfields) {
+	    $query = '@or ' . $query . ' ' . $sortfields[$att['sortby']];
+        }
+]]>
+	</programlisting>
+
+<para>The parameters needed for sorting is stored in search.tkl. For example:</para>
+
+	<programlisting>
+<![CDATA[	 
+    <sort by="au"  >@attr 7=1 @attr 1=6010 ""</sort>
+    <sort by="ti"  >@attr 7=1 @attr 1=4    ""</sort>
+    <sort by="date">@attr 1=1012 @attr 7=2 ""</sort>
+]]>
+	</programlisting>
+      </sect2>
+      
+      <sect2 id="multiplexing">
+	<title>Supporting delivering multiple services from one site</title> 
+
+	<para>I found it easier to analyse the the request_uri in php and
+	  through that define a variable service_id, which is available from
+	  xslt For that pupose I have added the follwoing to shell.php</para>
+
+	<programlisting>
+<![CDATA[	 
+    $service_id = 'test';
+    if (preg_match('/undergrad/', $_SERVER['REQUEST_URI'])) {
+        $service_id = 'xerxes';
+    } elseif (preg_match('/postgrad/', $_SERVER['REQUEST_URI'])) {
+	$service_id = 'scripta';
+    } else {
+	    $service_id = 'test';
+    }
+
+    $parameters = array(
+        'path'        => $path,
+        'root'        => $root,
+        'portpath'    => $dir,
+        'lang'        => $lang,
+        'tkl_authenticated' => $tkl_authenticated,
+        'tkl_bin'     => $tkl_bin,
+        'tkl_cwd'     => $tkl_cwd,
+        'tkl_fn'      => preg_replace("'^.*/'", "", $_SERVER['PATH_INFO']),
+        'tkl_docroot' => $_SERVER['DOCUMENT_ROOT'],
+        'server_name' => $_SERVER['SERVER_NAME'],
+        'request_uri' => $_SERVER['REQUEST_URI'],
+        'service_id'  => $service_id
+    );
+]]>
+	</programlisting>
+      </sect2>
+
+    </sect1>
+
+<!--
+
+$Log$
+Revision 1.1  2009/06/29 11:08:31  sigfrid
+Initial revision
+
+Revision 1.1  2005/06/08 14:21:54  sigge
+Initial revision
+
+
+-->
+
+</article>

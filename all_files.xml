@@ -1,0 +1,699 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom" xmlns:dc="http://purl.org/dc/elements/1.1/">
+  <author>
+    <name>Sigfrid Lundberg</name>
+  </author>
+  <title>Sigfrid Lundberg's Stuff</title>
+  <id>http://www.sigfrid-lundberg.se/files.atom</id>
+  <link rel="self" href="/files.atom"/>
+  <updated>2006-06-08T00:03:00+01:00</updated>
+  <entry>
+    <title>NWI — En nordisk söktjänst för World Wide Web</title>
+    <author>
+      <name>Sigfrid Lundberg</name>
+    </author>
+    <author>
+      <name>Anders Ardö</name>
+    </author>
+    <link href="/1996/nwi/nwi.pdf"/>
+    <summary>Ett konsortium av nordiska forskningsbibliotek och nätverksorgan
+    presenterar Nordiskt Webindex, en nordisk söktjänst utvecklad i norden för
+    en nordisk publik. I dag finns en experimentell tjänst offentligt
+    tillgänglig på nätet på URL http://nwi.ub2.lu.se.</summary>
+    <category term="Web indexing" label="webindexing"/>
+    <category term="Harvesting" label="harvesting"/>
+    <dc:date>1996</dc:date>
+    <updated>2006-06-08T00:03:00+01:00</updated>
+    <id>http://www.sigfrid-lundberg.se/1996/nwi/nwi.pdf</id>
+  </entry>
+  <entry>
+    <title>A proposal for metadata formats for use in the Swedish Enviro-Net</title>
+    <author>
+      <name>Sigfrid Lundberg</name>
+    </author>
+    <link href="/1997/SMN_metadata/smn_metadata.pdf"/>
+    <summary>This paper outlines a combination of the Dublin Core metadata
+    embedded in HTML metadata tags and the GILS Z39.50 profile used for
+    information retrieval. It is a combination would solve the distributed
+    indexing, search and retrieval problems within a network of environmental
+    authorities. The Swedish Enviro-Net lived for a few years at the end of
+    1990ties.</summary>
+    <category term="Web indexing" label="webindexing"/>
+    <category term="Metadata" label="metadata"/>
+    <category term="Z39.50" label="z3950"/>
+    <dc:date>1997</dc:date>
+    <updated>2006-06-08T00:04:00+01:00</updated>
+    <id>http://www.sigfrid-lundberg.se/1997/SMN_metadata/smn_metadata.pdf</id>
+  </entry>
+  <entry>
+    <title>Kulturnät Sverige</title>
+    <author>
+      <name>Sigfrid Lundberg</name>
+    </author>
+    <link href="/1997/kultur_naet_sverige/"/>
+    <summary>En recension av IT i kulturens tjänst, SOU 1997:14 som i mina
+    ögon vid den tidpunkten var en fullständigt överflödig utredning. Här
+    fanns alla möjligheter att börja arbeta för en konvergens när det gäller
+    beskrivningsstandard och protokoll för informationsretrieval mellan olika
+    grenar av kultursektorn. En tjock bok som ledde fram till en numera
+    nerlagd ämnesportal.</summary>
+    <dc:date>1997</dc:date>
+    <updated>2009-06-08T00:05:00+01:00</updated>
+    <category term="Digital collections" label="digitalcollections"/>
+    <category term="Reviews" label="reviews"/>
+    <id>http://www.sigfrid-lundberg.se/1997/kultur_naet_sverige/index.html</id>
+  </entry>
+  <entry>
+    <title>The Kulturarw3 archiving format</title>
+    <author>
+      <name>Sigfrid Lundberg, Lund University</name>
+    </author>
+    <author>
+      <name>Allan Arvidson, The Royal Library</name>
+    </author>
+    <link href="/1998/KulturArw3/archive-format-1.rtf"/>
+    <summary>This note describes a file format intended for the joint storage of
+    objects retrieved from the World Wide Web and various kinds of meta
+    information on those objects. The information includes the HTTP response
+    header but may also contain information needed for version control etc
+    within the archive. Kulturarw3 project proposes an archiving record format
+    based on open standards, namely that objects are stored as HTTP MIME
+    multpart/mixed messages (cf. RFC2068 and RFC1521 respectively).</summary>
+    <dc:date>1997</dc:date>
+    <updated>2006-06-08T00:07:00+01:00</updated>
+    <category term="Digital preservation" label="preservation"/>
+    <category term="Harvesting" label="harvesting"/>
+    <id>http://www.sigfrid-lundberg.se/1998/KulturArw3/archive-format-1.rtf</id>
+  </entry>
+  <entry>
+    <title>NWI II, An Enhanced Nordic Web index: Final report</title>
+    <author><name>Anders Ardö</name></author>
+    <author><name>Allan Arvidson</name></author>
+    <author><name>Sebastian Hammer</name></author>
+    <author><name>Kenneth Holmlund</name></author>
+    <author><name>Sigfrid Lundberg</name></author>
+    <link href="/1998/nwi2/"/>
+    <summary>The Nordic Web Index (NWI) project is a collaborative effort
+    across the Nordic countries, aiming at providing a free Worldwide Web
+    search service to the general public in the countries involved. NWI has
+    been fruitful for several reasons: First and foremost we are today
+    providing access to databases covering the WWW in four of the Nordic
+    countries and, as of September 1998, five service points in six languages
+    Denmark, Finland, Sweden, Norway and Iceland.</summary>
+    <category term="Web indexing" label="webindexing"/>
+    <category term="Harvesting" label="harvesting"/>
+    <category term="Metadata" label="metadata"/>
+    <category term="Z39.50" label="z3950"/>
+    <dc:date>1998</dc:date>
+    <updated>2006-06-08T00:08:00+01:00</updated>
+    <id>http://www.sigfrid-lundberg.se/1998/nwi2/</id>
+  </entry>
+  <entry>
+    <title>En arkitektur för ett distribuerat system för spridning av
+    forskningsinformation</title>
+    <link href="/1998/safari/cris.pdf"/>
+    <summary>Arkitekturen för ett nätverk av tjänster för spridning av
+    forskningsinformation beskrivs. Nätverket tillåter distribuerat underhåll
+    av såväl data som metadata. Till nätverket kan anslutas såväl
+    bibliografiska databaser som helt WWWbaserade metadataberikade
+    tjänster. Metadataproduktionen följer standarden Dublin Core. De förra
+    typerna av tjänster inkorporeras i nätverket genom interoperabilitet på
+    sökprotokollsnivå, medan metadata och fulltext från de senare göres
+    sökbara genom en WWWrobot.  Kommunikation inom nätverket utnyttjar
+    standardiserade Internet protokoll som HTTP, och för
+    informationsåtervinning Z39.50</summary>
+    <category term="Web indexing" label="webindexing"/>
+    <category term="Harvesting" label="harvesting"/>
+    <category term="Metadata" label="metadata"/>
+    <category term="Z39.50" label="z3950"/>
+    <dc:date>1998</dc:date>
+    <updated>2006-06-08T00:10:00+01:00</updated>
+    <id>http://www.sigfrid-lundberg.se/1998/safari/cris.pdf</id>
+  </entry>
+  <entry>
+    <title>A regional distributed WWW search and indexing service - the DESIRE
+    way</title>
+    <link href="/1998/www7/"/>
+    <summary>In an attempt to implement a regional search engine we have
+    created an open, metadata aware system for distributed, collaborative
+    WWW-indexing. The system has three main components: a harvester (for
+    collecting information), a database (for making the collection
+    searchable), and a user interface (for making the information
+    available). All components can be distributed across networked computers,
+    thus supporting scalability. The system is metadata aware and thus allows
+    searches on several fields including title, document author, and
+    URL. Nordic Web Index (NWI) is an application using this system to create
+    a regional Nordic web-indexing service. NWI is built using five
+    collaborating service points within the Nordic countries. The NWI
+    databases can be used to build additional services. Services today include
+    special metadata databases, multimedia databases, and statistics about the
+    Nordic Web.</summary>
+    <category term="Web indexing" label="webindexing"/>
+    <category term="Harvesting" label="harvesting"/>
+    <category term="Metadata" label="metadata"/>
+    <category term="Z39.50" label="z3950"/>
+    <dc:date>1998</dc:date>
+    <updated>2008-06-08T00:10:00+01:00</updated>
+    <id>http://www.sigfrid-lundberg.se/1998/www7/</id>
+  </entry>
+  <entry>
+    <title>The Noble Art of Being Indexed or the Webmaster's Guide to
+    Harvesting Robots</title>
+    <author>
+      <name>Sigfrid Lundberg</name>
+    </author>
+    <author>
+      <name>Lars Nooden</name>
+    </author>
+    <link href="/1999/web_masters_guide/"/>
+    <summary>As the title indicates, this is a note on how to be indexed by
+    search engines. It is obsolete. Please note that it does not contain
+    anything about search engine optimization in the modern evil
+    sense. Instead it pinpoints what harvesting robots did understand, and what
+    they didn't at the turn of the last century.</summary>
+    <category term="Web indexing" label="webindexing"/>
+    <category term="Metadata" label="metadata"/>
+    <category term="Structural web design" label="structuralwebdesign"/>
+    <dc:date>1999</dc:date>
+    <updated>2006-06-09T00:11:00+01:00</updated>
+    <id>http://www.sigfrid-lundberg.se/1999/web_masters_guide/</id>
+  </entry>
+  <entry>
+    <title>Metadata harvesting</title>
+    <author>
+      <name>Sigfrid Lundberg</name>
+    </author>
+    <link href="/2000/delft/"/>
+    <summary>This is unfortunately unpublished, but it presents most one of
+    the most extensive datasets on the content of HTML embedded metadata which
+    I collected while working with the Nordic Webindex.</summary>
+    <category term="Web indexing" label="webindexing"/>
+    <category term="Harvesting" label="harvesting"/>
+    <category term="Metadata" label="metadata"/>
+    <category term="Z39.50" label="z3950"/>
+    <dc:date>2000</dc:date>
+    <updated>2006-06-09T15:11:00+01:00</updated>
+    <id>http://www.sigfrid-lundberg.se/2000/delft/</id>
+  </entry>
+  <entry>
+    <title>Technical description of the Studera.Nu search engine Harvesting
+    policies, maintenance and software used</title>
+    <author>
+      <name>Sigfrid Lundberg</name>
+    </author>
+    <link href="/2001/studera.nu/documentation/studera.pdf"/>
+    <summary>This is a description of the Studera.NU search engine in the very
+    first version. The search engine carries focused information, all of which is
+    indexed manually by content providers. The indexing information is
+    embedded into web pages using meta tags, and the service is built using a
+    harvesting robot.  This article documents the functions of the search
+    engine Studera.NU, its robot, search software etc. It aims at providing
+    necessary background information both for staff involved in system
+    management and future developers. A second aim is to give pinpoint areas
+    for future developments of the service.</summary>
+    <category term="Web indexing" label="webindexing"/>
+    <category term="Harvesting" label="harvesting"/>
+    <category term="Metadata" label="metadata"/>
+    <dc:date>2001</dc:date>
+    <updated>2009-06-09T00:18:00+01:00</updated>
+    <id>http://www.sigfrid-lundberg.se/2001/studera.nu/documentation/studera.pdf</id>
+  </entry>
+  <entry>
+    <title>Lecture notes: S:t Laurentius Digital Manuscript Library</title>
+    <author>
+      <name>Sigfrid Lundberg</name>
+    </author>
+    <link href="/2002/DRH2002/toc.html"/>
+    <summary>In this lecture, I discussed the
+    experiences gained by the development of a specific service, which, using
+    a collection of detailed XML descriptions, provides its users access to a
+    collection of digitized medieval manuscripts.  Secondly, I discussed the
+    database used from the point of view of both retrieval of the intellectual
+    content (the texts) of these manuscripts and of the retrieval of the
+    manuscripts as unique entities. Finally, I turned to the possibilities for
+    searching a collection of complex XML documents using a full text
+    retrieval engine used together with the Z39.50 information retrieval
+    protocol.</summary>
+    <dc:date>2002</dc:date>
+    <category term="XML processing" label="xmlprocessing"/>
+    <category term="Metadata" label="metadata"/>
+    <category term="Digital humanities" label="ehumanities"/>
+    <category term="Digitization" label="digitization"/>
+    <updated>2009-06-11T00:06:00+01:00</updated>
+    <id>http://www.sigfrid-lundberg.se/2002/DRH2002/toc.html</id>
+  </entry>
+  <entry>
+    <title>S:t Laurentius Digital Manuscript Library: An excursion along the
+    border between resource discovery and resource description</title>
+    <author>
+      <name>Sigfrid Lundberg</name>
+    </author>
+    <link href="/2002/Laurentius/laurentius.pdf"/>
+    <summary>This note has three aims. First it discusses the experiences
+    gained by the development of a specific service, which, using a collection
+    of detailed XML descriptions, provides its users access to a collection
+    of digitized medieval manuscripts.  Secondly, it discusses the database
+    used from the point of view of both retrieval of the intellectual content
+    (the texts) of these manuscripts and of the retrieval of the manuscripts
+    as unique entities. Finally, it explores the possibilities for searching
+    a collection of complex XML documents using a full text retrieval engine
+    used together with the Z39.50 information retrieval protocol.</summary>
+    <dc:date>2002</dc:date>
+    <category term="XML processing" label="xmlprocessing"/>
+    <category term="Text encoding" label="textencoding"/>
+    <category term="Metadata" label="metadata"/>
+    <category term="Digital humanities" label="ehumanities"/>
+    <category term="Digitization" label="digitization"/>
+    <updated>2009-06-11T00:19:00+01:00</updated>
+    <id>http://www.sigfrid-lundberg.se/2002/Laurentius/laurentius.pdf</id>
+  </entry>
+  <entry>
+    <title>Förslag till policy för digitaliseringsprojekt inom Lunds
+    Universitets Bibliotek</title>
+    <author>
+      <name>Sigfrid Lundberg</name>
+    </author>
+    <link href="/2002/DigitaliseringsPolicy/digitaliserings_policy.pdf"/>
+    <summary>Digital arkivering är att bereda serverplats för information om
+    oss, vår tid och vår historia för våra barn och deras efterkommande. Detta
+    dokument beskriver förutsättningarna för digitalisering, lagring och
+    arkivering samt elektronisk publicering av olika samlingar inom Lunds
+    universitet och dess bibliotek. Särskild vikt läggs vid att utveckla en
+    nansieringsmodell för lagring, tillgängliggörande och bevarande.</summary>
+    <dc:date>2002</dc:date>
+    <category term="Digitization" label="digitization"/>
+    <category term="Digital collections" label="digitalcollections"/>
+    <updated>2009-06-11T00:18:00+01:00</updated>
+    <id>http://www.sigfrid-lundberg.se/2002/DigitaliseringsPolicy/digitaliserings_policy.pdf</id>
+  </entry>
+  <entry>
+    <title>The Metadata model in Scripta Academica Lundensis</title>
+    <author>
+      <name>Colm Doyle</name>
+    </author>
+    <author>
+      <name>Jörgen Eriksson</name>
+    </author>
+    <author>
+      <name>Sara Kjellberg</name>
+    </author>
+    <author>
+      <name>Sigfrid Lundberg</name>
+    </author>
+    <author>
+      <name>Tomas Schönthal</name>
+    </author>
+    <link href="/2002/Scripta/"/>
+    <summary>This document specifies the metadata once used in the Lund university
+    dissertation database.</summary>
+    <category term="Digital collections" label="digitalcollections"/>
+    <category term="XML processing" label="xmlprocessing"/>
+    <category term="Metadata" label="metadata"/>
+    <dc:date>2002</dc:date>
+    <updated>2009-06-12T00:20:00+01:00</updated>
+    <id>http://www.sigfrid-lundberg.se/2002/Scripta/</id>
+  </entry>
+  <entry>
+    <title>XML -- en mjuk start för biblioteksfolk Mitt ständigt ofärdiga
+    undervisningsmaterial (...och en del annat)</title>
+    <link href="/2003/XMLforLibrarians/"/>
+
+    <summary>Denna text syftar till att ge en överblick över vissa områden av
+    det digitala biblioteksområdet vilka är stadda i snabb utveckling. En
+    utveckling som i hög grad katalyseras av utvecklingen av olika
+    tillämpningar av eXtensible Markup Language, XML, som i år fyller fem år.
+    Utöver användningen av XML inom det digitala biblioteksväsendet ges en
+    överblick över modernt tänkande när det gäller metadata, hur XML kan
+    tänkas påverka hur vi tar del av, och hanterar elektroniska texter både i
+    form av digitalt bevarande och publicering av t ex
+    forskningsrapporter.</summary>
+
+    <category term="XML processing" label="xmlprocessing"/>
+    <category term="Text encoding" label="textencoding"/>
+    <category term="Metadata" label="metadata"/>
+    <dc:date>2002</dc:date>
+    <updated>2006-06-11T00:21:00+01:00</updated>
+    <id>http://www.sigfrid-lundberg.se/2003/XMLforLibrarians/</id>
+  </entry>
+  <entry>
+    <title>Implementering av OAI-PMH i ett bibliotekssystem -- Några ord på
+    vägen</title>
+    <link href="/2003/axiell-oai/oai-opac.pdf"/>
+    <summary>Syftet med denna text är att ge lite kött på benen om vad OAI-PMH
+    är, vad det kan användas till och hur det skulle kunna integreras i ett
+    bibliotekssystem. Det är inte en ersättning för andra dokument utan skall
+    ses som några ord på vägen för organisationer som planerar att eller är i
+    färd med att implementera OAI-PMH. Texten skrevs på uppdrag av
+    http://www.axiell.se/bookit</summary>
+    <updated>2009-06-09T08:08:00+01:00</updated>
+    <dc:date>2003</dc:date>
+    <category term="Harvesting" label="harvesting"/>
+    <category term="Metadata" label="metadata"/>
+    <category term="Library catalogues" label="opac"/>
+    <id>http://www.sigfrid-lundberg.se/2003/axiell-oai/oai-opac.pdf</id>
+  </entry>
+  <entry>
+    <title>Teknisk samverkan mellan svenska ämnesportaler - Test och
+    utvärdering av portalprogramvaran TKL</title>
+    <author>
+      <name>Colm Doyle</name>
+    </author>
+    <author>
+      <name>Jörgen Eriksson</name>
+    </author>
+    <author>
+      <name>Sigfrid Lundberg</name>
+    </author>
+    <author>
+      <name>Tomas Schönthal</name>
+    </author>
+    <summary>En utvärdering av digital library produkten Keystone DLS (TKL)</summary>
+    <link href="/2003/def-test/"/>
+    <updated>2009-06-09T08:23:00+01:00</updated>
+    <dc:date>2003</dc:date>
+    <category term="Digital collections" label="digitalcollections"/>
+    <category term="Metadata" label="metadata"/>
+    <category term="Reviews" label="reviews"/>
+    <category term="XML processing" label="xmlprocessing"/>
+    <id>http://www.sigfrid-lundberg.se/2003/def-test/</id>
+  </entry>
+  <entry>
+    <title>Vad är ett PEK?</title>
+    <author>
+      <name>Sigfrid Lundberg</name>
+    </author>
+    <summary>Här rapporterar jag en konvergent språklig utveckling mellan
+    forskare och internerna på Långholmen. I båda kategorierna används ordet
+    "pek" för att beskriva en kommunikation, bland akademiker var det på
+    1980-talet slang för "uppsats" och på Långholmen var det en text som
+    skickades med linbana längs med fängelsemurarna.</summary>
+    <link href="/2003/pek/"/>
+    <dc:date>2003</dc:date>
+    <updated>2009-06-09T20:25:00+01:00</updated>
+    <category term="Music, language &amp; literature" label="musiclanglit"/>
+    <id>http://www.sigfrid-lundberg.se/2003/pek/</id>
+  </entry>
+  <entry>
+    <title>Pesistent länkning och digitala bibliotek</title>
+    <author>
+      <name>Sigfrid Lundberg</name>
+    </author>
+    <summary>Åtskillig uppmärksamhet har nyligen riktats mot problemen
+    förknippade med att uppnå en stabilare webb. Det konstateras, helt
+    korrekt, att mängder med dokument bara försvinner från sina ursprungliga
+    platser. Vad skall man då göra åt saken? Vad är det för grundläggande
+    designproblem som gör att organisationer vilka underhåller länksamlingar
+    av olika slag tvingas bära en allt tyngre börda?</summary>
+    <link href="/2003/urnar_och_digitala_bibliotek/"/>
+    <dc:date>2003</dc:date>
+    <updated>2009-06-09T20:36:00+01:00</updated>
+    <category term="Digital libraries" label="digitallibraries"/>
+    <category term="Metadata" label="metadata"/>
+    <id>http://www.sigfrid-lundberg.se/2003/urnar_och_digitala_bibliotek/</id>
+  </entry>
+  <entry>
+    <title>Ediffah – En digital infrastruktur för forskningsbibliotekens
+    arkiv- och handskriftssamlingar</title>
+    <link href="/2004/arkiv_bibliotek/"/>
+    <author>
+      <name>Sigfrid Lundberg</name>
+    </author>
+    <summary>Projektet syftar till att göra det möjligt att att skapa skapa
+    allmänt tillgängliga kataloger och arkivbeskrivningar över bibliotekens
+    handskriftssamlingar och personarkiv. Systemet skall vara enkelt, och
+    innehålla ett arbetsflöde sådant att posterna som genereras också med
+    automatik kan återfinnas i Nationella arkivdatabasen NAD, vårt
+    gemensamma bibliotekssystem LIBRIS, såväl som i lokala
+    databaser.</summary>
+    <dc:date>2004</dc:date>
+    <category term="Archival description" label="archivaldescription"/>
+    <category term="Metadata" label="metadata"/>
+    <category term="XML processing" label="xmlprocessing"/>
+    <updated>2009-06-09T20:36:00+01:00</updated>
+    <id>http://www.sigfrid-lundberg.se/2004/arkiv_bibliotek/</id>
+  </entry>
+  <entry>
+    <title>Vad händer med biblioteket när dess samlingar finns överallt och
+    ingen särskild stans?</title>
+    <author>
+      <name>Sigfrid Lundberg</name>
+    </author>
+    <link href="/2004/biblioteket/index.html"/>
+    <summary>Biblioteken existerar för att det finns användare som är beredda
+    att betala för deras tjänster. Visserligen betalar man i regel via
+    skattesedeln och inte med sitt betalkortet, men principen är densamma.
+    Under vilka förutsättningar är användarna, eller deras valda
+    representanter, redo att betala för bibliotekens tjänster? Går det att
+    finansiera lokalt bibliotek när biblioteksresurserna finns överallt och
+    ingen särskild stans? Vilken kommun eller vilket universitet kan
+    finansiera ett bibliotek som bara har en katalog, men inga samlingar? Och
+    när allt kommer omkring, vem vill ha samlingar och varför? De är ju dyra
+    och tar plats.</summary>
+    <dc:date>2004</dc:date>
+    <category term="The Library" label="thelibrary"/>
+    <category term="Digital libraries" label="digitallibraries"/>
+    <category term="Internet" label="internet"/>
+    <updated>2009-06-09T21:01:00+01:00</updated>
+    <id>http://www.sigfrid-lundberg.se/2004/biblioteket/index.html</id>
+  </entry>
+  <entry>
+    <title>Vad en bra samling av digital text bör kunna</title>
+    <author>
+      <name>Sigfrid Lundberg</name>
+    </author>
+    <link href="/2004/digitalisering/position.pdf"/>
+    <summary>En diskussion av vilka funktioner ett bra textarkiv bör, och vad
+    digitalisering bör innebära.</summary>
+    <category term="Digital libraries" label="digitallibraries"/>
+    <category term="Metadata" label="metadata"/>
+    <category term="Digital collections" label="digitalcollections"/>
+    <dc:date>2004</dc:date>
+    <updated>2009-06-09T21:10:00+01:00</updated>
+    <id>http://www.sigfrid-lundberg.se/2004/digitalisering/position.pdf</id>
+  </entry>
+  <entry>
+    <title>Digitalisering i Lund</title>
+    <author>
+      <name>Sigfrid Lundberg</name>
+    </author>
+    <summary>En presentation om digitalisering och digitalt bevarande i
+    Lund. Jag tror att jag höll den vid ett stort möte på Kungl. Biblioteket i
+    Stockholm.</summary>
+    <link href="/2004/digitalisering/presentation_04-11-04.html"/>
+    <category term="Digital preservation" label="preservation"/>
+    <category term="Digitization" label="digitization"/>
+    <dc:date>2004</dc:date>
+    <updated>2009-06-09T21:45:00+01:00</updated>
+    <id>http://www.sigfrid-lundberg.se/2004/digitalisering/presentation_04-11-04.html</id>
+  </entry>
+  <entry>
+    <title>Metadata makes the world going round - en orientering om användning
+    av Metadata och XML</title>
+    <author>
+      <name>Sara Kjellberg</name>
+    </author>
+    <author>
+      <name>Sigfrid Lundberg</name>
+    </author>
+    <link href="/2004/metadata_makes_the_world/"/>
+    <summary>Sara Kjellberg och jag höll ett antal kurser om metadata
+    o. XML. detta är vår presentation. Vi höll det inom ramen för BTJs
+    kursutbud.</summary>
+    <category term="XML processing" label="xmlprocessing"/>
+    <category term="Metadata" label="metadata"/>
+    <dc:date>2004</dc:date>
+    <updated>2009-06-09T21:58:00+01:00</updated>
+    <id>http://www.sigfrid-lundberg.se/2004/metadata_makes_the_world/</id>
+  </entry>
+  <entry>
+    <title>Vilken arkitektur ger ett nav i ett nätverk?  Om
+    KB-utredningen</title>
+    <author>
+      <name>Sigfrid Lundberg</name>
+    </author>
+    <link href="/2004/navet/navet.html"/>
+    <summary>En recension av KB-utredningen, SOU 2003:129</summary>
+    <category term="The Library" label="thelibrary"/>
+    <category term="Reviews" label="reviews"/>
+    <dc:date>2004</dc:date>
+    <updated>2009-06-09T22:06:00+01:00</updated>
+    <id>http://www.sigfrid-lundberg.se/2004/navet/navet.html</id>
+  </entry>
+  <entry>
+    <title>Zornmedaljens baksida</title>
+    <author>
+      <name>Sigfrid Lundberg</name>
+    </author>
+    <summary>En diskussion av Zornmärket och
+    riksspelmannainstitutionen och dess roll i svensk folkmusik</summary>
+    <link href="/2004/zorn_etc/"/>
+    <category term="Music, language &amp; literature" label="musiclanglit"/>
+    <dc:date>2004</dc:date>
+    <updated>2009-06-09T22:06:00+01:00</updated>
+    <id>http://www.sigfrid-lundberg.se/2004/zorn_etc/</id>
+  </entry>
+  <entry>
+    <title>Ediffah</title>
+    <author>
+      <name>Sigfrid Lundberg</name>
+    </author>
+    <link href="/2005/Oct_28/"/>
+    <summary>En superkort presentation om Ediffah, hållen vid
+    Ediffahprojektets avslutning på Kungl. Biblioteket i Stockholm den 28
+    oktober 2005</summary>
+    <category term="Metadata" label="metadata"/>
+    <category term="Archival description" label="archivaldescription"/>
+    <dc:date>2005</dc:date>
+    <updated>2009-06-09T22:06:00+01:00</updated>
+    <id>http://www.sigfrid-lundberg.se/2005/Oct_28/</id>
+  </entry>
+  <entry>
+    <title>Digitala biblioteket</title>
+    <author>
+      <name>Sigfrid Lundberg</name>
+    </author>
+    <summary>En föreläsning om Internets historia, Det Digitala Biblioteket
+    och Bibliotekets historia.</summary>
+    <link href="/2005/bivil-digitala-bibliotek/"/>
+    <dc:date>2005</dc:date>
+    <updated>2009-06-09T22:06:00+01:00</updated>
+    <category term="Digital libraries" label="digitallibraries"/>
+    <category term="Internet" label="internet"/>
+    <id>http://www.sigfrid-lundberg.se/2005/bivil-digitala-bibliotek/</id>
+  </entry>
+  <entry>
+    <title>Digital preservation and digitization at Lund University (and
+    elsewhere in Sweden)</title>
+    <author>
+      <name>Sigfrid Lundberg</name>
+    </author>
+    <link href="/2005/digital-preservation/"/>
+    <summary>Notes to presentation held in Lund 7 June 2005. The audience was
+    a group of people from China</summary>
+    <category term="Digital preservation" label="preservation"/>    
+    <category term="Digitization" label="digitization"/>
+    <category term="Digital collections" label="digitalcollections"/>
+    <dc:date>2005</dc:date>
+    <updated>2009-06-09T22:06:00+01:00</updated>
+    <id>http://www.sigfrid-lundberg.se/2005/digital-preservation/</id>
+  </entry>
+  <entry>
+    <title>Konkurrerar Google framgångsrikt med biblioteken?</title>
+    <author>
+      <name>Sigfrid Lundberg</name>
+    </author>
+    <link href="/2006/google/google-vs-thelibrary.html"/>
+    <summary>En diskussion om Bibliotekets förhållande till sökmaskinen
+    Google</summary>
+    <category term="The Library" label="thelibrary"/>
+    <category term="Digital libraries" label="digitallibraries"/>
+    <category term="Internet" label="internet"/>
+    <dc:date>2006</dc:date>
+    <updated>2009-06-09T23:14:00+01:00</updated>
+    <id>http://www.sigfrid-lundberg.se/2006/google/google-vs-thelibrary.html</id>
+  </entry>
+  <entry>
+    <title>Usage of digital resources with respect to method of publishing</title>
+    <author>
+      <name>Sigfrid Lundberg</name>
+    </author>
+    <link href="/2007/hidden_web/usage_vs_dissemination_method.html"/>
+    <summary>I compared the usage of Digital material in relation to whether
+    the material was hidden away in the the library opac or published on our
+    web site. The result was as expected a disappointment for those who regard
+    the Library catalogue as an important vehicle for dissemination of digital
+    material</summary>
+    <category term="The Library" label="thelibrary"/>
+    <category term="Library catalogues" label="opac"/>
+    <category term="Digital libraries" label="digitallibraries"/>
+    <category term="Internet" label="internet"/>
+    <category term="Structural web design" label="structuralwebdesign"/>
+    <dc:date>2007</dc:date>
+    <updated>2009-06-09T23:14:00+01:00</updated>
+    <id>http://www.sigfrid-lundberg.se/2007/hidden_web/</id>
+  </entry>
+  <entry>
+
+    <title>What do our users expect from the search field on our top
+    page?</title>
+    <author>
+      <name>Sigfrid Lundberg</name>
+    </author>
+    <link href="/2007/search-statistics/user-expectations.html"/>
+    <summary>What can deduced by analyses of the search terms entered into the
+    search field on the home page of a large modern library? Could we possibly
+    regard this form as the digital library´s information desk, and the
+    queries as the request from its patrons? If we do that, what could we then
+    learn about the quality of service?  In this note we do just that. We
+    regard the terms entered into the form as manifestation of our patrons
+    needs and in order to find out what they need, we have performed a
+    preliminary text mining exercise. We hope that this will help us designing
+    a new search facility that will better answer the needs of our
+    users.</summary>
+    <category term="Web indexing" label="webindexing"/>
+    <category term="Harvesting" label="harvesting"/>
+    <category term="Library catalogues" label="opac"/>
+    <category term="Structural web design" label="structuralwebdesign"/>
+    <dc:date>2007</dc:date>
+    <updated>2009-06-09T23:31:00+01:00</updated>
+    <id>http://www.sigfrid-lundberg.se/2007/search-statistics/</id>
+  </entry>
+  <entry>
+    <title>ADL i CLARIN-DK WP5</title>
+    <author>
+      <name>Sigfrid Lundberg</name>
+    </author>
+    <link href="/2008/clarin_adl/"/>
+    <summary>En presentation jag höll om Arkiv før dansk litteratur (ADL)</summary>
+    <category term="XML processing" label="xmlprocessing"/>
+    <category term="Text encoding" label="textencoding"/>
+    <category term="Digital humanities" label="ehumanities"/>
+    <category term="Music, language &amp; literature" label="musiclanglit"/>
+    <dc:date>2008</dc:date>
+    <updated>2009-06-09T23:42:00+01:00</updated>
+    <id>http://www.sigfrid-lundberg.se/2008/clarin_adl/</id>
+  </entry>
+  <entry>
+    <title>Digital Humanities Infrastructures</title>
+    <author>
+      <name>Sigfrid Lundberg</name>
+    </author>
+    <link href="/2008/dighum/digital_humanities.xml"/>
+    <summary>This note discusses different initiatives as regards providing
+    access to resources and tools aimed at researchers within the
+    humanities. Since the general breakthrough of search services like Google,
+    annotation and bookmarking services like del.icio.us and the like, the
+    attitudes towards the application of computing within the humanities has
+    changed. In addition, the concept of e-science has contributed to make
+    scholars positive to apply computing to various problems within the
+    humanities.  Following a discussion started around year 2000, we propose
+    that it is possible to formalize many humanities computing tasks as
+    pipelines between XML processing steps.</summary>
+    <category term="XML processing" label="xmlprocessing"/>
+    <category term="Text encoding" label="textencoding"/>
+    <category term="Digital humanities" label="ehumanities"/>
+    <dc:date>2008</dc:date>
+    <updated>2009-06-09T23:42:00+01:00</updated>
+    <id>http://www.sigfrid-lundberg.se/2008/dighum/digital_humanities.xml</id>
+  </entry>
+  <entry>
+    <title>Kortfattat Curriculum Vitae: Sigfrid Lundberg</title>
+    <link href="/2009/cv/cv_sv.xml"/>
+    <category term="About me" label="aboutme"/>
+    <summary>Ett CV är väldigt tråkigt att skriva</summary>
+    <dc:date>2009</dc:date>
+    <updated>2009-06-09T23:54:00+01:00</updated>
+    <id>http://www.sigfrid-lundberg.se/2009/cv/cv_sv.xml</id>
+  </entry>
+  <entry>
+    <title>List of publications by Sigfrid Lundberg
+    </title>
+    <link href="/2009/cv/publications.html"/>
+    <summary>Both peer reviewed articles, other articles and some
+    presentations</summary>
+    <dc:date>2009</dc:date>
+    <updated>2009-06-09T23:57:00+01:00</updated>
+    <category term="About me" label="aboutme"/>
+    <id>http://www.sigfrid-lundberg.se/2009/cv/publications.html</id>
+  </entry>
+</feed>

@@ -1,0 +1,25 @@
+<html>
+  <head>
+    <title>Computing by candle light</title>
+    <link rel='stylesheet' href='/css-style/html.css' type="text/css" />
+  </head>
+  <body>
+
+   <!--#include virtual="./navigate_images.html" -->
+
+   <div class="right_box">
+     <p>
+      <a href="computing_by_candlelight.jpg">
+	<img src="computing_by_candlelight.jpg"
+	  alt="Computing by candle light" />
+      </a>
+      <br/>
+      <small>Photo by William Nixon. It was taken by William
+      Nixon of Glasgow University Library at the ETD2003 conference
+      dinner in Berlin </small></p>
+    </div>
+  </body>
+</html>
+
+
+

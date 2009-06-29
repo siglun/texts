@@ -1,0 +1,145 @@
+
+Som utredningen konstaterar framställer man digitala versioner av
+objekt av två skäl: För att bevara och för att tillgängliggöra.
+
+Begreppet bevarande har i detta sammanhang två sidor, att originalet
+sparas undan och endast undantagsvis rörs (användarna får i stället
+tillgång till ett för de flesta ändamål fullgott digital surrogat).
+Den andra innebörden av bevarande är att det digitala surrogatet själv
+måste bevaras. Det handlar om datorsäkerhet, val av lagringsformat
+(vilket naturligtvis måste konverteras till nya format för att
+säkerställa framtida läsbarhet) med mera.
+
+Beslutet att digitalisera ett objekt fattas på grundval av förväntad
+användning, objekt som sällan används slits inte. Digitalisering
+innebär ett förvärv till en eller flera samlingar och objektets såväl
+som samlingarnas användbarhet beror på tilltänkta användare, samtida
+såväl som framtida.
+
+För att bli tillgängligt måste det digitaliserade materialet måste
+katalogiseras enligt nya principer, och för textuellt material bör det
+digitala surrogatet via OCR eller transkription omvandlas till
+elektronisk text. Denna text kan i sin tur bearbetas vidare, till
+exempel förses med textkritiska kommentarer eller språklig markering
+för användning inom korpuslingvistik. Tillgängliggörande handlar
+alltså om hur de digitala surrogaten skall användas, vilket i sin tur
+handlar om tilltänkta målgrupper. Vilka tjänster som byggs upp kring
+en samling av digitaliserat material är beroende av denna
+efterarbetning.
+
+Problemen i KB-utredningens behandling av digitalisering är inte
+relaterade till bevarandeaspekter, utan till tillgängliggörande.  Det
+är frågeställningar relaterade till varför material skall
+digitaliseras och hur de digitala samlingarna skall användas och av
+vem.
+
+Det saknas även strategiska och taktiska överväganden om i vilka
+situationer digitalisering bör tillgripas; det som finns är vagt och
+småtrevligt: "Kulturarv till nytta och glädje för många"; vi är osäkra
+om denna målsättning går att realisera. För objekt som är till nytta
+och nöje bara genom sin existens är problemet enkelt (som t ex en
+vetenskaplig artikel inom medicin vilken läses av en medicinare; en
+medicinsk artikel som läses av en bibliometriker är en helt annan
+sak). Det är inte självklart att en digital resurs som är till
+nytta för en språkvetare hjälper en litteraturvetare. Däremot hjälper
+förmodligen båda typerna av resurser en läsande allmänhet, om man
+skrapar bort alla funktionaliteter som gör en digital resurs lämplig
+som indata för forskning.
+
+Utredningens perspektiv är i hög grad begränsat till produktion av
+digitala bilder och den hänvisar vid upprepade tillfällen det så
+kallade ABM-projektet (http://abm.kb.se/) som en viktig milstolpe i
+svensk digitaliseringsverksamhet.
+
+Ett projekt i denna anda är digitaliseringen av Erik Dahlbergs stora
+bildverk "Svecia Antiqua et Hodierna" som nu spärrats för vidare
+framtagning: "Verkets 353 bilder har katalogiserats i Libris. Detta
+innebär att KB uppfyllt såväl bevarandemålet som
+tillgänglighetsmålet."
+
+Den formen av digitalisering räcker i många sammanhang, men den ger
+inte hypertextdokument, inte konkordanser, inte sökning på text och
+det är en hel massa andra funktionaliteter den inte ger. Det är
+glädjande att det storstilade projektet Litteraturbanken syftar till
+produktion av "äkta" hypertext.
+
+Genomgången av olika projekt runt om i landet är mestadels
+helt kvantitativ och betonar ofta projektens storlek räknat i antalet
+digitala bilder eller antalet digitaliserade volymer. Erfarenheter av
+olika teknologier för tillgängliggörande och sökning nämns sällan. För
+att ta några exempel nämns inte den synnerligen detaljerade sök- och
+navigerbar hypertextkatalog som vi producerar för våra
+medeltidshandskrifter.
+
+Utredningen nämner inte att GUB indexerar varje sida i Ostindiska
+kompaniets arkiv med ämnesord, namn på platser och personer och att
+UUB gör sammalunda för den Wallerska samlingen. Inte heller nämns
+Riksarkivets relativt detaljerade TEI-markering av Axel Oxenstiernas
+brev och de mer ytliga markeringarna av brevet i deras Diplomatarium,
+vilket kommer att göra dessa objekt till avancerad hypertext. De
+bibliografiska egenskaperna hos projekten bygger på antaganden om
+användargrupper och samverkar med användargränssnitt för att bestämma
+arten av tillgängliggörande.
+
+Det finns en mångfald av anledningar till att digitalisera. Alla är på
+något sätt relaterade till nytta och glädje, men tyvärr kanske inte
+för riktigt så många som KB-utredningen hoppas. Alla anledningar är
+relaterade till strategiska och taktiska överväganden inom en
+biblioteksverksamhet.
+
+Om man renodlar skulle man kunna tänka sig två digitaliseringsstrategier:
+"Breadth first" och "Depth first", vilka skulle innebära en bred
+satsning på volym med liten eller ingen efterbearbetning i form av
+produktion av hypertext, respektive sparsmakat urval av färre
+objekt som efterarbetas för att tillfredsställa en given kategori
+användare.
+
+Vi kan bara ge några smakprov på överväganden som inte tas upp i
+utredningen. Alla talar för att resurser för digitalisering bör relativt
+hög grad finnas nära forskningsbibliotekens användare. Först taktiker
+som implementeras på toppen av en "breadth first"-strategi:
+
+1. Snabbare service för äldre tidskriftsartiklar. Ett stort antal
+   tidskriftsartiklar kopieras för fjärrlån, eller behöver plockas
+   fram ur magasin för kopiering direkt av låntagaren. En process som
+   kan ta dagar. Genom uppföljning av statistik för framplockning och
+   fjärrlån skulle det kunna vara möjligt att ge snabbare service till
+   lägre kostnad.
+
+2. Fjärrlån av svenskt tryck. Det nämns inte i utredningen, men borde
+   vara en självklarhet när det gäller beslut om digitalisering av
+   äldre svenskt tryck: Hur mår egentligen det nationella
+   reservexemplaret av en populär titel?
+
+   För biblioteken vid Lunds universitets skulle digitalisering kunna
+   innebära såväl minskat slitage på det nationella reservexemplaret,
+   som minskade kostnader för fjärrlån. Vi uppfattar det som
+   synnerligen förvånande att kostnader och vinster förknippade med
+   digitalisering i syfte, att minska behoven av fjärrlån.
+
+Så ett exempel på "depth first":
+
+3. Vi ser fram emot en ökad volym digitalisering med efterföljande
+   efterarbetning i form av kodning av dokument för givna syften, där
+   dessa syften uppkommer i en konkret forskningssituation. Det kan
+   röra sig om författar- eller forskararkiv som aldrig skulle
+   digitaliserats inom ramen för en strategi som bygger på "breadth
+   first".
+
+Dessa tre exempel visar på behov av digitalisering som uppkommer
+naturligt lokalt och digitalisering som utförs lokalt. Låt vara att
+utbud och efterfrågan inte uppkommer på samma plats. Däremot måste de
+digitala resurser som byggs upp vara baserade på öppna och
+väletablerade standarder för att vara återanvändbara, och de måste i
+största möjliga mån vara vara fritt tillgängliga.
+
+Vi närmar oss raskt en tid där forskning presenteras som hypertext,
+där ett humanistiskt arbete skall kunna ingå en hypertextuell symbios
+med de objekt som studeras. Denna symbios bör kunna vara så intim att
+man vid läsning av en digitaliserad text bör kunna avgöra om denna är
+citerad och hitta fram till platserna i ett dokument som använder det.
+
+Slutligen är det värt att notera att snart sagt all information,
+elektronisk såväl som pappersburen är i dag "born digital". Att
+digitalisera modernt tryck är att gå över ån efter vatten, men hur man
+skall undvika det är en annan historia.

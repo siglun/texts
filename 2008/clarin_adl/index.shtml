@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<html xmlns="http://www.w3.org/1999/xhtml">
+  <head>
+    <title>ADL i CLARIN-DK WP5</title>
+    <link rel="stylesheet" href="/css-style/html.css"/>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8"/>
+  </head>
+  <body>
+
+    <div class="left_box">
+      <a href="..">2008</a>
+      <!--#include virtual="../navigation.html" -->
+    </div>
+
+    <div class="right_box">
+      <p><a href="projekt.html">projekt</a> |TOC|<a href="adl.html">om adl</a>
+      </p>
+
+      <h1>ADL i CLARIN-DK WP5</h1>
+      <ul>
+	<li><a href="adl.html">ADL: WP5.2 Information</a></li>
+	<li><a href="brev.html">TEI-exempel: Ett brev</a></li>
+	<li><a href="drama_verse.html">TEI-exempel: Skådespel på vers</a></li>
+	<li><a href="projekt.html">Att göra ADL bättre</a></li>
+      </ul>
+    </div>
+
+  </body>
+</html>

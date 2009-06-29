@@ -1,0 +1,5 @@
+AddDescription "Functional requirements" requirements.xml
+AddDescription "Project workplan" workplan.html
+AddDescription "System architecture (viewable)" DOAJ2.png
+AddDescription "System architecture (source)" DOAJ2.dia
+

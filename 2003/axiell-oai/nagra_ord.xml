@@ -1,0 +1,127 @@
+<?xml version="1.0" encoding="ISO-8859-1" ?>
+
+<div1>
+
+  <head>Några ord på vägen</head>
+
+  <p rend="noindent">Källorna till information om hur OAI-PMH skall
+    implementeras är specifikationen och Implementation Guidelines <note
+      n="OAI-IMPL"><xref
+	to="http://www.openarchives.org/OAI/2.0/guidelines.htm"/></note> som
+    är en samling dokument, med bland annat ett för implementatörer av
+    OAI-servrar. Det är ett litet arbete i jämförelse med en
+    implementering av Z39.50. Min utskrift av specifikationen för OAI är
+    33 sidor medan min utskrift av Z39.50 är på över 500.  Arbetet kan
+    ytterligare förenklas av användning av verktyg av det slaget jag
+    beskriver ovan.</p>
+
+  <p>I det följande ger jag en guidad tur till dessa dokumentation, och på
+    vägen ger jag lite goda råd. Ibland stannar jag upp inför någon
+    sevärdhet.</p>
+
+  <p>OAI-specen består i allt väsentligt två delar: En formatdel (sektionerna
+    2. Definitions and concepts samt 3. Protocol features) och en protokolldel
+    (sektion 4. Protocol Requests and Responses. Den senare innehåller de verb
+    jag nämnt ovan, och de argument en klient kan ange för vart och ett av
+    dem. Den förra delen beskriver mer protokollet mer generellt samt de olika
+    format som kommer till användning.</p>
+
+  <div2>
+    
+    <head>Format etc</head>
+
+    <list>
+
+      <item><hi rend="bold">Unik identifierare</hi> (Sekt. 2.4): Varje post
+	måste förses med en unik identifierare. Identifieraren <emph
+	  rend="bold">skall</emph> ha en syntax som motsvarar den av en
+	URI. Den behöver inte vara en OAI-identifierare och den identifierar
+	posten, inte objektet.</item>
+
+      <item>Varje post (Sekt. 2.5) skall levereras i ett specifikt format,
+	vilket består av två delar: ett huvud (<hi rend="bold">head</hi>)
+	och <hi rend="bold">metadata</hi>. I huvudet finns ett statusfält
+	som inte är obligatoriskt. Jag skulle varmt anbefalla att detta, om
+	möjligt implementeras. Det innebär att om ett dokument och dess
+	metadata raderas ur katalogen, kommer informationen om denna händelse
+	att föras vidare till OAI-klienten.</item>
+
+      <item><hi rend="bold">Set</hi> (Sekt. 2.6): Implementeringen av OAI
+	Sets är frivillig. Problemet med Sets är att det inte finns någon
+	standardisering på området och att den användning av Sets som
+	förekommer idag sker på egen risk.<note n="SETS"><xref
+	    to="http://www.openarchives.org/OAI/2.0/guidelines-repository.htm#MinimalImplementation-Sets"/></note>
+	Jag anbefaller dock varmt implementering av Sets. Implementeringen av
+	det måste vara konfigurerbart, såtillvida att det skall gå att redigera
+	de set man använder. Det kan vara möjligt att det går att avgöra en
+	resurs' Set-tillhörighet utifrån dess klassifikation, men det kan lika
+	gärna vara så att katalogisatörna kommer att (utöver klassifikation) få
+	välja en Set-kategori för resurserna. Den Setstruktur som finns skall
+	kunna exporteras via verbet <soCalled>listSets</soCalled></item>
+
+      <item><hi rend="bold">Selective harvesting</hi> (Sekt. 2.7). Hänger
+	samman med Sets (se ovan), och med hantering av datum. Den mest typiska
+	formen av skördning är att man i sin robot ber om metadata publicerad
+	från ett givet datum och klockslag. En serverimplementering kan ange
+	klockslag ner på sekundnoggrannhet. För att vara ärlig har jag aldrig
+	insett varför det skull kunna vara till någon glädje. Man måste dock
+	välja, och det val man gör skall dokumenteras i den information servern
+	lämnar vid en <soCalled>identify</soCalled>-förfrågan</item>
+
+      <item>Hela <hi rend="bold">Protocol features</hi> (Sekt. 3) är viktig
+	läsning. <hi rend="bold">HTTP Response Format</hi> (Sekt. 3.1.2) är
+	viktigt, eftersom det handlar om HTTP statuskoder som vi
+	internetprogrammerare vanligtvis slarvar med. Avdelningen 3.2 är kanske
+	det mest stimulerande, eftersom det är här delar av XML-maskineriet
+	definieras. <hi rend="bold">Flow control</hi> (Sekt. 3.5) handlar om
+	hanteringen av själva filöverföringen. Det är viktigt att en 
+	server inte överlastas, och att få detta rätt kan vara en viktig
+	överlevnadsfaktor för en belastad server.</item>
+
+      <item>Till Flow control hör det objekt som kallas
+	<hi rend="bold">resumptionToken</hi>. Servern förmodas skicka poster i
+	lagom munsbitar, och detta lilla objekt berättar för skördaren hur och
+	var och när den kan fortsätta skörda. Att få detta rätt är
+	utomordentligt viktigt.</item>
+
+      <item>Till formatfrågorna hör valet av syntax för metadata. Jag ser det
+	som en självklarhet att en server från början implementerar <hi
+	  rend="bold">oai_dc</hi>. Det finns andra alternativ, och Marc 21 i
+	XML är ett av dem. Qualified Dublincore kommer med all sannolikhet inom
+      en inte alltför avlägsen framtid, likaså MODS. Standardiseringen här är
+	ett rörligt byte, och man bör skriva sin server så att det i en framtid
+	går lätt att installera nya syntax-moduler.</item>
+
+    </list>
+
+  </div2>
+
+  <div2>
+
+    <head>Protokollet</head>
+
+    <list>
+
+      <item>OAI-PMHs olika verb avhandlas i Sekt. 4 (se även Tabell 1 i denna
+	pamflett). Notera att man även måste kunna förmedla en rad olika
+	felmeddelanden. Dessa sammanfattas i Sekt. 3.6.</item>
+
+      <item>För verbet <hi rend="bold">Identify</hi> finns det alternativa
+	<soCalled>description containers</soCalled> (Sekt. 4.2). För närvarande
+	är eprints den vanligaste. Jämför Guidelines-dokumentet.</item>
+
+      <item>I responsen för <hi rend="bold">listSets</hi> (Sekt. 4.3) verkar
+	det bara vara obligatoriskt att ange setSpec. Jag vill gärna ha både
+	setSpec och setName. Detsamma gäller i huvudet (head) för en
+	post.</item>
+
+    </list>
+
+  </div2>
+
+</div1>
+
+
+  
+
+

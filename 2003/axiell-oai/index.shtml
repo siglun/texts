@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<html xmlns="http://www.w3.org/1999/xhtml">
+  <head>
+    <title>Implementering av OAI i ett bibliotekssystem</title>
+    <link rel="stylesheet" href="/css-style/html.css" />
+    <meta http-equiv="Content-Type" content="text/html;charset=UTF-8"/>
+  </head>
+  <body>
+
+    <div class="left_box">
+      <p><a href="../">2003</a></p>
+      <!--#include virtual="../navigation.html" -->
+    </div>
+
+    <div class="right_box">
+
+      <h1>Implementering av OAI i ett bibliotekssystem</h1>
+
+      <ul>
+	<li><a href="oai-opac.pdf">oai-opac.pdf</a> -- rapporten i pdf</li>
+      </ul>
+
+      <p align="right">
+
+	Back to "<a href="/">Sigge's stuff</a>" | <a href="../">2003</a>
+
+      </p>
+
+    </div>
+  </body>
+</html>

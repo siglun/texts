@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<html xmlns="http://www.w3.org/1999/xhtml">
+  <head>
+    <title>En affärsmodell för en digitaliseringsverksamhet</title>
+    <link rel="stylesheet" href="/css-style/html.css" />
+    <meta http-equiv="Content-Type" content="text/html;charset=UTF-8"/>
+  </head>
+  <body>
+    <div class="left_box">
+      <a href="..">2002</a>
+      <!--#include virtual="../navigation.html" -->
+    </div>
+
+    <div class="right_box">
+
+      <h1>Ett förslag till affärsmodell  för digitalisering vid
+      Lunds universitets bibliotek</h1>
+      
+      <p>Detta är ett diskussionsinlägg. Läs i <a
+      href="digitaliserings_policy.xml">tei xml</a>, i <a
+      href="digitaliserings_policy.pdf">pdf</a></p>
+
+    </div>
+
+  </body>
+</html>

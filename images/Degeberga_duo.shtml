@@ -1,0 +1,32 @@
+<html>
+  <head>
+    <title>Erik Berger &ndash; my son &ndash; and myself</title></head>
+    <link rel='stylesheet' href='/css-style/html.css' type="text/css" />
+  <body>
+   <!--#include virtual="./navigate_images.html" -->
+   <div class="right_box">
+    <p align="center">
+      <a href="Degeberga_duo.jpg"
+	title="Erik Berger Lundberg &ndash; my son &ndash; and myself preparing our lunch" >
+	<img width="100%" src="Degeberga_duo-2.jpg"
+	  alt="Erik Berger Lundberg &ndash; my son &ndash; and myself" />
+      </a>
+      <br />
+      Photo: Stephen Wessels
+    </p>
+    <p align="center">
+      <a href="erik_med_sigge.jpg"
+	title="Erik Berger Lundberg &ndash; my son &ndash; and myself busking"
+	> 
+	<img width="100%" src="erik_med_sigge.jpg"
+	  alt="Erik Berger Lundberg &ndash; my son &ndash; and myself busking"
+	  /> 
+      </a>
+      <br />
+      Photo: Tomas Schönthal
+    </p>
+    </div>
+    <pre>
+    </pre>
+  </body>
+</html>

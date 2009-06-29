@@ -1,0 +1,3 @@
+
+2005-03-16:	Implementer truncation with '*'
+2005-03-15:	System stable

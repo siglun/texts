@@ -1,0 +1,665 @@
+<?xml version="1.0" encoding="iso-8859-1"?>
+<!DOCTYPE article PUBLIC "-//OASIS//DTD DocBook XML V4.1.2//EN" "http://www.oasis-open.org/docbook/xml/4.1.2/docbookx.dtd" [
+    ]>
+<article lang="en">
+  <articleinfo>
+    <title>Digital preservation and digitization at Lund University (and
+      elsewhere in Sweden)</title>
+    <author>
+      <firstname>Sigfrid</firstname>
+      <surname>Lundberg</surname>
+      <affiliation>
+	<orgname>, Lund University Libraries</orgname>
+      </affiliation>
+    </author>
+    <revhistory>
+      <revision>
+	<revnumber>$Revision$</revnumber>
+	<date>$Date$</date>
+	<authorinitials>$Author$</authorinitials>
+      </revision>
+    </revhistory>
+  </articleinfo>
+
+  <abstract>
+    <title>Lecture notes</title>
+    <para>
+      Notes to presentation held in Lund 7 June 2005.
+    </para>
+  </abstract>
+
+  <sect1 id="about-me">
+    <title>Let me first intrduce myself!</title>
+    <para>My name is Sigfrid Lundberg, research engineer and computer
+      programmer within the Univertity's Library Network.</para>
+    <para>Over the years I have been working on diverse matters:</para>
+    <itemizedlist>
+      <listitem>
+	<para>Harvesting and Web indexing</para>
+	<itemizedlist>
+	  <listitem>
+	    <para>Resource discovery databases; metadata aware
+	      harvesting</para>
+	  </listitem>
+	  <listitem>
+	    <para>A nation wide research information system (RIS) and a
+	      (similarly national) database for course information built using
+	      harvesting technology</para>
+	  </listitem>
+	  <listitem>
+	    <para>Web archiving</para>
+	  </listitem>
+	</itemizedlist>
+      </listitem>
+      <listitem>
+	<para>Standardization work within (e.g.) DCMI. Member of DCMI Advisory
+	  Board.</para> 
+      </listitem>
+    </itemizedlist>
+
+    <para>In addition to these activities I participated in EU funded
+      telematics projects, Desire, EUN, EUC, ETB.</para> 
+
+  </sect1>
+
+  <sect1 id="more-about-me">
+    <title>Presentation (cont'd)</title>
+
+    <itemizedlist>
+      <listitem>
+	<para>Electronic publishing; Electronic theses
+	  and dissertations</para> 
+      </listitem>
+      <listitem>
+	<para>Cultural heritage</para>
+	<itemizedlist>
+	  <listitem>
+	    <para>Digitization</para>
+	  </listitem>
+	  <listitem>
+	    <para>Infrastructure for cataloging</para>
+	  </listitem>
+	  <listitem>
+	    <para>Archival description and search engine for finding
+	      aids</para> 
+	  </listitem>
+	  <listitem>
+	    <para>...</para>
+	  </listitem>
+	</itemizedlist>
+      </listitem>
+    </itemizedlist>
+
+  </sect1>
+
+
+  <sect1 id="on-text">
+    <title>Concentrating on text</title>
+
+    <para>Around 1999 I became involved digitization and Text Encoding and
+      Interchange (TEI), and I also realized that what I had done for years
+      actually had a name -- text technology. Before that and after I've been
+      involved in:</para>
+
+    <itemizedlist>
+      <listitem>
+	<para>Storing and retrieval of text</para>
+      </listitem>
+      <listitem>
+	<para>Indexing and searching for texts and withing texts; text
+	  mining</para> 
+      </listitem>
+      <listitem>
+	<para>Text encoding, i.e., creation of HTML, SGML and XML
+	  documents.</para> 
+      </listitem>
+      <listitem>
+	<para>Modelling of texts using DTDs and later schema languages, and
+	  validation of such texts</para>
+      </listitem>
+      <listitem>
+	<para>Type setting of encoded text</para>
+      </listitem>
+    </itemizedlist>
+
+    <para>Much of these techniques are use in <emphasis>Humanities
+	computing</emphasis> (e.g., creation digital critical editions of
+      literary works), digitization, digital preservation and electronic 
+      publishing.</para>
+
+  </sect1>
+
+  <sect1 id="what-are-libraries-for">
+    <title>What do libraries do?</title>
+
+    <para>Libraries exists because they:</para>
+
+    <itemizedlist>
+      <listitem>
+	<para>Collect,</para>
+      </listitem>
+      <listitem>
+	<para>Preserve,</para>
+      </listitem>
+      <listitem>
+	<para>Organize,</para>
+      </listitem>
+      <listitem>
+	<para>and provide access to information</para>
+      </listitem>
+    </itemizedlist>
+
+
+    <programlisting>
+<![CDATA[
+      The past          Now             The future
+                         |
+      -------------------+------------------------> Time
+                         |
+]]></programlisting>
+
+    <para>Persons who knows or have experienced something may write about it
+      The results are published. The publication is <emphasis>data</emphasis>
+      and is stored as data in books, journals and possibly on hard disks,
+      CDs etc.</para> 
+
+    <para>Any corporate body storing published information is a library for
+      sharing whithin its constituency is a library.</para>
+
+ </sect1>
+
+  <sect1 id="what-is-an-archive">
+    <title>What is an archive?</title>
+
+    <para>An archive is information collected by persons or corporate bodies to
+      document a process. The process can be a person's life or a university's
+      research or a company's business.</para>
+
+    <programlisting>
+<![CDATA[
+      The past          Now             The future
+                         |
+      -------------------+------------------------> Time
+                         |
+]]></programlisting>
+
+  </sect1>
+
+  <sect1 id="why-preservation">
+    <title>Why preservation?</title>
+
+    <para>Knowledge is stored in brains</para>
+
+    <para>Only human beings may aquire knowledge. They do so through a
+      cognitive process called <emphasis>learning</emphasis>. Obviously, we may
+      can only do that from information that were created in the past.</para>
+
+    <para>There is one exception: When we do research we gain knowledge that
+      has never hitherto been stored as information.</para>
+
+    <sect2 id="preserved-knowledge">
+      <title>We can only gain knowledge from information that has been
+      preserved.</title>
+
+      <programlisting>
+<![CDATA[
+      The past          Now             The future
+                         |
+      -------------------+------------------------> Time
+                         |
+]]></programlisting>
+
+      <para>If we don't preserve, then all all knowledge would have been gained
+	through original research.</para>
+
+      <para>It is cost effective way for the society to keep its information,
+	be it publications or archival records, in institutions that
+	<emphasis>collect, preserve, organize</emphasis> and <emphasis>provide 
+	  access</emphasis> to information for their constituencies.</para>
+    </sect2>
+
+  </sect1>
+
+  <sect1 id="digital-preservation">
+    <title>What is digital preservation?</title>
+
+    <para>You may engage in digital preservation for two reasons:</para>
+
+    <itemizedlist>
+      <listitem>
+	<para>You have older  media (on paper)  and want a digital backup and
+	  by provide digital access you can lock up the fragile
+	  originals.</para> 
+      </listitem>
+      <listitem>
+	<para>Your have born digital media and want to preserve those for the
+	  future.</para> 
+      </listitem>
+    </itemizedlist>
+
+    <para>All preservation (be it digital or conventional) is based on human
+      efforts. It requires software, storage servers, hard disks, tape backup
+      etc, and a lot of computing. It is a question of workflows...</para>
+
+    <para>There exists a specification of an <emphasis>Open Archival
+	Information Service</emphasis>, which is an ISO standard. We have not
+      even tried to implement it here in Lund. It would eat resources. Links
+      about OAIS:</para>
+
+    <itemizedlist>
+      <listitem>
+	<para>ISO Archiving Standards - Overview
+	  <ulink
+	    url="http://ssdoo.gsfc.nasa.gov/nost/isoas/">http://ssdoo.gsfc.nasa.gov/nost/isoas/</ulink></para> 
+	<para>ISO Archiving Standards - Reference Model Papers
+	  <ulink
+	    url="http://ssdoo.gsfc.nasa.gov/nost/isoas/ref_model.html">http://ssdoo.gsfc.nasa.gov/nost/isoas/ref_model.html</ulink></para>
+      </listitem>
+      <listitem>
+	<para>OAIS in a library setting: RLG's OAIS site
+	  <ulink
+	    url="http://www.rlg.org/en/page.php?Page_ID=377">http://www.rlg.org/en/page.php?Page_ID=377</ulink>
+	</para>
+      </listitem>
+      <listitem>
+	<para><ulink
+	    url="http://www.nla.gov.au/padi/">http://www.nla.gov.au/padi/</ulink>
+	</para>
+      </listitem>
+    </itemizedlist>
+
+
+  </sect1>
+
+
+  <sect1 id="digital-preservation-in-sweden">
+    <title>What is going on in Sweden?</title>
+
+    <sect2 id="industrial-scale">
+      <title>Major (industrial scale) digitization activities</title>
+
+      <itemizedlist>
+	<listitem>
+	  <para>Historic population registries (<ulink
+	      url="http://www.ra.se/">National archives)</ulink></para>
+	</listitem>
+	<listitem>
+	  <para>Sweden's Geodesic Maps and the Swedish
+	    cadastre. (<ulink
+	      url="http://www.lantmateriverket.se">Lantmäteriverket</ulink>)</para> 
+	</listitem>
+      </itemizedlist>
+    </sect2>
+
+  </sect1>
+
+  <sect1 id="more-on-sweden">
+    <title>What is going on in Sweden? (cont'd)</title>
+
+    <sect2 id="at-libraries-and-archives">
+      <title>Digitization at libraris and archives</title>
+
+      <itemizedlist>
+	<listitem>
+	  <para>Waller project (UUB)</para>
+	</listitem>
+	<listitem>
+	  <para>Evert Taube Archive (GUB)</para>
+	</listitem>
+	<listitem>
+	  <para>S:t Laurentius Digital Manuscript Library (LUB)</para>
+	</listitem>
+	<listitem>
+	  <para>
+	    <ulink url="http://xml.ra.se:8080/exist/axel/sok.html">Axel
+	      Oxenstierna</ulink>,
+	    <ulink url="http://xml.ra.se:8080/exist/axel/sok2.html">XML
+	      demo</ulink> 
+	  </para>
+	</listitem>
+
+      </itemizedlist>
+    </sect2>
+  </sect1>
+
+  <sect1 id="still-more-on-sweden">
+    <title>What is going on in Sweden? (cont'd)</title>
+
+    <sect2 id="borne-digital">
+      <title>Preservation of objects that are borne digital</title>
+      <itemizedlist>
+	<listitem>
+	  <para>E-publishing (<ulink
+	      url="http://www.svep-projekt.se/">SVEP</ulink></para>
+	</listitem>
+	<listitem>
+	  <para>Web archiving (<ulink
+	      url="http://www.kb.se/kw3/Default.aspx">Kulturarw3</ulink>)</para>
+	</listitem>
+    	<listitem>
+	  <para>LDB project (Longterm digital preservation, <ulink
+	      url="http://www.ldb.ra.se/">A Swedish OAIS
+	      initiative</ulink>)</para> 
+	</listitem>
+      </itemizedlist>
+    </sect2>
+  </sect1>
+
+  <sect1 id="archival-networks">
+    <title>Archival Networks</title>
+
+    <itemizedlist>
+      <listitem>
+	<para><ulink url="http://www.nad.ra.se/">National Archival Database
+	    (NAD)</ulink></para>
+      </listitem>
+      <listitem>
+	<para><ulink url="http://www.ediffah.org/">Ediffah</ulink></para>
+      </listitem>
+    </itemizedlist>
+  </sect1>
+
+  <sect1 id="laurentius">
+    <title>S:t Laurentius Digital Manuscript Library</title>
+
+    <para>
+      The service:<ulink
+	url="http://laurentius.lub.lu.se/">http://laurentius.lub.lu.se</ulink>,
+      <ulink
+	url="http://sigge.lub.lu.se/2002/HomePage/laurentius.html">Laurentius</ulink> 
+    </para> 
+
+    <para>Properties of manuscripts</para>
+
+    <itemizedlist>
+      <listitem>
+	<para>Medieval manuscripts are complicated</para>
+	<itemizedlist>
+	  <listitem>
+	    <para>May contain well known content</para>
+	  </listitem>
+	  <listitem>
+	    <para>Are unique entities. Pieces of art</para>
+	  </listitem>
+	</itemizedlist>
+      </listitem>
+      <listitem>
+	<para>Corresponding functional requirements for search engine: Ability
+	  to combine</para>
+	<itemizedlist>
+	  <listitem>
+	    <para>Bibliographic search</para>
+	  </listitem>
+	  <listitem>
+	    <para>Specific features of manuscripts</para>
+	    <itemizedlist>
+	      <listitem>
+		<para>Scribe</para>
+	      </listitem>
+	      <listitem>
+                <para>Decoration</para>
+	      </listitem>
+	      <listitem>
+                <para>Former owners</para>
+	      </listitem>
+	      <listitem>
+                <para>...</para>
+	      </listitem>
+	    </itemizedlist>
+	  </listitem>
+	</itemizedlist>
+      </listitem>
+    </itemizedlist>
+  </sect1>
+
+  <sect1 id="laurentius-continued">
+    <title>S:t Laurentius Digital Manuscript Library (cont'd)</title>
+
+    <para>A challenging problem</para>
+
+    <itemizedlist>
+      <listitem>
+	<para>Capable cataloging scheme: Master XML DTD (Most release is based
+	  on Relax NG schema language).
+	  (<ulink
+	    url="http://www.tei-c.org/Master/Reference/">http://www.tei-c.org/Master/Reference/</ulink>)</para>
+	<para>Master XML models a very traditional methodology for cataloging
+	  manuscripts (origins traces back to 17th century). I.e., one is
+	  capable of transcribing old catalogues and use them in new search
+	  engines. For example <ulink
+	    url="http://laurentius.lub.lu.se/volumes/Mh_6/detailed/">Medeltidshandskrift 35</ulink>
+	</para> 
+	<figure>
+	  <title>Processing of manuscript descriptions</title>
+	  <graphic
+	    fileref="http://sigge.lub.lu.se/2002/DRH2002/images/items.jpg"/>
+	</figure>
+
+      </listitem>
+      <listitem>
+	<para>Deliver full text. NB: Laurentius contains metadata and scanned
+	  images, no transcriptions</para>
+      </listitem>
+    </itemizedlist>
+
+    <para>The entire catalogue in <ulink
+	url="http://laurentius.lub.lu.se/search/catalogue/mh.pdf">PDF</ulink>.
+      A fully indexed draft to a printed book.</para> 
+
+    <para>More about Laurentius: Lundberg, Sigfrid (2002)
+      <ulink
+	url="http://laurentius.lub.lu.se/search/presentation/laurentius.pdf">
+	Excursions along the border between metadata for resource discovery and
+	for resource description</ulink></para>
+
+  </sect1>
+
+  <sect1 id="ediffah">
+    <title>Ediffah -- An search engine archival finding aids</title>
+
+    <para>Service: <ulink
+	url="http://www.ediffah.org/">http://www.ediffah.org/</ulink></para>
+
+    <itemizedlist>
+      <listitem>
+	<para>A one year projected coordinated here from Lund university</para>
+      </listitem>
+      <listitem>
+	<para><emphasis>Archival Network</emphasis> formed by Manuscript and
+	  special collection departments at four of the country's largest
+	  research libraries.</para> 
+	<itemizedlist>
+	  <listitem>
+	    <para>Royal Library, Stockholm</para>
+	  </listitem>
+	  <listitem>
+	    <para>Gothenburg University Library</para>
+	  </listitem>
+	  <listitem>
+	    <para>Lund University Library</para>
+	  </listitem>
+	  <listitem>
+	    <para>Uppsala University Library</para>
+	  </listitem>
+	</itemizedlist>
+	<para>with technology from LUB and National Archives.</para> 
+      </listitem>
+      <listitem>
+	<para>The Ediffah service is a union catalogue covering archival
+	  collections all the member libraries.</para>
+	<para>Finding aids are encoded in Encoded Archival Description (EAD)
+	  2003 XML DTD/Schema.</para> 
+	<para>Search interface on web for end users, Z30.50 for other clients
+	  and data export in DC, Marc21 and EAD. Import in Marc21 and
+	  EAD.</para>
+	<para><ulink url="http://www.openarchives.org/">OAI</ulink> interface
+	  for dissemination of metadata</para>
+      </listitem>
+    </itemizedlist>
+
+    <para>More info on the technical solution:
+      <ulink
+	url="http://www.ediffah.org/reports/software.shtml">http://www.ediffah.org/reports/software.shtml</ulink></para> 
+
+  </sect1>
+
+  <sect1 id="ETDs">
+    <title>Electronic theses and dissertations</title>
+
+    <para>Two services, quite ordinary ones: <ulink
+	url="http://theses.lub.lu.se/undergrad/">Xerxes</ulink> 
+      and <ulink url="http://theses.lub.lu.se/postgrad/">Scripta</ulink>
+    </para>
+
+    <para>I will only discuss them from a digital preservation
+      perspective. Typically an electronic publishing supports at least three
+      functions:</para>
+
+    <itemizedlist>
+      <listitem>
+	<para>Cataloging: i.e., storing metadata.</para> 
+      </listitem>
+      <listitem>
+	<para>File upload:, i.e., storing data</para> 
+      </listitem>
+      <listitem>
+	<para>End user search and navigation: Search- and retrieval of
+	  data/metadata</para> 
+      </listitem>
+    </itemizedlist>
+
+
+    <sect2 id="cataloging">
+      <title>Infrastructure for cataloging and publishing</title>
+
+      <para>Users are document authors and editorial staff (e.g., reviewers).
+	Benefits from campuswide authentication system through LDAP. LDAP is
+	also used for getting unique identification of authors (Lund University
+	has more than five staff and students with the name <emphasis>Anders
+	  Nilsson</emphasis>).</para>
+
+      <figure>
+	<title>Architecture of Xerxes' and Scripta's cataloging tool</title>
+	<graphic
+	  fileref="http://sigge.lub.lu.se/2005/final-documents/images/xerxes_toolkit.png"/> 
+      </figure>
+    </sect2>
+
+    <sect2 id="indexing-and-searching">
+      <title>Infrastructure for indexing and searching</title>
+
+      <para>Users are typically researches and students.</para>
+
+      <figure>
+	<title>Architecture of Xerxes' and Scripta's search engine</title>
+	<graphic
+	  fileref="http://sigge.lub.lu.se/2005/final-documents/images/search_engine.png"/> 
+      </figure>
+
+    </sect2>
+
+    <sect2 id="dissemination-of-metadata">
+      <title>Infrastructure for dissemination of metadata</title>
+
+      <para>Users are remote search engines, e.g., Google and <ulink
+	  url="http://scholar.google.com/">Google Scholar</ulink> and <ulink
+	  url="http://oaister.umdl.umich.edu/o/oaister/">OAIster</ulink>. 
+	Like Ediffah this system supports OAI</para>
+
+
+    </sect2>
+
+  </sect1>
+
+  <sect1 id="other-activities-in-lund">
+    <title>Other activities in Lund</title>
+
+    <para>Digitization of images, films and  analog sounds and videos</para> 
+
+    <itemizedlist>
+      <listitem>
+	<para>Video interviews with researchers, i.e., documentation of the
+	  university itself.</para>
+      </listitem>
+      <listitem>
+	<para>However</para>
+	<itemizedlist>
+	  <listitem>
+	    <para>Sound recordings made in various contexts (linguistic
+	      research into dialects, there are ethnological and
+	      ethnomusicological collections).</para>
+	  </listitem>
+	  <listitem>
+	    <para>There are X-ray films, radar films, databases with raw data,
+	      spectral data, astronomical images...</para>
+	  </listitem>
+	</itemizedlist>
+      </listitem>
+    </itemizedlist>
+
+    <para>I honestly don't know all units facing these problems. Neither do I
+      know were these problems are addressed competently and where their
+      not.</para>
+
+  </sect1>
+
+  <sect1 id="on-internet-and-business">
+    <title>The Internet and its business models</title>
+
+    <para>We see a number of tendencies in the global economy.</para> 
+
+    <itemizedlist>
+      <listitem>
+	<para>Some of these are general, and shared by all manufacturing
+	  industries:</para>
+	<itemizedlist>
+	  <listitem>
+	    <para>The manufacturing itself becomes less and less
+	      profitable.</para> 
+	  </listitem>
+	  <listitem>
+	    <para>A steadily increasing proportion of companies' turnover comes
+	      from services rather than products.</para>
+	  </listitem>
+	  <listitem>
+	    <para>An increasingly restlessness as regards expectations for
+	      rapid revenues from an investment made</para>
+	  </listitem>
+	</itemizedlist>
+      </listitem>
+      <listitem>
+	<para>More specifically, for the media induxstry we see:</para> 
+	<itemizedlist>
+	  <listitem>
+	    <para>It is becoming increasingly difficult to defend intellectual
+	      property</para>
+	  </listitem>
+	  <listitem>
+	    <para>Steadily decreasing revenues from some (still not all)
+	      digital medial. This is due to because to the fact that marginal
+	      cost of producing additional copy is virtually zero.</para>  
+	  </listitem>
+	</itemizedlist>
+      </listitem>
+    </itemizedlist>
+
+  </sect1>
+
+  <sect1 id="creative-commons">
+    <title>Creative Commons and Open access is good, but...</title>
+
+    <para>Open Source Software, Open Access Media, Creative Commons, etc means
+      to give away content, and earning your money from additional services
+      (that's how Linus Torvalds became millionaire).</para>
+
+    <para>Preservation is an investment you normally cannot get a fast revenue
+      from. What you may get is results from future research, or just patrons
+      satisfied from reading a good book.</para> 
+
+    <para>The question is: Who will pay preservation of things that are
+      available for free on the Internet.</para>
+
+  </sect1>
+
+
+</article>

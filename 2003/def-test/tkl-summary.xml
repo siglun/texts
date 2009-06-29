@@ -1,0 +1,1572 @@
+<?xml version="1.0" encoding="iso-8859-1"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+                   "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" >
+  <head>
+    <meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1" />
+    <link rel="stylesheet" href="/css-style/html_print.css" type="text/css" />
+    <title>Sammanfattning av TKL-testen</title>
+  </head>
+
+  <body bgcolor="#ffffff">
+    <hr />
+
+    <h2>Innehåll i tjänsten</h2>
+    <table border="1">
+
+      <tr>
+	<td valign="top">A.</td>
+	<td valign="top"> </td>
+	<td valign="top"> </td>
+	<td valign="top">Innehåll i tjänsten.</td>
+      </tr>
+
+      <tr>
+	<td valign="top">A.1</td>
+	<td valign="top"> </td>
+	<td valign="top"> </td>
+	<td valign="top">
+	  Import av data.
+	</td>
+      </tr>
+
+      <tr><td valign="top">A.1.1</td>
+	<td valign="top">Skall</td>
+	<td valign="top">Ja</td>
+	<td valign="top">
+	  Möjlighet till import av data från existerande ämnesportaler.
+	  <br /><br />
+	  Gjort för Biogate (ROADS-baserad) och Agora (MS-SQL-baserad).
+	  I och för sig utanför TKL som sådant.
+	  Se vidare <a href=" ">
+	    "Import av data"</a>.
+	</td>
+      </tr>
+
+      <tr>
+	<td valign="top">A.2</td>
+	<td valign="top">Skall</td>
+	<td valign="top">Ja</td><td valign="top">
+	  Export av data.
+	  <br /><br />
+	  Filernas format (XML) innebär inte något problem. Däremot innebär den
+	  omständighet att klassningarna inte kan avläsas ur själva
+	  posten utan istället avgörs av i vilken katalog posten är
+	  förlagd samt av eventuellt ytterligare referenser till
+	  poster från andra kataloger en försvårande om än inte
+	  oöverstiglig omständighet.
+	</td>
+      </tr>
+
+      <tr>
+	<td valign="top">A.2.1</td>
+	<td valign="top">Bör</td>
+	<td valign="top">Nej</td>
+	<td valign="top">
+	  Renarduskompatibilitet.
+	  <br /><br />
+	  TKL är <strong>inte</strong> Renarduskompatibelt.
+	  Tekniskt är detta relativt enkelt att åstadkomma,
+	  däremot kräver detta att det att deltagande tjänster
+	  etablerar en detaljerad omvandlingstabell mellan tjänsternas
+	  klassifikationssystem och DDC.
+	</td>
+      </tr>
+
+      <tr><td valign="top">A.2.2</td>
+	<td valign="top">Bör</td><td valign="top">Ja</td>
+	<td valign="top">OAI-kompatibilitet.
+	  <br /><br />
+	  TKL stödjer en delmängd av OAI, och det är enkelt att konfigurera
+	  exporten av metadata.
+	</td>
+      </tr>
+
+      <tr><td valign="top">A.2.3</td>
+	<td valign="top">Bör</td>
+	<td valign="top">Ja</td>
+	<td valign="top">
+	  Z39.50-kompatibilitet.
+	  <br /><br />
+	  Med en liten ansträngning åstadkoms ett fullt utbyggt stöd för Marc
+	  21 och BIB-1 sökattribut. Kräver samordning av tjänsternas
+	  metadatamodeller.
+	</td>
+      </tr>
+
+      <tr><td valign="top">A.2.4</td>
+	<td valign="top">Skall</td>
+	<td valign="top">Ja</td><td valign="top">
+	  Kompatibiltet med centrala standarder, främst XML, Dublin Core,
+	    Z39.50.
+	  <br /><br />
+	  Se ovan. Dessutom erbjuder TKL SOAP-funktionsanrop.
+	</td>
+      </tr>
+
+      <tr><td valign="top">A.2.5</td>
+	<td valign="top">Skall</td>
+	<td valign="top">Ja</td>
+	<td valign="top">
+	  Sidor, där länkarna presenteras, ska vara synliga för sökrobotar (dvs
+	    det insamlade materialet ska inte vara "gömt" i
+	    databasen).
+	  <br /><br />
+	  I en TKL-portal kan alla bläddringsuppslag nås via länkföljning från
+	    ingångssidan, vilket medför att de också kan samlas in
+	    automatiskt av en robot. Det går naturligtvis inte för
+	    någon söktjänst att förutsätta för fritextssökresultat,
+	    eftersom det inte går att förutsätta att några länkar
+	    leder till dessa.
+	</td>
+      </tr>
+
+      <tr>
+	<td valign="top">A.2.6</td>
+	<td valign="top">Skall</td>
+	<td valign="top">Ja</td>
+	<td valign="top">
+	  Inlagda poster skall kunna återexporteras till ansvarsbiblioteken (t
+	  ex för användning i applikationer, som ligger utanför ramen
+	  för det gemensamma systemet.
+	  <br /><br />
+	  Se A.2.
+	</td>
+      </tr>
+
+      <tr>
+	<td valign="top">A.3</td>
+	<td valign="top"> </td>
+	<td valign="top"> </td>
+	<td valign="top">
+	  Ämnesrubriker och klassifikation.
+	</td></tr>
+
+      <tr>
+	<td valign="top">A.3.1</td>
+	<td valign="top">Skall</td>
+	<td valign="top">Nej</td>
+	<td valign="top">
+	  Hantering av flera ämnesområden i samma tjänst/på samma server.
+	  <br /><br />
+	  Det finns stora möjligheter att påverka presentationen av en
+	  ämnesstrukturerad databas. Kräver viss utveckling.
+	</td>
+      </tr>
+
+      <tr>
+	<td valign="top">A.3.2</td>
+	<td valign="top">Skall</td>
+	<td valign="top">Ja</td>
+	<td valign="top">
+	  Olika klassifikationssystem/kontrollerade vokabulärer.
+	  <br /><br />
+	  TKL kan användas för att presentera samma data på olika sätt. I <a
+	    href="http://www.doaj.org/">DOAJ</a> 
+	  används både LCC och en visualisering av detta
+	  system. Ämnesredaktörerna och tillgång till en separat ämnesportal
+	  som vars bläddringsstruktur strikt följer LCC.
+	</td>
+      </tr>
+
+      <tr>
+	<td valign="top">A.4</td>
+	<td valign="top"> </td>
+	<td valign="top"> </td><td valign="top">
+	  Metadata/datamodellen
+	</td>
+      </tr>
+
+      <tr><td valign="top">A.4.1</td>
+	<td valign="top">Skall</td>
+	<td valign="top">Ja</td>
+	<td valign="top">
+	  Inmatningsgränssnitt - olika registreringsformulär. (Se B.1)
+	</td>
+      </tr>
+
+      <tr>
+	<td valign="top">A.4.2</td>
+	<td valign="top">Skall</td>
+	<td valign="top">Ja</td>
+	<td valign="top">
+	  Fördefinierade metadatafält - obligatoriska fält.
+	  <br /><br />
+	  Se B.1.
+	</td></tr>
+
+      <tr><td valign="top">A.4.3</td>
+	<td valign="top">Skall</td>
+	<td valign="top">Ja</td>
+	<td valign="top">
+	  Det skall finnas stöd för alla metadatafält som nu används i portalen
+	  och/eller som förekommer i Dublin Core Element Set.
+	  <br /><br />
+	  Se B.1.
+	</td>
+      </tr>
+
+      <tr>
+	<td valign="top">A.4.4</td>
+	<td valign="top">Skall</td>
+	<td valign="top">Nej</td><td valign="top">
+	  Fält för "bäst-före"-datum bör finnas i formuläret, så att temporära
+	  resurser kan döljas i användargränssnittet, då det angivna
+	  datumet överskridits.
+	  <br /><br />
+	  Datum för senaste modifiering av en post lagras med sekundnogrannhet
+	  i varje post. Det går att utveckla en sökning som väljer ut poster
+	  som inte kontrollerats under någon given tidsperiod.
+	</td>
+      </tr>
+
+    </table>
+
+    <h2>Administrativa gränssnitt</h2>
+
+    <table border="1">
+
+      <tr>
+	<td valign="top">B.</td>
+	<td valign="top"> </td>
+	<td valign="top"> </td>
+	<td valign="top">Administrativa gränssnitt.</td>
+      </tr>
+
+      <tr>
+	<td valign="top">B.1</td>
+	<td valign="top">Skall</td>
+	<td valign="top">Ja</td><td valign="top">
+	  Skräddarsydda registreringsformulär.
+	  <br /><br />
+	  Metadatamodeller kan definieras med hjälp av TKLs schema-editor.
+	</td>
+      </tr>
+
+      <tr><td valign="top">B.1.1</td>
+	<td valign="top">Skall</td>
+	<td valign="top">Ja</td><td valign="top">
+	  Inmatningsformulär ska finnas och ska skall kunna hantera
+	  nyregistrering, uppdatering och makulering av poster.
+	  <br /><br />
+	  Alla elementära databasoperationer stöds av TKL.
+	</td>
+      </tr>
+
+      <tr>
+	<td valign="top">B.1.2</td>
+	<td valign="top">Skall</td>
+	<td valign="top">Ja</td><td valign="top">
+	  Möjlighet till anpassning av registreringsformulären skall finnas.
+	  <br /><br />
+	  Klaras av med hjälp aav schema-editorn, där man inte bara kan
+	  definiera vilka fält man ska ha utan också hur de ska matas in, huruvida
+	  de ska vara upprepningsbara och/eller obligatoriska. Det 
+	  går också att mata in kortare hjälptexter, men tyvärr går det
+	  inte att länka till externa hjälptexter.
+	  <br />
+	  Möjligheterna att påverka det redaktionella gränssnittet har ökat i TKL
+	  version 1.2, i vilket formulär skapas med hjälp av XSLT. Därför är
+	  det numera möjligt att konstruera länkar till annan dokumentation
+	  inifrån verktyget.
+	</td>
+      </tr>
+
+      <tr>
+	<td valign="top">B.1.3</td>
+	<td valign="top">Skall</td>
+	<td valign="top">Ja</td>
+	<td valign="top">
+	  Registreringsformuläret skall tillhandahålla möjlighet till och god
+	  hantering av upprepningsbara fält utan principiell
+	  begränsning av antalet fält (t ex titlar, upphovsmän).
+	</td>
+      </tr>
+
+      <tr>
+	<td valign="top">B.1.4</td>
+	<td valign="top">Skall</td>
+	<td valign="top">Ja?</td>
+	<td valign="top">
+	  Registreringsformuläret skall tillhandahålla möjlighet till och god
+	  hantering av förvalsmenyer/flervalmenyer.
+	  <br /><br />
+	  Klarar i skrivande stund bara av envalsmenyer.
+	</td>
+      </tr>
+
+      <tr>
+	<td valign="top">B.1.5</td>
+	<td valign="top">Skall</td>
+	<td valign="top">Ja?</td><td valign="top">
+	  Registreringsformuläret skall ha fileringsfunktion för titlar.
+	  <br /><br />
+	  Ett elementärt system för avlägsnande av danska bestämda artiklar
+	  (den, det m fl) från titlar vid sortering finns.
+	</td>
+      </tr>
+
+      <tr>
+	<td valign="top">B.1.6</td>
+	<td valign="top">Skall</td>
+	<td valign="top">Ja</td>
+	<td valign="top">
+	  Registreringsformuläret skall kunna kopplas till kontrollerade
+	  vokabulärer.
+	  <br /><br />
+	  (Schemaeditor: Inmatningstyp = dropdown + koppling till
+	  autkoritetsfil.) 
+	</td>
+      </tr>
+
+      <tr>
+	<td valign="top">B.1.7</td>
+	<td valign="top">Skall</td>
+	<td valign="top">Ja</td>
+	<td valign="top">
+	  Möjlighet för redaktörerna att vid behov själv lägga till nya
+	  ämnesord  och klassningar.
+	  <br /><br />
+	  Redaktörerna kan tillåtas att uppdatera auktoritetsfiler via ett
+	  särskilt formulär (genom att det går att lägga individuella
+	  auktoritetsfiler i egna kataloger om så önskas, kan man
+	  undvika "befogenhetsinflation". Däremot kan TKL inte tillåta 
+	  redaktören att för ett och samma fält välja mellan
+	  rullgardinsmeny och textinmatningsruta som i Agora, där det
+	  sistnämnda valet medför utvidgning av auktoritetsfilen.
+	</td>
+      </tr>
+
+      <tr>
+	<td valign="top">B.1.8</td>
+	<td valign="top">Skall</td>
+	<td valign="top">Ja?</td>
+	<td valign="top">
+	  Geografiska och kronologiska ämnesord skall kunna särskiljas från
+	  andra ämnesordstyper.
+	  <br /><br />
+	  TKL klarar detta, vilket dock är en fråga för om val av
+	  metadatamodell. Lösningen skulle vara att skapa två fält, låt oss
+	  kalla dem temporal coverage  respektive spacial coverage (efter var
+	  de hör hemma i Dublin Core). Vanliga ämnesord skulle hamna i subject.
+	</td>
+      </tr>
+
+      <tr>
+	<td valign="top">B.1.9</td>
+	<td valign="top">Skall</td>
+	<td valign="top">Ja</td>
+	<td valign="top">
+	  Dublettkontroll skall finnas för länkadress, ämnesord och
+	  klassningar.
+	  <br /><br />
+	  Finns för URL men troligtvis inte i övrigt, alltså att exemplevis att
+	  ett visst ämnesord upprepas i en post.
+	</td>
+      </tr>
+
+      <tr>
+	<td valign="top">B.1.10</td>
+	<td valign="top">Skall</td>
+	<td valign="top">Ja</td>
+	<td valign="top">
+	  Hjälptexter skall finnas kopplade till formuläret.
+	  <br /><br />
+	  TKL understöder hjälptexter, som lagras lokalt i schemafilen. (jfr
+	  B.1.2) 
+	</td>
+      </tr>
+
+      <tr>
+	<td valign="top">B.1.11</td>
+	<td valign="top">Skall</td>
+	<td valign="top">Ja</td>
+	<td valign="top">
+	  Förhandsgranskning av alla uppgifter som registrerats och/eller som i
+	  formuläret legat som standardval skall finnas.
+	  <br /><br />
+	  Förhandsgranskning finns så tillvida att en post kan markeras såsom
+	  icke publicerad. Den kan i så fall granskas av andra - fast inte i
+	  tjänstens gränssnitt utan i metadataformuläret.
+	</td>
+      </tr>
+
+      <tr><td valign="top">B.1.12</td>
+	<td valign="top">Skall</td>
+	<td valign="top">Ja</td>
+	<td valign="top">
+	  Om obligatoriska fält lämnats oifyllda skall posten ej accepteras i
+	  databasen och förklarande felmeddelande visas.
+	</td>
+      </tr>
+
+      <tr>
+	<td valign="top">B.1.12.1</td>
+	<td valign="top">Skall</td>
+	<td valign="top">Ja</td>
+	<td valign="top">
+	  Vissa fält skall vara obligatoriska = registrering skall ej kunna
+	  slutföras utan att dessa har ifyllts.
+	  <br /><br />
+	  Se B.1.12.
+	</td>
+      </tr>
+
+      <tr>
+	<td valign="top">B.1.12.2</td>
+	<td valign="top">Bör</td>
+	<td valign="top">Ja</td>
+	<td valign="top">
+	  Fördefinierade metadatafält - obligatoriska fält.
+	  <br /><br />
+	  Se B.1.
+	</td>
+      </tr>
+
+      <tr>
+	<td valign="top">B.1.13</td>
+	<td valign="top">Skall</td>
+	<td valign="top">Ja</td>
+	<td valign="top">
+	  Vid makulering av poster skall inte anknutna ämnesord eller
+	  klassningar makuleras ens om ingen annan post har knutits
+	  till dessa.
+	</td>
+      </tr>
+
+      <tr>
+	<td valign="top">B.2</td>
+	<td valign="top"> </td>
+	<td valign="top"> </td>
+	<td valign="top">
+	  Postadministration.
+	</td>
+      </tr>
+
+      <tr>
+	<td valign="top">B.2.1</td>
+	<td valign="top">Skall</td>
+	<td valign="top">Ja</td>
+	<td valign="top">
+	  Datum för skapande av ny post och datum för ändring av befintliga
+	  poster skall skapas som dolda värden i tabellen och vara
+	  separerade från varandra.
+	  <br /><br />
+	  Klaras av, fast f n buggigt.
+	</td>
+      </tr>
+
+      <tr>
+	<td valign="top">B.2.2</td>
+	<td valign="top">Skall</td>
+	<td valign="top">Nej</td>
+	<td valign="top">
+	  Varje post ska kunna knytas till ett ID-nr för registrerande
+	  redaktör.
+	  <br /><br />
+	  Varje post knyts till redaktörens användaridentitet. Man får i
+	  princip denna funktionalitet genom att man byter lösenord på en
+	  identitet när en redaktör pensioneras men återanvänder identiteten.
+	</td>
+      </tr>
+
+      <tr>
+	<td valign="top">B.3</td>
+	<td valign="top">Skall</td>
+	<td valign="top">Ja</td>
+	<td valign="top">
+	  Stöd för flerspråkighet.
+	  <br /><br />
+	  TKL klarar flerspråkighet på såväl redaktörs-, användargränssnittsnivå
+	  och fältinnehållsnivå. Version 1.2 har dessutom möjlighet till
+	  språkval för redaktörer. Det administrativa gränssnittets texter
+	  lagras i en XML-fil. 
+	</td>
+      </tr>
+
+      <tr><td valign="top">B.4</td>
+	<td valign="top">Skall</td>
+	<td valign="top">Ja</td>
+	<td valign="top">
+	  Sökformulär för internt behov skall finnas (redaktörsmässig sökning).
+	  <br /><br />
+	  Redaktörerna får använda tjänstens sökfunktionen, och de kan, om de
+	  är inloggade, ladda poster i inmatningsverktyget.
+	</td>
+      </tr>
+
+      <tr>
+	<td valign="top">B.5</td>
+	<td valign="top">Skall</td>
+	<td valign="top">Ja</td>
+	<td valign="top">
+	  Accesskontroll.
+	  <br /><br />
+	  Se B.8.1 och B.8.2. Accesskontrollen för redaktörer har i vissa
+	  avseenden förbättrats i version 1.2. Det är dock fortfarande omöjligt
+	  att logga ut.
+	</td>
+      </tr>
+
+      <tr>
+	<td valign="top">B.6</td>
+	<td valign="top">Skall</td>
+	<td valign="top">Ja</td>
+	<td valign="top">
+	  Hantering av presentation av kontrollerade vokabulärer.
+	  <br /><br />
+	  Finns en enkel auktoritetsfilseditor samt möjlighet i schemaeditorn
+	  att knyta inmatningsfält i form av rullgardinsmenyer till
+	  auktoritetsfiler. Presentationen av träffar görs med XSLT, och det
+	  går att hämta termer via deras ID i aktoritetsfilerna.
+	</td>
+      </tr>
+
+      <tr>
+	<td valign="top">B.6.1</td>
+	<td valign="top">Bör</td>
+	<td valign="top">Ja</td>
+	<td valign="top">
+	  Det skall finnas stöd för automatisk kontroll av att termer hämtade
+	  ur en thesaurus är korrekta.
+	  <br /><br />
+	  Se B.6
+	</td>
+      </tr>
+
+      <tr>
+	<td valign="top">B.6.2</td>
+	<td valign="top">Bör</td>
+	<td valign="top">Ja</td>
+	<td valign="top">
+	  Det skall vara möjligt att vid indexering representera en
+	  indexeringsterm ur en thesaurus med ett unikt ID istället för 
+	  för klartexten för ämnesordet.
+	  <br /><br />
+	  Klaras av med TKLs auktoritetsfiler. Ämnesord som hanteras via
+	  auktoritetsfilerna blir tyvärr inte sökbara vid sökning.
+	</td>
+      </tr>
+
+      <tr><td valign="top">B.6.3</td>
+	<td valign="top">Skall</td>
+	<td valign="top">Ja</td>
+	<td valign="top">
+	  Thesaurusen skall kunna underhållas oberoende av länkarna, lämpligen
+	  genom att man importerar unika ID med tillhörande klartexter 
+	  som en separat tabell.
+	  <br /><br />
+	  Att automatiskt bilda auktoritetsfiler enligt TKL är enkelt.
+	  Se vidare <a href=" ">
+	    "Import av data"</a>.</td>
+      </tr>
+
+      <tr>
+	<td valign="top">B.6.4</td>
+	<td valign="top">Skall</td>
+	<td valign="top">Ja</td>
+	<td valign="top">
+	  Flerspråkiga thesaurer skall kunna importeras och hanteras av
+	  bläddringsstrukturen.
+	  <br /><br />
+	  Klaras av, under förutsättning av att tesaurens struktur är oberoende
+	  av språkval. (Två givna termer får alltså inte stå i olika relation
+	  till varandra i olika språk).
+	</td>
+      </tr>
+
+      <tr>
+	<td valign="top"><a name="B6.6.5">B.6.5</a></td>
+	<td valign="top">Skall</td><td valign="top">Nej</td><td valign="top">
+	  Ändring/makulering av inlagda ämnesord och klassifikationer (spärrad
+	  uppdateringsbehörighet).
+	  <br /><br />
+	  Notera att i TKL ligger posterna ligger i klassifikationen, dvs som
+	  en fil i bläddringsstrukturen. Det är alltså inte möjligt att
+	  makulera en klassifikation utan att först flytta eller makulera
+	  posterna i den. Att förändra auktoriteter kräver normalt
+	  administratörsbehörighet.
+	</td>
+      </tr>
+
+      <tr>
+	<td valign="top">B.6.6</td>
+	<td valign="top">Skall</td>
+	<td valign="top">Nej</td>
+	<td valign="top">
+	  Stöd för mappning av av ämneshierarkier, resurstyper (och ämnesord?)
+	  mellan de portaler som integreras i tjänsten skall finnas så 
+	  att sökning och visning i databasen kan ske.
+	  <br /><br />
+	  Understöds inte av TKL internt. Ett sådant system har implementerats
+	  i <a href="http://www.doaj.org">DOAJ</a> separat utanför TKL.
+	</td>
+      </tr>
+
+      <tr><td valign="top">B.6.7</td>
+	<td valign="top">Bör</td>
+	<td valign="top">Nej</td>
+	<td valign="top">
+	  Att kunna utnyttja databasen "Svenska ämnesord" för registrering och
+	  sökning med ämnesord.
+	  <br /><br />
+	  Inte utan ytterligare utveckling. Notera att vad vi vet stödjer
+	  inte "Svenska ämnesord" några standardiserade format för export.
+	  Det skulle gå definiera en nätverksburen form av vokabulärsauktoritet
+	  om så varit fallet.
+	</td>
+      </tr>
+
+      <tr><td valign="top">B.7</td>
+	<td valign="top">Skall</td>
+	<td valign="top">Ja</td><td valign="top">
+	  Länkkontroll.
+	</td>
+      </tr>
+
+      <tr>
+	<td valign="top">B.7.1</td>
+	<td valign="top">Bör</td>
+	<td valign="top">Nej</td>
+	<td valign="top">
+	  Inmatningssystemet skall automatiskt kunna kontrollera om innehållet
+	  på en sida har ändrats sedan länken som pekar ut den lades in.
+	  <br /><br />
+	  Bör gå att implementera med viss utveckling. Vad det skulle kosta
+	  beror naturligtvis på hur förändring skall mätas.
+	</td></tr>
+
+      <tr>
+	<td valign="top">B.7.2</td>
+	<td valign="top">Skall</td>
+	<td valign="top">Ja</td>
+	<td valign="top">
+	  Central, automatisk länkkontroll måste kunna integreras.
+	  <br /><br />
+	  Baserad på HTTP statuskoder.
+	</td>
+      </tr>
+
+      <tr>
+	<td valign="top">B.7.3</td>
+	<td valign="top">Skall</td>
+	<td valign="top">Nej</td>
+	<td valign="top">
+	  Länkkontrollen skall kunna koplas och styras till ansvarig
+	  ämnesredaktör. (Föranlett av att användarklick på trasiga
+	  länkar.)
+	  <br /><br />
+	  Förefaller onödigt med tanke på B.7.4. Detta förutsätter loggning av
+	  användning av utgående länkar, och automatisk kontroll av just
+	  dem. En normal ämnesportal är inte större än att alla länkar kan
+	  kontrolleras regelbundet.
+	</td>
+      </tr>
+
+      <tr>
+	<td valign="top">B.7.4</td>
+	<td valign="top">Skall</td>
+	<td valign="top">Ja</td>
+	<td valign="top">
+	  Länkkontrollen skall dessutom kunna göras centralt med jämna
+	  mellanrum. 
+	  <br /><br />
+	  Se B.7.2
+	</td>
+      </tr>
+
+      <tr>
+	<td valign="top">B.7.5</td>
+	<td valign="top">Skall</td>
+	<td valign="top">Ja</td>
+	<td valign="top">
+	  Statusrapporterna skall kunna identifiera olika typer av länkfel.
+	  <br /><br />
+	  Klaras troligen av. För närvande dock baserat på HTTP-statuskoder.
+	</td>
+      </tr>
+
+      <tr>
+	<td valign="top">B.8</td>
+	<td valign="top">Skall</td>
+	<td valign="top">Ja</td>
+	<td valign="top">
+	  Administration av redaktörer.
+	</td>
+      </tr>
+
+      <tr>
+	<td valign="top">B.8.1</td>
+	<td valign="top">Skall</td>
+	<td valign="top">Ja</td>
+	<td valign="top">
+	  Access till registrering skall kunna begränsas och vara
+	  lösenordsbelagd.
+	  <br /><br />
+	  Klaras av men buggig i nuvarande version. Förbättrat i version 1.2.
+	</td>
+      </tr>
+
+      <tr>
+	<td valign="top">B.8.2</td>
+	<td valign="top">Bör</td>
+	<td valign="top">Nej</td>
+	<td valign="top">
+	  Redaktörerna skall själva kunna ändra sina lösenord och
+	  namnuppgifter.
+	  <br /><br />
+	  Möjligt om redaktörerna har administratörsstatus
+	</td>
+      </tr>
+
+      <tr>
+	<td valign="top">B.9</td>
+	<td valign="top">Skall</td>
+	<td valign="top">Nej</td>
+	<td valign="top">
+	  E-postsystem.
+	  <br /><br />
+	  TKL har inget eget e-postsystem, men kan skicka e-mail från
+	  tips-formulär och dylikt.
+	</td>
+      </tr>
+
+      <tr>
+	<td valign="top">B.9.1</td>
+	<td valign="top">Skall</td>
+	<td valign="top">Nej</td>
+	<td valign="top">
+	  Deltagande redaktörer skall ha egna (men opersonligt utformade för
+	  att underlätta vid redaktörsbyte) e-postadresser, dit
+	  användarkontakter och länkfelsrapporter skall kunna styras
+	  direkt utan central förmedling.
+	  <br /><br />
+	  Skulle förmoda att ingen existerande portal-programvara har detta
+	  inbyggt i själva portalen. Det är å andra sidan trivialt att
+	  implementera utanför genom mail-alias.
+	</td>
+      </tr>
+
+      <tr>
+	<td valign="top">B.9.2</td>
+	<td valign="top">Bör</td>
+	<td valign="top">Nej</td>
+	<td valign="top">
+	  Skräppostfilter bör finnas på servern.
+	  <br /><br />
+	  Kan med fördel läggas utanför TKL.
+	</td>
+      </tr>
+
+      <tr>
+	<td valign="top">B.10</td>
+	<td valign="top">Bör</td>
+	<td valign="top">Ja</td>
+	<td valign="top">
+	  Systemet skall vara skalbart; antalet redaktörer skall därför inte
+	  behöva vara intressant.
+	</td>
+      </tr>
+    </table>
+
+    <h2>Användargränssnitt</h2>
+
+    <table border="1">
+      <tr>
+	<td valign="top">C.</td>
+	<td valign="top"> </td>
+	<td valign="top"> </td>
+	<td valign="top">Användargränssnitt.</td>
+      </tr>
+
+      <tr>
+	<td valign="top">C.1</td>
+	<td valign="top">Bör</td>
+	<td valign="top">Ja</td>
+	<td valign="top">
+	  Usability-aspekter bör beaktas, även för användare med
+	  funktionshinder.
+	  <br /><br />
+	  Det finns inget som hindrar implementatörer att bygga såväl utmärkta
+	  som förfärliga gränssnitt med TKL.
+	</td>
+      </tr>
+
+      <tr>
+	<td valign="top">C.2</td>
+	<td valign="top"> </td>
+	<td valign="top"> </td>
+	<td valign="top">
+	  Skräddarsydda sök- och bläddringsgränssnitt.
+	</td>
+      </tr>
+
+      <tr>
+	<td valign="top">C.2.1</td>
+	<td valign="top">Skall</td>
+	<td valign="top">Ja</td>
+	<td valign="top">
+	  Möjlighet till skräddarsydda sök- och bläddringsgraänssnitt skall
+	  finnas för både för varje deltagande tjänst och för användare.
+	  <br /><br />
+	  TKL erbjuder enkel anpassning av portalers metadatamodeller. Det
+	  råder dock en omvänd relation mellan möjligheter till samordnad
+	  sökning och navigering mellan portalerna och antalet implementerade
+	  egenheter inom var och en av dem.
+	</td>
+      </tr>
+
+      <tr>
+	<td valign="top">C.2.2</td>
+	<td valign="top">Skall</td>
+	<td valign="top">Ja</td>
+	<td valign="top">
+	  Flera gränssnitt (även ett gemensamt, icke ämnesspecifikt).
+	  <br /><br />
+	  Ett sådan gränssnitt måste dock utvecklas separat. Det följer inte
+	  med TKL (som man ju får gratis).
+	</td>
+      </tr>
+
+      <tr>
+	<td valign="top">C.3</td>
+	<td valign="top"> </td>
+	<td valign="top"> </td>
+	<td valign="top">
+	  Presentation av resultat.
+	</td>
+      </tr>
+
+      <tr>
+	<td valign="top">C.3.1</td>
+	<td valign="top">Skall</td>
+	<td valign="top">Ja</td>
+	<td valign="top">
+	  Det skall vara möjligt att konstruera en URL som adresserar sig till
+	  en viss rubrik i bläddringsstrukturen (vanligtvis svarande 
+	  mot en viss term ur thesaurusen)
+	  <br /><br />
+	  Se A.2.5.
+	</td>
+      </tr>
+
+      <tr>
+	<td valign="top">C.3.2</td>
+	<td valign="top">Skall</td>
+	<td valign="top">Ja</td>
+	<td valign="top">
+	  Länk till ämnesrubrikerna i bläddringsstrukturen skall på alla nivåer
+	  vara stabil, så att det går att i andra sammanhang direktlänka till
+	  olika ämnesrubriker oavsett hierarkisk nivå.
+	  <br /><br />
+	  Se A.2.5.
+	</td>
+      </tr>
+
+      <tr>
+	<td valign="top">C.3.3</td>
+	<td valign="top">Skall</td>
+	<td valign="top">Ja</td>
+	<td valign="top">
+	  Rubrikerna i ämnesstrukturen skall gå att presentera som länkar till
+	  sidor där innebörden av termen förklaras.
+	  <br /><br /> 
+	  Klaras av (relativt enkel anpassning av XSLT script).
+	</td>
+      </tr>
+
+      <tr>
+	<td valign="top">C.3.4</td>
+	<td valign="top">Bör</td>
+	<td valign="top">Ja</td>
+	<td valign="top">
+	  Viktiga grenar i hierarkin skall skall kunna från rotnivån i
+	  bläddringsstrukturen (dvs man skall inte behöva bläddra
+	  sig ner till rätt nivå i hierarkinför att hitta länkar
+	  indexerade med termer ur den grenen av hierarkin.
+	  <br /><br />
+	  Finns i princip redan. Går att åstadkomma även med
+	  specialfallsprogrammering av XSLT-script (givetvis tillrådligt bara
+	  om bläddringsstrukturen är stabil).
+	</td>
+      </tr>
+
+      <tr>
+	<td valign="top">C.3.5</td>
+	<td valign="top">Skall</td>
+	<td valign="top">Nej</td>
+	<td valign="top">
+	  Polyhierarkiska thesaurer (där samma term kan återfinnas på flera
+	  platser i hierarkin) skall hanteras korrekt i bläddringsstrukturen.
+	  <br /><br />
+	  TKL klarar inte detta eftersom bläddringsstrukturen är hårt
+	  knuten till filsystemet. Å andra sidan kan TKL leverera allt som går
+	  att formulera i XML och kan omvandlas till hypertext med XSLT. MESHs
+	  struktur är av detta slag. Efter granskning av XML-kodningen av MESH
+	  som den levereras av NLM, uppfattar vi denna uppgift som görbar men
+	  dessutom sannolikt karaktärsdanande och nyttig uppgift för någon
+	  stöddig XSLT-programmerare.
+	</td>
+      </tr>
+
+      <tr>
+	<td valign="top">C.3.6</td>
+	<td valign="top">Bör</td>
+	<td valign="top">Nej?</td>
+	<td valign="top">
+	  Bläddringsstrukturen skall kunna presentera alla länkar indexerade
+	  med termer ur ett visst delträd av hierarkin på samma
+	  sida. (Detta kan vara önskvärt om antalet utnyttjade
+	  termer från thesauren är stort i förhållande till antalet
+	  indexerade länkar.)
+	  <br /><br />
+	  TKL klarar inte detta som standard. Vi ställer oss dessutom frågan om
+	  det verkligen är önskvärt att presentera de delar av (en omfattande)
+	  vokabulär som inte används?
+	</td>
+      </tr>
+
+      <tr>
+	<td valign="top">C.3.7</td>
+	<td valign="top">Skall</td>
+	<td valign="top">Ja</td>
+	<td valign="top">
+	  Om vissa nivåer i en stor, hierarkisk thesaurus inte utnyttjas vid
+	  indexering, skall luckorna kunna hanteras av
+	  bläddringsstrukturen.
+	  <br /><br />
+	  Kan realiseras som tom vidarenavigeringsnod, som utelämnad nod
+	  eller som nod med upplysningen att inget material finns
+	  förlagt hit. Man kan även rekursivt slå samman poster till närmast
+	  liggande bredare termer.
+	</td>
+      </tr>
+
+      <tr>
+	<td valign="top">C.3.7.1</td>
+	<td valign="top">Skall</td>
+	<td valign="top">Ja</td><td valign="top">
+	  Ämnesrubriker, ämnesord och klassningar till vilket för tillfället
+	  inga poster finns knutna skall döljas i sökformuläret och
+	  resultatlistor i det externa gränssnittet.
+	  <br /><br />
+	  Se C.3.7.
+	</td>
+      </tr>
+      
+      <tr>
+	<td valign="top">C.3.8</td>
+	<td valign="top">Skall</td>
+	<td valign="top">Ja</td>
+	<td valign="top">
+	  Rubrikerna i bläddringsstrukturen inom ett ämnesområde skall kunna
+	  bestå både av termer ur en thesaurus och egna termer, som
+	  kompletterar thesauren.
+	</td>
+      </tr>
+
+      <tr>
+	<td valign="top">C.3.9</td>
+	<td valign="top">Skall</td>
+	<td valign="top">Ja</td><td valign="top">
+	  Användaren skall vid bläddring kunna begränsa till resurser på ett
+	  visst språk.
+	  <br /><br />
+	  Kommentar: Detta är det klassiska "filterproblemet", som går igen i
+	    många söktjänster. Lösningen, som i och för sig inte har
+	    med TKL att göra, utnyttjar att XSLT-script har förmågan
+	    att testa huruvida en CGI-variabel är definierad eller
+	    inte. I fallet att den (t ex en språkvalsmeny) är det tar
+	    XSLT-scriptet istället för alla poster i aktuellt
+	    bläddringsuppslag exempelvis bara de med language = 'se'.
+	</td>
+      </tr>
+
+      <tr>
+	<td valign="top">C.3.10</td>
+	<td valign="top">Skall</td>
+	<td valign="top">Ja</td>
+	<td valign="top">
+	  Gränssnitt för ämnesdefinierad bläddring i databasen skall finnas,
+	  med möjlighet till vidarenavigering på minst 4 hierarkiska nivåer.
+	</td>
+      </tr>
+
+      <tr>
+	<td valign="top">C.3.11</td>
+	<td valign="top">Skall</td>
+	<td valign="top">Ja</td>
+	<td valign="top">
+	  Under varje ämne i blädderstrukturen skall skall en sekundär
+	  sortering efter resurstyp vara möjlig, och i de fall en resurs
+	  knutits till flera resurstyper skall den visas under varje 
+	  resurstypsrubrik.
+	  <br /><br />
+	  Sekundär resurstypsortering kan realiseras med XSLT. Dock
+	  osäkert om en träff kan upprepas för alla de resurstyper
+	  den klassats som. Standard är sortering efter titel.
+	</td>
+      </tr>
+
+      <tr>
+	<td valign="top">C.3.12</td>
+	<td valign="top">Bör</td>
+	<td valign="top">Ja</td>
+	<td valign="top">
+	  Under varje ämne i blädderstrukturen bör dessutom alfabetiska listor
+	  kunna väljas.
+	  <br /><br />
+	  Om önskemålet gäller sortering alfabetiskt map titel finns det redan.
+	  Andra sorteringar går direkt att åstadkomma med hjälp av XSLT.
+	  Om alfabetiska ämnesuppslagslistor ska kunna
+	  väljas, ligger detta troligen utanför TKL som sådant.
+	  En framkomlig väg skulle kunna vara att ämnesträdet
+	  traverseras t ex en gång per dygn och en alfabetisk
+	  länksamling framställs. Den görs tillgänglig på varje
+	  bläddringsnivå via det XSLT-script, som framställer
+	  bläddringsuppslagen.
+	</td>
+      </tr>
+
+      <tr>
+	<td valign="top">C.3.13</td>
+	<td valign="top">Skall</td>
+	<td valign="top">Ja</td>
+	<td valign="top">
+	  I den bläddringsbara ämnesstrukturen skall kontaktuppgifter till
+	  ämnesansvarig redaktör vara lätt tillgänglig.
+	  <br /><br />
+	  Är faktiskt så enkelt som en lay-outfråga.
+	</td>
+      </tr>
+
+      <tr>
+	<td valign="top">C.4</td>
+	<td valign="top"> </td>
+	<td valign="top"> </td>
+	<td valign="top">
+	  Sökfunktion.
+	</td>
+      </tr>
+
+      <tr>
+	<td valign="top">C.4.1</td>
+	<td valign="top">Skall</td>
+	<td valign="top">Ja</td>
+	<td valign="top">
+	  Unicode.
+	  <br /><br />
+	  I skrivande stund är inmatningen fortfarande i ISO-8859-1, men detta
+	  bör enkelt gå att ändra. Sökindex är däremot i UTF-8.
+	</td>
+      </tr>
+
+      <tr>
+	<td valign="top">C.4.2</td>
+	<td valign="top">Skall</td>
+	<td valign="top">Ja</td>
+	<td valign="top">
+	  "Specialtecken" (å, ä, ö, etc) skall kunna anges med
+	  eller utan diakritiska tecken och ändå ge samma sökresultat.
+	  <br /><br />
+	  Tja, det bor ga att astadkomma detta. Fragan ar om man vill att
+	  <b>ål</b> (fisk) och <b>al</b> (trad) skall ge samma traffar?
+	</td>
+      </tr>
+
+      <tr>
+	<td valign="top">C.4.3</td>
+	<td valign="top">Skall</td>
+	<td valign="top">Ja</td>
+	<td valign="top">
+	  Frassökning.
+	  <br /><br />
+	  Finns inte som standard. Enkelt och billigt.
+	</td>
+      </tr>
+
+      <tr>
+	<td valign="top">C.4.4</td>
+	<td valign="top">Skall</td>
+	<td valign="top">Ja</td>
+	<td valign="top">
+	  Högertrunkering.
+	  <br /><br />
+	  Standard.
+	</td>
+      </tr>
+
+      <tr>
+	<td valign="top">C.4.5</td>
+	<td valign="top">Skall</td>
+	<td valign="top">Nej</td>
+	<td valign="top">
+	  Maskering.
+	  <br /><br />
+	  Bör gå att implementera genom sökning med regularutryck. Vem vill ha
+	  det?
+	</td>
+      </tr>
+
+      <tr>
+	<td valign="top">C.4.6</td>
+	<td valign="top">Skall</td>
+	<td valign="top">Ja</td><td valign="top">
+	  Sökning med booleska operatorer.
+	  <br /><br />
+	  Standard. Försökspersonerna har rapporterat att bara enordssökning i
+	  testportalerna klaras av. Detta är en känd bugg, en fix kom i början
+	  av februari. Prova t ex sökning på "<a
+	    href="http://www.doaj.org/search.tkl?query=chemistry+and+molecules">chemistry and molecules</a>" och "<a 
+	    href="http://www.doaj.org/search.tkl?query=chemistry+or+molecules">chemistry or molecules</a>" i <a
+	    href="http://www.doaj.org/">DOAJ. Sökspråket är CCL, men
+	    fältsökning enligt denna standard stöds ej.</a> 
+	</td>
+      </tr>
+
+      <tr>
+	<td valign="top">C.4.7</td>
+	<td valign="top">Skall</td>
+	<td valign="top">Nej</td>
+	<td valign="top">
+	  Fritextssökning.
+	  <br /><br />
+	  Fritextsökning i hela posten är standard. Däremot finns inte
+	  fritextsökning i dokumentent. Kräver harvesting. Kan utvecklas, och
+	  inte särskilt tidskrävande.
+	</td>
+      </tr>
+
+      <tr>
+	<td valign="top">C.4.8</td>
+	<td valign="top">Skall</td>
+	<td valign="top">Ja</td>
+	<td valign="top">
+	  Strukturerad sökning (kombinerade sökfält).
+	  <br /><br />
+	  Se C.4.6. Boolesk fältsökning går att implementera, och är relativt
+	  enkelt att åstadkomma.
+	</td>
+      </tr>
+
+      <tr>
+	<td valign="top">C.4.9</td>
+	<td valign="top">Bör</td>
+	<td valign="top">Ja</td>
+	<td valign="top">
+	  Ämnesord ur thesauren skall vara sökbara både som fraser och fritext.
+	  <br /><br />
+	  TKL ger träffar i såväl kategorier som i poster, ungefär som Yahoo
+	  brukade göra förr i tiden.
+	</td>
+      </tr>
+
+      <tr>
+	<td valign="top">C.4.10</td>
+	<td valign="top">Bör</td>
+	<td valign="top">Nej</td>
+	<td valign="top">
+	  Ett sökbart index över det innehåll som pekas ut av länkarna skall
+	  kunna byggas.
+	  <br /><br />
+	  Kräver en insamlingsrobot, som producerar TKL/link-poster enligt
+	  uppgjort schema. Se C.4.7.
+	</td>
+      </tr>
+
+      <tr>
+	<td valign="top">C.4.11</td>
+	<td valign="top">Bör</td>
+	<td valign="top">Ja</td>
+	<td valign="top">
+	  Ämnesord ur thesauren skall vara sökbara både som fraser och fritext.
+	  <br /><br />
+	  Som standard gäller fritext. Se C.4.9.
+	</td>
+      </tr>
+
+      <tr>
+	<td valign="top">C.4.12</td>
+	<td valign="top">Skall</td>
+	<td valign="top">Ja</td><td valign="top">
+	  Fritextssökning samt strukturerad sökning skall finnas tillgänglig
+	  från alla sidor.
+	  <br /><br />
+	  En enkel sökruta finns redan tillgänglig från alla portalens sidor.
+	  Att därifrån länka till ett mera avancerat sökformulär kräver bara en
+	  enkel XSLT-ändring. (Se C.4.6.)
+	</td>
+      </tr>
+
+      <tr>
+	<td valign="top">C.4.13</td>
+	<td valign="top">Skall</td>
+	<td valign="top">Ja</td>
+	<td valign="top">
+	  Den detaljerade katalogposten skall ge möjlighet till vidaresökning
+	  på relaterade poster i databasen.
+	  <br /><br />
+	  Att generera länkar för sökning efter relaterade poster i databasen
+	  ska kunna realiseras enkelt. Se C.5.2.
+	</td>
+      </tr>
+
+      <tr>
+	<td valign="top">C.4.14</td>
+	<td valign="top">Bör</td>
+	<td valign="top">Ja</td>
+	<td valign="top">
+	  Den detaljerade katalogposten skall ge möjlighet till vidaresökning
+	  på relaterade poster i LIBRIS (och gärna andra tjänster),
+	  åtminstone på ämnesord.
+	  <br /><br />
+	  Z39.50- och SOAP-gränssnitt är integrerade i TKL.
+	</td>
+      </tr>
+
+      <tr>
+	<td valign="top">C.5</td>
+	<td valign="top"> </td>
+	<td valign="top"> </td>
+	<td valign="top">
+	  Svarspresentation (vid sökning och bläddring).
+	</td>
+      </tr>
+
+      <tr>
+	<td valign="top">C.5.1</td>
+	<td valign="top">Bör</td>
+	<td valign="top">Ja</td>
+	<td valign="top">
+	  Användaren skall kunna välja utförlighetsnivå på presentationen.
+	  <br /><br />
+	  Se C.5.2.
+	</td>
+      </tr>
+
+      <tr>
+	<td valign="top">C.5.2</td>
+	<td valign="top">Skall</td>
+	<td valign="top">Ja</td>
+	<td valign="top">
+	  Det skall kunna finnas en lättillgänglig möjlighet att gå in i den
+	  detaljerade katalogposten.
+	  <br /><br />
+	  Fullpostvisning i TKL har framgångsrikt implementerats i DOAJ.
+	</td>
+      </tr>
+
+      <tr>
+	<td valign="top">C.6</td>
+	<td valign="top"> </td>
+	<td valign="top"> </td>
+	<td valign="top">
+	  Nya poster.
+	</td>
+      </tr>
+
+      <tr>
+	<td valign="top">C.6.1</td>
+	<td valign="top">Skall</td>
+	<td valign="top">Ja?</td>
+	<td valign="top">
+	  Flagga för nyinlagda poster skall finnas.
+	  <br /><br />
+	  Se C.6.3.
+	</td>
+      </tr>
+
+      <tr>
+	<td valign="top">C.6.2</td>
+	<td valign="top">Bör</td>
+	<td valign="top">Nej</td><td valign="top">
+	  Mjölighet att flagga för poster som använder andra alfabet än det
+	  latinska.
+	  <br /><br />
+	  Om alla poster är i UTF-8 är det inte trivialt att avgöra vilka
+	  alfabet de kräver.
+	</td>
+      </tr>
+
+      <tr><td valign="top">C.6.3</td>
+	<td valign="top">Skall</td>
+	<td valign="top">Ja?</td>
+	<td valign="top">
+	  Separat utmatning av nyinlagda poster skall finnas på särskild sida.
+	  <br /><br />
+	  Borde kunna gå att realiseras med ett XSLT-script, som utnyttjar
+	  det datum posten skapades.
+	</td>
+      </tr>
+
+      <tr>
+	<td valign="top">C.7</td>
+	<td valign="top">Skall</td>
+	<td valign="top">Ja</td>
+	<td valign="top">
+	  Formulär för länkförslag och synpunkter från användaren skall finnas.
+	  <br /><br />
+	  Standard
+	</td>
+      </tr>
+
+      <tr>
+	<td valign="top">C.8</td>
+	<td valign="top">Bör</td>
+	<td valign="top">Nej</td>
+	<td valign="top">
+	  Personalisering.
+	  <br /><br />
+	  Populärt krav. Går att åstadkomma här. Session-cookies finns
+	  implementerade redan och kan utnyttjas för ändamålet.
+	</td>
+      </tr>
+
+    </table>
+
+    <h2>Teknisk arkitektur. Vad klarar TKL?</h2>
+
+    <table border="1">
+
+
+      <tr>
+	<td valign="top">D.1</td>
+	<td valign="top"></td>
+	<td valign="top"></td>
+	<td valign="top">Teknisk arkitektur. Vad klarar TKL?</td>
+      </tr>
+
+      <tr>
+	<td valign="top">D.1.1</td>
+	<td valign="top"></td>
+	<td valign="top"></td>
+	<td valign="top">Samsökningsmodellen</td>
+      </tr>
+
+      <tr>
+	<td valign="top">D.1.2</td>
+	<td valign="top">Bör</td>
+	<td valign="top">Ja</td>
+	<td valign="top">
+	  Möjlighet till samsökning med andra ämnesportaler och t ex LIBRIS
+	  <br /><br />
+	  Samsökning mellan TKL-portaler går lätt att implementera, antingen
+	  via OAI-harvesting av dem, eller genom att var och en av dem öppnar
+	  en Z39.50 server (vilket i princip ingår i TKL).
+	</td> 
+      </tr>
+
+      <tr>
+	<td valign="top">D.1.3</td>
+	<td valign="top">Bör</td>
+	<td valign="top">Nej</td>
+	<td valign="top">
+	  Central databas
+	  <br /><br />
+	  Även om samtliga svenska ämnesportaler samlades på en server är det
+	  tveksamt om man skulle kalla denna samling av tjänster för en central
+	  databas. Det beror på vad man menar med 'central' och med 'databas'.
+	</td>
+      </tr>
+
+      <tr>
+	<td valign="top">D.1.4</td>
+	<td valign="top">Bör</td>
+	<td valign="top">Ja</td>
+	<td valign="top">
+	  Portalen och databasen skall kunna användas som ett
+	  helt integrerat, gemensamt och centralt system
+	  <br /><br />
+	  Det är fullt möjligt att, utifrån ett nätverk av TKL-baserade
+	  tjänster (oavsett om de lever sitt liv i en central databas
+	  eller ej), åstadkomma en central tjänst som för
+	  användaren framstår som helt integrerad och gemensam. Det enda som
+	  begränsar möjligheterna att uppnå detta är mjuka frågor som
+	  gemensamma metadatamodeller och katalogiseringsregler.
+	</td>
+      </tr>
+
+      <tr>
+	<td valign="top">D.1.5</td>
+	<td valign="top">Bör</td>
+	<td valign="top">Nej</td>
+	<td valign="top">
+	  Central databas för integrerade tjänster/portaler
+	  skall finnas, eller en motsvarande arkitektur som till alla delar och
+	  lika enkelt erbjuder samma möjligheter till administrativ och teknisk
+	  samordning/rationalisering som en central databaslösning.
+	  <br /><br />
+	  (Se diskussionen i D. Central drift och utveckling )
+	</td>
+      </tr>
+
+      <tr>
+	<td valign="top">D.1.6</td>
+        <td valign="top">Bör</td>
+        <td valign="top">Nej</td>
+        <td valign="top">
+	  Samsökningsmodell för icke integrerade tjänster/portaler skall
+	  skapas.
+	  <br /><br />
+	  Måste utvecklas. (Se diskussionen i A. Innehåll i tjänsten)
+	</td> 
+      </tr>
+
+      <tr>
+	<td valign="top">D.2</td>
+        <td valign="top"></td>
+        <td valign="top"></td>
+        <td valign="top">Teknisk plattform</td> 
+      </tr>
+
+      <tr>
+	<td valign="top">D.2.1</td>
+	<td valign="top">Bör</td>
+	<td valign="top">Ja</td>
+	<td valign="top">
+	  Plattformsoberoende
+	  <br /><br />
+	  De i TKL använda komponenterna fungerar i både Windows och Unix/Linux miljöer. Verktyget är dock bara testat under Unix.
+	</td>
+      </tr>
+
+      <tr>
+	<td valign="top">D.2.2</td>
+        <td valign="top">Bör</td>
+        <td valign="top">Ja</td>
+        <td valign="top">Stöd av XML (export/import av data via XML)</td>
+      </tr>
+
+      <tr>
+        <td valign="top">D.2.3</td>
+        <td valign="top">Bör</td>
+        <td valign="top">Ja</td>
+        <td valign="top">Skall kunna hantera Unicode
+          <br /><br />
+          UTF-8 stöds.
+	  </td> 
+      </tr>
+
+      <tr>
+	<td valign="top">D.2.3</td>
+        <td valign="top">Bör</td>
+        <td valign="top">Ja</td>
+        <td valign="top">Språkform. Portalen måste stödja möjlighet till
+          flerspråkighet. Se även ovan B.3.</td>
+      </tr>
+
+      <tr>
+	<td valign="top">D.2.4</td>
+        <td valign="top">Bör</td>
+        <td valign="top">Ja</td>
+        <td valign="top">Skalbarhet
+        <br /><br />
+        TKL skalerar för alla vanliga storlekar på akademiska svenska
+        ämnesportaler, dvs 2000 -- 5000 poster.
+        </td>
+      </tr>
+
+      <tr>
+	<td valign="top">D.3</td>
+        <td valign="top">Skall</td>
+        <td valign="top">Ja</td>
+        <td valign="top">Autentificiering</td> 
+      </tr>
+
+      <tr>
+	<td valign="top">D. 4</td>
+        <td valign="top">Skall</td>
+        <td valign="top">Nej</td>
+        <td valign="top">Hantering av statistik för den gemensamma och lokala
+	  tjänster
+          <br /><br />
+          Kan utvecklas
+        </td>
+      </tr>
+
+      <tr>
+	<td valign="top">D.4.1</td>
+        <td valign="top">Skall</td>
+        <td valign="top">Nej</td>
+        <td valign="top">Hantering av statistik:
+          Det skall finnas statistiktjänster, både
+	  användarstatistik och "katalogiseringsstatistik".
+	  Användarstatistiken bör kunna skilja på katalogisatörers och
+	  slutanvändares besök.
+          <br /><br />
+          Kan utvecklas</td> 
+      </tr>
+
+      <tr>
+	<td valign="top">D.5</td>
+        <td valign="top">Bör</td>
+        <td valign="top">Ja</td>
+        <td valign="top">Nyhetsservice
+        <br /><br />
+        TKL kommer med en nyhetsservice integrerad. Den kan även leverera material med RSS.
+        </td>
+      </tr>
+
+      <tr>
+	<td valign="top">D.5.1</td>
+        <td valign="top">Bra att ha</td>
+        <td valign="top">Nej</td>
+        <td valign="top">Möjlighet till e-postkopplad nyhetsservice skall
+          finnas.</td>
+      </tr>
+
+      <tr>
+	<td valign="top">D.6</td>
+        <td valign="top"></td>
+        <td valign="top"></td>
+        <td valign="top">Kalendarium</td> 
+      </tr>
+
+      <tr>
+	<td valign="top">D.6.1</td>
+        <td valign="top">Bra att ha</td>
+        <td valign="top">Nej</td>
+        <td valign="top">
+          Möjlighet till databasregistrering av nyhetsblänkare till
+	  "Aktuellt"-spalter/motsvarande skall finnas.
+	</td>
+      </tr>
+
+      <tr>
+	<td valign="top">D.6.2</td>
+        <td valign="top">Bra att ha</td>
+        <td valign="top">Nej</td>
+        <td valign="top">Kalendarium bör finnas</td>
+      </tr>
+
+      <tr>
+	<td valign="top">D.7</td>
+        <td valign="top">Bör</td>
+        <td valign="top">Nej</td>
+        <td valign="top">Insamling av resurser med robot
+        <br /><br />
+        Kan utvecklas.
+        </td>
+      </tr>
+
+      <tr>
+	<td valign="top">D.7.1</td>
+        <td valign="top">Bör</td>
+        <td valign="top">Nej</td>
+        <td valign="top">En "harvester"-funktion för att automatindexera
+          utvalda webbplatser.
+        <br /><br />
+        Kan utvecklas
+        </td> 
+      </tr>
+
+    </table>
+    <hr />
+
+    <p>
+      <pre>
+
+      </pre>
+    </p>    
+  </body>
+</html>

@@ -1,0 +1,209 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE article PUBLIC "-//OASIS//DTD DocBook XML V4.1.2//EN"
+                  "http://www.oasis-open.org/docbook/xml/4.1.2/docbookx.dtd">
+
+<article>
+  <articleinfo>
+    <title>Sigfrid Lundberg's Homepage</title>
+    <author>
+      <firstname>Sigfrid</firstname>
+      <surname>Lundberg</surname>
+    </author>
+    <revhistory>
+      <revision>
+        <revnumber>$Revision$</revnumber>
+        <date>$Date$</date>
+        <authorinitials>$Author$</authorinitials>
+      </revision>
+    </revhistory>
+  </articleinfo>
+
+  <abstract>
+
+    <para>My name is Sigfrid Lundberg, and this is my homepage, i.e., it is
+    kind of an article about myself.</para>
+
+  </abstract>
+
+  <sect1 id="activities">
+    <title>Activities</title>
+
+    <para>I earn my livelihood as an Internet programmer, and as such I
+    attempt to help people finding their ways about on the web by implementing
+    various kinds of search engines. I do this together with friends and
+    colleagues at <ulink url="http://www.lub.lu.se/">Lund University
+    Libraries</ulink> and before that at <ulink
+    url="http://www.lub.lu.se/netlab/">NetLab</ulink> (see also info on <ulink
+    url="http://www.ariadne.ac.uk/issue32/netlab-conference/">NetLab's
+    birthday party</ulink> and a note on the <ulink
+    url="http://www.ariadne.ac.uk/issue32/netlab-history/">history of
+    NetLab</ulink>).</para>
+
+    <sect2 id="web_indexing">
+      <title>Web indexing</title>
+
+      <para>Initially, I worked exclusively with robot based search indexes.
+      Here at NetLab we implemented the <emphasis>combine</emphasis>
+      harvesting robot, which <ulink url="http://www.lub.lu.se/combine/">you
+      may get for free</ulink>. The work is done as a part of the <ulink
+      url="http://www.desire.org/">Desire project</ulink>.</para>
+
+      <para>We used the Combine for a number of purposes. Among those were to
+      build the Nordic Web Index. <ulink
+      url="http://hem.bredband.net/sigfridlundberg/1996/nwi/nwi.pdf">We
+      released the NWI 1996</ulink>, about a month after Digital released
+      <ulink url="http://www.altavista.com">Alta Vista</ulink>. Thus we were
+      among the first search engines to support European character sets (with
+      nasty characters like å, ä, ö, ü and the like). During its life time,
+      NWI usually had a higher coverage of the Nordic web than its commercial
+      competition. The NWI was also one of the very first web indexes that had
+      extensive support for <ulink url="http://www.dublincore.org/">Dublin
+      Core Metadata</ulink>. We gave a
+      <ulink url="http://www7.scu.edu.au/programme/fullpapers/1900/com1900.htm">
+      presentation</ulink> on this work at the 7th Internation World wide web
+      conference.</para>
+
+      <para>For quite some time I used the Combine for a lot of different
+      projects, such as the now defunct Safari research information service
+      (again, I wrote a <ulink
+      url="/SigfridLundberg/1998/safari/cris.pdf">presentation of the
+      service</ulink>, but I'm sorry, it is in swedish).</para>
+
+    </sect2>
+
+    <sect2 id="preservation">
+
+      <title>Digital preservation and publication</title>
+
+      <para>Now my interests has shifted from the rather specific problems of
+      indexing the web towards digital preservation, digital publishing and
+      the searching of tagged text in general, and in particular SGML/XML
+      documents. I do not feel that there is any difference between making
+      available historical and current material (which would be preservation
+      and publication, respectively). The main difference is the tense. What
+      we do today (present tense) will in the future be a preservation problem
+      (future tense).</para>
+
+      <para>The best example of my work in this area is the <ulink
+      url="laurentius.html">S:t Laurentius</ulink> <ulink
+      url="http://laurentius.lub.lu.se/">digital manuscript
+      library</ulink>.</para>
+
+      <para>I have written a <ulink
+      url="http://laurentius.lub.lu.se/search/presentation/laurentius.pdf">
+      conceptual description of the search engine</ulink> we built for our
+      manuscript collection.</para>
+
+      <para>The most importan current project within this area is <ulink
+      url="/2004/arkiv_bibliotek/">Ediffah</ulink>, which aims at implementing
+      a search engine for EAD finding aids for archives in Swedish library
+      collections.</para>
+
+    </sect2>
+
+  </sect1>
+
+  <sect1 id="publishing">
+
+    <title>Electronic publishing</title>
+
+    <sect2 id="publishing_on_the_web">
+      <title>Putting stuff on the Web</title>
+
+      <para>Today electronic publishing usually means publishing stuff on a
+      web server. A better part of my time is spent on building infrastructure
+      for creating facilities for just that, including cataloging of such
+      stuff and delivering it to end users in a structured way. I've recently
+      made two services for use within Lund university, <ulink
+      url="http://theses.lub.lu.se/undergrad/">Xerxes</ulink> and <ulink
+      url="http://theses.lub.lu.se/postgrad/">Scripta Academica
+      Lundensis</ulink>, aimed for publishing and dissemination of
+      undergraduate and postgraduate electronic theses and dissertations.
+      </para>
+
+    </sect2>
+
+    <sect2 id="printing_n_publishing">
+
+      <title>Printing and publishing</title>
+
+      <para>One of my passions is electronic typesetting, and in particular of
+      scientific texts -- with equations, graphs, references, footnotes,
+      quotations and you name it. Since I left science, I've had little
+      opportunity to exercise that passion. However with the current XML boom,
+      it is possible for me to make use of this old knowledge, in a new
+      context.</para>
+
+      <para>For texts I write myself, I use <ulink
+      url="http://www.tei-c.org/">the TEI XML dtd</ulink> which I may then
+      transformed into other formats (e.g., HTML) using <ulink
+      url="http://www.w3.org/Style/XSL/">XSLT</ulink>. For printed output I
+      translate it into troff source, which I format using with <ulink
+      url="http://www.jclark.com/bio.htm">James Clark</ulink>'s <ulink
+      url="http://groff.ffii.org">groff</ulink> package, a free re-engineered
+      version of troff, the UNIX (TM) typesetting system. Throught the years,
+      I have written a lot of XSLT scripts, *roff macros, dozens of perl
+      scripts that work with *roff for various purposes:</para>
+
+      <para>I have prepared a <ulink
+      url="../Laurentius/laurentius.tar.gz">worked example</ulink> on how to
+      format a TEI document for printing, using XSLT and groff. Provided that
+      you have perl with XML::LibXSLT, a modern groff (version 1.18), TeX
+      fonts, dvips and ps2pdf installed, you should be able to run this and
+      get a laurentius.pdf from the laurentius.xml. Most of these things is
+      available as standard on a decent Linux workstation.</para>
+
+      <para>I once wrote a <ulink url="ROFF/gnuplot_gpic_driver.shar">gnuplot
+      driver</ulink> for producing graphs using *roff. Supports gpic and pic
+      (vanilla UNIX version). My original driver seems obsolete now, but the
+      current pic gnuplot driver doesn't seem to work with 3D graphds.</para>
+
+    </sect2>
+
+  </sect1>
+
+  <sect1 id="random_bits">
+
+    <title>Random bits</title>
+
+    <para>I've had the pleasure to participate in most of <ulink url="
+    http://www.dublincore.org/">the DCMI workshops</ulink>. The first one was
+    the <ulink url="http://www.ariadne.ac.uk/issue9/caption/">Metadata
+    workshop</ulink> in Canberra March 1997 (I'm fattest one of the two waring
+    shorts).</para>
+
+    <para>"IT i kulturens tjänst" <ulink
+    url="kultur_naet_sverige.html">recenserad</ulink></para> 
+
+    <para><ulink url="publications.html">A not entirely up to date list of
+    mostly peer reviewed publications</ulink> and an obsolete <ulink
+    url="meriter.html">CV like object</ulink> (which, available as a slightly
+    less obsolete <ulink url="meriter.pdf">CV like pdf</ulink>).</para>
+
+  </sect1>
+
+  <sect1 id="about">
+
+    <title>About these pages</title>
+
+    <para>This home page is written in XML using the <ulink
+    url="http://www.docbook.org/">DocBook DTD</ulink>.  It is delivered using
+    a XML application server, <ulink url="http://www.axkit.org">AxKIT</ulink>
+    which transforms it for use in a browser.  The application server is
+    running on an <ulink url="http://www.apache.org/">Apache
+    webserver</ulink>.  AxKit is a part of the <ulink
+    url="http://www.apache.org/">Apache Software Foundation</ulink>'s <ulink
+    url="http://xml.apache.org/">XML initiative</ulink>.</para>
+
+    <para>Other documents here are written using the <ulink
+    url="http://www.tei-c.org/">Text Encoding Initiative XML dtd</ulink>. I do
+    still ocassionally code HTML, but find that extremely boring.</para>
+
+  </sect1>
+
+</article>
+
+
+
+
+

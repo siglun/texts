@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="iso-8859-1" ?>
+<terms>
+  <term id="userestrict">
+    <string xml:lang="en">Restrictions for use</string>
+    <string xml:lang="sv">Begränsningar i användning</string>
+  </term>
+  <term id="accessrestrict">
+    <string xml:lang="en">Access restrictions</string>
+    <string xml:lang="sv">Begränsningar i tillgänglighet</string>
+  </term>
+  <term id="controlaccess">
+    <string xml:lang="sv">Indexeringstermer</string>
+    <string xml:lang="en">Indexing terms</string>
+  </term>
+  <term id="toc">
+    <string xml:lang="en">Table of Contents</string>
+    <string xml:lang="sv">Innehållsförteckning</string>
+  </term>
+  <term id="source">
+    <string xml:lang="en">EAD XML source</string>
+    <string xml:lang="sv">Ursprunglig EAD XML</string>
+  </term>
+  <term id="totoc"/>
+  <term id="xxxtotoc">
+    <string xml:lang="en">Back to Table of Contents</string>
+    <string xml:lang="sv">Tillbaka till innehållsförteckningen</string>
+  </term>
+  <term id="related">
+    <string xml:lang="en">Related Material</string>
+    <string xml:lang="sv">Relaterat material</string>
+  </term>
+  <term id="admin">
+    <string xml:lang="en">Administrative Information</string>
+    <string xml:lang="sv">Adminstrativ information</string>
+  </term>
+  <term id="repository">
+    <string xml:lang="en">Repository</string>
+    <string xml:lang="sv">Bibliotek/Arkiv</string>
+  </term>
+  <term id="origination">
+    <string xml:lang="en">Creator</string>
+    <string xml:lang="sv">Arkivbildare</string>
+  </term>
+  <term id="physdesc">
+    <string xml:lang="en">Quantity</string>
+    <string xml:lang="sv">Omfattning</string>
+  </term>
+  <term id="physloc">
+    <string xml:lang="en">Location</string>
+    <string xml:lang="sv">Placering</string>
+  </term>
+  <term id="unitid">
+    <string xml:lang="en">Identification</string>
+    <string xml:lang="sv">Identifiering</string>
+  </term>
+  <term id="abstract">
+    <string xml:lang="en">Abstract</string>
+    <string xml:lang="sv">Sammanfattning</string>
+  </term>
+  <term id="langmaterial">
+    <string xml:lang="en">Language</string>
+    <string xml:lang="sv">Språk</string>
+  </term>
+  <term id="materialspec">
+    <string xml:lang="en">Technical</string>
+    <string xml:lang="sv">Technisk ???</string>
+  </term>
+  <term id="dates">
+    <string xml:lang="en">Dates</string>
+    <string xml:lang="sv">Tid</string>
+  </term>
+  <term id="title">
+    <string xml:lang="en">Title</string>
+    <string xml:lang="sv">Titel</string>
+  </term>
+</terms>

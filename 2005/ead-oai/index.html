@@ -1,0 +1,135 @@
+<html>
+  <head>
+    <title>Ediffahs OAI-server</title>
+    <link rel="stylesheet" href="/css-style/html.css" />
+  </head>
+  <body>
+    <div class="box">
+
+      <a href="http://www.lub.lu.se/ediffah/"><img src="/2004/ediffah/ediffah.jpg" align="right"
+	  border="0" ></a>
+
+      <h1>Ediffahs OAI-server (prototyp)</h1> 
+
+      <p>Ediffahs OAI-server uppgift är förse intressenter utanför nätverket av
+	handskriftssamlingar med metadata om handskrifter och
+	arkiv. Ytterligare information om projektet finns på <a 
+	  href="http://www.lub.lu.se/ediffah/">projektsajten</a>. Mer om
+	OAI-PMH, Open Archives Inititative's Protocol for Metadata Harvesting
+	finns på <a href="http://www.openarchives.org/">Open Archives</a>
+	webbsajt.</p>
+
+      <p>Denna OAI-server stödjer tre metadataformat, nämligen</p>
+
+      <ul>
+	<li>det grunda formatet oai_dc, baserat på <a href="http://dublincore.org/">DCMI
+	  metadata</a>,</li>
+	<li>det relativt detaljerade <a
+	    href="http://www.loc.gov/marc/">marc21</a></li>
+      </ul>
+
+      <p>samt</p>
+
+      <ul>
+	<li><a href="http://www.loc.gov/ead/">EAD</a>, vilket också är Ediffahs
+	  interna metadataformat.</li>
+      </ul>
+
+      <p>Du kan inspektera hela Ediffahdatabasen i de tre formaten här:
+	<a href="ediffah_harvest_dc.xml">Dublin Core</a> (6 MB xml),
+	<a href="ediffah_harvest_ead.xml">EAD</a> (9 MB xml) 
+	och <a href="ediffah_harvest_marc.xml">Marc 21</a> (10 MB). Nedan finns
+	delmängder av databasen</p>
+
+      <p>Bas-URI är</p>
+
+      <pre>http://sigge.lub.lu.se/2005/ead-oai/oai-server/</pre>
+
+      <p>Servern är inte helt uttestad; i skrivande stund stöds följande
+	verb:</p>
+
+      <pre>
+	<b>verb=Identify</b>
+	Harvesting URI	<a
+	  href="http://sigge.lub.lu.se/2005/ead-oai/oai-server/?verb=Identify">http://sigge.lub.lu.se/2005/ead-oai/oai-server/?verb=Identify</a> 
+
+
+	<b>verb=ListSets</b>
+	Harvesting URI	<a
+	  href="http://sigge.lub.lu.se/2005/ead-oai/oai-server/?verb=ListSets">http://sigge.lub.lu.se/2005/ead-oai/oai-server/?verb=ListSets</a> 
+
+
+	<b>verb=ListMetadataFormats</b>
+	Harvesting URI	<a
+	  href="http://sigge.lub.lu.se/2005/ead-oai/oai-server/?verb=ListMetadataFormats">http://sigge.lub.lu.se/2005/ead-oai/oai-server/?verb=ListMetadataFormats</a>
+      </pre>
+
+
+      <b>verb=ListRecords</b>
+
+
+      <h2>metadataPrefix=marc</h2>
+      
+      <pre>
+	<a
+	  href="http://sigge.lub.lu.se/2005/ead-oai/oai-server/?verb=ListRecords&amp;from=2005-01-01&amp;metadataPrefix=marc">http://sigge.lub.lu.se/2005/ead-oai/oai-server/?verb=ListRecords&amp;from=2005-01-01&amp;metadataPrefix=marc</a>
+      </pre>
+
+
+      <p>Du kan ut hela databasen, eller delar av den, i formaten ovan. Notera
+	att kan ta rätt lång tid och din dator bör ha mycket minne för att kunna ta emot
+	hela Ediffahs databas som en enda lång fil! Nedan kan du titta på delar
+	av databasen genom att vi utnyttjar set-kommandot. I alla fall väljer vi</p>
+
+      <pre>
+	<b>verb=ListRecords&amp;from=1997-01-01</b>
+      </pre>
+
+      <h2>set=lub&amp;metadataPrefix=oai_dc</h2>
+      <pre>
+	<a
+	  href="http://sigge.lub.lu.se/2005/ead-oai/oai-server/?verb=ListRecords&amp;from=1997-01-01&amp;metadataPrefix=oai_dc&amp;set=lub">http://sigge.lub.lu.se/2005/ead-oai/oai-server/?verb=ListRecords&amp;from=1997-01-01&amp;metadataPrefix=oai_dc&amp;set=lub</a>
+
+      </pre>
+
+      <h2>set=uub&amp;metadataPrefix=oai_dc</h2>
+
+      <pre>
+	<a
+	  href="http://sigge.lub.lu.se/2005/ead-oai/oai-server/?verb=ListRecords&amp;from=1997-01-01&amp;metadataPrefix=oai_dc&amp;set=uub">http://sigge.lub.lu.se/2005/ead-oai/oai-server/?verb=ListRecords&amp;from=1997-01-01&amp;metadataPrefix=oai_dc&amp;set=uub</a>
+      </pre>
+
+      <h2>set=lub&amp;metadataPrefix=marc</h2>
+      
+      <pre>
+	<a
+	  href="http://sigge.lub.lu.se/2005/ead-oai/oai-server/?verb=ListRecords&amp;from=1997-01-01&amp;metadataPrefix=marc&amp;set=lub">http://sigge.lub.lu.se/2005/ead-oai/oai-server/?verb=ListRecords&amp;from=1997-01-01&amp;metadataPrefix=marc&amp;set=lub</a>
+      </pre>
+
+      <h2>set=kb&amp;metadataPrefix=marc</h2>
+      
+      <pre>
+	<a
+	  href="http://sigge.lub.lu.se/2005/ead-oai/oai-server/?verb=ListRecords&amp;from=1997-01-01&amp;metadataPrefix=marc&amp;set=kb">http://sigge.lub.lu.se/2005/ead-oai/oai-server/?verb=ListRecords&amp;from=1997-01-01&amp;metadataPrefix=marc&amp;set=kb</a>
+      </pre>
+
+      <h2>set=kb&amp;metadataPrefix=ead</h2>
+      <pre>
+	<a href="http://sigge.lub.lu.se/2005/ead-oai/oai-server/?verb=ListRecords&amp;from=1997-01-01&amp;metadataPrefix=ead&amp;set=kb">http://sigge.lub.lu.se/2005/ead-oai/oai-server/?verb=ListRecords&amp;from=1997-01-01&amp;metadataPrefix=ead&amp;set=kb</a>
+
+      </pre>
+
+      <h2>set=lub&amp;metadataPrefix=ead</h2>
+      <pre>
+	<a href="http://sigge.lub.lu.se/2005/ead-oai/oai-server/?verb=ListRecords&amp;from=1997-01-01&amp;metadataPrefix=ead&amp;set=lub">http://sigge.lub.lu.se/2005/ead-oai/oai-server/?verb=ListRecords&amp;from=1997-01-01&amp;metadataPrefix=ead&amp;set=lub</a>
+
+      </pre>
+
+      <p align="center">
+	Till  <a href="http://www.lub.lu.se/ediffah/">Ediffahs projektsajt</a>
+      </p>
+
+      <br />
+    </div>
+  </body>
+</html>

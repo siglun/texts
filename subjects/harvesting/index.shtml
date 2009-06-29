@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<html xmlns="http://www.w3.org/1999/xhtml"><head><title>: 
+	      Sigfrid Lundberg's Stuff
+	    </title><meta http-equiv="Content-Type" content="text/html;charset=UTF-8"/><script src="/js/navigation.js" type="text/javascript"> 
+	      </script><meta http-equiv="Content-Type" content="text/html;charset=UTF-8"/><link rel="stylesheet" href="/css-style/html.css"/></head><body><div class="left_box"><div style="text-align:left;width=90%;"><!--#include virtual="/div_top_left_box.xml" --></div><div style="text-align:left;width=90%;"><p><a href="/">Home</a></p><!--#include virtual="/subjects.xml" --><!--#include virtual="/me.xml" --></div></div><div class="right_box"><h1 style="width: 58%; float: left;text-align: left">Harvesting</h1><p style="width: 38%; float: left;text-align: right"><em><strong>Sigfrid Lundberg's Stuff</strong></em></p><div style="clear:both;"> </div><div style="width:100%;"><p><strong><a href="/2007">2007</a>: </strong><a href="/2007/search-statistics/user-expectations.html"><em>What do our users expect from the search field on our top
+    page?</em></a><br/>What can deduced by analyses of the search terms entered into the
+    search field on the home page of a large modern library? Could we possibly
+    regard this form as the digital library´s information desk, and the
+    queries as the request from its patrons? If we do that, what could we then
+    learn about the quality of service?  In this note we do just that. We
+    regard the terms entered into the form as manifestation of our patrons
+    needs and in order to find out what they need, we have performed a
+    preliminary text mining exercise. We hope that this will help us designing
+    a new search facility that will better answer the needs of our
+    users.<br/><a href="/subjects/webindexing/">Web indexing</a>,
+	<a href="/subjects/harvesting/">Harvesting</a>,
+	<a href="/subjects/opac/">Library catalogues</a>,
+	<a href="/subjects/structuralwebdesign/">Structural web design</a></p><p><strong><a href="/2003">2003</a>: </strong><a href="/2003/axiell-oai/oai-opac.pdf"><em>Implementering av OAI-PMH i ett bibliotekssystem -- Några ord på
+    vägen</em></a><br/>Syftet med denna text är att ge lite kött på benen om vad OAI-PMH
+    är, vad det kan användas till och hur det skulle kunna integreras i ett
+    bibliotekssystem. Det är inte en ersättning för andra dokument utan skall
+    ses som några ord på vägen för organisationer som planerar att eller är i
+    färd med att implementera OAI-PMH. Texten skrevs på uppdrag av
+    http://www.axiell.se/bookit<br/><a href="/subjects/harvesting/">Harvesting</a>,
+	<a href="/subjects/metadata/">Metadata</a>,
+	<a href="/subjects/opac/">Library catalogues</a></p><p><strong><a href="/2001">2001</a>: </strong><a href="/2001/studera.nu/documentation/studera.pdf"><em>Technical description of the Studera.Nu search engine Harvesting
+    policies, maintenance and software used</em></a><br/>This is a description of the Studera.NU search engine in the very
+    first version. The search engine carries focused information, all of which is
+    indexed manually by content providers. The indexing information is
+    embedded into web pages using meta tags, and the service is built using a
+    harvesting robot.  This article documents the functions of the search
+    engine Studera.NU, its robot, search software etc. It aims at providing
+    necessary background information both for staff involved in system
+    management and future developers. A second aim is to give pinpoint areas
+    for future developments of the service.<br/><a href="/subjects/webindexing/">Web indexing</a>,
+	<a href="/subjects/harvesting/">Harvesting</a>,
+	<a href="/subjects/metadata/">Metadata</a></p><p><strong><a href="/2000">2000</a>: </strong><a href="/2000/delft/"><em>Metadata harvesting</em></a><br/>This is unfortunately unpublished, but it presents most one of
+    the most extensive datasets on the content of HTML embedded metadata which
+    I collected while working with the Nordic Webindex.<br/><a href="/subjects/webindexing/">Web indexing</a>,
+	<a href="/subjects/harvesting/">Harvesting</a>,
+	<a href="/subjects/metadata/">Metadata</a>,
+	<a href="/subjects/z3950/">Z39.50</a></p><p><strong><a href="/1998">1998</a>: </strong><a href="/1998/nwi2/"><em>NWI II, An Enhanced Nordic Web index: Final report</em></a><br/>The Nordic Web Index (NWI) project is a collaborative effort
+    across the Nordic countries, aiming at providing a free Worldwide Web
+    search service to the general public in the countries involved. NWI has
+    been fruitful for several reasons: First and foremost we are today
+    providing access to databases covering the WWW in four of the Nordic
+    countries and, as of September 1998, five service points in six languages
+    Denmark, Finland, Sweden, Norway and Iceland.<br/><a href="/subjects/webindexing/">Web indexing</a>,
+	<a href="/subjects/harvesting/">Harvesting</a>,
+	<a href="/subjects/metadata/">Metadata</a>,
+	<a href="/subjects/z3950/">Z39.50</a></p><p><strong><a href="/1998">1998</a>: </strong><a href="/1998/safari/cris.pdf"><em>En arkitektur för ett distribuerat system för spridning av
+    forskningsinformation</em></a><br/>Arkitekturen för ett nätverk av tjänster för spridning av
+    forskningsinformation beskrivs. Nätverket tillåter distribuerat underhåll
+    av såväl data som metadata. Till nätverket kan anslutas såväl
+    bibliografiska databaser som helt WWWbaserade metadataberikade
+    tjänster. Metadataproduktionen följer standarden Dublin Core. De förra
+    typerna av tjänster inkorporeras i nätverket genom interoperabilitet på
+    sökprotokollsnivå, medan metadata och fulltext från de senare göres
+    sökbara genom en WWWrobot.  Kommunikation inom nätverket utnyttjar
+    standardiserade Internet protokoll som HTTP, och för
+    informationsåtervinning Z39.50<br/><a href="/subjects/webindexing/">Web indexing</a>,
+	<a href="/subjects/harvesting/">Harvesting</a>,
+	<a href="/subjects/metadata/">Metadata</a>,
+	<a href="/subjects/z3950/">Z39.50</a></p><p><strong><a href="/1998">1998</a>: </strong><a href="/1998/www7/"><em>A regional distributed WWW search and indexing service - the DESIRE
+    way</em></a><br/>In an attempt to implement a regional search engine we have
+    created an open, metadata aware system for distributed, collaborative
+    WWW-indexing. The system has three main components: a harvester (for
+    collecting information), a database (for making the collection
+    searchable), and a user interface (for making the information
+    available). All components can be distributed across networked computers,
+    thus supporting scalability. The system is metadata aware and thus allows
+    searches on several fields including title, document author, and
+    URL. Nordic Web Index (NWI) is an application using this system to create
+    a regional Nordic web-indexing service. NWI is built using five
+    collaborating service points within the Nordic countries. The NWI
+    databases can be used to build additional services. Services today include
+    special metadata databases, multimedia databases, and statistics about the
+    Nordic Web.<br/><a href="/subjects/webindexing/">Web indexing</a>,
+	<a href="/subjects/harvesting/">Harvesting</a>,
+	<a href="/subjects/metadata/">Metadata</a>,
+	<a href="/subjects/z3950/">Z39.50</a></p><p><strong><a href="/1997">1997</a>: </strong><a href="/1998/KulturArw3/archive-format-1.rtf"><em>The Kulturarw3 archiving format</em></a><br/>This note describes a file format intended for the joint storage of
+    objects retrieved from the World Wide Web and various kinds of meta
+    information on those objects. The information includes the HTTP response
+    header but may also contain information needed for version control etc
+    within the archive. Kulturarw3 project proposes an archiving record format
+    based on open standards, namely that objects are stored as HTTP MIME
+    multpart/mixed messages (cf. RFC2068 and RFC1521 respectively).<br/><a href="/subjects/preservation/">Digital preservation</a>,
+	<a href="/subjects/harvesting/">Harvesting</a></p><p><strong><a href="/1996">1996</a>: </strong><a href="/1996/nwi/nwi.pdf"><em>NWI — En nordisk söktjänst för World Wide Web</em></a><br/>Ett konsortium av nordiska forskningsbibliotek och nätverksorgan
+    presenterar Nordiskt Webindex, en nordisk söktjänst utvecklad i norden för
+    en nordisk publik. I dag finns en experimentell tjänst offentligt
+    tillgänglig på nätet på URL http://nwi.ub2.lu.se.<br/><a href="/subjects/webindexing/">Web indexing</a>,
+	<a href="/subjects/harvesting/">Harvesting</a></p></div></div><!--#include virtual="/js/urchin.js" --></body></html>

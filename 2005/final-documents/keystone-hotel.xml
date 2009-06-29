@@ -1,0 +1,184 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE article PUBLIC "-//OASIS//DTD DocBook XML V4.1.2//EN"
+  "http://www.oasis-open.org/docbook/xml/4.1.2/docbookx.dtd" [
+]>
+
+<?xml-stylesheet
+      href="./db_special.xsl"
+      type="text/xsl"
+      media="screen"
+      title="default" ?>
+
+<article lang="sv">
+  <articleinfo>
+    <title>Keystone Hotel</title>
+    <author>
+      <firstname>Sigfrid</firstname>
+      <surname>Lundberg</surname>
+    </author>
+    <affiliation>
+      <orgname>Biblioteksdirektion, Lunds universitet</orgname>
+    </affiliation>
+    <revhistory>
+      <revision>
+	<revnumber>$Revision$</revnumber>
+	<date>$Date$</date>
+	<authorinitials>$Author$</authorinitials>
+      </revision>
+    </revhistory>
+    <indexterm>
+      <primary><ulink url="documentation.xml">Documentation</ulink></primary>
+      <seealso><ulink url="xerxes-scripta.xml">Xerxes &amp;
+	  Scripta</ulink></seealso>
+      <seealso><ulink url="sciecom.xml">Sciecom</ulink></seealso>
+      <seealso><ulink url="svep.xml">Svep</ulink></seealso>
+    </indexterm>
+  </articleinfo>
+
+
+  <sect1  id="top">
+    <title>Background</title>
+
+    <para>The Keystone DLS hotel lives on balder.lub.lu.se:/localdisk1/ and
+      comprises four services, on three virtual servers on that machine.</para>
+
+    <para>All four services are based on the Biblioteca<footnoteref
+	linkend="note-biblioteca"/> service distributed by 
+      Indexdata. <ulink url="sciecom.xml">Sciecom</ulink> was the founding
+      member and all the others are derivatives of that code base.</para>
+
+    <para>This document only treats the common features of the services.</para>
+
+  </sect1>
+
+  <sect1>
+    <title>PHP-libraries used</title>
+
+    <para>Documents in a Keystone based service are in XML and are delivered to
+      end users after XSLT processing. The processing is done through a library
+      of PHP software.</para>
+
+    <table>
+      <title>The Keystone (TKL) libraries used in the services</title>
+      <tgroup cols="3">
+	<tbody>
+	  <row>
+	    <entry>
+	      <emphasis>Services</emphasis>
+	    </entry>
+	    <entry>
+	      <emphasis>Library</emphasis>
+	    </entry>
+	    <entry>
+	      <emphasis>A symbolic link to</emphasis>
+	    </entry>
+	  </row>
+	  <row>
+	    <entry>svep</entry>
+	    <entry>/localdisk1/svep-projekt/tklite</entry>
+	    <entry>/localdisk1/tkl/share/tklite/</entry>
+	  </row>
+	  <row>
+	    <entry>sciecom</entry>
+	    <entry>/localdisk1/sciecom/sciecom/tklite</entry>
+	    <entry>/localdisk1/tkl/share/tklite/</entry>
+	  </row>
+	  <row>
+	    <entry>Xerxes &amp; Scripta</entry>
+	    <entry>/localdisk1/xerxes/service/tklite</entry>
+	    <entry>/localdisk1/tkl-1.4.5/share/tklite</entry>
+	  </row>
+	</tbody>
+      </tgroup>
+    </table>
+
+    <para>Sciecom and Svep are using exactly the same library, whereas Xerxes
+      and Scripta is using its own, slightly modified <ulink
+	url="xerxes-scripta.xml">library</ulink>.</para>
+
+  </sect1>
+
+  <sect1>
+    <title>Common features</title>
+
+    <para>The members of the services share installation of the Zebra
+      information server.<footnoteref linkend="zebra"/>. In particular there is
+      a common script which starts zebra at boot time. Adding or removing
+      members of the hotel requires editing of the file
+      balder.lub.lu.se:/etc/init.d/idzebra.pl</para> 
+
+    <programlisting>
+<![CDATA[
+#!/usr/bin/perl
+
+my $sudo= 'sudo -u nobody ';
+my $prog= '/usr/local/bin/zebrasrv';
+my $defaultrun = $sudo.$prog.' -l db/server.log -c db/zebra.cfg unix:db/socket &';
+my $base='/localdisk1/';
+my @dirs = ('sciecom/sciecom',
+            'svep-projekt',
+            'xerxes/service',
+            'xerxes/Z-target',
+            );
+
+my %command = ('sciecom/sciecom' => $defaultrun,
+               'svep-projekt'    => $defaultrun,
+               'xerxes/service'  => $defaultrun,
+                'xerxes/Z-target'=> './start_zebra.sh &',
+               'test-delos'      => $defaultrun);
+
+if($ARGV[0] =~ m/start/) {
+    if($ARGV[0] eq 'restart') {
+        &kill;
+    }
+    foreach my $dir (@dirs) {
+        chdir $base.$dir;
+        system($command{$dir});
+    }
+} elsif ($ARGV[0] =~ m/stop/) {
+    &kill;
+} else {
+    exit(0);
+}
+
+sub kill {
+
+    my $pidpath = '/db/lock/';
+    foreach my $zebra (@dirs) {
+        my $file= $base.$zebra.$pidpath."zebrasrv.pid";
+        my $pid = `cat $file`;
+        system "kill $pid";
+    }
+}
+
+]]>
+    </programlisting>
+
+    <para>Although this script is meant to suport the commands 'start', 'kill'
+      and 'restart' the mechanism isn't fool proof, and it happens that zebra
+      dies. A cronscript restarts Zebra dayly at night.</para>
+
+    <para>Reindexing of Sciecom and Svep is done hourly by shell scripts in the
+      balder.lub.lu.se:/etc/cron.hourly directory.</para>
+
+  </sect1>
+
+  <bibliography>
+    <title>Notes</title>
+    <biblioentry id="note-biblioteca">
+      <title><ulink
+	  url="http://www.indexdata.dk/keystone/doc/interface-base.tkl">The
+	  base portal Bibliotheca</ulink>
+      </title>
+    </biblioentry>
+
+    <biblioentry id="zebra">
+      <title>
+	<ulink
+	url="http://www.indexdata.dk/zebra/">Zebra information server</ulink>
+      </title>
+    </biblioentry>
+
+  </bibliography>
+
+</article>

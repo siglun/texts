@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<html xmlns="http://www.w3.org/1999/xhtml">
+  <head>
+    <title>"Metadata makes the world going round" - en kurs om metadata och
+    relaterade ämnen</title>
+    <link rel="stylesheet" href="/css-style/html.css" />
+  </head>
+  <body>
+
+    <div class="left_box">
+      <a href="..">2004</a>
+      <!--#include virtual="../navigation.html" -->
+    </div>
+    <div class="right_box">
+
+      <h1>"Metadata makes the world going round" - en kurs om metadata och
+	relaterade ämnen</h1>
+
+      <p>En kurs beställd av Bibliotekstjänst AB, som en menykurs inom
+      utbildningspaketet <a
+      href="http://www.btj.se/traffpunkter/utbildning/webbkurs/">Ständigt
+      detta nät</a>. Materialet producerades av <a
+      href="http://www.kult.lu.se/index.php?page=627">Sara Kjellberg</a> och
+      <a href="/">Sigfrid Lundberg</a></p>
+
+      <p><a href="kurs.html">Föreläsningsanteckningarna</a> finns även i
+      <a href="kurs.pdf">pdf</a>.</p>
+
+    </div>
+  </body>
+</html>

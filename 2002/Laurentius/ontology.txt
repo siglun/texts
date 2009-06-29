@@ -1,0 +1,19 @@
+att 5020	history-origin 		5020,5021,5022,5023,5024,5025
+att 5021	history-origin-text
+att 5022	history-origin-place
+att 5023	history-origin-person
+att 5024	history-origin-name
+att 5025	history-origin-date
+att 5026	history-provenance      5026,5027,5028,5029,5030,5031
+att 5027	history-provenance-text
+att 5028	history-provenance-place
+att 5029	history-provenance-person
+att 5030	history-provenance-name
+att 5031	history-provenance-date
+att 5040	history-acquisision		5040,5041,5042,5043,5044,5045
+att 5041	history-acquisision-text
+att 5042	history-acquisision-place
+att 5043	history-acquisision-person
+att 5044	history-acquisision-name
+att 5045	history-acquisision-date
+

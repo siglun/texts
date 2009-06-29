@@ -1,0 +1,119 @@
+<?xml version="1.0" encoding="ISO-8859-1" ?>
+
+<div1>
+
+  <head>Vad gör OAI-PMH</head>
+
+  <div2>
+
+    <head>OAI-PMH är ett protokoll</head>
+
+    <p rend="noindent">OAI-PMH är ett protokoll för datorkommunikation.
+      Så är FTP, HTTP och Z39.50. Till skillnad från dessa
+      bygger OAI inte direkt på TCP/IP. Det parasiterar, precis
+      som SOAP och XML-RPC, på HTTP som transportmedium. XML-baserade
+      protokoll har fått en hel del uppmärksamhet under de senaste
+      åren.  <note n="PROTO"><xref
+      to="http://www.xml.com/lpt/a/ws/2000/05/10/protocols/index.html"/></note>
+      Till skillnad från SOAP och XML-RPC skickas inte frågan i
+      OAI-PMH i XML, bara svaret.</p>
+
+    <p>Syftet med protokollet är att göra det möjligt att kommunicera
+      metadata. Specifikationen talar om <emph>Data Providers</emph> och
+      <emph>Service Providers</emph>:</p> 
+
+    <list>
+
+      <item>Data Providers administer systems that support the OAI-PMH
+	as a means of exposing metadata; and</item>
+
+      <item>Service Providers use metadata harvested via the OAI-PMH
+	as a basis for building value-added services.</item>
+
+    </list>
+
+    <p rend="noindent">I det följande kommer jag att hänvisa till
+      dessa som <emph>OAI-server</emph> respektive
+      <emph>OAI-klient</emph>. OAI-protokollets klient är en robot (en
+      harvester), som skickar förfrågningar till servern som enkla HTTP GET
+      eller POST förfrågningar (en OAI-server skall klara av både GET och
+      POST). Till skillnad från SOAP bygger alltså OAI-PMH i stort på den
+      traditionella arkitekturen för Worldwide Web (Representational
+      State Transfer <note n="REST"><xref
+      to="http://www.prescod.net/rest/rest_vs_soap_overview/"/></note>).</p>
+
+  </div2>
+
+  <div2>
+
+    <head>Hur en OAI-server svarar på frågor</head>
+
+    <p rend="noindent">Typiskt definierar man en bas-URL för en OAI-server. Den
+      kan i princip se ut hur som helst, men den leder till ett skript som har
+      tillgång till den databas vari metadata lagras. Frågorna till servern ges
+      som CGI-parametrar till skriptet.</p>
+
+    <p>Det är bara ett antal enkla typer av frågor som behöver
+      implementeras. Minns att OAI-PMH inte är ett sökprotokoll (även om
+      databasen som är kopplad till servern förmodligen måste utföra en sökning
+      för att svara på frågan), utan ett protokoll för överföring av metadata
+      från en OAI-Server (Data Provider) till en OAI-klient (en Harverster
+      stationerad hos en Service Provider). Frågorna en OAI-server skall kunna
+      besvara benämns verb. Dessa är sju till antalet (Tabell 1).</p>
+
+    <p>
+    <table n="1" rows="6" cols="2" rend="lb | l " >
+      <head>Verb som utnyttjas i OAI-PMH</head>
+
+      <row>
+	<cell>GetRecord</cell>
+	<cell>Används för att fråga om en enskild post i databasen</cell>
+      </row>
+      <row>
+	<cell>Identify</cell>
+	<cell>En förfrågan till servern om att den skall indentifiera sig.</cell>
+      </row>
+
+      <row>
+	<cell>ListMetadataFormats</cell>
+	<cell>Gör det möjligt att fråga en server om dess repertoar av olika metadatasyntaxer. Den syntax man väljer skall vara beskriven med ett XML-schema.<note n="XSD"><xref to="http://www.w3.org/XML/Schema" /></note>Det finns olika schema-språk för XML. Flera av dem har fördelar framför XSD, och många har haft svårt att se skönheten i just detta språk. OAI har valt det, och det finns ingen återvändo. I praktiken är det oai_dc som gäller för enkel E-publicering.</cell>
+      </row>
+
+      <row>
+	<cell>ListRecords</cell>
+	<cell>Det verb som man använder för mer storskalig skördning (harvesting)</cell>
+      </row>
+
+      <row>
+	<cell>ListIdentifiers</cell>
+        <cell>Returnerar enbart huvudet för varje post</cell>
+      </row>
+
+      <row>
+	<cell>ListSets</cell>
+	<cell>Returnerar beskrivningar av de kategoriseringar som används. För enkla E-publiceringssystem är det, i praktiken, en lista över systemets ämneskategorier. Det är dock möjligt att utarbeta detta ytterligare, eftersom varje set kan innehålla kompletta metadata för varje samling.</cell>
+      </row>
+
+    </table>
+   </p>
+
+    <p>Varje verb har sin egen uppsättning med argument. På samma sätt
+      finns det en uppsättning med felmeddelanden som måste
+      implementeras, tillsammans med hantering av vissa responskoder i
+      HTTP. Många programmerare är vana vid att returnera även
+      allvarliga felmeddelanden med statuskoden 200 OK. Det duger till
+      slutanvändare, men inte i en OAI-server.</p>
+
+    <p>Serverns responser till dessa förfrågningar skall kodas i XML,
+      och skall &mdash; självklart &mdash; validera gentemot de schema
+      man implementerar. Mer specifika överväganden om hur protokollet OAI-PMH
+      bör implementeras ges längre fram.</p>
+
+  </div2>
+
+</div1>
+
+
+  
+
+

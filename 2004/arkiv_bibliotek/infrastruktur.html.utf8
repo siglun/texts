@@ -1,0 +1,635 @@
+<?xml version='1.0' encoding="utf-8"?>
+<html>
+  <head>
+    <title>Ediffah – En digital infrastruktur för
+      forskningsbibliotekens arkiv- och handskriftssamlingar</title> 
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <link type="text/css"
+      href="/css-style/html_print.css" 
+      rel="stylesheet" />
+  </head>
+  <body>
+    <p class="navigation">
+      &lt;URL
+      http://sigge.lub.lu.se/2004/arkiv_bibliotek/infrastruktur.html&gt;<br />
+      <a href="infrastruktur.pdf">PDF-version</a><br />
+      <a href="http://www.ediffah.org/">Projektets hemsida</a>
+    </p>
+
+    <h1 class="title">Ediffah – En digital infrastruktur för
+      forskningsbibliotekens arkiv- och handskriftssamlingar</h1> 
+
+    <h2>1. Övergripande mål</h2>
+
+    <p>Projektet syftar till att göra det möjligt att att skapa skapa
+      allmänt tillgängliga kataloger och arkivbeskrivningar över
+      bibliotekens handskriftssamlingar och personarkiv. Systemet skall
+      vara enkelt, och innehålla ett arbetsflöde sådant att posterna
+      som genereras också med automatik kan återfinnas i Nationella
+      arkivdatabasen [<a
+	href="http://sigge.lub.lu.se/2004/arkiv_bibliotek/infrastruktur.html#nad">NAD</a>],  vårt gemensamma bibliotekssystem [<a
+	href="http://sigge.lub.lu.se/2004/arkiv_bibliotek/infrastruktur.html#libris">LIBRIS</a>], såväl som i lokala databaser. 
+    </p>  
+
+    <p>Vi föreslår ett antal åtgärder, som resultat av ett
+      samarbetsprojekt mellan institutioner inom biblioteks- och
+      arkivväsendet. Resultatet avses att bli en kombination av
+      arbetsflöden och förbättrade programvaror som kommer att göra
+      forskningsbibliotekens samlingar mera synliga och
+      lättillgängliga. Genom att förenkla produktionen av poster
+      kommer biblioteken att snabbare kunna registrera sina samlingar.
+      Den framtida driften av en gemensam databas för dessa typer av
+      arkiv skall också utredas.</p>
+
+    <h3><a name="produkter">1.1. Produkter</a></h3>
+
+    <p>Efter projektets slut skall följande produkter finnas:</p>
+
+    <ol>
+      <li id="dp1">Kortfattade arkivbeskrivningar i det XML-baserade
+	formatet Encoded Archival Description [<a href="#ead">EAD</a>] för
+	arkiven vid de största svenska forskningsbiblioteken. I samband med att
+	detta görs skall också auktoritetsfiler för namn i databaserna finnas
+	tillgängliga i formatet Encoded Archival Context [<a
+	  href="#eac">EAC</a>]. Möjligheterna för konvertering av befintliga
+	databaser undersöks. Alla NAD-poster konverteras, och för andra
+	tjänster görs konvertering i experimentell skala.</li> 
+
+      <li id="dp2">Minst en webbplats som implementerar sökning och
+	navigering i sådana beskrivningar. Webbplatsen skall vara baserad
+	på open-source programvara och erfarenheterna av detta arbete
+	sammanfattas i en rapport.</li>
+
+      <li id="dp3">Användningen av EAD för katalogisering av arkivalier
+	vid forskningsbibliotek och dess specialsamlingar skall ha
+	studerats, och några verktyg för sökning, navigering och
+	produktion av EAD-poster skall ha testats och jämförts med
+	katalogisering direkt i NAD. Ett av de testade verktygen kommer att
+	användas i <a href="#dp2">DP2</a>. Erfarenheter från detta skall
+	redovisas i en rapport.</li>
+
+      <li id="dp4">Etablerade kommunikationsvägar som tillåter
+	kommunikation mellan det utvecklade systemet och Nationella
+	Arkivdatabasen [<a href="#nad">NAD</a>].</li>
+
+      <li id="dp5">Etablerade kommunikationsvägar som tillåter
+	kommunikation mellan det utvecklade systemet och samkatalogen
+	LIBRIS. Syftet med detta är att användare som söker material av
+	och om särskilda personer skall kunna återfinna även deras
+	arkiv.</li>
+
+      <li id="dp6">Utredning av förutsättningarna för driften av en
+	gemensam databas för EAD-beskrivningar av arkivsamlingar vid
+	forskningsbiblioteken. Webbplatsen som utvecklas inom
+	<a href="#dp2">DP2</a> är en experimentell prototyp för en sådan
+	söktjänst.</li>
+    </ol>
+
+    <p>Varje produkt utgör ett delprojekt i projektplanen. Vissa
+      produkter kommer att finnas kvar efter projektets slut, och kommer
+      vara tillgängliga för nedladdning och återanvändning, dock utan
+      underhåll. Webbplatsen kommer att vara i drift ett år efter att
+      projektet avslutats.</p>
+
+    <h2>2. Deltagande organisationer och kontaktpersoner</h2>
+
+    <p>Projektgruppen består av organisationer med samlingar,
+      erfarenheter och teknologi som är viktiga för att uppnå
+      projektets mål. Personerna har alla erfarenheter som ligger i
+      linje med projektets innehåll.</p>
+
+    <ul>
+      <li><strong>BD Lund</strong>, Biblioteksdirektionen Lunds
+	universitet (Sigfrid Lundberg, forskningsingenjör, och Jörgen
+	Eriksson, bibliotekarie)</li>
+
+      <li><strong>GUB</strong>, Göteborgs Universitetsbibliotek (Pia
+	Schmidt de Graaf, bibliotekarie med ansvar för arkiv)</li>
+
+      <li><strong>KB</strong>, Kungliga Biblioteket (Ingrid Svensson, t.f. chef
+	för handskriftsavdelningen)</li>
+
+      <li><strong>LIBRIS</strong>, KB-LIBRIS det nationella
+	bibliotekssystemet (Mats Herder)</li>
+
+      <li><strong>RA</strong>, Riksarkivet (Göran Kristiansson, leder
+	utvecklingen av NAD)</li>
+
+      <li><strong>UB Lund</strong>, Universitetsbiblioteket, Lunds
+	universitet (Birgitta Lindholm, föreståndare för
+	handskriftsavdelningen)</li>
+
+      <li><strong>UUB</strong>, Uppsala Universitetsbibliotek (Inga Johansson,
+	tf chef för handskriftsavdelningen)</li> 
+    </ul>
+
+    <h2>3. Projektets innehåll och tidsplanering</h2>
+
+    <p>De olika delprojektens innehåll och projektets tidsplanering
+      sammanfattas i <a href="#tab1">Tabell 1</a>.
+      Här följer en mer detaljerad beskrivning.</p>
+
+    <h3 id="detalj1">3.1. Skapande av kortfattade arkivbeskrivningar i
+      det XML-baserade formatet EAD (Dp. 1)</h3>  
+
+    <p>Som framgår av bakgrundsteckningen nedan (se <a href="#bakgrund">
+	Bakgrund</a>) finns redan idag mycket kortfattade
+      arkivbeskrivningar för forskningsbibliotekens arkiv i den gamla
+      NAD-databasen som distribuerades i form av en CD-skiva.</p>
+
+    <p>Dp 1 syftar till export av dessa data i EAD för återföring
+      till respektive bibliotek. Samtidigt skall även kortfattade
+      auktoritetsposter i EAC-format skapas. EAC fyller två funktioner:
+      Det används för distribution av normaliserade namnformer i
+      arkivdatabaser, men även för "öppen" länkning mellan
+      arkivdatabaser och för identifiering av databaser som är
+      lämpliga för samsökning. Riksarkivet och arkivinstitutioner
+      (främst inom biblioteksvärlden) använder EAC inom LEAF-projektet
+      (Linking and Exploring Authority Files) för auktoritetsutbyte [<a
+	href="#leaf">LEAF</a>]</p>
+
+    <p>Dp1 kommer också att inventera de befintliga databaser som
+      finns vid bl. a GUB och UU och göra en uppskattning av det arbete
+      som kommer att krävas för att konvertera dessa.</p>
+
+    <h3 id="detalj2">3.2. Skapande av minst en webb-plats som
+      implementerar sökning och navigering i EAD-besrkivningar (Dp.
+      2)</h3>
+
+    <p>EAD är ett format som tillåter katalogisering av komplexa
+      resurser vilka är hierarkiskt strukturerade. En ytlig
+      arkivbeskrivning ger inte mycket mer än en Dublin Core beskrivning
+      av en samling (jämför DCMI Collection Description WGs arbete
+      [<a href="#dc-collection">DC</a>])</p>
+
+    <p>Ett arkiv är nästan alltid hierarkiskt organiserat och man kan
+      ha valt att lägga registreringen på objektsnivå, på volymnivå
+      eller - vid en rudimentär beskrivning - på en ännu högre nivå.
+      Typiskt sett kan ett arkiv bestå av kapslar. EAD är anpassat för
+      katalogisering av hierarkiskt organiserade samlingar, och kan även
+      innehålla löpande prosa i beskrivningarna. Namn på platser och
+      organisationer och andra viktiga detaljer kan markeras för
+      automatisk indexering och sökning.</p>
+
+    <p>EAD används numera vid många arkivinstitutioner, eller
+      konsortier av sådana [<a href="#eadsites">EADsites</a>]. Archives Hub, "A
+      national gateway to descriptions of archives in UK universities and
+      colleges" [<a href="#ahub">AHUB</a>] är en sådan, som dessutom har gjort
+      sina verktyg till öppen källkod. Inspiration kommer också att hämtas från
+      andra implementeringar, t ex från Library of Congress finding aid's
+      project[<a href="#loc">LOC</a>]</p> 
+
+    <p>Dp. 2 syftar till att med minsta möjliga ansträngning
+      implementera en webbplats för sökning och navigering av
+      arkivbeskrivningar. Webbplatsen skall byggas med fri programvara
+      och eventuella anpassningar för svenska förhållanden skall
+      göras tillgängliga för intresserade. Härigenom skall det
+      enskilda bibliotekets samlingar kunna synliggöras.</p>
+
+    <p>Webbplatsen skall potentiellt kunna fungera som en gemensam
+      resurs för samtliga bibliotek eller kunna replikeras vid de olika
+      institutionerna. Vidare skall den metod för katalogisering som
+      väljs eller utvecklas i Dp. 3 kunna integreras i webbplatsen.</p>
+
+    <p>Den starkaste kandidaten när det gäller programvara för
+      sökning är sökmaskinen Cheshire II (som huvudsakliga har sitt
+      huvudsakliga hem i Berkeley) [<a href="#cheshire">CHESHIRE</a>] som
+      delvis har utvecklats av personal vid Archives Hub och Manchester
+      Information &amp; Associated Services [<a href="#mimas">MIMAS</a>].
+      Båda tjänsterna är utvecklade med stöd av Joint
+      Information Systems Committee [<a href="#jisc">JISC</a>]
+      och är delar av dess utbud av samlingar.</p>
+
+    <p>Varje arkiv eller bibliotek som deltar i ArchivesHub har en egen
+      server och den centrala tjänsten samsöker alla 40 eller en del av
+      dem beroende på frågans innehåll. Programvaran levereras färdig
+      bränd på CD från den centrala HUBen i Manchester och kommer
+      komplett med operativsystem, redigeringsverktyg och
+      databashanterare. Mer information om hur ArchivesHub fungerar finns
+      tillgängligt på Internet.[<a href=
+	"#ahs">AHS</a>] Det finns inget i Archives Hub som avslöjar för
+      användaren att tjänstens hela arkitektur är baserad på
+      databaser spridda över de brittiska öarna.</p>
+
+    <p>Om Ediffah byggs distribuerat som Archives Hub eller
+      centraliserat som en centraliserad lösning i likhet med LIBRIS
+      eller NAD är en fråga som skall utredas under projektets gång.
+      Ett självklart krav är att programvaran skall kunna länka till
+      digitaliserade versioner av beskrivna objekt.</p>
+
+    <h3 id="detalj3">3.3. Utredning av användningen av EAD inom
+      biblioteksväsendet (Dp. 3)</h3>
+
+    <p>Beslutet att de svenska forskningsbibliotekens arkiv skulle
+      kopplas till den Nationella arkivdatabasen [<a href="#nad">NAD</a>] är
+      gammalt. Denna koppling skall finnas kvar. Här ställer vi i istället
+      frågorna: Hur skall vi använda EAD, och finns det användningsområden som
+      går utöver det självklara, att beskriva arkiv.</p>
+
+    <p>Syftet med Dp. 3 är tvåfaldigt:</p>
+
+    <ul>
+      <li>att utreda användningen av EAD. Om användningen kommer att
+	bli begränsad till sökning i arkivalier och kommunikation med NAD
+	kan de funktionella kraven bli enklare än om det finns vidare
+	användningsområden. Jämför användningen av EAD för
+	beskrivning av digitala samlingar inom Open Archives Initiative
+	[<a href="#oai">OAI</a>]. Likaså påverkas användningen av EAD av vilken
+	fokus katalogiseringen ges och vilka katalogiseringsregler som 
+	används.</li>
+
+      <li>att ge de svenska forskningsbiblioteken en infrastruktur för
+	att katalogisering i EAD. För det ändamålet skall vi testa
+	några produkter och välja ut en kandidat. Kandidaten skall
+	jämföras med katalogisering direkt i NAD's
+	produktionsserver.</li>
+    </ul>
+
+    <h3 id="detalj4o5">3.4 Etablering av kommunikationsvägar mellan
+      arkivdatabaser vid bibliotek och andra databaser (Dp. 4 och 5)</h3>
+
+    <p>Tre funktionella krav skall tillgodoses: arkivalier skall synas
+      i LIBRIS, i NAD och på det enskilda bibliotekets webbplats.</p>
+
+    <p>Dp. 4 och 5. Etablering av kommunikationsvägar mellan
+      bibliotekens framtida arkivdatabaser och de två nationella
+      katalogerna NAD och LIBRIS.</p>
+
+    <p>LIBRIS kommer inom projektet att producera en specifikation och
+      katalogiseringsregler för en sammanfattande MARC-post vilken skall
+      peka på en arkivbeskrivning. Specifikationen kommer att vara en
+      anpassning av en redan etablerad konkordans mellan EAD och MARC21
+      [<a href="#cookbook">Cookbook</a>]. Procedurer för uppdatering av
+      exporterade MARC-poster i Libris kommer att etableras.</p>
+
+    <p>Samarbetet med NAD kommer att vara något mer komplicerat,
+      eftersom det kan bli tal om tvåvägskommunikation, dvs poster
+      skall kunna exporteras till bibliotekens lokala databaser, och
+      även kunna importeras i NAD. Å andra sidan existerar redan de
+      nödvändiga verktygen. En särskild procedur för export av
+      EAC-poster måste också etableras om katalogisering skall ske i
+      andra databaser än i NAD.</p>
+
+    <h3 id="detalj6">3.5 Utredning av etablerandet av en
+      samsökningstjänst för personarkiv (Dp. 6)</h3>
+
+    <p>Det kan vara av intresse att etablera en EAD-baserad
+      samsökningstjänst för bibliotekens arkivsamlingar. Syftet med Dp. 6 är
+      att finna former för driften av en sådan. En sådan tjänst skall
+      fungera med de arbetsflöden som är produkten av Dp. 3, 4, och 5,
+      ha långsiktig finansiering samt en organisatorisk hemvist.</p>
+
+
+    <table id="tab1" border="1" format="l l l">
+      <caption>Tabell 1. Ediffah-projektets olika delprojekt och
+	kortfattad beskrivning av deras innehåll</caption>
+
+      <tbody>
+	<tr>
+	  <td><strong>Dp</strong></td>
+	  <td><strong>Startvecka</strong> i projektet och
+	    <strong>Varaktighet</strong> (veckor)</td>
+	  <td><strong>Beskrivning</strong> och <strong>Deltagare</strong>
+	    (ansvarig partner i fet stil)</td>
+	</tr>
+
+	<tr>
+	  <td><a href="#detalj1">1</a></td>
+	  <td>Vecka 2. 10 veckor</td>
+	  <td>Omvandlingen av posterna i CD-versionen av NAD till EAD och
+	    EAC. Konvertering av existerande databaser<br />
+	      Deltagare: <strong>RA</strong>, UUB, GUB</td>
+	</tr>
+
+	<tr>
+	  <td><a href="#detalj2">2</a></td>
+	  <td>Vecka 2. 10 veckor</td>
+	  <td>Etablering av webbplats med sök- och navigeringsfunktioner
+	    för EAD.<br />
+	      Deltagare: <strong>BD</strong></td>
+	</tr>
+
+	<tr>
+	  <td><a href="#detalj3">3</a></td>
+	  <td>Vecka 12. 20 veckor</td>
+	  <td>Användning av EAD för katalogisering av arkivalier vid
+	    forskningsbibliotek och dess specialsamlingar. "Best practices",
+	    katalogiseringsregler och verktyg.<br />
+	      Deltagare: <strong>KB</strong>, alla</td>
+	</tr>
+
+	<tr>
+	  <td><a href="#detalj4o5">4</a></td>
+	  <td>Vecka 24, 8 veckor</td>
+	  <td>Etablering av kommunikationsvägar till, och från, NAD.<br />
+	      Deltagare: <strong>RA</strong>, BD</td>
+	</tr>
+
+	<tr>
+	  <td><a href="#detalj4o5">5</a></td>
+	  <td>Vecka 24, 8 veckor</td>
+	  <td>Etablering av kommunikationsvägar till LIBRIS.<br />
+	      Deltagare: <strong>LIBRIS</strong>, BD</td>
+	</tr>
+
+	<tr>
+	  <td><a href="#detalj6">6</a></td>
+	  <td>Vecka 32, 20 veckor</td>
+	  <td>Utredning av förutsättningarna för drift av söktjänst för
+	    personarkiv.<br />
+	      Deltagare: <strong>KB?</strong>,alla</td>
+	</tr>
+      </tbody>
+    </table>
+
+    <h2>4. Kostnader</h2>
+
+    <table>
+      <tbody>
+	<tr>
+	  <td>Deltagare</td>
+	  <td>Beräknad tidsåtgång</td>
+	  <td>Kostnad</td>
+	</tr>
+
+	<tr>
+	  <td>RA</td>
+	  <td>2 pm</td>
+	  <td>100,177 SEK</td>
+	</tr>
+
+	<tr>
+	  <td>BD</td>
+	  <td>3 pm + 0.5 pm (administration)</td>
+	  <td>175,310 SEK</td>
+	</tr>
+
+	<tr>
+	  <td>LIBRIS</td>
+	  <td>1 pm</td>
+	  <td>-</td>
+	</tr>
+
+	<tr>
+	  <td>GUB</td>
+	  <td>1,5 pm</td>
+	  <td>87,658 SEK</td>
+	</tr>
+
+	<tr>
+	  <td>KB</td>
+	  <td>1 pm</td>
+	  <td>-</td>
+	</tr>
+
+	<tr>
+	  <td>LUB</td>
+	  <td>1 pm</td>
+	  <td>50,089 SEK</td>
+	</tr>
+
+	<tr>
+	  <td>UUB</td>
+	  <td>1,5 pm</td>
+	  <td>75,133 SEK</td>
+	</tr>
+
+	<tr>
+	  <td>Resor</td>
+	  <td>5 möten: 2 allmänna och 3 inom DP 3.</td>
+	  <td>150,000 SEK</td>
+	</tr>
+
+	<tr>
+	  <td colspan="2">Summa</td>
+	  <td>638,367 SEK</td>
+	</tr>
+
+      </tbody>
+    </table>
+
+    <h2 id="bakgrund">5. Bakgrund</h2>
+
+    <p>De svenska forskningsbiblioteken har ansenliga samlingar av
+      arkivalier, främst i form av brev, manuskript och andra
+      efterlämnade handlingar efter personer vars livsverk legat inom
+      estetiska, politiska eller vetenskapliga områden.</p>
+
+    <p>Projektet avser att väsentligt underlätta tillgängligheten
+      till detta material - ovärderligt inte bara för forskning och
+      högre utbildning utan också för en bred allmänhet.</p>
+
+    <p>Hur hittar en förhoppningsfull forskare fram till de källor
+      som finns vid svenska forskningsbibliotek. Svaret på frågan är
+      att han eller hon sannolikt knappast hittar källmaterial,
+      åtminstone inte på egen hand. Det finns ingen strukturerad, sök-
+      eller navigerbar information om dessa samlingar på de aktuella
+      bibliotekens webb. Det existerar inga länkar från bibliotekens
+      kataloger till arkivbeskrivningar. I den mån stukturerad
+      information om samlingarna finns, ligger den i äldre versioner av
+      Riksarkivets databaser och saknar där länkar till annan nätburen
+      information. För material vid forskningsbiblioteken är dessa
+      beskrivningar ytterst översiktliga, inkompletta och tyvärr
+      inaktuella.</p>
+
+    <p>Metoden som återstår för låntagare är informationsåtervinning per
+      telefon och tågresor.</p> 
+
+    <p>1987 påbörjades datoriseringen av de svenska arkivregistren,
+      vilka samlades under en hatt i Nationella Arkivdatabasen, NAD.
+      Från år 1995 utgavs denna på CD-ROM, ett distributionsmedium som
+      övergavs från år 1998 till förmån för ett webbaserat system
+      [<a href="#in_nad">NAD</a>].</p>
+
+    <p>En betydande del av arkivalierna vid de svenska
+      forskningsbiblioteken katalogiserades ytligt för användning i
+      NAD. Efter 1998 har dessa katalogposter inte underhållits och inga
+      nya lagts till. Katalogisering såväl som sökning var baserat på
+      en äldre MARC-liknande standard som övergivits av Riksarkivet
+      till förmån för ett nytt arkivsystem Arkis2, vars arkitektur är
+      baserad på EAD, ett XML/SGML baserat detaljerat metadatasystem
+      för beskrivning av samlingar [<a href="#ead">EAD</a>].</p>
+
+    <p>De beskrivningarna av arkivalier som skapades vid
+      registreringsenheten REA i Sandslån[<a href="#abm">ABM</a>] har kommit
+      med i NAD, via den nya Arkis2 baserade 
+      arkivdatabasen. Detta gäller för vissa av de större
+      forskningsbiblioteken (KB, UU och GU), och kommer inom en nära
+      framtid finnas med i NAD på Internet, medan de samlingar som
+      katalogiserades via andra initiativ (t ex de vid LUB) inte finns
+      tillgängliga via moderna gränssnitt.</p>
+
+    <p>Att snabbt drastiskt förbättra situationen låter sig inte
+      göras utan mycket stora och kostsamma investeringar. Även om
+      pekuniära resurser funnes i överflöd, kräver arbetet insatser
+      från kompetent personal med kännedom om samlingarna. Kompetens
+      kan nyrekryteras, men även ett omfattande åtgärdsprogram är en
+      kamp emot tiden; kunskapen om samlingarna har i stora stycken
+      traderats oralt mellan generationerna. Dagens traditionsbärare
+      tillhör inte yrkeskårens yngre medlemmar.</p>
+
+    <p>Att förenkla framställningen av poster och hur de görs
+      maximalt synliga så långt som möjligt ser vi som viktigt i denna
+      situation, eftersom den stora kostnaden är för personal till
+      postframställning. Arkis2 t. ex., som är RAs nya verktyg för att
+      skapa arkivposter, är ett komplext verktyg, byggt för att kunna
+      hantera alla typer av arkiv och materialtyper, med en relativt hög
+      inlärningströskel. Ett verktyg, särskilt anpassat till
+      universitetsbibliotekens typ av arkiv, ser vi som en viktig
+      komponent i arbetet med att skapa ökade möjligheter för
+      registrering av dessa arkiv.</p>
+
+    <h2>6. Referenser</h2>
+
+    <table class="navigation" border="0" format="l l">
+      <tbody>
+	<tr>
+	  <td class="left">[AHUB]</td>
+	  <td class="left">
+	    <a href="http://www.archiveshub.ac.uk/"
+	      name="ahub">http://www.archiveshub.ac.uk/</a>
+	  </td>
+	</tr>
+
+	<tr>
+	  <td class="left">[AHS]</td>
+	  <td class="left">
+	    <a href="http://www.archiveshub.ac.uk/arch/index.html"
+	      name="ahs">http://www.archiveshub.ac.uk/arch/index.html</a>
+	  </td>
+	</tr>
+
+	<tr>
+	  <td class="left">[ABM]</td>
+	  <td class="left">
+	    <a href="http://www.kb.se/bibsam/bidrag/abmrapport.htm"
+	      name="abm">http://www.kb.se/bibsam/bidrag/abmrapport.htm</a>
+	  </td>
+	</tr>
+
+	<tr>
+	  <td class="left">[CHESHIRE]</td>
+	  <td class="left">
+	    <a href="http://cheshire.lib.berkeley.edu/"
+	      name="cheshire">http://cheshire.lib.berkeley.edu/</a>
+	  </td>
+	</tr>
+
+	<tr>
+	  <td class="left">[Cookbook]</td>
+	  <td class="left">
+	    <a
+	      href="ftp://jefferson.village.virginia.edu/pub/ead/EADCookbook.pdf"
+	      name="cookbook">ftp://jefferson.village.virginia.edu/pub/ead/EADCookbook.pdf</a>
+	  </td>
+	</tr>
+
+	<tr>
+	  <td class="left">[DC]</td>
+	  <td class="left">
+	    <a href="http://dublincore.org/groups/collections/"
+	      name="dc-collection">http://dublincore.org/groups/collections/</a>
+	  </td>
+	</tr>
+
+	<tr>
+	  <td class="left">[EAC]</td>
+	  <td class="left">
+	    <a href="http://www.crxnet.com/leaf/news_online.html#eac2"
+	      name="ead">http://www.crxnet.com/leaf/news_online.html#eac2</a>
+	  </td>
+	</tr>
+
+	<tr>
+	  <td class="left">[EAD]</td>
+	  <td class="left">
+	    <a href="http://www.loc.gov/ead/"
+	      name="ead">http://www.loc.gov/ead/</a>,
+	    se också
+	    <a
+	      href="http://jefferson.village.virginia.edu/ead/">http://jefferson.village.virginia.edu/ead/</a>
+	  </td>
+	</tr>
+
+	<tr>
+	  <td class="left">[EADsites]</td>
+	  <td class="left">
+	    <a href="http://jefferson.village.virginia.edu/ead/sitesann.html"
+	      name="eadsites">http://jefferson.village.virginia.edu/ead/sitesann.html</a>
+	  </td> 
+	</tr>
+
+	<tr>
+	  <td class="left">[JISC]</td>
+	  <td class="left">
+	    <a href="http://www.jisc.ac.uk/"
+	      name="jisc">http://www.jisc.ac.uk/</a>
+	  </td>
+	</tr>
+
+	<tr>
+	  <td class="left">[LEAF]</td>
+	  <td class="left">
+	    <a href="http://www.leaf-eu.org/"
+	      name="leaf">http://www.leaf-eu.org/</a>
+	  </td>
+	</tr>
+
+	<tr>
+	  <td class="left">[LIBRIS]</td>
+	  <td class="left">
+	    <a href="http://www.libris.kb.se/"
+	      name="leaf">http://www.libris.kb.se/</a>
+	  </td>
+	</tr>
+
+	<tr>
+	  <td class="left">[LOC]</td>
+	  <td class="left">
+	    <a href="http://www.loc.gov/rr/ead/"
+	      name="loc">http://www.loc.gov/rr/ead/</a>
+	  </td>
+	</tr>
+
+	<tr>
+	  <td class="left">[MIMAS]</td>
+	  <td class="left">
+	    <a href="http://www.mimas.ac.uk/"
+	      name="mimas">http://www.mimas.ac.uk/</a>
+	  </td>
+	</tr>
+
+	<tr>
+	  <td class="left">[NAD]</td>
+	  <td class="left">
+	    <a href="http://www.nad.ra.se/"
+	      name="in_nad">http://www.nad.ra.se/</a>
+	  </td>
+	</tr>
+
+	<tr>
+	  <td class="left">[OAI]</td>
+	  <td class="left">
+	    <a
+	      href="http://www.openarchives.org/OAI/2.0/guidelines-repository.htm#setDescription"
+	      name="oai">http://www.openarchives.org/OAI/2.0/guidelines-repository.htm#setDescription</a>
+	  </td>
+	</tr>
+      </tbody>
+    </table>
+
+    <h2>Revisionshistoria</h2>
+
+    <p>
+      <strong>Version:</strong> $Revision$<br />
+	<strong>Datum:</strong> $Date$<br />
+	  <strong>Dokumentansvarig:</strong> $Author$
+    </p>
+
+    <p>
+      <a href=
+	"http://sigge.lub.lu.se/2004/arkiv_bibliotek/revisioner.cgi">Revisionshistoria</a>
+    </p>
+  </body>
+</html>
+

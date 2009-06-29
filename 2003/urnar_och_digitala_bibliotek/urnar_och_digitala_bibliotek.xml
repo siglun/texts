@@ -1,0 +1,338 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE article PUBLIC "-//OASIS//DTD DocBook XML V4.1.2//EN"
+                  "http://www.oasis-open.org/docbook/xml/4.1.2/docbookx.dtd">
+
+<article>
+  <articleinfo>
+    <title>Pesistent länkning och digitala bibliotek</title>
+    <author>
+      <firstname>Sigfrid</firstname>
+      <surname>Lundberg</surname>
+    </author>
+  </articleinfo>
+  <abstract>
+    <para>Åtskillig uppmärksamhet har nyligen riktats mot problemen
+      förknippade med att uppnå en stabilare webb. Det konstateras,
+      helt korrekt, att mängder med dokument bara försvinner från sina
+      ursprungliga platser. Vad skall man då göra åt saken? Vad är det för
+      grundläggande designproblem som gör att organisationer vilka underhåller
+      länksamlingar av olika slag tvingas bära en allt tyngre börda?</para>
+  </abstract>
+
+  <sect1>
+
+    <title>Introduktion</title>
+
+    <para>Under det senaste året har jag noterat ett ökat intresse för
+      persistent länkning. Det är bra, på ett sätt. För det är viktiga
+      problem. Emellertid finns det en övertro på Universal Resource Names
+      (URNar) kan åstadkomma. Den idén kan synas bra, men i själva verket är
+      den dunkelt tänkt, och det har inte blivit mycket av den.</para> 
+  </sect1>
+    <sect1>
+      <title>Universal Resource Names</title>
+
+      <para>Standardiseringsläget för Universal Resource Names (URN) är föga
+	uppmuntrande:
+
+	<itemizedlist>
+	  <listitem>
+	    <para>Det existerar ingen internetstandard med status bättre än
+	      'Experimental' när det gäller Universal Resource Names
+	      <footnoteref linkend="rfcxx00"/>.</para>
+	  </listitem>
+
+	  <listitem>
+	    <para>Den enda standard när det gäller URN-resolvering som
+	      verkligen implementeras är
+	      rfc2169<footnoteref linkend="rfc2169"/>.
+	      Den här från 1997 och i många avseenden obsolet.
+	      Återkommer till denna.</para>
+	  </listitem>
+
+	  <listitem>
+	    <para>IETF har inte haft någon arbetsgrupp inom området sedan
+	      2001. Något nytt standardiseringsarbete kan inte förväntas på 
+	      åtskilliga år.</para>
+	  </listitem>
+
+	  <listitem>
+	    <para>Under arbetet med den andra upplagan av rfc2396
+	      (proposed standard)<footnoteref linkend="rfc2396" />
+	      har man på allvar diskuterat att
+	      slänga ut URNna över huvud taget<footnoteref
+	      linkend="rfc2396bis"/>. Det blir inte så, men att 
+	      frågan rests visar att själva URN-konceptet vilar på mycket
+	      lös grund och dess vidare utveckling har mycket litet stöd
+	      inom ramen för <footnoteref linkend="URI-URL-URN"/>.</para>
+	  </listitem>
+	</itemizedlist>
+    </para>
+  </sect1>
+  <sect1>
+    <title>Uppenbara problem</title>
+    <para>Eventuella rikt linjer för persistent länkning när det
+      gäller svensk e-publicering, arkivering och digitalt bevarande måste
+	  beakta en rad uppenbara problem
+
+      <itemizedlist>
+	<listitem>
+	    <para>URN-konceptets svaga standardiseringsposition. De
+	      resolveringsmekanismer vilka i princip bygger på rfc2169.txt 
+	      <footnoteref linkend="rfc2169" />) kommer aldrig att nå nivån
+	    standard. Konceptet är svagare än Persistent URLs
+	    <footnoteref linkend="PURL" />, vilken är att betrakta som en de
+	    facto-standard i dag.</para> 
+	  </listitem>
+
+	  <listitem>
+	    <para>Oavsett vilka rekommendationer som lämnas
+	    måste vi beakta att varje lösning som kräver en
+	    resolveringsmekanism (PURL, URN eller vilken som) kommer att
+	    ge lägre persistens än än den minst persistenta ingående
+	    komponenten. Den mest persistenta lösningen av alla är en
+	    stabil URL.</para>
+	  </listitem>
+
+	<listitem>
+	    <para>Varje system för persistent lokalisering och identifiering
+	      kräver en "persistence policy" från varje deltagande
+	      partner för att hålla systemet vid liv. Det finns många
+	    organisationer som implementerar sådana policies, och de är olika
+	    beroende på vad det är man vill bevara. Jämför <footnoteref
+	      linkend="W3C"/> <footnoteref linkend="DCMI" /> <footnoteref
+	      linkend="Cores-EU" /> <footnoteref linkend="DCMI" /> och
+	    <footnoteref linkend="BIOMED"/>.</para> 
+	  </listitem>
+
+	<listitem>
+	    <para>URN-konceptet är gammalt, och blandar sig därför inte
+	    automatiskt väl med moderna standarder. Ett system för lokalisering
+	    och identifiering får måste vara kompatibelt med moderna
+	    XPath-baserade standarder som (t ex) XInclude <footnoteref
+	      linkend="xinclude" />, XLink <footnoteref linkend="xlink" /> och
+	    XPointer <footnoteref linkend="xptr" />.</para>  
+	</listitem>
+      </itemizedlist>
+    </para>
+    
+  </sect1>
+
+  <sect1>
+    <title>En felsyn</title>
+    
+    <para>Problemet med att webben förefaller vara flyktig, att resurser
+      försvinner, osv, är inte att URLar är dålig ingenjörskonst. Det finns
+      inget som säger att URNar är stabilare. Stabilitet är en
+      underhållsstrategi, inte någon egenskap hos de teknologier som till dags
+      dato byggt upp webben. Eller som Tim Berners-Lee utrycker saken
+      <quote>URIs don't change: people change them.</quote><footnoteref
+	linkend="Style-URI"/></para> 
+
+    <para>Varje sätt att namnge nätburna resurser ställer krav
+      på mänskligt underhåll. När ett dokument tillordnas en
+      URN, måste denna information måste samlas och laddas i en central
+      databas tillsammans med information om vilken URL den hör samman. Varje
+      steg ger mer underhåll. Och varje steg som kräver underhåll ökar risken
+      för att något fallerar.</para> 
+
+  </sect1>
+
+  <sect1>
+    <title>Finns det lindring?</title>
+
+    <para></para>
+
+  </sect1>
+  
+    
+
+  <bibliography>
+    <title>Referenser</title>
+
+    <biblioentry id="rfcxx00">
+      <author>
+	<othername>RFC Editor</othername>
+      </author>
+      <title>
+	<ulink url="http://www.rfc-editor.org/rfcxx00.html">Official Internet
+	  Protocol Standards</ulink> 
+      </title>
+    </biblioentry>
+    <biblioentry id="rfc2169">
+      <author>   
+	<surname>Daniel</surname>
+	<firstname>R.</firstname>
+      </author>
+      <title>
+	<ulink url="ftp://ftp.rfc-editor.org/in-notes/rfc2169.txt">
+	  A Trivial Convention for using HTTP in URN Resolution
+	</ulink>
+      </title>
+    </biblioentry>
+    <biblioentry id="rfc2396">
+      <author>
+	<surname>Berners-Lee</surname>
+	<firstname>T.</firstname>
+      </author>
+      <author>
+	<surname>Fielding</surname>
+	<firstname>R.</firstname>
+      </author>
+      <author>
+	<surname>Irvine</surname>
+	<firstname>U.C.</firstname>
+      </author>
+      <author>
+	<surname>Masinter</surname>
+	<firstname>L.</firstname>
+      </author>
+      <title>
+	<ulink url="ftp://ftp.rfc-editor.org/in-notes/rfc2396.txt">
+	  Uniform Resource Identifiers (URI): Generic Synta
+	</ulink>
+      </title>
+    </biblioentry>
+    <biblioentry id="rfc2396bis">
+      <author>
+	<surname>Berners-Lee</surname>
+	<firstname>T.</firstname>
+      </author>
+      <author>
+	<surname>Fielding</surname>
+	<firstname>R.</firstname>
+      </author>
+      <author>
+	<surname>Masinter</surname>
+	<firstname>L.</firstname>
+      </author>
+      <title>
+	<ulink
+	  url="http://www.gbiv.com/protocols/uri/rev-2002/rfc2396bis.html">
+	  Uniform Resource Identifier (URI): Generic Syntax</ulink>
+	(work in progress)
+      </title>
+    </biblioentry>
+    <biblioentry id="URI-URL-URN">
+      <title>
+	<ulink url="http://www.gbiv.com/protocols/uri/rev-2002/issues.html#019-URI-URL-URN">URI/URL/URN contemporary view</ulink></title>
+    </biblioentry>
+    <biblioentry id="Style-URI">
+      <author>
+	<surname>Berners-Lee</surname>
+	<firstname>T.</firstname>
+      </author>
+      <title>
+	<ulink url="http://www.w3.org/Provider/Style/URI">Cool URIs don't
+	  change</ulink></title> 
+    </biblioentry>
+    <biblioentry id="PURL">
+      <author>
+	<surname>Shafer</surname>
+	<firstname>Keith</firstname>
+      </author>
+      <author>
+	<surname>Weibel</surname>
+	<firstname>Stuart</firstname>
+      </author>
+      <author>
+	<surname>Jul</surname>
+	<firstname>Erik</firstname>
+      </author>
+      <author>
+	<surname>Fausey</surname>
+	<firstname>Jon</firstname>
+      </author>
+      <title>
+	<ulink url="http://purl.oclc.org/docs/inet96.html">Introduction to Persistent Uniform Resource Locators</ulink>
+      </title>
+    </biblioentry>
+    <biblioentry id="W3C">
+      <author>
+	<surname>Berners-Lee</surname>
+	<firstname>T.</firstname>
+      </author>
+      <title>
+	<ulink url="http://www.w3.org/Consortium/Persistence">Persistence
+	  Policy</ulink> 
+      </title>
+    </biblioentry>
+    <biblioentry id="DCMI">
+      <author>
+	<surname>Dekkers</surname>
+	<firstname>Makx</firstname>
+      </author>
+      <title>
+	<ulink
+	  url="http://dublincore.org/usage/documents/publications/#persistence">	  DCMI Publication Policy</ulink>
+      </title> 
+    </biblioentry>
+    <biblioentry id="Cores-EU">
+      <author>
+	<othername>CORES Projec</othername>
+      </author>
+      <title>
+	<ulink url="http://www.cores-eu.net/registry/persist/">Project Policy
+	  on Persistence of the Registry</ulink>
+      </title>
+    </biblioentry>
+    <biblioentry id="BIOMED">
+      <author>
+	<othername>BioMed Central</othername>
+      </author>
+      <title>
+	<ulink
+	  url="http://www.biomedcentral.com/info/libraries/archive">Journal
+	  archiving</ulink>
+      </title>
+    </biblioentry>
+    <biblioentry id="xinclude">
+      <author>
+	<othername>Worldwide Web Consortium</othername>
+      </author>
+      <title>
+	<ulink url="http://www.w3.org/TR/xinclude/">XML
+	  Inclusions (XInclude) Version 1.0</ulink> (W3C Working Draft)
+      </title>
+      <editor>
+	<firstname>Jonathan</firstname>
+	<surname>Marsh</surname>
+      </editor>
+      <editor>
+	<firstname>David</firstname>
+	<surname>Orchard</surname>
+      </editor>
+    </biblioentry>
+    <biblioentry id="xlink">
+      <author>
+	<othername>Worldwide Web Consortium</othername>
+      </author>
+      <title>
+	<ulink url="http://www.w3.org/TR/2001/REC-xlink-20010627/">XML Linking
+	  Language (XLink) Version 1.0</ulink>
+      </title>
+      <editor>
+	<firstname>Steve</firstname>
+	<surname>DeRose</surname>
+      </editor>
+      <editor>
+	<firstname>Eve</firstname>
+	<surname>Maler</surname>
+      </editor>
+      <editor>
+	<firstname>David</firstname>
+	<surname>Orchard</surname>
+      </editor>
+    </biblioentry>
+    <biblioentry id="xptr">
+      <author>
+	<othername>Worldwide Web Consortium</othername>
+      </author>
+      <title>
+	<ulink
+	  url="http://www.w3.org/TR/2003/REC-xptr-framework-20030325/">XPointer
+	  Framework</ulink>
+      </title>
+    </biblioentry>
+  </bibliography>
+</article>

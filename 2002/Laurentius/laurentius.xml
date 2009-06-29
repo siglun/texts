@@ -1,0 +1,756 @@
+<?xml version="1.0"?>
+<!DOCTYPE TEI.2 SYSTEM 'http://sigge.lub.lu.se/tei/tei2.dtd' [
+<!ENTITY % TEI.XML "INCLUDE" >
+<!ENTITY % TEI.prose "INCLUDE" >
+<!ENTITY % TEI.linking "INCLUDE" >
+<!ENTITY % TEI.figures "INCLUDE" >
+<!ENTITY ndash "<ndash/>" >
+<!ENTITY mdash "<mdash/>" >
+<!NOTATION EPS SYSTEM "encapsulated postscript" >
+<!NOTATION MS SYSTEM "troff ms-macro document" >
+<!ENTITY architecture SYSTEM "items/items.eps" NDATA EPS>  
+<!ENTITY attront SYSTEM "attribute-ontology.ms" NDATA MS>  
+<!ENTITY masterdtd SYSTEM "master.xml">  
+<!ENTITY appendixA SYSTEM "examples.xml">  
+]>
+<TEI.2>
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>S:t Laurentius Digital Manuscript Library:
+          An excursion along the border between resource discovery and
+          resource description
+         </title>
+      </titleStmt>
+      <publicationStmt>
+	<p>Lund university Libraries</p>
+      </publicationStmt>
+      <sourceDesc>
+        <p>No source</p>
+      </sourceDesc>
+    </fileDesc>
+    <profileDesc>
+    </profileDesc>
+    <revisionDesc>
+      <change>
+	<date>$Date$</date>
+	<respStmt>
+	  <name>$Author$</name>
+	</respStmt>
+	<item>$Revision$</item>
+      </change>
+    </revisionDesc>
+  </teiHeader>
+  <text>
+    <front>
+      <titlePage>
+	<docTitle>
+	  <titlePart>S:t Laurentius Digital Manuscript Library:
+	    An excursion along the border between resource discovery and
+	    resource description</titlePart>
+	</docTitle>
+	<byline>
+	  <docAuthor>
+	    <name type="author">
+	      Sigfrid Lundberg (sigfrid.lundberg@lub.lu.se)
+	    </name>
+	    <name type="affiliation">
+	      NetLab, Lund university Libraries
+	      PO Box 134
+	      SE-221 00 Lund
+	      Sweden
+	    </name>
+	  </docAuthor>
+	</byline>
+      </titlePage>
+      <div type="abstract">
+	<p>This note has three aims. First it discusses the
+	experiences gained by the development of a specific service,
+	which, using a collection of detailed XML descriptions,
+	provides its users access to a collection of digitized
+	medieval manuscripts.  Secondly, it discusses the database
+	used from the point of view of both retrieval of the
+	intellectual content (the texts) of these manuscripts and of
+	the retrieval of the manuscripts as unique entities. Finally,
+	it explores the possibilities fo searching a collection of
+	complex XML documents using a full text retrieval engine used
+	together with the Z39.50 information retrieval protocol.</p>
+      </div>
+    </front>
+    <body>
+      <div1>
+	<head>Introduction</head> 
+
+	<p rend="noindent">Medieval manuscripts are complicated.  Each
+         manuscript is a unique entity with its own history.  Often,
+         not always, manuscripts contain several pieces of
+         intellectual content, each of which may be well known in the
+	  sense that this content appear in many contemporary
+         manuscripts, and this content may appear in printed editions
+         today.</p>
+
+	<p>To catalogue medieval manuscripts requires a complex
+         descriptive metadata schema, which is capable of capturing
+         not only the individual manuscript as a work of art but also
+         as a unique blend of well known intellectual content.</p>
+
+	<p>That is, you should be able to search for works by (say)
+         Boethius or Virgil. But you should also be able to search for
+         manuscripts that have been owned by for example the monastic
+         society of the Lund cathedral, or manuscripts that were
+         illuminated in Italy.</p>
+
+        <p>The S:t Laurentius Digital Manuscript Library<note
+        place="unspecified" anchored="yes" TEIform="note">
+             <bibl default="NO" TEIform="bibl">
+               <author>Nylander, Eva</author>
+               <author>Borell, Mattias</author>
+               <author>Lundberg, Sigfrid</author>
+               <title>
+                 <xref to="http://laurentius.lub.lu.se">
+                    S:t Laurentius Digital Manuscript Library
+                 </xref>
+                </title>
+                <publisher TEIform="publisher">
+                  Lund University Libraries</publisher>
+                  <date>2002</date></bibl></note>is an attempt to
+                  combine these two aspects (Figure 1). A collection of
+                  medieval manuscripts at Lund university library is
+                  being digitized, and cataloged using the Master XML
+                  DTD<note place="unspecified" anchored="yes"
+                  TEIform="note">
+             <bibl default="NO" TEIform="bibl">
+                  <author>MASTER Work Group</author>
+                  <title>
+                    <xref to="http://www.tei-c.org/Master/Reference/">
+                       Reference Manual for the MASTER
+                       Document Type Definition
+                    </xref>
+                  </title>
+                  <editor>Lou Burnard</editor>,
+                  <publisher> Text Encoding Initiative</publisher>.
+                  <date>2001</date>
+               </bibl>
+            </note>developed by the Master project. This note describes
+         only internals of the search system of the service, and does so from an entirely conceptual point of view.</p>
+
+	<p>The complexity of a Master document is close to or
+         surpasses what one expects in XML documents in general, for
+         example DocBook<note><bibl><title><xref to="http://www.oasis-open.org/committees/docbook/">DocBook Technical Committee</xref></title></bibl></note>or TEI<note><bibl><title><xref to="http://www.tei-c.org/Guidelines2/index.html">The TEI Guidelines</xref></title></bibl></note>documents of similar
+         length. Conceptually, the problem of retrieving information on
+         a page range in a medieval manuscript described using Master
+         DTD is basically the same as retrieving a section or paragraph
+         in e-texts in general.</p>
+
+        <p>Although the scope of Laurentius is information retrieval
+         in a very specialized context, I take a more general
+         approach. The solution to our specific problem applies to a
+         general class of information and text retrieval problems.</p>
+
+	<p>This note has the following structure. First, I discuss
+         generalities, namely the principles for transformation of XML
+         documents into a format that simplifies information and text
+         retrieval. The approach used builds upon an extension of the
+         thinking and procedures we earlier applied to the indexing of
+         the web. I thereafter I explore how Z39.50<note><bibl>
+         <title><xref to="http://lcweb.loc.gov/z3950/agency/">Z39.50
+         Maintenance Agency Page</xref></title> <publisher>Library of
+         Congress Network Development and MARC Standards
+         Office</publisher></bibl></note>can be employed to retrieve
+         simplified documents. I then go on to discuss methods for
+         fielded search in this environment. Finally, I return to a
+         more general question, if there is a need for a standardized
+         text retrieval syntax, as opposed to text encoding
+         syntaxes.</p>
+
+        <p>
+          <figure n="1" entity="architecture">
+            <head>The architecture of the S:t Laurentius Digital
+            Manuscript library. The manuscripts are scanned and the
+            resulting images are stored. The texts are cataloged using
+            the Master DTD. The descriptions are parsed and stored in
+            a database, the data model of which is structured hierarchically
+            to reflect the Master content model. The cataloger assigns
+            page ranges in the text describing the intellectual
+            contents of manuscripts. In the web interface the ranges
+            are translated to hypertext links into the image repository,
+            making it possible for users to retrieve images based on
+            content.</head>
+          </figure>
+        </p>
+
+      </div1>
+      <div1>
+	<head>Automatic indexing<note><p>There is a problem of
+	vocabulary connected to the term
+	<soCalled>indexing</soCalled>.
+        In a bibliographic context
+	indexing means the assigning of keywords form a controlled
+	list of terms to a document, whereas in the context of
+	full text searching, the term refers to building a computerized
+	<soCalled>table of contents</soCalled>, an index, to a
+	collection of documents. Typically, the words loaded into the
+	index are also assigned to different fields in relation to the
+	tagging in the document.</p></note>: The fitting of a
+	document to a database</head>
+	<div2>
+
+	  <head>Documents and data</head>
+
+	  <p rend="noindent">The general problem with searching tagged
+           texts is that they are documents, not database
+           records. That is, they are not tagged versions of already
+           structured data. Bourret<note><bibl>
+               <author>Ronald Bourret</author>
+               <title>
+                 <xref to="http://www.rpbourret.com/xml/XMLAndDatabases.htm">
+                   XML and Databases
+                 </xref>
+               </title>
+               <date>2002</date>
+             </bibl>
+           </note>makes a distinction between document-centric and
+           data-centric XML documents. The latter are usually
+           constructed with a specific data-model in mind and may be
+           created from or digested into a relational database with
+           the aid of an XML parser and only a few lines of code in
+           your favourite scripting language. Documents, however,
+           differ from simple data. Tags may nest into an arbitrary
+           depth, and may also, in spite of the mark-up language's
+           content model, appear in haphazard
+           combinations. Furthermore, the manner in which tags nest
+           and the way they are combined may have an important bearing
+           on the semantics of the tags. In the following I will refer
+           to these two kinds of tagged text as Document Like Objects
+           (DLOs) and Record Like Objects (RLOs)</p>
+
+           <p>There are a number of different solutions to the problem
+           of searching XML objects (DLOs as well as RLOs).
+           One such solution might be to use a native XML
+           database solution.<note><bibl>
+             <author>Kimbro Staken</author>
+             <title>
+               <xref to="http://www.xml.com/lpt/a/2001/10/31/nativexmldb.html">
+                 Introduction to Native XML Databases</xref>
+             </title>
+             <date>2001</date></bibl></note>Current implementations of
+           such databases are, in general, very good for XML data
+           (where relational databases already excel). Some of the
+           existing solutions are building on a persistent form of the
+           Document Object Model (DOM), and at least some of them have
+           problems with scalability, since they keep the entire
+           database in RAM memory. Undoubtedly, these are
+           problems with native XML databases will eventually be
+           solved.</p>
+
+	  <p>Apart from the fact that there are few software solutions
+           available at the time of writing, there are other more
+           fundamental problems in connection with using native XML
+           databases for text retrieval. The most important one being
+           that such databases are too closely connected to the XML
+           structure. It is inevitable, since these databases are
+           (currently) queried using the Xpath language<note><bibl><author>World Wide Web Consortium</author>
+<title><xref to="http://www.w3.org/TR/xpath">XML Path language (XPath)</xref></title>
+<editor>James Clark</editor>
+<editor>Steve DeRose</editor>
+<publisher>Worldwide Web Consortium</publisher>
+<date>1999</date>
+</bibl></note>or (more
+           recently) the Xquery language.<note><bibl><author>World Wide Web Consortium</author>
+<title><xref to="http://www.w3.org/XML/Query">W3C XQuery Language</xref></title></bibl></note>This precludes simultaneous searching
+           of collections of heterogeneous document types, for instance
+           a mixture of TEI, DocBook and Open eBook<note><bibl><title><xref to="http://www.openebook.org/oebps/history.htm">Open eBook</xref></title></bibl></note>documents.</p>
+
+	  <p>The Z39.50 information retrieval protocol is based on a
+	   different philosophy. The main design goals behind it
+	   being:</p>
+
+	  <list>
+
+	    <item>To make a distinction between
+            <soCalled>fields</soCalled> for searching (so called
+            <emph>search attributes</emph>) and those in the database
+            (SQL tables or XML files or whatever).</item>
+
+	    <item>To permit the definition of different <emph>record
+	    syntaxes</emph> which are standardized abstract
+	    representations of search hits independent of the actual
+	    data model of the database.</item>
+
+	  </list>
+
+	  <p rend="noindent">There are several record syntaxes
+	   available. The most common one is MARC followed by XML. In
+	   addition there is a native Z39.50 syntax called Generic Record
+	   Syntax (GRS). The hits are record-like, they are RLOs, but
+	   importantly they are independent of how they are
+	   represented in the database. I will not discuss MARC
+	   further in this note.</p>
+    
+          <p>As regards to XML and GRS in a Z39.50 context there is
+	   not much to say, other than that you could think of them as
+	   being more or less the same thing, namely a kind of
+	   simplified XML not supporting attributes, just
+	   elements. But the elements, or tags, come from
+	   vocabularies, so-called tag sets. The tag sets used in
+	   Z39.50 are partly standardized, but it is also possible to
+	   define customized tags for a specific
+	   application. Laurentius takes advantage of this
+	   feature.</p>
+
+	  <p>The distinction between search attributes and record
+	   syntax has proved very useful in this project, as well as
+	   in bibliographic searching in general. It is a notion
+	   similar to the thinking behind SGML and XML as it aims at
+	   making information search and retrieval independent on the
+	   underlying data structures.</p>
+
+          <p>Everything we did in Laurentius could be done using other
+           protocols and methods, but I firmly believe that Z39.50 and
+           full text indexing is simpler and cheaper than most of the
+           alternatives.<note><p>We use the <title><xref to="http://www.indexdata.dk/zebra/">The Zebra Server</xref></title>, It is capable of handling millions of records loaded as tagged text. The package is distributed with a <title><xref to="http://www.fsf.org/licenses/gpl.txt">GPL</xref></title> license.</p></note></p>
+
+	</div2>
+	<div2>
+
+	  <head>XML documents and Z39.50 tag paths</head>
+
+	  <p rend="noindent">The records delivered from a search
+	  engine in Z39.50 are more record like than document like,
+	  still they are more flexible than most database records. As
+	  far as the protocol itself is concerned, the fields may in
+	  principle be repeated arbitrarily, and furthermore there are
+	  no constraints as regards the lengths of the values. Now, in
+	  order to search XML DLOs we have to transform them into
+	  RLOs. The procedure for achieving this, involves the
+	  solution of two problems. First, to split the document
+	  itself into suitable portions, and to do so in a way which
+	  is meaningful given the tag semantics and which appear
+	  logical from a user's perspective. Secondly, to recast the
+	  tagging of each portion into something which becomes
+	  record-like, with Z39.50 friendly tag paths. I will start
+	  with the latter, and then continue with the former.</p>
+
+	  <p>To transform a piece of a DLO into a RLO means that the
+	  nesting structure will have to be changed so that we
+	  obtain a sequence of predictable tags. See Example 1.</p>
+
+	  <exemplum>
+<eg><![CDATA[<p>That means that someone (actually it was
+<name type="person">Sigfrid Lundberg</name>)
+cheated when he late autumn <date>2001</date>
+pushed a lot of XML data into a full-text Z39.50 server</p>]]>
+</eg>
+<p>Example 1. DLO fragment with valid TEI (or Master) mark-up. Even
+this simple code would not make sense to my Z39.50 server.</p>
+	  </exemplum>
+
+	  <exemplum>
+<eg><![CDATA[<record>
+   <text>That means that someone (actually it was</text>
+   <name-person>Sigfrid Lundberg</name-person>
+   <text>) cheated when he late autumn</text>
+   <date>2001</date>
+   <text>pushed a lot of XML data into a
+        full-text Z39.50 server</text>
+</record>]]>
+</eg>
+	    <p>Example 2. Hypothetical fragment RLO preserving most
+             important aspects of the mark-up in Example 1.</p>
+	  </exemplum>
+
+	  <p>Recasting a document into the form shown in Example 2, is
+	  a straight forward exercise in XSLT scripting. I use a style
+	  sheet which reads the Master description from the storage,
+	  and remap DLO (i.e., Master) syntax into RLO tagging. Each
+	  small RLO is then stored in my database. The main difference
+	  is that the tags appear sequentially at the same
+	  depth. Below I will discuss further how I connect these
+	  constructs to search attributes. Naturally, problems will
+	  arise that I have not been able to resolve in a general manner
+	  (see Example 3).</p>
+
+	  <exemplum>
+<eg><![CDATA[<p>The search engine in
+<title><name type="person">Sigfrid Lundberg</name>'s
+database</title> is using Z39.50 for access</p>]]>
+</eg>
+	   <p>Example 3. DLO fragment that cannot be indexed without
+           either losing some semantics (name or title), or entering
+           redundant information in the database (both name and
+           title).</p>
+	  </exemplum>
+
+	  <p>In the automatic indexing process
+	  described above, the main issue is about getting an optimal
+	  balance between granularity and aggregation. This in turn
+	  will be reflected in the balance between search recall and
+	  precision. The original semantics of the DLO mark-up which
+	  is aggregated into the <hi rend="kbd">&lt;text&gt; ... &lt;/text&gt;</hi> is lost. A number of factors affect
+	  the decisions, which are also related to the size of the
+	  database, the frequency by which mark-up is actually used
+	  and how <q>heavy</q> the most advanced search forms are
+	  expected to be.</p>
+
+	  <p>
+	  &masterdtd;
+          </p>
+
+	   <p>
+             <figure n="2" entity="attront">
+	       <head>Examples of the hierarchical search
+	       attribute architecture of the Laurentius
+	       database. Numbers in brackets refer to Z39.50 attribute
+	       number. The ones above 5000 are non-standard and used
+	       in Laurentius only. (A) The searching for geographical
+	       names can be made globally, using the bib-1 standard
+	       search attribute
+	       <emph>Geographical-name</emph>. However, geographical
+	       names may also be searched in a context specific way,
+	       namely historical ones, related to origin, provenance
+	       and acquisition of a manuscript. (B) and (C) give
+	       examples on how the standard bib-1 search attribute is
+	       fed with other, more detailed, search attributes.
+	       Please refer to the main text for further discussion on
+	       how the search attributes are connected to XML
+	       mark-up.</head>
+	     </figure>
+           </p>
+
+
+	  <p>To be more concrete, using Master it is possible to tag
+          names of scribes, illuminators etc. This is important
+          information for research. However, if a database is small, a
+          field like <soCalled>scribe</soCalled> would be scarcely
+          populated and hard to search unless you know in advance
+          exactly what to search for.<note><p>Database size is in the
+          eyes of the beholder. In my view any database containing
+          less than 100 000 objects is indeed small (Laurentius is a
+          very small database). A union catalogue covering all
+          preserved medieval manuscripts in the world would be big but
+          still only of modest size.</p></note>In the Digital
+          Scriptorium<note><bibl><title><xref
+          to="http://sunsite.berkeley.edu/Scriptorium/">Digital
+          Scriptorium</xref></title></bibl></note>it is circumvented
+          by exporting lists of names from the database. This helps
+          users and decreases the need for authority files (Consuelo
+          Dutschke, pers. comm.).  Interestingly the scan service
+          defined in Z39.50 does exactly this. The opposite problem,
+          an annoyingly high recall, may arise even for small
+          databases, and the problem may be aggravated by aggregation
+          because users may then not have facilities to improve their
+          searches.</p>
+
+	  <p>In a subsequent section, I will present another, much
+	  more powerful mechanism that may be used to find the
+	  optimisal balance between granularity and aggregation. Therefore,
+	  it suffices to say that whatever user interface one plan to
+	  build, it is usually advantageous to preserve as much
+	  DLO semantics as is possible.</p>
+
+	  <p>The other aspect of fitting a DLO into a
+	  database is to split it into chunks suitable for
+	  searching. Again, this is a matter of granularity and
+	  aggregation. For prose, such as a novel in TEI, one obvious
+	  unit would be chapter. However, inside chapters there will be
+	  paragraphs. In the development of the Z39.50 details of the
+	  Laurentius search engine, my main source of inspiration was
+	  the <soCalled>Application-Support</soCalled> Z39.50 Profile for
+	  Access to Digital Collections.<note><bibl>
+            <author>Library of Congress</author>
+<title><xref to="http://lcweb.loc.gov/z3950/agency/profiles/collections.html">
+Z39.50 Profile for Access to to Digital Collections</xref></title>
+	        <edition>Draft Seven (Final Draft for Review)</edition>
+                 <date>1996</date>
+             </bibl>
+          </note>I do not think there are many applications or
+          profiles using the facilities provided by the Collections
+          profile, which is a pity. Laurentius does not use it
+          either. We did, however, borrow the notion of
+          <emph>hierarchical digital collections</emph> from it.</p>
+
+	  <p>In the Master description schema there are seven top
+          level elements (Table 1). Of these, msIdentifier, msHeading,
+          physDesc and history are descriptors of the volume, whereas
+          msContents describes its intellectual content. msPart adds
+          complexity, by making it possible to describe a manuscript
+          as a composite structure consisting of multiple instances of
+          its own kind. Obviously, in a database there will be one
+          record for each manuscript or manuscript part (msPart). That
+          is a record describing the actual physical object, its
+          origin and appearance.</p>
+
+	  <p>In addition, each manuscript contains intellectual
+          content described as manuscript items in the Master DTD
+          (Table 1).  The items may be nested, such that a given
+          manuscript item may consist of other items, and it may be a
+          part of some other item.</p>
+
+	  <p>Each piece of intellectual content is described in the
+	   msItem element at a Dublin Core like level of
+	   detail.<note><bibl><title><xref
+	   to="http://dublincore.org/">Dublin Core Metadata Initiative
+	   (DCMI) Home Page</xref></title></bibl></note>It is
+	   identified using two methods. First, internally to the
+	   manuscript by a locus, i.e., the page (or folio) range it
+	   occupies in the volume. Secondly, more specifically, it
+	   also identifies its intellectual content by incipit,
+	   explicit and rubric. More basic metadata, such as title and
+	   author are given.</p>
+
+	  <p>Thus we decided to model a manuscript as consisting of
+	  one manuscript item, the root item, possibly containing
+	  pointers to other manuscript root items (if the manuscript
+	  is a composite one). Each root item describes its
+	  corresponding physical object. The items become individual
+	  records connected to other records through <emph>is part
+	  of</emph> or <emph>has part</emph> relations as indicated in
+	  Figure 1. A worked example of how this is done is given in
+	  Appendix A.</p>
+
+	</div2>
+
+	<div2>
+	  <head>A search attribute ontology</head>
+
+	  <p rend="noindent">Like most other Z39.50 based services,
+          Laurentius is using the bib-1 attribute set for providing a
+          standardized  interface to fielded search.<note><bibl>
+             <author>The Z39.50 Implementors Group</author>
+             <title>
+               <xref to="ftp://ftp.loc.gov/pub/z3950/defs/bib1.txt">
+                 Attribute Set bib-1 (Z39.50&ndash;1995): Semantics
+               </xref>
+             </title>
+             <publisher>Library of Congress Network Development and
+           MARC Standards Office</publisher></bibl></note>However,
+           the Laurentius database has a much more intricate search
+           attribute architecture than most other such
+           services. For instance, the bib-1 defines a search
+           attribute <emph>name</emph>. So does Laurentius. All the
+           different kinds of names defined by the Master DTD are
+           searchable through that search attribute. And in the the
+           same way we define <emph>name-geographic</emph>,
+           <emph>title</emph>, <emph>author</emph> and other popular
+           search attributes implemented in bibliographic search.</p>
+
+	  <p>Unlike other services, Laurentius is using a hierarchical
+           search attribute structure. An ontology, if you like. The
+           attribute 'name' is an aggregate of fields that are
+           connected to locally defined names of persons or corporate
+           bodies, like historical names, names of historical persons
+           involved in the origin of the manuscripts, or persons
+           involved in the acquisition of the object etc (Figure
+           2).</p>
+
+          <p>The same reasoning is applied to place names, dates and
+           so forth. Even plain text (i.e., descriptive prose not
+           bound to any particular field in the database) is entered
+           in this hierarchical structure. This means that we can
+           define a search attribute <emph>history</emph> combining
+           all historical data, and <emph>place</emph> through which
+           all place names can be searched, but there is also an
+           attribute <emph>history-acquisition-place</emph> for
+           searching only this aspect of our collection. All fields
+           contribute to the field <soCalled>any</soCalled>.</p>
+
+	  <p>Above I pointed to the problem arising in the design of
+           user interfaces because of the trade-off between
+           granularity and aggregation in searching and indexing. The
+           hierarchical search attributes architecture is a powerful
+           tool in addressing that problem.</p>
+
+	  <p>In Laurentius we work towards a detailed indexing. The
+	   implication of this is that we try to preserve as much of
+	   the semantics provided by the tagging in the Master
+	   description as possible, while aggregating by use of search
+	   attributes. We do so since, for example, there are not
+	   enough names in the database for making it useful to make
+	   detailed distinctions between various kinds of names in the
+	   user interface. We still have the option to implement more
+	   advanced search options at a later stage without changing
+	   the way the documents are indexed.</p>
+
+	</div2>
+
+      </div1>
+   
+
+      <div1>
+
+	<head>Discussion</head>
+
+        <div2>
+
+         <head>On searching</head>
+
+	<p rend="noindent">In building the Laurentius search system we
+         have demonstrated that it is possible to search a corpus of
+         complex XML <soCalled>document like objects</soCalled> by</p>
+
+         <list>
+           
+           <item>simplifying each document to a number of much simpler
+            records that are connected by <emph>is part
+            of</emph>&ndash;<emph>has part</emph> relations</item>
+
+	   <item>replacing nested tagging by sequences of tags with
+	   equal depth, serialized tagging</item>
+             
+           <item>defining a hierarchical set of search attributes</item>
+
+	  </list>
+
+	<p rend="noindent">The system is using Z39.50 for searching,
+	mainly for pragmatic reasons; Z39.50 provided the machinery
+	for achieving our goals. The incentive for choosing Z39.50 was
+	thus not to provide an interoperable search environment, and
+	thus enable cross search compatibility with library OPACs, or
+	more generally with services using the
+	Bath<note><bibl><title><xref
+	to="http://www.nlc-bnc.ca/bath/prof.pdf">The Bath Profile:
+	What is it and why should I
+	care</xref></title></bibl></note>or
+	CIMI<note><bibl><title><xref
+	to="http://www.cimi.org/public_docs/HarmonizedProfile/HarmonProfile1.htm">CIMI Profile, Release 1.0H (Section 1), November1998</xref></title></bibl></note>Z39.50
+	profiles. Indeed at the current state of development, the
+	compatibility between Laurentius and those profiles is very
+	poor. S:t Laurentius Digital Manuscript Library Z server is a
+	experimental from an orthodox Z39.50 point of view, but we
+	managed to build the search service we needed. Cross searching
+	and interoperability are fringe benefits that could and should
+	be developed further. There are two possible directions for
+	such development.</p>
+
+        <p>The first interoperability goal would be to develop virtual
+	<soCalled>union catalogues</soCalled> for detailed searching
+	of multiple collections of manuscripts. Although interesting
+	technically, I think, to be honest, that the benefit of such a
+	project would be limited if it is restricted to a search for
+	the content of Master manuscript descriptions. Few manuscript
+	catalogues in the world are larger than that they could be
+	sent as a single mail attachment (admittedly, Laurentius is
+	unusually small). A monolithic central database would do the
+	job. This was also the road taken by the Master project
+	itself. If, however, we add complexities, like links to (XML)
+	full text, scanned images etc, the situation may change, and
+	this is an issue that needs investigation.</p>
+
+	<p>A second interoperability goal would be to provide simple
+	resource discovery like access points to manuscript
+	collections, that could be used from more general digital
+	library services and portals. Again, such access points are
+	more or less trivial if the material shared is Master records
+	only, but beyond that level there are complications. How would
+	a manuscript collection in the UK be integrated into JISC's
+	DNER<note><bibl><title><xref
+	to="http://www.jisc.ac.uk/dner/">Distributed National
+	Electronic Resource</xref></title></bibl></note>integrated framework
+	of digital information services?</p>
+
+	<p>Lund university library has in its manuscript collection a
+	copy of Boethius <title>De consolatione philosophiae</title>.
+	(Incidentally, it is bound together with incunables by the
+	same author in a composite volume.) We obviously possess
+	modern printed editions in different languages, available via
+	the OPAC. We may imagine that someone writes an article about
+	the manuscript in question. That article may become available
+	through an eprints server. Then there is an abundance of
+	related material &mdash; printed and digital &mdash; about the
+	author and his life and work. Ideally all these resources
+	should be presented and somehow linked together in a way which
+	is meaningful for research workers and students in the
+	humanities. There are prospects for some further work.</p>
+
+	</div2>
+
+        <div2>
+
+	<head>A general text retrieval encoding?</head>
+
+        <p rend="noindent">Currently there is a vast interest in
+        developing XML/SGML mark-up languages for various types of
+        texts. This is an area where TEI and DocBook have held the
+        hegemony for a decade (disregarding HTML, which has developed
+        into a presentation language). With XML capable word
+        processors appearing we are now facing a situation where we
+        can expect:</p>
+
+        <list>
+
+          <item>Electronic editions of text in TEI</item>
+
+          <item>Dissertations on those texts, possibly published in a
+          specialized ETD<note><bibl><title><xref to="http://etext.lib.virginia.edu/ETD/ETD.html">Electronic theses and dissertations in the humanities</xref></title></bibl></note>format.</item>
+
+          <item>Papers written on related issues using DTDs proscribed by publishers.<note><bibl><title><xref to="http://www.biomedcentral.com/xml/dtd.asp">BioMed Central - XML/XSL Technology page</xref></title></bibl></note></item>
+
+          <item>Eventually, documents written in, for example, DocBook
+          will become sources to researchers in the humanties (like
+          historians of science and technology).</item>
+
+        </list>
+
+        <p rend="noindent">While initiatives like
+        DCMI<note><bibl><title><xref to="http://www.dublincore.org/">Dublin Core Metadata Initiative (DCMI)</xref></title></bibl></note>and
+        OAI<note><bibl><title><xref to="http://www.openarchives.org/">Open Archives Initiative</xref></title></bibl></note>provide
+        a least common denominator metadata semantics and methods for
+        metadata dissemination, similar facilities for searching and
+        navigation of texts are nonexistent. Clearly,
+        we need a way to search heterogeneous text databases and
+        return result sets, where hits should be in a predictable
+        format, regardless of the DTD of the original document.</p>
+
+	</div2>
+
+      </div1>
+
+      <div1 type="acknowledgements">
+
+	<p>Comments from Sara Kjellberg, Jessica Lindholm, Consuelo W.
+	  Dutschke, Mattias Borell and Colm Doyle have much improved
+	  this note.</p>
+
+      </div1>
+
+
+      &appendixA;
+
+    </body>
+  </text>
+
+<!--
+
+$Log$
+Revision 1.1  2009/06/29 11:06:03  sigfrid
+Initial revision
+
+Revision 1.15  2002/09/04 13:53:59  siglun
+Colm's comments merged with source. Made all references compliant.
+
+Revision 1.14  2002/08/20 12:16:04  siglun
+Mentioned Z39.50 scan
+
+Revision 1.13  2002/08/20 11:18:09  siglun
+Merged Mattias comments
+
+Revision 1.12  2002/08/15 12:28:44  siglun
+More version control
+
+Revision 1.11  2002/08/15 11:57:11  siglun
+Merged Sara's comments
+
+Revision 1.10  2002/08/14 12:33:05  siglun
+Time for people to comment on the manuscript
+
+Revision 1.9  2002/08/13 15:07:14  siglun
+Added material to the search attribute ontology section. Spell checking.
+
+Revision 1.8  2002/06/11 19:58:12  siglun
+Started writing the search attribute ontology section
+
+
+-->
+
+
+</TEI.2>

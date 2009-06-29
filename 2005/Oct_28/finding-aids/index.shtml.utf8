@@ -1,0 +1,23 @@
+<html xmlns="http://www.w3.org/1999/xhtml">
+  <head>
+    <title>
+      Finding Aids
+    </title>
+  </head>
+  <body>
+
+    <!--#include virtual="../toc.txt" -->
+
+    <h1>Arkivförteckningar</h1>
+
+    <ol>
+      <li>Konverterat ungefär 6500 poster från gamla NAD</li>
+      <li>Skrivit dussintals nya</li>
+      <li>GUB har exporterat EAC till NAV (nya NAD)
+    </ol>
+
+
+
+    
+  </body>
+</html>

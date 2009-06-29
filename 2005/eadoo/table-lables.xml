@@ -1,0 +1,256 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<headings-list>
+
+<!--
+Used for the Generation of OO styles, among other things.
+
+Author Sigfrid Lundberg Sigfrid.Lundberg@lub.lu.se
+Last modified $Date$ by $Author$
+
+$Id$
+-->
+
+  <headings table="eadheader">
+    <heading name="titleproper">
+      <string xml:lang="en">Title</string>
+      <string xml:lang="sv">Titel</string>
+    </heading>
+    <heading name="subtitle">
+      <string  xml:lang="en">Subtitle</string>
+      <string  xml:lang="sv">Undertitel</string>
+    </heading>
+    <heading name="author">
+      <string xml:lang="en">Author</string>
+      <string xml:lang="sv">Författare</string>
+    </heading>
+    <heading name="publisher">
+      <string xml:lang="en">Publisher</string>
+      <string xml:lang="sv">Förläggare</string>
+    </heading>
+    <heading name="date-published">
+      <string xml:lang="en">Date published</string>
+      <string xml:lang="sv">Publiceringsdatum</string>
+    </heading>
+    <heading name="address">
+      <string xml:lang="en">Publisher's address</string>
+      <string xml:lang="sv">Förläggarens address</string>
+    </heading>
+    <heading name="identifier">
+      <string xml:lang="en">Identifier</string>
+      <string xml:lang="sv">Identifierare</string>
+    </heading>
+    <heading name="indentifier-code">
+      <string xml:lang="en">Identifier code</string>
+      <string xml:lang="sv">Identifieringskod</string>
+    </heading>
+    <heading name="langcode">
+      <string xml:lang="en">Language of finding aid (code)</string>
+      <string xml:lang="sv">Arkivförteckningens språk (kod)</string>
+    </heading>
+  </headings>
+
+  <headings
+    table="archdesc"
+    ead-match="c01|c02|c03|c04|c05|c06|c07|c08|c09">
+    
+    <use>
+      <in name="c01" followto="c02"/>
+      <in name="c02" followto="c03"/>
+      <in name="c03" followto="c04"/>
+      <in name="c04" followto="c05"/>
+      <in name="c05" followto="c06"/>
+      <in name="c06" followto="c07"/>
+      <in name="c07" followto="c08"/>
+      <in name="c08" followto="c09"/>
+    </use>
+
+
+    <heading name="did">
+      <string xml:lang="en">Collection summary</string>
+      <string xml:lang="sv">Översiktlig beskrivning</string>
+    </heading>
+
+    <heading name="bioghist">
+      <string xml:lang="en">Historical background</string>
+      <string xml:lang="sv">Historisk bakgrund</string>
+    </heading>
+
+    <heading name="scopecontent">
+      <string xml:lang="en">Scope and Contents</string>
+      <string xml:lang="sv">Syfte och innehåll</string>
+    </heading>
+
+    <heading name="arrangement">
+      <string xml:lang="en">Arrangement of the Collection</string>
+      <string xml:lang="sv">Samlingens organisation</string>
+    </heading>
+
+    <heading name="accessrestrict">
+      <string xml:lang="en">Conditions Governing Access</string>
+      <string xml:lang="sv">Vilkor för tillgång</string>
+    </heading>
+
+    <heading name="userestrict">
+      <string xml:lang="en">Conditions Governing Use</string>
+      <string xml:lang="sv">Vilkor för användning</string>
+    </heading>
+
+    <heading name="relatedmaterial">
+      <string xml:lang="en">Related Material</string>
+      <string xml:lang="sv">Relaterat material</string>
+    </heading>
+
+    <heading name="separatedmaterial">
+      <string xml:lang="en">Separated Material</string>
+      <string xml:lang="sv">Separerat material</string>
+    </heading>
+
+    <heading name="controlaccess">
+      <string xml:lang="en">Controlled Access Headings</string>
+      <string xml:lang="sv">Ämnesord och termer</string>      
+    </heading>
+
+    <heading name="odd">
+      <string xml:lang="en">Other Descriptive Data</string>
+      <string xml:lang="sv">Andra deskriptiva data</string>      
+    </heading>
+
+    <heading name="originalsloc">
+      <string xml:lang="en">Location of Originals</string>
+      <string xml:lang="sv">Orginalens placering</string>      
+    </heading>
+
+    <heading name="altformavail">
+      <string xml:lang="en">Alternative Form Available</string>
+      <string xml:lang="sv">Tillgänglighet i andra format</string>
+    </heading>
+
+    <heading name="custodhist">
+      <string xml:lang="en">Former owners (custodial history)</string>
+      <string xml:lang="sv">Tidigare ägare</string>
+    </heading>
+
+    <heading name="phystech">
+      <string xml:lang="en">Physical Characteristics and Technical
+	Requirements</string>
+      <string xml:lang="sv">Physical Characteristics and Technical
+	Requirements</string> 
+    </heading>
+
+    <heading name="acqinfo">
+      <string xml:lang="en">Acquisition Information</string>
+      <string xml:lang="sv">Förvärvsinformation</string>
+    </heading>
+
+    <heading name="processinfo">
+      <string xml:lang="en">Processing Information</string>
+      <string xml:lang="sv">Förändring och bearbetning</string>
+    </heading>
+
+    <heading name="appraisal">
+      <string xml:lang="en">Appraisal Information</string>
+      <string xml:lang="sv">Samlingens betydelse och värde</string>
+    </heading>
+
+    <heading name="accruals">
+      <string xml:lang="en">Accruals</string>
+      <string xml:lang="sv">Tillväxt</string>
+    </heading>
+
+    <heading name="otherfindaid">
+      <string xml:lang="en">Other Finding Aid</string>
+      <string xml:lang="sv">Andra arkivförteckningar</string>
+    </heading>
+
+    <heading name="fileplan">
+      <string xml:lang="en">File Plan</string>
+      <string xml:lang="sv">Akternas disposition</string>
+    </heading>
+
+    <heading name="index">
+      <string xml:lang="en">Index</string>
+      <string xml:lang="sv">Index</string>
+    </heading>
+
+    <heading name="dao">
+      <string xml:lang="en">Digitalized object</string>
+      <string xml:lang="sv">Digitaliserat objekt</string>
+    </heading>
+
+    <heading name="daogrp">
+      <string xml:lang="en">Digitalized objects</string>
+      <string xml:lang="sv">Digitaliserade objekt</string>
+    </heading>
+
+    <heading name="descgrp">
+      <string xml:lang="en"/>
+      <string xml:lang="sv"/>
+    </heading>
+
+    <heading name="note">
+      <string xml:lang="en"/>
+      <string xml:lang="sv"/>
+    </heading>
+
+    <heading name="prefercite">
+      <string xml:lang="en">Preferred Citation</string>
+      <string xml:lang="sv">Att hänvisa till arkivet</string>
+    </heading>
+
+    <heading name="runner">
+      <string xml:lang="en"/>
+      <string xml:lang="sv"/>
+    </heading>
+
+    <heading name="bibliography">
+      <string xml:lang="en">Bibliography</string>
+      <string xml:lang="sv">Litteratur</string>
+    </heading>
+
+    <heading name="dsc">
+      <string xml:lang="en">Detailed Description of the Collection</string>
+      <string xml:lang="sv">Detaljerad beskrivning av samlingen</string>
+    </heading>
+
+  </headings>
+
+  <headings table="did">
+    <heading name="repository">
+      <string xml:lang="en">Repository</string> 
+      <string xml:lang="sv">Arkivinstitution</string>
+    </heading>
+    <heading name="origination">
+      <string xml:lang="en">Creator</string>
+      <string xml:lang="sv">Arkivbildare</string>
+    </heading>
+    <heading name="unittitle">
+      <string xml:lang="en">Title</string>
+      <string xml:lang="sv">Titel</string>
+    </heading>
+    <heading name="physdesc">
+      <string xml:lang="en">Quantity</string>
+      <string xml:lang="sv">Omfattning</string>
+    </heading>
+    <heading name="abstract">
+      <string xml:lang="en">Abstract</string>
+      <string xml:lang="sv">Sammanfattning</string>
+    </heading>
+    <heading name="unitid">
+      <string xml:lang="en">Identification</string>
+      <string xml:lang="sv">Identifikation</string>
+    </heading>
+    <heading name="langmaterial">
+      <string xml:lang="en">Language of the Material</string>
+      <string xml:lang="sv">Materialets språk</string>
+    </heading>
+    <heading name="materialspec">
+      <string xml:lang="en">Material Specific Details</string>
+      <string xml:lang="sv">Specifika egenskaper</string>      
+    </heading>
+    <heading name="note">
+      <string xml:lang="en">Note</string>
+      <string xml:lang="sv">Kommentarer</string>
+    </heading>
+  </headings>
+
+</headings-list>

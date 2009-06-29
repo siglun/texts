@@ -1,0 +1,561 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<!DOCTYPE article PUBLIC "-//OASIS//DTD DocBook XML V4.1.2//EN"
+  "http://www.oasis-open.org/docbook/xml/4.1.2/docbookx.dtd" [
+]>
+<?xml-stylesheet
+      href="/xml-style-library/db_special.xsl"
+      type="text/xsl"
+      media="screen"
+      title="default" ?>
+
+<article lang="sv">
+  <articleinfo>
+    <title>Kortfattat Curriculum Vitae: Sigfrid Lundberg</title>
+  </articleinfo>
+
+  <sect1  id="top">
+    <title>Kortfattat Curriculum Vitae: Sigfrid Lundberg</title>
+
+    <sect2 id="prehistory">
+      <title>Utbildning och tidigare vetenskaplig karriär</title>
+
+      <para>Jag föddes 1956. 1975 lämnade jag gymnasiet.  1979 blev
+      jag Fil. Kand i Ekologi med med andra biologiska ämnen samt oorganisk
+      och fysikalisk kemi.</para>
+
+      <para>Efter grundutbildningen forsatte jag direkt med
+      forskarutbildning. Blev Fil. Dr. 1985. Under 1986 var jag Post-Doc vid
+      Parasite Epidemiology Research Group, Dept. of Pure and Applied Biology,
+      Imperial College, London. Därefter fortsatte jag min vetenskapliga
+      karriär fram till docentkompetens inom teoretisk evolutions- och
+      populationsbiologi 1995.</para>
+
+      <para>Detta CV handlar uteslutande om min karriät efter 1995.</para>
+
+    </sect2>
+
+    <sect2 id="publications">
+      <title>Publikationer</title>
+      <para>Se min <ulink url="publications.html">publikationslista </ulink>.</para>
+    </sect2>
+
+    <sect2 id="experience">
+      <title>Forskning och utveckling inom bibliotekssektorn</title>
+
+      <para>Sedan 1995 har jag arbetat med FoU inom bibliotekssektorn.
+      Plattformen för mitt arbete var först <emphasis>NetLab</emphasis> vid
+      Lunds universitetsbibliotek, sedermera
+      <emphasis>Biblioteksdirektionen</emphasis> vid Lunds universitet. Från
+      2005 arbetar jag vid <emphasis>Det Kongelige Bibliotek</emphasis>,
+      Köpenhamn.</para>
+
+      <para>Kort uttryckt har jag arbetat med i princip alla typer av
+      biblioteksrelaterad IT, utom bibliotekskataloger. En lite mer detaljerad
+      lista av vilka typer av problem jag har erfarenhet av skulle kunna se ut
+      som följer:</para>
+
+      <orderedlist>
+
+	<listitem>
+	  <para><emphasis>Programmering</emphasis>: Jag var utlärd
+	  programmerare långt innan Sun microsystems släppte JAVA. Jag har
+	  trots det anammat JAVA som min föredragna utvecklingsmiljö. I övrigt
+	  behärskar jag perl och XSLT. Därutöver programmerar jag i shell och
+	  php samt en aning python, C och lisp. I forntiden behärskade jag
+	  pascal och fortran.</para>
+	</listitem>
+
+	<listitem>
+	  <para><emphasis>Söktjänster för webbresurser</emphasis>: I samband
+	  härmed har jag erfarenhet i att bygga robotbaserade index,
+	  ämnesportaler/länkskafferier och olika former av metadatabaserade
+	  sökindex. Exempel på tjänster och projekt är Nordiskt Webbindex
+	  <footnoteref linkend="nwi"/>, Desire <footnoteref linkend="www7"/>,
+	  Safari <footnoteref linkend="safari"/>, Studera.Nu <footnoteref
+	  linkend="studera"/>.</para>
+
+	  <para>När det gäller webbsökning var jag en tidig anhängare och
+	  implementatör av (den nu stendöda) idén att webben borde
+	  katalogiseras med inbäddade metadata i en stor skala. Detta var i
+	  samband med att jag engagerade mig i Dublin Core Metadata Initiative
+	  (DCMI). Jag var fram till 2007 medlem DCMI Advisory Board
+	  <footnoteref linkend="dcmi"/>.</para>
+	</listitem>
+
+	<listitem>
+	  <para><emphasis>Webbarkivering</emphasis>: På ett tidigt stadium
+	  hade vi ett visst samarbete mellan NWI och svenska
+	  Kungl. Bibliotekets arkiveringsprojekt KulturarW3, som utnyttjade de
+	  robotar vi utvecklade inom NWI- och Desireprojektet. Mitt mest
+	  konkreta bidrag till projektet var ett arkivformat baserat på
+	  Multi-Part mime<footnoteref linkend="kulturarw"/>
+	  </para>
+	</listitem>
+
+	<listitem>
+
+	  <para><emphasis>Digitalisering</emphasis>. Tillsammans med kollegor
+	  vid Lunds Universitet och Det Kongelige Bibliotek har jag med verkat
+	  i ett antal. Jag vill i synnerhet framhäva följande:</para>
+
+	  <itemizedlist>
+
+	    <listitem>
+	      <para><emphasis>The Guaman Poma Web Site</emphasis>: Guaman Poma
+	      var Inkaprins och hans verk <emphasis>El Primer Nueva Corónica Y
+	      Buen Gobierno</emphasis> är sannolikt det enda bevarade större
+	      texten som belyser den spanska kolonialismen från indianernas
+	      perspektiv<footnoteref linkend="poma"/>.</para>
+
+	      <para>Under 2008 hade detta enda verk 250 000 besökare
+	      (definierat som användare vilka stannar i siten mer än 30
+	      minuter).</para>
+	    </listitem>
+
+	    <listitem>
+	      <para><emphasis>Arkiv før dansk litteratur</emphasis>
+	      <footnoteref linkend="adl"/>
+	      </para>
+	    </listitem>
+
+	    <listitem>
+	      <para><emphasis>Cumulus Online Publishing</emphasis> (COP) är
+	      ett försök att skapa och tillgängliggöra standardiserade
+	      metadata via en plattform som har goda egenskaper när det gäller
+	      att administrera samlingar av bilder, men totalt saknar stöd för
+	      standarder för metadata.<footnoteref linkend="COP"/>
+	      </para>
+	    </listitem>
+	   
+	    <listitem>
+	      <para><emphasis>Sjauiga</emphasis> (Akronym för Sigges o. Jacobs
+	      arkeologiska utgrävningar i gamla applikationer). Detta var
+	      Jacob Larsens och mitt, och enligt vår gemensamma uppfattning
+	      lyckade försök att överföra gamla digitaliseringsdata till en ny
+	      och portabel plattform, baserad på en XML webservice som leverar
+	      innehållsbeskrivningar i METS-format från en
+	      Oracledatabas. Under denna plattform finns över 1500
+	      objekt<footnoteref linkend="sjauiga_specimen"/> </para>
+	    </listitem>
+
+	    <listitem>
+	      <para><emphasis>tidsskrift.dk</emphasis>
+	      <footnoteref linkend="tidsskrift.dk"/></para>
+	    </listitem>
+
+	    <listitem>
+	      <para><emphasis>S:t Laurentius Digital Manuscript
+	      Library</emphasis><footnoteref linkend="laurentius"/>.  Jag
+	      beskrev tjänsten vid DRH 2002<footnoteref linkend="drh2002"/>
+	      och även i en uppsats<footnoteref linkend="excursion"/>.</para>
+	    </listitem>
+	  </itemizedlist>
+	</listitem>
+
+	<listitem>
+	  <para><emphasis>XML- och textteknologier</emphasis>. Mitt stora
+	  intresse är XML-dokument. Ju längre och större, desto större
+	  utmaningen.  Att extrahera information ur webbsidor för sökning
+	  likväl som att indexera Text Encoding Initiative-dokument är
+	  textteknologiska problem.</para>
+
+	  <para>Utan att vara expert på AI och machine learning kan jag
+	  åstadkomma en hel del när när det gäller ostrukturerad text.</para>
+
+	  <para>När det gäller XML-teknologier vill jag påstå att jag har en
+	  god överblick, men XSLT är förmodligen mitt starkaste kort. (XSLT är
+	  enligt min mening "the Swiss Army Knife of XML"). XPath i
+	  kombination med XML Document Object Model (DOM) är en annan
+	  favorit. På senare tid har jag kompletterat XSLT och XML DOM med
+	  teknologier som The Streaming API for XML (StAX), vilket i min
+	  mening är oöverträffat när det gäller bygga upp stora dokument från
+	  fragment i en databas.</para>
+
+	  <para>För XML-databaser är det nya XML Query language välkommen
+	  nykomling, Jag använder den tillsammans med Oracle Berkeley DB
+	  XML.</para>
+
+	  <para>Jag är ganska bra på DTD-slöjd, mindre på att skriva W3C XML
+	  Schemas, beroende på att jag föredrar schemaspråket Relax NG framför
+	  både DTD och XML Schema.</para>
+
+	  <para>När det gäller XML-baserade format för textdokument behärskar
+	  jag TEI och DocBook.</para>
+
+	  <para>Ett område som intresserar mig är presentation av information
+	  i olika medier. Ett exempel är att visa en databas både i tryckt
+	  pappersburen form och som en sök- och navigerbar elektronisk
+	  tjänst. Se t ex St Laurentius digital manuscript library's katalog
+	  tillgänglig i PDF-format<footnoteref linkend="mh"/> som genererats
+	  med hjälp av översättning (via XSLT) av manuskriptbeskrivningarna
+	  till GNU troff.</para>
+	</listitem>
+
+	<listitem>
+	  <para><emphasis>Strukturella metadata</emphasis>. Strukturella
+	  metadata beskriver inte bara ett objekt bibliografiskt utan de ger
+	  även tillräckligt strukturell information för göra det möjligt att
+	  bygga användargränsnitt för navigation av resursen.</para>
+
+	  <itemizedlist>
+	    <listitem>
+	      <para>Sjauiga (se ovan)använder METS för strukturell beskrivning</para>
+	    </listitem>
+	    <listitem>
+	      <para>Mitt bidrag till S:t Laurentius var ett sök- och
+	      navigationssystem baserat på TEI Manuscript description.</para>
+	    </listitem>
+	    <listitem>
+	      <para>Jag tog initiativ till projektet <emphasis>En digital
+	      infrastruktur för förskningsbibliotekens arkiv- och
+	      handskriftssamlingar</emphasis> (Ediffah).<footnoteref
+	      linkend="ediffah"/>. Se också Ediffahprojektets
+	      slutrapport<footnoteref linkend="ediffah_report"/>.</para>
+
+	      <para>Ediffah är baserat på metadatasystemet EAD</para>
+	    </listitem>
+	  </itemizedlist>
+	</listitem>
+
+	<listitem>
+	  <para><emphasis>Databasteknologier</emphasis>: När det gäller
+	  relationsdatabaser jag arbetar med SQL (Oracle, MySQL och
+	  SQLite).</para>
+
+	  <para>En ny favorit är att arbeta med Hibernate ovanpå
+	  relationsdatabaser. Hibernate erbjuder ett helt objektorienterat och
+	  dess query language HQL (som översätts automagiskt till SQL) känns
+	  mer elegant än någon SQL-dialekt jag stött på.</para>
+	</listitem>
+
+	<listitem>
+	  <para><emphasis>Text retrieval</emphasis>: Arbetar numera helst med
+	  Apache Lucene för sökning, som jag anser vara överlägsen Oracle Text
+	  och My SQL fulltext-indexering.
+	  </para>
+	</listitem>
+
+	<listitem>
+	  <para><emphasis>Indexering av XML-dokument</emphasis>: Jag har byggt
+	  ett eget system som jag använder i t ex The Guaman Poma web
+	  site. Bygger på XSLT-processorn XALAN och dess extensions. Man kan
+	  med hjälp av särskilda XSLT-funktioner extrahera data och föra dem
+	  till ett luceneindex.</para>
+
+	  <para>Med denna xslt_indexer kan man söka och adressera valfria
+	  delar av stora samlingar av dokument, och välja att söka på tvärs av
+	  dokumenten eller att presentera träffar i en specifik
+	  XML-konstruktion i ett av dem. Systemet tillåter fältsökning, och
+	  man kan därmed söka i dikter i en samling av poesi och prosa eller
+	  att hitta ord i repliker som uttalas av en viss karaktär i
+	  dramatik.</para>
+	</listitem>
+
+	<listitem>
+	  <para><emphasis>Web services och liknande</emphasis> I förlängningen
+	  av användning av sökteknologier har jag erfarenheter av protokoll
+	  som Z39.50, OAI-PMH och SRW/SRU. När det gäller OAI har
+	  implementerat både service providers<footnoteref
+	  linkend="arkiv-ex"/> och data providers (i e-publiceringstjänsterna
+	  Xerxes o. Scripta), och tjänstgjort bollplank vid en kommersiell
+	  implementering<footnoteref linkend="axiell"/>.</para>
+
+	  <para>Jag har erfarenhet av både SOAP och REST-baserade XML web
+	  services.  Ju mer jag arbetat med det förstnämnda desto mer gillar
+	  jag det sistnämnda.</para>
+	</listitem>
+
+	<listitem>
+	  <para><emphasis>E-publicering</emphasis>: Jag har implementerat två
+	  e-publiceringstjänster, Xerxes<footnoteref linkend="xerxes"/> och
+	  Scripta<footnoteref linkend="scripta"/>. De två är egentligen är en
+	  enda tjänst (ur tekniskt hänseende). Någon mer detaljerad
+	  information om tjänsterna finns inte ännu inte, men se<footnoteref
+	  linkend="XoS"/>.</para>
+	</listitem>
+
+
+
+      </orderedlist>
+    </sect2>
+
+    <sect2 id="otherinfo">
+      <title>Annan information</title>
+
+      <para>Jag är gift och har två vuxna barn.</para>
+
+    </sect2>
+
+  </sect1>
+
+  <bibliography>
+    <title>Noter</title>
+
+    <biblioentry id="nwi">
+      <title><ulink url="http://www.sigfrid-lundberg.se/1996/nwi/nwi.pdf">NWI - En
+	  nordisk söktjänst för Worldwide web</ulink></title>
+    </biblioentry>
+
+    <biblioentry id="www7">
+      <author>
+	<firstname>Anders</firstname>
+	<surname>Ardö</surname>
+      </author>
+      <author>
+	<firstname>Sigfrid</firstname>
+	<surname>Lundberg</surname>
+      </author>
+      <title>
+	<ulink url="http://www.sigfrid-lundberg.se/1998/www7/">A regional
+	  distributed WWW search and indexing service - the DESIRE
+	  way</ulink>
+      </title>
+    </biblioentry>
+
+    <biblioentry id="safari">
+      <author>
+	<firstname>Sigfrid</firstname>
+	<surname>Lundberg</surname>
+      </author>
+      <title>
+	<ulink url="http://www.sigfrid-lundberg.se/1998/safari/cris.pdf">En arkitektur
+	  för ett system för spridning av forskningsinformaton</ulink>
+      </title>
+    </biblioentry>
+
+    <biblioentry id="studera">
+      <author>
+	<firstname>Sigfrid</firstname>
+	<surname>Lundberg</surname>
+      </author>
+      <title>
+	<ulink
+	url="http://www.sigfrid-lundberg.se/2001/studera.nu/documentation/studera.pdf">Technical
+	deescription of the Studera.Nu search engine: Harvesting policies,
+	maintenance and software used</ulink>
+      </title>
+      <abstract>
+	<para>NetLab utvecklade första versionen av söksystemet i <ulink url="http://www.studera.nu">Studera.Nu</ulink> under två år</para>
+      </abstract>
+    </biblioentry>
+
+    <biblioentry id="dcmi">
+      <title>
+	<ulink
+	url="http://dublincore.org/about/organization/formercommitteemembers.shtml">Former
+	DCMI Committee Members</ulink></title>
+    </biblioentry>
+
+    <biblioentry id="smn">
+      <author>
+	<firstname>Sigfrid</firstname>
+	<surname>Lundberg</surname>
+      </author>
+      <title><ulink
+	  url="http://www.sigfrid-lundberg.se/1997/SMN_metadata/smn_metadata.pdf">A
+	  proposal for metadata for use in the Swedish
+	  Enviro-Net</ulink></title>
+    </biblioentry>
+
+    <biblioentry id="kulturarw">
+      <author>
+	<firstname>Sigfrid</firstname>
+	<surname>Lundberg</surname>
+	<affiliation>
+	  <orgname>Lunds Universitet</orgname></affiliation>
+      </author>
+      <author>
+	<firstname>Allan</firstname>
+	<surname>Arvidson</surname>
+	<affiliation>
+	  <orgname>The Royal Library (Sweden)</orgname></affiliation>
+      </author>
+      <title><ulink
+	  url="http://www.sigfrid-lundberg.se/1998/KulturArw3/archive-format-1.rtf">The
+	  Kulturarw3 Archiving Format</ulink></title>
+    </biblioentry>
+
+    <biblioentry id="laurentius">
+      <title>
+	<ulink url="http://laurentius.ub.lu.se/">S:t Laurentius Digital
+	  Manuscript Library</ulink></title>
+    </biblioentry>
+
+    <biblioentry id="drh2002">
+      <title>
+	<ulink
+	  url="http://www.drh2002.lib.ed.ac.uk/abstracts.html#170">St
+	  Laurentius Digital Manuscript Library: An Excursion Along The Border
+	  Between Metadata For Resource Discovery And For Resource
+	  Description</ulink>
+      </title>
+    </biblioentry>
+
+    <biblioentry id="sjauiga_specimen">
+      <title>Sjauiga AKA permalink</title>
+      <abstract>
+	<para>Fyra digitala tjänster lades ner, och slogs samman till en (som
+	innehåller smärre variationer beroende på den ingående medietyperna)
+	baserad på en gemensam metadatastandard, METS.</para>
+	<para>Ett exempel på ett dokument i Sjauiga är: <ulink
+	url="http://www.kb.dk/permalink/2006/manus/42/">GKS 182 2°: Vita
+	Anselmi. Vita Malachiae. Sermo</ulink></para>
+      </abstract>
+
+    </biblioentry>
+
+    <biblioentry id="poma">
+      <title><ulink
+      url="http://www.kb.dk/permalink/2006/poma/info/en/frontpage.htm">The
+      Guaman Poma Web Site</ulink></title>
+    </biblioentry>
+
+    <biblioentry id="COP">
+      <title>Cumulus Online Publishing</title>
+      <abstract>
+	<para>COP är inte offentligt tillgängligt ännu (19/4 2009). Två
+	samlingar tillgängliggjorda via COPs föregångare är <ulink
+	url="http://www.kb.dk/image_client_static/danmarksbilleder/">Danmarksbilleder</ulink>
+	och <ulink
+	url="http://www.kb.dk/images/billed/2008/sep/daellsvarehus/">Daells
+	varehus</ulink>.</para>
+      </abstract>
+
+    </biblioentry>
+
+
+    <biblioentry id="excursion">
+      <author>
+	<firstname>Sigfrid</firstname>
+	<surname>Lundberg</surname>
+      </author>
+      <title>
+	<ulink
+	url="http://laurentius.ub.lu.se/search/presentation/laurentius.pdf">S:t
+	Laurentius Digital Manuscript Library: An excursion along the border
+	between resource discovery and resource description</ulink></title>
+    </biblioentry>
+
+    <biblioentry id="ediffah">
+      <title>
+	<ulink url="http://www.ediffah.org/">En digital infrastruktur för
+	  forskningsbibliotekens arkiv och handskriftssamlingar</ulink></title>
+    </biblioentry>
+
+    <biblioentry id="ediffah_report">
+      <title>
+	<ulink url="http://www.ediffah.org/reports/slutrapport/">Ediffah --
+	Slutrapport och idéer för framtiden</ulink></title>
+    </biblioentry>
+
+    <biblioentry id="mh">
+      <authorblurb>
+	<para>Lund University Library</para>
+      </authorblurb>
+      <title>
+	<ulink
+	  url="http://laurentius.ub.lu.se/print/catalogue.pdf">Medieval
+	  Manuscript Catalogue</ulink></title>
+    </biblioentry>
+
+    <biblioentry id="arkiv-ex">
+      <authorblurb>
+	<para>Carin Björklund, Peter Linde, Jessica Lindholm, Sigfrid Lundberg,
+	Eva Müller, Henrik Törnblom, Per Åkerlund</para>
+      </authorblurb>
+      <title>
+	<ulink
+	url="http://www.kb.se/Dokument/Bibliotek/projekt/samord_soktj.pdf">Samordning
+	av söktjänster och metadatarepositorier för examensarbeten</ulink>
+	</title>
+    </biblioentry>
+
+    <biblioentry id="tidsskrift.dk">
+      <title>
+	<ulink url="http://www.tidsskrift.dk/">tidsskrift.dk</ulink>
+      </title>
+    </biblioentry>
+
+    <biblioentry id="adl">
+      <title>
+	<ulink url="http://www.adl.dk">Arkiv før dansk litteratur</ulink>
+      </title>
+      <abstract>
+	<para>Jag har inte varit med och utvecklat den här tjänsten, däremot
+	satte jag inmatningsgränsnittet i stånd efter en tid av förfall</para>
+      </abstract>
+    </biblioentry>
+
+    <biblioentry id="axiell">
+      <author>
+	<firstname>Sigfrid</firstname>
+	<surname>Lundberg</surname>
+      </author>
+      <title>
+	<ulink
+	  url="http://www.sigfrid-lundberg.se/2003/axiell-oai/oai-opac.pdf">Implementering av OAI-PMH i ett bibliotekssystem? Några ord på vägen</ulink> 
+      </title> 
+    </biblioentry>
+
+    <biblioentry id="xerxes">
+      <title>
+	<ulink url="http://theses.lub.lu.se/undergrad/">Xerxes</ulink>
+      </title>
+    </biblioentry>
+
+    <biblioentry id="scripta">
+      <title>
+	<ulink
+	url="http://web.archive.org/web/20040502214257/http://theses.lub.lu.se/postgrad/">Scripta
+	Academica Lundensia</ulink> (Tjänsten är tagen ur drift. Länken går till Internet Archive)
+      </title>
+    </biblioentry>
+
+    <biblioentry id="XoS">
+      <author>
+	<firstname>Jessica</firstname>
+	<surname>Lindholm</surname>
+      </author>
+      <author>
+	<firstname>Sigfrid</firstname>
+	<surname>Lundberg</surname>
+      </author>
+      <title>
+	<ulink
+	  url="http://web.archive.org/web/20060203181450/http://www.lub.lu.se/svep/dp5/ws2/session_lundberg_och_lindholm.ppt">Xerxes och Scripta i perspektiv</ulink>
+      </title>
+    </biblioentry>
+
+    <biblioentry id="digpos">
+      <author>
+	<firstname>Sigfrid</firstname>
+	<surname>Lundberg</surname>
+      </author>
+      <title>
+	<ulink
+	  url="http://www.sigfrid-lundberg.se/2004/digitalisering/position.pdf">Vad en
+	  bra samling av digital text bör kunna</ulink></title>
+    </biblioentry>
+
+    <biblioentry id="digsrv">
+      <title>
+	<ulink
+	  url="http://www.sigfrid-lundberg.se/2004/digitalisering/presentation_04-11-04.html">Digitalisering i Lund</ulink>
+      </title>
+    </biblioentry>
+
+    <biblioentry id="def-test">
+      <authorblurb>
+	<para>Colm Doyle, Jörgen Eriksson, Sigfrid Lundberg och Tomas
+	Schönthal </para>
+      </authorblurb>
+      <title>
+	<ulink
+	url="http://www.kb.se/Dokument/Bibliotek/utredn_rapporter/2003/tkl.pdf">Teknisk
+	samverkan mellan svenska ämnesportaler - Test och utvärdering av
+	portalprogramvaran TKL</ulink>
+      </title>
+    </biblioentry>
+
+  </bibliography>
+</article>

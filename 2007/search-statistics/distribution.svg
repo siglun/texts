@@ -1,0 +1,169 @@
+<?xml version="1.0" standalone="no"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 20001102//EN" "svg-20001102.dtd">
+<svg width="600" height="480" viewBox="0 0 600 480">
+
+<desc>Produced by GNUPLOT 3.7 patchlevel 3</desc>
+
+<defs>
+	<circle id="gpDot" r="1"></circle>
+	<path id="gpPt0" style="stroke-width:0.222" d="M-1,0 L0,-1 L1,0 L0 1 z"></path>
+	<path id="gpPt1" style="stroke-width:0.222" d="M-1,0 h2 M0,-1 v2"></path>
+	<path id="gpPt2" style="stroke-width:0.222" d="M-1,-1 h2 v2 h-2 z"></path>
+	<path id="gpPt3" style="stroke-width:0.222" d="M0,1.33 L-1.33,-0.67 L1.33,-0.67 z"></path>
+	<path id="gpPt4" style="stroke-width:0.222" d="M-1,0 L1,0 M0,-1 L0,1 M-1,-1 L1,1 M-1,1 L1,-1"></path>
+</defs>
+<g style="fill:none; stroke:black; stroke-width:1.00">
+	<path d="M91,426 L100,426 M575,426 L566,426 "></path>
+	<g transform="translate(83,430)" style="stroke:none; fill:black; font-family:Arial; font-size:12.00; text-anchor:end">
+		<text> 1</text>
+	</g>
+	<path d="M91,395 L95,395 M575,395 L571,395 M91,377 L95,377 M575,377 L571,377 M91,364 L95,364 
+		M575,364 L571,364 M91,354 L95,354 M575,354 L571,354 M91,346 L95,346 M575,346 L571,346 
+		M91,339 L95,339 M575,339 L571,339 M91,333 L95,333 M575,333 L571,333 M91,328 L95,328 
+		M575,328 L571,328 M91,323 L100,323 M575,323 L566,323 "></path>
+	<g transform="translate(83,327)" style="stroke:none; fill:black; font-family:Arial; font-size:12.00; text-anchor:end">
+		<text> 10</text>
+	</g>
+	<path d="M91,293 L95,293 M575,293 L571,293 M91,275 L95,275 M575,275 L571,275 M91,262 L95,262 
+		M575,262 L571,262 M91,252 L95,252 M575,252 L571,252 M91,244 L95,244 M575,244 L571,244 
+		M91,237 L95,237 M575,237 L571,237 M91,231 L95,231 M575,231 L571,231 M91,226 L95,226 
+		M575,226 L571,226 M91,221 L100,221 M575,221 L566,221 "></path>
+	<g transform="translate(83,225)" style="stroke:none; fill:black; font-family:Arial; font-size:12.00; text-anchor:end">
+		<text> 100</text>
+	</g>
+	<path d="M91,190 L95,190 M575,190 L571,190 M91,172 L95,172 M575,172 L571,172 M91,159 L95,159 
+		M575,159 L571,159 M91,149 L95,149 M575,149 L571,149 M91,141 L95,141 M575,141 L571,141 
+		M91,134 L95,134 M575,134 L571,134 M91,128 L95,128 M575,128 L571,128 M91,123 L95,123 
+		M575,123 L571,123 M91,118 L100,118 M575,118 L566,118 "></path>
+	<g transform="translate(83,122)" style="stroke:none; fill:black; font-family:Arial; font-size:12.00; text-anchor:end">
+		<text> 1000</text>
+	</g>
+	<path d="M91,88 L95,88 M575,88 L571,88 M91,70 L95,70 M575,70 L571,70 M91,57 L95,57 
+		M575,57 L571,57 M91,47 L95,47 M575,47 L571,47 M91,39 L95,39 M575,39 L571,39 
+		M91,32 L95,32 M575,32 L571,32 M91,26 L95,26 M575,26 L571,26 M91,21 L95,21 
+		M575,21 L571,21 M91,16 L100,16 M575,16 L566,16 "></path>
+	<g transform="translate(83,20)" style="stroke:none; fill:black; font-family:Arial; font-size:12.00; text-anchor:end">
+		<text> 10000</text>
+	</g>
+	<path d="M91,426 L91,417 M91,16 L91,25 "></path>
+	<g transform="translate(91,448)" style="stroke:none; fill:black; font-family:Arial; font-size:12.00; text-anchor:middle">
+		<text> 1</text>
+	</g>
+	<path d="M140,426 L140,422 M140,16 L140,20 M168,426 L168,422 M168,16 L168,20 M188,426 L188,422 
+		M188,16 L188,20 M204,426 L204,422 M204,16 L204,20 M217,426 L217,422 M217,16 L217,20 
+		M227,426 L227,422 M227,16 L227,20 M237,426 L237,422 M237,16 L237,20 M245,426 L245,422 
+		M245,16 L245,20 M252,426 L252,417 M252,16 L252,25 "></path>
+	<g transform="translate(252,448)" style="stroke:none; fill:black; font-family:Arial; font-size:12.00; text-anchor:middle">
+		<text> 10</text>
+	</g>
+	<path d="M301,426 L301,422 M301,16 L301,20 M329,426 L329,422 M329,16 L329,20 M349,426 L349,422 
+		M349,16 L349,20 M365,426 L365,422 M365,16 L365,20 M378,426 L378,422 M378,16 L378,20 
+		M389,426 L389,422 M389,16 L389,20 M398,426 L398,422 M398,16 L398,20 M406,426 L406,422 
+		M406,16 L406,20 M414,426 L414,417 M414,16 L414,25 "></path>
+	<g transform="translate(414,448)" style="stroke:none; fill:black; font-family:Arial; font-size:12.00; text-anchor:middle">
+		<text> 100</text>
+	</g>
+	<path d="M462,426 L462,422 M462,16 L462,20 M491,426 L491,422 M491,16 L491,20 M511,426 L511,422 
+		M511,16 L511,20 M526,426 L526,422 M526,16 L526,20 M539,426 L539,422 M539,16 L539,20 
+		M550,426 L550,422 M550,16 L550,20 M559,426 L559,422 M559,16 L559,20 M568,426 L568,422 
+		M568,16 L568,20 M575,426 L575,417 M575,16 L575,25 "></path>
+	<g transform="translate(575,448)" style="stroke:none; fill:black; font-family:Arial; font-size:12.00; text-anchor:middle">
+		<text> 1000</text>
+	</g>
+	<path d="M91,426 L575,426 L575,16 L91,16 L91,426 "></path>
+	<g transform="translate(22,221) rotate(-90)" style="stroke:none; fill:black; font-family:Arial; font-size:12.00; text-anchor:middle">
+		<text>Frequency</text>
+	</g>
+	<g transform="translate(333,475)" style="stroke:none; fill:black; font-family:Arial; font-size:12.00; text-anchor:middle">
+		<text>The number of times a query was repeated</text>
+	</g>
+</g>
+<g style="fill:none; stroke:red; stroke-width:1.00">
+	<g transform="translate(510,38)" style="stroke:none; fill:red; font-family:Arial; font-size:12.00; text-anchor:end">
+		<text>"distribution.text"</text>
+	</g>
+	<use xlink:href="#gpPt0" transform="translate(91,21) scale(4.50)"></use>
+	<use xlink:href="#gpPt0" transform="translate(140,82) scale(4.50)"></use>
+	<use xlink:href="#gpPt0" transform="translate(168,126) scale(4.50)"></use>
+	<use xlink:href="#gpPt0" transform="translate(188,156) scale(4.50)"></use>
+	<use xlink:href="#gpPt0" transform="translate(204,184) scale(4.50)"></use>
+	<use xlink:href="#gpPt0" transform="translate(217,203) scale(4.50)"></use>
+	<use xlink:href="#gpPt0" transform="translate(227,216) scale(4.50)"></use>
+	<use xlink:href="#gpPt0" transform="translate(237,228) scale(4.50)"></use>
+	<use xlink:href="#gpPt0" transform="translate(245,242) scale(4.50)"></use>
+	<use xlink:href="#gpPt0" transform="translate(252,258) scale(4.50)"></use>
+	<use xlink:href="#gpPt0" transform="translate(259,281) scale(4.50)"></use>
+	<use xlink:href="#gpPt0" transform="translate(265,268) scale(4.50)"></use>
+	<use xlink:href="#gpPt0" transform="translate(271,279) scale(4.50)"></use>
+	<use xlink:href="#gpPt0" transform="translate(276,293) scale(4.50)"></use>
+	<use xlink:href="#gpPt0" transform="translate(281,297) scale(4.50)"></use>
+	<use xlink:href="#gpPt0" transform="translate(285,297) scale(4.50)"></use>
+	<use xlink:href="#gpPt0" transform="translate(290,312) scale(4.50)"></use>
+	<use xlink:href="#gpPt0" transform="translate(294,364) scale(4.50)"></use>
+	<use xlink:href="#gpPt0" transform="translate(297,303) scale(4.50)"></use>
+	<use xlink:href="#gpPt0" transform="translate(301,346) scale(4.50)"></use>
+	<use xlink:href="#gpPt0" transform="translate(304,333) scale(4.50)"></use>
+	<use xlink:href="#gpPt0" transform="translate(308,303) scale(4.50)"></use>
+	<use xlink:href="#gpPt0" transform="translate(311,323) scale(4.50)"></use>
+	<use xlink:href="#gpPt0" transform="translate(314,339) scale(4.50)"></use>
+	<use xlink:href="#gpPt0" transform="translate(317,323) scale(4.50)"></use>
+	<use xlink:href="#gpPt0" transform="translate(319,426) scale(4.50)"></use>
+	<use xlink:href="#gpPt0" transform="translate(322,354) scale(4.50)"></use>
+	<use xlink:href="#gpPt0" transform="translate(324,426) scale(4.50)"></use>
+	<use xlink:href="#gpPt0" transform="translate(327,395) scale(4.50)"></use>
+	<use xlink:href="#gpPt0" transform="translate(329,364) scale(4.50)"></use>
+	<use xlink:href="#gpPt0" transform="translate(332,395) scale(4.50)"></use>
+	<use xlink:href="#gpPt0" transform="translate(334,426) scale(4.50)"></use>
+	<use xlink:href="#gpPt0" transform="translate(336,377) scale(4.50)"></use>
+	<use xlink:href="#gpPt0" transform="translate(338,377) scale(4.50)"></use>
+	<use xlink:href="#gpPt0" transform="translate(340,377) scale(4.50)"></use>
+	<use xlink:href="#gpPt0" transform="translate(342,377) scale(4.50)"></use>
+	<use xlink:href="#gpPt0" transform="translate(344,426) scale(4.50)"></use>
+	<use xlink:href="#gpPt0" transform="translate(346,377) scale(4.50)"></use>
+	<use xlink:href="#gpPt0" transform="translate(348,395) scale(4.50)"></use>
+	<use xlink:href="#gpPt0" transform="translate(349,395) scale(4.50)"></use>
+	<use xlink:href="#gpPt0" transform="translate(351,346) scale(4.50)"></use>
+	<use xlink:href="#gpPt0" transform="translate(353,426) scale(4.50)"></use>
+	<use xlink:href="#gpPt0" transform="translate(355,426) scale(4.50)"></use>
+	<use xlink:href="#gpPt0" transform="translate(356,426) scale(4.50)"></use>
+	<use xlink:href="#gpPt0" transform="translate(359,426) scale(4.50)"></use>
+	<use xlink:href="#gpPt0" transform="translate(361,377) scale(4.50)"></use>
+	<use xlink:href="#gpPt0" transform="translate(364,364) scale(4.50)"></use>
+	<use xlink:href="#gpPt0" transform="translate(365,426) scale(4.50)"></use>
+	<use xlink:href="#gpPt0" transform="translate(368,377) scale(4.50)"></use>
+	<use xlink:href="#gpPt0" transform="translate(369,426) scale(4.50)"></use>
+	<use xlink:href="#gpPt0" transform="translate(370,426) scale(4.50)"></use>
+	<use xlink:href="#gpPt0" transform="translate(372,426) scale(4.50)"></use>
+	<use xlink:href="#gpPt0" transform="translate(373,426) scale(4.50)"></use>
+	<use xlink:href="#gpPt0" transform="translate(374,395) scale(4.50)"></use>
+	<use xlink:href="#gpPt0" transform="translate(377,426) scale(4.50)"></use>
+	<use xlink:href="#gpPt0" transform="translate(379,426) scale(4.50)"></use>
+	<use xlink:href="#gpPt0" transform="translate(380,426) scale(4.50)"></use>
+	<use xlink:href="#gpPt0" transform="translate(381,395) scale(4.50)"></use>
+	<use xlink:href="#gpPt0" transform="translate(382,426) scale(4.50)"></use>
+	<use xlink:href="#gpPt0" transform="translate(383,426) scale(4.50)"></use>
+	<use xlink:href="#gpPt0" transform="translate(390,426) scale(4.50)"></use>
+	<use xlink:href="#gpPt0" transform="translate(391,426) scale(4.50)"></use>
+	<use xlink:href="#gpPt0" transform="translate(392,426) scale(4.50)"></use>
+	<use xlink:href="#gpPt0" transform="translate(394,395) scale(4.50)"></use>
+	<use xlink:href="#gpPt0" transform="translate(397,426) scale(4.50)"></use>
+	<use xlink:href="#gpPt0" transform="translate(399,426) scale(4.50)"></use>
+	<use xlink:href="#gpPt0" transform="translate(401,426) scale(4.50)"></use>
+	<use xlink:href="#gpPt0" transform="translate(402,395) scale(4.50)"></use>
+	<use xlink:href="#gpPt0" transform="translate(403,426) scale(4.50)"></use>
+	<use xlink:href="#gpPt0" transform="translate(404,426) scale(4.50)"></use>
+	<use xlink:href="#gpPt0" transform="translate(412,426) scale(4.50)"></use>
+	<use xlink:href="#gpPt0" transform="translate(414,426) scale(4.50)"></use>
+	<use xlink:href="#gpPt0" transform="translate(418,426) scale(4.50)"></use>
+	<use xlink:href="#gpPt0" transform="translate(420,426) scale(4.50)"></use>
+	<use xlink:href="#gpPt0" transform="translate(421,426) scale(4.50)"></use>
+	<use xlink:href="#gpPt0" transform="translate(422,426) scale(4.50)"></use>
+	<use xlink:href="#gpPt0" transform="translate(423,426) scale(4.50)"></use>
+	<use xlink:href="#gpPt0" transform="translate(426,426) scale(4.50)"></use>
+	<use xlink:href="#gpPt0" transform="translate(438,426) scale(4.50)"></use>
+	<use xlink:href="#gpPt0" transform="translate(474,426) scale(4.50)"></use>
+	<use xlink:href="#gpPt0" transform="translate(526,426) scale(4.50)"></use>
+	<use xlink:href="#gpPt0" transform="translate(538,34) scale(4.50)"></use>
+</g>
+</svg>
+

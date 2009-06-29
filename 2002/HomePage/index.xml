@@ -1,0 +1,158 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html><head><title>Sigfrid Lundberg's Homepage</title><link rel="stylesheet" href="/css-style/html_print.css"/><meta http-equiv="Content-Type" content="text/html; charset=UTF-8"/></head><body><div class="box"><h1 class="title"><em>Sigfrid Lundberg's Homepage</em></h1><p class="author">
+      Sigfrid
+      Lundberg
+    <br/><br/><strong>Revision:</strong>$Revision$,
+        <strong>Date:</strong>$Date$,
+        <strong>Editor:</strong>$Author$</p><div class="abstract"><blockquote>My name is Sigfrid Lundberg, and this is my homepage, i.e., it is
+    kind of an article about myself.</blockquote></div><div class="level1"><h2>Table of contents</h2><ul><li><a href="#activities">Activities</a><ul><li><a href="#web_indexing">Web indexing</a></li><li><a href="#preservation">Digital preservation and publication</a></li></ul></li><li><a href="#publishing">Electronic publishing</a><ul><li><a href="#publishing_on_the_web">Putting stuff on the Web</a></li><li><a href="#printing_n_publishing">Printing and publishing</a></li></ul></li><li><a href="#random_bits">Random bits</a></li><li><a href="#about">About these pages</a></li></ul></div><div class="level1" id="activities">
+    <h1 class="level1">Activities</h1>
+
+    <p>I earn my livelihood as an Internet programmer, and as such I
+      attempt to help people finding their ways about on the web by
+      implementing various kinds of search engines. I do this together with
+      friends and colleagues at <a href="http://www.lub.lu.se/">Lund
+	University Libraries</a> and before that at <a href="http://www.lub.lu.se/netlab/">NetLab</a> (see also info on <a href="http://www.ariadne.ac.uk/issue32/netlab-conference/">NetLab's
+	birthday party</a> and a note on the <a href="http://www.ariadne.ac.uk/issue32/netlab-history/">history of NetLab</a>).</p>
+
+    <div class="level2" id="web_indexing">
+      <h2 class="level2">Web indexing</h2>
+
+    <p>Initially, I worked exclusively with robot based search indexes.
+      Here at NetLab we implemented the <em>combine</em> harvesting robot,
+      which <a href="http://www.lub.lu.se/combine/">you may get for
+	free</a>. The work is done as a part of the <a href="http://www.desire.org/">Desire project</a>.</p>
+
+    <p>We used the Combine for a number of purposes. Among those were to
+      build the Nordic Web Index. <a href="http://hem.bredband.net/sigfridlundberg/1996/nwi/nwi.pdf">We
+	released the NWI 1996</a>, about a month after Digital released <a href="http://www.altavista.com">Alta Vista</a>. Thus we were among the
+      first search engines to support European character sets (with nasty
+      characters like å, ä, ø, ö and the like). During
+      its life time, NWI usually had a higher coverage of the Nordic web
+      than its commercial competition. The NWI was also one of the very
+      first web indexes that had extensive support for <a href="http://www.dublincore.org/">Dublin Core Metadata</a>. We gave a
+      <a href="http://www7.scu.edu.au/programme/fullpapers/1900/com1900.htm">
+      presentation</a> on this work at the 7th Internation World wide web
+      conference.</p>
+
+      <p>For quite some time I used the Combine for a lot of different
+      projects, such as the now defunct Safari research information
+      service (again, I wrote a <a href="/SigfridLundberg/1998/safari/cris.pdf">presentation of
+      the service</a>, but I'm sorry, it is in swedish).</p>
+
+    </div>
+
+    <div class="level2" id="preservation">
+
+      <h2 class="level2">Digital preservation and publication</h2>
+
+      <p>Now my interests has shifted from the rather specific problems of
+	indexing the web towards digital preservation, digital publishing and
+	the searching of tagged text in general, and in particular SGML/XML
+	documents. I do not feel that there is any difference between making
+	available historical and current material (which would be preservation
+	and publication, respectively). The main difference is the tense. What
+	we do today (present tense) will in the future be a preservation
+	problem (future tense).</p>
+
+      <p>The best example of my work in this area is the <a href="laurentius.html">S:t Laurentius</a> <a href="http://laurentius.lub.lu.se/">digital manuscript
+	  library</a>.</p>
+
+      <p>I have written a <a href="http://laurentius.lub.lu.se/search/presentation/laurentius.pdf">
+	  conceptual description of the search engine</a> we built for our
+	manuscript collection.</p>
+
+      <p>The most importan current project within this area is <a href="/2004/arkiv_bibliotek/">Ediffah</a>, which aims at
+	implementing a search engine for EAD finding aids for archives in
+	Swedish library collections.</p>
+
+    </div>
+
+  </div><div class="level1" id="publishing">
+
+    <h1 class="level1">Electronic publishing</h1>
+
+    <div class="level2" id="publishing_on_the_web">
+      <h2 class="level2">Putting stuff on the Web</h2>
+
+      <p>Today electronic publishing usually means publishing stuff on a web
+	server. A better part of my time is spent on building infrastructure
+	for creating facilities for just that, including cataloging of such
+	stuff and delivering it to end users in a structured way. I've recently
+	made two services for use within Lund university, <a href="http://theses.lub.lu.se/undergrad/">Xerxes</a> and
+	<a href="http://theses.lub.lu.se/postgrad/">Scripta Academica
+	  Lundensis</a>, aimed for publishing and dissemination of
+	undergraduate and postgraduate electronic theses and dissertations.
+      </p>
+
+    </div>
+
+    <div class="level2" id="printing_n_publishing">
+
+      <h2 class="level2">Printing and publishing</h2>
+
+      <p>One of my passions is electronic typesetting, and in particular of
+	scientific texts -- with equations, graphs, references, footnotes,
+	quotations and you name it. Since I left science, I've had little
+	opportunity to exercise that passion. However with the current XML
+	boom, it is possible for me to make use of this old knowledge, in a
+	new context.</p>
+
+      <p>For texts I write myself, I use <a href="http://www.tei-c.org/">the TEI XML dtd</a> which I may then
+	transformed into other formats (e.g., HTML) using <a href="http://www.w3.org/Style/XSL/">XSLT</a>. For printed output I
+	translate it into troff source, which I format using with <a href="http://www.jclark.com/bio.htm">James Clark</a>'s <a href="http://groff.ffii.org">groff</a> package,
+	a free re-engineered version of troff, the UNIX (TM) typesetting
+	system. Throught the years, I have written a lot of XSLT scripts, *roff
+	macros, dozens of perl scripts that work with *roff for various
+	purposes:</p> 
+
+      <p>I have prepared a <a href="../Laurentius/laurentius.tar.gz">worked 
+	  example</a> on how to format a TEI document for printing, using
+	XSLT and groff. Provided that you have perl with XML::LibXSLT, a
+	modern groff (version 1.18), TeX fonts, dvips and ps2pdf installed,
+	you should be able to run this and get a laurentius.pdf from the
+	laurentius.xml. Most of these things is available as standard on a
+	decent Linux workstation.</p>
+
+      <p>I once wrote a <a href="ROFF/gnuplot_gpic_driver.shar">gnuplot
+	  driver</a> for producing graphs using *roff. Supports gpic and
+	pic (vanilla UNIX version). My original driver seems obsolete now, but
+	the current pic gnuplot driver doesn't seem to work with 3D
+	graphds.</p>
+    </div>
+
+
+  </div><div class="level1" id="random_bits">
+    <h1 class="level1">Random bits</h1>
+
+    <p>I've had the pleasure to participate in most of <a href=" http://www.dublincore.org/">the DCMI workshops</a>. The first
+      one was the <a href="http://www.ariadne.ac.uk/issue9/caption/">Metadata
+	workshop</a> in Canberra March 1997 (I'm fattest one of the two
+      waring shorts).</p>
+
+    <p>&quot;IT i kulturens tjänst&quot; <a href="kultur_naet_sverige.html">recenserad</a></p> 
+
+    <p><a href="publications.html">A not entirely up to date list of
+	mostly peer reviewed publications</a> and an obsolete <a href="meriter.html">CV like object</a> (which, available as a
+      slightly less obsolete <a href="meriter.pdf">CV like
+	pdf</a>).</p> 
+  </div><div class="level1" id="about">
+
+    <h1 class="level1">About these pages</h1>
+    <p>This home page is written in XML using the
+      <a href="http://www.docbook.org/">DocBook DTD</a>.
+      It is delivered using a XML application server, <a href="http://www.axkit.org">AxKIT</a> 
+      which transforms it for use in a browser.
+      The application server is running on an
+      <a href="http://www.apache.org/">Apache webserver</a>.
+      AxKit is a part of the <a href="http://www.apache.org/">Apache
+	Software 
+	Foundation</a>'s <a href="http://xml.apache.org/">XML
+	initiative</a>.</p>
+
+    <p>Other documents here are written using the
+      <a href="http://www.tei-c.org/">Text Encoding Initiative XML
+	dtd</a>. I do still ocassionally code HTML, but find that extremely
+      boring.</p> 
+
+  </div></div></body></html>

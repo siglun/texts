@@ -1,0 +1,337 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE office:document-styles PUBLIC "-//OpenOffice.org//DTD OfficeDocument
+1.0//EN" "office.dtd"><office:document-styles
+			xmlns:office="http://openoffice.org/2000/office"
+			xmlns:style="http://openoffice.org/2000/style"
+			xmlns:text="http://openoffice.org/2000/text"
+			xmlns:table="http://openoffice.org/2000/table"
+			xmlns:draw="http://openoffice.org/2000/drawing"
+			xmlns:fo="http://www.w3.org/1999/XSL/Format"
+			xmlns:xlink="http://www.w3.org/1999/xlink"
+			xmlns:number="http://openoffice.org/2000/datastyle"
+			xmlns:svg="http://www.w3.org/2000/svg"
+			xmlns:chart="http://openoffice.org/2000/chart"
+			xmlns:dr3d="http://openoffice.org/2000/dr3d"
+			xmlns:math="http://www.w3.org/1998/Math/MathML"
+			xmlns:form="http://openoffice.org/2000/form"
+			xmlns:script="http://openoffice.org/2000/script"
+			office:version="1.0"><office:font-decls>
+    <style:font-decl style:name="Tahoma1"
+      fo:font-family="Tahoma"/><style:font-decl style:name="Andale Sans UI"
+      fo:font-family="&apos;Andale Sans UI&apos;"
+      style:font-pitch="variable"/><style:font-decl style:name="Tahoma"
+      fo:font-family="Tahoma" style:font-pitch="variable"/><style:font-decl
+      style:name="Thorndale" fo:font-family="Thorndale"
+      style:font-family-generic="roman"
+      style:font-pitch="variable"/></office:font-decls><office:styles><style:default-style style:family="graphics"><style:properties draw:start-line-spacing-horizontal="0.1114inch" draw:start-line-spacing-vertical="0.1114inch" draw:end-line-spacing-horizontal="0.1114inch" draw:end-line-spacing-vertical="0.1114inch" style:use-window-font-color="true" style:font-name="Thorndale" fo:font-size="12pt" fo:language="none" fo:country="none" style:font-name-asian="Andale Sans UI" style:font-size-asian="12pt" style:language-asian="none" style:country-asian="none" style:font-name-complex="Tahoma" style:font-size-complex="12pt" style:language-complex="none" style:country-complex="none" style:text-autospace="ideograph-alpha" style:line-break="strict" style:writing-mode="lr-tb"><style:tab-stops/></style:properties></style:default-style><style:default-style style:family="paragraph"><style:properties style:use-window-font-color="true" style:font-name="Thorndale" fo:font-size="12pt" fo:language="none" fo:country="none" style:font-name-asian="Andale Sans UI" style:font-size-asian="12pt" style:language-asian="none" style:country-asian="none" style:font-name-complex="Tahoma" style:font-size-complex="12pt" style:language-complex="none" style:country-complex="none" fo:hyphenate="false" fo:hyphenation-remain-char-count="2" fo:hyphenation-push-char-count="2" fo:hyphenation-ladder-count="no-limit" style:text-autospace="ideograph-alpha" style:punctuation-wrap="hanging" style:line-break="strict" style:tab-stop-distance="0.8681inch" style:writing-mode="page"/></style:default-style><style:style style:name="Standard" style:family="paragraph" style:class="text"/><style:style style:name="Text body" style:family="paragraph" style:parent-style-name="Standard" style:class="text"><style:properties fo:margin-top="0inch" fo:margin-bottom="0.0835inch"/></style:style>
+    <style:style style:name="Heading" style:family="paragraph"
+      style:parent-style-name="Standard" style:next-style-name="Text body"
+      style:class="text"> 
+      <style:properties fo:margin-top="0.1665inch"
+	fo:margin-bottom="0.0835inch" fo:font-size="14pt"
+	style:font-size-asian="14pt" style:font-size-complex="14pt"
+	fo:keep-with-next="true"/></style:style><style:style
+      style:name="Heading 1" style:family="paragraph"
+      style:parent-style-name="Heading" style:next-style-name="Text body"
+      style:class="text"><style:properties fo:font-size="115%"
+	fo:font-weight="bold" style:font-size-asian="115%"
+	style:font-weight-asian="bold" style:font-size-complex="115%"
+	style:font-weight-complex="bold"/></style:style><style:style
+      style:name="Heading 2" style:family="paragraph"
+      style:parent-style-name="Heading" style:next-style-name="Text body"
+      style:class="text"><style:properties fo:font-size="14pt"
+	fo:font-style="italic" fo:font-weight="bold"
+	style:font-size-asian="14pt" style:font-style-asian="italic"
+	style:font-weight-asian="bold" style:font-size-complex="14pt"
+	style:font-style-complex="italic"
+	style:font-weight-complex="bold"/></style:style><style:style
+      style:name="List" style:family="paragraph" style:parent-style-name="Text
+      body" style:class="list"><style:properties
+	style:font-name-complex="Tahoma1"/></style:style><style:style
+      style:name="Table Contents" style:family="paragraph"
+      style:parent-style-name="Text body" style:class="extra"><style:properties
+	text:number-lines="false"
+	text:line-number="0"/></style:style><style:style style:name="Table
+      Heading" style:family="paragraph" style:parent-style-name="Table
+      Contents" style:class="extra"><style:properties fo:font-style="italic"
+	fo:font-weight="bold" style:font-style-asian="italic"
+	style:font-weight-asian="bold" style:font-style-complex="italic"
+	style:font-weight-complex="bold" fo:text-align="center"
+	style:justify-single-word="false" text:number-lines="false"
+	text:line-number="0"/></style:style><style:style style:name="Caption"
+      style:family="paragraph" style:parent-style-name="Standard"
+      style:class="extra"><style:properties fo:margin-top="0.0835inch"
+	fo:margin-bottom="0.0835inch" fo:font-size="10pt"
+	fo:font-style="italic" style:font-size-asian="10pt"
+	style:font-style-asian="italic" style:font-size-complex="10pt"
+	style:font-style-complex="italic" text:number-lines="false"
+	text:line-number="0"/></style:style><style:style style:name="Table"
+      style:family="paragraph" style:parent-style-name="Caption"
+      style:class="extra"/><style:style style:name="Frame contents"
+      style:family="paragraph" style:parent-style-name="Text body"
+      style:class="extra"/><style:style style:name="Footnote"
+      style:family="paragraph" style:parent-style-name="Standard"
+      style:class="extra"><style:properties fo:margin-left="0.1965inch"
+	fo:margin-right="0inch" fo:font-size="10pt"
+	style:font-size-asian="10pt" style:font-size-complex="10pt"
+	fo:text-indent="-0.1965inch" style:auto-text-indent="false"
+	text:number-lines="false"
+	text:line-number="0"/></style:style><style:style style:name="Index"
+      style:family="paragraph" style:parent-style-name="Standard"
+      style:class="index"> 
+      <style:properties style:font-name-complex="Tahoma1"
+	text:number-lines="false" text:line-number="0"/> 
+    </style:style>
+    <style:style style:name="Subtitle" style:family="paragraph"
+      style:parent-style-name="Heading" style:next-style-name="Text body"
+      style:class="chapter"> 
+      <style:properties fo:font-size="14pt" fo:font-style="italic"
+	style:font-size-asian="14pt" style:font-style-asian="italic"
+	style:font-size-complex="14pt" style:font-style-complex="italic"
+	fo:text-align="center" style:justify-single-word="false"/> 
+    </style:style>
+    <style:style style:name="Bibliography entry" style:family="paragraph"
+      style:parent-style-name="Standard" style:class="text"><style:properties
+	fo:margin-top="0inch" fo:margin-bottom="0.0835inch"/>
+    </style:style>
+    <style:style style:name="EAD Archival description" style:family="paragraph"
+      style:parent-style-name="Heading" style:next-style-name="Text body"
+      style:class="text" style:master-page-name=""><style:properties
+	fo:font-size="12pt" fo:font-style="oblique" fo:font-weight="bold"
+	style:page-number="0" fo:keep-with-next="true"/></style:style> 
+    <style:style style:name="EAD Content 1" style:family="paragraph"
+      style:parent-style-name="Heading" style:next-style-name="Text body"
+      style:class="text" style:master-page-name=""><style:properties
+	fo:font-size="12pt" fo:font-style="oblique" fo:font-weight="bold"
+	style:page-number="0" fo:keep-with-next="true"/></style:style>
+    <style:style style:name="EAD Content 2" style:family="paragraph"
+      style:parent-style-name="Heading" style:next-style-name="Text body"
+      style:class="text" style:master-page-name=""><style:properties
+	fo:font-size="12pt" fo:font-style="oblique" fo:font-weight="bold"
+	style:page-number="0" fo:keep-with-next="true"/></style:style>
+    <style:style style:name="EAD Content 3" style:family="paragraph"
+      style:parent-style-name="Heading" style:next-style-name="Text body"
+      style:class="text" style:master-page-name=""><style:properties
+	fo:font-size="12pt" fo:font-style="oblique" fo:font-weight="bold"
+	style:page-number="0" fo:keep-with-next="true"/></style:style>
+    <style:style style:name="EAD Content 4" style:family="paragraph"
+      style:parent-style-name="Heading" style:next-style-name="Text body"
+      style:class="text"><style:properties fo:font-size="85%"
+	fo:font-style="italic" fo:font-weight="bold"/></style:style>
+    <style:style style:name="EAD Content 5" style:family="paragraph"
+      style:parent-style-name="Heading" style:next-style-name="Text body"
+      style:class="text"><style:properties fo:font-size="85%"
+	fo:font-weight="bold"/></style:style>
+    <style:style style:name="EAD Content 6" style:family="paragraph"
+      style:parent-style-name="Heading" style:next-style-name="Text body"
+      style:class="text"><style:properties fo:font-size="75%"
+	fo:font-weight="bold"/></style:style>
+    <style:style style:name="EAD Content 7" style:family="paragraph"
+      style:parent-style-name="Heading" style:next-style-name="Text body"
+      style:class="text"><style:properties fo:font-size="75%"
+	fo:font-weight="bold"/></style:style>
+    <style:style style:name="EAD Content 8" style:family="paragraph"
+      style:parent-style-name="Heading" style:next-style-name="Text body"
+      style:class="text"><style:properties fo:font-size="75%"
+	fo:font-weight="bold"/></style:style>
+    <style:style style:name="EAD Content 9" style:family="paragraph"
+      style:parent-style-name="Heading" style:next-style-name="Text body"
+      style:class="text"><style:properties fo:font-size="75%"
+	fo:font-weight="bold"/></style:style>
+    <style:style style:name="EAD Content 10" style:family="paragraph"
+      style:parent-style-name="Heading" style:next-style-name="Text body"
+      style:class="text"><style:properties fo:font-size="75%"
+	fo:font-weight="bold"/>
+    </style:style>
+    <style:style style:name="accessrestrict" style:family="paragraph"
+      style:parent-style-name="Heading" style:next-style-name="Text body"
+      style:class="text"><style:properties fo:margin-top="0.1665inch"
+	fo:margin-bottom="0.0835inch" fo:font-size="14pt"
+	style:font-size-asian="14pt" style:font-size-complex="14pt"
+	fo:keep-with-next="true"/></style:style>
+    <style:style style:name="accruals" style:family="paragraph"
+      style:parent-style-name="Heading" style:next-style-name="Text body"
+      style:class="text"><style:properties fo:margin-top="0.1665inch"
+	fo:margin-bottom="0.0835inch" fo:font-size="14pt"
+	style:font-size-asian="14pt" style:font-size-complex="14pt"
+	fo:keep-with-next="true"/></style:style>
+    <style:style style:name="acqinfo" style:family="paragraph"
+      style:parent-style-name="Heading" style:next-style-name="Text body"
+      style:class="text"><style:properties fo:margin-top="0.1665inch"
+	fo:margin-bottom="0.0835inch" fo:font-size="14pt"
+	style:font-size-asian="14pt" style:font-size-complex="14pt"
+	fo:keep-with-next="true"/></style:style>
+    <style:style style:name="altformavail" style:family="paragraph"
+      style:parent-style-name="Heading" style:next-style-name="Text body"
+      style:class="text"><style:properties fo:margin-top="0.1665inch"
+	fo:margin-bottom="0.0835inch" fo:font-size="14pt"
+	style:font-size-asian="14pt" style:font-size-complex="14pt"
+	fo:keep-with-next="true"/></style:style>
+    <style:style style:name="appraisal" style:family="paragraph"
+      style:parent-style-name="Heading" style:next-style-name="Text body"
+      style:class="text"><style:properties fo:margin-top="0.1665inch"
+	fo:margin-bottom="0.0835inch" fo:font-size="14pt"
+	style:font-size-asian="14pt" style:font-size-complex="14pt"
+	fo:keep-with-next="true"/></style:style>
+    <style:style style:name="arrangement" style:family="paragraph"
+      style:parent-style-name="Heading" style:next-style-name="Text body"
+      style:class="text"><style:properties fo:margin-top="0.1665inch"
+	fo:margin-bottom="0.0835inch" fo:font-size="14pt"
+	style:font-size-asian="14pt" style:font-size-complex="14pt"
+	fo:keep-with-next="true"/></style:style>
+    <style:style style:name="bibliography" style:family="paragraph"
+      style:parent-style-name="Heading" style:next-style-name="Text body"
+      style:class="text"><style:properties fo:margin-top="0.1665inch"
+	fo:margin-bottom="0.0835inch" fo:font-size="14pt"
+	style:font-size-asian="14pt" style:font-size-complex="14pt"
+	fo:keep-with-next="true"/></style:style>
+    <style:style style:name="bioghist" style:family="paragraph"
+      style:parent-style-name="Heading" style:next-style-name="Text body"
+      style:class="text"><style:properties fo:margin-top="0.1665inch"
+	fo:margin-bottom="0.0835inch" fo:font-size="14pt"
+	style:font-size-asian="14pt" style:font-size-complex="14pt"
+	fo:keep-with-next="true"/></style:style>
+    <style:style style:name="controlaccess" style:family="paragraph"
+      style:parent-style-name="Heading" style:next-style-name="Text body"
+      style:class="text"><style:properties fo:margin-top="0.1665inch"
+	fo:margin-bottom="0.0835inch" fo:font-size="14pt"
+	style:font-size-asian="14pt" style:font-size-complex="14pt"
+	fo:keep-with-next="true"/></style:style><style:style
+      style:name="custodhist" style:family="paragraph"
+      style:parent-style-name="Heading" style:next-style-name="Text body"
+      style:class="text">
+      <style:properties fo:margin-top="0.1665inch"
+	fo:margin-bottom="0.0835inch" fo:font-size="14pt"
+	style:font-size-asian="14pt" style:font-size-complex="14pt"
+	fo:keep-with-next="true"/></style:style>
+    <style:style style:name="dao" style:family="paragraph"
+      style:parent-style-name="Heading" style:next-style-name="Text body"
+      style:class="text"><style:properties fo:margin-top="0.1665inch"
+	fo:margin-bottom="0.0835inch" fo:font-size="14pt"
+	style:font-size-asian="14pt" style:font-size-complex="14pt"
+	fo:keep-with-next="true"/></style:style>
+    <style:style style:name="daogrp" style:family="paragraph"
+      style:parent-style-name="Heading" style:next-style-name="Text body"
+      style:class="text"><style:properties fo:margin-top="0.1665inch"
+	fo:margin-bottom="0.0835inch" fo:font-size="14pt"
+	style:font-size-asian="14pt" style:font-size-complex="14pt"
+	fo:keep-with-next="true"/></style:style>
+    <style:style style:name="descgrp" style:family="paragraph"
+      style:parent-style-name="Heading" style:next-style-name="Text body"
+      style:class="text"><style:properties fo:margin-top="0.1665inch"
+	fo:margin-bottom="0.0835inch" fo:font-size="14pt"
+	style:font-size-asian="14pt" style:font-size-complex="14pt"
+	fo:keep-with-next="true"/></style:style>
+    <style:style style:name="did" style:family="paragraph"
+      style:parent-style-name="Heading" style:next-style-name="Text body"
+      style:class="text"><style:properties fo:margin-top="0.1665inch"
+	fo:margin-bottom="0.0835inch" fo:font-size="14pt"
+	style:font-size-asian="14pt" style:font-size-complex="14pt"
+	fo:keep-with-next="true"/></style:style>
+    <style:style style:name="fileplan" style:family="paragraph"
+      style:parent-style-name="Heading" style:next-style-name="Text body"
+      style:class="text"><style:properties fo:margin-top="0.1665inch"
+	fo:margin-bottom="0.0835inch" fo:font-size="14pt"
+	style:font-size-asian="14pt" style:font-size-complex="14pt"
+	fo:keep-with-next="true"/></style:style>
+    <style:style style:name="index" style:family="paragraph"
+      style:parent-style-name="Heading" style:next-style-name="Text body"
+      style:class="text"><style:properties fo:margin-top="0.1665inch"
+	fo:margin-bottom="0.0835inch" fo:font-size="14pt"
+	style:font-size-asian="14pt" style:font-size-complex="14pt"
+	fo:keep-with-next="true"/></style:style>
+    <style:style style:name="note" style:family="paragraph"
+      style:parent-style-name="Heading" style:next-style-name="Text body"
+      style:class="text"><style:properties fo:margin-top="0.1665inch"
+	fo:margin-bottom="0.0835inch" fo:font-size="14pt"
+	style:font-size-asian="14pt" style:font-size-complex="14pt"
+	fo:keep-with-next="true"/></style:style>
+    <style:style style:name="odd"
+      style:family="paragraph" style:parent-style-name="Heading"
+      style:next-style-name="Text body" style:class="text"><style:properties
+	fo:margin-top="0.1665inch" fo:margin-bottom="0.0835inch"
+	fo:font-size="14pt" style:font-size-asian="14pt"
+	style:font-size-complex="14pt" fo:keep-with-next="true"/></style:style>
+    <style:style style:name="originalsloc" style:family="paragraph"
+      style:parent-style-name="Heading" style:next-style-name="Text body"
+      style:class="text"><style:properties fo:margin-top="0.1665inch"
+	fo:margin-bottom="0.0835inch" fo:font-size="14pt"
+	style:font-size-asian="14pt" style:font-size-complex="14pt"
+	fo:keep-with-next="true"/></style:style>
+    <style:style style:name="otherfindaid" style:family="paragraph"
+      style:parent-style-name="Heading" style:next-style-name="Text body"
+      style:class="text"><style:properties fo:margin-top="0.1665inch"
+	fo:margin-bottom="0.0835inch" fo:font-size="14pt"
+	style:font-size-asian="14pt" style:font-size-complex="14pt"
+	fo:keep-with-next="true"/></style:style>
+    <style:style style:name="phystech" style:family="paragraph"
+      style:parent-style-name="Heading" style:next-style-name="Text body"
+      style:class="text"><style:properties fo:margin-top="0.1665inch"
+	fo:margin-bottom="0.0835inch" fo:font-size="14pt"
+	style:font-size-asian="14pt" style:font-size-complex="14pt"
+	fo:keep-with-next="true"/></style:style>
+    <style:style style:name="prefercite" style:family="paragraph"
+      style:parent-style-name="Heading" style:next-style-name="Text body"
+      style:class="text"><style:properties fo:margin-top="0.1665inch"
+	fo:margin-bottom="0.0835inch" fo:font-size="14pt"
+	style:font-size-asian="14pt" style:font-size-complex="14pt"
+	fo:keep-with-next="true"/></style:style>
+    <style:style style:name="processinfo" style:family="paragraph"
+      style:parent-style-name="Heading" style:next-style-name="Text body"
+      style:class="text"><style:properties fo:margin-top="0.1665inch"
+	fo:margin-bottom="0.0835inch" fo:font-size="14pt"
+	style:font-size-asian="14pt" style:font-size-complex="14pt"
+	fo:keep-with-next="true"/></style:style>
+    <style:style style:name="relatedmaterial" style:family="paragraph"
+      style:parent-style-name="Heading" style:next-style-name="Text body"
+      style:class="text"><style:properties fo:margin-top="0.1665inch"
+	fo:margin-bottom="0.0835inch" fo:font-size="14pt"
+	style:font-size-asian="14pt" style:font-size-complex="14pt"
+	fo:keep-with-next="true"/></style:style>
+    <style:style style:name="runner" style:family="paragraph"
+      style:parent-style-name="Heading" style:next-style-name="Text body"
+      style:class="text"><style:properties fo:margin-top="0.1665inch"
+	fo:margin-bottom="0.0835inch" fo:font-size="14pt"
+	style:font-size-asian="14pt" style:font-size-complex="14pt"
+	fo:keep-with-next="true"/></style:style>
+    <style:style style:name="scopecontent" style:family="paragraph"
+      style:parent-style-name="Heading" style:next-style-name="Text body"
+      style:class="text"><style:properties fo:margin-top="0.1665inch"
+	fo:margin-bottom="0.0835inch" fo:font-size="14pt"
+	style:font-size-asian="14pt" style:font-size-complex="14pt"
+	fo:keep-with-next="true"/></style:style>
+    <style:style style:name="separatedmaterial" style:family="paragraph"
+      style:parent-style-name="Heading" style:next-style-name="Text body"
+      style:class="text"><style:properties fo:margin-top="0.1665inch"
+	fo:margin-bottom="0.0835inch" fo:font-size="14pt"
+	style:font-size-asian="14pt" style:font-size-complex="14pt"
+	fo:keep-with-next="true"/></style:style>
+    <style:style style:name="userestrict" style:family="paragraph"
+      style:parent-style-name="Heading" style:next-style-name="Text body"
+      style:class="text"><style:properties fo:margin-top="0.1665inch"
+	fo:margin-bottom="0.0835inch" fo:font-size="14pt"
+	style:font-size-asian="14pt" style:font-size-complex="14pt"
+	fo:keep-with-next="true"/></style:style>
+    <style:style style:name="Mediaobject" style:family="paragraph"
+      style:class="text"/><style:style style:name="Object"
+      style:family="paragraph" style:parent-style-name="Caption"
+      style:class="extra"/><style:style style:name="Appendix Title"
+      style:family="paragraph" style:next-style-name="Text body"
+      style:master-page-name=""><style:properties
+	fo:text-transform="capitalize" fo:font-size="14pt"
+	fo:line-height="200%" style:page-number="0"/></style:style>
+    <style:style style:name="Document Title" style:family="paragraph"
+      style:parent-style-name="Standard"><style:properties fo:font-size="20pt"
+	fo:text-align="center"
+	style:justify-single-word="false"/></style:style><style:style
+      style:name="Document SubTitle" style:family="paragraph"
+      style:parent-style-name="Document Title" style:next-style-name="Text
+      body"><style:properties fo:font-size="14pt"/></style:style><style:style
+      style:name="CopyRight" style:family="paragraph"
+      style:parent-style-name="Text body"/><style:style style:name="VarList
+      Item" style:family="paragraph" style:parent-style-name="Text body"
+      style:list-style-name="Var List" style:class="text"><style:properties
+	fo:margin-left="1.1811inch" fo:margin-right="0inch"
+	fo:text-indent="0inch"
+	style:auto-text-indent="false"><style:tab-stops><style:tab-stop
+	    style:position="0inch"/></style:tab-stops></style:properties></style:style><style:style style:name="VarList Term" style:family="paragraph" style:parent-style-name="Text body" style:list-style-name="Var List" style:class="text"><style:properties fo:margin-left="0.3937inch" fo:margin-right="0inch" fo:text-indent="-1.7717inch" style:auto-text-indent="false"><style:tab-stops><style:tab-stop style:position="0inch"/></style:tab-stops></style:properties></style:style><style:style style:name="IndexTerm" style:family="paragraph" style:parent-style-name="Text body" style:class="text"><style:properties fo:margin-left="0.1965inch" fo:margin-right="0inch" fo:text-indent="0inch" style:auto-text-indent="false"><style:tab-stops><style:tab-stop style:position="0inch"/></style:tab-stops></style:properties></style:style><style:style style:name="XMLComment" style:family="paragraph" style:parent-style-name="Text body" style:next-style-name="Text body"><style:properties fo:color="#00ff00" fo:font-style="italic"/></style:style><style:style style:name="Numbering Symbols" style:family="text"/><style:style style:name="Bullet Symbols" style:family="text"><style:properties fo:font-size="9pt" style:font-size-asian="9pt" style:font-size-complex="9pt"/></style:style><style:style style:name="Internet link" style:family="text"><style:properties fo:color="#000080" style:text-underline="single" style:text-underline-color="font-color"/></style:style><style:style style:name="Emphasis" style:family="text"><style:properties fo:font-style="italic" style:font-style-asian="italic" style:font-style-complex="italic"/></style:style><style:style style:name="Source Text" style:family="text"/><style:style style:name="Bibliography title" style:family="text"><style:properties fo:font-style="italic" style:font-style-asian="italic" style:font-style-complex="italic"/></style:style><style:style style:name="Geographical name" style:family="text"><style:properties fo:font-style="normal" style:font-style-asian="normal" style:font-style-complex="normal"/></style:style><style:style style:name="Personal name" style:family="text"><style:properties fo:font-style="normal" style:font-style-asian="normal" style:font-style-complex="normal"/></style:style><style:style style:name="Corporate name" style:family="text"><style:properties fo:font-style="normal" style:font-style-asian="normal" style:font-style-complex="normal"/></style:style><style:style style:name="Subject heading" style:family="text"><style:properties fo:font-style="normal" style:font-style-asian="normal" style:font-style-complex="normal"/></style:style><style:style style:name="Publisher" style:family="text"><style:properties fo:font-style="normal" style:font-style-asian="normal" style:font-style-complex="normal"/></style:style><style:style style:name="Date" style:family="text"><style:properties fo:font-style="normal" style:font-style-asian="normal" style:font-style-complex="normal"/></style:style><style:style style:name="Genre or form" style:family="text"><style:properties fo:font-style="normal" style:font-style-asian="normal" style:font-style-complex="normal"/></style:style><style:style style:name="Occupation" style:family="text"><style:properties fo:font-style="normal" style:font-style-asian="normal" style:font-style-complex="normal"/></style:style><style:style style:name="Highlight" style:family="text"><style:properties style:text-background-color="#fff000"/></style:style><style:style style:name="FileName" style:family="text"><style:properties fo:font-weight="bold"/></style:style><style:style style:name="SuperScript" style:family="text"><style:properties style:text-position="super 58%"/></style:style><style:style style:name="SubScript" style:family="text"><style:properties style:text-position="sub 58%"/></style:style><style:style style:name="XrefLabel" style:family="text"><style:properties fo:color="#0077aa" fo:font-style="italic"/></style:style><style:style style:name="Primary" style:family="text"><style:properties fo:color="#11ffaa" fo:font-style="italic"/></style:style><style:style style:name="Secondary" style:family="text"><style:properties fo:color="#23ff23" fo:font-style="italic"/></style:style><style:style style:name="Numbering  Symbols" style:family="text"/><style:style style:name="Frame" style:family="graphics"><style:properties text:anchor-type="paragraph" svg:x="0inch" svg:y="0inch" fo:margin-left="0.0791inch" fo:margin-right="0.0791inch" fo:margin-top="0.0791inch" fo:margin-bottom="0.0791inch" style:wrap="parallel" style:number-wrapped-paragraphs="no-limit" style:wrap-contour="false" style:vertical-pos="top" style:vertical-rel="paragraph-content" style:horizontal-pos="center" style:horizontal-rel="paragraph-content" fo:padding="0.0591inch" fo:border="0.0008inch solid #000000"/></style:style><text:outline-style><text:outline-level-style text:level="1" style:num-format=""/><text:outline-level-style text:level="2" style:num-format=""/><text:outline-level-style text:level="3" style:num-format=""/><text:outline-level-style text:level="4" style:num-format=""/><text:outline-level-style text:level="5" style:num-format=""/><text:outline-level-style text:level="6" style:num-format=""/><text:outline-level-style text:level="7" style:num-format=""/><text:outline-level-style text:level="8" style:num-format=""/><text:outline-level-style text:level="9" style:num-format=""/><text:outline-level-style text:level="10" style:num-format=""/></text:outline-style><text:list-style style:name="Ordered List"><text:list-level-style-number text:level="1" text:style-name="Numbering  Symbols" style:num-suffix="." style:num-format="1"><style:properties text:min-label-width="0.1965inch"/></text:list-level-style-number><text:list-level-style-number text:level="2" style:num-suffix="." style:num-format="1"><style:properties text:space-before="0.1972inch" text:min-label-width="0.1965inch"/></text:list-level-style-number><text:list-level-style-number text:level="3" style:num-suffix="." style:num-format="1"><style:properties text:space-before="0.3937inch" text:min-label-width="0.1965inch"/></text:list-level-style-number><text:list-level-style-number text:level="4" style:num-suffix="." style:num-format="1"><style:properties text:space-before="0.5909inch" text:min-label-width="0.1965inch"/></text:list-level-style-number><text:list-level-style-number text:level="5" style:num-suffix="." style:num-format="1"><style:properties text:space-before="0.7874inch" text:min-label-width="0.1965inch"/></text:list-level-style-number><text:list-level-style-number text:level="6" style:num-suffix="." style:num-format="1"><style:properties text:space-before="0.9846inch" text:min-label-width="0.1965inch"/></text:list-level-style-number><text:list-level-style-number text:level="7" style:num-suffix="." style:num-format="1"><style:properties text:space-before="1.1815inch" text:min-label-width="0.1965inch"/></text:list-level-style-number><text:list-level-style-number text:level="8" style:num-suffix="." style:num-format="1"><style:properties text:space-before="1.3787inch" text:min-label-width="0.1965inch"/></text:list-level-style-number><text:list-level-style-number text:level="9" style:num-suffix="." style:num-format="1"><style:properties text:space-before="1.5752inch" text:min-label-width="0.1965inch"/></text:list-level-style-number><text:list-level-style-number text:level="10" style:num-suffix="." style:num-format="1"><style:properties text:space-before="1.7724inch" text:min-label-width="0.1965inch"/></text:list-level-style-number></text:list-style><text:list-style style:name="UnOrdered List"><text:list-level-style-bullet text:level="1" text:style-name="Bullet Symbols" text:bullet-char="•"><style:properties text:min-label-width="0.1965inch" fo:font-family="StarSymbol" style:font-charset="x-symbol"/></text:list-level-style-bullet><text:list-level-style-bullet text:level="2" text:style-name="Bullet Symbols" text:bullet-char="•"><style:properties text:space-before="0.1972inch" text:min-label-width="0.1965inch" fo:font-family="StarSymbol" style:font-charset="x-symbol"/></text:list-level-style-bullet><text:list-level-style-bullet text:level="3" text:style-name="Bullet Symbols" style:num-suffix="." text:bullet-char="•"><style:properties text:space-before="0.3937inch" text:min-label-width="0.1965inch" fo:font-family="StarSymbol" style:font-charset="x-symbol"/></text:list-level-style-bullet><text:list-level-style-bullet text:level="4" text:style-name="Bullet Symbols" style:num-suffix="." text:bullet-char="•"><style:properties text:space-before="0.5909inch" text:min-label-width="0.1965inch" fo:font-family="StarSymbol" style:font-charset="x-symbol"/></text:list-level-style-bullet><text:list-level-style-bullet text:level="5" text:style-name="Bullet Symbols" style:num-suffix="." text:bullet-char="•"><style:properties text:space-before="0.7874inch" text:min-label-width="0.1965inch" fo:font-family="StarSymbol" style:font-charset="x-symbol"/></text:list-level-style-bullet><text:list-level-style-bullet text:level="6" text:style-name="Bullet Symbols" style:num-suffix="." text:bullet-char="•"><style:properties text:space-before="0.9846inch" text:min-label-width="0.1965inch" fo:font-family="StarSymbol" style:font-charset="x-symbol"/></text:list-level-style-bullet><text:list-level-style-bullet text:level="7" text:style-name="Bullet Symbols" style:num-suffix="." text:bullet-char="•"><style:properties text:space-before="1.1815inch" text:min-label-width="0.1965inch" fo:font-family="StarSymbol" style:font-charset="x-symbol"/></text:list-level-style-bullet><text:list-level-style-bullet text:level="8" text:style-name="Bullet Symbols" style:num-suffix="." text:bullet-char="•"><style:properties text:space-before="1.3787inch" text:min-label-width="0.1965inch" fo:font-family="StarSymbol" style:font-charset="x-symbol"/></text:list-level-style-bullet><text:list-level-style-bullet text:level="9" text:style-name="Bullet Symbols" style:num-suffix="." text:bullet-char="•"><style:properties text:space-before="1.5752inch" text:min-label-width="0.1965inch" fo:font-family="StarSymbol" style:font-charset="x-symbol"/></text:list-level-style-bullet><text:list-level-style-bullet text:level="10" text:style-name="Bullet Symbols" style:num-suffix="." text:bullet-char="•"><style:properties text:space-before="1.7724inch" text:min-label-width="0.1965inch" fo:font-family="StarSymbol" style:font-charset="x-symbol"/></text:list-level-style-bullet></text:list-style><text:list-style style:name="Var List"><text:list-level-style-bullet text:level="1" text:style-name="Bullet Symbols" text:bullet-char=""><style:properties text:min-label-width="0.1965inch" fo:font-family="StarSymbol" style:font-charset="x-symbol"/></text:list-level-style-bullet><text:list-level-style-bullet text:level="2" text:style-name="Bullet Symbols" style:num-suffix="." text:bullet-char=""><style:properties text:space-before="0.1972inch" text:min-label-width="0.1965inch" fo:font-family="StarSymbol" style:font-charset="x-symbol"/></text:list-level-style-bullet><text:list-level-style-bullet text:level="3" text:style-name="Bullet Symbols" style:num-suffix="." text:bullet-char=""><style:properties text:space-before="0.3937inch" text:min-label-width="0.1965inch" fo:font-family="StarSymbol" style:font-charset="x-symbol"/></text:list-level-style-bullet><text:list-level-style-bullet text:level="4" text:style-name="Bullet Symbols" style:num-suffix="." text:bullet-char=""><style:properties text:space-before="0.5909inch" text:min-label-width="0.1965inch" fo:font-family="StarSymbol" style:font-charset="x-symbol"/></text:list-level-style-bullet><text:list-level-style-bullet text:level="5" text:style-name="Bullet Symbols" style:num-suffix="." text:bullet-char=""><style:properties text:space-before="0.7874inch" text:min-label-width="0.1965inch" fo:font-family="StarSymbol" style:font-charset="x-symbol"/></text:list-level-style-bullet><text:list-level-style-bullet text:level="6" text:style-name="Bullet Symbols" style:num-suffix="." text:bullet-char=""><style:properties text:space-before="0.9846inch" text:min-label-width="0.1965inch" fo:font-family="StarSymbol" style:font-charset="x-symbol"/></text:list-level-style-bullet><text:list-level-style-bullet text:level="7" text:style-name="Bullet Symbols" style:num-suffix="." text:bullet-char=""><style:properties text:space-before="1.1815inch" text:min-label-width="0.1965inch" fo:font-family="StarSymbol" style:font-charset="x-symbol"/></text:list-level-style-bullet><text:list-level-style-bullet text:level="8" text:style-name="Bullet Symbols" style:num-suffix="." text:bullet-char=""><style:properties text:space-before="1.3787inch" text:min-label-width="0.1965inch" fo:font-family="StarSymbol" style:font-charset="x-symbol"/></text:list-level-style-bullet><text:list-level-style-bullet text:level="9" text:style-name="Bullet Symbols" style:num-suffix="." text:bullet-char=""><style:properties text:space-before="1.5752inch" text:min-label-width="0.1965inch" fo:font-family="StarSymbol" style:font-charset="x-symbol"/></text:list-level-style-bullet><text:list-level-style-bullet text:level="10" text:style-name="Bullet Symbols" style:num-suffix="." text:bullet-char=""><style:properties text:space-before="1.7724inch" text:min-label-width="0.1965inch" fo:font-family="StarSymbol" style:font-charset="x-symbol"/></text:list-level-style-bullet></text:list-style><text:footnotes-configuration style:num-format="1" text:start-value="0" text:footnotes-position="page" text:start-numbering-at="document"/><text:endnotes-configuration style:num-format="i" text:start-value="0"/><text:linenumbering-configuration text:number-lines="false" text:offset="0.1965inch" style:num-format="1" text:number-position="left" text:increment="5"/></office:styles><office:automatic-styles><style:page-master style:name="pm1"><style:properties fo:page-width="8.2673inch" fo:page-height="11.6925inch" style:num-format="1" style:print-orientation="portrait" fo:margin-top="1inch" fo:margin-bottom="1inch" fo:margin-left="1.25inch" fo:margin-right="1.25inch" style:writing-mode="lr-tb" style:footnote-max-height="0inch"><style:footnote-sep style:width="0.0071inch" style:distance-before-sep="0.0398inch" style:distance-after-sep="0.0398inch" style:adjustment="left" style:rel-width="25%" style:color="#000000"/></style:properties><style:header-style/><style:footer-style/></style:page-master></office:automatic-styles><office:master-styles><style:master-page style:name="Standard" style:page-master-name="pm1"/></office:master-styles></office:document-styles> 

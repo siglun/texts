@@ -1,0 +1,875 @@
+<?xml version="1.0" encoding="iso-8859-1"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+      "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html>
+  <head>
+    <title>
+      Ett nordisk digitalt bibliotek för medeltida handskrifter
+      baserad på katalogisering i Master och textmarkering enligt Menota:
+      Ettprojektförslag
+    </title>
+    <meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1"/>
+    <link type="text/css"
+      href="/css-style/html_print.css" 
+      rel="stylesheet" />
+  </head>
+  <body>
+    <div class="level1">
+
+      <h1 class="title">Ett nordiskt digitalt bibliotek för medeltida
+	handskrifter baserad på katalogisering i Master och textmarkering
+	enligt Menota:<br />Ett projektförslag</h1>
+
+      <p class="author">Sigfrid Lundberg<br />
+	Biblioteksdirektionen<br />
+	Lunds universitet
+      </p>
+
+      <div class="level2">
+	<h2>0. Innehållsförteckning</h2>
+	<dl>
+	  <dt>1. <a href="#sect1">Bakgrund</a></dt>
+	  <dd>1.1 <a href="#sect1.1">TEI och Master -- var möts de
+	      två?</a></dd> 
+	  <dt>2. <a href="#sect2">Sök- länkningsteknologi i Laurentius</a></dt>
+	  <dd>2.2 <a href="#sect2.2">Länkning till digitaliserade
+	      objekt</a></dd> 
+	  <dt>3 <a href="#sect3"> Från S:t Laurentius till en nordisk
+	      handskriftsportal</a></dt> 
+	  <dd>3.1 <a href="#sect3.1">Länkning mellan samkatalogen,
+	      digitaliserade 
+	      objekt och fulltexter</a></dd>
+	  <dd>3.2 <a href="#sect3.2">Sökning i fulltext</a></dd>
+	  <dd>3.3 <a href="#sect3.3">Generalisering av gränssnitt</a></dd>
+	  <dt>4 <a href="#sect4">Projektplan och kostnader</a></dt>
+	  <dt>5 <a href="#sect5">Noter</a></dt>
+	  <dt>Appendix A: <a href="#appendixa">Förfrågan från Rune
+	      Kyrkjebø</a></dt> 
+	  <dt>Appendix B: <a href="#appendixb">Ur ett brev från Rune
+	      Kyrkjebø</a></dt> 
+	  <dt>Appendix C: <a href="#appendixc">Namngivning av bildfiler i
+	      Laurentius</a> </dt>
+	  <dt>Appendix D: <a href="#appendixd">Revisionshistoria</a></dt>
+	</dl>
+
+      </div>
+
+      <div class="level2">
+	<h2 id="sect1">1. Bakgrund</h2>
+
+	<p>
+	  Denna text är skriven som en respons på en förfrågan (se <a
+	    href="#appendixa">Appendix A</a>) från
+	  Rune Kyrkjebø, fackansvarig för specialsamlingarna vid
+	  Universitetsbiblioteket i Bergen [<a href="#ub-uib">UB UIB</a>].
+	  <span id="answer1">Förfrågan gällde från början om vi skulle kunna
+	    vara beredda att dela med oss av den programvara vi använder, men
+	    har vidgats till att gälla om det skulle vara möjligt att använda
+	  tjänsten <em>S:t Laurentius Digital Manuscript Library</em> [<a
+	      href="#laurentius">Laurentius</a>] så att den skulle kunna stå
+	  som värd för beskrivningar av medeltidshandskrifter från andra
+	  biblioteks samlingar, och därmed på sikt utvecklas till en Nordisk
+	  "portal" eller "nätverk" (i fortsättningen kallar jag denna framtida
+	  tjänst för en <em>handskriftsportal</em> trorts att begreppet portal
+	  är utslitet sedan länge) för nordiska bibliotek som tillgängliggör
+	  digitaliserat material av detta slag (se <a href="appendixb">Appendix
+	    B</a>). I det skisserade projektet skulle alltså ingå att bygga ett
+	  konsortium av innehållsleverantörer -- bibliotek och
+	  forskningsinstitutioner inom språkområdet.</span></p>
+
+	<p>
+	  Rune Kyrkjebø anger att en förutsättning för arbetet skulle vara att
+	  handskriftsportalen måste kunna ingå i ett slags symbiotiskt
+	  förhållande till <em>Medieval Nordic Text Archive</em> [<a
+	    href="#menota">Menota</a>], och att man utöver länkning till bilder
+	  skulle kunna både länka till och söka i fulltexter. Rune ställer
+	  direkt frågan om detta skulle kunna integreras redan från början (<a
+	    href="#query5">se Runes brev</a>). 
+	</p>
+
+	<p>
+	  Detta är en idéskiss (tillsvidare för intern användning)
+	  till hur Laurentius skulle kunna utvecklas för att fylla en sådan
+	  funktion. För att detta skall vara möjligt är att Laurentiustjänsten
+	  vidarutvecklas och generaliseras vad gäller sökning och
+	  länkning. Dessutom beskriver jag hur vi åstadkommer länkning till
+	  digitaliserade bilder från våra handskriftsbeskrivningar, vilket
+	  skulle vara en viktig funktion i handskriftsportalen. 
+	</p>
+
+	<div class="level3">
+	  <h3 id="sect1.1">1.1 TEI och Master -- var möts de två?</h3>
+
+	  <p>
+	    I Laurentius används Master, vilket är en standard för deskriptiv
+	    katalogisering och beskrivning av manuskript.
+
+	    Målen för utvecklingen av Laurentius var att digitalisera hela
+	    Lunds universitetsbiblioteks bestånd av medeltida handskrifter, att
+	    beskriva dem enligt enligt Master och att tillgängliggöra detta i
+	    en öppen tjänst på Internet. 
+
+	    Beskrivningsstandarden utvecklades inom ramen för Masterprojektet
+	    [<a 
+	      href="#master">MASTER</a>]. Utvecklingen av Master skedde i nära 
+	    samarbete [<a href="#samarbete">TEIMAST</a>] med TEI-Consortium som
+	    efter projektets också koordinerar det vidare arbetet med
+	    beskrivningsstandarden  [<a href="#TEI-MMSS">TEI MMSS</a>].
+	  </p>
+
+	  <p>
+	    Menota är ett initiativ som har två syften,
+	    ett mera kortsiktigt och ett mera långsiktigt. Det förra är att
+	    fastställa riktlinjer för TEI-kompatibel XML-markering av
+	    Nordiska fornskrifter, det senare är att bygga ett textarkiv av
+	    sådana. Det förra målet är uppnått i den meningen att den första
+	    versionen av projektets handbok nu är publicerad [<a
+	      href="#handbook">Handbook</a>]. Arbetet med att det andra, och
+	    mycket mer, omfattande målet har också påbörjats genom bland
+	    annat det stora Vadstenaprojektet [<a
+	      href="#vadstena">Vadstena</a>] och Menota Tekst- og verktøybase
+	    [<a href="#menotatvb">Menota TvB</a>]. 
+	  </p>
+
+	  <p>
+	    Menota och de projekt som utnyttjar den standarden och Master och
+	    Laurentius andra liknande tjänster har gemensama mål, men där
+	    föreligger också skillnader. Den mest uppenbara är att Menota har
+	    som mål att tillgängliggöra fulltexter, och att dessa skall kunna
+	    sökas med korpuslingvistiska metoder [<a
+	      href="#menota-search">Menota search</a>]. Laurentius
+	    tillgängliggör digitaliserade  bilder och ger sökning och
+	    navigation baserade på en "innehållsförteckningslik" beskrivning
+	    och annan deskriptiva information [<a
+	      href="#laurentius-search">Laurentius search</a>]. 
+	  </p>
+
+	  <p>
+	    Utöver att de två typerna av tjänsterna kompletterar varandra finns
+	    där djupare beröringspunkter. En stor del av Menotas handbok
+	    handlar, helt naturligt, om själva texten; det som i ett
+	    TEI-dokument finns i <kbd>&lt;body&gt; ... &lt;/body&gt;</kbd>. Det
+	    som Laurentius koncentrerar sig på har sin hemvist i
+	    <kbd>&lt;sourceDesc&gt; ... &lt;/sourceDesc&gt;</kbd> 
+	    [<a href="#sourceDesc">sourceDesc</a>].
+
+	    Funktionellt kan innehållet i source description användas för att
+	    korrelera ett dokumentet logiska struktur (kapitel och 
+	    stycken) till källans fysiska struktur (sida eller folio och rad),
+	    vilket typiskt är det som krävs för att länka till digitala bilder.
+
+	    TEI kan i <kbd>&lt;body&gt; ... &lt;/body&gt;</kbd> åstadkomma
+	    samma länkning via markeringar som <kbd>&lt;lb/&gt;</kbd>,
+	    <kbd>&lt;cb/&gt;</kbd>, <kbd>&lt;pb/&gt;</kbd>  och, mest
+	    generellt, i <kbd>&lt;milestone/&gt;</kbd> 
+	  </p>
+
+	  <p>
+	    Så, svaret på frågan var Master möter TEI, och mer specifikt, var
+	    <em>S:t Laurentius Digital Manuscript Library</em> möter
+	    <em>Medieval Nordic Text Archive</em> får bli: I beskrivningen av
+	    handskrifterna (i TEIs/Menotas
+	    <kbd>&lt;sourceDesc&gt;...&lt;/sourceDesc&gt;</kbd>) och i
+	    synnerhet i korrelationen mellan dess logiska och fysiska struktur.
+	  </p>
+
+	  <p>
+	    För att mötet skall bli fruktbart krävs en likforming identifiering
+	    av strukturella element i ett dokument. Det enklaste sättet att
+	    uppnå detta är att beskrivningen i &lt;sourceDesc&gt; använder
+	    samma numrering i sina &lt;msItem&gt;-markeringar som används i
+	    dokumentets &lt;div&gt;-markering. Det vill säga:
+	  </p>
+
+	  <pre>
+  &lt;div type="work">
+    &lt;div type="chapter" n="1">
+      &lt;p> ... &lt;/p>
+    &lt;/div>
+    &lt;div type="chapter" n="2">
+      &lt;p> ... &lt;/p>
+      &lt;div type="section" n="2.1">
+        &lt;p> ... &lt;/p>
+      &lt;/div>
+    &lt;/div>
+  &lt;/div>
+	  </pre>
+	  
+	  <p>måste motsvaras av</p>
+
+	  <pre>
+  &lt;msContent>
+    &lt;msItem type="chapter" n="1">
+      &lt;locus from="1r" to="100r">
+		  ff 1r-100r&lt;/locus>
+    &lt;/msItem>
+      &lt;msItem n="2">
+        &lt;locus from="100v" to="200v">
+	  ... &lt;/locus>
+        &lt;msItem n="2.1">
+           &lt;locus from="175v" to="100v">
+	  ... &lt;/locus>
+        &lt;/msItem>
+    &lt;/msItem>
+  &lt;/msContent>
+	  </pre>
+
+	  <p>annars blir arbetet svårt. Alla &lt;div&gt;-taggar behöver
+	    naturligtvis inte ha en motsvarighet i en &lt;msItem&gt; -- men
+	    numreringen bör vara densamma. Om inte måste vi ha en tydlig
+	    referens mekanism av typen IDREF->ID, kan inte i skrivande stund se
+	    vilken som vore bäst. Innan jag kan integrera Menota-beskrivningar
+	    i Laurentiusliknande handskriftsportal skulle jag faktiskt vilja
+	    förtydligande från Menota i detta spörsmål [<a
+	      href="#menota-msitem">Menota-msItem</a>]. 
+	  </p>  
+	</div>
+      </div>
+
+      <div class="level2">
+	<h2 id="sect2">2. Sök- länkningsteknologi i Laurentius</h2>
+
+	<p>
+	  Laurentius tillgängliggör digitaliserade bilder och ger sökning och
+	  navigation baserade på följande huvud element i Master:</p>
+
+	<dl>
+	  <dt>msIdentifier</dt>
+	  <dd>Identifies the manuscript by naming its physical location and
+	    mentioning its call number.</dd> 
+
+	  <dt>msHeading</dt>
+	  <dd>Basic metadata, such as author, title and date and place of
+	    origin.</dd> 
+
+	  <dt>msContent</dt>
+	  <dd>Basically a table of contents. A list of manuscript items,
+	    msItems. Each msItem may contain other items, so this is a
+	    hierarchical structure. 
+	  </dd>
+
+	  <dt>physDesc</dt>
+	  <dd>The physical description, such as extent, form, binding etc, but
+	    also writing system, number of hands and numerous other aspects of
+	    a manuscript.</dd> 
+
+	  <dt>history</dt>
+	  <dd>Information about the origin, provenance and acquisition of the
+	    volume</dd>  
+
+	  <dt>msAdditional</dt>
+	  <dd>Placeholder for various other information, including metadata for
+	    the catalog entry itself and a bibliography.</dd>  
+
+	  <dt>msPart</dt>
+	  <dd>For composite manuscripts, that is, manuscripts arising at some
+	    later time by binding together a number of items that in a previous
+	    life lead an independent life. The DTD permits the msPart element
+	    to 	contain other msParts.</dd> 
+	</dl>
+
+	<p>
+	  Syftet med sökmaskinen är tvåfaldig: (1) Att göra det möjligt för
+	  forskare att återsöka intellektuellt innehåll (som kan vara välkänt),
+	  och (2) att söka urskrifter med specifika karaktäristika. Dessa mål,
+	  som kanske skall betraktas som formulerade ur ett Digital
+	  Library-perspektiv, nås genom att definiera en hierarkisk struktur,
+	  en "ontologi", av sökattribut [<a
+	    href="#laurentius-search">Laurentius search</a>]. 
+	</p>
+
+	<p>
+	  Detta innebär att Laurentius har "portal capabilities", men kan inte
+	  tillfredsställa (och var inte heller i sin design tänkt att kunna) en
+	  forskares behov när det gäller sökning på lingvistiska detaljer i
+	  handskriftens innehåll. 
+	</p>
+
+	<div class="level3">
+	  <h3 id="sect2.2">2.2 Länkning till digitaliserade objekt</h3>
+	  
+	  <p>
+	    I Laurentius uppnås länkning till digitala surrogat genom en
+	    enkel men tillräckligt begåvad namngivning av bildfilerna (Se <a
+	      href="#appendixc">Appendix C</a>).
+	  </p>
+
+	  <p>Ett intellektuellt innehåll beskrivs i Laurentius (bibliografiska
+	    hänvisningar strukna):</p>
+
+	  <pre>
+ &lt;msItem n="2"&gt;
+    &lt;locus from="1v" to="2v"&gt;ff. 1v-2v&lt;/locus&gt;
+    &lt;title type="uniform"&gt;Decretum pacti Kanuti regis
+   XII kal. Junii 1085&lt;/title&gt;
+    &lt;title type="parallel" lang="SWE"&gt;Knut den
+    Heliges gåvobrev den 21 maj 1085&lt;/title&gt;
+    &lt;note&gt;&lt;p&gt;Written c. 1123 at its latest,
+    according to Kroman.&lt;/p&gt;&lt;/note&gt;
+
+    ...
+
+ &lt;/msItem&gt;
+	  </pre>
+
+	  <p>Titlar, incipit, explicit, notes osv är sökbara i databasen, och
+	    kan studeras i kontext i den detaljerade presentationen. I både
+	    <a
+	      href="http://laurentius.lub.lu.se/search/search.php?term=Decretum+pacti+Kanuti+regis&amp;start=1&amp;number=10&amp;action=Search">sökresultat</a>, och presentationen av den kompletta  
+<a
+	      href="http://laurentius.lub.lu.se/volumes/Mh_6/detailed/#Mh_6-item2">beskrivningen</a> omvandlas</p>
+
+	  <pre>
+    &lt;locus from="1v" to="2v"&gt;ff. 1v-2v&lt;/locus&gt;
+	  </pre>
+
+	  <p>till ett databasuppslag i bilddatabasen:</p>
+
+	  <pre>
+ http:// ... /<a
+	      href="http://laurentius.lub.lu.se/cgi-bin/image-range.cgi?volume=Mh_6&amp;start=1v&amp;end=2v">image-range.cgi?volume=Mh_6&amp;start=1v&amp;end=2v</a>
+	  </pre>
+
+	  <p><kbd>imaga-range.cgi</kbd> är ett program skrivet av Mattias
+	    Borell, Biblioteksdirektionen vid Lunds universitet. Vi hanterar
+	    hänvisningar till loci i löpande text på samma sätt (t ex för
+	    dekorationer):</p> 
+
+	  <pre>
+ f. &lt;locus&gt;5v&lt;/locus&gt;: large inhabited
+ initial (A) of uncial type, 7 lines high in red outline
+ drawing against a blue background delicately following the
+ contours of the initial, ...
+	  </pre>
+
+	  <p>där <kbd>&lt;locus&gt;5v&lt;/locus&gt;</kbd> genererar följande
+	      URL</p> 
+
+	  <pre>
+ http:// ... /<a
+	      href="http://laurentius.lub.lu.se/cgi-bin/image-range-db.cgi?volume=Mh_6&amp;start=5v&amp;end=5v">image-range-db.cgi?volume=Mh_6&amp;start=5v&amp;end=5v</a>
+	  </pre>
+
+	</div>
+
+      </div>
+
+      <div class="level2">
+	<h2 id="sect3">3 Från S:t Laurentius till handskriftsportal</h2>
+
+	<p>Laurentius kan inte, som tjänsten är konstruerad, ta emot poster
+	  från när och fjärran. Tjänsten måste generaliseras och vi måste
+	  utveckla en form av "multiplexing" -- programmen måste kunna
+	  leverera samma material med olika grafisk profil, och från varje
+	  enskild tjänst grafisk profil bör man kunna länka till en
+	  övergripande portal som tillgängliggör allt material.</p>
+
+	<p>Tjänsten måste förses med en redaktionell infrastruktur. Framför
+	  allt måste det implementeras en uppladdningsfunktion för
+	  handskriftsbeskrivningar som automatiskt validerar inkommande
+	  material (såväl beskrivningar som menota fulltexter, vilka ju redan
+	  har en Laurentiuskompatibel sourceDesc). Systemet måste ha ett
+	  versionshanteringssystem, eller kanske till och med vara ett sådant.
+	  Concurrent Versions System [<a href="#cvs">CVS</a>] skulle lämpa
+	  sig för ändamålet, eftersom det har säker nätburen access med
+	  klienter tillgängliga för de flesta operativsystem och dessutom
+	  tillåter att flera användare samtidigt bearbetar ett dokument. Ett
+	  gränssnitt måste finnas för publicering av godtycklig version.</p> 
+
+	<p>Allt detta innebär en betydligt större dynamik i systemet än vad
+	  vi har implementerat för tillfället har. Laurentius styrs av
+	  mängder med skript som vi som används för att på begäran skriva ut
+	  hela navigationsstrukturen, när nya bilder läggs till eller när
+	  handskriftsbeskrivningarna reviderats.</p>
+
+	<p>För närvarande har vi säker lagring i ett RAID-system, med en
+	  bandrobot för säkerhetskopiering. Lagringskapaciteten är för
+	  närvarande omkring en TB och vi kan inte ta emot bilder från
+	  ytterligare projekt utan en ganska stor investering (den är inte
+	  enorm, men stor. Lagring skulle vara relativt billig, men för
+	  säkerhetskopieringen skulle vi behöva en större robot).</p>
+
+	<p>Detta innebär att vi till att börja med inte kan stå till tjänst
+	  med lagring eller leverans av bilder till användarna. Detta kan
+	  ändras men vi måste ha ett tydligt uppdrag för att kunna åta oss
+	  ett sådant relativt stort arbete och ansvarstyngt arbete.</p>
+
+	<div class="level3">
+	  <h3 id="sect3.1">3.1 Länkning mellan samkatalogen, digitaliserade objekt
+	    och fulltexter</h3>
+
+	    <p>Eftersom varje deltagare måste producera sin egen bilddatabas,
+	      måste det finnas en infrastruktur för varje deltagande
+	      institution som gör det jobb vårt lilla skript
+	      <kbd>image-range.cgi</kbd> gör i Laurentius (Se <a
+	      href="#sect2.2">sektion 2.2</a>). 
+	      <span id="requirement1">Lämpligen kan vi utveckla ett
+		formulärsbaserat system för detta ändamål. Det skulle göra att
+		i handskriftsportalen kan generera godtyckliga uppslag från
+		bilddatabasen.</span>  
+	    </p>
+
+	    <p>Givet att korrelationen mellan fysisk och logisk struktur
+	      klargörs (Se  <a href="#sect1.1">sektion 1.1</a> ovan)  kan en
+	      liknande mekanism utvecklas för fulltexter. <span
+	      id="requirement2">Det skall gå en länk från varje &lt;msItem&gt;
+	      kan till motsvarande &lt;div&gt;, &lt;pb/&gt; or &lt;lb&gt;  i
+	      fulltexten och visa versa</span>.</p>  
+
+	    <p>
+	      Givet att man inom Menota utför konsekvent mile-stonemarkering
+	      (med taggar som <kbd>&lt;lb/&gt;</kbd>, <kbd>&lt;cb/&gt;</kbd>,
+	      <kbd>&lt;pb/&gt;</kbd>  och, mest generellt, i
+	      <kbd>&lt;milestone/&gt;</kbd>) kan man utveckla länkning från
+	      bild till metadata eller fulltext.
+	      <span id="requirement3">Från en given bild skall det finnas en
+		länk direkt till en transkription eller göra ett uppslag av
+		tillhörande metadata i det <kbd>&lt;msItem&gt;</kbd> vars
+		<kbd>&lt;locus&gt;</kbd> snävast omsluter sidan med sitt
+		'to'-'from'-intervall.</span>  
+	    </p>
+
+	  </div>
+
+	  <div class="level3">
+	    <h3 id="sect3.2">3.2 Sökning i fulltext</h3>
+
+	    <p><span id="requirement4">En integrering av fulltextsökning i
+		enlighet med Menota [<a href="#menota-search">Menota
+		  search</a>] är lika möjlig som önksvärd.</span> Att sätta
+	      prislapp på den är inte helt lätt -- det beror på hur mycket nya
+	      programvaror som måste installeras och i vad mån de låter sig
+	      accessas med de program som vi använder för bygga
+	      handskriftsportalen.</p> 
+
+	</div>
+	<div class="level3">
+	  <h3 id="sect3.3">3.3 Generalisering av gränssnitt</h3> 
+
+	  <p>För att snabbt och enkelt kunna lägga till nya samlingar till en
+	    handskriftsportal, skulle vi behöva helt och hållet byta ut delar
+	    av systemet. Alla enskilda medlemmar skall kunna ha sitt eget
+	    grafiska gränssnitt, men en och endast en uppsättning med program
+	    skall användas för att leverera dessa. Annars kommer tjänsten att
+	    bli svår att underhålla på sikt.
+	  </p>
+
+	  <p>Mitt förslag är att portera systemet till Keystone DLS 
+	    [<a href="#keystone">keystone</a>]. Det har två fördelar: Det
+	    databassystem [<a href="#zebra">Zebra</a>] vi använder i
+	    Laurentius är lätt att integrera i en Keystone-baserad
+	    tjänst. Systemet är nästan uteslutande skrivet i XSLT med ett
+	    bibliotek och API i php och det skulle vara relativt enkelt att
+	    skriva om våra adminstrationsskript (Skrivna i PERL) så att de
+	    genererar data i neutral XML istället för statiska 
+	    htmlsidor.</p>
+
+	  <p>Det för närvarande statiska navigationssystemet (bläddring per
+	    call number, author, title osv) måste byggas om och göras
+	    dynamiskt, så att godtyckliga kombinationer av samlingar skall
+	    kunna navigeras tillsammans. Det måste vidare göras mera
+	    överskådligt för kunna hantera den större volym av material som 
+	    handskriftsportalen skulle innebära.</p>
+
+	  <p>Systemet kan accessa omvärlden och databaser i den via Z39.50,
+	    SQL och Webservices (SOAP). Något av dessa protokoll/sökspråk
+	    skulle kanske kunna användas för integrering av Menota och
+	    Laurentius?</p>
+
+	  <p id="answer2">Vi har tre helt ganska olika publiceringsdatabaser
+	    med en installation av Keystone, med exakt samma bibliotek skrivet
+	    XSLT och php [<a href="#xerxes">Xerxes</a>].</p>
+
+	  </div>
+
+      </div>
+
+      <div class="level2">
+
+	<h2 id="sect4">4 Projektplan och kostnader</h2>
+
+	<p>Jag ser detta som ett projekt som en trestegsraket:</p>
+
+	<ol>
+	  <li>Implementering av en högre grad av automatisering av det
+	    redaktionella arbetet inom Laurentius. Ett samarbetsprojekt med
+	    innehåll från flera källor kan inte drivas med manuell inläggning
+	    och validering.</li>
+
+	  <li>Implementering av en modulär portal som tillåter multipla
+	    gränssnitt för individuella medlemmar.</li>
+
+	  <li>Implementering av integrerad sökning och navigering av
+	    digitaliserade bilder, metadata i form av &lt;msDescription&gt;s
+	    beskri, och slutligen fulltexter i enlighet med
+	    Menotastandard.</li> 
+	</ol>
+
+	<p>S:t Laurentius har i dag hälften av punkt 3, och kan utveckla
+	  punkterna 1 och 2. Biblioteksdirektionen skulle uppskatta samarbete
+	  med Menota och Aksis för att komplettera funktionaliteterna i punkt
+	  så att fulltexter kan sökas fullt ut. Hur lätt detta är svårt att
+	  uttala sig om, men om det kan ske med väl dokumenterade Web services
+	  eller länkningsscheman som utvecklas under projektets gång bör det
+	  vara överkomligt problem.</p> 
+
+	<p>Inom ramen för ett två manmånaders projekt törs jag dock bara utlova
+	  det vi redan har inom Laurentius när det gäller sök och navigering,
+	  samt punkterna 1 och 2 ovan.</p>
+      </div>
+
+      <div class="level2">
+	<h2 id="sect5">5 Noter</h2>
+
+	<p id="ub-uib"><strong>[UB UIB]</strong> Universitetsbiblioteket i Bergen
+	  <a href="http://www.ub.uib.no/">http://www.ub.uib.no/</a>
+	</p> 
+
+	<p id="laurentius"><strong>[Laurentius]</strong> S:t Laurentius Digital Manuscript
+	    Library 
+	  <a
+	      href="http://laurentius.lub.lu.se/">http://laurentius.lub.lu.se</a>
+	</p> 
+
+	<p id="master"><strong>[MASTER]</strong> Manuscript Access through Standards for
+	    Electronic Records
+	    <a href="http://www.cta.dmu.ac.uk/projects/master/index.html">
+	      http://www.cta.dmu.ac.uk/projects/master/index.html
+	    </a>
+	</p>
+
+	<p id="samarbete"><strong>[TEIMAST]</strong> MASTER and the TEI
+	    <a
+	      href="http://www.cta.dmu.ac.uk/projects/master/teimaster.html">http://www.cta.dmu.ac.uk/projects/master/teimaster.html</a>  
+	</p>
+
+	<p id="TEI-MMSS"><strong>[TEI MMSS]</strong> TEI Medieval Manuscripts Description Work
+	    Group (TEI MMSS) 
+	    <a
+	      href="http://www.merrilee.org/tei-mss/">http://www.merrilee.org/tei-mss/</a>
+
+	    <br />Jämför<br />
+
+	    Text Encoding Initiative: Taskforce on Manuscript Description
+	    <a
+	      href="http://www.tei-c.org/Activities/MS/">http://www.tei-c.org/Activities/MS/</a><br />
+
+	    Reference Manual for the MASTER Document Type Definition
+	    <a
+	      href="http://www.tei-c.org/Master/Reference/">http://www.tei-c.org/Master/Reference/</a><br />
+
+	</p>
+
+	<p id="menota"><strong>[Menota]</strong> Medieval Nordic Text Archive <a
+	      href="http://www.menota.org">http://www.menota.org/</a>
+	</p>
+
+	<p id="menota-handbook"><strong>[Handbook]</strong> The Menota handbook: Guidelines
+	    for the electronic encoding of Medieval Nordic primary
+	    sources. Version 1.0. Bergen: Medieval Nordic Text Archive, 2003.
+	    <a
+	      href="http://www.hit.uib.no/menota/guidelines">http://www.hit.uib.no/menota/guidelines</a></p> 
+
+	<p id="vadstena"><strong>[Vadstena]</strong> Vadstenaklostret som text- och
+	    handskriftsproducerande miljö - produktion, tradition och reception
+	    <a
+	      href="http://www.umu.se/littnord/Vadstena/index_vadstena.htm">http://www.umu.se/littnord/Vadstena/index_vadstena.htm</a>
+	</p>
+
+	<p id="menotatvb"><strong>[Menota TvB]</strong> Menota Text og
+	  Verktøybase <a href="http://helmer.aksis.uib.no/menota/TVB/index.html">http://helmer.aksis.uib.no/menota/TVB/index.html</a></p>
+
+	<p id="menota-msitem"><strong>[Menota-msItem]</strong> Jämför: Menota Handbook: 10.4
+	    Intellectual content <a
+	      href="http://helmer.aksis.uib.no/menota/guidelines/ch10/msdescript_1-0.html#10.4">http://helmer.aksis.uib.no/menota/guidelines/ch10/msdescript_1-0.html#10.4</a> och 4.3 Chapters: &lt;div&gt;
+
+	    <a href="http://helmer.aksis.uib.no/menota/guidelines/ch4/structure_1-0.html#4.3">http://helmer.aksis.uib.no/menota/guidelines/ch4/structure_1-0.html#4.3</a>
+	</p>
+
+	<p id="menota-search"><strong>[Menota search]</strong> Menotas søkesider
+	    <a
+	      href="http://helmer.aksis.uib.no/menota/search/search-test.htm">http://helmer.aksis.uib.no/menota/search/search-test.htm</a>
+	</p>
+
+	<p id="laurentius-search"><strong>[Laurentius search]</strong> Excursions along the
+	    border between metadata for resource discovery and for resource
+	    description  
+	    <a
+	      href="http://laurentius.lub.lu.se/search/presentation/laurentius.pdf">http://laurentius.lub.lu.se/search/presentation/laurentius.pdf</a>
+	</p> 
+
+	<p id="sourceDesc"><strong>[sourceDesc]</strong> 
+	  Beskrivning av medeltidsmanuskript enligt Master är en del av
+	  Menota. Se: Menota header 
+	    <a
+	      href="http://helmer.hit.uib.no/menota/guidelines/tools/header/menotaheader_1-0.html">http://helmer.hit.uib.no/menota/guidelines/tools/header/menotaheader_1-0.html</a>
+	</p>
+
+	<p id="cvs"><strong>[CVS]</strong> Concurrent Versions System <a
+	    href="http://www.cvshome.org/">http://www.cvshome.org/</a> 
+	</p>
+
+	<p id="keystone"><strong>[keystone]</strong> Keystone DLS
+	    <a href="http://www.indexdata.dk/keystone/">http://www.indexdata.dk/keystone/</a>
+	</p>
+
+	<p id="zebra"><strong>[zebra]</strong> Zebra
+	    <a href="http://www.indexdata.dk/zebra/">http://www.indexdata.dk/zebra/</a>
+	</p>
+
+	<p id="xerxes"><strong>[xerxes]</strong> Tjänsterna Xerxes
+	    <a
+	    href="http://theses.lub.lu.se/undergrad/">http://theses.lub.lu.se/undergrad/</a>
+	  och Scripta
+	    <a
+	    href="http://theses.lub.lu.se/postgrad/">http://theses.lub.lu.se/postgrad/</a> är egentligen bara en. Skillnaden bestäms av tjänstens URL.
+	</p>
+
+      </div>
+
+      <div class="level2">
+	<h2 id="appendixa">Appendix A: Förfrågan från Rune Kyrkjebø
+	  (2004-04-01)</h2>
+
+	<blockquote>
+	  I brevet ställer Rune ett antal frågor. Svaren på dem finns i texten,
+	  lite varstans. Svaret återfinns genom att klicka på <a
+	    href="#appendixa">&gt;&gt;</a> efter 
+	  frågan</blockquote>
+
+	<p>Her er informasjon om status i Bergen for prosjektet på våre
+	    latinske  middelalderfragment. Reknar med at den kjem i tide til
+	    møtet som de skal ha.</p>
+
+	<ol>
+
+	  <li>Vi har fått positive, foreløpige signal frå CMS og UBB om at
+	      dei 
+	    vil stille  med midlar til ca. 2 månadsverk (i alt) til dette
+	    prosjektet. Vi må  imidlertid avtale konkrete kronesummar først, og
+	    det formelle må vere i  orden. Det er administrative ting som må
+	    avklarast her. AKSIS har dessuten  stilt seg positive til å kunne
+	    bidra til ei minimal etter-drift når  månadsverka er oppbrukte, men
+	    med forbehold om kor mykje arbeid det er  snakk
+	    om. Menota-prosjektet er svært interessert og velvillig til å bidra
+	    med sin kompetanse. </li>
+
+	  <li>Til no har vi tenkt på å setje opp vår eigen database av St. 
+	    Laurentius-typen, for å legge inn i den, i første omgang, dei
+	    ca. 30  latinske middelalderfragmenta våre, med eit mål om å
+	    integrere katalog,  bilete, lister, søking og tekst.<br />
+
+	    Etter ein samtale med AKSIS i går, klarna det opp for meg at vi
+	    kanskje har  tenkt for gammaldags.
+	    <span id="query1">Vi ville jo spare mykje arbeid 
+	      på at vi heller  samarbeidde om St. Laurentius slik den allereie
+	      er oppe og går, og at  tillegg av data, evt. nye modular, skjedde
+	      på serveren i Lund?</span> [<a href="#answer1">&gt;&gt;</a>]
+	    Avtalte  bitar av utviklingsarbeidet kunne jo 
+	    likevel gjerast av AKSIS. Dette ville  også passe fint med
+	    samarbeidet som ser ut til å starte med København og
+	    forhåpentlegvis fleire; det blir vel neppe snakk om å lage kvar sin
+	    database, men heller å drive noko i fellesskap. <span id="query2">Å
+	      sikre langsiktig drift  kunne då i neste runde bli ei sak for
+	      nettverket av fleire bibliotek?</span> [<a
+	      href="#answer2">&gt;&gt;</a>] 
+	  </li> 
+
+	  <li>
+	    <span id="query3">Kunne vi tenke oss at det bergenske
+	      fragmentprosjektet gjekk inn som ein  eigen del-base i den
+	      eksisterande St. Laurentius, slik at vi i Bergen kunne  lenke oss
+	      til St. Laurentius frå ei eiga prosjektside som UBB og CMS lagar
+	      her?</span> <span id="query4">Den tekniske utfordringa 
+	    ville vel då vere å opne for del-basar i St.  Laurentius, slik at
+	    ein for eksempel kan avgrense søk og lister til  "manuskripter i UB
+	    Bergens samling". Ville ikkje dette vere ein fornuftig  stad å
+	    begynne?</span>[<a href="#answer2">&gt;&gt;</a>] </li> 
+
+	  <li>
+	    Sigfrid peikar i sitt utmerkte notat 
+	    <a
+	      href="http://laurentius.lub.lu.se/search/presentation/laurentius.pdf">http://laurentius.lub.lu.se/search/presentation/laurentius.pdf</a>, på mogelege   
+	    utbyggingar av St Laurentius, ikkje minst integreringa av full
+	    tekst. Her  har AKSIS relevant kompetanse saman med
+	    Menota-prosjektet. Også på  XML-transformering, XSL stylesheets har
+	    AKSIS god kompetanse som kunne vere  aktuell. <span
+	      id="query5">Kunne ein innanfor dei ressursane vi snakkar om, få
+	      gjort dette  også, altså integrert i St. Laurentius
+	      transkripsjonar i Menota-format?</span> [<a
+	      href="#sect4">&gt;&gt;</a>] 
+	  </li>  
+
+	  <li>
+	    Verkar dette som ein rasjonell plan? Kva vil dykkar ressursbehov
+	    vere for  at vi evt. kunne nå målet i pkt 3? Kunne vi klare å gjere
+	    både pkt. 3 og 4  innanfor dei ressursane vi håpar på?</li>
+
+	</ol>
+
+	<p>
+	  Vi ser mykje fram til dykkar tilbakemelding,<br />
+
+	  Beste helsingar, <br />
+
+	  Rune Kyrkjebø
+	</p>
+      </div>
+
+      <div class="level2">
+	  <h2 id="appendixb">Appendix B: Brev från Rune Kyrkjebø angående besök
+	  vid KB, Köpenhamn (2004-03-29)</h2> 
+
+	<p>På KB møtte vi representantar for handskriftavdelinga og
+	  forskingsavdelinga: Ivan Boserup, Erik Petersen og Karen
+	  Skovgaard-Petersen. I utgangspunktet var dette eit uformelt møte, for
+	  å bli kjent og informere kvarandre litt.</p>
+
+	<p>Vi diskuterte elektronisk katalogisering av manuskriptmateriale, og
+	  fant at våre utfordringar og våre ønske i stor grad var
+	  samanfallande.</p> 
+
+	<p>Eg fortalte KB om den velviljen som de i Lund har vist oss her i
+	  Bergen når det gjeld St. Laurentius. Eg fortalte dei at vi har på
+	  gang eit konkret samarbeid samarbeid for å gå vidare med det
+	  prosjektet. Det viste seg at KB også likar St. Laurentius-løysinga
+	  godt. Erik Petersen sa mykje fint om den.</p> 
+
+	<p>Ivan Boserup viste stor interesse for denne spiren til samarbeid, og
+	  føreslo straks at vi skulle tenke på eit større møte med fleire til
+	  stades, og planlegge korleis vi kan gå vidare. Ivan verka absolutt
+	  innstilt på å få KB til å legge ressursar i eit prosjekt som går på
+	  digital manuskriptkatalogisering, faksimile, og ikkje minst tekst
+	  (her er også Menota svært interessert i samarbeid).</p>
+
+	<p>Eg skriv no i første omgang for å informere dykk om at vi hadde
+	  dette møtet, at lysta på samarbeid i Kbh er stor, og at vi kom på den
+	  tanken at eit naturleg steg å ta ville vere å halde eit møte med
+	  fleire til stades (f.eks. Stockholms KB, Uppsala UB, Nasjonalbibl. i
+	  Oslo).</p> 
+
+	<p>Eg var ikkje heilt forberedt på at interessa for dette i København
+	  skulle vere så konkret og sterk. Elles skulle eg sjølvsagt bede dykk
+	  ta toget og kome med på møtet.</p>
+	</div>
+
+      <div class="level2">
+	<h2 id="appendixc">Appendix C: Namngivning av bildfiler i
+	  Laurentius</h2> 
+
+	<p>av Mattias Borell</p>
+
+	<pre>
+  Från "utsidan":
+  ===============
+  * Upper cover exterior:   ucext
+  * Upper cover interior:   ucint
+  * Lower cover interior:   lcint
+  * Lower cover exterior:   lcext
+  * Foredge:   foredge
+  * Spine:   spine
+  * Head:   head
+  * Tail:   tail
+
+  Bladen, 'folios':
+  =================
+  * Vanliga sidor, recto &amp; verso:   f_&lt;NR&gt;_(r|v)
+
+  * "Försättsblad" (preliminaries), recto &amp; verso:
+    f_&lt;RNR&gt;_(r|v) [preliminaries namnges &amp; identifieras
+    med romerska siffror, RNR här...]
+
+  Specialfall:
+  ============
+  * Uppslag - kan vara en blandning av de flesta redan
+    uppräknade typerna, t.ex 'ucint + prel Ir' eller
+    '78v + prel IIr'
+  * Originalpaginering: ersätter 'f' med 'p'
+  * Detaljer - även ett uppslag kan ha detaljer...: -detail
+
+
+  Så, med hänsyn till ovanstående, bör följande exempel
+  fungera:
+
+  Volym 98, prel 2 verso + folio 1 recto:
+  Mh_98_f_II_v-f_1_r
+
+  Volym 24, detalj av främre pärmens utsida:
+  Mh_24_ucext-detail_2
+
+  Volym 23, folio 231 recto:
+  Mh_23_f_321a_r
+  
+
+  Utsidan använder de ovan givna 8 namnen.
+  En sida definieras som : (f|p)_(NR|RNR)(\w)_(r|v)
+  Den extra bokstaven (\w) beror på sidor som '432b'.
+
+  Ett uppslag är en kombination av antingen 2 sidor, eller 1
+  sida och 'ucint' || 'lcint'. Kombinationen separeras med '-'.
+
+  Detaljer är ett möjligt tillägg till sidor/utsida/uppslag,
+ anges som suffix: -detail_&lt;NR&gt;.
+
+	</pre>
+
+      </div>
+
+      <div class="level2">
+	<h2 id="appendixd">Appendix D: Revisionshistoria</h2>
+	<p>
+	  $Date$<br />
+	  $Revision$<br />
+	  $Author$<br />
+	  <a
+	    href="revisioner.cgi?samkatalog_hosting.html">View revision
+	    history</a>.
+	</p>
+	<pre>
+
+<!--
+     Sorry for this, but this space is needed for the internal links to 
+     work properly! I apologize for wasting paper in your laser printer :-)
+ -->
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+	</pre>
+      </div>
+    </div>
+  </body>
+</html>

@@ -1,0 +1,19 @@
+<html xmlns="http://www.w3.org/1999/xhtml">
+  <head>
+    <title>
+      Exportfunktioner
+    </title>
+  </head>
+  <body>
+
+    <!--#include virtual="../toc.txt" -->
+
+    <h1>Export till Libris</h1>
+
+    <ol>
+      <li>Transformation EAD -> Marc 21 och DC</li>
+      <li>OAI-server</li>
+    </ol>
+    
+  </body>
+</html>

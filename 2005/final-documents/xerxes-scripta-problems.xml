@@ -1,0 +1,247 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE article PUBLIC "-//OASIS//DTD DocBook XML V4.1.2//EN"
+  "http://www.oasis-open.org/docbook/xml/4.1.2/docbookx.dtd" [
+]>
+
+<?xml-stylesheet
+      href="./db_special.xsl"
+      type="text/xsl"
+      media="screen"
+      title="default" ?>
+<!--
+
+$Id$
+
+Last changed $Date$ by $Author$
+
+-->
+
+<article lang="sv">
+  <articleinfo>
+    <title>Problemområden som i Xerxes och Scripta</title>
+    <author>
+      <firstname>Sigfrid</firstname>
+      <surname>Lundberg</surname>
+    </author>
+    <affiliation>
+      <orgname>Biblioteksdirektion, Lunds universitet</orgname>
+    </affiliation>
+      <revhistory>
+      <revision>
+	<revnumber>$Revision$</revnumber>
+	<date>$Date$</date>
+	<authorinitials>$Author$</authorinitials>
+      </revision>
+    </revhistory>
+    <indexterm>
+      <primary><ulink url="documentation.xml">Documentation</ulink></primary>
+      <seealso><ulink url="cataloging-tool.xml">Cataloging tool</ulink></seealso>
+    </indexterm>
+  </articleinfo>
+
+  <sect1  id="top">
+    <title>Problemområden</title>
+
+    <para>Tyvärr är det ganska omöjligt att identifiera problemområden som ännu
+      är okända, d.v.s. av "Jessica Andersson"-karaktär. Dessa
+      överraskningsproblem är de generellt mest allvarliga och de som kanske
+      kräver de snabbaste lösningarna. Några kända, mer allmänna och
+      vardagliga problemområden där dokumentation, om en sådan är möjlig,
+      skulle underlätta är nedan­stående:</para>
+
+    <sect2  id="high-priority">
+      <title>Hög prioritet</title>
+
+      <sect3 id="scripta-xerxes-connection">
+	<title>Kopplingen till Scripta</title>
+
+	<para>Vilka funktioner hänger ihop med Scripta? Vilka ändringar ger
+	  genomslag i båda systemen? Vilka ändringar slår inte igenom
+	  automatiskt i båda systemen men måste ändå hållas intakta
+	  (t.ex. ämnesklassningarna)?</para>
+      </sect3>
+
+      <sect3 id="file-import">
+
+	<title>Import av filer</title>
+	
+	<para>Till Xerxes importeras filer från olika databaser (Olle – 
+	  Ekonomihögskolan samt Campus Helsingborg). Hur sker denna import? Vem
+	  är kontaktpersoner på andra "sidan" om det uppstår fel?</para>
+
+      </sect3>
+
+      <sect3 id="file-export">
+
+	<title>Export av filer</title>
+
+	<para>Överföringen av filer till Uppsök – hur går den till?</para>
+
+	<para>Åtkomst av filer som ligger "utanför" Xerxes
+	  Nedteckning av hur man kommer åt gamla filer från Social- och
+	  beteende­vetenskapliga biblioteket.</para>
+
+      </sect3>
+
+      <sect3 id="user-interface">
+
+	<title>Första sidan</title>
+
+	<para>Hur ändrar man innehållet på första sidan? </para>
+
+      </sect3>
+
+      <sect3 id="cataloging-tool">
+	<title>Ändringar i inläggningsformuläret</title>
+
+	<para>Vem kan ändra i detta? Var gör man det? Hur gör man det? Behovet av
+	  ändringar gäller inte enbart att ändra i texten utan även hur man
+	  t.ex. lägger in nya sidor med nya funktioner (exempelvis en sida där
+	  inläggaren lämnar ett godkännande för publicering på nätet).</para>
+
+      </sect3>
+
+      <sect3 id="search-form">
+
+	<title>Sökformulär</title>
+
+	<para>Hur ändrar man sökfälten? Vilka fält är egentligen sökbara? Vilka
+	  kort­kommandon kan man använda för att söka på speciella fält
+	  (exempel: TI= titel o.s.v.)?</para>
+
+      </sect3>
+
+      <sect3 id="character-encodings">
+	<title>"Teckenanvändningen"</title>
+	
+	<para>Vilka tecken hanterar systemet och vilka känner det inte igen? Varför
+	  fungerar det inte när vissa granskare inte lägger in vanliga tecken
+	  som den borde känna igen som å, ä och ö (är det ett
+	  Mac-problem)?</para>
+
+      </sect3>
+
+    </sect2>
+
+    <sect2 id="lower-priority">
+
+      <title>Lite lägre prioritet</title>
+
+      <sect3 id="search-system">
+	<title>Hur sker sökningar i systemet</title>
+
+	<para>Sökningar ger ofta konstiga resultat. Detta sker dels ute i
+	  användargränssnittet där främst trunkeringar verkar ge upphov till
+	  fel. Dels gäller det sökmöjligheten för granskare. De nya alternativa
+	  sökfälten fungerar oftast inte alls.</para>
+
+      </sect3>
+
+      <sect3 id="translation-of-cataloging-tool">
+	<title>Alternativt inläggningsformulär</title>
+
+	<para>Hur lägger man in ett alternativt svenskt
+	  inläggningsformulär.</para>
+
+      </sect3>
+
+      <sect3 id="filtering">
+
+	<title>Möjligheter för filtrering</title>
+
+	<para>Det finns ett behov av att kunna filtrera i sökmängder
+	  (uppsatsnivå o.s.v.).</para> 
+
+      </sect3>
+
+      <sect3 id="list-courses">
+	<title>Att ta ut "listor" på uppsatser i Xerxes</title>
+
+	<para>Det har varit mycket buggar i dessa och rapporter om att länkarna bara
+	  fungerar ibland.</para>
+
+      </sect3>
+
+      <sect3 id="urkund">
+	<title>"Urkunds-stödet"</title>
+
+	<para>Om, mot all förmodan, problemen med företaget skulle lösa sig måste vi
+	  kunna börja exportera filer dit om institutionerna önskar det.</para>
+
+      </sect3>
+    </sect2>
+
+    <sect2 id="other-problems">
+      
+      <title>Andra problem</title>
+
+      <para>Dessa punkter i vår "Att göra"-lista förstår jag inte riktigt och har
+	därför inte heller koll på huruvida de behöver dokumenteras.</para>
+
+      <para>"Tiny MCE för html-editering av abstract och titlar"</para>
+
+      <para>"PHP:a så att default-cookie för språkval i Xerxes och Scripta sätts
+	till svenska, istället som nu (engelska)"</para>
+
+    </sect2>
+
+    <sect2 id="general-cooment">
+
+      <title>Allmän kommentar</title>
+
+      <para>Till avslutning skulle vi vilja poängtera något som i det här
+	avseendet delvis måste betraktas som allmänna sidospår. Eftersom
+	diskussionen berör vilka "problemområden" som finns rörande de
+	aktuella systemen skulle vi ändå vilja påkalla lite uppmärksamhet till
+	dessa påståenden. Vår uppfattning är att mycket av den grundläggande
+	problematiken (i åtminstone Xerxes och Scripta) borde bearbetas med
+	dessa tankar mer i fokus. Inte minst när man arbetar med att ta fram
+	ett nytt system och därför har en möjlighet att beakta det från
+	början.</para>
+
+      <para>Perspektiv på slutanvändningen av systemen
+	Vi upplever att ett perspektiv som väldigt sällan diskuteras är
+	meningen med dessa tjänster. Vad är syftet/ändamålet med dem, vilka är
+	de slutliga mål­grupperna, vilka sökbehov har olika målgrupper,
+	o.s.v. Denna diskussion saknas, som vi ser det, i det dagliga arbetet
+	och detta gör också att arbetet med tjänsterna blir lite snedvridet åt
+	inläggningsproblematiken (även om utformningen av
+	inläggningsformuläret naturligtvis borde vara kopplat till
+	slutanvändningen av systemen).</para>
+
+      <para>Vi upplever att det är väldigt lätt att fokusera på problemen med
+	inläggnings­proceduren eftersom vi där har en hyfsat tydlig
+	"användargrupp" (författare och granskare) som åtminstone ibland
+	lämnar feedback. Den stora användar­gruppen, som är de egentliga
+	slut­användarna, är betydligt mer anonym och deras åsikter och behov
+	når kanske inte alltid fram till BD. Det gör dem dock inte mindre
+	viktiga och vi har kanske också ett ännu större ansvar att självmant
+	ha deras perspektiv i fokus.</para>
+
+      <para>Ställa krav på inläggarna av material
+	Systemen ska naturligtvis vara utformade på ett sätt så att de är
+	enkla och tilltalande att lägga in material i. Samtidigt anser vi att
+	det även måste vara en självklarhet att vi kan ställa krav på dem som
+	lägger in material (både den enskilde inläggaren och på
+	granskarna). Detta för att se till att materialet läggs in på ett
+	ändamålsenligt sätt för slutanvändningen. Det är vi som har ett ansvar
+	för att helheten i systemen blir genomtänkt och bra vilket kräver att
+	vi också kan styra inläggningen.
+    </para>
+
+    </sect2>
+  </sect1>
+
+<!--
+
+$Log$
+Revision 1.1  2009/06/29 11:08:34  sigfrid
+Initial revision
+
+Revision 1.1  2005/06/30 10:11:24  sigge
+Initial revision
+
+
+-->
+
+</article>

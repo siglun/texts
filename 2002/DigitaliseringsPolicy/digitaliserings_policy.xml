@@ -1,0 +1,373 @@
+<?xml version="1.0" encoding="ISO-8859-1" ?>
+<!DOCTYPE TEI.2 SYSTEM 'http://sigge.lub.lu.se/tei/tei2.dtd' [
+<!ENTITY % TEI.XML "INCLUDE" >
+<!ENTITY % TEI.prose "INCLUDE" >
+<!ENTITY % TEI.linking "INCLUDE" >
+<!ENTITY % TEI.figures "INCLUDE" >
+<!ENTITY ndash "<ndash/>" >
+<!ENTITY mdash "<mdash/>" >
+<!ENTITY approx "<approx/>" >
+<!ENTITY rcsid "$Id$"  >
+<!ENTITY revision "$Revision$ $Date$"  >
+]>
+
+<TEI.2>
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Förslag till policy för digitaliseringsprojekt inom Lunds
+        Universitets Bibliotek</title>
+      </titleStmt>
+      <publicationStmt>
+	<p>Lund University Libraries</p>
+      </publicationStmt>
+      <sourceDesc>
+        <p>No source</p>
+      </sourceDesc>
+    </fileDesc>
+    <profileDesc>
+    </profileDesc>
+    <revisionDesc>
+      <change>
+	<date>$Date$</date>
+	<respStmt>
+	  <name>$Author$</name>
+	</respStmt>
+	<item>$Revision$</item>
+      </change>
+    </revisionDesc>
+  </teiHeader>
+  <text>
+    <front>
+      <titlePage TEIform="titlePage">
+
+	<docTitle>
+	  <titlePart>Förslag till policies för digitaliseringsprojekt
+         inom Lunds Universitets Bibliotek</titlePart>
+	</docTitle>
+
+	<byline TEIform="byline">av
+           <docAuthor>Sigfrid Lundberg</docAuthor>
+        </byline>
+
+      </titlePage>
+
+      <div type="abstract">
+  	<p>Digital arkivering är att bereda serverplats för
+        information om oss, vår tid och vår historia för våra barn och
+        deras efterkommande.  Detta dokument beskriver
+        förutsättningarna för digitalisering, lagring och arkivering
+        samt elektronisk publicering av olika samlingar inom Lunds
+        universitet och dess bibliotek.  Särskild vikt läggs vid att
+        utveckla en finansieringsmodell för lagring,
+        tillgängliggörande och bevarande.</p>
+      </div>
+    </front>
+    <body>
+      <div1>
+	<head>Inledning</head> 
+
+	<p rend="noindent">
+       <seg rend="dropcap">S</seg><seg rend="smallcaps">yftet med detta</seg>
+        dokument<note>
+           <p rend="noadjust">
+            <hi rend="bold">Tillgängligt som:</hi>
+             http://www.lub.lu.se/~siglun/laurentius/digitaliserings_policy.pdf
+             <hi rend="bold">Version:</hi> &revision;
+           </p>
+        </note> är inte att motivera behovet av digitala arkiv;
+        det räcker att konstatera att vi lever med en tidsinställd bomb.
+        När den detonerar skattar viktig information åt förgängelsen.
+        Vilken information som är mest hotad lämnar jag därhän.
+        Inte heller diskuterar jag alla viktiga bibliografiska eller
+        tekniska spörsmål om hur ett arkiv bör göras sök- och
+        navigeringsbart eller vilka filformat som bör användas.
+        Detta är i sig centrala frågor som måste dokumenteras för
+        varje samling.</p>
+
+        <p>I stället koncentrerar jag mig på bevarandet som affärsidé,
+        och hur möjliga strategier för detta slags verksamhet kan
+        eller bör beskrivas. Inledningsvis spenderar jag en del
+        utrymme på att klargöra några självklarheter som rör det
+        digitala bevarandets väsen och dessutom ytterligare lite på
+        vad bevarande inte är och aldrig kan bli. Till slut formulerar
+        jag en finansieringsmodell för verksamheten utifrån de
+        premisser jag formulerat.</p>
+
+        <p>Jag beskriver också, i Appendix A, hur
+        Biblioteksdirektionens infrastruktur ser ut idag, och hur vi
+        tänker oss att kunna etablera nya arkiv till rimlig
+        kostnad.</p>
+
+	<div2>
+	  <head>Att etablera ett arkiv innebär ett förvärv</head>
+
+	  <p rend="noindent">På samma sätt som förvärvet av en
+	  boksamling innebär att att den måste katalogiseras, och
+	  sättas på en hylla där informationen i samlingen kan
+	  återvinnas, måste informationen i ett digitalt arkiv
+	  katalogiseras och ges en serverplats.</p>
+	</div2>
+
+	<div2>
+	  <head>Arkiverat material måste förses med metadata</head>
+
+	  <p rend="noindent">Att bevara något som inte i någon mening
+	  är katalogiserat är digitalt självmord. Som ett minimum måste
+	  det i likhet med okatalogiserat tryck, sorteras, dateras och
+	  förses med någon form av etikett.</p>
+
+	</div2>
+
+	<div2>
+	  <head>Förvärv innebär att en förvärvspolicy måste etableras
+	  och att ett digitaliserat bestånd måste underhållas</head>
+
+	  <p rend="noindent">I en värld med begränsade resurser, både
+	  när det gäller tid och pengar måste man välja. Vad är
+	  angeläget? Sannolikt bör en referensgrupp etableras för
+	  detta. Några punkter att ta i beaktande är:</p>
+
+	  <list>
+	    <item>Anknytning till Lunds universitet.<note><p>Det är
+	    sannolikt att ingen annan kommer att bry sig mer om
+	    vårt material än vi själva. Anknytningen kan bestå i att
+	    objekten ingår i våra samlingar eller att de har med vår
+	    verksamhet i dag eller i förgången tid att
+	    göra.</p></note></item>
+
+	    <item>Kondition. Känsligt material äger företräde;
+	    existerar digitala surrogat behöver inte orginalen
+	    utsättas för slitage och smutsigt tummande.</item>
+
+	    <item>Förväntat intresse från allmänhet såväl som från
+	    forskarsamfund och akademisk utbildning. Material som kan
+	    tänkas vara intressant även utanför den akademiska bondbyn
+	    Lund har företräde.</item>
+
+	    <item>Prioritet ges åt överföring av material till
+	    maskinläsbar text snarare än enbart bevarande av
+	    bilder.</item>
+
+	    <item>Intresse ur tekniskt eller bibliografiskt
+	    perspektiv. Projekt som utvecklar personalens kompetens
+	    och skänker arbetsglädje.</item>
+	  </list>
+
+	  <p rend="noindent">Slutligen måste sannolikt allt
+	  förvärv, trots allt, vid någon tidpunkt kompletteras
+	  med gallring.</p>
+
+	</div2>
+
+	<div2>
+	  <head>Själva arkiveringen kostar mer än driften</head>
+
+	  <p rend="noindent">Det är etableringen av ett nytt arkiv,
+	  eller när ett objekt införlivas i en samling som är
+	  förknippat med kostnader. Resten är i princip att byta
+	  magnetband vid  säkerhetskopiering. Och att med någon
+	  regelbundenhet byta ut obsolet hårdvara.</p>
+	</div2>
+
+	<div2>
+	  <head>Administration av <soCalled>lånekort</soCalled>
+           är inte önskvärd</head>
+
+	  <p rend="noindent">En administrativ apparat runt våra
+	  arkivtjänster är en oacceptabel kostnad. Jag kan man tänka
+	  mig att vi begränsar offentlig tillgänglighet till ett fåtal
+	  IP-nummer, någon domän eller via Universitetets standard
+	  LDAP-lösningar, men inte något mer sofistikerat än så.</p>
+
+	  <p>Biblioteken inom vårt nätverk har material av olika slag
+	  som med olika behov av bevarande, och en del av det kan
+	  behöva digitalt bevarande. Material som av olika
+	  upphovsrättsliga eller integritetsrelaterade anledningar
+	  kräver skydd, bör antingen inte digitaliseras eller bevaras
+	  tillsammans med sin kataloginformation på magnetband eller
+	  på en avstängd dator. Vilket också är en policy.</p>
+
+	</div2>
+
+	<div2>
+
+	  <head>Ett arkiv är inte ett webbhotell</head>
+
+	  <p rend="noindent">Ett digitalt arkiv har som ett av sina
+	  viktigaste mål att bevara något. Hörs på namnet, skulle jag
+	  vilja säga. Vem, om någon, som har behov av det bevarade,
+	  och när, kan man inte säkert veta i förväg.</p>
+
+	  <p>Ett webbhotell kännetecknas av att kunder hyr serverplats
+	  för att tillgängliggöra information <emph>i
+	  dag</emph>. Härav följer att ett arkiv inte kan bli ett
+	  webbhotell. Sådana debiterar per månad, under en
+	  tidsbegränsad abonnemangsperiod.
+	  <emph>Vi måste debitera per evighet. Och göra vårt bästa för
+	  att försöka leva upp till vad det innebär.</emph></p>
+
+	</div2>
+
+      </div1>
+
+      <div1>
+	<head>Förslag till policy</head>
+
+	<p rend="noindent">Att digitalisera och bevara material i
+        digital form bör bli en vardagssyssla.  När vi bereder plats
+        för en samling skall den sedan finnas tillgänglig
+        (förhoppningsvis) i evärdelig tid.</p>
+
+	<p>Vi kan särskilja två typer av verksamheter,
+	<emph>projekt</emph> respektive <emph>program</emph>. I detta
+	sammanhang har ett projekt har som mål att digitalisera ett
+	givet kvantum information, och publicera detta. När det är
+	gjort återstår att se till att arkivet hålls tillgängligt. Ett
+	program är ett projekt utan slut. Det vill säga, det material
+	som skall digitaliseras är stadd i kontinuerlig tillväxt.</p>
+
+        <p>Gemensamt för båda är att vi söker pengar tillsammans med
+        våra partners (eller debiterar dem) för den <emph>extra</emph>
+        kostnad det innebär att vi lägger upp samlingen. För projekt
+        tar vi betalt en gång, och objekten införlivas i
+        <emph>våra</emph> samlingar. Ett program innebär en
+        kontinuerlig merkostnad, och måste, så länge samlingen växer, ha
+        en budget för att bekosta inläggningen. Annars finns i princip
+        inga skillnader mellan projekt och program. De resulterande
+        samlingarna underhålls enligt samma principer, det må vara
+        medeltida handskrifter eller flygfoton. <emph>Vi bör inte
+        acceptera någon form av tidsbegränsade kontrakt när det gäller
+        tillgänglighet för materialet.</emph> Här gäller antingen
+        målet evigt liv, eller någon framtida gallringspolicy. Fast
+        det senare är en annan historia.</p>
+
+        <p>I skrivande stund kan vi inte förvänta oss att få
+        finansiering för ett stadigvarande
+        digitaliseringsprogram. Därför bör vi debitera tre års drift
+        för varje projekt, och därvid hoppas på att bidragen från alla
+        digitaliseringsprojekt i viss mån kan betala det allmänna
+        underhållet för den infrastruktur vi bygger upp.</p>
+
+	<p>Katalogisering är en tidskrävande syssla. Men principen är
+	klar enligt min mening: Utan relevant bibliografiskt arbete
+	inkluderat i ett projekt, inget arkiv.</p>
+
+        <p>Vi utvecklar även användargränssnitt för dessa tjänster. I
+        dem framgår det med hjälp av ikoner, bakgrundstexter och
+        dylikt vilka som äger och förvaltar orginalsamlingen.
+        Därutöver utvecklar vi även databassystem som möjliggör
+        navigering och sökning. Hur databaserna utformas beror på
+        vilken typ av material som digitaliserats. Filosofin härvidlag
+        är att systemen måste vara enkla och funktionsdugliga, men vi
+        avstår helst från alla typer av gränssnitt som utnyttjar
+        alltför futuristiska egenskaper hos webbklienter. Vi måste ha
+        hållbara lösningar som kan förväntas fungera på egen hand
+        under många år.</p>
+
+      </div1>
+
+    </body>
+
+    <back>
+      <div type="appendix">
+	<head>Appendix A. Infrastruktur för arkiv och digitalisering</head>
+
+	<p rend="noindent">Inom Laurentiusprojektet<note
+        place="unspecified" anchored="yes" TEIform="note">
+             <bibl default="NO" TEIform="bibl">
+               <author>Nylander, Eva</author>
+               <author>Borell, Mattias</author>
+               <author>Lundberg, Sigfrid</author>
+               <title>
+                 <xref to="http://laurentius.lub.lu.se">
+                    S:t Laurentius Digital Manuscript Library
+                 </xref>
+                </title>
+                <publisher TEIform="publisher">
+                  Lund University Libraries</publisher>
+                  <date>2002</date>
+               </bibl>
+            </note>     
+
+        har vi anskaffat en snabb SUN Enterprise serverdator med
+	dubbla processorer och rejäla diskar. Utrymmet är runt 1 TB
+	(&approx; 1000 GB). Sytemet är snabbt och optimerat för
+	ändamålet. För säkerhetskopiering finns en juke-box med
+	magnetband och en robot som sköter byte av band. Det är min
+	bedömning att Laurentius' infrastruktur har många års
+	återstående livslängd.</p>
+
+	<p rend="noindent">Ett antal nya bevaringsprojekt är
+	tilltänkta för denna infrastruktur. Några program har inte
+	formulerats.</p>
+
+	<list>
+
+          <item>Handskrifterna kör där redan.</item>
+
+	  <item>Jarringsamlingen. Digitalisering av en stor samling
+	  handskrifter på arabiska, persiska men framför allt på det
+	  uighuriska språket insamlade av ambassadör Gunnar
+	  Jarring.</item>
+
+          <item>Esse Ericssons arkeologiska flygfoton.</item>
+
+	  <item>Eventuellt drottning Kristinas handskrifter (enbart
+	  katalogen) vid Vatikanbiblioteket.</item>
+
+	  <item>Eventuellt andra digitaliserade flygbilder och
+	  lantmäterikartor från <seg
+	  rend="smallcaps">gis</seg>-centrum.</item>
+
+	  <item>annat ...</item>
+
+	</list>
+
+	<p rend="noindent">Allt detta kan inte få plats på denna
+	server. Tanken är att komplettera den med ytterligare,
+	billigare lagring av de digitala orginalen. Dessa förvaras
+	okomprimerat direkt i datorns filsystem i TIFF-format och
+	kräver mellan 20 och 60 MB per bild. De enskilda bildernas
+	filnamn knyter dem till metadata i <seg
+	rend="smallcaps">xml</seg>, som ju som ett strukturerat
+	textformat är beständigt.</p>
+
+	<p>Från rätt inköpskälla kostar ett bestyckat diskkabinett för
+	att hålla 1.5 &ndash; 2.0 TB runt
+	150.000:&ndash;. Laurentiusdatorn går enligt uppgift inte att
+	koppla till ytterligare diskar, däremot kan man låta varje
+	nytt större arkiv skötas av en enklare PC, och på de billiga
+	diskarna lagra de stora orginalen vars material är viktigt men
+	sällan efterfrågat i jämförelse med de komprimerade bilderna
+	som kommer att förvaras på Laurentius, vars kapacitet är snart
+	sagt obegränsad för detta ändamål.</p>
+
+	<p>Förutsättningarna är med andra ord mycket
+        goda för att såväl lagra, som hantera stora elektroniska
+        arkiv.</p>
+
+	<p>För Jarringsamlingen har vi sökt 400.000:&ndash;
+        för såväl bildhantering och hårdvara här på
+        <seg rend="smallcaps">(lub).</seg>
+        Digitaliseringen sköts på en
+        separat post i budgeten nere på Helgonabacken. Projektet har
+        också poster för katalogisatör (Helgonabacken)
+        och <seg rend="smallcaps">xml</seg>-stöd
+        till denne <seg rend="smallcaps">(lub).</seg></p>
+
+	<p>Vi har tänkt en liknande prislapp för lagring i fallet Esse
+	Ericsson. IK Foundation kommer själva att ombesörja
+	katalogiseringen av bilderna, men vi vill samordna sökmaskinen
+	med <seg rend="smallcaps">gis</seg>-centrum.</p>
+
+      </div>
+
+    </back>
+
+  </text>
+
+<!-- http://www.kb.se/Sekr/ABM_yttrande.pdf -->
+<!-- http://www.regeringen.se/galactica/service=irnews/action=obj_show?c_obj_id=45873 -->
+
+</TEI.2>

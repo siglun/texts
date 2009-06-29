@@ -1,0 +1,275 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE article PUBLIC "-//OASIS//DTD DocBook XML V4.1.2//EN"
+  "http://www.oasis-open.org/docbook/xml/4.1.2/docbookx.dtd" [
+]>
+
+<?xml-stylesheet
+      href="./db_special.xsl"
+      type="text/xsl"
+      media="screen"
+      title="default" ?>
+
+<article lang="sv">
+  <articleinfo>
+    <title>Overview of the documentation</title>
+    <author>
+      <firstname>Sigfrid</firstname>
+      <surname>Lundberg</surname>
+    </author>
+    <affiliation>
+      <orgname>Biblioteksdirektion, Lunds universitet</orgname>
+    </affiliation>
+    <revhistory>
+      <revision>
+	<revnumber>$Revision$</revnumber>
+	<date>$Date$</date>
+	<authorinitials>$Author$</authorinitials>
+      </revision>
+    </revhistory>
+  </articleinfo>
+
+  <abstract>
+    <title>Abstract</title>
+    <para>This document serves two purposes; first it is a brief summary of
+      the services I maintained at Lund University Libraries (LUB). It also
+      gives an overview of the documentation I produced when leaving, and it
+      kind of table of content for those documents.</para>
+  </abstract>
+
+  <sect1  id="top">
+    <title>Introduction</title>
+
+    <para>The reason I write this package of documents is that I'm quitting. It
+      is meant to be a self-contained package of documents to be consulted by
+      colleagues who run or use stuff I built while working within Lund
+      University Libraries.</para>
+
+      <para>This is the material that can be distributed freely. There are parts
+	of this documentation that are sensitive and kept on secure areas of the
+	server.</para> 
+
+
+    <sect2 id="conventions">
+      <title>Conventions</title>
+
+      <para>It is a substantial amount of texts, and they are split into several
+	parts. This document is meant to serve as a global table of contents for
+	lot.</para>
+
+      <para>Links to external information sources are given as end notes,
+	whereas links and cross references are given as hypertext links within
+	the text.</para>
+    </sect2>
+
+  </sect1>
+
+  <sect1 id="services">
+    <title>Services</title>
+
+    <para>I used to maintain quite a few services. This is a complete list of
+      stuff that might be of interest for BD to maintain in spite of the fact
+      that I'm no longer here at Lund University.</para>
+
+    <sect2 id="portals">
+      <title>Portals</title>
+
+      <para>By portals I understand a web site in general, used for publishing
+	of articles, links etc in a focused area for defined target audience.</para>
+
+      <orderedlist>
+	<listitem>
+	  <para>
+	    <emphasis><ulink url="sciecom.xml">Sciecom</ulink></emphasis>
+	    <footnoteref linkend="note-sciecom"/>
+	  </para>
+	</listitem>
+	<listitem>
+	  <para>
+	    <emphasis><ulink url="svep.xml">SVEP</ulink></emphasis>
+	    <footnoteref linkend="note-svep"/>
+	  </para>
+	</listitem>
+      </orderedlist>
+
+      <para>These services are currently running on
+	<emphasis>balder.lub.lu.se</emphasis>, as a part of the <ulink
+	  url="keystone-hotel.xml">Keystone DLS Hotel</ulink> I have installed there.</para> 
+
+    </sect2>
+
+    <sect2 id="publishing">
+      <title>Electronic publishing</title>
+      <para>By electronic publishing I understand services that are meant to
+	disseminate digital content and metadata about that content.</para>
+      <orderedlist>
+	<listitem>
+	  <para>
+	    <emphasis>XERXES</emphasis>
+	    <footnoteref linkend="note-xerxes"/></para>
+	</listitem>
+	<listitem>
+	  <para>
+	    <emphasis>Scripta Academia Lundensia</emphasis>
+	    <footnoteref linkend="note-scripta"/>
+	  </para>
+	</listitem>
+
+      </orderedlist>
+
+      <para>The two services are are closely tied together, and are
+	<ulink url="xerxes-scripta.xml">documented as one integrated system</ulink>.
+	These services are currently running on
+	<emphasis>balder.lub.lu.se</emphasis>, as a part of the <ulink
+	  url="keystone-hotel.xml">Keystone DLS Hotel</ulink> I have installed
+	there. The Xerxes and Scripta services required some modifications in
+	order to be possible to run from a single set of software. The
+	modifications are documented in a <ulink
+	  url="xerxes-scripta-tkl.xml">separate document</ulink>.</para>
+
+      <para>Still, the two e-publishing services are different in many
+	ways. They have different history, and inherits data from earlier
+	services and the maintenance of older data is different. For Scripta
+	there is still a need to maintain <ulink url="dissdb-data.xml">data
+	  from the old dissdb</ulink>.</para>
+
+      <para>Masters theses are produced en mass, and for some departments it the
+	sheer volume makes it worthwhile to have a local service. Thus
+	harvested data constituted a substantial input to Xerxes. To that end
+	there is a special <ulink url="xerxes-bot.xml">Xerxes
+	  Bot</ulink>.</para>
+
+      <para>A few departments take advantage of the <ulink
+	  url="xerxes-listcourses.xml">list courses facility</ulink></para>
+
+    </sect2>
+
+    <sect2 id="digitization">
+      <title>Digitization</title>
+
+      <para>By digitization I understand services meant to make content that
+	has previously been available in digital form accessible to a wider
+	audience.</para> 
+
+      <orderedlist>
+	<listitem>
+	  <para>
+	    <emphasis><ulink url="laurentius.xml">S:t Laurntius Digital
+		Manuscript Library</ulink></emphasis>
+	    <footnoteref linkend="note-laurentius"/>
+	  </para>
+	</listitem>
+      </orderedlist>
+
+      <para>Laurentius is currently running on
+	<emphasis>hex.lub.lu.se</emphasis>.</para> 
+
+
+
+    </sect2>
+
+    <sect2 id="cataloging">
+      <title>Cataloging</title>
+
+      <para>A cataloging service is a service which is meant for cataloging, or
+	for making a catalogue available in digital form. The three services
+	listed below are very different, but still they share important
+	characteristics.</para> 
+
+      <orderedlist>
+	<listitem>
+	  <para>
+	    <emphasis><ulink url="jarring.xml">Jarring</ulink></emphasis>
+	    <footnoteref linkend="note-jarring"/>
+	  </para> 
+	</listitem>
+	<listitem>
+	  <para>
+	    <emphasis><ulink url="ediffah.xml">Ediffah</ulink></emphasis>
+	    <footnoteref linkend="note-ediffah"/>
+	  </para> 
+	</listitem>
+	<listitem>
+	  <para>
+	    <emphasis><ulink url="cataloging-tool.xml">Xerxes and
+		Scripta</ulink></emphasis><footnoteref linkend="note-catalogingtool"/>
+	  </para> 
+	</listitem>
+      </orderedlist>
+      
+      <para>As noted above, Xerxes and Scripta share important
+	characteristics. As far as cataloging is concerned they share <ulink
+	  url="scripta-metadata.xml">metadata system</ulink>. Since they share
+	metadata definition they also share cataloging tool.</para>
+
+      <para>I have also recieved a document containing a mixture of problems
+	  and to-do-list items. I <ulink
+	  url="xerxes-scripta-problems.xml">provide answers to these questions
+	  here</ulink></para> 
+
+    </sect2>
+  </sect1>
+
+  <bibliography>
+    <title>Notes</title>
+    <biblioentry id="note-sciecom">
+      <title><ulink url="http://www.sciecom.org/">Svenskt Resurscentrum för
+	  vetenskaplig kommunikation</ulink></title>
+    </biblioentry>
+    <biblioentry id="note-svep">
+      <title>
+	<ulink url="http://www.svep-projekt.se/">
+	  Samordning av den Svenska Högskolans Elektroniska Publicering
+	  </ulink>
+      </title>
+    </biblioentry>
+    <biblioentry id="note-xerxes">
+      <title>
+	<ulink url="http://theses.lub.lu.se/undergrad/">
+	  XERXES
+	</ulink>
+      </title>
+    </biblioentry>
+    <biblioentry id="note-scripta">
+      <title>
+	<ulink url="http://theses.lub.lu.se/postgrad/">
+	  Scripta Academica Lundensia
+	</ulink>
+      </title>
+    </biblioentry>
+    <biblioentry id="note-laurentius">
+      <title>
+	<ulink url="http://laurentius.lub.lu.se/">
+	  S:t Laurentius digital manuscript library
+	</ulink>
+      </title>
+    </biblioentry>
+    <biblioentry id="note-jarring">
+      <title>
+	<ulink url="http://laurentius.lub.lu.se/jarring">
+	  The Jarring Collection of Eastern Turkistan manuscripts at Lund University Library
+	</ulink>
+      </title>
+    </biblioentry>
+    <biblioentry id="note-ediffah">
+      <title>
+	<ulink url="http://www.lub.lu.se/ediffah/">
+	  Ediffah -- En digital infrastruktur för forskningsbibliotekens
+	  arkiv- och handskriftssamlingar 
+	</ulink>
+      </title>
+    </biblioentry>
+    <biblioentry id="note-catalogingtool">
+      <title>
+	<ulink url="http://theses.lub.lu.se/tool_scripta/">
+	  Scripta Cataloging Tool
+	</ulink>
+      </title>
+      <title>
+	<ulink url="http://theses.lub.lu.se/tool_xerxes/">
+	  XERXES Cataloging Tool
+	</ulink>
+      </title>
+
+    </biblioentry>
+  </bibliography>
+</article>

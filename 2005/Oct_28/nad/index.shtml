@@ -1,0 +1,31 @@
+<html xmlns="http://www.w3.org/1999/xhtml">
+  <head>
+    <title>
+      NAD/NAV
+    </title>
+    <meta http-equiv="Content-Type"
+	  content="text/html;charset=UTF-8" />
+
+  </head>
+  <body>
+
+    <!--#include virtual="../toc.txt" -->
+
+    <h1>Exportfunktioner</h1>
+
+    <ol>
+      <li>Projektet planerade export av EAD, men RA ändrade sig. Vill ha EAC i
+      stället...</li>
+      <li>Export av EAC är en smal sak, tekniskt. kräver dock
+      <ul>
+	<li>Auktoritetskontroll</li>
+	<li>Massor av registervård</li>
+      </ul>
+      </li>
+    </ol>
+
+
+
+    
+  </body>
+</html>

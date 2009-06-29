@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="ISO-8859-1" ?>
+<div1 type="appendix">
+<head>Appendix A. Transformation example</head>
+
+<p rend="noindent">Two manuscript items, in original form</p>
+ 
+<exemplum>
+<eg>&lt;msItem n="2.1.16"&gt;
+   &lt;locus from="41r:4" to="41v:8"&gt;41r:4-41v:8&lt;/locus&gt;
+   &lt;title type="supplied"&gt;Prayer to Jesus Christ in his
+   pain (&lt;ref&gt;MDB84&lt;/ref&gt;)&lt;/title&gt;
+   &lt;rubric&gt;S&lt;expan&gt;an&lt;/expan&gt;c&lt;expan&gt;t&lt;/expan&gt;us
+   gregori&lt;expan&gt;us&lt;/expan&gt; paffuæ gaff til the&lt;expan&gt;n&lt;/expan&gt;næ
+   effth&lt;expan&gt;e&lt;/expan&gt;r skreffnæ bøn saa myghæt afflath
+   som ... ee huo th&lt;expan&gt;e&lt;/expan&gt;m læs m&lt;expan&gt;eth&lt;/expan&gt;
+   gudæligh&lt;expan&gt;e&lt;/expan&gt;t Amen&lt;/rubric&gt;
+   &lt;incipit&gt;O kiære h&lt;expan&gt;er&lt;/expan&gt;ræ
+   ih&lt;expan&gt;es&lt;/expan&gt;u
+   &lt;expan&gt;christ&lt;/expan&gt;e thu som æst alzom
+   nadhæ fullæste&lt;/incipit&gt;
+   &lt;explicit&gt;och giiff mik ryffwilsæ i mith hiærtæ
+   for allæ mynæ
+   syndær Amen p&lt;expan&gt;ate&lt;/expan&gt;r
+    n&lt;expan&gt;oste&lt;/expan&gt;r&lt;/explicit&gt;
+&lt;/msItem&gt;
+</eg></exemplum>
+
+<p rend="noindent">and transformed into the Laurentius Z39.50 friendly
+tagset</p>
+
+ <exemplum>
+<eg>&lt;manuscriptitem&gt;
+ 
+   &lt;msid&gt;Mh_35&lt;/msid&gt;
+   &lt;manuscript&gt;Medeltidshandskrift 35&lt;/manuscript&gt;
+   &lt;title&gt;Prayer to Jesus Christ in his
+   pain (MDB 84)&lt;/title&gt;
+   &lt;identifier&gt;Mh_35-item2.1.16&lt;/identifier&gt;
+
+   &lt;from&gt;41r:4&lt;/from&gt;
+   &lt;to&gt;41v:8&lt;/to&gt;
+
+   &lt;incipit&gt;O kiære herræ ihesu christe thu som
+   æst alzom nadhæ fullæste&lt;/incipit&gt;
+   &lt;explicit&gt;och giiff mik ryffwilsæ i mith hiærtæ
+   for allæ mynæ syndær Amen pater noster&lt;/explicit&gt;
+ 
+   &lt;rubric&gt;Sanctus gregorius paffuæ gaff til thennæ
+   effther skreffnæ bøn saa myghæt afflath som ... ee huo
+   them læs meth gudælighet Amen&lt;/rubric&gt;
+
+   &lt;item&gt;
+      &lt;ispartof&gt;&lt;identifier&gt;Mh_35-item2.1&lt;/identifier&gt;&lt;/ispartof&gt;
+      &lt;title&gt;Prayers to Our Lord Jesus Christ
+      and to the Trinity&lt;/title&gt;
+   &lt;/item&gt;
+ 
+&lt;/manuscriptitem&gt;</eg></exemplum>
+
+<!--
+
+$Id$
+
+$Log$
+Revision 1.1  2009/06/29 11:06:18  sigfrid
+Initial revision
+
+Revision 1.1  2002/08/14 12:31:36  siglun
+Initial revision
+
+
+-->
+
+</div1>

@@ -1,0 +1,42 @@
+
+S:t Laurentius Digital Manuscript Library[1] är, tekniskt en
+bilddatabas, det vill säga vi har idag 14000 digitaliserade
+handskriftssidor. Det går långsamt fram nu, men målet är att alla våra
+medeltida handskrifters ungefär 18000 sidor skall hamna där.
+
+Vad vi har i Laurentius är alltså boksidor. Vad vi katalogiserar
+handskrifterna, inte bilderna. Vi har alltså en sökbar XML-baserad
+katalog i tjänsten -- eller ett utkast till en pappersversion för den
+som så önskar i PDF[2]
+
+Katalogen utnyttjar Masterprojektets XML-dtd, vilken är en del av
+TEI[3]. Sökmaskinen använder Z39.50 med poster i XML[4]. Problemet som
+sökmaskinen försöker lösa är det följande (ber om överseende med
+övergången till utländska):
+
+	
+	Medieval manuscripts are complicated. Each manuscript is a
+	unique individual with its own history. Often, not always,
+	they contain several pieces of intellectual content, each of
+	which may be well known in the sense that this content appear
+	in many manuscripts from the same time, and this content may
+	appear in printed editions today.
+	
+	To catalogue medieval manuscripts requires a complex
+	descriptive metadata schema, which is capable of capturing
+	both the individual manuscript as work of art and as a unique
+	blend of well known intellectual content.
+	
+	That is, you should be able to search for works by (say)
+	Boethius or Virgil. But you should also be able to search for
+	manuscripts that have been owned by (say) the monastic society
+	of the Lund cathedral. Or manuscripts that were illuminated in
+	Italy.
+	
+	
+Referenser
+----------
+[1] http://laurentius.lub.lu.se/
+[2] http://laurentius.lub.lu.se/search/catalogue/mh.pdf
+[3] http://www.tei-c.org/Master/Reference/
+[4] http://laurentius.lub.lu.se/search/presentation/laurentius.pdf

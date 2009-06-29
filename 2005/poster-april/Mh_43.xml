@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="ISO-8859-1" ?> 
+
+<msDescription id="Mh_43">
+  <msIdentifier>
+    <country reg="SE">Sweden</country>
+    <settlement>Lund</settlement>
+    <repository>Lund University Library</repository>
+    <idno>Medeltidshandskrift 43</idno>
+    <altName type="former shelfmark" lang="LAT">Bibl. Ms. H. E. 4:o 1</altName>
+    <altName type="former shelfmark" lang="LAT">Biblioth. Meckiana N:o XVii</altName> 
+  </msIdentifier>
+
+  <msHeading>
+    <title lang="ENG">Ecclesiastical manual for the liturgy of consecration of
+      cemeteries, altars etc.</title>  
+    <origPlace>Denmark (?)</origPlace>
+    <origDate notBefore="1400" notAfter="1499">15th century (?)</origDate>
+    <textLang langKey="LAT">Latin</textLang>
+  </msHeading>
+
+  <physDesc>
+    <support><p>paper</p></support>
+    <extent>ff. ii + 133 +
+      i<dimensions><height>195</height><width>138</width></dimensions>mm.
+    </extent> 
+    <bindingDesc>
+      <binding><p>Ochre coloured silk binding with preserved 17th century
+	  satinwoven silk covering. Sweden 20th century. Size: 208 x 150 x 38
+	  mm.</p> 
+	<p>Ochre coloured silk binding over millboards. Satinwoven silk
+	  covering from former binding preserved on the new covering. The silk
+	  covering have holes likely from ties. Tight back with three double
+	  raised bands. Library code tooled in black at the tail of the
+	  back. Former edge trimming preserved. Two plain flyleaves and
+	  pastedowns of paper. All along sewing on three raised double
+	  cords. Textblock restored.</p>
+      </binding> 
+    </bindingDesc>
+  </physDesc>
+</msDescription>

@@ -1,0 +1,153 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ead>
+<eadheader repositoryencoding="iso15511" countryencoding="iso3166-1" scriptencoding="iso15924" dateencoding="iso8601" audience="external" findaidstatus="edited" langencoding="iso639-2b">
+<eadid mainagencycode="CH-000015-0" countrycode="ch" identifier="SLA-0009">hesseb2</eadid>
+<filedesc>
+<titlestmt>
+<titleproper>Hesse-Archiv:</titleproper>
+<subtitle>Inventar der Briefe an Hermann Hesse (Ms L 81-84) </subtitle>
+<author>Lukas Dettwiler</author>
+</titlestmt>
+<publicationstmt>
+<publisher>Schweizerisches Literaturarchiv</publisher>
+<address>
+<addressline>Hallwylstrasse 15</addressline>
+<addressline>CH-3003 Bern</addressline>
+</address>
+<p>E-Mailadresse: 
+		  <ref linktype="simple" href="mailto:arch.lit@slb.admin.ch">arch.lit@slb.admin.ch</ref>
+</p>
+<date era="ce" calendar="gregorian">März 2001</date>
+</publicationstmt>
+</filedesc>
+<profiledesc>
+<creation>Lukas Dettwiler 
+		<date era="ce" calendar="gregorian" normal="2002-03">Juni 2004</date>
+</creation>
+<langusage>
+<language>deu</language>
+</langusage>
+</profiledesc>
+</eadheader>
+<archdesc level="collection">
+<did>
+<head>Collection Summary</head>
+<p>Biography of </p>
+</did>
+<bioghist>
+<head>Biography of </head>
+</bioghist>
+<scopecontent>
+<head>Scope and Contents of the Collection</head>
+<p>Arrangement of the Papers</p>
+</scopecontent>
+<arrangement>
+<head>Arrangement of the Papers</head>
+<p>This collection is arranged </p>
+<p>Restrictions on Access</p>
+</arrangement>
+<accessrestrict>
+<head>Restrictions on Access</head>
+<p>Restrictions on Use</p>
+<p>Related Materials</p>
+</accessrestrict>
+<userestrict>
+<head>Restrictions on Use</head>
+</userestrict>
+<relatedmaterial>
+<head>Related Materials</head>
+<p>Separated Materials</p>
+</relatedmaterial>
+<separatedmaterial>
+<head>Separated Materials</head>
+</separatedmaterial>
+<odd>
+<head/>
+<p>Location of Originals</p>
+</odd>
+<originalsloc>
+<head>Location of Originals</head>
+<p>Other Formats</p>
+</originalsloc>
+<altformavail>
+<head>Other Formats</head>
+<p>Custodial History</p>
+</altformavail>
+<custodhist>
+<head>Custodial History</head>
+<p>Physical Characteristics and Technical Requirements</p>
+</custodhist>
+<phystech>
+<head>Physical Characteristics and Technical Requirements</head>
+<p>Preferred Citation</p>
+</phystech>
+<prefercite>
+<head>Preferred Citation</head>
+<p>Acquisition Information</p>
+</prefercite>
+<acqinfo>
+<head>Acquisition Information</head>
+<p>Processing Information</p>
+</acqinfo>
+<processinfo>
+<head>Processing Information</head>
+<p>Appraisal</p>
+</processinfo>
+<appraisal>
+<head>Appraisal</head>
+<p>Accruals</p>
+</appraisal>
+<accruals>
+<head>Accruals</head>
+<p>Other Finding Aids</p>
+</accruals>
+<otherfindaid>
+<head>Other Finding Aids</head>
+<p>File Plan</p>
+</otherfindaid>
+<fileplan>
+<head>File Plan</head>
+<p>Index</p>
+</fileplan>
+<index>
+<head>Index</head>
+<p>Bibliography</p>
+</index>
+<bibliography>
+<head>Bibliography</head>
+<p>Collection summary</p>
+</bibliography>
+<dsc>
+<c01 level="series">
+<did>
+<head>Collection summary</head>
+</did>
+<scopecontent>
+<head>Scope and Contents</head>
+<p>Bla blah blah</p>
+<p>Bibliography</p>
+</scopecontent>
+<bibliography>
+<head>Bibliography</head>
+<bibref>
+<title>Blah blah</title> Springer Verlag <geogname>Stuttgart </geogname>2004</bibref>
+<c02 level="subgrp">
+<did>
+<head>Collection summary</head>
+</did>
+<dsc/>
+</c02>
+<p>Collection summary</p>
+</bibliography>
+<dsc>
+<c02 level="subgrp">
+<did>
+<head>Collection summary</head>
+</did>
+<dsc/>
+</c02>
+</dsc>
+</c01>
+</dsc>
+</archdesc>
+</ead>

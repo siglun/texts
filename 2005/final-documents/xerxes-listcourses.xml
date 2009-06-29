@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE article PUBLIC "-//OASIS//DTD DocBook XML V4.1.2//EN"
+  "http://www.oasis-open.org/docbook/xml/4.1.2/docbookx.dtd" [
+]>
+
+<?xml-stylesheet
+      href="./db_special.xsl"
+      type="text/xsl"
+      media="screen"
+      title="default" ?>
+<!--
+
+$Id$
+
+Last changed $Date$ by $Author$
+
+-->
+
+<article lang="en">
+  <articleinfo>
+    <title>List Courses</title>
+    <author>
+      <firstname>Sigfrid</firstname>
+      <surname>Lundberg</surname>
+    </author>
+    <affiliation>
+      <orgname>Biblioteksdirektion, Lunds universitet</orgname>
+    </affiliation>
+      <revhistory>
+      <revision>
+	<revnumber>$Revision$</revnumber>
+	<date>$Date$</date>
+	<authorinitials>$Author$</authorinitials>
+      </revision>
+    </revhistory>
+    <indexterm>
+      <primary><ulink url="documentation.xml">Documentation</ulink></primary>
+      <seealso><ulink url="cataloging-tool.xml">Cataloging tool</ulink></seealso>
+    </indexterm>
+  </articleinfo>
+
+  <sect1 id="top">
+    <title>Listings of papers by department and levels</title>
+
+    <para>There is a need for some departments, namely those that use XERXES for
+      administrating the production of papers within their courses, to have
+      specific interfaces for this purpose.</para>
+
+    <para>Xerxes provide such an interface though a script list-items.cgi. It
+      has the URL <ulink url="http://theses.lub.lu.se/courses/list-items.cgi">http://theses.lub.lu.se/courses/list-items.cgi</ulink>.
+      By default it will deliver a boolean search for masters theses from the
+      Department of Political Science (since this department was the first to
+      ask for this feature)</para>  
+
+    <para>The syntax of a query to list-items.cgi is as follows:</para>
+
+    <programlisting>
+      http://theses.lub.lu.se/courses/list-items.cgi/&lt;LU number&gt;/&lt;lvl&gt;?status=&lt;status&gt;
+    </programlisting>
+    
+    <para>where there parameters between &lt; and  &gt; are defined as
+      follows</para>
+
+    <table>
+      <title>Arguments to the list-items.cgi script</title>
+      <tgroup cols="2"><tbody>
+	  <row>
+	    <entry>LU number</entry>
+	    <entry>The unique identifier of a department within Lund university
+	      given in Lucat and which is registered in XERXES, e.g., 012015000
+	      for department of political science and 012009000 for Dept of
+	      Education.</entry> 
+	  </row>
+	  <row>
+	    <entry>lvl</entry>
+	    <entry>Course level, i.e., A, B, C, D and Y. Please refer to the
+	      <ulink
+		url="http://www.svep-projekt.se/masters-theses/Metadatamodell/#uppsa">SVEP metadata model</ulink> 
+	    </entry>
+	  </row>
+	  <row>
+	    <entry>status</entry>
+	    <entry>Any of inprep, submitted and accepted for papers that are
+	      <emphasis>In preparation'</emphasis>,
+	      <emphasis>Submitted</emphasis> and <emphasis>Accepted</emphasis>,
+	      respectively.</entry>
+	  </row>
+	</tbody>
+      </tgroup>
+    </table>
+
+  </sect1>
+  <sect1>
+    <title>Examples</title>
+
+    <programlisting>
+      <ulink url="http://theses.lub.lu.se/courses/list-items.cgi/012009000/C?status=inprep">http://theses.lub.lu.se/courses/list-items.cgi/012009000/C?status=inprep</ulink>
+      <ulink
+	url="http://theses.lub.lu.se/courses/list-items.cgi/012009000/C?status=submitted">http://theses.lub.lu.se/courses/list-items.cgi/012009000/C?status=submitted</ulink>
+    </programlisting>
+
+  </sect1>
+
+<!--
+
+$Log$
+Revision 1.1  2009/06/29 11:08:31  sigfrid
+Initial revision
+
+
+-->
+
+
+</article>

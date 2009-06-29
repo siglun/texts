@@ -1,0 +1,21 @@
+<html xmlns="http://www.w3.org/1999/xhtml">
+  <head>
+    <title>
+      www.ediffah.org
+    </title>
+  </head>
+  <body>
+
+    <!--#include virtual="../toc.txt" -->
+
+    <h1>Webbplats och sökmaskin</h1>
+
+    <ol>
+      <li><a href="http://www.ediffah.org">ediffah.org</a></li>
+      <li>Ett mycket enkelt system, dock "extensible" <a
+      href="http://scriptorium.lub.lu.se">Scriptorium</a></li>
+      <li>Kanske för enkelt?</li>
+    </ol>
+    
+  </body>
+</html>

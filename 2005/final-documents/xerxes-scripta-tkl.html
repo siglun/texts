@@ -1,0 +1,109 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html><head><title>The changes done to the Keystone DLS in Xerxes and Scripta</title><link rel="stylesheet" href="/css-style/html_print.css"/><meta http-equiv="Content-Type" content="text/html; charset=UTF-8"/></head><body><p class="right"><strong>
+	  Back:
+	</strong>
+	<a href="documentation.html">Documentation</a>
+      <strong>
+		See also:
+	      </strong>
+	<a href="cataloging-tool.html">Cataloging tool</a>
+      ,
+	    
+	<a href="keystone-hotel.html">Keystone Hotel</a>
+      ,
+	    
+	<a href="xerxes-scripta.html">Xerxes &amp; Scripta</a>
+      </p><div class="box"><h1 class="title"><em>The changes done to the Keystone DLS in Xerxes and Scripta</em></h1><p class="author">
+      Sigfrid
+      Lundberg
+    <br/>
+      Biblioteksdirektion, Lunds universitet
+    <br/><strong>Revision:</strong>$Revision$,
+      <strong>Date:</strong>$Date$,
+      <strong>Editor:</strong>$Author$</p><div class="level1"><h2>Table of contents</h2><ul><li><a href="#top">Changes done to the TKL php library</a><ul><li><a href="#server-side-sorting">Server side sorting</a></li><li><a href="#multiplexing">Supporting delivering multiple services from one site</a></li></ul></li><li><a href="#footnoteshere">
+	    Footnotes
+	  </a></li></ul></div><div class="level1" id="top">
+    <h1 class="level1">Changes done to the TKL php library</h1>
+
+    <p>Everything in tklite is identical with the original keystone 
+      distribution except for the bits and pieces of code below. Code
+      fragments are shown, together with the rationale for making the
+      change.</p>
+
+    <div class="level2" id="server-side-sorting">
+      <h2 class="level2">Server side sorting</h2>
+
+      <p>In these services we do sorting serverside (i.e., in idZebra)
+	rather than in xslt. For that purpose I have added the following in
+	function_search in shell.php</p>
+
+      <pre>
+
+	$sortfields = array ();
+	if ($att['sortby']) {
+	   if ($arr = xml_getelement($document, 'sort')) {
+ 	      foreach ($arr as $elem) {
+		if (!preg_match(&quot;'&lt;sort\s.*by=\&quot;(.*?)\&quot;.*&gt;(.*?)&lt;\/sort&gt;'&quot;,
+	             $elem, $match))
+                     continue;
+		$sortfield = $match[1];
+		$sortattr = $match[2];
+		$sortfields[$sortfield] = $sortattr;
+              }
+	    }
+	}
+
+	if($sortfields) {
+	    $query = '@or ' . $query . ' ' . $sortfields[$att['sortby']];
+        }
+
+	</pre>
+
+<p>The parameters needed for sorting is stored in search.tkl. For example:</p>
+
+	<pre>
+	 
+    &lt;sort by=&quot;au&quot;  &gt;@attr 7=1 @attr 1=6010 &quot;&quot;&lt;/sort&gt;
+    &lt;sort by=&quot;ti&quot;  &gt;@attr 7=1 @attr 1=4    &quot;&quot;&lt;/sort&gt;
+    &lt;sort by=&quot;date&quot;&gt;@attr 1=1012 @attr 7=2 &quot;&quot;&lt;/sort&gt;
+
+	</pre>
+      </div>
+      
+      <div class="level2" id="multiplexing">
+	<h2 class="level2">Supporting delivering multiple services from one site</h2> 
+
+	<p>I found it easier to analyse the the request_uri in php and
+	  through that define a variable service_id, which is available from
+	  xslt For that pupose I have added the follwoing to shell.php</p>
+
+	<pre>
+	 
+    $service_id = 'test';
+    if (preg_match('/undergrad/', $_SERVER['REQUEST_URI'])) {
+        $service_id = 'xerxes';
+    } elseif (preg_match('/postgrad/', $_SERVER['REQUEST_URI'])) {
+	$service_id = 'scripta';
+    } else {
+	    $service_id = 'test';
+    }
+
+    $parameters = array(
+        'path'        =&gt; $path,
+        'root'        =&gt; $root,
+        'portpath'    =&gt; $dir,
+        'lang'        =&gt; $lang,
+        'tkl_authenticated' =&gt; $tkl_authenticated,
+        'tkl_bin'     =&gt; $tkl_bin,
+        'tkl_cwd'     =&gt; $tkl_cwd,
+        'tkl_fn'      =&gt; preg_replace(&quot;'^.*/'&quot;, &quot;&quot;, $_SERVER['PATH_INFO']),
+        'tkl_docroot' =&gt; $_SERVER['DOCUMENT_ROOT'],
+        'server_name' =&gt; $_SERVER['SERVER_NAME'],
+        'request_uri' =&gt; $_SERVER['REQUEST_URI'],
+        'service_id'  =&gt; $service_id
+    );
+
+	</pre>
+      </div>
+
+    </div><div class="level1"><h1 id="footnoteshere">Notes</h1></div></div></body></html>

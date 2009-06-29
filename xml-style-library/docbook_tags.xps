@@ -1,0 +1,354 @@
+<%
+
+# support ulink URL's
+$t->{'ulink'}{testcode} = sub { 
+		my $node = shift;
+		my $t = shift;
+		$t->{pre} = "<a href=\"" .
+					findvalue('./@url', $node) . "\">";
+		$t->{post} = '</a>';
+		return 1;
+	};
+
+$t->{'title'}{testcode} = sub { 
+		my $node = shift;
+		my $t = shift;
+		if (findvalue('parent::articleinfo', $node)) {
+			$t->{pre} = '<h1 class="title">';
+			$t->{post} = "</h1>";
+		} elsif (findvalue('parent::blockquote', $node)) {
+			$t->{pre} = "<strong>";
+			$t->{post} = "</strong><br />\n";
+	        } elsif (findvalue('parent::glossary', $node)) {
+			$t->{pre} = "<p><strong>";
+			$t->{post} = "</strong></p>\n";
+                } elsif (findvalue('parent::glossdiv', $node)) {
+			$t->{pre} = "<p><strong>";
+			$t->{post} = "</strong></p>\n";
+		} elsif (findvalue('parent::artheader', $node)) {
+			$t->{pre} = "<h1>";
+			$t->{post} = "</h1>";
+		} elsif (findvalue('parent::bibliography', $node)) {
+			$t->{pre} = "<h1>";
+			$t->{post} = "</h1>";
+		} elsif (findvalue('parent::table', $node)) {
+			$t->{pre} = "<caption>";
+			$t->{post} = "</caption>";
+		} elsif (findvalue('parent::figure', $node)) {
+			$t->{pre} = "<p>";
+			$t->{post} = "</p>";
+		}
+		else {
+			my $parent = findvalue('name(..)', $node);
+			my ($level) = $parent =~ m/sect(\d+)$/;
+			$t->{pre} = "<h$level>";
+			$t->{post} = "</h$level>";
+		}
+		
+		return 1;
+	};
+
+$t->{'articleinfo'}{pre} = "\n";
+$t->{'articleinfo'}{post} = "\n";
+
+$t->{'attribution'}{pre} = "<em>";
+$t->{'attribution'}{post} = "</em><br />\n";
+
+$t->{'para'}{pre} = '<p>';
+$t->{'para'}{post} = '</p>';
+
+$t->{'quote'}{pre}  = '<em>';
+$t->{'quote'}{post} = '</em>';
+
+
+$t->{'author'}{pre} = '';
+$t->{'author'}{post} = '';
+
+$t->{'firstname'}{pre} = '';
+$t->{'firstname'}{post} = ' ';
+$t->{'surname'}{pre} = ' ';
+$t->{'surname'}{post} = "";
+
+$t->{'revhistory'}{pre}="<h3>Revision history</h3>";
+$t->{'revhistory'}{post}="";
+
+$t->{'revision'}{pre}="<blockquote>";
+$t->{'revision'}{post}="</blockquote>";
+
+$t->{'revnumber'}{pre}="<b>Version</b> ";
+$t->{'revnumber'}{post}="<br />";
+
+$t->{'date'}{pre}="<span class=\"date\">";
+$t->{'date'}{post}="</span>";
+
+$t->{'authorinitials'}{pre}="<b>Editor:</b> ";
+$t->{'authorinitials'}{post}="";
+
+
+$t->{'email'}{testcode} = sub {
+		my $node = shift;
+		$t->{'email'}{pre} = "<a href=\"" . findvalue('./text()', $node) . "\">";
+		$t->{'email'}{post} = "</a>";
+		return 1;
+		};
+
+$t->{'copyright'}{pre} = "Copyright \xC2\xA9 ";
+$t->{'trademark'}{post} = "<super>TM</super>";
+$t->{'holder'}{testcode} = sub {
+		my $node = shift;
+		$t->{'holder'}{pre} = "<a href=\"" . findvalue('./@role', $node) . "\">";
+		$t->{'holder'}{post} = "</a>";
+		return 1;
+		};
+
+$t->{'sect1'}{post} = "<br />\n</div>";
+
+#$XML::XPath::Debug = 1;
+$t->{'sect1'}{testcode} = sub {
+		my ($node, $t) = @_;
+                $t->{pre} = '<div class="level1">'."\n";
+		if (my $id = findvalue('./@id', $node)) {
+			$t->{pre} .= "<a name=\"$id\"></a>";
+		}
+		return 1;
+	};
+
+# lists
+
+$t->{'sect2'}{pre} = '<div class="level2">';
+$t->{'sect2'}{post} = "</div>";
+
+$t->{'sect3'}{pre} = '<div class="level3">';
+$t->{'sect3'}{post} = "</div>";
+
+$t->{'figure'}{pre} = '';
+$t->{'figure'}{post} = "\n";
+
+
+#$t->{'figure'}{testcode} = sub {
+#    my ($node, $t) = @_;
+#    my $title = '';
+#    if(my $tit = findvalue('title/', $node)) {
+#	$title = $tit;
+#    }
+#    if (my $uri =
+#	findvalue('mediaobject/imageobject/imagedata/@fileref', $node)) {
+#	$t->{pre}  = '<div class="div">'."\n";
+#	$t->{pre} .= join('',('<img src="',
+#				  $uri,
+#				  '" alt="',
+#				  $title,
+#				  '" title="',
+#				  $title,
+#				  '" />')
+#			  );
+#       $t->{post}="</div>\n";
+#    }
+#    
+#    return 1;
+#};
+
+
+
+$t->{'graphic'}{testcode} = sub {
+    my $node = shift;
+    my $t    = shift;
+
+    if(my $href = findvalue('./@fileref',$node)) {
+	my $alt = '';
+	if($alt = findvalue('../title',$node)) {
+		$alt = "alt=\"$alt\"";
+	}
+	$t->{pre}="<img src=\"$href\" $alt />";
+	$t->{post}="<br clear='all' />\n";
+    }
+
+    return 1;
+};
+
+#$t->{'itemizedlist'}{testcode} = sub {
+#    my $node = shift;
+#    my $t    = shift;
+
+#    my $parent = findvalue('name(..)', $node);
+#    if($parent eq 'para' ) {
+	$t->{'itemizedlist'}{pre} = "<ul>";
+	$t->{'itemizedlist'}{post} = '</ul>';
+#    } else {
+#	$t->{'itemizedlist'}{pre} = '<ul>';
+#	$t->{'itemizedlist'}{post} = '</ul>';
+#    }
+#};
+
+#$t->{'orderedlist'}{testcode} = sub {
+#    my $node = shift;
+#    my $t    = shift;
+
+#    if(my $parent = findvalue('parent::para',$node) ) {
+#	$t->{'orderedlist'}{pre} = '<ol>';
+#	$t->{'orderedlist'}{post} = '</ol>';
+#    } else {
+	$t->{'orderedlist'}{pre} = '<ol>';
+	$t->{'orderedlist'}{post} = '</ol>';
+#    }
+#};
+
+$t->{'glossentry'}{testcode} = sub {
+		my ($node, $t) = @_;
+		$t->{pre} = '<dl id="';
+		$t->{pre} .= findvalue('@id', $node);
+		$t->{pre} .= '">';
+		return 1;
+	};
+
+
+$t->{'glossary'}{pre} = '<div>';
+$t->{'glossary'}{post} = '</div>';
+
+$t->{'glossdiv'}{pre} = '';
+$t->{'glossdiv'}{post} = '';
+
+
+$t->{'glossentry'}{testcode} = sub {
+		my ($node, $t) = @_;
+		$t->{pre} = '<div id="';
+		$t->{pre} .= findvalue('@id', $node);
+		$t->{pre} .= '">';
+		return 1;
+	};
+
+$t->{'glossentry'}{post} = '</div>';
+
+$t->{'glossterm'}{pre} = '<p><strong>';
+$t->{'glossterm'}{post} = '</strong></p>';
+
+$t->{'glossdef'}{pre}   = '<blockquote>';
+$t->{'glossdef'}{post}  = '</blockquote>';
+
+$t->{'glossseealso'}{testcode} = sub {
+		my ($node, $t) = @_;
+		$t->{pre} = '<a href="#';
+		$t->{pre} .= findvalue('@id', $node);
+		$t->{pre} .= '">';
+		return 1;
+	};
+$t->{'glossseealso'}{post} = '</a>';
+
+$t->{'listitem'}{pre} = '<li>';
+$t->{'listitem'}{post} = '</li>';
+
+$t->{'procedure'}{pre} = '<ol>';
+$t->{'procedure'}{post} = '</ol>';
+
+$t->{'step'}{pre} = '<li>';
+$t->{'step'}{post} = '</li>';
+
+# examples, listings, etc.
+
+$t->{'programlisting'}{pre} =  '<pre>';
+$t->{'programlisting'}{post}= '</pre>';
+
+# need to support <prompt> and other tags within screen...
+$t->{'screen'} = $t->{'programlisting'};
+
+$t->{'userinput'}{pre} = '<strong>';
+$t->{'userinput'}{post} = '</strong>';
+
+$t->{'replaceable'}{pre} = '<em>';
+$t->{'replaceable'}{post} = '</em>';
+
+$t->{'emphasis'}{pre} = '<em>';
+$t->{'emphasis'}{post} = '</em>';
+
+$t->{'application'}{pre} = '<strong>';
+$t->{'application'}{post} = '</strong>';
+
+$t->{'manvolnum'}{pre} = '(';
+$t->{'manvolnum'}{post} = ')';
+
+$t->{'option'}{pre} = '<tt>';
+$t->{'option'}{post} = '</tt>';
+
+$t->{'filename'} = $t->{'option'};
+$t->{'literal'} = $t->{'option'};
+
+# tables
+
+$t->{'table'}{pre} = '<table>';
+$t->{'table'}{post} = '</table>';
+
+$t->{'tgroup'}{pre} = '';
+$t->{'tgroup'}{post} = '';
+
+$t->{'tbody'}{pre} = '<tbody>';
+$t->{'tbody'}{post} = '</tbody>';
+
+$t->{'row'}{pre} = '<tr>';
+$t->{'row'}{post} = '</tr>';
+
+$t->{'entry'}{pre} = '<td>';
+$t->{'entry'}{post} = '</td>';
+
+# references
+$t->{'anchor'}{testcode} = sub {
+		my ($node, $t) = @_;
+		$t->{pre} = '<a name="';
+		$t->{pre} .= findvalue('@id', $node);
+		$t->{pre} .= '">';
+		$t->{post} = '</a>';
+		return 1;
+	};
+	
+$t->{'xref'}{testcode} = sub {
+		my ($node, $t) = @_;
+		$t->{pre} = '<a href="#';
+		my $id = findvalue('@linkend', $node);
+		$t->{pre} .= $id . '">';
+		$t->{pre} .= findvalue("id('$id')/title/text()");
+		$t->{post} = '</a>';
+		return -1;
+	};
+
+$t->{'link'}{testcode} = sub {
+		my ($node, $t) = @_;
+		$t->{pre} = '<a href="#';
+		$t->{pre} .= findvalue('@linkend', $node);
+		$t->{pre} .= '">';
+		$t->{post} = '</a>';
+		return 1;
+	};
+
+$t->{'footnoteref'}{testcode} = sub {
+		my ($node, $t) = @_;
+	        my $fid = findvalue('@linkend', $node);
+		$t->{pre} = '[<a href="#'.findvalue('@linkend', $node).'">';
+		$t->{pre} .= findvalue('@linkend', $node);
+		$t->{post} = '</a>]';
+		return 1;
+	};
+
+$t->{'bibliography'}{testcode} = sub{
+	my ($node, $t) = @_;
+	$t->{pre} = '<table class="navigation">'."\n\n";
+	return 1;	
+};
+
+$t->{'bibliography'}{post} = "</table>\n";
+
+$t->{'biblioentry'}{testcode} = sub {
+    my ($node, $t) = @_;
+    $t->{pre} = '<tr><td class="left">[<a name="';
+    $t->{pre} .= findvalue('@id', $node);
+    $t->{pre} .= '">';
+    $t->{pre} .= findvalue('@id', $node);
+    $t->{pre} .= '</a>]</td><td class="left">';
+
+
+    $t->{post} = '</td></tr>'."\n";
+    return 1;
+	};
+
+
+
+
+%>

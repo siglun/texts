@@ -1,0 +1,202 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE article PUBLIC "-//OASIS//DTD DocBook XML V4.1.2//EN"
+  "http://www.oasis-open.org/docbook/xml/4.1.2/docbookx.dtd" [
+]>
+
+<?xml-stylesheet
+      href="./db_special.xsl"
+      type="text/xsl"
+      media="screen"
+      title="default" ?>
+<!--
+
+$Id$
+
+Last changed $Date$ by $Author$
+
+-->
+
+<article lang="sv">
+  <articleinfo>
+    <title>The services Xerxes and Scripta</title>
+    <author>
+      <firstname>Sigfrid</firstname>
+      <surname>Lundberg</surname>
+    </author>
+    <affiliation>
+      <orgname>Biblioteksdirektion, Lunds universitet</orgname>
+    </affiliation>
+    <revhistory>
+      <revision>
+	<revnumber>$Revision$</revnumber>
+	<date>$Date$</date>
+	<authorinitials>$Author$</authorinitials>
+      </revision>
+    </revhistory>
+    <indexterm>
+      <primary>
+	<ulink url="documentation.xml">Documentation</ulink>
+      </primary>
+      <seealso>
+	<ulink url="cataloging-tool.xml">Cataloging tool</ulink>
+      </seealso>
+      <seealso>
+	<ulink url="keystone-hotel.xml">Keystone Hotel</ulink>
+      </seealso>
+      <seealso>
+	<ulink url="xerxes-scripta-tkl.xml">Xerxes &amp; Scripta Keystone</ulink>
+      </seealso>
+      <seealso>
+	<ulink url="xerxes-listcourses.xml">Xerxes List Courses</ulink>
+      </seealso>
+
+      </indexterm>
+    </articleinfo>
+
+  <sect1  id="top">
+    <title>Design principles</title>
+
+    <para>The two seemingly different services are basically just one, the design
+      build on the following principles</para>
+
+    <itemizedlist>
+      <listitem>
+	<para>The two services build on a modular philosophy, i.e., that different
+	  components should be kept separate and thus be possible to replace
+	  independent of each other.</para>
+      </listitem>
+      <listitem>
+	<para>Furthermore, it is an advantage to store metadata in a portable format
+	  together with the objects they describe.</para>
+      </listitem>
+      <listitem>
+	<para>Stored objects may have an hierarchical structure, i.e., they may
+	  have components that should be possible to describe and archive
+	  independently of the host object.</para>
+      </listitem>
+      <listitem>
+	<para>It should at least be possible to simultaneously support
+	  different editorial workflows in a number of different services and
+	  still have the advantage of maintaining a range of end user
+	  interfaces with a minimum of differences.</para>
+      </listitem>
+    </itemizedlist>
+
+  </sect1>
+
+  <sect1  id="catalog">
+    <title>Architecture of the Cataloguing Subsystem and the Archives</title>
+
+    <para>Technical aspects of the cataloging tool is covered in a <ulink
+	url="cataloging-tool.xml">separate document</ulink>, this is a mere
+      overview.</para>
+
+    <para>Architecture of the service is depicted in Figure 1. Active users 
+      .. </para>
+
+    <figure>
+      <title>Figure 1. Architecture of Xerxes' &amp; Scripta's cataloging tool</title>
+      <mediaobject>
+	<imageobject>
+	  <imagedata fileref="images/xerxes_toolkit.png" format="PNG" />
+	</imageobject>
+      </mediaobject>
+    </figure>
+
+  </sect1>
+  
+  <sect1 id="search">
+    <title>Architecture of the Search Subsystem</title>
+
+    <figure>
+      <title>Figure 2. Architecture of Xerxes' &amp; Scripta's search engine</title>
+      <mediaobject>
+	<imageobject>
+	  <imagedata fileref="images/search_engine.png" format="PNG" />
+	</imageobject>
+      </mediaobject>
+    </figure>
+    <para></para>
+
+  </sect1>
+
+  <sect1 id="datamodel">
+    <title>Xerxes' Datamodel</title>
+
+    <sect2 id="agents">
+      <title>Users &amp; Agents</title>
+
+      <table>
+      <title>Roles for persons in Xerxes Cataloguing Toolkit</title>
+      <tgroup cols="2">
+	<tbody>
+	  <row>
+	    <entry>userauthor</entry>
+	    <entry><para>An author who is also a user of the system. userauthors are
+	      athenticated vi the university's LDAP system</para></entry>
+	  </row>
+	  <row>
+	    <entry>reviewer</entry>
+	    <entry>
+	      <para>A reviewer is a person with the power to publish or withdraw
+	      objects from the public service.</para>
+	      <para>The access rights are limited to a certain jurisdiction,
+		which for Xerxes is arranged hierarchically according to
+		administrative domains as defined by the university's
+		organisation. In Scripta there is a flat list of jurisdictions
+		based on faculty.</para>
+	      <para>A reviewer may also edit metadata, and has the right to
+		download and upload objects from and to the object
+		store.</para>
+	    </entry>
+	  </row>
+	  <row>
+	    <entry>admin</entry>
+	    <entry><para>An admin has the same rights as a reviewer, but may edit
+	      peoples roles, and may also change his or her own jurisdiction.</para></entry>
+	  </row>
+	  <row>
+	    <entry>otherauthor</entry>
+	    <entry><para>Otherauthors are authors that has to be registered, but are
+	      not present in the university's directory service.</para></entry>
+	  </row>
+	  <row>
+	    <entry>retired</entry>
+	    <entry><para>A retired staff (former reviewers or admins)</para></entry>
+	  </row>
+	  <row>
+	    <entry>exporter</entry>
+	    <entry><para>A software agent used for exporting data from a certain
+	      jurisdiction or subject domain. Not currently used.</para></entry>
+	  </row>
+	</tbody>
+      </tgroup>
+    </table>
+
+    </sect2>
+  </sect1>
+
+<!--
+
+$Log$
+Revision 1.1  2009/06/29 11:08:29  sigfrid
+Initial revision
+
+Revision 1.4  2005/06/08 14:58:21  sigge
+Added a lot of info on user roles. New graphs in English
+
+Revision 1.3  2005/06/08 14:05:22  sigge
+Split the document, such that the changes between the TKL version used
+in Xerxes and Scripta and vanilla TKL/Keystone DLS gets a document of
+its own
+
+Revision 1.2  2005/06/08 09:43:13  sigge
+Added revision things
+
+Revision 1.1  2005/05/26 12:00:58  sigge
+Initial revision
+
+
+-->
+
+</article>

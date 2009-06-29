@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<html xmlns="http://www.w3.org/1999/xhtml"><head><title>2003</title><script src="/js/navigation.js" type="text/javascript"> 
+	      </script><meta http-equiv="Content-Type" content="text/html;charset=UTF-8"/><link rel="stylesheet" href="/css-style/html.css"/></head><body><div class="left_box"><div style="text-align:left;width=100%;"><!--#include virtual="/div_top_left_box.xml" --></div><div style="text-align:left;width=90%;"><p><a href="/">Home</a></p><h3>Browse my stuff</h3><!--#include virtual="/subjects.xml" --></div></div><div class="right_box"><p class="right"><em><strong>Sigfrid Lundberg's Stuff</strong></em></p><h1>2003</h1><p><strong>2003: </strong><a href="/2003/axiell-oai/oai-opac.pdf"><em>Implementering av OAI-PMH i ett bibliotekssystem -- Några ord på
+    vägen</em></a><br/>Syftet med denna text är att ge lite kött på benen om vad OAI-PMH
+    är, vad det kan användas till och hur det skulle kunna integreras i ett
+    bibliotekssystem. Det är inte en ersättning för andra dokument utan skall
+    ses som några ord på vägen för organisationer som planerar att eller är i
+    färd med att implementera OAI-PMH. Texten skrevs på uppdrag av
+    http://www.axiell.se/bookit<br/><a href="/subjects/harvesting/">Harvesting</a>,
+	<a href="/subjects/metadata/">Metadata</a>,
+	<a href="/subjects/opac/">Library catalogues</a></p><p><strong>2003: </strong><a href="/2003/urnar_och_digitala_bibliotek/"><em>Pesistent länkning och digitala bibliotek</em></a><br/>Åtskillig uppmärksamhet har nyligen riktats mot problemen
+    förknippade med att uppnå en stabilare webb. Det konstateras, helt
+    korrekt, att mängder med dokument bara försvinner från sina ursprungliga
+    platser. Vad skall man då göra åt saken? Vad är det för grundläggande
+    designproblem som gör att organisationer vilka underhåller länksamlingar
+    av olika slag tvingas bära en allt tyngre börda?<br/><a href="/subjects/digitallibraries/">Digital libraries</a>,
+	<a href="/subjects/metadata/">Metadata</a></p><p><strong>2003: </strong><a href="/2003/def-test/"><em>Teknisk samverkan mellan svenska ämnesportaler - Test och
+    utvärdering av portalprogramvaran TKL</em></a><br/>En utvärdering av digital library produkten Keystone DLS (TKL)<br/><a href="/subjects/digitalcollections/">Digital collections</a>,
+	<a href="/subjects/metadata/">Metadata</a>,
+	<a href="/subjects/reviews/">Reviews</a>,
+	<a href="/subjects/xmlprocessing/">XML processing</a></p><p><strong>2003: </strong><a href="/2003/pek/"><em>Vad är ett PEK?</em></a><br/>Här rapporterar jag en konvergent språklig utveckling mellan
+    forskare och internerna på Långholmen. I båda kategorierna används ordet
+    "pek" för att beskriva en kommunikation, bland akademiker var det på
+    1980-talet slang för "uppsats" och på Långholmen var det en text som
+    skickades med linbana längs med fängelsemurarna.<br/><a href="/subjects/musiclanglit/">Music, language &amp; literature</a></p></div><!--#include virtual="/js/urchin.js" --></body></html>

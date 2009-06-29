@@ -1,0 +1,135 @@
+#  ---------------------------------------------------------------------
+#   Open Archives Initiative Protocol for Metadata Harvesting Toolkit
+#    v3.05
+#    June 2002
+#  ------------------+--------------------+-----------------------------
+#   Hussein Suleman  |   hussein@vt.edu   |    www.husseinsspace.com    
+#  ------------------+--------------------+-+---------------------------
+#   Department of Computer Science          |        www.cs.vt.edu       
+#     Digital Library Research Laboratory   |       www.dlib.vt.edu      
+#  -----------------------------------------+-------------+-------------
+#   Virginia Polytechnic Institute and State University   |  www.vt.edu  
+#  -------------------------------------------------------+-------------
+
+
+Description
+-----------
+
+This toolkit implements the skeleton of the OAI-PMH v2.0 in an 
+object-oriented fashion, thus hiding the details of the protocol
+from code that is derived from the predefined class.
+
+
+Features
+--------
+
+- Strict compliance with OAI-PMH v2.0 as specified on the OAI
+  website (http://www.openarchives.org)
+- No installation or compilation - Perl scripts need only be copied
+  (Additional modules may be required to access your data source.)
+- Code layout for separate components or libraries of components
+- One installation can easily be used for multiple archives
+- Supports almost all general features of the protocol by default.
+- All extensions, configurations, and containers are specified 
+  using XML Schema
+- Minimal changes required to create a working implementation
+- Sample modules are provided
+- Does not couple tightly with the web server and requires no special
+  features
+- Designed for easy migration to accelerators such as FastCGI
+
+
+Requirements
+------------
+
+- Perl
+- Web server with ability to run CGI scripts
+
+
+Installation Instructions
+-------------------------
+
+1. Copy all files with default directory structure into a directory
+   from which CGI scripts may be run
+
+2. Use the repository explorer (http://purl.org/net/oai_explorer)
+   to test the sample interface accessible at 'test/oai.pl'. You
+   will need to prefix this with the full URL prefix to the script. 
+
+3. Copy the 'lib/Test/TestDP.pm' module to use as a starting point
+   for your code. Rename the module and change the package name.
+   Copy the 'test' directory and edit the module being used so that
+   it points to your new copy.
+   
+4. Edit the routines in the new module to access your data source.
+   You will most probably only have to edit the following:
+
+    new (constructor) - called when the script starts
+
+    dispose (destructor) - called when the script ends
+    
+    FormatDC - converts a hashref (hash-reference) to some arbitrary 
+     data format into a hashref to DC
+    (create functions for other metadata formats if necessary)
+    
+    Archive_FormatHeader - creates a header based on a hashref and a
+     metadataPrefix
+
+    Archive_FormatRecord - creates a record based on a hashref and a
+     metadataPrefix
+     
+    Archive_Identify - add specific identification information to the
+     Identify responses
+
+    Archive_ListMetadataFormats - list of metadata formats
+     specific to an identifier - an empty list defaults to the hardcoded
+     metadata format(s).
+     
+    Archive_ListSets - list of sets
+    
+    Archive_GetRecord - create a hashref of data corresponding to a
+     given identifier and metadataPrefix
+     
+    Archive_ListRecords - create a list of hashrefs corresponding to
+     the given parameters
+
+    Archive_ListIdentifiers - create a list of hashrefs corresponding to
+     the given parameters
+    
+   The HSPICS module provides an alternative starting point and better 
+   illustrates how to handle parameters and create the required data.
+
+   The OAI2DP.pm module is the base class so implements the basic
+   functionality of the protocol - browse through this code to see what
+   is handled and what is not.
+
+
+Module Layout
+-------------
+
+lib/Pure:
+ - utility modules (in pure-perl)
+
+lib/OAI:
+ - OAI2DP = generic data provider
+ 
+lib/HSPICS:
+ - HSPICS = data provider for hussein's picture albums
+
+lib/Test:
+ - TestDP = test data provider
+
+
+
+Links/Acknowledgements
+----------------------
+
+This software is part of the larger project to build componentized
+Digital Libraries based on the work of the Open Archives Initiative.
+See http://oai.dlib.vt.edu/odl and http://www.openarchives.org for
+more information.
+
+This is a research project, and we are always interested in 
+feedback - questions, comments, and suggestions for improvement.
+Please contact hussein@vt.edu as appropriate.
+

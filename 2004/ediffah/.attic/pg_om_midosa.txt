@@ -1,0 +1,75 @@
+From per-gunnar.ottosson@riksarkivet.ra.se Wed Jan 26 13:07:13 2005
+Date: Tue, 25 Jan 2005 16:55:57 +0100
+From: Per-Gunnar Ottosson <per-gunnar.ottosson@riksarkivet.ra.se>
+To: Sigfrid.Lundberg@lub.lu.se, ediffah@munin.lub.lu.se
+Subject: Sv: Re: En liten hjälp på traven
+
+Hej!
+Nu har även jag äntligen testat Midosa mer i detalj och jag är faktiskt rätt bekymrad över implementeringen av EAD. Ursäkta om det nu följer en del märkliga detaljer, som förstås är kryptiska för projektdeltagare, som inte provat på Midosa och EAD.
+
+Midosa förutsätter konstigt nog att den lägsta nivån som man förtecknar på är en volym i ungefär samma mening som i svenska myndighetsförteckningar:
+arkiv
+- ev. delarkiv
+-- serie
+--- ev underserie
+----- volym, tyska "Serienband" 
+
+Märkligt nog kallas denna sista nivå för "file" vid EAD-export och man har inte tillämpat elementet för volymnummer <container>. Försöker man ge ett "Serienband" underordnade enheter, så förvandlas den med automatik till en serie!
+
+Om innehållet i volymen närmare ska specificeras i Midosa, görs det med "elementet" "Enthält darin" /"Contains", som vid export till EAD får den udda märkningen
+<odd encodinganalog="EnthaeltDarin" type="enthaelt">
+<p>Innehåller</p>
+</odd>
+
+Det är direkt emot principerna för EAD som innebär att man inte blanda ihop arkivets struktur med förvaringsmedlen. I de flesta förteckingar över personarkiv i Sverige har  man i stort sett gjort som det är tänkt i EAD, d.v.s. skrivit vad som på  amerikansk arkivslang kallas "box-file-lists".
+
+Sigge, det var ett tappert försök att förklara skillnaden mellan 
+(A) Classification group /Gliederungsstufe och 
+(B) Descriptive unit /Verzichnungseinheit
+men när det exporteras till EAD blir i alla fall båda företeelserna serier, såvida icke (B) råkar vara på lägsta nivå i hierarkin för då blir det alltid en "file"! 
+
+SLUTSATS
+För min del ger jag upp Midosa och inriktar mig på att ta fram exempel med vanliga XML-editorer. Imorgon e.m. (onsdag 26/1) ska vi diskutera olika alternativ på KB:s handskriftsavdelning.
+
+Hälsningar
+
+P-G
+
+
+
+***************************************************************
+Per-Gunnar Ottosson,  förste arkivarie (senior archivist)
+IT-byrån (IT division)
+RIKSARKIVET (National Archives of Sweden)
+Box 125 41
+SE-102 29 STOCKHOLM    Sweden
+Phone: + 46 8 737 6430
+Mobile: + 46 70 345 4978
+Fax:     + 46 8 657 9564
+E-mail (office): per-gunnar.ottosson@riksarkivet.ra.se
+E-mail (home): pgonets@yahoo.se
+Projects: 
+ICA/Provisional Section on 
+Professional Standards and Best Practices
+   www.ica.org
+The Oxenstierna project
+   www.ra.se/ra/Oxenstierna/oxenstierna1.html
+***************************************************************
+
+>>> Sigfrid Lundberg <sigfrid.lundberg@lub.lu.se> 2005-01-25 14:20:24 >>>
+On Mon, 24 Jan 2005, I wrote:
+
+>
+> Jag har ställt samman ett litet dokument som jag hoppas kommer att vara
+> till hjälp när ni nu skall börja skriva några arkivförteckningar i
+> MidosaXML. Det ligger på
+>
+> http://sigge.lub.lu.se/2004/ediffah/midosa-related/create_findingaids.doc 
+
+Jag har bytt URL på det dokumentet
+
+http://sigge.lub.lu.se/2004/ediffah/midosa-related/create_findingaids.xml 
+
+Sigge
+
+

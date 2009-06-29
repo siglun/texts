@@ -1,0 +1,679 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE TEI.2 [
+<!ENTITY % TEI.XML "INCLUDE" >
+<!ENTITY % TEI.prose "INCLUDE" >
+<!ENTITY % TEI.linking "INCLUDE" >
+<!ENTITY % TEI.figures "INCLUDE" >
+<!ENTITY ndash "<ndash/>" >
+<!ENTITY mdash "<mdash/>" >
+<!ENTITY approx "<approx/>" >
+<!ENTITY gt "<greater-than/>" >
+<!ENTITY lt "<less-than/>" >
+<!ENTITY dcterms SYSTEM "./dcmi-elements.xml" >
+<!ENTITY brev SYSTEM "./brev-exempel.xml" >
+<!ENTITY letter-content SYSTEM "./brev-content.xml" >
+<!NOTATION MS SYSTEM "troff ms-macro document" >
+<!ENTITY business-model SYSTEM "business_model.ms" NDATA MS>  
+<!ENTITY frbr           SYSTEM "frbr.ms"           NDATA MS>  
+<!ENTITY tree           SYSTEM "tree.ms"           NDATA MS>  
+]>
+
+<TEI.2>
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>XML &mdash; Revolution eller hybris?
+	  Tillämpningar av XML inom det digitala biblioteksväsendet
+	</title>
+      </titleStmt>
+      <publicationStmt>
+        <p>Publicerad av författaren</p>
+      </publicationStmt>
+      <sourceDesc>
+	<bibl default="NO" TEIform="bibl">
+           <author TEIform="author">
+             <name TEIform="name">Sigfrid Lundberg</name>
+           </author>
+           <pubPlace>Lund</pubPlace>
+           <date>15 februari 2003</date>
+        </bibl>
+      </sourceDesc>
+    </fileDesc>
+    <profileDesc>
+      <langUsage>
+	<language>swe</language>
+      </langUsage>
+    </profileDesc>
+    <revisionDesc>
+      <change>
+        <date>$Date$</date>
+        <respStmt>
+          <name>$Author$</name>
+        </respStmt>
+        <item>$Revision$</item>
+      </change>
+    </revisionDesc>
+  </teiHeader>
+
+
+  <text>
+    <front>
+      <titlePage>
+	<docTitle>
+          <titlePart type="main">XML &mdash; Revolution eller
+	    hybris?</titlePart>
+	  <titlePart type="sub">Tillämpningar av XML inom det digitala
+          bibliotekväsendet</titlePart> 
+	</docTitle>
+	<byline>av
+	  <docAuthor>
+<![CDATA[Sigfrid Lundberg, sigfrid.lundberg@lub.lu.se
+LuCEP/Biblioteksdirektionen
+Lunds universitet
+PO Box 134
+S-221 00 Lund]]>
+</docAuthor>
+        </byline>
+      </titlePage>
+        <div type="abstract">
+	<p>Denna text syftar till att ge en överblick över vissa
+	  områden av det digitala biblioteksområdet vilka är stadda i
+	  snabb utveckling. En utveckling som i hög grad katalyseras av
+	  utvecklingen av olika tillämpningar av <q>eXtensible Markup
+	    Language</q>, XML, som i år fyller fem år.</p>
+
+	<p>Utöver användningen av XML inom det digitala biblioteksväsendet ges
+	  en överblick över modernt tänkande när det gäller metadata, hur XML
+	  kan tänkas påverka hur vi tar del av, och hanterar elektroniska
+	  texter både i form av digitalt bevarande och publicering av t ex
+	  forskningsrapporter.</p>
+      </div>
+    </front>
+    <body>
+      <div1 n="1">
+        <head>Inledning</head>
+	<!--http://www.w3.org/2003/02/xml-at-5.html-->
+	<p rend="noindent">XML fyller fem år i år. Födelsedagsbarnet
+	  är ett <emph>meta</emph>språk. Det är inte ett språk man skriver
+	  texter i, utan ett språk man använder för att definiera andra
+	  språk.<note n="XML"><xref 
+	      to="http://www.w3.org/TR/REC-xml"/></note> Språket har snabbt
+	  vunnit popularitet i vida kretsar till den grad att många har börjat
+	  lida av en slags <soCalled>angle-bracket fatigue</soCalled>.  Drabbas
+	  du av en oförklarlig matthet när du ser tecknen &lt; och &gt; bör du
+	  lägga undan denna text. Du är i risksonen för att drabbas av denna
+	  form av depression.</p> 
+
+	<p>Jag tänker mig att denna text skall kunna tjäna som en
+	  inledning för den tekniskt mindre bevandrade till
+	  landvinningar som gjorts inom det digitala biblioteksväsendet
+	  fram till XMLs femårsdag, och även en del teknologier som fått
+	  uppleva en renässans i XML-boomens kölvatten.</p>
+
+	<p>Innan jag går över till det egentliga innehållet vill jag
+	  säga några få ord om mig själv. Jag har arbetat med
+	  informationssökning på Internet sedan 1995. Hela tiden har
+	  markerad text varit min specialitet. Då började jag med
+	  robotar och automatisk indexering av webbsidor i tjänster som t ex
+	  Nordiskt Webbindex. Sedermera lade jag till metadata &mdash;
+	  katalogiseringsinformation &mdash; som bäddats in i webbsidorna i så
+	  kallade metataggar i tjänster som Svenska Miljönätet, Safari och
+	  Studera.NU. Jag har fortsatt i samma spår; att försöka hjälpa mina
+	  medmänniskor att hitta texter som de kan ha nytta och glädje
+	  av. Under mitt arbete har miljön jag arbetat inom blivit mer och mer
+	  kontrollerad. Nu är det strikta XML-baserade tjänster, som täcker
+	  alltfrån sökning bland digitaliserade medeltidshandskrifter till
+	  elektronisk publicering av vetenskapliga uppsatser.</p>
+
+	<p>Min text har tre delar. Först tar jag upp en rad
+	  <soCalled>mjuka</soCalled> ämnen, trender inom utvecklingen på
+	  metadataområdet. Både äldre standarder som utvecklats vidare och nya
+	  som aspirerar på att bli implementerade. Frågan är med vilka
+	  affärsmodeller de är förenliga och vilka olika funktionella krav de
+	  uppfyller. Standarderna har uppkommit i olika ekonomiska eller
+	  politiska sammanhang som det inte går att bortse ifrån.</p>
+
+	<p>Därefter övergår jag till hur XML kan används för att koda
+	  data och dokument, och även metoder som används för att
+	  transportera XML över ett nätverk. In emellan gör jag helt
+	  personliga reflektioner om hur standardarder används och
+	  exempel på projekt och sammanhang där de förekommer inom
+	  Sverige.</p>
+
+      </div1>
+
+      <div1 n="2">
+
+	<head>Metadata, <q>Business models</q> och <q>data models</q></head>
+
+	<p rend="noindent">För att någon skall bygga en digital
+	  informationstjänst, så måste den fylla något behov. Någon
+	  måste behöva den, och någon måste vilja betala den. Metoden
+	  för att översätta ett behov till betalningsvilja brukar kallas
+	  tjänstens <emph><q>business model</q></emph> eller dess
+	  <emph>affärsidé</emph>.</p>
+
+	<p>Vilken roll, om någon, spelar en affärsidé för hur en
+	  databas byggs, och vilka metadata som används?  Metadata är
+	  big business. Tro alltså inte att metadata skapas av
+	  idealistiska bibliografer som vill möjliggöra högkvalitativa
+	  sökverktyg, drömmande bibliotekarier i fotriktiga skor. Eller
+	  att metadatatjänster enbart skapas av orakade datornördar<note
+	    n="SHOES"><xref
+	      to="http://www5conf.inria.fr/fich_html/slides/invited/IS1/all.htm" /></note>.</p>
+	
+	<p>Metadata är en av grundvalarna i mediaindustrin. Denna
+	  lever på att äga, köpa och sälja nyttjanderätten till
+	  copyrightskyddat material av olika slag (se Figur 1). För att
+	  inse att detta är fallet, fundera en stund över Svenska
+	  Tonsättares Internationella Musikbyrås <note n="STIM"><xref
+	      to="http://www.stim.se/" /></note> verksamhet.</p>
+
+	<p>
+	  <figure n="1" entity="business-model">
+            <head>INDECs businessmodell, som ligger till grund för
+            mycket tänkande för mediaindustrins när det gäller
+            metadata. Efter Bearman et al. <note n="BRMN"><xref to="http://www.dlib.org/dlib/january99/bearman/01bearman.html"/></note>.</head>
+          </figure>
+	  </p>
+
+	<p>Hur skall man få reda på alla rättsinnehavare involverade när man
+	  spelar låt oss säga Louis Armstrongs <title>Mack the knife</title>,
+	  alltså Broadwayversionen av Bert Brechts och Kurt Weills
+	  <title>Mackie Messer</title> på svensk 
+	  radio?  Brecht skrev librettot till <title>Die
+	    Dreigroschenoper</title>,
+	  <title>Tolvskillingsoperan</title> och Weill komponerade 
+	  musiken, någon översatte till engelska, ytterligare någon skrev det
+	  jazzigare arrangemanget, slutligen har vi orkester, dirigent och
+	  Louis Armstrong själv. Alla personer eller organisationer som
+	  bidragit till verket kallar jag i fortsättningen för
+	  <emph>agenter</emph>. För att kunna fördela STIM-pengar till alla
+	  som bidragit krävs detaljerad information som
+	  tar hänsyn till alla uppgörelser som har gjorts kring det
+	  intellektuella innehållet i text och melodi, och de övriga
+	  <soCalled>transformationer</soCalled> verket genomgått 
+	  innan det hamnade i Sveriges Radios skivsamling.</p>
+
+	<p>Alla krav man kan ställa för att det skall vara meningsfullt att
+	  skapa sådana metadata är uppfyllda. Vi har en affärsidé; svenska
+	  tonsättare blir medlemar och STIM tar till vara deras
+	  intressen. Liknande organisationer runt om gör motsvarande jobb, och
+	  tillsammans bevakar de systerorganisationernas medlemmars
+	  intressen internationellt.</p>
+
+	<p>Utan att egentligen bry oss om hur det går till i verkligheten, är
+	  det en lärorik övning att fundera över vilken information om 
+	  <title>Die Dreigroschenoper</title> STIM och koalitioner inom
+	  mediasektorn behöver för att rätta konton skall berikas när Louis
+	  raspiga röst hörs i radio. Ett databasschema som klarar av detta
+	  måste vara baserad på en struktur som liknar den som visas i Figur
+	  2. Denna struktur är hämtad från en publikation som heter <title>The
+	    functional requirements for bibliographic records</title>,
+	  FRBR. Om du inte visste det, så uttalas det förbör. Du måste nästan
+	  svälja r:en för att verka initierad.</p>
+
+	<p>
+          <figure n="2" entity="frbr">
+            <head>De grundläggande entitetsrelationerna enligt IFLAs
+            beskrivning av de funktionella kraven för en bibliografisk
+            post.<note n="FRBR"><xref
+		  to="http://www.ifla.org/VII/s13/frbr/frbr.pdf"/></note></head></figure> 
+        </p>
+
+
+	<p rend="noindent">Man kan framställa FRBRs fyra nivåer så här:</p>
+
+	<sp><speaker>Bert Brecht</speaker><stage>stolt</stage> <p>Jag kom med
+	    med idén, det abstrakta verket!</p>
+	</sp>
+
+	<sp><speaker>Brecht &amp; Weill</speaker><stage>i kör</stage> <p>Vi
+	  skapade operan, idéns konstnärliga uttryck.</p>
+	</sp>
+
+	<sp><speaker>Brecht</speaker><stage>leende</stage><p>Jag iscensatte
+	    operan. Jag regisserade och så att verket fick en scenisk
+	    manifestation.</p></sp>
+
+	<sp><speaker>Kvinnan i publiken</speaker><stage>Med en lycklig
+	    suck</stage><p>Och jag var på premiären! Den första i en serie
+	    underbara föreställningar. Vart och ett exempel på Berts
+	    storhet.</p> 
+	</sp>
+
+	<sp><speaker>John Gay</speaker><stage>Överseende
+	    teaterviskning</stage><p>Jag gav ut <title>The Beggar's
+	      Opera</title> redan 1712.</p> 
+	</sp>
+
+	<p rend="noindent">Om vi för tillfället bortser från Gays kommentar,
+	  ser vi här ett exempel på hur en abstrakt modell av en kreativ
+	  process kan påverka hur man modellerar en bibliografisk post. Steget
+	  här är långt från den traditionella MARC-postens 999 fält, subfält
+	  från a&ndash;z och indikatorer. Fälten betecknas som bekant med sina
+	  nummer. Det ligger trettio års utveckling inom
+	  databasområdet mellan MARC och FRBR. En utveckling som stimulerats av
+	  idéer inom fält som objektorienterad programmering.</p>
+
+	<p>När det gäller STIM och dess broder- och systerorganisationer
+	  internationellt räcker inte relationerna som visas i Figur 2. En del
+	  av det som behövs finns faktiskt i Dublin Core Metadata Initiatives
+	  (DCMI) vokabulärer. Innan jag går in på dem är det några kraftfulla
+	  generella metadatakoncept jag vill diskutera.</p> 
+
+	<div2 n="2.1">
+
+	  <head>I händelsernas centrum</head>
+
+	  <p rend="noindent">Alla som arbetat i projektform vet att det
+	    finansiärer och projektledare fäster störst vikt vid är tidsplanen,
+	    att den följs och att projektet levererar de produkter som
+	    specificerats. Det blir lättare att hålla reda på alla
+	    entreprenörer då.</p>
+
+	  <p>Tänk på <title>Die Dreigroschenoper</title> som ett projekt, som
+	    genom en serie aktiviteter eller händelser leder oss från Berts
+	    första tomma vita pappersark i tjugotalets Berlin till en
+	    teaterscen i Amerika. Varje milstolpe i projektet är en
+	    <emph>händelse</emph> (i vardagslag kallar jag detta &mdash; på
+	    moderna halvsvenska för ett <q>event</q>). Den eller de
+	    som arbetar med händelsen kommer till stånd kallar jag
+	    agenter. En latinist jag känner säger att agent är presens particip
+	    av verbet <q>agere</q> &mdash; handla, göra, utföra, alltså
+	    görande, handlande, utförande. Så nu vet du det.</p>
+
+	  <p>Det existerar två sätt att beskriva beskriva resurser
+	    &mdash; de må vara inspelade sånger eller böcker. Antingen
+	    beskriver vi händelserna som ledde fram till objektet vi håller i
+	    handen, eller så beskriver vi objektet. Detta kan, men behöver
+	    inte, leda fram till exakt samma beskrivning, men den kan se lite
+	    olika ut. Dessa två beskrivningssätt leder oss till två olika typer
+	    av metadatasystem:</p>
+
+	  <list>
+
+	    <item>Händelsebaserad (event based)</item>
+	    
+	    <item>Resursbaserad (resource based)</item>
+
+	  </list>
+
+	  <p>I en händelsebaserad beskrivning orsakas varje händelse av en
+	    agent. I vårt exempel var den förste agenten Bert.
+	    En agents relation till verket beskrivs genom hans eller hennes
+	    roll. Berts relation till verket är författarens. Nästa händelse är
+	    att verket tonsattes. Och så vidare.</p>
+
+	  <p>Det bör inte förvåna dig att de flesta av mediaindustrins
+	    metadatasystem (t ex INDECS och MPEG-7) är
+	    händelsebaserad. Principiellt är det ingen större skillnad mellan
+	    att beskriva logistik, entreprenörers verksamhet i ett husbygge och
+	    vägen mellan ett oskrivet ark i Berlin och en musical på
+	    Broadway.</p>
+
+	  <p>Översättare och murare, liksom illustratörer och målare vill
+	    ha lön för sina mödor. De vill sätta mjölk på bordet åt sina
+	    barn. Händelsebaserade metadata visar på vad var och en har gjort,
+	    och underlättar STIMs arbete. Ännu så länge har dock ingen kommit
+	    på idén att ta betalt av folk som tittar på hus. Man har försökt i
+	    Bomässor och annat, fast det var inte särskilt kul.</p>
+
+	</div2>
+
+	<div2 n="2.2">
+
+	  <head>Rum för namn</head>
+
+	  <p rend="noindent">Tänk på metadataelementet titel. Tänk på vilka
+	    värden det kan ta. Exempelvis:</p>
+
+	  <p>Titel: <title>Ett drömspel</title></p>
+
+	  <p>eller</p>
+
+	  <p>Titel: Fröken Harriet Bosse</p>
+
+	  <p>Vi kan lätt tänka ut fler intressanta titlar, som
+	    t ex <title>En dåres försvarstal</title>, <q>His majesty the
+	    king</q>, <title>Krig och fred</title>, <q>His high velocity the
+	    air marschal</q> och, som sagt, <q>fröken</q>. <quote
+	      who="Strindberg, August">Vill ni ha ett litet barn med mig,
+	      fröken Bosse?</quote> lär August Strindberg ha sagt medan han
+	    arbetade med <title>Ett drömspel</title> i Danmark.</p>
+
+	  <p>Jag förmodar att du hajar galoppen här. Såväl svenskans
+	    <q>titel</q> som engelskans <q>title</q> är tvetydiga och kan
+	    beteckna såväl namnet på ett verk som den sortens titlar som på
+	    engelska brukar kallas honorific. Den uppmärksamme läsaren ställer
+	    naturligtvis genast frågan varför jag vill blanda boktitlar och
+	    hederstitlar i samma burk. Mitt svar på den frågan är att jag inte
+	    nödvändigtvis vill det, men titulaturproblem är bara ett av de mest
+	    uppenbara exemplen på en hel klass av problem.</p>
+
+	  <p>För att ta ett relaterat problem, de standardiserade sökattributen
+	    i Z39.50. Jag gillar dem, skarpt. Det är en lysande idé att det
+	    skall vara möjligt att skriva ett sökprogram och veta att
+	    sökattributet för <q>personal name</q> är 1 och att det för
+	    <q>title</q> alltid är 4. Myntet har en baksida. Ett som jag
+	    ständigt stött på i mitt arbete när jag implementerat Z39.50 är
+	    klassifikatonssystemen. Jag har följande, vilka ISO tyckte borde
+	    räcka: <q>Dewey</q>, <q>UDC</q>, <q>Bliss</q>, <q>LCC</q>,
+	    <q>NLM</q>, <q>NAL</q>, <q>MOS</q> och så naturligtvis <q>Local
+	      classification</q>. Som en fattig kusin från landorten har jag
+	    alltid valt just detta sökattribut, <q>local
+	      classification</q>. Smaka på det igen. <emph>Local
+	      classification.</emph>  Hur är det nu, egentligen. Hur många
+	    kusiner är från landsorten, och hur många är från stan? Jag bara
+	    undrar.</p>
+
+	  <p>Tänk om alla kusiner reser sig som en man. Ropet skallar:
+	    Landsortskusiner, förenen eder! Vi skall i dag solidariskt kunna
+	    utföra sökningar i varandras kataloger. Ack, söndrade vi falla. Vi
+	    vet ju både du och jag att alla kusiner från landet har var sitt
+	    klassifikationssystem, och alla är de local classification.</p>
+
+	  <p>Idén om namnrymder är gammal, och överfördes till
+	    markeringspråkens värld tidigt i utvecklingen av XML. Det fanns
+	    plötsligt en metod att låta <q>fröken</q> samleva med <q>Ett
+	      drömspel</q> och låta båda vara titlar. Varje titel kan få ett
+	    eget rum, de kan leva sina liv i
+	    separata namnrymder. En namnrymd för element som beskriver verk och
+	    en annan för element som beskriver personer. Varför är nu detta
+	    viktigt och revolutionerande?</p>
+
+	  <p>Namnrymder är en viktig uppfinning av flera skäl. För det första,
+	    som programmerare är jag inte smart nog att skriva datorprogram som
+	    kan skilja godtyckliga titlar på verk från godtyckliga titlar 
+	    på personer i ett godtyckligt sammanhang. För det andra, genom
+	    namnrymder kan olika projekt eller organisationer komma med
+	    individuella bidrag till en gemensam samling med
+	    metadatavokabulärer. Nya tjänster och metadatasystem kan
+	    återanvända det som var lyckat och bra i tidigare versioner.</p>
+
+	</div2>
+
+	<div2 n="2.4">
+	  <head>DCMI &mdash; samling kring en samling av element</head>
+	  
+	  <p rend="noindent">Informationen i Tabell 1 skall in någonstans i
+	    dokumentet, i anslutning till detta ännu icke skrivna avsnitt. Men
+	    jag tror nog att det skall ha en annan form. Jag gillar inte min
+	    egen tabell. Den är ganska missledande.</p> 
+
+	  <p>&dcterms;</p>
+
+	</div2>
+
+
+      </div1>
+      <div1 n="3">
+
+	<head>Dokument, data och <q>Content models</q></head>
+
+	<p rend="noindent">Vad är ett <emph>dokument</emph> för dig? För mig
+	  brukade till för några år sedan dokument vara ett högtidligt ord. Ett
+	  dokument var handskrivet, kanske med bläck och på fint papper.
+	  Kanske det var skrivet på pergament. Ett dokument var alltid gammalt,
+	  och alltid värdefullt.</p>
+
+	  <exemplum>
+<eg><![CDATA[<I>Sigfrid Lundberg
+LuCEP/Biblioteksdirektionen
+Lunds universitet
+PO Box 134
+S-221 00 Lund</I>]]>
+</eg>
+<eg><![CDATA[<ADDRESS>Sigfrid Lundberg
+LuCEP/Biblioteksdirektionen
+Lunds universitet
+PO Box 134
+S-221 00 Lund</ADDRESS>]]>
+</eg>
+<p>Exampel 1. Två sätt att skriva en adress i HTML, som i de flesta
+	    bläddrare ser exakt likadana ut.</p> 
+	  </exemplum>
+
+
+	<p>Dokument var texter som dokumenterade eller belyste något; ett
+	  skeende i historien till exempel. Gamla gulnade brev från mormors mor
+	  till mors morfar, sådana kändes för mig som dokument. Sen kom
+	  informationsteknologin och med den dokumentinflationen. På min dator
+	  har jag en massa dokument, och du har väl det också. Ofta heter de
+	  något i stil med *.doc. Oavsett om de är brev, artiklar eller kanske
+	  till och med någon bok. När vi ser ett sådant dokument utskrivet, vet
+	  vi trots allt vad det är. Det gör vi eftersom ett brev typiskt
+	  har:</p>
+
+	<list>
+
+	  <item>ett brevhuvud</item>
+	  
+	  <item>en datering.</item>
+
+	  <item>en adressat</item>
+
+	  <item>en inledande hälsningsfras.</item>
+
+	  <item>ett meddelande.</item>
+
+	  <item>en avslutande hälsningsfras.</item>
+
+	  <item>en underskrift.</item>
+
+	</list>
+
+	<p rend="noindent">Det finns ingen generell metod som gör det möjligt
+	  att öppna ett
+	  brev skrivet med någon populär ordbehandlare, och konstatera:
+	  <emph>Detta är ett brev</emph>. I princip är enda metoden att öppna
+	  dokumentet och läsa det. Rent visuellt finns då säkert de element jag
+	  nämner ovan. Finns elementen där i någon djupare mening? Vem bryr
+	  sig? Ganska få. Bortsett från registratorn vid ämbetsverket och
+	  arkivarien och vissa andra som kanske har en lite högtidlig syn på
+	  begreppet dokument. De som tänker som så att dagens *.doc skall bli
+	  framtidens gulnade och värdefulla urkunder.</p>
+
+	<p>XML, och dessförinnan SGML, ger oss möjlighet att definiera
+	  typer av dokument, i en sådan formell mening. En sådan
+	  <emph>dokumenttyp</emph> kan vara just <emph>brev</emph> och
+	  <emph>kontrakt</emph>. Andra dokumenttyper skulle kunna vara
+	  <emph>artikel</emph> eller <emph>bok</emph>. För varje sådan typ kan
+	  man ställa upp en formell definition som måste vara uppfylld för att
+	  ett dokument skall vara exempelvis ett brev.</p>
+
+	<p>När väl en sådan definition är gjord, kan man med datorprogram
+	  kontrollera om definitionen följs. Programmet kan naturligtvis inte
+	  avgöra om jag menar allvar när jag avslutar ett brev med <q>Din för
+	    evigt, Sigfrid</q>. Däremot kan det kontrollera är om ett dokument
+	  innehåller en sådan avslutningsfras. För att programmet skall kunna
+	  göra detta måste frasen också markeras på exakt det sätt definitionen
+	  föreskriver.</p>
+
+	&brev;
+
+	<p>XML gör alltså en distinktion mellan innehåll och form, och
+	  koncentrerar sig på innehållet. Ett mycket enkelt exempel på
+	  skillnaden mellan innehåll och form i ett markeringsspråk är
+	  taggen &lt;ADDRESS&gt;...&lt;/ADDRESS&gt; i vanlig
+	  HTML. Den är mycket ovanlig numera. Den skapades en gång för att
+	  användas på slutet av webbsidor för att berätta vem det var som var
+	  ansvarig för sidan, och hur man skulle kunna ta kontakt med
+	  sidansvarig. Den enda visuella effekten taggen normalt har är att
+	  dess innehåll kursiveras. De som inte gillar kursivering där skippar
+	  den taggen av den anledningen, och de som vill ha kursivering sätter
+	  förmodligen in ett &lt;I&gt;...&lt;/I&gt; i stället. Det ser ju
+	  likadant ut! (se Exempel 1).</p>
+
+	<p>Som den typiske gnällspik jag är kan jag konstatera att folk
+	  ansvariga för HTML-slöjd helt enkelt har struntat i den distinktion
+	  som en gång fanns mellan form och innehåll även i HTML. Därför
+	  bryr sig naturligtvis inte heller utvecklare av sökmaskiner
+	  eller eller liknande produker.</p>
+
+	<p>Om vi nu bryr oss, och vill att ett brev skall vara ett brev i
+	  djupaste möjliga mening, så skulle ett sådant kunna markeras i XML
+	  som i Exempel 2. Detta är ett ganska realistiskt exempel. Namn, datum
+	  och platser är markerade. En samling brev av det här slaget skulle
+	  kunna lagras i en databas och och om man gjorde det, skulle det också
+	  vara möjligt att söka samlingen med precision. Till en tryckt upplaga
+	  skulle det vara lätt att med automatik generera alfabetiska index av
+	  brevskrivare, adressater, personer som nämns i brödtexten, platser. I
+	  hypertext kan sådana element markeras och länkas till såväl
+	  textkritiska noter som till sökningar i databasen. Vilka brev skrev
+	  Strindberg medan han bodde i Lund, vem skrev han till i mars månad
+	  1897? Ett elektroniskt dokument som det i Exempel 2 det håller. XML
+	  är elektroniskt pergament av högsta kvalitet. Det skall gå att läsa i
+	  framtiden, om formatet för markeringen är välkänd och väl
+	  dokumenterad.</p>
+
+	<p>För varje dokumenttyp finns det vissa givna typer av innehållsliga
+	  element man kan vänta sig. Listan med innehållsliga element för ett
+	  brev ovan stämmer väl överens med såväl intuition som det jag använt
+	  i Exempel 2.</p>
+	
+	<p rend="noindent">Det kan vara en intressant övning att fundera över
+	  vad andra dokumenttyper skulle kräva för markeringar. Jag tar upp
+	  några. En vetenskaplig artikel ser annorlunda ut:</p>
+
+	<list>
+
+	  <item>titel</item>
+	  
+	  <item>lista av författare</item>
+
+	  <item>ett antal sektioner, typiskt med namn som <q>Introduction</q>,
+	    <q>Materials and methods</q> och <q>Discussion</q></item>
+
+	  <item>litteraturförteckning</item>
+
+	  <item>figurer</item>
+
+	  <item>tabeller</item>
+
+	</list>
+
+	&letter-content;
+
+	<p rend="noindent">En typisk roman skulle sannolikt ha en enklare
+	  struktur:</p>
+
+	<list>
+
+	  <item>kapitel</item>
+
+	  <item>och inuti varje kapitel en massa stycken</item>
+
+	  <item>och inuti varje stycke dialog</item>
+
+	</list>
+
+	<p rend="noindent">De innehållsliga strukturerna i olika dokumenttyper
+	  leder fram till olika former av markeringar. När vi talade om
+	  databaser och metadata var begreppet <q>datamodell</q>; i samband med
+	  XML och markeringsspråk har vi ett analogt begrepp,
+	  <q>innehållsmodell</q> (content model).</p>
+
+      </div1>
+
+      <div1 n="4">
+
+	<head>Träd, stigar och stilar</head>
+
+	<p>
+          <figure n="3" entity="tree">
+            <head>En trädrepresentation av ett enkelt html dokument.</head>
+	  </figure> 
+        </p>
+
+
+	<p></p>
+
+      </div1>
+
+      <div1 n="5">
+
+	<head>Diskussion</head>
+
+	<p>XML har blivit mjukvaruindustrins gullgosse. Det har, tyvärr,
+	  spridits en uppfattning att applikationer baserade på &lt; och &gt;
+	  är bättre än andra, på grund av någon inneboende
+	  kvalitetsskillnad. Så är det naturligtvis inte. Trots detta kan man
+	  med fog säga att femåringen har öppnat en rad nya fält som hade varit
+	  omöjliga för fem år sedan. Jag tror inte att XML är den verkande
+	  orsaken till detta, utan att femåringen verkar som en
+	  katalysator.</p>
+
+	<p>Det mesta av det vi idag gör med XML hade varit möjliga att
+	  göra med Standard Generalized Markup Language (SGML), Z39.50
+	  och andra äldre standarder. Det är bara det att få gjorde
+	  det. XML inbjuder till byggandet av strukturer för utbyte av
+	  data. Det är tillräckligt många som har kastat sig över de nya
+	  teknologierna för att det skall bli en kritisk massa. Vad som
+	  en gång var svårt att göra har blivit enklare, och
+	  <emph>roligare</emph>, att göra.</p>
+
+      </div1>
+
+      <div1 n="6">
+
+	<head>Osorterade länkar. Metadata i XML och annat.</head>
+
+	<p rend="noindent">Vilka också visar vad resten delvis kommer att
+	  handla om.</p>
+
+	
+	<list>
+	  <item><xref
+	      to="http://www.dlib.org/dlib/april02/weibel/04weibel.html">
+	      Metadata Principles and Practicalities</xref></item> 
+  
+	  <item><xref
+	      to="http://www.dublincore.org/documents/2002/07/31/dcmes-xml/">
+	      Expressing Simple Dublin Core in RDF/XML</xref></item> 
+
+	  <item><xref
+	      to="http://www.openarchives.org/OAI/openarchivesprotocol.html">
+	      The Open Archives Initiative Protocol for Metadata
+	      Harvesting</xref></item>
+
+	  <item><xref to="http://www.loc.gov/standards/mods/">Metadata Object
+	      Description Schema</xref></item>
+
+
+<item><xref to="http://www.tei-c.org/Master/Reference/">Reference Manual for the MASTER Document Type Definition</xref></item> 
+
+	  <item><xref to="http://lcweb.loc.gov/ead/">Encoded Archival
+	      Description (EAD)</xref></item> 
+
+	</list>
+
+      </div1>
+      <div1 n="7">
+	<head>Textmarkering i XML. Olika språk</head>
+
+	<list>
+
+	  <item>
+	    <xref to="http://www.daisy.org/">Daisy Consortium</xref>
+	  </item>
+
+	  <item>
+
+	    <xref to="http://www.tei-c.org/">TEI Consortium</xref></item>
+
+	  <item><xref
+	      to="http://www.tei-c.org/Applications/index-lang.html">TEI
+	      projects</xref></item> 
+
+	  <item><xref to="http://www.oasis-open.org/committees/docbook/">DocBook</xref></item>
+
+	  <item><xref to="http://www.oasis-open.org/committees/office/">Open
+	      Office</xref></item>
+	</list>
+
+
+      </div1>
+    </body>
+  </text>
+</TEI.2>

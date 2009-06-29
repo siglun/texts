@@ -1,0 +1,446 @@
+<?xml version="1.0" encoding="ISO-8859-1" ?>
+<!DOCTYPE article PUBLIC "-//OASIS//DTD DocBook XML V4.1.2//EN"
+                  "http://www.oasis-open.org/docbook/xml/4.1.2/docbookx.dtd">
+
+<article>
+  <articleinfo>
+    <title>Requirements Specification for DOAJ Article Search Engine</title>
+    <revhistory>
+      <revision>
+	<revnumber>0.1</revnumber>
+	<date>2003-08-15</date>
+	<authorinitials>SK</authorinitials>
+      </revision>
+      <revision>
+	<revnumber>0.2</revnumber>
+	<date>2003-08-22</date>
+	<authorinitials>SL</authorinitials>
+      </revision>
+     <revision>
+	<revnumber>$Id$</revnumber>
+	<date>$Date$</date>
+	<authorinitials>$Author$</authorinitials>
+      </revision>
+    </revhistory>
+
+    <author>
+      <firstname>Johan</firstname>
+      <surname>Hallenberg</surname>
+    </author>
+
+    <author>
+      <firstname>Sara</firstname>
+      <surname>Kjellberg</surname>
+    </author>
+
+    <author>
+      <firstname>Sigfrid</firstname>
+      <surname>Lundberg</surname>
+    </author>
+
+
+  </articleinfo>
+
+  <sect1>
+    <title>Background</title>
+
+    <para>The building of the <ulink url="http://www.doaj.org/">DOAJ</ulink> 
+      service takes place in two steps. The first of these is already completed
+      and includes a <emphasis>journal title level</emphasis> database. Open
+      Access Journals (OA journals) are cataloged and the metadata entered
+      into a database providing users with facilities for searching journal
+      metadata and navigation by subject and alphabetically by journal
+      title. These are services usually provided by libraries for the journals
+      they subscribe to.</para> 
+
+    <para>The second generation DOAJ should in addition to those facilities
+      include search and navigation of <emphasis>individual
+	articles</emphasis>. This is a kind of services which is generally
+      provided by the online industry.</para>
+
+    <para>This document describes the basic requirements for the second
+      generation of the DOAJ service, in the following referred to as DOAJ
+      II. Similarly we use DOAJ I when we refer to the running service.
+      Please note that DOAJ II is not a separate service, but rather an upgrade
+      or rebuild of the current one. The building of DOAJ II is an interesting
+      and challenging project. We feel that the requirements listed below need
+      a brief justification. The journals included in DOAJ is a very
+      heterogenous collection:
+      <itemizedlist>
+	<listitem>
+	  <para>Most OA journals are fairly ordinary websites comprising
+	    navigation of hypertext menus, providing access to fulltext in HTML
+	    or PDF format.
+	  </para>
+	</listitem>
+	<listitem>
+	  <para>Some OA journals have in addition some, usually proprietary,
+	    search facility permitting users a non-standard but still improved
+	    access to their contents.</para>
+	  <para>These journals have, as a rule, no means of exporting their
+	    metadata in any standardized format.</para>
+	</listitem>
+	<listitem>
+	  <para>Only a small minority of the OA journals cataloged by DOAJ I
+	    have access advanced facilities for article metadata export, such
+	    as <ulink url="http://www.openarchives.org/">OAI-PMH</ulink>. 
+	  </para>
+	</listitem>
+	<listitem>
+	  <para>Quite a few journals do support older metadata formats or
+	    formats generally accepted within specific scientific
+	    communities. Examples of such formats include NLM MedLine/PubMed
+	    journal article XML format and traditional Dublin Core
+	    meta-tags.</para>
+	</listitem>
+      </itemizedlist>
+
+    </para>
+
+    <para>It should be obvious that the data that can be collected from these
+      sources has, by necessity, to be extremely heterogenous. 
+      The main technical issue in building DOAJ II is to tackle the
+      heterogeneity and is to provide facilities for building and using an
+      extremely heterogeneous database.</para>
+
+  </sect1>
+
+  <sect1>
+    <title>The architecture of of DOAJ II</title>
+    
+    <para>The functionalities provided by DOAJ II is outlined in Figure 1.
+      In the following we refer to components in the graph by its name or
+      function within angle brackets.
+      The catalogers working with building the journal directory are,
+      in addition to collecting basic journal metadata, also storing
+      data on how articles are stored and delivered from each
+      journal. Similarly are information on OAI base URLs stored.
+      The running DOAJ database [DOAJ I] is the source of information for a
+      fairly ordinary Web harvester. The harvester will automatically retrieve
+      textual data from each journal and store them in a Harvesting Database
+      [HDB].</para>
+
+    <figure>
+      <title>Figure 1. The machinery for creating and maintenance of the DOAJ
+	II</title> 
+      <graphic fileref="DOAJ2.png" format="PNG" />
+    </figure>
+
+    <para>The Harvesting Database will, since there is no method to
+      <emph>a priori</emph> distinguish between journal articles and other
+      kinds of digital objects (like ordinary web pages used for navigation
+      within the journal web sites), contain unwanted material. To ensure that
+      only articles will be indexed in the final service the material collected
+      will be passed through a filtering mechanism upon export
+      [Filter/Weeding/Export].</para>
+
+    <para>The filter will contain layers, one general (common for all journals)
+      and one specific (to each journal) to distinguish articles from other
+      material based on content analysis and URL structures,
+      respectively.</para>
+
+    <para>During export [Filter/Weeding/Export], data from other sources
+      will be merged into records for enhanced search and navigational
+      capabilities of the completed service. The data to be merged into [DOAJ
+      II] are journal metadata from [DOAJ I], article metadata gathered using
+      OAI-PMH or other means will be used. The article metadata aquired will be
+      gathered into a Metadata Database [MDB], and will itself be subject to
+      various filtering and transformations upon merging into DOAJ II.</para> 
+
+    <para>In addition to import of metadata, the system will contain an
+      interface for manual cataloging of gathered articles using a [Metadata
+      Creator]. Its product is a Metadata Repository [MDR] which can be
+      consulted by the export functions [Filter/Weeding/Export]
+      upon creation of [DOAJ II].</para>
+
+    <para>The service will provide three basic search interfaces, [Article
+      search], [Combined search] and [OAI export].</para>
+  </sect1>
+
+
+  <sect1>
+    <title>Requirements for DOAJ II</title>
+
+
+    <sect2>
+      <title>Article and journal metadata</title>
+
+      <para>The DOAJ II should be able to provide end user access to metadata,
+	but in addition export journal level metadata. Search results as well
+	as exported metadata has to be delivered in a standardized
+	format.</para> 
+
+      <itemizedlist>
+
+	<listitem>
+	  <para>The service should use the same metadata standard for both
+	    journals and articles to simply export and delivery of search
+	    results</para>
+	</listitem>
+
+	<listitem>
+	  <para>The format should be able to carry <emphasis>both</emphasis>
+	    fairly detailed article metadata and text extract for fulltext
+	    search obtained by harvesting.</para> 
+	</listitem>
+
+	<listitem>
+	  <para>The service shall use the same metadata standard for both
+	    journals and articles. The metadata shall:
+	    <itemizedlist>
+	      <listitem>
+		<para>support LCC</para>
+	      </listitem>
+	      <listitem>
+		<para>handle dates (start and end)</para>
+	      </listitem>
+	      <listitem>
+		<para>include volume, number, year, pages</para>
+	      </listitem>
+	      <listitem>
+		<para>make it possible for articles to inherit subject category
+		  from the journal</para> 
+	      </listitem>
+	    </itemizedlist>
+	  </para>
+	</listitem>
+
+	<listitem>
+	  <para>The service need in addition an internal metadata which should
+	    be
+	    <itemizedlist>
+	      <listitem>
+		<para>compatible with the robot</para>
+	      </listitem>
+	      <listitem>
+		<para>compatible with the portal software used</para>
+	      </listitem>
+	      <listitem>
+		<para>modular in a way that it permits different kinds of data
+		  to be combined, e.g., proper metadata should be possible to
+		  be carried together with harvesting data.</para>
+	      </listitem>
+	      <listitem>
+		<para>easy to transform into standardized format for export and
+		  delivery of search results.</para>
+	      </listitem>
+	    </itemizedlist>
+	  </para>
+	</listitem>
+      </itemizedlist>
+    </sect2>
+
+
+    <sect2>
+      <title>Article harvesting</title>
+
+      <para>The building of DOAJ II requires harvesting of the articles for
+	fulltext search. There are two reasons for this: First, users are today
+	used to this kind of searching and feel uncomfortable with metadata
+	only search. Secondly, for a large proportion of the journals we do not
+	have any metadata whatsoever.</para>
+
+      <itemizedlist>
+	<listitem>
+	  <para>
+	    The robot should support both harvesting of PDF and HTML.
+	  </para>
+	</listitem>
+	<listitem>
+	  <para>
+	    The database shall only contain articles. This requires that the
+	    database is weeded manually. Pages that are true articles have to
+	    be marked as such. This will mean that:
+	    <itemizedlist>
+	      <listitem>
+		<para>An interface for weeding has to be built</para>
+	      </listitem>
+	      <listitem>
+		<para>That staff has to be allocated for performing the
+		  weeding.</para> 
+	      </listitem>
+	      <listitem>
+		<para>Likewise, OAI-harvested metadata has to be (most likely
+		  semi-manually) connected to harvested full text</para> 
+	      </listitem>
+	    </itemizedlist>
+	  </para>
+	</listitem>
+      </itemizedlist>
+
+    </sect2>
+
+    <sect2>
+
+      <title>Article search and navigation facilities</title>
+
+      <para>As pointed out above, we will have to kinds of articles: Those for
+	which we have basic metadata and those for which we have not. There are
+      several problems connected to this. These problems are related to user
+	expectations which we will return to below.</para>
+
+      <para>All articles should be available through fielded search and some
+	limited navigation:
+	
+	<itemizedlist>
+	  
+	  <listitem>
+	    <para>
+	      The service shall provide a search interface which includes:
+	      <itemizedlist>
+		<listitem>
+		  <para>title</para>
+		</listitem>
+		<listitem>
+		  <para>full text</para>
+		</listitem>
+		<listitem>
+		  <para>journal</para>
+		</listitem>
+		<listitem>
+		  <para>limited search by subject category</para>
+		</listitem>
+	      </itemizedlist>
+	    </para>
+	  </listitem>
+
+	  <listitem>
+	    <para>The service shall provide navigation for articles in a
+	      journal, at least by:
+	      <itemizedlist>
+		<listitem>
+		  <para>alphabetical by journal title and below that
+		    alphabetically by article title</para>
+		</listitem>
+		
+		<listitem>
+		  <para>Articles should carry information on inherited
+		    subject (the LCC classification assigned to the journal of
+		    which it is part of). This means that users should be able
+		    to search (or navigate alphabetically by title). Articles
+		    appearing in journals of a given subject.</para>
+		</listitem>
+	    </itemizedlist>
+	  </para>
+	</listitem>
+
+      </itemizedlist>
+
+      </para>
+    </sect2>
+
+    <sect2>
+      <title>Article search by OAI metadata, meta-tags and community specific
+	metadata formats</title>
+
+      <para>Initially it is expected that only a minor part of the articles
+	harvested will have metadata assigned. For instance, this will
+	disappoint users trying to search for articles by &quot;Smith&quot; in
+	journals for which no metadata is available. The user interface have
+	take into account this problem.</para>
+
+      <itemizedlist>
+
+	<listitem>
+	  <para>The service shall combine harvested (OAI-compatible, DC meta
+	    tags and important formats within specific communities, such as
+	    MedLine XML) metadata with harvested fulltext data. That is, it
+	    should be possible to go directly to an article without a minimum
+	    of navigation within the journal web site.</para> 
+	</listitem>
+
+	<listitem>
+	  <para>The service shall provide a fielded search interface which
+	    includes: 
+	    <itemizedlist>
+	      <listitem>
+		<para>author</para>
+	      </listitem>
+	      <listitem>
+		<para>title</para>
+	      </listitem>
+	      <listitem>
+		<para>subject</para>
+	      </listitem>
+	      <listitem>
+		<para>year</para>
+	      </listitem>
+	      <listitem>
+		<para>journal</para>
+	      </listitem>
+	      <listitem>
+		<para>full text</para>
+	      </listitem>
+	    </itemizedlist>
+	    The user interface should, in some as yet unspecified way, make
+	    clear to users what they are doing. Possibly should full text
+	    search only be possible to combine with metadata using boolean
+	    operators within a separate database containing metadata enhanced
+	    records only.
+	  </para>
+	</listitem>
+	
+      </itemizedlist>
+    </sect2>
+
+    <sect2>
+      <title>DOAJ's repository of article metadata</title>
+
+      <para>The DOAJ II should provide a metadata repository. It will do that
+	for two purposes:
+
+	<itemizedlist>
+	  <listitem>
+	    <para>For providing a means for enhancing the quality of the data
+	      on articles in journals for which an OAI compliant metadata store
+	      is available.
+	      <itemizedlist>
+		<listitem>
+		  <para>The service shall provide a form for the cataloging
+		    articles, either by users or journal staff.</para>
+		</listitem>
+
+		<listitem>
+		  <para>The metadata thus created must be connected to the
+		    harvested record.</para>
+		</listitem>
+	      </itemizedlist>
+
+	    </para>
+	  </listitem>
+
+	  <listitem>
+	    <para>For distribution of DOAJ's article metadata to other services
+	      through OAI-PMH.</para> 
+	  </listitem>
+	</itemizedlist>
+
+      </para>
+
+    </sect2>
+
+  </sect1>
+
+<!--
+
+$Log$
+Revision 1.1  2009/06/29 11:10:43  sigfrid
+Initial revision
+
+Revision 1.4  2003/09/24 10:51:40  sigge
+Corrected typographic mistakes.
+
+Revision 1.3  2003/09/24 09:37:29  sigge
+Merged in the architecture graph, and a piece of prose describing what
+is going on in the DOAJ II
+
+Revision 1.2  2003/09/08 09:29:16  sigge
+Fixed syntax bug and put document under version control
+
+
+-->
+
+</article>
+
+
+

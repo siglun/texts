@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<table n="1" rows="8" cols="3" rend="l | l | l" >
+
+  <head>Några av de vanligaste element i DCMIs vokabulärer. Dessa
+  fördelar sig över två namnrymder, vilka i tabellen på XMLmanér anges
+  med prefixen dc: tespektive dcterms:</head>
+
+  <row> 
+    <cell rend="bold">Content (Innehållsrelaterade)</cell>
+    <cell rend="bold">Intellectual property (Upphovsrelaterade)</cell>
+    <cell rend="bold">manifestation (Versionsrelaterade)</cell>
+  </row>
+  <row> 
+    <cell>dc:title</cell>
+    <cell>dc:creator</cell>
+    <cell>dc:date, dcterms:created, dcterms:issued, dcterms:valid, dcterms:modified, dcterms:available</cell>
+  </row>
+  <row> 
+    <cell>dc:subject</cell>
+    <cell>dc:publisher</cell>
+    <cell>dc:type</cell>
+  </row>
+  <row> 
+    <cell>dc:description, dcterms:abstract, dcterms:tableofcontents</cell>
+    <cell>dc:contributor</cell>
+    <cell>dc:format, dcterms:extent, dcterms:medium</cell>
+  </row>
+  <row> 
+     <cell>dc:source</cell>
+     <cell>dc:rights</cell>
+     <cell>dc:identifier</cell>
+  </row>
+  <row> 
+     <cell>dc:language</cell>
+     <cell></cell>
+     <cell></cell>
+  </row>
+  <row> 
+     <cell></cell>
+     <cell></cell>
+     <cell>dc:relation, dcterms:IsVersionOf, dcterms:HasVersion, dcterms:IsReplacedBy, dcterms:Replaces, dcterms:IsRequiredBy, dcterms:Requires, dcterms:IsPartOf, dcterms:HasPart, dcterms:IsReferenceBy, dcterms:References, dcterms:IsFormatof, dcterms:HasFormat</cell>
+  </row>
+  <row> 
+    <cell>dc:coverage, dcterms:temporal, dctersm:spatial</cell>
+    <cell></cell>
+    <cell></cell>
+  </row>
+</table>

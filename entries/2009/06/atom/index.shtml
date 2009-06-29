@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<html xmlns="http://www.w3.org/1999/xhtml"><head><title>My first serious experience with ATOM: 
+	  Sigfrid Lundberg's Stuff
+	</title><meta http-equiv="Content-Type" content="text/html;charset=UTF-8"/><script src="/js/navigation.js" type="text/javascript"> 
+	  </script><meta http-equiv="Content-Type" content="text/html;charset=UTF-8"/><link rel="stylesheet" href="/css-style/html.css"/></head><body><div class="left_box"><div style="text-align:left;width=90%;"><!--#include virtual="/div_top_left_box.xml" --></div><div style="text-align:left;width=90%;"><p><a href="/">Home</a></p><!--#include virtual="/subjects.xml" --><!--#include virtual="/me.xml" --></div></div><div class="right_box"><h1 style="width: 58%; float: left;text-align: left">My first serious experience with ATOM</h1><p style="width: 38%; float: left;text-align: right"><em><strong>Sigfrid Lundberg's Stuff 2009-06-27</strong></em></p>
+    <div>
+
+      <p>The <a href="http://tools.ietf.org/html/rfc4287">ATOM syndication
+      format</a> has been around for almost five years. In comparison with the
+      diverse fauna kept in the menagerie abbreviated to the three character
+      acronym RSS, ATOM is a well kept standard and much more useful as
+      well.</p>
+
+      <p>Now, I've used ATOM before refurbishing my personal web site, but I
+      haven't used <em>seriously</em>. That is, I haven't manually encoded a
+      sizeable amount of text in it, validated the result, and then written
+      software using the data. ATOM is the fundament for this site, since the
+      used for generating the navigation system is encoded that way. I may
+      return to that later on.</p>
+
+      <h2>Designed for success</h2>
+
+      <p>Tim Bray lists and provide a thorough discussion of a number of
+      characteristics shared by successful mark-up languages (see his article
+      <a href="http://web.archive.org/web/20070126140434/www.idealliance.org/proceedings/xml05/ship/175/xml2005.HTML">On
+      Language Creation</a>). The list of success critera includes items such
+      as extensibility, clever but not too extensive use of XML name spaces,
+      the posibility of implementing the language using many, widely different,
+      datamodels. From Bray's perspective, ATOM seems designed for success. I
+      don't know the statistics concerning syndication format popularity, but
+      if ATOM isn't yet the leader, it will become sooner or later. Possibly
+      in RDF disguise.</p>
+
+      <p>From a modelling point of view there is a few, annoying
+      inconsistencies. Let us, for example, compare the <kbd>&lt;author&gt;</kbd>
+      element with the <kbd>&lt;title&gt;</kbd> element. A resource may have an
+      author, then the author may have a number of properties, such as a name,
+      an email address and a home page. The <kbd>author</kbd> for this note is
+      encoded as:</p>
+
+      <pre>
+  &lt;author&gt;
+    &lt;name&gt;Sigfrid Lundberg&lt;/name&gt;
+    &lt;uri&gt;http://www.sigfrid-lundberg.se/&lt;/uri&gt;
+  &lt;/author&gt;
+      </pre>
+
+      <p>This is, in my view, a sign of good content modelling when it comes
+      to metadata. A resource may have a title. A title may have different
+      components, for example main title and sub-title. The main and sub parts
+      are properties of the title, not of the resource. The authors of the
+      ATOM spec did not see that way. A feed may have both. This is annoying
+      for semantic puristic nerd like me. Entries, however, may not have
+      sub-titles at all, which in my view is an inconsistency as well.</p>
+
+      <p>The biggest flaw is the encoding of category data. A resource belongs
+      to a category, i.e., this membership is a property of the resource. The
+      category may have an identifier and a name, and this name is different
+      depending to language. However, ATOM forces me to use the following
+      construct</p>
+
+      <pre>
+  &lt;category xml:lang="en" label="structuralwebdesign" term="Structural web design" /&gt;
+  &lt;category xml:lang="sv" label="structuralwebdesign" term="Structural web design" /&gt;
+      </pre>
+
+      <p>which in my view is less than excellent. I would have preferred
+      something like</p>
+
+      <pre>
+  &lt;category label="structuralwebdesign"&gt;
+    &lt;name xml:lang="en"&gt;Structural web design&lt;/name&gt;
+    &lt;name xml:lang="sv"&gt;Strukturell webbdesign&lt;/name&gt;
+  &lt;/category&gt;
+      </pre>
+
+      <p>These are shortcomings, but I can live with them. But expect changes
+      in this area. The semantic web is here already, and with <a href="http://www.w3.org/2004/02/skos/">SKOS</a> becoming a de facto
+      standard on the internet, the syntactic communities will have to come up
+      with something more clever for categorization of syndicated web
+      resources.</p>
+
+    </div>
+  </div><!--#include virtual="/js/urchin.js" --></body></html>

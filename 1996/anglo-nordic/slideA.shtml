@@ -1,0 +1,35 @@
+<html xmlns="http://www.w3.org/1999/xhtml"><head>
+<title>Title page</title>
+</head>
+<body background="./tapet.cgi?a=140,ffffcc&amp;b=1,eeeeee&amp;b2=2,cceecc&amp;b1=1,aaaaaa&amp;c=999,ffffee">
+
+<table>
+<tr>
+<td valign="top">
+<!--#exec cmd="/home/sigge/WWW/1996/anglo-nordic/np.pl" -->
+</td>
+<td valign="top">
+<h1>Towards the creation of metadata "aware"
+robot based search services</h1>
+<p>Sigfrid Lundberg
+(<a href="mailto:siglun@munin.ub2.lu.se">siglun@munin.ub2.lu.se</a>)<br/>
+Lund University Library, Netlab<br/>
+S-223 62 Lund<br/>
+Sweden</p>
+<hr/>
+<h3>Note added 2004</h3>
+<p>Everything here is left as it was
+when I used these slides for a presentation I held 1996 at the
+<a
+href="http://www.ukoln.ac.uk/services/papers/bl/ans-1996/">10th Anglo-Nordic Seminar</a>.
+The theme of the Seminar this year was "networking".</p>
+<p>I feel that everything here is obsolete. But maybe not: The problems we
+tried to address at that time are not solved. Yet.
+Nevertheless, a lot of of us
+then actually believed that there could be a search engine for the Internet
+which had the characteristics of a Library OPAC. We know now that such
+search engines will never ever be developed.</p>
+</td>
+</tr>
+</table>
+</body></html>

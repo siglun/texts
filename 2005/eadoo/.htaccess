@@ -1,0 +1,4 @@
+AddDescription "Template source" eadoo
+AddDescription "style sheet to generate oo" ead-to-oo.xsl
+AddDescription "style sheet to generate ead" oo-to-ead.xsl
+AddDescription "All that is needed" the_package.zip 

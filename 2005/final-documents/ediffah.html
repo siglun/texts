@@ -1,0 +1,360 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html><head><title>Brief technical description of the Ediffah search engine</title><link rel="stylesheet" href="/css-style/html_print.css"/><meta http-equiv="Content-Type" content="text/html; charset=UTF-8"/></head><body><p class="right"><strong>
+	  Back:
+	</strong><a href="documentation.html">Documentation</a><strong>
+		See also:
+	      </strong><a href="jarring.html">Jarring</a>,
+	    <a href="cataloging-tool.html">Cataloging tool</a></p><div class="box"><h1 class="title"><em>Brief technical description of the Ediffah search engine</em></h1><p class="author">
+      Sigfrid
+      Lundberg
+    <br/>
+      Biblioteksdirektion, Lunds universitet
+    <br/><strong>Revision:</strong>$Revision$,
+      <strong>Date:</strong>$Date$,
+      <strong>Editor:</strong>$Author$</p><div class="level1"><h2>Table of contents</h2><ul><li><a href="#top">Introduction</a></li><li><a href="#software">Software used</a><ul><li><a href="#client">The client</a></li><li><a href="#searchengine">The search engine and indexing principles</a></li></ul></li><li><a href="#runningservice">The Service</a><ul><li><a href="#physicallocation">Where is Ediffah?</a></li><li><a href="#filestore">The Ediffah file store and the Ediffah identifier</a></li><li><a href="#oaidataprovider">OAI data provider</a><ul><li><a href="#oaiidentifiers">The OAI identifier</a></li><li><a href="#physicalprovider">The data providers physical location</a></li></ul></li><li><a href="#publishingservices">The publishing service</a></li><li><a href="#z3950target">The search engine</a></li></ul></li><li><a href="#footnoteshere">
+	    Footnotes
+	  </a></li></ul></div><div class="level1" id="top">
+    <h1 class="level1">Introduction</h1>
+
+    <p>The name Ediffah is an acronym of the Swedish name (<em>Ediffah --
+	En digital infrastruktur för forskningsbibliotekens arkiv- och
+	handskriftssamlingar</em>) of a project aiming at providing an
+      infrastructure for cataloging and searching archival collections at 
+      Swedish research libraries</p>
+
+    <p>The infrastructure includes components for</p>
+
+    <ol>
+      <li>
+	<em>EAD Authoring.</em> Most partners are currently using
+	Note Tab Pro</li>
+
+      <li>
+	
+	  <em>Publishing system.</em> We use a simple web based interface
+	  permitting catalogers to upload EAD finding aids to a database. The
+	  database is a file system based data store supporting the following
+	  operations:
+	  <ul>
+	  <li><em>Insert</em></li>
+	  <li><em>Remove</em></li>
+	  <li>
+	      <em>Update</em> 
+		(implemented as a remove+insert while maintaining record
+		ID)
+	    </li> 
+	    <li>
+	      <em>Hide</em>, which makes a finding aid
+		invisible to end users while still accessible and searchable
+		for editorial staff.</li> 
+	    <li><em>Publish</em>, which makes a
+		previously hidden finding-aid visible for end users.
+	    </li> 
+	  </ul>
+	
+      </li>
+
+      <li>
+	An <em>indexing system</em> whereby inserted finding aids are
+	  mead searchable in two databases, one containg the public ones and the
+	  other those that are hidden. The publishing and indexing system
+	  communicates through a simple printer queue like communication systems.
+	  The publishing system thus spools incremental requests for either
+	  removal or insertion of finding aids into the index. Since each job
+	  submitted to the indexer is very small, the queue is flushed once a
+	  minute.
+      </li>
+
+      <li>
+	A <em>search system</em> permitting end users and client
+	  systems search the database. This system comprises two components
+	  <ul>
+	    <li>A server system</li>
+	    <li>A web based client or gateway</li>
+	  </ul>
+	  Currently the client and server communicates through Z39.50 using XML
+	  record syntax.
+	
+      </li>
+    </ol>
+  </div><div class="level1" id="software">
+    
+    <h1 class="level1">Software used</h1>
+    
+    <p>Very little software has been written for implementing Ediffah.  The
+      whole system consists of about 900 lines object oriented perl libraries
+      implementing the abstractions behind the file store and user
+      interfaces. These lines are used in another about 500 lines of scripts
+      implementing the publishing and indexing systems and the communication
+      protocol between the two. Finally the end user interface, the
+      client/gateway, consists of about 900 lines of php code originally
+      written for other purposes.</p>
+
+    <p>The bulk of the system is open source software readily available on the
+      Internet and the whole system will run on a simple PC under Linux.</p>
+
+    <div class="level2" id="client">
+      <h2 class="level2">The client</h2>
+
+      <p>This is what I use for searching the Ediffah database.
+	<sup><a href="#ediffah-project">1</a></sup> It is a 
+	collection of php scripts.<sup><a href="#php">2</a></sup> To run them you
+	need the yaz library from indexdata.<sup><a href="#yaz">3</a></sup></p>
+
+      <p>The included files are as follows</p>
+      <table>
+	<caption>Scripts in the client</caption>
+	
+	  <tr><td>advanced.php</td><td>A first shot at an advanced search interface</td></tr><tr><td>ediffaht-hit.xsl</td><td>A XSLT script for formatting hits</td></tr><tr><td>forms_and_searching.php</td><td>Functions for generating forms and other stuff</td></tr><tr><td>fragments.php</td><td>HTML fragments (for generating the pages)</td></tr><tr><td>globals.php</td><td>Global parameters</td></tr><tr><td>index.php</td><td>the top page</td></tr><tr><td>search.php</td><td>The script that presents the hits</td></tr><tr><td>present.cgi</td><td>A perl script presenting the detailed records</td></tr>
+	
+      </table>
+
+
+      <p>The code above is included in <a href="http://www.ediffah.org/download/ediffah_gate.tar.gz">ediffah_gate.tar.gz</a>
+	Every thing in there is provided as is. And mind you, everything that's
+	free comes with no guarantee :), using that you would presumably be
+	able to search Ediffah from your own web server. However, there is no
+	manual, since this is not really a software distribution. It's merely
+	an example of how one can easily search a collection of EAD records.</p>
+
+      <p>The tar.gz includes only the client software and represents the first
+	version of this service; the current version is improved but cannot be
+	distributed since it contain information that would compromise the
+	security of the service. So would a distribution of the current
+	publishing system.</p>
+
+    </div>
+
+    <div class="level2" id="searchengine">
+    
+      <h2 class="level2">The search engine and indexing principles</h2>
+
+      <p>The actual search engine is idZebra,<sup><a href="#zebra">4</a></sup>
+	also from indexdata. To understand exactly how the server is used
+	requires some knowledge on the principles of Z39.50. Elsewhere I have
+	described in some detail the principles I used for building a similar
+	service, namely <em>St Laurentius Digital Manuscript
+	  Library</em><sup><a href="#laurentius">5</a></sup><sup><a href="#excursion">6</a></sup>. Please note that things has changed
+	significantly since that system was implemented. The most important
+	differences being that XML has become a common record  syntax in the
+	Z39.50 community and that idZebra thus has evolved significantly to
+	support that. It now has a good support for connecting XML constructs
+	to Z39.50 search attributes via the XML Path language.<sup><a href="#xpath">7</a></sup> 
+      </p>
+
+      <p>The powerful feature of idZebra to permit configuring search attributes
+	to contain sets of search attributes which I describe in [6] is also used
+	extensively in the Ediffah search engine. The configuration files used
+	are in the syntax described in the <em>Zebra
+	  manual</em><sup><a href="#zebra_manual">8</a></sup>. For those
+	technically minded, the <a href="http://www.ediffah.org/idzebra/tabs/ead.abs">ead.abs</a>
+	file, defining how EAD tags and XML constructs are tied to the indexes and
+	search attributes are available for inspection, and so is the extended
+	subset of the BIB-1 attribute set we are using <a href="http://www.ediffah.org/idzebra/tabs/bib1.att">bib1.att</a> 
+      </p>
+
+    </div>
+
+  </div><div class="level1" id="runningservice">
+
+    <h1 class="level1">The Service</h1>
+
+    <div class="level2" id="physicallocation">
+      <h2 class="level2">Where is Ediffah?</h2>
+
+      <p>The ediffah virtual server lives on
+	balder.lub.lu.se:/localdisk1/ediffah.</p>
+
+      <table>
+	<caption>Directory structure of Ediffah, below
+	  /localdisk1/ediffah</caption>
+
+	
+	  <tr><td><em>Directory</em></td><td><em>Content</em></td></tr><tr><td>oai</td><td>The Ediffah OAI services</td></tr><tr><td>reports</td><td>Various texts from the projects</td></tr><tr><td>ead2002</td><td>An electronic version of the EAD DTD</td></tr><tr><td>staff</td><td>The editorial serviceses lives here.</td></tr><tr><td>download</td><td>Things for download. A slightly obsolete version of the
+		gateway lives there.</td></tr><tr><td>xml-style-library</td><td>some XSLT-scripts for presentation lives here</td></tr><tr><td>project-archive</td><td>Some of the project documentation</td></tr><tr><td>urlografi</td><td>An annotated URLography</td></tr><tr><td>minutes</td><td>Minutes from meetings during the project</td></tr><tr><td>images</td><td>The Ediffah logo lives here</td></tr><tr><td>search</td><td>The search engine</td></tr><tr><td>css-style</td><td>CSS layout stuff</td></tr><tr><td>idzebra</td><td>The home of the zebra search engine and its configuration
+		files and log files</td></tr><tr><td>fragments</td><td>Much of the site is built dynamically through server side
+		includes. The fragments included lives here.</td></tr><tr><td>repository</td><td>The XML file store</td></tr>
+	
+      </table>
+    </div>
+
+    <div class="level2" id="filestore">
+      <h2 class="level2">The Ediffah file store and the Ediffah identifier</h2>
+
+      <p>Each finding aid in Ediffah is uniquely identified by its
+	identifier. It has the following syntax (in EBNF<sup><a href="#EBNF">9</a></sup>):</p> 
+
+      <pre>
+identifier ::= network ':' owner ':' part1 ':' part2
+
+network    ::= [a-z]+
+/* In Ediffah, the network is, of course always ediffah */
+
+owner      ::= [a-z]+
+
+part1      ::= [0-9][0-9][0-9][0-9][0-9][0-9]
+/* I.e., six digits */
+
+part2      ::= [x0-9][0-9][0-9][0-9][0-9][0-9][0-9][0-9][0-9]
+/* I.e., either a x followed by nine digits, or ten digits */
+      </pre>
+      
+      <p>For example, a record from the ediffah network, owned by the GUBK
+	partner may have the following identifier:</p>
+
+      <pre>
+ediffah:gubk:983039:x000010477
+      </pre>
+
+      <p>There is a direct mapping between the identifier and the directory
+	in the service. The part1 digits are split into three groups of two
+	digits, and they form a sequence of directories. The colon between
+	part1 and part2 are replaced with a dash and form the name of a fourth
+	directory level. All files are have the same name, finding-aid. The
+	file suffix are as follows:</p>
+
+      <table>
+	<caption>File suffixes</caption>
+	
+	  <tr><td>ead</td><td>A visible file</td></tr><tr><td>eadi</td><td>A hidden file</td></tr><tr><td>eadd</td><td>A deleted file</td></tr>
+	
+      </table>
+
+      <p>Hence a visible record with the identifier mentioned above will
+	reside in:</p>
+
+      <pre>
+98/30/39/983039-x000010477/finding-aid.ead
+      </pre>
+
+      <p>Please not that the Ediffah identifier is not meant as a standard;
+	it just a way of administrating the content of the Ediffah archival
+	network.</p> 
+
+    </div>
+
+    <div class="level2" id="oaidataprovider">
+      <h2 class="level2">OAI data provider</h2>
+      <p>
+	The Ediffah OAI services, see <a href="http://www.ediffah.org/oai">http://www.ediffah.org/oai</a>
+	for further information on its capabilities. In spite of the fact that
+	Ediffah keeps track of deletions, for ever, the OAI data provider does
+	not take currently take advantage of that feature.
+      </p>
+
+      <div class="level3" id="oaiidentifiers">
+	<h3 class="level3">The OAI identifier</h3>
+
+	<p>There is direct mapping between the Ediffah identifier and its
+	  OAI counterpart. For example:</p>
+
+	<table>
+	  <caption>Example mapping between the OAI and Ediffah identifiers</caption>
+	  
+	    <tr><td>OAI</td><td>
+oai:ediffah.org:kb-163689-1116850660
+		</td></tr><tr><td>Ediffah</td><td>
+ediffah:kb:163689:1116850660
+		</td></tr>
+	  
+	</table>
+      </div>
+
+      <div class="level3" id="physicalprovider">
+	<h3 class="level3">The data providers physical location</h3>
+
+	<table>
+	  <caption>The directory structure of the OAI data-provider</caption>
+	
+	  
+	    <tr><td>oai/lib</td><td>The perl library</td></tr><tr><td>oai/lib/OAI and oai/lib/Pure</td><td>Generic libraries lives here</td></tr><tr><td>oai/lib/ediffah</td><td>The ediffah Z39.50 to OAI PMH gateway lives here</td></tr><tr><td>oai/oai-server</td><td>A small CGI-script which doesn't do anything in
+		  particular, other than calling the libraries. This directory
+		  also holds the filtering style sheets (to_marc.xsl,
+		  to_ead.xsl and to_oai_dc.xsl) having the functions implied by
+		  their names.</td></tr>
+	  
+	</table>
+      </div>
+
+    </div>
+
+
+    <div class="level2" id="publishingservices">
+    <h2 class="level2">The publishing service</h2>
+
+      <p>The editorial serviceses lives here. Noteworthy are in particular
+	the <em>scripts</em> directory, which holds a cron
+	script (index.pl) for incremental indexing of the database. The
+	hidden .accessdir holds the passwd and group files for
+	accessing the service.</p>
+
+      <table>
+	<caption>The directory of the publishing service</caption>
+	
+	
+	  <tr><td>staff/lib</td><td>Contains the object oriented library mentioned above:
+		cgirequest.pm,  Collection.pm,  Configuration.pm,
+		FindingAid.pm and Layout.pm</td></tr><tr><td>staff/xslt</td><td>A library of XSLT scripts implementing the workflow, i.e.,
+		they are used to make transformations of the XML corresponding
+		to the different database operations implemented:
+		add-creation-date.xsl, add-mainagencycode.xsl,
+		change-audience.xsl, add-identifier.xsl, add-revision-date.xsl
+		and get-paramaters.xsl</td></tr><tr><td>staff/audience</td><td>CGI script toggling between internal and external
+		audience.</td></tr><tr><td>staff/spool</td><td>Ediffah is using incremental indexing. Any call to the
+		FindingAid.pm that lead to changes to records causes a request
+		for reindexing to be spooled here, i.e., a job file is stored
+		specifying what need to be done. A cron script in staff/script
+		is run once a minute and handles those jobs (i.e., if there is
+		any).</td></tr><tr><td>staff/scripts</td><td>The only cronscript, index.pl, lives here. It reads
+		requests for reindexing and acts accordingly. See
+		FindingAid.pm</td></tr><tr><td>staff/members</td><td>Contains an XML file for each member of the archival
+		network.</td></tr><tr><td>staff/create</td><td>CGI script for uploading new EAD files.</td></tr><tr><td>staff/remove</td><td>A script that removes a file. Removing files actually
+		means changing its name from finding-aid.ead to
+		finding-aid.eadd. (If it's a file with public distribution,
+		that is. Files with internal distribution - or audience - have
+		the suffix eadi).</td></tr><tr><td>staff/validate</td><td>A far too simplistic XML validator</td></tr><tr><td>staff/.accessdir</td><td>password and group files lives here.</td></tr>
+	
+      </table>
+
+    </div>
+
+    <div class="level2" id="z3950target">
+      <h2 class="level2">The search engine</h2>
+
+      <table>
+	<caption>The directory of the publishing service</caption>
+	
+	
+	  <tr><td>idzebra</td><td>The home directory of the Zebra Information Server. The
+		zebra.cfg, the main configuration file, is here</td></tr><tr><td>idzebra/db</td><td>Various directories and logs lives here, including
+		server.log and locks directories. Please refere to the zebra
+		manual.</td></tr><tr><td>idzebra/db/register</td><td>The index files, *.mf</td></tr><tr><td>idzebra/tabs</td><td>The heart of the service is here, the ead.abs and the
+		customized bib1.att</td></tr>
+	
+      </table>
+
+    </div>
+
+  </div><div class="level1"><h1 id="footnoteshere">Notes</h1><p id="ediffah-project"><strong class="number">1</strong> <em>      
+	<a href="http://www.ediffah.org/">Ediffah project</a>
+      </em><br/><em><a href="http://www.ediffah.org/project-archive/">Misc. Ediffah
+	  documents</a></em><br/></p><p id="php"><strong class="number">2</strong> <em>
+	<a href="http://www.php.net/">PHP</a>
+      </em><br/></p><p id="yaz"><strong class="number">3</strong> <em>
+	<a href="http://www.indexdata.dk/yaz/">YAZ library</a>
+      </em><br/></p><p id="zebra"><strong class="number">4</strong> <em>
+	<a href="http://www.indexdata.dk/zebra/">Zebra information server</a>
+      </em><br/></p><p id="laurentius"><strong class="number">5</strong> <em>
+	<a href="http://laurentius.lub.lu.se">S:t Laurentius Digital
+	  Manuscript Library</a>
+      </em><br/></p><p id="excursion"><strong class="number">6</strong> <em>
+	<a href="http://laurentius.lub.lu.se/search/presentation/laurentius.pdf">Excursions
+	  along the border between metadata for resource discovery and for
+	  resource description</a>
+      </em><br/></p><p id="xpath"><strong class="number">7</strong> <em>
+	<a href="http://www.w3.org/TR/xpath">XPath language</a>
+      </em><br/></p><p id="zebra_manual"><strong class="number">8</strong> <em>
+	<a href="http://www.indexdata.dk/zebra/doc/">Zebra manual</a>
+      </em><br/></p><p id="EBNF"><strong class="number">9</strong> <em>Extended Backus-Naur Form (EBNF) as described in
+	<a href="http://www.w3.org/TR/2004/REC-xml-20040204/#sec-notation">Extensible Markup Language (XML) 1.0 (Third Edition)</a> 
+      </em><br/></p></div></div></body></html>

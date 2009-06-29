@@ -1,0 +1,294 @@
+body {
+	color: black;
+	background-color: #EEEEEE;
+	font-family: arial, helvetica,sans-serif;
+	font-size: 90%;
+	font-weight: normal;
+	margin-top: 5%;
+	margin-left: 5%;
+	margin-right:5%;
+}
+
+blockquote.abstract {
+	font-size: 80%;
+	text-align: left;
+	background-color: white;
+}
+
+div.box {
+	background-color: white;
+	border-top: solid thin;
+	border-left: solid thin;
+}
+
+
+div.top_left_box {
+	border-bottom: solid thin;
+	border-right: solid thin;
+	vertical-align: bottom;
+
+	width: 20%;
+	float: left;
+	clear: left;
+}
+
+
+div.left_box {
+	border-top: solid thin;
+	border-right: solid thin;
+
+	vertical-align: top;
+	width: 35%;
+	float: left;
+	clear: left;
+}
+
+div.top_right_box {
+	border-bottom: solid thin;
+	border-left: solid thin;
+	vertical-align: bottom;
+	width: 70%;
+	float: right;
+	clear: right;
+}
+
+
+div.right_box {
+	border-top: solid thin;
+	border-left: solid thin;
+	vertical-align: top;
+	width: 55%;
+	float: right;
+	clear: right;
+}
+
+hr {
+	width: 50%;
+}
+p.background, div.background {
+        text-align: left;
+	background-color: #EEEEEE;
+}
+
+p, div {
+	text-align: left;
+	margin-left:  +2%;
+	margin-right: +2%;
+	background-color: white;
+}
+
+div.indented {
+	text-align: left;
+	margin-left:  +50%;
+	margin-right: +2%;
+	background-color: white;
+}
+
+div.date-modified {
+	font-size: 85%;
+	text-align: right;
+	margin-left:  +40%;
+	margin-right: +2%;
+}
+
+blockquote {
+	background-color: white;
+}
+
+ul, dl, ol {
+	text-align: left;
+	background-color: white;
+}
+
+li {
+	text-align: left;
+	margin-left:  +1%;
+	font-size: 90%;
+	background-color: white;
+}
+
+dd {
+	margin-left:  +4%;
+}
+
+dt {
+	margin-left:  +2%;
+}
+
+pre {
+	font-family: courier;
+	font-size: 75%;
+	margin-left:  +5%;
+}
+
+
+pre.display {
+	font-family: courier;
+	font-size: 85%;
+	margin-left:  +8%;
+}
+
+
+p.author {
+	font-style: italic;
+	text-align: center;
+	background-color: white;
+}
+
+h1 {
+	font-size: 120%;
+	font-weight: bold;
+	font-family: sans-serif;
+	background-color: white;
+	margin-left:  +2%;
+	margin-right: +2%;
+}
+
+h2 {
+	font-family: sans-serif;
+	font-size: 115%;
+	font-weight: bold;
+	background-color: white;
+	margin-left:  +2%;
+	margin-right: +2%;
+}
+
+table {
+	text-align: left;
+	color: black;
+	background-color: white;
+	font-size: 90%;
+	font-family: sans-serif;
+	margin-left: +5%;
+	vertical-align: top;
+}
+
+caption {
+	text-align: center;
+	color: black;
+	background-color: #EEEEEE;
+	font-weight: bold;
+	font-family: sans-serif;
+	vertical-align: top;
+	margin-left: +5%;
+	border-top: solid thin;
+	border-bottom: none;
+	border-right: none;
+	border-left: none;
+}
+
+th {
+	text-align: left;
+	color: black;
+	background-color: white;
+	font-family: sans-serif;
+	font-weight: bold;
+	vertical-align: top;
+}
+
+table {
+	text-align: center;
+	color: black;
+	background-color: white;
+	font-size: 90%;
+	font-family: sans-serif;
+	vertical-align: top;
+}
+
+
+td {
+	text-align: right;
+	color: black;
+	background-color: white;
+	font-family: sans-serif;
+	vertical-align: top;
+	border:none;
+	background-color: white;
+}
+
+
+table.navigation {
+	text-align: center;
+	color: black;
+	background-color: white;
+	font-size: 90%;
+	vertical-align: top;
+	margin-left: 10%;
+	margin-right:10%;
+}
+
+td.left {
+	text-align: left;
+	color: black;
+	background-color: white;
+	vertical-align: top;
+	border: none;
+}
+
+th.left {
+	text-align: left;
+	color: black;
+	background-color: white;
+	vertical-align: top;
+	border: none;
+	font-weight: bold;
+}
+
+th.left-property {
+	width: 20%;
+	text-align: left;
+	color: black;
+	background-color: white;
+	vertical-align: top;
+	border: none;
+	font-weight: bold;
+}
+
+
+th.center {
+	text-align: center;
+	color: black;
+	background-color: white;
+	vertical-align: top;
+	border:none;
+	background-color: white;
+	font-weight: bold;
+}
+
+td.center {
+	text-align: center;
+	color: black;
+	background-color: white;
+	vertical-align: top;
+	border:none;
+	background-color: white;
+}
+
+th.right {
+	text-align: right;
+	color: black;
+	background-color: white;
+	vertical-align: top;
+	border:none;
+	background-color: white;
+	font-weight: bold;
+}
+
+td.right {
+	text-align: right;
+	color: black;
+	background-color: white;
+	vertical-align: top;
+	border:none;
+	background-color: white;
+}
+
+
+
+img.right { float: right;
+	    vertical-align: bottom;
+          }
+img.left { float: left;
+ 	    vertical-align: top;
+}
+

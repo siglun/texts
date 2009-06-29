@@ -1,0 +1,65 @@
+#!/usr/bin/perl -w
+
+use strict;
+use XML::LibXML;
+use XML::LibXSLT;
+use Getopt::Long;
+
+my $xml_version = '1.0';
+my $char_encod  = 'UTF-8';
+my $atomNS      = 'http://www.w3.org/2005/Atom';
+my $atom_qname  = 'feed';
+my $transform_sheet = 'utilities/atom_entry_to_page.xsl';
+
+my $parser     = new XML::LibXML; 
+my $xslt       = new XML::LibXSLT;
+my $style_doc  = $parser->parse_file($transform_sheet);
+my $stylesheet = $xslt->parse_stylesheet($style_doc);
+
+
+my $atomfile   = '';
+my $directory  = '';
+
+my $result = GetOptions ("atomfile=s"  => \$atomfile,  
+			 "directory=s" => \$directory);
+
+die "Invalid arguments" unless(-d $directory);
+
+my $dom;
+my $feed;
+
+if($atomfile) {
+
+    open my($fh), $atomfile;
+    binmode $fh;
+    $dom = $parser->parse_fh($fh);
+    $feed = $dom->documentElement();
+
+} else {
+
+    $dom = XML::LibXML::Document->new($xml_version,$char_encod);
+    $feed = $dom->createElementNS( $atomNS, $atom_qname );
+    $dom->setDocumentElement($feed);
+}
+
+open my($find), "find $directory -name '*.atom' -print|" or 
+    die "Cannot open $directory";
+
+while(my $entryFile = <$find>) {
+    chomp $entryFile;
+    $entryFile =~ m|(.+?)/([^/]+)$|;
+    my $directory = $1;
+    open my($h), $entryFile;
+    binmode $h;
+    my $entry = $parser->parse_fh($h);
+    close $h;
+    my $results = $stylesheet->transform($entry);
+    open my $out, ">$directory/index.shtml";
+    binmode $out; 
+    $results->toFH($out);
+    close $out;
+    my $element = $entry->documentElement();
+    $feed->appendChild($element);
+}
+
+print $dom->toString();

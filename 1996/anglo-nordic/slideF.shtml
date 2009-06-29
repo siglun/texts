@@ -1,0 +1,36 @@
+<html><head>
+<title>Example I</title>
+</head>
+<!--#include file="body.html"-->
+<table>
+<tr>
+<td valign="top">
+<!--#exec cmd="/home/sigge/WWW/1996/anglo-nordic/np.pl" -->
+</td>
+<td valign="top">
+<h1>Metadata example: Fairly good ones (I)</h1>
+
+<br clear="all">
+<hr noshade>
+<p>
+The record was valid Monday, 16-Sep-96 15:23:56 Local time.
+
+<table>
+<tr><td valign="top">@DOCUMENT {</td>
+<td valign="top"><kbd><a href="http://www.algonet.se/~krishna/main/address.htm">http://www.algonet.se/~krishna/main/address.htm</a></td>
+</tr>
+<tr><td valign="top">distribution{8}:</td><td valign="top"><kbd>	 global</td></tr>
+<tr><td valign="top">keywords{234}:</td>
+<td valign="top"><kbd>access, accommodation, address, ashram, centers,
+city, community, contact, farms, fax, find, hare, home,
+information, ISKCON, journalists, krishna, krsna, mandir,
+mayapur, movement, phone, reference, retreats, search,
+service, society, telephone, temples, world</td></tr>
+<tr><td valign="top">copyright{43}:</td><td valign="top"><kbd>1996, The Bhaktivedanta Book Trust Int'l</td></tr>
+<tr><td valign="top">description{91}:</td><td valign="top"><kbd>A listing of various relevant addresses of the Hare Krishna movement (ISKCON) world wide.</td></tr>
+<tr><td valign="top">resource-type{10}:</td><td valign="top"><kbd> document</td></tr>
+<tr><td>}</td></tr>
+</table>
+</td>
+</table>
+</body></html>

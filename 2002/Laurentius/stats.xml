@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="ISO-8859-1" ?>
+<!DOCTYPE article PUBLIC "-//OASIS//DTD DocBook XML V4.1.2//EN"
+                  "http://www.oasis-open.org/docbook/xml/4.1.2/docbookx.dtd" [
+
+<!ENTITY STATS SYSTEM "./laurentius_statistics.xml">
+]>
+
+
+<?xml-stylesheet
+      href="/xml-style-library/docbook_screen.xps"
+      type="application/x-xpathscript"
+      media="screen"
+      title="default" ?>
+
+<article>
+  <articleinfo>
+    <title>Web stats for Laurentius</title>
+    <author>
+      <firstname>Sigfrid</firstname>
+      <surname>Lundberg</surname>
+    </author>
+  </articleinfo>
+
+  <abstract>
+
+    <para>Preliminary web statistics for S:t Laurentius Digital Manuscript
+      Library.</para> 
+
+  </abstract>
+
+  <sect1>
+    <title>Statistics</title>
+
+    <orderedlist>
+      <listitem>
+	<para>Thumbnail - small thumb nail</para>
+      </listitem>
+      <listitem>
+	<para>Image</para>
+      </listitem>
+      <listitem>
+	<para>Volume index</para>
+      </listitem>
+      <listitem>
+	<para>Search request</para>
+      </listitem>
+      <listitem>
+	<para>Full record</para>
+      </listitem>
+      <listitem>
+	<para>Navigation</para> 
+      </listitem>
+    </orderedlist>
+
+
+&STATS;
+
+
+  </sect1>
+
+</article>

@@ -1,0 +1,85 @@
+.PS 5.0c 5.0c
+.ps 10
+
+TREE1: [
+	ROT: box invis "Bläddringsrot" 
+
+	LVL1: box width 0.3 height 0.75 invis with .w at ROT.e
+
+	circle radius 0.025 fill 1.0 at ROT.e
+
+	line from LVL1.w to LVL1.ne
+	line from LVL1.w to LVL1.e
+	line from LVL1.w to LVL1.se
+
+	circle radius 0.025 fill 1.0 at LVL1.ne
+	circle radius 0.025 fill 1.0 at LVL1.e
+	circle radius 0.025 fill 1.0 at LVL1.se
+
+	LVL2a: box width 0.3 height 0.5 invis with .w at LVL1.ne
+	line from LVL2a.w to LVL2a.ne
+	line from LVL2a.w to LVL2a.e
+	line from LVL2a.w to LVL2a.se
+
+	circle radius 0.025 fill 0 at LVL2a.ne
+	circle radius 0.025 fill 1.0 at LVL2a.e
+	circle radius 0.025 fill 1.0 at LVL2a.se
+
+	LVL2b: box width 0.3 height 0.5 invis with .w at LVL1.e
+
+	line from LVL2b.w to LVL2b.e
+	line from LVL2b.w to LVL2b.se
+
+	circle radius 0.025 fill 0 at LVL2b.e
+	circle radius 0.025 fill 1.0 at LVL2b.se
+
+	LVL2c: box width 0.3 height 0.5 invis with .w at LVL1.se
+]
+
+move to TREE1.e
+
+TREE2: [
+	ROT: box invis "Bläddringsrot" 
+
+	LVL1: box width 0.3 height 0.75 invis with .w at ROT.e
+
+	circle radius 0.025 fill 1.0 at ROT.e
+
+	line from LVL1.w to LVL1.ne
+	line from LVL1.w to LVL1.e
+	line from LVL1.w to LVL1.se
+
+	box wid 0.05 height 0.05 fill 1.0 at LVL1.ne
+	box wid 0.05 height 0.05 fill 1.0 at LVL1.e
+	circle radius 0.025 fill 1.0 at LVL1.se
+
+	LVL2a: box width 0.3 height 0.5 invis with .w at LVL1.ne
+
+	line dashed from LVL2a.w to LVL2a.ne
+	line from LVL2a.w to LVL2a.e
+	line from LVL2a.w to LVL2a.se
+
+	circle radius 0.025 fill 1.0 at LVL2a.e
+	circle radius 0.025 fill 1.0 at LVL2a.se
+
+	LVL2b: box width 0.3 height 0.5 invis with .w at LVL1.e
+
+	line dashed from LVL2b.w to LVL2b.e
+	line from LVL2b.w to LVL2b.se
+
+	circle radius 0.025 fill 1.0 at LVL2b.se
+
+	LVL2c: box width 0.3 height 0.5 invis with .w at LVL1.se
+]
+
+"Träd efter pass 1" at TREE1.n
+"Ansat träd efter pass 2" at TREE2.n
+
+move to TREE1.sw
+LEG1:	circle radius 0.025 fill 1.0
+LEG2:	"  \(rqLagom stor\(rq bläddringskategori" ljust at LEG1.e
+LEG3:	circle radius 0.025 fill 0 with .w at (LEG1.w.x,LEG2.s.y-0.1)
+LEG4:	"  \(rqFör liten\(rq bläddringskategori" ljust at LEG3.e
+LEG5:	box wid 0.05 height 0.05 fill 1.0 with .w at (LEG1.w.x,LEG3.s.y-0.1)
+"  Sammanslagen sida" ljust at LEG5.e
+.PE

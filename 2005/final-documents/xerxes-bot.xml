@@ -1,0 +1,639 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE article PUBLIC "-//OASIS//DTD DocBook XML V4.1.2//EN" "http://www.oasis-open.org/docbook/xml/4.1.2/docbookx.dtd" [
+    ]>
+
+
+<?xml-stylesheet
+      href="./db_special.xsl"
+      type="text/xsl"
+      media="screen"
+      title="default" ?>
+
+
+<article lang="en">
+  <articleinfo>
+    <title>Xerxes Bot: A very simplistic Metadata Harvesting Protocol</title>
+    <author>
+      <firstname>Sigfrid</firstname>
+      <surname>Lundberg</surname>
+      <affiliation>
+	<orgname>Biblioteksdirektionen,
+	Lunds universitet</orgname>
+      </affiliation>
+    </author>
+    <revhistory>
+      <revision>
+	<revnumber>$Revision$</revnumber>
+	<date>$Date$</date>
+	<authorinitials>$Author$</authorinitials>
+      </revision>
+    </revhistory>
+    <indexterm>
+      <primary><ulink url="documentation.xml">Documentation</ulink></primary>
+      <seealso><ulink url="xerxes-scripta.xml">Xerxes &amp;
+	  Scripta</ulink></seealso>
+      <seealso><ulink url="cataloging-tool.xml">Catagloging tool</ulink></seealso>
+    </indexterm>
+  </articleinfo>
+
+  <abstract>
+    <para>The purpose with this note is two-fold: The first being to describe
+      the procedure by which metadata are harvested into the service<ulink
+	url="http://theses.lub.lu.se/undergrad/">XERXES</ulink>, the second is to
+      as a manual for the software we use for the purpose.</para>
+    <para>The first aspect is covered in order to provide guidelines to XERXES' content
+      providers, the second is for people who may want to use the software for
+      other purposes.</para>
+    <para>The Xerxes Bot is intended as an XX-lite alternative for the OAI
+      Static Repository. For any more complicated tasks, please use the real thing.</para>
+  </abstract>
+
+  <sect1>
+    <title>Metadata Harvesting</title>
+    <para>The disclosure of metadata for use in other services than in which
+      they were created is common today. The purpose is both to market ones
+      resources and to create greater value for users and resource creators
+      alike. Various methods are devised, such as <ulink
+	url="http://www.openarchives.org/">OAI PMH</ulink>.</para>
+
+    <para>This paper describes how we do it in <ulink
+	url="http://theses.lub.lu.se/undergrad/">XERXES</ulink>. But first the
+      rationale: OAI PMH is not as light-weight it could have been, and this is
+    especially true for the  <ulink
+	url="http://www.openarchives.org/OAI/2.0/guidelines-static-repository.htm">OAI Static Repository</ulink>.</para> 
+
+  </sect1>
+
+  <sect1>
+    <title>How we do it</title>
+
+    <para>We use the same vocabulary as in OAI PMH. I.e., we assume that we
+      have two services, one of which is called the <emphasis>data
+	provider</emphasis> and the other the <emphasis>service
+	provider</emphasis>. It is assumed that the staff of the data provider
+      want its metadata to be accessible through the services provider.</para>
+
+    <para>To that end the data provider make available logs of its changes for
+      use by the service provider. If the logs are static files or delivered
+      by scripts, but they have to be delivered by date. Dates are substituted
+      into the URI when the Xerxes bot is requesting the log files.</para>
+
+    <para>A log has a predertmined syntax. An example log looks as
+      follows:</para>
+
+    <programlisting>
+create	EHL-230	http://biblioteket.ehl.lu.se/olle/xml/EHL0000230.xml
+update	EHL-230	http://biblioteket.ehl.lu.se/olle/xml/EHL0000230.xml
+create	EHL-198	http://biblioteket.ehl.lu.se/olle/xml/EHL0000198.xml
+update	EHL-230	http://biblioteket.ehl.lu.se/olle/xml/EHL0000230.xml
+create	EHL-231	http://biblioteket.ehl.lu.se/olle/xml/EHL0000231.xml
+    </programlisting>
+
+    <para>I.e., it is line based list containing the expected
+      <emphasis>operation</emphasis>,  <emphasis>database ID</emphasis> and the
+      <emphasis>URI</emphasis> of the metadata object in question.</para>
+
+    <para>We support the following operations:</para>
+    
+    <itemizedlist>
+      <listitem>
+	<para>create</para>
+      </listitem>
+      <listitem>
+	<para>update</para>
+      </listitem>
+      <listitem>
+	<para>delete</para>
+      </listitem>
+    </itemizedlist>
+
+    <para>In this simplistic world, an update is basically the same as a delete
+      followed by a create. The bot is then able incrementally mirror the
+      changes to the data provider database.</para>
+
+  </sect1>
+
+  <sect1>
+    <title>How the BOT gets the metatadata</title>
+
+    <para>The xerxes bot consists of two small programs written in perl. The
+      communicates with each other via a pipe line, i.e., the first
+      xerxes-get.pl figures out what to do, and prints commands on standard
+      output about how the second, xerxes-postprocess.pl, should handle the
+      harvested material.</para>
+    
+    <sect2>
+      <title>xerxes-get.pl</title>
+
+      <para>This is the robot. It basically requests the logfiles, and does the
+      mirroring. It assumes that there exists simple configuration file,
+	data-sources.txt from which it can read data sources.</para>
+
+    <programlisting>
+#
+# Format for this file is
+# Provider&lt;spaces/tabs>BaseURI{date}&lt;spaces/tabs>From-date&lt;spaces/tabs>Until-date
+# until date can be the token today.
+
+EHL	http://biblioteket.ehl.lu.se/olle/xml/EHL-{date}.log	20041221	today
+
+      </programlisting>
+
+      <para>Thus, xerxes-get.pl assumes that there is a single line per data
+	provider. Each line contains information about how to query the data
+	provider as to what has happened, and the date interval for which such
+	log files are (potentially) available. If the harvesting should
+	continue indefinitely one may replace end date with the token 'today'.</para>
+
+      <para>Independent of this, the BOT saves away the date of last access in
+	order to avoid repeating queries. Thus, we support incremental
+	update. I several are  needed it is just to add lines to this file, one
+	for each data provider.</para> 
+
+    </sect2>
+
+    <sect2>
+      <title>xerxes-postprocess.pl</title>
+
+      <para>This program just reads what xerxes-get.pl writes to standard
+	output. It opens the XML object retrieved in the first pass, and does
+	whatever is needed for the object to be indexed in the service
+	providers database.</para>
+
+      <para>In our case it is a XSLT transform, which in turn introduces some
+	further data needed for searching.</para>
+
+    </sect2>
+  </sect1>
+
+  <sect1>
+    <title>Xerxes Metdata</title>
+
+    <para>As of writing this, the Xerxes metadata format is yet to be properly
+      specified. The only thing we can do is to provide an example.</para> 
+
+    <programlisting>
+<![CDATA[
+<?xml version="1.0" encoding="utf-8"?>
+<dissertation
+      created="2004-11-09"
+      status="accepted"
+      thesis-type="monography"
+      modified="2004-12-21"
+      fulltext="public">
+  <id>EHL-154</id>
+  <record-source>
+    <name>OLLE</name>
+    <linkage>http://biblioteket.ehl.lu.se/olle/xml/EHL0000154.xml</linkage>
+  </record-source>
+  <creator agent-ref="id of user">
+    <name>
+      <last>ANDERSSON</last>
+      <first>MOA</first>
+    </name>
+    <born>yyyy-mm-dd</born>
+    <electronic-address>user @ domain.se</electronic-address>
+  </creator>
+  <creator agent-ref="id of user">
+    <name>
+      <last>PAMP</last>
+      <first>ALEXANDRA</first>
+    </name>
+    <born>yyyy-mm-dd</born>
+    <electronic-address>user @ domain.se</electronic-address>
+  </creator>
+  <date-issued>2004-11-09</date-issued>
+  <title>Hälsoekonomisk utvärdering vid hälsofrämjande arbetsplatsprojekt</title>
+  <language>sv</language>
+  <availability>
+    <available>
+      <linkage>http://biblioteket.ehl.lu.se/olle/papers/0000154.pdf</linkage>
+      <format>application/pdf</format>
+      <comment>Hälsoekonomisk utvärdering vid hälsofrämjande arbetsplatsprojekt</comment>
+    </available>
+    <medium>C</medium>
+    <distributor domain-ref="012008000">
+      <name>Department of Economics</name>
+    </distributor>
+  </availability>
+  <summary-in-swedish>
+    <p>Under andra delen av 1990-talet började antalet sjukskrivningar i
+      Sverige att öka drastiskt, vilket har medfört stora kostnader och problem
+      för arbetsgivare och samhälle. Uppsatsen utgår från projektet ”Hälsosamt
+      medarbetarskap” som inleds under våren 2004 av stadsdelsförvaltningen
+      Limhamn-Bunkeflo i Malmö. Med detta projekt i bakgrunden var uppsatsens
+      syfte att utreda vilka vinster/kostnader som kan uppnås då arbetsgivaren
+      införlivar ett preventivt arbete för sina anställda. I uppsatsens
+      teoridel görs en genomgång av de tre vanligaste hälsoekonomiska
+      utvärderingsmetoderna cost-benefit analys (CBA), cost-effectiveness
+      analys (CEA) och cost-utility analys (CUA). En av slutsatserna med
+      uppsatsen är att området för hälsoekonomisk utvärdering av preventiva och
+      hälsofrämjande arbetsplatsprojekt är relativt outforskat. Det fåtal
+      studier som gjorts visar dock på vinster och därmed borde det finnas ett
+      stort behov av utvärderingar av detta slag både på samhälls- och
+      företagsnivå.</p>
+  </summary-in-swedish>
+  <uncontrolled-terms>
+    <uterm>hälsoekonomiska utvärderingsmetoder</uterm>
+    <uterm>arbetsplatsprojekt</uterm>
+    <uterm>prevention</uterm>
+    <uterm>kostnader och effekter</uterm>
+  </uncontrolled-terms>
+  <controlled-terms>
+    <cterm domain-ref="S180">Economics, econometrics, economic theory, economic
+      systems, economic policy </cterm>
+  </controlled-terms>
+  <supervisor>
+    <name>Lyttkens, Carl Hampus</name>
+  </supervisor>
+</dissertation>
+]]>
+    </programlisting>
+
+  </sect1>
+
+
+  <sect1>
+    <title>xerxes-get.pl</title>
+
+    <programlisting>
+<![CDATA[
+#!/usr/bin/perl -w
+
+#
+# This program reads a source file, requests certain log files from remote sites
+# and from that deduce what other files to retrieve and store in the XERXES database
+# Authored by Sigfrid Lundberg (sigfrid.lundberg@lub.lu.se)
+#
+# Last modified $Date$ by $Author$
+#
+# $Id$
+#
+
+use strict;
+use HTTP::Date;
+use LWP::UserAgent;
+use HTTP::Request;
+use URI::URL;
+
+my $destination = "/home/xerxes/archive/bot";
+my $sources = 'data-sources.txt';
+my $last_access = 'last-access.txt';
+
+my $agent = &initializeHTTP(120);
+my %base       = ();
+my %fromdates  = ();
+my %untildates = ();
+
+&HTTP::Date::time2iso() =~ m/(\d\d\d\d)-(\d\d)-(\d\d)/;
+my $thisyear   = $1;
+my $thismonth  = $2;
+my $thisday    = $3;
+my $today      = $thisyear.$thismonth.$thisday;
+
+my %daysinmonth = ( '1' => 31,
+		    '2' => 29,
+		    '3' => 31,
+		    '4' => 30,
+		    '5' => 31,
+		    '6' => 30,
+		    '7' => 31,
+		    '8' => 31,
+		    '9' => 30,
+		    '10' => 31,
+		    '11' => 30,
+		    '12' => 31);
+
+open SOURCES, "<$sources"     or die "Cannot open $sources";
+my %accessdates = ();
+
+if(open LAST,    "<$last_access") {
+    foreach my $line (<LAST>) {
+	chomp $line;
+	my ($key,$date) = split /\s+/,$line;
+	$accessdates{$key} = $date;
+    }
+    close LAST;
+} else {
+    warn "Cannot open $last_access";
+}
+
+foreach my $source (<SOURCES>) {
+    next if $source =~ m/^#/;
+    next if $source =~ m/^\s*$/;
+    chomp $source;
+    my ($id,$base,$from,$todate) = split /\s+/,$source;
+    $base{$id}       = $base;
+    if($accessdates{$id}) {
+	$fromdates{$id}  = $accessdates{$id};
+    } else {
+	$fromdates{$id}  = $from;
+    }
+    if($todate eq 'today') {
+	$todate = $today;
+    }
+    $untildates{$id} = $todate;
+    $accessdates{$id}= $todate;
+}
+
+close SOURCES;
+
+my @entries = ();
+my %messylogs = ();
+while ( my ($key,$base) = each %base ) {
+    my $destdir = "$destination/$key";
+    system "mkdir $destdir" unless -d $destdir;
+    system "mkdir $destdir/messages" unless -d "$destdir/messages";
+    open my $errorlog,">$destdir/messages/$today.log";
+    $messylogs{$key} = $errorlog;
+    print $errorlog "$key\t$base\n";
+    print $errorlog "\t$fromdates{$key}\n";
+    print $errorlog "\t$untildates{$key}\n";
+    my @dates = &datelist($fromdates{$key},$untildates{$key});
+    next unless (@dates);
+    foreach my $date (@dates) {
+	my $uri = $base;
+	$uri =~ s/{date}/$date/g;
+	print $errorlog "\t$uri ";
+	my ($logfile,$status) = &getContent($agent,$uri,$errorlog);
+	if($status =~ m/200 OK/ && length($logfile)>0) {
+#	    $accessdates{$key} = $date;
+	    my @list = split /[\r\n]+/,$logfile;
+	    foreach my $member (@list) {
+		my ($operation,$id,$uri) = split /\s+/,$member;
+		$member = join "\t",$key,$operation,$date,$id,$uri,$destdir;
+		push @entries,$member;
+	    }
+	}
+    }
+}
+
+my %files = ();
+foreach my $entry (@entries) {
+    my ($key,$operation,$date,$id,$uri,$dest) = split /\s+/,$entry;
+    my ($content,$status) = &getContent($agent,$uri);
+    if($key eq 'EHL' && $id !~ /EHL/) {
+	$id = "EHL-$id";
+    }
+    my $dir  = "$dest/$id";
+    my $file = "$dir/description.scr";
+    my $log  = $messylogs{$key};
+    if($status =~ m/200 OK/ && length($content)>0) {
+	my $result = 0;
+	if($operation eq 'delete') {
+	    system "rm -rf $dir";
+	} elsif( $operation eq 'update') {
+	    if(open my $f,">$file") {
+		print $f $content;
+	    } else {
+		print $log "$id: Tried to update a record that wasn't created\n";
+	    }
+	} elsif($operation eq 'create' ) {
+	    system "mkdir $dir" unless -d $dir;
+	    if(open my $f,">$file") {
+		print $f $content;
+	    }
+	}
+	print $log join("\t",$id,"succeeded",$operation,$uri,$dest,"\n");
+	if('update,create' =~ /$operation/) {
+	    open my $history,">>$dir/history.log";
+	    print $history "$operation $date succeess done $today\n";
+	}
+	$files{$file} = $entry;
+    } else {
+	if('update,create' =~ /$operation/) {
+	    open my $history,">>$dir/history.log";
+	    print $history "$operation $date failure\n";
+	}
+	print $log join("\t",$id,"failed",$operation,$uri,$dest,"\n");
+    }
+}
+
+while( my ($file,$entry) = each %files) {
+    print "$file $entry\n";
+}
+
+open LAST,">$last_access" or warn "Cannot open $last_access: $@!";
+while ( my ($key,$date) = each %accessdates) {
+    print LAST "$key\t".$accessdates{$key}."\n";
+}
+close LAST;
+
+sub pad {
+    my $thing = shift;
+
+    if($thing<10 && length($thing)<2) {
+	return '0'.$thing;
+    } else {
+	return $thing;
+    }
+
+}
+
+sub initializeHTTP {
+    my $time = shift;
+
+    my $UAname = "xerxes-wants-more-records/0.9";
+    my $ua  = new LWP::UserAgent;
+    
+    if($time) {
+      $ua->timeout($time);
+    }
+
+    return $ua;
+
+}
+
+sub getContent {
+    my $ua        = shift;
+    my $url       = shift;
+    my $errorlog  = shift;
+
+    return 0 unless $url;
+
+    my $nurl = new URI::URL $url;
+    my $request  = new HTTP::Request 'GET', $url;
+    my $response = $ua->request($request);
+
+    if($errorlog) {
+	print $errorlog " ".$response->status_line."\n";
+    }
+
+    my $cont   = $response->content;
+    my $status = $response->status_line;
+    if ($response->is_success) {
+      return ($cont,$status);
+    } else {
+      return (0,$status);
+    }
+}
+
+sub datelist {
+    my $from = shift;
+    my $to   = shift;
+
+    return () unless $to>$from;
+
+    my @dates = ();
+
+    $from  =~ m/(\d\d\d\d)(\d\d)(\d\d)/;
+    my $fromyear   = $1;
+    my $frommonth  = $2;
+    my $fromday    = $3;
+
+    $to  =~ m/(\d\d\d\d)(\d\d)(\d\d)/;
+    my $toyear   = $1;
+    my $tomonth  = $2;
+    my $today    = $3;
+
+    for(my $year=$fromyear;$year<=$toyear;$year++) {
+
+	my $mstart;
+	my $mend;
+	if($year == $fromyear) {
+	    $mstart = $frommonth;
+	    if($year == $toyear) {
+		$mend   = $tomonth;
+	    } else {
+		$mend   = 12;
+	    }
+	} else {
+	    $mstart = 1;
+	    if($year == $toyear) {
+		$mend   = $tomonth;
+	    } else {
+		$mend   = 12;
+	    }
+	}
+
+	for(my $month=$mstart;$month<=$mend;$month++) {
+	    my $startday = 1;
+
+	    $month =~ s/^0+//;
+	    my $endday = $daysinmonth{$month};
+
+	    if( ($year == $fromyear) &&
+		($month == $mstart ) ) {
+		$startday = $fromday;
+	    }
+	    if( ($year == $toyear) &&
+		($month == $tomonth ) ) {
+		$endday = $today;
+	    }
+
+	    for(my $day=$startday;$day<=$endday;$day++) {
+		push @dates, $year.&pad($month).&pad($day);
+	    }
+	}
+    }
+    print STDERR join "\n",@dates;
+    return @dates;
+}
+
+#
+# $Log$
+# Revision 1.1  2009/06/29 11:08:34  sigfrid
+# Initial revision
+#
+# Revision 1.3  2005/06/08 14:58:21  sigge
+# Checked in just in case of ;-)
+#
+# Revision 1.2  2005/05/26 13:58:53  sigge
+# Improved revision control
+#
+# Revision 1.1  2005/05/26 11:44:40  sigge
+# Initial revision
+#
+# Revision 1.7  2005/03/03 12:03:17  sigge
+# Fixed a simple bug arising through my alternating use of variables as
+# text strings and integers.
+#
+# Revision 1.6  2005/01/04 13:57:43  sigge
+# The last access date stored is the last successful one, i.e., the most
+# recent that produce material. Not what I want.
+#
+# Revision 1.5  2004/12/22 12:30:32  sigge
+# Corrected bug in the date of last access logging.
+#
+# Revision 1.4  2004/12/21 14:33:09  sigge
+# Prints information information enough for post-processing to standard
+# out.
+#
+# Revision 1.3  2004/12/21 10:45:20  sigge
+# Got revision control in place
+#
+# Revision 1.2  2004/12/21 10:43:49  sigge
+# Renamed the program, and made some other modifications.
+#
+#
+#
+
+]]>
+    </programlisting>
+
+  </sect1>
+
+  <sect1>
+    <title>xerxes-postprocess.pl</title>
+
+    <programlisting>
+<![CDATA[
+#!/usr/bin/perl -w
+
+# This script is a simple post-processor to xerxes-get.pl.
+# Author Sigfrid Lundberg (sigfrid.lundberg@lub.lu.se)
+# Last modified $Date$ by $Author$
+# $Id$
+
+use strict;
+use XML::LibXSLT;
+use XML::LibXML;
+
+my $default_sheet = './post-processing.xsl';
+my $parser     = new XML::LibXML;
+my $xslt       = new XML::LibXSLT;
+my $style_doc  = $parser->parse_file($default_sheet);
+my $stylesheet = $xslt->parse_stylesheet($style_doc);
+
+while(my $entry = <>) {
+    chomp $entry;
+    my ($file,$key,$operation,$date,$id,$uri,$dest) = split /\s+/,$entry;
+
+    my $doc        = $parser->parse_file($file);    
+    my $results    = $stylesheet->transform($doc);
+    my $cod        = $stylesheet->output_string($results);
+
+    system  "mv $file $file\.bak";
+    open FILE,">$file";
+    print FILE $cod;
+    close FILE;
+
+}
+
+#
+# $Log$
+# Revision 1.1  2009/06/29 11:08:34  sigfrid
+# Initial revision
+#
+# Revision 1.3  2005/06/08 14:58:21  sigge
+# Checked in just in case of ;-)
+#
+# Revision 1.2  2005/05/26 13:58:53  sigge
+# Improved revision control
+#
+# Revision 1.1  2005/05/26 11:44:40  sigge
+# Initial revision
+#
+# Revision 1.1  2004/12/22 10:37:00  sigge
+# Initial revision
+#
+#
+
+
+]]>
+    </programlisting>
+    
+  </sect1>
+
+</article>
+      

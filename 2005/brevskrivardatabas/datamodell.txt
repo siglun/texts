@@ -1,0 +1,12 @@
+
+1. Ett brev har följande egenskaper
+
+   brevID			
+   datering			se datering, punkt 2 nedan 
+   plats			se plats, punkt 3 nedan
+   adressat, avsändare		se person, punkt 4 nedan
+   ämne				se ämne, punkt 5 nedan
+
+2. (avsändare, adressater) Personer har följande egenskaper
+
+   

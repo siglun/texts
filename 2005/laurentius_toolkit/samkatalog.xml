@@ -1,0 +1,590 @@
+<?xml version="1.0" encoding="iso-8859-1"?>
+<!DOCTYPE article PUBLIC "-//OASIS//DTD DocBook XML V4.1.2//EN"
+"http://www.oasis-open.org/docbook/xml/4.1.2/docbookx.dtd" [
+]>
+<article lang="sv">
+  <articleinfo>
+    <title>S:t Laurentius' verktygslåda</title>
+    <subtitle>Mjukvara och en del annat som behövs för indexering och tillgängliggörande av
+      stukturella metadata</subtitle>
+
+    <author>
+      <firstname>Sigfrid</firstname>
+      <surname>Lundberg</surname>
+      <affiliation>
+	Lunds universitets bibliotek
+      </affiliation>
+    </author>
+  </articleinfo>
+  <abstract>
+    <title>Sammanfattning</title>
+
+    <para>Detta är ett förslag till ett projekt som syftar till utvecklingen av
+      ett mjukvarupaket som är tänkt för tillgängliggörande av resurser, fysiska
+      såväl som digitala, vars tillgängliggörande kräver strukturella snarare
+      än deskriptiva metadata. Sådana data kommer typiskt i användning i
+      samband med katalogisering av medeltida handskrifter, inkunabler samt vid
+      förteckning av arkiv.</para> 
+
+    <para>Programvarupaketet skall vara dokumenterat och förpackat så att
+      det skall kunna distribueras till instresserade bibliotek. Licensen skall
+      vara Gnu Public Licence.</para>
+
+  </abstract>
+  <sect1>
+
+    <title id="sect1">Bakgrund</title>
+
+    <para>
+      Projektet
+      <emphasis>Lunds medeltida handskrifter - tillgänglighet och
+	bevarande</emphasis> och tjänsten som projektet avkastat
+      <emphasis>S:t Laurentius Digital Manuscript Library</emphasis>
+      <footnoteref linkend="laurentius"/> har lett till ett antal inviter om
+      samarbete och förfrågningar om vi har varit beredda att dela med oss av
+      den programvara vi använder för sökning och presentation<footnoteref
+	linkend="laurentius-search"/>.
+    </para>
+
+    <para>
+      Svaret har fått bli att vi, rent principiellt, är positiva till att dela
+      med oss, och att vi kan tänka oss att göra det i form av  öppen källkod.
+      Däremot har inte haft möjlighet att avsätta de resurser resurser som
+      krävs för att en rimlig "release engineering". Även fri programvara måste
+      ha manual, installationsanvisningar och en snygg förpackning. Att
+      producera en sådan verktygslåda har legat bortom vad vi kunnat åstadkomma
+      på den tid vi har haft avsatt för projektet.
+    </para> 
+
+    <para>
+      Vi har även fått frågor som gällt om S:t Laurentius skulle kunna fungera som
+      värd för kataloger för beskrivningar av medeltidshandskrifter från andra
+      biblioteks samlingar, och därmed på sikt utvecklas till en "portal",
+      "samkatalog" eller "hub" i ett "nätverk" (i fortsättningen kallar en
+      sådan tjänst för en <emphasis>handskriftsportal</emphasis> trorts att
+      begreppet portal är utslitet sedan länge) för ett konsortium av bibliotek
+      och andra organisationer som tillgängliggör material av detta
+      slag.
+    </para>
+
+    <para>Ett första experiment i denna riktning har redan gjorts. Laurentius
+      har en avdelning som innehåller kodikologiska beskrivningar av ca 500
+      Vatikanbibliotekets av handskrifter ur drottning Kristinas 
+      bibliotek. Den samlingen samling som är känd under namnet
+      <emphasis>Codices Reginenses Latini</emphasis>  (materialet är inte fritt
+      tillgängligt, och skyddas av lösenord).</para>
+
+
+    <para>Målet med detta projekt är att producera en verktygslåda för
+      underhåll och presentation av samlingar av strukturell metadata och
+      tillhörande digitala surrogat (det vill säga digitala bilder,
+      transkriptioner etc av fysiska objekt).</para> 
+
+  </sect1>
+  <sect1>
+    <title>Definition av projektets avgränsningar</title>
+
+    <para>
+      Sedan vi släppte tjänsten har mycket hänt. Vi har varit i situationen att
+      samtidigt som andra varit i behov av verktyg liknande de vi använder har
+      vi inte ens haft möjlighet att anpassa dem efter våra egna ändrade
+      behov. Samtidigt har gör vi nu en satsning för att påbörja en utveckling
+      av metoder och teknologier för EAD-beskrivning av
+      forskningsbibliotekens bestånd av arkiv<footnoteref linkend="ediffah"/>.
+    </para>
+
+    <para>För vår egen del kommer belastningen att underhålla separata
+      infrastrukturer för handskrifterna och arkiven att bli för
+      stor. Samtidigt kan vi förutse att även andra bibliotek kommer att
+      ha behov av att katalogisera och tillgängliggöra båda typerna av
+      material.
+    </para>
+
+    <sect2>
+      <title>Vad är strukturella metadata?</title>
+
+      <para>Väl medveten om att detta är en förenkling av verkligheten, skulle
+	jag vilja göra en distinktion mellan två typer av metadata,
+	strukturella och deskriptiva.</para>
+
+      <para>Med deskriptiva metadata avser jag beskrivningar som tillåter
+	användare att söka efter och återvinna hela objekt. som t ex en bok av
+	Boethius eller en webbsida om akvariefiskar. Sådana beskrivningar kan
+	vara mycket detaljerade (som är fallet med bibliografiska poster i MARC
+	21), men oavsett detaljrikedomen gäller beskrivningen i huvudsak
+	objektet som helhet.</para>
+
+      <para>För unika sammansatta objekt (som handhskrifter) och hela samlingar
+	(som arkiv) är sådana beskrivningar otillräckliga. Istället används
+	strukturella metadata som förmår fånga helheten såväl som delarna och 
+	deras relationer till varandra, vilka ofta beskrivs som en hierarkisk
+	struktur.</para> 
+
+      <para>Exempel på strukturella metadatasystem är:</para>
+
+      <itemizedlist>
+
+	<listitem>
+	  <para>Encoded Archival Description <footnoteref
+	      linkend="ead"/> är ett format för beskrivning av och för
+	    förteckning av innehållet i ett arkiv.
+	  </para> 
+	</listitem>
+
+	<listitem>
+	  <para>Master<footnoteref linkend="master"/> är systemet vi använder i
+	    S:t Laurentius. Master tillåter detaljerad beskrivning av en
+	    handskrifts intellektuella innehåll i en hierarkiskt ordnad
+	    innehållsförteckning, och möjliggör därutöver beskrivning av
+	    objektets uppkomst, ursprung, proviniens med mera.</para>
+
+	  <para>Master har utvecklats i samarbete<footnoteref
+	      linkend="samarbete"/> med TEI<footnoteref
+	      linkend="tei-mmss"/>.</para>
+	</listitem>
+
+	<listitem>
+	  <para>Metadata Encoding &amp; Transmission Standard <footnoteref
+	      linkend="mets"/> är ett metadataformat som möjliggör deskriptiva och
+	    strukturella aspekter vid beskrivningen av en resurs.</para>
+	</listitem>
+      </itemizedlist>
+
+      <para>De tre formaten ovan är samtliga XML-baserade
+	<emphasis>dokumentformat</emphasis>. S:t Laurentius kommer 
+	princip att vara kapabelt att hantera varje dokument i XML-format givet
+      att det produceras stillmallar för dem.</para>
+
+    </sect2>
+
+    <sect2>
+      <title>Typer av verktyg i lådan</title>
+
+      <para>S:t Laurentius verktygslåda kommer att innehålla tre kategorier av
+	verktyg, vilka 	specificeras mer i detalj nedan. I grova drag kommer
+	jag att åstadkomma följande:</para>
+
+      <itemizedlist>
+	<listitem>
+	  <para>Ett uppsättning verktyg för lagring och underhåll av
+	    strukturella metadata. Hit hör uppladdning, validering och
+	    versionskontroll, men även generering av sökindex och data för
+	    implementering av navigationsstrukturer i användargränssnittet. I
+	    systemet kommer det att arbetsflöden för en redaktionellt arbete,
+	    som t ex kvalitetskontroll.</para>
+	  <para>Sökning kommer att vara möjlig baserat på Z39.50<footnoteref
+	      linkend="zebra"/> och Web Services<footnoteref
+	      linkend="srw"/></para> 
+	</listitem>
+	<listitem>
+	  <para>Ett verktyg att koppla sådana metadata till digitala surrogat
+	    (t ex bilder eller transkriptioner) för de katalogiserade
+	    objekten. Detta för att man i likhet med S:t Laurentius skall kunna
+	    länka till digitaliserat material.</para> 
+	</listitem>
+	<listitem>
+	  <para>
+	    Slutligen kommer det att följa med verktyg för att bygga en
+	    webbsajt för presentation av strukturerella metadata.
+	  </para>
+	</listitem>
+      </itemizedlist>
+
+      <para>De flesta av verktygen ovan kommer att vara baserade på öppen
+	programvara som kör under operativsystemen Linux eller Unix. Projektet
+	producerar <emphasis>bara</emphasis> det kitt som dem håller
+	samman.</para>
+
+    </sect2>
+
+    <sect2>
+      <title>Typer av problem projektet inte kommer att angripa</title>
+
+      <para>Projektet arbetar inte med relaterade frågor som:</para>
+      <itemizedlist>
+	<listitem>
+	  <para>Digitalisering eller andra former av produktion av digitala
+	    surrogat</para>
+	</listitem>
+	<listitem>
+	  <para>Redigering av XML-dokument</para>
+	</listitem>
+	<listitem>
+	  <para>Transkription av text till XML-dokument</para>
+	</listitem>
+
+	<listitem>
+	  <para>Digitalt bevarande eller Open Archival Information
+	    Systems<footnoteref linkend="oais"/></para> 
+	</listitem>
+      </itemizedlist>
+
+      <para>Strukturella metdata används inom en rad andra områden, som till
+	exempel talböcker och andra synkroniserade multimedia<footnoteref
+	  linkend="multimedia"/> , elektronisk publicering av moderna
+	alster. Sådana appliaktioner områden ligger utanför detta
+	projekt.</para>
+
+    </sect2>
+
+  </sect1>
+
+  <sect1>
+    <title>Projektets organisation, arbetsformer och produkter</title>
+
+    <sect2>
+      <title>Organisation</title>
+      <para>Projektet är tänkt som ett litet; det består av mig som programmerare
+	och tillika projektledare. Därtill kommer en referensgrupp bestående av
+	två personer vid Universitetsbiblioteket, Lund och
+	Kungl. Biblioteket. Handskriftsenheterna vid båda biblioteken är
+	vidtalade och har ställt sig positiva till uppdraget.</para> 
+      
+    </sect2>
+
+    <sect2>
+      <title>Produkter</title>
+
+      <para>Det finns funktioner vi inte förutsåg att vi skulle behöva, och
+	sådana som blivit möjliga först efter att tjänsten släpptes i sitt
+	nuvarande skick är:</para> 
+
+      <itemizedlist>
+	<listitem>
+	  <para>En redaktionell infrastruktur som tillåter uppladdning,
+	    validering och publicering av metadata utan insats av
+	    tekniker.</para>
+	</listitem>
+	<listitem>
+	  <para>Utbyggt stöd för Unicode i sökmaskinen. Vi har ett par
+	    beskrivningar med incipit och explicit på medeltidsgrekiska som vi
+	    inte kan publicera på grund av detta.</para> 
+	</listitem>
+      </itemizedlist>
+	  
+      <para>Det finns för övrigt ett par funktioner i tjänsten som aldrig blivit
+	riktigt färdiga.</para>
+
+      <itemizedlist>
+	<listitem>
+	  <para>Bläddring av bilderna. Det måste bli möjligt att sitta och läsa
+	    en bok från pärm till på.</para>
+	</listitem>
+	<listitem>
+	  <para>Full boolesk sökning i avancerade formuläret, som utgår ifrån att
+	    termerna kombineras med booleskt "OCH"</para>
+	</listitem>
+	<listitem>
+	  <para>Förbättrad indexering av handskrifternas fysiska beskrivning.</para>
+	</listitem>
+      </itemizedlist>
+    
+      <para>Produkten består av:</para>
+
+      <orderedlist>
+
+	<listitem>
+	  <para>Ett enkelt dokumenthanteringssystem. Jag kommer att använda ett jag
+	    utvecklat för epubliceringssystemen <emphasis>Xerxes</emphasis> <footnoteref
+	      linkend="xerxes"/> och <emphasis>Scripta Academica Lundensia</emphasis><footnoteref
+	      linkend="scripta"/>. Beräknad tid: 2 manveckor.</para>
+	</listitem>
+	<listitem>
+	  <para>Ett dokumentindexeringssystem. Jag kommer att utgå ifrån de jag
+	    utvecklat för S:t Laurentius <footnoteref
+	      linkend="laurentius-search"/> och kommer att utveckla för
+	    Ediffah. Beräknad tid: 3 manveckor.</para> 
+	</listitem>
+	<listitem>
+	  <para>Ett användargränssnitt. Jag kommer att basera systemet på<footnoteref
+	      linkend="keystone"/>. 
+	    Jag använder detta i epubliceringssystemen Xerxes <footnoteref
+	      linkend="xerxes"/> och Scripta Academica Lundensia<footnoteref
+	      linkend="scripta"/>, och gränssnittet kommer att likna
+	    dem. Beräknad tid: 3 manveckor.</para> 
+	</listitem>
+	<listitem>
+	  <para>Dokumentation i form av</para>
+	  <itemizedlist>
+	    <listitem>
+	      <para>En användarmanual för katalogisatörer.</para>
+	    </listitem>
+	    <listitem>
+	      <para>Ett dokument för sysadmins och web masters för handhavande
+		av programvaran.</para>
+	    </listitem>
+	  </itemizedlist>
+	  <para>Beräknad tid: 3 manveckor.</para>
+	</listitem>
+
+	<listitem>
+	  <para>Slutlig revision av programvara och dokumentation. Beräknad
+	    tid: 3 manveckor.</para>
+	</listitem>
+
+
+      </orderedlist>
+
+    </sect2>
+
+    <sect2>
+      <title>Arbetsformer</title>
+
+      <para>Jag beräknar att jag kommer att kunna arbeta inte fullt halva
+	projektiden med projektet, vilket innebär att det kommer att sträcka
+	sig över ungefär fem kalendermånader.</para> 
+
+      <para>Systemet kommer att utvecklas i två faser.</para>
+
+      <para>Innan arbetet påbörjas kommer jag att kontakta
+	handskriftssektionerna vid UB Lund och KB för att få personer till
+	referensgruppen, samt att få in synpunkter på S:t Laurentius och den
+	kommande Ediffah-demonstratorn.</para>
+
+      <para>Under en första fas kommer delarna ett och två ovan att
+	utvecklas. Det innebär att personalens användargränssnitt kommer att
+	vara efter efter halvtid.</para>
+
+      <para>I samband med att detta färdigställs kommer låta referensgruppen
+	testköra systemet, och i samband med detta kommer jag även att ha ett
+	möte med dem.</para>
+
+      <para>I den andra fasen kommer slutanvändargränssnittet att
+	fastställas. I utvärderingen av det kommer vi utvärdera sök-
+	och navigeringsfaciliteterna utvecklade som produkt två ovan; i samband
+	härmed kommer referensgruppen att mötas ytterligare en gång.</para> 
+
+      <para>Programvarudistributionen med dess dokumentation kommer att testas
+	genom att det installeras vid Kungl. Biblioteket. Efter det kommer
+	en slutlig revision. Programvaran kommer att släppas under Gnu Public
+	License <footnoteref linkend="gnu"/></para>
+
+    </sect2>
+
+  </sect1>
+
+  <sect1>
+    <title>Kostnader</title>
+
+    <table>
+      <title>Projektbudget</title>
+      <tgroup>
+	<tbody>
+	  <row>
+	    <entry>Moment</entry>
+	    <entry>Tid (manveckor)</entry>
+	    <entry>Kostnad (inkl. Sociala avgifter)</entry>
+	    <entry>Kommentar</entry>
+	  </row>
+	  <row>
+	    <entry>Arbete i referensgrupp</entry>
+	    <entry>2</entry>
+	    <entry>35.000</entry>
+	    <entry>Arvode till referensgruppen</entry>
+	  </row>
+	  <row>
+	    <entry>Utveckling, produkt 1 (se ovan)</entry>
+	    <entry>2</entry>
+	    <entry>35.000</entry>
+	    <entry>BD Lund</entry>
+	  </row>
+	  <row>
+	    <entry>Utveckling, produkt 2 (se ovan)</entry>
+	    <entry>3</entry>
+	    <entry>52.505</entry>
+	    <entry>BD Lund</entry>
+	  </row>
+	  <row>
+	    <entry>Utveckling, produkt 3 (se ovan)</entry>
+	    <entry>3</entry>
+	    <entry>52.505</entry>
+	    <entry>BD Lund</entry>
+	  </row>
+	  <row>
+	    <entry>Dokumentation, produkt 4 (se ovan)</entry>
+	    <entry>3</entry>
+	    <entry>52.505</entry>
+	    <entry>BD Lund</entry>
+	  </row>
+	  <row>
+	    <entry>Slutlig revision av programvara och dokumentation, produkt 5
+	      (se ovan)</entry>
+	    <entry>3</entry>
+	    <entry>52.505</entry>
+	    <entry>BD Lund</entry>
+	  </row>
+	  <row>
+	    <entry>Summa</entry>
+	    <entry></entry>
+	    <entry>265.010</entry>
+	    <entry></entry>
+	  </row>
+	  <row>
+	    <entry>Summa (inklusive 18% overhead)</entry>
+	    <entry></entry>
+	    <entry>312.712</entry>
+	    <entry></entry>
+	  </row>
+
+	</tbody>
+      </tgroup>
+    </table>
+  </sect1>
+
+
+  <sect1>
+    <title>Referenser</title>
+    
+    <bibliography>
+
+      <biblioentry id="laurentius">
+	<author>
+	  <firstname>Eva</firstname>
+	  <surname>Nylander</surname>
+	</author>,
+	<author>
+	  <firstname>Sigfrid</firstname>
+	  <surname>Lundberg</surname>
+	</author>,
+	<author>
+	  <firstname>Mattias</firstname>
+	  <surname>Borell</surname>
+	</author>
+	och
+	<author>
+	  <firstname>Bengt</firstname>
+	  <surname>Melliander</surname>
+	</author>.
+
+	<title><ulink
+	    url="http://laurentius.lub.lu.se/">S:t Laurentius Digital Manuscript Library 
+	  </ulink></title>
+      </biblioentry>
+
+
+      <biblioentry id="master">
+	<title>
+	  <ulink
+	    url="http://www.tei-c.org/Master/Reference/oldindex.html">Reference Manual for the MASTER Document Type Definition</ulink>
+	</title>. Se även
+	<title>
+	  <ulink
+	    url="http://www.tei-c.org/Master/Reference/oldindex.html">This
+	    document has been superceded</ulink>
+	</title>.
+      </biblioentry>
+      <biblioentry id="samarbete">
+	<title>
+	  <ulink
+	    url="http://www.cta.dmu.ac.uk/projects/master/teimaster.html">MASTER and the TEI</ulink>
+	</title>  
+      </biblioentry>
+
+
+      <biblioentry id="ediffah">
+	<title><ulink url="http://www.lub.lu.se/ediffah/">En Digital
+	    Infrastruktur för Forskningsbibliotekens Arkiv och
+	    Handskriftssamlingar</ulink> </title>
+      </biblioentry>
+      <biblioentry id="tei-mmss">
+	<title>
+	  <ulink
+	    url="http://www.merrilee.org/tei-mss/">TEI Medieval Manuscripts Description Work
+	    Group (TEI MMSS) </ulink></title>.
+
+	Jämför
+
+	<title>
+	  <ulink
+	      url="http://www.tei-c.org/Activities/MS/">Text Encoding
+	  Initiative: Taskforce on Manuscript Description</ulink>
+	</title>
+
+	och
+
+	<title><ulink
+	      url="http://www.tei-c.org/Master/Reference/">Reference Manual
+	  for the MASTER Document Type Definition</ulink>
+	</title>
+      </biblioentry>
+
+      <biblioentry id="oais">
+	<title>
+	  <ulink url="http://www.oais.org">Open Archivil Information Systems</ulink>
+	</title>
+      </biblioentry>
+
+      <biblioentry id="ead">
+	<title>
+	  <ulink url="http://www.loc.gov/ead/">Encoded Archival Description
+	    (EAD)</ulink>
+	</title>
+      </biblioentry>
+
+      <biblioentry id="mets">
+	<title>
+	  <ulink url="http://www.loc.gov/standards/mets/">Metadata Encoding
+	    &amp; Transmission Standard (METS)</ulink>
+	</title>
+      </biblioentry>
+
+      <biblioentry id="laurentius-search">
+	<author>
+	  <firstname>Sigfrid</firstname>
+	  <surname>Lundberg</surname>
+	</author>,
+	<date>2002</date>.
+	<title>
+	  <ulink
+	    url="http://laurentius.lub.lu.se/search/presentation/laurentius.pdf">Excursions along 
+	    the border between metadata for resource discovery and for resource description</ulink>
+	</title>
+      </biblioentry>
+
+      <biblioentry id="keystone">
+	<title><ulink url="http://www.indexdata.dk/keystone/">Keystone DLS</ulink></title>
+      </biblioentry>
+
+      <biblioentry id="multimedia">
+	<title><ulink url="http://www.w3.org/AudioVideo/">W3C
+	    synchronized multimedia</ulink></title>
+      </biblioentry>
+
+      <biblioentry id="zebra">
+	<title>
+	  <ulink url="http://www.indexdata.dk/zebra/">Zebra</ulink>
+	</title>
+      </biblioentry>
+
+      <biblioentry id="srw">
+	<title>
+	  <ulink
+	    url="http://www.loc.gov/z3950/agency/zing/srw/">Search/Retrieve Web
+	    Service</ulink>
+	</title>
+      </biblioentry>
+
+      <biblioentry id="xerxes">
+	<title>
+	  <ulink
+	    url="http://theses.lub.lu.se/undergrad/">Xerxes</ulink>
+	</title> 
+      </biblioentry>
+
+      <biblioentry id="scripta">
+	<title>
+	  <ulink
+	    url="http://theses.lub.lu.se/postgrad/">Scripta Academica Lundensia</ulink>
+	</title>
+      </biblioentry>
+
+      <biblioentry id="gnu">
+	<title>
+	  <ulink
+	    url="http://www.gnu.org/licenses/gpl.html">GNU General Public License</ulink>
+	</title>
+      </biblioentry>
+    </bibliography>
+
+  </sect1>
+</article>

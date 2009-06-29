@@ -1,0 +1,46 @@
+.nr LL 14c
+.nr HM 2.5c
+.nr FM 2.5c
+.nr PL 29.7c
+.po 3.5c
+.nr PS 13
+.nr VS 15.6
+.hpf ../tmac/hyphen.se
+.ds marker \s+4\(bu\s-4
+.R1
+abbreviate "A"
+reverse "A"
+move-punctuation
+accumulate
+bracket-label " [" "]" ","
+database ../biblo/bibliography_long
+.R2
+.EQ
+delim $$
+.EN
+.TL
+Anbud på teknik för miljönätet
+.NH 1
+Om NWI, Desire och Nordiska metadataprojektet
+.LP
+BLA BLA
+.NH 1
+Applicerbar teknologi
+.LP
+BLA BLA
+.NH 2
+Metadataproduktion enligt miljödatanätets specifikation.
+.LP
+BLA BLA
+.NH 2
+Robotbaserad insamling av metadata och annan indexingsinformation
+.LP
+fdfasfadsfda
+.NH 2
+Katalogserver för SMN
+.LP
+fasfads fdasfad fdsafda
+.NH 2
+Sökmaskin och databasens WWW-gränssnitt
+.LP
+fdafafdafdafdafda

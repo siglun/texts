@@ -1,0 +1,131 @@
+<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<!DOCTYPE ead PUBLIC "+//ISBN 1-931666-00-8//DTD ead.dtd (Encoded Archival Description (EAD) Version 2002)//EN" "EAD.dtd">
+<ead audience="external" relatedencoding="MidosaXML">
+  <eadheader repositoryencoding="Archiv" countryencoding="iso3166-1"
+    langencoding="iso639-2b" scriptencoding="iso15924"> 
+    <eadid countrycode="de"></eadid>
+    <filedesc>
+      <titlestmt>
+	<titleproper>Arkivförteckning för Marie Falkstens samling</titleproper>
+      </titlestmt>
+      <publicationstmt>
+	<publisher>GUB Kvinnohistoriska samlingarna</publisher>
+	<date>2005</date>
+	<address>
+	  <addressline></addressline>
+	</address>
+	<p></p>
+      </publicationstmt>
+    </filedesc>
+  </eadheader>
+  <archdesc level="collection" type="comprehensiv description">
+    <did>
+      <unitdate>1970-2002</unitdate>
+      <unitid>A 85</unitid>
+      <unittitle>Marie Falkstens samling</unittitle>
+      <repository>GUB Kvinnohistoriska samlingarna</repository>
+    </did>
+    <accessrestrict>
+      <legalstatus>personal papers</legalstatus>
+    </accessrestrict>
+    <dsc type="othertype" othertype="sonsttypen">
+      <c01 level="collection">
+<did>
+<unitdate>1970-2002</unitdate>
+<unitid>A 85</unitid>
+<unittitle>Marie Falkstens samling</unittitle>
+</did>
+<acquinfo><p>1983-2002</p></acquinfo><bioghist><p>Konstnär från Göteborg. Aktiv i kvinnorörelsen.</p></bioghist>
+<controlaccess>
+<occupation>konstnär</occupation><persname>Falksten, Marie</persname>
+</controlaccess>
+<c02 level="series">
+<did>
+<unittitle>Handlingar</unittitle>
+</did>
+<c03 level="file">
+<did>
+<unitid type="bestellnummer">1</unitid>
+<unittitle>Material från Biofem/kvinnobion, Grupp 8, Kvinnocentrum, Kvinnohuset och Lesbiskfront: vykort, broschyrer, affischer, flygblad. 17 dia bilder föreställande vykort, affischer, demonstrationer, utställning gjord av Lesbisk front 1977. Klistermärken från gågummeaktion 8/3 1977.</unittitle>
+<unitdate>1970-talet</unitdate>
+</did>
+</c03>
+<c03 level="file">
+<did>
+<physdesc>
+<extent>Folioformat</extent>
+</physdesc>
+<unitid type="bestellnummer">2</unitid>
+<unittitle>Affischer från Kvinnohuset, 8:e marsdemonstration, kvinnofilmfestival. Broschyr om Marie Falkstens måleri.</unittitle>
+<unitdate>1970-talet</unitdate>
+</did>
+</c03>
+<c03 level="file">
+<did>
+<unitid type="bestellnummer">3</unitid>
+<unittitle>Material rörande Marie Falkstens måleri.</unittitle>
+<unitdate>1980-1990-tal</unitdate>
+</did>
+<odd encodinganalog="EnthaeltDarin" type="enthaelt">
+<p>Tidningsklipp, broschyrer, vernisagekort, vykort</p>
+</odd>
+</c03>
+<c03 level="file">
+<did>
+<unitid type="bestellnummer">3</unitid>
+<unittitle>Material rörande Thina Segerström, keramiker.</unittitle>
+<unitdate>1980-1990-tal</unitdate>
+</did>
+<odd encodinganalog="EnthaeltDarin" type="enthaelt">
+<p>Tidningsklipp, broschyrer, affisch.</p>
+</odd>
+<otherfindaid><p>Se Thina Segerström A 125</p></otherfindaid>
+<controlaccess>
+<persname>Segerström, Thina</persname>
+</controlaccess>
+</c03>
+<c03 level="file">
+<did>
+<unitid type="bestellnummer">3</unitid>
+<unittitle>Filmen Eva och Maria + dokumentation om filmen</unittitle>
+<unitdate>1980-1990-tal</unitdate>
+</did>
+<altformavail><p>1 videokassett</p></altformavail>
+</c03>
+<c03 level="file">
+<did>
+<unitid type="bestellnummer">4</unitid>
+<unittitle>Material använt i katalogen till utställningen "Kärlek, makt och systerskap", Norrköping 2002</unittitle>
+</did>
+<odd encodinganalog="EnthaeltDarin" type="enthaelt">
+<p>Kvinnohuset, flygblad, vykort, broschyrer, badhes, tidskriften "Lesbiska feministiska ..." 1 pärm med material rörande Stina Line.</p>
+</odd>
+<acquinfo><p>Tilläggsaacc. 2002-04-10</p></acquinfo>
+</c03>
+<c03 level="file">
+<did>
+<unitid type="bestellnummer">5</unitid>
+<unittitle>Diverse rörande kvinnorörelsen i Göteborg.</unittitle>
+</did>
+<odd encodinganalog="EnthaeltDarin" type="enthaelt">
+<p>Bröd och rosor</p>
+</odd>
+<odd encodinganalog="EnthaeltDarin" type="enthaelt">
+<p>Kvinnocentrum i Göteborg</p>
+</odd>
+<odd encodinganalog="EnthaeltDarin" type="enthaelt">
+<p>Gågummeaktionen</p>
+</odd>
+<odd encodinganalog="EnthaeltDarin" type="enthaelt">
+<p>Kvinnohuset i Göteborg</p>
+</odd>
+<odd encodinganalog="EnthaeltDarin" type="enthaelt">
+<p>Lesbisk front</p>
+</odd>
+<altformavail><p>1 pärm</p></altformavail>
+</c03>
+</c02>
+</c01>
+</dsc>
+</archdesc>
+</ead>

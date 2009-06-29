@@ -1,0 +1,186 @@
+<!--
+
+   XML dtd for dissertation metadata at Lund university
+   $Id$
+
+-->
+
+
+<!ENTITY ldquo "``">
+<!ENTITY lsquo "`">
+<!ENTITY mdash "--">
+<!ENTITY nbsp "&#160;">
+<!ENTITY ndash "-">
+<!ENTITY oelig "oe">
+<!ENTITY rdquo "''">
+<!ENTITY rsquo "'">
+
+
+<!ENTITY % compStatus "
+(
+ manuscript |
+ submitted |
+ accepted |
+ rejected |
+ inpress |
+ published
+)
+">
+<!ENTITY % decoration "sub | sup | strong | em">
+<!ENTITY % diss "
+  id,
+  record-source?,
+  creator+,
+  date-issued,
+  title,
+  pages,
+  language,
+  availability,
+  (text-component* | component-blob?),
+  summary-in-english,
+  summary-in-swedish?,
+  uncontrolled-terms?,
+  controlled-terms?,
+  term-paths?,
+  umi-term?,
+  supervisor?,
+  defended,
+  funded-by*
+">
+<!ENTITY % dissStatus "( manuscript |
+         submitted |
+         accepted |
+         rejected )">
+
+<!ENTITY % organisation "
+  name,
+  (
+   department |
+   name-hierarchy
+  )?,
+  electronic-address?,
+  postal-address?,
+  affiliation?
+">
+<!ENTITY % person "
+  name,
+  born?,
+  electronic-address?,
+  affiliation*
+">
+<!ENTITY % personname "last | first">
+<!ENTITY % reference "
+  creator+,
+  date?,
+  component-title,
+  appeared-in-title?,
+  volume?,
+  issue?,
+  pages?,
+  coden?,
+  isbn?,
+  isrn?,
+  issn?,
+  part-of-series-title?,
+  editor*,
+  publisher*,
+  location*
+">
+<!ENTITY % title "(#PCDATA | %decoration;)*">
+<!ENTITY % typography "ol | ul | p">
+
+<!ELEMENT affiliation (%organisation;)>
+<!ELEMENT appeared-in-title (#PCDATA)>
+<!ELEMENT availability (available, medium, distributor)>
+<!ELEMENT available (linkage?,series-title?,coden?,isbn?,isrn?,issn?)>
+<!ELEMENT born (#PCDATA)>
+<!ELEMENT br EMPTY> 
+<!ELEMENT coden (#PCDATA)>
+<!ELEMENT component-blob (%typography;)+>
+<!ELEMENT component-title %title;>
+<!ELEMENT controlled-terms (cterm)+>
+<!ELEMENT creator (%person;)>
+<!ELEMENT cterm (#PCDATA)>
+<!ELEMENT cterm-path (#PCDATA)>
+<!ELEMENT date (#PCDATA)>
+<!ELEMENT date-issued (#PCDATA)>
+<!ELEMENT defended (date, time, location, external-examiner)>
+
+<!ELEMENT dissertation (%diss;)>
+
+<!ATTLIST dissertation
+  status        %dissStatus; "manuscript"              
+  fulltext      (public | archived | missing) "missing"
+  thesis-type   (monography | composite) "monography"  
+  created       CDATA                                   #REQUIRED
+  modified      CDATA                                   #REQUIRED >
+
+<!ELEMENT distributor (%organisation;)>
+<!ELEMENT division (#PCDATA)>
+<!ELEMENT electronic-address (#PCDATA)>
+<!ELEMENT editor (#PCDATA)>
+<!ELEMENT em (#PCDATA)>
+<!ELEMENT external-examiner (%person;)>
+<!ELEMENT first (#PCDATA)>
+<!ELEMENT funded-by (name?)>
+<!ELEMENT id (#PCDATA)>
+<!ELEMENT isbn (#PCDATA)>
+<!ELEMENT isrn (#PCDATA)>
+<!ELEMENT issn (#PCDATA)>
+<!ELEMENT issue (#PCDATA)>
+<!ELEMENT language (#PCDATA)>
+<!ELEMENT last (#PCDATA)>
+<!ELEMENT li (#PCDATA | %decoration; | br)*>
+<!ELEMENT linkage (#PCDATA)>
+<!ELEMENT location (#PCDATA)>
+<!ELEMENT medium (#PCDATA)>
+<!ELEMENT name (#PCDATA | %personname;)*>
+<!ELEMENT name-hierarchy (#PCDATA)>
+<!ELEMENT ol (li)+>
+<!ELEMENT opponent (%person;)>
+<!ELEMENT p (#PCDATA | %decoration; | br)*>
+<!ELEMENT pages (#PCDATA)>
+<!ELEMENT part-of-series-title %title;>
+<!ELEMENT postal-address (#PCDATA)>
+<!ELEMENT publisher (#PCDATA)>
+<!ELEMENT record-source (name, linkage)>
+<!ELEMENT series-title %title;>
+<!ELEMENT status (#PCDATA)>
+<!ELEMENT strong (#PCDATA)>
+<!ELEMENT sub (#PCDATA | em)*>
+<!ELEMENT summary-in-english (%typography;)+>
+<!ELEMENT summary-in-swedish (#PCDATA | %typography;)*>
+<!ELEMENT sup (#PCDATA | em)*>
+<!ELEMENT supervisor (%person;)>
+<!ELEMENT term-paths (cterm-path)+>
+<!ELEMENT text-component (%reference;)>
+
+<!ATTLIST text-component status %compStatus; "manuscript">
+
+<!ELEMENT time (#PCDATA)>
+<!ELEMENT title %title;>
+<!ELEMENT ul (li)+>
+<!ELEMENT umi-term (#PCDATA)>
+<!ELEMENT uncontrolled-terms (uterm)+>
+<!ELEMENT uterm (#PCDATA | %decoration;)*>
+<!ELEMENT volume (#PCDATA)>
+
+
+<!--
+
+$Log$
+Revision 1.1  2009/06/29 11:04:46  sigfrid
+Initial revision
+
+Revision 1.3  2002/06/07 08:38:15  siglun
+Added cross references to various component types
+
+Revision 1.2  2002/06/03 13:55:00  siglun
+Got the elements right
+
+Revision 1.1  2002/04/26 14:05:03  siglun
+Initial revision
+
+
+# TSch, LUB NetLab (Revised: 2003-06-25  12:41:31)
+-->

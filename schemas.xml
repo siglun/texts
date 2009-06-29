@@ -1,0 +1,6 @@
+<?xml version="1.0"?>
+<locatingRules xmlns="http://thaiopensource.com/ns/locating-rules/1.0">
+  <uri resource="all_files.xml" uri="feed/atom.rnc"/>
+  <uri resource="files.atom" uri="feed/atom.rnc"/>
+  <uri resource="files.xml" uri="feed/atom.rnc"/>
+</locatingRules>

@@ -1,0 +1,357 @@
+<html xmlns="http://www.w3.org/1999/xhtml">
+  <head>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8"/>
+    <title>Usage of digital resources with respect to method of publishing</title>
+    <link rel="stylesheet" href="../../css-style/html_print.css"/>
+  </head>
+  <body>
+
+    <div class="lvl1">
+
+    <h1 class="title">Usage of digital resources with respect to method of
+    publishing</h1>
+
+    <p class="author">Sigfrid Lundberg<br/>
+      The Royal Library<br/>
+      Søren Kierkegaards Plads<br/>
+      Copenhagen</p>
+
+    <div class="lvl2">
+
+      <h2>The problem</h2>
+
+      <p>The common wisdom among library staff is that "everything
+      should be in the OPAC". This view does have virtues: If users
+      know for sure that every resource provided by a library could be
+      accessed through one single point of access, then that is indeed
+      a good thing. However, real world is not that simple. World-wide
+      web search engines have the last ten or twelve years become
+      increasingly important access points for digital resources.</p>
+
+      <p>Users of web based resources expect to find what they need
+      through search engines. To be accessible that way, material need
+      a browsable user interface in order to be indexed. The browsable
+      interface is also important for the users; hypertext links to
+      other parts of the information providers web site is essential
+      for the users ability to assess the quality of the retrieved
+      information object.</p>
+
+      <p>A significant portion of our digitization effort is put into
+      production of digital images. They have usually been stored on
+      the server img.kb.dk. Some of these images are bundled into
+      documents through different means, e.g., by producing multi-page
+      PDFs. Some of these documents are made accessible by cataloging
+      them in our OPAC, rex.kb.dk, and some through databases on
+      base.kb.dk or resource pages on our web site, www.kb.dk. We may
+      see this as prototypes for two strategies of publishing. The
+      former (cataloging in the OPAC) is characterized by that it is a
+      <em>searchable only</em> resource the latter is a
+      <em>navigable</em> one, since most services on the our web
+      (base.kb.dk and www.kb.dk) does have a browsable in addition to
+      a search box. To formulate it in another way: The OPAC belongs
+      to what one a few years ago labeled as the hidden web.</p>
+
+      <p>In this note I have made an attempt to compare the efficiency
+      of the two strategies by analysis of web access log statistics,
+      to determine which of the strategies provides the most effective
+      access to these resources.</p>
+
+    </div>
+
+    <div class="lvl2">
+
+      <h2>On the data</h2>
+
+      <p>Most modern browsers returns information on what is called
+      <em>referring page</em>. This is the URL of the page on which
+      the browser found the retrieved link. Referring page data makes
+      it possible to analyse linkage patterns and the ways users find
+      their way to digital resources. For digital images, the
+      referring page is the page in which the image is embedded, for
+      things like HTML pages or PDFs it is the page which links to the
+      object.</p>
+
+      <p>My analysis was done as follows: I gathered all access log
+      info for the months January to October on the host img.kb.dk. I
+      removed all accesses that could be attributed to harvesting or
+      archiving robots by creating a list of accessing hosts that had
+      retrieved the robots.txt file. Accesses from these hosts were
+      then discarded. Then I created a table with two columns, the
+      file names of the retrieved resources and the domain of server
+      that hosted the page that linked to or embedded the objects. The
+      number of hits could then easily be counted with using different
+      selection or filtering criteria.</p>
+
+      <p>The data set contains close to 3 million hits (2843368) from
+      users that found their way to our digital objects through
+      linking or embedding from 1426 unique hosts world-wide. Not
+      surprisingly a majority, about two thirds, of the hits came from
+      links on our own sites (1889247 hits).</p>
+
+    </div>
+    
+    <div class="lvl2">
+
+      <h2>Analysis</h2>
+
+      <p>For answering the question I posed above, I chose to analyse
+      digitized sheet music. A search on WWW=http* (i.e., searching
+      for URLs with URL scheme http) in the Digital Music database
+      within the KB catalogue <a
+      href="http://rex.kb.dk/">http://rex.kb.dk/</a> shows that
+      catalogue provides access to 3249 digital objects. I have been
+      unable to produce a corresponding figure for what is made
+      available through the web sites base.kb.dk and www.kb.dk.</p>
+
+      <p>The total number of PDF files in the music department's
+      img.kb.dk web area is 4530. This figure is a grand total
+      including the same objects in different resolutions, and
+      there might also be objects yet to be published.</p>
+
+      <p>Of these files, only 2898 were requested at all with
+      referring pages from the kb.dk domain. 2226 files were
+      requested from the web sites only, 950 files from the catalogue
+      only (out of 3249 possible). Why this is the case, I do not yet
+      know for sure. However, on the page <a
+      href="http://www.kb.dk/elib/noder/"> Danmarks Digitale
+      Nodebibliotek</a> there are links to "Gieddes Samling af
+      fløjtemusik" and "Rischel &amp; Birket-Smiths Samling af
+      guitarmusik" in a prominent position. Most of the hits from the
+      OPAC are for objects in these two collections. The explanatory
+      links into the OPAC are indeed helpful; users can easier search
+      (successfully formulate a query) if they know what to
+      expect.</p>
+
+      <p>There is small overlap, 278 files are referred to from
+      both the web and the catalogue. I will return to them below.</p>
+
+      <p>Assuming that all the 2226+278=2504 objects that were
+      retrieved through links from base.kb.dk and www.kb.dk is the
+      total number of files published via the web we may estimate that
+      about 40% of the sheet music published by the Royal Library
+      through the <em>navigable</em> and about 60% through the
+      <em>search only</em>. Our digital Sheet music is thus very
+      suitable for testing the efficiency of the search only
+      publishing strategy.</p>
+
+      <p>To obtain the data I looked on objects carrying sheet music
+      based on directory name, limiting the analysis to the mime type
+      PDF. I only take into account referring pages within the kb.dk
+      domain. The data is summarized in Table 1.</p>
+
+      <table border="1">
+	<caption>Table 1. Retrieval of sheet music computer files with
+	referring pages on important KB servers.</caption>
+	<tr>
+	  <th>Host of referring page</th><th>Number of hits</th><th>Proportion</th>
+	</tr>
+	<tr>
+	  <td>base.kb.dk</td><td>36197</td><td>57.6%</td>
+	</tr>
+	<tr>
+	  <td>www.kb.dk</td><td>15068</td><td>24.0%</td>
+	</tr>
+	<tr>
+	  <td>rex.kb.dk</td><td>11603</td><td>18.5%</td>
+	</tr>
+	<tr>
+	  <td>total</td><td>62868</td><td>100%</td>
+	</tr>
+      </table>
+
+      <p>What we can see is that links from base.kb.dk and www.kb.dk
+      together attracted 51265 users and the links on rex.kb.dk only
+      11603, which amounts to 81% of the hits emanating from the web
+      sites.</p>
+
+      <p>To be even more specific, we can extract the individual files
+      that have been requested from both the OPAC and the web. We have
+      found 278 objects on img.kb.dk that are linked to from both the
+      OPAC (rex.kb.dk) and the web (base.kb.dk or www.kb.dk). If we
+      recalculate the table above for this subset only we get:</p>
+
+      <table border="1">
+	<caption>Table 2. Retrieval of a subset of sheet music
+	computer files which are catalogued on multiple services both
+	on the web and in the OPAC.</caption>
+	<tr>
+	  <th>Host of referring page</th><th>Number of hits</th><th>Proportion</th>
+	</tr>
+	<tr>
+	  <td>rex.kb.dk</td><td>3531</td><td>33.1%</td>
+	</tr>
+	<tr>
+	  <td>www.kb.dk</td><td>1830</td><td>17.1%</td>
+	</tr>
+	<tr>
+	  <td>base.kb.dk</td><td>5301</td><td>49.7%</td>
+	</tr>
+	<tr>
+	  <td>total</td><td>10662</td><td>100%</td>
+	</tr>
+      </table>
+
+      <p>Within this subset of our data, the OPAC has more
+      successfully directed users to the resources than in the overall
+      data set. Still, within this subset with, so to speak, equal
+      opportunity, the web sites disseminates the resources much more
+      effectively: 66.9% of the users came that way.</p>
+
+      <p>We can, obviously, not tell from a web access log to what
+      extent sheet music is printed and put on a note stand and
+      actually performed. One usage of a URL which we can measure is
+      to what extent other link to our resources. We got 23831 hits on
+      this material from links on resources on other domains (see
+      Table 3 for a summary of the domains of most important referring
+      pages). Some of these services are harvesters (yahoo.com and
+      google.com surely are). Among these external links, the hits
+      coming from referring pages situated on specialized music
+      portals of various kinds the most important source of traffic on
+      our site.</p>
+
+      <table border="1">
+	<caption>Table 3. Hits number of hits from links on pages on
+	other domains. The list contains links from sites contributing
+	more than 50 hits and that are entirely unconnected to the
+	Royal Library</caption>
+	<tr>
+	  <td>yahoo.com</td><td>8870</td>
+	</tr>
+	<tr>
+	  <td>digitalguitararchive.com</td><td>3748</td>
+	</tr>
+	<tr>
+	  <td>ami.dk</td><td>3747</td>
+	</tr>
+	<tr>
+	  <td>google.com</td><td>2244</td>
+	</tr>
+	<tr>
+	  <td>icking-music-archive.org</td><td>1803</td>
+	</tr>
+	<tr>
+	  <td>helloguitar.com</td><td>1613</td>
+	</tr>
+	<tr>
+	  <td>robertolobo.com</td><td>450</td>
+	</tr>
+	<tr>
+	  <td>davidelsmore.com</td><td>244</td>
+	</tr>
+	<tr>
+	  <td>delcamp.net</td><td>141</td>
+	</tr>
+	<tr>
+	  <td>federmandolino.it</td><td>139</td>
+	</tr>
+	<tr>
+	  <td>hellomusiczone.com</td><td>80</td>
+	</tr>
+	<tr>
+	  <td>dcguitar.net</td><td>74</td>
+	</tr>
+	<tr>
+	  <td>pianophilia.com</td><td>52</td>
+	</tr>
+      </table>
+
+      <p>An interesting a question is how the remote services found
+      the resources. Obviously we will never be able to answer that
+      question. We can, however, count how many of the count on how
+      many of 23831 belong to the resources that are disseminated via
+      the web services or via the OPAC or via both services. This
+      comparison can be found in Table 4.</p>
+
+      <table border="1">
+	<caption>Table 4. The number of hits on digital sheet music
+	hyperlinked from remote resources categorized with respect to
+	how the link is published on the kb.dk servers. This is a
+	measure on how the authors of the remote documents originally
+	found the resources.</caption>
+	<tr>
+	  <th>URL disseminated via</th>
+	  <th>Number of hits to these URLs from remote resources
+	  (referring page not in .kb.dk domain)</th>
+	</tr>
+	<tr>
+	  <td>www.kb.dk &amp; base.kb.dk</td>
+	  <td>17501</td>
+	</tr>
+	<tr>
+	  <td>rex.kb.dk</td>
+	  <td>8471</td>
+	</tr>
+	<tr>
+	  <td>all three</td>
+	  <td>2802</td>
+	</tr>
+      </table>
+
+      <p>Finally, we know that bibliographic records are moving targets
+      in many ways. One the ways is that records are exported from the
+      OPAC to the national union catalogue <a
+      href="http://bibliotek.dk">bibliotek.dk</a>. This has been
+      raised as an important argument for cataloging digitized
+      cultural heritage material in the OPAC, since (i) the union
+      catalogue is much used and because (ii) it is collaborating with
+      google.com.</p>
+
+      <p>We can at least partly refute this argument for the following
+      reasons: The search engines are minor actors in this area (cf.,
+      Table 3). They are more important as disseminators of those of
+      our web pages that link to the sheet music than disseminators of
+      the digitized objects themselves. This is most likely due to the
+      fact that these PDFs contain very little text to index. That is,
+      the hits we get this way is more due to less than excellent
+      preparation of our resources for harvesting, than successful
+      export of data to google from bibliotek.dk.</p>
+
+      <p>As regards the importance of bibliotek.dk as disseminator of
+      our sheet music, we have have to draw a very dissapointing
+      conclusion: We have recorded 9 (nine) hits on sheet music from
+      the bibliotek.dk service within this dataset.</p>
+
+    </div>
+
+    <div class="lvl2">
+
+      <h2>Summary &amp; Conclusions</h2>
+
+      <p>To summarize all these data we can list the conclusions as
+      follows. For users that came to our sheet music via servers in
+      the kb.dk domain we draw the following conclusions:</p>
+
+      <ul>
+
+	<li>Only 950 files from the catalogue out of 3249 possible are
+	actually used. We don't know sure why this is so, but most of
+	these hits are within collections that are specifically
+	promoted on the web site www.kb.dk.</li>
+
+	<li>The approximately 40% of the objects disseminated via the
+	web attracts about 80% of the hits on this material type.</li>
+
+	<li>For the small subset of links that are disseminated via
+	both the web and the OPAC, i.e., the area of equal opportunity
+	adhered to above, the about 60% of the users came to the
+	resource via the web.</li>
+      </ul>
+
+      <p>As regards links from external resources, we can conclude
+      that they come from all over the place, and in particular
+      various specialized music portals. As expected, a resource
+      disseminated via the web is more likely to attract external
+      links than one promoted via the OPAC.</p>
+
+      <p>Finally, there are extremely few hits from other OPACs. The
+      only found this year are 9 (nine) hits from bibliotek.dk.</p>
+
+      <p>I wouldn't claim that it is a disadvantage for libraries to
+      use searchable databases for promoting its resources, but I have
+      to conclude that it is close to suicidal to use them as the
+      <strong>only</strong> access method to digital resources.</p>
+    </div>
+
+    </div>
+  </body>
+</html>

@@ -1,0 +1,396 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+                      "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+  <head>
+    <title>What do our users expect from the search field on our top page?</title>
+
+    <link rel="stylesheet"
+	  href="../../css-style/html_print.css"/>
+  </head>
+  <body>
+
+    <p><strong>NB!</strong> <small>The data presented here were collected from
+    log files 2005. The systems the statistics apply to have since all been
+    replaced. Some of them even before I wrote this note. I am sure, though,
+    that the user information needs and the user user observed behaviours have
+    not changed very much since then.<br/>
+    My colleague Jacob Larsen helped me
+    categorizing the queryies in the statistical sample analyzed.</small></p>
+
+    <h1 class="title">What do our users expect from the search field
+    on our top page?</h1>
+
+    <p class="author">Sigfrid Lundberg,<br/>
+    The Royal Library,<br />
+    Copenhagen</p>
+
+    <div class="level1">
+      <h2>Table of contents</h2>
+      <dl>
+	<dt><a href="#theproblem">1 The problem</a></dt>
+	<dt><a href="#thedata">2 The data</a></dt>
+	<dt><a href="#analysis">3 Analysis</a></dt>
+	<dt><a href="#conclusions">4 Conclusions</a></dt>
+	<dd>
+	  <dl>
+	    <dt><a href="#namessubjects">4.1 Names, subjects and titles</a></dt>
+	    <dt><a href="#electronicresources">4.2 Electronic Resources,
+	    Collections, Mediatypes and Genres</a></dt>
+	    <dt><a href="#searchweb">4.3 <em>"Search on KB's web (but
+	    NOT in REX)"</em></a></dt>
+	  </dl>
+	</dd>
+	<dt><a href="#footnotes">5 Notes</a></dt>
+      </dl>
+    </div>
+
+    <div id="theproblem" class="level2">
+
+      <h2>1. The problem</h2>
+
+      <p>What can deduced by analyses of the search terms entered into
+      the search field on the home page of a large modern library?
+      Could we possibly regard this form as the digital library´s
+      information desk, and the queries as the request from its
+      patrons? If we do that, what could we then learn about the
+      quality of service?</p>
+
+      <p>In this note we do just that. We regard the terms entered
+      into the form as manifestation of our patrons needs and in order
+      to find out <em>what they need</em>, we have performed a
+      preliminary text mining exercise. We hope that this will help us
+      designing a new search facility that will better answer the
+      needs of our users.</p>
+
+    </div>
+
+    <div id="thedata" class="level2">
+
+      <h2>2. The data</h2>
+
+      <p>During the period from the end of May to the end of November
+      2005 users performed 31729 searches in the search field on the
+      Royal Library's home page<sup><a href="#htdig">1</a></sup>. A
+      monthly overview can be found in Table 1.</p>
+
+      <table width="50%">
+	<caption>Table 1. Number of searches by month year 2005</caption>
+	<tr><th>Month</th><th>Number of searches</th></tr>
+	<tr><td>May</td><td>14</td></tr>
+	<tr><td>June</td><td>3578</td></tr>
+	<tr><td>July</td><td>3700</td></tr>
+	<tr><td>August</td><td>4937</td></tr>
+	<tr><td>September</td><td>6735</td></tr>
+	<tr><td>October</td><td>7151</td></tr>
+	<tr><td>November</td><td>5614</td></tr>
+	<tr><td>Total</td><td>31729</td></tr>
+      </table>
+
+      <p>The log files on KB's external web-server, <a
+      href="http://www.kb.dk/">www.kb.dk</a> were text mined with
+      respect to the URI of the full text search field on the KB top
+      page. All terms were transformed to lower case in order to
+      minimize the number of duplicates. There are still duplicates,
+      since the procedure used could not distinguish between terms
+      like "hc andersen" and "h.c. andersen". The frequencies for each
+      term was calculated, and the data where then sorted with respect
+      to that and transformed into a large table which can be found in
+      the companion document (it is <em><strong>HUGE</strong></em>
+      and may kill your browser) <a href="search-terms.html">All
+      31729 searches</a>.</p>
+
+      <p>The data set indicates that there are a few questions that
+      are performed repeatedly. These are, however a fairly small
+      fraction but could be labelled as <em>FAQ</em>s. For example,
+      the ten most frequent FAQs where posed 1647 times. This amounts
+      to roughly five percent of the grand total. The unique queries,
+      and the ones that were repeated up to ten times constitutes
+      13255 search events.</p>
+
+      <p>The accumulated frequency of queries, from the unique ones
+      (search terms that appear once in the log files) to the left to
+      the FAQs to the right is depicted in Figure 1. There were 9023
+      unique queries, while the all time high search term is
+      <em>infomedia</em>. We will return to this term below.</p>
+
+      <a href="distribution.pdf" ><img border="0" src="distribution.png" 
+	   alt="The accumulated frequency of query repetitions"/></a>
+      <blockquote>Figure 1. The accumulated frequency of query
+      repetitions. For any value of the query repetition on the
+      x-axis, the corresponding y-value is the number of queries with
+      this or lower x-value.</blockquote>
+
+
+      <p>The graph approaches asymptotically the grand total
+      31729. The take home message of this statistical exercise is
+      that if we concentrated on satisfying the users that posed the
+      most common questions, we would leave a majority of our users
+      out in the cold.</p>
+
+      <p>The number of words entered into the search field was, on
+      average, 1.8 which we assume is higher than average for search
+      engines<sup><a href="#tbray">2</a></sup>. The distribution of
+      query lengths can be seen in Figure 2. The unusually high number
+      of search terms is can be understood by the facts that a person
+      (e.g., an author) is best identified by a given name and a
+      surname and that a book is best identified by its author and
+      title. I.e., we may actually expect that library search engines
+      are queried with about two search terms, since common searches
+      call for at least two words.</p>
+
+      <p>The mode of the query length distribution is at one word, and
+      the median at about 16, so it is still extremely skewed</p>
+
+      <a href="query-length.pdf"><img border="0" src="query-length.png" 
+	   alt="Distribution of the number of words entered."/></a>
+      <blockquote>Figure 2. Distribution of the number of words
+      entered into the search field. NB, the y-axis is using
+      logarithmic scale.</blockquote>
+
+    </div>
+    <div id="analysis" class="level2">
+
+      <h2>3. Analysis</h2>
+
+      <p>Given that the engine covered the web only (i.e., not the
+      catalogues, and only a subset of our own databases and not the
+      licensed resources themselves), we may conclude that many of our
+      users left the search engine quite frustrated. From the logs we
+      cannot deduce just how frustrated, since unfortunately we do not
+      know the success rate. From intuition and some tests with the
+      current Google Box search engine, we can give a rule of thumb:
+      The success rate is increasing with query repetition rate. The
+      about one third of the query terms that are more or less unique
+      have a high failure rate, whereas the success rate is extremely
+      high for the common ones.</p>
+
+      <p>What results did the users expect when entering terms into
+      that search field?  A decent service would be one answer, but
+      that will not help us. It is more useful to look at the terms,
+      and ask the question: To which kind database would one
+      preferably send each of the queries? Using that method, we may
+      categorize the terms, try to guess the users intention and
+      deduce requirements for our new search service.</p>
+
+      <p>The method is somewhat arbitrary, and we have not had the
+      time to categorize all 31729 queries. We give a list of query
+      types below. To us they are fairly obvious when looking at the
+      data. The estimated frequencies are based on a random sample of
+      search terms (about 1% of the entire data-set). The frequencies
+      are calculated on the number of terms, not queries. This means
+      that the term <em>infomedia</em> was counted once, although it
+      was repeatedly used as a query. Zero percent means that the
+      category was too rare to appear in the sample.</p>
+
+      <ul>
+	<li>
+	  <strong>Electronic resources</strong> (8.5%) <p>The search term
+	  <em>infomedia</em> refers most likely to the PolINFO/Infomedia
+	  database. This is the most frequent term in the data set. It is
+	  twice as common as the one on the second position. The term was
+	  submitted on the average 2.7 times a day during the period. Clearly
+	  users were looking for an electronic resource. Other similar search
+	  terms are <em>portrætregistranten</em>, <em>lexis nexis</em>,
+	  <em>grove music online, fjernadgang</em> and <em>jstor</em>.</p>
+	</li>
+	<li>
+	  <strong>Individual journal articles</strong> (0%) <p><em> journal of
+	  japanese studies vol. 3.2</em></p>
+	</li>
+	<li>
+	  <strong>Work titles/Individual books</strong> (11%) <p>There are a
+	  large number of searches like <em>den lille havfrue</em>, <em>den
+	  grimme ælling</em>, <em>guaman poma</em>, <em>handbook of applied
+	  cognition</em> etc.  If users expected a bibliographic search for
+	  <em>romeo og julie</em> or a digitized version is hard to tell. Most
+	  likely both.</p>
+	</li>
+	<li>
+	  <strong>Names of persons and organisations</strong> (35%)
+
+	  <p><em>dostojevskij</em> is a clearly an author, and the user who
+	  entered it was almost certainly expecting information on our
+	  holdings. But did he or she want information on books by Fjodor or
+	  about him? We will never know.</p> <p>It is not always obvious if a
+	  search for a name was intended as a bibliographic search, or if it
+	  was one for local resources. This is the case for names like <em>h c
+	  andersen</em> and <em>kierkegaard</em>. We may, safely, assume that
+	  users were expecting a bibliographic search for a number of the
+	  names find in the logs.</p>
+	</li>
+	<li>
+	  <strong>Subject searches</strong> (24%) <p>Subject terms are very
+	  common; they are terms like <em>psykologi</em>, <em>girafsprog</em>,
+	  <em>20th century music</em> and <em>middelalder</em>.</p> <p>Subject
+	  searches are difficult to evaluate. The user, who obviously has a
+	  need to get information on something, honors us with a click in
+	  order to do something about it. They expect possibly information
+	  categorized by subject descriptors. These users might have wished
+	  full-text search capabilities in journal articles or even in
+	  encyclopedias.</p>
+	</li>
+	<li>
+	  <strong>Integers or decimal numbers</strong> (0%) <p>Most of
+	  these are obviously years, <em>1945</em>. I.e., they could
+	  be seen as subjects.</p>
+	</li>
+	<li>
+	  <strong>Media types/genres</strong> (6%)
+	  <p><em>harmonika - orkesternoder</em>, <em>foto</em>,
+	  <em>rusland billeder</em>, <em>folk songs</em>, <em>1
+	  instrument og 1 sangstemme</em>, <em>romaner</em></p>
+	</li>
+	<li>
+	  <strong>Obvious full text queries</strong> (0%) <p>Verbatim
+	  quotations from literary works, poems or even song texts
+	  appear now and then: <em>once upon a time there was a
+	  prince</em> is the incipit of "The Princess and the Pea"</p>
+	</li>
+	<li>
+	  <strong>Collections</strong> (3%) <p>Terms like
+	  <em>bibliotheca danica</em>, <em>portrætsamlingen</em>,
+	  <em>aviser</em>, belong to this category. The last of these
+	  could also be a synonym for <em>infomedia</em>. This is a
+	  heterogenous category. Some of the searchers
+	  obviously know that there exists a collection called
+	  <em>bibliotecha danica</em>. However, you may just take for
+	  granted that there exists a collection of <em>aviser</em>, i.e.
+	  newspapers, at a National Library.</p>
+	</li>
+	<li>
+	  <strong>Library staff and departments</strong> (3%)
+	  <p>Some personal names are easily recognized as belonging to
+	  members of staff. <em>erland kolding</em>, <em>birgit
+	  henriksen</em>, <em>michael cotta-schønberg</em> and
+	  <em>sigfrid lundberg</em> ;-) belong to this category.</p>
+	  <p>Departments within the library are popular targets:
+	  <em>håndskriftafdelingen</em>, <em>fiolstræde</em>
+	  </p>
+	</li>
+	<li>
+	  <strong>Information about the Royal Library</strong> (8%)
+	  <p><em>åbningstide</em>, <em>bevaring</em>, <em>ledige stillinger</em>,
+	  <em>historien om det kongelige bibliotek</em>, <em>blixen -
+	  conference room</em> and <em>årsberetning</em> belong
+	  here.</p>
+	</li>
+      </ul>
+
+    </div>
+
+    <div id="conclusions" class="level2">
+
+      <h2>4. Conclusions</h2>
+
+      <!-- rex totalt sökningar   ger 0 hits
+	   jan 83511              50376 
+	   
+
+      -->
+
+
+      <div id="namessubjects" class="level3">
+
+	<h3>4.1. Names, subjects and titles</h3>
+
+	<p>Names, a majority of them personal and a small fraction
+	corporate ones, was the single largest category of search
+	terms. More than one third (35%) of the terms did belong to
+	this category. About one quarter of the terms were subjects
+	(24%). Finally about one tenth of them (11%) where for
+	specific titles. Some of these included both author and
+	title.</p>
+
+	<p>Searches for names and titles give hits in various places
+	in our web site, notably in archived lists of new acquisition,
+	but also (if the searcher is really lucky) in digital texts.</p>
+
+	<p>For broad subject searches, like <em>fysik</em> (physics)
+	there is a fair chance that the user finds an entry in the
+	subject based collections of electronic resources. For narrow
+	terms, eg, <em>Inkaer</em> (inka indians) there are no way
+	out.</p>
+
+	<p>This search engine was only capable to search in the texts
+	available (this is true for the Google box as well). There is
+	no way to tell users "Mona Lisa, see Leonardo da Vinci".</p>
+
+      </div>
+
+      <div id="electronicresources" class="level3">
+
+	<h3>4.2. Electronic resources, collections, mediatypes and genres</h3>
+
+	<p>The names, titles and subject searches may to some extent
+	be regarded as bibliographic. Some users may have opted for a
+	web search rather than a bibliographic in the catalogue in
+	the hope to get digital content. Some search terms, like
+	<em>infomedia</em> are obviously intended as searches for
+	electronic resources. The search terms in this category have
+	high repetition rate, which shows that they are issued by
+	quite experienced users of the library.</p>
+
+	<p>The distinction between our categories Collections and
+	Electronic Resources are a bit arbitarary, and to some extent
+	this is true for the Mediatypes as well.</p>
+
+	<p>The Electronic Resources are a mixture of licensed material
+	and local resources. For inexperinced users it is essential
+	that there are good collection level descriptions <sup><a
+	href="#collectionlevel">3</a></sup> which together with
+	subject based information guides may serve as aggregating
+	entry points for all kinds of resources accessable via the
+	library.</p>
+
+      </div>
+
+      <div id="searchweb" class="level3">
+
+	<h3>4.3. <em>"Search on KB's web (but NOT in REX)"</em></h3>
+
+	<p>Over the search form we are investigating there is a text
+	stating: <em>Search on KB's web (but NOT in REX)</em>. One may
+	argue that some of our users have misunderstood the function of
+	this input field.</p>
+
+	<p>However, one may just as well argue that our search field
+	does not take into account the requirements of our users and
+	that a large library should be able to provide answers to all
+	these kinds queries using a simple search on its homepage.</p>
+
+    </div>
+
+    <div id="footnotes" class="level2">
+      <h2>5. Notes</h2>
+
+      <ol>
+	<li id="htdig">The search engine, htdig, were at the time
+	causing us tremendous problems (with among other things
+	character encoding of international character sets). It were
+	subsequently replaced by the current Google box. The new
+	engine performs much better.</li>
+
+	<li id="tbray">Timothy Bray (renowned for being the creator of
+	one of the early Internet search engines, OpenText, and for
+	being coeditor of the specification of XML 1.0) tells us that
+	only 0.5% of their users used their advanced form, the rest
+	went to the simple one, where they on average wrote 1.3
+	words. See <a
+	href="http://www.tbray.org/ongoing/When/200x/2003/06/17/SearchUsers">On
+	Search: The Users</a></li>
+
+	<li id="collectionlevel">Collection Level Description (CLD)
+	metadata was as a concept introduced around the turn of the
+	century. It was pushed by <a
+	href="http://www.ukoln.ac.uk/metadata/rslp/">the Research
+	Support Libraries Program (RSLP)</a> and there is some Dublin
+	Core support for collection description. There is also a <a
+	href="http://uk.dublincore.org/groups/collections/">DCMI
+	WG</a> working on it</li>
+
+      </ol>
+    </div>
+      </div>
+  </body>
+</html>

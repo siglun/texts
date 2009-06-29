@@ -1,0 +1,111 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html><head><title>The services Xerxes and Scripta</title><link rel="stylesheet" href="/css-style/html_print.css"/><meta http-equiv="Content-Type" content="text/html; charset=UTF-8"/></head><body><p class="right"><strong>
+	  Back:
+	</strong>
+	<a href="documentation.html">Documentation</a>
+      <strong>
+		See also:
+	      </strong>
+	<a href="cataloging-tool.html">Cataloging tool</a>
+      ,
+	    
+	<a href="keystone-hotel.html">Keystone Hotel</a>
+      ,
+	    
+	<a href="xerxes-scripta-tkl.html">Xerxes &amp; Scripta Keystone</a>
+      ,
+	    
+	<a href="xerxes-listcourses.html">Xerxes List Courses</a>
+      </p><div class="box"><h1 class="title"><em>The services Xerxes and Scripta</em></h1><p class="author">
+      Sigfrid
+      Lundberg
+    <br/>
+      Biblioteksdirektion, Lunds universitet
+    <br/><strong>Revision:</strong>$Revision$,
+      <strong>Date:</strong>$Date$,
+      <strong>Editor:</strong>$Author$</p><div class="level1"><h2>Table of contents</h2><ul><li><a href="#top">Design principles</a></li><li><a href="#catalog">Architecture of the Cataloguing Subsystem and the Archives</a></li><li><a href="#search">Architecture of the Search Subsystem</a></li><li><a href="#datamodel">Xerxes' Datamodel</a><ul><li><a href="#agents">Users &amp; Agents</a></li></ul></li><li><a href="#footnoteshere">
+	    Footnotes
+	  </a></li></ul></div><div class="level1" id="top">
+    <h1 class="level1">Design principles</h1>
+
+    <p>The two seemingly different services are basically just one, the design
+      build on the following principles</p>
+
+    <ul>
+      <li>
+	The two services build on a modular philosophy, i.e., that different
+	  components should be kept separate and thus be possible to replace
+	  independent of each other.
+      </li>
+      <li>
+	Furthermore, it is an advantage to store metadata in a portable format
+	  together with the objects they describe.
+      </li>
+      <li>
+	Stored objects may have an hierarchical structure, i.e., they may
+	  have components that should be possible to describe and archive
+	  independently of the host object.
+      </li>
+      <li>
+	It should at least be possible to simultaneously support
+	  different editorial workflows in a number of different services and
+	  still have the advantage of maintaining a range of end user
+	  interfaces with a minimum of differences.
+      </li>
+    </ul>
+
+  </div><div class="level1" id="catalog">
+    <h1 class="level1">Architecture of the Cataloguing Subsystem and the Archives</h1>
+
+    <p>Technical aspects of the cataloging tool is covered in a <a href="cataloging-tool.html">separate document</a>, this is a mere
+      overview.</p>
+
+    <p>Architecture of the service is depicted in Figure 1. Active users 
+      .. </p>
+
+    <div class="figure">
+	
+	  <img src="images/xerxes_toolkit.png"/>
+	
+      <blockquote>Figure 1. Architecture of Xerxes' &amp; Scripta's cataloging tool</blockquote></div>
+
+  </div><div class="level1" id="search">
+    <h1 class="level1">Architecture of the Search Subsystem</h1>
+
+    <div class="figure">
+	
+	  <img src="images/search_engine.png"/>
+	
+      <blockquote>Figure 2. Architecture of Xerxes' &amp; Scripta's search engine</blockquote></div>
+    <p/>
+
+  </div><div class="level1" id="datamodel">
+    <h1 class="level1">Xerxes' Datamodel</h1>
+
+    <div class="level2" id="agents">
+      <h2 class="level2">Users &amp; Agents</h2>
+
+      <table>
+      <caption>Roles for persons in Xerxes Cataloguing Toolkit</caption>
+      
+	<tr><td>userauthor</td><td><p>An author who is also a user of the system. userauthors are
+	      athenticated vi the university's LDAP system</p></td></tr><tr><td>reviewer</td><td>
+	      <p>A reviewer is a person with the power to publish or withdraw
+	      objects from the public service.</p>
+	      <p>The access rights are limited to a certain jurisdiction,
+		which for Xerxes is arranged hierarchically according to
+		administrative domains as defined by the university's
+		organisation. In Scripta there is a flat list of jurisdictions
+		based on faculty.</p>
+	      <p>A reviewer may also edit metadata, and has the right to
+		download and upload objects from and to the object
+		store.</p>
+	    </td></tr><tr><td>admin</td><td><p>An admin has the same rights as a reviewer, but may edit
+	      peoples roles, and may also change his or her own jurisdiction.</p></td></tr><tr><td>otherauthor</td><td><p>Otherauthors are authors that has to be registered, but are
+	      not present in the university's directory service.</p></td></tr><tr><td>retired</td><td><p>A retired staff (former reviewers or admins)</p></td></tr><tr><td>exporter</td><td><p>A software agent used for exporting data from a certain
+	      jurisdiction or subject domain. Not currently used.</p></td></tr>
+      
+    </table>
+
+    </div>
+  </div><div class="level1"><h1 id="footnoteshere">Notes</h1></div></div></body></html>

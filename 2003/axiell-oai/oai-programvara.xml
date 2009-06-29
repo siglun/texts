@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="ISO-8859-1" ?>
+
+<div1>
+
+  <head>Tillgängliga verktyg</head>
+
+  <p rend="noindent">Även om det inte alls är en orimlig uppgift att
+  implementera OAI-PMH från grunden för en godtycklig bibliografisk
+  databas, så är det egentligen onödigt att göra det. Det finns
+  mängder med fria programvaror att tillgå. Hur fungerar detta rent
+  juridiskt? Svaret kan inte bli entydigt. Det beror på hur den fria
+  licensen är formulerad. Generellt kan sägas att de så kallade
+  Copyleft-licenserna<note n="GNU"><xref
+  to="http://www.gnu.org/licenses/licenses.html"/></note> är mycket
+  generösa. Det går mycket väl att <emph>sälja</emph> programvara som
+  är under GNU-licens. Den populära relationsdatabasen MySQL är en
+  sådan. Likaså går det att distribuera GNU-verktyg med programvara
+  som licensieras enligt andra principer.</p>
+
+  <p>OAI har en utmärkt lista med verktyg.<note n="VERKTYG"><xref
+  to="http://www.openarchives.org/tools/tools.html"/></note>
+    Alla produkter på listan har någon form av öppen licens (flera är tyvärr
+    mer restriktiva än GNU-licensen).
+  Där finns kompletta system och programmeringsgränssnitt för olika språk och
+  plattformar. Även om man bestämmer sig för att skriva sin
+  applikation från grunden, så utgör dessa verktyg en viktig referens
+  till hur OAI-PMH fungerar. Ett axplock:</p>
+
+  <list>
+
+    <item>En verklig lättviktslösning är XML-File. <note
+    n="XFile"><xref
+    to="http://www.dlib.vt.edu/projects/OAI/software/xmlfile/xmlfile.html"/></note>
+    Utan programmering eller andra <soCalled>svårigheter</soCalled>
+    får man en OAI-server genom att spara metadata som XML-filer.</item>
+
+    <item>Ett bibliotek i språket PHP.<note n="OAI-PHP"><xref
+    to="http://physnet.uni-oldenburg.de/oai/"/></note></item>
+
+    <item>Samma som ovan i språket PERL. Programmeringsgränssnitt för både
+    server och harvester. Går att koppla till befintliga databaser
+    <note n="OAI-PERL"><xref
+    to="http://oai-perl.sourceforge.net/"/></note></item>
+
+    <item>OAICat &mdash; Java SERVLET som implementerar en
+    OAI-server. Från OCLC <note n="OAICat"><xref
+    to="http://www.oclc.org/research/software/oai/cat.shtm"/></note></item>
+
+  </list>
+      
+
+</div1>
+
+
+  
+
+

@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="ISO-8859-1" ?>
+
+<div1>
+
+  <head>Vad kan OAI-PMH göra för nytta i en OPAC?</head>
+
+  <p rend="noindent">OAI-PMH är till för att göra metadata i ett
+    digitalt bibliotek (till exempel poster i en bibliografisk databas)
+    synliga i maskinläsbar form. Denna synlighet kan i sig vara något
+    man önskar sig, eller inte önskar sig, av olika skäl.</p>
+
+  <p>Innan man börjar integrera OAI i en OPAC-programvara bör man
+    naturligtvis ha klart för sig varför man skulle vilja använda OAI i
+    ett sådant sammanhang. Anledningarna till varför man skulle vilja
+    göra det skiljer sig naturligtvis mellan integrering av en
+    OAI-server och en OAI-klient. Innan jag går in på varför man skulle
+    vilja ha sådana moduler i sin OPAC, kommer jag att ta upp frågan
+    varför man <emph>inte</emph> skulle vilja ha dem. Likaså finns det
+    skäl till varför hela OPACen bör exporteras.</p>
+
+  <list>
+    
+    <item>Är bibliotekets OPAC den rätta hemvisten för dessa metadata?
+      Det är inte självklart att bibliotekskatalogen är den bästa
+      plattformen för publicering från de lokala användarnas
+      perspektiv.</item>
+
+    <item>Det är inte självklart att man har rätt att publicera
+      licensierad metadata i elektronisk form. Det måste finnas gränssnitt för
+      att ange vilka delar av OPACen som skall vara exporterbara med
+      OAI. Sannolikt skall vissa poster inte gå att exportera vidare.</item>
+
+    <item>Vare sig metadata är upphovsrättsligt möjliga att
+      distribuera eller ej, måste man naturligtvis ha en klar
+      uppfattning om omvärlden efterfrågar dem. Bara det som har sitt
+      ursprung i eller är unikt för den lokala bör spridas. Likaså bör
+      en sådan distribution föregås av någon form av
+      kvalitetskontroll.</item>
+
+  </list>
+
+  <div2>
+
+    <head>OAI-server</head>
+
+    <p rend="noindent">Om ett biblioteks OPAC är strukturerad så
+      att olika samlingar (vare sig de är elektroniska eller ej) går att
+      söka såväl separat som tillsammans, kan det vara en bra lösning för en
+      mindre organisation att använda sin OPAC som publiceringssystem. Den är
+      sannolikt organisationens mest kapabla bibliografiska söksystem, och är
+      utrustad med ett kapabelt katalogiseringsverktyg.</p>
+
+    <p>Enligt min uppfattning är modularisering av databasen i olika
+      samlingar en kritisk egenskap. Distribution av olika rapporter och
+      texter är ett viktigt uppdrag för många organisationer, inom såväl
+      privat som offentlig sektor. Inom högskolevärlden är denna uppgift
+      central. Ett publiceringssystem bör därför definitivt ha många olika
+      användargränssnitt. I vissa av dem skall bara den egna organisationens
+      publikatoner synas. Ett av dessa användargränssnitt kan vara OAI-PMH.</p>
+
+  </div2>
+
+  <div2>
+
+    <head>OAI-klient</head>
+
+    <p rend="noindent">Det sannolikt intressantaste skälet till varför man
+      skulle vilja integrera en OAI-klient (en harvester) i ett
+      biblioteksssystem är att den skulle kunna fungera som ett elektroniskt
+      akvisitionssystem. Om man i en större organisation, exempelvis en
+      högskola, publicerar dokument och metadata enligt en distribuerad
+      modell, kan i så fall OPACen (eller ännu hellre en <emph>samling i
+	den</emph>) fungera som en samkatalog.</p>   
+
+    <p>Den gängse metoden att uppdatera poster i bibliografiska databaser i
+      svenska bibliotek är att de köps från en större databas, t ex BURK eller
+      Libris. Jag har bara vaga  uppfattningar om hur detta går till rent
+      tekniskt, men från vad jag hört använder man en rad olika metoder. Z39.50
+      update är sällsynt enligt vad jag vet &mdash; det lär kunna användas för
+      att föra till den beståndsuppgift i BURK som ett köp av en katalogpost
+      medför. För själva överföringen lär användning av FTP vara det
+      vanligaste.</p>
+
+    <p>Det synes mig vara sannolikt att det skulle gå att bygga
+      betydligt mer standardiserade gränssnitt för dessa funktioner
+      ovanpå OAI-PMH. Jag skulle gärna se att detta vore något som
+      beaktades i samband med en övergång till FRBR.<note n="FRBR"><xref
+	  to="http://www.ifla.org/VII/s13/frbr/frbr.pdf"/></note>
+      Annars fungerar OAI-PMH redan idag utmärkt med MARC 21.</p>
+
+    <p>Jag är naturligtvis helt medveten om att idén att inkludera en
+      OAI-klient i Book-IT ligger helt utanför det aktuella projektet.</p>
+
+  </div2>
+ 
+
+</div1>
+
+
+  
+
+

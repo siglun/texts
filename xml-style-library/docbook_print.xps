@@ -1,0 +1,98 @@
+<%
+use Apache::Request;
+
+my $apr = Apache::Request->new($r);
+my $this_page = $r->uri;
+
+my %notehash = ();
+my $nnumber = 0;
+
+
+%><!--#include file="docbook_tags.xps"-->
+<!DOCTYPE html PUBLIC '-//W3C//DTD XHTML 1.0 Transitional//EN'
+                    "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd" >
+<html>
+<head>
+  <meta name="Content-type" content="text/html; charset=utf-8" />
+  <title><%
+	print apply_templates('/article/articleinfo/title/text()');
+	foreach my $subtitle (findnodes("/article/articleinfo/subtitle/text()")) {
+	    # should only be 1
+	    print ": ";
+	    print apply_templates($subtitle);
+	}
+ %></title>
+  <link rel="stylesheet" href="/css-style/html_print.css" />
+</head>
+<body bgcolor="white">
+
+<%
+# display title/TOC page
+print '<div class="level1">';
+print '<h1 class="title">';
+print apply_templates('/article/articleinfo/title/text()');
+foreach my $subtitle (findnodes("/article/articleinfo/subtitle/text()")) {
+    # should only be 1
+    print ": ";
+    print apply_templates($subtitle);
+}
+print "</h1>\n";
+
+# The authors
+my @authors = findnodes("/article/articleinfo/author");
+my $authnum = $#authors;
+my $i=0;
+print '<p class="author">'."\n";;
+foreach my $author (@authors) {
+	print apply_templates($author);
+	if($authnum >0) {
+	   if($i<$authnum-1) {
+	      print ",\n"; 
+           }
+	   if($i == $authnum-1) {
+	      print "and\n"; 
+           }
+	   $i++;
+        }
+}
+print '</p>'."\n";
+
+print "<h2>";
+print apply_templates('/article/abstract/title/text()');
+
+print "</h2>\n";
+
+foreach my $para (findnodes('/article/abstract/para')) {
+    print'<blockquote>'."\n";
+    print apply_templates('./text()',$para);
+    print "\n".'</blockquote>';
+}
+
+%>
+<hr />
+</div>
+
+
+<%
+# display particular page
+foreach my $section (findnodes("/article/sect1|/article/bibliography")) {
+	# should only be 1
+	print apply_templates($section);
+}
+%>
+<%
+
+print apply_templates('/article/articleinfo/revhistory');
+%>
+
+<p>
+<hr />
+
+Printer <a href="<%=$this_page%>">hostile</a>
+|
+View <a href="<%=$this_page%>?passthru=1">Raw XML</a>
+|
+To Sigge's <a href="/">other stuff</a>
+</p>
+</body>
+</html>

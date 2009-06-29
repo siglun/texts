@@ -1,0 +1,44 @@
+<html xmlns="http://www.w3.org/1999/xhtml">
+  <head>
+    <title>
+      Framtiden för Ediffah
+    </title>
+  </head>
+  <body>
+    <h1>Har Ediffah någon framtid?</h1>
+
+    <!--#include virtual="../toc.txt" -->
+
+    <ol>
+      <li>Ediffah -- ännu ett välmenat ABM-projekt?
+      <ul>
+	<li>Konkreta mål</li>
+	<li>Konkreta produkter</li>
+	<li>Genererat kunskap, medvetenhet och en vilja till förändring</li>
+      </ul>
+      </li>
+    </ol> 
+
+    <h2>Vad skall ni göra nu, då?</h2>
+
+    <ol>
+      <li>Vårda data</li>
+      <li>Hålla samarbetet vid liv</li>
+      <li>Hitta en affärsmodell</li>
+      <li>Värva nya medlemmar</li>
+      <li>Utveckla tjänsten 
+         <ul>
+	   <li>Smartare publicering</li>
+	   <li>Koppling till digitaliseringsverksamhet och kanske enskilda
+	   arkivalier.</li>
+	   <li>Auktoritetsregister</li>
+	   <li>EAC-export</li>
+	 </ul>
+      </li>
+    </ol>
+
+    <img src="arkitektur.png" alt="Arkitektur"/>
+
+
+  </body>
+</html>

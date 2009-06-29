@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="ISO-8859-1" ?>
+<table n="1" rows="8" cols="2" rend=" l | l ">
+<head>The seven top elements of the Master DTD, permitted directly below the top element msDescription</head>
+   <row>
+     <cell rend="bold">Element</cell>
+     <cell rend="bold">Description</cell>
+   </row>
+   <row> 
+     <cell>msIdentifier</cell> 
+     <cell>Identifies the manuscript by naming its physical location and mentioning its call number.</cell>
+   </row>
+   <row>
+     <cell>msHeading</cell>
+     <cell>Basic metadata, such as author, title and date and place of origin.</cell>
+   </row>
+   <row>
+     <cell>msContent</cell>
+     <cell>Basically a table of contents. A list of manuscript items, msItems. Each msItem may contain other items, so this is a hierarchical structure.
+     </cell>
+   </row>
+   <row>
+     <cell>physDesc</cell>
+     <cell>The physical description, such as extent, form, binding etc, but also writing system, number of hands and numerous other aspects of a manuscript.</cell>
+   </row>
+   <row>
+     <cell>history</cell>
+     <cell>Information about the origin, provenance and acquisition of the volume</cell>
+   </row>
+   <row>
+     <cell>msAdditional</cell>
+     <cell>Placeholder for various other information, including metadata for the catalog entry itself and a bibliography.</cell>
+   </row>
+   <row>
+     <cell>msPart</cell> 
+     <cell>For composite manuscripts, that is, manuscripts arising at some later time by binding together a number of items that in a previous life lead an independent life. The DTD permits the msPart element to contain other msParts.</cell>
+   </row>
+</table>

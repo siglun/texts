@@ -1,0 +1,37 @@
+This is what I use for searching the Ediffah database.[1] It is a
+collection of php scripts.[2] To run them you need the yaz library
+from indexdata.[3]
+
+The included files are as follows
+
+advanced.php		A first shot at an advanced search interface
+arkiv_ex-hit.xsl	A XSLT script for formatting hits
+forms_and_searching.php	Functions for generating forms and other stuff
+fragments.php		HTML fragments (for generating the pages)
+globals.php		Global parameters
+index.php		the top page
+search.php		The script that presents the hits
+present.cgi		A perl script presenting the detailed records
+
+Every thing here is provided as is. And mind you, everything that's
+free comes with no guarantee :)
+
+The tar.gz includes only the client software and represents the first
+version of this service; the current version is improved but cannot be
+distributed since it contain information that would compromise the
+security of the service.
+
+The actual search engine is idZebra[4], also from indexdata.
+
+In this case there is no manual, since this is not really a software
+distribution. It's merely an example of how one can easily search a
+collection of EAD records.
+
+Footnotes
+---------
+
+1. http://www.lub.lu.se/ediffah/
+   http://sigge.lub.lu.se/2004/ediffah/
+2. http://www.php.net/
+3. http://www.indexdata.dk/yaz/
+4. http://www.indexdata.dk/zebra/

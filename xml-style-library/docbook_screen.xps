@@ -1,0 +1,211 @@
+<%
+use Apache::Request;
+
+my $apr = Apache::Request->new($r);
+
+my $section = '';
+
+$section = $apr->param('section') if $apr->param('section');
+
+$r->no_cache(1);
+
+my $this_page = $r->uri;
+
+my ($prev, $next);
+
+my %notehash = ();
+my $nnumber = 0;
+
+my $sects = findvalue('count(/article/sect1)');
+$sects = "$sects";
+if ($sects > 1) {
+	if ($section >= $sects) {
+		$prev = $sects - 1;
+	}
+	elsif ($section <= 1) {
+		$next = 2;
+	}
+	else {
+		$prev = $section - 1;
+		$next = $section + 1;
+	}
+}
+
+my $top = join(' ',
+    ("<!DOCTYPE html PUBLIC '-//W3C//DTD XHTML 1.0 Transitional//EN'",
+     '"http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd" >'."\n",
+     '<html>',
+     "\n",
+     '<head>',
+     "\n",
+     '<meta name="Content-Type" content="text/html; charset=utf-8" />',
+     "\n"));
+
+print $top;
+
+my $doclang = findvalue('/article/@lang');
+%>
+<!--#include file="docbook_tags.xps"-->
+<title>
+<%
+if(!$section) {
+    print apply_templates('/article/articleinfo/title/text()');
+    foreach my $subtitle
+	(findnodes("/article/articleinfo/subtitle/text()")) {
+	    print ": ";
+	    print apply_templates($subtitle);
+	}
+} else {
+    foreach my $node (findnodes("/article/sect1[$section]/title/text()")) {
+	# should only be 1
+	print apply_templates($node);
+    }
+    print ' -- ';
+    print apply_templates('/article/articleinfo/title/text()');
+}
+%>
+</title>
+<link rel="stylesheet" href="/css-style/html.css" />
+</head>
+<body>
+<div class="box">
+
+<%
+
+if (!$section) {
+	# display title/TOC page
+	print '<h1 class="title">';
+	print apply_templates('/article/articleinfo/title/text()');
+        foreach my $subtitle (findnodes("/article/articleinfo/subtitle/text()")) {
+	    # should only be 1
+	    print ": ";
+	    print apply_templates($subtitle);
+	}
+	print "</h1>\n";
+
+	# The authors
+	my @authors = findnodes("/article/articleinfo/author");
+	my $authnum = $#authors;
+	my $i=0;
+	print '<p class="author">'."\n";;
+	foreach my $author (@authors) {
+	   print apply_templates($author);
+	   if($authnum >0) {
+	      if($i<$authnum-1) {
+	         print ",\n"; 
+              }
+	      if($i == $authnum-1) {
+	         print "and\n"; 
+              }
+	      $i++;
+           }
+        }
+        print '</p>'."\n";
+
+	print "<h2>";
+	print apply_templates('/article/abstract/title/text()');
+	print "</h2>\n";
+
+	foreach my $para (findnodes('/article/abstract/para')) {
+	    print'<blockquote>'."\n";
+	    print apply_templates('.',$para);
+	    print "\n".'</blockquote>';
+	}
+
+	my $page = 0;
+	print "<ul>\n";
+	foreach my $sect (findnodes('/article/sect1|/article/bibliography')) {
+		$page++;
+		print "<li><a href=\"$this_page?section=$page\">";
+		print apply_templates('title/text()', $sect);
+		print "</a></li>\n";
+	}
+	print "</ul>\n";
+
+	print apply_templates('/article/articleinfo/revhistory');
+
+	%>
+<%
+}
+else {
+
+%>
+<h1><%=  apply_templates("/article/articleinfo/title/text()")%></h1>
+<table class="navigation">
+<tr>
+<td class="left">
+<%
+	if ($prev) {
+%>
+<a href="<%=$this_page%>?section=<%=$prev%>"><%if($doclang eq 'sv') {%>Föregående sida<%}else{%>Previous page<%}%></a>
+<% } else {
+%>
+<%if($doclang eq 'sv') {%>Föregående sida<%}else{%>Previous page<%}%>
+<% } %>
+</td><td class="center"><a href="<%=$this_page%>"><%if($doclang eq 'sv') {%>Innehåll<%}else{%>Table of Contents<%}%></a></td>
+<td class="right">
+<%
+	if ($next) {
+%>
+<a href="<%=$this_page%>?section=<%=$next%>"><%if($doclang eq 'sv') {%>Nästa sida<%}else{%>Next page<%}%></a>
+<% } else { %>
+<%if($doclang eq 'sv') {%>Nästa sida<%}else{%>Next page<%}%>
+<% } %>
+</td></tr></table>
+<hr />
+
+<%
+	# display particular page |/article/sect1/bibliography"
+	foreach my $sect (findnodes("/article/sect1[$section]")) {
+	    # should only be 1
+	    print apply_templates($sect);
+	}
+        my $footnotes = '';
+        my $references = findnodes('//biblioentry');
+        foreach my $note (findnodes('/article/sect1['.$section.']//footnoteref')) {
+	    my $linkend = findvalue('@linkend',$note);
+	    $footnotes .= apply_templates('//biblioentry[@id="'.$linkend.'"]',$references);
+	}
+	if($footnotes) {
+	    print '<table class="navigation"><tr><td colspan="2" class="left">'."\n";
+	    if($doclang eq 'sv') {
+	     	print "<h2>Noter</h2>\n";
+            } else {
+		print "<h2>Notes</h2>\n";
+            }
+	    print '</td></tr>'."\n";
+	    print $footnotes."\n";
+	    print "</table>\n";
+	}
+
+}
+%>
+
+<br />
+</div>
+
+<p class="right">
+
+
+<%if($doclang eq 'sv') {%>
+
+Skrivar<a href="<%=$this_page%>?style=print">vänlig</a> version
+|
+Se <a href="<%=$this_page%>?passthru=1">rå XML</a>
+|
+Till <a href="/">Sigfrid Lundberg's stuff</a>
+
+<%}else{%>
+
+Printer <a href="<%=$this_page%>?style=print">friendly</a>
+|
+View <a href="<%=$this_page%>?passthru=1">Raw XML</a>
+|
+To Sigfrid Lundberg's <a href="/">other stuff</a>
+
+<%}%>
+
+</p>
+
+</body>
+</html>

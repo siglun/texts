@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE article PUBLIC "-//OASIS//DTD DocBook XML V4.1.2//EN"
+  "http://www.oasis-open.org/docbook/xml/4.1.2/docbookx.dtd" [
+]>
+
+<?xml-stylesheet
+      href="./db_special.xsl"
+      type="text/xsl"
+      media="screen"
+      title="default" ?>
+<!--
+
+$Id$
+
+Last changed $Date$ by $Author$
+
+-->
+
+<article lang="en">
+  <articleinfo>
+    <title>The Jarring Collection of Eastern Turkistan manuscripts at Lund
+      University Library</title>
+    <author>
+      <firstname>Sigfrid</firstname>
+      <surname>Lundberg</surname>
+    </author>
+    <affiliation>
+      <orgname>Biblioteksdirektion, Lunds universitet</orgname>
+    </affiliation>
+      <revhistory>
+      <revision>
+	<revnumber>$Revision$</revnumber>
+	<date>$Date$</date>
+	<authorinitials>$Author$</authorinitials>
+      </revision>
+    </revhistory>
+    <indexterm>
+      <primary><ulink url="documentation.xml">Documentation</ulink></primary>
+      <seealso><ulink url="laurentius.xml">Laurentius</ulink></seealso>
+      <seealso><ulink url="ediffah.xml">Ediffah</ulink></seealso>
+      <seealso><ulink url="cataloging-tool.xml">Cataloging tool</ulink></seealso>
+    </indexterm>
+  </articleinfo>
+
+  <sect1  id="top">
+    <title>Introduction</title>
+
+    <para> </para>
+
+  </sect1>
+
+<!--
+
+$Log$
+Revision 1.1  2009/06/29 11:08:30  sigfrid
+Initial revision
+
+Revision 1.2  2005/05/26 14:14:19  sigge
+Added cross references
+
+Revision 1.1  2005/05/26 11:59:46  sigge
+Initial revision
+
+
+-->
+
+
+</article>

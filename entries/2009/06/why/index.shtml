@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<html xmlns="http://www.w3.org/1999/xhtml"><head><title>Why do I keep this site?: 
+	  Sigfrid Lundberg's Stuff
+	</title><meta http-equiv="Content-Type" content="text/html;charset=UTF-8"/><script src="/js/navigation.js" type="text/javascript"> 
+	  </script><meta http-equiv="Content-Type" content="text/html;charset=UTF-8"/><link rel="stylesheet" href="/css-style/html.css"/></head><body><div class="left_box"><div style="text-align:left;width=90%;"><!--#include virtual="/div_top_left_box.xml" --></div><div style="text-align:left;width=90%;"><p><a href="/">Home</a></p><!--#include virtual="/subjects.xml" --><!--#include virtual="/me.xml" --></div></div><div class="right_box"><h1 style="width: 58%; float: left;text-align: left">Why do I keep this site?</h1><p style="width: 38%; float: left;text-align: right"><em><strong>Sigfrid Lundberg's Stuff 2009-06-27</strong></em></p>
+    <div>
+
+      <p>A week or two ago I registered this site with Google Analytics. My
+      Internet supply provider's statics is virtually useless. Then I've spent
+      quite some time cutting and pasting the javascript into my olde
+      stuff.</p>
+
+      <p>I haven't cared about this site for about four years and as far as I
+      can tell now, this place is hit by a one or two people per day, each of
+      which stay less than a minute. Why they come I don't know, and Google
+      Analytics won't tell me yet.</p>
+
+      <p>Now, I didn't expect anything else. I use the site as a store for old
+      documentation, of which just a few things could possibly be valuable for
+      students of Internet history. Most likely, though, they hardly even
+      deserve a footnote in the posterity.</p>
+
+      <h3>The origins</h3>
+
+      <p>I started this site autumn 1995. The oldest documents still in the
+      public collection is from <a href="/1996">1996</a>. Now, started isn't
+      really the right word. I never <em>planned</em> to build a web site
+      with old documents. Basically, I started a web server on a development
+      machine and devoted an area for project documentation and reports. I
+      could then drop a piece of text there and send the URI to my colleagues
+      or customers. That is how it started.</p>
+
+      <p>This worked well to begin with, but about five years later the
+      rudimentary structure per project was lost. I then made a backup copy,
+      and created a structure year, and copied stuff from the old site into
+      it. This is the way it is now.</p>
+
+      <p>I started the current site <a href="/2005">2005</a>, when I left Lund
+      university for a new job in Copenhagen. I felt that I just couldn't let
+      this material just disappear.</p>
+
+      <p>The site contains quite a few archived files. Counting them gives 241
+      HTML files, 21 pdf, 84 xml and so forth. Of these I regard 37 as
+      publications of some kind, in the sense that there are links to them
+      that may be reached from the home page. It is still just a sample, the
+      raw collection contains 2452 HTML files.</p>
+
+      <p>I have no idea if I have benefited from the site, or if the material
+      has been useful for someone else. For a few years, notably <a href="/2002">2002</a>, <a href="/2003">2003</a> and <a href="/2004">2004</a>, I did have an idea that I should make an active
+      effort to maintain a web site. Some of the best texts are from that
+      period.</p>
+
+      <h3>Publish or let it perish?</h3>
+
+      <p>I earn my livelihood as a developer for the Worldwide Web. But this
+      site is not a part of what I do for my living. So, should I have it
+      available here or let it perish?</p>
+
+      <p>I pay my ISP 250 SEK per month for this, which include a Linux shell
+      prompt available via secure shell and some storage. The storage side of
+      it is no big deal; I have already a number of USB hard disks around. I
+      have also <kbd>*.zip</kbd> and <kbd>*.tar.gz</kbd> files as attachment
+      on my gmail account, which provides huge storage and good value for
+      money in comparison with what I get from my ISP. But then, 250 SEK is no
+      big deal either.</p>
+
+      <p>So I'll keep it, for the time being. I don't think my stuff
+      contribute very much to the digital refuse spread over the net. I've
+      added an <a href="http://tools.ietf.org/html/rfc4287">ATOM syndication
+      feed</a> for the garbage I decided to keep, a subject browsing based on
+      the ATOM categories. Finally I've added some texts from the last few
+      years. These are basically of the same kind as the rest of my
+      stuff. Reports and papers written for some specific purpose and
+      republished here entirely out of context.</p>
+
+    </div>
+  </div><!--#include virtual="/js/urchin.js" --></body></html>

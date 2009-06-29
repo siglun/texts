@@ -1,0 +1,548 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE article PUBLIC "-//OASIS//DTD DocBook XML V4.1.2//EN"
+                  "http://www.oasis-open.org/docbook/xml/4.1.2/docbookx.dtd">
+
+<?xml-stylesheet
+      href="./db_special.xsl"
+      type="text/xsl"
+      media="screen"
+      title="default" ?>
+
+<article>
+  <articleinfo>
+    <title>The Metadata model in Scripta Academica Lundensia</title>
+    <author>
+      <firstname>Colm</firstname>
+      <lastname>Doyle</lastname>
+    </author>
+    <author>
+      <firstname>Jörgen</firstname>
+      <lastname>Eriksson</lastname>
+    </author>
+    <author>
+      <firstname>Sara</firstname>
+      <lastname>Kjellberg</lastname>
+    </author>
+    <author>
+      <firstname>Sigfrid</firstname>
+      <surname>Lundberg</surname>
+    </author>
+    <author>
+      <firstname>Tomas</firstname>
+      <lastname>Schönthal</lastname>
+    </author>
+    <revhistory>
+      <revision>
+	<revnumber>$Revision$</revnumber>
+	<date>$Date$</date>
+	<authorinitials>$Author$</authorinitials>
+      </revision>
+    </revhistory>
+    <indexterm>
+      <primary><ulink url="documentation.xml">Documentation</ulink></primary>
+	<seealso>
+	  <ulink url="cataloging-tool.xml">Cataloging tool</ulink>
+      </seealso>
+    </indexterm>
+  </articleinfo>
+
+  <abstract>
+    <para>This document specifies the metadata used in the Lund university
+      dissertation database.</para>
+  </abstract>
+
+
+  <sect1>
+
+    <title>Introduction</title>
+
+    <para>The current Dissertation abstract service
+      <footnoteref linkend="DISSDB" /> at
+      Lund university is based on free text search on a weakly fielded
+      record model. By that statement I understand that it is possible to
+      identify where in the HTML document used as the record syntax
+      information of given type is found. It is thus possible to generate
+      these records by HTML forms, and also to edit the metadata through
+      this procedure.</para>
+
+    <para>Although the database could be said to be "fielded", it is impossible
+      to search it that way. Also, the collection of records are in state of
+      decay; the data has been created with different tools, under
+      different operating systems with different character encodings. This,
+      in turn, means that recall as well as precision has been suffering.</para>
+
+    <para>During the autumn 2001, a new prototype user interface with
+      enhanced search system <footnoteref linkend="PROTOTYPE" /> (please note
+      that the search system might not be operatational at all times).
+      The work included an
+      export facility, making it possible recover a fairly large proportion
+      of the legacy database. The content model of the prototype service was
+      documented using a XML dtd <footnoteref linkend="not3" />.
+      This paper is the
+      result of the discussions that followed, and articulates the
+      modifications that we have made on the metadata to satisfy the
+      functional requirements of the long overdue service. Further
+      documentation exists in the form of a revised DTD
+      <footnoteref linkend="not7" /> and a manually
+      prepared record implementing
+      it <footnoteref linkend="not8" /></para>
+
+    <para>This is not an academic exercise, since the data model of a
+      service is something we have to live with in this service, and also
+      something we will have to explain to users, and also something we will
+      have to pay for in terms of human labour.</para>
+
+  </sect1>
+  <sect1>
+
+    <title>On Dissertations</title>
+
+    <para>A dissertation is a publication, and the basis for my model is
+      basically a bibliographic record. However, it is in several ways more
+      detailed, since a dissertation is connected to an event, the defense
+      act. The defense act is an event which occurs at certain place and at
+      a certain time, and it involves a special person, the external
+      examiner employed by the faculty.</para>
+
+    <para>A dissertation may be a traditional monograph, but more often than
+      not, a dissertation is a composite document. In this case it consists
+      of an abstract, a summary which in itself is a sizable document, and a
+      number of articles.</para>
+
+    <para>Considerations as those above gave me the following elements (this is
+      not a complete list, since I have omitted some that are used
+      internally, auto-generated, or are of less importance).</para>
+
+  </sect1>
+
+  <sect1>
+
+    <title>The Content Model</title>
+
+    <para>The top element of the DTD is 'dissertation'. The element has two
+      attributes 'status' and fulltext (with values from the enumerated
+      list: submitted, issued and failed) (accepting the values 'public',
+      'archived' and 'missing').</para>
+
+    <para>The lists below show the exact order in which the elements must occur
+      in order to be valid according to the DTD. An element followed by '?'
+      are optional or may occur exactly once, whereas if an element is
+      followed by '*', the element may be included zero or more times. '|'
+      implies a choice. For instance you may have either an arbitrary number
+      of 'component-journal-article' or zero or one single
+      'component-blob'.</para>
+
+    <para>
+      <informalexample>
+	<programlisting>
+	creator,
+	supervisor,
+	title,
+	pages,
+	language,
+	availability,
+	date-issued,
+	defended,
+	uncontrolled-terms?,
+	controlled-terms?,
+	controlled-umi-term,
+	summary-in-english,
+	summary-in-swedish?,
+	funded-by*,
+	component-blob?|
+		(component-journal-article*|
+		component-article-in-book*|
+		component-report*|
+		component-eprint*)
+	rights-management
+	</programlisting>
+      </informalexample>
+    </para>
+
+  </sect1>
+
+  <sect1>
+
+    <title>Detailed description of bibliographic elements</title>
+
+    <para>A creator is a person. In Scripta, a person has the following
+      characteristics:</para>
+
+    <para>
+      <informalexample>
+	<programlisting>
+	name,
+	born?,
+	electronic-address?,
+	affiliation?
+	</programlisting>
+      </informalexample>
+    </para>
+
+    <para>The meaning characteristics should be obvious. Date of birth is
+      available and is widely used in bibliographic records. One may
+      question if date of admittance to a post-graduate program is relevant,
+      and the same is true for gender. 'address' is the electronic one. name
+      has a content model of itself:</para>
+
+    <para>
+      <informalexample>
+	<programlisting>
+	#PCDATA|(last,first)
+	</programlisting>
+      </informalexample>
+    </para>
+
+    <para>that is, you may either enter a string or surname and given
+      name. Affiliation is an organization, or possibly a division within an
+      organization. Organizations are described as</para>
+
+    <para>
+      <informalexample>
+	<programlisting>
+	name?,
+	(name-hierarchy|department)?,
+	home-page?,
+	postal-address?     
+	</programlisting>
+      </informalexample>
+    </para>
+
+    <para>I.e., the record contains either a name-hierarchy or a
+      department. Name hierarchy is of the form "faculty / department /
+      sub-department" and applies to affiliations within Lund university. It
+      will permit search for the exact match or sub-string, i.e., give me
+      all dissertations within the faculty of science or give me all
+      dissertations in Limnology (search for string and switch on
+      complete field).</para>
+
+    <para>The availability element follows the GILS Z39.50
+      protocol <footnoteref linkend="not4"/> and is structured into the
+      following:</para>
+
+    <para>
+      <informalexample>
+	<programlisting>
+	available,
+	medium,
+	distributor
+	</programlisting>
+      </informalexample>
+    </para>
+
+    <para>'medium' is the SAFARI document type of the thesis, i.e.,
+      text.thesis.doctoral. A distributor is an organization and described
+      as for affiliation above.</para>
+
+    <para>Available has the following content model:</para>
+
+    <para>
+      <informalexample>
+	<programlisting>
+	linkage?,
+	issn?,
+	series-title?,
+	isbn?,
+	coden?
+	</programlisting>
+      </informalexample>
+    </para>
+
+    <para>The linkage is the URL of the thesis cover page in our archive, if
+      available from that source.  The structuring of availability is
+      dependent on the GILS tag-set <footnoteref linkend="not4" />.</para>
+
+    <para>The 'defended' element is unique to dissertations:</para>
+
+    <para>
+      <informalexample>
+	<programlisting>
+	date,
+	time,
+	location,
+	external-examiner
+	</programlisting>
+      </informalexample>
+    </para>
+
+    <para>I.e., when, where and who does the dirty job. opponent is a person,
+      and has thus the same content model as creator.</para>
+
+    <para>The dissertations are indexed using uncontrolled-terms and
+      controlled-terms. Each of these may include an arbitrary number of
+      uterm and cterm respectively. The current prototype database is using
+      CERIF as the controlled subject vocabulary
+      <footnoteref linkend="not5" />
+      (available in the tree format <footnoteref linkend="not6" />.
+      The version of CERIF has some shortcomings as regards its structure,
+      and its worst is medicine.</para>
+
+    <para>In addition to CERIF, we also need a UMI subject
+      <footnoteref linkend="not9"/><footnoteref linkend="not10"/>,
+      in order to export data to UMI's database.
+      This subject is stored in the element 'controlled-umi-term',
+      which is mandatory and not repeatable.</para>
+
+    <para>The funded-by element names the sponsoring organisation(s) and is
+      repeatable. Like affiliation and distributor,
+      it is an organisation.</para>
+
+  </sect1>
+
+  <sect1>
+
+    <title>Detailed description of descriptive elements</title>
+
+    <para>A valid dissertation description must contain a
+      summary-in-english and may include a summary-in-swedish.
+      It has been regarded as a functional requirement that these
+      should be give a minimum of typographical adornment.
+      The DTD defines a typographic content model containing the
+      following tags for this purpose:</para>
+
+    <para>
+      <informalexample>
+	<programlisting>
+
+	ol|
+	ul|
+	p|
+	sub|
+	sup|
+	strong|
+	em
+	</programlisting>
+      </informalexample>
+    </para>
+
+    <para>They are borrowed directly from HTML and means ordered list,
+      un-ordered list, paragraph, sub-script super-script, bold and
+      emphasis, respectively. The tag 'li', list item, may be used in both
+      list types.</para>
+
+    <para>The typographic content model applies to 'title' and
+      'cross-reference-blob' as well, the former that I felt that our
+      database already contain titles with super- and sub-scripts. Also,
+      emphasis is used for species names in paleontology, biology and
+      medicine. Actually, contrary to the DTD, the database contain quite a
+      few records that use emphasis on the uncontrolled terms for species
+      names. (All records are well-formed XML,
+      only a minority are valid).</para>
+
+  </sect1>
+
+  <sect1>
+
+    <title>Detailed description of descriptive elements</title>
+
+    <para>The content model permits two forms of cross-references, or component
+      publications. The way this concept has been introduced into the DTD is
+      borrowed directly from GILS[4], but it is subject to revision.  The
+      cross-reference-blob is the home for legacy cross references, there is
+      no way one can correct their format automatically.</para>
+
+    <para>The dissertations components are expected to be of three kinds
+      article in book, journal article and reports, where the latter are
+      expected to contain publications of various shades of grey. Patents
+      goes into this category as well. These three correspond to the
+      following three elements: component-journal-article,
+      component-article-in-book, component-report and component-eprint.  All
+      of these elements have the following common substructure in
+      common:</para>
+
+
+    <para>
+      <informalexample>
+	<programlisting>
+      creator+,
+      date?,
+      title,
+      appeared-in-title?,
+      volume?,
+      issue?,
+      pages?,
+      isbn?,
+      issn?,
+      coden?,
+      editor*,
+      part-of-series-title?,
+      publisher*,
+      locator*
+	</programlisting>
+      </informalexample>
+    </para>
+
+
+
+    <para>Where the semantics of the elements are defined as follows.</para>
+
+    <table>
+      <title>Semantics of component metadata</title>
+      <tgroup cols="2">
+	<tbody>
+      <row><entry>creator</entry>
+	<entry>The name of an author. A person as for the other
+	  persons</entry></row>
+
+      <row><entry>book-title</entry>
+	<entry>For an article that is part of a book, the title of
+	  the book</entry></row>
+
+      <row><entry>place-published</entry>
+	<entry>The place of publication of a book.</entry></row>
+
+      <row><entry>date</entry>
+	<entry>The date of publication, yyyy.</entry></row>
+
+      <row><entry>editor</entry>
+	<entry>For an article that is part of a book, the name  of
+	  an editor of the book.</entry></row>
+
+      <row><entry>publisher</entry>
+	<entry>The publisher of a book or report series.</entry></row>
+
+      <row><entry>appeared-in-title</entry>
+	<entry>For articles, the title of the journal or book
+	  the work appeared in.</entry></row>
+
+      <row><entry>issue</entry>
+	<entry>The number of the journal issue (or, if
+	  applicable, of the report itself.</entry></row>
+                                                   
+      <row><entry>volume</entry><entry>Journal volume number.</entry></row>
+
+      <row><entry>part-of-series-title</entry>
+	<entry>In case of an article or a report,
+	  the name of the  book or report.</entry></row>
+
+      <row><entry>title</entry>
+	<entry>The name of the component work. Typically a
+	  title of an article.</entry></row>
+
+      <row><entry>locator</entry>
+	<entry>For any component medium a pointer to an electronic version
+	  of the object.</entry></row>
+	</tbody>
+      </tgroup>
+    </table>
+
+    <para>Each of these elements accepts the attribute status taking either
+      of the values 'manuscript', 'submitted', 'inpress' and
+      'published'.</para>
+
+    <para>Finally, the DTD includes an element 'rights-management',
+      meant to be presented as an acknowledgment to a publisher.</para>
+
+  </sect1>
+
+  <bibliography>
+    <title>References</title>
+    <biblioentry id="DISSDB">
+      <title><ulink url="http://www.lub.lu.se/dissdb/">http://www.lub.lu.se/dissdb</ulink></title>
+    </biblioentry>
+
+    <biblioentry id="PROTOTYPE">
+      <title><ulink
+	  url="http://early-drafts.lub.lu.se/scripta/">http://sigge.lub.lu.se/scripta/</ulink></title>
+    </biblioentry>
+
+    <biblioentry id="not3">
+      <title><ulink
+	  url="http://early-drafts.lub.lu.se/scripta/dtd/dissertation-orig.dtd">http://sigge.lub.lu.se/scripta/dtd/dissertation-orig.dtd</ulink></title>
+    </biblioentry>
+
+    <biblioentry id="not4">
+      <title><ulink
+	  url="http://www.gils.net/prof_v2.html">http://www.gils.net/prof_v2.html</ulink></title>
+    </biblioentry>
+
+    <biblioentry id="not5">
+      <title>
+	<ulink
+	  url="http://early-drafts.lub.lu.se/scripta/browse/cerif_multi.tree">http://early-drafts.lub.lu.se/scripta/browse/cerif_multi.tree</ulink></title>
+    </biblioentry>
+
+    <biblioentry id="not6">
+      <title><ulink
+	  url="http://www.lub.lu.se/combine/dvt/">http://www.lub.lu.se/combine/dvt/</ulink></title>
+    </biblioentry>
+
+    <biblioentry id="not7">
+      <title><ulink
+	  url="http://early-drafts.lub.lu.se/scripta/dtd/dissertation.dtd">http://early-drafts.lub.lu.se/scripta/dtd/dissertation.dtd</ulink></title>
+    </biblioentry>
+
+    <biblioentry id="not8">
+      <title><ulink
+	  url="http://early-drafts.lub.lu.se/scripta/beauties/med_223.xml">http://early-drafts.lub.lu.se/scripta/beauties/med_223.xml</ulink></title>
+    </biblioentry>
+
+    <biblioentry id="not9">
+      <title>
+	<ulink
+	  url="http://www.lub.lu.se/luft/diss/UMI_diss.pdf">http://www.lub.lu.se/luft/diss/UMI_diss.pdf</ulink></title>
+    </biblioentry>
+
+    <biblioentry id="not10">
+      <title>
+	<ulink
+	  url="http://sigge.lub.lu.se/scripta/UMI.text">http://sigge.lub.lu.se/scripta/UMI.text</ulink></title> 
+    </biblioentry>
+  </bibliography>
+
+<!--
+
+Revision log
+
+$Log$
+Revision 1.1  2009/06/29 11:08:31  sigfrid
+Initial revision
+
+Revision 1.14  2005/06/08 14:58:21  sigge
+Checked in just in case of ;-)
+
+Revision 1.13  2005/05/26 11:56:36  sigge
+Changed syntax for footnotes
+
+Revision 1.12  2005/05/26 08:53:59  sigge
+Changed style sheet
+
+Revision 1.11  2003/08/28 12:52:40  sigge
+Fixed a few links that I broke yesterday
+
+Revision 1.10  2002/10/17 11:17:59  sigge
+Tranformed document to docbook
+
+
+Revision 1.8  2002/05/17 09:17:45  siglun
+Added UMI subject info
+
+Revision 1.7  2002/05/02 10:04:52  siglun
+Made html of the stuff, changed the wording making this thing
+a specification rather than a discussion paper.
+
+Revision 1.6  2002/04/29 14:37:14  siglun
+Added status and fulltext attributes where appropriate.
+
+Revision 1.5  2002/04/29 09:24:52  siglun
+Added info about 'component-x' elements, where x is one of ('blob',
+'journal-article', 'article-in-book' or 'report').
+
+Revision 1.4  2002/04/26 14:01:13  siglun
+Defined alternatives department|name-hierarchy
+
+Revision 1.3  2002/04/26 13:18:16  siglun
+Corrected the person entity, changed organisation entity and
+added notes on loose ends
+
+Revision 1.2  2002/04/26 11:25:59  siglun
+Revision of datamodel according to discussion on meeting April 26.
+Added structure on the different kinds of components of a thesis and a
+new supervisor element. Removed gender and admitted on the person data
+type and renamed address to electronic-address
+
+Revision 1.1  2002/04/26 10:57:13  siglun
+Initial revision
+
+-->
+</article>

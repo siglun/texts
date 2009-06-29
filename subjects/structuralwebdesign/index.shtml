@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<html xmlns="http://www.w3.org/1999/xhtml"><head><title>: 
+	      Sigfrid Lundberg's Stuff
+	    </title><meta http-equiv="Content-Type" content="text/html;charset=UTF-8"/><script src="/js/navigation.js" type="text/javascript"> 
+	      </script><meta http-equiv="Content-Type" content="text/html;charset=UTF-8"/><link rel="stylesheet" href="/css-style/html.css"/></head><body><div class="left_box"><div style="text-align:left;width=90%;"><!--#include virtual="/div_top_left_box.xml" --></div><div style="text-align:left;width=90%;"><p><a href="/">Home</a></p><!--#include virtual="/subjects.xml" --><!--#include virtual="/me.xml" --></div></div><div class="right_box"><h1 style="width: 58%; float: left;text-align: left">Structural web design</h1><p style="width: 38%; float: left;text-align: right"><em><strong>Sigfrid Lundberg's Stuff</strong></em></p><div style="clear:both;"> </div><div style="width:100%;"><p><strong><a href="/2009">2009</a>: </strong><a href="/entries/2009/06/why/"><em>Why do I keep this site?</em></a><br/>Having had a web site for about 15 years, I start to wonder why I
+  keep it in the first place.<br/><a href="/subjects/structuralwebdesign/">Structural web design</a></p><p><strong><a href="/2009">2009</a>: </strong><a href="/entries/2009/06/atom/"><em>My first serious experience with ATOM</em></a><br/>You don't really understand a document format until you've manually
+  encoded some documents, and written the software to parse and use it for
+  something useful. This somewhat refurbished version of my web site is to a
+  large extent built upon the ATOM syndication format, and here I discuss my
+  experience.<br/><a href="/subjects/structuralwebdesign/">Structural web design</a>,
+	<a href="/subjects/metadata/">Metadata</a></p><p><strong><a href="/2007">2007</a>: </strong><a href="/2007/hidden_web/usage_vs_dissemination_method.html"><em>Usage of digital resources with respect to method of publishing</em></a><br/>I compared the usage of Digital material in relation to whether
+    the material was hidden away in the the library opac or published on our
+    web site. The result was as expected a disappointment for those who regard
+    the Library catalogue as an important vehicle for dissemination of digital
+    material<br/><a href="/subjects/thelibrary/">The Library</a>,
+	<a href="/subjects/opac/">Library catalogues</a>,
+	<a href="/subjects/digitallibraries/">Digital libraries</a>,
+	<a href="/subjects/internet/">Internet</a>,
+	<a href="/subjects/structuralwebdesign/">Structural web design</a></p><p><strong><a href="/2007">2007</a>: </strong><a href="/2007/search-statistics/user-expectations.html"><em>What do our users expect from the search field on our top
+    page?</em></a><br/>What can deduced by analyses of the search terms entered into the
+    search field on the home page of a large modern library? Could we possibly
+    regard this form as the digital library´s information desk, and the
+    queries as the request from its patrons? If we do that, what could we then
+    learn about the quality of service?  In this note we do just that. We
+    regard the terms entered into the form as manifestation of our patrons
+    needs and in order to find out what they need, we have performed a
+    preliminary text mining exercise. We hope that this will help us designing
+    a new search facility that will better answer the needs of our
+    users.<br/><a href="/subjects/webindexing/">Web indexing</a>,
+	<a href="/subjects/harvesting/">Harvesting</a>,
+	<a href="/subjects/opac/">Library catalogues</a>,
+	<a href="/subjects/structuralwebdesign/">Structural web design</a></p><p><strong><a href="/1999">1999</a>: </strong><a href="/1999/web_masters_guide/"><em>The Noble Art of Being Indexed or the Webmaster's Guide to
+    Harvesting Robots</em></a><br/>As the title indicates, this is a note on how to be indexed by
+    search engines. It is obsolete. Please note that it does not contain
+    anything about search engine optimization in the modern evil
+    sense. Instead it pinpoints what harvesting robots did understand, and what
+    they didn't at the turn of the last century.<br/><a href="/subjects/webindexing/">Web indexing</a>,
+	<a href="/subjects/metadata/">Metadata</a>,
+	<a href="/subjects/structuralwebdesign/">Structural web design</a></p></div></div><!--#include virtual="/js/urchin.js" --></body></html>

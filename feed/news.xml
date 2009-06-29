@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <author>
+    <name>Sigfrid Lundberg</name>
+  </author>
+  <title>Sigfrid Lundberg's Stuff</title>
+  <updated>2009-05-07T18:20:00</updated>
+  <id>http://www.sigfrid-lundberg.se/</id>
+  <link href="http://localhost/news.xml"/>
+  <entry>
+    <title>Digital Humanities Infrastructures</title>
+    <author>
+      <name>Sigfrid Lundberg</name>
+    </author>
+    <updated>2008-06-22T21:20:00</updated>
+    <link href="2008/dighum/digital_humanities.xml"/>
+    <summary>
+      This note discusses different initiatives as regards providing access to
+      resources and tools aimed at researchers within the humanities. Since
+      the general breakthrough of search services like Google, annotation and
+      bookmarking services like del.icio.us and the like, the attitudes
+      towards the application of computing within the humanities has
+      changed. In addition, the concept of e-science has contributed to make
+      scholars positive to apply computing to various problems within the
+      humanities.  Following a discussion started around year 2000, we propose
+      that it is possible to formalize many humanities computing tasks as
+      pipelines between XML processing steps.
+    </summary>
+    <category term="textencoding">Text Encoding</category>
+    <category term="ehumanities">Digital Humanities</category>
+    <category term="xprocessing">XML Processing</category>
+    <id>http://www.sigfrid-lundberg.se/2008/dighum/digital_humanities.xml</id>
+  </entry>
+
+
+</feed>

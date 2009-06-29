@@ -1,0 +1,132 @@
+
+Keeping track with changing organizational structures:
+A way back machine might be a step forward!
+
+
+We maintain databases of publications from Lund university, which is a
+fairly large organization with 30.000+ students, and an appropriately
+sized teaching and research staff to go with that.
+
+The publications produced should be possible to navigate (or browse)
+with respect organizational structure.  However, that structure is
+changing in an accelerating speed. This a costly challenge for
+us. Should we change the vocabulary, and as a consequence change all
+records? Or should we keep things as they are and leave departments
+and even faculties having disappeared from the system?
+
+On which departmental list of publications should John Smith's paper
+appear if his department is split. Obviously, one can easily tell
+given appropriate knowledge about the split, but there is no way one
+can do that retrospectively for five thousand doctoral dissertation.
+
+These problems are general. A related one is: Who should pay an
+invoice sent to a department at the end of December 2003, when that
+department is merging with the neighbor the first of January 2004?
+
+The basics of navigation
+------------------------
+
+Navigation is an almost obligatory functional requirement for the
+digital library. By navigation I understand user functions like
+browsing of hierarchical collections of metadata. Such browsers can be
+created with respect to any vocabulary which is hierarchical by nature
+and typical examples are (in the context we are currently discussing)
+it is classification systems, thesauri and organizational
+structure. This does not mean that other context could be relevant,
+eg., biological taxonomies. Hierarchical representation of thesauri
+give priority to broader and narrower terms when creating the browser.
+
+The success of a hierarchical navigation system, a browser, depends
+critically on two factors. First, the quality of the labels and
+connectivity of the vocabulary used, and, secondly on the quality of
+the categorization. Users will be frustrated if
+
+- category labels "does not ring a bell". The strength of navigation
+  is that users are, on a cognitive, level more capable of recognizing
+  what they search for when seeing it, than to recollect the
+  appropriate term and spell it correctly when typing it into a search
+  form.
+
+- more specific terms appear on non-intuitive places in the browser.
+
+- there is information which seems irrelevant for the subject matter
+  of the current page in the browser.
+
+Of these the two first points are related to the vocabulary in its
+connectivity and the last one to the quality of indexing. The quality
+of indexing is seldom a big issue for organizational vocabularies. An
+author may have several affiliations, but in general a paper should
+appear in the publication list of that organization who pays him.
+
+Organizational navigation system are often poor, and the reason why is
+exclusively because the vocabulary used is not well thought out,
+lacking intuitive names of organizations and because the its structure
+was never intended to be used for information retrieval. However, I
+claim that an organizational structure which is good for information
+retrieval is good in other ways as well.
+
+The evolution of vocabularies
+-----------------------------
+
+This note is about hierarchies that change over time. All vocabularies
+do. However, what one need to do as consequences of change differs
+depending on the nature of the vocabulary.
+
+Thesauri provide means for coping with change. The USE/USE FOR
+relations are meant for (among other things) creating pointers such
+that older records should be searchable. Although a new term is not
+present in old records, a search engine can still hit the old ones by
+automatically broaden the search to such terms.
+
+Such procedures are not sufficient for an organizational vocabulary,
+because organizations are legal entities that are likely to all kinds
+of opinions on how they should be presented. Also, one would hide or
+perhaps even lose potentially important data. Organisations may evolve
+in several ways. The most important ones should be the following:
+
+- units may be created
+- they may be discontinued
+- they may change of name
+- they may split
+- they may merge and form new bigger ones
+- they may be moved in the organizational structure
+
+Any these changes within should create changes in an organizational
+vocabulary. However, terms should never be removed from a good
+organizational vocabulary.
+
+A relational data-model for an organizational vocabulary should
+contain at least the following:
+
+	Unit ID
+	Unit name
+	Date of creation
+	Date of discontinuation
+	
+We need to be able to take into account the following many-to-many
+kind of relations In addition we need to be able to cope with each
+units predecessors and successors
+
+	Predecessor Unit ID
+	Successor Unit ID
+	Event (split,merge,change of name)
+	
+Finally, we need to know to which broader unit the unit at hand is
+affiliated at any moment in time:
+
+	Narrower Unit ID
+	Broader Unit ID
+	Date created
+	Date broken
+
+Using this data-model will be possible to build a way-back machine,
+i.e., a search engine that may permit its users to search and browse
+any kind of material with respect to any organisation at any time.
+
+And there will be no need to revise data on organisations that are
+gone, neither will there be any need to revise data on publications,
+archival records or descriptions using this way of handling an
+organisational vocabulary.
+
+
+	

@@ -1,0 +1,42 @@
+    &lt;msItem n="2"&gt;
+      &lt;locus from="1v" to="2v"&gt;ff. 1v-2v&lt;/locus&gt;
+      &lt;title type="uniform"&gt;Decretum pacti Kanuti regis XII kal. Junii
+        1085&lt;/title&gt;
+      &lt;title type="parallel" lang="SWE"&gt;Knut den Heliges gåvobrev den 21 maj
+        1085&lt;/title&gt;
+      &lt;note&gt;&lt;p&gt;Written c. 1123 at its latest, according to Kroman.&lt;/p&gt;&lt;/note&gt;
+      &lt;listBibl&gt;
+        &lt;bibl&gt;
+          &lt;title level="m"&gt;Diplomatarium Danicum. 1:2. 1053-1169,&lt;/title&gt;
+          &lt;editor&gt;udgivet af L. Weibull under medverkan af
+            N. Skyum-Nielsen&lt;/editor&gt;
+          &lt;imprint&gt;
+            &lt;pubPlace&gt;Koebenhavn&lt;/pubPlace&gt;
+            &lt;date&gt;1963&lt;/date&gt;
+          &lt;/imprint&gt;
+          &lt;biblScope type="pages"&gt;Nr. 21, pp. 43-52&lt;/biblScope&gt;
+        &lt;/bibl&gt;
+        &lt;bibl&gt;
+          &lt;title level="m"&gt;Danmarks Riges breve. 1:2. 1053-1169&lt;/title&gt;
+          &lt;editor&gt;udarbejdet af C. A. Christensen, G. Hermansen og
+            H. Nielsen&lt;/editor&gt;
+          &lt;imprint&gt;
+            &lt;pubPlace&gt;&lt;/pubPlace&gt;
+            &lt;date&gt;1975&lt;/date&gt;
+          &lt;/imprint&gt;
+          &lt;biblScope type="pages"&gt;Nr. 21, pp. 25-26&lt;/biblScope&gt;
+        &lt;/bibl&gt;
+        &lt;bibl&gt;
+          &lt;title level="m"&gt;Necrologium Lundense. Lunds Domkyrkas
+            Nekrologium.&lt;/title&gt;
+          &lt;editor&gt;utgivet av Lauritz Weibull&lt;/editor&gt;
+          &lt;title level="s"&gt;Monumenta Scaniae Historica&lt;/title&gt;
+          &lt;biblScope type="volume"&gt;&lt;/biblScope&gt;
+          &lt;imprint&gt;
+            &lt;pubPlace&gt;Lund&lt;/pubPlace&gt;
+            &lt;date&gt;1923&lt;/date&gt;
+            &lt;biblScope type="pages"&gt;pp. 3-6&lt;/biblScope&gt;
+          &lt;/imprint&gt;
+        &lt;/bibl&gt;
+      &lt;/listBibl&gt;
+    &lt;/msItem&gt;

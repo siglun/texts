@@ -1,0 +1,174 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<html xmlns="http://www.w3.org/1999/xhtml">
+  <head>
+    <title>Kulturnät Sverige</title>
+    <meta http-equiv="Content-Type" content="text/html;charset=UTF-8"/>
+  </head>
+  <body bgcolor="#FFFFFF">
+    <p align="right">
+      <small>Recension av <a
+      href="http://www.norrnod.se/kulturnat/slutbet.htm"> IT i kulturens
+      tjänst</a>, SOU 1997:14</small>
+    </p>
+    <table>
+      <tr><td width="120" bgcolor="#DDDDDD" valign="top" >
+	<table border="1">
+	  <tr>
+	    <td bgcolor="#FFFFCC">
+	      <p>
+		<small>
+		  Synpunkterna i denna recension är mina egna och
+		  överensstämmer inte nödvändigtvis med Lunds universitets.
+		</small>
+	      </p>
+	    </td>
+	  </tr>
+	</table>
+      </td>
+      <td>
+	<h1 style="text-align:center">Kulturnät Sverige</h1>
+	<p style="text-align:center">
+	  <em>
+	    <a href="/~siglun/">Sigfrid Lundberg</a><br/>
+	    <a href="mailto:siglun@munin.ub2.lu.se">siglun@munin.ub2.lu.se</a>
+	  </em>
+	</p>
+      </td>
+      </tr>
+      <tr>
+	<td bgcolor="#DDDDDD" valign="top">
+	  <h3>Var är måltavlan?</h3>
+	</td>
+	<td>
+	  <p>KulturNät Sverige har en särställning bland alla likartade
+	  initiativ på internet. Utredaren pekar ut
+	  "kulturarvsinstitutionerna" -- arkiven, biblioteken och museerna,
+	  som KulturNätets stöttepelare.  Dessa institutioner är rikets
+	  största producenter av metadata i vid mening. Tillsammans förfogar
+	  de också över några av de landets allmänt tillgängliga databaser som
+	  har störst allmänintresse.</p>
+
+	  <p>Bland dessa nämns flera, som t ex <a
+	  href="http://www.libris.kb.se">Libris</a> och <a
+	  href="http://www.foark.umu.se/datorh.htm#nadinfo">Nationella
+	  arkivdatabasen(NAD)</a>.  Till vår förvåning nämns inte i detta
+	  sammanhang Nordiskt Webindex annat än som ett bihang till
+	  KulturArw3.  NWI vars svenska gren är beläget vid en av landets
+	  tyngre kulturinstitutioner, Lunds universitetsbibliotek, som också
+	  står för utvecklingen av roboten.</p>
+
+	  <p>Givet de deltagande institutionernas särställning som
+	  storproducenter av metadata, ser utredaren det som en möjlighet att
+	  KulturNät Sverige skulle kunna "fungera som en sökmotor till
+	  kulturinstitutionernas samlade material--databaser med museiföremål,
+	  bokbestånd, etc".  Här hämtar utredaren andan inför denna storslagna
+	  vision, och konstaterar sedan att detta skulle kräva "samordning och
+	  struktur i databaser, möjliga sökfrågor, etc". Utredaren säger
+	  aldrig rakt ut att visionen är ogenomförbar, men efter att ha spänt
+	  bågen så hårt, lägger utredaren plötsligt undan både den och pilen
+	  och ställer till och med undan måltavlan. I väntan på att det skall
+	  bli möjligt att förverkliga en sådan vision konstaterar utredaren
+	  att KulturNätet kan användas för "att skapa struktur på nätet genom
+	  att erbjuda en gemensam ingång med sökbara webbsidor" och menar att
+	  då "har vi kommit en bit på vägen mot ett användabart system". Allt
+	  kokar i hop till ännu en WWW-sökmaskin med YAHOO-liknande
+	  bläddringsstruktur. Tyvärr har vi tillräckligt många sådana för att
+	  man inte skall bli upphetsad av den idén.</p>
+	</td>
+      </tr>
+      <tr>
+	<td bgcolor="#DDDDDD" valign="top">
+	  <h3>WWW räcker inte</h3>
+	</td>
+	<td>
+	  <hr/>
+	  <p>Utredningens direktiv var:</p>
+
+	  <p align="right">
+	    <i>En särskild utredare tillkallas med uppdrag att utarbeta en
+	    samlad strategi för användning av informationsteknik vid
+	    myndigheter och institutioner inom kulturområdet. Utredaren skall
+	    därvid lämna förslag om uppbyggnad av ett gemensamt kulturnät.</i>
+	  </p>
+
+	  <p>Begreppet "användning av informationsteknik" i dag olyckligtvis
+	  ofta likställt med användning av WWW. Även om utredningen
+	  lyckligtvis har ett långt vidare perspektiv än vad som är vanligt,
+	  så är perspektivet ändå alltför snävt och WWWinriktat.</p>
+
+	  <p>Vi menar att det mer visionära kulturnätet inte bara är möjligt
+	  att bygga i dag, utan att alla viktiga komponenter finns i
+	  sinnevärlden. Och en hel del av dem är redan i drift i Sverige. Det
+	  är naturligtvis möjligt att genomföra sökningar i databaser med
+	  museiföremål, bokbestånd, etc redan i dag.  Men det är redan nu
+	  möjligt att kombinera sökningar i helt olika databaser som t ex
+	  Libris och NWI, och göra så med ett gemensamt WWW-baserat
+	  användargränssnitt. Eller i Libris, DanBib och Svenska och danska
+	  NWI.  Och så vidare... Lägg gärna till kombinationssökningar i NWI
+	  och Library of Congress' katalog.</p>
+
+	  <p>Ett av problemen med Kulturnät Sverige är att utredaren
+	  förmedlar en en ytlig bild av internet och framför allt om vad som
+	  bör samordnas mellan olika organisationer och tjänster. Utredningen
+	  söker sin lösnig inom Wordwide Web. WWW är emellertid bara en del av
+	  vad som behövs samordnas om man skall utveckla en gemensam
+	  IT-strategi. WWW är toppen på IT-isberget, alltså det som syns. WWW
+	  är en nödvändig, men inte tillräcklig komponent i Kulturnätet. I
+	  kapitlet "Tekniska förutsättningar för IT-användning" diskuteras de
+	  internethjälpmedel (t ex Z39.50, SQL och WAIS) som arkiven,
+	  biblioteken och museerna använder för sina databaser på mindre än en
+	  sida, medan sökning och indexering av WWW-sidor ges en och en
+	  halv. Och då har vi inte räknat med sektionerna som täcker
+	  metainformation för WWW-sidor och olika former av intelligenta
+	  agenter. Det sistnämnda har i stort sett inte med saken att
+	  göra. För närvarande är det ett livligt forskningsfält, men det har
+	  inte ännu inte levererat några praktiska lösningar ens inom WWW.</p>
+
+	  <p>Library of Congress, NWI och Libris fungerar bra tillsammans
+	  eftersom alla tjänsterna är tillgängliga via IR-protokollet
+	  Z39.50. Uredarnas farhågor angående problem med "samordning och
+	  struktur i databaser, möjliga sökfrågor, etc" är överdrivna. En av
+	  fördelarna med Z39.50 är att protokollet i sig gör det möjligt att
+	  abstrakt specificera en datamodell, att det finns möjlighet att
+	  informera klienten om denna modell, men också möjligheter att knyta
+	  databasmodellen till standardiserade sökfält, vilka i sig är
+	  oberoende av datamodellen.</p>
+	</td>
+      </tr>
+
+      <tr>
+	<td bgcolor="#DDDDDD" valign="top">
+
+	  <h3>Kulturnätets mission</h3>
+	</td>
+
+	<td>
+
+	  <hr/>
+
+	  <p>När kulturnätet nu skall realiseras, så är det viktigt att det
+	  bör ses som ett nätverk av informationsservrar som alla bidrar med
+	  stora mängder metainformation och digitaliserat material till en
+	  gemensam pool. Utöver HTTP (hypertext transfer protocol,
+	  WWWprotokollet) bör dessa servrar även göra sina databaser
+	  tillgängliga via ett eller ett par standardiserade protokoll.</p>
+
+	  <p>Kulturnätet bör blir till en organisation som katalyserar
+	  användningen av informationsteknik inom kultursektorn, och som gör
+	  så genom att ge hjälp och stöd till medlemarna vad gäller uppbyggnad
+	  av databaser och informationsstrukturer och som kan verka för att
+	  tjänsterna anpassas till öppna standarder. På det viset kan
+	  KulturNätet bli ett i verklig mening distribuerat system, en mosaik
+	  av samverkande informationstjänster och databaser. Kulturnätet kan
+	  gärna centralt erbjuda en WWWbaserad ingång till dessa databaser,
+	  och gärna därutöver en bläddringsbar katalogtjänst. Men i ett
+	  distribuerat Kulturnät kan varje informationsserver vara inkörsport
+	  till all information. Varje medlem kan bygga upp ett gränssnitt som
+	  blandar svenska och utländska databaser på ett sätt som passar den
+	  lokala verksamhetens inriktning.</p>
+	</td>
+      </tr>
+    </table>  
+    <!--#include virtual="/js/urchin.js" -->
+  </body>
+</html>

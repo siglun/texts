@@ -1,0 +1,275 @@
+<table>
+<title>Table 1. Visits for different types of pages in Laurentius by time period</title><tgroup cols="8"><tbody>
+  <row>
+     <entry>Time period</entry>
+     <entry>Image</entry>
+     <entry>Thumbnail</entry>
+     <entry>Page index</entry>
+     <entry>Volume index</entry>
+     <entry>Search request</entry>
+     <entry>Full record</entry>
+     <entry>Navigation</entry>
+   </row>
+  <row>
+     <entry>Jan 2001</entry>
+     <entry></entry>
+     <entry></entry>
+     <entry></entry>
+     <entry></entry>
+     <entry></entry>
+     <entry></entry>
+     <entry></entry>
+   </row>
+  <row>
+     <entry>Feb 2001</entry>
+     <entry></entry>
+     <entry></entry>
+     <entry></entry>
+     <entry></entry>
+     <entry></entry>
+     <entry></entry>
+     <entry></entry>
+   </row>
+  <row>
+     <entry>Mar 2001</entry>
+     <entry></entry>
+     <entry></entry>
+     <entry></entry>
+     <entry></entry>
+     <entry></entry>
+     <entry></entry>
+     <entry></entry>
+   </row>
+  <row>
+     <entry>Apr 2001</entry>
+     <entry></entry>
+     <entry></entry>
+     <entry></entry>
+     <entry></entry>
+     <entry></entry>
+     <entry></entry>
+     <entry></entry>
+   </row>
+  <row>
+     <entry>Jun 2001</entry>
+     <entry></entry>
+     <entry></entry>
+     <entry></entry>
+     <entry></entry>
+     <entry></entry>
+     <entry></entry>
+     <entry></entry>
+   </row>
+  <row>
+     <entry>May 2001</entry>
+     <entry></entry>
+     <entry></entry>
+     <entry></entry>
+     <entry></entry>
+     <entry></entry>
+     <entry></entry>
+     <entry></entry>
+   </row>
+  <row>
+     <entry>Jun 2001</entry>
+     <entry></entry>
+     <entry></entry>
+     <entry></entry>
+     <entry></entry>
+     <entry></entry>
+     <entry></entry>
+     <entry></entry>
+   </row>
+  <row>
+     <entry>Jul 2001</entry>
+     <entry></entry>
+     <entry></entry>
+     <entry></entry>
+     <entry></entry>
+     <entry></entry>
+     <entry></entry>
+     <entry></entry>
+   </row>
+  <row>
+     <entry>Aug 2001</entry>
+     <entry></entry>
+     <entry></entry>
+     <entry></entry>
+     <entry></entry>
+     <entry></entry>
+     <entry></entry>
+     <entry></entry>
+   </row>
+  <row>
+     <entry>Sep 2001</entry>
+     <entry></entry>
+     <entry></entry>
+     <entry></entry>
+     <entry></entry>
+     <entry></entry>
+     <entry></entry>
+     <entry></entry>
+   </row>
+  <row>
+     <entry>Oct 2001</entry>
+     <entry></entry>
+     <entry></entry>
+     <entry></entry>
+     <entry></entry>
+     <entry></entry>
+     <entry></entry>
+     <entry></entry>
+   </row>
+  <row>
+     <entry>Nov 2001</entry>
+     <entry>92</entry>
+     <entry>1254</entry>
+     <entry></entry>
+     <entry></entry>
+     <entry></entry>
+     <entry></entry>
+     <entry></entry>
+   </row>
+  <row>
+     <entry>Dec 2001</entry>
+     <entry>150</entry>
+     <entry>3373</entry>
+     <entry></entry>
+     <entry></entry>
+     <entry>49</entry>
+     <entry></entry>
+     <entry></entry>
+   </row>
+  <row>
+     <entry>Jan 2002</entry>
+     <entry>221</entry>
+     <entry>503</entry>
+     <entry></entry>
+     <entry></entry>
+     <entry>12</entry>
+     <entry></entry>
+     <entry></entry>
+   </row>
+  <row>
+     <entry>Feb 2002</entry>
+     <entry>177</entry>
+     <entry>3212</entry>
+     <entry>170</entry>
+     <entry>205</entry>
+     <entry>77</entry>
+     <entry></entry>
+     <entry>59</entry>
+   </row>
+  <row>
+     <entry>Mar 2002</entry>
+     <entry>219</entry>
+     <entry>2371</entry>
+     <entry>110</entry>
+     <entry>148</entry>
+     <entry>101</entry>
+     <entry></entry>
+     <entry>61</entry>
+   </row>
+  <row>
+     <entry>Apr 2002</entry>
+     <entry>97</entry>
+     <entry>1625</entry>
+     <entry>97</entry>
+     <entry>152</entry>
+     <entry>90</entry>
+     <entry></entry>
+     <entry>102</entry>
+   </row>
+  <row>
+     <entry>Jun 2002</entry>
+     <entry>764</entry>
+     <entry>3074</entry>
+     <entry>221</entry>
+     <entry>249</entry>
+     <entry>74</entry>
+     <entry>20</entry>
+     <entry>134</entry>
+   </row>
+  <row>
+     <entry>May 2002</entry>
+     <entry>1071</entry>
+     <entry>8283</entry>
+     <entry>326</entry>
+     <entry>438</entry>
+     <entry>173</entry>
+     <entry>44</entry>
+     <entry>228</entry>
+   </row>
+  <row>
+     <entry>Jun 2002</entry>
+     <entry>764</entry>
+     <entry>3074</entry>
+     <entry>221</entry>
+     <entry>249</entry>
+     <entry>74</entry>
+     <entry>20</entry>
+     <entry>134</entry>
+   </row>
+  <row>
+     <entry>Jul 2002</entry>
+     <entry>2090</entry>
+     <entry>23747</entry>
+     <entry>1501</entry>
+     <entry>719</entry>
+     <entry>138</entry>
+     <entry>214</entry>
+     <entry>169</entry>
+   </row>
+  <row>
+     <entry>Aug 2002</entry>
+     <entry>321</entry>
+     <entry>1546</entry>
+     <entry>701</entry>
+     <entry>267</entry>
+     <entry>106</entry>
+     <entry>40</entry>
+     <entry>127</entry>
+   </row>
+  <row>
+     <entry>Sep 2002</entry>
+     <entry>3723</entry>
+     <entry>10220</entry>
+     <entry>1292</entry>
+     <entry>495</entry>
+     <entry>115</entry>
+     <entry>114</entry>
+     <entry>192</entry>
+   </row>
+  <row>
+     <entry>Oct 2002</entry>
+     <entry>7041</entry>
+     <entry>12057</entry>
+     <entry>1403</entry>
+     <entry>891</entry>
+     <entry>113</entry>
+     <entry>154</entry>
+     <entry>275</entry>
+   </row>
+  <row>
+     <entry>Nov 2002</entry>
+     <entry>8055</entry>
+     <entry>27996</entry>
+     <entry>2014</entry>
+     <entry>1289</entry>
+     <entry>317</entry>
+     <entry>187</entry>
+     <entry>484</entry>
+   </row>
+  <row>
+     <entry>Dec 2002</entry>
+     <entry>241</entry>
+     <entry>5937</entry>
+     <entry>1651</entry>
+     <entry>604</entry>
+     <entry>177</entry>
+     <entry>283</entry>
+     <entry>234</entry>
+   </row>
+	</tbody>
+</tgroup>
+</table>

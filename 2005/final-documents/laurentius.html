@@ -1,0 +1,401 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html><head><title>S:t Laurentius Digital Manuscript Library</title><link rel="stylesheet" href="/css-style/html_print.css"/><meta http-equiv="Content-Type" content="text/html; charset=UTF-8"/></head><body><p class="right"><strong>
+	  Back:
+	</strong><a href="documentation.html">Documentation</a><strong>
+		See also:
+	      </strong><a href="jarring.html">Jarring</a></p><div class="box"><h1 class="title"><em>S:t Laurentius Digital Manuscript Library</em></h1><p class="author">
+      Sigfrid
+      Lundberg
+    <br/>
+      Biblioteksdirektion, Lunds universitet
+    <br/><strong>Revision:</strong>$Revision$,
+      <strong>Date:</strong>$Date$,
+      <strong>Editor:</strong>$Author$</p><div class="level1"><h2>Table of contents</h2><ul><li><a href="#top">Background</a></li><li><a href="#">Who is building Laurentius?</a></li><li><a href="#">Where is Laurentius?</a></li><li><a href="#">Where in Laurentius are things</a></li><li><a href="#">How to RUN Laurentius</a></li><li><a href="#">How to UPDATE the Laurentius database?</a><ul><li><a href="#">Updating the image database</a></li><li><a href="#">Updating the bibliographic records</a></li></ul></li><li><a href="#">Imagefile naming conventions</a></li><li><a href="#footnoteshere">
+	    Footnotes
+	  </a></li></ul></div><div class="level1" id="top">
+      <h1 class="level1">Background</h1>
+
+      <p>Laurentius is a catalogue of the Medieval manuscripts at Lund
+	University Library. It contains a database for searching the content of
+	this collection and also scanned images of a better part of it -- as of
+	writing this (May 2005) 19748 images with the extension .tiff, each of
+	which is available in high resolution (tiff), low resolution (jpeg) and
+	small thumbnails (gif).</p> 
+
+      <p>The manuscripts using a descriptive format -- Master (XML-based)
+	which is thoroughly documented <sup><a href="#note-master">1</a></sup>
+	The images are produced by a photographer down at the main
+	library.</p> 
+
+    </div><div class="level1">
+      <h1 class="level1">Who is building Laurentius?</h1>
+
+      <table>
+	<caption>Contributors to the Laurentius service</caption>
+	
+	  <tr><td>Images</td><td>Bengt Melliander</td><td>bengt.melliander@lub.lu.se</td></tr><tr><td>Cataloging</td><td>Eva Nylander</td><td>eva.nylander@lub.lu.se</td></tr><tr><td>Search engine</td><td>Sigfrid Lundberg</td><td>sigfrid.lundberg@lub.lu.se</td></tr><tr><td>Image database</td><td>Mattias Borell</td><td>mattias.borell@lub.lu.se</td></tr>
+	
+      </table>
+    </div><div class="level1">
+      <h1 class="level1">Where is Laurentius?</h1>
+
+      <p>Laurentius lives on
+	<a href="http://laurentius.lub.lu.se/">http://laurentius.lub.lu.se/</a>.
+	To make sure that it lives and is healthy it should be sufficient to
+	make a simple search for a single word. Let's say prayer (a click here
+	to do that). Laurentius is an alias for hex.lub.lu.se. Through NIS its
+	home can be reached on /home/scriptorium/</p>
+
+    </div><div class="level1">
+      <h1 class="level1">Where in Laurentius are things</h1>
+
+      <p>Running find on the laurentius file system gives (among a lot of
+	stuff that are of mainly archeological interest) the directories
+	below</p> 
+
+      <table>
+	<caption>Types of content and directories carrying them</caption>
+	
+	  <tr><td>Incoming images</td><td>
+		<pre>
+		  /home/scriptorium/upload
+		</pre>
+	      </td></tr><tr><td>The web site</td><td>
+		<pre>
+		  /home/scriptorium/htdocs
+		</pre>
+	      </td></tr><tr><td>Manuscript descriptions in HTML</td><td>
+		<pre>
+/home/scriptorium/htdocs/volumes
+
+/home/scriptorium/htdocs/volumes/Dep_1
+/home/scriptorium/htdocs/volumes/Dep_1/detailed
+
+		  ...
+
+/home/scriptorium/htdocs/volumes/Mh_1
+/home/scriptorium/htdocs/volumes/Mh_1/detailed
+/home/scriptorium/htdocs/volumes/Mh_2
+/home/scriptorium/htdocs/volumes/Mh_2/detailed
+		  ...
+
+/home/scriptorium/htdocs/volumes/Mh_60/detailed
+/home/scriptorium/htdocs/volumes/Mh_61
+/home/scriptorium/htdocs/volumes/Mh_61/detailed
+/home/scriptorium/htdocs/volumes/Mh_62
+/home/scriptorium/htdocs/volumes/Mh_62/detailed
+		</pre>
+	      </td></tr><tr><td>Some scripts live in cgi-bin</td><td>/home/scriptorium/cgi-bin</td></tr><tr><td>General maintenance scripts live here</td><td>/home/scriptorium/bin</td></tr><tr><td>Image database is in the storage directory</td><td>
+		<pre>
+/home/scriptorium/storage
+/home/scriptorium/storage/Mh_1
+/home/scriptorium/storage/Mh_2
+/home/scriptorium/storage/Mh_3
+/home/scriptorium/storage/Mh_4
+
+	  ...
+
+		</pre>
+	      </td></tr><tr><td>The search engine lives under 'search' (as you might have
+		guessed)</td><td>/home/scriptorium/search</td></tr><tr><td>The source records lives in here</td><td>/home/scriptorium/search/RECORDS</td></tr><tr><td>The source files for zebra</td><td>
+		<pre>
+/home/scriptorium/search/item-database
+/home/scriptorium/search/item-database/Mh_1
+/home/scriptorium/search/item-database/Mh_2
+
+		  ...
+
+/home/scriptorium/search/item-database/Mh_64
+/home/scriptorium/search/item-database/Dep_1
+		</pre>
+	      </td></tr><tr><td>Search engine maintenace scripts</td><td>/home/scriptorium/search/bin</td></tr><tr><td>A demonstrator made for the Vatican Library.</td><td>/home/scriptorium/search/VATIKANEN</td></tr><tr><td>XSLT scripts lives seperately</td><td>/home/scriptorium/search/xslt</td></tr><tr><td>Zebra has its own place as well</td><td>/home/scriptorium/search/zebra</td></tr><tr><td>Sort of reusable perl code</td><td>/home/scriptorium/lib</td></tr><tr><td>Misc project info</td><td>/home/scriptorium/project_info</td></tr><tr><td>Password files</td><td>/home/scriptorium/htaccess</td></tr><tr><td>Database files used by misc perl scripts</td><td>/home/scriptorium/dbfiles</td></tr>
+	
+      </table>
+
+    </div><div class="level1">
+      <h1 class="level1">How to RUN Laurentius</h1>
+
+      <p>The Laurentius services starts at system boot. It depends on two servers,
+	an Apache web server and a fairly rusty version of Zebra (the free version,
+	from before Indexdata made the commercial version). They start at the same
+	run levels.</p>
+
+      <p>The two servers are started, as usual, with scripts in /etc/init.d namely
+	apachectl and zebra-laurentius</p>
+
+    </div><div class="level1">
+
+      <h1 class="level1">How to UPDATE the Laurentius database?</h1>
+
+      <p>Laurentius consists of two components -- the manuscript descriptions and the
+	image database. The two are connected using  a convention for the naming
+	of images (see ./technical_documentation/image_naming_convention.text).</p>
+
+      <div class="level2">
+	<h2 class="level2">Updating the image database</h2>
+
+	<p>Images arrive by ftp to the update directory. Bengt usually puts 'recto' and 'verso'
+	  images in seperate directories. These have to be renamed according to the naming
+	  conventions, and moved to the appropriate storage directory.</p>
+
+	<p>Deeper explanation (Mattias, 2003-06-12):</p>
+
+	<ol>
+	  <li>
+	    All images must be renamed after the given naming-scheme (see separate
+	      entry and look at examples). There are a few 'rename'-scripts in the bin-dir
+	      that apply to different situations - you should really read through them to
+	      choose the right one, I'm afraid. Most of them let you do dry-runs of
+	      the renaming which might be helpful.
+	  </li>
+
+	  <li>The renamed tiff-originals must be duplicated as
+	      jpegs for online viewing, as well as gif-thumbnails for browsing
+	      of manuscripts. /home/scriptorium/bin/untiff is a tcsh-script
+	      that can work as an example. Please note that geometries might
+	      have to be altered, as the tiff-images size &amp; geometry can
+	      differ between (and even within!) volumes...
+	  </li>
+
+	  <li>A few files need to be created/updated for each volume:
+
+	    <ul>
+	      <li>/home/scriptorium/storage/VOLUME/.images_per_row.txt
+		Contains '1' or '2', 2 being the normal &quot;one image per
+		  page&quot; setup, 1 telling us that the images of this volume are
+		  of two pages each.
+	      </li>
+
+	      <li>/home/scriptorium/storage/VOLUME/.images_in_order.txt
+		  All images that contain folios of any kind are listed in order
+	      </li>
+
+	      <li>/home/scriptorium/storage/VOLUME/.bindings_in_order.txt
+		  - Any images of the volumes binding listed like this:
+		<pre>
+Mh_43b-ucext
+Mh_43b-lcext
+Mh_43b-ucint
+Mh_43b-lcint
+Mh_43b-spine
+Mh_43b-foredge
+Mh_43b-head
+Mh_43b-tail
+		</pre>
+	      </li>
+	      <li>
+		To simplify a consistent display of these images, please fill
+		  out any single blanks (only for volumes with separate images for
+		  recto &amp; verso):
+		<pre>
+Mh_37-ucext
+Mh_37-lcext
+BLANK
+Mh_37-lcint
+Mh_37-spine
+Mh_37-foredge
+Mh_37-head
+Mh_37-tail
+		</pre>
+	      </li>
+	      <li>
+		
+		  /home/scriptorium/storage/VOLUME/.preliminaries_in_order.txt
+		  - Any images of the volumes preliminaries, in display-order
+		
+		
+		  Also here some &quot;padding&quot; might be needed to get the display
+		  &quot;balanced&quot; enough...:
+		
+		<pre>
+BLANK
+Mh_37-f_I_r
+Mh_37-f_I_v
+BLANK
+		</pre>
+	      </li>
+	      <li>
+		
+		  /home/scriptorium/storage/VOLUME/.image_details.txt
+		  - A mapping: IMAGE\tIMAGE_DETAIL
+		  Maps all images that have details.
+		
+	      </li>
+	    </ul>
+	  </li>
+	  <li>
+	    A few scripts (/home/scriptorium/bin) should be run (in this
+	      order): 
+	    <ul>
+	      <li>
+		
+		  split-images.pl --volume=VOLUME
+		  -- This is only needed when .images_per_row.txt contains '1'.
+		
+	      </li>
+	      <li>
+		
+		  create_volume_dbs.pl --volume=VOLUME
+		  -- This creates the basic db-files needed for each volume
+		  (image-order =&gt; image-name and vice-versa...)
+	      </li>
+	      <li>
+		
+		  create_volume_index.pl [OPTIONS]
+		  -- With the right options, this script will build all
+		  (x)html-pages needed for browsing a volume. It calls a few
+		  other scripts and does some XML/XSLT-work to extract
+		  text-data for display with the images. 
+		
+		Build pages for specific volume:
+		<pre>
+		   create_volume_index.pl --volume=VOLUME --mapfiles --subsets
+		</pre>
+		Build pages for all volumes:
+		<pre>
+		  create_volume_index.pl --mapfiles --subsets
+		</pre>
+	      </li>
+	    </ul>
+	  </li>
+	</ol>
+      </div>
+      <div class="level2">
+	<h2 class="level2">Updating the bibliographic records</h2>
+
+	<p>Eva Nylander (and  some of her co-workers) writes the records
+	  using some XML authoring tool. Sigfrid gets them as mail
+	  attachments. To put new or update records in involves the
+	  following</p> 
+
+      <ul>
+	  <li>
+	    Validate the documents. For historical reasons, this is
+	      currently done as follows.
+	    <ol type="a">
+	      <li>
+		This is  a time-consuming and sometimes tedious task.
+		  Create an empty directory, copy the files into
+		<pre>
+		  /home/scriptorium/search/RECORDS/
+		</pre>
+		Note that we have the DTD among these files, and
+		  a file called all_records.xml (which merges all the records
+		  into one document).
+	      </li>
+	      <li>
+		Unpack the new files and put them into the
+		  directory. First, Make sure that the new files are well
+		  formed XML. For example:
+		<pre>
+		  xmllint file.xml
+		</pre>
+		It happens occasionally that these files contain
+		  undefined entities. Most entities found in Laurentius are
+		  already defined in all_records.xml, so  it is easier to
+		  xmllint all_records.xml than the individual 
+		Then start correcting!
+	      </li>
+	      <li>
+		When the records are well-formed, then it is time to make
+		  them valid as well. Please note that validity is not
+		  necessary for the records to work but it does help. There are
+		  records that doesn't validate today. It is  hard to give
+		  exact guidelines as to what kind of errors are acceptable and
+		  which are not.
+	      </li>
+	    </ol>
+	  </li>
+	  <li>
+	    Go to /home/scriptorium/search/RECORDS/ and check in and lock
+	      the current records using rcs, that is ci -l *xml. Some may not
+	      have change, som might have. Copy the new records into the
+	      directory.
+	  </li>
+	  <li>
+	    Update the zebra database.
+	    <ol type="a">
+	      <li>
+		ssh to hex
+	      </li>
+	      <li>
+		Go to the search directory and perform the following tasks
+		  to rebuild various databases and to index the
+		  database:
+		<pre>
+		  cd /home/scriptorium/search/
+		  bin/clear-items.sh
+		  bin/item-indexer.pl
+		  bin/mh_cleaner.pl
+		  bin/mh_transformer.pl
+		  zebra/run_zebraidx
+		</pre>
+	      </li>
+	      <li>
+		Rebuild the user interfaces and browsing structures:
+		<pre>
+		  cd /home/scriptorium/
+		  bin/create_volume_index.pl --mapfiles --subsets
+		</pre>
+	      </li>
+	    </ol>
+	  </li>
+	</ul>
+      </div>
+    </div><div class="level1">
+      <h1 class="level1">Imagefile naming conventions</h1>
+
+      <pre>
+
+Från &quot;utsidan&quot;:
+===============
+* Upper cover exterior:	ucext
+* Upper cover interior:	ucint
+* Lower cover interior:	lcint
+* Lower cover exterior:	lcext
+* Foredge:	foredge
+* Spine:	spine
+* Head:	head
+* Tail:	tail
+
+Bladen, 'folios':
+=================
+* Vanliga sidor, recto &amp; verso:	f_&lt;NR&gt;_(r|v)
+* &quot;Försättsblad&quot; (preliminaries), recto &amp; verso:	f_&lt;RNR&gt;_(r|v)
+[preliminaries namnges &amp; identifieras med romerska siffror, RNR här...]
+
+Specialfall:
+============
+* Uppslag - kan vara en blandning av de flesta redan
+uppräknade typerna, t.ex 'ucint + prel Ir' eller '78v + prel IIr'
+* Originalpaginering:	ersätter 'f' med 'p'
+* Detaljer - även ett uppslag kan ha detaljer...:	-detail
+
+
+Så, med hänsyn till ovanstående, bör följande exempel fungera:
+
+Volym 98, prel 2 verso + folio 1 recto:
+  Mh_98_f_II_v-f_1_r
+
+Volym 24, detalj av främre pärmens utsida:
+  Mh_24_ucext-detail_2
+
+Volym 23, folio 231 recto:
+  Mh_23_f_321a_r
+  
+
+Utsidan använder de ovan givna 8 namnen.
+En sida definieras som : (f|p)_(NR|RNR)(\w)_(r|v)
+Den extra bokstaven (\w) beror på sidor som '432b' &amp; sånt.
+
+Ett uppslag är en kombination av antingen 2 sidor, eller 1 sida
+och 'ucint' || 'lcint'. Kombinationen separeras med '-'.
+
+Detaljer är ett möjligt tillägg till sidor/utsida/uppslag, anges
+som suffix: -detail_&lt;NR&gt;.
+
+
+      </pre>
+
+    </div><div class="level1"><h1 id="footnoteshere">Notes</h1><p id="note-master"><strong class="number">1</strong> <em><a href="http://www.tei-c.org/Master/Reference/">Master</a>
+	</em><br/></p></div></div></body></html>

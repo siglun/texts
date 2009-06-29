@@ -1,0 +1,22 @@
+<h1>On the S:t Laurentius Digital manuscript library</h1>
+
+<ul>
+<li>The <a href="http://laurentius.lub.lu.se/">search engine
+      documented</a>. Read the <a href="./laurentius.pdf">paper</a>. It is
+    using metafont and dvi, so the typography doesn't look that good on screen,
+  but is nice in print.</li>
+
+<li>The XML source <a href="./laurentius.xml">laurentius.xml</a> is rendered
+    automatically as html. To see it, use <a
+      href="./laurentius.xml?passthru=1">./laurentius.xml?passthru=1</a>.
+    Please note that there is a dirty hack in this, which makes the xml invalid
+    -- the entities &amp;mdash; and &amp;ndash; They are recasted as empty
+    elements, e.g., &lt;mdash/&gt; such that I can catch them using xslt. Cf <a
+  href="./SCRIPTS/tei_to_roff.xsl">./SCRIPTS/tei_to_roff.xsl</a> and <a
+      href="../../xml-style-library/tei.xsl">my default tei to html</a> style
+    sheet.</li> 
+
+<li>A worked example for printing TEI XML using groff.
+    Download <a href="./laurentius.tar.gz">laurentius.tar.gz</a></li>
+
+</ul>

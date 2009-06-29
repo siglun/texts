@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<html xmlns="http://www.w3.org/1999/xhtml">
+  <head>
+    <title>Ediffah</title>
+    <link rel="stylesheet" href="/css-style/html.css" />
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+  </head>
+  <body>
+
+    <div class="left_box">
+      <p><a href="../">2004</a></p>
+      <!--#include virtual="../navigation.html" -->
+    </div>
+
+    <div class="right_box">
+
+      <a href="http://www.ediffah.org/"><img src="ediffah.jpg" align="right"
+      border="0" alt=""/></a>
+
+      <h1>Ediffah - En digital infrastruktur för forskningsbibliotekens arkiv- och
+      handskriftssamlingar</h1> 
+
+      <p>Projektets centrala uppgift är att skapa ett nätverk som tillsammans
+      kan skapa riktliner för katalogisering av arkiv- och handskrifter, och
+      ett sökgränssnitt för som passar för detta material. Idén är att använda
+      EAD för det ändamålet. Ytterligare information om projektet finns på <a
+      href="http://www.ediffah.org/">projektsajten</a> och i <a
+      href="../arkiv_bibliotek">ansökan</a>.</p>
+
+    </div>
+  </body>
+</html>

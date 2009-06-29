@@ -1,0 +1,120 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE article PUBLIC "-//OASIS//DTD DocBook XML V4.1.2//EN"
+  "http://www.oasis-open.org/docbook/xml/4.1.2/docbookx.dtd" [
+]>
+
+<?xml-stylesheet
+      href="./db_special.xsl"
+      type="text/xsl"
+      media="screen"
+      title="default" ?>
+
+<article lang="sv">
+  <articleinfo>
+    <title>Cataloging and publishing in XERXES and Scripa</title>
+    <author>
+      <firstname>Sigfrid</firstname>
+      <surname>Lundberg</surname>
+    </author>
+    <affiliation>
+      <orgname>Biblioteksdirektion, Lunds universitet</orgname>
+    </affiliation>
+    <revhistory>
+      <revision>
+	<revnumber>$Revision$</revnumber>
+	<date>$Date$</date>
+	<authorinitials>$Author$</authorinitials>
+      </revision>
+    </revhistory>
+    <indexterm>
+      <primary><ulink url="documentation.xml">Documentation</ulink></primary>
+      <seealso><ulink url="jarring.xml">Jarring</ulink></seealso>
+      <seealso><ulink url="ediffah.xml">Ediffah</ulink></seealso>
+    </indexterm>
+  </articleinfo>
+
+  <sect1  id="top">
+    <title>Introduction</title>
+
+    <para>
+
+    </para>
+  </sect1>
+
+  <sect1 id="we_is_the_code">
+    <title>Where is the code maintained?</title>
+
+    <para>This is the code repository for the cataloging tool used in XERXES
+      and Scripta Academica Lundensia. The problem addressed is how to share as 
+      much code between the services, and still be able to maintain the
+      differences without too much trouble. The code store contains
+      directories with code with various degree of specialization as
+      follows:</para>
+
+    <table>
+      <title>The code repository of the cataloging tool</title>
+      <tgroup cols="2">
+	<tbody>
+	  <row>
+	    <entry>
+	      <emphasis>Directory</emphasis>
+	    </entry>
+	    <entry>
+	      <emphasis>Content</emphasis>
+	    </entry>
+	  </row>
+	  <row>
+	    <entry>generic</entry>
+	    <entry>Common code and files</entry>
+	  </row>
+	  <row>
+	    <entry>author</entry>
+	    <entry>Code used by authors only in
+			both services</entry>
+	  </row>
+	  <row>
+	    <entry>staff</entry>
+	    <entry>Code used by staff only in
+			both services</entry>
+	  </row>
+	  <row>
+	    <entry>scripta/generic</entry>
+	    <entry>Common code and files in scripta</entry>
+	  </row>
+	  <row>
+	    <entry>scripta/author</entry>
+	    <entry>Code used by authors only in scripta</entry>
+	  </row>
+	  <row>
+	    <entry>scripta/staff</entry>
+	    <entry>Code used by staff only in scripta</entry>
+	  </row>
+	  <row>
+	    <entry>xerxes/generic</entry>
+	    <entry>Common code and files in xerxes</entry>
+	  </row>
+	  <row>
+	    <entry>xerxes/author</entry>
+	    <entry>Code used by authors only in xerxes</entry>
+	  </row>
+	  <row>
+	    <entry>xerxes/staff</entry>
+	    <entry>Code used by staff only in xerxes</entry>
+	  </row>
+	</tbody>
+      </tgroup>
+    </table>
+
+    <para>The program ./bin/create_services.pl searches these directories and
+      creates symbolic links to the content here in the directories used in
+      the actual services. In searching it first looks in the generic
+      directory to identify files, then it looks corresponding directories
+      containing specialized code. If it finds such code it will use that,
+      and if there is such code, it will take that instead.</para>
+
+    <para>The goal is to have almost everything except configuration files in
+      the generic directory.</para> 
+
+  </sect1>
+
+</article>

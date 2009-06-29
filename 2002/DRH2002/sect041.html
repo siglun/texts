@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="ISO-8859-1" ?>
+<!DOCTYPE html PUBLIC '-//W3C//DTD XHTML 1.0 Transitional//EN' "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd" >
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+
+  <head>
+
+    <title>Laurentius: section sect041</title>
+
+    <meta name="DC.creator" content="Lundberg, Sigfrid" />
+
+  <body bgcolor="#ffffff">
+
+<h2><a name="sect041">5.1</a> Normalizing mark-up</h2>
+
+<h3>Transformation of XML source ...</h3>
+
+<pre>
+&lt;document-like&gt;
+   &lt;p&gt;That means that someone (actually it was
+   &lt;name type="person"&gt;Sigfrid Lundberg&lt;/name&gt;)
+   cheated when he late autumn &lt;date&gt;2001&lt;/date&gt;
+   pushed a lot of XML data into a full-text Z39.50 server&lt;/p&gt;
+&lt;/document-like&gt;
+</pre>
+
+<h3>... into something more searchable</h3>
+
+<pre>
+&lt;record-like&gt;
+   &lt;text&gt;That means that someone (actually it was&lt;/text&gt;
+   &lt;name-person&gt;Sigfrid Lundberg&lt;/name-person&gt;
+   &lt;text&gt;) cheated when he late autumn&lt;/text&gt;
+   &lt;date&gt;2001&lt;/date&gt;
+   &lt;text&gt;pushed a lot of XML data into a
+        full-text Z39.50 server&lt;/text&gt;
+&lt;/record-like&gt;
+</pre>
+
+<h3>... but there are problematic combinations of syntax and semantics</h3>
+
+<pre>
+&lt;p&gt;The search engine in
+&lt;title&gt;&lt;name type="person"&gt;Sigfrid Lundberg&lt;/name&gt;'s
+database&lt;/title&gt; is using Z39.50 for access&lt;/p&gt;
+</pre>
+
+    <p align="right"><a href="sect040.html">&lt;&lt; prev</a> |
+                     <a href="sect050.html">next &gt;&gt;</a></p>
+
+    
+<hr />
+<pre><small>$Id$</small></pre>
+
+    
+
+  </body>
+
+</html>
+

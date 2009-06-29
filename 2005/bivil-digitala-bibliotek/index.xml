@@ -1,0 +1,280 @@
+<?xml version="1.0" encoding="iso-8859-1"?>
+<!DOCTYPE article PUBLIC "-//OASIS//DTD DocBook XML V4.1.2//EN" "http://www.oasis-open.org/docbook/xml/4.1.2/docbookx.dtd" [
+    ]>
+<article lang="sv">
+  <articleinfo>
+    <title>Digitala biblioteket</title>
+    <author>
+      <firstname>Sigfrid</firstname>
+      <surname>Lundberg</surname>
+      <affiliation>
+	<orgname>Biblioteksdirektionen,
+	Lunds universitet</orgname>
+      </affiliation>
+    </author>
+    <revhistory>
+      <revision>
+	<revnumber>$Revision$</revnumber>
+	<date>$Date$</date>
+	<authorinitials>$Author$</authorinitials>
+      </revision>
+    </revhistory>
+  </articleinfo>
+
+  <abstract>
+    <title>Föreläsningsanteckningar</title>
+    <para>
+      Föreläsningsanteckningar till föreläsning 8 mars 2005 13.00-15.00 om
+      Digitala Bibliotek inom kursen <emphasis>Kunskapsförmedling</emphasis> vid <ulink
+	url="http://www.kult.lu.se/?page=2">BIVIL</ulink>. 
+    </para>
+  </abstract>
+
+  <sect1 id="bibliotek">
+    <title>Bibliotek</title>
+    <para>Ett bibliotek är en organisation som</para>
+    <itemizedlist>
+      <listitem>
+	<para>samlar</para>
+      </listitem>
+      <listitem>
+	<para>bevarar</para>
+      </listitem>
+      <listitem>
+	<para>strukturerar</para>
+      </listitem>
+      <listitem>
+	<para>tillgängliggör</para>
+      </listitem>
+    </itemizedlist>
+    <para>informationsobjekt; den nyttighet som biblioteket tillgängliggör
+      brukar kallas för en samling. Innehållet i samlingen,
+      informationsobjekten, kännetecknas typiskt av att de</para>
+
+    <itemizedlist>
+      <listitem>
+	<para>har begränsad upplaga</para>
+      </listitem>
+      <listitem>
+	<para>är relativt kostsamma</para>
+      </listitem>
+      <listitem>
+	<para>är utrymmeskrävande och svåra att hitta</para>
+      </listitem>
+    </itemizedlist>
+
+    <para>Snart sagt varje bibliotek i världen är organiserat utifrån
+      antagandet att informationsobjekt har dessa egenskaper, samt att det
+      existerar en efterfrågan efter dessa objekt.</para>
+
+  </sect1>
+
+  <sect1 id="users">
+    <title>Biblioteksanvändare</title>
+    <para>Biblioteksanvändare är personer som har behov av
+      informationsobjekt ur ett eller flera biblioteks samlingar.</para>  
+  </sect1>
+
+  <sect1 id="sponsors">
+    <title>Finansiär</title>
+    <para>är den som bekostar ett biblioteks aktiviteter.</para>
+  </sect1>
+
+  <sect1 id="internet">
+    <title>Internet</title>
+
+    <sect2 id="history">
+      <title>Historisk återblick</title>
+      <para><ulink url="ftp://ftp.rfc-editor.org/in-notes/rfc2235.txt">Hobbes'
+	  Internet Timeline</ulink></para>
+    </sect2>
+
+    <sect2 id="FAQs">
+      <title>Vanliga frågor om Internet</title>
+
+      <itemizedlist>
+	<listitem>
+	  <para>Vad är Internet?</para>
+	</listitem>
+	<listitem>
+	  <para>Vem äger Internet? Vem ringer man när Internet är nere?</para>
+	</listitem>
+	<listitem>
+	  <para>Vem styr och kontrollerar Internet?</para>
+	  <itemizedlist>
+	    <listitem>
+	      <para><ulink url="http://www.isoc.org/">Internet
+		  Society</ulink></para>
+	    </listitem>
+	    <listitem>
+	      <para><ulink url="http://www.ietf.org">Internet Engineering Task
+		  Force</ulink></para>
+	    </listitem>
+	  </itemizedlist>
+	</listitem>
+      </itemizedlist>
+    </sect2>
+
+    <sect2 id="RFC">
+      <title>RFC</title>
+
+      <blockquote>The Requests for Comments (RFC) document series is a set of
+	technical and organizational notes about the Internet (originally the
+	ARPANET), beginning in 1969. Memos in the RFC series discuss many
+	aspects of computer networking, including protocols, procedures,
+	programs, and concepts, as well as meeting notes, opinions, and
+	sometimes humor. (<ulink url="http://www.rfc-editor.org/">RFC
+	  Editor</ulink>)</blockquote>
+
+    </sect2>
+
+    <sect2 id="rfc-classics">
+      <title>Några klassiska Requests for comments</title>
+      <para><ulink url="ftp://ftp.rfc-editor.org/in-notes/rfc3271.txt">RFC 3271:
+	  The Internet is for Everyone</ulink></para>
+
+      <para><ulink url="ftp://ftp.rfc-editor.org/in-notes/rfc89.txt">RFC 89:
+	  Some Historic Moments in Networking</ulink></para>
+
+      <para><ulink url="ftp://ftp.rfc-editor.org/in-notes/rfc2200.txt">RFC
+	  2200: Internet Official Protocol Standards</ulink></para>
+
+      <para><ulink url="ftp://ftp.isi.edu/in-notes/rfc2026.txt">RFC 2026: The
+	  Internet Standards Process</ulink></para>
+
+    </sect2>
+
+  </sect1>
+
+  <sect1 id="digital-libraries">
+    <title>Digitala bibliotek</title>
+
+    <para>Ett digititalt bibliotek bygger på biblioteket som koncept för att
+      via Internetprotokoll leverera digitalt innehåll</para>
+
+    <sect2 id="protocols">
+      <title>Internetprotokoll: WAIS, gopher, http...</title>
+
+      <para>För sökning och leverans av informationsobjekt</para>
+
+    </sect2>
+
+    <sect2 id="contents">
+      <title>Digitalt innehåll: html, xml, pdf, gif, jpg...</title>
+
+      <para>Lika dyrt att producera som annat. Upplagan är obegränsad och
+	materialet är varken dyrt att lagra eller särskilt svårt att
+	hitta.</para>
+
+    </sect2>
+
+    <para><ulink url="http://www.openp2p.com/lpt/a/4563">Intervju med Brewster
+	Kahle</ulink></para> 
+
+  </sect1>
+
+  <sect1 id="content-owners">
+    <title>Vem äger innehållet på Nätet?</title>
+
+    <para>Det varierar. Copyright gäller på Internet som överallt
+      annars. Problem:</para>
+
+    <itemizedlist>
+      <listitem>
+	<para>Ägande av upphovsrätt lönsamt, men det är bara undantagsvis det
+	  går att försvara IPR framgångsrikt.</para>
+      </listitem>
+      <listitem>
+	<para>Det är relativt lätt att etablera sig på Nätet. En framgångsrik
+	  etablering där kan göra affärsverksamhet utanför nätet
+	  lönsamma.</para>
+	<itemizedlist>
+	  <listitem>
+	    <para>Musik (jfr <ulink url="http://www.norecordlabel.com/">No
+		Record Label</ulink>)</para>
+	  </listitem>
+	  <listitem>
+	    <para>Litteratur</para>
+	  </listitem>
+	  <listitem>
+	    <para>Vetenskap</para>
+	  </listitem>
+	</itemizedlist>
+      </listitem>
+    </itemizedlist>
+
+    <sect2 id="open-licenses">
+      <title>Open Licenses</title>
+      <itemizedlist>
+	<listitem>
+	  <para>
+	  <ulink url="http://www.gnu.org/philosophy/license-list.html">GNU
+	    Licenses</ulink>
+	</para>
+      </listitem>
+      <listitem>
+	<para>
+	  <ulink url="http://www.gnu.org/licenses/fdl.html">GNU
+	    Free Documentation License (FDL)</ulink>
+	</para>
+      </listitem>
+      <listitem>
+	<para>
+	  <ulink url="http://creativecommons.org/">Creative Commons</ulink>
+	</para>
+      </listitem>
+    </itemizedlist>
+
+    </sect2>
+
+  </sect1>
+
+
+
+  <sect1 id="from-scriptorium">
+    <title>Från scriptorium...</title>
+    <para></para>
+  </sect1>
+
+  <sect1 id="to-digital-libraries">
+    <title>... till det digitala biblioteket</title>
+
+    <itemizedlist>
+      <listitem>
+	<para>Webindex</para>
+      </listitem>
+      <listitem>
+	<para>Ämnesportaler</para>
+      </listitem>
+      <listitem>
+	<para>Publiceringssystem</para>
+      </listitem>
+      <listitem>
+	<para>Personaliserat resurscentrum -- mitt kursbibliotek</para>
+      </listitem>
+      <listitem>
+	<para>Virtuella lärandemiljöer</para>
+      </listitem>
+      <listitem>
+	<para>Virtuella forskningsmiljöer</para>
+      </listitem>
+    </itemizedlist>
+
+
+  </sect1>
+
+
+ <sect1 id="back-to-the scriptorium">
+    <title>... tillbaka till scriptorium</title>
+    <para></para>
+  </sect1>
+
+  <sect1 id="from-darkage-to-darkage">
+    <title>Från dark age till dark age?</title>
+    <para></para>
+  </sect1>
+
+
+
+
+</article>

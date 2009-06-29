@@ -1,0 +1,6 @@
+AddDescription "S:t Laurentius digital manuscript library" Laurentius
+AddDescription "XML encoding for Open URL resolvers" ServiceList
+AddDescription "Metadata for dissertations in Lund" Scripta
+AddDescription "Master XML, used in Laurentius" Master
+
+

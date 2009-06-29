@@ -1,0 +1,21 @@
+<html>
+  <head>
+    <title>Computing by candle light</title>
+    <link rel='stylesheet' href='/css-style/html.css' type="text/css" />
+  </head>
+  <body>
+
+   <!--#include virtual="./navigate_images.html" -->
+
+   <div class="right_box">
+     <p>
+      <a href="laurentius.png">
+	<img width="100%" src="laurentius.png"
+	  alt="Lund &amp; the cathedral" />
+      </a>
+    </div>
+  </body>
+</html>
+
+
+

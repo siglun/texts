@@ -1,0 +1,201 @@
+not:ASKEN	The ASKen project <http://asken.hsv.se/>
+not:CHIC	Cooperative Hierarchical Indexing Coordination <http://www.terena.nl/task-forces/tf-chic/>
+not:robotstxt	A Standard for Robot Exclusion. <http://www.robotstxt.org/wc/norobots.html>
+not:webmastersguide	   The Noble Art of Being Indexed or the Webmaster's Guide to Harvesting Robots <http://nwi.lub.lu.se/web_masters_guide.html>
+not:Combine	The Combine Harvesting Robot <http://www.lub.lu.se/combine/>
+not:CombineREADME	The Combine README <http://www.lub.lu.se/combine/dist/README-v1.1.txt>
+not:CombineUsersguide	Combine User's Guide <http://www.lub.lu.se/combine/docs/uguide.html>
+not:CombineTechguide	Yong, Tsao: Combine: A Distributed Open System Architecture for WWW Resource Harvesting and Indexing System<http://www.lub.lu.se/combine/docs/uguide.html>
+not:Configtool	Unesco Regional Web Index Config Tool <http://nwi.dtv.dk/UNESCO/Configtool.html>
+not:Copyleft	General Public License <http://www.gnu.org/copyleft/gpl.html>
+not:DBSGER		Deutscher Bildungs-Server - German Educational Resources <http://dbs.schule.de/indexe.html>
+not:DC			Dublin Core Metadata Initiative <http://purl.org/DC/>
+not:DCRelationsWorkingGroup	The DC Relations Working Group <http://purl.oclc.org/metadata/dublin_core/wrelationdraft.html>
+not:DCGRAMMER	T. Baker, 2000. A Grammar of Dublin Core <http://www.gmd.de/People/Thomas.Baker/DC-Grammar.html>
+not:ABCMAP		J. Hunter, 2000. Implementing Metadata Interoperability using XSLT and the ABC Event Model. <http://archive.dstc.edu.au/RDU/staff/jane-hunter/harmony/mappings.html>
+not:ABCHARMONY		Harmony <http://www.ilrt.bris.ac.uk/discovery/harmony/>
+not:ABC			D. Brickley, J. Hunter and C. Lagoze, 1999. ABC -- A Logical Model for Metadata Interoperability <http://www.ilrt.bris.ac.uk/discovery/harmony/docs/abc/abc_draft.html>
+not:ABCPROJECT		
+not:DTUDTV	DTU demonstration page for evaluation <http://nwi.dtv.dk/dtudtv.html>
+not:EUN			The European Schoolnet EUN <http://www.eun.org>
+not:EUNengine		EUN search engine demo <http://www.eun.org/vs/>
+not:EUNmeta		The EUN Metadata Element Set <http://www.lub.lu.se/~gertrud/euc/userguide.html#8>
+not:EUNmeta2		The EUN Metadata Element Set <http://www.educat.hu-berlin.de/~kluck/datahandbook_V_300.htm#_Toc454889610>
+not:EdNA		Education Network Australia <http://www.edna.edu.au/EdNA/>
+not:EdNAcitation	Background on Metadata and EdNA <http://www.edna.edu.au/edna/owa/info.getpage?sp=eec099eeeeeb&pagecode=5213#how>
+not:EdNAwizard		EdNA Metadata Wizard <http://www.edna.edu.au/edna/owa/itemwizard.metadata?sp=eec099eeeeeb>
+not:Formatscheme=IMT		Internet Media Types <ftp://ftp.isi.edu/in-notes/iana/assignments/media-types/>
+not:GEM		The Gateway to Educational Materials <http://gem.syr.edu/>
+not:GEMDatemandatory	GEM: Date Metadata Element <http://gem.syr.edu/Workbench/Metadata/meta_qualifiers_date.html>
+not:GEMDateoptional	GEM: Date Metadata Element <http://gem.syr.edu/Workbench/Metadata/meta_qualifiers_date.html#optional>
+not:GEMIdentifiermandatory	GEM: Identifier Metadata Element <http://gem.syr.edu/Workbench/Metadata/meta_qualifiers_identifier.html>
+not:GEMIdentifieroptional	GEM: Identifier Metadata Element <http://gem.syr.edu/Workbench/Metadata/meta_qualifiers_identifier.html#optional>
+not:GEMPublishermandatory	GEM: Publisher Metadata Element <http://gem.syr.edu/Workbench/Metadata/meta_qualifiers_publisher.html>
+not:GEMPublisheroptional	GEM: Publisher Metadata Element <http://gem.syr.edu/Workbench/Metadata/meta_qualifiers_publisher.html#optional>
+not:IDaps	Index Data Aps <http://www.indexdata.dk/>
+not:IMS		Instructional Management Systems <http://www.imsproject.org/>
+not:IMSLocation		IMS Metadata Dictionary <http://www.imsproject.org/textdictionary.html#Location>
+not:IMSResourceIdentifier	IMS Metadata Dictionary <http://www.imsproject.org/textdictionary.html#Catalog ID>
+not:IMSbackground		IMS Background <http://www.imsproject.org/background.html>
+not:IMSdictionary	IMS Meta-data Dictionary, Version: 3.3 <http://www.imsproject.org/textdictionary.html>
+not:IMSrole		IMS Metadata Dictionary: Role <http://www.imsproject.org/textdictionary.html#Role>
+not:IMSuserights	IMS Use Rights <http://www.imsproject.org/textdictionary.html#Use Rights>
+not:IMSuserlevel	IMS Learning Level <http://www.imsproject.org/textdictionary.html#Learning Level>
+not:KARW3	Kulturarw3 <http://kulturarw3.kb.se/>
+not:LAGOZE		Synthetic Nodes <http://www2.cs.cornell.edu/lagoze/DC/SyntheticNodes.htm>
+not:LOMG		Learning Object Metadata Group <http://sdct-ntsrv2.ncsl.nist.gov/metadata/>
+not:LOMGsecurity	Learning Object Metadata Group, Metadata V1.0 Basic (Look at the bottom of the page.) <http://sdct-ntsrv2.ncsl.nist.gov/metadata/LOMetadataV1.0Basic.html>
+not:MISHAtype		M. Wolf. Reconciling our use of Types with their legacy use <http://www.mailbase.ac.uk/lists/dc-datamodel/files/issues.html#i28>
+not:NORDUNET	NWI: Presentation at NORDUnet '97 Conference in Reykjavik, Iceland June 29th - July 1st 1997<http://nwi.dtv.dk/nordunet/>
+not:NWIDK	NWI Danish service point <http://nwi.dtv.dk/>
+not:NWIDKMD	Metadata mappings and statistics <http://nwi.dtv.dk/MD/>
+not:NWIFI	NWI Finland <http://nwi.funet.fi/>
+not:NWIIS	NWI Iceland <http://nwi.bok.hi.is/>
+not:NWINO	NWI Norway <http://nwi.bibsys.no/>
+not:NWISE	NWI Sweden <http://nwi.lub.lu.se/>
+not:ORESUND	Øresundsuniversitetet <http://www.uni.oresund.org/studie/owiindex.htm>
+not:RDFspec	Resource Description Framework (RDF) Model and Syntax Specification <http://www.w3.org/TR/PR-rdf-syntax/>
+not:RFC2046	Request for Comments: 2046 <http://sunsite.auc.dk/RFC/rfc/rfc2046.html>
+not:Reykjavik	S. Lundberg, 1997. The cooperative harvesting and indexing workshop in Reykjavik 29 June 1997 <http://www.ub.lu.se/ind_work_shop.html>
+not:SAFARI	SAFARI, the Swedish nation research information system <http://safari.hsv.se/>
+not:HSV		The Swedish Council for higher education <http://www.hsv.se/>
+not:STUDERA	Studera.Nu <http://www.studera.nu/>
+not:STUME	Studera.Nu Metadata Element Set <http://studera.hsv.se/internt/felt.htm>
+not:SUBELEMENTS		R. Guenter. Dublin Core Qualifiers/Substructure <http://www.loc.gov/marc/dcqualif.html>
+not:SveSÖK	SveSÖK <http://www.svesok.kb.se/>
+not:UMUCOURSE	The local course directory <http://info.adm.umu.se/utbkat/>
+not:USMARC			USMARC Bibliographic Format <gopher://marvel.loc.gov:70/0waisdocid%3A/.waissrc/usmarc-d.src%3ATEXT%3A9759%3A3%3D0%20-9759%20/prod/gopher/data/.listarch/usmarc/94-4.doc%3B7%3D%2500%3B>
+not:Unesco	Unesco Regional Web Index <http://nwi.dtv.dk/UNESCO/>
+not:VCARD		vCard MIME Directory Profile [Internet Draft] <http://ds.internic.net/internet-drafts/draft-ietf-asid-mime-vcard-04.txt>
+not:NWIii	Anders Ardö, Allan Arvidsson, Sebastian Hammer, Kenneth Holmlund and Sigfrid Lundberg, 1998. NWI II, An Enhanced Nordic Web index: Final report <http://www.nordinfo.helsinki.fi/publications/nordnytt/nnytt3-4_98/nwi_final_report.htm>
+not:aaperiod		Styles and Periods hierarchy (Click on "Styles and Periods") <http://www.ahip.getty.edu/aat_browser/titles.html>
+not:aathesaurus			The Art & Architecture Thesaurus Browser <http://www.gii.getty.edu/aat_browser/>
+not:ariadne		ARIADNE Metadata Recommendation Page <http://ariadne.unil.ch/metadata.htm>
+not:asf			Advanced search facility <http://asf.gils.net/>
+not:beyondbookmarks	Beyond Bookmarks: Schemes for Organizing the Web <http://www.public.iastate.edu/~CYBERSTACKS/CTW.htm>
+not:borgman1995		Borgman, C.  L., S. G. Hirsch and V. A. Walter, "Children's searching behavior on browsing and keyword online catalogs: The science library catalog project," Journal of the American Society for Information Science, 46, pp. 663-684 (1995). <>
+not:canberra		The 4th Dublin Core Metadata Workshop Report <http://www.dlib.org/dlib/june97/metadata/06weibel.html>
+not:client		Indexdata, The YAZ tool kit. <http://www.indexdata.dk/yaz/>
+not:combine		The Combine Harvesting Robot <http://www.lub.lu.se/combine/>
+not:PERL		Practical Extraction and Report Language <http://www.perl.com/pub/doc/manual/html/pod/perl.html>
+not:cpan		CPAN: Comprehensive Perl Archive Network. <http://www.cpan.org/>
+not:perlre		perlre - Perl regular expressions <http://www.perl.com/pub/doc/manual/html/pod/perlre.html>
+not:expat		Expat XML Parser <http://expat.sourceforge.net/>
+not:ddc			DDC 21 Summaries <http://www.oclc.org/oclc/fp/about/ddc21sm1.htm>
+not:ddchome		Dewey Decimal System Home Page <http://www.oclc.org/oclc/fp/>
+not:ddd			About the Dewey Decimal Classification <http://www.oclc.org/oclc/fp/about/ddc21sm1.htm>
+not:desire		Development of a European Service for Information on Research and Education. <http://www.lub.lu.se/desire/>
+not:desireD3.2		Specification for resource description methods Part 3. The role of classification schemes in Internet resource description and discovery. <http://www.ub.lu.se/desire/radar/reports/D3.2.3/> 
+not:desireclass		Types of classification systems <http://www.ub.lu.se/desire/radar/reports/D3.2.3/f_1.html#_3_1>
+not:desireddc		Extent of Internet services using DDC <http://www.ub.lu.se/desire/radar/reports/D3.2.3/f_2.html#_1_1>
+not:desireeunart2	The DESIRE project has developed a model (A list of quality selection criteria: a reference tool for Internet subject gateways) for quality assessment generally for academic use, which is designed to be used by subject based information gateways to define or refine their own quality selection criteria. The criteria are organized into five main categories. Three with respect to the resource and two with respect to the collection. The main categories are further subdivided into detailed lists with questions and practical hints and tips to be used in the evaluation and selection process. <http://www.ukoln.ac.uk/metadata/desire/quality/report-2.html>  
+not:desirequality	A list of quality selection criteria: a reference tool for Internet subject gateways. <http://www.ukoln.ac.uk/metadata/desire/quality/report-2.html>
+not:desiresab		Sveriges Allmänna Biblioteksförening (SAB) Classification System <http://www.ub.lu.se/desire/radar/reports/D3.2.3/f_2.html#_4_2>
+not:desireudc		Extent of Internet services using UDC <http://www.ub.lu.se/desire/radar/reports/D3.2.3/f_2.html#_2_1>
+not:dublincore		Dublin Core Element Set Reference Page <http://purl.oclc.org/metadata/dublin_core/>
+not:dublincore4		The 4th Dublin Core Metadata Workshop <http://www.dstc.edu.au/DC4/>
+not:dublincoreRFC	Dublin Core Workshop Series, S. Weibel, Internet-Draft <http://search.ietf.org/internet-drafts/draft-kunze-dc-02.txt>
+not:dublincoredate	Date Ranges and DC.Date Subelement Definitions <http://purl.oclc.org/metadata/dublin_core/wdatedraft.html>
+not:dublincorerel	Relations Working Group <http://purl.oclc.org/metadata/dublin_core/wrelationdraft.html>
+not:dublincorestruct	Dublin Core Resource Types, Structuralist DRAFT <http://sunsite.berkeley.edu/Metadata/structuralist.html>
+not:dublincoresubel	Provisional report of the Dublin Core Subelement Working Group <http://purl.oclc.org/metadata/dublin_core/wsubelementdraft.html>
+not:dvt			Desire Vocabulary Toolkit <http://www.lub.lu.se/combine/dvt>
+not:educasource		Educasource <http://www.educasource.education.fr/>
+not:eltmeta		The European Link Treasury - On Metadata <http://www.lub.lu.se/~gertrud/euc/task2/pres/onmetadata.html>
+not:eltpackage		The ELT software tool kit distribution <http://www.lub.lu.se/~siglun/elt-0.9.tar.gz>
+not:eltpres		The European Link Treasury (ELT) <http://mother.lub.lu.se/ELT/about/eun_article2.html.en>
+not:eltprototype	The European Link Treasury - Prototype <http://mother.lub.lu.se/ELT/>
+not:eltqcriteria	The European Link Treasury - Quality assessments <http://www.lub.lu.se/~gertrud/euc/task2/pres/quality.html>
+not:euc			The EUC Web Based Reporting System (Please use "eun" both as user identity and password.) <http://193.10.55.30/>	
+not:euc111theset	The EUC metadata set <http://www.lub.lu.se/EUC/T1/111.html#2.>
+not:eucart		The goal of EUC is to establish Internet based services, demonstrating the value of using multimedia and Information and Communication Technologies (ICT) in education. For further information on the EUC project please refer to <http://www.medianet.org/euc/>
+not:eucprecent		European Universal Classform <http://www.medianet.org/euc/>
+not:euctool		The EUC metadata tool <http://www.lub.lu.se/dc/euc.pl>
+not:france		Centre Règional de Documentation Pèdagogique de Bretagne (The French partner) <http://www.ac-rennes.fr/crdp/>
+not:gils		Application profile for the government information locator service (GILS) <http://www.gils.net/prof_v2.html>
+not:gilssoftware	GILS products and services <http://www.gils.net/software.html>
+not:zthes		Zthes: a Z39.50 Profile for Thesaurus Navigation <http://lcweb.loc.gov/z3950/agency/profiles/zthes-04.html>
+not:head		HTML Elements List:HEAD, Sandia National Laboratories <http://www.sandia.gov/sci_compute/elements.html#HEAD>
+not:identifier		Nordic Metadata Project, Resource Identifier <http://www.sics.se/~preben/DC/identifier_help.html>
+not:indexdata		Welcome to Indexdata <http://www.indexdata.dk>
+not:iso3166		ISO 3166 <http://userpage.chemie.fu-berlin.de/diverse/doc/ISO_3166.html>
+not:iso639		ISO 639 <http://www.ics.uci.edu/pub/ietf/http/related/iso639.txt>
+not:iso8601		ISO 8601 <http://www.w3.org/TR/NOTE-datetime>
+not:ispo		The EC Information Society Project Office <http://www.ispo.cec.be/>
+not:lank		The Swedish Link Larder (Länkskafferiet): <http://lankskafferiet.skolverket.se>
+not:lankbienvenida	Translated version (in Spanish) of the welcome page for the editors in the Swedish Link Larder <http://www.lub.lu.se/~gertrud/euc/lank/formular1.html>
+not:lankbienvenue	Translated version (in French) of the welcome page for the editors in the Swedish Link Larder <http://www.lub.lu.se/~gertrud/euc/lank/editoriales.html>
+not:lankdelete		A model for a help application to delete records in the ELT database <http://www.lub.lu.se/~gertrud/euc/lank/delete_record.html>
+not:lankvalkommen	A model (in Swedish) for the welcome page for the editors  <http://www.lub.lu.se/~gertrud/euc/lank/redak.html>
+not:lankwelcome		Translated version (in English) of the welcome page for the editors in the Swedish Link Larder <http://www.lub.lu.se/~gertrud/euc/lank/editors.html>
+not:linnea		The 5th Dublin Core Metadata Workshop. Project presentations <http://linnea.helsinki.fi/meta/projects.html>
+not:linneaDBSGER	The 5th Dublin Core Metadata Workshop. Project presentations: DBS(GER) <http://linnea.helsinki.fi/meta/projects.html#30>
+not:linneaEdNA		The 5th Dublin Core Metadata Workshop. Project presentations: EdNA <http://linnea.helsinki.fi/meta/projects.html#26>
+not:linneaGEM		The 5th Dublin Core Metadata Workshop. Project presentations: GEM <http://linnea.helsinki.fi/meta/projects.html#30>
+not:location		IMS, Location <http://www.imsproject.org/textdictionary.html#Location>
+not:minimalist		The DC Minimalist Approach <http://sunsite.berkeley.edu/Metadata/minimalist.html>
+not:nizo		NISO Z39.53 Language Codes <http://www.sil.org/sgml/nisoLang3-1994.html>
+not:ead			Encoded Archival Description (EAD) <http://lcweb.loc.gov/ead/>
+not:nuevas		Programa de Nuevas Tecnologias <http://www.pntic.mec.es/>
+not:objecttypes		Dublin Core Resource Types: Structuralist DRAFT (DL SunSITE) <http://sunsite.berkeley.edu/Metadata/structuralist.html>
+not:presentation	IMS, Presentation <http://www.imsproject.org/textdictionary.html#Presentation>
+not:pricecode		IMS, Price Code <http://www.imsproject.org/textdictionary.html#Price_Code>
+not:relation		Nordic Metadata Project, Relation <http://www.sics.se/~preben/DC/relation_help.html>
+not:rfc1766		Request for Comments: 1766 <ftp://ftp.isi.edu/in-notes/rfc1766.txt>
+not:roads		ROADS Project Software/Documentation Server <http://www.roads.lut.ac.uk/>
+not:sbig		DESIRE Informaiton Gateways Handbook<http://www.desire.org/html/subjectgateways/handbook/welcome.html>
+not:security		LO, Security <http://sdct-ntsrv2.ncsl.nist.gov/metadata/>
+not:sgrep		Jani Jaakkola and Pekka Kilpeläinen: Sgrep home page (1999) <http://www.cs.helsinki.fi/~jjaakkol/sgrep.html>
+not:sgreppatched	Sgrep patched for Solaris <http://www.lub.lu.se/~siglun/sgrep-1.92a-sl.tar.gz>
+not:sizeof		IMS, SizeOf <http://www.imsproject.org/textdictionary.html#SizeOf>
+not:spain		Ministerio de Educación y Cultura (The Spanish partner <http://www.pntic.mec.es/indice.html>
+not:structuralist	The DC Structuralist Approach <http://sunsite.berkeley.edu/Metadata/structuralist.html>
+not:subject		Subject and Keywords Label, SUBJECT <http://www.ub2.lu.se/metadata/subject-help.html>
+not:sweden		Lund University Library; NetLab (The Swedish partner) <http://www.lub.lu.se/netlab/>  
+not:netlab		Lund University Library; NetLab<http://www.lub.lu.se/netlab/>  
+not:netlabprojects	NetLab: Projects in Progress <http://www.lub.lu.se/netlab/Projects-current.html>
+not:lundberg		Sigfrid Lundberg <http://www.lub.lu.se/~siglun/>
+not:tgn			Getty Thesaurus of Geographic Names <http://www.ahip.getty.edu/vocabulary/tgn.html>
+not:udc			A brief guide available of the main subject headings and numbers in the UDC scheme <http://www.niss.ac.uk/resource-description/udcbrief.html>
+not:walter1996		Walter, V. A., C. L. Borgman and S.  G.  Hirsch, "The science library catalog: A springboard for information literacy," School Library Media Quarterly, 24, Winter 96, pp. 105-110 (1996). <>
+not:z3950		Z39.50 maintenance agency home page <http://lcweb.loc.gov/z3950/agency/>
+not:z3950standard	Information and documentation -- Information retrieval (Z39.50) -- Application service definition and protocol specification <http://www.iso.ch/iso/en/CatalogueDetailPage.CatalogueDetail?CSNUMBER=27446>
+not:bib1		ATTRIBUTE SET BIB-1 (Z39.50-1995): SEMANTICS <ftp://ftp.loc.gov/pub/z3950/defs/bib1.txt>
+not:xd			The Z39.50 Cross-Domain Attribute Set <http://www.oclc.org/~levan/docs/crossdomainattributeset.html>
+not:cimi		Z39.50 Application Profile for Cultural Heritage Information <http://www.cimi.org/downloads/ProfileFinalMar98/cimiprofile1.htm>
+not:zcollections	Z39.50 Profile for Access to Digital Collections <http://lcweb.loc.gov/z3950/agency/profiles/collections.html>
+not:zebra		Indexdata, The Zebra information server. <http://www.indexdata.dk/zebra/>
+not:zebramanual		Zebra Server - Administrators's Guide and Reference <http://www.indexdata.dk/zebra/zebra.php>
+not:zap			ZAP! <http://www.indexdata.dk/zap/>
+not:HTTP1.1	HTTP 1.1 <ftp://ftp.isi.edu/in-notes/rfc2616.txt>
+not:ISOTC154	ISO TC 154 WG 1 <http://forum.afnor.fr/afnor/WORK/AFNOR/GPN2/TC154WG1/index.htm>
+not:PERLsax	Perl SAX implementation <http://theoryx5.uwinnipeg.ca/CPAN/data/libxml-perl/XML/Parser/PerlSAX.html>
+not:RDFRDBMS	Storing RDF in a relational database <http://www-db.stanford.edu/~melnik/rdf/db.html>
+not:SAX2.0 SAX 2.0: The Simple API for XML <http://www.megginson.com/SAX/index.html>
+not:TIMProp	Tim Berners-Lee, The problem of annotating natural language <http://www.w3.org/DesignIssues/InterpretationProperties.html>
+not:EBNF	A simple Extended Backus-Naur Form (EBNF) notation <http://www.w3.org/TR/1998/REC-xml-19980210#sec-notation>
+not:XML		Extensible Markup Language <http://www.w3.org/TR/1998/REC-xml-19980210>
+not:XMLDOM	Document Object Model (DOM) Level 1 Specification <http://www.w3.org/TR/REC-DOM-Level-1/>
+not:XMLSCHEMA0	XML Schema Part 0: Primer <http://www.w3.org/TR/xmlschema-0/>
+not:XMLSCHEMA1	XML Schema Part 1: Structures <http://www.w3.org/TR/xmlschema-1/>
+not:XMLSCHEMA2	XML Schema Part 2: Datatypes <http://www.w3.org/TR/xmlschema-2/>
+not:NonBinary	Non-Binary Relations in RDF <http://www.w3.org/TR/REC-rdf-syntax/#ex-NonBinary>
+not:SOAP	Simple Object Access Protocol (SOAP) 1.1 <http://www.w3.org/TR/SOAP/>
+not:RDFSCHEMA	Resource Description Framework (RDF) Schema Specification 1.0 <http://www.w3.org/TR/rdf-schema/>
+not:XPATH	XML Path Language (XPath) Version 1.0 <http://www.w3.org/TR/xpath>
+not:xlinkreq	XML XLink Requirements Version 1.0 <http://www.w3.org/TR/NOTE-xlink-req/>
+not:xlink	XML Linking Language (XLink) W3C Working Draft 21-February-2000<http://www.w3.org/TR/xlink/>
+not:XPTR	XML Pointer Language (XPointer) <http://www.w3.org/TR/xptr>
+not:XSLT	XSL Transformations (XSLT) Version 1.0 <http://www.w3.org/TR/xslt>
+not:XSL		Extensible Stylesheet Language (XSL) Version 1.0<http://www.w3.org/TR/xsl/>
+not:zthes               Zthes: a Z39.50 Profile for Thesaurus Navigation <http://lcweb.loc.gov/z3950/agency/profiles/zthes-04.html>
+not:zebramanual         Zebra Server - Administrators's Guide and Reference <http://www.indexdata.dk/zebra/zebra.php>
+not:zap                 ZAP! <http://www.indexdata.dk/zap/>
+not:z3950standard       Information and documentation -- Information retrieval (Z39.50) -- Application service definition and protocol specification <http://www.iso.ch/iso/en/CatalogueDetailPage.CatalogueDetail?CSNUMBER=27446>
+not:XML         Extensible Markup Language <http://www.w3.org/TR/1998/REC-xml-19980210>
+not:WWW7        A. Ardö and S. Lundberg, 1998. A regional distributed WWW search and indexing service -- the DEISRE way. Computer Networks and ISDN systems 30:173-183 <http://decweb.ethz.ch/WWW7/1900/com1900.htm>
+not:NWIii       Anders Ardö, Allan Arvidsson, Sebastian Hammer, Kenneth
+Holmlund and Sigfrid Lundberg, 1998. NWI II, An Enhanced Nordic Web index: Final report <http://www.nordinfo.helsinki.fi/publications/nordnytt/nnytt3-4_98/nwi_final_report.htm>
+not:gilssoftware        GILS products and services <http://www.gils.net/software.html>
+not:CombineTechguide    Yong, Tsao: Combine: A Distributed Open System Architecture for WWW Resource Harvesting and Indexing System<http://www.lub.lu.se/combine/docs/uguide.html>             
+not:groff		<http://groff.ffii.org/>

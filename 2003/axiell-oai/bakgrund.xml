@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="ISO-8859-1" ?>
+
+<div1 n="1">
+  
+  <head>Bakgrund</head>
+
+  <p rend="noindent">OAI PMH (Open Archives Initiative Protocol for metadata
+  harvesting) är ett Internet-protokoll som har fått avsevärd
+  uppmärksamhet de senaste åren. De viktigaste anledningarna till
+  detta är måhända:</p>
+
+  <list>
+
+    <item>Det är enkelt att implementera. Det är en applikation av
+    XML som använder HTTP för transport. Den infrastruktur och den
+    kunskap som krävs för att bygga OAI-applikationer är därmed
+    lättillgängliga.</item>
+
+    <item>Till skillnad från mer generella XML-baserade protokoll, som
+    t ex SOAP, behöver en OAI-klient ingen, eller mycket liten,
+    kunskap om XML. Alla transaktioner sker med enkla HTTP GET- eller
+    POST-förfrågningar. De bäddas aldrig in i någon XML-struktur som
+    behöver parsas på serversidan.</item>
+    
+  </list>
+
+  <p rend="noindent">Jag återkommer till protokollet längre fram i denna lilla
+    skrift.</p>
+
+  <div2 n="1.2">
+
+    <head>Uppdraget</head>
+
+    <p rend="noindent">Detta dokument skrivs på initiativ från
+      Axiell-Bookit.<note 
+    n="AXIELL"><xref to="http://www.axiellbookit.com/"/></note>
+    Dess syfte är att föra över tankar och erfarenheter från en som
+    arbetat med protokollet till dem som är på väg att påbörja ett
+    sådant arbete. Nedan beskriver jag hur jag uppfattat mitt uppdrag.</p>
+
+    <p>Protokollet är redan väl specificerat. Det vore inte meningsfullt att
+      göra det igen.
+    <emph>Däremot</emph> innehåller den formella specifikationen
+    <note n="OAI-SPEC"><xref
+    to="http://www.openarchives.org/OAI/openarchivesprotocol.html"
+    /></note> ett antal <soCalled>keywords</soCalled>:</p>
+
+    <quote>
+      <p>In this document the key words <q>must</q>, <q>must not</q>,
+      <q>required</q>, <q>shall</q>, <q>shall not</q>, <q>should</q>,
+      <q>should not</q>, <q>recommended</q>, <q>may</q>, and
+      <q>optional</q> in bold face are to be interpreted as described
+      in RFC 2119 . An implementation is not conformant if it fails to
+      satisfy one or more of the "must" or "required" level
+      requirements for the protocols it implements.</p>
+    </quote>
+
+    <p rend="noindent">RFC 2119 <note n="IETF"><xref
+	  to="http://www.ietf.org/rfc/rfc2119.txt"/></note> är ett språkligt
+      dokument. Det beskriver hur man formulerar <emph>krav</emph> på
+      implementeringar av ett Internet-protokoll. Om man skall skriva en
+      applikation så måste alla <emph>must</emph> uppfyllas. Likaså
+      måste man göra vad som är <emph>required</emph>.
+      Jag kommer att lägga mina krafter på vad som är <emph>optional</emph> och
+      <emph>recommended.</emph> Vad är bra att ha och vad är 
+      umbärligt?</p> 
+
+  </div2>
+
+  <div2 n="1.2">
+
+    <head>Om detta dokument</head>
+
+    <p rend="noindent">Jag har gett texten följande struktur: Först
+    ger jag en allmän bakgrund till OAI-PMH, därefter ger jag en del
+    lösa och ganska personliga tankar kring idén att integrera en
+    OAI-server i en OPAC. Efter dessa, mer allmänna prosaavsnitt går
+    jag in och ger direkta rekommendationer till arbetet med en
+    implementering av OAI inom ramen för Book-IT. Slutligen ger jag en
+    del pekare till programvaror som kan hjälpa implementatören
+    &mdash; det är onödigt att återuppfinna hjulet. Jag avslutar med några
+    konklusioner.</p>
+
+  </div2>
+
+
+
+</div1>
+
+
+  
+
+
