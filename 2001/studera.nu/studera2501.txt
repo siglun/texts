@@ -1,0 +1,105 @@
+> Minnesanteckningar från Studera.nu möte 25 jan 2000
+> 
+> Deltagare: Colm Doyle, Sigfrid Lundberg, Thomas Schönthal, Johan Marcopoulos
+> 
+> Mötet var dels för att stämma av om hur långt Netlab har kommit med
+> sin åtagande och dels för att identifiera ytterligare
+> arbetsmoment. Dessa skulla specas och skickas till Johan i mitten av
+> februari. För att tydliggöra gick vi igenom kontraktet.
+> 
+> Piloten
+> 
+> Piloten är i princip klart även om Karlstad och Linköping har inte
+> lagt in sina uppgifter än. Möjligheten att söka i Safari kommer att
+> finnas. Kom överens om att processen ska skyndas långsamt.
+> 
+> Metadata
+> 
+> Några smärre ändringar i den befintliga profilen föreslogs på före
+> mötet dvs att koppla i hop studieort och utbildningsstart i samma
+> fält.  (Själva metadataverktyget skulle vara en del av piloten eller?)
+> 
+> Studiehandboken
+> 
+> Att göra	- rätta till den slumpmässiga framställning,
+> 		  (enligt Ortelius klasser?)
+> 		- lägga till parfym
+> 		- möjlighet till innehållsförteckning
+> 
+> Stylesheets 
+> 
+> Kom överens om att de stylesheets som Sigge gjorde i somras bör
+> granskas. Dels behöver vi feedback från piloterna dels hade vi tankar
+> på att Karin och Lars skulle titta på dem och återkommer med
+> synpunkter. Netlab skulle öka dokumentationen och ge några konkreta
+> exempel på de variationerna som kan åstadkommas.
+> 
+> Vidareutveckling
+> 
+> Metadataprofil för "kringinformation". Kom överens om att stämma av
+> med Birgitta. Profilen är viktigt i och med att Högskoleverket vill
+> gärna att det skulle kunna vara ett konkret exempel som
+> högskolevärlden skulle kunna använda sig av. (Lycka till ;-) )Vi
+> diskuterade olika indexeringsmodeller för kringinformationen. Man han
+> säga att det finns två skilda typer. Typ a är informationen som Hsv
+> råder över och kan direkt påverker och dels övrig relevant information
+> som kan finnas runt om i landet. Dels finns möjlighet att sätta upp en
+> redaktion som hämtar in och beskriver relevant information. Den andra
+> alternativen är en robotsvepning och indexering av utvalda
+> webbplatser/servrar.
+> 
+> Netlab återkommer med en specifikation av ett sådant modell i mitten
+> av februari.
+> 
+> Funktion för Metadataformulär
+> 
+> Förutom den vanlig metadataformulär pratade vi om XHTML sidogenerering
+> i ett svep.  Netlab återkommer med en specifikation av ett sådant
+> modell i mitten av februari.
+> 
+> Möjligheten att få kringinformation i handboken
+> 
+> Behövs klara och tydliga specifikationer för den kringinformation som
+> kan också tänkas ingå i handboken. Talade om möjligheten att skapa
+> smala "guides" inom olika ämnen. Tex musikstudier, konststudier,
+> miljöområdet.
+> 
+> Speca?
+> 
+> Statistik
+> 
+> HSV mycket intresserade av att ha fungerande statistik från ett
+> relativt tidigt stadie. Netlab återkommer med en specifikation av
+> olika möjligheter.
+> 
+> Support
+> 
+> Netlab återkommer med en specifikation för hur support för tjänsten
+> kan se ut.
+> 
+> 
+> Navigering i tjänsten
+> 
+> Pratade med problemet med att lita på webbläddrarens
+> backknapp. Diskuterade ett förslag om att ett panel med logotyp och
+> text och med senaste inställning skulla öppnas när man lämnar
+> studera. Syns inte när man är kvar i studera.
+> 
+> Netlab specar detta.
+> 
+> Tidsplan för utveckling
+> 
+> Pratade om att fyra parter skulle ingå i vidareutvecklingen. Hsv,
+> Netlab, Webbyrå och ytterligare en "usability" konsultbyrå. Vi
+> försökte definiera stegen i ett sådant utveckling.
+> 
+> 1 Användarstudier
+> 2 Revision
+> 3 Kringinformation/integrering
+> 4 Förnyade användarst./revision
+> 5 Grafiska designen
+> 
+> 
+> Sigge och Tomas lämnar ett "tidschema" med luckorna till Johan så att
+> processen kan passa i tid.
+> 

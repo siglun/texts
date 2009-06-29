@@ -1,0 +1,100 @@
+not:ORESUND	Øresundsuniversitetet <http://www.uni.oresund.org/studie/owiindex.htm>
+not:EUN		EUN search enginge demo <http://www.eun.org/vs/>
+not:DTUDTV	DTU demonstration page for evaluation <http://nwi.dtv.dk/dtudtv.html>
+not:UMUCOURSE	The local course directory <http://info.adm.umu.se/utbkat/>
+not:ASKEN	The ASKen project <http://asken.hsv.se/>
+not:NWIDKMD	Metadata mappings and statistics <http://nwi.dtv.dk/MD/>
+not:NWIDK	NWI Danish service point <http://nwi.dtv.dk/>
+not:Unesco	Unesco Regional Web Index <http://nwi.dtv.dk/UNESCO/>
+not:IDaps	Index Data Aps <http://www.indexdata.dk/>
+not:NWIFI	NWI Finland <http://nwi.funet.fi/>
+not:NWISE	NWI Sweden <http://nwi.lub.lu.se/>
+not:NWINO	NWI Norway <http://nwi.bibsys.no/>
+not:NWIIS	NWI Iceland <http://nwi.bok.hi.is/>
+not:KARW3	Kulturarw3 <http://kulturarw3.kb.se/>
+not:SveSÖK	SveSÖK <http://www.svesok.kb.se/>
+not:CHIC	Cooperative Hierarchical Indexing Coordination <http://www.terena.nl/task-forces/tf-chic/>
+not:SAFARI	SAFARI, the Swedish nation research information system <http://safari.hsv.se/>
+not:Configtool	Unesco Regional Web Index Config Tool <http://nwi.dtv.dk/UNESCO/Configtool.html>
+not:Combine	The Combine Harvesting Robot <http://www.lub.lu.se/combine/>
+not:CombineREADME	The Combine README <http://www.lub.lu.se/combine/dist/README-v1.1.txt>
+not:CombineUsersguide	Combine User's Guide <http://www.lub.lu.se/combine/docs/uguide.html>
+not:Copyleft	General Public License <http://www.gnu.org/copyleft/gpl.html>
+not:WWW7	A. Ardö and S. Lundberg, 1998. A regional distributed WWW search and indexing service -- the DEISRE way. Computer Networks and ISDN systems 30:173-183 <http://nwi.dtv.dk/www7/>
+not:NORDUNET	NWI: Presentation at NORDUnet '97 Conference in Reykjavik, Iceland June 29th - July 1st 1997<http://nwi.dtv.dk/nordunet/>
+not:Reykjavik	S. Lundberg, 1997. The cooperative harvesting and indexing workshop in Reykjavik 29 June 1997 <http://www.ub.lu.se/ind_work_shop.html>
+not:SUBELEMENTS		R. Guenter. Dublin Core Qualifiers/Substructure <http://www.loc.gov/marc/dcqualif.html>
+
+not:VCARD		vCard MIME Directory Profile [Internet Draft] <http://ds.internic.net/internet-drafts/draft-ietf-asid-mime-vcard-04.txt>
+not:RDFspec		Resource Description Framework (RDF) Model and Syntax [latest Working Draft] <http://www.w3.org/TR/WD-rdf-syntax>
+not:MISHAtype		M. Wolf. Reconciling our use of Types with their legacy use <http://www.mailbase.ac.uk/lists/dc-datamodel/files/issues.html#i28>
+not:LAGOZE		Synthetic Nodes <http://www2.cs.cornell.edu/lagoze/DC/SyntheticNodes.htm>
+
+not:DBSGER		Deutscher Bildungs-Server - German Educational Resources <http://dbs.schule.de/indexe.html>
+not:DCRelationsWorkingGroup	The DC Relations Working Group <http://purl.oclc.org/metadata/dublin_core/wrelationdraft.html>
+not:EdNA		Education Network Australia <http://www.edna.edu.au/EdNA/>
+not:EdNAcitation	Background on Metadata and EdNA <http://www.edna.edu.au/edna/owa/info.getpage?sp=eec099eeeeeb&pagecode=5213#how>
+not:EdNAwizard		EdNA Metadata Wizard <http://www.edna.edu.au/edna/owa/itemwizard.metadata?sp=eec099eeeeeb>
+not:Formatscheme=IMT		Internet Media Types <ftp://ftp.isi.edu/in-notes/iana/assignments/media-types/>
+not:GEM		The Gateway to Educational Materials <http://gem.syr.edu/>
+not:GEMDatemandatory	GEM: Date Metadata Element <http://gem.syr.edu/Workbench/Metadata/meta_qualifiers_date.html>
+not:GEMDateoptional	GEM: Date Metadata Element <http://gem.syr.edu/Workbench/Metadata/meta_qualifiers_date.html#optional>
+not:GEMIdentifiermandatory	GEM: Identifier Metadata Element <http://gem.syr.edu/Workbench/Metadata/meta_qualifiers_identifier.html>
+not:GEMIdentifieroptional	GEM: Identifier Metadata Element <http://gem.syr.edu/Workbench/Metadata/meta_qualifiers_identifier.html#optional>
+not:GEMPublishermandatory	GEM: Publisher Metadata Element <http://gem.syr.edu/Workbench/Metadata/meta_qualifiers_publisher.html>
+not:GEMPublisheroptional	GEM: Publisher Metadata Element <http://gem.syr.edu/Workbench/Metadata/meta_qualifiers_publisher.html#optional>
+not:IMS		Instructional Management Systems <http://www.imsproject.org/>
+not:IMSdictionary	IMS Meta-data Dictionary, Version: 3.3 <http://www.imsproject.org/textdictionary.html>
+not:IMSuserlevel	IMS Learning Level <http://www.imsproject.org/textdictionary.html#Learning Level>
+not:IMSuserights	IMS Use Rights <http://www.imsproject.org/textdictionary.html#Use Rights>
+not:IMSLocation		IMS Metadata Dictionary <http://www.imsproject.org/textdictionary.html#Location>
+not:IMSResourceIdentifier	IMS Metadata Dictionary <http://www.imsproject.org/textdictionary.html#Catalog ID>
+not:IMSbackground		IMS Background <http://www.imsproject.org/background.html>
+not:IMSrole		IMS Metadata Dictionary: Role <http://www.imsproject.org/textdictionary.html#Role>
+not:LOMG		Learning Object Metadata Group <http://sdct-ntsrv2.ncsl.nist.gov/metadata/>
+not:LOMGsecurity	Learning Object Metadata Group, Metadata V1.0 Basic (Look at the bottom of the page.) <http://sdct-ntsrv2.ncsl.nist.gov/metadata/LOMetadataV1.0Basic.html>
+not:USMARC			USMARC Bibliographic Format <gopher://marvel.loc.gov:70/0waisdocid%3A/.waissrc/usmarc-d.src%3ATEXT%3A9759%3A3%3D0%20-9759%20/prod/gopher/data/.listarch/usmarc/94-4.doc%3B7%3D%2500%3B>
+not:aaperiod		Styles and Periods hierarchy (Click on "Styles and Periods") <http://www.ahip.getty.edu/aat_browser/titles.html>
+not:aathesaurus			The Art & Architecture Thesaurus Browser <http://www.gii.getty.edu/aat_browser/>
+not:canberra		The 4th Dublin Core Metadata Workshop Report <http://www.dlib.org/dlib/june97/metadata/06weibel.html>
+not:ddd			About the Dewey Decimal Classification <http://www.oclc.org/oclc/fp/about/ddc21sm1.htm>
+not:dublincore		Dublin Core Element Set Reference Page <http://purl.oclc.org/metadata/dublin_core/>
+not:dublincore4		The 4th Dublin Core Metadata Workshop <http://www.dstc.edu.au/DC4/>
+not:dublincoredate	Date Ranges and DC.Date Subelement Definitions <http://purl.oclc.org/metadata/dublin_core/wdatedraft.html>
+not:dublincorerel	Relations Working Group <http://purl.oclc.org/metadata/dublin_core/wrelationdraft.html>
+not:dublincoreRFC	Dublin Core Workshop Series, S. Weibel, Internet-Draft <http://search.ietf.org/internet-drafts/draft-kunze-dc-02.txt>
+not:dublincorestruct	Dublin Core Resource Types, Structuralist DRAFT <http://sunsite.berkeley.edu/Metadata/structuralist.html>
+not:dublincoresubel	Provisional report of the Dublin Core Subelement Working Group <http://purl.oclc.org/metadata/dublin_core/wsubelementdraft.html>
+not:EUN			EUN Multimedia Schoolnet <http://www.eun.org>
+not:EUNmeta		The EUN Metadata Element Set <http://www.lub.lu.se/~gertrud/euc/userguide.html#8>
+not:EUNmetasubject	The EUN Metadata Element Set: The Subject element <http://www.lub.lu.se/~gertrud/euc/userguide.html#lab3>
+not:head		HTML Elements List:HEAD, Sandia National Laboratories <http://www.sandia.gov/sci_compute/elements.html#HEAD>
+not:identifier		Nordic Metadata Project, Resource Identifier <http://www.sics.se/~preben/DC/identifier_help.html>
+not:iso639		ISO 639 <http://www.ics.uci.edu/pub/ietf/http/related/iso639.txt>
+not:iso3166		ISO 3166 <http://userpage.chemie.fu-berlin.de/diverse/doc/ISO_3166.html>
+not:iso8601		ISO 8601 <http://www.w3.org/TR/NOTE-datetime>
+not:linnea		The 5th Dublin Core Metadata Workshop. Project presentations <http://linnea.helsinki.fi/meta/projects.html>
+not:linneaDBSGER	The 5th Dublin Core Metadata Workshop. Project presentations: DBS(GER) <http://linnea.helsinki.fi/meta/projects.html#30>
+not:linneaEdNA		The 5th Dublin Core Metadata Workshop. Project presentations: EdNA <http://linnea.helsinki.fi/meta/projects.html#26>
+not:linneaGEM		The 5th Dublin Core Metadata Workshop. Project presentations: GEM <http://linnea.helsinki.fi/meta/projects.html#30>
+not:location		IMS, Location <http://www.imsproject.org/textdictionary.html#Location>
+not:minimalist		The DC Minimalist Approach <http://sunsite.berkeley.edu/Metadata/minimalist.html>
+not:nizo		NISO Z39.53 Language Codes <http://www.sil.org/sgml/nisoLang3-1994.html>
+not:objecttypes		Dublin Core Resource Types: Structuralist DRAFT (DL SunSITE) <http://sunsite.berkeley.edu/Metadata/structuralist.html>
+not:presentation	IMS, Presentation <http://www.imsproject.org/textdictionary.html#Presentation>
+not:pricecode		IMS, Price Code <http://www.imsproject.org/textdictionary.html#Price_Code>
+not:relation		Nordic Metadata Project, Relation <http://www.sics.se/~preben/DC/relation_help.html>
+not:rfc1766		Request for Comments: 1766 <ftp://ftp.isi.edu/in-notes/rfc1766.txt>
+not:RFC2046		Request for Comments: 2046 <http://sunsite.auc.dk/RFC/rfc/rfc2046.html>
+not:security		LO, Security <http://sdct-ntsrv2.ncsl.nist.gov/metadata/>
+not:sizeof		IMS, SizeOf <http://www.imsproject.org/textdictionary.html#SizeOf>
+not:structuralist	The DC Structuralist Approach <http://sunsite.berkeley.edu/Metadata/structuralist.html>
+not:subject		Subject and Keywords Label, SUBJECT <http://www.ub2.lu.se/metadata/subject-help.html>
+not:tgn			Getty Thesaurus of Geographic Names <http://www.ahip.getty.edu/vocabulary/tgn.html>
+
+#------------------------
+# not:	<>
+# 
+#[not:dublincore]
+#----------------------
+

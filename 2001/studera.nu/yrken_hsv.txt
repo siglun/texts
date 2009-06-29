@@ -1,0 +1,1875 @@
+Id	AMSYK	Huvudbenämning	Annan benämning
+1	247010	Administratör inom kommuner och landsting	Administratör
+1	247010	Administratör inom kommuner och landsting	Utredare i kommuner och landsting
+2	247010	Administratör inom staten	Administratör
+2	247010	Administratör inom staten	Utredare inom staten
+3	242120	Advokat	Biträdande jurist
+3	242120	Advokat	Jurist
+4	222125	Distriktsläkare	Läkare
+5	513230	Ambulanssjukvårdare	Ambulansförare
+7	712420	Anläggningsarbetare	Beläggningsarbetare
+7	712450	Anläggningsarbetare	Beläggningsarbetare
+7	712420	Anläggningsarbetare	Markanläggningsarbetare
+7	712450	Anläggningsarbetare	Markanläggningsarbetare
+7	712420	Anläggningsarbetare	Stensättare
+7	712450	Anläggningsarbetare	Stensättare
+7	712420	Anläggningsarbetare	Vägarbetare
+7	712450	Anläggningsarbetare	Vägarbetare
+8	222410	Apotekare	Apotekschef
+8	211320	Apotekare	Apotekschef
+8	222410	Apotekare	Farmacevt
+8	211320	Apotekare	Farmacevt
+8	222410	Apotekare	Informationsapotekare
+8	211320	Apotekare	Informationsapotekare
+14	244210	Arkeolog	Antikvarie
+14	244210	Arkeolog	Marinarkeolog
+15	247020	Administratörer/översikt	Administratör
+15	247010	Administratörer/översikt	Administratör
+15	247020	Administratörer/översikt	Utredare
+15	247010	Administratörer/översikt	Utredare
+17	347420	Varietéartist	Akrobat
+17	347410	Varietéartist	Akrobat
+17	347420	Varietéartist	Buktalare
+17	347410	Varietéartist	Buktalare
+17	347420	Varietéartist	Cirkusartist
+17	347410	Varietéartist	Cirkusartist
+17	347420	Varietéartist	Clown
+17	347410	Varietéartist	Clown
+17	347420	Varietéartist	Eldslukare
+17	347410	Varietéartist	Eldslukare
+17	347420	Varietéartist	Fakir
+17	347410	Varietéartist	Fakir
+17	347420	Varietéartist	Gycklare
+17	347410	Varietéartist	Gycklare
+17	347420	Varietéartist	Illusionist
+17	347410	Varietéartist	Illusionist
+17	347420	Varietéartist	Imitatör
+17	347410	Varietéartist	Imitatör
+17	347420	Varietéartist	Jonglör
+17	347410	Varietéartist	Jonglör
+17	347420	Varietéartist	Lindansare
+17	347410	Varietéartist	Lindansare
+17	347420	Varietéartist	Svärdslukare
+17	347410	Varietéartist	Svärdslukare
+17	347420	Varietéartist	Trollkarl
+17	347410	Varietéartist	Trollkarl
+19	821160	Automatsvetsare	Maskinsvetsare
+19	821160	Automatsvetsare	Robotsvetsare
+19	821160	Automatsvetsare	Robotsvetsoperatör
+19	821160	Automatsvetsare	Svetsoperatör
+20	612140	Avbytare	Djurskötare
+20	612140	Avbytare	Lantbruksavbytare
+22	514150	Badmästare	Bad- och idrottshallspersonal
+22	514150	Badmästare	Badvakt
+22	514150	Badmästare	Simlärare
+24	341830	Banktjänsteman	Bankkassör
+24	341820	Banktjänsteman	Bankkassör
+24	341810	Banktjänsteman	Bankkassör
+24	341840	Banktjänsteman	Bankkassör
+24	421210	Banktjänsteman	Bankkassör
+25	223110	Barnmorska	Sjuksköterska
+26	346120	Barnomsorgsassistent	Barnomsorgssekreterare
+26	346120	Barnomsorgsassistent	Placeringsassistent inom barnomsorg
+27	223410	Barnsjuksköterska	Sjuksköterska
+27	223410	Barnsjuksköterska	Sjuksköterska barnavårdscentral
+28	512330	Bartender	Barmästare
+31	313220	Ljussättare och ljustekniker	Belysningsmästare
+31	313230	Ljussättare och ljustekniker	Belysningsmästare
+31	313220	Ljussättare och ljustekniker	Ljusdesigner
+31	313230	Ljussättare och ljustekniker	Ljusdesigner
+31	313220	Ljussättare och ljustekniker	Ljussättare
+31	313230	Ljussättare och ljustekniker	Ljussättare
+31	313220	Ljussättare och ljustekniker	Ljustekniker
+31	313230	Ljussättare och ljustekniker	Ljustekniker
+33	711120	Bergarbetare	Bergsprängare
+34	712210	Betongarbetare	Armerare
+35	313260	Bildingenjör	Bildmixertekniker
+35	313260	Bildingenjör	Bing
+35	313260	Bildingenjör	TOM
+36	232310	Bildlärare	Lärare
+36	232310	Bildlärare	Teckningslärare
+39	723110	Bilmekaniker	Fordonsmekaniker
+40	721350	Bilskadereparatör	Bilplåtslagare
+41	122620	Räddningschef	Brandchef
+41	122620	Räddningschef	Brandingenjör
+41	122620	Räddningschef	Säkerhetschef
+44	827810	Bryggeriarbetare	Processoperatör-bryggeri
+45	813090	Brännare	Processoperatör
+46	832110	Budbilsförare	Chaufför
+47	832210	Bussförare	Chaufför
+47	832210	Bussförare	Färdtjänstförare
+48	421120	Butikskassör	Kassörska
+49	214220	Ingenjör inom byggbranschen	Arbetschef inom bygg
+49	311240	Ingenjör inom byggbranschen	Arbetschef inom bygg
+49	122310	Ingenjör inom byggbranschen	Arbetschef inom bygg
+49	214220	Ingenjör inom byggbranschen	Arbetsledare inom bygg
+49	311240	Ingenjör inom byggbranschen	Arbetsledare inom bygg
+49	122310	Ingenjör inom byggbranschen	Arbetsledare inom bygg
+49	214220	Ingenjör inom byggbranschen	Byggnadsingenjör
+49	311240	Ingenjör inom byggbranschen	Byggnadsingenjör
+49	122310	Ingenjör inom byggbranschen	Byggnadsingenjör
+49	214220	Ingenjör inom byggbranschen	Ingenjör
+49	311240	Ingenjör inom byggbranschen	Ingenjör
+49	122310	Ingenjör inom byggbranschen	Ingenjör
+49	214220	Ingenjör inom byggbranschen	Planeringsingenjör inom bygg
+49	311240	Ingenjör inom byggbranschen	Planeringsingenjör inom bygg
+49	122310	Ingenjör inom byggbranschen	Planeringsingenjör inom bygg
+49	214220	Ingenjör inom byggbranschen	Platschef inom bygg
+49	311240	Ingenjör inom byggbranschen	Platschef inom bygg
+49	122310	Ingenjör inom byggbranschen	Platschef inom bygg
+49	214220	Ingenjör inom byggbranschen	Produktionsingenjör inom bygg
+49	311240	Ingenjör inom byggbranschen	Produktionsingenjör inom bygg
+49	122310	Ingenjör inom byggbranschen	Produktionsingenjör inom bygg
+50	714110	Byggnadsmålare	Målare
+51	721350	Byggnadsplåtslagare	Plåtslagare
+51	721350	Byggnadsplåtslagare	Ventilationsplåtslagare
+52	712330	Byggnadsträarbetare	Snickare
+53	712310	Båtbyggare	Snickare
+56	241120	Controller	Accounting controller
+56	241120	Controller	Business controller
+56	241120	Controller	Ekonom
+56	241120	Controller	Financial controller
+56	241120	Controller	Koncerncontroller
+57	245130	Copywriter	Script writer
+58	421320	Croupier	Bingofunktionär
+58	421320	Croupier	Dealer
+58	421320	Croupier	Spelhallsfunktionär
+58	421320	Croupier	Spelledare
+62	245410	Dansare	Kårdansare
+62	347330	Dansare	Kårdansare
+62	245410	Dansare	Premiärdansare
+62	347330	Dansare	Premiärdansare
+63	235920	Danspedagog	Danslärare
+64	347130	Dekoratör	Mässdekoratör
+65	522740	Demonstratör	Demonstratris
+66	915020	Demontör	Bilskrotare
+67	131410	Detaljhandlare	Butikschef
+67	122450	Detaljhandlare	Butikschef
+67	131410	Detaljhandlare	Handlare
+67	122450	Detaljhandlare	Handlare
+68	249270	Diakon i Svenska kyrkan	Diakonissa
+70	223510	Distriktssköterska	Sjuksköterska
+72	242210	Domare	Assessor
+72	242210	Domare	Fiskal
+72	242210	Domare	Hovrättspresident
+72	242210	Domare	Hovrättsråd
+72	242210	Domare	Jurist
+72	242210	Domare	Justitieråd
+72	242210	Domare	Kammarrättspresident
+72	242210	Domare	Kammarrättsråd
+72	242210	Domare	Lagman
+72	242210	Domare	Notarie
+72	242210	Domare	Regeringsråd
+72	242210	Domare	Rådman
+73	732110	Processoperatör inom porslinsindustri	Formare
+73	732110	Processoperatör inom porslinsindustri	Processoperatör
+74	311520	Driftingenjör	Ingenjör
+74	311320	Driftingenjör	Ingenjör
+75	713710	Driftmaskinist	Drifttekniker
+75	816010	Driftmaskinist	Drifttekniker
+75	816020	Driftmaskinist	Drifttekniker
+76	721610	Anläggningsdykare	Dykare
+77	814410	Efterarbetare inom pappersindustrin	Bestrykningsmaskinförare
+77	814410	Efterarbetare inom pappersindustrin	Kalanderförare
+77	814410	Efterarbetare inom pappersindustrin	Rullare
+78	123110	Ekonomichef	Ekonom
+78	123110	Ekonomichef	Ekonomiansvarig
+79	322320	Kostekonom	Ekonomiföreståndare
+79	322320	Kostekonom	Internatföreståndare
+79	322320	Kostekonom	Kostchef
+79	322320	Kostekonom	Kostkonsulent
+80	214310	Ingenjör inom elkraftsområdet	Elingenjör
+80	214320	Ingenjör inom elkraftsområdet	Elingenjör
+80	311310	Ingenjör inom elkraftsområdet	Elingenjör
+80	311320	Ingenjör inom elkraftsområdet	Elingenjör
+80	214310	Ingenjör inom elkraftsområdet	Elkraftsingenjör
+80	214320	Ingenjör inom elkraftsområdet	Elkraftsingenjör
+80	311310	Ingenjör inom elkraftsområdet	Elkraftsingenjör
+80	311320	Ingenjör inom elkraftsområdet	Elkraftsingenjör
+80	214310	Ingenjör inom elkraftsområdet	Ingenjör
+80	214320	Ingenjör inom elkraftsområdet	Ingenjör
+80	311310	Ingenjör inom elkraftsområdet	Ingenjör
+80	311320	Ingenjör inom elkraftsområdet	Ingenjör
+80	214310	Ingenjör inom elkraftsområdet	Konstruktör-elkraft
+80	214320	Ingenjör inom elkraftsområdet	Konstruktör-elkraft
+80	311310	Ingenjör inom elkraftsområdet	Konstruktör-elkraft
+80	311320	Ingenjör inom elkraftsområdet	Konstruktör-elkraft
+80	214310	Ingenjör inom elkraftsområdet	Produktionsingenjör-elkraft
+80	214320	Ingenjör inom elkraftsområdet	Produktionsingenjör-elkraft
+80	311310	Ingenjör inom elkraftsområdet	Produktionsingenjör-elkraft
+80	311320	Ingenjör inom elkraftsområdet	Produktionsingenjör-elkraft
+80	214310	Ingenjör inom elkraftsområdet	Serviceingenjör-elkraft
+80	214320	Ingenjör inom elkraftsområdet	Serviceingenjör-elkraft
+80	311310	Ingenjör inom elkraftsområdet	Serviceingenjör-elkraft
+80	311320	Ingenjör inom elkraftsområdet	Serviceingenjör-elkraft
+82	724140	Servicemontör-hushållsmaskiner	Hushållsmaskinreparatör
+82	724140	Servicemontör-hushållsmaskiner	Servicetekniker-hushållsmaskiner
+82	724140	Servicemontör-hushållsmaskiner	Vitvarureparatör
+85	713720	Fastighetsarbetare	Fastighetsskötare
+86	341320	Fastighetsförvaltare	Distriktschef-fastighetsförvaltning
+86	341320	Fastighetsförvaltare	Fastighetsekonom
+86	341320	Fastighetsförvaltare	Förvaltningschef-fastigheter
+86	341320	Fastighetsförvaltare	Områdeschef-fastighetsförvaltning
+88	313120	"Fotograf inom film, TV och video"	B-fotograf
+88	313120	"Fotograf inom film, TV och video"	Filmare
+88	313120	"Fotograf inom film, TV och video"	Filmfotograf
+88	313120	"Fotograf inom film, TV och video"	Fotograf
+88	313120	"Fotograf inom film, TV och video"	TV-fotograf
+88	313120	"Fotograf inom film, TV och video"	Videofotograf
+89	313130	Filmklippare/redigerare	Filmredigerare
+89	313130	Filmklippare/redigerare	Redigerare
+89	313130	Filmklippare/redigerare	Videoredigerare
+90	731130	Finmekaniker	Instrumentmakare
+90	731130	Finmekaniker	Instrumentmekaniker
+91	615110	Fiskodlingsarbetare	Fiskmästare
+91	615110	Fiskodlingsarbetare	Fiskodlare
+93	723210	Flygmekaniker	Flygtekniker
+93	314510	Flygmekaniker	Flygtekniker
+95	721340	Flygplansplåtslagare	Plåtslagare
+95	721340	Flygplansplåtslagare	Strukturreparatör
+97	422410	Trafikassistent	Rampagent
+97	413220	Trafikassistent	Rampagent
+98	511110	Flygvärdinna	Flygvärd
+98	511110	Flygvärdinna	Purser
+98	511110	Flygvärdinna	Steward
+99	243210	Bibliotekarie	Dokumentalist
+99	243220	Bibliotekarie	Dokumentalist
+99	414010	Bibliotekarie	Dokumentalist
+99	243210	Bibliotekarie	Informatiker
+99	243220	Bibliotekarie	Informatiker
+99	414010	Bibliotekarie	Informatiker
+101	828110	Fordonsmontör	Bilbyggare
+101	828110	Fordonsmontör	Bilmontör
+101	828110	Fordonsmontör	Chassimontör
+101	828110	Fordonsmontör	Montör
+103	313110	Fotograf inom porträtt- och reklamfotografi	Fotograf
+103	313110	Fotograf inom porträtt- och reklamfotografi	Modefotograf
+103	313110	Fotograf inom porträtt- och reklamfotografi	Porträttfotograf
+103	313110	Fotograf inom porträtt- och reklamfotografi	Reklamfotograf
+103	313110	Fotograf inom porträtt- och reklamfotografi	Studiofotograf
+104	822410	Fotolaboratoriearbetare	Fotolaborant
+104	822410	Fotolaboratoriearbetare	Fotolaboratoriebiträde
+104	822410	Fotolaboratoriearbetare	Kopist
+105	514140	Fotterapeut	Fotvårdsspecialist
+107	346220	Friskvårdskonsulent	Friskvårdare
+107	346220	Friskvårdskonsulent	Hälsoinformatör
+107	346220	Friskvårdskonsulent	Hälsopedagog
+107	346220	Friskvårdskonsulent	Hälsostrateg
+107	346220	Friskvårdskonsulent	Hälsoupplysare
+108	514110	Frisör	Damfrisör
+108	514110	Frisör	Herrfrisör
+109	346210	Fritidsledare	Fritidsassistent
+109	346210	Fritidsledare	Motionsledare
+112	211110	Fysiker	Sjukhusfysiker
+114	314210	Befälhavare på färja	Befälhavare
+114	314210	Befälhavare på färja	Styrman
+115	242330	Företagsjurist	Affärsjurist
+115	242360	Företagsjurist	Affärsjurist
+115	242330	Företagsjurist	Bankjurist
+115	242360	Företagsjurist	Bankjurist
+115	242330	Företagsjurist	Bolagsjurist
+115	242360	Företagsjurist	Bolagsjurist
+115	242330	Företagsjurist	Försäkringsjurist
+115	242360	Företagsjurist	Försäkringsjurist
+115	242330	Företagsjurist	Jurist
+115	242360	Företagsjurist	Jurist
+116	346230	Föreningskonsulent	Föreningsadministratör
+116	347510	Föreningskonsulent	Föreningsadministratör
+116	346230	Föreningskonsulent	Idrottskonsulent
+116	347510	Föreningskonsulent	Idrottskonsulent
+117	245140	Författare	Dramatiker
+117	245140	Författare	Manusförfattare
+118	241920	Finansekonom	Ekonom
+118	241920	Finansekonom	Finansanalytiker
+118	241920	Finansekonom	Finanschef
+118	241920	Finansekonom	Finanskonsult
+119	121010	Företagsledare	VD
+119	121010	Företagsledare	Verkställande direktör
+120	323930	Företagssköterska	Sjuksköterska
+122	331010	Förskollärare	Förskolechef
+122	331010	Förskollärare	Lärare
+124	341230	Kundtjänsteman på försäkringsbolag	Försäkringstjänsteman
+125	522110	Säljare i butik och varuhus	Försäljare
+125	522210	Säljare i butik och varuhus	Försäljare
+125	522110	Säljare i butik och varuhus	Säljare
+125	522210	Säljare i butik och varuhus	Säljare
+127	612950	Djurvårdare-försöksdjur	Djurskötare
+127	612950	Djurvårdare-försöksdjur	Djurvårdare
+127	612950	Djurvårdare-försöksdjur	Försöksdjursskötare
+127	612950	Djurvårdare-försöksdjur	Laboratoriedjurvårdare
+128	919010	Bilrekonditionerare	bilvårdare
+128	919010	Bilrekonditionerare	garagearbetare
+128	919010	Bilrekonditionerare	leveransman
+131	221110	Molekylärbiolog	Biolog
+132	244240	Geograf	Geovetare
+132	244240	Geograf	Kulturgeograf
+132	244240	Geograf	Naturgeograf
+133	211420	Geolog	Berggrundsgeolog
+133	211420	Geolog	Geovetare
+133	211420	Geolog	Hydrogeolog
+133	211420	Geolog	Jordartsgeolog
+133	211420	Geolog	Maringeolog
+134	721110	Gjutare	Gjuteriarbetare
+134	721110	Gjutare	Modellgjutare
+135	732210	Glasblåsare	Mästare
+136	732310	Glasgravör	Blästrare
+136	732310	Glasgravör	Glasetsare
+137	713410	Glasmästare	Glasmästeriarbetare
+139	825110	Tryckare	Djuptryckare
+139	734410	Tryckare	Djuptryckare
+139	825110	Tryckare	Offsettryckare
+139	734410	Tryckare	Offsettryckare
+139	825110	Tryckare	Screentryckare
+139	734410	Tryckare	Screentryckare
+140	825110	Grafisk faktor	Beställningsfaktor
+140	341920	Grafisk faktor	Beställningsfaktor
+140	825110	Grafisk faktor	Grafiker
+140	341920	Grafisk faktor	Grafiker
+140	825110	Grafisk faktor	Produktionsledare-tryckeri
+140	341920	Grafisk faktor	Produktionsledare-tryckeri
+140	825110	Grafisk faktor	Projektledare i grafiskt företag
+140	341920	Grafisk faktor	Projektledare i grafiskt företag
+140	825110	Grafisk faktor	Reproduktionsfaktor
+140	341920	Grafisk faktor	Reproduktionsfaktor
+140	825110	Grafisk faktor	Tryckerifaktor
+140	341920	Grafisk faktor	Tryckerifaktor
+141	721410	Grovplåtslagare	Plåtslagare
+142	233010	Grundskollärare	Lågstadielärare
+142	233020	Grundskollärare	Lågstadielärare
+142	233010	Grundskollärare	Lärare
+142	233020	Grundskollärare	Lärare
+142	233010	Grundskollärare	Mellanstadielärare
+142	233020	Grundskollärare	Mellanstadielärare
+144	711110	Gruvarbetare	Borrare
+144	711110	Gruvarbetare	Gruvarbetare
+144	711110	Gruvarbetare	Laddare
+144	711110	Gruvarbetare	Lastare
+144	711110	Gruvarbetare	Skrotare
+146	833210	Grävmaskinförare	Grävmaskinist
+146	833210	Grävmaskinförare	Maskinförare
+147	511320	Guide	Bussguide
+147	511320	Guide	Fiskeguide
+147	511320	Guide	Företagsguide
+147	511320	Guide	Lokalguide
+147	511320	Guide	Naturguide
+147	511320	Guide	Rundtursguide
+147	511320	Guide	Taxiguide
+147	511320	Guide	Vildmarksguide
+149	828310	Däckmontör	Gummireparatör
+151	233030	Modersmålslärare	Hemspråkslärare
+151	233030	Modersmålslärare	Hemspråkstränare
+151	233030	Modersmålslärare	Lärare
+151	233030	Modersmålslärare	Modersmålslärare
+152	346130	Hemtjänstassistent	Områdeschef inom hemtjänsten
+154	731140	Hjälpmedelstekniker	Hjälpmedelsingenjör
+155	422220	Hotellreceptionist	Förste receptionist
+155	422220	Hotellreceptionist	Nattportier
+155	422220	Hotellreceptionist	Nattreceptionist
+155	422220	Hotellreceptionist	Receptionschef
+157	914210	Hotellvaktmästare	Bagagevaktmästare
+157	914210	Hotellvaktmästare	Concierge
+157	914210	Hotellvaktmästare	Piccolo
+159	514130	Hudterapeut	Kosmetolog
+160	612160	Husdjurstekniker	Kontrollassistent-husdjur
+160	612160	Husdjurstekniker	Seminassistent
+160	612160	Husdjurstekniker	Seminbiträde
+160	612160	Husdjurstekniker	Semintekniker
+160	612160	Husdjurstekniker	Seminör
+161	512140	Husfru	Chefshusfru
+161	512140	Husfru	Hotellhusfru
+161	512140	Husfru	Restauranghusfru
+161	512140	Husfru	Våningshusfru
+162	232350	Hemkunskapslärare	Hushållslärare
+162	232350	Hemkunskapslärare	Lärare
+162	232350	Hemkunskapslärare	Lärare i hemkunskap
+165	612150	Hästskötare	Djurskötare
+167	322910	Audionom	Hörselvårdsassistent
+168	232340	Idrottslärare	Gymnastiklärare
+168	232340	Idrottslärare	Lärare
+168	232340	Idrottslärare	Lärare i idrott
+169	713740	Idrottsplatsvaktmästare	Idrottshallsföreståndare
+170	347510	Idrottstränare	Idrottsinstruktör
+170	347510	Idrottstränare	Tränare
+171	724110	Industrielektriker	Elektriker
+173	721310	Industriplåtslagare	Plåtslagare
+173	731310	Industriplåtslagare	Plåtslagare
+175	245145	Informatör	Informationsassistent
+175	123410	Informatör	Informationsassistent
+175	245145	Informatör	Informationschef
+175	123410	Informatör	Informationschef
+175	245145	Informatör	Informationssekreterare
+175	123410	Informatör	Informationssekreterare
+177	421520	Inkassohandläggare	Inkasserare
+180	712320	Inredningssnickare	Finsnickare
+180	712320	Inredningssnickare	Snickare
+181	347620	Inspicient	Teaterinspicient
+182	713610	Installationselektriker	Elektriker
+182	713610	Installationselektriker	Serviceelektriker
+183	313110	Fotograf inom institutions- och industrifotografi	Fotograf
+183	313110	Fotograf inom institutions- och industrifotografi	Industrifotograf
+183	313110	Fotograf inom institutions- och industrifotografi	Institutionsfotograf
+183	313110	Fotograf inom institutions- och industrifotografi	Museifotograf
+183	313110	Fotograf inom institutions- och industrifotografi	Polisfotograf
+183	313110	Fotograf inom institutions- och industrifotografi	Sjukhusfotograf
+184	223310	"Sjuksköterska, akutsjukvård"	Akutsjuksköterska
+184	223310	"Sjuksköterska, akutsjukvård"	Ambulanssjuksköterska
+184	223310	"Sjuksköterska, akutsjukvård"	Anestesisjuksköterska
+184	223310	"Sjuksköterska, akutsjukvård"	Intensivvårdssjuksköterska
+184	223310	"Sjuksköterska, akutsjukvård"	Sjuksköterska
+186	321230	Viltmästare	Jaktvårdare
+186	321230	Viltmästare	Jaktvårdskonsulent
+186	321230	Viltmästare	Länsjaktvårdare
+186	321230	Viltmästare	Länsjaktvårdskonsulent
+186	321230	Viltmästare	Viltvårdare
+186	321230	Viltmästare	Yrkesjägare
+187	245110	Journalist	Redaktionssekreterare
+187	245115	Journalist	Redaktionssekreterare
+187	245110	Journalist	Redaktör
+187	245115	Journalist	Redaktör
+187	245110	Journalist	Redigerare
+187	245115	Journalist	Redigerare
+187	245110	Journalist	Reporter
+187	245115	Journalist	Reporter
+188	512240	Kallskänka	Kallskänkschef
+189	311810	Kartingenjör och karttekniker	Gruvmätare
+189	311810	Kartingenjör och karttekniker	Ingenjör
+189	311810	Kartingenjör och karttekniker	Kartingenjör
+189	311810	Kartingenjör och karttekniker	Kartograf
+189	311810	Kartingenjör och karttekniker	Kartritare
+189	311810	Kartingenjör och karttekniker	Karttekniker
+189	311810	Kartingenjör och karttekniker	Ritbiträde
+189	311810	Kartingenjör och karttekniker	Stereooperatör
+192	222165	Läkare på sjukhus	Kirurg
+192	222140	Läkare på sjukhus	Kirurg
+192	222190	Läkare på sjukhus	Kirurg
+192	222185	Läkare på sjukhus	Kirurg
+192	222180	Läkare på sjukhus	Kirurg
+192	222175	Läkare på sjukhus	Kirurg
+192	222170	Läkare på sjukhus	Kirurg
+192	222110	Läkare på sjukhus	Kirurg
+192	222160	Läkare på sjukhus	Kirurg
+192	222135	Läkare på sjukhus	Kirurg
+192	222130	Läkare på sjukhus	Kirurg
+192	222125	Läkare på sjukhus	Kirurg
+192	222120	Läkare på sjukhus	Kirurg
+192	222115	Läkare på sjukhus	Kirurg
+192	222145	Läkare på sjukhus	Kirurg
+192	222165	Läkare på sjukhus	Läkare
+192	222140	Läkare på sjukhus	Läkare
+192	222190	Läkare på sjukhus	Läkare
+192	222185	Läkare på sjukhus	Läkare
+192	222180	Läkare på sjukhus	Läkare
+192	222175	Läkare på sjukhus	Läkare
+192	222170	Läkare på sjukhus	Läkare
+192	222110	Läkare på sjukhus	Läkare
+192	222160	Läkare på sjukhus	Läkare
+192	222135	Läkare på sjukhus	Läkare
+192	222130	Läkare på sjukhus	Läkare
+192	222125	Läkare på sjukhus	Läkare
+192	222120	Läkare på sjukhus	Läkare
+192	222115	Läkare på sjukhus	Läkare
+192	222145	Läkare på sjukhus	Läkare
+192	222165	Läkare på sjukhus	Psykiater
+192	222140	Läkare på sjukhus	Psykiater
+192	222190	Läkare på sjukhus	Psykiater
+192	222185	Läkare på sjukhus	Psykiater
+192	222180	Läkare på sjukhus	Psykiater
+192	222175	Läkare på sjukhus	Psykiater
+192	222170	Läkare på sjukhus	Psykiater
+192	222110	Läkare på sjukhus	Psykiater
+192	222160	Läkare på sjukhus	Psykiater
+192	222135	Läkare på sjukhus	Psykiater
+192	222130	Läkare på sjukhus	Psykiater
+192	222125	Läkare på sjukhus	Psykiater
+192	222120	Läkare på sjukhus	Psykiater
+192	222115	Läkare på sjukhus	Psykiater
+192	222145	Läkare på sjukhus	Psykiater
+193	512210	Kock	Kokerska
+193	512210	Kock	Kökschef
+193	512210	Kock	Köksmästare
+196	511290	Tågmästare	Konduktör
+196	511210	Tågmästare	Konduktör
+196	511290	Tågmästare	Tågbefälhavare
+196	511210	Tågmästare	Tågbefälhavare
+196	511290	Tågmästare	Tågvakt
+196	511210	Tågmästare	Tågvakt
+196	511290	Tågmästare	Tågvärd
+196	511210	Tågmästare	Tågvärd
+197	422220	Konferensvärd	Konferenschef
+197	422220	Konferensvärd	Konferensvärdinna
+198	733020	Konservator	Tavelkonservsator
+198	245240	Konservator	Tavelkonservsator
+198	733020	Konservator	Textilkonservator
+198	245240	Konservator	Textilkonservator
+199	245210	Bildkonstnär	Glaskonstnär
+199	245220	Bildkonstnär	Glaskonstnär
+199	245230	Bildkonstnär	Glaskonstnär
+199	245620	Bildkonstnär	Glaskonstnär
+199	245210	Bildkonstnär	Grafiker
+199	245220	Bildkonstnär	Grafiker
+199	245230	Bildkonstnär	Grafiker
+199	245620	Bildkonstnär	Grafiker
+199	245210	Bildkonstnär	Konstnär
+199	245220	Bildkonstnär	Konstnär
+199	245230	Bildkonstnär	Konstnär
+199	245620	Bildkonstnär	Konstnär
+199	245210	Bildkonstnär	Skulptör
+199	245220	Bildkonstnär	Skulptör
+199	245230	Bildkonstnär	Skulptör
+199	245620	Bildkonstnär	Skulptör
+200	214210	"Konstruktör inom bygg, väg och anläggning"	Ingenjör
+200	311210	"Konstruktör inom bygg, väg och anläggning"	Ingenjör
+201	311440	Ingenjör inom el/tele-området	Elingenjör
+201	311420	Ingenjör inom el/tele-området	Elingenjör
+201	311450	Ingenjör inom el/tele-området	Elingenjör
+201	214420	Ingenjör inom el/tele-området	Elingenjör
+201	214410	Ingenjör inom el/tele-området	Elingenjör
+201	311410	Ingenjör inom el/tele-området	Elingenjör
+201	311440	Ingenjör inom el/tele-området	Ingenjör
+201	311420	Ingenjör inom el/tele-området	Ingenjör
+201	311450	Ingenjör inom el/tele-området	Ingenjör
+201	214420	Ingenjör inom el/tele-området	Ingenjör
+201	214410	Ingenjör inom el/tele-området	Ingenjör
+201	311410	Ingenjör inom el/tele-området	Ingenjör
+201	311440	Ingenjör inom el/tele-området	Konstruktör-el/tele
+201	311420	Ingenjör inom el/tele-området	Konstruktör-el/tele
+201	311450	Ingenjör inom el/tele-området	Konstruktör-el/tele
+201	214420	Ingenjör inom el/tele-området	Konstruktör-el/tele
+201	214410	Ingenjör inom el/tele-området	Konstruktör-el/tele
+201	311410	Ingenjör inom el/tele-området	Konstruktör-el/tele
+201	311440	Ingenjör inom el/tele-området	Produktionsingenjör-el/tele
+201	311420	Ingenjör inom el/tele-området	Produktionsingenjör-el/tele
+201	311450	Ingenjör inom el/tele-området	Produktionsingenjör-el/tele
+201	214420	Ingenjör inom el/tele-området	Produktionsingenjör-el/tele
+201	214410	Ingenjör inom el/tele-området	Produktionsingenjör-el/tele
+201	311410	Ingenjör inom el/tele-området	Produktionsingenjör-el/tele
+201	311440	Ingenjör inom el/tele-området	Serviceingenjör-el/tele
+201	311420	Ingenjör inom el/tele-området	Serviceingenjör-el/tele
+201	311450	Ingenjör inom el/tele-området	Serviceingenjör-el/tele
+201	214420	Ingenjör inom el/tele-området	Serviceingenjör-el/tele
+201	214410	Ingenjör inom el/tele-området	Serviceingenjör-el/tele
+201	311410	Ingenjör inom el/tele-området	Serviceingenjör-el/tele
+201	311440	Ingenjör inom el/tele-området	Teleingenjör
+201	311420	Ingenjör inom el/tele-området	Teleingenjör
+201	311450	Ingenjör inom el/tele-området	Teleingenjör
+201	214420	Ingenjör inom el/tele-området	Teleingenjör
+201	214410	Ingenjör inom el/tele-området	Teleingenjör
+201	311410	Ingenjör inom el/tele-området	Teleingenjör
+202	241930	Konsumentvägledare	Budgetrådgivare
+202	241930	Konsumentvägledare	Konsumentrådgivare
+202	241930	Konsumentvägledare	Konsumentsekreterare
+203	419020	Kontorist	Kontorsadministratör
+203	412020	Kontorist	Kontorsadministratör
+204	833310	Kranförare	Maskinförare
+204	833310	Kranförare	Mobilkranförare
+204	833310	Kranförare	Traversförare
+205	242910	Kronofogde	Jurist
+206	421530	Kronoinspektör	Kronoassistent
+206	421530	Kronoinspektör	Kronokommissarie
+207	341930	Verkmästare på bilverkstad	Arbetsledare på bilverkstad
+207	341930	Verkmästare på bilverkstad	Kundmottagare
+208	249220	Kurator	Sjukhuskurator
+208	249220	Kurator	Skolkurator
+209	827310	Kvarnoperatör	Mjölnare
+211	713530	Kylmontör	Kyltekniker
+212	245340	Kyrkomusiker	Kantor
+212	245340	Kyrkomusiker	Organist
+214	913010	Köksbiträde	Restaurangbiträde
+215	743210	Körsnär	Pälsmodellör
+218	245620	Konsthantverkare	Keramiker
+218	245220	Konsthantverkare	Keramiker
+218	733010	Konsthantverkare	Keramiker
+218	733020	Konsthantverkare	Keramiker
+218	245620	Konsthantverkare	Textilkonstnär
+218	245220	Konsthantverkare	Textilkonstnär
+218	733010	Konsthantverkare	Textilkonstnär
+218	733020	Konsthantverkare	Textilkonstnär
+223	613030	Djurskötare inom lantbruk	Djurskötare
+223	612130	Djurskötare inom lantbruk	Djurskötare
+223	613030	Djurskötare inom lantbruk	Husdjursskötare
+223	612130	Djurskötare inom lantbruk	Husdjursskötare
+223	613030	Djurskötare inom lantbruk	Ladugårdsskötare
+223	612130	Djurskötare inom lantbruk	Ladugårdsskötare
+224	413140	Lagerarbetare	Orderexpeditör
+224	413140	Lagerarbetare	Varumottagare
+225	413130	Lagerchef	Leveranschef
+226	611110	Lantbrukare	Bonde
+226	612110	Lantbrukare	Bonde
+226	613010	Lantbrukare	Bonde
+227	131110	Driftledare	Förvaltare inom lantbruk
+227	131110	Driftledare	Lantbruksförvaltare
+227	131110	Driftledare	Lantbruksinspektor
+228	221310	Lantbrukskonsulent	Ekonomikonsulent inom lantbruk
+228	321110	Lantbrukskonsulent	Ekonomikonsulent inom lantbruk
+228	221310	Lantbrukskonsulent	Husdjurskonsulent
+228	321110	Lantbrukskonsulent	Husdjurskonsulent
+228	221310	Lantbrukskonsulent	Jordbruksrådgivare
+228	321110	Lantbrukskonsulent	Jordbruksrådgivare
+228	221310	Lantbrukskonsulent	Maskinkonsulent inom lantbruk
+228	321110	Lantbrukskonsulent	Maskinkonsulent inom lantbruk
+228	221310	Lantbrukskonsulent	Växtodlingskonsulent
+228	321110	Lantbrukskonsulent	Växtodlingskonsulent
+229	214810	Lantmätare	Exploateringsingenjör
+229	214810	Lantmätare	Förrättningslantmätare
+229	214810	Lantmätare	Geodet
+229	214810	Lantmätare	GIF-systemerare
+229	214810	Lantmätare	Ingenjör
+229	214810	Lantmätare	Markförhandlare
+230	313320	SOS-operatör/larmoperatör	Radiooperatör
+231	832310	Lastbilsförare	Chaufför
+231	832310	Lastbilsförare	Långtradarchaufför
+233	833210	Lastmaskinförare/truckförare i gruva	Gruvarbetare
+234	724310	Distributionselektriker	Elektriker
+234	724320	Distributionselektriker	Elektriker
+234	724310	Distributionselektriker	Elektriker-elnät
+234	724320	Distributionselektriker	Elektriker-elnät
+234	724310	Distributionselektriker	Kabelmontör
+234	724320	Distributionselektriker	Kabelmontör
+234	724310	Distributionselektriker	Linjemontör
+234	724320	Distributionselektriker	Linjemontör
+235	313210	Ljudtekniker	A-ljudtekniker
+235	313210	Ljudtekniker	B-ljudtekniker
+235	313210	Ljudtekniker	Filmljudtekniker
+235	313210	Ljudtekniker	Inspelningstekniker
+235	313210	Ljudtekniker	Ljudbandstekniker
+235	313210	Ljudtekniker	Ljuddesigner
+235	313210	Ljudtekniker	Mixertekniker
+235	313210	Ljudtekniker	Radiotekniker
+235	313210	Ljudtekniker	Överspelningstekniker
+238	831110	Lokförare	Motorvagnsförare
+240	731110	Låssmed	Låssmedsmästare
+241	411220	Läkarsekreterare	Expeditionsföreståndare
+241	411220	Läkarsekreterare	Klinikassistent
+243	232140	Gymnasielärare i allmänna ämnen	Gymnasielärare i ekonomiska ämnen
+243	232150	Gymnasielärare i allmänna ämnen	Gymnasielärare i ekonomiska ämnen
+243	232120	Gymnasielärare i allmänna ämnen	Gymnasielärare i ekonomiska ämnen
+243	232110	Gymnasielärare i allmänna ämnen	Gymnasielärare i ekonomiska ämnen
+243	232130	Gymnasielärare i allmänna ämnen	Gymnasielärare i ekonomiska ämnen
+243	232140	Gymnasielärare i allmänna ämnen	Gymnasielärare i tekniska ämnen
+243	232150	Gymnasielärare i allmänna ämnen	Gymnasielärare i tekniska ämnen
+243	232120	Gymnasielärare i allmänna ämnen	Gymnasielärare i tekniska ämnen
+243	232110	Gymnasielärare i allmänna ämnen	Gymnasielärare i tekniska ämnen
+243	232130	Gymnasielärare i allmänna ämnen	Gymnasielärare i tekniska ämnen
+243	232140	Gymnasielärare i allmänna ämnen	Lärare
+243	232150	Gymnasielärare i allmänna ämnen	Lärare
+243	232120	Gymnasielärare i allmänna ämnen	Lärare
+243	232110	Gymnasielärare i allmänna ämnen	Lärare
+243	232130	Gymnasielärare i allmänna ämnen	Lärare
+245	811120	Processoperatör inom malmanrikning	Malmanrikningsarbetare
+245	811120	Processoperatör inom malmanrikning	Malmförädlingsarbetare
+245	811120	Processoperatör inom malmanrikning	Processoperatör
+246	514130	Manikyrist och nagelteknolog	Nagelteknolog
+247	314110	Maskinbefäl	Andremaskinist
+247	314110	Maskinbefäl	Elingenjör
+247	314110	Maskinbefäl	Elmaskinist
+247	314110	Maskinbefäl	Förstemaskinist
+247	314110	Maskinbefäl	Maskinchef
+248	833110	Maskinförare inom lantbruk	Traktorförare
+249	732410	Gravör	Handgravör
+249	732410	Gravör	Maskingravör
+250	311510	Ingenjör inom maskinteknik	Ingenjör
+250	311520	Ingenjör inom maskinteknik	Ingenjör
+250	214520	Ingenjör inom maskinteknik	Ingenjör
+250	214510	Ingenjör inom maskinteknik	Ingenjör
+250	311540	Ingenjör inom maskinteknik	Ingenjör
+250	311510	Ingenjör inom maskinteknik	Konstruktör-maskin
+250	311520	Ingenjör inom maskinteknik	Konstruktör-maskin
+250	214520	Ingenjör inom maskinteknik	Konstruktör-maskin
+250	214510	Ingenjör inom maskinteknik	Konstruktör-maskin
+250	311540	Ingenjör inom maskinteknik	Konstruktör-maskin
+250	311510	Ingenjör inom maskinteknik	Maskiningenjör
+250	311520	Ingenjör inom maskinteknik	Maskiningenjör
+250	214520	Ingenjör inom maskinteknik	Maskiningenjör
+250	214510	Ingenjör inom maskinteknik	Maskiningenjör
+250	311540	Ingenjör inom maskinteknik	Maskiningenjör
+250	311510	Ingenjör inom maskinteknik	Maskinkonstruktör
+250	311520	Ingenjör inom maskinteknik	Maskinkonstruktör
+250	214520	Ingenjör inom maskinteknik	Maskinkonstruktör
+250	214510	Ingenjör inom maskinteknik	Maskinkonstruktör
+250	311540	Ingenjör inom maskinteknik	Maskinkonstruktör
+250	311510	Ingenjör inom maskinteknik	Produktionsingenjör-maskin
+250	311520	Ingenjör inom maskinteknik	Produktionsingenjör-maskin
+250	214520	Ingenjör inom maskinteknik	Produktionsingenjör-maskin
+250	214510	Ingenjör inom maskinteknik	Produktionsingenjör-maskin
+250	311540	Ingenjör inom maskinteknik	Produktionsingenjör-maskin
+250	311510	Ingenjör inom maskinteknik	Serviceingenjör-maskin
+250	311520	Ingenjör inom maskinteknik	Serviceingenjör-maskin
+250	214520	Ingenjör inom maskinteknik	Serviceingenjör-maskin
+250	214510	Ingenjör inom maskinteknik	Serviceingenjör-maskin
+250	311540	Ingenjör inom maskinteknik	Serviceingenjör-maskin
+251	723120	Maskinmekaniker	Fordonsmekaniker
+252	723310	Maskinmontör	Montör/maskiner
+252	723310	Maskinmontör	Verkstadsarbetare
+253	723310	Maskinreparatör	Mekanisk reparatör
+254	821150	Maskinskötare	Automatskötare
+254	821150	Maskinskötare	Maskinarbetare
+254	821150	Maskinskötare	Maskinoperatör
+254	821150	Maskinskötare	Verkstadsarbetare
+255	824010	Verkstadssnickare/maskinsnickare	"CNC-operatör, trä"
+255	828410	Verkstadssnickare/maskinsnickare	"CNC-operatör, trä"
+255	824010	Verkstadssnickare/maskinsnickare	Maskinsnickare
+255	828410	Verkstadssnickare/maskinsnickare	Maskinsnickare
+255	824010	Verkstadssnickare/maskinsnickare	Monteringssnickare
+255	828410	Verkstadssnickare/maskinsnickare	Monteringssnickare
+255	824010	Verkstadssnickare/maskinsnickare	Snickare
+255	828410	Verkstadssnickare/maskinsnickare	Snickare
+255	824010	Verkstadssnickare/maskinsnickare	Verkstadssnickare
+255	828410	Verkstadssnickare/maskinsnickare	Verkstadssnickare
+256	722310	Maskinställare	Automatställare
+256	722310	Maskinställare	Bandställare
+256	722310	Maskinställare	NC-programmerare
+256	722310	Maskinställare	Riggare
+256	722310	Maskinställare	Uppsättare
+256	722310	Maskinställare	Verkstadsarbetare
+256	722310	Maskinställare	Verktygsställare
+256	722310	Maskinställare	Verktygsuppsättare
+257	812210	Reglerare på valsverk	Maskinvalsare
+257	812210	Reglerare på valsverk	Processoperatör
+259	514160	Massör	Massageterapeut
+260	834010	Matros	Däcksman
+261	827210	Mejeriarbetare	Mejerist
+261	827210	Mejeriarbetare	Ostmästare
+262	821170	Metallpressare	Automatpressare
+263	211210	Meteorolog	Försvarsmeteorolog
+264	221110	Mikrobiolog	Biolog
+265	322210	Miljö- och hälsoskyddsinspektör	Hälsoskyddsinspektör
+265	322210	Miljö- och hälsoskyddsinspektör	Miljöinspektör
+265	322210	Miljö- och hälsoskyddsinspektör	Miljöskyddsinspektör
+266	322220	Miljörevisor	Miljörevisionsledare
+267	521010	Modell och mannekäng	Fotomodell
+267	521020	Modell och mannekäng	Fotomodell
+267	521010	Modell och mannekäng	Konstmodell
+267	521020	Modell och mannekäng	Konstmodell
+267	521010	Modell och mannekäng	Konstnärsmodell
+267	521020	Modell och mannekäng	Konstnärsmodell
+267	521010	Modell och mannekäng	Mannekäng
+267	521020	Modell och mannekäng	Mannekäng
+267	521010	Modell och mannekäng	Modell
+267	521020	Modell och mannekäng	Modell
+267	521010	Modell och mannekäng	Nakenmodell
+267	521020	Modell och mannekäng	Nakenmodell
+267	521010	Modell och mannekäng	Reklammodell
+267	521020	Modell och mannekäng	Reklammodell
+268	742120	Modellsnickare	Modellbyggare
+268	742120	Modellsnickare	Snickare
+269	743110	Modist	Hattmakare
+271	828110	Motormontör	Bilmotormontör
+271	828110	Motormontör	Dieselmontör
+271	828110	Motormontör	Flygmotormontör
+271	828110	Motormontör	Justerare
+271	828110	Motormontör	Montör/motor
+271	828110	Motormontör	Motorinstallatör
+273	712110	Murare	Gråstensmurare
+273	712110	Murare	Kakelugnsmakare
+274	243120	Museitjänsteman	Antikvarie
+274	235940	Museitjänsteman	Antikvarie
+274	414030	Museitjänsteman	Antikvarie
+274	243120	Museitjänsteman	Museiamanuens
+274	235940	Museitjänsteman	Museiamanuens
+274	414030	Museitjänsteman	Museiamanuens
+274	243120	Museitjänsteman	Museiassistent
+274	235940	Museitjänsteman	Museiassistent
+274	414030	Museitjänsteman	Museiassistent
+274	243120	Museitjänsteman	Museiintendent
+274	235940	Museitjänsteman	Museiintendent
+274	414030	Museitjänsteman	Museiintendent
+274	243120	Museitjänsteman	Museilärare
+274	235940	Museitjänsteman	Museilärare
+274	414030	Museitjänsteman	Museilärare
+274	243120	Museitjänsteman	Museipedagog
+274	235940	Museitjänsteman	Museipedagog
+274	414030	Museitjänsteman	Museipedagog
+275	245360	Musiker	Arrangör
+275	245390	Musiker	Arrangör
+275	245380	Musiker	Arrangör
+275	245375	Musiker	Arrangör
+275	245370	Musiker	Arrangör
+275	245365	Musiker	Arrangör
+275	245350	Musiker	Arrangör
+275	245340	Musiker	Arrangör
+275	245330	Musiker	Arrangör
+275	245320	Musiker	Arrangör
+275	245310	Musiker	Arrangör
+275	347320	Musiker	Arrangör
+275	245355	Musiker	Arrangör
+275	245360	Musiker	Dirigent
+275	245390	Musiker	Dirigent
+275	245380	Musiker	Dirigent
+275	245375	Musiker	Dirigent
+275	245370	Musiker	Dirigent
+275	245365	Musiker	Dirigent
+275	245350	Musiker	Dirigent
+275	245340	Musiker	Dirigent
+275	245330	Musiker	Dirigent
+275	245320	Musiker	Dirigent
+275	245310	Musiker	Dirigent
+275	347320	Musiker	Dirigent
+275	245355	Musiker	Dirigent
+275	245360	Musiker	Instrumentalmusiker
+275	245390	Musiker	Instrumentalmusiker
+275	245380	Musiker	Instrumentalmusiker
+275	245375	Musiker	Instrumentalmusiker
+275	245370	Musiker	Instrumentalmusiker
+275	245365	Musiker	Instrumentalmusiker
+275	245350	Musiker	Instrumentalmusiker
+275	245340	Musiker	Instrumentalmusiker
+275	245330	Musiker	Instrumentalmusiker
+275	245320	Musiker	Instrumentalmusiker
+275	245310	Musiker	Instrumentalmusiker
+275	347320	Musiker	Instrumentalmusiker
+275	245355	Musiker	Instrumentalmusiker
+275	245360	Musiker	Kompositör
+275	245390	Musiker	Kompositör
+275	245380	Musiker	Kompositör
+275	245375	Musiker	Kompositör
+275	245370	Musiker	Kompositör
+275	245365	Musiker	Kompositör
+275	245350	Musiker	Kompositör
+275	245340	Musiker	Kompositör
+275	245330	Musiker	Kompositör
+275	245320	Musiker	Kompositör
+275	245310	Musiker	Kompositör
+275	347320	Musiker	Kompositör
+275	245355	Musiker	Kompositör
+275	245360	Musiker	Popmusiker
+275	245390	Musiker	Popmusiker
+275	245380	Musiker	Popmusiker
+275	245375	Musiker	Popmusiker
+275	245370	Musiker	Popmusiker
+275	245365	Musiker	Popmusiker
+275	245350	Musiker	Popmusiker
+275	245340	Musiker	Popmusiker
+275	245330	Musiker	Popmusiker
+275	245320	Musiker	Popmusiker
+275	245310	Musiker	Popmusiker
+275	347320	Musiker	Popmusiker
+275	245355	Musiker	Popmusiker
+276	232320	Musiklärare	Körpedagog
+276	232320	Musiklärare	Lärare
+276	232320	Musiklärare	Musikpedagog
+276	232320	Musiklärare	Rytmiklärare
+277	311250	Mätningsingenjör och mätningstekniker	Ingenjör
+277	311250	Mätningsingenjör och mätningstekniker	Markprojekterare
+277	311250	Mätningsingenjör och mätningstekniker	Mätare
+277	311250	Mätningsingenjör och mätningstekniker	Mätbiträde
+277	311250	Mätningsingenjör och mätningstekniker	Mätningsingenjör
+277	311250	Mätningsingenjör och mätningstekniker	Mätningstekniker
+278	244110	Nationalekonom	Ekonom
+278	244110	Nationalekonom	Ekonometriker
+279	821110	CNC-operatör	NC-operatör
+280	011010	Officer i armén	Arméofficer
+280	011010	Officer i armén	Officer
+281	011020	Officer i flygvapnet	Flygofficer
+281	011020	Officer i flygvapnet	Officer
+282	011020	Officer i marinen	Kustartillerist
+282	011020	Officer i marinen	Marinofficer
+282	011020	Officer i marinen	Officer
+282	011020	Officer i marinen	Sjöofficer
+283	248020	Ombudsman	Förhandlare
+283	248010	Ombudsman	Förhandlare
+283	248020	Ombudsman	Utredare
+283	248010	Ombudsman	Utredare
+284	323920	Onkologisjuksköterska	Sjuksköterska
+284	323920	Onkologisjuksköterska	Sjuksköterska inom cancervård
+285	323210	Operationssjuksköterska	Sjuksköterska
+288	731260	Orgelbyggare	Intonatör
+288	731260	Orgelbyggare	Orgelpipmakare
+291	515220	Parkeringsvakt	Trafikövervakare
+292	825210	Partibokbindare	Bokbindare
+292	734310	Partibokbindare	Bokbindare
+292	825210	Partibokbindare	Maskinbokbindare
+292	734310	Partibokbindare	Maskinbokbindare
+292	825210	Partibokbindare	Privatbokbindare
+292	734310	Partibokbindare	Privatbokbindare
+294	214940	Patentingenjör	Ingenjör
+294	214940	Patentingenjör	Patentombud
+295	241210	Personaltjänsteman	Personaladministratör
+295	241210	Personaltjänsteman	Personalassistent
+295	241210	Personaltjänsteman	Personalman
+295	241210	Personaltjänsteman	Personalsekreterare
+295	241210	Personaltjänsteman	Personalvetare
+297	731240	Pianotekniker	Pianostämmare
+299	345010	Polis	Närpolis
+300	345010	Kommissarie	Kriminalkommissarie
+300	345010	Kommissarie	Poliskommissarie
+301	332080	Datautbildare	Datainstruktör
+301	332080	Datautbildare	Datalärare
+301	332080	Datautbildare	Datapedagog
+302	732420	Porslins- och glasmålare	Glaserare
+303	415010	Brevbärare	Lantbrevbärare
+303	415010	Brevbärare	Postiljon
+303	415010	Brevbärare	Sorterare
+303	415010	Brevbärare	Stadsbrevbärare
+304	421220	Postkassör	Kassainstruktör
+306	313110	Fotograf inom press	Fotograf
+306	313110	Fotograf inom press	Pressfotograf
+308	813020	Processoperatör inom glasindustrin	Glasmaskinskötare
+308	813020	Processoperatör inom glasindustrin	Processoperatör
+309	812120	Processoperatör inom stål- och metallindustri	Processoperatör
+310	815010	Processoperatör inom kemisk industri	Processoperatör
+311	814310	Processoperatör inom massaindustrin	Processoperatör
+312	814410	Processoperatör inom pappersindustrin	Pappersmaskinförare
+312	814410	Processoperatör inom pappersindustrin	Processoperatör
+313	245690	Designer inom mode och textil	Designer
+313	245620	Designer inom mode och textil	Designer
+313	347190	Designer inom mode och textil	Designer
+313	245690	Designer inom mode och textil	Mönsterformgivare
+313	245620	Designer inom mode och textil	Mönsterformgivare
+313	347190	Designer inom mode och textil	Mönsterformgivare
+313	245690	Designer inom mode och textil	Textildesigner
+313	245620	Designer inom mode och textil	Textildesigner
+313	347190	Designer inom mode och textil	Textildesigner
+314	213150	Programmerare	Programvarukonstruktör
+314	213150	Programmerare	Systemförvaltare
+314	213150	Programmerare	Systemprogrammerare
+315	245155	Producent på radio och TV	Projektledare inom TV
+315	245160	Producent på radio och TV	Projektledare inom TV
+315	313120	Producent på radio och TV	Projektledare inom TV
+316	246010	Präst och pastor	Pastor
+316	348010	Präst och pastor	Pastor
+317	249110	Psykolog	Psykoterapeut
+318	612920	Pälsdjursskötare	Djurskötare
+320	313310	Radioassistent	Telegrafist
+321	322810	Receptarie	Apotekschef
+321	322810	Receptarie	Farmacevt
+322	343320	Redovisningsekonom	Ekonom
+322	412010	Redovisningsekonom	Ekonom
+322	343320	Redovisningsekonom	Ekonomiassistent
+322	412010	Redovisningsekonom	Ekonomiassistent
+322	343320	Redovisningsekonom	Redovisningsansvarig
+322	412010	Redovisningsekonom	Redovisningsansvarig
+322	343320	Redovisningsekonom	Redovisningsassistent
+322	412010	Redovisningsekonom	Redovisningsassistent
+322	343320	Redovisningsekonom	Redovisningskonsult
+322	412010	Redovisningsekonom	Redovisningskonsult
+323	245540	Regissör	Filmregissör
+323	245540	Regissör	Teaterregissör
+326	341410	Resebyråtjänsteman	Biljettör
+326	422110	Resebyråtjänsteman	Biljettör
+326	122450	Resebyråtjänsteman	Biljettör
+326	341410	Resebyråtjänsteman	Resebyråchef
+326	422110	Resebyråtjänsteman	Resebyråchef
+326	122450	Resebyråtjänsteman	Resebyråchef
+326	341410	Resebyråtjänsteman	Resekonsulent
+326	422110	Resebyråtjänsteman	Resekonsulent
+326	122450	Resebyråtjänsteman	Resekonsulent
+327	511310	Reseledare	Aktivitetsledare
+327	511310	Reseledare	Färdledare
+327	511310	Reseledare	Golfvärd
+327	511310	Reseledare	Platschef
+329	241110	Revisor	Auktoriserad revisor
+329	241110	Revisor	Ekonom
+329	241110	Revisor	Godkänd revisor
+329	241110	Revisor	Internrevisor
+329	241110	Revisor	Revisorsassistent
+329	241110	Revisor	Skatterevisor
+330	323510	Röntgensjuksköterska	Sjuksköterska
+330	323510	Röntgensjuksköterska	Sjuksköterska inom diagnostisk radiologi
+331	712440	Rörläggare	Gatu- och vägarbetare
+333	744220	Sadelmakare	Inredningssadelmakare
+335	245550	Scenograf	Kostymtecknare
+335	347140	Scenograf	Kostymtecknare
+336	347640	Scripta	Produktionsassistent
+336	347650	Scripta	Produktionsassistent
+336	347640	Scripta	Produktionssekreterare
+336	347650	Scripta	Produktionssekreterare
+336	347640	Scripta	Programsekreterare
+336	347650	Scripta	Programsekreterare
+337	343120	Sekreterare	Administrativ assistent
+337	411210	Sekreterare	Administrativ assistent
+337	343120	Sekreterare	Kontorsadministratör
+337	411210	Sekreterare	Kontorsadministratör
+337	343120	Sekreterare	Projektadministratör
+337	411210	Sekreterare	Projektadministratör
+338	131810	Föreståndare inom social omsorg	Enhetschef inom äldreomsorgen
+338	131810	Föreståndare inom social omsorg	Föreståndare inom äldreomsorgen
+338	131810	Föreståndare inom social omsorg	Områdeschef inom äldreomsorgen
+338	131810	Föreståndare inom social omsorg	Servicehusföreståndare
+339	213920	IT-samordnare	ADB-samordnare
+339	213920	IT-samordnare	Datasamordnare
+339	213920	IT-samordnare	PC-samordnare
+340	512320	Servitör	Servitris
+342	313410	Medicinteknisk ingenjör	Ingenjör
+342	313410	Medicinteknisk ingenjör	Medicintekniker
+342	313410	Medicinteknisk ingenjör	Sjukhusingenjör
+343	323110	"Sjuksköterska, medicin och kirurgi"	Sjuksköterska
+343	323110	"Sjuksköterska, medicin och kirurgi"	Sjuksköterska på vårdavdelning
+345	814210	Träskivearbetare	Fanérare
+345	814210	Träskivearbetare	Formatsågare
+345	814210	Träskivearbetare	Presskötare-träskivor
+345	814210	Träskivearbetare	Skiktträarbetare
+345	814210	Träskivearbetare	Träfiberskivearbetare
+346	614030	Skogsarbetare	Maskinförare inom skogsbruk
+346	833120	Skogsarbetare	Maskinförare inom skogsbruk
+346	614030	Skogsarbetare	Skogsmaskinförare
+346	833120	Skogsarbetare	Skogsmaskinförare
+347	221410	Skogsvårdskonsulent	Skogsbruksrådgivare
+347	321210	Skogsvårdskonsulent	Skogsbruksrådgivare
+348	321220	Arbetsledare inom skogsbruk	Arbetsområdeschef inom skogsbruk
+348	321220	Arbetsledare inom skogsbruk	Distriktschef inom skogsbruk
+348	321220	Arbetsledare inom skogsbruk	Inspektor inom skogsbruk
+348	321220	Arbetsledare inom skogsbruk	Områdeschef inom skogsbruk
+348	321220	Arbetsledare inom skogsbruk	Skogvaktare
+349	122710	Skolledare	Musikledare
+349	122710	Skolledare	Rektor
+350	223410	Skolsköterska	Sjuksköterska
+352	744210	Skomakare	Handskomakare
+352	744210	Skomakare	Ortopedskomakare
+352	744210	Skomakare	Skoreparatör
+353	714310	Skorstensfejare	Skorstensfejarmästare
+353	714310	Skorstensfejare	Sotare
+355	315220	Arbetsmiljöingenjör	Skyddsingenjör
+357	513410	Skötare inom psykiatrisk vård	Boendestödjare
+357	513410	Skötare inom psykiatrisk vård	Mentalskötare
+357	513410	Skötare inom psykiatrisk vård	Skötare
+359	232330	Lärare i trä- och metallslöjd	Lärare
+359	232330	Lärare i trä- och metallslöjd	Slöjdlärare
+360	722110	Smed	Klensmed
+360	245620	Smed	Klensmed
+360	722110	Smed	Konstsmed
+360	245620	Smed	Konstsmed
+361	249210	Socialsekreterare	Fältassistent
+361	249210	Socialsekreterare	Socialassistent
+362	234020	Speciallärare/Specialpedagog	Hörselpedagog
+362	234030	Speciallärare/Specialpedagog	Hörselpedagog
+362	234010	Speciallärare/Specialpedagog	Hörselpedagog
+362	234020	Speciallärare/Specialpedagog	Lärare
+362	234030	Speciallärare/Specialpedagog	Lärare
+362	234010	Speciallärare/Specialpedagog	Lärare
+362	234020	Speciallärare/Specialpedagog	Lärare i specialskolan
+362	234030	Speciallärare/Specialpedagog	Lärare i specialskolan
+362	234010	Speciallärare/Specialpedagog	Lärare i specialskolan
+362	234020	Speciallärare/Specialpedagog	Speciallärare
+362	234030	Speciallärare/Specialpedagog	Speciallärare
+362	234010	Speciallärare/Specialpedagog	Speciallärare
+362	234020	Speciallärare/Specialpedagog	Specialpedagog
+362	234030	Speciallärare/Specialpedagog	Specialpedagog
+362	234010	Speciallärare/Specialpedagog	Specialpedagog
+362	234020	Speciallärare/Specialpedagog	Synpedagog
+362	234030	Speciallärare/Specialpedagog	Synpedagog
+362	234010	Speciallärare/Specialpedagog	Synpedagog
+364	245610	Grafisk formgivare	Designer
+364	245610	Grafisk formgivare	Grafisk designer
+364	245610	Grafisk formgivare	Webdesigner
+365	422420	Spärrexpeditör	Stationsföreståndare
+366	212210	Statistiker	Demograf
+366	212210	Statistiker	Försäkringsaktuarie
+371	312110	Webmaster	Webbansvarig
+371	312110	Webmaster	Webbmästare
+372	347410	Stuntman	Stuntkoordinator
+373	741120	Styckare	Köttmästare
+373	741120	Styckare	Styckmästare
+374	724210	Automationstekniker	Instrumenttekniker
+374	724210	Automationstekniker	Processtekniker
+374	724210	Automationstekniker	Styr- och reglermekaniker
+374	724210	Automationstekniker	Styr- och reglertekniker
+374	724210	Automationstekniker	Underhållstekniker
+375	912220	Städare	Lokalvårdare
+375	912220	Städare	Lokalvårdsförman
+375	912220	Städare	Städledare
+375	912220	Städare	Överstädare
+377	721210	Svetsare	Bågsvetsare
+377	721210	Svetsare	Elsvetsare
+377	721210	Svetsare	Gassvetsare
+378	241240	Studie- och yrkesvägledare	Syokonsulent
+379	213130	Systemerare	Applikationsutvecklare
+379	213130	Systemerare	Projektledare-IT
+379	213130	Systemerare	Systemanalytiker
+379	213130	Systemerare	Systemarkitekt
+379	213130	Systemerare	Systemingenjör
+379	213130	Systemerare	Systemkonstruktör
+379	213130	Systemerare	Systemutredare
+379	213130	Systemerare	Systemutvecklare
+379	213130	Systemerare	Webbutvecklare
+379	213130	Systemerare	Verksamhetsanalytiker
+379	213130	Systemerare	Verksamhetsutvecklare
+380	814110	Sågverksoperatör	Sågare
+380	814120	Sågverksoperatör	Sågare
+380	814110	Sågverksoperatör	Sågoperatör
+380	814120	Sågverksoperatör	Sågoperatör
+380	814110	Sågverksoperatör	Sågverksarbetare
+380	814120	Sågverksoperatör	Sågverksarbetare
+380	814110	Sågverksoperatör	Torkoperatör
+380	814120	Sågverksoperatör	Torkoperatör
+380	814110	Sågverksoperatör	Torktekniker
+380	814120	Sågverksoperatör	Torktekniker
+380	814110	Sågverksoperatör	Virkessorterare
+380	814120	Sågverksoperatör	Virkessorterare
+380	814110	Sågverksoperatör	Virkestorkare
+380	814120	Sågverksoperatör	Virkestorkare
+381	245310	Sångare	Artist
+381	347310	Sångare	Artist
+381	245310	Sångare	Konsertsångare
+381	347310	Sångare	Konsertsångare
+381	245310	Sångare	Korist
+381	347310	Sångare	Korist
+381	245310	Sångare	Operasångare
+381	347310	Sångare	Operasångare
+381	245310	Sångare	Popsångare
+381	347310	Sångare	Popsångare
+381	245310	Sångare	Trubadur
+381	347310	Sångare	Trubadur
+381	245310	Sångare	Underhållningsartist
+381	347310	Sångare	Underhållningsartist
+381	245310	Sångare	Vokalist
+381	347310	Sångare	Vokalist
+382	341510	Säljare i företag	Innesäljare
+382	419050	Säljare i företag	Innesäljare
+382	341510	Säljare i företag	Säljare
+382	419050	Säljare i företag	Säljare
+382	341510	Säljare i företag	Utesäljare
+382	419050	Säljare i företag	Utesäljare
+385	234040	Talpedagog	Specialpedagog
+385	234040	Talpedagog	Specialpedagog inriktning tal
+385	234040	Talpedagog	Tal- och språkpedagog
+388	513510	Tandsköterska	Operationstandsköterska
+388	513510	Tandsköterska	Ortodontitandsköterska
+388	513510	Tandsköterska	Profylaxtandsköterska
+389	313430	Tandtekniker	Sjukhustandtekniker
+391	832120	Taxiförare	Chaufför
+392	347120	Illustratör	Animatör
+392	347120	Illustratör	Filmtecknare
+392	347120	Illustratör	Modetecknare
+392	347120	Illustratör	Serietecknare
+392	347120	Illustratör	Teknisk illustratör
+393	422310	Telefonist	Kontorstelefonist
+393	422230	Telefonist	Kontorstelefonist
+393	422310	Telefonist	Receptionist
+393	422230	Telefonist	Receptionist
+394	724230	Tele- och elektronikreparatör	Elektronikreparatör
+394	724210	Tele- och elektronikreparatör	Elektronikreparatör
+394	724230	Tele- och elektronikreparatör	Servicetekniker-el-tele
+394	724210	Tele- och elektronikreparatör	Servicetekniker-el-tele
+394	724230	Tele- och elektronikreparatör	Signaltekniker
+394	724210	Tele- och elektronikreparatör	Signaltekniker
+394	724230	Tele- och elektronikreparatör	Telereparatör
+394	724210	Tele- och elektronikreparatör	Telereparatör
+394	724230	Tele- och elektronikreparatör	Telesignalreparatör
+394	724210	Tele- och elektronikreparatör	Telesignalreparatör
+394	724230	Tele- och elektronikreparatör	Teletekniker
+394	724210	Tele- och elektronikreparatör	Teletekniker
+395	826410	Textilfärgare	Maskinoperatör
+395	826410	Textilfärgare	Processoperatör
+396	214910	Textilingenjör	Ingenjör
+396	214910	Textilingenjör	Kvalitetsingenjör-textil
+396	214910	Textilingenjör	Produktionsingenjör-textil
+396	214910	Textilingenjör	Produktutvecklare-textil
+396	214910	Textilingenjör	Utvecklingsingenjör-textil
+397	232330	Textillärare	Lärare
+397	232330	Textillärare	Lärare i textilslöjd
+399	314310	Trafikflygare	Pilot
+400	332020	Trafiklärare	Bilskolelärare
+400	332020	Trafiklärare	Lärare
+401	413260	Transportledare	Trafikledare
+401	413260	Transportledare	Tågledare
+401	413260	Transportledare	Vägtrafikledare
+402	342910	Transportplanerare	Trafikplanerare
+403	347510	Travtränare	Travkusk
+407	221320	Trädgårdskonsulent	Trädgårdsrådgivare
+407	321130	Trädgårdskonsulent	Trädgårdsrådgivare
+409	344110	Tulltjänsteman	Tullare
+411	422120	Turistbyråtjänsteman	Turistbyråföreståndare
+411	422120	Turistbyråtjänsteman	Turistinformatör
+411	422120	Turistbyråtjänsteman	Turistvärd
+411	422120	Turistbyråtjänsteman	Turistvärdinna
+412	422420	Tågklarerare	Fjärrtågklarerare
+412	413230	Tågklarerare	Fjärrtågklarerare
+412	422420	Tågklarerare	Trafikinformatör
+412	413230	Tågklarerare	Trafikinformatör
+412	422420	Tågklarerare	Tågtrafikledare
+412	413230	Tågklarerare	Tågtrafikledare
+415	231050	Universitets- och högskolelärare	Amanuens
+415	231080	Universitets- och högskolelärare	Amanuens
+415	231075	Universitets- och högskolelärare	Amanuens
+415	231070	Universitets- och högskolelärare	Amanuens
+415	231065	Universitets- och högskolelärare	Amanuens
+415	231055	Universitets- och högskolelärare	Amanuens
+415	231045	Universitets- och högskolelärare	Amanuens
+415	231040	Universitets- och högskolelärare	Amanuens
+415	231035	Universitets- och högskolelärare	Amanuens
+415	231030	Universitets- och högskolelärare	Amanuens
+415	231025	Universitets- och högskolelärare	Amanuens
+415	231020	Universitets- och högskolelärare	Amanuens
+415	231015	Universitets- och högskolelärare	Amanuens
+415	231010	Universitets- och högskolelärare	Amanuens
+415	231060	Universitets- och högskolelärare	Amanuens
+415	231050	Universitets- och högskolelärare	Doktorand
+415	231080	Universitets- och högskolelärare	Doktorand
+415	231075	Universitets- och högskolelärare	Doktorand
+415	231070	Universitets- och högskolelärare	Doktorand
+415	231065	Universitets- och högskolelärare	Doktorand
+415	231055	Universitets- och högskolelärare	Doktorand
+415	231045	Universitets- och högskolelärare	Doktorand
+415	231040	Universitets- och högskolelärare	Doktorand
+415	231035	Universitets- och högskolelärare	Doktorand
+415	231030	Universitets- och högskolelärare	Doktorand
+415	231025	Universitets- och högskolelärare	Doktorand
+415	231020	Universitets- och högskolelärare	Doktorand
+415	231015	Universitets- och högskolelärare	Doktorand
+415	231010	Universitets- och högskolelärare	Doktorand
+415	231060	Universitets- och högskolelärare	Doktorand
+415	231050	Universitets- och högskolelärare	Forskarassistent
+415	231080	Universitets- och högskolelärare	Forskarassistent
+415	231075	Universitets- och högskolelärare	Forskarassistent
+415	231070	Universitets- och högskolelärare	Forskarassistent
+415	231065	Universitets- och högskolelärare	Forskarassistent
+415	231055	Universitets- och högskolelärare	Forskarassistent
+415	231045	Universitets- och högskolelärare	Forskarassistent
+415	231040	Universitets- och högskolelärare	Forskarassistent
+415	231035	Universitets- och högskolelärare	Forskarassistent
+415	231030	Universitets- och högskolelärare	Forskarassistent
+415	231025	Universitets- och högskolelärare	Forskarassistent
+415	231020	Universitets- och högskolelärare	Forskarassistent
+415	231015	Universitets- och högskolelärare	Forskarassistent
+415	231010	Universitets- och högskolelärare	Forskarassistent
+415	231060	Universitets- och högskolelärare	Forskarassistent
+415	231050	Universitets- och högskolelärare	Högskolelärare
+415	231080	Universitets- och högskolelärare	Högskolelärare
+415	231075	Universitets- och högskolelärare	Högskolelärare
+415	231070	Universitets- och högskolelärare	Högskolelärare
+415	231065	Universitets- och högskolelärare	Högskolelärare
+415	231055	Universitets- och högskolelärare	Högskolelärare
+415	231045	Universitets- och högskolelärare	Högskolelärare
+415	231040	Universitets- och högskolelärare	Högskolelärare
+415	231035	Universitets- och högskolelärare	Högskolelärare
+415	231030	Universitets- och högskolelärare	Högskolelärare
+415	231025	Universitets- och högskolelärare	Högskolelärare
+415	231020	Universitets- och högskolelärare	Högskolelärare
+415	231015	Universitets- och högskolelärare	Högskolelärare
+415	231010	Universitets- och högskolelärare	Högskolelärare
+415	231060	Universitets- och högskolelärare	Högskolelärare
+415	231050	Universitets- och högskolelärare	Professor
+415	231080	Universitets- och högskolelärare	Professor
+415	231075	Universitets- och högskolelärare	Professor
+415	231070	Universitets- och högskolelärare	Professor
+415	231065	Universitets- och högskolelärare	Professor
+415	231055	Universitets- och högskolelärare	Professor
+415	231045	Universitets- och högskolelärare	Professor
+415	231040	Universitets- och högskolelärare	Professor
+415	231035	Universitets- och högskolelärare	Professor
+415	231030	Universitets- och högskolelärare	Professor
+415	231025	Universitets- och högskolelärare	Professor
+415	231020	Universitets- och högskolelärare	Professor
+415	231015	Universitets- och högskolelärare	Professor
+415	231010	Universitets- och högskolelärare	Professor
+415	231060	Universitets- och högskolelärare	Professor
+415	231050	Universitets- och högskolelärare	Universitetsadjunkt
+415	231080	Universitets- och högskolelärare	Universitetsadjunkt
+415	231075	Universitets- och högskolelärare	Universitetsadjunkt
+415	231070	Universitets- och högskolelärare	Universitetsadjunkt
+415	231065	Universitets- och högskolelärare	Universitetsadjunkt
+415	231055	Universitets- och högskolelärare	Universitetsadjunkt
+415	231045	Universitets- och högskolelärare	Universitetsadjunkt
+415	231040	Universitets- och högskolelärare	Universitetsadjunkt
+415	231035	Universitets- och högskolelärare	Universitetsadjunkt
+415	231030	Universitets- och högskolelärare	Universitetsadjunkt
+415	231025	Universitets- och högskolelärare	Universitetsadjunkt
+415	231020	Universitets- och högskolelärare	Universitetsadjunkt
+415	231015	Universitets- och högskolelärare	Universitetsadjunkt
+415	231010	Universitets- och högskolelärare	Universitetsadjunkt
+415	231060	Universitets- och högskolelärare	Universitetsadjunkt
+415	231050	Universitets- och högskolelärare	Universitetslektor
+415	231080	Universitets- och högskolelärare	Universitetslektor
+415	231075	Universitets- och högskolelärare	Universitetslektor
+415	231070	Universitets- och högskolelärare	Universitetslektor
+415	231065	Universitets- och högskolelärare	Universitetslektor
+415	231055	Universitets- och högskolelärare	Universitetslektor
+415	231045	Universitets- och högskolelärare	Universitetslektor
+415	231040	Universitets- och högskolelärare	Universitetslektor
+415	231035	Universitets- och högskolelärare	Universitetslektor
+415	231030	Universitets- och högskolelärare	Universitetslektor
+415	231025	Universitets- och högskolelärare	Universitetslektor
+415	231020	Universitets- och högskolelärare	Universitetslektor
+415	231015	Universitets- och högskolelärare	Universitetslektor
+415	231010	Universitets- och högskolelärare	Universitetslektor
+415	231060	Universitets- och högskolelärare	Universitetslektor
+415	231050	Universitets- och högskolelärare	Universitetslärare
+415	231080	Universitets- och högskolelärare	Universitetslärare
+415	231075	Universitets- och högskolelärare	Universitetslärare
+415	231070	Universitets- och högskolelärare	Universitetslärare
+415	231065	Universitets- och högskolelärare	Universitetslärare
+415	231055	Universitets- och högskolelärare	Universitetslärare
+415	231045	Universitets- och högskolelärare	Universitetslärare
+415	231040	Universitets- och högskolelärare	Universitetslärare
+415	231035	Universitets- och högskolelärare	Universitetslärare
+415	231030	Universitets- och högskolelärare	Universitetslärare
+415	231025	Universitets- och högskolelärare	Universitetslärare
+415	231020	Universitets- och högskolelärare	Universitetslärare
+415	231015	Universitets- och högskolelärare	Universitetslärare
+415	231010	Universitets- och högskolelärare	Universitetslärare
+415	231060	Universitets- och högskolelärare	Universitetslärare
+417	723320	Reparatör-lok och vagn	Lokreparatör
+417	723320	Reparatör-lok och vagn	Vagnreparatör
+418	914210	Vaktmästare	Expeditionsvakt
+418	914210	Vaktmästare	Kontorsvaktmästare
+418	914210	Vaktmästare	Sjukhusvaktmästare
+419	826120	Maskinoperatör inom textilindustrin	Maskinoperatör
+419	826230	Maskinoperatör inom textilindustrin	Maskinoperatör
+419	826110	Maskinoperatör inom textilindustrin	Maskinoperatör
+419	826220	Maskinoperatör inom textilindustrin	Maskinoperatör
+419	826210	Maskinoperatör inom textilindustrin	Maskinoperatör
+419	826120	Maskinoperatör inom textilindustrin	Processoperatör
+419	826230	Maskinoperatör inom textilindustrin	Processoperatör
+419	826110	Maskinoperatör inom textilindustrin	Processoperatör
+419	826220	Maskinoperatör inom textilindustrin	Processoperatör
+419	826210	Maskinoperatör inom textilindustrin	Processoperatör
+419	826120	Maskinoperatör inom textilindustrin	Spinnare
+419	826230	Maskinoperatör inom textilindustrin	Spinnare
+419	826110	Maskinoperatör inom textilindustrin	Spinnare
+419	826220	Maskinoperatör inom textilindustrin	Spinnare
+419	826210	Maskinoperatör inom textilindustrin	Spinnare
+419	826120	Maskinoperatör inom textilindustrin	Vävare
+419	826230	Maskinoperatör inom textilindustrin	Vävare
+419	826110	Maskinoperatör inom textilindustrin	Vävare
+419	826220	Maskinoperatör inom textilindustrin	Vävare
+419	826210	Maskinoperatör inom textilindustrin	Vävare
+420	821105	Verkstadsmekaniker	Maskinarbetare/operatör
+420	821120	Verkstadsmekaniker	Maskinarbetare/operatör
+420	821130	Verkstadsmekaniker	Maskinarbetare/operatör
+420	821140	Verkstadsmekaniker	Maskinarbetare/operatör
+420	821105	Verkstadsmekaniker	Maskinoperatör
+420	821120	Verkstadsmekaniker	Maskinoperatör
+420	821130	Verkstadsmekaniker	Maskinoperatör
+420	821140	Verkstadsmekaniker	Maskinoperatör
+420	821105	Verkstadsmekaniker	Verkstadsarbetare
+420	821120	Verkstadsmekaniker	Verkstadsarbetare
+420	821130	Verkstadsmekaniker	Verkstadsarbetare
+420	821140	Verkstadsmekaniker	Verkstadsarbetare
+421	222310	Veterinär	Besiktningsveterinär
+421	222310	Veterinär	Distriktsveterinär
+421	222310	Veterinär	Djurhälsoveterinär
+421	222310	Veterinär	Länsveterinär
+422	313290	Videobandtekniker	Skannertekniker
+423	614040	Virkesmätare	Kontrollmätare-virke
+424	814110	Hyvlare	Hyvelmästare
+424	814110	Hyvlare	Hyveloperatör
+425	513420	Vårdare av utvecklingsstörda	Gruppledare-omsorg
+425	513420	Vårdare av utvecklingsstörda	Habiliteringsassistent
+425	513420	Vårdare av utvecklingsstörda	Omsorgsassistent
+426	515310	Vårdare i kriminalvården	Kriminalvårdare
+427	513320	Vårdbiträde	Personlig assistent
+427	513310	Vårdbiträde	Personlig assistent
+428	232260	Gymnasielärare i vård och omsorg	Lärare
+428	232260	Gymnasielärare i vård och omsorg	Lärare i vårdämnen
+429	214240	Ingenjör inom väg och anläggning	Arbetschef inom väg och anläggning
+429	311240	Ingenjör inom väg och anläggning	Arbetschef inom väg och anläggning
+429	122310	Ingenjör inom väg och anläggning	Arbetschef inom väg och anläggning
+429	214240	Ingenjör inom väg och anläggning	Arbetsledare inom väg och anläggning
+429	311240	Ingenjör inom väg och anläggning	Arbetsledare inom väg och anläggning
+429	122310	Ingenjör inom väg och anläggning	Arbetsledare inom väg och anläggning
+429	214240	Ingenjör inom väg och anläggning	Ingenjör
+429	311240	Ingenjör inom väg och anläggning	Ingenjör
+429	122310	Ingenjör inom väg och anläggning	Ingenjör
+429	214240	Ingenjör inom väg och anläggning	Planeringsingenjör inom väg och anläggning
+429	311240	Ingenjör inom väg och anläggning	Planeringsingenjör inom väg och anläggning
+429	122310	Ingenjör inom väg och anläggning	Planeringsingenjör inom väg och anläggning
+429	214240	Ingenjör inom väg och anläggning	Platschef inom väg och anläggning
+429	311240	Ingenjör inom väg och anläggning	Platschef inom väg och anläggning
+429	122310	Ingenjör inom väg och anläggning	Platschef inom väg och anläggning
+429	214240	Ingenjör inom väg och anläggning	Produktionsingenjör inom väg och anläggning
+429	311240	Ingenjör inom väg och anläggning	Produktionsingenjör inom väg och anläggning
+429	122310	Ingenjör inom väg och anläggning	Produktionsingenjör inom väg och anläggning
+429	214240	Ingenjör inom väg och anläggning	Utredare inom väg och anläggning
+429	311240	Ingenjör inom väg och anläggning	Utredare inom väg och anläggning
+429	122310	Ingenjör inom väg och anläggning	Utredare inom väg och anläggning
+429	214240	Ingenjör inom väg och anläggning	Vägprojektör
+429	311240	Ingenjör inom väg och anläggning	Vägprojektör
+429	122310	Ingenjör inom väg och anläggning	Vägprojektör
+430	515210	Väktare	Butikskontrollant
+430	515210	Väktare	Larmoperatör
+430	515210	Väktare	Ordningsvakt
+430	515210	Väktare	Skyddsvakt
+430	515210	Väktare	Värdetransportör
+431	341110	Värdepappersmäklare	Aktiemäklare
+431	341110	Värdepappersmäklare	Institutionsmäklare
+431	341110	Värdepappersmäklare	Optionsmäklare
+431	341110	Värdepappersmäklare	Penningmäklare
+431	341110	Värdepappersmäklare	Privatmäklare
+431	341110	Värdepappersmäklare	Saxmäklare
+432	831210	Bangårdsoperatör	Växlare
+434	822310	Ytbehandlare	Anodiserare
+434	822310	Ytbehandlare	Förkromare
+434	822310	Ytbehandlare	Förnicklare
+435	242110	Åklagare	Assistentåklagare
+435	242110	Åklagare	Chefsåklagare
+435	242110	Åklagare	Jurist
+435	242110	Åklagare	Kammaråklagare
+435	242110	Åklagare	Riksåklagare
+435	242110	Åklagare	Överåklagare
+436	223630	Ögonsjuksköterska	Ortoptist
+436	323910	Ögonsjuksköterska	Ortoptist
+436	223630	Ögonsjuksköterska	Sjuksköterska
+436	323910	Ögonsjuksköterska	Sjuksköterska
+437	244410	Översättare och tolk	konferenstolk
+437	244410	Översättare och tolk	kontakttolk
+437	244410	Översättare och tolk	Tolk
+437	244410	Översättare och tolk	Translator
+437	244410	Översättare och tolk	Översättare
+438	315260	Bilbesiktningsman	Besiktningsingenjör
+438	315260	Bilbesiktningsman	Bilprovare
+440	612930	Djurvårdare vid djurpark	Djurskötare
+440	612930	Djurvårdare vid djurpark	Djurvårdare
+441	244410	Teckenspråkstolk	Dövblindtolk
+441	244410	Teckenspråkstolk	Vuxendövtolk
+443	221110	Biologer/översikt	Biolog
+444	221110	Ekolog	Biolog
+445	322630	Kiropraktor	Chiropraktor
+448	312110	Nätverkstekniker	Datatekniker
+448	312110	Nätverkstekniker	Kommunikationsspecialist
+448	312110	Nätverkstekniker	Kommunikationstekniker
+448	312110	Nätverkstekniker	NT-tekniker
+448	312110	Nätverkstekniker	Nätverkskonstruktör
+448	312110	Nätverkstekniker	Nätverksoperatör
+448	312110	Nätverkstekniker	Nätverksspecialist
+448	312110	Nätverkstekniker	Systemtekniker
+448	312110	Nätverkstekniker	Unix-tekniker
+449	213140	Databasadministratör	Databastekniker
+449	213140	Databasadministratör	Systemtekniker
+450	724220	Servicetekniker inom dataområdet	Datatekniker
+450	724250	Servicetekniker inom dataområdet	Datatekniker
+450	724220	Servicetekniker inom dataområdet	IT-tekniker
+450	724250	Servicetekniker inom dataområdet	IT-tekniker
+450	724220	Servicetekniker inom dataområdet	Kontorsmaskinreparatör
+450	724250	Servicetekniker inom dataområdet	Kontorsmaskinreparatör
+450	724220	Servicetekniker inom dataområdet	PC-installatör
+450	724250	Servicetekniker inom dataområdet	PC-installatör
+450	724220	Servicetekniker inom dataområdet	PC-tekniker
+450	724250	Servicetekniker inom dataområdet	PC-tekniker
+450	724220	Servicetekniker inom dataområdet	Servicetekniker-kontorsmaskiner
+450	724250	Servicetekniker inom dataområdet	Servicetekniker-kontorsmaskiner
+450	724220	Servicetekniker inom dataområdet	Systemtekniker
+450	724250	Servicetekniker inom dataområdet	Systemtekniker
+451	912110	Barnpassare/Au pair	Au pair
+451	912110	Barnpassare/Au pair	Barnflicka
+453	213920	IT-strateg	ADB-strateg
+453	213920	IT-strateg	Datastrateg
+454	123610	IT-chef	ADB-chef
+454	123610	IT-chef	Dataansvarig
+454	123610	IT-chef	Datachef
+455	312130	Drifttekniker inom dataområdet	Driftingenjör inom dataområdet
+456	213910	Datasäkerhetsansvarig	Datasäkerhetschef
+456	213910	Datasäkerhetsansvarig	Datasäkerhetstekniker
+456	213910	Datasäkerhetsansvarig	IT-säkerhetschef
+456	213910	Datasäkerhetsansvarig	Säkerhetsadministratör
+456	213910	Datasäkerhetsansvarig	Säkerhetsanalytiker
+457	213150	Datayrken/översikt	Datakonsult
+457	213110	Datayrken/översikt	Datakonsult
+457	213120	Datayrken/översikt	Datakonsult
+457	213130	Datayrken/översikt	Datakonsult
+457	213140	Datayrken/översikt	Datakonsult
+457	213910	Datayrken/översikt	Datakonsult
+457	213920	Datayrken/översikt	Datakonsult
+457	312110	Datayrken/översikt	Datakonsult
+457	312120	Datayrken/översikt	Datakonsult
+457	312130	Datayrken/översikt	Datakonsult
+457	332080	Datayrken/översikt	Datakonsult
+458	222130	Läkaryrken/översikt	Läkare
+458	222110	Läkaryrken/översikt	Läkare
+458	222115	Läkaryrken/översikt	Läkare
+458	222120	Läkaryrken/översikt	Läkare
+458	222125	Läkaryrken/översikt	Läkare
+458	222210	Läkaryrken/översikt	Läkare
+458	222165	Läkaryrken/översikt	Läkare
+458	222190	Läkaryrken/översikt	Läkare
+458	222185	Läkaryrken/översikt	Läkare
+458	222180	Läkaryrken/översikt	Läkare
+458	222170	Läkaryrken/översikt	Läkare
+458	222135	Läkaryrken/översikt	Läkare
+458	222160	Läkaryrken/översikt	Läkare
+458	222145	Läkaryrken/översikt	Läkare
+458	222175	Läkaryrken/översikt	Läkare
+458	222140	Läkaryrken/översikt	Läkare
+458	222150	Läkaryrken/översikt	Läkare
+458	222155	Läkaryrken/översikt	Läkare
+459	011010	Officersyrken/översikt	Officer
+459	011020	Officersyrken/översikt	Officer
+459	011030	Officersyrken/översikt	Officer
+461	241310	Marknadsförare	Marknadsanalytiker
+461	241310	Marknadsförare	Marknadschef
+461	241310	Marknadsförare	Marknadsplanerare
+463	522720	Mediasäljare	Annonsförsäljare
+463	522720	Mediasäljare	Annonskonsulent
+464	131130	Skogsförvaltare	Förvaltare inom skogsbruk
+464	131130	Skogsförvaltare	Regionchef inom skogsbruk
+464	131130	Skogsförvaltare	Stiftsjägmästare
+466	235950	Utbildningsledare	Utbildningschef
+467	313130	Fotografyrken/översikt	Fotograf
+467	313110	Fotografyrken/översikt	Fotograf
+467	313120	Fotografyrken/översikt	Fotograf
+468	232210	Läraryrken/översikt	Lärare
+468	232120	Läraryrken/översikt	Lärare
+468	232140	Läraryrken/översikt	Lärare
+468	232130	Läraryrken/översikt	Lärare
+468	231050	Läraryrken/översikt	Lärare
+468	232310	Läraryrken/översikt	Lärare
+468	332020	Läraryrken/översikt	Lärare
+468	232215	Läraryrken/översikt	Lärare
+468	232390	Läraryrken/översikt	Lärare
+468	231030	Läraryrken/översikt	Lärare
+468	231035	Läraryrken/översikt	Lärare
+468	232360	Läraryrken/översikt	Lärare
+468	231045	Läraryrken/översikt	Lärare
+468	232110	Läraryrken/översikt	Lärare
+468	231055	Läraryrken/översikt	Lärare
+468	231060	Läraryrken/översikt	Lärare
+468	231065	Läraryrken/översikt	Lärare
+468	231070	Läraryrken/översikt	Lärare
+468	231075	Läraryrken/översikt	Lärare
+468	231080	Läraryrken/översikt	Lärare
+468	231040	Läraryrken/översikt	Lärare
+468	231010	Läraryrken/översikt	Lärare
+468	234030	Läraryrken/översikt	Lärare
+468	234020	Läraryrken/översikt	Lärare
+468	234040	Läraryrken/översikt	Lärare
+468	235920	Läraryrken/översikt	Lärare
+468	233030	Läraryrken/översikt	Lärare
+468	233020	Läraryrken/översikt	Lärare
+468	233010	Läraryrken/översikt	Lärare
+468	232350	Läraryrken/översikt	Lärare
+468	232340	Läraryrken/översikt	Lärare
+468	232265	Läraryrken/översikt	Lärare
+468	232320	Läraryrken/översikt	Lärare
+468	232220	Läraryrken/översikt	Lärare
+468	232270	Läraryrken/översikt	Lärare
+468	331010	Läraryrken/översikt	Lärare
+468	232260	Läraryrken/översikt	Lärare
+468	232255	Läraryrken/översikt	Lärare
+468	232250	Läraryrken/översikt	Lärare
+468	232245	Läraryrken/översikt	Lärare
+468	232240	Läraryrken/översikt	Lärare
+468	232235	Läraryrken/översikt	Lärare
+468	232230	Läraryrken/översikt	Lärare
+468	232225	Läraryrken/översikt	Lärare
+468	232330	Läraryrken/översikt	Lärare
+468	234010	Läraryrken/översikt	Lärare
+468	232150	Läraryrken/översikt	Lärare
+468	231025	Läraryrken/översikt	Lärare
+468	231015	Läraryrken/översikt	Lärare
+468	231020	Läraryrken/översikt	Lärare
+468	235910	Läraryrken/översikt	Lärare
+469	214110	Arkitekt	Stadsplanerare
+470	211410	Geovetaryrken/översikt	Geofysiker
+470	211420	Geovetaryrken/översikt	Geofysiker
+470	211410	Geovetaryrken/översikt	Geokemist
+470	211420	Geovetaryrken/översikt	Geokemist
+470	211410	Geovetaryrken/översikt	Geovetare
+470	211420	Geovetaryrken/översikt	Geovetare
+471	615210	Fiskare	Fiskeskeppare
+471	615210	Fiskare	Hjälpfiskare
+472	242380	Förvaltningsjurist	Förbundsjurist
+472	242350	Förvaltningsjurist	Förbundsjurist
+472	242380	Förvaltningsjurist	Jurist
+472	242350	Förvaltningsjurist	Jurist
+472	242380	Förvaltningsjurist	Kommunjurist
+472	242350	Förvaltningsjurist	Kommunjurist
+472	242380	Förvaltningsjurist	Landstingsjurist
+472	242350	Förvaltningsjurist	Landstingsjurist
+472	242380	Förvaltningsjurist	Stadsjurist
+472	242350	Förvaltningsjurist	Stadsjurist
+472	242380	Förvaltningsjurist	Stadsombudsman
+472	242350	Förvaltningsjurist	Stadsombudsman
+472	242380	Förvaltningsjurist	Verksjurist
+472	242350	Förvaltningsjurist	Verksjurist
+473	242910	Juristyrken översikt	Jurist
+473	242120	Juristyrken översikt	Jurist
+473	242210	Juristyrken översikt	Jurist
+473	242310	Juristyrken översikt	Jurist
+473	242320	Juristyrken översikt	Jurist
+473	242330	Juristyrken översikt	Jurist
+473	242340	Juristyrken översikt	Jurist
+473	242350	Juristyrken översikt	Jurist
+473	242360	Juristyrken översikt	Jurist
+473	242370	Juristyrken översikt	Jurist
+473	242110	Juristyrken översikt	Jurist
+473	242390	Juristyrken översikt	Jurist
+473	242920	Juristyrken översikt	Jurist
+473	242380	Juristyrken översikt	Jurist
+473	242990	Juristyrken översikt	Jurist
+473	242910	Juristyrken översikt	Miljöjurist
+473	242120	Juristyrken översikt	Miljöjurist
+473	242210	Juristyrken översikt	Miljöjurist
+473	242310	Juristyrken översikt	Miljöjurist
+473	242320	Juristyrken översikt	Miljöjurist
+473	242330	Juristyrken översikt	Miljöjurist
+473	242340	Juristyrken översikt	Miljöjurist
+473	242350	Juristyrken översikt	Miljöjurist
+473	242360	Juristyrken översikt	Miljöjurist
+473	242370	Juristyrken översikt	Miljöjurist
+473	242110	Juristyrken översikt	Miljöjurist
+473	242390	Juristyrken översikt	Miljöjurist
+473	242920	Juristyrken översikt	Miljöjurist
+473	242380	Juristyrken översikt	Miljöjurist
+473	242990	Juristyrken översikt	Miljöjurist
+473	242910	Juristyrken översikt	Polischef
+473	242120	Juristyrken översikt	Polischef
+473	242210	Juristyrken översikt	Polischef
+473	242310	Juristyrken översikt	Polischef
+473	242320	Juristyrken översikt	Polischef
+473	242330	Juristyrken översikt	Polischef
+473	242340	Juristyrken översikt	Polischef
+473	242350	Juristyrken översikt	Polischef
+473	242360	Juristyrken översikt	Polischef
+473	242370	Juristyrken översikt	Polischef
+473	242110	Juristyrken översikt	Polischef
+473	242390	Juristyrken översikt	Polischef
+473	242920	Juristyrken översikt	Polischef
+473	242380	Juristyrken översikt	Polischef
+473	242990	Juristyrken översikt	Polischef
+474	323110	Sjuksköterskeyrken/översikt	Avdelningschef i sjukvården
+474	323210	Sjuksköterskeyrken/översikt	Avdelningschef i sjukvården
+474	323310	Sjuksköterskeyrken/översikt	Avdelningschef i sjukvården
+474	223110	Sjuksköterskeyrken/översikt	Avdelningschef i sjukvården
+474	323410	Sjuksköterskeyrken/översikt	Avdelningschef i sjukvården
+474	223210	Sjuksköterskeyrken/översikt	Avdelningschef i sjukvården
+474	323510	Sjuksköterskeyrken/översikt	Avdelningschef i sjukvården
+474	323910	Sjuksköterskeyrken/översikt	Avdelningschef i sjukvården
+474	323930	Sjuksköterskeyrken/översikt	Avdelningschef i sjukvården
+474	323940	Sjuksköterskeyrken/översikt	Avdelningschef i sjukvården
+474	223620	Sjuksköterskeyrken/översikt	Avdelningschef i sjukvården
+474	223630	Sjuksköterskeyrken/översikt	Avdelningschef i sjukvården
+474	223310	Sjuksköterskeyrken/översikt	Avdelningschef i sjukvården
+474	223410	Sjuksköterskeyrken/översikt	Avdelningschef i sjukvården
+474	223510	Sjuksköterskeyrken/översikt	Avdelningschef i sjukvården
+474	322230	Sjuksköterskeyrken/översikt	Avdelningschef i sjukvården
+474	323920	Sjuksköterskeyrken/översikt	Avdelningschef i sjukvården
+474	323110	Sjuksköterskeyrken/översikt	Avdelningsföreståndare i sjukvården
+474	323210	Sjuksköterskeyrken/översikt	Avdelningsföreståndare i sjukvården
+474	323310	Sjuksköterskeyrken/översikt	Avdelningsföreståndare i sjukvården
+474	223110	Sjuksköterskeyrken/översikt	Avdelningsföreståndare i sjukvården
+474	323410	Sjuksköterskeyrken/översikt	Avdelningsföreståndare i sjukvården
+474	223210	Sjuksköterskeyrken/översikt	Avdelningsföreståndare i sjukvården
+474	323510	Sjuksköterskeyrken/översikt	Avdelningsföreståndare i sjukvården
+474	323910	Sjuksköterskeyrken/översikt	Avdelningsföreståndare i sjukvården
+474	323930	Sjuksköterskeyrken/översikt	Avdelningsföreståndare i sjukvården
+474	323940	Sjuksköterskeyrken/översikt	Avdelningsföreståndare i sjukvården
+474	223620	Sjuksköterskeyrken/översikt	Avdelningsföreståndare i sjukvården
+474	223630	Sjuksköterskeyrken/översikt	Avdelningsföreståndare i sjukvården
+474	223310	Sjuksköterskeyrken/översikt	Avdelningsföreståndare i sjukvården
+474	223410	Sjuksköterskeyrken/översikt	Avdelningsföreståndare i sjukvården
+474	223510	Sjuksköterskeyrken/översikt	Avdelningsföreståndare i sjukvården
+474	322230	Sjuksköterskeyrken/översikt	Avdelningsföreståndare i sjukvården
+474	323920	Sjuksköterskeyrken/översikt	Avdelningsföreståndare i sjukvården
+474	323110	Sjuksköterskeyrken/översikt	Dialyssjuksköterska
+474	323210	Sjuksköterskeyrken/översikt	Dialyssjuksköterska
+474	323310	Sjuksköterskeyrken/översikt	Dialyssjuksköterska
+474	223110	Sjuksköterskeyrken/översikt	Dialyssjuksköterska
+474	323410	Sjuksköterskeyrken/översikt	Dialyssjuksköterska
+474	223210	Sjuksköterskeyrken/översikt	Dialyssjuksköterska
+474	323510	Sjuksköterskeyrken/översikt	Dialyssjuksköterska
+474	323910	Sjuksköterskeyrken/översikt	Dialyssjuksköterska
+474	323930	Sjuksköterskeyrken/översikt	Dialyssjuksköterska
+474	323940	Sjuksköterskeyrken/översikt	Dialyssjuksköterska
+474	223620	Sjuksköterskeyrken/översikt	Dialyssjuksköterska
+474	223630	Sjuksköterskeyrken/översikt	Dialyssjuksköterska
+474	223310	Sjuksköterskeyrken/översikt	Dialyssjuksköterska
+474	223410	Sjuksköterskeyrken/översikt	Dialyssjuksköterska
+474	223510	Sjuksköterskeyrken/översikt	Dialyssjuksköterska
+474	322230	Sjuksköterskeyrken/översikt	Dialyssjuksköterska
+474	323920	Sjuksköterskeyrken/översikt	Dialyssjuksköterska
+474	323110	Sjuksköterskeyrken/översikt	Hygiensjuksköterska
+474	323210	Sjuksköterskeyrken/översikt	Hygiensjuksköterska
+474	323310	Sjuksköterskeyrken/översikt	Hygiensjuksköterska
+474	223110	Sjuksköterskeyrken/översikt	Hygiensjuksköterska
+474	323410	Sjuksköterskeyrken/översikt	Hygiensjuksköterska
+474	223210	Sjuksköterskeyrken/översikt	Hygiensjuksköterska
+474	323510	Sjuksköterskeyrken/översikt	Hygiensjuksköterska
+474	323910	Sjuksköterskeyrken/översikt	Hygiensjuksköterska
+474	323930	Sjuksköterskeyrken/översikt	Hygiensjuksköterska
+474	323940	Sjuksköterskeyrken/översikt	Hygiensjuksköterska
+474	223620	Sjuksköterskeyrken/översikt	Hygiensjuksköterska
+474	223630	Sjuksköterskeyrken/översikt	Hygiensjuksköterska
+474	223310	Sjuksköterskeyrken/översikt	Hygiensjuksköterska
+474	223410	Sjuksköterskeyrken/översikt	Hygiensjuksköterska
+474	223510	Sjuksköterskeyrken/översikt	Hygiensjuksköterska
+474	322230	Sjuksköterskeyrken/översikt	Hygiensjuksköterska
+474	323920	Sjuksköterskeyrken/översikt	Hygiensjuksköterska
+474	323110	Sjuksköterskeyrken/översikt	Sjuksköterska
+474	323210	Sjuksköterskeyrken/översikt	Sjuksköterska
+474	323310	Sjuksköterskeyrken/översikt	Sjuksköterska
+474	223110	Sjuksköterskeyrken/översikt	Sjuksköterska
+474	323410	Sjuksköterskeyrken/översikt	Sjuksköterska
+474	223210	Sjuksköterskeyrken/översikt	Sjuksköterska
+474	323510	Sjuksköterskeyrken/översikt	Sjuksköterska
+474	323910	Sjuksköterskeyrken/översikt	Sjuksköterska
+474	323930	Sjuksköterskeyrken/översikt	Sjuksköterska
+474	323940	Sjuksköterskeyrken/översikt	Sjuksköterska
+474	223620	Sjuksköterskeyrken/översikt	Sjuksköterska
+474	223630	Sjuksköterskeyrken/översikt	Sjuksköterska
+474	223310	Sjuksköterskeyrken/översikt	Sjuksköterska
+474	223410	Sjuksköterskeyrken/översikt	Sjuksköterska
+474	223510	Sjuksköterskeyrken/översikt	Sjuksköterska
+474	322230	Sjuksköterskeyrken/översikt	Sjuksköterska
+474	323920	Sjuksköterskeyrken/översikt	Sjuksköterska
+474	323110	Sjuksköterskeyrken/översikt	Vårdutvecklare
+474	323210	Sjuksköterskeyrken/översikt	Vårdutvecklare
+474	323310	Sjuksköterskeyrken/översikt	Vårdutvecklare
+474	223110	Sjuksköterskeyrken/översikt	Vårdutvecklare
+474	323410	Sjuksköterskeyrken/översikt	Vårdutvecklare
+474	223210	Sjuksköterskeyrken/översikt	Vårdutvecklare
+474	323510	Sjuksköterskeyrken/översikt	Vårdutvecklare
+474	323910	Sjuksköterskeyrken/översikt	Vårdutvecklare
+474	323930	Sjuksköterskeyrken/översikt	Vårdutvecklare
+474	323940	Sjuksköterskeyrken/översikt	Vårdutvecklare
+474	223620	Sjuksköterskeyrken/översikt	Vårdutvecklare
+474	223630	Sjuksköterskeyrken/översikt	Vårdutvecklare
+474	223310	Sjuksköterskeyrken/översikt	Vårdutvecklare
+474	223410	Sjuksköterskeyrken/översikt	Vårdutvecklare
+474	223510	Sjuksköterskeyrken/översikt	Vårdutvecklare
+474	322230	Sjuksköterskeyrken/översikt	Vårdutvecklare
+474	323920	Sjuksköterskeyrken/översikt	Vårdutvecklare
+475	724230	Kommunikationselektriker	Elektriker
+475	724240	Kommunikationselektriker	Elektriker
+475	724230	Kommunikationselektriker	Larminstallatör
+475	724240	Kommunikationselektriker	Larminstallatör
+475	724230	Kommunikationselektriker	Svagströmselektriker
+475	724240	Kommunikationselektriker	Svagströmselektriker
+475	724230	Kommunikationselektriker	Telemontör
+475	724240	Kommunikationselektriker	Telemontör
+476	245610	Art director	AD
+478	724250	TV-tekniker	Radio- och TV-reparatör
+478	724250	TV-tekniker	"Servicetekniker-Radio, TV"
+478	724250	TV-tekniker	TV-reparatör
+480	734110	Text- och bildoperatör	Grafiker
+481	825110	Grafiska yrken/översikt	Grafiker
+481	825210	Grafiska yrken/översikt	Grafiker
+481	734110	Grafiska yrken/översikt	Grafiker
+481	825110	Grafiska yrken/översikt	Reprofotograf
+481	825210	Grafiska yrken/översikt	Reprofotograf
+481	734110	Grafiska yrken/översikt	Reprofotograf
+481	825110	Grafiska yrken/översikt	Repromontör
+481	825210	Grafiska yrken/översikt	Repromontör
+481	734110	Grafiska yrken/översikt	Repromontör
+481	825110	Grafiska yrken/översikt	Skanneroperatör
+481	825210	Grafiska yrken/översikt	Skanneroperatör
+481	734110	Grafiska yrken/översikt	Skanneroperatör
+481	825110	Grafiska yrken/översikt	Textbearbetare
+481	825210	Grafiska yrken/översikt	Textbearbetare
+481	734110	Grafiska yrken/översikt	Textbearbetare
+482	244110	Ekonomer/översikt	Ekonom
+482	241110	Ekonomer/översikt	Ekonom
+482	241120	Ekonomer/översikt	Ekonom
+482	241310	Ekonomer/översikt	Ekonom
+482	241320	Ekonomer/översikt	Ekonom
+482	241920	Ekonomer/översikt	Ekonom
+482	244110	Ekonomer/översikt	Hälsoekonom
+482	241110	Ekonomer/översikt	Hälsoekonom
+482	241120	Ekonomer/översikt	Hälsoekonom
+482	241310	Ekonomer/översikt	Hälsoekonom
+482	241320	Ekonomer/översikt	Hälsoekonom
+482	241920	Ekonomer/översikt	Hälsoekonom
+482	244110	Ekonomer/översikt	Miljöekonom
+482	241110	Ekonomer/översikt	Miljöekonom
+482	241120	Ekonomer/översikt	Miljöekonom
+482	241310	Ekonomer/översikt	Miljöekonom
+482	241320	Ekonomer/översikt	Miljöekonom
+482	241920	Ekonomer/översikt	Miljöekonom
+483	821220	Processoperatörer/översikt	Processoperatör
+483	827310	Processoperatörer/översikt	Processoperatör
+483	811120	Processoperatörer/översikt	Processoperatör
+483	813020	Processoperatörer/översikt	Processoperatör
+483	812120	Processoperatörer/översikt	Processoperatör
+483	815010	Processoperatörer/översikt	Processoperatör
+483	814310	Processoperatörer/översikt	Processoperatör
+483	814410	Processoperatörer/översikt	Processoperatör
+483	821230	Processoperatörer/översikt	Processoperatör
+483	827510	Processoperatörer/översikt	Processoperatör
+483	827810	Processoperatörer/översikt	Processoperatör
+483	812310	Processoperatörer/översikt	Processoperatör
+483	827210	Processoperatörer/översikt	Processoperatör
+483	827610	Processoperatörer/översikt	Processoperatör
+483	821210	Processoperatörer/översikt	Processoperatör
+484	722210	Verktygsmakare	Verktygsarbetare
+484	722210	Verktygsmakare	Verktygsoperatör
+486	914110	Tidningsbud	Tidningsdistributör
+487	314210	Fartygsbefäl	Andrestyrman
+487	314210	Fartygsbefäl	Befälhavare
+487	314210	Fartygsbefäl	Fartygsbefälhavare
+487	314210	Fartygsbefäl	Sjökapten
+487	314210	Fartygsbefäl	Styrman
+487	314210	Fartygsbefäl	Överstyrman
+489	742110	Möbelsnickare	Snickare
+491	512310	Hovmästare	Sommelier
+492	827910	Tobaksarbetare	Cigarettekniker
+492	827910	Tobaksarbetare	Maskinoperatör-tobak
+492	827910	Tobaksarbetare	RYO-tekniker
+493	245630	Industridesigner	Designer
+493	245630	Industridesigner	Industriformgivare
+493	245630	Industridesigner	Möbelformgivare
+493	245630	Industridesigner	Produktdesigner
+511	713510	VVS-montör	Rörmokare
+513	311240	Ingenjörsyrken/översikt	Ingenjör
+513	311220	Ingenjörsyrken/översikt	Ingenjör
+513	311210	Ingenjörsyrken/översikt	Ingenjör
+513	214620	Ingenjörsyrken/översikt	Ingenjör
+513	214610	Ingenjörsyrken/översikt	Ingenjör
+513	311810	Ingenjörsyrken/översikt	Ingenjör
+513	214510	Ingenjörsyrken/översikt	Ingenjör
+513	311310	Ingenjörsyrken/översikt	Ingenjör
+513	214320	Ingenjörsyrken/översikt	Ingenjör
+513	214520	Ingenjörsyrken/översikt	Ingenjör
+513	214310	Ingenjörsyrken/översikt	Ingenjör
+513	214240	Ingenjörsyrken/översikt	Ingenjör
+513	214220	Ingenjörsyrken/översikt	Ingenjör
+513	214210	Ingenjörsyrken/översikt	Ingenjör
+513	214410	Ingenjörsyrken/översikt	Ingenjör
+513	214920	Ingenjörsyrken/översikt	Ingenjör
+513	311720	Ingenjörsyrken/översikt	Ingenjör
+513	214730	Ingenjörsyrken/översikt	Ingenjör
+513	214420	Ingenjörsyrken/översikt	Ingenjör
+513	214810	Ingenjörsyrken/översikt	Ingenjör
+513	311320	Ingenjörsyrken/översikt	Ingenjör
+513	311250	Ingenjörsyrken/översikt	Ingenjör
+513	313410	Ingenjörsyrken/översikt	Ingenjör
+513	214930	Ingenjörsyrken/översikt	Ingenjör
+513	214910	Ingenjörsyrken/översikt	Ingenjör
+513	311930	Ingenjörsyrken/översikt	Ingenjör
+513	311920	Ingenjörsyrken/översikt	Ingenjör
+513	311910	Ingenjörsyrken/översikt	Ingenjör
+513	311630	Ingenjörsyrken/översikt	Ingenjör
+513	311620	Ingenjörsyrken/översikt	Ingenjör
+513	311520	Ingenjörsyrken/översikt	Ingenjör
+513	311510	Ingenjörsyrken/översikt	Ingenjör
+513	311420	Ingenjörsyrken/översikt	Ingenjör
+513	311410	Ingenjörsyrken/översikt	Ingenjör
+513	214940	Ingenjörsyrken/översikt	Ingenjör
+514	323410	Psykiatrisjuksköterska	Sjuksköterska
+514	323410	Psykiatrisjuksköterska	Sjuksköterska i psykiatrisk vård
+515	232270	Gymnasielärare i yrkesämnen	Lärare
+515	232220	Gymnasielärare i yrkesämnen	Lärare
+515	232210	Gymnasielärare i yrkesämnen	Lärare
+515	232215	Gymnasielärare i yrkesämnen	Lärare
+515	232225	Gymnasielärare i yrkesämnen	Lärare
+515	232230	Gymnasielärare i yrkesämnen	Lärare
+515	232235	Gymnasielärare i yrkesämnen	Lärare
+515	232240	Gymnasielärare i yrkesämnen	Lärare
+515	232245	Gymnasielärare i yrkesämnen	Lärare
+515	232250	Gymnasielärare i yrkesämnen	Lärare
+515	232255	Gymnasielärare i yrkesämnen	Lärare
+515	232265	Gymnasielärare i yrkesämnen	Lärare
+515	232260	Gymnasielärare i yrkesämnen	Lärare
+515	232270	Gymnasielärare i yrkesämnen	"Lärare i jordbruk, skogsbruk, trädgård"
+515	232220	Gymnasielärare i yrkesämnen	"Lärare i jordbruk, skogsbruk, trädgård"
+515	232210	Gymnasielärare i yrkesämnen	"Lärare i jordbruk, skogsbruk, trädgård"
+515	232215	Gymnasielärare i yrkesämnen	"Lärare i jordbruk, skogsbruk, trädgård"
+515	232225	Gymnasielärare i yrkesämnen	"Lärare i jordbruk, skogsbruk, trädgård"
+515	232230	Gymnasielärare i yrkesämnen	"Lärare i jordbruk, skogsbruk, trädgård"
+515	232235	Gymnasielärare i yrkesämnen	"Lärare i jordbruk, skogsbruk, trädgård"
+515	232240	Gymnasielärare i yrkesämnen	"Lärare i jordbruk, skogsbruk, trädgård"
+515	232245	Gymnasielärare i yrkesämnen	"Lärare i jordbruk, skogsbruk, trädgård"
+515	232250	Gymnasielärare i yrkesämnen	"Lärare i jordbruk, skogsbruk, trädgård"
+515	232255	Gymnasielärare i yrkesämnen	"Lärare i jordbruk, skogsbruk, trädgård"
+515	232265	Gymnasielärare i yrkesämnen	"Lärare i jordbruk, skogsbruk, trädgård"
+515	232260	Gymnasielärare i yrkesämnen	"Lärare i jordbruk, skogsbruk, trädgård"
+515	232270	Gymnasielärare i yrkesämnen	Yrkeslärare
+515	232220	Gymnasielärare i yrkesämnen	Yrkeslärare
+515	232210	Gymnasielärare i yrkesämnen	Yrkeslärare
+515	232215	Gymnasielärare i yrkesämnen	Yrkeslärare
+515	232225	Gymnasielärare i yrkesämnen	Yrkeslärare
+515	232230	Gymnasielärare i yrkesämnen	Yrkeslärare
+515	232235	Gymnasielärare i yrkesämnen	Yrkeslärare
+515	232240	Gymnasielärare i yrkesämnen	Yrkeslärare
+515	232245	Gymnasielärare i yrkesämnen	Yrkeslärare
+515	232250	Gymnasielärare i yrkesämnen	Yrkeslärare
+515	232255	Gymnasielärare i yrkesämnen	Yrkeslärare
+515	232265	Gymnasielärare i yrkesämnen	Yrkeslärare
+515	232260	Gymnasielärare i yrkesämnen	Yrkeslärare

@@ -1,0 +1,123 @@
+<html>
+
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1">
+<link rel="stylesheet" href="../../hsv_1.css" type="text/css">
+<title>Nytt studieinformationssystem</title>
+</head>
+
+<body bgcolor="#FFFFFF">
+
+<blockquote>
+  <table border="0" width="500" cellspacing="0" cellpadding="10">
+    <tr>
+      <td width="100%"><h1>Projektplan för ett nytt studieinformationssystem, studera.se </h1>
+      <h2>Mål och kort bakgrund </h2>
+      <p>Högskoleverket tar initiativ till att skapa ett nationellt system för att tillgodose
+      studenters och presumtiva studenters behov av studie- och arbetslivsinformation.
+      Innehållet i systemet ska motsvara den information som idag lämnas av
+      universitet/högskolor och ansvariga myndigheter, CSN, VHS, AMS och Högskoleverket. </p>
+      <p>Målsättningen för systemet är att: <br>
+      <strong>Presumtiva studenter via en enda ingång på Internet ska hitta all relevant
+      information för att kunna söka till och rusta sig inför kommande studier. Studenter ska
+      via samma ingång dessutom hitta relevant information inför efterföljande arbetsliv
+      eller forskarutbildning. Systemet ska tydligt utgå från målgruppernas behov och
+      därigenom överbrygga myndigheternas organisationstrukturer.</strong></p>
+      <p>Det är inte en ny idé att sätta <i>studenten i centrum</i> men där det tidigare har
+      krävt omfattande samverkan av alla berörda parter finns det nu möjligheter att låta
+      alla arbeta med sitt område men ändå presentera ett sammantaget resultat för den
+      presumtiva studenten via en gemensam webbplats. </p>
+      <p>Exemplet nedan skissar tankarna kring ett gemensamt studieinfosystem. En presumtiv
+      student går till en webbadress, t.ex. <i>www.studera.se</i>, för att där mötas av
+      t.ex. följande rubriker:</p>
+      <table CELLSPACING="0" BORDER="1" CELLPADDING="4" WIDTH="593">
+        <tr>
+          <td WIDTH="13%" VALIGN="TOP"><font FACE="GillSans" SIZE="2">Studera</font></td>
+          <td WIDTH="13%" VALIGN="TOP"><font FACE="GillSans" SIZE="2">Kurser &amp; program</font></td>
+          <td WIDTH="13%" VALIGN="TOP"><font FACE="GillSans" SIZE="2">Studera utomlands</font></td>
+          <td WIDTH="13%" VALIGN="TOP"><font FACE="GillSans" SIZE="2">Ansök</font></td>
+          <td WIDTH="13%" VALIGN="TOP"><font FACE="GillSans" SIZE="2">Studera på distans</font></td>
+          <td WIDTH="13%" VALIGN="TOP"><font FACE="GillSans" SIZE="2">Bostad</font></td>
+          <td WIDTH="13%" VALIGN="TOP"><font FACE="GillSans" SIZE="2">Pengar</font></td>
+          <td WIDTH="13%" VALIGN="TOP"><font FACE="GillSans" SIZE="2">Efter studier</font></td>
+        </tr>
+      </table>
+      <font FACE="AGaramond"><p></font>Under varje rubrik når man olika intressenter och deras
+      information. Under t.ex. Bostad kan man gå till sin studieort och hitta information om
+      studentbostäder på orten men även från andra bostadsbolag på orten. Systemet är i
+      princip öppet för alla organisationer som har nyttig information till presumtiva
+      studenter och studenter.</p>
+      <p>Varje organisation ansvarar för att den egna informationen håller kvalitet och är
+      tillgänglig. Informationen klassas (märks med metadata) enligt bestämda riktlinjer. En
+      s.k. sökmotor indexerar innehållet och allt presenteras via den gemensamma ingången,<i>
+      www.studera.se.</i> Det principiella upplägget och tekniken är utprovad genom
+      SAFARI-projektet. <font FACE="GillSans" SIZE="3"><b><i></p>
+      <h3></i></b>Fördelar för alla inblandade</font><font FACE="AGaramond"></h3>
+      <p></font>För <b>studenten</b> skulle systemet innebära att han via en ingång kommer
+      åt det han behöver utan att behöva lära sig hur staten och andra har valt att
+      organisera sin verksamhet. Studenten skulle också kunna bygga sin egen studenthandbok
+      genom att klicka på de sidor som känns relevanta. Sidorna kopplas ihop till ett dokument
+      som kan skrivas ut. </p>
+      <b><p>Informationslämnarna</b> kan ha sin information i sitt eget system, de behöver
+      inte rapportera in material till en centralfunktion. De kan marknadsföra och presentera
+      sin webbplats, broschyr etc. parallellt med det gemensamma systemet.</p>
+      <p>Högskoleverket som i många avseenden kan ses som en <b>informationsförmedlare </b>kan
+      på samma sätt som studenten komma åt innehåll för bearbetning och vidare distribution
+      t.ex. enklare broschyrer till vissa kategorier (t.ex. Studenthandboken för humanister).
+      All information som vi själva producerar t.ex. intervjuer och SYO-paket skulle vara av
+      stort värde i ett studieinfosystem.</p>
+      <b><p>Vägledare</b> skulle kunna använda systemet tillsammans med sin övriga kunskap
+      för att hjälpa frågande. Personer utan yrkesvägledarutbildning, t.ex. föräldrar kan
+      använda systemet för att hjälpa andra. Under tiden före ansökningdatum skulle det
+      kunna finnas &quot;barfotavägledare&quot; t.ex. studenter som svarar på
+      telefonförfrågningar (en enkel callcenter-lösning). Studenterna skulle kunna dela med
+      sig av sina egna erfarenheter och samtidigt ha tillgång ett omfattande faktamaterial.<font
+      FACE="GillSans" SIZE="3"><b></p>
+      <h2>Avgränsningar</h2>
+      <ul>
+        </b></font><font FACE="AGaramond">
+        <li></font>Inom ramen för projektet ska ingen ny studieinformation skapas. Däremot kommer
+          projektet sannolikt att generera uppslag till nya informationsmängder inom ramen för
+          Högskoleverkets uppdrag. </li>
+        <li>Projektet tar inget ansvar för de medverkande parternas innehåll eller egen
+          systemutveckling.</li>
+      </ul>
+      <h2>Delprojekt och deras omfattning</h2>
+      <h3>Samverkan och utblick</h3>
+      <p>&#150; bjud in myndigheter för inventering av vad som görs och förankra förslaget,
+      arbeta på två nivåer samtidigt, t.ex. GD och sakansvariga<b><br>
+      </b>&#150; nationell och internationell utblick, vad görs i Sverige och andra länder,
+      vilka erfarenheter finns, etablera kontakter </p>
+      <h3>Teknik och pilotförsök</h3>
+      <p>&#150; inventera teknik för uppbyggnad och drift <br>
+      &#150; utveckla teknisk och administrativ lösning för pilotprojekt <br>
+      &#150; genomföra och utvärdera pilotprojekt med universitet och högskolor </p>
+      <h3>Konsekvensanalys</h3>
+      <p>&#150; hur påverkas befintliga produkter och system efter införande av
+      &quot;studera.se&quot; </p>
+      <h3>Klassificeringssystem</h3>
+      <p>&#150; inventera befintliga klassificeringssystem (ASKen, Ortelius etc.) och utveckla
+      ett gemensamt system för all information i &quot;studera.se&quot; </p>
+      <h3>Anpassning och omarbetning av egen studieinformation till nytt system </h3>
+      <p>&#150; för ihop och anpassa innehållet i studenthandbok, högskoleprov,
+      utlandsstudier etc. till det nya systemet </p>
+      <h2>För projektets andra år ses idag följande delprojekt</h2>
+      <ul>
+        <li>utveckling av teknisk plattform för skarpt system</li>
+        <li>planera övergång från dagens olika system till morgondagens samlade system</li>
+        <li>praktisk vägledning och samverkan för anslutning till nytt system </li>
+        <li>utveckla förvaltningsmodell för driftsorganisation: huvudman, bemanning och
+          rollfördelning</li>
+        <li>användartester och utbildning av medverkande </li>
+        <li>marknadsföring av systemet </li>
+        <li>utvärdering</li>
+      </ul>
+      <h2>Redovisning</h2>
+      <p>Under första året avges löpande information i form av progressrapporter och en
+      sammanfattning i samband med att en förtydligad projektplan presenteras för andra året.
+      </td>
+    </tr>
+  </table>
+</blockquote>
+</body>
+</html>

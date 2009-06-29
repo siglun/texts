@@ -1,0 +1,131 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<!DOCTYPE      html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+               "http://www.w3.org/TR/xhtml1/DTD/transitional.dtd">
+
+<html xmlns="http://www.w3.org/TR/xhtml1/transitional">
+<head>
+
+<link rel="stylesheet" type="text/css" media="screen" href="studera.se.css" />
+<title>studera.se cascading style sheet</title>
+
+</head>
+
+<body>
+<p class="docinfo">
+Sigfrid Lundberg
+<br />Senast ändrad: 1999-03-03
+</p>
+
+<h1 class="title"><a name="TOP">Om HTML och CSS-classer<br />
+för användning i STUDERA</a></h1>
+
+<p>
+
+Följande style-sheet innehåller vad jag kan se som varandes nödvändigt
+för att formattera en sida med studie- eller kursinformation för
+STUDERA.SE.  Jag har också gjort ett <a href="exempel.html">exempel på
+en sida</a> formatterad med detta style-sheet. I övrigt skulle jag
+vilja poängtera följande:
+
+</p>
+
+<ol>
+
+<li>Använd HTML-taggar i deras generiska mening.</li>
+
+<li>Den programvara som skall användas för att formattera pappersversionen av
+studiehandboken kan inte hantera "nested tables" (dvs tabeller i tabeller).</li>
+
+</ol>
+
+<pre>
+
+BODY {
+	background-color: white;
+	font-size:      12pt;
+        font-weight:    normal;
+        word-spacing:   normal;
+        letter-spacing: normal;
+        font-family:    Arial, Helvetica, sans-serif;
+        font-size-adjust:       .48;
+	margin-left: 10%; 
+	margin-right: 5%;
+}
+
+P {	font-size: 12pt;
+	text-align: left;
+}
+
+P.abstract, P.caption {	font-size: 10pt;
+	text-align: left;
+	margin-left: +10%;
+	margin-right: +10%;
+}
+
+P.docinfo {
+	font-size: 12pt;
+	text-align: left;
+	margin-left: +60%;
+	margin-right: -5%;
+} 
+
+P.authors {
+	font-size: 12pt;
+	text-align: center;
+} 
+
+H1.title {
+	font-size: 18pt;
+	font-weight: bold;
+	text-align: center;
+}
+
+H1 {
+	font-size: 14pt;
+	font-weight: bold;
+	margin-left: -5%; 
+}
+
+H2, H3, H4 {
+	font-size: 14pt;
+	font-style: italic;
+}
+
+TABLE, TBODY, TR, TD, TH, CAPTION {
+	text-align: left;
+	background-color: "#FFFFEE";
+        font-size:      12pt;
+        word-spacing:   normal;
+        letter-spacing: normal;
+        font-family:    Arial, Helvetica, sans-serif;
+        font-size-adjust: .48;
+}
+
+TH, CAPTION {font-weight: bold;
+}
+
+TD.tocnum {
+	font-weight: bold;
+	font-size: 12pt;
+	text-align: right;
+}
+
+TD.tocitem {
+	font-size: 12pt;
+	text-align: left;
+}
+
+
+</pre>
+
+<p class="docinfo">Detta är ett XML-dokument
+<a href="http://validator.w3.org/check?uri=http://www.lub.lu.se/~siglun/studera.se/studera_css.html">Validera mot xhtml1-transitional DTD</a></p>
+
+
+</body>
+</html>
+
+
+
+
+

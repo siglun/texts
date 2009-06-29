@@ -1,0 +1,649 @@
+<html>
+<head>
+<title>Summary statistics of metadata use</title>
+</head>
+<body bgcolor="#FFFFFF">
+
+<h1 align="center">Summary of observations concerning metadata use</h1>
+
+<p>There is an installed base of Dublin Core Metadata.  Here I present
+some statistics from a couple of resources discovery databases we've
+been working with the last 18 months or so.</p>
+
+<p>They are from:</p>
+<ol>
+
+<li>The Nordic Web Index (NWI). The data are about one
+year old, gathered just before I gave up country wide harvesting
+(leaving that to the commercial search engines). We used to have about
+4 million records.</li>
+
+<li>The EUN. The data is very recent, and is a
+sample for educational sites world wide. The database is about 260.000
+records.</li>
+
+<li>The ``All engineering'' database.
+The engineering sample is very recent, and contains
+about 100.000 pages.</li>
+
+<li>The <a href="http://safari.hsv.se/">SAFARI</a> database, which is
+100% meta labelled</a></li>
+
+</ol>
+
+<p>All the data below contain absolute frequency to the
+left, and elements together with schemes to the right.</p>
+
+<p>In all of the samples, you find DC metadata in about 1-2% of the
+pages. I think that is a good figure. Librarians catalogue only a
+fraction of everything that is printed, so why should people put
+metadata in every WWW page?</p>
+
+<h2><a name="wide">Wide area examples</a></h2>
+
+<h3>The agents</h3>
+
+<p>The worst abuse of DC qualifiers comes from the CCP trio (NWI
+database):</p>
+
+<pre>
+7438    dc.creator.corporatename
+5995    dc.creator.personalname
+1753    dc.creator
+1144    dc.creator.personalname.address
+852     dc.creator.address
+519     dc.creator.name
+498     dc.creator.email
+424     dc.creator.corporatename.address
+200     dc.creator.homepage
+199     dc.creator.affiliation
+195     dc.creator.postal
+</pre>
+
+<p>Yes, there are postal addresses out there :( They are not mine, I
+ensure you. Publishers are more keen on metadata than is creators (NWI
+database):</p>
+
+<pre>
+24373   dc.publisher
+21152   dc.publisher.address
+1533    dc.publisher.corporatename
+443     dc.publisher.corporatename scheme=SMN
+57      dc.publisher.name
+15      dc.publisher.postal
+15      dc.publisher.phone
+15      dc.publisher.email
+10      dc.publisher scheme=Postal
+10      dc.publisher scheme=Phone
+10      dc.publisher scheme=Name
+10      dc.publisher scheme=Email
+</pre>
+
+<p>For what I can tell, it is publishers who provide metadata, not the
+creators themselves ;). There are much more publisher tags than creators.
+Contributors are rare.</p>
+
+<p>Please Note the scheme=SMN above. Authority control is an issue. It
+is a functional requirement in many projects that CCP elements get
+their values from controlled lists. The one above is an example of
+that.</p>
+
+<p>The publisher field is richer than any of the CCP fields, at least as
+regards depth of qualificaton. Here you have some interesting examples
+(EUN database).</p>
+
+<pre>
+3424    dc.publisher
+289     dc.publisher.corporatename
+182     dc.publisher.personalname.address.postal
+182     dc.publisher.personalname.address.phone
+182     dc.publisher.personalname.address.homepage scheme=URL
+182     dc.publisher.personalname.address.fax
+182     dc.publisher.personalname.address.email
+182     dc.publisher.personalname
+22      dc.publisher.email
+15      dc.publisher.address
+</pre>
+
+<p>The dc.publisher.personalname.address.homepage scheme=URL is my
+personal favouriate. The longest one I've seen ever...</p>
+
+<p>We all agree that the CCP elements need a small, neat, flat, and sort
+of minimalistic substructure. Perhaps no substructure at all.</p>
+
+<p>Whatever you and I think, the WWW pages out there express a wish for
+being seen. You want that your information should be seen. You want to
+be seen yourself.  I.e., you want to provide contact information.</p>
+
+<p>People just don't care if it's dumb-down-able or not... And we must
+do something about this!  Possibly, the only way forward in that area
+might be Tom's proposal of an agent core. Someone must do some real
+effort to find an acceptable solution for this. It has to be this
+group of people, hasn't it, if not this group.</p>
+
+<h3>Title and Description</h3>
+
+<p>Indeed, dc.publisher is about as popular than dc.title. On the Swedish
+Web, the frequencies of titles and publishers is about the same, was at
+the time more or less equal to the total number of pages with embedded
+metadata (NWI database)</p>
+
+<pre>
+24328   dc.title
+331     dc.title.alternative
+2       dc.title.subtitle
+1       dc.title.main
+</pre>
+
+Interestingly number of titles were more twice as large as the number
+of descriptions (NWI).
+
+<pre>
+10192   dc.description
+</pre>
+
+<h3>Encoding Schemes and Element refinements</h3>
+
+<p>Here in Sweden, I cannot find any substructure for description. In
+the educational database I find two encoding schemes (EUN):</p>
+
+<pre>
+2929    dc.description scheme=URL
+2791    dc.description scheme=FREETEXT
+1141    dc.description
+</pre>
+
+<p>Note the URL as a scheme for the description... For the fun of it,
+I've made a small exercise to see what encoding schemes you find out
+there. Earlier today someone mentioned as URI as being permissible for
+just about every element. They are not really used that way today.
+Here is a sample of scheme=UR* in my Swedish database (NWI):</p>
+
+<pre>
+7466    dc.relation.ispartof scheme=URL
+6581    dc.relation.ispartof scheme=URN
+947     dc.identifier scheme=URL
+470     dc.identifier scheme=URN
+49      dc.relation scheme=URL
+25      dc.source scheme=URL
+17      dc.rights scheme=URL
+5       dc.relation scheme=URN
+</pre>
+
+<p>Most URNs come from a single site, an electronic text archive, and
+they are genuine. Each chapter/story/poem is pointing to a cover page
+for the novel or the book it comes from. You may ask about the related
+issue, the source element. In Sweden it is not used very much
+(NWI):</p>
+
+<pre>
+861     dc.source
+25      dc.source scheme=URL
+10      dc.source scheme=ISBN
+3       dc.source scheme=ISSN
+</pre>
+
+<p>In the educational database, we find a particularly interesting use
+of source (EUN):</p>
+
+<pre>
+2581    dc.source scheme=FREETEXT
+289     dc.source.title
+289     dc.source.date.created scheme=ISO8601
+289     dc.source.creator
+212     dc.source
+1       dc.source scheme=URL
+</pre>
+
+<p>For subject there are a number of schemes out there. A few examples
+(NWI)</p>
+
+<pre>
+1993    dc.subject scheme=CERIF
+452     dc.subject scheme=SAB
+122     dc.subject scheme=SABAO
+98      dc.subject scheme=LCSH
+47      dc.subject scheme=JEL
+37      dc.subject scheme=YSAS
+37      dc.subject scheme=LCCS
+29      dc.subject scheme=DDC
+9       dc.subject scheme=LUB_index_sv
+1       dc.subject scheme=SABS
+1       dc.subject scheme=Freitext
+</pre>
+
+<p>In the educational database I get the following schemes (EUN)</p>
+
+<pre>
+91      dc.subject scheme=DDC
+24      dc.subject scheme=GEM
+4       dc.subject scheme=ERIC
+1       dc.subject scheme=SWD
+1       dc.subject scheme=LCC
+1       dc.subject scheme=DCC
+</pre>
+
+<p>There is a set of qualified subject tags found in a network of
+services dealing with environmental data (NWI database):</p>
+
+<pre>
+543     dc.subject.envthreat scheme=SMN
+387     dc.subject.sector scheme=SMN
+381     dc.subject.nature scheme=SMN
+218     dc.subject.general scheme=SMN
+182     dc.subject.species scheme=SMN
+155     dc.subject.chemistry scheme=SMN
+90      dc.subject.envdata.program scheme=SMN
+27      dc.subject.miljfrag scheme=SMN
+24      dc.subject.envdata.variable scheme=SMN
+21      dc.subject.envdata.medium scheme=SMN
+18      dc.subject.sektor scheme=SMN
+11      dc.subject.naturtyp scheme=SMN
+11      dc.subject.allmant scheme=SMN
+9       dc.subject.art scheme=SMN
+6       dc.subject.kemi scheme=SMN
+</pre>
+
+<p>A better part of their classification system is somehow appended
+directly to the dc.subject, which means that part of the information
+is lost when I did the dumb down.</p>
+
+<p>In the engineering database we find interesting developments as
+regards subjects, with schemes given as URLs, which clearly shows the
+influence from RDF/XML namespace thinking. These "namespace schemes"
+are all harvested from sites in Australia:</p>
+
+<pre>
+43      dc.subject scheme=LCSH
+39      dc.subject scheme=DDC21,DEFsubject
+30      dc.subject scheme=pacs1999
+24      dc.subject scheme=DDC
+20      dc.subject scheme=MathNet
+11      dc.subject scheme=CERIF
+9       dc.subject scheme=LUB_index
+5       dc.subject scheme=SAB
+5       dc.subject scheme=LCCS
+4       dc.subject scheme=SWD
+2       dc.subject.sector scheme=SMN
+2       dc.subject scheme=LCC
+2       dc.subject scheme=Environment Australia Thesaurus
+                   http://www.environment.gov.au/library/ea_thesaurus.html
+2       dc.subject scheme=DCC
+2       dc.subject content= scheme=MathNet
+1       dc:subject
+1       dc.subject.keywords scheme=Freetext
+1       dc.subject.industry scheme=BEP
+1       dc.subject.general scheme=SMN
+1       dc.subject scheme=keyword
+1       dc.subject scheme=http://www.greenhouse.gov.au/nav/thesaurus.html
+1       dc.subject scheme=http://www.energystar.gov.au
+1       dc.subject scheme=frei vergeben
+1       dc.subject scheme=LUB_index_sv
+1       dc.subject scheme=Keyword
+1       dc.subject scheme=Environment Australia Thesaurus
+        http://www.environment.gov.au/portfolio/library/work/ea_thesaurus.html
+1       dc.subject scheme=Environment Australia Thesaurus
+        http://www.environment.gov.au/portfolio/library/ea_thesaurus.html
+1       dc.subject scheme=DDC21,DEFtid
+1       dc.subject scheme=DDC21,DEFgeography
+1       dc.subject scheme=BK
+</pre>
+
+<p>When we still did harvesting for the NWI, there were about 6000
+unqualified dc.subjects out there in the NWI. In the EUN we see the
+following</p>
+
+<pre>
+2762    dc.subject.keywords scheme=FREETEXT
+922     dc.subject
+200     dc.subject.keywords
+</pre>
+
+<p>And in the engineering one.</p>
+
+<pre>
+755     dc.subject
+103     dc.subject.keyword
+</pre>
+
+<p>I've only found scheme=FREETEXT in Germany, and most of them in a
+single site, the Deutsch Bildungsserver.</p>
+
+In the forthcoming specification of DCMI interoperability refiners and
+encoding schems, we have a particularly rich substructure for
+Coverage. In Sweden we used to have (NWI)</p>
+
+<pre>
+675     dc.coverage.spatial.areaname scheme=SMN
+183     dc.coverage scheme=TGN
+12      dc.coverage.local scheme=SMN
+</pre>
+
+<p>I know that there are user interfaces in search engines supporting
+these (I'm providing the TGN one myself), so they are real
+implementations. The environmental people have their own schemes for
+coverage, two different for different purposes reflecting the
+importance of geospatial data for resource discovery when it comes to
+environmental issues.</p>
+
+<p>In the engineering database I get</p>
+
+<pre>
+197     dc.coverage
+22      dc.coverage.placename
+20      dc.coverage scheme=Freetext
+4       dc.coverage.y.min scheme=DD
+4       dc.coverage.y.max scheme=DD
+4       dc.coverage.x.min scheme=DD
+4       dc.coverage.x.max scheme=DD
+4       dc.coverage.t.min scheme=ISO 8601
+4       dc.coverage.t.max scheme=ISO 8601
+3       dc.coverage. scheme=TGN
+2       dc.coverage.y scheme=DD
+2       dc.coverage.y
+2       dc.coverage.x scheme=DD
+2       dc.coverage.x
+2       dc.coverage.spatial
+2       dc.coverage.campus
+1       dc.coverageplacename
+1       dc.coverage.z
+1       dc.coverage.spatial.areaname scheme=SMN
+1       dc.coverage.placename scheme=TGN
+1       dc.coverage.place
+1       dc.coverage.periodname
+1       dc.coverage scheme=LCSH
+</pre>
+
+<p>It seems that we here in Sweden are using Coverage more effectively
+than in the engineering sites worldwide. The encoding schemes DMS and
+DD, is no good if you want to repeatable elements.</p>
+
+<p>Speaking about coverage, we have the rich date element (NWI):</p>
+
+<pre>
+4722    dc.date.x-metadatalastmodified scheme=ISO8601
+1841    dc.date
+919     dc.date.valid scheme=ISO8601
+682     dc.date scheme=ISO8601
+636     dc.date.creation scheme=ISO 8601
+457     dc.date.created
+324     dc.date.modified
+179     dc.date.creation scheme=ISO31
+143     dc.date.current scheme=ISO8601
+116     dc.date.current scheme=ISO31
+36      dc.date scheme=ISO
+34      dc.date scheme=ISO31
+26      dc.date.current scheme=RFC822
+24      dc.date.creation scheme=RFC822
+20      dc.date.creation
+19      dc.date.current scheme=ANSI.X3.30-1985
+14      dc.date scheme=RFC822
+13      dc.date.creation scheme=ANSI.X3.30-1985
+8       dc.date.iso8601
+8       dc.date scheme=ISO.31-1:1992, Type=Modified
+6       dc.date.creation scheme=ISO8601
+6       dc.date-x-metadatalastmodified scheme=ANSI.X3.30-1985
+3       dc.date.x-metadatalastmodified
+2       dc.date.current
+2       dc.date scheme=ISO31 Type=Current
+2       dc.date scheme=ANSI.X3.30-1985
+1       dc.date scheme=ISO6801
+1       dc.date scheme=Frei
+1       dc.date scheme=ANSI X3.30-1985
+</pre>
+
+<p>Here you find something extremely rare these days. In the data above,
+you (I repeat it):</p>
+
+<pre>
+8       dc.date scheme=ISO.31-1:1992, Type=Modified
+</pre>
+
+<p>These are the remnants of a metatag of the form</p>
+
+<pre>
+&lt;META 	NAME="DC.date"
+	CONTENT="(scheme=ISO.31-1:1992)(Type=Modified) xxxxx)"&gt;
+</pre>
+
+<p>That is, 8 web pages metalabelled before the DC Down Under in
+Canberra, where the dotty syntax was proposed by Misha Wolf!</p>
+
+<p>The Date element as used by the educational people (EUN):</p>
+
+<pre>
+3026    dc.date.created scheme=ISO8601
+2737    dc.date.valid scheme=ISO8601
+2737    dc.date.modified scheme=ISO8601
+624     dc.date
+290     dc.date.x-metadatalastmodified scheme=ISO8601
+289     dc.source.date.created scheme=ISO8601
+169     dc.date.created scheme=ISO 31-1:92
+168     dc.date.valid scheme=ISO 31-1:92
+168     dc.date.modified scheme=ISO 31-1:92
+60      dc.date.created
+58      dc.date.modified
+57      dc.date.valid
+29      dc.date scheme=ISO 31-1:92
+25      dc.date scheme=ANSI.X3.30-1985
+12      dc.date.x-metadatalastmodified
+2       dc.date scheme=ISO31-1:92
+2       dc.date scheme=ISO.31-1:1992
+1       dc.date.validto scheme=ISO 31-1:92
+1       dc.date.lastmodified scheme=ISO 31-1:92
+1       dc.date.current
+1       dc.date.creation
+</pre>
+
+<p>In another database with engineering resources worldwide we get an
+even richer flora of dates:</p>
+
+<pre>
+925     dc.date.x-metadatalastmodified scheme=ISO8601
+270     dc.date
+136     dc.date scheme=ISO8601
+100     dc.date.current scheme=ISO31
+84      dc.date.creation scheme=ISO 8601
+82      dc.date.current scheme=ISO 8601
+20      dc.date.modified
+17      dc.date.created scheme=ISO8601
+16      dc.date.lastmodified
+15      dc.date.creation scheme=ISO31
+13      dc.date.current scheme=ANSI.X3.30-1985
+12      dc.date.lastmodified scheme=ISO 31-1
+11      dc.date.current scheme=FGDC
+11      dc.date.creation scheme=FGDC
+10      dc.date.current scheme=RFC822
+9       dc.date.modified scheme=ISO8601
+9       dc.date.creation scheme=RFC822
+9       dc.date scheme=RFC822
+8       dc.date.valid scheme=ISO8601
+8       dc.date scheme=WTN8601
+7       dc.date.lastmodified scheme=ISO8601
+6       dc.date.issued scheme=ISO8601
+6       dc.date.created
+6       dc.date scheme=ISO 8601
+5       dc.date scheme=ANSI.X3.30-1985
+4       dc.date.issued
+4       dc.date scheme=ISO31
+3       dc.date.creation scheme=ANSI.X3.30-1985
+3       dc.date scheme=ISO31-1:92
+2       dc.date.x-metadatalastmodified scheme=ISO 8601
+2       dc.date.x-metadatalastmodified
+2       dc.date.expires
+2       dc.date scheme=ISO
+1       dc:date.issued
+1       dc:date.created
+1       dc.date.valid scheme=ISO 31-1:92
+1       dc.date.updated
+1       dc.date.revised
+1       dc.date.modified scheme=ISO 31-1:92
+1       dc.date.modification_of_present_form
+1       dc.date.lastmodified scheme=iso31
+1       dc.date.lastmodified scheme=ISO31
+1       dc.date.creation scheme=iso31
+1       dc.date.created scheme=WTN8601
+1       dc.date.created scheme=ISO 31-1:92
+1       dc.date scheme=iso 8601
+1       dc.date scheme=W3CDTF
+1       dc.date scheme=RFC882
+1       dc.date scheme=ISO 31.1
+1       dc.date scheme=ISO 31-1:92
+</pre>
+
+
+<h3>The Competition</h3>
+
+<p>What about the competition? DC metadata is a fairly small fraction of
+the metadata actually embedded into pages. These are metadata that are
+frequently added to pages by authoring tools, some of which we used to
+analyze and map back to Dublin Core:</p>
+
+<pre>
+22742   keywords
+20782   content-type
+20376   description
+9321    author
+2135    copyright
+1025    publisher
+961     distribution
+848     resource-type
+815     language
+590     date
+562     title
+493     reply-to
+447     abstract
+445     page-topic
+423     owner
+412     formatter
+400     audience
+340     originator
+</pre>
+
+<p>One might perhaps expect a lot of IMS in the educations, but this is
+not the case, actually.IMS does not appear very often, and only in
+the educational database (EUN):</p>
+
+<pre>
+344     ims.usetime
+344     ims.usersupport
+344     ims.type
+344     ims.title
+344     ims.subject.keywords
+344     ims.subject.description
+344     ims.structure
+344     ims.source
+344     ims.rights.userights
+344     ims.rights.agent
+344     ims.relation.isbasedon
+344     ims.publisher
+344     ims.pricecode
+344     ims.presentation
+344     ims.prerequisites
+344     ims.platform.requiredsoftware.description
+344     ims.platform.requiredhardware.description
+344     ims.pedagogy
+344     ims.objectives
+344     ims.meta-meta-data.scheme
+344     ims.meta-meta-data.lastmodifieddate
+344     ims.meta-meta-data.containertype
+344     ims.meta-meta-data.author
+344     ims.location
+344     ims.learninglevel
+344     ims.language
+344     ims.interactivity
+344     ims.identifier
+344     ims.granularity
+344     ims.format
+344     ims.date
+344     ims.creator
+</pre>
+
+<h2><a name="local">Local area harvesting</a></h2> 
+
+<p>The SAFARI database</p> 
+
+<pre>
+7926	dc.title
+7926	dc.description
+7914	dc.publisher
+7898	safari.targetgroup
+7736	dc.type
+7139	dc.identifier
+6441	dc.subject
+6318	dc.subject scheme=CERIF
+5879	dc.language scheme=ISO639-1
+5869	dc.creator.personalname
+4945	dc.publisher.address
+4042	dc.date.x-metadatalastmodified scheme=ISO8601
+3593	dc.creator.personalname.address
+2619	dc.format scheme=IMT
+2547	dc.date scheme=ISO8601
+2145	dc.rights
+1425	dc.language
+1425	dc.date
+1051	dc.creator.corporatename.address
+961	dc.creator.corporatename
+922	dc.date.valid scheme=ISO8601
+689	dc.subject scheme=JEL
+647	dc.creator
+575	dc.creator.address
+542	dc.identifier.url
+542	dc.date.current scheme=ISO8601
+541	dc.creator.name
+442	dc.subject.keywords
+392	dc.creator.email
+278	dc.coverage. scheme=TGN
+227	dc.creator.identifier
+185	dc.subject.keyword
+106	dc.coverage scheme=TGN
+77	dc.date.x-metadatalastmodified scheme=SCHEME=ISO8601
+62	dc.date-x-metadatalastmodified scheme=ANSI.X3.30-1985
+56	dc.creator.adress
+28	dc.safari.targetgroup
+22	dc.identifier scheme=URL
+17	dc.contributor
+13	dc.type scheme=SMN
+13	dc.title.alternative
+12	dc.subject.sector scheme=SMN
+12	dc.language scheme=ISO 639-2
+11	dc.publisher.corporatename scheme=SMN
+11	dc.date.x-metadatalastmodified scheme=ISO 8601
+11	dc.date.valid scheme=ANSI.X3.30-1985
+6	dc.subject scheme=SABAO
+6	dc.date.creation scheme=ISO 8601
+5	dc.subject scheme=YSAS
+5	dc.subject scheme=SAB
+5	dc.subject scheme=LCCS
+4	dc.subject.envthreat scheme=SMN
+2	dc.subject scheme=DDC
+2	dc.subject scheme=CERIF\
+2	dc.publisher.corporatename
+2	dc.language scheme=ISO639-2
+2	dc.language scheme=ISO639-1\
+2	dc.format
+2	dc.date.x-metadatalastmodified scheme=ISO8601\
+2	dc.date.valid scheme=ISO8601\
+2	dc.date.modified
+2	dc.date.created
+2	dc.coverage.spatial.areaname scheme=SMN
+2	dc.coverage. scheme=TGN\
+2	dc.contributor.personalname
+1	dc.subject.envdata.variable scheme=SMN
+1	dc.subject.envdata.program scheme=SMN
+1	dc.subject.envdata.medium scheme=SMN
+1	dc.subject scheme=LCSH
+1	dc.source
+1	dc.rights scheme=URL
+1	dc.relation
+1	dc.language scheme=ISO 639
+1	dc.identifier scheme=URN
+1	dc.coverage
+1	dc.contributor.corporatename
+</pre>
+
+
+</body>
+</html>
+
+

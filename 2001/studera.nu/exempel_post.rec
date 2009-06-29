@@ -1,0 +1,108 @@
+<wir>
+<robot>
+JCF/0.0 URL="http://mars.hhj.hj.se/kat/Kurs.asp?kurskod=FO2700&termin=" HDB="afrodite.hsv.se:10023" 
+</robot>
+<rec-id>F9DB344DB482923E9B69E449A177BC0A</rec-id>
+<rec-checked>Mon, 22 Jan 2001 17:24:14 GMT</rec-checked>
+<controlled-terms>
+   <cterm>200.300.800</cterm>
+</controlled-terms>
+<availability>
+  <available>
+    <linkage>http://mars.hhj.hj.se/kat/Kurs.asp?kurskod=FO2700&termin=</linkage>
+    <format>text/html</format>
+  </available>
+   <publisher>hhj</publisher>
+   <schedule>
+       <event>HHJ-2FOB0;2002p1;bunden;medium;0680;sv;</event>
+   </schedule>
+   <medium>fortsättningskurs</medium>
+   <size>4442</size>
+</availability>
+<title>Folkhälsa II, 5 poäng</title>
+<access>
+   <constraint>uh</constraint>
+</access>
+<inf>
+    <nh>8</nh>
+    <nl>5</nl>
+</inf>
+<relation>
+  <uri>http://hj.se/hhj</uri>
+  <type>anchor</type>
+</relation>
+<relation>
+  <phrase>http://www.hj.se/hhj/ibs/undermenu/default.htm</phrase>
+  <uri>http://www.hj.se/hhj/ibs/undermenu/default.htm</uri>
+  <type>anchor</type>
+</relation>
+<relation>
+  <phrase>katarina.bolin@hhj.hj.se</phrase>
+  <uri>mailto:katarina.bolin@hhj.hj.se</uri>
+  <type>anchor</type>
+</relation>
+<relation>
+  <phrase>Folkhälsovetenskap</phrase>
+  <uri>http://mars.hhj.hj.se/kat/Amne.asp?amne=Folkh%E4lsovetenskap&termin=</uri>
+  <type>anchor</type>
+</relation>
+<relation>
+  <phrase> kursplan</phrase>
+  <uri>http://mars.hhj.hj.se/kat/%5Ckursplaner%5CFO2700.pdf</uri>
+  <type>anchor</type>
+</relation>
+<sample>
+   <heading>Folkhälsa II, 5 poäng</heading>
+   <heading>Kursbeskrivning</heading>
+   <heading>Förkunskaper</heading>
+   <heading>Urvalsregler</heading>
+   <heading>Övrigt</heading>
+   <heading>Institutionen för beteendevetenskap och socialt arbete, IBS</heading>
+   <heading>Vägledning</heading>
+   <heading>Mer information</heading>
+   <text>
+ " width= Syftet är att studenten skall fördjupa sina kunskaper om faktorer som påverkar folkhälsa. Kursen innehåller viktiga moment av folkhälsoarbete utifrån olika metodansatser med praktisk tillämpning. Efter genomgången kurs skall studenten ·kunna analysera samband mellan arv, miljö, livsstil och hälsa för att kunna föreslå relevanta åtgärder ·kunna tillämpa olika metoder inom folkhälsoarbete ·ha förståelse för etiska aspekter i folkhälsoarbete. Innehåll: Kursen kommer utifrån ett folkhälsovetenskapligt synsätt att innehålla: ·genetiska, gentekniska aspekter på hälsa samt etiska frågeställningar kring dessa ·hälsa och miljö ·kön, ålder, etnicitet och deras påverkan på hälsa ·salutogena och patogena faktorer ·olika angreppssätt i syfte att förbättra folkhälsa. Grundläggande behörighet samt betyget godkänd i kurserna folkhälsa I, 5 poäng, vetenskaplig grundkurs, 5 poäng och ytterligare 10 högskolepoäng. 1. Studenter i program vid Hälsohögskolan i Jönköping. 2. Övriga sökande: Arbetslivserfarenhet. Tidigare högskolestudier krävs. Utbildningsnivå: 21 - 40 poäng.   Adress: Gjuterigatan 7B Jönköping.Lokaler: IBS har sina lokaler på Gjuterigatan 7B . http://www.hj.se/hhj/ibs/undermenu/default.htm Katarina Bolin,tel 036 - 32 48 59.E-post katarina.bolin@hhj.hj.se Om Folkhälsovetenskap Anm kod Termin Kursort Studieform 2FOB0 vt 2002,vecka 04 - vecka 13 JKPG Normal, dagtid, 50% studietakt. Se vidare kursplan Ansvarig enhet: Institutionen för beteendevetenskap och socialt arbete, IBS Hälsohögskolan Jönköping   
+   </text>
+</sample>
+
+<metadata>
+  <element>
+    <name>robots</name>
+    <value>index, nofollow</value>
+  </element>
+  <element>
+    <name>dc.identifier</name>
+    <value>(SCHEME=URL)http://mars.hhj.hj.se/kat/kurs.asp?kurskod=FO2700</value>
+  </element>
+  <element>
+    <name>dc.title</name>
+    <value>Folkhälsa II, 5 poäng</value>
+  </element>
+  <element>
+    <name>dc.subject</name>
+    <value>(SCHEME=Studera)200.300.800</value>
+  </element>
+  <element>
+    <name>dc.publisher</name>
+    <value>(SCHEME=Studera)hhj</value>
+  </element>
+  <element>
+    <name>studera.identifier</name>
+    <value>HHJ-FO2700</value>
+  </element>
+  <element>
+    <name>studera.type</name>
+    <value>fortsättningskurs</value>
+  </element>
+  <element>
+    <name>studera.prerequisites</name>
+    <value>uh</value>
+  </element>
+  <element>
+    <name>studera.event</name>
+    <value>HHJ-2FOB0;2002p1;bunden;medium;0680;sv;</value>
+  </element>
+</metadata>
+<server>Microsoft-IIS/5.0</server>
+
+</wir>

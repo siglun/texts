@@ -1,0 +1,1223 @@
+173762	generator
+43408	keywords
+33715	author
+30799	description
+17002	formatter
+16114	dc.publisher
+15903	dc.title
+14335	dc.publisher.address
+8214	publisher
+6403	dc.description
+6286	dc.type
+6139	dc.language scheme=ISO639-1
+5958	template
+5540	safari.targetgroup
+4758	dc.format
+4629	dc.relation
+4561	dc.creator.corporatename
+4012	dc.relation.ispartof scheme=URL
+4012	dc.relation.ispartof
+3529	dc.relation.ispartof scheme=URN
+3390	dc.creator.personalname
+3282	dc.subject
+3104	distribution
+2753	resource-type
+2608	microsoft
+2373	dc.date.x-metadatalastmodified scheme=ISO8601
+2031	dc.identifier
+1940	language
+1936	owner
+1736	ekdoctech
+1736	ekdocowner
+1735	ekbu
+1722	ekreviewdate
+1711	ekdoctype
+1616	publication_date
+1318	version
+1288	country
+1279	dc.subject scheme=CERIF
+1256	ekpostdateinit
+1210	next_check_date
+1210	last_check_date
+1201	web_author_id
+1197	creation_date
+1094	date
+1050	dc.date
+1045	dc.creator
+1036	classification
+976	dc.rights
+959	mirandakategori
+937	stop_date
+865	dc.language
+849	createdby
+823	abstract
+774	dc.contributors
+733	publication
+722	url
+722	dc.creator.personalname.address
+719	datum
+707	robots
+678	dc.format scheme=IMT
+675	ekpostdate
+629	dc.language scheme=ISO 639
+627	dc.type scheme=SMN
+624	eklinktext
+621	dc.creator.address
+587	dc.publisher.corporatename
+578	dc.identifier scheme=URL
+567	alias
+559	dc.coverage
+554	ekdocsource
+552	dc.date.valid scheme=ISO8601
+476	category
+459	dc.date scheme=ISO8601
+439	dc.source
+414	expires
+401	dc.contributor.personalname
+380	copyright
+376	dc.coverage.spatial.areaname scheme=SMN
+371	keyword
+359	header
+356	revised
+355	year
+355	footer
+345	dc.date.creation scheme=ISO 8601
+340	ekkeyword
+337	smndok
+331	institution
+298	dc.creator.email
+296	dc.coverage.placename
+284	subject
+280	dc.creator.name
+279	pragma
+277	dc.subject scheme=SAB
+273	dc.language scheme=RFC1766
+271	dc.identifier scheme=URN
+268	dc.date.created
+253	dc.subject.envthreat scheme=SMN
+239	review
+238	dc.identifier.url
+235	publisher-email
+224	dc.creator.corporatename.address
+216	titel
+211	dc.publisher.corporatename scheme=SMN
+208	security
+206	title
+204	content-language
+203	dc.title.alternative
+201	dc.subject.sector scheme=SMN
+201	dc.subject.keyword
+197	dc.date.modified
+195	microsoft border
+194	reply-to
+193	dc.subject.nature scheme=SMN
+189	issue
+181	web
+180	socialism,
+178	ekarea
+176	operator
+175	coverage
+170	object
+167	dc.format scheme=imt
+163	björn
+162	ekdoclinktext
+155	filename
+139	family
+136	product_subclass_web
+136	product_platform_web
+136	product_class_web
+136	doc_type_web
+136	doc_source_filename
+136	doc_null
+136	doc_filename
+136	doc_author_id
+136	architecture
+135	doc_title
+133	wrapper_flag
+133	product_subclass
+133	product_platform
+133	product_class
+133	document_type
+133	doc_status
+131	market_class
+127	corporate_information_class
+125	microsoft theme
+125	build
+125	authour
+123	dc.subject.species scheme=SMN
+122	lang
+122	dc.coverage. scheme=TGN
+121	product_family_web
+120	ort
+120	ms.locale
+118	product_family
+118	dc.subject.general scheme=SMN
+118	dc.creator.homepage
+118	dc.creator.affiliation
+118	bransch2
+115	dc.creator.postal
+114	product_id
+114	dc.language scheme=NISOZ39.53
+112	bransch1
+109	identifier-url
+108	dc.language scheme=Z39.53
+107	ekproductname
+107	dc.date.creation scheme=ISO31
+106	authoring_tool
+106	author-corporate
+101	date-creation-yyyymmdd
+96	creatim
+95	grafisk
+90	doc_abstract
+89	date-revision-yyyymmdd
+86	edited_by_company
+86	created
+86	content_class
+83	edited_by_person
+81	product_keywords
+81	autor
+80	doccomm
+80	dc.subject.chemistry scheme=SMN
+78	product
+76	identifier
+76	charset
+71	expiration_time
+70	dc.date.current scheme=ISO8601
+68	technology
+68	dc.date.current scheme=ISO31
+66	key
+66	date-creation
+65	rating
+65	dc.subject scheme=SABAO
+64	updated
+62	revisit-after
+62	authoring.tool
+60	swedish
+57	dc.subject scheme=LCSH
+56	owner_id
+53	modifier
+52	latin
+51	classification-jel
+50	courseno
+49	dc.subject.envdata.program scheme=SMN
+49	coursename
+47	technical_support_class
+47	dc.subject scheme=JEL
+47	dc.author
+46	editor
+46	anders
+45	objecttype
+44	dc.language scheme=ISO639-2
+43	studyterm
+43	source
+43	old_title
+43	giss
+40	authors
+39	lo-tidningens
+38	otheragent
+38	metadata
+38	form
+38	ekedkeyword
+38	distibution
+38	creator
+38	content-type
+37	general-category
+37	content
+37	business-unit
+35	region
+35	ms.category
+35	info
+34	division
+33	dc.form scheme=IMT
+33	changed
+31	dc.date scheme=ISO31
+31	dc.date scheme=ISO
+30	vw96.objecttype
+30	file
+30	dc.relation scheme=URL
+30	dc.creator.identifier
+29	kategori2
+29	kategori1
+29	dc.subject.envdata.program
+29	dc.contributor.corporatename
+28	edited_on
+28	dc.publisher.name
+25	post
+25	discription
+25	developer
+25	dc.subject.sector
+25	byggnads
+24	new
+24	kompetensen
+24	changedby
+23	cc
+23	arctic
+22	lo
+22	desciption
+22	dc.language scheme=ISO 639-2
+21	homepage
+21	author1
+20	producerad
+20	lastupdate
+19	type
+19	sidadate
+19	redesign_germany
+19	generator-version
+19	ekexpiredate
+19	dc.subject scheme=YSAS
+19	dc.subject scheme=LCCS
+18	url_on_faxback
+18	timestamp
+18	search_priority
+18	organisation
+18	noindex,follow
+18	last
+18	dc.subject.envthreat
+18	creation
+18	bookmark
+17	unidata
+17	dc.subject scheme=DDC
+17	dc.contributor.name
+17	cth-policy
+17	cth-disclaimer
+16	http.language
+16	fredrik
+16	dc.date.current scheme=RFC822
+16	dc.date.creation scheme=RFC822
+16	dc.contributor
+16	area
+15	subdescription
+15	peter
+15	listname
+15	expirationdate
+15	destination
+15	creationupdateddate
+15	city
+15	absoluteurl
+14	thomas
+14	institutionen
+14	descrition
+14	authors:
+13	other
+13	distrubution
+13	dc.source scheme=URL
+13	dc.date.creation
+13	connector
+13	birka
+13	askus
+13	#keyword
+12	webmaster
+12	john
+12	dc.subject.envdata.variable scheme=SMN
+12	;
+11	©
+11	last-modified
+11	kajsa
+11	is/it
+11	expire
+11	descriptions
+11	dc.subject.sektor
+11	dc.subject.miljfrag scheme=SMN
+11	copyleft
+11	contents
+11	authors: marek & tomek
+11	author:
+11	access
+10	virtuella
+10	sven
+10	priority
+10	dc.subject.envdata.medium scheme=SMN
+10	dc.identifier scheme=ISSN
+9	systembolaget
+9	reimix
+9	namn
+9	jörgen
+9	hp
+9	gwpdate
+9	dc.subject.nature
+9	dc.publisher.postal
+9	dc.publisher.phone
+9	dc.publisher.email
+9	date-revision
+8	sab-subject
+8	om
+8	mats
+8	key words
+8	index
+8	epani
+8	dc.subject.sektor scheme=SMN
+8	dc.subject.naturtyp
+8	dc.subject.general
+8	dc.subject.art
+8	dc.language scheme=Freetext
+8	dc.date scheme=RFC822
+8	dc.coverage.spatial.areaname
+8	date-conversion-yyyymmdd
+8	a
+7	subjectii
+7	searchtitle
+7	randor
+7	modified
+7	juniornytt
+7	internet
+7	hpp
+7	document
+7	directory
+7	design
+7	dc.rights scheme=URL
+7	dc.publisher scheme=Postal
+7	dc.publisher scheme=Phone
+7	dc.publisher scheme=Name
+7	dc.publisher scheme=Email
+7	dc.date.current scheme=ANSI.X3.30-1985
+7	dawe
+7	date-publish
+7	cdate
+6	written
+6	web_copy_date
+6	sunexpo-tagfields
+6	statement
+6	starter
+6	scientology-warez
+6	quake
+6	ncbrowsermode
+6	name
+6	indextype
+6	identifyer-url
+6	fortune-cookie
+6	eurotech
+6	e-mail
+6	descripton
+6	decription
+6	dc.subject.art scheme=SMN
+6	dc.optimizer
+6	dc.language scheme=ISO8859-1
+6	dc.form
+6	dc.date scheme=ISO.31-1:1992, Type=Modified
+6	cost
+6	clan
+6	arttek
+6	@rttek
+5	variation
+5	the
+5	sökruta
+5	sqp
+5	site-languages
+5	rydboholms
+5	relpy-to
+5	reference
+5	project
+5	producer
+5	player
+5	placement
+5	marinen
+5	maintainer
+5	lastupdated
+5	lars
+5	kreatör
+5	internet2micro
+5	härnöhallen
+5	hervor
+5	denna
+5	dc.subject.naturtyp scheme=SMN
+5	dc.language scheme=ISO639
+5	dc.date.iso8601
+5	dc.date.creation scheme=ISO8601
+5	dc.date.creation scheme=ANSI.X3.30-1985
+5	cecost
+5	bitte
+4	wizcurrentcontent
+4	westermalms
+4	webdesigner
+4	use
+4	rubo
+4	resourse-type
+4	nyckelord
+4	me
+4	last-update
+4	kove
+4	jan
+4	hkr
+4	eric
+4	en-title
+4	down
+4	deskription
+4	descritpion
+4	describtion
+4	dc.subject.chemistry
+4	dc.subject.allmant scheme=SMN
+4	dc.source scheme=ISBN
+4	christinaj
+4	ann
+3	©.raf
+3	wizcurrentstyle
+3	visibility
+3	vetlanda
+3	usergroup
+3	ulricehamnskappseglingssällskap
+3	tobias
+3	title1
+3	templmote
+3	sybid
+3	soren
+3	sokord
+3	snickare
+3	skåne
+3	robert
+3	resource
+3	nonplusultra
+3	noiden
+3	mattila
+3	mattias
+3	martin
+3	main
+3	logo
+3	links
+3	keys
+3	johan wikström
+3	joel
+3	jakob
+3	idc
+3	hpp-href
+3	hkf
+3	henrik
+3	header2
+3	h4joemag@alyssum.stud.slu.se
+3	genermotor
+3	gardenian
+3	film
+3	fasett
+3	email
+3	eklinktest
+3	down,
+3	destinaton
+3	descrption
+3	descriptor
+3	descripion
+3	dc.subject.miljfrag
+3	dc.subject scheme=LUB_index_sv
+3	dc.date-x-metadatalastmodified scheme=ANSI.X3.30-1985
+3	dc.coverage.spatial
+3	dc.coverage.local scheme=SMN
+3	daloplast
+3	company
+3	collname
+3	bäckängsgymnasiet
+3	brooklyn
+3	birgitta
+3	beskrivning
+3	authorhp
+3	authoremail
+3	auther
+3	apic1
+3	al-x
+3	GENERATOR
+3	"
+2	Öppna
+2	Återvinning
+2	©raf&co
+2	zlickd
+2	yrkesteknisk
+2	word
+2	webmaster@miljoexpo.se
+2	webhuset
+2	webdesign
+2	web_page_class
+2	web_content_type
+2	web_content_owner
+2	växjö
+2	utec
+2	update
+2	units
+2	u.s.
+2	top
+2	tobias larsson hemsida
+2	tillverkare
+2	svante
+2	svanenlogo
+2	svan
+2	skärholmens
+2	skapare
+2	site
+2	sis
+2	samuel
+2	rigust,
+2	repa-registret
+2	remedy
+2	refresh
+2	recource-type
+2	projectgroup
+2	programming
+2	product-category
+2	pics-label
+2	papper
+2	package
+2	otheragent-[relationship]
+2	organization
+2	onlineproducer
+2	on
+2	offsettryck
+2	offsetplåt
+2	nordic
+2	mobile
+2	miljöpolicy
+2	miljömärt
+2	miljö
+2	max
+2	maskindelar
+2	markus
+2	madsen
+2	location
+2	locality
+2	locale
+2	lm-id
+2	letters
+2	lennart
+2	kurre's
+2	konst
+2	keywords"description
+2	kendo
+2	katarina
+2	julmust
+2	johan
+2	jdj
+2	international
+2	information
+2	hÖgaborgs bollklubb
+2	historical
+2	geography
+2	fysik
+2	en
+2	ekkeywords
+2	efterbehandling
+2	digitalt
+2	department
+2	dennis morin
+2	dc.title.subtitle
+2	dc.subject.allmant
+2	dc.relation scheme=URN
+2	dc.identifier scheme=ISBN
+2	dc.creator. personalname
+2	dc.author.name
+2	dc.author scheme=AACR2
+2	date-modified
+2	date-created
+2	dataskolan
+2	daniel
+2	dani
+2	d-fens
+2	cyrus
+2	customer
+2	creation date
+2	created_date
+2	created_by
+2	counter
+2	combivagn
+2	colltitle
+2	collsubn
+2	class
+2	clarei
+2	chesstutor
+2	channel
+2	campus
+2	branch2
+2	branch1
+2	bingo-id
+2	bert-inge
+2	attm_whitepapers
+2	attm_whatsnewlogictag
+2	attm_successstorieslogictag
+2	attm_pushlogictag
+2	attm_productlistbox
+2	attm_producteval
+2	application-category
+2	anna
+2	alpha
+2	allow-search
+2	all
+2	activity
+2	\
+2	3d
+2	200.000:-
+1	Österängskolan
+1	Åsas hemsida
+1	Årets
+1	Ämne
+1	zolo
+1	zeeke
+1	x2
+1	www7-sin
+1	wu-tang
+1	world
+1	wolfgang
+1	winis
+1	window-target
+1	willway
+1	whisky
+1	whats-new
+1	what
+1	welcome to jzon´s homepage
+1	welcom to my bassplace in cyberspace.here can you find many good caraudio links.
+1	webadmin.level
+1	webadmin.application
+1	web_doc_id
+1	web_company
+1	web_author
+1	web-design
+1	we love you!
+1	warning
+1	warbergs
+1	välkommen
+1	volume&number
+1	visit
+1	virtualserver
+1	vi
+1	vg
+1	venjan
+1	vancouver canucks frontline
+1	va fan gör du här - stick!!!
+1	utgår
+1	utbildning
+1	ur,
+1	unknown
+1	ultrahigh
+1	uddevalla
+1	tyresö
+1	två
+1	tv
+1	turism
+1	trollhättan
+1	travel
+1	translation
+1	toto
+1	topic
+1	tomas helgeroth mullsjö
+1	tolkien,datorspel,dinosaurier,html programering
+1	toc-title
+1	toc
+1	tobbe
+1	tjänster
+1	thomas erikssons homepage
+1	this
+1	the shrine
+1	the reset org.
+1	terrastock,providence,silver
+1	template-type
+1	telias fotoklubb i stockholm
+1	technical
+1	teater
+1	taize
+1	t3
+1	sökord
+1	söderman
+1	sweden,
+1	sweden
+1	sveriges
+1	svenska
+1	supermegahtmlfixer
+1	superclic
+1	sundqvist
+1	subjects
+1	subject2
+1	subect
+1	studying
+1	studiogert
+1	studio
+1	studiehandledning
+1	student
+1	stubin
+1	stora
+1	sting
+1	steve+carrigan
+1	stefan
+1	std
+1	startmotor
+1	stargazer
+1	stabby gŒrd
+1	ssu-norrbotten
+1	sq.purpose
+1	sq.layout
+1	sq.decor
+1	solo
+1	sociala
+1	smu
+1	smartifacts
+1	skurk
+1	skk
+1	sk0rg
+1	sjömanskultur
+1	simon
+1	shaft
+1	sfk
+1	section
+1	schäfer
+1	sbu
+1	sattajärvi photo safari
+1	sandra,
+1	sam´s
+1	salta
+1	saab
+1	s.mark
+1	rune
+1	rooster
+1	robert's home page
+1	riv
+1	riedh
+1	revisit
+1	revision
+1	reviews
+1	resebyrå
+1	research
+1	reply
+1	regionalt
+1	redirect
+1	redaktör
+1	reasons
+1	rdm-version
+1	rape
+1	rafael
+1	quiad
+1	quality
+1	på
+1	pyar durrani
+1	purpose
+1	pubdate
+1	promotor
+1	projekt
+1	projab
+1	programmer
+1	producers
+1	prod_num
+1	prod_name
+1	prod.av
+1	presentation
+1	prep
+1	ppe
+1	postinfo
+1	pontus
+1	polis
+1	plattformsspel
+1	pk
+1	pilot
+1	pickles
+1	photography,
+1	peter carlsson 1997
+1	peter carlsson 1996
+1	perspective design
+1	persiska
+1	per
+1	pelle
+1	peeping
+1	pc
+1	pantera student gamez download
+1	pantera
+1	palme
+1	paintball
+1	page
+1	packager
+1	ozonhålet
+1	outdoor
+1	otheragent-designer
+1	orientering;Örebro;hallsberg;svenska
+1	orientering;värend;växjö;gårdsby;lammhult
+1	organisation,
+1	org
+1	opprinnelig
+1	open
+1	olivers
+1	ola
+1	off
+1	odd
+1	o/u
+1	nyÅr
+1	nyhets-
+1	nybörjare
+1	nybro
+1	number
+1	norrehus
+1	normdelar
+1	nordkalottflyg
+1	norberg
+1	nights,
+1	nicolas
+1	nicked
+1	nhl 97
+1	nextreview
+1	newsgroups,
+1	net
+1	natur
+1	name3
+1	name2
+1	name1
+1	n.vå
+1	möbler,
+1	mätning
+1	mäklargallerian
+1	mÄtinstrument
+1	my
+1	musik
+1	music art photo film poems articles presentation christoffer wendick
+1	msa.place
+1	ms.place
+1	ms.model
+1	ms.language
+1	ms.datetagsmodified
+1	ms.datetagsapplied
+1	ms.
+1	mountainbike page
+1	mosed
+1	modellflyg
+1	miroslaw.litkowski@mbox304.swipnet.se
+1	mikael
+1	mika
+1	micki
+1	micke hanson
+1	micke
+1	menus
+1	members
+1	matte
+1	matias
+1	maskindetaljer
+1	martins
+1	mark oscarsson
+1	mark
+1	marillion
+1	maltwhisky
+1	malin
+1	magnus.bark
+1	magnus borg´s cyber-site!
+1	magnus
+1	made
+1	mad
+1	länsbibliotek
+1	länkar
+1	lucky luke, spike jones dinosaurier länkar
+1	lots of links
+1	lots
+1	lotrécs
+1	losec
+1	llewellyn
+1	live
+1	linus66
+1	links to great places
+1	link
+1	libraries
+1	lg
+1	lastreview
+1	lastmodified
+1	last-modified-yyyymmdd
+1	lasse
+1	las
+1	landsting
+1	landskrona
+1	lajv
+1	lagunda
+1	kåge
+1	kristina
+1	krati
+1	korik
+1	komvux,
+1	keywords=
+1	keywords"content="music
+1	keywords content=
+1	keywords 
+1	keywods
+1	keymords
+1	keycount
+1	kewyords
+1	kewords
+1	kerstins
+1	katrineholm
+1	kasam
+1	karkza
+1	kaijs world,
+1	juan
+1	jos
+1	jonte
+1	jonas davidsson
+1	jonas
+1	jojje
+1	jochen
+1	joakim
+1	jeremie
+1	jef
+1	janne lundström
+1	jankes
+1	jake
+1	ivar
+1	it
+1	iso
+1	ishotellet
+1	is
+1	intressen
+1	internetföretag
+1	internationaš
+1	informationsvägnät
+1	in
+1	idé
+1	ibc
+1	högskolan
+1	högskola
+1	huvud
+1	hus7
+1	http://www.users.wineasy.se/ragnar.ivarsson/index.html
+1	htmledit
+1	html
+1	htdig-keywords
+1	htdig-description
+1	how
+1	house of peson
+1	hms
+1	hmm
+1	hippocampus
+1	hesab
+1	henrik hemsida
+1	henrik aikido hemsida
+1	hemsida
+1	heller
+1	heffaklubben
+1	hedlund's
+1	heddan
+1	hans
+1	hackande
+1	haale
+1	gustav
+1	gustaf
+1	grunder
+1	group
+1	greger
+1	graphic
+1	gordon pump
+1	goblins
+1	goblin
+1	geotechnology
+1	general
+1	gaypage
+1	författare
+1	fÄlgar
+1	funktionstak
+1	function-category
+1	frubo
+1	fria noter på webben
+1	fria
+1	fredrik sandberg
+1	fredrik moraeus
+1	forsbacka
+1	folkmakt
+1	flygning
+1	flyg
+1	fiske
+1	finansrådet
+1	filemaker pro
+1	fighting
+1	festival-tv
+1	festbilder
+1	felix
+1	fc
+1	farmer, lantbruk, bšnder
+1	fabolus
+1	evenemang
+1	eva
+1	estonia,
+1	essay
+1	erotikpedagogen
+1	erika breiners hemsida
+1	environmental
+1	engelbrekt
+1	en helt seriös hemsida om simpsons,hp lovecraft,gif animationer och om mig själv!
+1	eltra
+1	elias
+1	elev
+1	elephants
+1	eld
+1	eko
+1	ekab
+1	eharea
+1	education
+1	edu.se
+1	edifact
+1	edi
+1	dÄck
+1	dynamic
+1	dun
+1	dsgenerator
+1	dread
+1	dr.
+1	download
+1	dos
+1	dog
+1	docendo läromedel, ett förlag i full frihet!
+1	docendo
+1	docdate
+1	doc_class
+1	diskription
+1	dionysos vänner
+1	digger-hints
+1	digger
+1	desription
+1	designer
+1	desctriptoins
+1	descripttion
+1	description=
+1	descripiton
+1	descripition
+1	desciptioon
+1	deje junior high school,home page
+1	deje
+1	dc.type scheme=Frei
+1	dc.title.main
+1	dc.title scheme=Vorlageform
+1	dc.subject.species
+1	dc.subject.kemi scheme=SMN
+1	dc.subject.envdata.variable
+1	dc.subject.envdata.medium
+1	dc.subject-scheme
+1	dc.subject scheme=SABS
+1	dc.subject scheme=Freitext
+1	dc.source scheme=isbn
+1	dc.source scheme=ISSN
+1	dc.source scheme=Freitext
+1	dc.rights scheme=Freitext
+1	dc.relation.type.haspart
+1	dc.relation scheme=ISSN
+1	dc.relation scheme=ISBN
+1	dc.publisher.corporatename.address
+1	dc.objecttype scheme=AACR2
+1	dc.language scheme=iso639
+1	dc.language scheme=ISO 639-1
+1	dc.format scheme=HTML
+1	dc.form scheme=imt
+1	dc.date.x-metadatalastmodified
+1	dc.date.current
+1	dc.date scheme=ISO6801
+1	dc.date scheme=ISO31 Type=Current
+1	dc.date scheme=Frei
+1	dc.date scheme=ANSI.X3.30-1985
+1	dc.date scheme=ANSI X3.30-1985
+1	dc.creator.personalname.address,2
+1	dc.creator.name.personal
+1	dc.creator.homepage.corporate
+1	dc.creator.address.2
+1	dc.creator.2
+1	dc.creator scheme=Vorlageform
+1	dc.creator scheme=AACR2
+1	dc.coverage.z
+1	dc.coverage.y
+1	dc.coverage.x
+1	dc.coverage.periodname
+1	dc.coverage scheme=Freitext
+1	dc.contributor scheme=Vorlageform
+1	dc.contributor scheme=Name
+1	dc.admin
+1	datorteket
+1	dator
+1	datepublication
+1	date.modified
+1	date-revision-dd-mmm-yy
+1	date-expires-yyyymmdd
+1	date-expiration-dd-mmm-yy
+1	date-creation-dd-mmm-yy
+1	datahjalp
+1	data-criacao
+1	data-actualizacao
+1	dansk/svensk
+1	daniels
+1	dan.frost@hhu.umu.se
+1	dalboskolans
+1	da
+1	credits
+1	creation-date
+1	created-by
+1	controlleddocuments
+1	controlled
+1	contributors
+1	contets
+1	content=
+1	contact
+1	consoul!
+1	conny
+1	connection
+1	congregation
+1	companyname
+1	code
+1	cliff
+1	civ93mja@student1.lth.se
+1	cidi
+1	christina svensson
+1	christian
+1	christershomepage
+1	christer
+1	chloe
+1	checkpoint
+1	che
+1	charade
+1	chalmers,
+1	cb radio
+1	categories
+1	catagory
+1	carl
+1	bŒkab
+1	bttp
+1	box
+1	bokbinderiet
+1	bmk
+1	bjens
+1	bidrag
+1	benpa
+1	benita
+1	bengt
+1	below
+1	beercans
+1	barnsjukdomar
+1	baltikum,
+1	babyboom
+1	aze´s
+1	azagthoth
+1	aydin
+1	autor-html
+1	author: association for temporary art
+1	author.corporate
+1	author-name
+1	autdor
+1	aurthor
+1	atuthor
+1	art of marion belin
+1	art
+1	arnar tjörvason
+1	ardath
+1	ard
+1	aq art & design!
+1	anuthor
+1	antti
+1	anna.ivarsson@lpal.slu.se
+1	animation
+1	andreas lündin
+1	amitis
+1	amigo
+1	amatörradio
+1	alternative,
+1	allow-toc
+1	allhead
+1	alf
+1	alexander
+1	alcacom
+1	alatlos
+1	agge
+1	aftonbladet
+1	african
+1	affes
+1	advertising
+1	adoptions
+1	adoption,
+1	adoption
+1	aca
+1	abf sydvästra skåne
+1	a_fart
+1	a tribute to j.r.r. tolkien
+1	\'5c
+1	HTTP-EQUIV=keywords CONTENT=java, html, karolinska, management, minutes, meeting
+1	BUILD
+1	AUTHOR
+1	.
+1	***
+1	#jr

@@ -1,0 +1,194 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+   "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" lang="sv" xml:lang="sv">
+
+<head>
+<title>Indexeringspolicy för studera.nu</title>
+
+<link rel="stylesheet" type="text/css" media="screen" href="http://www.lub.lu.se/~siglun/etb_api_and_metadata/report.css" />
+
+</head>
+
+<body>
+
+<p class="docinfo">Lund den 8 december 2000</p>
+
+<h1 class="title">Indexeringspolicy för studera.nu</h1>
+
+<p class="authors">Sigfrid Lundberg<br />
+Lunds universitets bibliotek<br />
+NetLab</p>
+
+<h2>Bakgrund</h2>
+
+<p>Det främsta syftet med studera.nu är att tillhandahålla ämnes- och
+yrkestrukturerad information om högre utbildningar i Sverige. Det
+skall alltså finnas en one-stop-shopping sajt, där all sådan
+information är sökbar. Katalogiseringen av all denna information är en
+kostsamt och arbetskrävande, som måste göras ute på varje enhet.</p>
+
+<p>Den hittillsvarande processen har inneburit att personal har
+katalogiserat lokalt, och därefter har poster på olika sätt överförts
+till en central databas [1]. Den nya processen innebär att
+överföringen av material från enskilda högskoleenheter automatiseras
+med en webbrobot [2], enligt beprövad teknik [3]. Förhoppningen är att
+detta kommer att minska kostnaderna för underhåll och inmatning, samt
+att tjänsternas avnämare skall kunna erbjudas färskare information med
+förbättrat gränssnitt.</p>
+
+<p>Av flera skäl lättar vi på vissa restriktioner i studera, och inför
+vissa nya. Utöver att indexera utbildningsinformation, kommer STUDERA
+att även indexera vad vi i brist på bättre behämning kallar
+"Kringinformation". Under detta begrepp samlar vi alla former av
+information som utan att handla om utbildningar och kurser specifikt
+är viktiga för (blivande) studenter. Denna notis dokumenterar hur vi
+med hjälp av studera.nu:s robot kommer att bygga dessa länksamlingar,
+och vad enskilda högskoleenheters webbpersonal kan göra för att bli
+indexerade på ett rättvisande sätt, och för att underlätta detta robotens
+arbete.</p>
+
+<h2>Indexering av kurs- och utbildningsinformation</h2>
+
+<h3>Regel 1. Roboten sparar bara sidor med metadata</h3>
+
+<p>Studeraroboten kommer att indexera allt som kommer i dess väg, men
+de poster den skapar kommer bara att sparas i databasen om och endast
+om de innehåller studieinformation. Studieinformation definieras i
+detta fall av att den innehåller studera.nu-metadata [4].</p>
+
+<h3>Regel 2. Roboten lyder blint robots.txt och robots-metataggar</h3>
+
+<p>Att redovisa vad man kan göra för med "robots.txt" går långt utöver
+vad vi kan täcka i detta dokument, utan vi får hänvisa till andra
+källor [5]. Men oavsett alla andra direktiv som ges till roboten,
+kommer den att lyda 'robots.txt' och robots-metataggar, och det finns
+inga möjligheter att tvinga den att göra något annat.</p>
+
+<h3>Regel 3. Roboten rör sig bara inom en tillåten URLrymd</h3>
+
+<p>Alla webb-robotar "klickar sig runt" på nätet, och kommunicerar med
+webbservrarna därute precis som samma sätt som din Netscape eller
+Explorer. Det betyder att roboten måste ha länkar till allt material
+den skall indexera, och dessa länkar hittar den genom att följa länkar
+i redan indexerade sidor.</p>
+
+<p>Roboten består av många enskilda "harvesters" som alla får sina
+jobb från en särskild jobbserver, vilken fördelar jobb till
+klienterna, de enskilda robotarna, efter förfrågan. Jobbservern håller
+en lista av webbserver att besöka i en databas. För varje webbserver
+finns en kö av URLar som väntar på indexering. Roboten försöker efter
+bästa förmåga att göra sina besök på enskilda sajter i
+round-robin-stil. Det innebär att den nästan aldrig går till samma
+server två gånger i rad.</p>
+
+<p>För att ett jobb skall accepteras av jobbservern måste URLen
+tillhöra en för roboten tillåten URLrymd. När vi sätter upp policyn
+för vår robots rörelsemönster avgränsar vi denna rymd genom en databas
+över regler. I det enklaste fallet består den matchningsmönster, är
+helt enkelt högertrunkerade URLar. Dessa är, återigen i det enklaste
+fallet av "allow" och "exclude". Det innebär att vi kan skriva för en
+viss server <kbd>www.hogskolan.se</kbd></p>
+
+<pre>
+www.hogskolan.se/utbildningar/
+</pre>
+
+<p>som gör alla skript eller statiska sidor som ligger under
+<kbd>utbildningar</kbd> till lovligt byte för roboten. Därutöver kan
+det finnas en katalog</p>
+
+<pre>
+www.hogskolan.se/utbildningar/internt_larare/
+</pre>
+
+<p>som vi kan utesluta genom en "exclude"-regel. Dessa regler kan
+användas ner på filnamnsnivå. Vi kan, t ex, göra "allow" (eller
+exclude) på ett enskilt skript,</p>
+
+<pre>
+www.hogskolan.se/utbildningar.asp
+</pre>
+
+<p>i vilket fall roboten kommer att plocka alla länkar till skriptet
+med argument i form av CGI query strings (vilka kan ge alla sidorna i
+en lokal tjänst).</p>
+
+<p>Studera-robotens URLrymd är inte kontinuerlig, och därav följer att
+varje innehållsleverantör måste ge oss upplysningar om lämpliga
+startpunkter samt direktiv om lämpliga avgränssningar. Som t ex
+följande URL</p>
+
+<pre>
+http://www.hogskolan.se/utbildningar/index.html
+</pre>
+
+<p>som startpunkt, och</p>
+
+<pre>
+www.hogskolan.se/utbildningar/
+</pre>
+
+<p>som avgränsning av verksamhetsfältet.</p>
+
+<h2>Indexering av Kringinformation</h2>
+
+<p>För att relativt enkelt kunna tillhandahålla en sökmöjlighet för
+kringinformation kommer Studera att bygga en helt robotbaserad söktjänst
+som alltså inte alls eller endast i begränsad omfattning baseras på
+metadata. Naturligtvis kan man vid ett senare stadium lägga till
+sökning i metadata. Denna typ av tjänst kan inte lätt, och bör
+förmodligen inte heller av upphovsrättsliga skäl, inkorporeras med
+studiehandboken.</p>
+
+<p>Lösningen på problemet med att få precision i sökningen i detta
+WWW-index är att vi bygger en databas med startpunkter för indexering,
+samt direktiv för att styra roboten från varje sådan startpunkt.</p>
+
+<p>
+Direktiven för startpunkterna ges av följande tabell.
+</p>
+
+<table border="1">
+<tr><th>direktiv</th><th>möjliga värden</th><th>beskrivning</th></tr>
+<tr><td rowspan="2">index</td>
+<td>document</td><td>Indexera dokumentet enbart</td></tr>
+<tr><td>site</td><td>Indexera sajten startpunkten
+finns i. Dvs om starpunkten är<br />
+<kbd>http://foo.bar.com/dir</kbd><br />
+eller<br />
+<kbd>http://foo.bar.com/dir/anything.suffix</kbd><br />
+så kommer alla dokument som passar in på wild-card<br /> 
+<kbd>http://foo.bar.com/dir/*</kbd><br />
+att indexeras.
+</td></tr>
+
+<tr><td rowspan="2">links</td><td>follow</td>
+<td>Följ alla utgåendelänkar som hittats enligt index-direktivet ovan</td></tr>
+<tr><td>nofollow</td><td>Följ inga utgående länkar</td></tr>
+</table>
+
+<p>Vid denna typ av indexering följer vi policyn att inte söka i andra
+människors databaser, dvs vi sorterar bort länkar med "query string"
+(så gör flertalet robotmasters som inte vill ha problem). </p>
+
+<h2>Referenser</h2>
+
+<p>[1] ASKEN, <a href="http://asken.hsv.se/">http://asken.hsv.se/</a>.</p>
+
+<p>[2] The Combine Harvesting Robot
+<a href="http://www.lub.lu.se/combine/">http://www.lub.lu.se/combine/</a></p>
+
+<p>[3] <a href="http://safari.hsv.se/cris.pdf">http://safari.hsv.se/cris.pdf</a></p>
+
+<p>[4] <a href="http://studera.hsv.se/internt/felt.htm">http://studera.hsv.se/internt/felt.htm</a></p>
+
+<p>[5] Jag beskriver hur sådant fungerar i
+<a href="http://nwi.lub.lu.se/web_masters_guide.html">http://nwi.lub.lu.se/web_masters_guide.html</a>,
+som också innehåller länkar till ytterligare information. (Notera att
+detta lilla arbete in uppdaterats på drygt ett och ett halvt år, och
+att mycket som sägs inte är tillämpart på studera.nu).</p>
+
+</body>
+
+</html>
+

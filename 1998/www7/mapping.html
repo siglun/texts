@@ -1,0 +1,41 @@
+
+<table align=center border=1 cellpadding=5
+
+<caption>
+
+Table 6. Transformation of diverse kinds of embedded metadata
+into Dublin Core.
+
+</caption>
+ 
+<tr><th>Dublic Core Element</th>
+    <th colspan=2>Mappings relevant with currently available metadata</th></tr>
+<tr><td valign=top rowspan=3>Creator</td><td>author</td><td>Creator</td></tr>
+<tr>        	<td>owner*</td><td>Creator</td></tr>
+<tr>        	<td>reply-to</td><td>CreatorEmail</td></tr>
+<tr><td valign=top rowspan=3>Subject</td><td>keywor*</td><td>Subject</td>
+<tr>        	<td>keys</td><td>Subject</td></tr>
+<tr>        	<td>subject</td><td>Subject</td></tr>
+<tr><td valign=top rowspan=2>Description</td><td>descrip*</td><td>Description</td></tr>
+<tr>        	<td>abstract</td><td>Description</td></tr>
+<tr><td valign=top>Resource Type</td><td>Resource-type</td><td>Type</td></tr>
+
+<tr><td valign=top>Language</td><td>content-language</td><td>Language</td></tr>
+<tr><td valign=top>IdentifierUrl</td><td>identifier-url</td><td>IdentifierUrl</td></tr>
+<tr><td valign=top rowspan=5>Dates</td><td>creation-date</td><td>DateCreation</td></tr>
+<tr>        <td>publication_date</td><td>DateCreation</td></tr>
+<tr>        <td>creation-date</td><td>DateCreation</td></tr>
+<tr>        <td>publication_date</td><td>DateCreation</td></tr>
+<tr>        <td>date-creation-yyyymmdd</td><td>DateCreation**</td></tr>
+</table>
+<table border=0>
+	<tr><td><small>*</small></td>
+		<td><small>Match till end of the name string,
+			i.e., equivalent to a `.*' regular expression</small>
+		</td></tr>
+	<tr><td><small>**</small></td>
+		<td><small>The content is transformed from the format indicated
+			to an iso format.</small>
+	</td></tr>
+</table>
+

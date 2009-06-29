@@ -1,0 +1,1132 @@
+<?xml version="1.0" encoding="ISO-8859-1" ?>
+<html>
+<head>
+<title>Technical description of the studera.Nu search engine</title>
+<meta name="RCSID"
+      content="$Id$" />
+<meta name="DC.creator" content="Lundberg, Sigfrid" />
+<meta name="DC.date" content="2001-06-11" />
+<meta name="DC.title"
+      content="Technical description of the Studera.Nu search engine" />
+
+<link rel="stylesheet"
+      type="text/css"
+      media="screen"
+      href="SCRIPTS/report.css" />
+
+</head>
+
+<body>
+<h1 class="title">Technical description of the Studera.Nu search engine<br />
+Harvesting policies, maintenance and software used</h1>
+
+<p class="author">Sigfrid Lundberg, sigfrid.lundberg@lub.lu.se<br />
+<a href="http://www.lub.lu.se/netlab/"
+   uri="http://www.lub.lu.se/netlab/"
+   title="NetLab, Lund university, is the research and development department of Lund university Library Network">NetLab,</a> Lund university, Sweden</p>
+
+<p class="abstract">The Studera.NU carries focused information,
+all of which is indexed manually by content providers.
+The indexing information is embedded into web pages using meta tags,
+and the service is built using a harvesting robot.
+<br/>This article documents the functions of the search
+engine Studera.NU, its robot, search software etc.
+It aims at providing necessary background information both for staff
+involved in system management and future developers.
+A second aim is to give pinpoint areas for future developments
+of the service.</p>
+
+<ignore>
+<table class="toc"><tr><td class="tocnum">1</td><td class="tocitem"><a href="#sect1">Introduction</a></td></tr>
+<tr><td class="tocnum">2</td><td class="tocitem"><a href="#sect2">Searching and Metadata</a></td></tr>
+<tr><td class="tocnum">2.1</td><td class="tocitem"><a href="#sect2.1">The Studera.Nu Metadata element set</a></td></tr>
+<tr><td class="tocnum">2.2</td><td class="tocitem"><a href="#sect2.2">Information retrieval standards used</a></td></tr>
+<tr><td class="tocnum">2.2.1</td><td class="tocitem"><a href="#sect2.2.1">Non-standard Z39.50 features</a></td></tr>
+<tr><td class="tocnum">2.2.2</td><td class="tocitem"><a href="#sect2.2.2">Accessing the Z39.50 server</a></td></tr>
+<tr><td class="tocnum">2.2.3</td><td class="tocitem"><a href="#sect2.2.3">Search software used</a></td></tr>
+<tr><td class="tocnum">3</td><td class="tocitem"><a href="#sect3">Harvesting</a></td></tr>
+<tr><td class="tocnum">3.1</td><td class="tocitem"><a href="#sect3.1">Harvesting Software</a></td></tr>
+<tr><td class="tocnum">3.1.1</td><td class="tocitem"><a href="#sect3.1.1">System Requirements</a></td></tr>
+<tr><td class="tocnum">3.1.2</td><td class="tocitem"><a href="#sect3.1.2">Operation overview</a></td></tr>
+<tr><td class="tocnum">3.1.2.1</td><td class="tocitem"><a href="#sect3.1.2.1">Scheduler SD</a></td></tr>
+<tr><td class="tocnum">3.1.2.2</td><td class="tocitem"><a href="#sect3.1.2.2">Robot-rule daemon</a></td></tr>
+<tr><td class="tocnum">3.1.2.3</td><td class="tocitem"><a href="#sect3.1.2.3">Receive daemon RD</a></td></tr>
+<tr><td class="tocnum">3.1.2.4</td><td class="tocitem"><a href="#sect3.1.2.4">Harvesting database proxy: IDBD</a></td></tr>
+<tr><td class="tocnum">3.1.2.5</td><td class="tocitem"><a href="#sect3.1.2.5">Main programs</a></td></tr>
+<tr><td class="tocnum">3.1.2.6</td><td class="tocitem"><a href="#sect3.1.2.6">Important utilities</a></td></tr>
+<tr><td class="tocnum">3.1.2.7</td><td class="tocitem"><a href="#sect3.1.2.7">Examples</a></td></tr>
+<tr><td class="tocnum">3.1.2.8</td><td class="tocitem"><a href="#sect3.1.2.8">Running the Robot</a></td></tr>
+<tr><td class="tocnum">3.1.2.9</td><td class="tocitem"><a href="#sect3.1.2.9">Files</a></td></tr>
+<tr><td class="tocnum">3.1.2.10</td><td class="tocitem"><a href="#sect3.1.2.10">Databases:</a></td></tr>
+<tr><td class="tocnum">3.1.2.11</td><td class="tocitem"><a href="#sect3.1.2.11">Configuration files:</a></td></tr>
+<tr><td class="tocnum">3.1.2.12</td><td class="tocitem"><a href="#sect3.1.2.12">Harvesting Database:</a></td></tr>
+<tr><td class="tocnum">3.1.2.13</td><td class="tocitem"><a href="#sect3.1.2.13">The parsers spool area: Temp for HRF files</a></td></tr>
+<tr><td class="tocnum">3.2</td><td class="tocitem"><a href="#sect3.2">Harvesting policies</a></td></tr>
+<tr><td class="tocnum">3.2.1</td><td class="tocitem"><a href="#sect3.2.1">The URL space concept in Studera.Nu</a></td></tr>
+<tr><td class="tocnum">4</td><td class="tocitem"><a href="#sect4">Maintenance practices</a></td></tr>
+<tr><td class="tocnum">5</td><td class="tocitem"><a href="#sect5">Appendix A: Current URL space</a></td></tr>
+<tr><td class="tocnum">5.1</td><td class="tocitem"><a href="#sect5.1">Starting Points</a></td></tr>
+<tr><td class="tocnum">5.2</td><td class="tocitem"><a href="#sect5.2">Allowed URL space</a></td></tr>
+<tr><td class="tocnum">5.3</td><td class="tocitem"><a href="#sect5.3">Excluded URL space</a></td></tr>
+<tr><td class="tocnum">6</td><td class="tocitem"><a href="#sect6">Appendix B: Meta tag example</a></td></tr>
+<tr><td class="tocnum">7</td><td class="tocitem"><a href="#sect7">Appendix C: Processed metadata</a></td></tr>
+<tr><td class="tocnum">8</td><td class="tocitem"><a href="#sect8">Appendix D. Scripts for scheduled activities</a></td></tr>
+<tr><td class="tocnum">8.1</td><td class="tocitem"><a href="#sect8.1">Big reload</a></td></tr>
+<tr><td class="tocnum">8.2</td><td class="tocitem"><a href="#sect8.2">Big retry</a></td></tr>
+<tr><td class="tocnum">8.3</td><td class="tocitem"><a href="#sect8.3">Reharvest</a></td></tr>
+<tr><td class="tocnum">8.4</td><td class="tocitem"><a href="#sect8.4">Reindex</a></td></tr>
+<tr><td class="tocnum">8.5</td><td class="tocitem"><a href="#sect8.5">Total reindex</a></td></tr>
+<tr><td class="tocnum">9</td><td class="tocitem"><a href="#sect9">References</a></td></tr>
+<tr><td class="tocnum">10</td><td class="tocitem"><a href="#sect10">Revision log</a></td></tr>
+</table>
+</ignore>
+
+<h2><a name="sect1">1</a> Introduction</h2>
+
+<p>The Studera.Nu service<a title="Studera.Nu " uri="http://www.studera.nu/" href="#not1">[1]</a>
+aims at providing information on higher educations in Sweden structured
+in relation to subject and profession, and search-able by other
+relevant metadata. For students it should provide one-stop-shopping
+access distributed information produced by institutions of higher
+education in the country. The search engine is owned by the The
+Swedish Council for higher education.<a title="The Swedish Council for higher education " uri="http://www.hsv.se/" href="#not2">[2]</a></p>
+
+<p>Hitherto, such information has been provided locally by
+universities and university colleges and published on the Internet
+through different means, but the same information has been made
+available with some variations in a central database. In practice, the
+costly and labour intensive cataloging of courses and educations have
+performed twice. The new system allows continuous update of the data
+at a lower maintenance cost.</p>
+
+<h2><a name="sect2">2</a> Searching and Metadata</h2>
+
+<h3><a name="sect2.1">2.1</a> The Studera.Nu Metadata element set</h3>
+
+<p>The metadata set for describing both the educational intellectual
+content and what we call events<a title="Studera.Nu Metadata Element Set " uri="http://studera.hsv.se/internt/felt.htm" href="#not3">[3]</a>
+have been defined by the Council for Higher Education,
+with some input from NetLab.</p>
+
+<p>The reason for using meta-tags, rather than some more fancy XML<a title="Extensible Markup Language " uri="http://www.w3.org/TR/1998/REC-xml-19980210" href="#not4">[4]</a>
+or RDF<a title="Resource Description Framework (RDF) Model and Syntax Specification " uri="http://www.w3.org/TR/PR-rdf-syntax/" href="#not5">[5]</a>
+is that the necessary expertise to for implementing such export systems
+where not available among the content providers at the time.</p>
+
+<p>An example metadata object is included in Appendix B,
+and the robot's interpretation of the same item in Appendix C.</p>
+
+<h3><a name="sect2.2">2.2</a> Information retrieval standards used</h3>
+
+<p>The search engine used is Studera implements the Z39.50 information
+retrieval protocol<a title="Z39.50 maintenance agency home page " uri="http://lcweb.loc.gov/z3950/agency/" href="#not6">[6]</a>
+To be more specific, it is using the GILS<a title="Application profile for the government information locator service (GILS) " uri="http://www.gils.net/prof_v2.html" href="#not7">[7]</a>
+Z39.50 profile.
+Governmental Information Locator Service (GILS) was a of president
+Clinton's Information Highway, and meant to be an inter-operable method for
+search and retrieval of Governmental Information in general,
+but it has proved general enough for use in a wide range of applications.
+Lists of example services using .
+Software which supports are available on
+the GILS web site<a title="not:gils software" uri="" href="#not8">[8]</a>.
+We have used it for years in the
+context of web indexing<a title="Anders Ardö, Allan Arvidsson, Sebastian Hammer, Kenneth Holmlund and Sigfrid Lundberg, 1998. NWI II, An Enhanced Nordic Web index: Final report " uri="http://www.nordinfo.helsinki.fi/publications/nordnytt/nnytt3-4_98/nwi_final_report.htm" href="#not9">[9]</a><a title="A. Ardö and S. Lundberg, 1998. A regional distributed WWW search and indexing service -- the DEISRE way. Computer Networks and ISDN systems 30:173-183 " uri="http://decweb.ethz.ch/WWW7/1900/com1900.htm" href="#not10">[10]</a></p>
+
+<p>The search service is compliant with the rest of the worlds view on
+what such a service should do.
+Hence it is capable of delivering search results both in the Z39.50
+internal GRS1 (Generic Record Syntax 1)
+and the record syntax used in library world, namely
+MARC<a title="Information and documentation -- Information retrieval (Z39.50) -- Application service definition and protocol specification " uri="http://www.iso.ch/iso/en/CatalogueDetailPage.CatalogueDetail?CSNUMBER=27446" href="#not11">[11]</a>
+and with BIB-1 <a title="ATTRIBUTE SET BIB-1 (Z39.50-1995): SEMANTICS " uri="ftp://ftp.loc.gov/pub/z3950/defs/bib1.txt" href="#not12">[12]</a>
+search attributes.
+In principle, it is thus possible for anyone to cross search Studera.NU,
+together with other Z39.50 services, like Libris or Safari.
+The only factor that makes this impossible is that the server is situated
+behind a fire wall.</p>
+
+<p>The two hierarchical vocabularies used are also accessed using Z39.50,
+using the Zthesaurus profile,[not:zthes}
+which is meant to give access to controlled vocabularies.
+Using this,
+it is possible for providers to incorporate vocabulary support in their
+services without themselves controlling or maintaining it.</p>
+
+<h4><a name="sect2.2.1">2.2.1</a> Non-standard Z39.50 features</h4>
+
+<p>In general we have used the semantics of the GILS profile for
+assigning tag paths and search attributes to the various metadata
+elements used. For some of them we were forced to use shoe horn. The
+metadata elements in question are:</p>
+
+<dl>
+<dt>exam</dt>
+<dd>uses GILS element <i>purpose</i>,
+with roughly the same semantics as a target audience</dd>
+
+<dt>profession</dt>
+<dd>There is nothing that can be used in the
+profile.  We have assigned it to a local tag path, and is using the
+controlled term search attribute for searching.  The only reason why
+it works, is that the controlled terms different controlled terms are
+different.
+<strong>Should have been moved to a local search attribute
+for compatibility.</strong></dd>
+
+<dt>prerequisites</dt>
+<dd>Is using access constraints elements in GILS, i.e.,
+it is not really the same semantics, but at least related.</dd>
+</dl>
+
+<p>The event field in the Studera.NU Element set has a value which is
+precoordinated string with the following formal syntax<a title="A simple Extended Backus-Naur Form (EBNF) notation " uri="http://www.w3.org/TR/1998/REC-xml-19980210#sec-notation" href="#not13">[13]</a></p>
+
+<pre>
+event ::=
+eventid';'period';'coursetype';'intensity';
+                      'location';'language';'time
+
+eventid    ::= (Letter | Digit)*
+period     ::= '20'[0-9, 0-9]'p'[1-5]
+               /* year divided into five parts*/
+               /* service breaks year 2100    */
+coursetype ::= 'bunden'|'flexibel'
+intensity  ::= 'low'|'medium'|'high'|'full'|'flexibel'
+location   ::= [0-9]+|'flexibel'
+               /* a numeric location code or */
+               /* a flexible location        */
+language   ::= 'en'|'sv'
+time       ::= (Letter | Digit | [,.#x20])*
+Letter     ::= [a-zA-Z]
+Digit      ::= [0-9]
+</pre>
+
+<p>The value is stored as GILS orderInformation.  Although the eventid
+is the application id of the course, this is again not the semantics
+that would be expected from a governmental information source.</p>
+
+<p>Queries in this field is done through regexp search.
+A default value matching all events is</p>
+
+<pre>
+period      20[0-9, 0-9]p[0-9];
+coursetype  (sommar|bunden|flexibel);
+intensity   (low|medium|high|full|flexibel);
+location    [0-9, 0-9, 0-9, 0-9]|flexibel;
+language    (sv|en)
+</pre>
+
+<p>where the components above should be combined into a single string (to long for printing on an A4 sheet:</p>
+
+<pre>period;coursetype;intensity;location;language</pre>
+
+<p>The semicolons ';' are not used by the search engine.</p>
+
+<h4><a name="sect2.2.2">2.2.2</a> Accessing the Z39.50 server</h4>
+
+<p>The necessary data for querying the server for course information is:</p>
+
+<table border="1" format="| l | l |" >
+<tr><th>Host</th><td>afrodite.hsv.se</td></tr>
+<tr><th>Port</th><td>2100</td></tr>
+<tr><th>Databases</th><td>studera (for courses and programs) and
+webindex (for other information)</td></tr>
+</table>
+
+<p>As is mentioned below, there is another (not yet published)
+database available for information other than course and program.
+Both databases are on the same server
+The webindex database is configured exactly as the studera base, but
+with much fewer fields available for searching.
+See Ardö and Lundberg (1998) for further information on the setup of a
+similar server<a title="A. Ardö and S. Lundberg, 1998. A regional distributed WWW search and indexing service -- the DEISRE way. Computer Networks and ISDN systems 30:173-183 " uri="http://decweb.ethz.ch/WWW7/1900/com1900.htm" href="#not10">[10]</a>.</p>
+
+<h4><a name="sect2.2.3">2.2.3</a> Search software used</h4>
+
+<p>The Studera.NU is using the Zebra information server<a title="Indexdata, The Zebra information server. " uri="http://www.indexdata.dk/zebra/" href="#not14">[14]</a>
+for searching.
+There are three reasons for choosing Zebra:
+(i) It is an extremely fast and reliable full text searching engine,
+with powerful handling of tagged text.
+It also supports incremental update of index files,
+a feature necessary for databases where a large fraction of the records
+are replaced or updated more or less daily.
+(ii) We have good experience of using it in combo with the robot used.
+(iii) It supports Z39.50, which gives a lot of features for free.</p>
+
+<p>Now, in the context of the Studera.NU service,
+the importance of points (i) and (ii) cannot be exaggerate,
+whereas point (iii) is of less importance.
+Indeed,
+the data-model used contains complications that are uncommon in
+bibliographic searching.
+The problems we have experienced are not really due to the access protocol per se,
+but to the fact that Zebra is a full text engine,
+and as such it has difficulties handling the events.
+This would have been easy in any relational database.
+These difficulties have been aggravated by the fact that
+there are features or bugs in the regexp search in Zebra making
+it difficult to formulate queries correctly.</p>
+
+<p>The whole suit of software used is:</p>
+
+<dl>
+
+<dt>Zebra server</dt>
+<dd>Links and references given above.
+The manual is available online.<a title="Zebra Server - Administrators's Guide and Reference " uri="http://www.indexdata.dk/zebra/zebra.php" href="#not15">[15]</a>
+There is one problem for the future.
+Zebra is open source software,
+but the current version does not support neither incremental update of indexes
+nor multiple databases.
+These are features which has been moved to a commercial version of the package
+called Z'mbol (Zebra in Swahili).
+If and when Z'mbol diverges from the Zebra package as before the split 1 January 2000,
+it might be worthwhile to acquire a commercial license.<br />
+The zebra server lives in <kbd>afrodite.hsv.se:/usr/local/studera/zebra</kbd>,
+while most of its library files is in
+<kbd>afrodite.hsv.se:/usr/local/lib/yaz/</kbd></dd>
+
+<dt>ZAP! Z39.50 gateway</dt>
+<dd>ZAP!<a title="not:ZAP" uri="" href="#not16">[16]</a>
+is an Apache module,
+i.e., it makes searching a built in feature of the web server.
+This software is used both for searching in the database and for navigating
+the profession and subject vocabularies.</dd>
+</dl>
+
+<h2><a name="sect3">3</a> Harvesting</h2>
+
+<h3><a name="sect3.1">3.1</a> Harvesting Software</h3>
+
+<p>The Studera.NU uses the Combine Harvester.<a title="The Combine Harvesting Robot " uri="http://www.lub.lu.se/combine/" href="#not17">[17]</a>
+More information on how to operate that software can be found in its User's
+Guide.<a title="Combine User's Guide " uri="http://www.lub.lu.se/combine/docs/uguide.html" href="#not18">[18]</a>
+The text presented here is an adaptation
+of the current README <a title="The Combine README " uri="http://www.lub.lu.se/combine/dist/README-v1.1.txt" href="#not19">[19]</a>
+coming with the distribution. For detailed information on the
+internals of the Combine, please refer to the technical
+guide.<a title="Yong, Tsao: Combine: A Distributed Open System Architecture for WWW Resource Harvesting and Indexing System" uri="http://www.lub.lu.se/combine/docs/uguide.html" href="#not20">[20]</a>
+Beware, though, that some parts of the
+Tech Guide is obsolete.</p>
+
+<h4><a name="sect3.1.1">3.1.1</a> System Requirements</h4>
+
+<ol>
+<li>The Combine should run on just about any UNIX or clone. It is
+tested on Linux version 1.2 (or higher), or Solaris 2.5 (or higher)</li>
+<li>Perl version 5.003 (or higher) with MD5 and libwww packages</li>
+<li>To compile combine yourself, you will also need Barkley DB version
+2.x as well as g++. Please note that the Berkeley DB 3.x contains
+changes to the API and will unfortunately not work.</li>
+</ol>
+
+<p>The installation is already available. Upgrades can be obtained
+from the Combine web site, and will contain any information needed for
+installing the package and Makefiles for building the distribution.</p>
+
+<p>The Studera.NU is using two harvester installations, one for
+metadata and course information, the data used in the current service,
+and another one for supplementary information which may be interesting
+for students (housing, financing, restaurants, whatever). The latter
+is currently not used in the public service.</p>
+
+<p>The two installations live in:</p>
+
+<pre>
+afrodite.hsv.se:/usr/local/studera_combine/studieinfo
+afrodite.hsv.se:/usr/local/studera_combine/kringinfo
+</pre>
+
+<p>respectively</p>
+
+<h4><a name="sect3.1.2">3.1.2</a> Operation overview</h4>
+
+<p>It is recommended to read at least the <em>Overview</em> section in
+the user guide <a title="Combine User's Guide " uri="http://www.lub.lu.se/combine/docs/uguide.html" href="#not18">[18]</a>
+before continuing reading this document.</p>
+
+<h5><a name="sect3.1.2.1">3.1.2.1</a> Scheduler SD</h5>
+
+<p>The scheduler holds a list of JCFs. A JCF is a URL combined with
+information about where to send the harvested page and whether this
+page has been harvested before and if so when, and when it was last
+modified etc. The scheduler also ensures that a single server is not
+queried more than once a minute, and that the same page is not fetched
+more than once a month. To load new URLs into the scheduler they must
+be converted into JCFs, this is done by <kbd>bin/jcf-builder.pl</kbd>.
+The scheduler uses two database-files <kbd>db/recycle.db</kbd> and
+<kbd>db/guard.db</kbd>.</p>
+
+<h5><a name="sect3.1.2.2">3.1.2.2</a> Robot-rule daemon</h5>
+
+<p>The <kbd>rrd</kbd> holds the parsed robots.txt files from each
+server. The harvester program checks each URL against this database
+before fetching a page.  Rrd uses one database file,
+<kbd>db/rrd.db</kbd></p>.
+
+<h5><a name="sect3.1.2.3">3.1.2.3</a> Receive daemon RD</h5>
+
+<p>The RD just receives pages from the harvesters and stores them in
+the <kbd>hrf/</kbd> directory, where they will be picked up by the
+parsers.</p>
+
+<h5><a name="sect3.1.2.4">3.1.2.4</a> Harvesting database proxy: IDBD</h5>
+
+<p>The IDBD manages a database that holds information for every URL in
+the harvester database. Since the files in the harvester database are
+stored according to the MD5 check sum, the IDBD also contains a mapping
+from URL to MD5. The IDBD is also a much faster way to for instance
+find all URLs in the harvest database, instead of having to traverse
+the entire file-hierarchy of the harvest database.</p>
+
+<h5><a name="sect3.1.2.5">3.1.2.5</a> Main programs</h5>
+
+<dl>
+<dt>harvester.pl</dt>
+<dd>The harvester gets a JCF from the scheduler, checks it with the
+rrd and then fetches the page. The result is sent to RD.</dd>
+
+<dt>parser.pl</dt>
+<dd>The parser picks up a file in the hrf/
+directory, parses it and extract links etc. It then updates the IDBD
+and the harvest database (hdb/)</dd>
+</dl>
+
+<h5><a name="sect3.1.2.6">3.1.2.6</a> Important utilities</h5>
+
+<dl>
+<dt>bin/sd-ctrl.pl</dt>
+<dd>is used to start, stop and check the content of the scheduler, as
+well as changing the scheduling algorithm</dd>
+
+<dt>bin/sd-load.pl</dt><dd>loads JCFs into the scheduler</dd>
+<dt>bin/jcf-builder.pl</dt><dd>creates JCFs from URLs</dd>
+
+<dt>bin/new-url.pl</dt>
+<dd>takes all new URLs found by the parsers (since you last ran
+new-url.pl) and prints them to stdout as well as to
+log/url."timestamp".new</dd>
+
+<dt>bin/selurl.pl</dt>
+<dd>filters a list of URLs according to the rules in etc/config_allow
+and etc/config_exclude. This program implements the Studera.NU
+harvesting policies. See below.</dd>
+
+<dt>bin/idb2hrs.pl</dt>
+<dd>dumps the IDBD into hrs/idb.hrs. This file can then be used to
+reload all URLs into the scheduler among other things.</dd>
+
+<dt>bin/list-hdb.pl</dt>
+<dd>The same as the previous, except that this uses the
+harvest-database file hierarchy to produce the file hrs/hdb.hrs. This
+takes a long time unless the database is small.</dd>
+
+<dt>bin/hrs2jcf.pl</dt><dd>creates JCFs from a hrs-file created by
+either one of the two programs above.</dd>
+</dl>
+
+<h5><a name="sect3.1.2.7">3.1.2.7</a> Examples</h5>
+
+<p>Please find below the commands needed for making various operations
+on the database. Below you will find the actual scripts where such
+commands are put together for running the Studera.NU harvesting
+service.</p>
+
+<p>To take the new URLs found by the parsers and load
+them into the scheduler:</p>
+
+<pre>
+bin/new-url.pl | bin/jcf-builder.pl | bin/sd-load.pl
+</pre>
+
+<p>If you want to filter using selurl.pl:</p>
+
+<pre>
+bin/new-url.pl | bin/selurl.pl | bin/jcf-builder.pl | bin/sd-load.pl
+</pre>
+
+<p>Obviously, in the Studera.NU harvesting service these are run
+automatically using the <kbd>cron</kbd> daemon.</p>
+
+<h5><a name="sect3.1.2.8">3.1.2.8</a> Running the Robot</h5>
+
+<p>The CABIN and the HDB below are two classes of functions in the
+robot. The former refer to the operation of the harvesters, the
+handling of the robot rules, the harvesting policies etc and the
+latter the all the functions associated with the harvesting
+database.</p>
+
+<p>CABIN and HDB also refers to the locations of these functions on
+the disk of your computer. In Studera.NU are functions are performed
+by a single machine, but in larger installations they may be
+distributed across several machines. In Studera.NU these two
+directories are the same.</p>
+
+<dl>
+<dt>Start CABIN:</dt>
+<dd>Go into CABIN directory and run "bin/start-cabin"
+This script starts three daemons (scheduler, robot-rule, 
+and tellogd).</dd>
+
+<dt>Start HDB:</dt>
+<dd>Go into HDB directory and run "bin/start-hdb"
+This script starts 2 parsers and two daemons (idbd and rd). 
+(you may run any number of parsers)</dd>
+
+<dt>Start HARVESTER:</dt>
+<dd>Go into HARVESTER directory and run <kbd>bin/start-harvester</kbd>
+This script starts a number of harvesters with their names.
+You may start as many <kbd>harvester.pl</kbd> as you want.</dd>
+
+<dt>Start SD:</dt>
+<dd>
+Since SD is closed at starting time, you must open it before loading.
+Run <kbd>bin/sd-ctrl.pl open</kbd></dd>
+
+<dt>Loading a list of URLs into SD</dt>
+<dd><kbd>cat url.lst | bin/jcf-builder.pl | bin/sd-load.pl</kbd></dd>
+
+<dt>Stop the robot:</dt>
+<dd><kbd>bin/sd-ctrl.pl close</kbd>
+This will stop any further harvesting until you re-open the scheduler.</dd>
+
+<dt>Pausing the system:</dt>
+<dd><kbd>bin/sd-ctrl.pl</kbd> pause will prevent harvesters from getting
+any further JCFs from the scheduler, this has the same effect
+as sd-ctrl.pl close, except that the scheduler is still available 
+for loading new JCFs or querying the content.</dd>
+
+<dt>Kill all:</dt>
+<dd>Run "bin/stop-all". Use this before you shutdown your computer,
+to make sure that the database-files are consistent.</dd>
+</dl>
+
+<h5><a name="sect3.1.2.9">3.1.2.9</a> Files</h5>
+
+<dl>
+<dt>New URLs:</dt>
+<dd>New URLs extracted from HTML pages by parsers are 
+logged in a number of log files called <kbd>log/NEW-URL#n.log</kbd>
+where <kbd>n</kbd> is the name you used when starting the parser.</dd>
+
+<dt>Tellog files:</dt>
+<dd>You can find various log files in <kbd>tellog/</kbd> directory.
+The level of logging is controlled by the environment variable
+COMBINE_LOGLEV. If it's set to 0 (or not set at all) the only
+thing logged are HTTP response-codes that combine doesn't know
+how to handle, and URLs that are unavailable at the moment
+(<kbd>tellog/UNAVAILABLE.tellog</kbd>).
+Look at the code in parser.pl and harvester.pl to see what
+different log levels do.
+Any JCFs discarded because of too many failed attempts will be
+logged in <kbd>tellog/AUTO_DELETED.tellog</kbd>.</dd>
+</dl>
+
+
+<h5><a name="sect3.1.2.10">3.1.2.10</a> Databases:</h5>
+
+<p>There are two directories for databases: "CABIN/db" and "HDB/db". On
+Studera.NU they can be found in the same directory:</p>
+
+<pre>
+afrodite.hsv.se:/usr/local/studera_combine/studieinfo
+</pre>
+
+<h5><a name="sect3.1.2.11">3.1.2.11</a> Configuration files:</h5>
+
+<p>The main setup file is <kbd>etc/combine.conf</kbd>. The current
+configuration can be obtained from the robot itself by running
+<kbd>bin/echo-config.pl</kbd></p>
+
+<p>There are also a few other config-files in etc
+config_parsable : the mime-types the parser can handle
+( you normally shouldn't change this )
+config_binext : the extensions that will make the harvester do
+a HEAD request to get the mime-type before it 
+does a GET ( if the mime-type is in config_parsable )
+Add or remove extensions here as you wish.
+config_allow &amp; config_dissalow:
+These are control-files for the selurl.pl utility,
+which is a filter to select the URLs to feed into
+the scheduler. NOTE : the rules in this file are
+Perl regular expressions, so remember to escape
+characters like ".".</p>
+
+
+<h5><a name="sect3.1.2.12">3.1.2.12</a> Harvesting Database:</h5>
+
+<p>The root of the tree of the harvesting database is <kbd>hdb</kbd>
+This directory hierarchy contains all the harvested records,
+one in each file. The files are named after the MD5 check sum of
+the corresponding web-page.</p>
+
+<h5><a name="sect3.1.2.13">3.1.2.13</a> The parsers spool area: Temp for HRF files</h5>
+
+<p>The pages fetched by the harvester are sent to the RD daemon that
+simply puts them into the HRF files are put in <kbd>hrf</kbd>
+directory and will be taken by parsers.</p>
+
+<h3><a name="sect3.2">3.2</a> Harvesting policies</h3>
+
+<p>In order to ensure search precision, we have to ensure that the
+Studera.Nu robot is indexing material about courses and educations,
+and only that. For that purpose, the robot should be able to identify
+relevant resources. In addition it should be easy for information
+providers to publish such materials. Both requirements are ensured by
+implementing the following rules:</p>
+
+<dl>
+<dt>Rule 1. The robot indexes all pages encountered, but stores
+records only for those containing appropriate metadata.</dt>
+<dd>This simplifies the maintenance the pages to be indexed, since the
+robot will therefore navigate the resources the same way as ordinary
+users. There is no need for supplying lists of URLs to indexed.</dd>
+
+<dt>Rule 2. Robot obeys the <kbd>robots.txt</kbd> standard.</dt>
+<dd>A thorough treatment of the robots exclusion standard<a title="A Standard for Robot Exclusion. " uri="http://www.robotstxt.org/wc/norobots.html" href="#not21">[21]</a>
+and what it is good for<a title="   The Noble Art of Being Indexed or the Webmaster's Guide to Harvesting Robots " uri="http://nwi.lub.lu.se/web_masters_guide.html" href="#not22">[22]</a>
+is beyond the the scope of this article.
+The <kbd>robots.txt</kbd> equips web masters and information
+architects with a powerful tool managing how their resources should be
+presented by search engines.</dd>
+
+<dt>Rule 3. The Studera.Nu robot is only spidering a predefined URL
+space.</dt><dd>Like any other harvesting bot, the Studera.Nu robot is
+&quot;surfing by clicking&quot;, and it communicates with web servers
+in exactly the same way as does your browser.  The robot must know
+where to get things, and it does so by extracting links from retrieved
+web pages, but when clicking away, it first checks that the links
+are inside the URL space.</dd>
+</dl>
+
+<h4><a name="sect3.2.1">3.2.1</a> The URL space concept in Studera.Nu</h4>
+
+<p>The permissible URL range is defined by two lists of URL patterns,
+given as Perl regular expressions.<a title="perlre - Perl regular expressions " uri="http://www.perl.com/pub/doc/manual/html/pod/perlre.html" href="#not23">[23]</a>
+These two lists are<a title="Combine User's Guide " uri="http://www.lub.lu.se/combine/docs/uguide.html" href="#not18">[18]</a></p>
+
+<dl>
+<dt><kbd>config_allow</kbd></dt>
+<dd>URL patterns that form the permissible base</dd>
+<dt><kbd>config_exclude</kbd></dt>
+<dd>URL ranges which are to be excluded, in spite of the fact that
+they are situated inside the URL range defined by the
+<kbd>config_allow</kbd> list.</dd>
+</dl>
+
+<p>Compare Fig. 1.</p>
+
+<p>The simplest case is the matching of right truncation of URLs.
+Thus we can &quot;allow&quot; and &quot;exclude&quot; directories 
+on the server <kbd>www.hogskolan.se</kbd> by</p>
+
+<pre>
+www.hogskolan.se/utbildningar/
+</pre>
+
+<p>This makes all web pages or scripts residing below
+<kbd>utbildningar/</kbd> accessible for the robot. There might be a
+further directory:</p>
+
+<pre>
+www.hogskolan.se/utbildningar/internt_larare/
+</pre>
+
+<p>which may be excluded from harvesting by a
+&quot;exclude&quot;-rule.  These rules may be used on any level, and
+may include individual file names or scripts. For example we may
+&quot;allow&quot; (or &quot;exclude&quot;) all material  from the script:</p>
+
+<pre>
+www.hogskolan.se/utbildningar.asp
+</pre>
+
+<p>if putting this in the appropriate list. If this script is allowed,
+then all URLs containing it will be allowed. For instance:</p>
+
+<pre>
+www.hogskolan.se/utbildningar.asp?nasty=rubbish
+</pre>
+
+<p>Would be harvested</p>
+
+<p align="center"><img src="exclude_include.png" alt="URL space
+concept in Studera.Nu" /><br /><small>Fig. 1. The total URL space,
+with the permissible space as a sub-set.  The set of excluded URLs is
+a &quot;hole&quot; in the permissible URL space.</small></p>
+
+<p>Studera.NU robot' URL space is not continuous, neither do there
+exist links to all material. As a consequence, content providers must
+supply Studera.NU with a single or a couple starting points from which
+all material is reachable by following links.</p>
+
+<p>Typical setup is start at URL</p>
+
+<pre>
+http://www.hogskolan.se/utbildningar/index.html
+</pre>
+
+<p>and follow all links subject to the constraint that they should
+live within:</p>
+
+<pre>
+www.hogskolan.se/utbildningar/
+</pre>
+
+<h2><a name="sect4">4</a> Maintenance practices</h2>
+
+<p>Hardly any manual work, other than monitoring, is done in the
+service. As regards the harvesting database,
+it is currently built and maintaned using the following scheduled activities:</p>
+
+<table border="1" format="| l | l |">
+<tr><th>Activity</th><th>Schedule (see crontab manual page for notation)</th></tr>
+<tr><td>Reindex -- Incremental update of search engine index files. Done twice an hour, except during night.</td><td><kbd>10,40 0-4,6-23 * * *</kbd></td></tr>
+<tr><td>Total reindex -- All indexfiles are removed, and new fresh indices are created. Done early mornings.</td><td><kbd>10 5 * * *</kbd></td></tr>
+<tr><td>Reharvest -- Recirculate URLs found during the last half hour. Twice an hour.</td><td><kbd>50,20 0-4,6-23 * * *</kbd></td></tr>
+<tr><td>Big reload -- The robot revisits all pages every second day.</td><td><kbd>10 0 * * 1,3,5</kbd></td></tr>
+<tr><td>Big retry -- Robot revisits all starting points and all URLs extracted during the last fortnight, that have not been included in the harvesting database.</td><td><kbd>10 0 * * 0,2,4,6</kbd></td></tr>
+</table>
+
+<p>The scripts performing the jobs are collected in the directory
+<kbd>afrodite.hsv.se:/usr/local/studera_combine/studieinfo/cron/</kbd>.
+The current ones are included in Appendix D.</p>
+
+<h2><a name="sect5">5</a> Appendix A: Current URL space</h2>
+
+<h3><a name="sect5.1">5.1</a> Starting Points</h3>
+
+<pre>
+http://citefm.hh.se/studeranu/robotstart.htm
+http://info.ki.se/education/
+http://lukas.lu.se:8088/studeranuindex.htx
+http://mars.hhj.hj.se/kat/utbildningar.asp
+http://slukurs.slu.se/studeranu/index.asp
+http://ugglan.adm.luth.se/
+http://utbdata.hkr.se/studeranu/robotstart.htm
+http://utbdb.sh.se/utbkat/Utbildningar.asp
+http://utbildning.mah.se/studeranu/robotstart.htm
+http://utbkat.gu.se/utbildning/amnesindex.html
+http://utbkat.gu.se/utbildning/kursindex.html
+http://www.bth.se/utb.nsf/sidor
+http://www.chalmers.se/HyperText/utbildningsbeskr.html
+http://www.chalmers.se/hypertext/utbildningsbeskr.html
+http://www.danshogskolan.se/
+http://www.draminst.se/di/utb/
+http://www.gammelkroppa.pp.se/
+http://www.hb.se/studera/
+http://www.hik.se/utbildning/kurser/lista.phtml
+http://www.hik.se/utbildning/program/lista.phtml
+http://www.his.se/his/utbildning/welcome.html
+http://www.ihs.se/utb_avd_juni/utbildning/utbildningindex.htm
+http://www.ihs.se/utb_avd_juni/utbildning/vautbrubriker.htm
+http://www.imh.se/utb_index.html
+http://www.info.umu.se/utbkat/
+http://www.johannelund.nu/prog/
+http://www.kau.se/grundutbildning/studerastart.lasso
+http://www.kkh.se/1pre/
+http://www.kkh.se/2utb/
+http://www.kmh.se/utbildning/program/
+http://www.konstfack.se/studeranu/
+http://www.kth.se/utbildning/program/
+http://www.lhs.se/utbildning/
+http://www.mdh.se/servlet/se.mdh.studieinformation.StuderaNu?termin=20012&amp;termin=20021
+http://www.oru.se/utb/katalog/
+http://www.redcross.se/nursing/meny.htm
+http://www.smi.se/
+http://www.sophiahemmet.ki.se/
+http://www.teaterhogskolan.se/program/index.html
+http://www.ua.adm.gu.se/kurser/
+http://www.utbildning.su.se/Katalog/
+http://www.uu.se/utbildning/
+http://www.vxu.se/utb/
+http://www2.du.se/blg/utbildning/studeranu.asp
+http://www2.hgo.se/kurskatalogen.nsf/sok
+http://www2.hj.se/hlk/studera/lista.asp
+http://www2.hj.se/hlk/studera/lista.asp
+http://www2.hj.se/ing/studera/lista.asp
+http://www2.ihh.hj.se/utbildn/lista.asp
+http://www.orebromissionsskola.com/sidor/studera/
+</pre>
+
+<h3><a name="sect5.2">5.2</a> Allowed URL space</h3>
+
+<pre>
+www.liu.se\/utbildning\/kursdata\/
+info.ki.se\/education\/
+mars.hhj.hj.se\/kat
+slukurs.slu.se
+utbildning.mah.se\/studeranu
+www.mah.se\/utbildning.html
+www.chalmers.se\/[Hh]yper[Tt]ext\/[Uu]tbildningsbeskr
+www.danshogskolan.se
+www.draminst.se\/di\/utb\/
+www.draminst.se\/di\/framendx.htm
+www.du.se\/utb-databas
+www2.du.se\/utbildning\/
+www2.du.se\/blg\/utbildning\/
+www.gammelkroppa.pp.se
+www.hb.se\/studera
+www.hhs.se\/studeranu
+www.hh.se\/utbildning
+utbdata.hkr.se\/studeranu
+citefm.hh.se\/studeranu\/
+overlord.hig.se\/Webkat\/
+hik.se\/utbild
+www.his.se\/his\/utbildning\/
+www2.adm.htu.se\/utbildningar\/
+www.bth.se\/utb\/kurser[vh]t\d\d\d\d.nsf\/webb\/
+www.bth.se\/utb.nsf\/sidor
+www.imh.se
+www.info.umu.se\/utbkat
+www.johannelund.nu\/prog
+www.kkh.se\/2utb
+www.kkh.se\/1pre
+www.konstfack.se\/studeranu
+www.kth.se\/utbildning\/program
+www.kau.se\/grundutbildning\/
+www.lhs.se\/utbildning
+lukas.lu.se:8088\/
+www.mdh.se\/servlet\/se\.mdh\.studieinformation\.StuderaNu
+www.mdh.se\/servlet\/VisaTillfalle
+www.mdh.se\/utbildning
+www.mh.se\/utbildning\/utbkat\/robotstart
+www.mh.se\/utbildning\/UtbKat\/Kurs.asp
+www.mh.se\/utbildning\/UtbKat\/Program.asp
+www.orebromissionsskola.com\/sidor\/studera
+www.oru.se\/utb\/katalog\/
+www.orebromissionsskola.com\/sidor\/studera
+www.redcross.se\/nursing
+utbdb.sh.se\/utbkat
+www.ihs.se\/utb_avd_juni\/utbildning
+www.smi.se
+www.sophiahemmet.ki.se
+www.ths.se\/
+www.utbildning.su.se\/[Kk]atalog
+www.uu.se\/[Uu]tbildning
+utbdatabas.uu.se\/katalog
+www2.ihh.hj.se\/utbildn\/
+www2.hj.se\/ing\/studera\/
+www2.hj.se\/hlk\/studera\/
+www2.hgo.se\/kurskatalogen.nsf\/sok
+www2.hgo.se\/kurskatalogen.nsf\/6916574c202e4267c125669e00539fbe
+ugglan.adm.luth.se
+www.ua.adm.gu.se\/kurser
+utbkat.gu.se\/utbildning
+www.vxu.se\/utb
+www.esh.sssd.se\/utbildning
+www.teaterhogskolan.se\/program
+www.kmh.se\/utbildning\/program
+</pre>
+
+<h3><a name="sect5.3">5.3</a> Excluded URL space</h3>
+
+<pre>
+OpenView
+CollapseView
+SearchView
+ExpandView
+ExpandSection
+www2.du.se[^&amp;]*&amp;language=
+mode=skrivare
+utbdb.sh.se\/utbkat\/Kurs.asp
+slukurs.slu.se\/Kurs.asp?Anmkod
+slukurs.slu.se\/Kurs.asp[^&amp;]&amp;200\d-\d\d-\d\d
+info.ki.se\/education\/curricula
+info.ki.se\/education\/researchtraining
+info.ki.se\/education\/studentservices
+</pre>
+
+<h2><a name="sect6">6</a> Appendix B: Meta tag example</h2>
+
+<pre>
+&lt;meta name="DC.Identifier"
+         scheme="URL"
+         content="http://www.mh.se/utbildning/UtbKat/Kurs.asp?kurskod=MAAA45"/&gt;
+&lt;meta name="DC.Title"
+         content="MATEMATIK A, 5 p, Geometri och statistik" /&gt;
+
+&lt;meta name="DC.Subject"
+	 scheme="STUDERA"
+	 content="400.600" /&gt;
+
+&lt;meta name="DC.Publisher"
+	 scheme="STUDERA"
+	 content="mh" /&gt;
+
+&lt;meta name="STUDERA.identifier"
+	 content="mh-MAAA45" /&gt;
+
+&lt;meta name="STUDERA.type"
+	 content="Grundkurs" /&gt;
+
+&lt;meta name="STUDERA.prerequisites"
+	 content="standard" /&gt;
+
+&lt;meta name="STUDERA.event"
+	 content="mh-70211;2001p4;flexibel;full;2280;sv;dag;" /&gt;
+
+&lt;meta name="STUDERA.event"
+	 content="mh-70204;2002p1;bunden;full;2280;sv;dag;" /&gt;
+
+&lt;meta name="STUDERA.event"
+	 content="mh-70206;2002p1;flexibel;full;2280;sv;dag;" /&gt;
+</pre>
+
+<h2><a name="sect7">7</a> Appendix C: Processed metadata</h2>
+
+<pre>
+&lt;wir&gt;
+&lt;robot&gt;
+JCF/0.0 URL="http://www.mh.se/utbildning/UtbKat/Kurs.asp?kurskod=MAAA45" ..
+&lt;/robot&gt;
+&lt;rec-id&gt;5250DD58EDC102D82D8322E37B83F9E9&lt;/rec-id&gt;
+&lt;orig-rec-id&gt;mh-MAAA45&lt;/orig-rec-id&gt;
+&lt;rec-checked&gt;Sun, 23 Sep 2001 22:13:23 GMT&lt;/rec-checked&gt;
+&lt;controlled-terms&gt;
+   &lt;cterm&gt;400.600&lt;/cterm&gt;
+&lt;/controlled-terms&gt;
+&lt;availability&gt;
+  &lt;available&gt;
+    &lt;linkage&gt;
+http://www.mh.se/utbildning/UtbKat/Kurs.asp?kurskod=MAAA45&lt;/linkage&gt;
+    &lt;format&gt;text/html; Charset=ISO-8859-1&lt;/format&gt;
+  &lt;/available&gt;
+   &lt;publisher&gt;mh&lt;/publisher&gt;
+   &lt;schedule&gt;
+       &lt;event&gt;mh-70211;2001p4;flexibel;full;2280;sv;dag&lt;/event&gt;
+       &lt;event&gt;mh-70204;2002p1;bunden;full;2280;sv;dag&lt;/event&gt;
+       &lt;event&gt;mh-70206;2002p1;flexibel;full;2280;sv;dag&lt;/event&gt;
+   &lt;/schedule&gt;
+   &lt;medium&gt;Grundkurs&lt;/medium&gt;
+&lt;/availability&gt;
+&lt;title&gt;MATEMATIK A, 5 p, Geometri och statistik&lt;/title&gt;
+&lt;access&gt;
+   &lt;constraint&gt;standard&lt;/constraint&gt;
+&lt;/access&gt;
+&lt;inf&gt;
+    &lt;nh&gt;2&lt;/nh&gt;
+    &lt;nl&gt;10&lt;/nl&gt;
+&lt;/inf&gt;
+&lt;relation&gt;
+  &lt;phrase&gt;Mitthögskolan&lt;/phrase&gt;
+  &lt;uri&gt;http://www.mh.se/&lt;/uri&gt;
+  &lt;type&gt;anchor&lt;/type&gt;
+&lt;/relation&gt;
+&lt;relation&gt;
+  &lt;phrase&gt;Mitthögskolan&lt;/phrase&gt;
+  &lt;uri&gt;http://www.mh.se/utbildning/UtbKat/distans.asp&lt;/uri&gt;
+  &lt;type&gt;anchor&lt;/type&gt;
+&lt;/relation&gt;
+&lt;relation&gt;
+  &lt;phrase&gt;Förklaring finns här.&lt;/phrase&gt;
+  &lt;uri&gt;
+http://www.mh.se/utbildning/anmalningsguide/standardbehorighet.asp#G.4
+&lt;/uri&gt;
+  &lt;type&gt;anchor&lt;/type&gt;
+&lt;/relation&gt;
+&lt;relation&gt;
+  &lt;phrase&gt; Urvalsregler &lt;/phrase&gt;
+  &lt;uri&gt;
+http://www.mh.se/utbildning/anmalningsguide/urval_kurser.asp
+&lt;/uri&gt;
+  &lt;type&gt;anchor&lt;/type&gt;
+&lt;/relation&gt;
+&lt;relation&gt;
+  &lt;phrase&gt;www.tnv.mh.se/mfs&lt;/phrase&gt;
+  &lt;uri&gt;http://www.tnv.mh.se/mfs&lt;/uri&gt;
+  &lt;type&gt;anchor&lt;/type&gt;
+&lt;/relation&gt;
+&lt;relation&gt;
+  &lt;phrase&gt;MATEMATIK&lt;/phrase&gt;
+  &lt;uri&gt;
+http://www.mh.se/utbildning/UtbKat/Amne.asp?amne=MATEMATIK
+&lt;/uri&gt;
+  &lt;type&gt;anchor&lt;/type&gt;
+&lt;/relation&gt;
+&lt;relation&gt;
+  &lt;phrase&gt;Proffe Eva&lt;/phrase&gt;
+  &lt;uri&gt;
+http://www.mh.se/utbildning/UtbKat/Kontaktpers.asp?KontaktID=719
+&lt;/uri&gt;
+  &lt;type&gt;anchor&lt;/type&gt;
+&lt;/relation&gt;
+&lt;relation&gt;
+  &lt;phrase&gt;Utbildningar 2001/2002&lt;/phrase&gt;
+  &lt;uri&gt;http://www.mh.se/utbildning/Utbkat/Utbildningar.asp&lt;/uri&gt;
+  &lt;type&gt;anchor&lt;/type&gt;
+&lt;/relation&gt;
+&lt;relation&gt;
+  &lt;phrase&gt;Mitthögskolan&lt;/phrase&gt;
+  &lt;uri&gt;http://www.mh.se/&lt;/uri&gt;
+  &lt;type&gt;anchor&lt;/type&gt;
+&lt;/relation&gt;
+&lt;relation&gt;
+  &lt;phrase&gt;anna.ossung@mh.se&lt;/phrase&gt;
+  &lt;uri&gt;mailto:anna.ossung@mh.se&lt;/uri&gt;
+  &lt;type&gt;anchor&lt;/type&gt;
+&lt;/relation&gt;
+&lt;sample&gt;
+   &lt;heading&gt;Utbildningar 2001/2002&lt;/heading&gt;
+   &lt;heading&gt;MATEMATIK A, 5 p, Geometri och statistik&lt;/heading&gt;
+   &lt;text&gt;
+Mitthögskolan Om utbildningswebben Innehåll Program och kurser Nya
+kurser,Ändringar Distansutbildning Sommarkurser Kväll- och
+Deltidskurser Utlandsstudier Studievägledning Funktionshinder
+Högskoleprov Antagning Examen Ladok Institutioner Sök utbildningar
+Kursen vänder sig till lärare eller blivande lärare, som vill
+lära sig mer om geometri och statistik. I geometridelen av kursen
+ingår plangeometri, rymdgeometri och Icke-Euklidisk geometri, i
+statistikdelen ingår både statistik och sannolikhetslära. Kursen har
+en tydlig didaktisk inriktning med många övningar och laborationer. I
+båda momenten ingår datorövningar. Sammankomster för distanskurs:
+Tillgång till dator med Internetanslutning krävs. Förkunskaper:
+Standardbehörighet G.4 ( Förklaring finns här. ) Urvalsregler Övrigt
+Tidigare högskolestudier krävs inte. Utbildningsnivå: 1 - 20
+poäng. Mer information Om kursen: www.tnv.mh.se/mfs Om MATEMATIK
+Kontakta: Proffe Eva Anm kod Termin Kurstid Kursort Studiesätt 70211
+ht 01 45-49 Härnösand Heltid på dagtid, distans. 70206 vt 02 4-8
+Härnösand Heltid på dagtid, distans. 70204 vt 02 8-12 Härnösand
+Heltid på dagtid. Utbildningar 2001/2002     Mitthögskolan
+Ansvarig: anna.ossung@mh.se
+   &lt;/text&gt;
+&lt;/sample&gt;
+
+[... some internal robot rubbish deleted ...]
+
+&lt;server&gt;Microsoft-IIS/5.0&lt;/server&gt;
+
+&lt;/wir&gt;
+</pre>
+
+<h2><a name="sect8">8</a> Appendix D. Scripts for scheduled activities</h2>
+
+<h3><a name="sect8.1">8.1</a> Big reload</h3>
+
+<pre>
+#! /usr/local/bin/bash
+
+PATH=.:/bin:/usr/bin:/usr/local/bin
+export PATH;
+cd /usr/local/studera_combine/studieinfo
+bin/export-netto.pl
+bin/sd-ctrl.pl pause
+bin/selurl.pl hrs/idb.hrs | bin/jcf-builder.pl | bin/sd-load-force.pl
+bin/sd-ctrl.pl open
+cd /usr/local/studera_combine/studieinfo/log
+clean.pl
+</pre>
+
+<h3><a name="sect8.2">8.2</a> Big retry</h3>
+
+<pre>
+#! /usr/local/bin/bash
+
+PATH=.:/bin:/usr/bin:/usr/local/bin
+export PATH;
+cd /usr/local/studera_combine/studieinfo
+bin/export-netto.pl
+bin/sd-ctrl.pl pause
+cat log/url.* | sort -u | bin/selurl.pl | bin/url2jcf.pl | bin/sd-load-force.pl
+bin/sd-ctrl.pl open
+cd /usr/local/studera_combine/studieinfo/log
+clean.pl
+</pre>
+
+<h3><a name="sect8.3">8.3</a> Reharvest</h3>
+
+<pre>
+#! /usr/local/bin/bash
+ 
+PATH=.:/bin:/usr/bin:/usr/local/bin
+export PATH;
+ 
+cd /usr/local/studera_combine/studieinfo
+bin/idb2hrs.pl
+bin/sd-ctrl.pl pause
+bin/new-url.pl | bin/selurl.pl | bin/url2jcf.pl | bin/sd-load.pl
+bin/sd-ctrl.pl open
+</pre>
+
+<h3><a name="sect8.4">8.4</a> Reindex</h3>
+
+<pre>
+#! /usr/local/bin/bash
+ 
+PATH=/bin:/usr/local/bin:/usr/bin
+export PATH;
+ 
+cd /usr/local/studera/zebra
+run_zebraidx &amp;
+</pre>
+
+<h3><a name="sect8.5">8.5</a> Total reindex</h3>
+
+<pre>
+#! /usr/local/bin/bash
+ 
+PATH=/bin:/usr/local/bin:/usr/bin
+export PATH;
+ 
+cd /usr/local/studera/zebra
+rm DB/*
+run_zebraidx &amp;
+</pre>                                               
+
+<ignore>
+<h2><a name="sect9">9</a> References</h2>
+<table border="0" class="toc">
+<tr><td valign="top" class="endnotes">1</td><td class="endnotes">Studera.Nu  &lt;<a  name="not1" href="http://www.studera.nu/">http://www.studera.nu/</a>&gt;</td></tr>
+<tr><td valign="top" class="endnotes">2</td><td class="endnotes">The Swedish Council for higher education  &lt;<a  name="not2" href="http://www.hsv.se/">http://www.hsv.se/</a>&gt;</td></tr>
+<tr><td valign="top" class="endnotes">3</td><td class="endnotes">Studera.Nu Metadata Element Set  &lt;<a  name="not3" href="http://studera.hsv.se/internt/felt.htm">http://studera.hsv.se/internt/felt.htm</a>&gt;</td></tr>
+<tr><td valign="top" class="endnotes">4</td><td class="endnotes">Extensible Markup Language  &lt;<a  name="not4" href="http://www.w3.org/TR/1998/REC-xml-19980210">http://www.w3.org/TR/1998/REC-xml-19980210</a>&gt;</td></tr>
+<tr><td valign="top" class="endnotes">5</td><td class="endnotes">Resource Description Framework (RDF) Model and Syntax Specification  &lt;<a  name="not5" href="http://www.w3.org/TR/PR-rdf-syntax/">http://www.w3.org/TR/PR-rdf-syntax/</a>&gt;</td></tr>
+<tr><td valign="top" class="endnotes">6</td><td class="endnotes">Z39.50 maintenance agency home page  &lt;<a  name="not6" href="http://lcweb.loc.gov/z3950/agency/">http://lcweb.loc.gov/z3950/agency/</a>&gt;</td></tr>
+<tr><td valign="top" class="endnotes">7</td><td class="endnotes">Application profile for the government information locator service (GILS)  &lt;<a  name="not7" href="http://www.gils.net/prof_v2.html">http://www.gils.net/prof_v2.html</a>&gt;</td></tr>
+<tr><td valign="top" class="endnotes">8</td><td class="endnotes">not:gils software <a name="not8" > </a></td></tr>
+<tr><td valign="top" class="endnotes">9</td><td class="endnotes">Anders Ardö, Allan Arvidsson, Sebastian Hammer, Kenneth Holmlund and Sigfrid Lundberg, 1998. NWI II, An Enhanced Nordic Web index: Final report  &lt;<a  name="not9" href="http://www.nordinfo.helsinki.fi/publications/nordnytt/nnytt3-4_98/nwi_final_report.htm">http://www.nordinfo.helsinki.fi/publications/nordnytt/nnytt3-4_98/nwi_final_report.htm</a>&gt;</td></tr>
+<tr><td valign="top" class="endnotes">10</td><td class="endnotes">A. Ardö and S. Lundberg, 1998. A regional distributed WWW search and indexing service -- the DEISRE way. Computer Networks and ISDN systems 30:173-183  &lt;<a  name="not10" href="http://decweb.ethz.ch/WWW7/1900/com1900.htm">http://decweb.ethz.ch/WWW7/1900/com1900.htm</a>&gt;</td></tr>
+<tr><td valign="top" class="endnotes">11</td><td class="endnotes">Information and documentation -- Information retrieval (Z39.50) -- Application service definition and protocol specification  &lt;<a  name="not11" href="http://www.iso.ch/iso/en/CatalogueDetailPage.CatalogueDetail?CSNUMBER=27446">http://www.iso.ch/iso/en/CatalogueDetailPage.CatalogueDetail?CSNUMBER=27446</a>&gt;</td></tr>
+<tr><td valign="top" class="endnotes">12</td><td class="endnotes">ATTRIBUTE SET BIB-1 (Z39.50-1995): SEMANTICS  &lt;<a  name="not12" href="ftp://ftp.loc.gov/pub/z3950/defs/bib1.txt">ftp://ftp.loc.gov/pub/z3950/defs/bib1.txt</a>&gt;</td></tr>
+<tr><td valign="top" class="endnotes">13</td><td class="endnotes">A simple Extended Backus-Naur Form (EBNF) notation  &lt;<a  name="not13" href="http://www.w3.org/TR/1998/REC-xml-19980210#sec-notation">http://www.w3.org/TR/1998/REC-xml-19980210#sec-notation</a>&gt;</td></tr>
+<tr><td valign="top" class="endnotes">14</td><td class="endnotes">Indexdata, The Zebra information server.  &lt;<a  name="not14" href="http://www.indexdata.dk/zebra/">http://www.indexdata.dk/zebra/</a>&gt;</td></tr>
+<tr><td valign="top" class="endnotes">15</td><td class="endnotes">Zebra Server - Administrators's Guide and Reference  &lt;<a  name="not15" href="http://www.indexdata.dk/zebra/zebra.php">http://www.indexdata.dk/zebra/zebra.php</a>&gt;</td></tr>
+<tr><td valign="top" class="endnotes">16</td><td class="endnotes">not:ZAP <a name="not16" > </a></td></tr>
+<tr><td valign="top" class="endnotes">17</td><td class="endnotes">The Combine Harvesting Robot  &lt;<a  name="not17" href="http://www.lub.lu.se/combine/">http://www.lub.lu.se/combine/</a>&gt;</td></tr>
+<tr><td valign="top" class="endnotes">18</td><td class="endnotes">Combine User's Guide  &lt;<a  name="not18" href="http://www.lub.lu.se/combine/docs/uguide.html">http://www.lub.lu.se/combine/docs/uguide.html</a>&gt;</td></tr>
+<tr><td valign="top" class="endnotes">19</td><td class="endnotes">The Combine README  &lt;<a  name="not19" href="http://www.lub.lu.se/combine/dist/README-v1.1.txt">http://www.lub.lu.se/combine/dist/README-v1.1.txt</a>&gt;</td></tr>
+<tr><td valign="top" class="endnotes">20</td><td class="endnotes">Yong, Tsao: Combine: A Distributed Open System Architecture for WWW Resource Harvesting and Indexing System &lt;<a  name="not20" href="http://www.lub.lu.se/combine/docs/uguide.html">http://www.lub.lu.se/combine/docs/uguide.html</a>&gt;</td></tr>
+<tr><td valign="top" class="endnotes">21</td><td class="endnotes">A Standard for Robot Exclusion.  &lt;<a  name="not21" href="http://www.robotstxt.org/wc/norobots.html">http://www.robotstxt.org/wc/norobots.html</a>&gt;</td></tr>
+<tr><td valign="top" class="endnotes">22</td><td class="endnotes">   The Noble Art of Being Indexed or the Webmaster's Guide to Harvesting Robots  &lt;<a  name="not22" href="http://nwi.lub.lu.se/web_masters_guide.html">http://nwi.lub.lu.se/web_masters_guide.html</a>&gt;</td></tr>
+<tr><td valign="top" class="endnotes">23</td><td class="endnotes">perlre - Perl regular expressions  &lt;<a  name="not23" href="http://www.perl.com/pub/doc/manual/html/pod/perlre.html">http://www.perl.com/pub/doc/manual/html/pod/perlre.html</a>&gt;</td></tr>
+</table>
+
+</ignore>
+
+<h2><a name="sect10">10</a> Revision log</h2>
+
+<pre>
+
+$Log$
+Revision 1.1  2009/06/29 11:12:22  sigfrid
+Initial revision
+
+Revision 1.4  2001/09/25 18:30:39  siglun
+Added most information needed for understanding the Z39.50
+server.
+
+Revision 1.3  2001/09/25 12:46:23  siglun
+Included long section on maintaining the robot.
+
+Revision 1.2  2001/06/14 10:33:05  siglun
+Preliminary plan of the report ready
+
+Revision 1.1  2001/06/13 07:08:56  siglun
+Initial revision
+
+
+</pre>
+
+</body>
+</html>

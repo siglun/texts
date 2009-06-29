@@ -1,0 +1,476 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+    "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta name="generator" content=
+"HTML Tidy for Linux (vers 31 October 2006), see www.w3.org" />
+    <meta http-equiv="Content-Type" content="text/html;charset=UTF-8"/>
+<style type="text/css">
+/*<![CDATA[*/
+<!-- 
+BODY, TABLE, TR, TD { background: #FFFFFF; 
+        font-size: 12pt;
+        margin-left: 10%; 
+        margin-right: 5%;
+        font-family: helvetica, sans-serif
+}
+
+H1.title { font-size: 16pt; font-weight: bold; text-align: center }
+H1 { font-size: 14pt; font-weight: bold; font-family: helvetica, sans-serif}
+H2 { font-size: 14pt; font-weight: bold; font-family: helvetica, sans-serif}
+H3 { font-size: 14pt; font-weight: bold; font-family: helvetica, sans-serif}
+H4 { font-size: 14pt; font-weight: bold; font-family: helvetica, sans-serif}
+
+PRE, TT { font-family: courier; }
+
+TABLE { text-align: center }
+
+P.citering {text-indent: -2em;  margin-left: 2em;} 
+P.docinfo {font-size: 10pt;text-align: right;} 
+P.authors {font-size: 10pt;text-align: center;} 
+-->
+/*]]>*/
+</style>
+<title>The Noble Art of Being Indexed or the Webmaster's Guide to
+Harvesting Robots</title>
+
+<!-- Changed by: Sigfrid Lundberg NetLab, 28-Jun-1999 -->
+</head>
+<body>
+<p>A partly obsolete document on what webmasters ought to know
+about harvesting robots.</p>
+<p class="docinfo">Last modified 28 June 1999<br />
+Document &lt;URL: <a href=
+"web_masters_guide.html">http://nwi.lub.lu.se/web_masters_guide.html</a>
+&gt;</p>
+<h1 class="title">The Noble Art of Being Indexed or<br />
+the Webmaster's Guide to Harvesting Robots</h1>
+<p class="authors"><a href=
+"mailto:sigfrid.lundberg@lub.lu.se">Sigfrid Lundberg</a> and
+<a href="mailto:lars.nooden@lub.lu.se">Lars Nooden</a><br />
+Lund university Library, NetLab<br />
+P.O. Box 3<br />
+S-221 00 Lund</p>
+<h2>Introduction</h2>
+<p>Search services are the natural starting points on the Net for a
+majority of users, a fact which manifests itself in the patterns of
+use of any Internet server. Log information shows that users appear
+at what might seem more or less arbitrary points in a server's
+access log rather than by beginning at top pages. More detailed
+analysis of referring pages reveal that a majority of such users
+come from search services.</p>
+<p>User interfaces for information searching can be implemented in
+two ways, through a browsing structure or searching. In the latter
+a user typically completes a form and submits its content to a
+database system. Independent from those two kinds interfaces,
+resource discovery databases can be divided into two major classes,
+those built more or less manually by editorial staff, based on
+submissions by document authors and those produced automatically by
+harvesting robots.</p>
+<p>Early on in the development of the Worldwide Web, back in 1994,
+those two kinds were the only ones available and two typical
+examples used to be <a href="http://www.yahoo.com">Yahoo!</a> and
+<a href="http://www.lycos.com">Lycos</a>. The key to the success of
+the former kind of service is a well built and easy to understand
+classification system used to create a browsing structure. On a
+cognitive level, browsing structure has a distinct advantage over
+searching in that users does not need to know exact words
+describing what they are looking for, they only need to recognize
+relevant information when they see it.</p>
+<p>The manually built services are typically much smaller and
+capable of much higher precision, but has on the other much lower
+recall and will, in general, not be able to capture even a small
+fraction of the information available in an area. The robot based
+services are more capable of doing that, but suffers from extremely
+low precision. Because of the shortcomings of both kinds of
+services, search service providers try to meld together the two
+concepts and produce hybrid services that we are used to today. One
+example of a typical hybrid service would be <a href=
+"http://www.excite.com">Excite</a>. Despite of the these attempts
+to merge the to kinds of services, the fundamental distinction
+remains between the two kinds, which explains the solid popularity
+of services like Yahoo.</p>
+<p>The manually produced services have typically employed at least
+a primitive metadata structure by the assignment of a <b>title</b>,
+a brief <b>description</b> and a <b>subject classification</b> to
+each document. One attempt to gain the same level of precision in
+robot based search services as in the ones handicrafted by
+editorial staff is to use embedded metadata, the methodology
+outlined in this document and which will be supported by the
+European Schoolnet inititiative. However, metadata is only one
+aspect, albeit an important one, of several that will enhance the
+visibility of a resource.</p>
+<p>This text is an attempt at describing those properties and
+behaviours of indexing services that document providers, authors
+and Web Masters should keep in their mind and that will make their
+services indexed and as well as nicely presented by search
+services. First, we briefly describe what a harvesting robot
+actually does. In subsequent sections we go on describing how
+common practices on the internet obstructs the activities of
+harvesting robots. Then we turn our attention to those means that
+are available for the guidance of robots, the robot exclusion
+standard and robots meta tags. Finally, we will give some ideas on
+how to interact with metadata aware search services.</p>
+<h2>What Web robots actually do</h2>
+<p>A harvesting robot is a computer program, and please note that a
+it is not a clever one. The basic operations supported by a
+harvesting robot are the following</p>
+<ol>
+<li>the retrieval of objects available on the Internet through the
+HTTP protocol. Some robots do understand other protocols, but the
+hypertext transfer protocol is by far the most important one.</li>
+<li>the extraction of information from the objects retrieved. In
+particular it will extract hypertext links (the Universal Resource
+Locators, URLs) to other objects.</li>
+<li>the storing of extracted information in a database.</li>
+</ol>
+<h2>What a Web robot actually understands</h2>
+<p>A web robot only understand single documents and URLs. The
+hypertext links found by the robot when parsing documents (in
+operation 2 above) are then fed back into itself by the robot, and
+by so doing the search service will eventually, at least in theory,
+be able to cover all material pointed to by links in other
+documents. But the truth is that all general search services have
+problems keeping up with the growth of the Internet. In order to
+cope with the growth of Internet, search services invent schemes
+like not traversing too deeply into a file tree of a server, only
+indexing documents with external links (on some other server than
+the one hosting the document) and so on.</p>
+<h2>What Web robot doesn't understand</h2>
+<p>On the most fundamental level, anything that prevents a robot
+from obtaining textual information will decrease searchability and
+anything that makes the extraction of hypertext links difficult
+will block its activities. For example, serverside imagemaps are
+handy tools for creating navigational aids for users that do under
+some circumstances be easier to use and maintain than client side
+ones. However, many platforms do not allow robot to retrieve the
+image maps, whereas other, like the Apache web server, will format
+the image map as a menue in HTML it is retrieved for the benefit
+for robots as well as for the visually impaired.</p>
+<p>Robots do not see any other relation between objects than
+references. By testing search services you may confirm that they do
+not know anything as sofisticated as whether a given document is a
+part of a larger collection of documents, i.e., it does not
+understand the part/whole relation. Such relations, and collections
+in a wide sense, arise in many situations, an important example is
+the use of frames.</p>
+<p>What frames do is well known, and we will not discuss that. When
+encountering frames, robots extract what they do understand, URLs.
+Each frame in a frameset defines a URL and the robot will retrieve
+each of those. The robots treat all documents as if they were
+equal. In the search engine the frame sets are more often the least
+relevant since they contain little data, in spite of the fact that
+these are key documents for service providor, since it is only
+those that will present a site in the desired way.</p>
+<p>If you do not see the problem in this, try searching for
+"Viewing this page requires a browser capable of displaying frames"
+as a string in <a href="http://altavista.digital.com/">Alta
+Vista</a> (you can do so by clicking <a href=
+"http://altavista.digital.com/cgi-bin/query?pg=q&amp;kl=XX&amp;q=%22Viewing+this+page+requires+a+browser+capable+of+displaying+frames%22&amp;search=Search">
+here</a>). This is the default content entered in the body of a
+frameset document by Adobe PageMill. At the time of writing, there
+were 77276 framesets in AltaVista containing no other tangible
+information other than that the tool used for their production was
+PageMill!</p>
+<p>The noframes section of a frameset documents should not be
+regarded as service for those few users that stick to obsolete Web
+browsers, but instead as the key to successful display of a
+service. A careful document provider must ensure that there are
+good and complete information in the noframes, and that this is
+revised as other part of a service is updated. To be sure that a
+site is presented accurately, it pays to have a lot of framesets
+with different information. A rule of thumb should be: let the user
+load a new frameset whenever you have something significantly new
+to say. Some content pages could well be kept out of reach for
+harvesting robots by means of the <tt>robots.txt</tt> file (see
+below), in order to avoid dublicate information in the search
+services hit lists and to ensure a proper display.</p>
+<p>When surfing the net, you will find solutions to the problem
+arising because robots doesn't really understand frames. The worst
+I have encountered to date is to include a piece of javascript that
+will replace a "naked" page with the frameset it should have been
+in by doing a HTTP refresh. It was extremely frustrating to find
+that a piece of information were removed from your eyes and
+replaced with something else, just because some WWW-designer wants
+you to read the adverts on the top menue!</p>
+<p>As stated above, harvesting robots are not very clever computer
+programs. There are quite a few services out there that make a
+number of assumption about the web browsers that their users have
+at hand. Some of those assumptions apply to robots, others do not.
+One such assumption is that browsers do understand client side
+scripting (e.g., javascript). It is very unlikely that locations
+that are loaded into browsers using scripting ever will be visited
+by robots. Never use javascript to load significant
+information!</p>
+<p>Another obstacle to proper indexing is to tailor web design for
+a specific types of clients using the information about the web
+client provided throught the HTTP protocol. One such example would
+be to have one user interface for MS Internet Explorer and another
+for Netscape. To our experience providers making this kind of
+customization often make the assumption that user agents of some
+other make are obsolete and can safely be ignored. By doing so they
+usually ignore the robots.</p>
+<p>Robots cannot afford to keep state information, and will take
+for granted that a GET request for a given URL will give useful
+searchable information, regardless of prior history. Therefore, the
+use of HTTP Cookies, referring page information etc, which can be
+used to create wonderful stateful user interfaces, can make a site
+completely impenetrable for robots. These tools can be helpful when
+building interactive Web applications, but refrain from those
+possibilities in pages you really want to be indexed.</p>
+<h2>What robots don't like</h2>
+<p>Since the efficiency of the harvesting system is essential to
+keep up with the growth of Internet, harvesting robots are designed
+to avoid circumstances where the likelihood of wasting resources
+where there are little content to extract. Web applications may
+create URL spaces that are virtually infinite, and robots may be
+trapped.</p>
+<p>Dynamical WWW applications are those that most often trap
+robots, and it is the Web masters responsibilty exclude robots from
+those parts of a service where this is likely to happen. This is
+done in order to preserve their own bandwidth, but it is also in
+the interest of search services. Robots are configured to avoid
+executing server side scripts, to the extent that they more often
+than not completely ignore URLs with query strings, i.e., those
+containing question marks. A common practice is to not index pages
+ending in for example .cgi, .pl or .asp as these are common file
+extensions used in connection with server side scripting. The
+policies seem to differ between services, e.g., Scooter (Altavista)
+does not index scripts whereas Inktomi (Hotbot) does.</p>
+<p>The ease whereby searchable indexes are produced make it
+tempting to create services that are entirely built upon database
+technology. Although consultants and software vendors often
+recommend such solutions, it is to be regarded as a bad habit. To
+keep a mirror of all information available in a database as a
+collection static WWW pages, gives a more rapid access on a loaded
+server and make the HTTP machinery operate more smoothly. Such a
+structure can still be maintained by a database management
+system.</p>
+<p>Such an application is more palatable for harvesting robots, and
+there are other advantages as well. Web robots issues request for a
+given content on condition that it has been modified since it last
+requested the same item. That is, it sets the get-if-modified-since
+request header. Dynamical pages are by definition allways modified
+since the last time you saw them, and most WWW servers will be
+deliver such items each time you request them.</p>
+<p>Even worse, quite a few implementations of WWW servers directly
+connected to a database management system fails to give correct
+response code when a record has been removed. If a server delivers
+an error message saying that a page is gone, then that is perfectly
+readable for a human being. For a harvesting robot, that message
+has to be standardized according to the HTTP protocol, the proper
+status code is 404 for the message "File not found". If you intend
+to deliver information from a database, make sure that your
+application is capable of handling this problem or your site might
+appear to be one of those that is poorly maintained.</p>
+<h2>Well all this is just fine, but what if I do not not want to be
+indexed!</h2>
+<p>Now, people do usually set up their servers because they want
+their information to be used by others. However, there are a lot of
+good reasons for not wanting robots to access certain parts of a
+server. One might have documents that are not meant for a broad
+audience, but still not secret enough for imposing stronger
+security measures like password control. Other reasons could be
+that some material could in a way be misrepresented by search
+services, or its generation could be computationally expensive in
+the case that the resource is dynamical. One interesting situation
+arises for specialist search services where document providers and
+a search service provider cooperate in excluding a particular robot
+from just about everything except material of an agreed upon
+kind.</p>
+<p>For all such purposes there are number of tools and methods
+available, and together they will make a service provider able to
+guide robots to what is worthwhile to present to a wider audience
+and what is not. It is even possible to do so on a per search
+service basis. There are two different kinds of methods for the
+guiding of robots.</p>
+<p>One is the socalled <tt>robots.txt</tt> file and the other are
+the robots meta tags. The former gives a Webmaster the possibility
+to selectively exlude robots, whereas the latter can, as we shall
+see, be used to give fairly detailed instructions to robots. They
+are building on entirely different ideas. Together they can be
+extremely powerful tools that will make it possible for service
+providers to actually decide on how their services should be
+represented by search engines. Service providers should consider
+how they should be used customize the indexing of their sites.</p>
+<h3>The <tt>robots.txt</tt> file</h3>
+<p>There is a <i>de facto</i> standard on the Internet saying that
+a harvesting robot should make an attempt to retrieve a file called
+<tt>robots.txt</tt> before doing anything else on a given server.
+The file should be located in the servers root directory. That is,
+if the server is called <tt>foo.bar.com</tt>, the file should be
+found under the URL <tt>http://foo.bar.com/robots.txt</tt>. The
+file contains rules have the following format</p>
+<pre>
+User-agent: name of robot
+Disallow: /path
+</pre>
+<p>By user-agent we mean the name of the robot, and it should be
+the same name the robot is using when it presents itself using the
+HTTP protocol. For instance, the AltaVista robot calls itself
+``scooter'' and the robot we are using is called ``combine''. Rules
+that should apply to any robot are given the user agen `*'. The
+path directive can be repeated for each user agent, and should
+start with a slash, denoting the root directory of a server.
+Hence:</p>
+<pre>
+User-agent: *
+Disallow: /
+</pre>
+implies that this server excludes all robots from all material!
+<p>In order to exclude robots from most scripts on a server in the
+<tt>/cgi-bin</tt>, collections of outdated material in the
+<tt>/attic</tt> and work in progress in <tt>/drafts</tt> you would
+have to put in the following directives in your
+<tt>robots.txt</tt></p>
+<pre>
+User-agent: *
+Disallow: /cgi-bin
+Disallow: /attic
+Disallow: /drafts
+</pre>
+<p>If you in addition would like to eclude the <tt>BadBot</tt> from
+your site, you could add</p>
+<pre>
+User-agent: BadBot
+Disallow: /
+</pre>
+<p>The current robot exclusion standard is a gentlemans agreement
+between people that have been involved in the discussions on what
+good netiquette and good netizen-ship should imply as regards
+harvesting robots. Unfortunately, the bad bots more often than not
+ignore the guidance offered by the robots exclusion standard.</p>
+<h3>Robots metatags</h3>
+<p>The <tt>robots.txt</tt> gives harvesting robots an idea where to
+go in order to get hold of worthwhile information. It suffers from
+the drawback that it is unwieldy when there is a need to guide
+robots on a per file basis. To this end there is a new standard
+emerging, the robots metatags. They are given in the
+HTML-metatag</p>
+<pre>
+&amp;LT;META NAME="robots" content="xxx"&gt;
+</pre>
+<p>where <tt>xxx</tt> may, take any of the following values (or a
+comma seperated list of them) INDEX, NOINDEX, FOLLOW, NOFOLLOW. The
+meanings of the values are</p>
+<div style="text-align:center;">
+<table>
+<tr>
+<td>(NO)INDEX</td>
+<td>robots may (not) index this document</td>
+</tr>
+<tr>
+<td>(NO)FOLLOW</td>
+<td>robots may (not) follow links in this document</td>
+</tr>
+</table>
+</div>
+<p>Alternatively, one may use ALL=INDEX,FOLLOW and
+NONE=NOINDEX,NOFOLLOW.</p>
+<h2>And how does metadata interact with all this</h2>
+<p>In the Nordic Countries we have for a year and a half
+experimented with, and from early this year more seriously
+implemented search systems based on Dublin Core. For the time being
+we are using two kinds of systems in parallell:</p>
+<ol>
+<li>We do mappings between proprietary metadata systems and DC, for
+instance author, descriptions and keywords as entered by many
+HTML-authoring tools are mapped their proper Dublin Core
+counterparts.</li>
+<li>We support more or less the entire Dublin Core Element set as
+described in the Dublin Core resource pages.</li>
+</ol>
+<p>Metadata production is costly, and it is hardly feasible to
+produce metadata for each individual document on a large server.
+The decision on a metadata policy involves much the same
+considerations as for when one should let users load new frame
+sets. For a coarse grained implementation, a rule of thumb could be
+to create metadata whenever you have something significantly
+different to say (i.e., giving a new Dublin Core subject) and when
+something is said by a new set of people (i.e., new metadata for
+each main provider of intellectual content on your server).</p>
+<p>A coarse grained Dublin Core implementation should imply that
+top documents, menues etc are tagged such that users hit suitable
+points in a server. In a frames based environment, it should be
+obvious that it is the frame sets that should me described, and
+that description should be valid for all objects reachable from
+that frameset.</p>
+<p>A fine-grained implementation of Dublin Core, as many documents
+as ever possible should be tagged while still giving priority to
+the description of top documents. Because of the inability of
+robots to understand collections of objects and the relations
+between them, a fine-grained description might give a very
+scattered view of a service. Hopefulle, in a not too distant
+future, the Dublin Core implementation of relations will gain
+acceptance. Then it will be possible to build a search engine user
+interfaces making fine-grained descriptions worth-while</p>
+<p>The vocabulary that will be used for describing relations
+contains six pairs of relations (based on Relations Working Group
+Report)</p>
+<ol>
+<li>Part/Whole relations are those in which one resource is a
+physical or logical part of another. The relations are <b>IsPartOf,
+HasPart</b>.</li>
+<li>Version relations are those in which one resource is an
+historical state or edition of another resource by the same
+creator. The relations are <b>IsVersionOf, HasVersion</b>.</li>
+<li>Format transformation relations are those in which one resource
+has been derived from another by a reproduction or reformatting
+technology which is not fundamentally an interpretation but is
+intended to be a representation. The relations are <b>IsFormatOf,
+HasFormat</b>.</li>
+<li>Reference relations are those in which the author of one
+resource cites, acknowledges, disputes or otherwise refers to
+another resource. The relations are <b>References,
+IsReferencedBy</b>.</li>
+<li>Creative relations are those in which one resource is a
+performance, production, derivation, translation, adaptation or
+interpretation of another resource. The relations are <b>IsBasedOn,
+IsBasisFor</b>.</li>
+<li>Dependency relations are those in which one resource requires
+another resource for its functioning, delivery, or content and
+cannot be used without the related resource being present. The
+relations are <b>Requires, IsRequiredBy</b>.</li>
+</ol>
+<p>For many services, the <b>IsPartOf, HasPart</b> relation will be
+very important. By using that it will be possible to give very
+complete descriptions of top nodes in a resource and more brief
+ones of leaves. Still, through metadata it will be possible for
+search engine to guide users to both individual objects as well as
+indicate that the item found belongs to a collection.</p>
+<h2>Concluding remarks</h2>
+<p>Webmasters and other information providers need to be aware on
+the lives and loves of harvesting robots and should use that
+knowledge when designing their services. The goal of your dealings
+with robots should be to:</p>
+<ol>
+<li>To get high rank when people ask for your kind of stuff.</li>
+<li>To be absent or low ranked otherwise.</li>
+<li>The search engine should hit those pages you want to be seen,
+but only those.</li>
+<li>The material should be presented in roughly the same way when
+your server is accessed from a search service as when they enter a
+resource from your service's home page</li>
+</ol>
+<p>The proper use of metadata and controlled vocabularies will make
+it possible to build search services that surpass much of what we
+have today, that <b>ideally</b> combine the ease of navigation of
+Yahoo with the full text search capabilities of the current search
+engines and high precision of the library OPAC. Please note the
+word <b>ideally</b>. Since we don't live in the best of all
+possible worlds, that view will not come true. Still, although
+metadata offers new and improved methods for for spamming, there
+are prospects much improved search services.</p>
+<h2>Further reading</h2>
+<p>The Web Robots Pages <a href=
+"http://info.webcrawler.com/mak/projects/robots/robots.html">http://info.webcrawler.com/mak/projects/robots/robots.html</a></p>
+<p>The Combine Harvester <a href=
+"http://www.lub.lu.se/combine/">http://www.lub.lu.se/combine/</a></p>
+<p>Robots metatags <a href=
+"http://info.webcrawler.com/mak/projects/robots/meta-user.html">http://info.webcrawler.com/mak/projects/robots/meta-user.html</a></p>
+<p>DC Relations Working Group Report<a href=
+"http://purl.oclc.org/metadata/dublin_core/wrelationdraft.html">http://purl.oclc.org/metadata/dublin_core/wrelationdraft.html</a></p>
+<!--#include virtual="/js/urchin.js" -->
+</body>
+</html>

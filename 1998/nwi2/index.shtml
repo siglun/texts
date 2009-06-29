@@ -1,0 +1,819 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+    "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta name="generator" content=
+"HTML Tidy for Linux (vers 31 October 2006), see www.w3.org" />
+    <meta http-equiv="Content-Type" content="text/html;charset=UTF-8"/>
+<title>NWI II, An Enhanced Nordic Web index: Final report</title>
+
+</head>
+<body bgcolor="#FFFFFF">
+<h1 style="text-align:center;">NWI II, An Enhanced Nordic Web index: Final
+report</h1>
+<p style="text-align:center;"><a href="http://www.dtv.dk/">Anders Ardö</a>,
+<a href="http://kulturarw3.kb.se/">Allan Arvidson</a>, <a href=
+"http://www.indexdata.dk">Sebastian Hammer</a>,<br />
+<a href="http://www.tp.umu.se/">Kenneth Holmlund</a> och <a href=
+"http://www.lub.lu.se/netlab/">Sigfrid Lundberg</a></p>
+<h2><a name="1">1</a> Table of Contents</h2>
+<blockquote>
+<table>
+<tr>
+<td align="right"><small>1</small></td>
+<td><a href="#1"><small>Table of Contents</small></a></td>
+</tr>
+<tr>
+<td align="right"><small>2</small></td>
+<td><a href="#2"><small>Introduction</small></a></td>
+</tr>
+<tr>
+<td align="right"><small>3</small></td>
+<td><a href="#3"><small>Metadata, Harvesting, Cooperative indexing
+and Archiving</small></a></td>
+</tr>
+<tr>
+<td align="right"><small>3.1</small></td>
+<td><a href="#3.1"><small>Metadata mappings and
+statistics</small></a></td>
+</tr>
+<tr>
+<td align="right"><small>3.2</small></td>
+<td><a href="#3.2"><small>Cooperative Harvesting</small></a></td>
+</tr>
+<tr>
+<td align="right"><small>3.2.1</small></td>
+<td><a href="#3.2.1"><small>Umeå university</small></a></td>
+</tr>
+<tr>
+<td align="right"><small>3.2.2</small></td>
+<td><a href="#3.2.2"><small>Distributed WWW and metadata indexes in
+Umeå and Lund</small></a></td>
+</tr>
+<tr>
+<td align="right"><small>3.2.3</small></td>
+<td><a href="#3.2.3"><small>DTV - Øresundsuniversitet
+subdatabas</small></a></td>
+</tr>
+<tr>
+<td align="right"><small>3.3</small></td>
+<td><a href="#3.3"><small>WWW archiving</small></a></td>
+</tr>
+<tr>
+<td align="right"><small>3.4</small></td>
+<td><a href="#3.4"><small>Ongoing and planned improvements of the
+harvesting system</small></a></td>
+</tr>
+<tr>
+<td align="right"><small>3.4.1</small></td>
+<td><a href="#3.4.1"><small>Collections and collaborative
+harvesting</small></a></td>
+</tr>
+<tr>
+<td align="right"><small>3.4.2</small></td>
+<td><a href="#3.4.2"><small>Harvesting of different media
+types</small></a></td>
+</tr>
+<tr>
+<td align="right"><small>3.5</small></td>
+<td><a href="#3.5"><small>Merging of metadata services with the Web
+Indexes</small></a></td>
+</tr>
+<tr>
+<td align="right"><small>3.6</small></td>
+<td><a href="#3.6"><small>WWW archiving and the
+Combine</small></a></td>
+</tr>
+<tr>
+<td align="right"><small>4</small></td>
+<td><a href="#4"><small>Searching</small></a></td>
+</tr>
+<tr>
+<td align="right"><small>4.1</small></td>
+<td><a href="#4.1"><small>Record Representation</small></a></td>
+</tr>
+<tr>
+<td align="right"><small>4.2</small></td>
+<td><a href="#4.2"><small>Performance Tuning</small></a></td>
+</tr>
+<tr>
+<td align="right"><small>4.3</small></td>
+<td><a href="#4.3"><small>Relevance Ranking</small></a></td>
+</tr>
+<tr>
+<td align="right"><small>4.4</small></td>
+<td><a href="#4.4"><small>Miscellaneous</small></a></td>
+</tr>
+<tr>
+<td align="right"><small>4.5</small></td>
+<td><a href="#4.5"><small>Collaboration with other initiatives on
+searching</small></a></td>
+</tr>
+<tr>
+<td align="right"><small>5</small></td>
+<td><a href="#5"><small>User interfaces</small></a></td>
+</tr>
+<tr>
+<td align="right"><small>5.1</small></td>
+<td><a href="#5.1"><small>Add URL service</small></a></td>
+</tr>
+<tr>
+<td align="right"><small>5.1.1</small></td>
+<td><a href="#5.1.1"><small>ZGATE</small></a></td>
+</tr>
+<tr>
+<td align="right"><small>5.2</small></td>
+<td><a href="#5.2"><small>Online help</small></a></td>
+</tr>
+<tr>
+<td align="right"><small>5.2.1</small></td>
+<td><a href="#5.2.1"><small>Metadata search user
+interfaces</small></a></td>
+</tr>
+<tr>
+<td align="right"><small>5.3</small></td>
+<td><a href="#5.3"><small>Robot-master user
+interface</small></a></td>
+</tr>
+<tr>
+<td align="right"><small>6</small></td>
+<td><a href="#6"><small>Distribution and
+Documentation</small></a></td>
+</tr>
+<tr>
+<td align="right"><small>7</small></td>
+<td><a href="#7"><small>Conclusions</small></a></td>
+</tr>
+<tr>
+<td align="right"><small>8</small></td>
+<td><a href="#8"><small>References</small></a></td>
+</tr>
+</table>
+</blockquote>
+<h2><a name="2">2</a> Introduction</h2>
+<p>The Nordic Web Index (NWI) project is a collaborative effort
+across the Nordic countries, aiming at providing a free Worldwide
+Web search service to the general public in the countries involved.
+NWI has been fruitful for several reasons: First and foremost we
+are today providing access to databases covering the WWW in four of
+the Nordic countries and, as of September 1998, five service points
+in six languages Denmark [<a href="#not1">1</a>], Finland [<a href=
+"#not2">2</a>], Sweden [<a href="#not3">3</a>], Norway [<a href=
+"#not4">4</a>] and Iceland [<a href="#not5">5</a>]. New service
+points and new databases are swemeta, danmeta, other Nordic.</p>
+<p>NWI technology has been used to create several databases beside
+the main NWI ones metioned above. Examples include the
+following:</p>
+<ul>
+<li>ØWI - Search-engine for Øresund University Web Index. Indexes
+all pages from over 120 servers in the 11 Universities forming the
+Øresund University [<a href="#not6">6</a>].</li>
+<li>EUN (European School net) full text database covering school
+and school net WWW-servers in Europe [<a href="#not7">7</a>].</li>
+<li>Regional search engine for all servers at DTU (Technical
+University of Denmark). More than 200 servers with over 100.000
+pages [<a href="#not8">8</a>].</li>
+<li>A national research information system in Sweden[<a href=
+"#not9">9</a>].</li>
+<li>Local search engines for all DTV servers and Lund
+university.</li>
+<li>SveSÖK [<a href="#not10">10</a>]</li>
+</ul>
+<p>We have been able to contribute this techology to other
+initiatives because the NWI architecture builds on open standards
+and the fact that the software is freely distributable [<a href=
+"#not11">11</a>]. Dissemination of the experiences gained from the
+NWI has been made through several different channels; i.e., the
+WWW7 conference [<a href="#not12">12</a>], the 1997 NordUnet
+conference [<a href="#not13">13</a>]. Also, in connection with that
+conference, the National Library of Iceland hosted a workshop on
+indexing collaboration arranged by the NWI [<a href=
+"#not14">14</a>].</p>
+<h2><a name="3">3</a> Metadata, Harvesting, Cooperative indexing
+and Archiving</h2>
+<h3><a name="3.1">3.1</a> Metadata mappings and statistics</h3>
+<p>A module for extracting metadata information from the harvested
+pages has been implemented. With this module we built two new
+databases, swemeta and danmeta, covering Sweden and Denmark,
+respectively. During the extraction process metadata tags were
+converted to Dublin Core equivalents or discarded if no meaningful
+conversion can be done. It turns out that approximately 10% of all
+pages contain meaningful metadata. Detailed information on the
+conversion and other statistics around metadata usage can be found
+at [<a href="#not15">15</a>].</p>
+<p>The extracted records are indexed into a separate database where
+fields correspond to Dublin Core fields. In the Nordic Countries we
+have experimented with this for a year and a half, and, from early
+this year, made more serious implementations of these search
+systems based on Z39.50 and Dublin Core. For the time being, we are
+using two kinds of systems in parallel:</p>
+<ul>
+<li>``Pure'' DC systems building upon GRS-1 and the extended
+tagset-G and BIB-1.</li>
+<li>Mapping between GILS and DC</li>
+</ul>
+Since we have had to be somewhat pragmatic we even have some
+hybrids between the two.
+<p>We do mappings between proprietary metadata systems and DC. For
+instance, AUTHORS as entered by many HTML-authoring tools are
+mapped to DC.Creator. So are old Dublin Core metadata still
+containing the element DC.Author. Having scanned the Nordic Web for
+metadata we still have dozens of such mappings.</p>
+<p>We also do "Dublin Core-ish" metadata down-grading, to some
+extent, the way it supposed to operate when applying the Canberra
+Qualifier Philosophy. Thus, when encountering qualified metadata,
+it be merged into a higher level of granularity of description.</p>
+<h3><a name="3.2">3.2</a> Cooperative Harvesting</h3>
+<p>Cooperative harvesting has been implemented and utilized for a
+variety of purposes. Here we give a couple of examples.</p>
+<h4><a name="3.2.1">3.2.1</a> Umeå university</h4>
+<p>The role of Umeå University in this project has been to utilize
+collaborative harvesting and other collaborative methods in order
+to optimize administration and performance. Umeå University is
+involved in several initiatives involving indexing and www-based
+information systems, such as the following:</p>
+<ul>
+<li>The Europhysnet project for research information and scientific
+communication in physics. All physics related institutions in
+Sweden are, in principle, involved. Thus, a solution where the
+national NWI node feeds the continental Europhysnet system is
+preferred. The project is awaiting EC funding to then expand on the
+European scale.</li>
+<li>The national EnviroNet project for scientific information in
+environmental science.</li>
+<li>The local course directory [<a href="#not16">16</a>], an
+application now being used by several Swedish universities) and the
+related ASKen project [<a href="#not17">17</a>]
+(http://asken.hsv.se/) of the National Agency for Higher
+Education.</li>
+<li>Also other sources, e.g. a database for information on diploma
+projects and the local library catalogue hold information that
+could be of interest to unite in a single web based interface. o
+*.umu.se holds more than 100,000 web pages and we find it important
+that this information is available in the popular search engines on
+the Internet. We have still little or no control over which
+documents should be exported and indexed or how they should be
+classified/rated.</li>
+</ul>
+<p>All these projects involve different people and organizations
+for maintenance, development and editorial work as well as pressure
+on scientists and lecturers to produce suitable material of high
+quality and structure. Efficient coordination is necessary to
+reduce costs and improve performance. The various projects utilize
+different sets of metadata standards (mainly based on Dublin Core),
+and in many cases we foresee that information must be tagged
+several times with nearly identical information.</p>
+<p>One of our main objectives is therefore to design a cooperative,
+flexible, and cost effective indexing system for Umeå University
+that allows for coordination of these various projects and also
+fits into a national and international perspective.</p>
+<h4><a name="3.2.2">3.2.2</a> Distributed WWW and metadata
+indexes in Umeå and Lund</h4>
+<p>The universities of Umeå and Lund are working on projects
+related to harvesting of metadata and localized WWW indexing:</p>
+<ul>
+<li>Local metadata search services in Umeå and Lund, which are
+inter-operable with the national Safari project for research
+information.</li>
+<li>Local indexing of *.umu.se and *lu.se and *.lth.se and related
+domains in the respective areas.</li>
+</ul>
+<p>We have chosen to focus on a solution that coordinates Safari
+and the local indexes of the two universities. Thus, research
+information for Safari is available in the main index for each
+university and the same system is also used to feed the national
+Safari system. A straightforward extension would be to use this
+system as a distributed collaborative harvester for NWI, but that
+also requires further analysis of performance and cost
+effectiveness.</p>
+<h4><a name="3.2.3">3.2.3</a> DTV - Øresundsuniversitet
+subdatabas</h4>
+<p>Collaborative harvesting (ie where two or more sites contribute
+to one database) have been implemented using the following method.
+For simplicity we here describe an existing application, where DTV
+builds a local database over all their pages (using NWI-technology)
+while at the same time contributing to the main Danish database.
+Two machines, Hera and Venus, each have the NWI software installed.
+Hera is the Danish service point and Venus is the WWW-server for
+DTV. Venus is configured to harvest only pages in the *.dtv.dk
+domain (i.e. all pages at DTV). When a page is harvested it is
+normally sent to a database location where it is parsed and the
+resulting record is inserted into the database. On Venus, a
+harvested page is sent to two database locations, one is the local
+the other is the Danish service point (Hera). Technically this can
+be done by specifying several database locations in the Job Control
+Format (JCF). The only special configuration on Hera is that the
+domain *.dtv.dk is excluded from harvesting (since Venus is doing
+this). This is not strictly necessary but we avoid double
+harvesting this way. The result is that Venus can have its own
+scheduling policy and database while still keeping the main Danish
+database on Hera up to date with regards to the *.dtv.dk
+domain.</p>
+<h3><a name="3.3">3.3</a> WWW archiving</h3>
+<p>Most robots on the Internet are constructed to be used as part
+of an indexing service, which is mostly concerned with textual
+information. When the aim is to archive entire documents, all
+inline images, sounds, etc. are needed as well. The aim here is to
+reconstruct not only the words, but also the "look and feel" of a
+document. This places somewhat different demands on the gathering
+software. In order to tailor the software for archiving purposes
+[<a href="#not18">18</a>], several modifications have been
+made.</p>
+<p>The aim is to archive everything, therefore the robot has been
+changed so it acquires all objects, regardless of MIME type. This
+means that also images, sounds, etc. are gathered. Of course
+pictures, sound and similar documents are not parsed for
+HTML-links.</p>
+<p>In order to ensure the longtime integrity of items in the
+archive, it was decided to store items as multi-part-MIME objects,
+where the each individual object is stored together with
+miscellaneous data available, including the HTTP response header.
+For this purpose the robot was extended with module with a module
+saving items in that format. Other software can access these
+objects when archived items are requested from the archive.</p>
+<p>Frequently, documents of interest resides on servers not
+registered under the ".se"-domain. Therefore a feature has been
+added which allows the definition of extra domains, which are not
+.se, to be added to the robots search space. In this way it is
+possible to also acquire documents under e.g. the ".com" domain
+which are regarded to be of interest when preserving the Swedish
+Web.</p>
+<h3><a name="3.4">3.4</a> Ongoing and planned improvements of the
+harvesting system</h3>
+<h4><a name="3.4.1">3.4.1</a> Collections and collaborative
+harvesting</h4>
+<p>One new planned capability of the robot is the implementation of
+collections in the harvesting database. By collections we refer to
+a substructure that could be implemented in the parser, such that
+an external API could return the name of the collection to which a
+given record should belong.</p>
+<p>The decision of membership in a collection could be based on any
+criteria that are meaningful for a given service and could include
+subject classification derived from metadata or through automated
+classification software, server domain, etc. One obvious basis for
+membership in could be presence of metadata specific to given
+communities or projects.</p>
+<p>We foresee that by introducing the collection concept we will
+also facilitate collaborative harvesting, since each collection
+should be possible to put into separate information retrieval
+systems.</p>
+<h4><a name="3.4.2">3.4.2</a> Harvesting of different media
+types</h4>
+<p>Currently the harvesting robot only supports a very limited
+range of Internet Media Types ( text/html and text/plain ).
+However, we have recently implemented a parser for a common
+graphics format, namely GIF. The GIF specification permits
+embedding of a limited amount of metadata, such as a description of
+an image. The amount of such descriptions on the Internet is
+depressingly low, and the time is not yet ripe for launching
+services built on such metadata.</p>
+<h3><a name="3.5">3.5</a> Merging of metadata services with the
+Web Indexes</h3>
+<p>NetLab and DTV will eventually merge the current metadata
+services into the regular services. In doing that we will ensure
+that all metadata will be inter-operable with GILS.</p>
+<h3><a name="3.6">3.6</a> WWW archiving and the Combine</h3>
+These features were originally implemented in the earlier
+NWI-robot. Work is currently underway for moving archive software
+to the Combine [<a href="#not19">19</a>] robot.
+<h2><a name="4">4</a> Searching</h2>
+<p>Within the scope of the NWI II project, Index Data's [<a href=
+"#not20">20</a>] effort has been primarily focused on maintaining
+and extending the Zebra information retrieval package which is
+(currently) employed by each of the national NWI databases. Much of
+this work in turn has been focused on addressing the special
+requirements of the NWI project, posed both by the size of the
+databases and the heterogeneous nature of the information
+content.</p>
+<h3><a name="4.1">4.1</a> Record Representation</h3>
+Early in the project, it was decided to migrate the distributed
+system from the first version of the GILS (Government Information
+Locator Service) profile specification to the current, second,
+version of the profile. Index Data (ID) supplied the appropriate
+database schema specifications, as well as the requisite input
+mapping tables. Furtherimore, ID provided assistance during the
+transitory period while the participating access points and
+databases migrated to the new database profile.
+<h3><a name="4.2">4.2</a> Performance Tuning</h3>
+The increasing sizes of the national databases (more than two
+million records for the larger collections) have posed new,
+logistical challenges to the project. Multi-gigabyte databases
+require complex routines for maintenance, database updatei, and
+security. Search engine operations become increasingly critical as
+index update processes consume hours and even days. The Zebra
+search engine already provides support for secure updates to
+existing database without requiring a system shutdown. However,
+secondary storage requirements quickly become critical, and ID has
+produced a compression subsystem for the database index which
+drastically reduces the disk space requirements of the running
+system, as well as increasing overall performance. However, the
+space requirements and performance issues related to the continuous
+updates of the system remain an important issue which is subject of
+research at ID as well as the larger database operators in the
+project. The continuous, large-scale influx of record insertions,
+deletions, and updates which are inherent in a WWW directory pose a
+unique challenge to the database maintenance software.
+<h3><a name="4.3">4.3</a> Relevance Ranking</h3>
+<p>As the size of the larger national databases increased, it
+became apparent that the built-in relevance ranking algorithms did
+not provide sufficient recall when posed with the extremely
+heterogeneous contents of the free-text data harvested from the
+web. An additional challenge has been the differences in ranking
+results from the different national databases, caused by the
+different contents (ie. the same document would not necessarily be
+given the same absolute rank for the same query by the different
+databases). This is a natural property of statistical
+"natural-language" search engines, but nevertheless it complicated
+the cross-national search functionality of the NWI access points.
+Experiments with database-independent ranking-schemes, and
+eventually a conference of information retrieval experts from each
+of the participating, academic institutions led to the development
+by ID of a modular framework for the relevance calculator component
+of Zebra. This allows individual partners to experiment with the
+development of different relevance ranking metrics,and -
+eventually, it enables the project to draw on the considerable
+experience in natural-language searching which is available to the
+project - particularly at DTV and Netlab, in addition to ID
+itself.</p>
+<p>The project has seen a steady increase in the quality and recall
+of the Zebra search engine, although it is clear that there is
+still some work to do before the NWI service can match the
+sophisticated, proprietary approaches employed by dedicated,
+commercial services such as Alta Vista.</p>
+<h3><a name="4.4">4.4</a> Miscellaneous</h3>
+A steady stream of minor extensions to the functionality of the
+search engine has been supplied based on the requirements posed by
+the NWI system. These include alternate sorting schemes, functions
+for URL searches, new term relationship and masking functionality,
+and so forth. For ID, the project has further provided an important
+platform for verifying the system's performance on large and
+heterogeneous data sets.
+<h3><a name="4.5">4.5</a> Collaboration with other initiatives on
+searching</h3>
+Regarding searching, the NWI initiative participates in the
+European initiative for hierarchical indexing collaboration
+initiated by Terena [<a href="#not21">21</a>]. The goal is a
+cross-searching gateway which should be able to search a number of
+European Academic search engines through a single protocol
+(Whois++)
+<h2><a name="5">5</a> User interfaces</h2>
+<h3><a name="5.1">5.1</a> Add URL service</h3>
+<p>There is a page at the Danish service point where users can add
+a new or changed WWW-page to NWI. If the page is in a NWI domain
+the URL is automatically sent by mail to the appropriate service
+point. At the Danish service point such a mail is automatically
+processed further and the URL is scheduled for harvesting. This
+normally results in that the added WWW-page is harvested and
+inserted into the database within a day. Normally it becomes
+visible to the public within a week (i.e. the next time the
+database is indexed).</p>
+<p>If the site has an address in a domain outside the Nordic
+domains (<kbd>.dk, .fi, .fo, .gl, .is, .no, .se</kbd>) the user is
+asked to send a mail explaining why the site should be included in
+a Nordic database. These mails are processed manually and such
+sites are inserted into the "Other Nordic" database.</p>
+<p>In addition to the add URL service there is a direct connection
+between the Nordic Metadata tool and the Combine robot running at
+NetLab. A URL included as a Dublin Core identifier will be queued
+up for indexing the same day. Records with metadata are entered
+into Swemeta on a daily basis.</p>
+<h4><a name="5.1.1">5.1.1</a> ZGATE</h4>
+<p>The user interface software package is much simplified. The
+configuration parameters are now table driven and the feel and look
+of the user interface is specified with screen templates.</p>
+<h3><a name="5.2">5.2</a> Online help</h3>
+<p>Context sensitive online help have been included in the Danish
+service point [<a href="#not1">1</a>]. The help include general
+help text, hints and examples. Help is available from all
+pages.</p>
+<p>Another form of online help is an active page which investigates
+(in terms of expected number of hits), in real time, several
+different searches using various combinations of your search terms,
+database fields and boolean operators. The user interface allows
+entering a number of search terms and selecting database. A matrix
+with an estimate of what a number of search combinations will give
+in terms of hits. All the user have to do is to select a query with
+acceptable result set and click on it to get it executed. This help
+service is available from the Danish NWI home page and from the
+advanced search page.</p>
+<p style="text-align:center;"></p>
+<table>
+<caption>Example searching for ``nordisk web''. Entries in the
+matrix indicate expected number of hits</caption>
+<tr>
+<th></th>
+<td style="text-align:center;" colspan="5">Part of document</td>
+</tr>
+<tr>
+<th>Searching for</th>
+<th>authors</th>
+<th>titles</th>
+<th>descriptions</th>
+<th>headings</th>
+<th>anchor texts</th>
+<th>free text</th>
+</tr>
+<tr>
+<td>"nordisk web"</td>
+<td>0</td>
+<td>1</td>
+<td>0</td>
+<td>3</td>
+<td>140</td>
+<td>165</td>
+</tr>
+<tr>
+<td>nordisk and web</td>
+<td>0</td>
+<td>1</td>
+<td>5</td>
+<td>54</td>
+<td>399</td>
+<td>1616</td>
+</tr>
+<tr>
+<td>nordisk</td>
+<td>2</td>
+<td>1109</td>
+<td>107</td>
+<td>652</td>
+<td>2803</td>
+<td>13282</td>
+</tr>
+<tr>
+<td>web</td>
+<td>509</td>
+<td>7103</td>
+<td>4334</td>
+<td>9224</td>
+<td>26895</td>
+<td>108011</td>
+</tr>
+<tr>
+<td>nordisk or web</td>
+<td>511</td>
+<td>8211</td>
+<td>4436</td>
+<td>9822</td>
+<td>29299</td>
+<td>119677</td>
+</tr>
+</table>
+<p>Clicking on the number 54 will execute a search for 'nordisk and
+web' in the headings field which will give 54 hits.</p>
+<h4><a name="5.2.1">5.2.1</a> Metadata search user
+interfaces</h4>
+<p>Using this new user interface software package ZGATE, a number
+of advanced search user interfaces was easily developed, see the
+advanced search page at the Danish NWI node [<a href=
+"#not1">1</a>]. Examples include:</p>
+<ul>
+<li>Command line boolean: search allows the user write an
+arbitrarily complex boolean query directly in the input box.</li>
+<li>Forms based boolean: search aids the user in the construction
+of a boolean query by proving a form with menu's and input boxes
+that together defines a boolean query.</li>
+<li>Metadata searches: allows the user to make queries against
+metadata present in Danish and Swedish HTML-pages (danmeta and
+swemeta, respectively). There are about 150,000 records in each
+country, most of which can be searched for creator (author), title,
+subject and description. More advanced interfaces are available in
+the Safari project [<a href="#not9">9</a>]</li>
+</ul>
+In addition to these there are some experimental interfaces.
+<h3><a name="5.3">5.3</a> Robot-master user interface</h3>
+<p>In starting using the Desire project's Combine Harvesting Robot,
+we have significantly improved the user interface of the robot
+administration. It is still, however, based on a large number of
+scripts and the everyday monitoring of a Combine installation could
+be simplified. The current robot is configured by editing three
+configuration files:</p>
+<ul>
+<li><kbd>combine.config</kbd> contains the host-name(s) of
+server(s) involved in the harvesting process and port numbers that
+harvester components use for internal communication.</li>
+<li><kbd>config_allow</kbd> contains perl regular expressions that
+will have to match WWW-servers or URLs that are to be part of the
+region this installation covers. (The first step, positive
+selection)</li>
+<li><kbd>config_exclude</kbd> contains perl regular expressions
+that matches WWW-servers or URLs that not are to be part of the
+region this installation covers. (The second step, refining by
+exclusion)</li>
+</ul>
+Depending on the complexity of the region to covered the
+policy-filter configuration could be almost trivial (5-10 lines) or
+very complex (several 1000 lines with complex regular expressions).
+<p>Administrative/managing scripts have to be developed to suit
+local policies and needs. These may include removal of log-files,
+feeding newly found URLs into the harvester, checking and updating
+database records, reindexing database, making backups, etc.
+Examples of such scripts can be provided on request. A collection
+of such tools are planned to become available under the Combine
+home page [<a href="#not19">19</a>]. Other tools have been
+developed for handling of metadata based projects, where the
+harvester is checking the existence of specific metadata
+fields.</p>
+<p>A number of WWW-based system administration tools have been
+specified but are not yet implemented [<a href="#not22">22</a>].
+These include</p>
+<ul>
+<li>General configuration: A tool to generate and maintain
+configuration files.</li>
+<li>Database configuration: A WWW interface to generate a
+zebra.cfg.</li>
+<li>Harvesting configuration: This tool will generate/edit the
+files called etc/config_allow and etc/config_exclude</li>
+<li>Administration: A WWW based tool to administer day to day tasks
+of running the combine system</li>
+</ul>
+<h2><a name="6">6</a> Distribution and Documentation</h2>
+<p>The Combine harvesting robot [<a href="#not19">19</a>] is now
+distributed as free software [<a href="#not11">11</a>]. There is
+also extensive documentation available, covering most details of
+the software architecture and use. In particular, there are
+documents covering the installation along with cookbook examples
+[<a href="#not23">23</a>] and a more detailed User's Guide
+[<a href="#not24">24</a>]. There is additional information as well,
+although, some of which is still in preparation.</p>
+<h2><a name="7">7</a> Conclusions</h2>
+<p>The NWI II has proved to be a successful Nordic cooperation as
+both a development project and as a service it is still unique
+inasmuch as it provides tools and methodologies involving the
+following:</p>
+<ul>
+<li>a standardized search protocol which permits distributed
+searching</li>
+<li>cross searching with other databases including library
+OPACS.</li>
+<li>tools and methodologies for integrated WWW archiving and
+indexing</li>
+</ul>
+<p>The major drawback of the NWI initiative has been the lack of a
+solid organization for the service itself. The original partners in
+the project have not had resources to upgrade their software to the
+current level and some sites suffer from acute shortage of
+hardware.</p>
+<h2><a name="8">8</a> References</h2>
+<table border="0">
+<tr>
+<td valign="top" align="right"><font size="-1">1</font></td>
+<td><font size="-1">NWI Danish service point<br />
+&lt;<a name="not1" href="http://nwi.dtv.dk/" id=
+"not1">http://nwi.dtv.dk/</a>&gt;</font></td>
+</tr>
+<tr>
+<td valign="top" align="right"><font size="-1">2</font></td>
+<td><font size="-1">NWI Finland<br />
+&lt;<a name="not2" href="http://nwi.funet.fi/" id=
+"not2">http://nwi.funet.fi/</a>&gt;</font></td>
+</tr>
+<tr>
+<td valign="top" align="right"><font size="-1">3</font></td>
+<td><font size="-1">NWI Sweden<br />
+&lt;<a name="not3" href="http://nwi.lub.lu.se/" id=
+"not3">http://nwi.lub.lu.se/</a>&gt;</font></td>
+</tr>
+<tr>
+<td valign="top" align="right"><font size="-1">4</font></td>
+<td><font size="-1">NWI Norway<br />
+&lt;<a name="not4" href="http://nwi.bibsys.no/" id=
+"not4">http://nwi.bibsys.no/</a>&gt;</font></td>
+</tr>
+<tr>
+<td valign="top" align="right"><font size="-1">5</font></td>
+<td><font size="-1">NWI Iceland<br />
+&lt;<a name="not5" href="http://nwi.bok.hi.is/" id=
+"not5">http://nwi.bok.hi.is/</a>&gt;</font></td>
+</tr>
+<tr>
+<td valign="top" align="right"><font size="-1">6</font></td>
+<td><font size="-1">Øresundsuniversitetet<br />
+&lt;<a name="not6" href=
+"http://www.uni.oresund.org/studie/owiindex.htm" id=
+"not6">http://www.uni.oresund.org/studie/owiindex.htm</a>&gt;</font></td>
+</tr>
+<tr>
+<td valign="top" align="right"><font size="-1">7</font></td>
+<td><font size="-1">EUN Multimedia Schoolnet<br />
+&lt;<a name="not7" href="http://www.eun.org" id=
+"not7">http://www.eun.org</a>&gt;</font></td>
+</tr>
+<tr>
+<td valign="top" align="right"><font size="-1">8</font></td>
+<td><font size="-1">DTU demonstration page for evaluation<br />
+&lt;<a name="not8" href="http://nwi.dtv.dk/dtudtv.html" id=
+"not8">http://nwi.dtv.dk/dtudtv.html</a>&gt;</font></td>
+</tr>
+<tr>
+<td valign="top" align="right"><font size="-1">9</font></td>
+<td><font size="-1">SAFARI, the Swedish nation research information
+system<br />
+&lt;<a name="not9" href="http://safari.hsv.se/" id=
+"not9">http://safari.hsv.se/</a>&gt;</font></td>
+</tr>
+<tr>
+<td valign="top" align="right"><font size="-1">10</font></td>
+<td><font size="-1">SveSÖK<br />
+&lt;<a name="not10" href="http://www.svesok.kb.se/" id=
+"not10">http://www.svesok.kb.se/</a>&gt;</font></td>
+</tr>
+<tr>
+<td valign="top" align="right"><font size="-1">11</font></td>
+<td><font size="-1">General Public License<br />
+&lt;<a name="not11" href="http://www.gnu.org/copyleft/gpl.html" id=
+"not11">http://www.gnu.org/copyleft/gpl.html</a>&gt;</font></td>
+</tr>
+<tr>
+<td valign="top" align="right"><font size="-1">12</font></td>
+<td><font size="-1">A. Ardö and S. Lundberg, 1998. A regional
+distributed WWW search and indexing service -- the DEISRE way.
+Computer Networks and ISDN systems 30:173-183<br />
+&lt;<a name="not12" href="http://nwi.dtv.dk/www7/" id=
+"not12">http://nwi.dtv.dk/www7/</a>&gt;</font></td>
+</tr>
+<tr>
+<td valign="top" align="right"><font size="-1">13</font></td>
+<td><font size="-1">NWI: Presentation at NORDUnet '97 Conference in
+Reykjavik, Iceland June 29th - July 1st 1997<br />
+&lt;<a name="not13" href="http://nwi.dtv.dk/nordunet/" id=
+"not13">http://nwi.dtv.dk/nordunet/</a>&gt;</font></td>
+</tr>
+<tr>
+<td valign="top" align="right"><font size="-1">14</font></td>
+<td><font size="-1">S. Lundberg, 1997. The cooperative harvesting
+and indexing workshop in Reykjavik 29 June 1997<br />
+&lt;<a name="not14" href="http://www.ub.lu.se/ind_work_shop.html"
+id=
+"not14">http://www.ub.lu.se/ind_work_shop.html</a>&gt;</font></td>
+</tr>
+<tr>
+<td valign="top" align="right"><font size="-1">15</font></td>
+<td><font size="-1">Metadata mappings and statistics<br />
+&lt;<a name="not15" href="http://nwi.dtv.dk/MD/" id=
+"not15">http://nwi.dtv.dk/MD/</a>&gt;</font></td>
+</tr>
+<tr>
+<td valign="top" align="right"><font size="-1">16</font></td>
+<td><font size="-1">The local course directory<br />
+&lt;<a name="not16" href="http://info.adm.umu.se/utbkat/" id=
+"not16">http://info.adm.umu.se/utbkat/</a>&gt;</font></td>
+</tr>
+<tr>
+<td valign="top" align="right"><font size="-1">17</font></td>
+<td><font size="-1">The ASKen project<br />
+&lt;<a name="not17" href="http://asken.hsv.se/" id=
+"not17">http://asken.hsv.se/</a>&gt;</font></td>
+</tr>
+<tr>
+<td valign="top" align="right"><font size="-1">18</font></td>
+<td><font size="-1">Kulturarw3<br />
+&lt;<a name="not18" href="http://kulturarw3.kb.se/" id=
+"not18">http://kulturarw3.kb.se/</a>&gt;</font></td>
+</tr>
+<tr>
+<td valign="top" align="right"><font size="-1">19</font></td>
+<td><font size="-1">The Combine Harvesting Robot<br />
+&lt;<a name="not19" href="http://www.lub.lu.se/combine/" id=
+"not19">http://www.lub.lu.se/combine/</a>&gt;</font></td>
+</tr>
+<tr>
+<td valign="top" align="right"><font size="-1">20</font></td>
+<td><font size="-1">Index Data Aps<br />
+&lt;<a name="not20" href="http://www.indexdata.dk/" id=
+"not20">http://www.indexdata.dk/</a>&gt;</font></td>
+</tr>
+<tr>
+<td valign="top" align="right"><font size="-1">21</font></td>
+<td><font size="-1">Cooperative Hierarchical Indexing
+Coordination<br />
+&lt;<a name="not21" href=
+"http://www.terena.nl/task-forces/tf-chic/" id=
+"not21">http://www.terena.nl/task-forces/tf-chic/</a>&gt;</font></td>
+</tr>
+<tr>
+<td valign="top" align="right"><font size="-1">22</font></td>
+<td><font size="-1">Unesco Regional Web Index Config Tool<br />
+&lt;<a name="not22" href="http://nwi.dtv.dk/UNESCO/Configtool.html"
+id=
+"not22">http://nwi.dtv.dk/UNESCO/Configtool.html</a>&gt;</font></td>
+</tr>
+<tr>
+<td valign="top" align="right"><font size="-1">23</font></td>
+<td><font size="-1">The Combine README<br />
+&lt;<a name="not23" href=
+"http://www.lub.lu.se/combine/dist/README-v1.1.txt" id=
+"not23">http://www.lub.lu.se/combine/dist/README-v1.1.txt</a>&gt;</font></td>
+</tr>
+<tr>
+<td valign="top" align="right"><font size="-1">24</font></td>
+<td><font size="-1">Combine User's Guide<br />
+&lt;<a name="not24" href=
+"http://www.lub.lu.se/combine/docs/uguide.html" id=
+"not24">http://www.lub.lu.se/combine/docs/uguide.html</a>&gt;</font></td>
+</tr>
+</table>
+<!--#include virtual="/js/urchin.js" -->
+</body>
+</html>

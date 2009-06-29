@@ -1,0 +1,33 @@
+
+&lt;meta name="DC.Identifier"
+         scheme="URL"
+         content="http://www.mh.se/utbildning/UtbKat/Kurs.asp?kurskod=MAAA45"/&gt;
+&lt;meta name="DC.Title"
+         content="MATEMATIK A, 5 p, Geometri och statistik" /&gt;
+
+&lt;meta name="DC.Subject"
+	 scheme="STUDERA"
+	 content="400.600" /&gt;
+
+&lt;meta name="DC.Publisher"
+	 scheme="STUDERA"
+	 content="mh" /&gt;
+
+&lt;meta name="STUDERA.identifier"
+	 content="mh-MAAA45" /&gt;
+
+&lt;meta name="STUDERA.type"
+	 content="Grundkurs" /&gt;
+
+&lt;meta name="STUDERA.prerequisites"
+	 content="standard" /&gt;
+
+&lt;meta name="STUDERA.event"
+	 content="mh-70211;2001p4;flexibel;full;2280;sv;dag;" /&gt;
+
+&lt;meta name="STUDERA.event"
+	 content="mh-70204;2002p1;bunden;full;2280;sv;dag;" /&gt;
+
+&lt;meta name="STUDERA.event"
+	 content="mh-70206;2002p1;flexibel;full;2280;sv;dag;" /&gt;
+

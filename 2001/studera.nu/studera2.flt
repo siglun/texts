@@ -1,0 +1,97 @@
+#
+# Input-filter for the WIR record syntax. Output is 'gils-like'.
+#
+#
+
+/<wir>/			{ begin record gils }
+
+/<robot>/ BODY /<\/robot>/ {}
+
+# A mapping of a better part of DC to gils
+
+/<controlled-terms>/	{ begin element controlledSubjectIndex }
+
+/<cterm>/ BODY /<\/cterm>/ { data -element  subjectTermsControlled $1 }
+
+/<\/controlled-terms>/	{ end element }
+
+/<orig-rec-id>/ BODY /<\/<orig-rec-id>/ { data -element originalControlIdentifier $1 }
+/<title>/ BODY /<\/title>/ { data -element title $1 }
+
+/<access>/ { begin element accessConstraints }
+/<constraint>/ BODY /<\/constraint>/ {data -element generalAccessConstraints $1 }
+
+/<\/access>/ { end element }
+
+/<language>/ BODY /<\/language>/ { data -element languageOfResource $1 }
+
+/<purpose>[ \n]*/ {}
+
+/<exam>/ BODY /<\/exam>/	{ data -element purpose $1 }
+
+/<profession>/ BODY /<\/profession>/ { data -element profession $1 }
+
+/[ \n]*<\/purpose>/ {}
+
+/<date-modified>/ BODY /<\/date-modified>/ { data -element dateOfLastModification $1 }
+
+/<date-published>/ BODY /<\/date-published>/ { data -element dateOfPublication $1 }
+
+/<place-published>/ BODY /<\/date-published>/ { data -element placeOfPublication $1 }
+
+/<rec-id>/ BODY /<\/rec-id>/	{ data -element controlIdentifier $1 }
+
+/<rec-checked>/ BODY /<\/rec-checked>/	{ data -element recordReviewDate $1 }
+
+/<availability>/	{ begin element availability }
+
+/<publisher>/ BODY /<\/publisher>/ { begin element distributor;
+					data -element name $1;
+					end element; }
+
+/<available>/	{begin element availableLinkage }
+
+/<linkage>/ BODY /<\/linkage>/ { data -element linkage $1 }
+
+/<format>/ BODY /<\/format>/ { data -element linkageType $1 }
+
+/<\/available>/	{ end element }
+
+/<size>/ BODY /<\/size>/     { data -element bytes $1 }
+
+/<schedule>/ { begin element orderProcess }
+/<event>/ BODY /<\/event>/ { data -element orderInformation $1 }
+/<\/schedule>/ { end element; }
+
+/<medium>/ BODY /<\/medium>/ { data -element medium $1 }
+
+/<\/availability>/      { end element }
+
+
+/<sample>/ { begin element sampleText } 
+/<heading>/ BODY /<\/heading/   { data -text $1 }
+/<text>/ BODY /<\/text>/ { data -text $1 }
+/<\/sample>/  { end element }
+
+/<relation>/ { begin element crossReference }
+
+/<phrase>/ BODY /<\/phrase>/ { data -element title $1 } 
+
+/<uri>/ BODY /<\/uri>/ { begin element crossReferenceLinkage;
+                         data -element linkage $1;
+                         end element; }
+
+
+/<type>/ BODY /<\/type>/ { data -element  Relationship $1 }
+
+
+/<\/relation>/ { end element }
+
+
+/<\/wir>/			{ end record }
+
+# Generic end-marker
+
+/<\/[^>]*>/                      { end element }
+/\n/                             { }
+/./				 {}

@@ -1,0 +1,67 @@
+body {
+	background-color:	#fff;
+        font-family:		Times;
+	margin-left:		10%; 
+	margin-right:		10%;
+}
+
+table, tbody tr, td {
+	background-color:	#fff;
+	vertical-align:		top;
+	color:			black;
+        font-family:		Times;
+}
+
+table.toc {
+	margin-left:		10%; 
+	margin-right:		10%; 
+}
+
+td.endnotes {
+}
+
+.author {
+	background-color:	#fff;
+	text-align:		left;
+	color:			black;
+	margin-left:		5%; 
+	margin-right:		5%; 
+	text-align:		center;
+}
+
+.abstract {
+	background-color:	#fff;
+	text-align:		left;
+	color:			black;
+	margin-left:		5%; 
+/*       	font-size:		90%;*/
+}
+
+h1,h2,h3,h4,h5,h6,h7 {
+/*       	font-size:		110%;*/
+	font-weight:		bold;
+}
+
+h1.title {
+/*       	font-size:		110%;*/
+	text-align:		center;
+	font-weight:		bold;
+}
+
+h1.subtitle {
+/*       	font-size:		110%;*/
+	text-align:		center;
+	font-style:		italic;
+	font-weight:		normal;
+}
+
+pre  {
+       	font-size:		90%;
+        font-family:		Courier;
+	font-weight:		normal;
+	margin-left:		5%; 
+}
+
+
+
+

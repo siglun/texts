@@ -1,0 +1,621 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+  <head>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+    <meta name="generator" content="HTML Tidy for Linux (vers 31 October 2006), see www.w3.org" />
+    <meta name="WWW7-SIN" content="217" />
+    <meta name="DC.Date.X-MetadataLastModified" content="(SCHEME=ISO8601) 1998-02-14" />
+    <link rel="SCHEMA.dc" href="http://purl.org/metadata/dublin_core_elements#date" />
+    <meta name="DC.Title" content="A regional distributed WWW search and indexing service - the DESIRE way" />
+    <link rel="SCHEMA.dc" href="http://purl.org/metadata/dublin_core_elements#title" />
+    <meta name="DC.Creator.PersonalName" content="Ardö, Anders" />
+    <link rel="SCHEMA.dc" href="http://purl.org/metadata/dublin_core_elements#creator" />
+    <meta name="DC.Creator.PersonalName.Address" content="and@dtv.dk" />
+    <link rel="SCHEMA.dc" href="http://purl.org/metadata/dublin_core_elements#creator" />
+    <meta name="DC.Creator.2" content="Lundberg, Sigfrid" />
+    <link rel="SCHEMA.dc" href="http://purl.org/metadata/dublin_core_elements#creator" />
+    <meta name="DC.Creator.Address.2" content="Sigfrid.Lundberg@lub.lu.se" />
+    <link rel="SCHEMA.dc" href="http://purl.org/metadata/dublin_core_elements#creator" />
+    <meta name="DC.Subject" content="search engines" />
+    <link rel="SCHEMA.dc" href="http://purl.org/metadata/dublin_core_elements#subject" />
+    <meta name="DC.Subject" content="metadata" />
+    <link rel="SCHEMA.dc" href="http://purl.org/metadata/dublin_core_elements#subject" />
+    <meta name="DC.Subject" content="multi-lingual" />
+    <link rel="SCHEMA.dc" href="http://purl.org/metadata/dublin_core_elements#subject" />
+    <meta name="DC.Subject" content="digital libraries" />
+    <link rel="SCHEMA.dc" href="http://purl.org/metadata/dublin_core_elements#subject" />
+    <meta name="DC.Subject" content="WWW harvesting" />
+    <link rel="SCHEMA.dc" href="http://purl.org/metadata/dublin_core_elements#subject" />
+    <meta name="DC.Description" content="In an attempt to implement a regional search engine we have created an open, metadata aware system for distributed, collaborative WWW-indexing. The system has three main components: a harvester (for collecting information), a database (for making the collection searchable), and a user interface (for making the information available). All components can be distributed across networked computers, thus supporting scalability. The system is metadata aware and thus allows searches on several fields including title, document author, and URL. Nordic Web Index (NWI) is an application using this system to create a regional Nordic web-indexing service. NWI is built using five collaborating service points within the Nordic countries. The NWI databases can be used to build additional services. Services today include special metadata databases, multimedia databases, and statistics about the Nordic Web." />
+    <link rel="SCHEMA.dc" href="http://purl.org/metadata/dublin_core_elements#description" />
+    <meta name="DC.Date" content="(SCHEME=ISO8601) 1998-02-14" />
+    <link rel="SCHEMA.dc" href="http://purl.org/metadata/dublin_core_elements#date" />
+    <meta name="DC.Type" content="Text.TechReport" />
+    <link rel="SCHEMA.dc" href="http://purl.org/metadata/dublin_core_elements#type" />
+    <meta name="DC.Format" content="(SCHEME=IMT) text/html" />
+    <link rel="SCHEMA.dc" href="http://purl.org/metadata/dublin_core_elements#format" />
+    <link rel="SCHEMA.imt" href="http://sunsite.auc.dk/RFC/rfc/rfc2046.html" />
+    <meta name="DC.Identifier" content="http://nwi.dtv.dk/www7/" />
+    <link rel="SCHEMA.dc" href="http://purl.org/metadata/dublin_core_elements#identifier" />
+    <meta name="DC.Language" content="(SCHEME=ISO639-1) en" />
+    <link rel="SCHEMA.dc" href="http://purl.org/metadata/dublin_core_elements#language" />
+    <title>A regional distributed WWW search and indexing service - the
+DESIRE way</title>
+  </head>
+  <body bgcolor="#FFFFFF"><center><h1>A regional distributed WWW search and indexing service - the
+DESIRE way</h1><table border="0"><tr><th><a href="http://www.lub.lu.se/anders.html">Anders Ardö</a></th><td>and</td><th>Sigfrid Lundberg</th></tr><tr><td align="center">Technical Knowledge Center &amp;<br />
+Library of Denmark, DTV</td><td></td><td align="center">NetLab,<br />
+Lund University Library</td></tr><tr><td align="center">P.O. Box 777,<br />
+DK-2800 Lyngby, Denmark</td><td></td><td align="center">P.O. Box 3,<br />
+S-221 00 Lund, Sweden</td></tr><tr><td align="center"></td><td align="center"></td></tr><tr><td align="center">Phone: +45 4525 7347</td><td></td><td align="center">+46 46 222 3683</td></tr><tr><td align="center">Email: <a href="mailto:and@dtv.dk">and@dtv.dk</a></td><td></td><td align="center">Email: <a href="mailto:sigfrid.lundberg@lub.lu.se">sigfrid.lundberg@lub.lu.se</a></td></tr></table><h3>Abstract</h3></center><blockquote><i>In an attempt to implement a regional search engine
+we have created an open, metadata aware system for distributed,
+collaborative WWW-indexing. The system has three main components: a
+<b>harvester</b> (for collecting information), a <b>database</b>
+(for making the collection searchable), and a <b>user interface</b>
+(for making the information available). All components can be
+distributed across networked computers, thus supporting
+scalability. The system is metadata aware and thus allows searches
+on several fields including title, document author, and URL. Nordic
+Web Index (NWI) is an application using this system to create a
+regional Nordic web-indexing service. NWI is built using five
+collaborating service points within the Nordic countries. The NWI
+databases can be used to build additional services. Services today
+include special metadata databases, multimedia databases, and
+statistics about the Nordic Web.</i></blockquote>
+Keywords: search engines, metadata, multi-lingual, digital
+libraries, WWW harvesting
+<h2>1. Introduction</h2>
+WWW is not <i>per se</i>, and never was intended for the finding of
+information on the vast information morass called the Internet.
+<i>Search engines</i> have been developed to that end. These search
+engines are basically databases, that obtain their information
+through special-purpose, automated WWW clients (i.e. robots,
+spiders) that more or less intelligently and automatically maneuver
+themselves through the information by following the hypertext links
+found in the WWW documents. Today, search engines and search
+services constitute important components in any digital library.
+<p>Much of the work presented here has been done in the context of
+DESIRE [<a href="#ref8">8</a>], an European Union project in the
+Telematics Applications programme, Telematics for Research which
+aims at the following (quote):</p>
+<ul><li><em>meeting the needs of research users for better means of
+locating the information that is relevant to their research
+endeavor.</em></li><li><em>creating subject-based information gateways (distributed
+resource discovery based on rich descriptions and
+quality-controlled resource catalogs based on specific subject
+areas) by providing methods and tools for the development of
+quality-controlled information catalogs.</em></li><li><em>creating an exhaustive automated indexing of existing World
+Wide Web information sources in all subject areas by providing
+methods and tools for automatic indexing of information in the
+World-Wide Web.</em></li></ul>
+In this paper, the Nordic Web Index will be used as a primary
+example to illustrate an open standards, metadata-aware system for
+distributed, collaborative WWW-indexing. The Nordic Web Index (NWI)
+is a joint Nordic project providing a searchable, distributed
+database covering all information on the Nordic web and based on
+software developed in DESIRE.
+<h3>1.1 Aims</h3>
+The project aimed at building a system which:
+<ul><li>is <b>distributed</b> (the growth of Internet will make the
+global, centralized search engines unwieldy)</li><li>builds upon <b>collaboration</b> between several different
+`service providers'</li><li>is independent of commercial interests and based on a public
+service philosophy</li><li>should correctly handle Nordic characters such as å and ø</li><li>builds upon <b>open standards</b> such as Z39.50 [<a href="#ref18">18</a>] and Dublin Core [<a href="#ref16">16</a>, <a href="#ref20">20</a>]</li><li>makes it possible to accumulate a base of knowledge and
+experience in the area, which is independent of commercial
+interests (and hence publicly available).</li></ul>
+<p>While developing the NWI, we have given interoperability the
+highest priority. The importance of the adherence to open standards
+and the free access to methodologies and knowledge on the Internet
+can not be exaggerated. This includes our WWW documents, which are
+not restricted to particular brands of WWW client.</p>
+<p>However, interoperability does not end with World Wide Web and
+HTTP. For NWI, openness goes further: Information retrieval is made
+according to standard protocols, which makes it possible to cross
+search NWI with other bibliographic databases, such as library
+catalogs, for instance. In addition, all NWI software is freely
+available via the Net.</p>
+<p>NWI's goals can be defined as the creation of a service that is
+continuously and automatically is identifying and indexing all
+information available on WWW in the Nordic domains. In order to
+achieve this end, the system must have these functions:</p>
+<ul><li>A harvester (robot) - for collecting information.</li><li>A database - for making it searchable using an information
+retrieval protocol (Z39.50).</li><li>A user interface - for making the information available for the
+general public (using a gateway between WWW and Z39.50).</li></ul>
+<p>The harvester, which collects the information, starts by
+retrieving one page exactly the same way as an ordinary browser
+does it. A database is created by a program which analyzes the
+retrieved page and extracting parts to create a record in the
+database. All records in the database are indexed in order to make
+them searchable. The user interface presents each item in the
+result set with the title of the resource, a paragraph of text
+summarizing information form the resources, and a hypertext link to
+the original source.</p>
+<p>As of November 1997, there are five NWI servers, one in each of
+the five Nordic countries (Table 1). They cover one country each,
+except for Denmark which also harvests from Greenland and the Faroe
+Islands. The total size of the combined databases is 4 - 5 million
+records.</p>
+<table style="text-align:left;" border="1"><caption>Table 1. NWI services in the Nordic countries autumn
+1997</caption><tr><th>Country</th><th>Service URL</th><th>Service Provider</th></tr><tr><td>Denmark</td><td><a href="http://nwi.dtv.dk/">http://nwi.dtv.dk/</a></td><td><a href="http://www.dtv.dk/">DTV</a></td></tr><tr><td>Finland</td><td><a href="http://nwi.funet.fi/">http://nwi.funet.fi/</a></td><td><a href="http://www.funet.fi/">Funet</a><br /></td></tr><tr><td>Iceland</td><td><a href="http://nwi.bok.hi.is/">http://nwi.bok.hi.is/</a></td><td><a href="http://www.bok.hi.is/">National Library of
+Iceland</a></td></tr><tr><td>Norway</td><td><a href="http://nwi.bibsys.no/">http://nwi.bibsys.no/</a></td><td><a href="http://www.bibsys.no/">Bibsys</a></td></tr><tr><td>Sweden</td><td><a href="http://nwi.lub.lu.se/">http://nwi.lub.lu.se/</a></td><td><a href="http://www.lub.lu.se/netlab.html">NetLab</a> at
+<a href="http://www.lub.lu.se/">Lund University Library</a></td></tr></table>
+<h2>2. Background</h2>
+NWI traces its origin to the project "Nordic WAIS/World Wide Web
+Project" (W4) [<a href="#ref1">1</a>, <a href="#ref2">2</a>,
+<a href="#ref3">3</a>, <a href="#ref4">4</a>] which was started
+1993. The goal of that project was to (quoting):
+<ul><li><em>Contribute to the development of gateway services between
+two of the popular protocols, WAIS and WWW.</em></li><li><em>Contribute to the understanding of the problems involved by
+integrating a typical state-of-the-art library system in the World
+Wide Web.</em></li><li><em>Contribute to the solution of the resource discovery
+problem by using the WWW hypertext systems as a well organized
+front end to the information resources offered by hundreds of WAIS
+servers, and by using WAIS to establish a searchable database of
+the WWW-based information resources which can otherwise only be
+located through extensive browsing.</em></li></ul>
+<p>W4 was followed by other related projects. Europagate [<a href="#ref18">5</a>] was one of those. In Europagate, the
+gateway-technology from the W4 project was developed further. A
+gateway can be described as a computer program which is translating
+between two communication protocols (the language computers speak
+to each other) in much the same way as a human being can interpret
+between, say, Swedish and English. There were also other
+developments, for example the Z39.50 protocol [<a href="#ref18">18</a>] replaced WAIS [<a href="#ref19">19</a>] for
+networked information retrieval.</p>
+The task of developing a harvesting component, and the integration
+of a database, a user interface and a gateway were made the pilot
+project NWI [<a href="#ref6">6</a>]. Through a number of service
+providers, one in each of the Nordic countries, the first version
+of the NWI system was realized early in 1997.
+<p>That system is currently being developed further in a number of
+other projects, the most important ones are part of DESIRE
+[<a href="#ref8">8</a>, <a href="#ref9">9</a>] (where NWI is the
+prime demonstrator) and NWI-II [<a href="#ref7">7</a>].</p>
+<p>NWI-II aims at improving the existing service through the
+adoption of new standards and protocols, such as Dublin Core
+Metadata [<a href="#ref20">20</a>] in collaboration with the Nordic
+Metadata project [<a href="#ref10">10</a>]), and other technical
+improvements.</p>
+<h3>2.1 Related projects</h3>
+The general usefulness of search engine technology was for us an
+unexpected bonus. This became especially clear as our experience of
+search engine technology deepened. There now are ongoing projects
+and initiatives that are directly benefiting from the experience
+gained through the NWI and the technology developed.
+<p>NWI technology is used in projects such as the Nordic Metadata
+project [<a href="#ref10">10</a>], Kulturarw<sup>3</sup> [<a href="#ref11">11</a>], "All" Engineering resources on the Internet
+(EELS) [<a href="#ref14">14</a>] and the European Schoolnet (EUN)
+[<a href="#ref15">15</a>]. Other initiatives will draw upon the NWI
+and related technologies in the building of more specialized
+services within widely different areas.</p>
+<p>Two related activities are Harvest and TERENA--TF-CHIC. Harvest
+[<a href="#ref22">22</a>] is one of the early and open projects
+trying to define a harvesting architecture for Internet. In
+addition, there is an interesting task force within TERENA
+(Trans-European Research and Education Networking Association)
+[<a href="#ref12">12</a>] -- TF-CHIC (Cooperative Hierarchical
+Indexing Coordination) [<a href="#ref13">13</a>] which is working
+on means of integration between different systems for harvesting,
+indexing and searching on the Internet. NWI, harvest and other
+projects are contributing to the TF-CHIC effort.</p>
+<h2>3. System architecture</h2>
+Distributed data collection implies that a number of servers will
+each have the responsibility for one or more <i>regions</i> or
+<i>domains</i> in a broad sense. These areas of responsibility can
+be assigned based upon actual network domains, organizations or
+geographical domains just as easily as they could be domains of
+human knowledge.
+<p>Through the distribution of data collection, as well as the
+provisioning of server functions, the network load exerted by a
+search engine can be minimized and its availability be
+maximized.</p>
+<p>An important part of the architecture is an easy way to filter
+the sets of URLs to be indexed according to some subject or domain.
+Before a random set of URLs is loaded into the scheduler for
+processing, they are filtered through an external policy-filter.
+This filter, which is localized for each installation, determines
+what URLs are to be harvested given the policy adopted by the
+installation. It thus defines the region or domain a particular
+installation will cover. The current NWI services are basing their
+policy-filtering on network domains (i.e., *.se, *.dk, *.fi, ...)
+but it could be as complex as giving a list of servers and URLs to
+be included.</p>
+<p>Policy-filtering uses a two step selection process. First a
+positive selection is done, ie selecting all URLs that constitute
+this region (for example all servers in the .dk domain, a list of
+selected servers or even more specific only certain directories on
+certain servers). Secondly this selection is refined by excluding
+not wanted URLs (for example cgi-scripts, binary files or a special
+directory on one server).</p>
+<p>The overall architecture for NWI is shown in <a href="#fig1">Figure 1</a>. National service points have been established
+in all participating countries. Each service point has the
+responsibility for building and maintaining a database covering its
+country. The database is made available through the Z39.50 protocol
+[<a href="#ref18">18</a>] using GILS profile [<a href="#ref25">25</a>]. Z39.50 is an international standard protocol for
+searching bibliographic networked databases.</p>
+<p>The basic architecture of NWI (see <a href="#fig1">Figure 1</a>)
+implies that, e.g. the Danish server collects information
+physically located in Denmark and builds a database of that
+information. In addition it will be responsible for the Danish user
+interface and also a networked Z39.50 interface to NWI servers
+elsewhere. NWI is using the Z39.50 based text search engine Zebra
+Information Server [<a href="#ref21">21</a>] together with the
+Europagate [<a href="#ref5">5</a>] WWW - Z3950 gateway. However,
+the service points could use any other system adhering to standards
+supported by NWI since most of the components can easily be
+replaced. And there are indeed local variations, both as regards
+user interface and configuration of the software.</p>
+<p>Z39.50 and the gateway technology developed in Europagate
+[<a href="#ref5">5</a>] make possible simultaneous cross searching
+in several different databases. If one site should be inaccessible,
+then the corresponding database will be unavailable. However, the
+remaining of the databases will still be available, and users could
+turn to a user interface in a neighboring country.</p>
+<div style="text-align:left;"><a name="fig1" id="fig1"><img src="nwiarkbw.gif" alt="figure 1"/></a><br />
+Figure 1. The NWI global architecture. In each Nordic country there
+is at least one robot (H) harvesting objects, and maintaining a
+database (DB) and a server providing a WWW-based user
+interface.</div>
+<h3>3.1 Internal structure</h3>
+Each local NWI service is a complicated structure with many
+integrated functions, of which only one, the user interface is
+visible for the end users. <a href="#fig2">Figure 2</a> shows these
+components and how they interact in the production of one result
+set exposed to an end user.
+<div style="text-align:left;"><a name="fig2" id="fig2"><img src="locarch.gif"  alt="Figure 2"/></a><br />
+Figure 2. Locally a NWI system consists of the components shown in
+<a href="#fig1">Figure 1</a>. The components may run on a single
+computer, or be distributed on several for improved
+performance.</div>
+<h4>Harvester</h4>
+The NWI robot, the <b><i>harvester</i></b>, obtains its work
+assignment from a program called <b><i>scheduler</i></b>. The
+scheduler coordinates much of the work in the harvesting system. It
+receives lists of URLs for harvesting and stores them internally.
+When a harvester is idle, it connects to the scheduler across the
+network and asks for a new URL to be harvested.
+<p>Part of scheduler's task is performed by a subsystem called
+<b><i>guard</i></b> which keeps information on all URLs in a simple
+database. Guard makes decisions on whether any given URL may be
+retrieved, based on two conditions:</p>
+<ul><li>Robot exclusion protocol [<a href="#ref17">17</a>] which is a
+standardized way for web-masters to give directives to with
+harvesting robots, and in particular give information on what areas
+on servers that are unsuitable for indexing.</li><li>That NWI should be a good netizen and neither put unnecessary
+load on any server or network, nor should NWI retrieve any one URL
+too often.</li></ul>
+If the scheduler gets the proper permissions from guard it delivers
+the URL to a harvester which will issue a get-if-modified-since
+request for the item in question. This means that the harvester
+will get the object if it has been modified since it was last
+indexed by NWI. If the object has not been modified, the server
+will indicate that this is the case.
+<p>While analyzing each retrieved object, the robot will also
+create a list of all URLs encountered. The NWI URL-feedback cycle
+is completed by the submission of this list to the scheduler for
+indexing. Before submission the lists must be filtered through the
+policy filter to ensure that they fulfill the local selection
+criteria. Currently, this means that the objects to be indexed have
+to be stored on servers located in one of the Nordic domains. This
+feedback of URLs is used for resource discovery by the NWI system
+and will eventually lead NWI to all (linked) pages within its
+domain.</p>
+<h4>Database</h4>
+<p>By default NWI does not store retrieved material in its original
+form. Instead the robot creates a database record corresponding to
+a catalog card in a library. The NWI record contains detailed
+structured information, both inferred and extracted. Extracted
+information is stored in fields corresponding to different HTML
+structures. All SGML entities (as &amp;ouml; for ö) are converted
+to ISO 8859-1 characters in order to make them searchable. For
+examples of HTML elements extracted to separate fields in the
+records see (Table 2)</p>
+<!-- do you have a description of inferred data in a NWI record? - ldn -->
+<table style="text-align:left;" border="2"><caption>Table 2. The most important HTML elements extracted from
+WWW pages by the NWI robot for use in fielded searches.</caption><tr><th>HTML element</th><th>HTML code</th><th>Representation<br />
+in record</th></tr><tr><td align="center">Metadata</td><td><tt>&lt;meta name="</tt>X<tt>"
+content="</tt>Y<tt>"&gt;</tt></td><td>&lt;metaX&gt; Y</td></tr><tr><td align="center">Title</td><td><tt>&lt;TITLE&gt;</tt> X <tt>&lt;/TITLE&gt;</tt></td><td>&lt;ti&gt; X</td></tr><tr><td align="center">Headings</td><td><tt>&lt;Hx&gt;</tt> X <tt>&lt;/Hx&gt;</tt></td><td>&lt;dh&gt; X</td></tr><tr><td align="center">Links</td><td><tt>&lt;A HREF="</tt> X <tt>"&gt;Y</tt></td><td>&lt;li&gt; X</td></tr><tr><td align="center">Anchor texts</td><td><tt>&lt;A HREF="X"&gt;</tt> Y<tt>&lt;/A&gt;</tt></td><td>&lt;cp&gt; Y</td></tr><tr><td align="center">Other textual information except<br />
+HTML comments and tags</td><td align="center">X</td><td>&lt;ip&gt; X&lt;/ip&gt;</td></tr></table>
+<p>In the following we will give an example on how a record is
+created from a small piece of HTML (Figure 3). How this piece of
+HTML is interpreted by the NWI robot is shown in Figure 4.</p>
+<table style="text-align:left;"><tr><td><pre>
+&lt;html&gt;&lt;head&gt;
+&lt;title&gt;NWI test page&lt;/title&gt;
+&lt;meta name="DC.creator" content="Sigfrid Lundberg"&gt;
+&lt;/head&gt;&lt;body bgcolor="#FFFFEE"&gt;
+&lt;h1&gt;Demonstration of NWI record format&lt;/h1&gt;
+&lt;a href="http://nwi.dtv.dk/"&gt;NWI&lt;/a&gt;
+- a distributed search engine
+(s&amp;ouml;ktj&amp;auml;nst) for Nordic Web pages.
+&lt;!-- Just a demopage --&gt;
+&lt;/body&gt;&lt;/html&gt;
+</pre></td></tr><tr><td align="center">Figure 3. A simple HTML page demonstrating how
+certain HTML structures are interpreted by the NWI robot</td></tr></table>
+<p>In order to keep up with the rapid change of the Web, the
+database has to be updated continuously. Each record has to be
+checked against the corresponding object on the Net. Due to its
+inherent scalability based on distribution, the NWI demonstrator is
+capable of checking all 4 - 5 Million pages in about 1 - 2 weeks.
+In practice we do a complete round trip in about one month.</p>
+<table style="text-align:left;"><tr><td><pre>
+&lt;nwi&gt;
+&lt;ti&gt; NWI test page
+&lt;dm&gt; Fri Jul 18 11:41:54 MET DST 1997
+&lt;ci&gt; nwi.dtv.dk/nwitest.html
+&lt;si&gt;
+ &lt;lc&gt; Fri Jul 18 11:45:17 MET DST 1997
+ &lt;by&gt; 322
+ &lt;srvr&gt; Apache/1.0.5
+ &lt;metadc.creator&gt; Sigfrid Lundberg
+&lt;/si&gt;
+&lt;av&gt;
+ &lt;avli&gt; http://nwi.dtv.dk/nwitest.html
+ &lt;ty&gt; text/html
+&lt;/av&gt;
+&lt;lsi&gt;
+ &lt;dh&gt; Demonstration of NWI record format
+&lt;/lsi&gt;
+&lt;ip&gt;
+NWI - en distributed search engine (söktjänst)
+for Nordic Web pages.
+&lt;/ip&gt;
+&lt;cr&gt;
+ &lt;li&gt; http://nwi.dtv.dk/
+ &lt;cp&gt; NWI
+&lt;/cr&gt;
+&lt;/nwi&gt;
+</pre></td></tr><tr><td>Figure 4. A simple record demonstrating how certain HTML
+structures have been interpreted by the NWI-robot. See Figure
+3.</td></tr></table>
+<h2>4. Searching the NWI</h2>
+<p>The NWI user interface is accessed via the WWW. The user may
+also choose to simultaneously cross search of several regional
+databases, or to restrict the search to just one. The interface
+also guides the user to the server closest to his or her site. It
+is straight forward to adapt the user interface to local
+conditions, for instance to translate it to national languages.
+Hence NWI today, through local efforts, has a multi-lingual user
+interface, supporting five Nordic languages as well as English. In
+modern WWW clients supporting HTTP 1.1 [<a href="#ref24">24</a>],
+it is possible to give a ranked list of language preferences. That
+list is used for linguistic hand shaking between client and server,
+which is supported in recent versions of Netscape Navigator and
+Microsoft Internet Explorer. NWI also supports this way of
+selecting language.</p>
+<h3>4.1 The NWI user interface</h3>
+<p>The current NWI user interface supports two search modes, simple
+and advanced. Below we will demonstrate these in English and
+Swedish. The only options in the simple search form is the
+possibility to select one or several database(s). The default
+configuration of simple searches is using the Z39.50 BIB-1
+attributes 4=105 and 5=101, implying ranked search and enabling
+truncation. These settings might easily be varied between countries
+reflecting local needs and preferences.</p>
+<p>The advanced interface provides the user with a fielded
+searching. In this form, users can choose between a number of
+fields in a pull down &lt;select&gt; menu. Given that a user is
+searching for the string <kbd>text</kbd>, the different possible
+interpretations of that search are outlined in Table 3.</p>
+<p>In addition, NWI offers an interesting scan facility in which
+hyper-linked term lists sorted alphabetically are generated
+on-the-fly by the server.</p>
+<table border="1" style="text-align:left;"><caption>Table 3. The Z39.50 details for the advanced search
+interface of NWI.</caption><tr><th>A search in field</th><th>hits documents that</th><th>corresponding BIB-1 [<a href="#ref30">30</a>] or GILS [<a href="#ref25">25</a>] attributes</th><th>Comment</th></tr><tr><td>Free text</td><td>may have <kbd>text</kbd> in any field</td><td>1=1016, 2=102</td><td>Ranked search</td></tr><tr><td>Author</td><td>have <kbd>text</kbd> as an author name as given in document
+metadata</td><td>1=1003</td><td>Supports DC.author and authors included by various authoring
+tools like MS Frontpage and Netscape Gold</td></tr><tr><td>Title</td><td>in which <kbd>text</kbd> occurs in their HTML title</td><td>1=4</td><td>In the future, priority will be given to DC.title</td></tr><tr><td>URL</td><td>having an URL containing the string <kbd>text</kbd></td><td>1=2021</td><td>GILS availableLinkage</td></tr><tr><td>Link</td><td>have <kbd>text</kbd> in an outgoing URL</td><td>1=2047</td><td>GILS crossReferenceLinkage</td></tr><tr><td>Anchor text</td><td>in which <kbd>text</kbd> occurs in an anchor text</td><td>1=2046</td><td>GILS crossReferenceTitle</td></tr></table>
+<p>The fields can be combined with with a number of boolean and
+proximity operators. Currently ``and'', ``or'', ``but not'' are
+supported. Some sites also support the proximity operator ``near''.
+The default operator is ``and''.</p>
+<h2>5. Current developments related to NWI</h2>
+<p>Correct handling and searching of texts in the Nordic languages
+goes far beyond support for ISO8859-1. Our goals now include the
+implementation of stemming support in all of the languages.
+Furthermore, because most other search services, including the
+Nordic ones are commercial, the Nordic Web Index is intended to be
+a public service enterprise. We see it as an electronic counterpart
+to our countries National Bibliographies.</p>
+<h4>NWI and metadata</h4>
+<p>Metadata awareness is implemented in collaboration with the
+Nordic Metadata project [<a href="#ref10">10</a>], which aims,
+among other things, to make it easier for search engines to index
+the Nordic Web through the use of Metadata. Advocates for the use
+of metadata raises the issue: <i>What</i> should be searchable in a
+Web Index? Should it be possible to search for author, ISBN-number,
+title, a historical time period or geographical names that may be
+covered in, say, a thesis. Searches of this kind are currently
+impossible on Internet search engines, but are supported as
+matter-of-course in bibliographical databases and library OPACS.
+Why this difference?</p>
+<p>Library OPACS keeps advanced data on data -- metadata.
+Librarians have created formal descriptions for each item in the
+database, and in doing that they have followed carefully
+standardized procedures. If we want to reach similar precision when
+searching the Internet, then someone will have to do that same
+level of description on the Net. The main questions become: Who
+shall do the job, and who shall pay the one doing it? The simplest
+and cheapest solution as to let the authors include this data
+themselves.</p>
+<p>Dublin Core is a standardization initiative aimed at just this,
+simplified description of electronic material, and it is the fruit
+of discussions in a group of knowledgeable people, such as
+librarians, archivists, computer scientists and others. The problem
+to solve has been to find that set attributes that can be used with
+a minimal effort to describe what has been labelled as `document
+like' objects. In a series of workshops, there have been
+discussions on special problems arising when describing texts,
+images and multimedia. By December 1996 a consensus solution was
+established comprising fifteen elements. Although Dublin Core is
+not to be regarded as a formal standard both public and private
+sector organizations follow suit and acknowledge the need for a
+simple metadata standard. Other related initiatives like GILS
+[<a href="#ref25">25</a>] attempt to coordinate their efforts with
+DC. Dublin Core 1.0 have been documented as an "Internet draft"
+[<a href="#ref16">16</a>], and is on its way to be established as
+an Internet standard.</p>
+<p>Together with the Nordic Metadata Project we have made some
+measurements on the occurrence of metadata in the Swedish WWW.
+Metadata are now fairly common on the Worldwide Web (Table 4).
+Currently the robot only extracts embedded metadata available in
+html metatags, as authors and web-masters start embedding RDF
+metadata [<a href="#ref23">23</a>] we will add that to the reptoire
+of the parser.</p>
+<table style="text-align:left;" border="1"><caption>Table 4. Occurrence of different common metadata tags in
+documents retrieved by the NWI robot from the Swedish WWW during
+two periods. The elements shown in the table are those that
+occurred more than 500 time at at any of the sampling
+periods.</caption><tr><th rowspan="3">Tag</th><th colspan="4">Occurrence</th></tr><tr><th colspan="2">September 1996<br />
+(17,000 pages)</th><th colspan="2">April 1997<br />
+(114,408 pages)</th></tr><tr><th>Relative<br />
+frequency</th><th>Number in<br />
+sample</th><th>Relative<br />
+frequency</th><th>Number in<br />
+sample</th></tr><tr><td>description</td><td align="right">51%</td><td align="right">8670</td><td align="right">31%</td><td align="right">34936</td></tr><tr><td>keywords</td><td align="right">51%</td><td align="right">8636</td><td align="right">43%</td><td align="right">49689</td></tr><tr><td>resource-type</td><td align="right">47%</td><td align="right">7937</td><td align="right">3%</td><td align="right">3488</td></tr><tr><td>distribution</td><td align="right">46%</td><td align="right">7884</td><td align="right">3%</td><td align="right">3915</td></tr><tr><td>generator</td><td align="right">36%</td><td align="right">6101</td><td align="right">64%</td><td align="right">74109</td></tr><tr><td>author</td><td align="right">16%</td><td align="right">2640</td><td align="right">15%</td><td align="right">17026</td></tr><tr><td>build</td><td align="right">3%</td><td align="right">421</td><td align="right">1%</td><td align="right">795</td></tr></table>
+<p>Indeed we consider the occurrence of such metadata high enough
+to warrant the building a metadata based search service. From the
+NWI we have exported metadata from the Swedish and Danish
+harvesting databases into two separate Dublin Core databases. Since
+only a small proportion of the data is Dublin Core in its original
+form, we have transformed the attributes found to their
+semantically closest Dublin Core counterpart. The transformations
+that is performed depend on the current distribution and abundance
+of metadata fields [<a href="#ref31">31</a>]. The metadata is
+exported from the NWI database, attributes transformed as mentioned
+and the result is a database with records in SOIF format [<a href="#ref26">26</a>]. Those interested may inspect one example of
+HTML-encoded metadata and the resulting Dublin Core SOIF template
+[<a href="#ref28">28</a>].</p>
+In creating the database the exporting software is actually filling
+some gaps with inferred information. The URL were, for instance,
+taken from the harvesting database rather than the metadata (after
+all, the URL from the harvesting database had been verified just
+recently). The resulting databases are available for testing
+[<a href="#ref29">29</a>].
+<p>The metadata searches are done using Z39.50, but in these two
+databases we are experimenting with a search interface using the
+extended tagset-G proposal [<a href="#ref27">27</a>] and the BIB-1
+[<a href="#ref30">30</a>] attribute set. The mappings can be
+inspected in Table 5.</p>
+<table style="text-align:left;" border="1"><caption>Table 5. A simple `profile' based on the Dublin Core of
+metadata elements.</caption><tr><th colspan="3">Z39.50</th><th colspan="2">Metadata Mappings</th></tr><tr><th>Tagpath</th><th>Tag</th><th>BIB-1 attribute</th><th>US Marc</th><th>Dublin Core</th></tr><tr><td>(2,21)</td><td>subject</td><td>Subject-Heading</td><td>653 a</td><td>Subject</td></tr><tr><td>(2,1)</td><td>title</td><td>Title</td><td>245 a</td><td>Title</td></tr><tr><td>(2,2)</td><td>author</td><td>Author</td><td>720 a</td><td>Author or creator</td></tr><tr><td>(2,31)</td><td>publisher</td><td>Publisher</td><td>260 b</td><td>Publisher</td></tr><tr><td>(2,32)</td><td>contributor</td><td>Author</td><td>720 a</td><td>Contributor</td></tr><tr><td>(2,4)</td><td>date</td><td>Date</td><td>260 c</td><td>Date</td></tr><tr><td>(2,3)</td><td>format</td><td>Content-type</td><td>856 q</td><td>Format</td></tr><tr><td>(2,4)</td><td>resourceType</td><td>Material-type</td><td>655 a</td><td>Resource type</td></tr><tr><td>(2,28)</td><td>identifier</td><td>Doc-id</td><td>856 u</td><td>Resource identifier</td></tr><tr><td>(2,30)</td><td>relation</td><td>-</td><td>787 n</td><td>Relation</td></tr><tr><td>(2,33)</td><td>source</td><td>Host-item</td><td>786 n</td><td>Source</td></tr><tr><td>(2,20)</td><td>language</td><td>Code-language</td><td>041 a</td><td>Language</td></tr><tr><td>(2,34)</td><td>coverage</td><td>-</td><td>500 a</td><td>Coverage</td></tr><tr><td>(2,17)</td><td>description</td><td>Abstract</td><td>520 a</td><td>Description</td></tr></table>
+<p>There have been some discussions concerning a structuralistic
+and a minimalistic approach to Dublin Core metadata. The tension
+between these two camps was mostly resolved at the Canberra Dublin
+Core workshop (March 1997) and implied that a Dublin Core
+substructure could be used to refine the semantics of an element
+but must never be used to extend its meaning. A search engine
+should thus be able remove all substructure and lump all of it into
+the base elements. This is exactly what we are doing in SweMeta and
+DanMeta. When converting metadata generated by HTML authoring tools
+like MS Frontpage and friends, this approach is mostly sufficient.
+However, the lumping of metadata can be very confusing for users.
+For instance, in our minimalistic databases street names may turn
+up when a user makes Z39.50 scan in the author field, because we
+have collapsed all DC.Creator.Address-like fields into DC.Creator.
+There are other side effects, for instance the US-MARC record
+syntax tend to become a bit confusing, since the value may contain
+a haphazard collection of information extracted from incompatible
+fields.</p>
+<h4>Subject based Web indexing</h4>
+<p>The DESIRE Web indexing technology makes it possible to create
+databases based on other domains than geography and networking. By
+initializing the robot with the URLs of a number manually
+maintained link collections within a given area, and proceeding two
+or three steps from there, and given sufficiently high quality and
+coverage of the inocculum link collection, one might this create a
+database containing if not `all' resources within the area so at
+least those with a high linkage.</p>
+<p>We have used this method for creating the the `All' engineering
+database [<a href="#ref14">14</a>], which is a part of the
+Engineering Electronic Library. Our experience from this is that it
+has been a fairly straightforward task to generate a database with
+tens of thousands resources, and that the precision in searching
+such a database much higher than what is achievable in a general
+Web index.</p>
+<h2>6. Conclusions</h2>
+<ul><li>The Nordic Web Index currently provide open services in Denmark
+(<a href="http://nwi.dtv.dk/">http://nwi.dtv.dk/</a>), Finland
+(<a href="http://nwi.funet.fi/">http://nwi.funet.fi/</a>), Iceland
+(<a href="http://nwi.bok.hi.is/">http://nwi.bok.hi.is/</a>), Norway
+(<a href="http://nwi.bibsys.no/">http://nwi.bibsys.no/</a>) and
+Sweden (<a href="http://nwi.lub.lu.se/">http://nwi.lub.lu.se/</a>).</li><li>NWI databases are assets on their own right and may be used for
+any non-commercial project.</li><li>Within DESIRE and NWI a technology for regional Web indexing
+has been developed. The resulting system is:
+<ul><li>distributed</li><li>scalable</li><li>collaborative</li><li>open</li><li>metadata aware</li><li>using open standards like Z39.50 and Dublin Core</li></ul>
+</li><li>We have been able to build a significant amount of experience
+in the area. The `public service' idea of the NWI and the open
+architecture enables us to contribute expertise to joint projects
+with others within the public as well as public sector
+private.</li></ul>
+<h2>7. Acknowledgements</h2>
+<p>The DESIRE project has been supported by the European
+Commission, other sponsors of the DESIRE harvesting and indexing
+initiative has been Nutek, FRN and Sunet. The NWI project has been
+supported by NORDINFO, BTJ, and BIBSAM. We would like to thank our
+partners BIBSYS, FUNET, National library of Iceland, and IndexData.
+Lars Nooden commented upon the manuscript and improved the
+english.</p>
+<h2>References</h2>
+<ol><li><a name="ref1" id="ref1"></a> Nordic WAIS/World Wide Web
+Project <a href="http://www.lub.lu.se/W4.html">(http://www.lub.lu.se/W4.html)</a></li><li><a name="ref2" id="ref2"></a> Nordic WAIS/World Wide Web
+Project. Project description and plan <a href="http://www.lub.lu.se/W4/plan.html">(http://www.lub.lu.se/W4/plan.html).</a>
+NORDINFO-Nytt 1994:1, p.6-16.</li><li><a name="ref3" id="ref3"></a> Nordic WAIS/World Wide Web
+Project NORDINFO-Nytt 1994:1, p.17-27. Report of phase I. <a href="http://www.lub.lu.se/W4/phase1.html">(http://www.lub.lu.se/W4/phase1.html)</a></li><li><a name="ref4" id="ref4"></a> Improving resource discovery and
+retrieval on the Internet. The Nordic WAIS/World Wide Web project -
+Summary report NORDINFO-Nytt 1994:4, p.13-28. <a href="http://www.lub.lu.se/W4/summary.html">(http://www.lub.lu.se/W4/summary.html)</a>
+.</li><li><a name="ref5" id="ref5"></a> EUROPAGATE consortium, Europagate
+- Welcome <a href="http://europagate.dtv.dk/">(http://europagate.dtv.dk/)</a></li><li><a name="ref6" id="ref6"></a> Nordic Web Index <a href="http://www.lub.lu.se/NNC/projects/NWI/index.html">(http://www.lub.lu.se/NNC/projects/NWI/index.html)</a></li><li><a name="ref7" id="ref7"></a> Sigfrid Lundberg, Anders Ardö,
+Sebastian Hammer, Kenneth Holmlund and Johan Mannerheim. <a href="http://www.lub.lu.se/~siglun/APPLICATIONS/nwi_II_proposal_public.shtml">
+An Enhanced Nordic Web index
+(http://www.lub.lu.se/~siglun/APPLICATIONS/nwi_II_proposal_public.shtml)</a></li><li><a name="ref8" id="ref8"></a> The EU Telematics for Research
+project DESIRE -- Development of a European Service for Information
+on Research and Education. <a href="http://www.lub.lu.se/desire/">(http://www.lub.lu.se/desire/)</a></li><li><a name="ref9" id="ref9"></a> DESIRE - EWI experimental gateway
+<a href="http://gungner.lub.lu.se/">(http://gungner.lub.lu.se/)</a></li><li><a name="ref10" id="ref10"></a> The Nordic Metadata Project
+<a href="http://linnea.helsinki.fi/meta/">(http://linnea.helsinki.fi/meta/)</a></li><li><a name="ref11" id="ref11"></a> Projekt Kulturarw³ -
+långsiktigt bevarande av elektroniska dokument <a href="http://kulturarw3.kb.se/html/projektbeskrivning.html">(http://kulturarw3.kb.se/)</a></li><li><a name="ref12" id="ref12"></a> TERENA (Trans-European Research
+and Education Networking Association) <a href="http://www.terena.nl/">(http://www.terena.nl/)</a></li><li><a name="ref13" id="ref13"></a> TF-CHIC - the TERENA task force
+on Cooperative Hierarchical Indexing Coordination <a href="http://www.terena.nl/task-forces/tf-chic/">(http://www.terena.nl/task-forces/tf-chic/)</a></li><li><a name="ref14" id="ref14"></a> "All" Engineering resources on
+the Internet (EELS), <a href="http://www.lub.lu.se/eel/ae/">(http://www.lub.lu.se/eel/ae/)</a></li><li><a name="ref15" id="ref15"></a> European Schoolnet -- EUN
+<a href="http://www.eun.org/">(http://www.eun.org/)</a></li><li><a name="ref16" id="ref16"></a> Weibel, S; Kunze, J; Lagoze, C:
+Dublin Core Metadata for Simple Resource Discovery. Internet-Draft,
+10 February 1998; work in progress. <a href="ftp://ftp.ietf.org/internet-drafts/draft-kunze-dc-02.txt">(ftp://ftp.ietf.org/internet-drafts/draft-kunze-dc-02.txt)</a></li><li><a name="ref17" id="ref17"></a> Robot exclusion protocol
+<a href="http://info.webcrawler.com/mak/projects/robots/exclusion.html">(http://info.webcrawler.com/mak/projects/robots/exclusion.html)</a></li><li><a name="ref18" id="ref18"></a> Library of Congress: The Z39.50
+document <a href="http://lcweb.loc.gov/z3950/agency/document.html">(http://lcweb.loc.gov/z3950/agency/document.html)</a></li><li><a name="ref19" id="ref19"></a> Kahle, B.; Morris, H.; Davis,
+F.; Tiene, K; Hart, C.; Palmer, R.: Wide area information servers:
+An executive information system for unstructured files. - In:
+Electronic Networking 2 (1193) 1, 59-68</li><li><a name="ref20" id="ref20"></a> Stuart L Weibel and Eric J
+Miller, 1996. Dublin Core Element Set Reference Page <a href="http://purl.oclc.org/metadata/dublin_core/">(http://purl.oclc.org/metadata/dublin_core/)</a></li><li><a name="ref21" id="ref21"></a>Index Data. The Zebra Server
+<a href="http://www.indexdata.dk/zebra/">(http://www.indexdata.dk/zebra/)</a>.</li><li><a name="ref22" id="ref22"></a> The Harvest Information
+Discovery and Access System <a href="http://harvest.transarc.com/">(http://harvest.transarc.com/)</a></li><li><a name="ref23" id="ref23"></a> Ora Lassila, Ralph R. Swick
+WD-rdf-syntax-971002 Resource Description Framework (RDF) Model and
+Syntax <a href="http://www.w3.org/TR/WD-rdf-syntax">(http://www.w3.org/TR/WD-rdf-syntax)</a></li><li><a name="ref24" id="ref24"></a> R. Fielding, UC Irvine, J.
+Gettys, J. Mogul, H. Frystyk, and T. Berners-Lee, 1997. Hypertext
+Transfer Protocol -- HTTP/1.1, RFC 2068 (Standards Track Document).
+<a href="http://www.w3.org/Protocols/rfc2068/rfc2068">(http://www.w3.org/Protocols/rfc2068/rfc2068)</a></li><li><a name="ref25" id="ref25"></a>Eliot Christian. Version 2 of
+"APPLICATION PROFILE FOR THE GOVERNMENT INFORMATION LOCATOR SERVICE
+(GILS)" <a href="http://www.usgs.gov/gils/prof_v2.html">(http://www.usgs.gov/gils/prof_v2.html)</a></li><li><a name="ref26" id="ref26"></a> Hardy, D., Schwartz, M., and
+Wessels, D., Summary Object Interchange Format (SOIF). <a href="http://harvest.transarc.com/Harvest/brokers/soifhelp.html">(http://harvest.cs.colorado.edu/Harvest/brokers/soifhelp.html)</a>.</li><li><a name="ref27" id="ref27"></a> Denenberg, R.: TagSet Proposal
+Revised March 27, 1997. <a href="http://lcweb.loc.gov/z3950/agency/copen/tag-gm.html">(http://lcweb.loc.gov/z3950/agency/copen/tag-gm.html)</a></li><li><a name="ref28" id="ref28"></a> Lundberg, S. HTML-encoded
+metadata and the resulting Dublin Core SOIF template <a href="http://www.lub.lu.se/nwiPaper/swemeta_example.html">(http://www.lub.lu.se/nwiPaper/swemeta_example.html)</a></li><li><a name="ref29" id="ref29"></a>SweMeta <a href="http://gungner.lub.lu.se/cgi-bin/egwinit.pl/egwirtcl/metatargets.egw?swemeta">
+(http://gungner.lub.lu.se/cgi-bin/egwinit.pl/egwirtcl/metatargets.egw?swemeta)</a>
+and DanMeta <a href="http://gungner.lub.lu.se/cgi-bin/egwinit.pl/egwirtcl/metatargets.egw?danmeta">
+(http://gungner.lub.lu.se/cgi-bin/egwinit.pl/egwirtcl/metatargets.egw?danmeta)</a></li><li><a name="ref30" id="ref30"></a> Z39.50 Maintenance Agency
+ATTRIBUTE SET BIB-1 (Z39.50-1995): SEMANTICS <a href="ftp://ftp.loc.gov/pub/z3950/defs/bib1.txt">(ftp://ftp.loc.gov/pub/z3950/defs/bib1.txt)</a></li><li><a name="ref31" id="ref31"></a> Ardö, Anders. Danish metadata
+statistics - database fields. <a href="http://nwi.dtv.dk/MD/md_field.html">http://nwi.dtv.dk/MD/md_field.html</a></li></ol>
+<h2>Vitae</h2>
+<table><tr><td><img src="and.jpg" align="left" alt="Anders Ardö" /><b><a href="/anders/kortcv.html">Anders Ardö</a></b> has a background in
+Computer Systems with a PhD 1986 in Computer Systems Engineering
+and he was working as Ass. Professor in Computer Engineering at
+Lund University 1986 - 1994. Since 1992 he is working with
+developing electronic library services first at Lund University
+Library, Development department (LUB NetLab) were he was department
+head from 1994 - 1996. From 1997 he is head of development at the
+Technical Knowledge Center &amp; Library of Denmark.</td><td valign="top"><img src="sigge.gif" align="right" alt="Sigfrid Lundberg" /><b>Sigfrid
+Lundberg</b> earned his Ph. D. 1985 in zoological ecology,
+specializing on applying dynamical systems theory to evolutionary
+biology and population dynamics. After having got an untenured
+position `docent' in theoretical ecology, he started a new career
+within electronic library development work at Lund university
+Library.</td></tr></table>
+<!--#include virtual="/js/urchin.js" -->
+</body>
+</html>

@@ -1,0 +1,118 @@
+
+WWW-index för kringinformation
+------------------------------
+
+Som en enklare lösning för att tillhandahålla en sökmöjlighet för
+kringinformation kan man tänka sig en helt robotbaserad söktjänst som
+alltså inte alls eller endast i begränsad omfattning baseras på
+metadata. Naturligtvis kan man vid ett senare stadium lägga till
+sökning i metadata. Denna typ av tjänst kan inte lätt, och bör
+förmodligen inte heller av upphovsrättsliga skäl, inkorporeras med
+studiehandboken.
+
+Lösningen på problemet med att få precision i sökningen i detta
+WWW-index skulle vara att redaktionell personal underhåller en databas
+med startpunkter för indexering samt direktiv för att styra roboten
+från varje sådan startpunkt. NetLab har en sådan lösning, men tyvärr
+inget användargränssnitt för det redaktionella arbetet för att
+underhålla den, annat än att den kan importera länkar från en
+kommaseparerad lista vilken i sin tur kan underhållas i, säg, ett
+excel kalkylark.
+
+Direktiven för startpunkterna ges av följande tabell.
+
+======================================================================
+direktiv        möjliga värden  beskrivning
+----------------------------------------------------------------------
+index           document        Indexera dokumentet enbart
+
+                site            Indexera sajten startpunkten
+                                finns i. Dvs om starpunkten är
+                                http://foo.bar.com/dir eller
+                                http://foo.bar.com/dir/anything.suffix
+                                så indexeras http://foo.bar.com/dir/*
+----------------------------------------------------------------------
+links           follow          Följ alla utgåendelänkar som hittats
+                                enligt index-direktivet ovan
+
+                nofollow        Följ inga utgående länkar
+
+======================================================================
+
+Vid denna typ av indexering följer vi som regel policyn att inte söka
+i andra människors databaser, dvs jag sorterar bort länkar med "query
+string" (så gör flertalet robotmasters som inte vill ha problem).
+
+En lösning av det här slaget kan sjösättas efter ungefär fem dagars
+arbete, givet att grafisk profil för sökformulär av ungefär samma typ som
+finns i Safari finns färdig. Om databasen för startpunkter skall ges ett
+mera begåvat formulärbaserat gränssnitt krävs mera arbete.
+
+Användningsstatistik
+--------------------
+
+För studera kan man tänka sig tre källor för information. 
+
+1. HTTP-serverns loggar av sökning och bläddring i databasen
+2. De individuella studiehandböckerna
+3. Användning av utgående länkar
+
+Information av kategori 3 kan enkelt loggas med HTTP-servern om man
+levererar länkar indirekt via omdirigering (med en "HTTP-location
+header") i stället för som nu genom direkt länkning, då vi inte kan
+avläsa direkta besök vid andra tjänster utifrån länkar i
+studera.nu. Som minimum kan man härur generera jämförande statistik om
+länkanvänding per högskoleort. Användningen av utgående länkar kan
+presenteras per orteliusklassning som andelen besök vid respektive
+högskoleenhet av det totala antalet besök för ämnet i fråga i landet.
+
+Informationen i de individuella studiehandböckerna måste analyseras
+separat, eftersom innehållet som presenteras i dem levereras från en
+textdatabas som lagras vid studera.nu-servern. Vi föreslår som ett
+minimum att alla länkar i handböckerna loggas vid den tidpunkt då
+handböckerna tas bort. Statistiken presenteras på samma sätt som
+analysen utgående länkar ovan.
+
+Dessa två analyser kommer vi behöva ungefär en vecka att utveckla.
+
+Om studiehandboken får den funktion vi hoppas, kommer den att bli en
+källa till information som sannolikt är intressantare än värdefull. Vi
+kan förvänta oss att den under sin livstid genomgår en utveckling.
+Hypotetiskt kan man tänka sig att användarnas studiehandböcker från
+början kan vara vidlyftiga, men att de kommer att utvecklas med tiden
+så att urvalet blir troligen snäva in, så att den bara innehålla det
+minsta möjliga när den överges.
+
+Vi skulle eventuellt kunna försöka oss på att belysa den ovan nämnda
+utvecklingen för ett slumpmässigt urval av individuella användare, så
+att samvariationen mellan inläggningar och bortplockningar för olika
+högskoleenheter kan studeras som en funktion av ämnesområde.
+
+För denna analys skulle vi behöva ytterligare en vecka.
+
+
+Modell för support
+------------------
+
+Systemet som används i Safari fungerar väl, och det borde vara enklare
+ändå i studera.nu. Skälet är att antalet potentiella innehålls-
+leverantörer är lägre, samtidigt som de som regel har mer avancerad
+teknologi till sitt förfogande.
+
+Vi förordar alltså att högskoleverket inrättar en e-postlista till
+vilken innehållsleverantörer kan ställa frågor. Listan bör ha ett
+WWW-baserat arkiv. Medlemmar i listan skall personal ingå från
+Högskoleverkets studera-redaktion samt från NetLab. Varje svar skickas
+som CC till listan så att inte frågor besvaras alltför många
+gånger. Med enkla frågor angående Safari händer detta då och då, men
+som regel är gränserna ganska klara mellan vad HSV och NetLab bör
+besvara. Från arkivet kan vi extrahera FAQ-listor.
+
+Som en grov uppskattning skulle vi tänka oss att en arbetsdag per
+vecka vid NetLab kan tänkas åtgå åt detta och att åtgärda smärre
+problem som uppstår under resans gång under den första
+sexmånadersperioden efter övergång till skarp drift, och att denna
+kostnad sedan kan minskas till fyra timmar per vecka när flertalet
+innehållsleverantörer har implementerat sina system.
+
+

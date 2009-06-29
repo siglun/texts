@@ -1,0 +1,139 @@
+Att beskriva distansutbilning - ett utkast
+
+Bakgrund
+
+Distum har till uppgift att främja flexibelt lärande och
+distansutbildning och som en del av detta arbete bygga upp en
+nätbaserad informationscentral kring samma område. Där kommer även
+förteckningar/databaser över befintliga distansutbildningar att finnas
+med. Distum ser det som angeläget att hitta former för att beskriva
+flexibelt lärande och distansutbildningar på ett sådant sätt att
+användare kan dra nytta av dessa beskrivningar när de söker
+utbildningar. Presumtiva studenter ska kunna få veta vad det innebär
+att gå en viss kurs. Inom ramen för flexibelt lärande och
+distansutbildning är kombinationsmöjligheterna många (det är just det
+som är poängen) men det ställer stora krav på att beskrivningarna är
+korrekta, jämförbara och sökbara. Med detta som bakgrund har Distum
+under hösten/våren haft kontakt med högskoleverket för att samordna
+arbetet med projketet studera.nu.
+
+Metadata i Studera.nu som rör distansutbildning De fält som idag berör
+distansutbildning är STUDIEORT och UTBILDNINGSFORM. Distum vill
+vidareutveckla UTBILDNINGSFORM=Distans till en egen "tilläggsmodul"
+för distansutbildning. Där kan utbildningsanordare förse sina
+distansutbildningar med ytterligare information om sina
+distansutbildningar. Den informationen bör vara sökbar och fångas upp
+i de sökmotorer som studera.nu bygger upp.
+
+Andra sammanhang än studera.nu
+
+Tilläggsmodulen för distansutbildning kan användas för andra kurser än
+högskolans och med andra sökmoterer än studera.nu:s. Meningen är att
+bygga upp en standard som går att använda i många olika sammanhang när
+man ska beskriva distanskurser.
+
+Utbildningar som ligger utanför det reguljära utbildningssystemet
+behöver också förses med metadata för att göras sökbara. Även om dessa
+utbildningar ligger utanför Studera.nu:s ansvarsområde så kommer
+Distum att vara involverad i att skapa tjänster för att söka
+distansutbildningar utanför det reguljära utbildningssystemet samt
+inom andra nivåer (folkbildning, komvux). Det är av intresse för
+Distum att kunna använda grunden i Studera.nu:s metadata men kunna
+bygga ut den beroende på aktuell tjänst. Det bör vara av intresse för
+alla presumtiva studenter (på alla nivåer och i alla former) om det
+finns tydliga standards som tydligt beskriver utbildning och gör den
+jämförbar. Det ska särskilt ses i skenet av att det byggs upp olika
+söktjänster för utbildning på Internet som delar av kommersiella
+portaler.
+
+Distansutbildning och metainformation
+
+Eftersom distansutbildning/flexibel utbildning kan betyda en rad olika
+saker i olika sammanhang är det av intresse att skapa enhetliga
+begrepp som gör distansutbildningar sökbara och jämförbara. Distum har
+i uppdrag att presentera en definition på distansutbildning och ur det
+arbetet kan man även skapa en modell för hur man beskriver
+distansutbildning med hjälp av metadata. Utgångspunkten är ett
+användarperspektiv dvs vad innebär distansutbildningskursen för den
+presumtive studenten.
+
+Dessutom måste vi ta hänsyn till övriga intressenter på området och
+därigenom förankra beskrivningen av distansutbildning. Detta arbete är
+avgörande då det är informationsägarna själva som måste använda och
+förse sina kurser med relevanta metadata. I detta perspektiv ska vi
+även ta hänsyn till olika internationella standards som rör
+Internetbaserad utbildning som är under utarbetande (ADL, LMO, IMS
+etc).
+
+Utkast till metainformation som bör finnas med då man beskriver
+distansutbildning:
+
+Detta är exempel på områden som måste belysas men för att göra om det
+till konkreta metataggar med regler så krävs ytterligare arbete. Men
+för att veta i vilken riktning Distum tänker när det gäller
+beskrivning av distansutbildningar redovisar vi följande lista:
+
+Kursträffar
+
+Träffas man på kursträffar. I så fall hur ofta? På helger eller
+veckodagar?
+
+Studieort/er
+
+Sammankomster på högskolan eller på studiecentra?
+
+Internet
+
+Krävs tillgång till internet för att delta
+
+Uppkoppling
+
+Vilken typ av uppkoppling krävs (modem, ISDN, bredband)
+
+Valfri kurstakt
+
+Kan man börja och sluta när man vill?
+
+Enskilda studier
+
+Kan man studera enskilt eller krävs olika former av gruppsamverkan
+
+
+Genomförande
+
+Nedan följer en grov skiss av hur arbetet kan fortskrida
+
+* Distum arbetar vidare med beskrivningen av distansutbildning
+(metadata) och tar särskild hänsyn till förankringsarbete bland
+högskolan och andra intressenter. Distum planerar ett antal olika
+aktiviteter inom detta område.
+
+* Distum medverkar på studera.nu:s arbetskonferens i april och
+presenterar sitt förslag och inbjuder andra att komma med synpunkter
+och delta i fortsatt utveckling.
+
+* Distum genomför försök under hösten/våren 2000/2001 med en fåtal
+högskolor
+
+* Tilläggsmodulen "Distansutbildning" bör kunna användas till
+ansökningsomgången våren 2001.
+
+Synpunkter, kritik och förslag lämnas till
+
+
+Fredrik Rexhammar
+Webbredaktör Distum
+070-603 42 58
+fredrik.rexhammar@distum.se 
+Utkast till metainformation kring flexibelt lärande och distansutbildning.
+
+
+Distum
+
+Box 194
+
+871 24 Härnösand
+
+0611-349500
+
+

@@ -1,0 +1,155 @@
+Vokabulärer i studera.se
+
+
+Utgivare (DC.publisher)
+
+liu.se	Linköpings universitet
+umu.se	Umeå universitet
+kau.se	Karlstads universitet
+
+
+Språk (DC.Language) 
+#Svenska som default
+
+sv	svenska
+en	engelska
+
+
+Examen (STUDERA.exam)
+#En lista för varje universitet
+
+#Examen Umeå universitet
+
+magister	Magisterexamen
+kandidat	Kandidatexamen
+högskole	Högskoleexamen
+arbetsterapeut	Arbetsterapeutexamen
+barn	Barn- och ungdomspedagogexamen
+bildlärar	Bildlärarexamen
+civiling	Civilingenjörsexamen
+grundskol1-7	Grundskollärarexamen, 1-7
+grundskol4-9	Grundskollärarexamen, 4-9
+gymnasielär	Gymnasielärarexamen
+hushållslär	Hushållslärarexamen
+högskoleing	Högskoleingenjörsexamen
+idrottslär	Idrottslärarexamen
+juris	Juris kandidatexamen
+konst	Konstnärlig högskoleexamen i konst och design
+läkar	Läkarexamen
+psykolog	Psykologexamen
+psykoterapeut	Psykoterapeutexamen
+sjukgymnast	Sjukgymnastexamen
+sjuksköterske	Sjuksköterskeexamen
+slöjd	Slöjdlärarexamen
+social	Social omsorgsexamen
+socionom	Socionomexamen
+specialped	Specialpedagogikexamen
+syo	Studie- och yrkesvägledarexamen
+tand	Tandläkarexamen
+tandhygien	Tandhygienistexamen
+teolog	Teologie kandidatexamen
+		
+#Examen Linköpings universitet
+
+magister	Magisterexamen
+kandidat	Kandidatexamen
+högskole	Högskoleexamen
+arbetsterapeut	Arbetsterapeutexamen
+barn	Barn- och ungdomspedagogexamen
+barnmorske	Barnmorskeexamen
+civiling	Civilingenjörsexamen
+folkhögskol	Folkhögskolärarexamen
+grundskol1-7	Grundskollärarexamen, 1-7
+grundskol4-9	Grundskollärarexamen, 4-9
+gymnasielär	Gymnasielärarexamen
+högskoleing	Högskoleingenjörsexamen
+läkar	Läkarexamen
+psykolog	Psykologexamen
+sjukgymnast	Sjukgymnastexamen
+sjuksköterske	Sjuksköterskeexamen
+slöjd	Slöjdlärarexamen
+social	Social omsorgsexamen
+	Tandhygienistexamen
+teolog	Teologie kandidatexamen
+yrke	Yrkesteknisk högskoleexamen		
+
+#Examen Karlstad universitet
+
+magister	Magisterexamen
+kandidat	Kandidatexamen
+högskole	Högskoleexamen
+barn	Barn- och ungdomspedagogexamen
+grundskol1-7	Grundskollärarexamen, 1-7
+grundskol4-9	Grundskollärarexamen, 4-9
+gymnasielär	Gymnasielärarexamen
+högskoleing	Högskoleingenjörsexamen
+sjuksköterske	Sjuksköterskeexamen
+social	Social omsorgsexamen
+tandhygien	Tandhygienistexamen
+yrke	Yrkesteknisk högskoleexamen
+
+
+Utbildningsort (STUDERA.where)
+#en lista för varje universitet. jag har gått efter orterna i ASKEN. Det verkar b#ara vara Umeå som lagt in några.
+
+#utbildningsorter Umeå universitet
+
+arvidsjaur	Arvidsjaur
+dorotea	Dorotea
+gällivare	Gällivare
+hammerdal	Hammerdal
+hemavan	Hemavan
+hemma	hemma
+härnösand	Härnösand
+kiruna	Kiruna
+kramfors	Kramfors
+lycksele	Lycksele
+malå	Malå
+pajala	Pajala
+skellefteå	Skellefteå
+sollefteå	Sollefteå
+storuman	Storuman
+sundsvall	Sundsvall
+timrå	Timrå
+umeå	Umeå
+vilhelmina	Vilhelmina
+tell	Tell Hazor, Israel
+ånge	Ånge
+övik	Örnsköldsvik
+
+
+#utbildningsorter Linköpings universitet
+linköping	Linköping
+norrköping	Norrköping
+
+#utbildningsorter Karlstad universitet
+
+karlstad	Karlstad
+
+Kursform (STUDERA.how)
+#om inget väljs = traditionella studier på campus
+distans	distans
+internet	Internet
+
+
+Kurstyp (STUDERA.type)
+
+grundkurs	grundkurs
+fortsättningskurs	fortsättningskurs
+program	program
+fort	fort- och vidareutbildningskurs
+
+Kurstart (STUDERA.start)
+
+vt	vt
+ht	ht
+sommar	somarkurs
+
+Omfattning (STUDERA.timelimit)
+
+deltid	deltid
+heltid	heltid	
+
+
+
+
