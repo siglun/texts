@@ -1,0 +1,98 @@
+#!/usr/bin/perl -w
+
+use strict;
+use File::Path;
+use XML::LibXML;
+use XML::LibXSLT;
+use Getopt::Long;
+
+my $parser      = new XML::LibXML; 
+
+# Constants 
+my $xml_version = '1.0';
+my $char_encod  = 'UTF-8';
+my $atomNS      = 'http://www.w3.org/2005/Atom';
+my $dcNS        = 'http://purl.org/dc/elements/1.1/';
+
+# The time zone may, or may not, also be regarded as a constant
+my $zone        = '+01:00';
+
+# Options and default values
+my $template    = 'utilities/atom_entry_template.xml';
+my $base_uri    = 'http://www.sigfrid-lundberg.se';
+my $directory   = '';
+my $entry       = '';
+my $create      = '';
+my $update      = '';
+
+# Get options from command line
+my $result = GetOptions ("entry=s"     => \$entry,  
+			 "directory=s" => \$directory,
+			 "base_uri=s"  => \$base_uri,
+			 "template=s"  => \$template,
+			 "create"      => \$create,
+			 "update"      => \$update);
+
+# Trimming directory
+$directory =~ s|/*$||;
+
+die "Invalid arguments" unless(-d $directory); 
+
+print STDERR join(' ',('Got',
+		       "entry=$entry",
+		       "directory=$directory",
+		       "create=$create", 
+		       "update=$update\n"));
+
+#
+# Boring localtime() gymnsastics
+#
+
+my ($sec,$min,$hour,$mday,$mon,$year,$wday,$yday,$isdst) = localtime(time);
+my $yyyy = 1900 + $year;
+my $mm   = $mon +1;
+my $dd   = $mday;
+
+$mm  = '0' . $mm unless ($mm =~ m/\d\d/);
+$dd  = '0' . $dd unless ($dd =~ m/\d\d/);
+
+my $date = join('T',(join('-',($yyyy,$mm,$dd)),
+		     join(':',($hour,$min,$sec)))) . $zone;
+
+print STDERR "Current valid W3CDTF is $date\n";
+my $link = join '/',('',$directory,$yyyy,$mm,$entry,'');
+
+print STDERR "Creating directory for $link\n";
+my $pwd = `pwd`;chomp $pwd;
+my $entry_home = $pwd.'/'.$link;
+my $entry_file = $entry_home.'/' .$entry . '.atom';
+
+mkpath( $entry_home, {verbose => 1} );
+
+my $doc  = $parser->parse_file($template);
+
+# Edit the document. 
+
+# 1. Set updated
+my $updated = shift @{$doc->getElementsByTagNameNS($atomNS,'updated')};
+$updated->removeChildNodes();
+$updated->appendText($date);
+
+# 2. Set link
+my $hreflink = shift @{$doc->getElementsByTagNameNS($atomNS,'link')};
+$hreflink->setAttribute('href',$link);
+
+# 3. Set id
+
+my $id = shift @{$doc->getElementsByTagNameNS($atomNS,'id')};
+$id->removeChildNodes();
+$id->appendText($base_uri . $link);
+
+# Finally. Print document
+
+print STDERR "$entry_file\n";
+
+open my $out, ">$entry_file";
+binmode $out; 
+$doc->toFH($out);
+close $out;
