@@ -22,7 +22,7 @@
     </div>
     <div class="right_box">
 
-      <!--#include virtual="note-the-fine-print.xml" -->
+      <!--#include virtual="/note-the-fine-print.xml" -->
     </div>
 
     <!--#include virtual="/js/urchin.js" -->
