@@ -1,11 +1,11 @@
 <div xmlns="http://www.w3.org/1999/xhtml">
   <div>
-    <h1 style="width: 58%; float: left;text-align: leftt">Min mor</h1>
+    <h1 style="width: 58%; float: left;text-align: leftt">About this site</h1>
     <p style="width: 38%; float: left;text-align: right">
       <em>
         <strong>
 		Sigfrid Lundberg's Stuff,
-	      2009-06-28</strong>
+	      2009-07-01</strong>
       </em>
     </p>
   </div>
@@ -13,110 +13,88 @@
   <div style="width:100%;" type="xhtml">
     <div>
 
-      <p>Min mor var 43 år gammal när hon födde mig 1956. Alltså föddes hon
-      själv 1913, året innan första världskriget bröt ut. Nu är hon 96, och
-      lever, som hon säger, på lånad tid. Tid, det är något som hon tar på
-      största allvar. Vi talas vid per telefon varje dag. Hon ringer 20.10,
-      nästan exakt. Det blir alltid ett trevligt samtal.</p>
+      <p>I'm a terrible nerd. To use software like content management systems
+      or blog software for building my web site is unthinkable for me.</p>
 
-      <p>När det är dags att säga godnatt, återkomer hon ständigt till att man
-      måste vara tacksam för varje dag som gått, och att "i morgon är det en
-      ny dag". Visst har Mor rätt! Det är faktiskt inte är självklart att man
-      får leva hela nästa dag. Har man hunnit med ett långt liv, så är man
-      mer medveten om den saken än vad vi, yngre människor, är.</p>
+      <p>I have a substantial collection of old stuff written for various
+      purposes in very different formats; it is a must to be able to integrate
+      that material into the site. Some of this material are hard-core XML
+      documents in text encoding initiative or docbook XML. There are also
+      documents in legacy formats, such as RTF and (GNU) troff. I'm still
+      using troff for production of new texts, usually via transform from XML
+      using XSLT. The more recent XML documents are using client side XSLT for
+      viewing.</p>
 
-      <p>Jag tänker på det ibland, att hon har varit med om en stor del av
-      1900-talet, och hur hon kan tala om arbetslösheten på 30-talet, om
-      Krügerkraschen 1931. Då var hon en fager ung kvinna 18 år gammal. Mor
-      har varit folkpensionär under i princip hela mitt yrkesverksamma liv,
-      hon föddes innan ryska revolutionen och lever faktiskt fortfarande.  Hon
-      arbetar fortfarande i trädgården. "Ni behöver inte vara rädda, jag kan
-      inte trilla när jag sitter på marken," berättade hon nyligen.</p>
+      <p>This material is growing. I see it as an extension of my CV, but some
+      of it could be interesting for users since it is general documentation
+      for how to solve certain kinds of problems. I also wanted to seemlessly
+      integrate other, more lightweight, material.</p>
 
-      <p>I mars i år fick hon höra på radion om SEBs nyemission nu i mars
-      månad tog hon rollatorn ner till Handelsbanken. Som folkpensionär tjänar
-      hon 7000 kronor i månaden, så för att köpa de femhundra hennes innehav
-      berättigade henne till, fick hon höja sin checkkontokredit. Vi fick 200
-      aktier var, jag och min bror. Det var för sina barns skull hon köpte
-      aktierna på lånade pengar.</p>
+      <h3>Requirements</h3>
 
-      <h2>En ny påminnelse om vår dödlighet</h2>
+      <p>As I mentioned <a href="/entries/2009/06/why/">the other day</a>, I
+      wanted a new navigation system. There are two requirements on that: (i)
+      it should be easy to follow for users and (ii) the pages in it should be
+      good landing pages for search engines. I felt that there was a need for
+      more text that would generate hits in search engines without out being
+      irrelevant for users and misrepresent the content. Finally I wanted the
+      site to be somewhat like a blog. In spite of the improved look and feel
+      I also wanted that all the material already published on the site should
+      retain the current URIs.</p>
 
-      <p>I dag när vi talades vid berättade hon om gravstenen. Min far dog i
-      september i fjol 93 år och tre månader gammal, men det är först nu som
-      vi fått gravstenen på plats, och Mor är lycklig för det. Den är i lite
-      mer äldre stil, hög och smal, inte så där bred och låg som många
-      gravstenar är numera. Jag har inte sett den själv ännu, men mor säger
-      att den är vacker. Huggen i grå granit från Östra Göinge, i trakten
-      kring Glimåkra, där Far växte upp. Texten är i Garamond, stilen som Far
-      tyckte bäst om, jämte Berling Antikva. Far var boktryckare och vi har
-      nog åtskilliga hundra kilo Berling Antikva i källaren efter honom.</p>
+      <p>The old site was just plain files, I did no scripting whatsoever on
+      that site. I couldn't, however, possibly manage a navigation system a
+      manually, so some scripting had to be involved in generating the
+      site.</p>
 
-      <p>Mor ser illa. Hon har både grå starr och gula fläcken och kan inte
-      läsa inte tidningen längre. Men lyssnar hon på radio det gör hon. Jag
-      tror att hon sitter där i köket och lyssnar mest hela dagen. Inte missar
-      hon en nyhetssänding om hon kan undvika det. Ekot och i synnerhet
-      ekonomiekot är viktigt. Radioföljetongen och radioteatern är hennes enda
-      intag av skönlitteratur nuförtiden.</p>
+      <h3>Metadata and XML processing</h3>
 
-      <p>Mor började skolan 1920. Det var inte så ovanligt på den tiden att
-      flickornas utbildning försummades på bekostnad av gossarnas. För hennes
-      del blev det aldrig mer än sexårig folkskola. Istället läste hon in
-      nästan stora delar av en gymnasiekompetens på KOMvux mot slutet av
-      60-talet och början av 70-talet. Det blev dock inte moderna språk eller
-      matematik, för det var hennes förkunskaper för klena.</p>
+      <p>To generate the navigation system, I have catalog all existing
+      'static' material. In particular I had to index manually using keywords
+      or "tags". I decided what material to include and wrote manually a
+      single monolithic metadata file in XML using using <a href="/entries/2009/06/atom/">the atom syndication format</a>.</p>
 
-      <p>Dagligen diskuterar vi utvecklingen i världen, och hon berättar annat
-      som hon har hört på radion. Mor har stor tillit till att Barack Obama
-      och hoppas på fred i mellersta östern. Nu senast har hon talat en del om
-      PO Enquists som går som radioföljetong just nu, med författaren själv
-      som uppläsare.</p>
+      <p>Having this file it was easy to write a xslt tranform that generated
+      the browse by year and subject menues appearing in the left column on
+      most pages (that took 61 lines). Then there is another xslt transform
+      aggregating the title, summary and link data into menus, such as the one
+      in <a href="/subjects/xmlprocessing/">XML processing</a>. This took
+      about 200 lines of xslt.</p>
 
-      <h2>En kopp kaffe</h2>
+      <p>Now, these two xslt scripts take into account only the older kind of
+      static material. I also wanted a new kind of bloggish 'dynamic'
+      material. I needed to integrate the two kinds of material in a single
+      structure. Just as I wrote the metadata for the older set of material in
+      Atom feed document, I write the bloggish kind of stuff in Atom entry
+      documents. They live in a file system <kbd>/entries</kbd> under the
+      document root.</p>
 
-      <p>Vi åker hem till mor var eller varannan helg, jag och min bror. Vi
-      byts om för att hon skall få besök oftare.</p>
+      <p>To integrate the two I have a nifty little perl script that does two
+      things. It reads the Atom feed for the and parses it into a Document
+      Object Model (DOM) object. Then it traverses the <kbd>/entries</kbd>
+      file system, parses each entry. First it drops a transform into html of
+      each entry. The entry itself is entered into the global DOM, which is
+      finally printed into a complete Atom feed. This took 65 lines of perl
+      and 84 lines of xslt.</p>
 
-      <p>När jag är hos henne äter vi lunch tillsammans. Sedan lyssnar vi på
-      lunchekot medan vi tar en kopp kaffe på maten. Sedan stänger vi av
-      radion och går igenom posten, mest fönsterkuvert. Nästan varje gång ber
-      hon mig att läsa jag högt ur tidningen. Börsnoteringarna för hennes
-      aktier och dödsannonserna måste jag läsa varje gång vi träffas.</p>
-
-      <p>Så är det i livet. När man är ung funderar man kanske inte så mycket
-      över det, men det är ju så att man umgås väldigt mycket med människor
-      som är som man själv är. Unga umgås med unga, småbarnsfamiljer med
-      varandra och de diskuterar barn. När man kommer upp i medelåldern
-      diskuterar man barn, barnbarn och sjuka föräldrar. När blir gammal
-      gammal läser man dödsannonserna. När man är så gammal som Mor är det
-      få kvar av hennes vänner att läsa om där.</p>
-
-      <p>Efter kaffet språkar om allt möjligt. Ofta går vi en promenad, men
-      oftast tycker hon bättre att gå uppför än nerför. Rollatorn rullar för
-      fort och det är lätt att hon inte hinner med den i nerförsbacke.</p>
-
-      <p>Mor tycker om poesi. Hon kan en hel massa dikter och psalmverser
-      utantill som hon gärnar citerar när det passar. Hon har tränat yoga
-      sedan hon fyllde 60, och hon tränar varje dag. Jag tror också att hon
-      dagligen läser alla de dikter och psalmer hon kan utantill, och i
-      synnerhet JO Wallins:</p>
-
-      <blockquote>
-	<em>Ack, när så mycket skönt i varje åder<br/>
-	av skapelsen och livet sig förråder,<br/>
-	hur skön då måste själva källan vara,<br/>
-	den evigt klara</em>
-      </blockquote>
-
-      <p>Fast hon kan minst fem verser till.</p>
+      <p>To get a blog style home page 
+      </p>
 
     </div>
   <p style="text-align: right"><em><strong>
 		Permalink:
-	      </strong></em><a href="/entries/2009/06/mor/">http://www.sigfrid-lundberg.se/entries/2009/06/mor/</a></p><hr width="50%" align="center"/></div>
+	      </strong></em><a href="/entries/2009/07/colophon/">http://www.sigfrid-lundberg.se/entries/2009/07/colophon/</a></p><hr width="50%" align="center"/></div>
   <div>
     <h1>Other, not yet obsolete stuff</h1>
     <table class="news">
+      <tr>
+        <td class="left">2009</td>
+        <td class="left"><a href="/entries/2009/06/mor/"><em>Min mor</em></a><br/>Min mor var 43 år gammal när hon födde mig 1956. Alltså föddes hon
+  själv 1913, året innan första världskriget bröt ut. Nu är hon 96, och lever,
+  som hon säger, på lånad tid. Tid, det är något som hon tar på största
+  allvar. Vi talas vid per telefon varje dag. Hon ringer 20.10, nästan
+  exakt. Det blir alltid ett trevligt samtal.<br/><a href="/subjects/essays/">Essays</a></td>
+      </tr>
       <tr>
         <td class="left">2009</td>
         <td class="left"><a href="/entries/2009/06/atom/"><em>My first serious experience with ATOM</em></a><br/>You don't really understand a document format until you've manually
@@ -163,23 +141,6 @@
 	<a href="/subjects/opac/">Library catalogues</a>,
 	<a href="/subjects/digitallibraries/">Digital libraries</a>,
 	<a href="/subjects/internet/">Internet</a>,
-	<a href="/subjects/structuralwebdesign/">Structural web design</a></td>
-      </tr>
-      <tr>
-        <td class="left">2007</td>
-        <td class="left"><a href="/2007/search-statistics/user-expectations.html"><em>What do our users expect from the search field on our top
-    page?</em></a><br/>What can deduced by analyses of the search terms entered into the
-    search field on the home page of a large modern library? Could we possibly
-    regard this form as the digital library´s information desk, and the
-    queries as the request from its patrons? If we do that, what could we then
-    learn about the quality of service?  In this note we do just that. We
-    regard the terms entered into the form as manifestation of our patrons
-    needs and in order to find out what they need, we have performed a
-    preliminary text mining exercise. We hope that this will help us designing
-    a new search facility that will better answer the needs of our
-    users.<br/><a href="/subjects/webindexing/">Web indexing</a>,
-	<a href="/subjects/harvesting/">Harvesting</a>,
-	<a href="/subjects/opac/">Library catalogues</a>,
 	<a href="/subjects/structuralwebdesign/">Structural web design</a></td>
       </tr>
     </table>

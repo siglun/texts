@@ -6,7 +6,95 @@
   <title>Sigfrid Lundberg's Stuff</title>
   <id>http://www.sigfrid-lundberg.se/files.atom</id>
   <link rel="self" href="http://www.sigfrid-lundberg.se/files.atom"/>
-  <updated>2009-06-28T23:33:00+01:00</updated>
+  <updated>2009-07-01T17:8:6+01:00</updated>
+  <entry>
+  <author>
+    <name>Sigfrid Lundberg</name>
+  </author>
+  <title>About this site</title>
+  <link href="http://www.sigfrid-lundberg.se/entries/2009/07/colophon/"/>
+  <summary>I'm a terrible nerd. To use software like content management
+  systems or blog software is unthinkable for me. There are many ways to build
+  a site like this. I have chosen one that maximizes the use of angle
+  brackets.</summary>
+  <content type="xhtml">
+    <div xmlns="http://www.w3.org/1999/xhtml">
+
+      <p>I'm a terrible nerd. To use software like content management systems
+      or blog software for building my web site is unthinkable for me.</p>
+
+      <p>I have a substantial collection of old stuff written for various
+      purposes in very different formats; it is a must to be able to integrate
+      that material into the site. Some of this material are hard-core XML
+      documents in text encoding initiative or docbook XML. There are also
+      documents in legacy formats, such as RTF and (GNU) troff. I'm still
+      using troff for production of new texts, usually via transform from XML
+      using XSLT. The more recent XML documents are using client side XSLT for
+      viewing.</p>
+
+      <p>This material is growing. I see it as an extension of my CV, but some
+      of it could be interesting for users since it is general documentation
+      for how to solve certain kinds of problems. I also wanted to seemlessly
+      integrate other, more lightweight, material.</p>
+
+      <h3>Requirements</h3>
+
+      <p>As I mentioned <a href="/entries/2009/06/why/">the other day</a>, I
+      wanted a new navigation system. There are two requirements on that: (i)
+      it should be easy to follow for users and (ii) the pages in it should be
+      good landing pages for search engines. I felt that there was a need for
+      more text that would generate hits in search engines without out being
+      irrelevant for users and misrepresent the content. Finally I wanted the
+      site to be somewhat like a blog. In spite of the improved look and feel
+      I also wanted that all the material already published on the site should
+      retain the current URIs.</p>
+
+      <p>The old site was just plain files, I did no scripting whatsoever on
+      that site. I couldn't, however, possibly manage a navigation system a
+      manually, so some scripting had to be involved in generating the
+      site.</p>
+
+      <h3>Metadata and XML processing</h3>
+
+      <p>To generate the navigation system, I have catalog all existing
+      'static' material. In particular I had to index manually using keywords
+      or "tags". I decided what material to include and wrote manually a
+      single monolithic metadata file in XML using using <a href="/entries/2009/06/atom/">the atom syndication format</a>.</p>
+
+      <p>Having this file it was easy to write a xslt tranform that generated
+      the browse by year and subject menues appearing in the left column on
+      most pages (that took 61 lines). Then there is another xslt transform
+      aggregating the title, summary and link data into menus, such as the one
+      in <a href="/subjects/xmlprocessing/">XML processing</a>. This took
+      about 200 lines of xslt.</p>
+
+      <p>Now, these two xslt scripts take into account only the older kind of
+      static material. I also wanted a new kind of bloggish 'dynamic'
+      material. I needed to integrate the two kinds of material in a single
+      structure. Just as I wrote the metadata for the older set of material in
+      Atom feed document, I write the bloggish kind of stuff in Atom entry
+      documents. They live in a file system <kbd>/entries</kbd> under the
+      document root.</p>
+
+      <p>To integrate the two I have a nifty little perl script that does two
+      things. It reads the Atom feed for the and parses it into a Document
+      Object Model (DOM) object. Then it traverses the <kbd>/entries</kbd>
+      file system, parses each entry. First it drops a transform into html of
+      each entry. The entry itself is entered into the global DOM, which is
+      finally printed into a complete Atom feed. This took 65 lines of perl
+      and 84 lines of xslt.</p>
+
+      <p>To get a blog style home page 
+      </p>
+
+    </div>
+  </content>
+  <dc:date>2009</dc:date>
+  <category label="structuralwebdesign" term="Structural web design"/>
+  <category label="colophon" term="Colophon"/>
+  <updated>2009-07-01T17:8:6+01:00</updated>
+  <id>http://www.sigfrid-lundberg.se/entries/2009/07/colophon/</id>
+</entry>
   <entry>
   <author>
     <name>Sigfrid Lundberg</name>
