@@ -53,8 +53,10 @@ my $yyyy = 1900 + $year;
 my $mm   = $mon +1;
 my $dd   = $mday;
 
-$mm  = '0' . $mm unless ($mm =~ m/\d\d/);
-$dd  = '0' . $dd unless ($dd =~ m/\d\d/);
+$mm   = '0' . $mm  unless ($mm  =~ m/\d\d/);
+$dd   = '0' . $dd  unless ($dd  =~ m/\d\d/);
+$min  = '0' . $min unless ($min =~ m/\d\d/);
+$sec  = '0' . $sec unless ($sec =~ m/\d\d/);
 
 my $date = join('T',(join('-',($yyyy,$mm,$dd)),
 		     join(':',($hour,$min,$sec)))) . $zone;
