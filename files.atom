@@ -6,7 +6,7 @@
   <title>Sigfrid Lundberg's Stuff</title>
   <id>http://www.sigfrid-lundberg.se/files.atom</id>
   <link rel="self" href="http://www.sigfrid-lundberg.se/files.atom"/>
-  <updated>2009-07-01T22:26:06+01:00</updated>
+  <updated>2009-07-06T18:16:27+01:00</updated>
   <entry>
   <author>
     <name>Sigfrid Lundberg</name>
@@ -107,8 +107,23 @@
   <dc:date>2009</dc:date>
   <category label="structuralwebdesign" term="Structural web design"/>
   <category label="colophon" term="Colophon"/>
-  <updated>2009-07-01T22:26:06+01:00</updated>
+  <updated>2009-07-06T18:16:27+01:00</updated>
   <id>http://www.sigfrid-lundberg.se/entries/2009/07/colophon/</id>
+</entry>
+  <entry>
+  <author>
+    <name>Sigfrid Lundberg</name>
+  </author>
+  <title>technorati verification</title>
+  <link href="http://www.sigfrid-lundberg.se/entries/2009/07/technorati/"/>
+  <summary>A dummy entry</summary>
+  <content type="xhtml">
+    <div xmlns="http://www.w3.org/1999/xhtml">uw5m38jba7</div>
+  </content>
+  <dc:date>2009</dc:date>
+  <category label="structuralwebdesign" term="Structural web design"/>
+  <updated>2009-07-06T18:13:04+01:00</updated>
+  <id>http://www.sigfrid-lundberg.se/entries/2009/07/technorati/</id>
 </entry>
   <entry>
   <author>
