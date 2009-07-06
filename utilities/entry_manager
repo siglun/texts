@@ -85,13 +85,11 @@ my $hreflink = shift @{$doc->getElementsByTagNameNS($atomNS,'link')};
 $hreflink->setAttribute('href',$link);
 
 # 3. Set id
-
 my $id = shift @{$doc->getElementsByTagNameNS($atomNS,'id')};
 $id->removeChildNodes();
 $id->appendText($base_uri . $link);
 
 # Finally. Print document
-
 print STDERR "$entry_file\n";
 
 open my $out, ">$entry_file";
