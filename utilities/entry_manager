@@ -31,18 +31,11 @@ my $result = GetOptions ("entry=s"     => \$entry,
 			 "base_uri=s"  => \$base_uri,
 			 "template=s"  => \$template,
 			 "create"      => \$create,
-			 "update"      => \$update);
+			 "update=s"    => \$update);
 
 # Trimming directory
 $directory =~ s|/*$||;
 
-die "Invalid arguments" unless(-d $directory); 
-
-print STDERR join(' ',('Got',
-		       "entry=$entry",
-		       "directory=$directory",
-		       "create=$create", 
-		       "update=$update\n"));
 
 #
 # Boring localtime() gymnsastics
@@ -61,15 +54,44 @@ $sec  = '0' . $sec unless ($sec =~ m/\d\d/);
 my $date = join('T',(join('-',($yyyy,$mm,$dd)),
 		     join(':',($hour,$min,$sec)))) . $zone;
 
+#
+# Checking command line
+#
+
+&usage() unless( (-d $directory && $entry) || $update); 
+
+print STDERR join("\n\t\t",('Got options:',
+		       "entry=$entry",
+		       "directory=$directory",
+		       "update=$update\n\n"));
+
+
 print STDERR "Current valid W3CDTF is $date\n";
 my $link = join '/',('',$directory,$yyyy,$mm,$entry,'');
 
-print STDERR "Creating directory for $link\n";
 my $pwd = `pwd`;chomp $pwd;
 my $entry_home = $pwd.'/'.$link;
-my $entry_file = $entry_home.'/' .$entry . '.atom';
+my $entry_file = '';
+if(!$update) {
+    $entry_file = $entry_home.'/' .$entry . '.atom';
+}
 
-mkpath( $entry_home, {verbose => 1} );
+if(-f $entry_file) {
+
+    print STDERR "The file\n\t$entry_file\nexists already." .
+	         " Won't overwrite existing file!\n\n";
+    exit(0);
+}
+
+if($update) {
+    $template   = $update;
+    $entry_file = $update;
+}
+
+if(!$update) {
+    print STDERR "Creating directory for $link\n";
+    mkpath( $entry_home, {verbose => 1} );
+}
 
 my $doc  = $parser->parse_file($template);
 
@@ -82,12 +104,16 @@ $updated->appendText($date);
 
 # 2. Set link
 my $hreflink = shift @{$doc->getElementsByTagNameNS($atomNS,'link')};
-$hreflink->setAttribute('href',$link);
+if(!$update) {
+    $hreflink->setAttribute('href',$link);
+}
 
 # 3. Set id
 my $id = shift @{$doc->getElementsByTagNameNS($atomNS,'id')};
-$id->removeChildNodes();
-$id->appendText($base_uri . $link);
+if(!$update) {
+    $id->removeChildNodes();
+    $id->appendText($base_uri . $link);
+}
 
 # Finally. Print document
 print STDERR "$entry_file\n";
@@ -96,3 +122,42 @@ open my $out, ">$entry_file";
 binmode $out; 
 $doc->toFH($out);
 close $out;
+
+sub usage {
+
+    print STDERR<<"END";
+
+Utility for maintaining a date structured directory tree of blog entries. The
+script creates directories of the form
+
+\t<DIRECTORY>/yyyy/mm/<ENTRY NAME>
+
+Usage:
+
+\t$0 <Options>
+
+where options are
+
+\t--entry\t\t<ENTRY NAME>\tName of directory where the atom file is put
+\t--directory\t<DIRECTORY>\tName of the directory where the date structure\n\t\t\t\t\tis situated
+\t--base_uri\t<BASE_URI>\tThe base URI of the dirctory given\n\t\t\t\t\tin the --directory option
+
+or
+
+\t--update\t<FILE NAME>\tUpdates the modification time stamp in the file\n\t\t\t\t\tUseful if you don\'t enjoy writing w3cdtf manually
+
+Examples:
+
+The command "entry_manager --entry atom --directory entries"
+creates a new directory "entries/2009/06/atom" and an atom stub file"
+entries/2009/06/atom/atom.atom" (given that the current year is 2009 and that
+the program is run i June).
+
+"entry_manager --update entries/2009/06/atom/atom.atom" sets the modification
+date to $date in that file
+
+END
+
+    exit(0);
+
+}
