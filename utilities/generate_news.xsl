@@ -44,7 +44,7 @@
 	<xsl:apply-templates 
 	    mode="copy" 
 	    select="f:entry[not(f:category/@label = 'aboutme')][1]/
-		    f:content[@type='xhtml']"/>
+		    f:content[@type='xhtml']/*"/>
 
 	<p style="text-align: right">
 	  <em>

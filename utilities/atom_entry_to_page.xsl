@@ -62,6 +62,11 @@
 	    </em>
 	  </p>
 
+	  <div style="clear:both">
+	    <xsl:text>
+	    </xsl:text>
+	  </div>
+
 	  <xsl:apply-templates mode="copy" select="f:content[@type='xhtml']"/>
 	</div>
 	<xsl:comment>#include virtual="/js/urchin.js" </xsl:comment>

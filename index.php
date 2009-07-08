@@ -12,8 +12,8 @@
     <meta name="description"
 	  content="contains thoughts about digital libraries.
 		   That is, I describe some of the stuff I've
-		   been working on (and strived for) concerning
-		   during last decade or so." />
+		   been working on (and strived for)
+		   during fifteen years or so." />
 
     <link rel ='stylesheet'
 	  href='/css-style/html.css'

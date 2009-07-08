@@ -1111,4 +1111,47 @@
   <category label="structuralwebdesign" term="Structural web design"/>
   <updated>2009-07-06T18:13:04+01:00</updated>
   <id>http://www.sigfrid-lundberg.se/entries/2009/07/technorati/</id>
+</entry><entry xmlns:dc="http://purl.org/dc/elements/1.1/">
+  <author>
+    <name>Sigfrid Lundberg</name>
+  </author>
+  <title>OpenSearch, RSS and OPML as XML Webservices for information
+  retrieval</title>
+  <link href="/entries/2009/07/opml/"/>
+  <summary>Having had a web site for about 15 years, I start to wonder why I
+  keep it in the first place.</summary>
+  <content type="xhtml">
+    <div xmlns="http://www.w3.org/1999/xhtml">
+
+      <p>At the <a href="http://www.kb.dk/">Royal Library</a> we have been
+      working with the building of an infrastructure for publishing of
+      digitized material. It is collections of digitized, with little textual
+      content.</p>
+
+      <p>The cataloging of the images has been made by library staff using the
+      image datase system Cumulus from <a ref="http://www.canto.com/">Canto</a>.
+      Cumulus is designed as digital asset management system for people within 
+      graphical industry. Canto is producing an advanced Web user interface,
+      but it is rather poor as regards dissemination of the collections on the web. 
+      Worse still is that the system lacks any concept of standardized metadata.</p>
+
+      <p>To take advantage of the relative ease of use for the people handling
+      the images, but still be able to provide access to our collections on
+      the Internet we have an entirely new web interface.</p>
+      
+      <div style="text-align:center;margin-left:20%;">
+	<div style="height:350px;width:300px;">
+	  <a href="http://static.grazr.com/gzpanel.html?view=s&amp;file=http://www.kb.dk/opml_category_service/danmarksbilleder/?opml_mode=shallow&amp;subject=8">
+	    <img alt="Grazr" src="http://static.grazr.com/images/grazrbadge.png" style="border:none"/>
+	  </a>
+	  <script defer="defer" type="text/javascript" src="http://static.grazr.com/gzloader.js?view=s&amp;file=http://www.kb.dk/opml_category_service/danmarksbilleder/?opml_mode=shallow&amp;subject=8">
+	  </script>
+	</div>
+      </div>
+    </div>
+  </content>
+  <dc:date>2009</dc:date>
+  <category label="structuralwebdesign" term="Structural web design"/>
+  <updated>2009-07-07T22:56:08+01:00</updated>
+  <id>http://www.sigfrid-lundberg.se/entries/2009/07/opml/</id>
 </entry></feed>

@@ -1,107 +1,66 @@
 <div xmlns="http://www.w3.org/1999/xhtml">
   <div>
-    <h1 style="width: 58%; float: left;text-align: leftt">About this site</h1>
+    <h1 style="width: 58%; float: left;text-align: leftt">OpenSearch, RSS and OPML as XML Webservices for information
+  retrieval</h1>
     <p style="width: 38%; float: left;text-align: right">
       <em>
         <strong>
 		Sigfrid Lundberg's Stuff,
-	      2009-07-06</strong>
+	      2009-07-07</strong>
       </em>
     </p>
   </div>
   <div style="clear:both;"> </div>
-  <div style="width:100%;" type="xhtml">
+  <div style="width:100%;">
     <div>
 
-      <p>I'm a terrible nerd. To use software like content management systems
-      or blog software for building my web site is unthinkable for me.</p>
+      <p>At the <a href="http://www.kb.dk/">Royal Library</a> we have been
+      working with the building of an infrastructure for publishing of
+      digitized material. It is collections of digitized, with little textual
+      content.</p>
 
-      <p>I have a substantial collection of old stuff written for various
-      purposes in very different formats; it is a must to be able to integrate
-      that material into the site. Some of this material are hard-core XML
-      documents in text encoding initiative or docbook XML. There are also
-      documents in legacy formats, such as RTF and (GNU) troff. I'm still
-      using troff for production of new texts, usually via transform from XML
-      using XSLT. The more recent XML documents are using client side XSLT for
-      viewing.</p>
+      <p>The cataloging of the images has been made by library staff using the
+      image datase system Cumulus from <a ref="http://www.canto.com/">Canto</a>.
+      Cumulus is designed as digital asset management system for people within 
+      graphical industry. Canto is producing an advanced Web user interface,
+      but it is rather poor as regards dissemination of the collections on the web. 
+      Worse still is that the system lacks any concept of standardized metadata.</p>
 
-      <p>This material is growing. I see it as an extension of my CV, but some
-      of it could be interesting for users since it is general documentation
-      for how to solve certain kinds of problems. I also wanted to seemlessly
-      integrate other, more lightweight, material. Like this article</p>
-
-      <h3>Requirements</h3>
-
-      <p>As I mentioned <a href="/entries/2009/06/why/">the other day</a>, I
-      wanted a new navigation system. There are two requirements on that: (i)
-      it should be easy to follow for users and (ii) the pages in it should be
-      good landing pages for search engines. I felt that there was a need for
-      more text that would generate hits in search engines without out being
-      irrelevant for users and misrepresent the content. Finally I wanted the
-      site to be somewhat like a blog. In spite of the improved look and feel
-      I also wanted that all the material already published on the site should
-      retain the current URIs.</p>
-
-      <p>The old site was just plain files, I did no scripting whatsoever on
-      that site. I couldn't, however, possibly manage a navigation system a
-      manually, so some scripting had to be involved in generating the
-      site.</p>
-
-      <h3>Metadata and XML processing</h3>
-
-      <p>To generate the navigation system, I have catalog all existing
-      'static' material. In particular I had to index manually using keywords
-      or "tags". I decided what material to include and wrote manually a
-      single monolithic metadata file in XML using using <a href="/entries/2009/06/atom/">the atom syndication format</a>.</p>
-
-      <p>Having this file it was easy to write a xslt tranform that generated
-      the browse by year and subject menues appearing in the left column on
-      most pages (that took 61 lines). Then there is another xslt transform
-      aggregating the title, summary and link data into menus, such as the one
-      in <a href="/subjects/xmlprocessing/">XML processing</a>. This took
-      about 200 lines of xslt.</p>
-
-      <p>Now, these two xslt scripts take into account only the older kind of
-      static material. I also wanted a new kind of bloggish 'dynamic'
-      material. I needed to integrate the two kinds of material in a single
-      structure. Just as I wrote the metadata for the older set of material in
-      Atom feed document, I write the bloggish kind of stuff in Atom entry
-      documents. They live in a file system <kbd>/entries</kbd> under the
-      document root.</p>
-
-      <p>To integrate the two I have a nifty little perl script that does two
-      things. It reads the Atom feed for the and parses it into a Document
-      Object Model (DOM) object. Then it traverses the <kbd>/entries</kbd>
-      file system, parses each entry. First it drops a transform into html of
-      each entry. The entry itself is entered into the global DOM, which is
-      finally printed into a complete Atom feed. This took 65 lines of perl
-      and 84 lines of xslt.</p>
-
-      <p>To get a blog style home page I had to sort the entire set inversely
-      in temporal order, print the most recent entry on the home page and
-      finally print a few pointers to more recent entries. These tasks took
-      another 250 lines of xslt. In addition I have a utility which generates
-      the <kbd>/entries</kbd> directories and prints a skeleton entry, which
-      generates another 100 lines of perl which generates the skeleton using
-      XML DOM.</p>
-
-      <p>It takes less than a second to rebuild the entire site. Before the
-      refurbishment, I used to copy all files to my server. In order to
-      implement incremental update, I've created a CVS repository on my
-      server. Now I check in everything using CVS after building and testing,
-      and then I publish my stuff by checking out on the. This will scale up
-      to a some thousand blog entries. Then I'll ingest my entries in Oracle
-      Berkeley DB XML and replace most xslt with XML Query.</p>
-
-      <p>Or I'll do that anyway, for the fun of it.</p>
-
+      <p>To take advantage of the relative ease of use for the people handling
+      the images, but still be able to provide access to our collections on
+      the Internet we have an entirely new web interface.</p>
+      
+      <div style="text-align:center;margin-left:20%;">
+	<div style="height:350px;width:300px;">
+	  <a href="http://static.grazr.com/gzpanel.html?view=s&amp;file=http://www.kb.dk/opml_category_service/danmarksbilleder/?opml_mode=shallow&amp;subject=8">
+	    <img alt="Grazr" src="http://static.grazr.com/images/grazrbadge.png" style="border:none"/>
+	  </a>
+	  <script defer="defer" type="text/javascript" src="http://static.grazr.com/gzloader.js?view=s&amp;file=http://www.kb.dk/opml_category_service/danmarksbilleder/?opml_mode=shallow&amp;subject=8">
+	  </script>
+	</div>
+      </div>
     </div>
-  <p style="text-align: right"><em><strong>
+    <p style="text-align: right">
+      <em>
+        <strong>
 		Permalink:
-	      </strong></em><a href="/entries/2009/07/colophon/">http://www.sigfrid-lundberg.se/entries/2009/07/colophon/</a></p><hr width="50%" align="center"/></div>
+	      </strong>
+      </em>
+      <a href="/entries/2009/07/opml/">http://www.sigfrid-lundberg.se/entries/2009/07/opml/</a>
+    </p>
+    <hr width="50%" align="center"/>
+  </div>
   <div>
     <h1>Other, not yet obsolete stuff</h1>
     <table class="news">
+      <tr>
+        <td class="left">2009</td>
+        <td class="left"><a href="/entries/2009/07/colophon/"><em>About this site</em></a><br/>I'm a terrible nerd. To use software like content management
+  systems or blog software is unthinkable for me. There are many ways to build
+  a site like this. I have chosen one that maximizes the use of angle
+  brackets.<br/><a href="/subjects/structuralwebdesign/">Structural web design</a>,
+	<a href="/subjects/colophon/">Colophon</a></td>
+      </tr>
       <tr>
         <td class="left">2009</td>
         <td class="left"><a href="/entries/2009/07/technorati/"><em>technorati verification</em></a><br/>A dummy entry<br/><a href="/subjects/structuralwebdesign/">Structural web design</a></td>
@@ -134,21 +93,6 @@
 	<a href="/subjects/textencoding/">Text encoding</a>,
 	<a href="/subjects/ehumanities/">Digital humanities</a>,
 	<a href="/subjects/musiclanglit/">Music, language &amp; literature</a></td>
-      </tr>
-      <tr>
-        <td class="left">2008</td>
-        <td class="left"><a href="/2008/dighum/digital_humanities.xml"><em>Digital Humanities Infrastructures</em></a><br/>This note discusses different initiatives as regards providing
-    access to resources and tools aimed at researchers within the
-    humanities. Since the general breakthrough of search services like Google,
-    annotation and bookmarking services like del.icio.us and the like, the
-    attitudes towards the application of computing within the humanities has
-    changed. In addition, the concept of e-science has contributed to make
-    scholars positive to apply computing to various problems within the
-    humanities.  Following a discussion started around year 2000, we propose
-    that it is possible to formalize many humanities computing tasks as
-    pipelines between XML processing steps.<br/><a href="/subjects/xmlprocessing/">XML processing</a>,
-	<a href="/subjects/textencoding/">Text encoding</a>,
-	<a href="/subjects/ehumanities/">Digital humanities</a></td>
       </tr>
     </table>
   </div>
