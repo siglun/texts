@@ -52,7 +52,7 @@
 
       <p>The latter goal was achieved by using two syndication services, built
       on top of Oracle. The two services were written as JAVA servlets, and
-      supported Outline Processor Markup Language (<a href="http://www.opml.org/">OPML</a>) and <a href="http://www.opensearch.org">OpenSearch</a>, together with RSS. The
+      supported Outline Processor Markup Language (<a href="http://web.archive.org/web/20071019150004/http://opml.org/">OPML</a>) and <a href="http://www.opensearch.org">OpenSearch</a>, together with RSS. The
       rationale for the latter choice of standard was that we wanted
       mainstream Internet Standards rather than typical library standards such
       as <a href="http://www.loc.gov/standards/sru/">SRU</a>. OpenSearch is
