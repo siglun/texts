@@ -1,6 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<entry xmlns="http://www.w3.org/2005/Atom" 
-       xmlns:dc="http://purl.org/dc/elements/1.1/">
+<entry xmlns="http://www.w3.org/2005/Atom" xmlns:dc="http://purl.org/dc/elements/1.1/">
   <author>
     <name>Sigfrid Lundberg</name>
   </author>
@@ -24,8 +23,7 @@
       very little textual content to go with it.</p>
 
       <p>The cataloging of the images has been made by library staff using the
-      image datase system Cumulus from <a
-      ref="http://www.canto.com/">Canto</a>.  Cumulus is designed as digital
+      image datase system Cumulus from <a ref="http://www.canto.com/">Canto</a>.  Cumulus is designed as digital
       asset management system for people within graphical industry. Canto is
       producing an advanced Web user interface, but it is rather poor as
       regards dissemination of the collections on the web. For example, images
@@ -54,14 +52,11 @@
 
       <p>The latter goal was achieved by using two syndication services, built
       on top of Oracle. The two services were written as JAVA servlets, and
-      supported Outline Processor Markup Language (<a
-      href="http://www.opml.org/">OPML</a>) and <a
-      href="http://www.opensearch.org">OpenSearch</a>, together with RSS. The
+      supported Outline Processor Markup Language (<a href="http://www.opml.org/">OPML</a>) and <a href="http://www.opensearch.org">OpenSearch</a>, together with RSS. The
       rationale for the latter choice of standard was that we wanted
       mainstream Internet Standards rather than typical library standards such
       as <a href="http://www.loc.gov/standards/sru/">SRU</a>. OpenSearch is
-      promoted by <a href="http://a9.com">A9</a>, a subsidiary of <a
-      href="http://www.amazon.com">Amazon</a> and there are at least pledges
+      promoted by <a href="http://a9.com">A9</a>, a subsidiary of <a href="http://www.amazon.com">Amazon</a> and there are at least pledges
       of support from other big players such as Google and Yahoo.</p>
 
       <p>OPML was not an as obvious choice. However, OpenSearch is basically a
@@ -71,24 +66,18 @@
       was released for about a year ago. Our technology choices makes it
       stright forward to syndicate the content. The gadget on this page is an
       example of this. It is a gadget showing the OPML and RSS from the first
-      collection of images released in this way, <a
-      href="http://www.kb.dk/images/billed/2008/maj/danmarksbilleder/">Danmarksbilleder</a>,
+      collection of images released in this way, <a href="http://www.kb.dk/images/billed/2008/maj/danmarksbilleder/">Danmarksbilleder</a>,
       a collection of historical images from a few Danish cities. The widget
-      itself is "The Original Feed Widget" a nifty thing coming from <a
-      href="http://grazr.com">grazr.com</a>. You can make one of your own by
-      filling in the URI <a
-      href="http://www.kb.dk/opml_category_service/danmarksbilleder/?opml_mode=shallow&amp;subject=8">http://www.kb.dk/opml_category_service/danmarksbilleder/?opml_mode=shallow&amp;subject=8</a>
+      itself is "The Original Feed Widget" a nifty thing coming from <a href="http://grazr.com">grazr.com</a>. You can make one of your own by
+      filling in the URI <a href="http://www.kb.dk/opml_category_service/danmarksbilleder/?opml_mode=shallow&amp;subject=8">http://www.kb.dk/opml_category_service/danmarksbilleder/?opml_mode=shallow&amp;subject=8</a>
       in the form on grazr.com.</p>
 
       <p>The use of truly simple de facto Internet standards is one
       advantage. But we needed a way to build traditional web contents on top
-      of our two web services. Sites as <a
-      href="http://www.kb.dk/images/billed/2008/maj/danmarksbilleder/">Danmarksbilleder</a>
-      mentioned above, and its "cousins" <a
-      href="http://www.kb.dk/images/billed/2008/sep/kistebilleder/">Kistebilleder</a>,
+      of our two web services. Sites as <a href="http://www.kb.dk/images/billed/2008/maj/danmarksbilleder/">Danmarksbilleder</a>
+      mentioned above, and its "cousins" <a href="http://www.kb.dk/images/billed/2008/sep/kistebilleder/">Kistebilleder</a>,
       <a href="http://www.kb.dk/images/billed/2008/sep/daellsvarehus/">Daells
-      varehus</a> and <a
-      href="http://www.kb.dk/images/billed/2008/sep/partiprogrammer/">Partiprogrammer</a>. All
+      varehus</a> and <a href="http://www.kb.dk/images/billed/2008/sep/partiprogrammer/">Partiprogrammer</a>. All
       these are actually deliverd by one single servlet, which is most
       appropriately described as a mashup-engine.</p>
 
@@ -118,6 +107,6 @@
   <dc:date>2009</dc:date>
   <category label="xmlprocessing" term="XML processing"/>
   <category label="colophon" term="Colophon"/>
-  <updated>2009-07-07T22:56:08+01:00</updated>
+  <updated>2009-07-09T18:34:41+01:00</updated>
   <id>http://www.sigfrid-lundberg.se/entries/2009/07/opml/</id>
 </entry>
