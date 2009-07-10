@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<entry xmlns="http://www.w3.org/2005/Atom" xmlns:dc="http://purl.org/dc/elements/1.1/">
+  <author>
+    <name>Sigfrid Lundberg</name>
+  </author>
+  <title>Client Side XSLT</title>
+  <link href="/entries/2009/07/client_side_xslt/"/>
+  <summary>The market has forced the major browser manufacturers to converge
+  on standards. But why are the search engines lagging behind? Browsers are
+  capable of AJAX and advanced XML processing, but the search engines are
+  still basically just removing tags and presenting raw text extracts.</summary>
+  <content type="xhtml">
+    <div xmlns="http://www.w3.org/1999/xhtml">
+
+      <p>The market has forced the major browser manufacturers to converge on
+      standards. Microsoft cannot afford to produce a browser that won't work
+      on google apps, and the Linux based netbooks and netboxes make a
+      difference. If <a
+      href="http://en.wikipedia.org/wiki/Software_as_a_service">software is a
+      service</a>, what is the client? Obviously the web client, the
+      browser. But why are the search engines lagging behind?  Browsers are
+      capable of AJAX and advanced XML processing, but the search engines are
+      still basically just removing tags and presenting raw text extracts.</p>
+
+      <p>I have quite a few documents on this site that are written in raw
+      XML, such as <a href="/2008/dighum/digital_humanities.xml">Digital
+      Humanities Infrastructures</a> position paper from last year. Since it
+      is about digital humanities and text encoding, I wrote it in <a
+      href="http://www.tei-c.org/">TEI</a> XML. The paper is presented using
+      client side XSLT. Just view source on that note, and you'll see my
+      markup. The document is a blatant show-off; it is written in nerdcore
+      vanity. At the top you'll see</p>
+
+      <pre>
+	&lt;?xml version="1.0" encoding="UTF-8" ?>
+	&lt;?xml-stylesheet href="render.xsl" type="text/xsl" ?>
+      </pre>
+
+      <p>The <kbd>xml-stylesheet</kbd> processing instruction is read by your
+      browsser, which then retrieves the stylesheet <a
+      href="/2008/dighum/render.xsl">render.xsl</a>. Without any further ado
+      it is then transformed into html for you to read.</p>
+
+      <h2>What does Google do when indexing XML?</h2>
+
+      <p>There is almost certainly a range of XML formats that is actually
+      interpreted by Google. Which formats, well we don't know but in practice
+      can hardly expect anything more exotic than common syndication formats
+      (such as RSS and ATOM ), microformats and RDFa.</p>
+
+      <pre>
+	&lt;html>
+	  &lt;head>
+	    &lt;title>Digital Humanities Infrastructures&lt;/title>
+	    &lt;style type="text/css" media="all">
+	      @import "html_print.css";
+	    &lt;/style>
+	  &lt;/head>
+	  &lt;body>
+	    &lt;h1 class="title">Digital Humanities Infrastructures&lt;/h1>
+	    &lt;p class="author">
+	      Sigfrid Lundberg
+      </pre>
+
+      <blockquote>Digital Humanities Infrastructures 2008-06-12 Digital
+      Humanities ...  - 5. jun Digital Humanities Infrastructures 2008-06-12
+      Digital Humanities Infrastructures Sigfrid Lundberg slu@kb.dk Digital
+      Development and Production The Royal ...
+      www.sigfrid-lundberg.se/2008/.../digital_humanities.xml - Cached -
+      Lignende</blockquote>
+
+    </div>
+  </content>
+  <dc:date>2009</dc:date>
+  <category label="structuralwebdesign" term="Structural web design"/>
+  <updated>2009-07-10T8:05:38+01:00</updated>
+  <id>http://www.sigfrid-lundberg.se/entries/2009/07/client_side_xslt/</id>
+</entry>
