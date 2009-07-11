@@ -9,6 +9,13 @@
       <firstname>Sigfrid</firstname>
       <surname>Lundberg</surname>
     </author>
+    <revhistory>
+      <revision>
+	<revnumber>$Revision$</revnumber>
+	<date>$Date$</date>
+	<authorinitials>$Author$</authorinitials>
+      </revision>
+    </revhistory>
   </articleinfo>
   <abstract>
     <para>Åtskillig uppmärksamhet har nyligen riktats mot problemen
