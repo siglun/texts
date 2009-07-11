@@ -16,7 +16,7 @@
       still basically just removing tags and presenting raw text extracts.</p>
 
       <p>I have quite a few documents on this site that are written in raw
-      XML, such as <a href="/2008/dighum/digital_humanities.xml">Digital
+      XML, such as the <a href="/2008/dighum/digital_humanities.xml">Digital
       Humanities Infrastructures</a> position paper from last year. Since it
       is about digital humanities and text encoding, I wrote it in <a href="http://www.tei-c.org/">TEI</a> XML. The paper is presented using
       client side XSLT. Just view source on that note, and you'll see my
@@ -31,7 +31,7 @@
       <p>The <kbd>xml-stylesheet</kbd> processing instruction is read by your
       browsser, which then retrieves the stylesheet <a href="/2008/dighum/render.xsl">render.xsl</a>. Without any further ado
       it is then transformed into html, rendered using the CSS indicated by my
-      XSLT script for you to read. You can even inscpect the resulting html
+      XSLT script for you to read. You can even inspect the resulting html
       using <a href="http://getfirebug.com/">firebug</a>, if you've got a
       modern installation.</p>
 
