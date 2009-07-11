@@ -7,6 +7,10 @@
   <id>http://www.sigfrid-lundberg.se/files.atom</id>
   <link rel="self" href="/files.atom"/>
   <updated>2006-06-08T00:03:00+01:00</updated>
+  <!--
+      $Revision$, last modified $Date$
+      $Id$
+  -->
   <entry>
     <title>NWI — En nordisk söktjänst för World Wide Web</title>
     <author>
