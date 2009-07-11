@@ -7,6 +7,13 @@
 	       exclude-result-prefixes="xsl f dc"
 	       extension-element-prefixes="exsl"
 	       version="1.0">
+
+  <!--
+    Builds entries
+    Author Sigfrid Lundberg (siggelundberg@gmail.com)
+    $Revision$ last modified $Date$
+    $Id$
+  -->
   
   <xsl:output method="xml"
 	      indent="yes"
@@ -69,9 +76,11 @@
 
 	  <xsl:apply-templates mode="copy" select="f:content[@type='xhtml']"/>
 	</div>
+
 	<xsl:comment>#include virtual="/js/urchin.js" </xsl:comment>
+
       </xsl:element>
-      </html>
+    </html>
 
   </xsl:template>
 
