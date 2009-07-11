@@ -1,0 +1,5 @@
+#!/usr/bin/perl
+
+my $xslt = "xsltproc $ENV{'HOME'}/xml-style-library/db_special.xsl ".$ARGV[0]." > index.shtml";
+
+system $xslt;
