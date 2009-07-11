@@ -1,2 +1,4 @@
 User-agent: *
 Disallow: /galleri
+Disallow: /wusage
+Disallow: /wusage5
