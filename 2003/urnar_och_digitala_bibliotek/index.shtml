@@ -1,118 +1,109 @@
-<html>
-<head>
-<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
-<title>Pesistent länkning och digitala bibliotek</title>
-<link rel="stylesheet" href="./html_print.css">
-</head>
-<body>
-<div class="box">
-  
-  
-    <p>Åtskillig uppmärksamhet har nyligen riktats mot problemen
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml"><head><title>Pesistent länkning och digitala bibliotek</title><link rel="stylesheet" href="/css-style/html_print.css" /><meta http-equiv="Content-Type" content="text/html; charset=UTF-8" /></head><body><div class="box"><h1 class="title"><em>Pesistent länkning och digitala bibliotek</em></h1><p class="author">
+      Sigfrid
+      Lundberg
+    <br /><br /><strong>Revision:</strong>,
+      <strong>Date:</strong>,
+      <strong>Editor:</strong></p><div class="abstract"><blockquote>Åtskillig uppmärksamhet har nyligen riktats mot problemen
       förknippade med att uppnå en stabilare webb. Det konstateras,
       helt korrekt, att mängder med dokument bara försvinner från sina
       ursprungliga platser. Vad skall man då göra åt saken? Vad är det för
       grundläggande designproblem som gör att organisationer vilka underhåller
-      länksamlingar av olika slag tvingas bära en allt tyngre börda?</p>
-  
+      länksamlingar av olika slag tvingas bära en allt tyngre börda?</blockquote></div><div class="level1"><h2>Table of contents</h2><ul><li><a href="#">Introduktion</a></li><li><a href="#">Universal Resource Names</a></li><li><a href="#">Uppenbara problem</a></li><li><a href="#">En felsyn</a></li><li><a href="#">Finns det lindring?</a></li><li><a href="#footnoteshere">
+	    Footnotes
+	  </a></li></ul></div><div class="level1">
 
-  
-
-    <h1 class="title">Introduktion</h1>
+    <h1 class="level1">Introduktion</h1>
 
     <p>Under det senaste året har jag noterat ett ökat intresse för
       persistent länkning. Det är bra, på ett sätt. För det är viktiga
       problem. Emellertid finns det en övertro på Universal Resource Names
       (URNar) kan åstadkomma. Den idén kan synas bra, men i själva verket är
       den dunkelt tänkt, och det har inte blivit mycket av den.</p> 
-  
-    
-      <h1 class="title">Universal Resource Names</h1>
+  </div><div class="level1">
+      <h1 class="level1">Universal Resource Names</h1>
 
       <p>Standardiseringsläget för Universal Resource Names (URN) är föga
 	uppmuntrande:
 
 	<ul>
 	  <li>
-	    <p>Det existerar ingen internetstandard med status bättre än
+	    Det existerar ingen internetstandard med status bättre än
 	      'Experimental' när det gäller Universal Resource Names
-	      <sup><a href="#rfcxx00">1</a></sup>.</p>
+	      <sup><a href="#rfcxx00">1</a></sup>.
 	  </li>
 
 	  <li>
-	    <p>Den enda standard när det gäller URN-resolvering som
+	    Den enda standard när det gäller URN-resolvering som
 	      verkligen implementeras är
 	      rfc2169<sup><a href="#rfc2169">2</a></sup>.
 	      Den här från 1997 och i många avseenden obsolet.
-	      Återkommer till denna.</p>
+	      Återkommer till denna.
 	  </li>
 
 	  <li>
-	    <p>IETF har inte haft någon arbetsgrupp inom området sedan
+	    IETF har inte haft någon arbetsgrupp inom området sedan
 	      2001. Något nytt standardiseringsarbete kan inte förväntas på 
-	      åtskilliga år.</p>
+	      åtskilliga år.
 	  </li>
 
 	  <li>
-	    <p>Under arbetet med den andra upplagan av rfc2396
+	    Under arbetet med den andra upplagan av rfc2396
 	      (proposed standard)<sup><a href="#rfc2396">3</a></sup>
 	      har man på allvar diskuterat att
 	      slänga ut URNna över huvud taget<sup><a href="#rfc2396bis">4</a></sup>. Det blir inte så, men att 
 	      frågan rests visar att själva URN-konceptet vilar på mycket
 	      lös grund och dess vidare utveckling har mycket litet stöd
-	      inom ramen för <sup><a href="#URI-URL-URN">5</a></sup>.</p>
+	      inom ramen för <sup><a href="#URI-URL-URN">5</a></sup>.
 	  </li>
 	</ul>
     </p>
-  
-  
-    <h1 class="title">Uppenbara problem</h1>
+  </div><div class="level1">
+    <h1 class="level1">Uppenbara problem</h1>
     <p>Eventuella rikt linjer för persistent länkning när det
       gäller svensk e-publicering, arkivering och digitalt bevarande måste
 	  beakta en rad uppenbara problem
 
       <ul>
 	<li>
-	    <p>URN-konceptets svaga standardiseringsposition. De
+	    URN-konceptets svaga standardiseringsposition. De
 	      resolveringsmekanismer vilka i princip bygger på rfc2169.txt 
 	      <sup><a href="#rfc2169">2</a></sup>) kommer aldrig att nå nivån
 	    standard. Konceptet är svagare än Persistent URLs
 	    <sup><a href="#PURL">7</a></sup>, vilken är att betrakta som en de
-	    facto-standard i dag.</p> 
+	    facto-standard i dag. 
 	  </li>
 
 	  <li>
-	    <p>Oavsett vilka rekommendationer som lämnas
+	    Oavsett vilka rekommendationer som lämnas
 	    måste vi beakta att varje lösning som kräver en
 	    resolveringsmekanism (PURL, URN eller vilken som) kommer att
 	    ge lägre persistens än än den minst persistenta ingående
 	    komponenten. Den mest persistenta lösningen av alla är en
-	    stabil URL.</p>
+	    stabil URL.
 	  </li>
 
 	<li>
-	    <p>Varje system för persistent lokalisering och identifiering
+	    Varje system för persistent lokalisering och identifiering
 	      kräver en "persistence policy" från varje deltagande
 	      partner för att hålla systemet vid liv. Det finns många
 	    organisationer som implementerar sådana policies, och de är olika
 	    beroende på vad det är man vill bevara. Jämför <sup><a href="#W3C">8</a></sup> <sup><a href="#DCMI">9</a></sup> <sup><a href="#Cores-EU">10</a></sup> <sup><a href="#DCMI">9</a></sup> och
-	    <sup><a href="#BIOMED">12</a></sup>.</p> 
+	    <sup><a href="#BIOMED">12</a></sup>. 
 	  </li>
 
 	<li>
-	    <p>URN-konceptet är gammalt, och blandar sig därför inte
+	    URN-konceptet är gammalt, och blandar sig därför inte
 	    automatiskt väl med moderna standarder. Ett system för lokalisering
 	    och identifiering får måste vara kompatibelt med moderna
 	    XPath-baserade standarder som (t ex) XInclude <sup><a href="#xinclude">13</a></sup>, XLink <sup><a href="#xlink">14</a></sup> och
-	    XPointer <sup><a href="#xptr">15</a></sup>.</p>  
+	    XPointer <sup><a href="#xptr">15</a></sup>.  
 	</li>
       </ul>
     </p>
     
-  
-
-  
-    <h1 class="title">En felsyn</h1>
+  </div><div class="level1">
+    <h1 class="level1">En felsyn</h1>
     
     <p>Problemet med att webben förefaller vara flyktig, att resurser
       försvinner, osv, är inte att URLar är dålig ingenjörskonst. Det finns
@@ -128,89 +119,55 @@
       steg ger mer underhåll. Och varje steg som kräver underhåll ökar risken
       för att något fallerar.</p> 
 
-  
-
-  
-    <h1 class="title">Finns det lindring?</h1>
+  </div><div class="level1">
+    <h1 class="level1">Finns det lindring?</h1>
 
     <p></p>
 
-  
-  
-    
-
-  
-<h2>Noter</h2>
-<p id="rfcxx00"><strong class="number">1</strong>   .<em>
+  </div><div class="level1"><h1 id="footnoteshere">Notes</h1><p id="rfcxx00"><strong class="number">1</strong>  .<em>
 	<a href="http://www.rfc-editor.org/rfcxx00.html">Official Internet
 	  Protocol Standards</a> 
-      </em></p>
-<p id="rfc2169"><strong class="number">2</strong> R. Daniel .<em>
+      </em><br /></p><p id="rfc2169"><strong class="number">2</strong> R.Daniel .<em>
 	<a href="ftp://ftp.rfc-editor.org/in-notes/rfc2169.txt">
 	  A Trivial Convention for using HTTP in URN Resolution
 	</a>
-      </em></p>
-<p id="rfc2396"><strong class="number">3</strong> T. Berners-Lee , R. Fielding , U.C. Irvine  and L. Masinter .<em>
+      </em><br /></p><p id="rfc2396"><strong class="number">3</strong> T.Berners-Lee , R.Fielding , U.C.Irvine  and L.Masinter .<em>
 	<a href="ftp://ftp.rfc-editor.org/in-notes/rfc2396.txt">
 	  Uniform Resource Identifiers (URI): Generic Synta
 	</a>
-      </em></p>
-<p id="rfc2396bis"><strong class="number">4</strong> T. Berners-Lee , R. Fielding  and L. Masinter .<em>
+      </em><br /></p><p id="rfc2396bis"><strong class="number">4</strong> T.Berners-Lee , R.Fielding  and L.Masinter .<em>
 	<a href="http://www.gbiv.com/protocols/uri/rev-2002/rfc2396bis.html">
 	  Uniform Resource Identifier (URI): Generic Syntax</a>
 	(work in progress)
-      </em></p>
-<p id="URI-URL-URN"><strong class="number">5</strong> <em>
-	<a href="http://www.gbiv.com/protocols/uri/rev-2002/issues.html#019-URI-URL-URN">URI/URL/URN contemporary view</a></em></p>
-<p id="rfc2169"><strong class="number">6</strong> R. Daniel .<em>
+      </em><br /></p><p id="URI-URL-URN"><strong class="number">5</strong> <em>
+	<a href="http://www.gbiv.com/protocols/uri/rev-2002/issues.html#019-URI-URL-URN">URI/URL/URN contemporary view</a></em><br /></p><p id="rfc2169"><strong class="number">6</strong> R.Daniel .<em>
 	<a href="ftp://ftp.rfc-editor.org/in-notes/rfc2169.txt">
 	  A Trivial Convention for using HTTP in URN Resolution
 	</a>
-      </em></p>
-<p id="PURL"><strong class="number">7</strong> Keith Shafer , Stuart Weibel , Erik Jul  and Jon Fausey .<em>
+      </em><br /></p><p id="PURL"><strong class="number">7</strong> KeithShafer , StuartWeibel , ErikJul  and JonFausey .<em>
 	<a href="http://purl.oclc.org/docs/inet96.html">Introduction to Persistent Uniform Resource Locators</a>
-      </em></p>
-<p id="W3C"><strong class="number">8</strong> T. Berners-Lee .<em>
+      </em><br /></p><p id="W3C"><strong class="number">8</strong> T.Berners-Lee .<em>
 	<a href="http://www.w3.org/Consortium/Persistence">Persistence
 	  Policy</a> 
-      </em></p>
-<p id="DCMI"><strong class="number">9</strong> Makx Dekkers .<em>
+      </em><br /></p><p id="DCMI"><strong class="number">9</strong> MakxDekkers .<em>
 	<a href="http://dublincore.org/usage/documents/publications/#persistence">	  DCMI Publication Policy</a>
-      </em></p>
-<p id="Cores-EU"><strong class="number">10</strong>   .<em>
+      </em><br /></p><p id="Cores-EU"><strong class="number">10</strong>  .<em>
 	<a href="http://www.cores-eu.net/registry/persist/">Project Policy
 	  on Persistence of the Registry</a>
-      </em></p>
-<p id="DCMI"><strong class="number">11</strong> Makx Dekkers .<em>
+      </em><br /></p><p id="DCMI"><strong class="number">11</strong> MakxDekkers .<em>
 	<a href="http://dublincore.org/usage/documents/publications/#persistence">	  DCMI Publication Policy</a>
-      </em></p>
-<p id="BIOMED"><strong class="number">12</strong>   .<em>
+      </em><br /></p><p id="BIOMED"><strong class="number">12</strong>  .<em>
 	<a href="http://www.biomedcentral.com/info/libraries/archive">Journal
 	  archiving</a>
-      </em></p>
-<p id="xinclude"><strong class="number">13</strong>   .<em>
+      </em><br /></p><p id="xinclude"><strong class="number">13</strong>  .<em>
 	<a href="http://www.w3.org/TR/xinclude/">XML
 	  Inclusions (XInclude) Version 1.0</a> (W3C Working Draft)
-      </em></p>
-<p id="xlink"><strong class="number">14</strong>   .<em>
+      </em><br /></p><p id="xlink"><strong class="number">14</strong>  .<em>
 	<a href="http://www.w3.org/TR/2001/REC-xlink-20010627/">XML Linking
 	  Language (XLink) Version 1.0</a>
-      </em></p>
-<p id="xptr"><strong class="number">15</strong>   .<em>
+      </em><br /></p><p id="xptr"><strong class="number">15</strong>  .<em>
 	<a href="http://www.w3.org/TR/2003/REC-xptr-framework-20030325/">XPointer
 	  Framework</a>
-      </em></p>
-<p id="Style-URI"><strong class="number">16</strong> T. Berners-Lee .<em>
+      </em><br /></p><p id="Style-URI"><strong class="number">16</strong> T.Berners-Lee .<em>
 	<a href="http://www.w3.org/Provider/Style/URI">Cool URIs don't
-	  change</a></em></p>
-</div>
-<script type="text/javascript">
-	  var gaJsHost = (("https:" == document.location.protocol) ? "https://ssl." : "http://www.");
-	  document.write(unescape("%3Cscript src='" + gaJsHost + "google-analytics.com/ga.js' type='text/javascript'%3E%3C/script%3E"));
-	</script><script type="text/javascript">
-	  try {
-	  var pageTracker = _gat._getTracker("UA-9306307-1");
-	  pageTracker._trackPageview();
-	} catch(err) {}</script>
-</body>
-</html>
+	  change</a></em><br /></p></div></div><!--#include virtual="/js/urchin.js" --></body></html>
