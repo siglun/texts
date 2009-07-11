@@ -1477,7 +1477,7 @@ byggs</h3>
         <p>Elegansen i TKLs användning av XSLT blir uppenbar av
 följande schema:</p>
         <p>
-          <img src="http://sigge.lub.lu.se/2003/def-test/xslt_in_tkl.png" alt="Skiss över hur XSLT används i TKL"/>
+          <img src="/2003/def-test/xslt_in_tkl.png" alt="Skiss över hur XSLT används i TKL"/>
         </p>
         <p>Varje dokumenttyp som ligger i en *.tkl-fil kan levereras
 från servern givet att det existerar ett tillhörande
@@ -1595,7 +1595,7 @@ personal som kommer att lära sig att sköta dem.</p>
 nätverk avämnesportaler? Vi har slängt ihop en
 skiss över ett bläddringsträd.</p>
         <p>
-          <img src="http://sigge.lub.lu.se/2003/def-test/bladdring.png" alt="Hypotetisk samlingämnesportaler och en likaledes hypotetisk      samkatologäver dem"/>
+          <img src="/2003/def-test/bladdring.png" alt="Hypotetisk samlingämnesportaler och en likaledes hypotetisk      samkatologäver dem"/>
         </p>
         <p>I figuren återfinns olikaämnen A,B,... Q samt U.
 Ämnet Uär unionen av det mänskliga vetandet.
@@ -3100,5 +3100,7 @@ NOVAgate <a href="Testrapport_novagate.doc">(Rapport)</a></li>
         </ul>
       </li>
     </ul>
+    <!--#include virtual="/js/urchin.js" -->
   </body>
 </html>
+<!-- $Id$ -->
