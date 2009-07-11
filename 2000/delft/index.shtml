@@ -30,6 +30,7 @@
 	<a href="7_issues.html">Issues and problems</a>
       </li>
     </ol>
+    <!--#include virtual="/js/urchin.js" -->
   </body>
 </html>
 

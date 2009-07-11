@@ -805,7 +805,7 @@
     <author>
       <name>Sigfrid Lundberg</name>
     </author>
-    <link href="http://www.sigfrid-lundberg.se/2004/biblioteket/index.html"/>
+    <link href="http://www.sigfrid-lundberg.se/2004/biblioteket/"/>
     <summary>Biblioteken existerar för att det finns användare som är beredda
     att betala för deras tjänster. Visserligen betalar man i regel via
     skattesedeln och inte med sitt betalkortet, men principen är densamma.
@@ -821,7 +821,7 @@
     <category term="Digital libraries" label="digitallibraries"/>
     <category term="Internet" label="internet"/>
     <updated>2009-06-09T21:01:00+01:00</updated>
-    <id>http://www.sigfrid-lundberg.se/2004/biblioteket/index.html</id>
+    <id>http://www.sigfrid-lundberg.se/2004/biblioteket/</id>
   </entry>
   <entry>
     <title>Vad en bra samling av digital text bör kunna</title>
@@ -1260,7 +1260,7 @@
     <updated>2009-06-08T00:05:00+01:00</updated>
     <category term="Digital collections" label="digitalcollections"/>
     <category term="Reviews" label="reviews"/>
-    <id>http://www.sigfrid-lundberg.se/1997/kultur_naet_sverige/index.html</id>
+    <id>http://www.sigfrid-lundberg.se/1997/kultur_naet_sverige/</id>
   </entry>
   <entry>
     <title>The Kulturarw3 archiving format</title>
