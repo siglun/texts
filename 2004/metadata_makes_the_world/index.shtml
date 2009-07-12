@@ -27,6 +27,7 @@
       <a href="kurs.pdf">pdf</a>.</p>
 
     </div>
+    <!--#include virtual="/js/urchin.js" -->
   </body>
   <!-- $Id$ -->
 </html>
