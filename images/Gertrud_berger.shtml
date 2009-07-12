@@ -8,7 +8,7 @@
   </head>
   <body>
 
-   <!--#include virtual="./navigate_images.html" -->
+   <!--#include virtual="./navigate_images.xml" -->
 
    <div class="right_box">
     <p style="text-align:center;">
