@@ -24,8 +24,9 @@
 	<br/>
 	<small>Photo by William Nixon. It was taken by William Nixon of
 	Glasgow University Library at the ETD2003 conference dinner in Berlin
-	</small></p>
+      </small></p>
     </div>
+    <!--#include virtual="/js/urchin.js" -->
   </body>
 </html>
 
