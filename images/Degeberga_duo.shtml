@@ -1,20 +1,27 @@
-<html>
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+  "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+
+<html xmlns="http://www.w3.org/1999/xhtml">
   <head>
-    <title>Erik Berger &ndash; my son &ndash; and myself</title></head>
+    <title>Erik Berger &ndash; my son &ndash; and myself</title>
     <link rel='stylesheet' href='/css-style/html.css' type="text/css" />
+    <meta http-equiv="content-type" content="text/html;charset=UTF-8" />
+  </head>
   <body>
-   <!--#include virtual="./navigate_images.html" -->
+   <!--#include virtual="./navigate_images.xml" -->
    <div class="right_box">
-    <p align="center">
+    <p style ="text-align: center;">
       <a href="Degeberga_duo.jpg"
-	title="Erik Berger Lundberg &ndash; my son &ndash; and myself preparing our lunch" >
+	title="Erik Berger Lundberg &ndash; my son &ndash;
+	       and myself preparing our lunch" >
 	<img width="100%" src="Degeberga_duo-2.jpg"
-	  alt="Erik Berger Lundberg &ndash; my son &ndash; and myself" />
+	     alt="Erik Berger Lundberg &ndash; my son &ndash; and myself" />
       </a>
       <br />
       Photo: Stephen Wessels
     </p>
-    <p align="center">
+    <p style="text-align: center;">
       <a href="erik_med_sigge.jpg"
 	title="Erik Berger Lundberg &ndash; my son &ndash; and myself busking"
 	> 
@@ -23,10 +30,11 @@
 	  /> 
       </a>
       <br />
-      Photo: Tomas Schönthal
+      Photo: Tomas SchÃ¶nthal
     </p>
     </div>
-    <pre>
-    </pre>
+    <!--#include virtual="/js/urchin.js" -->
   </body>
 </html>
+
+<!-- $Id$ -->

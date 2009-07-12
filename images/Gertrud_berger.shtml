@@ -1,4 +1,7 @@
-<html>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+  "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+
+<html xmlns="http://www.w3.org/1999/xhtml">
   <head>
     <title>Gertrud Berger &ndash; my wife</title>
     <link rel='stylesheet' href='/css-style/html.css' type="text/css" />
@@ -8,13 +11,15 @@
    <!--#include virtual="./navigate_images.html" -->
 
    <div class="right_box">
-    <p align="center">
-      <a href="Gertrud_Berger.jpg" alt="Gertrud_Berger" title="Gertrud Berger
-	&ndash; my wife" >
+    <p style="text-align:center;">
+      <a href="Gertrud_Berger.jpg" title="Gertrud Berger &ndash; my wife" >
 	<img src="Gertrud_Berger.jpg"
 	  alt="Gertrud Berger" />
       </a>
     </p>
     </div>
+    <!--#include virtual="/js/urchin.js" -->
   </body>
 </html>
+
+<!-- $Id$ -->
