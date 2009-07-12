@@ -9,7 +9,7 @@
   building, and has then proudly been parked on top of the remnants.</summary>
   <content type="xhtml">
     <div xmlns="http://www.w3.org/1999/xhtml">
-      <div style="float: left">
+      <div style="float: left;margin-left: 3px;margin-right:3px;">
 	<img 
 	    src="http://www.sigfrid-lundberg.se/galleri/200907-200907/smaller/cimg1345.jpg" 
 	    alt="an excavator on top of a demolished building"/>
