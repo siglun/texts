@@ -1235,6 +1235,23 @@
   <author>
     <name>Sigfrid Lundberg</name>
   </author>
+  <title>This is a dummy entry for technorati</title>
+  <link href="/entries/2009/07/technorati/"/>
+  <summary>uw5m38jba7
+  </summary>
+  <content type="xhtml">
+    <div xmlns="http://www.w3.org/1999/xhtml">
+uw5m38jba7
+    </div>
+  </content>
+  <dc:date>2009</dc:date>
+  <category label="structuralwebdesign" term="Structural web design"/>
+  <updated>2009-07-13T10:42:06+01:00</updated>
+  <id>http://www.sigfrid-lundberg.se/entries/2009/07/technorati/</id>
+</entry><entry xmlns:dc="http://purl.org/dc/elements/1.1/">
+  <author>
+    <name>Sigfrid Lundberg</name>
+  </author>
   <title>OpenSearch, RSS and OPML as XML Webservices for information
   retrieval</title>
   <link href="/entries/2009/07/opml/"/>
