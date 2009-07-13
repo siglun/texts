@@ -4,6 +4,10 @@
 <!ENTITY mdash "&#x2014;">
 ]>
 <TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <!--
+      $Revision$ last modified $Date$ by $Author$ 
+      $Id$
+  -->
   <teiHeader>
     <fileDesc>
       <titleStmt>
