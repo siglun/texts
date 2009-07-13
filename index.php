@@ -34,6 +34,14 @@
 	}
       ?>
 
+      <p>
+	<a href="/files.atom" type="application/atom+xml" class="feed-link">
+	  <img src="/images/Newsfeed-Atom.png" 
+	       alt="Subscribe to Stuff from Sigfrid Lundberg"
+	       border="0"/>
+	  Subscribe to more Stuff</a>
+      </p>
+
       <?php
 	$file = "./subjects.xml";
 	if (file_exists($file)) {

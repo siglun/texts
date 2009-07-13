@@ -55,6 +55,7 @@
 	    </strong>
 	  </em>
 	  <xsl:element name="a">
+	    <xsl:attribute name="rel">bookmark</xsl:attribute>
 	    <xsl:attribute name="href">
 	      <xsl:value-of 
 		  select="f:entry[not(f:category/@label = 'aboutme')][1]/f:link/@href"/>

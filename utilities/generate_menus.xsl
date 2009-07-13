@@ -7,6 +7,10 @@
 	       exclude-result-prefixes="xsl f dc"
 	       extension-element-prefixes="exsl"
 	       version="1.0">
+
+  <!--
+      $Id$
+  -->
   
   <xsl:output method="xml"
 	      indent="yes"
@@ -53,8 +57,15 @@
       <html>
 	  <head>
 	    <title>
-	      <xsl:apply-templates select="."/><xsl:text>: </xsl:text>
-	      Sigfrid Lundberg's Stuff
+	      <xsl:choose>
+		<xsl:when test="$vocabulary = 'category'">
+		  <xsl:value-of select="@term"/>
+		</xsl:when>
+		<xsl:otherwise>
+		  <xsl:apply-templates select="."/>
+		</xsl:otherwise>
+	      </xsl:choose>
+	      <xsl:text>: </xsl:text>Sigfrid Lundberg's Stuff
 	    </title>
 
 	    <meta http-equiv="Content-Type"
@@ -81,7 +92,18 @@
 		<xsl:comment>#include virtual="/div_top_left_box.xml" </xsl:comment>
 	      </div>
 	      <div style="text-align:left;width=90%;">
-		<p><a href="/">Home</a></p>
+		<p>
+		  <a href="/">Home</a><br/>
+		</p>
+		<p>
+		  <a href="/files.atom" type="application/atom+xml" class="feed-link">
+		    <img src="/images/Newsfeed-Atom.png" 
+			 alt="Subscribe to Stuff from Sigfrid Lundberg"
+			 border="0"/>
+		    <xsl:text> Subscribe to more Stuff</xsl:text>
+		  </a>
+
+		</p>
 		<xsl:comment>#include virtual="/subjects.xml" </xsl:comment>
 		<xsl:comment>#include virtual="/me.xml" </xsl:comment>
 	      </div>
