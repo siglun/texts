@@ -46,6 +46,14 @@
       and you can a new document type without recompilation of you're indexing
       software.</p>
 
+      <p>This ability of a fullblown functional programming language (mind
+      you, its Turing complete) to interface both with a host program and from
+      scripts inside it call other functions in other languages is
+      powerful. This, in combination that it is really good for what it is
+      designed for has made it an object for extreme affection from
+      me. Besides I'll return to examples of using XSLT for indexing complex
+      XML objects.</p>
+
     </div>
   </content>
   <dc:date>2009</dc:date>
