@@ -37,14 +37,14 @@
 
       <p>Now, it has been proven mathematically that xslt is a <a href="http://www.ibm.com/developerworks/library/x-xalanextensions.html">Turing
       complete</a> programming language. That means that it is possible to
-      program <strong>anything</strong> which is possible to program which
-      such a language. I.e., you have theoretically the same possibilities as
-      in JAVA and C++. That doesn't mean that it is practical do do so. It is,
-      in my view, much easier to traverse a XML tree in XSLT than in (say)
-      JAVA, whereas it is much easier to connect to a database from a
-      conventional programming language.</p>
+      program <strong>anything</strong> which is possible to program with such
+      a language. I.e., you have theoretically the same possibilities as in
+      JAVA and C++. That doesn't mean that it is practical do do so. It is, in
+      my view, much easier to traverse a XML tree in XSLT than in (say) JAVA,
+      whereas it is much easier to connect to a database or implement a XSLT
+      processor using a conventional programming language.</p>
 
-      <p>It is here the xslt extension functions become really useful. You can
+      <p>It is here the XSLT extension functions become really useful. You can
       pass data from XSLT to your own functions written in your favourite
       programming lanuguage. I use this for tasks like indexing XML
       documents. When traversing a document, you select text and pass it to
