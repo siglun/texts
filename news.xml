@@ -1,35 +1,54 @@
 <div xmlns="http://www.w3.org/1999/xhtml">
   <div>
-    <h1 style="width: 58%; float: left;text-align: leftt">The predator rests on its prey</h1>
+    <h1 style="width: 58%; float: left;text-align: leftt">Why I love XSLT extension functions</h1>
     <p style="width: 38%; float: left;text-align: right">
       <em>
         <strong>
 		Sigfrid Lundberg's Stuff,
-	      2009-07-13</strong>
+	      2009-07-14</strong>
       </em>
     </p>
   </div>
   <div style="clear:both;"> </div>
   <div style="width:100%;">
     <div>
-      <div style="float: left;margin-left: 3px;margin-right:3px;">
-	<img src="http://www.sigfrid-lundberg.se/galleri/200907-200907/smaller/cimg1345.jpg" alt="an excavator on top of a demolished building"/>
-      </div>
 
-      <p>Is this <a href="http://en.wikipedia.org/wiki/Smaug">Smaug</a>
-      resting on a pile of gold? Or a predator resting after a victorius
-      battle with a powerful prey?</p>
+      <p>I started learning XSLT eight years ago. At the time, it was a fresh
+      technology, and there was also intense discussions on the extensibility
+      of the language. Since then xslt 1.1 has disappeared down the drains,
+      xpath 2.0 &amp; xquery 1.0 appeared on the market. The former of these
+      has had a slow start. The latter, however, has gained acceptance,
+      however a bit reluctant.</p>
 
-      <p>Obviously neither. But I've seen this image before. An excavator has
-      demolished a building, and has then proudly been parked on top of the
-      remnants. The building was a petrol station from the sixties. I'll not
-      miss it; it was an ugly building. The shop inside it was
-      poor. That's not the point.</p>
+      <p>The stuff I want to discuss here is the writing of extension
+      functions. This is regarded as an evil habit in some parts of the XML
+      processing communities, but it is supported by most implementations. It
+      is not to be recommended if you're producing a stand-alone application,
+      but in many cases you're xslt code is an integrated part of an
+      application. Most of my code is of this kind; in particular I'm writing
+      xslt for xalan running in a JAVA environment. Now, why should I refrain
+      from using regex, just because xalan does not support this package? I
+      cannot see why. And nobody would ask me to write ANSI SQL in spite of
+      the fact that we use Oracle.</p>
 
-      <p> The point is just <strong>why this gesture of aggression</strong>?
-      Why is the excavator always parked on top of the remnants? Is it a
-      gesture of triumph? Has the present once again earned a victory over the
-      past?  It is the choice of parking place which is the question.</p>
+      <p>Now, it has been proven mathematically that xslt <a href="http://www.ibm.com/developerworks/library/x-xalanextensions.html">Turing
+      complete</a> programming language. That means that it is possible to
+      program <strong>anything</strong> which is possible to program which
+      such a language. I.e., you have theoretically the same possibilities as
+      in JAVA and C++. That doesn't mean that it is practical do do so. It is,
+      in my view, much easier to traverse a XML tree in XSLT than in (say)
+      JAVA, whereas it is much easier to connect to a database from a
+      conventional programming language.</p>
+
+      <p>It is here the xslt extension functions become really useful. You can
+      pass data from XSLT to your own functions written in your favourite
+      programming lanuguage. I use this for tasks like indexing XML
+      documents. When traversing a document, you select text and pass it to
+      you're function which pass it to your indexing API. One big advantage is
+      that the same software can index heterogenous collections of XML
+      documents just by using different XSLT scripts. They are easy to write
+      and you can a new document type without recompilation of you're indexing
+      software.</p>
 
     </div>
     <p style="text-align: right">
@@ -38,13 +57,18 @@
 		Permalink:
 	      </strong>
       </em>
-      <a rel="bookmark" href="/entries/2009/07/victory/">http://www.sigfrid-lundberg.se/entries/2009/07/victory/</a>
+      <a rel="bookmark" href="/entries/2009/07/xslt_extensions/">http://www.sigfrid-lundberg.se/entries/2009/07/xslt_extensions/</a>
     </p>
     <hr width="50%" align="center"/>
   </div>
   <div>
     <h1>Other, not yet obsolete stuff</h1>
     <table class="news">
+      <tr>
+        <td class="left">2009</td>
+        <td class="left"><a href="/entries/2009/07/victory/"><em>The predator rests on its prey</em></a><br/>I've seen this image before. An excavator has demolished a
+  building, and has then proudly been parked on top of the remnants.<br/><a href="/subjects/essays/">Essays</a></td>
+      </tr>
       <tr>
         <td class="left">2009</td>
         <td class="left"><a href="/entries/2009/07/technorati/"><em>This is a dummy entry for technorati</em></a><br/>uw5m38jba7
@@ -85,15 +109,6 @@
   som hon säger, på lånad tid. Tid, det är något som hon tar på största
   allvar. Vi talas vid per telefon varje dag. Hon ringer 20.10, nästan
   exakt. Det blir alltid ett trevligt samtal.<br/><a href="/subjects/essays/">Essays</a></td>
-      </tr>
-      <tr>
-        <td class="left">2009</td>
-        <td class="left"><a href="/entries/2009/06/atom/"><em>My first serious experience with ATOM</em></a><br/>You don't really understand a document format until you've manually
-  encoded some documents, and written the software to parse and use it for
-  something useful. This somewhat refurbished version of my web site is to a
-  large extent built upon the ATOM syndication format, and here I discuss my
-  experience.<br/><a href="/subjects/structuralwebdesign/">Structural web design</a>,
-	<a href="/subjects/metadata/">Metadata</a></td>
       </tr>
     </table>
   </div>
