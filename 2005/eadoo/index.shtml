@@ -6,6 +6,11 @@
   </head>
   <body>
 
+    <!--
+	$Id$
+
+    -->
+
     <div class="left_box">
       <p><a href="../">2005</a></p>
       <!--#include virtual="../navigation.html" -->
@@ -13,34 +18,37 @@
 
     <div class="right_box">
 
-    <a href="http://www.lub.lu.se/ediffah"><img
+      <a href="http://www.lub.lu.se/ediffah"><img
 	  border="0"
       src="/2004/ediffah/ediffah.jpg" alt="Ediffah logo" align="right"/></a>
+
+      <h1>Beware that this work is completely obsolete!</h1>
+
+      <p>This did never reach production, and albeit it is good idea you can
+      not expect to base future work on this.</p>
 
       <h1>An attempt to implement editing of EAD using OOo</h1>
 
       <p>OpenOffice.org Writer is a word processor which is based on XML
-	technologies. Furthermore, it is able to read and write other XML
-	formats than its native using export and import filters written in XSLT.
-	This package implements editing of EAD in OOo using that mechanism.</p>
+      technologies. Furthermore, it is able to read and write other XML
+      formats than its native using export and import filters written in XSLT.
+      This package implements editing of EAD in OOo using that mechanism.</p>
 
       <h2>Please note that this is work in progress</h2>
 
       <p><strong>Don't expect</strong> this to work at all! The EAD produced
-	isn't valid, and don't ever edit any originals using this. The EAD
-	header is currently fake...</p>
+      isn't valid, and don't ever edit any originals using this. The EAD
+      header is currently fake...</p>
 
       <h2>How to install</h2>
 
-      <p>It is based on earlier efforts, and is used and installed the same way
-	as the DocBook filter
-	(cf., <a
-	  href="http://xml.openoffice.org/xmerge/docbook/">
-	  http://xml.openoffice.org/xmerge/docbook/</a>)
-	and the very similar TEI filter
-	(cf., <a
-	  href="http://www.tei-c.org/Software/teioo/">http://www.tei-c.org/Software/teioo/</a>)
-	It is based on both of these packages.</p>
+      <p>It is based on earlier efforts, and is used and installed the same
+      way as the DocBook filter (cf., <a
+      href="http://xml.openoffice.org/xmerge/docbook/">
+      http://xml.openoffice.org/xmerge/docbook/</a>) and the very similar TEI
+      filter (cf., <a
+      href="http://www.tei-c.org/Software/teioo/">http://www.tei-c.org/Software/teioo/</a>)
+      It is based on both of these packages.</p>
 
       <p>To run it you'll need the following (all of it is packaged in a
 	zip-archive, see below):</p>
@@ -63,6 +71,6 @@
       <p>This experiment was performed as a part of the <a
          href="http://www.ediffah.org">Ediffah project</a>.</p>
 
-</div>
-</body>
+    </div>
+  </body>
 </html>
