@@ -1106,6 +1106,85 @@
   <author>
     <name>Sigfrid Lundberg</name>
   </author>
+  <title>Will the research libraries play a role in e-science</title>
+  <link href="/entries/2009/07/escience/"/>
+  <summary>I was asked to participate in an e-science pilot project.  The work
+  in the project has been food for thought for me. Will libraries be a part of
+  a future eScience infrastructure?</summary>
+  <content type="xhtml">
+    <div xmlns="http://www.w3.org/1999/xhtml">
+      
+      <p>I was asked to participate in an e-science pilot project. The pilot
+      is directed towards social science, and its main goal is to find out
+      what we could do in the area. Should libraries play a role in a future
+      eScience infrastructure? If yes, what could we do for our patrons in
+      this area?</p>
+
+      <p>That the answer should be yes to the first question is obvious for
+      anyone responsible for the strategic development of any research library
+      around the globe, but the second question is clearly more difficult to
+      answer.</p>
+
+      <p>Libraries have, traditionally, been occupied with four activities:
+      They collect, preserve, organize and provide access to
+      information. Indeed a <a href="http://www.google.com/search?hl=en&amp;q=collect+preserve+organize+%22provide+access%22&amp;btnG=Search">search</a>
+      for these four terms in Google seem to yield a search very focussed on
+      mission statements for Northern American research libraries. <em>It
+      isn't farfetched to conclude that we could extend this role to include
+      research data in digital form</em></p>
+
+      <h2>A happy hypertextual symbiosis</h2>
+
+      <p>In my vision, our role may not end here. The task should involve an
+      infrastructure permitting the our existing information (published in the
+      form of books, journals and whatever) live in a happy hypertextual
+      symbiosis with the research data it is based on.</p>
+
+      <p>In this ecosystem of data and models scientists should be able to
+      combine old stuff in new ways just and continue building the human
+      knowledge by submitting new data. Every piece of data need to be
+      possible to address, for the purpose of annotation as well as for
+      retrieval. Every piece of data, any point in a diagram need an
+      identifier. And it has to be a URI.</p>
+
+      <p>No single organization will be able to afford to build the
+      infrastructure needed by any research community. The good news is that
+      no single organization need to build it. The web of data, which has to
+      be the eScience infrastructure, will almost certainly be the Worldwide
+      web. Nothing less, nothing more.</p>
+
+      <p>This is the vision of <a href="http://www.w3.org/DesignIssues/LinkedData.html">linked data</a>
+      and the semantic web, rephrased in the context of scientific
+      information.</p>
+
+      <p>By tradition libraries are aimed for some local community. In
+      particular, the are funded by some local authority for that
+      purpose. Hence they build collections suitable for that community.
+      This local focus is a problem when everything else is Worldwide.</p>
+
+
+      <p>The idea of the web of data as a foundation for an eScience is a good
+      idea, and most likely the only one that will work. Indeed it is so
+      obvious ones that any actor within the business of scientific
+      information are about to adopt it; publishers, learned societies and
+      libraries alike. However there are others that are interested. Google
+      eScience doesn't sound too exotic to me.</p>
+
+      <p>That is not a threat. The problem is our local scope, and in
+      particular the focus on a local community. But that boils down to the
+      local funding.</p>
+
+
+    </div>
+  </content>
+  <dc:date>2009</dc:date>
+  <category label="escience" term="eScience"/>
+  <updated>2009-07-15T14:53:45+01:00</updated>
+  <id>http://www.sigfrid-lundberg.se/entries/2009/07/escience/</id>
+</entry><entry xmlns:dc="http://purl.org/dc/elements/1.1/">
+  <author>
+    <name>Sigfrid Lundberg</name>
+  </author>
   <title>XML on the web, Client Side XSLT and Google</title>
   <link href="/entries/2009/07/client_side_xslt/"/>
   <summary>The market has forced the major browser manufacturers to converge
