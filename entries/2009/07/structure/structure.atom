@@ -21,11 +21,11 @@
       vertebrates. The latter include amphibians, reptiles, birds and
       mammals. Human knowledge is also represented as a tree.</p>
 
-      <p>A lot of other things are trees; philosophers, mathematicins and
-      computer scientists has spent efforts on how to model stuff as
-      trees. People within library &amp; information science have used the
-      term classification systems for centuries, I suppose, and more recently
-      we have started to talk about ontologies and knowledge
+      <p>A lot of other things are trees. Hence, philosophers, mathematicins
+      and computer scientists have spent efforts on how to understand how to
+      model stuff as trees. Within library &amp; information science
+      we have used the term classification systems for centuries, I suppose, and
+      more recently we have started to talk about ontologies and knowledge
       organization. There are a lot of theory and a lot of standards in this
       area. Systems like <a
       href="http://en.wikipedia.org/wiki/Topic_Maps">topic maps</a> (see also
@@ -34,16 +34,18 @@
       href="http://www.w3.org/2004/02/skos/">SKOS</a>) are available for those
       who need a standard for knowledge organization.</p>
 
-      <p>On a very down to earth level, I tend to think of vocabularies as
-      filters and navigators. The latter are trees and may contain many terms
-      to an arbitrary depth. The filters are more like traditional
-      facets. Think of Yahoo in the nineties. You could browse into Tuscany
-      and get a very long list of resources. Then there was a bar at the top
-      where you could choose between "Shopping", "Eating out", "Accomodation",
-      "Travel" and so forth. These are broader categorizations that apply to
-      Firenze as well as Siena or any place you might want to visit. We in the
-      Web business call them <em>filters</em> or <em>facets</em>. The
-      navigators are taxonomies in a broad sense.</p>
+      <p>On a very down to earth level, I tend to think of controlled
+      vocabularies as filters and navigators. The latter are trees and may
+      contain many terms arranged into a tree of arbitrary depth. The filters
+      are more like traditional facets. Think of Yahoo in the nineties. You
+      could browse into Tuscany and get a very long list of resources. Then
+      there was a bar at the top where you could choose between "Shopping",
+      "Eating out", "Accomodation", "Travel" and so forth. These are broader
+      categorizations that apply to Firenze as well as Siena or any place you
+      may want to visit. We in the Web business call them <em>filters</em>
+      or <em>facets</em>.</p>
+
+      <h2>Recognizing and recalling</h2>
 
       <p>From a user perspective, you have to take into account that there are
       two cognitive processes involved when using services that employ filters
@@ -53,12 +55,15 @@
       between a wasp and a bumble bee. On an evolutionary time-scale we've
       benefitted from being able to say, this is edible this is not, or this
       one has a sting and is likely to use it. This is to recognize something
-      when you see it. The other way around is much more difficult: I want to
-      know something about Tuscany: Ok, I click on Italy. You have to know
-      more to begin with. Knowledge that might not be trivial. Such as that
-      frogs are amphibians and that diabetes is an endocrinological
-      disorder. On the other hand, you'll need to know such things in order to
-      search successfully in Google as well.</p>
+      when you see it. The opposite is a much more difficult cognitive
+      process: I want to know something about Tuscany: Ok, I then start
+      clicking on Italy. You have to recollect, not only recognize, more to
+      begin with. Remembering might not be trivial. To know in advance things
+      like that frogs are amphibians and that diabetes is an endocrinological
+      disorder. On the other hand, it helps to know such things when doing
+      successfully searching in Google as well.</p>
+
+      <h2>Ordered hierarchies of content objects</h2>
 
       <p>There are structures that are inside a resource, and that require
       navigation as well. As a first approximation we can assume that any
