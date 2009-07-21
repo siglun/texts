@@ -75,6 +75,45 @@
   <author>
     <name>Sigfrid Lundberg</name>
   </author>
+  <title>On being an international commuter</title>
+  <link href="http://www.sigfrid-lundberg.se/entries/2009/07/commuting/"/>
+  <summary>The last four years I've spent more than two hours a day on
+  trains. And usually, but not always less than three. Furthermore, I go from
+  one nation to another and participate in the in the digital dissemination of
+  cultural heritage of a country which isn't my own.</summary>
+  <content type="xhtml">
+    <div xmlns="http://www.w3.org/1999/xhtml">
+
+      <p>I usually leave home ten past seven. That gives me ample of time to
+      cat the 07.39 train from Lund to Copenhagen. I ride my bicycle to the
+      railway station. Except for dog owners and the power walking young
+      ladies that trip is uneventful. The power walkers seem to hate walking;
+      I think they are in a terrible hurry to get home for a shower and a nice
+      slow breakfast. I don't blame them. I've already had my shower
+      and my breakfast, not slow ones, though.</p>
+
+      <img src="/galleri/200907-200907/smaller/cimg1352.jpg" alt="Secure locking is essential"/>
+
+      <p>The only really serious problem is to find a secure parking place for
+      my bike. A lot of people who park their bikes have lost them, through
+      theft. I've recently aquired a new bike. The last one was stolen outside
+      our home, and I had had it renovated just a few months earlier. The
+      first temporal bottle neck is to lock the thing.</p>
+
+      <p>
+      </p>
+      
+    </div>
+  </content>
+  <dc:date>2009</dc:date>
+  <category label="essays" term="Essays"/>
+  <updated>2009-07-21T17:57:32+01:00</updated>
+  <id>http://www.sigfrid-lundberg.se/entries/2009/07/commuting/</id>
+</entry>
+  <entry>
+  <author>
+    <name>Sigfrid Lundberg</name>
+  </author>
   <title>The description and encoding of structure</title>
   <link href="http://www.sigfrid-lundberg.se/entries/2009/07/structure/"/>
   <summary>Much metadata is fairly stright forward. A book does have a title
@@ -175,24 +214,6 @@
   <updated>2009-07-21T17:10:49+01:00</updated>
   <id>http://www.sigfrid-lundberg.se/entries/2009/07/structure/</id>
   <!-- $Id$ -->
-</entry>
-  <entry>
-  <author>
-    <name>Sigfrid Lundberg</name>
-  </author>
-  <title>Why do I keep this site?</title>
-  <link href="http://www.sigfrid-lundberg.se/entries/2009/07/commuting/"/>
-  <summary>Having had a web site for about 15 years, I start to wonder why I
-  keep it in the first place.</summary>
-  <content type="xhtml">
-    <div xmlns="http://www.w3.org/1999/xhtml">
-
-    </div>
-  </content>
-  <dc:date>2009</dc:date>
-  <category label="structuralwebdesign" term="Structural web design"/>
-  <updated>2009-07-21T17:09:41+01:00</updated>
-  <id>http://www.sigfrid-lundberg.se/entries/2009/07/commuting/</id>
 </entry>
   <entry>
   <author>
