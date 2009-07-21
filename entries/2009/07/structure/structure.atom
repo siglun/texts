@@ -27,19 +27,16 @@
       the term classification systems for centuries, I suppose, and more
       recently we have started to talk about ontologies and knowledge
       organization. There are a lot of theory and a lot of standards in this
-      area. Systems like <a
-      href="http://en.wikipedia.org/wiki/Topic_Maps">topic maps</a> (see also
+      area. Systems like <a href="http://en.wikipedia.org/wiki/Topic_Maps">topic maps</a> (see also
       <a href="http://www.topicmaps.org/">topicmaps.org</a>) and more recently
-      Simple Knowledge Organization System <a
-      href="http://www.w3.org/2004/02/skos/">SKOS</a>) are available for those
+      Simple Knowledge Organization System <a href="http://www.w3.org/2004/02/skos/">SKOS</a>) are available for those
       who need a standard for knowledge organization.</p>
 
       <p>On a very down to earth level, I tend to think of controlled
       vocabularies as filters and navigators. The latter are trees and may
       contain many terms arranged into a tree of arbitrary depth. The filters
       are lists of controlled terms, which may be whereabout in the tree we
-      are. Think of Yahoo Directory. You can browse into <a
-      href="http://dir.yahoo.com/Regional/Countries/Italy/Regions/Tuscany/">Tuscany</a>
+      are. Think of Yahoo Directory. You can browse into <a href="http://dir.yahoo.com/Regional/Countries/Italy/Regions/Tuscany/">Tuscany</a>
       and get a very long list of resources. Then there was a menu at the top
       where you can choose between "Business and Shopping", "Entertainment and
       Arts", "Recreation and Sports", "Travel and Transportation" and so
@@ -75,8 +72,7 @@
       resources, such as electronic books, are trees as well. This modelis
       called OHCO (ordered hierarchy of content objects). That view has been
       questioned, and it is for instance claimed that any ordinary text
-      consists of many, <a
-      href="http://www.stg.brown.edu/resources/stg/monographs/ohco.html">overlapping
+      consists of many, <a href="http://www.stg.brown.edu/resources/stg/monographs/ohco.html">overlapping
       hierarchies</a>. I just love overlapping hierarchies. They are great fun.</p>
 
       <p>Anyway, if your search the scientific literature on the theory of
@@ -84,14 +80,11 @@
       deconstruction of the OCHO model. Theoretically, I can understand the
       problems. But for me they are more often than not purely academical.</p>
 
-      <p>If you instead search Google books for some real content, <a
-      href="http://books.google.com/books?spell=1&amp;q=nightingale+lark+balcony&amp;as_brr=1">nightingale
+      <p>If you instead search Google books for some real content, <a href="http://books.google.com/books?spell=1&amp;q=nightingale+lark+balcony&amp;as_brr=1">nightingale
       lark balcony</a> you'll find Romeo &amp; Juliet in her bed room. Scene V
-      in Act III of Romeo and Juliet, on page <a
-      href="http://books.google.com/books?id=09qTVKsjwSwC&amp;lpg=PA190&amp;dq=nightingale%20lark%20balcony&amp;as_brr=1&amp;pg=PA189">189</a>,
+      in Act III of Romeo and Juliet, on page <a href="http://books.google.com/books?id=09qTVKsjwSwC&amp;lpg=PA190&amp;dq=nightingale%20lark%20balcony&amp;as_brr=1&amp;pg=PA189">189</a>,
 
-      <a
-      href="http://books.google.com/books?id=H_EjAAAAMAAJ&amp;dq=nightingale%20lark%20balcony&amp;as_brr=1&amp;pg=PA160">160</a>
+      <a href="http://books.google.com/books?id=H_EjAAAAMAAJ&amp;dq=nightingale%20lark%20balcony&amp;as_brr=1&amp;pg=PA160">160</a>
       and a lot of other page numbers, dependent on which edition. In the
       world accoring to me, you may have a lot of hierarchies and they may
       overlap, and OHCO may be false. But if you want to be able to address
@@ -103,7 +96,7 @@
   <dc:date>2009</dc:date>
   <category label="structuralwebdesign" term="Structural web design"/>
   <category label="metadata" term="Metadata"/>
-  <updated>2009-07-17T17:11:49+01:00</updated>
+  <updated>2009-07-21T8:56:00+01:00</updated>
   <id>http://www.sigfrid-lundberg.se/entries/2009/07/structure/</id>
   <!-- $Id$ -->
 </entry>

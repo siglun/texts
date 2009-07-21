@@ -1009,7 +1009,9 @@
   </author>
   <title>Why I love XSLT extension functions</title>
   <link href="/entries/2009/07/xslt_extensions/"/>
-  <summary/>
+  <summary>xslt extensions allow you to define xpath functions and extension
+  elements. That makes it easy for you to perform tasks within xslt that are
+  just only theoretically possible to do.</summary>
   <content type="xhtml">
     <div xmlns="http://www.w3.org/1999/xhtml">
 
@@ -1062,7 +1064,7 @@
   </content>
   <dc:date>2009</dc:date>
   <category label="xmlprocessing" term="XML processing"/>
-  <updated>2009-07-14T18:18:42+01:00</updated>
+  <updated>2009-07-21T8:55:35+01:00</updated>
   <id>http://www.sigfrid-lundberg.se/entries/2009/07/xslt_extensions/</id>
 </entry><entry xmlns:dc="http://purl.org/dc/elements/1.1/">
   <author>
@@ -1598,7 +1600,7 @@ uw5m38jba7
   <dc:date>2009</dc:date>
   <category label="structuralwebdesign" term="Structural web design"/>
   <category label="metadata" term="Metadata"/>
-  <updated>2009-07-17T17:11:49+01:00</updated>
+  <updated>2009-07-21T8:56:00+01:00</updated>
   <id>http://www.sigfrid-lundberg.se/entries/2009/07/structure/</id>
   <!-- $Id$ -->
 </entry></feed>
