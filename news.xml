@@ -1,6 +1,6 @@
 <div xmlns="http://www.w3.org/1999/xhtml">
   <div>
-    <h1 style="width: 58%; float: left;text-align: leftt">The description and encoding of structure</h1>
+    <h1 style="width: 58%; float: left;text-align: leftt">Why I love XSLT extension functions</h1>
     <p style="width: 38%; float: left;text-align: right">
       <em>
         <strong>
@@ -13,86 +13,50 @@
   <div style="width:100%;">
     <div>
 
-      <p>Many things in life can best be represented as trees. Indeed, life
-      itself is a tree of various life forms. We have the animal and plant
-      kingdoms, and these main categories are further sub-divided into phylae,
-      classes, genera. The animal kingdom is divided into invertebrates and
-      vertebrates. The latter include amphibians, reptiles, birds and
-      mammals. Human knowledge is also depicted as a tree.</p>
+      <p>I started learning XSLT eight years ago. At the time, it was a fresh
+      technology, and there was also intense discussions on the extensibility
+      of the language. Since then xslt 1.1 has disappeared down the drains,
+      xpath 2.0 &amp; xquery 1.0 appeared on the market. The former of these
+      has had a slow start. The latter, however, has gained acceptance,
+      however a bit reluctant.</p>
 
-      <p>A lot of other things are trees. Hence, philosophers, mathematicins
-      and computer scientists have put quite an effort into the modelling
-      stuff as trees. Within library &amp; information science we have used
-      the term classification systems for centuries, I suppose, and more
-      recently we have started to talk about ontologies and knowledge
-      organization. There are a lot of theory and a several of standards in
-      this area. Systems like <a href="http://en.wikipedia.org/wiki/Topic_Maps">topic maps</a> (see also
-      <a href="http://www.topicmaps.org/">topicmaps.org</a>) and more recently
-      Simple Knowledge Organization System <a href="http://www.w3.org/2004/02/skos/">SKOS</a>) are available for those
-      who need a standard for knowledge organization.</p>
+      <p>The stuff I want to discuss here is the writing of extension
+      functions. This is regarded as an evil habit in some parts of the XML
+      processing communities, but it is supported by most implementations. It
+      is not to be recommended if you're producing a stand-alone application,
+      but in many cases you're xslt code is an integrated part of an
+      application. Most of my code is of this kind; in particular I'm writing
+      xslt for xalan running in a JAVA environment. Now, why should I refrain
+      from using regex, just because xalan does not support this package? I
+      cannot see why. And nobody would ask me to write ANSI SQL in spite of
+      the fact that we use Oracle.</p>
 
-      <p>On a very down to earth level, I tend to think of controlled
-      vocabularies as filters and navigators. The latter are trees and may
-      contain many terms arranged into a tree of arbitrary depth. The filters
-      are lists of controlled terms, which may be whereabout in the tree we
-      are. Think of Yahoo Directory. You can browse into <a href="http://dir.yahoo.com/Regional/Countries/Italy/Regions/Tuscany/">Tuscany</a>
-      and get a very long list of resources. Then there is a menu at the top
-      where you can choose between "Business and Shopping", "Entertainment and
-      Arts", "Recreation and Sports", "Travel and Transportation" and so
-      forth. These are broader categorizations that apply to Firenze as well
-      as Siena or New York city or any place you may want to visit. We in the
-      Web business call them <em>filters</em> or <em>facets</em>.</p>
+      <p>Now, it has been proven mathematically that xslt is a <a href="http://www.ibm.com/developerworks/library/x-xalanextensions.html">Turing
+      complete</a> programming language. That means that it is possible to
+      program <strong>anything</strong> which is possible to program with such
+      a language. I.e., you have theoretically the same possibilities as in
+      JAVA and C++. That doesn't mean that it is practical do do so. It is, in
+      my view, much easier to traverse a XML tree in XSLT than in (say) JAVA,
+      whereas it is much easier to connect to a database or implement a XSLT
+      processor using a conventional programming language.</p>
 
-      <h2>Recognizing and recalling</h2>
+      <p>It is here the XSLT extension functions become really useful. You can
+      pass data from XSLT to your own functions written in your favourite
+      programming lanuguage. I use this for tasks like indexing XML
+      documents. When traversing a document, you select text and pass it to
+      you're function which pass it to your indexing API. One big advantage is
+      that the same software can index heterogenous collections of XML
+      documents just by using different XSLT scripts. They are easy to write
+      and you can a new document type without recompilation of you're indexing
+      software.</p>
 
-      <p>From a user perspective, you have to take into account that there are
-      two cognitive processes involved when using services which like Yahoo
-      Directory employ navigators and filters. The first process is more
-      fundamental, and is by nurture and possibly nature a part of the human
-      mind: This is to say: Ah Tuscany, that is a part of Italy, isn't
-      it. It's like distinguishing between a wasp and a bumble bee. On an
-      evolutionary time-scale we've benefitted from being able to say, this is
-      edible this is not, or this one has a sting and is likely to use
-      it. This is to recognize something when you see it.</p>
-
-      <p>The opposite is a much more difficult cognitive process: I want to
-      know something about Tuscany: Ok, I then start by clicking on Italy. You
-      have to connect Italy with Tuscany, not only recognize the word Tuscany
-      when you see it. This makes it more difficult to find Tuscany given
-      Italy than Italy given Tuscany (in Yahoo it's in the bread crumb
-      path). Remembering might not be trivial. To know in advance things like
-      "frogs are amphibians" and that "diabetes is an endocrinological
-      disorder". On the other hand, to perform successful searching in Google
-      is even more demanding, in spite of google suggest and spell checking
-      tools that have improved the search comfort for many users.</p>
-
-      <h2>Ordered Hierarchies of Content Objects</h2>
-
-      <p>There are structures that are inside a resource, and that require
-      navigation as well. As a first approximation we can assume that all
-      digital resources, such as electronic books, are trees as well. In the
-      theory of text this model is called OHCO (ordered hierarchy of content
-      objects). That view has been questioned, and it is for instance claimed
-      that any ordinary text consists of many, <a href="http://www.stg.brown.edu/resources/stg/monographs/ohco.html">overlapping
-      hierarchies</a>. I just love overlapping hierarchies. They are great
-      fun.</p>
-
-      <p>Anyway, if you search the scientific literature on the theory of
-      text, you'll find everything you want to know about post-structuralistic
-      deconstruction of the OHCO model. Theoretically, I can understand the
-      problems. But for me they are purely academical.</p>
-
-      <p>If you instead search Google books for some real content, <a href="http://books.google.com/books?spell=1&amp;q=nightingale+lark+balcony&amp;as_brr=1">nightingale
-      lark balcony</a> you'll find Romeo &amp; Juliet in her bed room. Scene V
-      in Act III of Romeo and Juliet, on page <a href="http://books.google.com/books?id=09qTVKsjwSwC&amp;lpg=PA190&amp;dq=nightingale%20lark%20balcony&amp;as_brr=1&amp;pg=PA189">189</a>,
-
-      <a href="http://books.google.com/books?id=H_EjAAAAMAAJ&amp;dq=nightingale%20lark%20balcony&amp;as_brr=1&amp;pg=PA160">160</a>
-      and a lot of other page numbers, dependent on which edition. In the
-      world according to me, you may have a lot of hierarchies and they may
-      overlap, and OHCO may be false. But if you want to be able to address
-      content in a more clever way than the one chosen by Google books, then
-      you cannot do without a content model that looks like, well, very much
-      like a tree.</p>
+      <p>This ability of a fullblown functional programming language (mind
+      you, its Turing complete) to interface both with a host program and from
+      scripts inside it call other functions in other languages is
+      powerful. This, in combination that it is really good for what it is
+      designed for has made it an object for extreme affection from
+      me. Besides I'll return to examples of using XSLT for indexing complex
+      XML objects.</p>
 
     </div>
     <p style="text-align: right">
@@ -101,7 +65,7 @@
 		Permalink:
 	      </strong>
       </em>
-      <a rel="bookmark" href="/entries/2009/07/structure/">http://www.sigfrid-lundberg.se/entries/2009/07/structure/</a>
+      <a rel="bookmark" href="/entries/2009/07/xslt_extensions/">http://www.sigfrid-lundberg.se/entries/2009/07/xslt_extensions/</a>
     </p>
     <hr width="50%" align="center"/>
   </div>
@@ -110,9 +74,18 @@
     <table class="news">
       <tr>
         <td class="left">2009</td>
-        <td class="left"><a href="/entries/2009/07/xslt_extensions/"><em>Why I love XSLT extension functions</em></a><br/>xslt extensions allow you to define xpath functions and extension
-  elements. That makes it easy for you to perform tasks within xslt that are
-  just only theoretically possible to do.<br/><a href="/subjects/xmlprocessing/">XML processing</a></td>
+        <td class="left"><a href="/entries/2009/07/structure/"><em>The description and encoding of structure</em></a><br/>Much metadata is fairly stright forward. A book does have a title
+  and an author. That's usually no big deal. We've been able to handle that
+  for centuries. A digital book has chapters, and everything you might want to
+  know may be in chapter two on page seventyfive. Or someone may tell you the
+  solution to your problems after a quarter of an hour in some video on
+  YouTube. Now, how do we cope with this?<br/><a href="/subjects/structuralwebdesign/">Structural web design</a>,
+	<a href="/subjects/metadata/">Metadata</a></td>
+      </tr>
+      <tr>
+        <td class="left">2009</td>
+        <td class="left"><a href="/entries/2009/07/commuting/"><em>Why do I keep this site?</em></a><br/>Having had a web site for about 15 years, I start to wonder why I
+  keep it in the first place.<br/><a href="/subjects/structuralwebdesign/">Structural web design</a></td>
       </tr>
       <tr>
         <td class="left">2009</td>
@@ -136,19 +109,6 @@
   on standards. But why are the search engines lagging behind? Browsers are
   capable of AJAX and advanced XML processing, but the search engines are
   still basically just removing tags and presenting raw text extracts.<br/><a href="/subjects/structuralwebdesign/">Structural web design</a></td>
-      </tr>
-      <tr>
-        <td class="left">2009</td>
-        <td class="left"><a href="/entries/2009/07/opml/"><em>OpenSearch, RSS and OPML as XML Webservices for information
-  retrieval</em></a><br/>At the Royal Library we have been working with the building of an
-  infrastructure for publishing of digitized material. It is collections of
-  digital images, usually with very little textual content to go with it. It
-  is quite a challenge to build workflows satisfying the needs of technical
-  staff running the scanners, the librararian and editorial staff doing the
-  cataloging and the needs for crosswalking metadata from the OPAC and at the
-  same time be able to syndicate the material in other services adhering to
-  different standards.<br/><a href="/subjects/xmlprocessing/">XML processing</a>,
-	<a href="/subjects/colophon/">Colophon</a></td>
       </tr>
     </table>
   </div>

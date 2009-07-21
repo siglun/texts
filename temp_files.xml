@@ -1070,6 +1070,23 @@
   <author>
     <name>Sigfrid Lundberg</name>
   </author>
+  <title>Why do I keep this site?</title>
+  <link href="/entries/2009/07/commuting/"/>
+  <summary>Having had a web site for about 15 years, I start to wonder why I
+  keep it in the first place.</summary>
+  <content type="xhtml">
+    <div xmlns="http://www.w3.org/1999/xhtml">
+
+    </div>
+  </content>
+  <dc:date>2009</dc:date>
+  <category label="structuralwebdesign" term="Structural web design"/>
+  <updated>2009-07-21T17:09:41+01:00</updated>
+  <id>http://www.sigfrid-lundberg.se/entries/2009/07/commuting/</id>
+</entry><entry xmlns:dc="http://purl.org/dc/elements/1.1/">
+  <author>
+    <name>Sigfrid Lundberg</name>
+  </author>
   <title>The predator rests on its prey</title>
   <link href="/entries/2009/07/victory/"/>
   <summary>I've seen this image before. An excavator has demolished a
@@ -1604,7 +1621,7 @@ uw5m38jba7
   <dc:date>2009</dc:date>
   <category label="structuralwebdesign" term="Structural web design"/>
   <category label="metadata" term="Metadata"/>
-  <updated>2009-07-21T8:56:00+01:00</updated>
+  <updated>2009-07-21T17:10:49+01:00</updated>
   <id>http://www.sigfrid-lundberg.se/entries/2009/07/structure/</id>
   <!-- $Id$ -->
 </entry></feed>
