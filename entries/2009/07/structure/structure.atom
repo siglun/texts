@@ -26,10 +26,12 @@
       stuff as trees. Within library &amp; information science we have used
       the term classification systems for centuries, I suppose, and more
       recently we have started to talk about ontologies and knowledge
-      organization. There are a lot of theory and a lot of standards in this
-      area. Systems like <a href="http://en.wikipedia.org/wiki/Topic_Maps">topic maps</a> (see also
+      organization. There are a lot of theory and a several of standards in
+      this area. Systems like <a
+      href="http://en.wikipedia.org/wiki/Topic_Maps">topic maps</a> (see also
       <a href="http://www.topicmaps.org/">topicmaps.org</a>) and more recently
-      Simple Knowledge Organization System <a href="http://www.w3.org/2004/02/skos/">SKOS</a>) are available for those
+      Simple Knowledge Organization System <a
+      href="http://www.w3.org/2004/02/skos/">SKOS</a>) are available for those
       who need a standard for knowledge organization.</p>
 
       <p>On a very down to earth level, I tend to think of controlled
@@ -37,7 +39,7 @@
       contain many terms arranged into a tree of arbitrary depth. The filters
       are lists of controlled terms, which may be whereabout in the tree we
       are. Think of Yahoo Directory. You can browse into <a href="http://dir.yahoo.com/Regional/Countries/Italy/Regions/Tuscany/">Tuscany</a>
-      and get a very long list of resources. Then there was a menu at the top
+      and get a very long list of resources. Then there is a menu at the top
       where you can choose between "Business and Shopping", "Entertainment and
       Arts", "Recreation and Sports", "Travel and Transportation" and so
       forth. These are broader categorizations that apply to Firenze as well
@@ -48,48 +50,54 @@
 
       <p>From a user perspective, you have to take into account that there are
       two cognitive processes involved when using services which like Yahoo
-      Directory employ navigators and filters. The first process one is much
-      more fundamental, and is by nurture and possibly nature a part of the
-      human mind: This is to say: Ah Tuscany, that is a part of Italy, isn't
+      Directory employ navigators and filters. The first process is more
+      fundamental, and is by nurture and possibly nature a part of the human
+      mind: This is to say: Ah Tuscany, that is a part of Italy, isn't
       it. It's like distinguishing between a wasp and a bumble bee. On an
       evolutionary time-scale we've benefitted from being able to say, this is
       edible this is not, or this one has a sting and is likely to use
       it. This is to recognize something when you see it.</p>
 
       <p>The opposite is a much more difficult cognitive process: I want to
-      know something about Tuscany: Ok, I then start clicking on Italy. You
-      have to connect Italy with Tuscany, not only recognize Tuscany. This
-      makes it more difficult to find Tuscany given Italy than Italy given
-      Tuscany. Remembering might not be trivial. To know in advance things
-      like "frogs are amphibians" and that "diabetes is an endocrinological
+      know something about Tuscany: Ok, I then start by clicking on Italy. You
+      have to connect Italy with Tuscany, not only recognize the word Tuscany
+      when you see it. This makes it more difficult to find Tuscany given
+      Italy than Italy given Tuscany (in Yahoo it's in the bread crumb
+      path). Remembering might not be trivial. To know in advance things like
+      "frogs are amphibians" and that "diabetes is an endocrinological
       disorder". On the other hand, to perform successful searching in Google
-      is even more demanding.</p>
+      is even more demanding, in spite of google suggest and spell checking
+      tools that have improved the search comfort for many users.</p>
 
-      <h2>Ordered hierarchies of content objects</h2>
+      <h2>Ordered Hierarchies of Content Objects</h2>
 
       <p>There are structures that are inside a resource, and that require
-      navigation as well. As a first approximation we can assume that digital
-      resources, such as electronic books, are trees as well. This modelis
-      called OHCO (ordered hierarchy of content objects). That view has been
-      questioned, and it is for instance claimed that any ordinary text
-      consists of many, <a href="http://www.stg.brown.edu/resources/stg/monographs/ohco.html">overlapping
-      hierarchies</a>. I just love overlapping hierarchies. They are great fun.</p>
+      navigation as well. As a first approximation we can assume that all
+      digital resources, such as electronic books, are trees as well. In the
+      theory of text this model is called OHCO (ordered hierarchy of content
+      objects). That view has been questioned, and it is for instance claimed
+      that any ordinary text consists of many, <a
+      href="http://www.stg.brown.edu/resources/stg/monographs/ohco.html">overlapping
+      hierarchies</a>. I just love overlapping hierarchies. They are great
+      fun.</p>
 
-      <p>Anyway, if your search the scientific literature on the theory of
+      <p>Anyway, if you search the scientific literature on the theory of
       text, you'll find everything you want to know about post-structuralistic
-      deconstruction of the OCHO model. Theoretically, I can understand the
-      problems. But for me they are more often than not purely academical.</p>
+      deconstruction of the OHCO model. Theoretically, I can understand the
+      problems. But for me they are purely academical.</p>
 
       <p>If you instead search Google books for some real content, <a href="http://books.google.com/books?spell=1&amp;q=nightingale+lark+balcony&amp;as_brr=1">nightingale
       lark balcony</a> you'll find Romeo &amp; Juliet in her bed room. Scene V
       in Act III of Romeo and Juliet, on page <a href="http://books.google.com/books?id=09qTVKsjwSwC&amp;lpg=PA190&amp;dq=nightingale%20lark%20balcony&amp;as_brr=1&amp;pg=PA189">189</a>,
 
-      <a href="http://books.google.com/books?id=H_EjAAAAMAAJ&amp;dq=nightingale%20lark%20balcony&amp;as_brr=1&amp;pg=PA160">160</a>
+      <a
+      href="http://books.google.com/books?id=H_EjAAAAMAAJ&amp;dq=nightingale%20lark%20balcony&amp;as_brr=1&amp;pg=PA160">160</a>
       and a lot of other page numbers, dependent on which edition. In the
-      world accoring to me, you may have a lot of hierarchies and they may
+      world according to me, you may have a lot of hierarchies and they may
       overlap, and OHCO may be false. But if you want to be able to address
       content in a more clever way than the one chosen by Google books, then
-      you cannot do without a content model that looks like, well, a tree.</p>
+      you cannot do without a content model that looks like, well, very much
+      like a tree.</p>
 
     </div>
   </content>
