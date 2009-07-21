@@ -1064,8 +1064,9 @@
   </content>
   <dc:date>2009</dc:date>
   <category label="xmlprocessing" term="XML processing"/>
-  <updated>2009-07-21T8:55:35+01:00</updated>
+  <updated>2009-07-21T18:01:19+01:00</updated>
   <id>http://www.sigfrid-lundberg.se/entries/2009/07/xslt_extensions/</id>
+  <!-- $Id$ -->
 </entry><entry xmlns:dc="http://purl.org/dc/elements/1.1/">
   <author>
     <name>Sigfrid Lundberg</name>
@@ -1079,30 +1080,45 @@
   <content type="xhtml">
     <div xmlns="http://www.w3.org/1999/xhtml">
 
-      <p>I usually leave home ten past seven. That gives me ample of time to
-      cat the 07.39 train from Lund to Copenhagen. I ride my bicycle to the
-      railway station. Except for dog owners and the power walking young
-      ladies that trip is uneventful. The power walkers seem to hate walking;
-      I think they are in a terrible hurry to get home for a shower and a nice
-      slow breakfast. I don't blame them. I've already had my shower
-      and my breakfast, not slow ones, though.</p>
+      <p>In both Lund and Copenhagen there are a lot of people riding their
+      bicycles. They behave very differently, however, and their spatial
+      distribution is different. In Copenhagen the riders have a much more
+      aggregated distribution. They ride at high speed in herds, somewhat like
+      Mongolian cavalry. Before their attacks against the pedestrians, their
+      primary targets, the Copenhagen bicycle riders congregate at traffic
+      lights. In Lund, where the where the density of traffic lights is lower,
+      we bicycle riders tend to have a more solitary life style.</p>
 
-      <img src="/galleri/200907-200907/smaller/cimg1352.jpg" alt="Secure locking is essential"/>
+      <p>Currently I usually leave home ten past seven. That gives me ample of
+      time to catch the 07.39 train from Lund to Copenhagen. Except for
+      occasional encounters with dog owners and an increasing number of power
+      walking young ladies that, trip is uneventful. When it isn't
+      raining. The power walkers look as if they hate walking; they seem to be
+      in a terrible hurry to get home for a shower and a nice slow
+      breakfast. I don't blame them. For some reason, the power walking ladies
+      never appear when it is raining, as far as I can tell from the bus.</p>
+
+      <img src="/galleri/200907-200907/smaller/cimg1352.jpg" style="margin-left:0.5em;float:left;margin-right:0.5em;" alt="Secure locking is essential"/>
 
       <p>The only really serious problem is to find a secure parking place for
-      my bike. A lot of people who park their bikes have lost them, through
-      theft. I've recently aquired a new bike. The last one was stolen outside
-      our home, and I had had it renovated just a few months earlier. The
-      first temporal bottle neck is to lock the thing.</p>
+      my bike. A lot of fellow bicycle riders who park there have lost their
+      vehicles there, through theft. I've recently aquired a new bike, since
+      my previous one was stolen outside our home. The first temporal
+      bottle-neck is to lock the thing. I've got two solid locks, and try to
+      park where I can use one of them for locking the bike to an iron
+      structure (see the image).</p>
 
-      <p>
-      </p>
+      <p>That would describe the normal sequence of events, but right now they
+      replacing 12 kilometers of tracks. Hence the railway which is normally
+      double track is now running on half its normal capacity. I could dwell
+      on the inconvinience caused by this, but I'll spare you that pain. The
+      normal state of affairs is that I after about an hour on the train</p>
       
     </div>
   </content>
   <dc:date>2009</dc:date>
   <category label="essays" term="Essays"/>
-  <updated>2009-07-21T17:57:32+01:00</updated>
+  <updated>2009-07-21T18:03:32+01:00</updated>
   <id>http://www.sigfrid-lundberg.se/entries/2009/07/commuting/</id>
 </entry><entry xmlns:dc="http://purl.org/dc/elements/1.1/">
   <author>

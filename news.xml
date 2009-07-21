@@ -1,6 +1,6 @@
 <div xmlns="http://www.w3.org/1999/xhtml">
   <div>
-    <h1 style="width: 58%; float: left;text-align: leftt">Why I love XSLT extension functions</h1>
+    <h1 style="width: 58%; float: left;text-align: leftt">On being an international commuter</h1>
     <p style="width: 38%; float: left;text-align: right">
       <em>
         <strong>
@@ -13,51 +13,40 @@
   <div style="width:100%;">
     <div>
 
-      <p>I started learning XSLT eight years ago. At the time, it was a fresh
-      technology, and there was also intense discussions on the extensibility
-      of the language. Since then xslt 1.1 has disappeared down the drains,
-      xpath 2.0 &amp; xquery 1.0 appeared on the market. The former of these
-      has had a slow start. The latter, however, has gained acceptance,
-      however a bit reluctant.</p>
+      <p>In both Lund and Copenhagen there are a lot of people riding their
+      bicycles. They behave very differently, however, and their spatial
+      distribution is different. In Copenhagen the riders have a much more
+      aggregated distribution. They ride at high speed in herds, somewhat like
+      Mongolian cavalry. Before their attacks against the pedestrians, their
+      primary targets, the Copenhagen bicycle riders congregate at traffic
+      lights. In Lund, where the where the density of traffic lights is lower,
+      we bicycle riders tend to have a more solitary life style.</p>
 
-      <p>The stuff I want to discuss here is the writing of extension
-      functions. This is regarded as an evil habit in some parts of the XML
-      processing communities, but it is supported by most implementations. It
-      is not to be recommended if you're producing a stand-alone application,
-      but in many cases you're xslt code is an integrated part of an
-      application. Most of my code is of this kind; in particular I'm writing
-      xslt for xalan running in a JAVA environment. Now, why should I refrain
-      from using regex, just because xalan does not support this package? I
-      cannot see why. And nobody would ask me to write ANSI SQL in spite of
-      the fact that we use Oracle.</p>
+      <p>Currently I usually leave home ten past seven. That gives me ample of
+      time to catch the 07.39 train from Lund to Copenhagen. Except for
+      occasional encounters with dog owners and an increasing number of power
+      walking young ladies that, trip is uneventful. When it isn't
+      raining. The power walkers look as if they hate walking; they seem to be
+      in a terrible hurry to get home for a shower and a nice slow
+      breakfast. I don't blame them. For some reason, the power walking ladies
+      never appear when it is raining, as far as I can tell from the bus.</p>
 
-      <p>Now, it has been proven mathematically that xslt is a <a href="http://www.ibm.com/developerworks/library/x-xalanextensions.html">Turing
-      complete</a> programming language. That means that it is possible to
-      program <strong>anything</strong> which is possible to program with such
-      a language. I.e., you have theoretically the same possibilities as in
-      JAVA and C++. That doesn't mean that it is practical do do so. It is, in
-      my view, much easier to traverse a XML tree in XSLT than in (say) JAVA,
-      whereas it is much easier to connect to a database or implement a XSLT
-      processor using a conventional programming language.</p>
+      <img src="/galleri/200907-200907/smaller/cimg1352.jpg" style="margin-left:0.5em;float:left;margin-right:0.5em;" alt="Secure locking is essential"/>
 
-      <p>It is here the XSLT extension functions become really useful. You can
-      pass data from XSLT to your own functions written in your favourite
-      programming lanuguage. I use this for tasks like indexing XML
-      documents. When traversing a document, you select text and pass it to
-      you're function which pass it to your indexing API. One big advantage is
-      that the same software can index heterogenous collections of XML
-      documents just by using different XSLT scripts. They are easy to write
-      and you can a new document type without recompilation of you're indexing
-      software.</p>
+      <p>The only really serious problem is to find a secure parking place for
+      my bike. A lot of fellow bicycle riders who park there have lost their
+      vehicles there, through theft. I've recently aquired a new bike, since
+      my previous one was stolen outside our home. The first temporal
+      bottle-neck is to lock the thing. I've got two solid locks, and try to
+      park where I can use one of them for locking the bike to an iron
+      structure (see the image).</p>
 
-      <p>This ability of a fullblown functional programming language (mind
-      you, its Turing complete) to interface both with a host program and from
-      scripts inside it call other functions in other languages is
-      powerful. This, in combination that it is really good for what it is
-      designed for has made it an object for extreme affection from
-      me. Besides I'll return to examples of using XSLT for indexing complex
-      XML objects.</p>
-
+      <p>That would describe the normal sequence of events, but right now they
+      replacing 12 kilometers of tracks. Hence the railway which is normally
+      double track is now running on half its normal capacity. I could dwell
+      on the inconvinience caused by this, but I'll spare you that pain. The
+      normal state of affairs is that I after about an hour on the train</p>
+      
     </div>
     <p style="text-align: right">
       <em>
@@ -65,7 +54,7 @@
 		Permalink:
 	      </strong>
       </em>
-      <a rel="bookmark" href="/entries/2009/07/xslt_extensions/">http://www.sigfrid-lundberg.se/entries/2009/07/xslt_extensions/</a>
+      <a rel="bookmark" href="/entries/2009/07/commuting/">http://www.sigfrid-lundberg.se/entries/2009/07/commuting/</a>
     </p>
     <hr width="50%" align="center"/>
   </div>
@@ -74,10 +63,9 @@
     <table class="news">
       <tr>
         <td class="left">2009</td>
-        <td class="left"><a href="/entries/2009/07/commuting/"><em>On being an international commuter</em></a><br/>The last four years I've spent more than two hours a day on
-  trains. And usually, but not always less than three. Furthermore, I go from
-  one nation to another and participate in the in the digital dissemination of
-  cultural heritage of a country which isn't my own.<br/><a href="/subjects/essays/">Essays</a></td>
+        <td class="left"><a href="/entries/2009/07/xslt_extensions/"><em>Why I love XSLT extension functions</em></a><br/>xslt extensions allow you to define xpath functions and extension
+  elements. That makes it easy for you to perform tasks within xslt that are
+  just only theoretically possible to do.<br/><a href="/subjects/xmlprocessing/">XML processing</a></td>
       </tr>
       <tr>
         <td class="left">2009</td>
