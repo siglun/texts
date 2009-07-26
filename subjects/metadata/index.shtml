@@ -1,54 +1,54 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <html xmlns="http://www.w3.org/1999/xhtml"><head><title>Metadata: Sigfrid Lundberg's Stuff
 	    </title><meta http-equiv="Content-Type" content="text/html;charset=UTF-8"/><script src="/js/navigation.js" type="text/javascript"> 
-	      </script><meta http-equiv="Content-Type" content="text/html;charset=UTF-8"/><link rel="stylesheet" href="/css-style/html.css"/></head><body><div class="left_box"><div style="text-align:left;width=90%;"><!--#include virtual="/div_top_left_box.xml" --></div><div style="text-align:left;width=90%;"><p><a href="/">Home</a><br/></p><p><a href="/files.atom" type="application/atom+xml" class="feed-link"><img src="/images/Newsfeed-Atom.png" alt="Subscribe to Stuff from Sigfrid Lundberg" border="0"/> Subscribe to more Stuff</a></p><!--#include virtual="/subjects.xml" --><!--#include virtual="/me.xml" --></div></div><div class="right_box"><h1 style="width: 58%; float: left;text-align: left">Metadata</h1><p style="width: 38%; float: left;text-align: right"><em><strong>Sigfrid Lundberg's Stuff</strong></em></p><div style="clear:both;"> </div><div style="width:100%;"><p><strong><a href="/2009">2009</a>: </strong><a href="/entries/2009/07/structure/"><em>The description and encoding of structure</em></a><br/>Much metadata is fairly stright forward. A book does have a title
+	      </script><meta http-equiv="Content-Type" content="text/html;charset=UTF-8"/><link rel="stylesheet" href="/css-style/html.css"/></head><body><div class="left_box"><div style="text-align:left;width=90%;"><!--#include virtual="/div_top_left_box.xml" --></div><div style="text-align:left;width=90%;"><p><a href="/">Home</a><br/></p><p><a href="/files.atom" type="application/atom+xml" class="feed-link"><img src="/images/Newsfeed-Atom.png" alt="Subscribe to Stuff from Sigfrid Lundberg" border="0"/> Subscribe to more Stuff</a></p><!--#include virtual="/subjects.xml" --><!--#include virtual="/me.xml" --></div></div><div class="right_box"><h1 style="width: 58%; float: left;text-align: left">Metadata</h1><p style="width: 38%; float: left;text-align: right"><em><strong>Sigfrid Lundberg's Stuff</strong></em></p><div style="clear:both;"> </div><div style="width:100%;"><p><strong><a href="/2009">2009</a>: </strong><a href="/entries/2009/06/atom/"><em>My first serious experience with ATOM</em></a><br/>You don't really understand a document format until you've manually
+  encoded some documents, and written the software to parse and use it for
+  something useful. This somewhat refurbished version of my web site is to a
+  large extent built upon the ATOM syndication format, and here I discuss my
+  experience.<br/><a href="/subjects/structuralwebdesign/">Structural web design</a>,
+	<a href="/subjects/metadata/">Metadata</a></p><p><strong><a href="/2009">2009</a>: </strong><a href="/entries/2009/07/structure/"><em>The description and encoding of structure</em></a><br/>Much metadata is fairly stright forward. A book does have a title
   and an author. That's usually no big deal. We've been able to handle that
   for centuries. A digital book has chapters, and everything you might want to
   know may be in chapter two on page seventyfive. Or someone may tell you the
   solution to your problems after a quarter of an hour in some video on
   YouTube. Now, how do we cope with this?<br/><a href="/subjects/structuralwebdesign/">Structural web design</a>,
-	<a href="/subjects/metadata/">Metadata</a></p><p><strong><a href="/2009">2009</a>: </strong><a href="/entries/2009/06/atom/"><em>My first serious experience with ATOM</em></a><br/>You don't really understand a document format until you've manually
-  encoded some documents, and written the software to parse and use it for
-  something useful. This somewhat refurbished version of my web site is to a
-  large extent built upon the ATOM syndication format, and here I discuss my
-  experience.<br/><a href="/subjects/structuralwebdesign/">Structural web design</a>,
-	<a href="/subjects/metadata/">Metadata</a></p><p><strong><a href="/2005">2005</a>: </strong><a href="/2005/Oct_28/"><em>Ediffah</em></a><br/>En superkort presentation om Ediffah, hållen vid
-    Ediffahprojektets avslutning på Kungl. Biblioteket i Stockholm den 28
+	<a href="/subjects/metadata/">Metadata</a></p><p><strong><a href="/2005">2005</a>: </strong><a href="/2005/Oct_28/"><em>Ediffah</em></a><br/>En superkort presentation om Ediffah, hÃ¥llen vid
+    Ediffahprojektets avslutning pÃ¥ Kungl. Biblioteket i Stockholm den 28
     oktober 2005<br/><a href="/subjects/metadata/">Metadata</a>,
-	<a href="/subjects/archivaldescription/">Archival description</a></p><p><strong><a href="/2004">2004</a>: </strong><a href="/2004/arkiv_bibliotek/"><em>Ediffah – En digital infrastruktur för forskningsbibliotekens
-    arkiv- och handskriftssamlingar</em></a><br/>Projektet syftar till att göra det möjligt att att skapa skapa
-    allmänt tillgängliga kataloger och arkivbeskrivningar över bibliotekens
+	<a href="/subjects/archivaldescription/">Archival description</a></p><p><strong><a href="/2004">2004</a>: </strong><a href="/2004/arkiv_bibliotek/"><em>Ediffah â En digital infrastruktur fÃ¶r forskningsbibliotekens
+    arkiv- och handskriftssamlingar</em></a><br/>Projektet syftar till att gÃ¶ra det mÃ¶jligt att att skapa skapa
+    allmÃ¤nt tillgÃ¤ngliga kataloger och arkivbeskrivningar Ã¶ver bibliotekens
     handskriftssamlingar och personarkiv. Systemet skall vara enkelt, och
-    innehålla ett arbetsflöde sådant att posterna som genereras också med
-    automatik kan återfinnas i Nationella arkivdatabasen NAD, vårt
-    gemensamma bibliotekssystem LIBRIS, såväl som i lokala
+    innehÃ¥lla ett arbetsflÃ¶de sÃ¥dant att posterna som genereras ocksÃ¥ med
+    automatik kan Ã¥terfinnas i Nationella arkivdatabasen NAD, vÃ¥rt
+    gemensamma bibliotekssystem LIBRIS, sÃ¥vÃ¤l som i lokala
     databaser.<br/><a href="/subjects/archivaldescription/">Archival description</a>,
 	<a href="/subjects/metadata/">Metadata</a>,
-	<a href="/subjects/xmlprocessing/">XML processing</a></p><p><strong><a href="/2004">2004</a>: </strong><a href="/2004/digitalisering/position.pdf"><em>Vad en bra samling av digital text bör kunna</em></a><br/>En diskussion av vilka funktioner ett bra textarkiv bör, och vad
-    digitalisering bör innebära.<br/><a href="/subjects/digitallibraries/">Digital libraries</a>,
+	<a href="/subjects/xmlprocessing/">XML processing</a></p><p><strong><a href="/2004">2004</a>: </strong><a href="/2004/digitalisering/position.pdf"><em>Vad en bra samling av digital text bÃ¶r kunna</em></a><br/>En diskussion av vilka funktioner ett bra textarkiv bÃ¶r, och vad
+    digitalisering bÃ¶r innebÃ¤ra.<br/><a href="/subjects/digitallibraries/">Digital libraries</a>,
 	<a href="/subjects/metadata/">Metadata</a>,
-	<a href="/subjects/digitalcollections/">Digital collections</a></p><p><strong><a href="/2004">2004</a>: </strong><a href="/2004/metadata_makes_the_world/"><em>Metadata makes the world going round - en orientering om användning
-    av Metadata och XML</em></a><br/>Sara Kjellberg och jag höll ett antal kurser om metadata
-    o. XML. detta är vår presentation. Vi höll det inom ramen för BTJs
+	<a href="/subjects/digitalcollections/">Digital collections</a></p><p><strong><a href="/2004">2004</a>: </strong><a href="/2004/metadata_makes_the_world/"><em>Metadata makes the world going round - en orientering om anvÃ¤ndning
+    av Metadata och XML</em></a><br/>Sara Kjellberg och jag hÃ¶ll ett antal kurser om metadata
+    o. XML. detta Ã¤r vÃ¥r presentation. Vi hÃ¶ll det inom ramen fÃ¶r BTJs
     kursutbud.<br/><a href="/subjects/xmlprocessing/">XML processing</a>,
-	<a href="/subjects/metadata/">Metadata</a></p><p><strong><a href="/2003">2003</a>: </strong><a href="/2003/axiell-oai/oai-opac.pdf"><em>Implementering av OAI-PMH i ett bibliotekssystem -- Några ord på
-    vägen</em></a><br/>Syftet med denna text är att ge lite kött på benen om vad OAI-PMH
-    är, vad det kan användas till och hur det skulle kunna integreras i ett
-    bibliotekssystem. Det är inte en ersättning för andra dokument utan skall
-    ses som några ord på vägen för organisationer som planerar att eller är i
-    färd med att implementera OAI-PMH. Texten skrevs på uppdrag av
+	<a href="/subjects/metadata/">Metadata</a></p><p><strong><a href="/2003">2003</a>: </strong><a href="/2003/axiell-oai/oai-opac.pdf"><em>Implementering av OAI-PMH i ett bibliotekssystem -- NÃ¥gra ord pÃ¥
+    vÃ¤gen</em></a><br/>Syftet med denna text Ã¤r att ge lite kÃ¶tt pÃ¥ benen om vad OAI-PMH
+    Ã¤r, vad det kan anvÃ¤ndas till och hur det skulle kunna integreras i ett
+    bibliotekssystem. Det Ã¤r inte en ersÃ¤ttning fÃ¶r andra dokument utan skall
+    ses som nÃ¥gra ord pÃ¥ vÃ¤gen fÃ¶r organisationer som planerar att eller Ã¤r i
+    fÃ¤rd med att implementera OAI-PMH. Texten skrevs pÃ¥ uppdrag av
     http://www.axiell.se/bookit<br/><a href="/subjects/harvesting/">Harvesting</a>,
 	<a href="/subjects/metadata/">Metadata</a>,
-	<a href="/subjects/opac/">Library catalogues</a></p><p><strong><a href="/2003">2003</a>: </strong><a href="/2003/def-test/"><em>Teknisk samverkan mellan svenska ämnesportaler - Test och
-    utvärdering av portalprogramvaran TKL</em></a><br/>En utvärdering av digital library produkten Keystone DLS (TKL)<br/><a href="/subjects/digitalcollections/">Digital collections</a>,
+	<a href="/subjects/opac/">Library catalogues</a></p><p><strong><a href="/2003">2003</a>: </strong><a href="/2003/def-test/"><em>Teknisk samverkan mellan svenska Ã¤mnesportaler - Test och
+    utvÃ¤rdering av portalprogramvaran TKL</em></a><br/>En utvÃ¤rdering av digital library produkten Keystone DLS (TKL)<br/><a href="/subjects/digitalcollections/">Digital collections</a>,
 	<a href="/subjects/metadata/">Metadata</a>,
 	<a href="/subjects/reviews/">Reviews</a>,
-	<a href="/subjects/xmlprocessing/">XML processing</a></p><p><strong><a href="/2003">2003</a>: </strong><a href="/2003/urnar_och_digitala_bibliotek/"><em>Pesistent länkning och digitala bibliotek</em></a><br/>Åtskillig uppmärksamhet har nyligen riktats mot problemen
-    förknippade med att uppnå en stabilare webb. Det konstateras, helt
-    korrekt, att mängder med dokument bara försvinner från sina ursprungliga
-    platser. Vad skall man då göra åt saken? Vad är det för grundläggande
-    designproblem som gör att organisationer vilka underhåller länksamlingar
-    av olika slag tvingas bära en allt tyngre börda?<br/><a href="/subjects/digitallibraries/">Digital libraries</a>,
+	<a href="/subjects/xmlprocessing/">XML processing</a></p><p><strong><a href="/2003">2003</a>: </strong><a href="/2003/urnar_och_digitala_bibliotek/"><em>Pesistent lÃ¤nkning och digitala bibliotek</em></a><br/>Ãtskillig uppmÃ¤rksamhet har nyligen riktats mot problemen
+    fÃ¶rknippade med att uppnÃ¥ en stabilare webb. Det konstateras, helt
+    korrekt, att mÃ¤ngder med dokument bara fÃ¶rsvinner frÃ¥n sina ursprungliga
+    platser. Vad skall man dÃ¥ gÃ¶ra Ã¥t saken? Vad Ã¤r det fÃ¶r grundlÃ¤ggande
+    designproblem som gÃ¶r att organisationer vilka underhÃ¥ller lÃ¤nksamlingar
+    av olika slag tvingas bÃ¤ra en allt tyngre bÃ¶rda?<br/><a href="/subjects/digitallibraries/">Digital libraries</a>,
 	<a href="/subjects/metadata/">Metadata</a></p><p><strong><a href="/2002">2002</a>: </strong><a href="/2002/DRH2002/toc.html"><em>Lecture notes: S:t Laurentius Digital Manuscript Library</em></a><br/>In this lecture, I discussed the
     experiences gained by the development of a specific service, which, using
     a collection of detailed XML descriptions, provides its users access to a
@@ -77,14 +77,14 @@
 	<a href="/subjects/digitization/">Digitization</a></p><p><strong><a href="/2002">2002</a>: </strong><a href="/2002/Scripta/"><em>The Metadata model in Scripta Academica Lundensis</em></a><br/>This document specifies the metadata once used in the Lund university
     dissertation database.<br/><a href="/subjects/digitalcollections/">Digital collections</a>,
 	<a href="/subjects/xmlprocessing/">XML processing</a>,
-	<a href="/subjects/metadata/">Metadata</a></p><p><strong><a href="/2002">2002</a>: </strong><a href="/2003/XMLforLibrarians/"><em>XML -- en mjuk start för biblioteksfolk Mitt ständigt ofärdiga
-    undervisningsmaterial (...och en del annat)</em></a><br/>Denna text syftar till att ge en överblick över vissa områden av
-    det digitala biblioteksområdet vilka är stadda i snabb utveckling. En
-    utveckling som i hög grad katalyseras av utvecklingen av olika
-    tillämpningar av eXtensible Markup Language, XML, som i år fyller fem år.
-    Utöver användningen av XML inom det digitala biblioteksväsendet ges en
-    överblick över modernt tänkande när det gäller metadata, hur XML kan
-    tänkas påverka hur vi tar del av, och hanterar elektroniska texter både i
+	<a href="/subjects/metadata/">Metadata</a></p><p><strong><a href="/2002">2002</a>: </strong><a href="/2003/XMLforLibrarians/"><em>XML -- en mjuk start fÃ¶r biblioteksfolk Mitt stÃ¤ndigt ofÃ¤rdiga
+    undervisningsmaterial (...och en del annat)</em></a><br/>Denna text syftar till att ge en Ã¶verblick Ã¶ver vissa omrÃ¥den av
+    det digitala biblioteksomrÃ¥det vilka Ã¤r stadda i snabb utveckling. En
+    utveckling som i hÃ¶g grad katalyseras av utvecklingen av olika
+    tillÃ¤mpningar av eXtensible Markup Language, XML, som i Ã¥r fyller fem Ã¥r.
+    UtÃ¶ver anvÃ¤ndningen av XML inom det digitala biblioteksvÃ¤sendet ges en
+    Ã¶verblick Ã¶ver modernt tÃ¤nkande nÃ¤r det gÃ¤ller metadata, hur XML kan
+    tÃ¤nkas pÃ¥verka hur vi tar del av, och hanterar elektroniska texter bÃ¥de i
     form av digitalt bevarande och publicering av t ex
     forskningsrapporter.<br/><a href="/subjects/xmlprocessing/">XML processing</a>,
 	<a href="/subjects/textencoding/">Text encoding</a>,
@@ -120,17 +120,17 @@
     Denmark, Finland, Sweden, Norway and Iceland.<br/><a href="/subjects/webindexing/">Web indexing</a>,
 	<a href="/subjects/harvesting/">Harvesting</a>,
 	<a href="/subjects/metadata/">Metadata</a>,
-	<a href="/subjects/z3950/">Z39.50</a></p><p><strong><a href="/1998">1998</a>: </strong><a href="/1998/safari/cris.pdf"><em>En arkitektur för ett distribuerat system för spridning av
-    forskningsinformation</em></a><br/>Arkitekturen för ett nätverk av tjänster för spridning av
-    forskningsinformation beskrivs. Nätverket tillåter distribuerat underhåll
-    av såväl data som metadata. Till nätverket kan anslutas såväl
+	<a href="/subjects/z3950/">Z39.50</a></p><p><strong><a href="/1998">1998</a>: </strong><a href="/1998/safari/cris.pdf"><em>En arkitektur fÃ¶r ett distribuerat system fÃ¶r spridning av
+    forskningsinformation</em></a><br/>Arkitekturen fÃ¶r ett nÃ¤tverk av tjÃ¤nster fÃ¶r spridning av
+    forskningsinformation beskrivs. NÃ¤tverket tillÃ¥ter distribuerat underhÃ¥ll
+    av sÃ¥vÃ¤l data som metadata. Till nÃ¤tverket kan anslutas sÃ¥vÃ¤l
     bibliografiska databaser som helt WWWbaserade metadataberikade
-    tjänster. Metadataproduktionen följer standarden Dublin Core. De förra
-    typerna av tjänster inkorporeras i nätverket genom interoperabilitet på
-    sökprotokollsnivå, medan metadata och fulltext från de senare göres
-    sökbara genom en WWWrobot.  Kommunikation inom nätverket utnyttjar
-    standardiserade Internet protokoll som HTTP, och för
-    informationsåtervinning Z39.50<br/><a href="/subjects/webindexing/">Web indexing</a>,
+    tjÃ¤nster. Metadataproduktionen fÃ¶ljer standarden Dublin Core. De fÃ¶rra
+    typerna av tjÃ¤nster inkorporeras i nÃ¤tverket genom interoperabilitet pÃ¥
+    sÃ¶kprotokollsnivÃ¥, medan metadata och fulltext frÃ¥n de senare gÃ¶res
+    sÃ¶kbara genom en WWWrobot.  Kommunikation inom nÃ¤tverket utnyttjar
+    standardiserade Internet protokoll som HTTP, och fÃ¶r
+    informationsÃ¥tervinning Z39.50<br/><a href="/subjects/webindexing/">Web indexing</a>,
 	<a href="/subjects/harvesting/">Harvesting</a>,
 	<a href="/subjects/metadata/">Metadata</a>,
 	<a href="/subjects/z3950/">Z39.50</a></p><p><strong><a href="/1998">1998</a>: </strong><a href="/1998/www7/"><em>A regional distributed WWW search and indexing service - the DESIRE

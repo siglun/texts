@@ -12,18 +12,18 @@
       $Id$
   -->
   <entry>
-    <title>NWI — En nordisk söktjänst för World Wide Web</title>
+    <title>NWI â En nordisk sÃ¶ktjÃ¤nst fÃ¶r World Wide Web</title>
     <author>
       <name>Sigfrid Lundberg</name>
     </author>
     <author>
-      <name>Anders Ardö</name>
+      <name>Anders ArdÃ¶</name>
     </author>
     <link href="/1996/nwi/press_release.html"/>
-    <summary>Ett konsortium av nordiska forskningsbibliotek och nätverksorgan
-    presenterar Nordiskt Webindex, en nordisk söktjänst utvecklad i norden för
-    en nordisk publik. I dag finns en experimentell tjänst offentligt
-    tillgänglig på nätet på URL http://nwi.ub2.lu.se.</summary>
+    <summary>Ett konsortium av nordiska forskningsbibliotek och nÃ¤tverksorgan
+    presenterar Nordiskt Webindex, en nordisk sÃ¶ktjÃ¤nst utvecklad i norden fÃ¶r
+    en nordisk publik. I dag finns en experimentell tjÃ¤nst offentligt
+    tillgÃ¤nglig pÃ¥ nÃ¤tet pÃ¥ URL http://nwi.ub2.lu.se.</summary>
     <category term="Web indexing" label="webindexing"/>
     <category term="Harvesting" label="harvesting"/>
     <dc:date>1996</dc:date>
@@ -50,17 +50,17 @@
     <id>http://www.sigfrid-lundberg.se/1997/SMN_metadata/smn_metadata.pdf</id>
   </entry>
   <entry>
-    <title>Kulturnät Sverige</title>
+    <title>KulturnÃ¤t Sverige</title>
     <author>
       <name>Sigfrid Lundberg</name>
     </author>
     <link href="/1997/kultur_naet_sverige/"/>
-    <summary>En recension av IT i kulturens tjänst, SOU 1997:14 som i mina
-    ögon vid den tidpunkten var en fullständigt överflödig utredning. Här
-    fanns alla möjligheter att börja arbeta för en konvergens när det gäller
-    beskrivningsstandard och protokoll för informationsretrieval mellan olika
+    <summary>En recension av IT i kulturens tjÃ¤nst, SOU 1997:14 som i mina
+    Ã¶gon vid den tidpunkten var en fullstÃ¤ndigt Ã¶verflÃ¶dig utredning. HÃ¤r
+    fanns alla mÃ¶jligheter att bÃ¶rja arbeta fÃ¶r en konvergens nÃ¤r det gÃ¤ller
+    beskrivningsstandard och protokoll fÃ¶r informationsretrieval mellan olika
     grenar av kultursektorn. En tjock bok som ledde fram till en numera
-    nerlagd ämnesportal.</summary>
+    nerlagd Ã¤mnesportal.</summary>
     <dc:date>1997</dc:date>
     <updated>2009-06-08T00:05:00+01:00</updated>
     <category term="Digital collections" label="digitalcollections"/>
@@ -91,7 +91,7 @@
   </entry>
   <entry>
     <title>NWI II, An Enhanced Nordic Web index: Final report</title>
-    <author><name>Anders Ardö</name></author>
+    <author><name>Anders ArdÃ¶</name></author>
     <author><name>Allan Arvidson</name></author>
     <author><name>Sebastian Hammer</name></author>
     <author><name>Kenneth Holmlund</name></author>
@@ -113,19 +113,19 @@
     <id>http://www.sigfrid-lundberg.se/1998/nwi2/</id>
   </entry>
   <entry>
-    <title>En arkitektur för ett distribuerat system för spridning av
+    <title>En arkitektur fÃ¶r ett distribuerat system fÃ¶r spridning av
     forskningsinformation</title>
     <link href="/1998/safari/cris.pdf"/>
-    <summary>Arkitekturen för ett nätverk av tjänster för spridning av
-    forskningsinformation beskrivs. Nätverket tillåter distribuerat underhåll
-    av såväl data som metadata. Till nätverket kan anslutas såväl
+    <summary>Arkitekturen fÃ¶r ett nÃ¤tverk av tjÃ¤nster fÃ¶r spridning av
+    forskningsinformation beskrivs. NÃ¤tverket tillÃ¥ter distribuerat underhÃ¥ll
+    av sÃ¥vÃ¤l data som metadata. Till nÃ¤tverket kan anslutas sÃ¥vÃ¤l
     bibliografiska databaser som helt WWWbaserade metadataberikade
-    tjänster. Metadataproduktionen följer standarden Dublin Core. De förra
-    typerna av tjänster inkorporeras i nätverket genom interoperabilitet på
-    sökprotokollsnivå, medan metadata och fulltext från de senare göres
-    sökbara genom en WWWrobot.  Kommunikation inom nätverket utnyttjar
-    standardiserade Internet protokoll som HTTP, och för
-    informationsåtervinning Z39.50</summary>
+    tjÃ¤nster. Metadataproduktionen fÃ¶ljer standarden Dublin Core. De fÃ¶rra
+    typerna av tjÃ¤nster inkorporeras i nÃ¤tverket genom interoperabilitet pÃ¥
+    sÃ¶kprotokollsnivÃ¥, medan metadata och fulltext frÃ¥n de senare gÃ¶res
+    sÃ¶kbara genom en WWWrobot.  Kommunikation inom nÃ¤tverket utnyttjar
+    standardiserade Internet protokoll som HTTP, och fÃ¶r
+    informationsÃ¥tervinning Z39.50</summary>
     <category term="Web indexing" label="webindexing"/>
     <category term="Harvesting" label="harvesting"/>
     <category term="Metadata" label="metadata"/>
@@ -272,18 +272,18 @@
     <id>http://www.sigfrid-lundberg.se/2002/Laurentius/laurentius.pdf</id>
   </entry>
   <entry>
-    <title>Förslag till policy för digitaliseringsprojekt inom Lunds
+    <title>FÃ¶rslag till policy fÃ¶r digitaliseringsprojekt inom Lunds
     Universitets Bibliotek</title>
     <author>
       <name>Sigfrid Lundberg</name>
     </author>
     <link href="/2002/DigitaliseringsPolicy/digitaliserings_policy.pdf"/>
-    <summary>Digital arkivering är att bereda serverplats för information om
-    oss, vår tid och vår historia för våra barn och deras efterkommande. Detta
-    dokument beskriver förutsättningarna för digitalisering, lagring och
+    <summary>Digital arkivering Ã¤r att bereda serverplats fÃ¶r information om
+    oss, vÃ¥r tid och vÃ¥r historia fÃ¶r vÃ¥ra barn och deras efterkommande. Detta
+    dokument beskriver fÃ¶rutsÃ¤ttningarna fÃ¶r digitalisering, lagring och
     arkivering samt elektronisk publicering av olika samlingar inom Lunds
-    universitet och dess bibliotek. Särskild vikt läggs vid att utveckla en
-    nansieringsmodell för lagring, tillgängliggörande och bevarande.</summary>
+    universitet och dess bibliotek. SÃ¤rskild vikt lÃ¤ggs vid att utveckla en
+    nansieringsmodell fÃ¶r lagring, tillgÃ¤ngliggÃ¶rande och bevarande.</summary>
     <dc:date>2002</dc:date>
     <category term="Digitization" label="digitization"/>
     <category term="Digital collections" label="digitalcollections"/>
@@ -296,7 +296,7 @@
       <name>Colm Doyle</name>
     </author>
     <author>
-      <name>Jörgen Eriksson</name>
+      <name>JÃ¶rgen Eriksson</name>
     </author>
     <author>
       <name>Sara Kjellberg</name>
@@ -305,7 +305,7 @@
       <name>Sigfrid Lundberg</name>
     </author>
     <author>
-      <name>Tomas Schönthal</name>
+      <name>Tomas SchÃ¶nthal</name>
     </author>
     <link href="/2002/Scripta/"/>
     <summary>This document specifies the metadata once used in the Lund university
@@ -318,17 +318,17 @@
     <id>http://www.sigfrid-lundberg.se/2002/Scripta/</id>
   </entry>
   <entry>
-    <title>XML -- en mjuk start för biblioteksfolk Mitt ständigt ofärdiga
+    <title>XML -- en mjuk start fÃ¶r biblioteksfolk Mitt stÃ¤ndigt ofÃ¤rdiga
     undervisningsmaterial (...och en del annat)</title>
     <link href="/2003/XMLforLibrarians/"/>
 
-    <summary>Denna text syftar till att ge en överblick över vissa områden av
-    det digitala biblioteksområdet vilka är stadda i snabb utveckling. En
-    utveckling som i hög grad katalyseras av utvecklingen av olika
-    tillämpningar av eXtensible Markup Language, XML, som i år fyller fem år.
-    Utöver användningen av XML inom det digitala biblioteksväsendet ges en
-    överblick över modernt tänkande när det gäller metadata, hur XML kan
-    tänkas påverka hur vi tar del av, och hanterar elektroniska texter både i
+    <summary>Denna text syftar till att ge en Ã¶verblick Ã¶ver vissa omrÃ¥den av
+    det digitala biblioteksomrÃ¥det vilka Ã¤r stadda i snabb utveckling. En
+    utveckling som i hÃ¶g grad katalyseras av utvecklingen av olika
+    tillÃ¤mpningar av eXtensible Markup Language, XML, som i Ã¥r fyller fem Ã¥r.
+    UtÃ¶ver anvÃ¤ndningen av XML inom det digitala biblioteksvÃ¤sendet ges en
+    Ã¶verblick Ã¶ver modernt tÃ¤nkande nÃ¤r det gÃ¤ller metadata, hur XML kan
+    tÃ¤nkas pÃ¥verka hur vi tar del av, och hanterar elektroniska texter bÃ¥de i
     form av digitalt bevarande och publicering av t ex
     forskningsrapporter.</summary>
 
@@ -340,14 +340,14 @@
     <id>http://www.sigfrid-lundberg.se/2003/XMLforLibrarians/</id>
   </entry>
   <entry>
-    <title>Implementering av OAI-PMH i ett bibliotekssystem -- Några ord på
-    vägen</title>
+    <title>Implementering av OAI-PMH i ett bibliotekssystem -- NÃ¥gra ord pÃ¥
+    vÃ¤gen</title>
     <link href="/2003/axiell-oai/oai-opac.pdf"/>
-    <summary>Syftet med denna text är att ge lite kött på benen om vad OAI-PMH
-    är, vad det kan användas till och hur det skulle kunna integreras i ett
-    bibliotekssystem. Det är inte en ersättning för andra dokument utan skall
-    ses som några ord på vägen för organisationer som planerar att eller är i
-    färd med att implementera OAI-PMH. Texten skrevs på uppdrag av
+    <summary>Syftet med denna text Ã¤r att ge lite kÃ¶tt pÃ¥ benen om vad OAI-PMH
+    Ã¤r, vad det kan anvÃ¤ndas till och hur det skulle kunna integreras i ett
+    bibliotekssystem. Det Ã¤r inte en ersÃ¤ttning fÃ¶r andra dokument utan skall
+    ses som nÃ¥gra ord pÃ¥ vÃ¤gen fÃ¶r organisationer som planerar att eller Ã¤r i
+    fÃ¤rd med att implementera OAI-PMH. Texten skrevs pÃ¥ uppdrag av
     http://www.axiell.se/bookit</summary>
     <updated>2009-06-09T08:08:00+01:00</updated>
     <dc:date>2003</dc:date>
@@ -357,21 +357,21 @@
     <id>http://www.sigfrid-lundberg.se/2003/axiell-oai/oai-opac.pdf</id>
   </entry>
   <entry>
-    <title>Teknisk samverkan mellan svenska ämnesportaler - Test och
-    utvärdering av portalprogramvaran TKL</title>
+    <title>Teknisk samverkan mellan svenska Ã¤mnesportaler - Test och
+    utvÃ¤rdering av portalprogramvaran TKL</title>
     <author>
       <name>Colm Doyle</name>
     </author>
     <author>
-      <name>Jörgen Eriksson</name>
+      <name>JÃ¶rgen Eriksson</name>
     </author>
     <author>
       <name>Sigfrid Lundberg</name>
     </author>
     <author>
-      <name>Tomas Schönthal</name>
+      <name>Tomas SchÃ¶nthal</name>
     </author>
-    <summary>En utvärdering av digital library produkten Keystone DLS (TKL)</summary>
+    <summary>En utvÃ¤rdering av digital library produkten Keystone DLS (TKL)</summary>
     <link href="/2003/def-test/"/>
     <updated>2009-06-09T08:23:00+01:00</updated>
     <dc:date>2003</dc:date>
@@ -382,15 +382,15 @@
     <id>http://www.sigfrid-lundberg.se/2003/def-test/</id>
   </entry>
   <entry>
-    <title>Vad är ett PEK?</title>
+    <title>Vad Ã¤r ett PEK?</title>
     <author>
       <name>Sigfrid Lundberg</name>
     </author>
-    <summary>Här rapporterar jag en konvergent språklig utveckling mellan
-    forskare och internerna på Långholmen. I båda kategorierna används ordet
-    "pek" för att beskriva en kommunikation, bland akademiker var det på
-    1980-talet slang för "uppsats" och på Långholmen var det en text som
-    skickades med linbana längs med fängelsemurarna.</summary>
+    <summary>HÃ¤r rapporterar jag en konvergent sprÃ¥klig utveckling mellan
+    forskare och internerna pÃ¥ LÃ¥ngholmen. I bÃ¥da kategorierna anvÃ¤nds ordet
+    "pek" fÃ¶r att beskriva en kommunikation, bland akademiker var det pÃ¥
+    1980-talet slang fÃ¶r "uppsats" och pÃ¥ LÃ¥ngholmen var det en text som
+    skickades med linbana lÃ¤ngs med fÃ¤ngelsemurarna.</summary>
     <link href="/2003/pek/"/>
     <dc:date>2003</dc:date>
     <updated>2009-06-09T20:25:00+01:00</updated>
@@ -398,16 +398,16 @@
     <id>http://www.sigfrid-lundberg.se/2003/pek/</id>
   </entry>
   <entry>
-    <title>Pesistent länkning och digitala bibliotek</title>
+    <title>Pesistent lÃ¤nkning och digitala bibliotek</title>
     <author>
       <name>Sigfrid Lundberg</name>
     </author>
-    <summary>Åtskillig uppmärksamhet har nyligen riktats mot problemen
-    förknippade med att uppnå en stabilare webb. Det konstateras, helt
-    korrekt, att mängder med dokument bara försvinner från sina ursprungliga
-    platser. Vad skall man då göra åt saken? Vad är det för grundläggande
-    designproblem som gör att organisationer vilka underhåller länksamlingar
-    av olika slag tvingas bära en allt tyngre börda?</summary>
+    <summary>Ãtskillig uppmÃ¤rksamhet har nyligen riktats mot problemen
+    fÃ¶rknippade med att uppnÃ¥ en stabilare webb. Det konstateras, helt
+    korrekt, att mÃ¤ngder med dokument bara fÃ¶rsvinner frÃ¥n sina ursprungliga
+    platser. Vad skall man dÃ¥ gÃ¶ra Ã¥t saken? Vad Ã¤r det fÃ¶r grundlÃ¤ggande
+    designproblem som gÃ¶r att organisationer vilka underhÃ¥ller lÃ¤nksamlingar
+    av olika slag tvingas bÃ¤ra en allt tyngre bÃ¶rda?</summary>
     <link href="/2003/urnar_och_digitala_bibliotek/"/>
     <dc:date>2003</dc:date>
     <updated>2009-06-09T20:36:00+01:00</updated>
@@ -416,18 +416,18 @@
     <id>http://www.sigfrid-lundberg.se/2003/urnar_och_digitala_bibliotek/</id>
   </entry>
   <entry>
-    <title>Ediffah – En digital infrastruktur för forskningsbibliotekens
+    <title>Ediffah â En digital infrastruktur fÃ¶r forskningsbibliotekens
     arkiv- och handskriftssamlingar</title>
     <link href="/2004/arkiv_bibliotek/"/>
     <author>
       <name>Sigfrid Lundberg</name>
     </author>
-    <summary>Projektet syftar till att göra det möjligt att att skapa skapa
-    allmänt tillgängliga kataloger och arkivbeskrivningar över bibliotekens
+    <summary>Projektet syftar till att gÃ¶ra det mÃ¶jligt att att skapa skapa
+    allmÃ¤nt tillgÃ¤ngliga kataloger och arkivbeskrivningar Ã¶ver bibliotekens
     handskriftssamlingar och personarkiv. Systemet skall vara enkelt, och
-    innehålla ett arbetsflöde sådant att posterna som genereras också med
-    automatik kan återfinnas i Nationella arkivdatabasen NAD, vårt
-    gemensamma bibliotekssystem LIBRIS, såväl som i lokala
+    innehÃ¥lla ett arbetsflÃ¶de sÃ¥dant att posterna som genereras ocksÃ¥ med
+    automatik kan Ã¥terfinnas i Nationella arkivdatabasen NAD, vÃ¥rt
+    gemensamma bibliotekssystem LIBRIS, sÃ¥vÃ¤l som i lokala
     databaser.</summary>
     <dc:date>2004</dc:date>
     <category term="Archival description" label="archivaldescription"/>
@@ -437,21 +437,21 @@
     <id>http://www.sigfrid-lundberg.se/2004/arkiv_bibliotek/</id>
   </entry>
   <entry>
-    <title>Vad händer med biblioteket när dess samlingar finns överallt och
-    ingen särskild stans?</title>
+    <title>Vad hÃ¤nder med biblioteket nÃ¤r dess samlingar finns Ã¶verallt och
+    ingen sÃ¤rskild stans?</title>
     <author>
       <name>Sigfrid Lundberg</name>
     </author>
     <link href="/2004/biblioteket/"/>
-    <summary>Biblioteken existerar för att det finns användare som är beredda
-    att betala för deras tjänster. Visserligen betalar man i regel via
-    skattesedeln och inte med sitt betalkortet, men principen är densamma.
-    Under vilka förutsättningar är användarna, eller deras valda
-    representanter, redo att betala för bibliotekens tjänster? Går det att
-    finansiera lokalt bibliotek när biblioteksresurserna finns överallt och
-    ingen särskild stans? Vilken kommun eller vilket universitet kan
+    <summary>Biblioteken existerar fÃ¶r att det finns anvÃ¤ndare som Ã¤r beredda
+    att betala fÃ¶r deras tjÃ¤nster. Visserligen betalar man i regel via
+    skattesedeln och inte med sitt betalkortet, men principen Ã¤r densamma.
+    Under vilka fÃ¶rutsÃ¤ttningar Ã¤r anvÃ¤ndarna, eller deras valda
+    representanter, redo att betala fÃ¶r bibliotekens tjÃ¤nster? GÃ¥r det att
+    finansiera lokalt bibliotek nÃ¤r biblioteksresurserna finns Ã¶verallt och
+    ingen sÃ¤rskild stans? Vilken kommun eller vilket universitet kan
     finansiera ett bibliotek som bara har en katalog, men inga samlingar? Och
-    när allt kommer omkring, vem vill ha samlingar och varför? De är ju dyra
+    nÃ¤r allt kommer omkring, vem vill ha samlingar och varfÃ¶r? De Ã¤r ju dyra
     och tar plats.</summary>
     <dc:date>2004</dc:date>
     <category term="The Library" label="thelibrary"/>
@@ -461,13 +461,13 @@
     <id>http://www.sigfrid-lundberg.se/2004/biblioteket/</id>
   </entry>
   <entry>
-    <title>Vad en bra samling av digital text bör kunna</title>
+    <title>Vad en bra samling av digital text bÃ¶r kunna</title>
     <author>
       <name>Sigfrid Lundberg</name>
     </author>
     <link href="/2004/digitalisering/position.pdf"/>
-    <summary>En diskussion av vilka funktioner ett bra textarkiv bör, och vad
-    digitalisering bör innebära.</summary>
+    <summary>En diskussion av vilka funktioner ett bra textarkiv bÃ¶r, och vad
+    digitalisering bÃ¶r innebÃ¤ra.</summary>
     <category term="Digital libraries" label="digitallibraries"/>
     <category term="Metadata" label="metadata"/>
     <category term="Digital collections" label="digitalcollections"/>
@@ -481,7 +481,7 @@
       <name>Sigfrid Lundberg</name>
     </author>
     <summary>En presentation om digitalisering och digitalt bevarande i
-    Lund. Jag tror att jag höll den vid ett stort möte på Kungl. Biblioteket i
+    Lund. Jag tror att jag hÃ¶ll den vid ett stort mÃ¶te pÃ¥ Kungl. Biblioteket i
     Stockholm.</summary>
     <link href="/2004/digitalisering/presentation_04-11-04.html"/>
     <category term="Digital preservation" label="preservation"/>
@@ -491,7 +491,7 @@
     <id>http://www.sigfrid-lundberg.se/2004/digitalisering/presentation_04-11-04.html</id>
   </entry>
   <entry>
-    <title>Metadata makes the world going round - en orientering om användning
+    <title>Metadata makes the world going round - en orientering om anvÃ¤ndning
     av Metadata och XML</title>
     <author>
       <name>Sara Kjellberg</name>
@@ -500,8 +500,8 @@
       <name>Sigfrid Lundberg</name>
     </author>
     <link href="/2004/metadata_makes_the_world/"/>
-    <summary>Sara Kjellberg och jag höll ett antal kurser om metadata
-    o. XML. detta är vår presentation. Vi höll det inom ramen för BTJs
+    <summary>Sara Kjellberg och jag hÃ¶ll ett antal kurser om metadata
+    o. XML. detta Ã¤r vÃ¥r presentation. Vi hÃ¶ll det inom ramen fÃ¶r BTJs
     kursutbud.</summary>
     <category term="XML processing" label="xmlprocessing"/>
     <category term="Metadata" label="metadata"/>
@@ -510,7 +510,7 @@
     <id>http://www.sigfrid-lundberg.se/2004/metadata_makes_the_world/</id>
   </entry>
   <entry>
-    <title>Vilken arkitektur ger ett nav i ett nätverk?  Om
+    <title>Vilken arkitektur ger ett nav i ett nÃ¤tverk?  Om
     KB-utredningen</title>
     <author>
       <name>Sigfrid Lundberg</name>
@@ -528,7 +528,7 @@
     <author>
       <name>Sigfrid Lundberg</name>
     </author>
-    <summary>En diskussion av Zornmärket och
+    <summary>En diskussion av ZornmÃ¤rket och
     riksspelmannainstitutionen och dess roll i svensk folkmusik</summary>
     <link href="/2004/zorn_etc/"/>
     <category term="Music, language &amp; literature" label="musiclanglit"/>
@@ -542,8 +542,8 @@
       <name>Sigfrid Lundberg</name>
     </author>
     <link href="/2005/Oct_28/"/>
-    <summary>En superkort presentation om Ediffah, hållen vid
-    Ediffahprojektets avslutning på Kungl. Biblioteket i Stockholm den 28
+    <summary>En superkort presentation om Ediffah, hÃ¥llen vid
+    Ediffahprojektets avslutning pÃ¥ Kungl. Biblioteket i Stockholm den 28
     oktober 2005</summary>
     <category term="Metadata" label="metadata"/>
     <category term="Archival description" label="archivaldescription"/>
@@ -556,7 +556,7 @@
     <author>
       <name>Sigfrid Lundberg</name>
     </author>
-    <summary>En föreläsning om Internets historia, Det Digitala Biblioteket
+    <summary>En fÃ¶relÃ¤sning om Internets historia, Det Digitala Biblioteket
     och Bibliotekets historia.</summary>
     <link href="/2005/bivil-digitala-bibliotek/"/>
     <dc:date>2005</dc:date>
@@ -582,12 +582,12 @@
     <id>http://www.sigfrid-lundberg.se/2005/digital-preservation/</id>
   </entry>
   <entry>
-    <title>Konkurrerar Google framgångsrikt med biblioteken?</title>
+    <title>Konkurrerar Google framgÃ¥ngsrikt med biblioteken?</title>
     <author>
       <name>Sigfrid Lundberg</name>
     </author>
     <link href="/2006/google/google-vs-thelibrary.html"/>
-    <summary>En diskussion om Bibliotekets förhållande till sökmaskinen
+    <summary>En diskussion om Bibliotekets fÃ¶rhÃ¥llande till sÃ¶kmaskinen
     Google</summary>
     <category term="The Library" label="thelibrary"/>
     <category term="Digital libraries" label="digitallibraries"/>
@@ -626,7 +626,7 @@
     <link href="/2007/search-statistics/user-expectations.html"/>
     <summary>What can deduced by analyses of the search terms entered into the
     search field on the home page of a large modern library? Could we possibly
-    regard this form as the digital library´s information desk, and the
+    regard this form as the digital libraryÂ´s information desk, and the
     queries as the request from its patrons? If we do that, what could we then
     learn about the quality of service?  In this note we do just that. We
     regard the terms entered into the form as manifestation of our patrons
@@ -648,7 +648,7 @@
       <name>Sigfrid Lundberg</name>
     </author>
     <link href="/2008/clarin_adl/"/>
-    <summary>En presentation jag höll om Arkiv før dansk litteratur (ADL)</summary>
+    <summary>En presentation jag hÃ¶ll om Arkiv fÃ¸r dansk litteratur (ADL)</summary>
     <category term="XML processing" label="xmlprocessing"/>
     <category term="Text encoding" label="textencoding"/>
     <category term="Digital humanities" label="ehumanities"/>
@@ -684,7 +684,7 @@
     <title>Kortfattat Curriculum Vitae: Sigfrid Lundberg</title>
     <link href="/2009/cv/cv_sv.xml"/>
     <category term="About me" label="aboutme"/>
-    <summary>Ett CV är väldigt tråkigt att skriva</summary>
+    <summary>Ett CV Ã¤r vÃ¤ldigt trÃ¥kigt att skriva</summary>
     <dc:date>2009</dc:date>
     <updated>2009-06-09T23:54:00+01:00</updated>
     <id>http://www.sigfrid-lundberg.se/2009/cv/cv_sv.xml</id>
@@ -700,7 +700,837 @@
     <category term="About me" label="aboutme"/>
     <id>http://www.sigfrid-lundberg.se/2009/cv/publications.html</id>
   </entry>
-<entry xmlns="http://www.w3.org/2005/Atom" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:default="http://www.w3.org/1999/xhtml">
+<entry xmlns:dc="http://purl.org/dc/elements/1.1/">
+  <author>
+    <name>Sigfrid Lundberg</name>
+  </author>
+  <title>Why do I keep this site?</title>
+  <link href="/entries/2009/06/why/"/>
+  <summary>Having had a web site for about 15 years, I start to wonder why I
+  keep it in the first place.</summary>
+  <content type="xhtml">
+    <div xmlns="http://www.w3.org/1999/xhtml">
+
+      <p>A week or two ago I registered this site with Google Analytics. My
+      Internet supply provider's statics is virtually useless. Then I've spent
+      quite some time cutting and pasting the javascript into my olde
+      stuff.</p>
+
+      <p>I haven't cared about this site for about four years and as far as I
+      can tell now, this place is hit by a one or two people per day, each of
+      which stay less than a minute. Why they come I don't know, and Google
+      Analytics won't tell me yet.</p>
+
+      <p>Now, I didn't expect anything else. I use the site as a store for old
+      documentation, of which just a few things could possibly be valuable for
+      students of Internet history. Most likely, though, they hardly even
+      deserve a footnote in the posterity.</p>
+
+      <h3>The origins</h3>
+
+      <p>I started this site autumn 1995. The oldest documents still in the
+      public collection is from <a href="/1996">1996</a>. Now, started isn't
+      really the right word. I never <em>planned</em> to build a web site
+      with old documents. Basically, I started a web server on a development
+      machine and devoted an area for project documentation and reports. I
+      could then drop a piece of text there and send the URI to my colleagues
+      or customers. That is how it started.</p>
+
+      <p>This worked well to begin with, but about five years later the
+      rudimentary structure per project was lost. I then made a backup copy,
+      and created a structure year, and copied stuff from the old site into
+      it. This is the way it is now.</p>
+
+      <p>I started the current site <a href="/2005">2005</a>, when I left Lund
+      university for a new job in Copenhagen. I felt that I just couldn't let
+      this material just disappear.</p>
+
+      <p>The site contains quite a few archived files. Counting them gives 241
+      HTML files, 21 pdf, 84 xml and so forth. Of these I regard 37 as
+      publications of some kind, in the sense that there are links to them
+      that may be reached from the home page. It is still just a sample, the
+      raw collection contains 2452 HTML files.</p>
+
+      <p>I have no idea if I have benefited from the site, or if the material
+      has been useful for someone else. For a few years, notably <a href="/2002">2002</a>, <a href="/2003">2003</a> and <a href="/2004">2004</a>, I did have an idea that I should make an active
+      effort to maintain a web site. Some of the best texts are from that
+      period.</p>
+
+      <h3>Publish or let it perish?</h3>
+
+      <p>I earn my livelihood as a developer for the Worldwide Web. But this
+      site is not a part of what I do for my living. So, should I have it
+      available here or let it perish?</p>
+
+      <p>I pay my ISP 250 SEK per month for this, which include a Linux shell
+      prompt available via secure shell and some storage. The storage side of
+      it is no big deal; I have already a number of USB hard disks around. I
+      have also <kbd>*.zip</kbd> and <kbd>*.tar.gz</kbd> files as attachment
+      on my gmail account, which provides huge storage and good value for
+      money in comparison with what I get from my ISP. But then, 250 SEK is no
+      big deal either.</p>
+
+      <p>So I'll keep it, for the time being. I don't think my stuff
+      contribute very much to the digital refuse spread over the net. I've
+      added an <a href="http://tools.ietf.org/html/rfc4287">ATOM syndication
+      feed</a> for the garbage I decided to keep, a subject browsing based on
+      the ATOM categories. Finally I've added some texts from the last few
+      years. These are basically of the same kind as the rest of my
+      stuff. Reports and papers written for some specific purpose and
+      republished here entirely out of context.</p>
+
+    </div>
+  </content>
+  <dc:date>2009</dc:date>
+  <category label="structuralwebdesign" term="Structural web design"/>
+  <updated>2009-06-27T12:18:00+01:00</updated>
+  <id>http://www.sigfrid-lundberg.se/feed/why.xml</id>
+</entry><entry xmlns:dc="http://purl.org/dc/elements/1.1/">
+  <author>
+    <name>Sigfrid Lundberg</name>
+  </author>
+  <title>Min mor</title>
+  <link href="/entries/2009/06/mor/"/>
+  <summary>Min mor var 43 Ã¥r gammal nÃ¤r hon fÃ¶dde mig 1956. AlltsÃ¥ fÃ¶ddes hon
+  sjÃ¤lv 1913, Ã¥ret innan fÃ¶rsta vÃ¤rldskriget brÃ¶t ut. Nu Ã¤r hon 96, och lever,
+  som hon sÃ¤ger, pÃ¥ lÃ¥nad tid. Tid, det Ã¤r nÃ¥got som hon tar pÃ¥ stÃ¶rsta
+  allvar. Vi talas vid per telefon varje dag. Hon ringer 20.10, nÃ¤stan
+  exakt. Det blir alltid ett trevligt samtal.</summary>
+  <content type="xhtml">
+    <div xmlns="http://www.w3.org/1999/xhtml">
+
+      <p>Min mor var 43 Ã¥r gammal nÃ¤r hon fÃ¶dde mig 1956. AlltsÃ¥ fÃ¶ddes hon
+      sjÃ¤lv 1913, Ã¥ret innan fÃ¶rsta vÃ¤rldskriget brÃ¶t ut. Nu Ã¤r hon 96, och
+      lever, som hon sÃ¤ger, pÃ¥ lÃ¥nad tid. Tid, det Ã¤r nÃ¥got som hon tar pÃ¥
+      stÃ¶rsta allvar. Vi talas vid per telefon varje dag. Hon ringer 20.10,
+      nÃ¤stan exakt. Det blir alltid ett trevligt samtal.</p>
+      
+      <p style="margin-left:0.5em;float:left;">
+	<img src="http://www.sigfrid-lundberg.se/galleri/200902-200904/smaller/cimg1150.jpg" alt="Mor i dÃ¶rrent"/>
+      </p>
+
+      <p>NÃ¤r det Ã¤r dags att sÃ¤ga godnatt, Ã¥terkomer hon stÃ¤ndigt till att man
+      mÃ¥ste vara tacksam fÃ¶r varje dag som gÃ¥tt, och att "i morgon Ã¤r det en
+      ny dag". Visst har Mor rÃ¤tt! Det Ã¤r faktiskt inte Ã¤r sjÃ¤lvklart att man
+      fÃ¥r leva hela nÃ¤sta dag. Har man hunnit med ett lÃ¥ngt liv, sÃ¥ Ã¤r man
+      mer medveten om den saken Ã¤n vad vi, yngre mÃ¤nniskor, Ã¤r.</p>
+
+      <p>Jag tÃ¤nker pÃ¥ det ibland, att hon har varit med om en stor del av
+      1900-talet, och hur hon kan tala om arbetslÃ¶sheten pÃ¥ 30-talet, om
+      KrÃ¼gerkraschen 1931. DÃ¥ var hon en fager ung kvinna 18 Ã¥r gammal. Mor
+      har varit folkpensionÃ¤r under i princip hela mitt yrkesverksamma liv,
+      hon fÃ¶ddes innan ryska revolutionen och lever faktiskt fortfarande.  Hon
+      arbetar fortfarande i trÃ¤dgÃ¥rden. "Ni behÃ¶ver inte vara rÃ¤dda, jag kan
+      inte trilla nÃ¤r jag sitter pÃ¥ marken," berÃ¤ttade hon nyligen.</p>
+
+      <p>I mars i Ã¥r fick hon hÃ¶ra pÃ¥ radion om SEBs nyemission nu i mars
+      mÃ¥nad tog hon rollatorn ner till Handelsbanken. Som folkpensionÃ¤r tjÃ¤nar
+      hon 7000 kronor i mÃ¥naden, sÃ¥ fÃ¶r att kÃ¶pa de femhundra hennes innehav
+      berÃ¤ttigade henne till, fick hon hÃ¶ja sin checkkontokredit. Vi fick 200
+      aktier var, jag och min bror. Det var fÃ¶r sina barns skull hon kÃ¶pte
+      aktierna pÃ¥ lÃ¥nade pengar.</p>
+
+      <h2>En ny pÃ¥minnelse om vÃ¥r dÃ¶dlighet</h2>
+
+      <p>I dag nÃ¤r vi talades vid berÃ¤ttade hon om gravstenen. Min far dog i
+      september i fjol 93 Ã¥r och tre mÃ¥nader gammal, men det Ã¤r fÃ¶rst nu som
+      vi fÃ¥tt gravstenen pÃ¥ plats, och Mor Ã¤r lycklig fÃ¶r det. Den Ã¤r i lite
+      mer Ã¤ldre stil, hÃ¶g och smal, inte sÃ¥ dÃ¤r bred och lÃ¥g som mÃ¥nga
+      gravstenar Ã¤r numera. Jag har inte sett den sjÃ¤lv Ã¤nnu, men mor sÃ¤ger
+      att den Ã¤r vacker. Huggen i grÃ¥ granit frÃ¥n Ãstra GÃ¶inge, i trakten
+      kring GlimÃ¥kra, dÃ¤r Far vÃ¤xte upp. Texten Ã¤r i Garamond, stilen som Far
+      tyckte bÃ¤st om, jÃ¤mte Berling Antikva. Far var boktryckare och vi har
+      nog Ã¥tskilliga hundra kilo Berling Antikva i kÃ¤llaren efter honom.</p>
+
+      <p>Mor ser illa. Hon har bÃ¥de grÃ¥ starr och gula flÃ¤cken och kan inte
+      lÃ¤sa inte tidningen lÃ¤ngre. Men lyssnar hon pÃ¥ radio det gÃ¶r hon. Jag
+      tror att hon sitter dÃ¤r i kÃ¶ket och lyssnar mest hela dagen. Inte missar
+      hon en nyhetssÃ¤nding om hon kan undvika det. Ekot och i synnerhet
+      ekonomiekot Ã¤r viktigt. RadiofÃ¶ljetongen och radioteatern Ã¤r hennes enda
+      intag av skÃ¶nlitteratur nufÃ¶rtiden.</p>
+
+      <p>Mor bÃ¶rjade skolan 1920. Det var inte sÃ¥ ovanligt pÃ¥ den tiden att
+      flickornas utbildning fÃ¶rsummades pÃ¥ bekostnad av gossarnas. FÃ¶r hennes
+      del blev det aldrig mer Ã¤n sexÃ¥rig folkskola. IstÃ¤llet lÃ¤ste hon in
+      nÃ¤stan stora delar av en gymnasiekompetens pÃ¥ KOMvux mot slutet av
+      60-talet och bÃ¶rjan av 70-talet. Det blev dock inte moderna sprÃ¥k eller
+      matematik, fÃ¶r det var hennes fÃ¶rkunskaper fÃ¶r klena.</p>
+
+      <p>Dagligen diskuterar vi utvecklingen i vÃ¤rlden, och hon berÃ¤ttar annat
+      som hon har hÃ¶rt pÃ¥ radion. Mor har stor tillit till att Barack Obama
+      och hoppas pÃ¥ fred i mellersta Ã¶stern. Nu senast har hon talat en del om
+      PO Enquists som gÃ¥r som radiofÃ¶ljetong just nu, med fÃ¶rfattaren sjÃ¤lv
+      som upplÃ¤sare.</p>
+
+      <h2>En kopp kaffe</h2>
+
+      <p>Vi Ã¥ker hem till mor var eller varannan helg, jag och min bror. Vi
+      byts om fÃ¶r att hon skall fÃ¥ besÃ¶k oftare.</p>
+
+      <p>NÃ¤r jag Ã¤r hos henne Ã¤ter vi lunch tillsammans. Sedan lyssnar vi pÃ¥
+      lunchekot medan vi tar en kopp kaffe pÃ¥ maten. Sedan stÃ¤nger vi av
+      radion och gÃ¥r igenom posten, mest fÃ¶nsterkuvert. NÃ¤stan varje gÃ¥ng ber
+      hon mig att lÃ¤sa jag hÃ¶gt ur tidningen. BÃ¶rsnoteringarna fÃ¶r hennes
+      aktier och dÃ¶dsannonserna mÃ¥ste jag lÃ¤sa varje gÃ¥ng vi trÃ¤ffas.</p>
+
+      <p>SÃ¥ Ã¤r det i livet. NÃ¤r man Ã¤r ung funderar man kanske inte sÃ¥ mycket
+      Ã¶ver det, men det Ã¤r ju sÃ¥ att man umgÃ¥s vÃ¤ldigt mycket med mÃ¤nniskor
+      som Ã¤r som man sjÃ¤lv Ã¤r. Unga umgÃ¥s med unga, smÃ¥barnsfamiljer med
+      varandra och de diskuterar barn. NÃ¤r man kommer upp i medelÃ¥ldern
+      diskuterar man barn, barnbarn och sjuka fÃ¶rÃ¤ldrar. NÃ¤r blir gammal
+      gammal lÃ¤ser man dÃ¶dsannonserna. NÃ¤r man Ã¤r sÃ¥ gammal som Mor Ã¤r det
+      fÃ¥ kvar av hennes vÃ¤nner att lÃ¤sa om dÃ¤r.</p>
+
+      <p>Efter kaffet sprÃ¥kar om allt mÃ¶jligt. Ofta gÃ¥r vi en promenad, men
+      oftast tycker hon bÃ¤ttre att gÃ¥ uppfÃ¶r Ã¤n nerfÃ¶r. Rollatorn rullar fÃ¶r
+      fort och det Ã¤r lÃ¤tt att hon inte hinner med den i nerfÃ¶rsbacke.</p>
+
+      <p>Mor tycker om poesi. Hon kan en hel massa dikter och psalmverser
+      utantill som hon gÃ¤rnar citerar nÃ¤r det passar. Hon har trÃ¤nat yoga
+      sedan hon fyllde 60, och hon trÃ¤nar varje dag. Jag tror ocksÃ¥ att hon
+      dagligen lÃ¤ser alla de dikter och psalmer hon kan utantill, och i
+      synnerhet JO Wallins:</p>
+
+      <blockquote>
+	<em>Ack, nÃ¤r sÃ¥ mycket skÃ¶nt i varje Ã¥der<br/>
+	av skapelsen och livet sig fÃ¶rrÃ¥der,<br/>
+	hur skÃ¶n dÃ¥ mÃ¥ste sjÃ¤lva kÃ¤llan vara,<br/>
+	den evigt klara</em>
+      </blockquote>
+
+      <p>Fast hon kan minst fem verser till.</p>
+
+    </div>
+  </content>
+  <dc:date>2009</dc:date>
+  <category label="essays" term="Essays"/>
+  <updated>2009-06-28T23:33:00+01:00</updated>
+  <id>http://www.sigfrid-lundberg.se/entries/2009/06/mor/</id>
+</entry><entry xmlns:dc="http://purl.org/dc/elements/1.1/">
+  <author>
+    <name>Sigfrid Lundberg</name>
+    <uri>http://www.sigfrid-lundberg.se/</uri>
+  </author>
+  <title>My first serious experience with ATOM</title>
+  <link href="/entries/2009/06/atom/"/>
+  <summary>You don't really understand a document format until you've manually
+  encoded some documents, and written the software to parse and use it for
+  something useful. This somewhat refurbished version of my web site is to a
+  large extent built upon the ATOM syndication format, and here I discuss my
+  experience.</summary>
+  <content type="xhtml">
+    <div xmlns="http://www.w3.org/1999/xhtml">
+
+      <p>The <a href="http://tools.ietf.org/html/rfc4287">ATOM syndication
+      format</a> has been around for almost five years. In comparison with the
+      diverse fauna kept in the menagerie abbreviated to the three character
+      acronym RSS, ATOM is a well kept standard and much more useful as
+      well.</p>
+
+      <p>Now, I've used ATOM before refurbishing my personal web site, but I
+      haven't used <em>seriously</em>. That is, I haven't manually encoded a
+      sizeable amount of text in it, validated the result, and then written
+      software using the data. ATOM is the fundament for this site, since the
+      used for generating the navigation system is encoded that way. I may
+      return to that later on.</p>
+
+      <h2>Designed for success</h2>
+
+      <p>Tim Bray lists and provide a thorough discussion of a number of
+      characteristics shared by successful mark-up languages (see his article
+      <a href="http://web.archive.org/web/20070126140434/www.idealliance.org/proceedings/xml05/ship/175/xml2005.HTML">On
+      Language Creation</a>). The list of success critera includes items such
+      as extensibility, clever but not too extensive use of XML name spaces,
+      the posibility of implementing the language using many, widely different,
+      datamodels. From Bray's perspective, ATOM seems designed for success. I
+      don't know the statistics concerning syndication format popularity, but
+      if ATOM isn't yet the leader, it will become sooner or later. Possibly
+      in RDF disguise.</p>
+
+      <p>From a modelling point of view there is a few, annoying
+      inconsistencies. Let us, for example, compare the <kbd>&lt;author&gt;</kbd>
+      element with the <kbd>&lt;title&gt;</kbd> element. A resource may have an
+      author, then the author may have a number of properties, such as a name,
+      an email address and a home page. The <kbd>author</kbd> for this note is
+      encoded as:</p>
+
+      <pre>
+  &lt;author&gt;
+    &lt;name&gt;Sigfrid Lundberg&lt;/name&gt;
+    &lt;uri&gt;http://www.sigfrid-lundberg.se/&lt;/uri&gt;
+  &lt;/author&gt;
+      </pre>
+
+      <p>This is, in my view, a sign of good content modelling when it comes
+      to metadata. A resource may have a title. A title may have different
+      components, for example main title and sub-title. The main and sub parts
+      are properties of the title, not of the resource. The authors of the
+      ATOM spec did not see that way. A feed may have both. This is annoying
+      for semantic puristic nerd like me. Entries, however, may not have
+      sub-titles at all, which in my view is an inconsistency as well.</p>
+
+      <p>The biggest flaw is the encoding of category data. A resource belongs
+      to a category, i.e., this membership is a property of the resource. The
+      category may have an identifier and a name, and this name is different
+      depending to language. However, ATOM forces me to use the following
+      construct</p>
+
+      <pre>
+  &lt;category xml:lang="en" label="structuralwebdesign" term="Structural web design" /&gt;
+  &lt;category xml:lang="sv" label="structuralwebdesign" term="Structural web design" /&gt;
+      </pre>
+
+      <p>which in my view is less than excellent. I would have preferred
+      something like</p>
+
+      <pre>
+  &lt;category label="structuralwebdesign"&gt;
+    &lt;name xml:lang="en"&gt;Structural web design&lt;/name&gt;
+    &lt;name xml:lang="sv"&gt;Strukturell webbdesign&lt;/name&gt;
+  &lt;/category&gt;
+      </pre>
+
+      <p>These are shortcomings, but I can live with them. But expect changes
+      in this area. The semantic web is here already, and with <a href="http://www.w3.org/2004/02/skos/">SKOS</a> becoming a de facto
+      standard on the internet, the syntactic communities will have to come up
+      with something more clever for categorization of syndicated web
+      resources.</p>
+
+    </div>
+  </content>
+  <dc:date>2009</dc:date>
+  <category label="structuralwebdesign" term="Structural web design"/>
+  <category term="Metadata" label="metadata"/>
+  <updated>2009-06-27T17:35:00+01:00</updated>
+  <id>http://www.sigfrid-lundberg.se/entries/2009/06/atom/</id>
+</entry><entry xmlns:dc="http://purl.org/dc/elements/1.1/">
+  <author>
+    <name>Sigfrid Lundberg</name>
+  </author>
+  <title>Why I love XSLT extension functions</title>
+  <link href="/entries/2009/07/xslt_extensions/"/>
+  <summary>xslt extensions allow you to define xpath functions and extension
+  elements. That makes it easy for you to perform tasks within xslt that are
+  just only theoretically possible to do.</summary>
+  <content type="xhtml">
+    <div xmlns="http://www.w3.org/1999/xhtml">
+
+      <p>I started learning XSLT eight years ago. At the time, it was a fresh
+      technology, and there was also intense discussions on the extensibility
+      of the language. Since then xslt 1.1 has disappeared down the drains,
+      xpath 2.0 &amp; xquery 1.0 appeared on the market. The former of these
+      has had a slow start. The latter, however, has gained acceptance,
+      however a bit reluctant.</p>
+
+      <p>The stuff I want to discuss here is the writing of extension
+      functions. This is regarded as an evil habit in some parts of the XML
+      processing communities, but it is supported by most implementations. It
+      is not to be recommended if you're producing a stand-alone application,
+      but in many cases you're xslt code is an integrated part of an
+      application. Most of my code is of this kind; in particular I'm writing
+      xslt for xalan running in a JAVA environment. Now, why should I refrain
+      from using regex, just because xalan does not support this package? I
+      cannot see why. And nobody would ask me to write ANSI SQL in spite of
+      the fact that we use Oracle.</p>
+
+      <p>Now, it has been proven mathematically that xslt is a <a href="http://www.ibm.com/developerworks/library/x-xalanextensions.html">Turing
+      complete</a> programming language. That means that it is possible to
+      program <strong>anything</strong> which is possible to program with such
+      a language. I.e., you have theoretically the same possibilities as in
+      JAVA and C++. That doesn't mean that it is practical do do so. It is, in
+      my view, much easier to traverse a XML tree in XSLT than in (say) JAVA,
+      whereas it is much easier to connect to a database or implement a XSLT
+      processor using a conventional programming language.</p>
+
+      <p>It is here the XSLT extension functions become really useful. You can
+      pass data from XSLT to your own functions written in your favourite
+      programming lanuguage. I use this for tasks like indexing XML
+      documents. When traversing a document, you select text and pass it to
+      you're function which pass it to your indexing API. One big advantage is
+      that the same software can index heterogenous collections of XML
+      documents just by using different XSLT scripts. They are easy to write
+      and you can a new document type without recompilation of you're indexing
+      software.</p>
+
+      <p>This ability of a fullblown functional programming language (mind
+      you, its Turing complete) to interface both with a host program and from
+      scripts inside it call other functions in other languages is
+      powerful. This, in combination that it is really good for what it is
+      designed for has made it an object for extreme affection from
+      me. Besides I'll return to examples of using XSLT for indexing complex
+      XML objects.</p>
+
+    </div>
+  </content>
+  <dc:date>2009</dc:date>
+  <category label="xmlprocessing" term="XML processing"/>
+  <updated>2009-07-21T18:01:19+01:00</updated>
+  <id>http://www.sigfrid-lundberg.se/entries/2009/07/xslt_extensions/</id>
+  <!-- $Id$ -->
+</entry><entry xmlns:dc="http://purl.org/dc/elements/1.1/">
+  <author>
+    <name>Sigfrid Lundberg</name>
+  </author>
+  <title>On being an international commuter</title>
+  <link href="/entries/2009/07/commuting/"/>
+  <summary>The last four years I've spent more than two hours a day on
+  trains. And usually, but not always less than three. Furthermore, I go from
+  one nation to another and participate in the in the digital dissemination of
+  cultural heritage of a country which isn't my own.</summary>
+  <content type="xhtml">
+    <div xmlns="http://www.w3.org/1999/xhtml">
+
+      <p>In both Lund and Copenhagen there are a lot of people riding
+      bicycles. They behave very differently, however, and their
+      spatial distribution is different. In Copenhagen the riders have
+      a much more aggregated distribution. They ride at high speed in
+      squadrons, somewhat like Mongolian cavalry. Before their mounted
+      attacks on the pedestrians on H.C. Andersens Boulevard, their
+      prime target, the Copenhagen bicycle riders congregate at any of
+      the many traffic lights in the area.</p>
+
+      <p>In Lund, where the traffic lights are more scarce, there are
+      few natural meeting points. In Lund bicycle riders operate in
+      much smaller units, or solitarily. Great speed and bravery is
+      nevertheless needed, as Lund's bicycle riders are well known for
+      their suicidal attacks upon much larger four-wheeled
+      vehicles.</p>
+
+      <p>Normally I leave home and mount my bike ten past seven in the
+      morning. That gives me ample time to patrol the area between my
+      home and the railway station before I have to catch the 07.39
+      train from Lund to Copenhagen. Except for occasional encounters
+      with an increasing number of power walking young ladies, that
+      trip is uneventful. The power walkers stride along in a frenzy,
+      their eyes fixed on a point far way. Neither their faces nor
+      their eyes reveal any emotion whatsoever.  The don't seem to
+      like walking. I think that they are all in a hurry home for a
+      shower and a nice slow breakfast. What else could it be?</p>
+
+      <h2>A parking place</h2>
+
+      <img src="http://www.sigfrid-lundberg.se/galleri/200907-200907/smaller/cimg1352.jpg" style="margin-left:0.5em;float:left;margin-right:0.5em;" alt="Secure locking is essential"/>
+
+      <p>I have one serious problem. That is to find a secure parking
+      place for my bike at the railway station. A lot of people who
+      park there have lost their vehicles. There are stories about
+      thieves coming there with lorries, bringing loads of bicycles
+      for export to Poland. I've recently acquired a new bike, since
+      my previous one was stolen. Apart from finding a parking place,
+      the first temporal bottle-neck is to lock the thing. I've got
+      two solid locks, and try to park where I can use one of them for
+      locking the bike to the iron structure provided by the local
+      council for the benefit for of paranoid bicycle owners (see the
+      image).</p>
+
+      <p>That would describe the normal sequence of events, but right
+      now they replacing 12 kilometers of tracks. Hence the railway
+      which is normally double track is now running on half its normal
+      capacity. I could dwell on the inconveniences caused by this,
+      but I'll spare you that pain. The normal state of affairs is
+      that I after about an hour on the train. Right now it's more
+      often one and a half.</p>
+
+      <h2>Two cultures</h2>
+
+      <p>Swedes &amp; Danes are cousins. Both tribes are viking
+      grandchildren. So are off course the Icelanders and Norwegians, but it
+      is only the Icelanders who have kept their old language. The rest of us
+      has diverged, but still there has been some force that has kept us
+      together linguistically as well as culturally. I've been told that
+      people from Algeria cannot talk to people from Egypt, in spite of the
+      fact that they all speak Arabic. Now, I speak Swedish and my colleagues
+      all speak Danish. And we can all laugh at a good joke.</p>
+
+      <p>I won't say that language doesn't pose any problems, but none
+      we can't live with. One thing which is a problem, and that is
+      writing. My written Danish is a joke, like the speech of the
+      Swedish chef in the Muppet show. Collaborative writing is worst,
+      since that forces colleagues to translate my gibberish. I
+      usually write documentation in English, and everything else in
+      Swedish. Both will be understood.</p>
+
+      <p>Many Danes think that Swedes are formal, moralistic and more
+      prone to bureaucracy than Danes. In Sweden everything that make
+      life worth living, such as tobacco and alcohol, are either
+      prohibited or somehow controlled by the government. More
+      recently, we've also heard that we through some psychological
+      defence mechanism are inclined to deny any problems concerning
+      immigration and integration.</p>
+
+      <p>Many Swedes who have little personal experience of Denmark
+      actually believe that this is the case. All Swedish commuters
+      I've talked to about the cultural differences between Danes and
+      Swedes tell a story which is quite the opposite from the Danish
+      self image. The amount of bureaucracy is less in Sweden and the
+      Danish society is much more hierarchical. On the other hand, I
+      think it is true that we Swedes are a moralistic lot.</p>
+
+      <p>One thing that surpises me is our ever ongoing discussions on
+      responsibility. People say that "this is not our job" more often
+      than in Sweden. Delegation of responsibilities are much more
+      widespread in Sweden than in Denmark. As a consequence I think
+      that leaders in Denmark are extremely busy. We also have an
+      endless number of committes, which I think is a surrogate for
+      responsible people. That is, when no individual takes
+      responsibility, it has to be shared by a committe. Then, there
+      are a lot of problems that just cannot be solved by
+      individuals. But that is something else.</p>
+
+      <p>When I started my work, the new meeting culture was a
+      relief. In both countries there will be an agenda for a
+      meeting. The difference is that in Denmark we allocate a fixed
+      amount of time, and the meeting ends regardless whether we've
+      been through the agenda or not. It felt as if I had finally
+      escaped from the country of endless meetings. In fact, I had
+      come to the country of an endless number of meetings. If the
+      Vatican had been situated in Copenhagen, I doubt that they had
+      ever been able to elect a new pope. I honestly believe that that
+      the total amount spent on meeting is much larger in Danish
+      organizations. It is, <em>sometimes</em>, an advantage to lock in
+      committes and tell them that they'll get lunch when they
+      completed their task.</p>
+
+      <h2>Then comes the afternoon</h2>
+
+      <p>After seven hours and twentyfour minutes I'm free to return
+      to my home country. In Sweden we work eight hours, and that
+      excludes half an hour lunch, whereas you you may eat it within
+      your working hours in Denmark.</p>
+      
+    </div>
+  </content>
+  <dc:date>2009</dc:date>
+  <category label="essays" term="Essays"/>
+  <updated>2009-07-21T21:57:20+01:00</updated>
+  <id>http://www.sigfrid-lundberg.se/entries/2009/07/commuting/</id>
+  <!-- $Id$ -->
+</entry><entry xmlns:dc="http://purl.org/dc/elements/1.1/">
+  <author>
+    <name>Sigfrid Lundberg</name>
+  </author>
+  <title>The predator rests on its prey</title>
+  <link href="/entries/2009/07/victory/"/>
+  <summary>I've seen this image before. An excavator has demolished a
+  building, and has then proudly been parked on top of the remnants.</summary>
+  <content type="xhtml">
+    <div xmlns="http://www.w3.org/1999/xhtml">
+      <div style="float: left;margin-left: 3px;margin-right:3px;">
+	<img src="http://www.sigfrid-lundberg.se/galleri/200907-200907/smaller/cimg1345.jpg" alt="an excavator on top of a demolished building"/>
+      </div>
+
+      <p>Is this <a href="http://en.wikipedia.org/wiki/Smaug">Smaug</a>
+      resting on a pile of gold? Or a predator resting after a victorius
+      battle with a powerful prey?</p>
+
+      <p>Obviously neither. But I've seen this image before. An excavator has
+      demolished a building, and has then proudly been parked on top of the
+      remnants. The building was a petrol station from the sixties. I'll not
+      miss it; it was an ugly building. The shop inside it was
+      poor. That's not the point.</p>
+
+      <p> The point is just <strong>why this gesture of aggression</strong>?
+      Why is the excavator always parked on top of the remnants? Is it a
+      gesture of triumph? Has the present once again earned a victory over the
+      past?  It is the choice of parking place which is the question.</p>
+
+    </div>
+  </content>
+  <dc:date>2009</dc:date>
+  <category label="essays" term="Essays"/>
+  <updated>2009-07-13T10:46:29+01:00</updated>
+  <id>http://www.sigfrid-lundberg.se/entries/2009/07/victory/</id>
+  <!--
+      $Id$
+  -->
+</entry><entry xmlns:dc="http://purl.org/dc/elements/1.1/">
+  <author>
+    <name>Sigfrid Lundberg</name>
+  </author>
+  <title>Will the research libraries play a role in e-science</title>
+  <link href="/entries/2009/07/escience/"/>
+  <summary>I was asked to participate in an e-science pilot project.  The work
+  in the project has been food for thought for me. Will libraries be a part of
+  a future eScience infrastructure?</summary>
+  <content type="xhtml">
+    <div xmlns="http://www.w3.org/1999/xhtml">
+      
+      <p>I was asked to participate in an e-science pilot project. The pilot
+      is directed towards social science, and its main goal is to find out
+      what we could do in the area. Should libraries play a role in a future
+      eScience infrastructure? If yes, what could we do for our patrons in
+      this area?</p>
+
+      <p>That the answer should be yes to the first question is obvious for
+      anyone responsible for the strategic development of any research library
+      around the globe, but the second question is clearly more difficult to
+      answer.</p>
+
+      <p>Libraries have, traditionally, been occupied with four activities:
+      They collect, preserve, organize and provide access to
+      information. Indeed a <a href="http://www.google.com/search?hl=en&amp;q=collect+preserve+organize+%22provide+access%22&amp;btnG=Search">search</a>
+      for these four terms in Google seem to yield a search very focussed on
+      mission statements for Northern American research libraries. <em>It
+      isn't farfetched to conclude that we could extend this role to include
+      research data in digital form</em></p>
+
+      <h2>A happy hypertextual symbiosis</h2>
+
+      <p>In my vision, our role may not end here. The task should involve an
+      infrastructure permitting the our existing information (published in the
+      form of books, journals and whatever) live in a happy hypertextual
+      symbiosis with the research data it is based on.</p>
+
+      <p>In this ecosystem of data and models scientists should be able to
+      combine old stuff in new ways just and continue building the human
+      knowledge by submitting new data. Every piece of data need to be
+      possible to address, for the purpose of annotation as well as for
+      retrieval. Every piece of data, any point in a diagram need an
+      identifier. And it has to be a URI.</p>
+
+      <p>No single organization will be able to afford to build the
+      infrastructure needed by any research community. The good news is that
+      no single organization need to build it. The web of data, which has to
+      be the eScience infrastructure, will almost certainly be the Worldwide
+      web. Nothing less, nothing more.</p>
+
+      <p>This is the vision of <a href="http://www.w3.org/DesignIssues/LinkedData.html">linked data</a>
+      and the semantic web, rephrased in the context of scientific
+      information.</p>
+
+      <p>By tradition libraries are aimed for some local community. In
+      particular, the are funded by some local authority for that
+      purpose. Hence they build collections suitable for that community.
+      This local focus is a problem when everything else is Worldwide.</p>
+
+
+      <p>The idea of the web of data as a foundation for an eScience is a good
+      idea, and most likely the only one that will work. Indeed it is so
+      obvious ones that any actor within the business of scientific
+      information are about to adopt it; publishers, learned societies and
+      libraries alike. However there are others that are interested. Google
+      eScience doesn't sound too exotic to me.</p>
+
+      <p>Google eScience is not a threat, per se. The web of data need data
+      feeds. We can provide that. The problem is our local scope, and in
+      particular the focus on a local community. But that boils down to the
+      local funding.</p>
+
+
+    </div>
+  </content>
+  <dc:date>2009</dc:date>
+  <category label="escience" term="eScience"/>
+  <updated>2009-07-15T14:53:45+01:00</updated>
+  <id>http://www.sigfrid-lundberg.se/entries/2009/07/escience/</id>
+</entry><entry xmlns:dc="http://purl.org/dc/elements/1.1/">
+  <author>
+    <name>Sigfrid Lundberg</name>
+  </author>
+  <title>XML on the web, Client Side XSLT and Google</title>
+  <link href="/entries/2009/07/client_side_xslt/"/>
+  <summary>The market has forced the major browser manufacturers to converge
+  on standards. But why are the search engines lagging behind? Browsers are
+  capable of AJAX and advanced XML processing, but the search engines are
+  still basically just removing tags and presenting raw text extracts.</summary>
+  <content type="xhtml">
+    <div xmlns="http://www.w3.org/1999/xhtml">
+
+      <p>The market has forced the major browser manufacturers to converge on
+      standards. Microsoft cannot afford to produce a browser that won't work
+      on google apps, and the Linux based netbooks and netboxes make a
+      difference. If <a href="http://en.wikipedia.org/wiki/Software_as_a_service">software is a
+      service</a>, what is the client? Obviously the web client, the
+      browser. But why are the search engines lagging behind?  Browsers are
+      capable of AJAX and advanced XML processing, but the search engines are
+      still basically just removing tags and presenting raw text extracts.</p>
+
+      <p>I have quite a few documents on this site that are written in raw
+      XML, such as the <a href="/2008/dighum/digital_humanities.xml">Digital
+      Humanities Infrastructures</a> position paper from last year. Since it
+      is about digital humanities and text encoding, I wrote it in <a href="http://www.tei-c.org/">TEI</a> XML. The paper is presented using
+      client side XSLT. Just view source on that note, and you'll see my
+      markup. The document is a blatant show-off; it is written in nerdcore
+      vanity. At the top you'll see</p>
+
+      <pre>
+	&lt;?xml version="1.0" encoding="UTF-8" ?&gt;
+	&lt;?xml-stylesheet href="render.xsl" type="text/xsl" ?&gt;
+      </pre>
+
+      <p>The <kbd>xml-stylesheet</kbd> processing instruction is read by your
+      browsser, which then retrieves the stylesheet <a href="/2008/dighum/render.xsl">render.xsl</a>. Without any further ado
+      it is then transformed into html, rendered using the CSS indicated by my
+      XSLT script for you to read. You can even inspect the resulting html
+      using <a href="http://getfirebug.com/">firebug</a>, if you've got a
+      modern installation.</p>
+
+      <h2>What does Google do when indexing XML?</h2>
+
+      <p>There is almost certainly a range of XML formats that is actually
+      interpreted by Google. Which formats, well we don't know but in practice
+      can hardly expect anything more exotic than common syndication formats
+      (such as RSS and ATOM ), <a href="http://google.com/support/webmasters/bin/answer.py?hl=en&amp;answer=99170">microformats
+      and RDFa</a>. I have noticed that Google has been doing OAI harvesting
+      for many years, most likely for the benefit of <a href="http://scholar.google.com/">Scholar</a>.</p>
+
+      <p>One could envisage a number of viable indexing strategies for a
+      general search engine for a document like my Digital Infrastructure
+      Nerdcore Vanity paper. One would be to execute a global regex search and
+      replace "&lt;[^&gt;]+&gt;" with "" (which basically means: remove
+      anything between angle brackets, or remove all tags).</p>
+
+      <p>This would yield a "detagged incipit", which in this case is "Digital
+      Humanities Infrastructures 2008-06-12 Digital Humanities Infrastructures
+      Sigfrid Lundberg"</p> 
+
+      <p>Another strategy would be to use the style sheet provided by the nerd
+      publishing this paper. That would yield the "transformed incipit", which
+      for this document is (using the HTML body only) "Digital Humanities
+      Infrastructures Sigfrid Lundberg". In using the transform, Google would
+      then be able to use its usual HTML indexing techniques. For instance it
+      would understand the title, and be able parse all hypertext links.</p>
+
+      <p>I made the search <a href="http://www.google.com/search?hl=en&amp;q=digital+humanities+infrastructure+%2Blundberg&amp;btnG=Search">digital
+      humanities infrastructure +lundberg</a> and the results looks like
+      "<strong>Digital Humanities Infrastructures 2008-06-12 Digital
+      Humanities ...</strong> - Jun 5 ... Digital Humanities Infrastructures
+      Sigfrid Lundberg slu@kb.dk Digital .... Also McCarty's humanities
+      computing research infrastructure (or rather ..."</p>
+
+      <p>The machine is actually using a detagged incipit as the title, which
+      is what I think it uses for PDF. This is very far from the ideas in
+      <a href="http://www.w3.org/TR/grddl/">Gleaning Resource Descriptions
+      from Dialects of Languages (GRDDL)</a> where providers of documents
+      actually provide XSLT for the benefit of robots that could use that to
+      extract descriptions in RDF.</p>
+
+    </div>
+  </content>
+  <dc:date>2009</dc:date>
+  <category label="structuralwebdesign" term="Structural web design"/>
+  <updated>2009-07-11T21:51:48+01:00</updated>
+  <id>http://www.sigfrid-lundberg.se/entries/2009/07/client_side_xslt/</id>
+</entry><entry xmlns:dc="http://purl.org/dc/elements/1.1/">
+  <author>
+    <name>Sigfrid Lundberg</name>
+  </author>
+  <title>About this site</title>
+  <link href="/entries/2009/07/colophon/"/>
+  <summary>I'm a terrible nerd. To use software like content management
+  systems or blog software is unthinkable for me. There are many ways to build
+  a site like this. I have chosen one that maximizes the use of angle
+  brackets.</summary>
+  <content type="xhtml">
+    <div xmlns="http://www.w3.org/1999/xhtml">
+
+      <p>I'm a terrible nerd. To use software like content management systems
+      or blog software for building my web site is unthinkable for me.</p>
+
+      <p>I have a substantial collection of old stuff written for various
+      purposes in very different formats; it is a must to be able to integrate
+      that material into the site. Some of this material are hard-core XML
+      documents in text encoding initiative or docbook XML. There are also
+      documents in legacy formats, such as RTF and (GNU) troff. I'm still
+      using troff for production of new texts, usually via transform from XML
+      using XSLT. The more recent XML documents are using client side XSLT for
+      viewing.</p>
+
+      <p>This material is growing. I see it as an extension of my CV, but some
+      of it could be interesting for users since it is general documentation
+      for how to solve certain kinds of problems. I also wanted to seemlessly
+      integrate other, more lightweight, material. Like this article</p>
+
+      <h3>Requirements</h3>
+
+      <p>As I mentioned <a href="/entries/2009/06/why/">the other day</a>, I
+      wanted a new navigation system. There are two requirements on that: (i)
+      it should be easy to follow for users and (ii) the pages in it should be
+      good landing pages for search engines. I felt that there was a need for
+      more text that would generate hits in search engines without out being
+      irrelevant for users and misrepresent the content. Finally I wanted the
+      site to be somewhat like a blog. In spite of the improved look and feel
+      I also wanted that all the material already published on the site should
+      retain the current URIs.</p>
+
+      <p>The old site was just plain files, I did no scripting whatsoever on
+      that site. I couldn't, however, possibly manage a navigation system a
+      manually, so some scripting had to be involved in generating the
+      site.</p>
+
+      <h3>Metadata and XML processing</h3>
+
+      <p>To generate the navigation system, I have catalog all existing
+      'static' material. In particular I had to index manually using keywords
+      or "tags". I decided what material to include and wrote manually a
+      single monolithic metadata file in XML using using <a href="/entries/2009/06/atom/">the atom syndication format</a>.</p>
+
+      <p>Having this file it was easy to write a xslt tranform that generated
+      the browse by year and subject menues appearing in the left column on
+      most pages (that took 61 lines). Then there is another xslt transform
+      aggregating the title, summary and link data into menus, such as the one
+      in <a href="/subjects/xmlprocessing/">XML processing</a>. This took
+      about 200 lines of xslt.</p>
+
+      <p>Now, these two xslt scripts take into account only the older kind of
+      static material. I also wanted a new kind of bloggish 'dynamic'
+      material. I needed to integrate the two kinds of material in a single
+      structure. Just as I wrote the metadata for the older set of material in
+      Atom feed document, I write the bloggish kind of stuff in Atom entry
+      documents. They live in a file system <kbd>/entries</kbd> under the
+      document root.</p>
+
+      <p>To integrate the two I have a nifty little perl script that does two
+      things. It reads the Atom feed for the and parses it into a Document
+      Object Model (DOM) object. Then it traverses the <kbd>/entries</kbd>
+      file system, parses each entry. First it drops a transform into html of
+      each entry. The entry itself is entered into the global DOM, which is
+      finally printed into a complete Atom feed. This took 65 lines of perl
+      and 84 lines of xslt.</p>
+
+      <p>To get a blog style home page I had to sort the entire set inversely
+      in temporal order, print the most recent entry on the home page and
+      finally print a few pointers to more recent entries. These tasks took
+      another 250 lines of xslt. In addition I have a utility which generates
+      the <kbd>/entries</kbd> directories and prints a skeleton entry, which
+      generates another 100 lines of perl which generates the skeleton using
+      XML DOM.</p>
+
+      <p>It takes less than a second to rebuild the entire site. Before the
+      refurbishment, I used to copy all files to my server. In order to
+      implement incremental update, I've created a CVS repository on my
+      server. Now I check in everything using CVS after building and testing,
+      and then I publish my stuff by checking out on the. This will scale up
+      to a some thousand blog entries. Then I'll ingest my entries in Oracle
+      Berkeley DB XML and replace most xslt with XML Query.</p>
+
+      <p>Or I'll do that anyway, for the fun of it.</p>
+
+    </div>
+  </content>
+  <dc:date>2009</dc:date>
+  <category label="structuralwebdesign" term="Structural web design"/>
+  <category label="colophon" term="Colophon"/>
+  <updated>2009-07-06T18:16:27+01:00</updated>
+  <id>http://www.sigfrid-lundberg.se/entries/2009/07/colophon/</id>
+</entry><entry xmlns:dc="http://purl.org/dc/elements/1.1/">
+  <author>
+    <name>Sigfrid Lundberg</name>
+  </author>
+  <title>This is a dummy entry for technorati</title>
+  <link href="/entries/2009/07/technorati/"/>
+  <summary>uw5m38jba7
+  </summary>
+  <content type="xhtml">
+    <div xmlns="http://www.w3.org/1999/xhtml">
+uw5m38jba7
+    </div>
+  </content>
+  <dc:date>2009</dc:date>
+  <category label="structuralwebdesign" term="Structural web design"/>
+  <updated>2009-07-13T10:42:06+01:00</updated>
+  <id>http://www.sigfrid-lundberg.se/entries/2009/07/technorati/</id>
+</entry><entry xmlns:dc="http://purl.org/dc/elements/1.1/">
   <author>
     <name>Sigfrid Lundberg</name>
   </author>
@@ -716,76 +1546,76 @@
   same time be able to syndicate the material in other services adhering to
   different standards.</summary>
   <content type="xhtml">
-    <default:div xmlns="http://www.w3.org/1999/xhtml">
+    <div xmlns="http://www.w3.org/1999/xhtml">
 
-      <default:p>At the <default:a href="http://www.kb.dk/">Royal Library</default:a> we have been
+      <p>At the <a href="http://www.kb.dk/">Royal Library</a> we have been
       working with the building of an infrastructure for publishing of
       digitized material. It is collections of digital images, usually with
-      very little textual content to go with it.</default:p>
+      very little textual content to go with it.</p>
 
-      <default:p>The cataloging of the images has been made by library staff using the
-      image database system Cumulus from <default:a href="http://www.canto.com/">Canto</default:a>.  Cumulus is designed as digital
+      <p>The cataloging of the images has been made by library staff using the
+      image database system Cumulus from <a href="http://www.canto.com/">Canto</a>.  Cumulus is designed as digital
       asset management system for people within graphical industry. Canto is
       producing an advanced Web user interface, but it is rather poor as
       regards dissemination of the collections on the web. For example, images
       published that way never ever appear in Google Images. Syndication of
       our content has not been possible, since the system have been lacking
       any concept of standardized metadata, which is essential for all
-      collaboration between institutions in the library communities.</default:p>
+      collaboration between institutions in the library communities.</p>
 
     
-      <default:div style="float: left;margin-left:5px;margin-right:5px;">
-	<default:div style="height:350px;width:300px;">
-	  <default:a href="http://static.grazr.com/gzpanel.html?view=s&amp;file=http://www.kb.dk/opml_category_service/danmarksbilleder/?opml_mode=shallow&amp;subject=8">
-	    <default:img alt="Grazr" src="http://static.grazr.com/images/grazrbadge.png" style="border:none"/>
-	  </default:a>
-	  <default:script defer="defer" type="text/javascript" src="http://static.grazr.com/gzloader.js?view=s&amp;file=http://www.kb.dk/opml_category_service/danmarksbilleder/?opml_mode=shallow&amp;subject=8">
-	  </default:script>
-	</default:div>
-      </default:div>
+      <div style="float: left;margin-left:5px;margin-right:5px;">
+	<div style="height:350px;width:300px;">
+	  <a href="http://static.grazr.com/gzpanel.html?view=s&amp;file=http://www.kb.dk/opml_category_service/danmarksbilleder/?opml_mode=shallow&amp;subject=8">
+	    <img alt="Grazr" src="http://static.grazr.com/images/grazrbadge.png" style="border:none"/>
+	  </a>
+	  <script defer="defer" type="text/javascript" src="http://static.grazr.com/gzloader.js?view=s&amp;file=http://www.kb.dk/opml_category_service/danmarksbilleder/?opml_mode=shallow&amp;subject=8">
+	  </script>
+	</div>
+      </div>
 
-      <default:p>To take advantage of the relative ease of use for the people handling
+      <p>To take advantage of the relative ease of use for the people handling
       the images, but still be able to provide access to our collections on
       the Internet we have an entirely new web interface. For performace
-      reasons, we decided that it should <default:em>not</default:em> access the cumulus
+      reasons, we decided that it should <em>not</em> access the cumulus
       database directly, but a mirror in our Oracle DB. Furthermore we wanted
-      a REST XML web service layer.</default:p>
+      a REST XML web service layer.</p>
 
-      <default:p>The latter goal was achieved by using two syndication services, built
+      <p>The latter goal was achieved by using two syndication services, built
       on top of Oracle. The two services were written as JAVA servlets, and
-      supported Outline Processor Markup Language (<default:a href="http://web.archive.org/web/20071019150004/http://opml.org/">OPML</default:a>) and <default:a href="http://www.opensearch.org">OpenSearch</default:a>, together with RSS. The
+      supported Outline Processor Markup Language (<a href="http://web.archive.org/web/20071019150004/http://opml.org/">OPML</a>) and <a href="http://www.opensearch.org">OpenSearch</a>, together with RSS. The
       rationale for the latter choice of standard was that we wanted
       mainstream Internet Standards rather than typical library standards such
-      as <default:a href="http://www.loc.gov/standards/sru/">SRU</default:a>. OpenSearch is
-      promoted by <default:a href="http://a9.com">A9</default:a>, a subsidiary of <default:a href="http://www.amazon.com">Amazon</default:a> and there are at least pledges
-      of support from other big players such as Google and Yahoo.</default:p>
+      as <a href="http://www.loc.gov/standards/sru/">SRU</a>. OpenSearch is
+      promoted by <a href="http://a9.com">A9</a>, a subsidiary of <a href="http://www.amazon.com">Amazon</a> and there are at least pledges
+      of support from other big players such as Google and Yahoo.</p>
 
-      <default:p>OPML was not an as obvious choice. However, OpenSearch is basically a
+      <p>OPML was not an as obvious choice. However, OpenSearch is basically a
       Syndication protocol and as such OPML is a candidate since its most
       common usage is to provide subject structured access to feeds. An early
       version of the system is available on our web site, the first version
       was released for about a year ago. Our technology choices makes it
       stright forward to syndicate the content. The gadget on this page is an
       example of this. It is a gadget showing the OPML and RSS from the first
-      collection of images released in this way, <default:a href="http://www.kb.dk/images/billed/2008/maj/danmarksbilleder/">Danmarksbilleder</default:a>,
+      collection of images released in this way, <a href="http://www.kb.dk/images/billed/2008/maj/danmarksbilleder/">Danmarksbilleder</a>,
       a collection of historical images from a few Danish cities. The widget
-      itself is "The Original Feed Widget" a nifty thing coming from <default:a href="http://grazr.com">grazr.com</default:a>. You can make one of your own by
-      filling in the URI <default:a href="http://www.kb.dk/opml_category_service/danmarksbilleder/?opml_mode=shallow&amp;subject=8">http://www.kb.dk/opml_category_service/danmarksbilleder/?opml_mode=shallow&amp;subject=8</default:a>
-      in the form on grazr.com.</default:p>
+      itself is "The Original Feed Widget" a nifty thing coming from <a href="http://grazr.com">grazr.com</a>. You can make one of your own by
+      filling in the URI <a href="http://www.kb.dk/opml_category_service/danmarksbilleder/?opml_mode=shallow&amp;subject=8">http://www.kb.dk/opml_category_service/danmarksbilleder/?opml_mode=shallow&amp;subject=8</a>
+      in the form on grazr.com.</p>
 
-      <default:p>The use of truly simple de facto Internet standards is one
+      <p>The use of truly simple de facto Internet standards is one
       advantage. But we needed a way to build traditional web contents on top
-      of our two web services. Sites as <default:a href="http://www.kb.dk/images/billed/2008/maj/danmarksbilleder/">Danmarksbilleder</default:a>
-      mentioned above, and its "cousins" <default:a href="http://www.kb.dk/images/billed/2008/sep/kistebilleder/">Kistebilleder</default:a>,
-      <default:a href="http://www.kb.dk/images/billed/2008/sep/daellsvarehus/">Daells
-      varehus</default:a> and <default:a href="http://www.kb.dk/images/billed/2008/sep/partiprogrammer/">Partiprogrammer</default:a>. All
+      of our two web services. Sites as <a href="http://www.kb.dk/images/billed/2008/maj/danmarksbilleder/">Danmarksbilleder</a>
+      mentioned above, and its "cousins" <a href="http://www.kb.dk/images/billed/2008/sep/kistebilleder/">Kistebilleder</a>,
+      <a href="http://www.kb.dk/images/billed/2008/sep/daellsvarehus/">Daells
+      varehus</a> and <a href="http://www.kb.dk/images/billed/2008/sep/partiprogrammer/">Partiprogrammer</a>. All
       these are actually delivered by one single servlet, which is most
-      appropriately described as a mashup-engine.</default:p>
+      appropriately described as a mashup-engine.</p>
 
-      <default:p>The engine is written in-house, and supports multiple skins (as seen
-      in the examples above -- <default:a href="http://www.kb.dk/images/billed/2008/maj/danmarksbilleder/">Danmarksbilleder</default:a> differs from <default:a href="http://www.kb.dk/images/billed/2008/sep/kistebilleder/">Kistebilleder</default:a>).</default:p>
+      <p>The engine is written in-house, and supports multiple skins (as seen
+      in the examples above -- <a href="http://www.kb.dk/images/billed/2008/maj/danmarksbilleder/">Danmarksbilleder</a> differs from <a href="http://www.kb.dk/images/billed/2008/sep/kistebilleder/">Kistebilleder</a>).</p>
 
-      <default:p>In this application a skin is a XML document, which consists of the
+      <p>In this application a skin is a XML document, which consists of the
       lay-out for the html page (it is little more than the HTML). Appart from
       html tags it also contain &lt;kb:include/&gt; tags identified by they id
       attribute. Each kb:include tag corresponds to a REST XML web service and
@@ -793,128 +1623,26 @@
       reads the skin at initialization, and upon a request it retrieves the
       required OPML or RSS, transforms the content, pastes these fragments
       into the skin DOM tree and finally delivers the content to the
-      client.</default:p>
+      client.</p>
 
-      <default:p>The mashup engine is not very well written. I can do better. Also the
+      <p>The mashup engine is not very well written. I can do better. Also the
       current set of services requires an Oracle schema per collection
       disseminated which is wasteful. We've haven't got the time yet to fix
       the first problem, but the second problem is about to be solved since we
       have a second generation of web services in the pipe-line for release
       real soon. In this application we've just one single Oracle database for
       all editions served. I will give you a report on that one when it is
-      online.</default:p>
+      online.</p>
 
 
-    </default:div>
+    </div>
   </content>
   <dc:date>2009</dc:date>
   <category label="xmlprocessing" term="XML processing"/>
   <category label="colophon" term="Colophon"/>
   <updated>2009-07-09T18:44:44+01:00</updated>
   <id>http://www.sigfrid-lundberg.se/entries/2009/07/opml/</id>
-</entry><entry xmlns="http://www.w3.org/2005/Atom" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:default="http://www.w3.org/1999/xhtml">
-  <author>
-    <name>Sigfrid Lundberg</name>
-  </author>
-  <title>The predator rests on its prey</title>
-  <link href="/entries/2009/07/victory/"/>
-  <summary>I've seen this image before. An excavator has demolished a
-  building, and has then proudly been parked on top of the remnants.</summary>
-  <content type="xhtml">
-    <default:div xmlns="http://www.w3.org/1999/xhtml">
-      <default:div style="float: left;margin-left: 3px;margin-right:3px;">
-	<default:img src="http://www.sigfrid-lundberg.se/galleri/200907-200907/smaller/cimg1345.jpg" alt="an excavator on top of a demolished building"/>
-      </default:div>
-
-      <default:p>Is this <default:a href="http://en.wikipedia.org/wiki/Smaug">Smaug</default:a>
-      resting on a pile of gold? Or a predator resting after a victorius
-      battle with a powerful prey?</default:p>
-
-      <default:p>Obviously neither. But I've seen this image before. An excavator has
-      demolished a building, and has then proudly been parked on top of the
-      remnants. The building was a petrol station from the sixties. I'll not
-      miss it; it was an ugly building. The shop inside it was
-      poor. That's not the point.</default:p>
-
-      <default:p> The point is just <default:strong>why this gesture of aggression</default:strong>?
-      Why is the excavator always parked on top of the remnants? Is it a
-      gesture of triumph? Has the present once again earned a victory over the
-      past?  It is the choice of parking place which is the question.</default:p>
-
-    </default:div>
-  </content>
-  <dc:date>2009</dc:date>
-  <category label="essays" term="Essays"/>
-  <updated>2009-07-13T10:46:29+01:00</updated>
-  <id>http://www.sigfrid-lundberg.se/entries/2009/07/victory/</id>
-  <!--
-      $Id$
-  -->
-</entry><entry xmlns="http://www.w3.org/2005/Atom" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:default="http://www.w3.org/1999/xhtml">
-  <author>
-    <name>Sigfrid Lundberg</name>
-  </author>
-  <title>Why I love XSLT extension functions</title>
-  <link href="/entries/2009/07/xslt_extensions/"/>
-  <summary>xslt extensions allow you to define xpath functions and extension
-  elements. That makes it easy for you to perform tasks within xslt that are
-  just only theoretically possible to do.</summary>
-  <content type="xhtml">
-    <default:div xmlns="http://www.w3.org/1999/xhtml">
-
-      <default:p>I started learning XSLT eight years ago. At the time, it was a fresh
-      technology, and there was also intense discussions on the extensibility
-      of the language. Since then xslt 1.1 has disappeared down the drains,
-      xpath 2.0 &amp; xquery 1.0 appeared on the market. The former of these
-      has had a slow start. The latter, however, has gained acceptance,
-      however a bit reluctant.</default:p>
-
-      <default:p>The stuff I want to discuss here is the writing of extension
-      functions. This is regarded as an evil habit in some parts of the XML
-      processing communities, but it is supported by most implementations. It
-      is not to be recommended if you're producing a stand-alone application,
-      but in many cases you're xslt code is an integrated part of an
-      application. Most of my code is of this kind; in particular I'm writing
-      xslt for xalan running in a JAVA environment. Now, why should I refrain
-      from using regex, just because xalan does not support this package? I
-      cannot see why. And nobody would ask me to write ANSI SQL in spite of
-      the fact that we use Oracle.</default:p>
-
-      <default:p>Now, it has been proven mathematically that xslt is a <default:a href="http://www.ibm.com/developerworks/library/x-xalanextensions.html">Turing
-      complete</default:a> programming language. That means that it is possible to
-      program <default:strong>anything</default:strong> which is possible to program with such
-      a language. I.e., you have theoretically the same possibilities as in
-      JAVA and C++. That doesn't mean that it is practical do do so. It is, in
-      my view, much easier to traverse a XML tree in XSLT than in (say) JAVA,
-      whereas it is much easier to connect to a database or implement a XSLT
-      processor using a conventional programming language.</default:p>
-
-      <default:p>It is here the XSLT extension functions become really useful. You can
-      pass data from XSLT to your own functions written in your favourite
-      programming lanuguage. I use this for tasks like indexing XML
-      documents. When traversing a document, you select text and pass it to
-      you're function which pass it to your indexing API. One big advantage is
-      that the same software can index heterogenous collections of XML
-      documents just by using different XSLT scripts. They are easy to write
-      and you can a new document type without recompilation of you're indexing
-      software.</default:p>
-
-      <default:p>This ability of a fullblown functional programming language (mind
-      you, its Turing complete) to interface both with a host program and from
-      scripts inside it call other functions in other languages is
-      powerful. This, in combination that it is really good for what it is
-      designed for has made it an object for extreme affection from
-      me. Besides I'll return to examples of using XSLT for indexing complex
-      XML objects.</default:p>
-
-    </default:div>
-  </content>
-  <dc:date>2009</dc:date>
-  <category label="xmlprocessing" term="XML processing"/>
-  <updated>2009-07-21T18:01:19+01:00</updated>
-  <id>http://www.sigfrid-lundberg.se/entries/2009/07/xslt_extensions/</id>
-  <!-- $Id$ -->
-</entry><entry xmlns="http://www.w3.org/2005/Atom" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:default="http://www.w3.org/1999/xhtml">
+</entry><entry xmlns:dc="http://purl.org/dc/elements/1.1/">
   <author>
     <name>Sigfrid Lundberg</name>
   </author>
@@ -927,41 +1655,41 @@
   solution to your problems after a quarter of an hour in some video on
   YouTube. Now, how do we cope with this?</summary>
   <content type="xhtml">
-    <default:div xmlns="http://www.w3.org/1999/xhtml">
+    <div xmlns="http://www.w3.org/1999/xhtml">
 
-      <default:p>Many things in life can best be represented as trees. Indeed, life
+      <p>Many things in life can best be represented as trees. Indeed, life
       itself is a tree of various life forms. We have the animal and plant
       kingdoms, and these main categories are further sub-divided into phylae,
       classes, genera. The animal kingdom is divided into invertebrates and
       vertebrates. The latter include amphibians, reptiles, birds and
-      mammals. Human knowledge is also depicted as a tree.</default:p>
+      mammals. Human knowledge is also depicted as a tree.</p>
 
-      <default:p>A lot of other things are trees. Hence, philosophers, mathematicins
+      <p>A lot of other things are trees. Hence, philosophers, mathematicins
       and computer scientists have put quite an effort into the modelling
       stuff as trees. Within library &amp; information science we have used
       the term classification systems for centuries, I suppose, and more
       recently we have started to talk about ontologies and knowledge
       organization. There are a lot of theory and a several of standards in
-      this area. Systems like <default:a href="http://en.wikipedia.org/wiki/Topic_Maps">topic maps</default:a> (see also
-      <default:a href="http://www.topicmaps.org/">topicmaps.org</default:a>) and more recently
-      Simple Knowledge Organization System <default:a href="http://www.w3.org/2004/02/skos/">SKOS</default:a>) are available for those
-      who need a standard for knowledge organization.</default:p>
+      this area. Systems like <a href="http://en.wikipedia.org/wiki/Topic_Maps">topic maps</a> (see also
+      <a href="http://www.topicmaps.org/">topicmaps.org</a>) and more recently
+      Simple Knowledge Organization System <a href="http://www.w3.org/2004/02/skos/">SKOS</a>) are available for those
+      who need a standard for knowledge organization.</p>
 
-      <default:p>On a very down to earth level, I tend to think of controlled
+      <p>On a very down to earth level, I tend to think of controlled
       vocabularies as filters and navigators. The latter are trees and may
       contain many terms arranged into a tree of arbitrary depth. The filters
       are lists of controlled terms, which may be whereabout in the tree we
-      are. Think of Yahoo Directory. You can browse into <default:a href="http://dir.yahoo.com/Regional/Countries/Italy/Regions/Tuscany/">Tuscany</default:a>
+      are. Think of Yahoo Directory. You can browse into <a href="http://dir.yahoo.com/Regional/Countries/Italy/Regions/Tuscany/">Tuscany</a>
       and get a very long list of resources. Then there is a menu at the top
       where you can choose between "Business and Shopping", "Entertainment and
       Arts", "Recreation and Sports", "Travel and Transportation" and so
       forth. These are broader categorizations that apply to Firenze as well
       as Siena or New York city or any place you may want to visit. We in the
-      Web business call them <default:em>filters</default:em> or <default:em>facets</default:em>.</default:p>
+      Web business call them <em>filters</em> or <em>facets</em>.</p>
 
-      <default:h2>Recognizing and recalling</default:h2>
+      <h2>Recognizing and recalling</h2>
 
-      <default:p>From a user perspective, you have to take into account that there are
+      <p>From a user perspective, you have to take into account that there are
       two cognitive processes involved when using services which like Yahoo
       Directory employ navigators and filters. The first process is more
       fundamental, and is by nurture and possibly nature a part of the human
@@ -969,9 +1697,9 @@
       it. It's like distinguishing between a wasp and a bumble bee. On an
       evolutionary time-scale we've benefitted from being able to say, this is
       edible this is not, or this one has a sting and is likely to use
-      it. This is to recognize something when you see it.</default:p>
+      it. This is to recognize something when you see it.</p>
 
-      <default:p>The opposite is a much more difficult cognitive process: I want to
+      <p>The opposite is a much more difficult cognitive process: I want to
       know something about Tuscany: Ok, I then start by clicking on Italy. You
       have to connect Italy with Tuscany, not only recognize the word Tuscany
       when you see it. This makes it more difficult to find Tuscany given
@@ -980,37 +1708,37 @@
       "frogs are amphibians" and that "diabetes is an endocrinological
       disorder". On the other hand, to perform successful searching in Google
       is even more demanding, in spite of google suggest and spell checking
-      tools that have improved the search comfort for many users.</default:p>
+      tools that have improved the search comfort for many users.</p>
 
-      <default:h2>Ordered Hierarchies of Content Objects</default:h2>
+      <h2>Ordered Hierarchies of Content Objects</h2>
 
-      <default:p>There are structures that are inside a resource, and that require
+      <p>There are structures that are inside a resource, and that require
       navigation as well. As a first approximation we can assume that all
       digital resources, such as electronic books, are trees as well. In the
       theory of text this model is called OHCO (ordered hierarchy of content
       objects). That view has been questioned, and it is for instance claimed
-      that any ordinary text consists of many, <default:a href="http://www.stg.brown.edu/resources/stg/monographs/ohco.html">overlapping
-      hierarchies</default:a>. I just love overlapping hierarchies. They are great
-      fun.</default:p>
+      that any ordinary text consists of many, <a href="http://www.stg.brown.edu/resources/stg/monographs/ohco.html">overlapping
+      hierarchies</a>. I just love overlapping hierarchies. They are great
+      fun.</p>
 
-      <default:p>Anyway, if you search the scientific literature on the theory of
+      <p>Anyway, if you search the scientific literature on the theory of
       text, you'll find everything you want to know about post-structuralistic
       deconstruction of the OHCO model. Theoretically, I can understand the
-      problems. But for me they are purely academical.</default:p>
+      problems. But for me they are purely academical.</p>
 
-      <default:p>If you instead search Google books for some real content, <default:a href="http://books.google.com/books?spell=1&amp;q=nightingale+lark+balcony&amp;as_brr=1">nightingale
-      lark balcony</default:a> you'll find Romeo &amp; Juliet in her bed room. Scene V
-      in Act III of Romeo and Juliet, on page <default:a href="http://books.google.com/books?id=09qTVKsjwSwC&amp;lpg=PA190&amp;dq=nightingale%20lark%20balcony&amp;as_brr=1&amp;pg=PA189">189</default:a>,
+      <p>If you instead search Google books for some real content, <a href="http://books.google.com/books?spell=1&amp;q=nightingale+lark+balcony&amp;as_brr=1">nightingale
+      lark balcony</a> you'll find Romeo &amp; Juliet in her bed room. Scene V
+      in Act III of Romeo and Juliet, on page <a href="http://books.google.com/books?id=09qTVKsjwSwC&amp;lpg=PA190&amp;dq=nightingale%20lark%20balcony&amp;as_brr=1&amp;pg=PA189">189</a>,
 
-      <default:a href="http://books.google.com/books?id=H_EjAAAAMAAJ&amp;dq=nightingale%20lark%20balcony&amp;as_brr=1&amp;pg=PA160">160</default:a>
+      <a href="http://books.google.com/books?id=H_EjAAAAMAAJ&amp;dq=nightingale%20lark%20balcony&amp;as_brr=1&amp;pg=PA160">160</a>
       and a lot of other page numbers, dependent on which edition. In the
       world according to me, you may have a lot of hierarchies and they may
       overlap, and OHCO may be false. But if you want to be able to address
       content in a more clever way than the one chosen by Google books, then
       you cannot do without a content model that looks like, well, very much
-      like a tree.</default:p>
+      like a tree.</p>
 
-    </default:div>
+    </div>
   </content>
   <dc:date>2009</dc:date>
   <category label="structuralwebdesign" term="Structural web design"/>
@@ -1018,733 +1746,4 @@
   <updated>2009-07-21T17:10:49+01:00</updated>
   <id>http://www.sigfrid-lundberg.se/entries/2009/07/structure/</id>
   <!-- $Id$ -->
-</entry><entry xmlns="http://www.w3.org/2005/Atom" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:default="http://www.w3.org/1999/xhtml">
-  <author>
-    <name>Sigfrid Lundberg</name>
-  </author>
-  <title>This is a dummy entry for technorati</title>
-  <link href="/entries/2009/07/technorati/"/>
-  <summary>uw5m38jba7
-  </summary>
-  <content type="xhtml">
-    <default:div xmlns="http://www.w3.org/1999/xhtml">
-uw5m38jba7
-    </default:div>
-  </content>
-  <dc:date>2009</dc:date>
-  <category label="structuralwebdesign" term="Structural web design"/>
-  <updated>2009-07-13T10:42:06+01:00</updated>
-  <id>http://www.sigfrid-lundberg.se/entries/2009/07/technorati/</id>
-</entry><entry xmlns="http://www.w3.org/2005/Atom" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:default="http://www.w3.org/1999/xhtml">
-  <author>
-    <name>Sigfrid Lundberg</name>
-  </author>
-  <title>About this site</title>
-  <link href="/entries/2009/07/colophon/"/>
-  <summary>I'm a terrible nerd. To use software like content management
-  systems or blog software is unthinkable for me. There are many ways to build
-  a site like this. I have chosen one that maximizes the use of angle
-  brackets.</summary>
-  <content type="xhtml">
-    <default:div xmlns="http://www.w3.org/1999/xhtml">
-
-      <default:p>I'm a terrible nerd. To use software like content management systems
-      or blog software for building my web site is unthinkable for me.</default:p>
-
-      <default:p>I have a substantial collection of old stuff written for various
-      purposes in very different formats; it is a must to be able to integrate
-      that material into the site. Some of this material are hard-core XML
-      documents in text encoding initiative or docbook XML. There are also
-      documents in legacy formats, such as RTF and (GNU) troff. I'm still
-      using troff for production of new texts, usually via transform from XML
-      using XSLT. The more recent XML documents are using client side XSLT for
-      viewing.</default:p>
-
-      <default:p>This material is growing. I see it as an extension of my CV, but some
-      of it could be interesting for users since it is general documentation
-      for how to solve certain kinds of problems. I also wanted to seemlessly
-      integrate other, more lightweight, material. Like this article</default:p>
-
-      <default:h3>Requirements</default:h3>
-
-      <default:p>As I mentioned <default:a href="/entries/2009/06/why/">the other day</default:a>, I
-      wanted a new navigation system. There are two requirements on that: (i)
-      it should be easy to follow for users and (ii) the pages in it should be
-      good landing pages for search engines. I felt that there was a need for
-      more text that would generate hits in search engines without out being
-      irrelevant for users and misrepresent the content. Finally I wanted the
-      site to be somewhat like a blog. In spite of the improved look and feel
-      I also wanted that all the material already published on the site should
-      retain the current URIs.</default:p>
-
-      <default:p>The old site was just plain files, I did no scripting whatsoever on
-      that site. I couldn't, however, possibly manage a navigation system a
-      manually, so some scripting had to be involved in generating the
-      site.</default:p>
-
-      <default:h3>Metadata and XML processing</default:h3>
-
-      <default:p>To generate the navigation system, I have catalog all existing
-      'static' material. In particular I had to index manually using keywords
-      or "tags". I decided what material to include and wrote manually a
-      single monolithic metadata file in XML using using <default:a href="/entries/2009/06/atom/">the atom syndication format</default:a>.</default:p>
-
-      <default:p>Having this file it was easy to write a xslt tranform that generated
-      the browse by year and subject menues appearing in the left column on
-      most pages (that took 61 lines). Then there is another xslt transform
-      aggregating the title, summary and link data into menus, such as the one
-      in <default:a href="/subjects/xmlprocessing/">XML processing</default:a>. This took
-      about 200 lines of xslt.</default:p>
-
-      <default:p>Now, these two xslt scripts take into account only the older kind of
-      static material. I also wanted a new kind of bloggish 'dynamic'
-      material. I needed to integrate the two kinds of material in a single
-      structure. Just as I wrote the metadata for the older set of material in
-      Atom feed document, I write the bloggish kind of stuff in Atom entry
-      documents. They live in a file system <default:kbd>/entries</default:kbd> under the
-      document root.</default:p>
-
-      <default:p>To integrate the two I have a nifty little perl script that does two
-      things. It reads the Atom feed for the and parses it into a Document
-      Object Model (DOM) object. Then it traverses the <default:kbd>/entries</default:kbd>
-      file system, parses each entry. First it drops a transform into html of
-      each entry. The entry itself is entered into the global DOM, which is
-      finally printed into a complete Atom feed. This took 65 lines of perl
-      and 84 lines of xslt.</default:p>
-
-      <default:p>To get a blog style home page I had to sort the entire set inversely
-      in temporal order, print the most recent entry on the home page and
-      finally print a few pointers to more recent entries. These tasks took
-      another 250 lines of xslt. In addition I have a utility which generates
-      the <default:kbd>/entries</default:kbd> directories and prints a skeleton entry, which
-      generates another 100 lines of perl which generates the skeleton using
-      XML DOM.</default:p>
-
-      <default:p>It takes less than a second to rebuild the entire site. Before the
-      refurbishment, I used to copy all files to my server. In order to
-      implement incremental update, I've created a CVS repository on my
-      server. Now I check in everything using CVS after building and testing,
-      and then I publish my stuff by checking out on the. This will scale up
-      to a some thousand blog entries. Then I'll ingest my entries in Oracle
-      Berkeley DB XML and replace most xslt with XML Query.</default:p>
-
-      <default:p>Or I'll do that anyway, for the fun of it.</default:p>
-
-    </default:div>
-  </content>
-  <dc:date>2009</dc:date>
-  <category label="structuralwebdesign" term="Structural web design"/>
-  <category label="colophon" term="Colophon"/>
-  <updated>2009-07-06T18:16:27+01:00</updated>
-  <id>http://www.sigfrid-lundberg.se/entries/2009/07/colophon/</id>
-</entry><entry xmlns="http://www.w3.org/2005/Atom" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:default="http://www.w3.org/1999/xhtml">
-  <author>
-    <name>Sigfrid Lundberg</name>
-  </author>
-  <title>Will the research libraries play a role in e-science</title>
-  <link href="/entries/2009/07/escience/"/>
-  <summary>I was asked to participate in an e-science pilot project.  The work
-  in the project has been food for thought for me. Will libraries be a part of
-  a future eScience infrastructure?</summary>
-  <content type="xhtml">
-    <default:div xmlns="http://www.w3.org/1999/xhtml">
-      
-      <default:p>I was asked to participate in an e-science pilot project. The pilot
-      is directed towards social science, and its main goal is to find out
-      what we could do in the area. Should libraries play a role in a future
-      eScience infrastructure? If yes, what could we do for our patrons in
-      this area?</default:p>
-
-      <default:p>That the answer should be yes to the first question is obvious for
-      anyone responsible for the strategic development of any research library
-      around the globe, but the second question is clearly more difficult to
-      answer.</default:p>
-
-      <default:p>Libraries have, traditionally, been occupied with four activities:
-      They collect, preserve, organize and provide access to
-      information. Indeed a <default:a href="http://www.google.com/search?hl=en&amp;q=collect+preserve+organize+%22provide+access%22&amp;btnG=Search">search</default:a>
-      for these four terms in Google seem to yield a search very focussed on
-      mission statements for Northern American research libraries. <default:em>It
-      isn't farfetched to conclude that we could extend this role to include
-      research data in digital form</default:em></default:p>
-
-      <default:h2>A happy hypertextual symbiosis</default:h2>
-
-      <default:p>In my vision, our role may not end here. The task should involve an
-      infrastructure permitting the our existing information (published in the
-      form of books, journals and whatever) live in a happy hypertextual
-      symbiosis with the research data it is based on.</default:p>
-
-      <default:p>In this ecosystem of data and models scientists should be able to
-      combine old stuff in new ways just and continue building the human
-      knowledge by submitting new data. Every piece of data need to be
-      possible to address, for the purpose of annotation as well as for
-      retrieval. Every piece of data, any point in a diagram need an
-      identifier. And it has to be a URI.</default:p>
-
-      <default:p>No single organization will be able to afford to build the
-      infrastructure needed by any research community. The good news is that
-      no single organization need to build it. The web of data, which has to
-      be the eScience infrastructure, will almost certainly be the Worldwide
-      web. Nothing less, nothing more.</default:p>
-
-      <default:p>This is the vision of <default:a href="http://www.w3.org/DesignIssues/LinkedData.html">linked data</default:a>
-      and the semantic web, rephrased in the context of scientific
-      information.</default:p>
-
-      <default:p>By tradition libraries are aimed for some local community. In
-      particular, the are funded by some local authority for that
-      purpose. Hence they build collections suitable for that community.
-      This local focus is a problem when everything else is Worldwide.</default:p>
-
-
-      <default:p>The idea of the web of data as a foundation for an eScience is a good
-      idea, and most likely the only one that will work. Indeed it is so
-      obvious ones that any actor within the business of scientific
-      information are about to adopt it; publishers, learned societies and
-      libraries alike. However there are others that are interested. Google
-      eScience doesn't sound too exotic to me.</default:p>
-
-      <default:p>Google eScience is not a threat, per se. The web of data need data
-      feeds. We can provide that. The problem is our local scope, and in
-      particular the focus on a local community. But that boils down to the
-      local funding.</default:p>
-
-
-    </default:div>
-  </content>
-  <dc:date>2009</dc:date>
-  <category label="escience" term="eScience"/>
-  <updated>2009-07-15T14:53:45+01:00</updated>
-  <id>http://www.sigfrid-lundberg.se/entries/2009/07/escience/</id>
-</entry><entry xmlns="http://www.w3.org/2005/Atom" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:default="http://www.w3.org/1999/xhtml">
-  <author>
-    <name>Sigfrid Lundberg</name>
-  </author>
-  <title>On being an international commuter</title>
-  <link href="/entries/2009/07/commuting/"/>
-  <summary>The last four years I've spent more than two hours a day on
-  trains. And usually, but not always less than three. Furthermore, I go from
-  one nation to another and participate in the in the digital dissemination of
-  cultural heritage of a country which isn't my own.</summary>
-  <content type="xhtml">
-    <default:div xmlns="http://www.w3.org/1999/xhtml">
-
-      <default:p>In both Lund and Copenhagen there are a lot of people riding
-      bicycles. They behave very differently, however, and their
-      spatial distribution is different. In Copenhagen the riders have
-      a much more aggregated distribution. They ride at high speed in
-      squadrons, somewhat like Mongolian cavalry. Before their mounted
-      attacks on the pedestrians on H.C. Andersens Boulevard, their
-      prime target, the Copenhagen bicycle riders congregate at any of
-      the many traffic lights in the area.</default:p>
-
-      <default:p>In Lund, where the traffic lights are more scarce, there are
-      few natural meeting points. In Lund bicycle riders operate in
-      much smaller units, or solitarily. Great speed and bravery is
-      nevertheless needed, as Lund's bicycle riders are well known for
-      their suicidal attacks upon much larger four-wheeled
-      vehicles.</default:p>
-
-      <default:p>Normally I leave home and mount my bike ten past seven in the
-      morning. That gives me ample time to patrol the area between my
-      home and the railway station before I have to catch the 07.39
-      train from Lund to Copenhagen. Except for occasional encounters
-      with an increasing number of power walking young ladies, that
-      trip is uneventful. The power walkers stride along in a frenzy,
-      their eyes fixed on a point far way. Neither their faces nor
-      their eyes reveal any emotion whatsoever.  The don't seem to
-      like walking. I think that they are all in a hurry home for a
-      shower and a nice slow breakfast. What else could it be?</default:p>
-
-      <default:h2>A parking place</default:h2>
-
-      <default:img src="http://www.sigfrid-lundberg.se/galleri/200907-200907/smaller/cimg1352.jpg" style="margin-left:0.5em;float:left;margin-right:0.5em;" alt="Secure locking is essential"/>
-
-      <default:p>I have one serious problem. That is to find a secure parking
-      place for my bike at the railway station. A lot of people who
-      park there have lost their vehicles. There are stories about
-      thieves coming there with lorries, bringing loads of bicycles
-      for export to Poland. I've recently acquired a new bike, since
-      my previous one was stolen. Apart from finding a parking place,
-      the first temporal bottle-neck is to lock the thing. I've got
-      two solid locks, and try to park where I can use one of them for
-      locking the bike to the iron structure provided by the local
-      council for the benefit for of paranoid bicycle owners (see the
-      image).</default:p>
-
-      <default:p>That would describe the normal sequence of events, but right
-      now they replacing 12 kilometers of tracks. Hence the railway
-      which is normally double track is now running on half its normal
-      capacity. I could dwell on the inconveniences caused by this,
-      but I'll spare you that pain. The normal state of affairs is
-      that I after about an hour on the train. Right now it's more
-      often one and a half.</default:p>
-
-      <default:h2>Two cultures</default:h2>
-
-      <default:p>Swedes &amp; Danes are cousins. Both tribes are viking
-      grandchildren. So are off course the Icelanders and Norwegians, but it
-      is only the Icelanders who have kept their old language. The rest of us
-      has diverged, but still there has been some force that has kept us
-      together linguistically as well as culturally. I've been told that
-      people from Algeria cannot talk to people from Egypt, in spite of the
-      fact that they all speak Arabic. Now, I speak Swedish and my colleagues
-      all speak Danish. And we can all laugh at a good joke.</default:p>
-
-      <default:p>I won't say that language doesn't pose any problems, but none
-      we can't live with. One thing which is a problem, and that is
-      writing. My written Danish is a joke, like the speech of the
-      Swedish chef in the Muppet show. Collaborative writing is worst,
-      since that forces colleagues to translate my gibberish. I
-      usually write documentation in English, and everything else in
-      Swedish. Both will be understood.</default:p>
-
-      <default:p>Many Danes think that Swedes are formal, moralistic and more
-      prone to bureaucracy than Danes. In Sweden everything that make
-      life worth living, such as tobacco and alcohol, are either
-      prohibited or somehow controlled by the government. More
-      recently, we've also heard that we through some psychological
-      defence mechanism are inclined to deny any problems concerning
-      immigration and integration.</default:p>
-
-      <default:p>Many Swedes who have little personal experience of Denmark
-      actually believe that this is the case. All Swedish commuters
-      I've talked to about the cultural differences between Danes and
-      Swedes tell a story which is quite the opposite from the Danish
-      self image. The amount of bureaucracy is less in Sweden and the
-      Danish society is much more hierarchical. On the other hand, I
-      think it is true that we Swedes are a moralistic lot.</default:p>
-
-      <default:p>One thing that surpises me is our ever ongoing discussions on
-      responsibility. People say that "this is not our job" more often
-      than in Sweden. Delegation of responsibilities are much more
-      widespread in Sweden than in Denmark. As a consequence I think
-      that leaders in Denmark are extremely busy. We also have an
-      endless number of committes, which I think is a surrogate for
-      responsible people. That is, when no individual takes
-      responsibility, it has to be shared by a committe. Then, there
-      are a lot of problems that just cannot be solved by
-      individuals. But that is something else.</default:p>
-
-      <default:p>When I started my work, the new meeting culture was a
-      relief. In both countries there will be an agenda for a
-      meeting. The difference is that in Denmark we allocate a fixed
-      amount of time, and the meeting ends regardless we've been
-      through the agenda or not. It felt as if I had finally escaped
-      from the country of endless meetings. In fact, I had come to the
-      country of an endless number of meetings. If the Vatican had
-      been situated in Copenhagen, I doubt that they had ever been
-      able to elect a new pope. I honestly believe that that the total
-      amount spent on meeting is much larger in Danish
-      organizations. It is, sometimes, an advantage to lock in
-      committes and tell them that they'll get lunch when they
-      completed their task.</default:p>
-
-      <default:h2>Then comes the afternoon</default:h2>
-
-      <default:p>After seven hours and twentyfour minutes I'm free to return
-      to my home country. In Sweden we work eight hours, and that
-      excludes half an hour lunch, whereas you you may eat it within
-      your working hours in Denmark.
-      </default:p>
-      
-    </default:div>
-  </content>
-  <dc:date>2009</dc:date>
-  <category label="essays" term="Essays"/>
-  <updated>2009-07-21T21:57:20+01:00</updated>
-  <id>http://www.sigfrid-lundberg.se/entries/2009/07/commuting/</id>
-  <!-- $Id$ -->
-</entry><entry xmlns="http://www.w3.org/2005/Atom" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:default="http://www.w3.org/1999/xhtml">
-  <author>
-    <name>Sigfrid Lundberg</name>
-  </author>
-  <title>XML on the web, Client Side XSLT and Google</title>
-  <link href="/entries/2009/07/client_side_xslt/"/>
-  <summary>The market has forced the major browser manufacturers to converge
-  on standards. But why are the search engines lagging behind? Browsers are
-  capable of AJAX and advanced XML processing, but the search engines are
-  still basically just removing tags and presenting raw text extracts.</summary>
-  <content type="xhtml">
-    <default:div xmlns="http://www.w3.org/1999/xhtml">
-
-      <default:p>The market has forced the major browser manufacturers to converge on
-      standards. Microsoft cannot afford to produce a browser that won't work
-      on google apps, and the Linux based netbooks and netboxes make a
-      difference. If <default:a href="http://en.wikipedia.org/wiki/Software_as_a_service">software is a
-      service</default:a>, what is the client? Obviously the web client, the
-      browser. But why are the search engines lagging behind?  Browsers are
-      capable of AJAX and advanced XML processing, but the search engines are
-      still basically just removing tags and presenting raw text extracts.</default:p>
-
-      <default:p>I have quite a few documents on this site that are written in raw
-      XML, such as the <default:a href="/2008/dighum/digital_humanities.xml">Digital
-      Humanities Infrastructures</default:a> position paper from last year. Since it
-      is about digital humanities and text encoding, I wrote it in <default:a href="http://www.tei-c.org/">TEI</default:a> XML. The paper is presented using
-      client side XSLT. Just view source on that note, and you'll see my
-      markup. The document is a blatant show-off; it is written in nerdcore
-      vanity. At the top you'll see</default:p>
-
-      <default:pre>
-	&lt;?xml version="1.0" encoding="UTF-8" ?&gt;
-	&lt;?xml-stylesheet href="render.xsl" type="text/xsl" ?&gt;
-      </default:pre>
-
-      <default:p>The <default:kbd>xml-stylesheet</default:kbd> processing instruction is read by your
-      browsser, which then retrieves the stylesheet <default:a href="/2008/dighum/render.xsl">render.xsl</default:a>. Without any further ado
-      it is then transformed into html, rendered using the CSS indicated by my
-      XSLT script for you to read. You can even inspect the resulting html
-      using <default:a href="http://getfirebug.com/">firebug</default:a>, if you've got a
-      modern installation.</default:p>
-
-      <default:h2>What does Google do when indexing XML?</default:h2>
-
-      <default:p>There is almost certainly a range of XML formats that is actually
-      interpreted by Google. Which formats, well we don't know but in practice
-      can hardly expect anything more exotic than common syndication formats
-      (such as RSS and ATOM ), <default:a href="http://google.com/support/webmasters/bin/answer.py?hl=en&amp;answer=99170">microformats
-      and RDFa</default:a>. I have noticed that Google has been doing OAI harvesting
-      for many years, most likely for the benefit of <default:a href="http://scholar.google.com/">Scholar</default:a>.</default:p>
-
-      <default:p>One could envisage a number of viable indexing strategies for a
-      general search engine for a document like my Digital Infrastructure
-      Nerdcore Vanity paper. One would be to execute a global regex search and
-      replace "&lt;[^&gt;]+&gt;" with "" (which basically means: remove
-      anything between angle brackets, or remove all tags).</default:p>
-
-      <default:p>This would yield a "detagged incipit", which in this case is "Digital
-      Humanities Infrastructures 2008-06-12 Digital Humanities Infrastructures
-      Sigfrid Lundberg"</default:p> 
-
-      <default:p>Another strategy would be to use the style sheet provided by the nerd
-      publishing this paper. That would yield the "transformed incipit", which
-      for this document is (using the HTML body only) "Digital Humanities
-      Infrastructures Sigfrid Lundberg". In using the transform, Google would
-      then be able to use its usual HTML indexing techniques. For instance it
-      would understand the title, and be able parse all hypertext links.</default:p>
-
-      <default:p>I made the search <default:a href="http://www.google.com/search?hl=en&amp;q=digital+humanities+infrastructure+%2Blundberg&amp;btnG=Search">digital
-      humanities infrastructure +lundberg</default:a> and the results looks like
-      "<default:strong>Digital Humanities Infrastructures 2008-06-12 Digital
-      Humanities ...</default:strong> - Jun 5 ... Digital Humanities Infrastructures
-      Sigfrid Lundberg slu@kb.dk Digital .... Also McCarty's humanities
-      computing research infrastructure (or rather ..."</default:p>
-
-      <default:p>The machine is actually using a detagged incipit as the title, which
-      is what I think it uses for PDF. This is very far from the ideas in
-      <default:a href="http://www.w3.org/TR/grddl/">Gleaning Resource Descriptions
-      from Dialects of Languages (GRDDL)</default:a> where providers of documents
-      actually provide XSLT for the benefit of robots that could use that to
-      extract descriptions in RDF.</default:p>
-
-    </default:div>
-  </content>
-  <dc:date>2009</dc:date>
-  <category label="structuralwebdesign" term="Structural web design"/>
-  <updated>2009-07-11T21:51:48+01:00</updated>
-  <id>http://www.sigfrid-lundberg.se/entries/2009/07/client_side_xslt/</id>
-</entry><entry xmlns="http://www.w3.org/2005/Atom" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:default="http://www.w3.org/1999/xhtml">
-  <author>
-    <name>Sigfrid Lundberg</name>
-    <uri>http://www.sigfrid-lundberg.se/</uri>
-  </author>
-  <title>My first serious experience with ATOM</title>
-  <link href="/entries/2009/06/atom/"/>
-  <summary>You don't really understand a document format until you've manually
-  encoded some documents, and written the software to parse and use it for
-  something useful. This somewhat refurbished version of my web site is to a
-  large extent built upon the ATOM syndication format, and here I discuss my
-  experience.</summary>
-  <content type="xhtml">
-    <default:div xmlns="http://www.w3.org/1999/xhtml">
-
-      <default:p>The <default:a href="http://tools.ietf.org/html/rfc4287">ATOM syndication
-      format</default:a> has been around for almost five years. In comparison with the
-      diverse fauna kept in the menagerie abbreviated to the three character
-      acronym RSS, ATOM is a well kept standard and much more useful as
-      well.</default:p>
-
-      <default:p>Now, I've used ATOM before refurbishing my personal web site, but I
-      haven't used <default:em>seriously</default:em>. That is, I haven't manually encoded a
-      sizeable amount of text in it, validated the result, and then written
-      software using the data. ATOM is the fundament for this site, since the
-      used for generating the navigation system is encoded that way. I may
-      return to that later on.</default:p>
-
-      <default:h2>Designed for success</default:h2>
-
-      <default:p>Tim Bray lists and provide a thorough discussion of a number of
-      characteristics shared by successful mark-up languages (see his article
-      <default:a href="http://web.archive.org/web/20070126140434/www.idealliance.org/proceedings/xml05/ship/175/xml2005.HTML">On
-      Language Creation</default:a>). The list of success critera includes items such
-      as extensibility, clever but not too extensive use of XML name spaces,
-      the posibility of implementing the language using many, widely different,
-      datamodels. From Bray's perspective, ATOM seems designed for success. I
-      don't know the statistics concerning syndication format popularity, but
-      if ATOM isn't yet the leader, it will become sooner or later. Possibly
-      in RDF disguise.</default:p>
-
-      <default:p>From a modelling point of view there is a few, annoying
-      inconsistencies. Let us, for example, compare the <default:kbd>&lt;author&gt;</default:kbd>
-      element with the <default:kbd>&lt;title&gt;</default:kbd> element. A resource may have an
-      author, then the author may have a number of properties, such as a name,
-      an email address and a home page. The <default:kbd>author</default:kbd> for this note is
-      encoded as:</default:p>
-
-      <default:pre>
-  &lt;author&gt;
-    &lt;name&gt;Sigfrid Lundberg&lt;/name&gt;
-    &lt;uri&gt;http://www.sigfrid-lundberg.se/&lt;/uri&gt;
-  &lt;/author&gt;
-      </default:pre>
-
-      <default:p>This is, in my view, a sign of good content modelling when it comes
-      to metadata. A resource may have a title. A title may have different
-      components, for example main title and sub-title. The main and sub parts
-      are properties of the title, not of the resource. The authors of the
-      ATOM spec did not see that way. A feed may have both. This is annoying
-      for semantic puristic nerd like me. Entries, however, may not have
-      sub-titles at all, which in my view is an inconsistency as well.</default:p>
-
-      <default:p>The biggest flaw is the encoding of category data. A resource belongs
-      to a category, i.e., this membership is a property of the resource. The
-      category may have an identifier and a name, and this name is different
-      depending to language. However, ATOM forces me to use the following
-      construct</default:p>
-
-      <default:pre>
-  &lt;category xml:lang="en" label="structuralwebdesign" term="Structural web design" /&gt;
-  &lt;category xml:lang="sv" label="structuralwebdesign" term="Structural web design" /&gt;
-      </default:pre>
-
-      <default:p>which in my view is less than excellent. I would have preferred
-      something like</default:p>
-
-      <default:pre>
-  &lt;category label="structuralwebdesign"&gt;
-    &lt;name xml:lang="en"&gt;Structural web design&lt;/name&gt;
-    &lt;name xml:lang="sv"&gt;Strukturell webbdesign&lt;/name&gt;
-  &lt;/category&gt;
-      </default:pre>
-
-      <default:p>These are shortcomings, but I can live with them. But expect changes
-      in this area. The semantic web is here already, and with <default:a href="http://www.w3.org/2004/02/skos/">SKOS</default:a> becoming a de facto
-      standard on the internet, the syntactic communities will have to come up
-      with something more clever for categorization of syndicated web
-      resources.</default:p>
-
-    </default:div>
-  </content>
-  <dc:date>2009</dc:date>
-  <category label="structuralwebdesign" term="Structural web design"/>
-  <category term="Metadata" label="metadata"/>
-  <updated>2009-06-27T17:35:00+01:00</updated>
-  <id>http://www.sigfrid-lundberg.se/entries/2009/06/atom/</id>
-</entry><entry xmlns="http://www.w3.org/2005/Atom" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:default="http://www.w3.org/1999/xhtml">
-  <author>
-    <name>Sigfrid Lundberg</name>
-  </author>
-  <title>Why do I keep this site?</title>
-  <link href="/entries/2009/06/why/"/>
-  <summary>Having had a web site for about 15 years, I start to wonder why I
-  keep it in the first place.</summary>
-  <content type="xhtml">
-    <default:div xmlns="http://www.w3.org/1999/xhtml">
-
-      <default:p>A week or two ago I registered this site with Google Analytics. My
-      Internet supply provider's statics is virtually useless. Then I've spent
-      quite some time cutting and pasting the javascript into my olde
-      stuff.</default:p>
-
-      <default:p>I haven't cared about this site for about four years and as far as I
-      can tell now, this place is hit by a one or two people per day, each of
-      which stay less than a minute. Why they come I don't know, and Google
-      Analytics won't tell me yet.</default:p>
-
-      <default:p>Now, I didn't expect anything else. I use the site as a store for old
-      documentation, of which just a few things could possibly be valuable for
-      students of Internet history. Most likely, though, they hardly even
-      deserve a footnote in the posterity.</default:p>
-
-      <default:h3>The origins</default:h3>
-
-      <default:p>I started this site autumn 1995. The oldest documents still in the
-      public collection is from <default:a href="/1996">1996</default:a>. Now, started isn't
-      really the right word. I never <default:em>planned</default:em> to build a web site
-      with old documents. Basically, I started a web server on a development
-      machine and devoted an area for project documentation and reports. I
-      could then drop a piece of text there and send the URI to my colleagues
-      or customers. That is how it started.</default:p>
-
-      <default:p>This worked well to begin with, but about five years later the
-      rudimentary structure per project was lost. I then made a backup copy,
-      and created a structure year, and copied stuff from the old site into
-      it. This is the way it is now.</default:p>
-
-      <default:p>I started the current site <default:a href="/2005">2005</default:a>, when I left Lund
-      university for a new job in Copenhagen. I felt that I just couldn't let
-      this material just disappear.</default:p>
-
-      <default:p>The site contains quite a few archived files. Counting them gives 241
-      HTML files, 21 pdf, 84 xml and so forth. Of these I regard 37 as
-      publications of some kind, in the sense that there are links to them
-      that may be reached from the home page. It is still just a sample, the
-      raw collection contains 2452 HTML files.</default:p>
-
-      <default:p>I have no idea if I have benefited from the site, or if the material
-      has been useful for someone else. For a few years, notably <default:a href="/2002">2002</default:a>, <default:a href="/2003">2003</default:a> and <default:a href="/2004">2004</default:a>, I did have an idea that I should make an active
-      effort to maintain a web site. Some of the best texts are from that
-      period.</default:p>
-
-      <default:h3>Publish or let it perish?</default:h3>
-
-      <default:p>I earn my livelihood as a developer for the Worldwide Web. But this
-      site is not a part of what I do for my living. So, should I have it
-      available here or let it perish?</default:p>
-
-      <default:p>I pay my ISP 250 SEK per month for this, which include a Linux shell
-      prompt available via secure shell and some storage. The storage side of
-      it is no big deal; I have already a number of USB hard disks around. I
-      have also <default:kbd>*.zip</default:kbd> and <default:kbd>*.tar.gz</default:kbd> files as attachment
-      on my gmail account, which provides huge storage and good value for
-      money in comparison with what I get from my ISP. But then, 250 SEK is no
-      big deal either.</default:p>
-
-      <default:p>So I'll keep it, for the time being. I don't think my stuff
-      contribute very much to the digital refuse spread over the net. I've
-      added an <default:a href="http://tools.ietf.org/html/rfc4287">ATOM syndication
-      feed</default:a> for the garbage I decided to keep, a subject browsing based on
-      the ATOM categories. Finally I've added some texts from the last few
-      years. These are basically of the same kind as the rest of my
-      stuff. Reports and papers written for some specific purpose and
-      republished here entirely out of context.</default:p>
-
-    </default:div>
-  </content>
-  <dc:date>2009</dc:date>
-  <category label="structuralwebdesign" term="Structural web design"/>
-  <updated>2009-06-27T12:18:00+01:00</updated>
-  <id>http://www.sigfrid-lundberg.se/feed/why.xml</id>
-</entry><entry xmlns="http://www.w3.org/2005/Atom" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:default="http://www.w3.org/1999/xhtml">
-  <author>
-    <name>Sigfrid Lundberg</name>
-  </author>
-  <title>Min mor</title>
-  <link href="/entries/2009/06/mor/"/>
-  <summary>Min mor var 43 år gammal när hon födde mig 1956. Alltså föddes hon
-  själv 1913, året innan första världskriget bröt ut. Nu är hon 96, och lever,
-  som hon säger, på lånad tid. Tid, det är något som hon tar på största
-  allvar. Vi talas vid per telefon varje dag. Hon ringer 20.10, nästan
-  exakt. Det blir alltid ett trevligt samtal.</summary>
-  <content type="xhtml">
-    <default:div xmlns="http://www.w3.org/1999/xhtml">
-
-      <default:p>Min mor var 43 år gammal när hon födde mig 1956. Alltså föddes hon
-      själv 1913, året innan första världskriget bröt ut. Nu är hon 96, och
-      lever, som hon säger, på lånad tid. Tid, det är något som hon tar på
-      största allvar. Vi talas vid per telefon varje dag. Hon ringer 20.10,
-      nästan exakt. Det blir alltid ett trevligt samtal.</default:p>
-      
-      <default:p style="margin-left:0.5em;float:left;">
-	<default:img src="http://www.sigfrid-lundberg.se/galleri/200902-200904/smaller/cimg1150.jpg" alt="Mor i dörrent"/>
-      </default:p>
-
-      <default:p>När det är dags att säga godnatt, återkomer hon ständigt till att man
-      måste vara tacksam för varje dag som gått, och att "i morgon är det en
-      ny dag". Visst har Mor rätt! Det är faktiskt inte är självklart att man
-      får leva hela nästa dag. Har man hunnit med ett långt liv, så är man
-      mer medveten om den saken än vad vi, yngre människor, är.</default:p>
-
-      <default:p>Jag tänker på det ibland, att hon har varit med om en stor del av
-      1900-talet, och hur hon kan tala om arbetslösheten på 30-talet, om
-      Krügerkraschen 1931. Då var hon en fager ung kvinna 18 år gammal. Mor
-      har varit folkpensionär under i princip hela mitt yrkesverksamma liv,
-      hon föddes innan ryska revolutionen och lever faktiskt fortfarande.  Hon
-      arbetar fortfarande i trädgården. "Ni behöver inte vara rädda, jag kan
-      inte trilla när jag sitter på marken," berättade hon nyligen.</default:p>
-
-      <default:p>I mars i år fick hon höra på radion om SEBs nyemission nu i mars
-      månad tog hon rollatorn ner till Handelsbanken. Som folkpensionär tjänar
-      hon 7000 kronor i månaden, så för att köpa de femhundra hennes innehav
-      berättigade henne till, fick hon höja sin checkkontokredit. Vi fick 200
-      aktier var, jag och min bror. Det var för sina barns skull hon köpte
-      aktierna på lånade pengar.</default:p>
-
-      <default:h2>En ny påminnelse om vår dödlighet</default:h2>
-
-      <default:p>I dag när vi talades vid berättade hon om gravstenen. Min far dog i
-      september i fjol 93 år och tre månader gammal, men det är först nu som
-      vi fått gravstenen på plats, och Mor är lycklig för det. Den är i lite
-      mer äldre stil, hög och smal, inte så där bred och låg som många
-      gravstenar är numera. Jag har inte sett den själv ännu, men mor säger
-      att den är vacker. Huggen i grå granit från Östra Göinge, i trakten
-      kring Glimåkra, där Far växte upp. Texten är i Garamond, stilen som Far
-      tyckte bäst om, jämte Berling Antikva. Far var boktryckare och vi har
-      nog åtskilliga hundra kilo Berling Antikva i källaren efter honom.</default:p>
-
-      <default:p>Mor ser illa. Hon har både grå starr och gula fläcken och kan inte
-      läsa inte tidningen längre. Men lyssnar hon på radio det gör hon. Jag
-      tror att hon sitter där i köket och lyssnar mest hela dagen. Inte missar
-      hon en nyhetssänding om hon kan undvika det. Ekot och i synnerhet
-      ekonomiekot är viktigt. Radioföljetongen och radioteatern är hennes enda
-      intag av skönlitteratur nuförtiden.</default:p>
-
-      <default:p>Mor började skolan 1920. Det var inte så ovanligt på den tiden att
-      flickornas utbildning försummades på bekostnad av gossarnas. För hennes
-      del blev det aldrig mer än sexårig folkskola. Istället läste hon in
-      nästan stora delar av en gymnasiekompetens på KOMvux mot slutet av
-      60-talet och början av 70-talet. Det blev dock inte moderna språk eller
-      matematik, för det var hennes förkunskaper för klena.</default:p>
-
-      <default:p>Dagligen diskuterar vi utvecklingen i världen, och hon berättar annat
-      som hon har hört på radion. Mor har stor tillit till att Barack Obama
-      och hoppas på fred i mellersta östern. Nu senast har hon talat en del om
-      PO Enquists som går som radioföljetong just nu, med författaren själv
-      som uppläsare.</default:p>
-
-      <default:h2>En kopp kaffe</default:h2>
-
-      <default:p>Vi åker hem till mor var eller varannan helg, jag och min bror. Vi
-      byts om för att hon skall få besök oftare.</default:p>
-
-      <default:p>När jag är hos henne äter vi lunch tillsammans. Sedan lyssnar vi på
-      lunchekot medan vi tar en kopp kaffe på maten. Sedan stänger vi av
-      radion och går igenom posten, mest fönsterkuvert. Nästan varje gång ber
-      hon mig att läsa jag högt ur tidningen. Börsnoteringarna för hennes
-      aktier och dödsannonserna måste jag läsa varje gång vi träffas.</default:p>
-
-      <default:p>Så är det i livet. När man är ung funderar man kanske inte så mycket
-      över det, men det är ju så att man umgås väldigt mycket med människor
-      som är som man själv är. Unga umgås med unga, småbarnsfamiljer med
-      varandra och de diskuterar barn. När man kommer upp i medelåldern
-      diskuterar man barn, barnbarn och sjuka föräldrar. När blir gammal
-      gammal läser man dödsannonserna. När man är så gammal som Mor är det
-      få kvar av hennes vänner att läsa om där.</default:p>
-
-      <default:p>Efter kaffet språkar om allt möjligt. Ofta går vi en promenad, men
-      oftast tycker hon bättre att gå uppför än nerför. Rollatorn rullar för
-      fort och det är lätt att hon inte hinner med den i nerförsbacke.</default:p>
-
-      <default:p>Mor tycker om poesi. Hon kan en hel massa dikter och psalmverser
-      utantill som hon gärnar citerar när det passar. Hon har tränat yoga
-      sedan hon fyllde 60, och hon tränar varje dag. Jag tror också att hon
-      dagligen läser alla de dikter och psalmer hon kan utantill, och i
-      synnerhet JO Wallins:</default:p>
-
-      <default:blockquote>
-	<default:em>Ack, när så mycket skönt i varje åder<default:br/>
-	av skapelsen och livet sig förråder,<default:br/>
-	hur skön då måste själva källan vara,<default:br/>
-	den evigt klara</default:em>
-      </default:blockquote>
-
-      <default:p>Fast hon kan minst fem verser till.</default:p>
-
-    </default:div>
-  </content>
-  <dc:date>2009</dc:date>
-  <category label="essays" term="Essays"/>
-  <updated>2009-06-28T23:33:00+01:00</updated>
-  <id>http://www.sigfrid-lundberg.se/entries/2009/06/mor/</id>
 </entry></feed>

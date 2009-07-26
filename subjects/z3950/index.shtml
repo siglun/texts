@@ -15,17 +15,17 @@
     Denmark, Finland, Sweden, Norway and Iceland.<br/><a href="/subjects/webindexing/">Web indexing</a>,
 	<a href="/subjects/harvesting/">Harvesting</a>,
 	<a href="/subjects/metadata/">Metadata</a>,
-	<a href="/subjects/z3950/">Z39.50</a></p><p><strong><a href="/1998">1998</a>: </strong><a href="/1998/safari/cris.pdf"><em>En arkitektur för ett distribuerat system för spridning av
-    forskningsinformation</em></a><br/>Arkitekturen för ett nätverk av tjänster för spridning av
-    forskningsinformation beskrivs. Nätverket tillåter distribuerat underhåll
-    av såväl data som metadata. Till nätverket kan anslutas såväl
+	<a href="/subjects/z3950/">Z39.50</a></p><p><strong><a href="/1998">1998</a>: </strong><a href="/1998/safari/cris.pdf"><em>En arkitektur fÃ¶r ett distribuerat system fÃ¶r spridning av
+    forskningsinformation</em></a><br/>Arkitekturen fÃ¶r ett nÃ¤tverk av tjÃ¤nster fÃ¶r spridning av
+    forskningsinformation beskrivs. NÃ¤tverket tillÃ¥ter distribuerat underhÃ¥ll
+    av sÃ¥vÃ¤l data som metadata. Till nÃ¤tverket kan anslutas sÃ¥vÃ¤l
     bibliografiska databaser som helt WWWbaserade metadataberikade
-    tjänster. Metadataproduktionen följer standarden Dublin Core. De förra
-    typerna av tjänster inkorporeras i nätverket genom interoperabilitet på
-    sökprotokollsnivå, medan metadata och fulltext från de senare göres
-    sökbara genom en WWWrobot.  Kommunikation inom nätverket utnyttjar
-    standardiserade Internet protokoll som HTTP, och för
-    informationsåtervinning Z39.50<br/><a href="/subjects/webindexing/">Web indexing</a>,
+    tjÃ¤nster. Metadataproduktionen fÃ¶ljer standarden Dublin Core. De fÃ¶rra
+    typerna av tjÃ¤nster inkorporeras i nÃ¤tverket genom interoperabilitet pÃ¥
+    sÃ¶kprotokollsnivÃ¥, medan metadata och fulltext frÃ¥n de senare gÃ¶res
+    sÃ¶kbara genom en WWWrobot.  Kommunikation inom nÃ¤tverket utnyttjar
+    standardiserade Internet protokoll som HTTP, och fÃ¶r
+    informationsÃ¥tervinning Z39.50<br/><a href="/subjects/webindexing/">Web indexing</a>,
 	<a href="/subjects/harvesting/">Harvesting</a>,
 	<a href="/subjects/metadata/">Metadata</a>,
 	<a href="/subjects/z3950/">Z39.50</a></p><p><strong><a href="/1998">1998</a>: </strong><a href="/1998/www7/"><em>A regional distributed WWW search and indexing service - the DESIRE

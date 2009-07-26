@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <html xmlns="http://www.w3.org/1999/xhtml"><head><title>Text encoding: Sigfrid Lundberg's Stuff
 	    </title><meta http-equiv="Content-Type" content="text/html;charset=UTF-8"/><script src="/js/navigation.js" type="text/javascript"> 
-	      </script><meta http-equiv="Content-Type" content="text/html;charset=UTF-8"/><link rel="stylesheet" href="/css-style/html.css"/></head><body><div class="left_box"><div style="text-align:left;width=90%;"><!--#include virtual="/div_top_left_box.xml" --></div><div style="text-align:left;width=90%;"><p><a href="/">Home</a><br/></p><p><a href="/files.atom" type="application/atom+xml" class="feed-link"><img src="/images/Newsfeed-Atom.png" alt="Subscribe to Stuff from Sigfrid Lundberg" border="0"/> Subscribe to more Stuff</a></p><!--#include virtual="/subjects.xml" --><!--#include virtual="/me.xml" --></div></div><div class="right_box"><h1 style="width: 58%; float: left;text-align: left">Text encoding</h1><p style="width: 38%; float: left;text-align: right"><em><strong>Sigfrid Lundberg's Stuff</strong></em></p><div style="clear:both;"> </div><div style="width:100%;"><p><strong><a href="/2008">2008</a>: </strong><a href="/2008/clarin_adl/"><em>ADL i CLARIN-DK WP5</em></a><br/>En presentation jag höll om Arkiv før dansk litteratur (ADL)<br/><a href="/subjects/xmlprocessing/">XML processing</a>,
+	      </script><meta http-equiv="Content-Type" content="text/html;charset=UTF-8"/><link rel="stylesheet" href="/css-style/html.css"/></head><body><div class="left_box"><div style="text-align:left;width=90%;"><!--#include virtual="/div_top_left_box.xml" --></div><div style="text-align:left;width=90%;"><p><a href="/">Home</a><br/></p><p><a href="/files.atom" type="application/atom+xml" class="feed-link"><img src="/images/Newsfeed-Atom.png" alt="Subscribe to Stuff from Sigfrid Lundberg" border="0"/> Subscribe to more Stuff</a></p><!--#include virtual="/subjects.xml" --><!--#include virtual="/me.xml" --></div></div><div class="right_box"><h1 style="width: 58%; float: left;text-align: left">Text encoding</h1><p style="width: 38%; float: left;text-align: right"><em><strong>Sigfrid Lundberg's Stuff</strong></em></p><div style="clear:both;"> </div><div style="width:100%;"><p><strong><a href="/2008">2008</a>: </strong><a href="/2008/clarin_adl/"><em>ADL i CLARIN-DK WP5</em></a><br/>En presentation jag hÃ¶ll om Arkiv fÃ¸r dansk litteratur (ADL)<br/><a href="/subjects/xmlprocessing/">XML processing</a>,
 	<a href="/subjects/textencoding/">Text encoding</a>,
 	<a href="/subjects/ehumanities/">Digital humanities</a>,
 	<a href="/subjects/musiclanglit/">Music, language &amp; literature</a></p><p><strong><a href="/2008">2008</a>: </strong><a href="/2008/dighum/digital_humanities.xml"><em>Digital Humanities Infrastructures</em></a><br/>This note discusses different initiatives as regards providing
@@ -28,14 +28,14 @@
 	<a href="/subjects/textencoding/">Text encoding</a>,
 	<a href="/subjects/metadata/">Metadata</a>,
 	<a href="/subjects/ehumanities/">Digital humanities</a>,
-	<a href="/subjects/digitization/">Digitization</a></p><p><strong><a href="/2002">2002</a>: </strong><a href="/2003/XMLforLibrarians/"><em>XML -- en mjuk start för biblioteksfolk Mitt ständigt ofärdiga
-    undervisningsmaterial (...och en del annat)</em></a><br/>Denna text syftar till att ge en överblick över vissa områden av
-    det digitala biblioteksområdet vilka är stadda i snabb utveckling. En
-    utveckling som i hög grad katalyseras av utvecklingen av olika
-    tillämpningar av eXtensible Markup Language, XML, som i år fyller fem år.
-    Utöver användningen av XML inom det digitala biblioteksväsendet ges en
-    överblick över modernt tänkande när det gäller metadata, hur XML kan
-    tänkas påverka hur vi tar del av, och hanterar elektroniska texter både i
+	<a href="/subjects/digitization/">Digitization</a></p><p><strong><a href="/2002">2002</a>: </strong><a href="/2003/XMLforLibrarians/"><em>XML -- en mjuk start fÃ¶r biblioteksfolk Mitt stÃ¤ndigt ofÃ¤rdiga
+    undervisningsmaterial (...och en del annat)</em></a><br/>Denna text syftar till att ge en Ã¶verblick Ã¶ver vissa omrÃ¥den av
+    det digitala biblioteksomrÃ¥det vilka Ã¤r stadda i snabb utveckling. En
+    utveckling som i hÃ¶g grad katalyseras av utvecklingen av olika
+    tillÃ¤mpningar av eXtensible Markup Language, XML, som i Ã¥r fyller fem Ã¥r.
+    UtÃ¶ver anvÃ¤ndningen av XML inom det digitala biblioteksvÃ¤sendet ges en
+    Ã¶verblick Ã¶ver modernt tÃ¤nkande nÃ¤r det gÃ¤ller metadata, hur XML kan
+    tÃ¤nkas pÃ¥verka hur vi tar del av, och hanterar elektroniska texter bÃ¥de i
     form av digitalt bevarande och publicering av t ex
     forskningsrapporter.<br/><a href="/subjects/xmlprocessing/">XML processing</a>,
 	<a href="/subjects/textencoding/">Text encoding</a>,
