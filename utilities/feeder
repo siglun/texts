@@ -61,5 +61,6 @@ while(my $entryFile = <$find>) {
     my $element = $entry->documentElement();
     $feed->appendChild($element);
 }
-
+close $find;
+binmode STDOUT,':utf8';
 print $dom->toString();
