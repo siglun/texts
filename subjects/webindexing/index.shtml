@@ -4,7 +4,7 @@
 	      </script><meta http-equiv="Content-Type" content="text/html;charset=UTF-8"/><link rel="stylesheet" href="/css-style/html.css"/></head><body><div class="left_box"><div style="text-align:left;width=90%;"><!--#include virtual="/div_top_left_box.xml" --></div><div style="text-align:left;width=90%;"><p><a href="/">Home</a><br/></p><p><a href="/files.atom" type="application/atom+xml" class="feed-link"><img src="/images/Newsfeed-Atom.png" alt="Subscribe to Stuff from Sigfrid Lundberg" border="0"/> Subscribe to more Stuff</a></p><!--#include virtual="/subjects.xml" --><!--#include virtual="/me.xml" --></div></div><div class="right_box"><h1 style="width: 58%; float: left;text-align: left">Web indexing</h1><p style="width: 38%; float: left;text-align: right"><em><strong>Sigfrid Lundberg's Stuff</strong></em></p><div style="clear:both;"> </div><div style="width:100%;"><p><strong><a href="/2007">2007</a>: </strong><a href="/2007/search-statistics/user-expectations.html"><em>What do our users expect from the search field on our top
     page?</em></a><br/>What can deduced by analyses of the search terms entered into the
     search field on the home page of a large modern library? Could we possibly
-    regard this form as the digital libraryÂ´s information desk, and the
+    regard this form as the digital library´s information desk, and the
     queries as the request from its patrons? If we do that, what could we then
     learn about the quality of service?  In this note we do just that. We
     regard the terms entered into the form as manifestation of our patrons
@@ -46,17 +46,17 @@
     Denmark, Finland, Sweden, Norway and Iceland.<br/><a href="/subjects/webindexing/">Web indexing</a>,
 	<a href="/subjects/harvesting/">Harvesting</a>,
 	<a href="/subjects/metadata/">Metadata</a>,
-	<a href="/subjects/z3950/">Z39.50</a></p><p><strong><a href="/1998">1998</a>: </strong><a href="/1998/safari/cris.pdf"><em>En arkitektur fÃ¶r ett distribuerat system fÃ¶r spridning av
-    forskningsinformation</em></a><br/>Arkitekturen fÃ¶r ett nÃ¤tverk av tjÃ¤nster fÃ¶r spridning av
-    forskningsinformation beskrivs. NÃ¤tverket tillÃ¥ter distribuerat underhÃ¥ll
-    av sÃ¥vÃ¤l data som metadata. Till nÃ¤tverket kan anslutas sÃ¥vÃ¤l
+	<a href="/subjects/z3950/">Z39.50</a></p><p><strong><a href="/1998">1998</a>: </strong><a href="/1998/safari/cris.pdf"><em>En arkitektur för ett distribuerat system för spridning av
+    forskningsinformation</em></a><br/>Arkitekturen för ett nätverk av tjänster för spridning av
+    forskningsinformation beskrivs. Nätverket tillåter distribuerat underhåll
+    av såväl data som metadata. Till nätverket kan anslutas såväl
     bibliografiska databaser som helt WWWbaserade metadataberikade
-    tjÃ¤nster. Metadataproduktionen fÃ¶ljer standarden Dublin Core. De fÃ¶rra
-    typerna av tjÃ¤nster inkorporeras i nÃ¤tverket genom interoperabilitet pÃ¥
-    sÃ¶kprotokollsnivÃ¥, medan metadata och fulltext frÃ¥n de senare gÃ¶res
-    sÃ¶kbara genom en WWWrobot.  Kommunikation inom nÃ¤tverket utnyttjar
-    standardiserade Internet protokoll som HTTP, och fÃ¶r
-    informationsÃ¥tervinning Z39.50<br/><a href="/subjects/webindexing/">Web indexing</a>,
+    tjänster. Metadataproduktionen följer standarden Dublin Core. De förra
+    typerna av tjänster inkorporeras i nätverket genom interoperabilitet på
+    sökprotokollsnivå, medan metadata och fulltext från de senare göres
+    sökbara genom en WWWrobot.  Kommunikation inom nätverket utnyttjar
+    standardiserade Internet protokoll som HTTP, och för
+    informationsåtervinning Z39.50<br/><a href="/subjects/webindexing/">Web indexing</a>,
 	<a href="/subjects/harvesting/">Harvesting</a>,
 	<a href="/subjects/metadata/">Metadata</a>,
 	<a href="/subjects/z3950/">Z39.50</a></p><p><strong><a href="/1998">1998</a>: </strong><a href="/1998/www7/"><em>A regional distributed WWW search and indexing service - the DESIRE
@@ -83,8 +83,8 @@
     authorities. The Swedish Enviro-Net lived for a few years at the end of
     1990ties.<br/><a href="/subjects/webindexing/">Web indexing</a>,
 	<a href="/subjects/metadata/">Metadata</a>,
-	<a href="/subjects/z3950/">Z39.50</a></p><p><strong><a href="/1996">1996</a>: </strong><a href="/1996/nwi/press_release.html"><em>NWI â En nordisk sÃ¶ktjÃ¤nst fÃ¶r World Wide Web</em></a><br/>Ett konsortium av nordiska forskningsbibliotek och nÃ¤tverksorgan
-    presenterar Nordiskt Webindex, en nordisk sÃ¶ktjÃ¤nst utvecklad i norden fÃ¶r
-    en nordisk publik. I dag finns en experimentell tjÃ¤nst offentligt
-    tillgÃ¤nglig pÃ¥ nÃ¤tet pÃ¥ URL http://nwi.ub2.lu.se.<br/><a href="/subjects/webindexing/">Web indexing</a>,
+	<a href="/subjects/z3950/">Z39.50</a></p><p><strong><a href="/1996">1996</a>: </strong><a href="/1996/nwi/press_release.html"><em>NWI — En nordisk söktjänst för World Wide Web</em></a><br/>Ett konsortium av nordiska forskningsbibliotek och nätverksorgan
+    presenterar Nordiskt Webindex, en nordisk söktjänst utvecklad i norden för
+    en nordisk publik. I dag finns en experimentell tjänst offentligt
+    tillgänglig på nätet på URL http://nwi.ub2.lu.se.<br/><a href="/subjects/webindexing/">Web indexing</a>,
 	<a href="/subjects/harvesting/">Harvesting</a></p></div></div><!--#include virtual="/js/urchin.js" --></body></html>

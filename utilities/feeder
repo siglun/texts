@@ -50,17 +50,16 @@ while(my $entryFile = <$find>) {
     $entryFile =~ m|(.+?)/([^/]+)$|;
     my $directory = $1;
     open my($h), $entryFile;
-    binmode $h;
     my $entry = $parser->parse_fh($h);
     close $h;
     my $results = $stylesheet->transform($entry);
     open my $out, ">$directory/index.shtml";
-    binmode $out; 
+    binmode $out,':raw'; 
     $results->toFH($out);
     close $out;
     my $element = $entry->documentElement();
     $feed->appendChild($element);
 }
 close $find;
-binmode STDOUT,':utf8';
+binmode STDOUT,':raw';
 print $dom->toString();
