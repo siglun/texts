@@ -25,8 +25,8 @@
       haven't used <em>seriously</em>. That is, I haven't manually encoded a
       sizeable amount of text in it, validated the result, and then written
       software using the data. ATOM is the fundament for this site, since the
-      used for generating the navigation system is encoded that way. I may
-      return to that later on.</p>
+      data used for generating the navigation system is encoded that way. I
+      may return to that later on.</p>
 
       <h2>Designed for success</h2>
 
@@ -72,7 +72,7 @@
 
       <pre>
   &lt;category xml:lang="en" label="structuralwebdesign" term="Structural web design" />
-  &lt;category xml:lang="sv" label="structuralwebdesign" term="Structural web design" />
+  &lt;category xml:lang="sv" label="structuralwebdesign" term="Structurell webbdesign" />
       </pre>
 
       <p>which in my view is less than excellent. I would have preferred

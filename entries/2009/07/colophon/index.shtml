@@ -82,9 +82,10 @@
       refurbishment, I used to copy all files to my server. In order to
       implement incremental update, I've created a CVS repository on my
       server. Now I check in everything using CVS after building and testing,
-      and then I publish my stuff by checking out on the. This will scale up
-      to a some thousand blog entries. Then I'll ingest my entries in Oracle
-      Berkeley DB XML and replace most xslt with XML Query.</p>
+      and then I publish my stuff by checking out in the servers document
+      root. This will scale up to a some thousand blog entries. Then I'll
+      ingest my entries in Oracle Berkeley DB XML and replace most xslt with
+      XML Query.</p>
 
       <p>Or I'll do that anyway, for the fun of it.</p>
 

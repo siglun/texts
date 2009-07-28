@@ -738,7 +738,7 @@
 
       <p>This worked well to begin with, but about five years later the
       rudimentary structure per project was lost. I then made a backup copy,
-      and created a structure year, and copied stuff from the old site into
+      and created a structure by year, and copied stuff from the old site into
       it. This is the way it is now.</p>
 
       <p>I started the current site <a href="/2005">2005</a>, when I left Lund
@@ -931,8 +931,8 @@
       haven't used <em>seriously</em>. That is, I haven't manually encoded a
       sizeable amount of text in it, validated the result, and then written
       software using the data. ATOM is the fundament for this site, since the
-      used for generating the navigation system is encoded that way. I may
-      return to that later on.</p>
+      data used for generating the navigation system is encoded that way. I
+      may return to that later on.</p>
 
       <h2>Designed for success</h2>
 
@@ -977,7 +977,7 @@
 
       <pre>
   &lt;category xml:lang="en" label="structuralwebdesign" term="Structural web design" /&gt;
-  &lt;category xml:lang="sv" label="structuralwebdesign" term="Structural web design" /&gt;
+  &lt;category xml:lang="sv" label="structuralwebdesign" term="Structurell webbdesign" /&gt;
       </pre>
 
       <p>which in my view is less than excellent. I would have preferred
@@ -1532,9 +1532,10 @@
       refurbishment, I used to copy all files to my server. In order to
       implement incremental update, I've created a CVS repository on my
       server. Now I check in everything using CVS after building and testing,
-      and then I publish my stuff by checking out on the. This will scale up
-      to a some thousand blog entries. Then I'll ingest my entries in Oracle
-      Berkeley DB XML and replace most xslt with XML Query.</p>
+      and then I publish my stuff by checking out in the servers document
+      root. This will scale up to a some thousand blog entries. Then I'll
+      ingest my entries in Oracle Berkeley DB XML and replace most xslt with
+      XML Query.</p>
 
       <p>Or I'll do that anyway, for the fun of it.</p>
 
@@ -1555,7 +1556,7 @@
   </summary>
   <content type="xhtml">
     <div xmlns="http://www.w3.org/1999/xhtml">
-uw5m38jba7
+a9upm6xnr2
     </div>
   </content>
   <dc:date>2009</dc:date>
@@ -1701,7 +1702,7 @@ uw5m38jba7
       stuff as trees. Within library &amp; information science we have used
       the term classification systems for centuries, I suppose, and more
       recently we have started to talk about ontologies and knowledge
-      organization. There are a lot of theory and a several of standards in
+      organization. There are a lot of theory and a plethora of standards in
       this area. Systems like <a href="http://en.wikipedia.org/wiki/Topic_Maps">topic maps</a> (see also
       <a href="http://www.topicmaps.org/">topicmaps.org</a>) and more recently
       Simple Knowledge Organization System <a href="http://www.w3.org/2004/02/skos/">SKOS</a>) are available for those
