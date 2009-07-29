@@ -32,6 +32,8 @@ my $base_uri    = 'http://www.sigfrid-lundberg.se';
 my $directory   = '';
 my $entry       = '';
 my $create      = '';
+my $hide        = '';
+my $publish     = '';
 my $update      = '';
 
 # Get options from command line
@@ -40,6 +42,8 @@ my $result = GetOptions ("entry=s"     => \$entry,
 			 "base_uri=s"  => \$base_uri,
 			 "template=s"  => \$template,
 			 "create"      => \$create,
+			 "hide"        => \$hide,
+			 "publish"     => \$publish,
 			 "update=s"    => \$update);
 
 # Trimming directory
@@ -129,7 +133,7 @@ if(!$update) {
 print STDERR "$entry_file\n";
 
 open my $out, ">$entry_file";
-binmode $out; 
+binmode $out,':raw'; 
 $doc->toFH($out);
 close $out;
 
@@ -174,6 +178,9 @@ END
 
 #
 # $Log$
+# Revision 1.7  2009/07/29 06:25:08  sigfrid
+# no comments
+#
 # Revision 1.6  2009/07/22 14:56:01  sigfrid
 # no comments
 #
