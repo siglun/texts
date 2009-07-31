@@ -5,52 +5,53 @@ $Id$
 */
 
 body {
-	color: black;
-	background-color: white;
-	font-size: 100%;
-	font-weight: normal;
-	margin-top: 3%;
-	margin-left: 4%;
-	margin-bottom:2%;
-	text-align:center;
+    font-family: sans-serif;
+    color: black;
+    background-color: white;
+    font-size: 100%;
+    font-weight: normal;
+    margin-top: 3%;
+    margin-left: 4%;
+    margin-bottom:2%;
+    text-align:center;
 }
 
 blockquote.abstract {
-	font-size: 80%;
-	text-align: left;
-	background-color: white;
+    font-size: 80%;
+    text-align: left;
+    background-color: white;
 }
 
 div.box {
-	background-color: white;
-	border-top: solid thin;
-	border-left: solid thin;
+    background-color: white;
+    border-top: solid thin;
+    border-left: solid thin;
 }
 
 hr {
-width: 500px;
+    width: 500px;
 }
 
 div {
-	text-align: left;
-	margin-left:  0%;
-	margin-right: 0%;
-	background-color: white;
+    text-align: left;
+    margin-left:  0%;
+    margin-right: 0%;
+    background-color: white;
 }
 
 p {
-	text-align: left;
-	margin-left:  1%;
-	margin-right: 1%;
-	background-color: white;
+    text-align: left;
+    margin-left:  1%;
+    margin-right: 1%;
+    background-color: white;
 }
 
 p.right, div.right {
-	font-size: 90%;
-	text-align: right;
-	margin-left:  +2%;
-	margin-right: +2%;
-	background-color: white;
+    font-size: 90%;
+    text-align: right;
+    margin-left:  +2%;
+    margin-right: +2%;
+    background-color: white;
 }
 
 img.right { float: right;}
@@ -59,15 +60,15 @@ img.left { float: left;}
 
 
 div.indented {
-	text-align: left;
-	margin-left:  +50%;
-	margin-right: +2%;
-	background-color: white;
+    text-align: left;
+    margin-left:  +50%;
+    margin-right: +2%;
+    background-color: white;
 }
 
 
 blockquote {
-	background-color: white;
+    background-color: white;
 }
 
 ul, dl, ol {
@@ -94,16 +95,16 @@ div.left_box li {
 }
 
 pre {
-	font-family: courier;
-	font-size: 85%;
-	margin-left:  +1%;
+    font-family: courier;
+    font-size: 85%;
+    margin-left:  +1%;
 }
 
 
 pre.display {
-	font-family: courier;
-	font-size: 85%;
-	margin-left:  +2%;
+    font-family: courier;
+    font-size: 85%;
+    margin-left:  +2%;
 }
 
 p {
@@ -111,225 +112,225 @@ p {
 }
 
 p.author {
-	font-style: italic;
-	text-align: center;
-	background-color: white;
+    font-style: italic;
+    text-align: center;
+    background-color: white;
 }
 
 
 p.verse {
-	margin-left: +8%;
-	text-align: left;
+    margin-left: +8%;
+    text-align: left;
 }
 
 p.speech {
-	margin-left: +8%;
+    margin-left: +8%;
 }
 p.speech:first-line {
-	margin-left: -4%;
+    margin-left: -4%;
 }
 
 span.speaker {
-        font-variant: small-caps;
+    font-variant: small-caps;
 }
 
 
 h1.title {
-	font-size: 120%;
-	font-weight: bold;
-	font-family: sans-serif;
-	text-align: center;
-	background-color: white;
-	margin-left:  +1%;
-	margin-right: +1%;
+    font-size: 120%;
+    font-weight: bold;
+    font-family: sans-serif;
+    text-align: center;
+    background-color: white;
+    margin-left:  +1%;
+    margin-right: +1%;
 }
 
 .level1 {
-	background-color: white;
+    background-color: white;
 }
 
 .level2 {
-	background-color: white;
+    background-color: white;
 }
 
 h1 {
-	font-size: 120%;
-	font-weight: bold;
-	background-color: white;
-	margin-left:  +1%;
-	margin-right: +1%;
+    font-size: 120%;
+    font-weight: bold;
+    background-color: white;
+    margin-left:  +1%;
+    margin-right: +1%;
 }
 
 h2 {
-	font-family: sans-serif;
-	font-size: 115%;
-	font-weight: bold;
-	background-color: white;
-	margin-left:  +1%;
-	margin-right: +1%;
+    font-family: sans-serif;
+    font-size: 115%;
+    font-weight: bold;
+    background-color: white;
+    margin-left:  +1%;
+    margin-right: +1%;
 }
 
 h3, h4 {
-	font-family: sans-serif;
-	font-size: 100%;
-	font-weight: bold;
-	background-color: white;
-	margin-left:  +1%;
-	margin-right: +1%;
+    font-family: sans-serif;
+    font-size: 100%;
+    font-weight: bold;
+    background-color: white;
+    margin-left:  +1%;
+    margin-right: +1%;
 }
 
 table {
-	text-align: left;
-	width: 80%;
-	color: black;
-	background-color: #DDDDDD;
-	font-size: 90%;
-	margin-left: +1%;
-	vertical-align: top;
+    text-align: left;
+    width: 80%;
+    color: black;
+    background-color: #DDDDDD;
+    font-size: 90%;
+    margin-left: +1%;
+    vertical-align: top;
 }
 
 tbody {
-	background-color: white;
+    background-color: white;
 }
 
 
 caption {
-	text-align: center;
-	color: black;
-	background-color: #DDDDDD;
-	font-weight: bold;
-	font-size: 90%;
-	vertical-align: top;
-	margin-left: +5%;
-	border-top: solid thin;
-	border-bottom: none;
-	border-right: none;
-	border-left: none;
+    text-align: center;
+    color: black;
+    background-color: #DDDDDD;
+    font-weight: bold;
+    font-size: 90%;
+    vertical-align: top;
+    margin-left: +5%;
+    border-top: solid thin;
+    border-bottom: none;
+    border-right: none;
+    border-left: none;
 }
 
 td {
-	text-align: left;
-	color: black;
-	background-color: white;
-	font-size: 90%;
-	vertical-align: top;
-	border-top: solid thin;
-	border-bottom: none;
-	border-right: none;
-	border-left: solid thin;
+    text-align: left;
+    color: black;
+    background-color: white;
+    font-size: 90%;
+    vertical-align: top;
+    border-top: solid thin;
+    border-bottom: none;
+    border-right: none;
+    border-left: solid thin;
 }
 
 th {
-	text-align: left;
-	color: black;
-	background-color: #DDDDDD;
-	font-size: 90%;
-	vertical-align: top;
+    text-align: left;
+    color: black;
+    background-color: #DDDDDD;
+    font-size: 90%;
+    vertical-align: top;
 }
 
 table.navigation {
-	text-align: center;
-	color: black;
-	background-color: white;
-	font-size: 90%;
-	vertical-align: top;
-	margin-left: 10%;
-	margin-right:10%;
+    text-align: center;
+    color: black;
+    background-color: white;
+    font-size: 90%;
+    vertical-align: top;
+    margin-left: 10%;
+    margin-right:10%;
 }
 
 table.news {
-	text-align: center;
-	color: black;
-	background-color: white;
-	font-size: 90%;
-	font-family: "Times New Roman",Times;
-	vertical-align: top;
-	margin-left: 1%;
-	margin-right:1%;
-	border-top: none;
-	border-bottom: none;
-	border-right: none;
-	border-left: none;
+    text-align: center;
+    color: black;
+    background-color: white;
+    font-size: 90%;
+    font-family: "Times New Roman",Times;
+    vertical-align: top;
+    margin-left: 1%;
+    margin-right:1%;
+    border-top: none;
+    border-bottom: none;
+    border-right: none;
+    border-left: none;
 }
 
 
 td.left {
-	text-align: left;
-	color: black;
-	background-color: white;
-	vertical-align: top;
-	border: none;
+    text-align: left;
+    color: black;
+    background-color: white;
+    vertical-align: top;
+    border: none;
 }
 
 th.left {
-	text-align: left;
-	color: black;
-	background-color: white;
-	vertical-align: top;
-	border: none;
-	font-weight: bold;
+    text-align: left;
+    color: black;
+    background-color: white;
+    vertical-align: top;
+    border: none;
+    font-weight: bold;
 }
 
 th.left-property {
-	width: 20%;
-	text-align: left;
-	color: black;
-	background-color: white;
-	vertical-align: top;
-	border: none;
-	font-weight: bold;
+    width: 20%;
+    text-align: left;
+    color: black;
+    background-color: white;
+    vertical-align: top;
+    border: none;
+    font-weight: bold;
 }
 
 
 th.center {
-	text-align: center;
-	color: black;
-	background-color: white;
-	vertical-align: top;
-	border:none;
-	background-color: white;
-	font-weight: bold;
+    text-align: center;
+    color: black;
+    background-color: white;
+    vertical-align: top;
+    border:none;
+    background-color: white;
+    font-weight: bold;
 }
 
 td.center {
-	text-align: center;
-	color: black;
-	background-color: white;
-	vertical-align: top;
-	border:none;
-	background-color: white;
+    text-align: center;
+    color: black;
+    background-color: white;
+    vertical-align: top;
+    border:none;
+    background-color: white;
 }
 
 th.right {
-	text-align: right;
-	color: black;
-	background-color: white;
-	vertical-align: top;
-	border:none;
-	background-color: white;
-	font-weight: bold;
+    text-align: right;
+    color: black;
+    background-color: white;
+    vertical-align: top;
+    border:none;
+    background-color: white;
+    font-weight: bold;
 }
 
 td.right {
-	text-align: right;
-	color: black;
-	background-color: white;
-	vertical-align: top;
-	border:none;
-	background-color: white;
+    text-align: right;
+    color: black;
+    background-color: white;
+    vertical-align: top;
+    border:none;
+    background-color: white;
 }
 
 
 a:active {
-	color: #660000;
+    color: #660000;
 }
 
 a:link {
-	color: #000066;
+    color: #000066;
 }
 
 a:visited {
-	color: #660000;
+    color: #660000;
 }
 
 
