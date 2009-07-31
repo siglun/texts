@@ -11,41 +11,44 @@
   <author>
     <name>Sigfrid Lundberg</name>
   </author>
-  <title>What makes a site a blog?</title>
+  <title>What does free mean for libraries</title>
   <link href="http://sigfrid-lundberg.se/entries/2009/07/blogging/"/>
   <summary>Blogging is out, and the new trend is to tweet in
-  Twitters. Syndication is out as well, since Google steals your
-  content</summary>
+  Twitters. Syndication is out as well, since Google steals your content and
+  you cannot make money on journalism. How can we survive when all media are
+  free?</summary>
   <content type="xhtml">
     <div xmlns="http://www.w3.org/1999/xhtml">
 
-      <p>Chris Anderson's new book has finally appeared. The new one,
+      <p>Chris Anderson's book has finally appeared. The new one,
       <em>Free</em>, much discussed already before it was printed, and, off
       course, much hyped in the Wired magazin.</p>
 
-      <p>How is this related to blogging? Well... I'd say: just about
-      everything. Blog and wiki software were the first easy to really take
-      advantage of the at the time new medium based on hypertext, a simple
-      protocol and a global network. Blogs and wikis take advantage of this,
-      and through additions such as syndication and pings (notifications that
-      new content has appeared) and automatic cross-linking (based on pings)
-      to enable discussions across blogs, it goes beyond hypertext. It creates
-      a new medium which uses HTTP transaction to create human
-      interaction.</p>
+      <p>How is this related to the situation for libraries? Well... I'd say:
+      in just about any way you may imagine. However, let me start at an
+      entirely different angle. Blog and wiki software were at the time
+      the first easy ways to really take advantage of the new medium based on
+      hypertext, a simple protocol and a global network. Through additions
+      such as syndication and pings (notifications that new content have
+      appeared) and automatic cross-linking (based on pings) to enable
+      discussions across blogs, it goes beyond hypertext.</p>
+
+      <p>This gave us basically new medium which using HTTP transaction
+      creates human interaction.</p>
 
       <p>When a blog really takes off, the traffic generated is enough for
       letting the ads pay your rent and buy milk for your kids. Obviously some
       quality is required or it won't take off in the first place. That is
       what gives the attention needed for the transactions to take place.</p>
 
-      <p>Blogging is cheap. You write about what's around you and what you
-      know about. You benefit from from the transaction and attention economy
-      which feeds the Internet. Syndication, aggregation, mashups and
-      harvesting will move you're content around, and you'll actually mostly
-      benefit from it. On the other hand, much of the user's navigation will
-      take place elsewhere, and many user's will not be exposed to your ads
-      but Google's.  This lead to Jakob Nielsen's out-cry where he labelled
-      them as <a href="http://www.useit.com/alertbox/search_engines.html">leeches</a>
+      <p>Blogging is cheap. You write about what's around you that you
+      know. You benefit from from the transaction and attention economy which
+      feeds the Internet. Syndication, aggregation, mashups and harvesting
+      will move you're content around, and you'll mostly benefit from it.</p>
+
+      <p>On the other hand, much of the user's navigation will take place
+      elsewhere, and many user's will not be exposed to your ads but Google's.
+      This lead to Jakob Nielsen's out-cry where he labelled them as <a href="http://www.useit.com/alertbox/search_engines.html">leeches</a>
       already a few years ago.</p>
 
       <p><a href="http://www.nybooks.com/authors/71">Michael Massing</a>
@@ -61,8 +64,9 @@
       host.</em></blockquote>
 
       <p>There is a problem deep in this statement. It assumes that there
-      would be no news unless the more traditional media is there. We can be
-      almost certain that this is not the case. Massing continues:</p>
+      would be no news without the traditional media. Since the traditional
+      media are on the decline, We can be almost certain that this is not the
+      case. Massing continues:</p>
 
       <blockquote>... <em>such statements seem as outdated as they are
       defensive. Over the past few months alone, a remarkable amount of
@@ -73,18 +77,38 @@
       of news. And unless the editors and executives at our top papers begin
       to take note, they will hasten their own demise.</em></blockquote>
 
-      <p>Do we really need these big media institutions? I'd say we could do
-      without them. The notion that we cannot get proper information from
-      distant places without having expensive foreign correspondents
-      travelling there seems extremely arrogant to me. This is not to say that
-      we don't need journalism. Indeed we do, but one which has adapted to the
-      medium. One which is part of the transaction &amp; interaction based
-      technology and economy which is the basis for the new media.</p>
+      <p>Do we really need these big media institutions? What use do we have
+      for Reuters, CNN, AFP etc. They are good to have, but I'd say we could
+      do without them. For example, the notion that we cannot get proper
+      information from distant places without having expensive foreign
+      correspondents travelling there seems extremely arrogant to me, on the
+      verge of being racist.</p>
+
+      <p>This is not to say that we don't need journalism. Indeed we do. But
+      as Massing states, it is currently reinventing itself on the Internet. A
+      new one which has adapted itself to the medium. One which is part of the
+      transaction &amp; interaction based technology and economy.</p>
+
+      <p>Now, let us return to <em>The Library</em>.</p>
+
+      <p>The business model <em>The Library</em> is based upon the idea that
+      it will save money to share media. It started with scholars sharing
+      papyrus scrolls two thousand years ago. Continued with libraries within
+      monastic societies during the middle age, where books were extremely
+      valuable assets. Then, today, we're licensing electronic material... The
+      marginal cost for producing one additional copy is <em>zero</em>. Hence
+      in the end, the price will end up to be really cheap.</p>
+
+      <p>Who will fund the acquisition of free resources. The library as we
+      know it is as dependent on that we can save money by sharing valuable
+      information objects. A collection of codices for the monastic society,
+      or a campus license for electronic journals.</p>
 
     </div>
   </content>
   <dc:date>2009</dc:date>
   <category label="media" term="Media"/>
+  <category label="thelibrary" term="The Library"/>
   <category label="internet" term="Internet"/>
   <updated>2009-07-31T18:30:14+01:00</updated>
   <published>2009-07-31T07:48:53+01:00</published>

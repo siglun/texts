@@ -5,7 +5,7 @@ $Id$
 */
 
 body {
-    font-family: sans-serif;
+    font-family: serif;
     color: black;
     background-color: white;
     font-size: 100%;
@@ -15,6 +15,7 @@ body {
     margin-bottom:2%;
     text-align:center;
 }
+
 
 blockquote.abstract {
     font-size: 80%;
