@@ -21,7 +21,7 @@
   <xsl:template match="/f:feed">
     <div>
       <div>
-	<h1 style="width: 58%; float: left;text-align: leftt">
+	<h1 style="width: 58%; float: left;text-align: left;">
 	  <xsl:value-of 
 	      select="f:entry[not(f:category/@label = 'aboutme')][1]/f:title"/>
 	</h1>
