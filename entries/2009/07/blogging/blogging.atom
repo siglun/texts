@@ -3,7 +3,7 @@
   <author>
     <name>Sigfrid Lundberg</name>
   </author>
-  <title>What does free mean for libraries</title>
+  <title>What does Free mean for libraries</title>
   <link href="/entries/2009/07/blogging/"/>
   <summary>Blogging is out, and the new trend is to tweet in
   Twitters. Syndication is out as well, since Google steals your content and
@@ -14,44 +14,54 @@
 
       <p>Chris Anderson's book has finally appeared. The new one,
       <em>Free</em>, much discussed already before it was printed, and, off
-      course, much hyped in the Wired magazin.</p>
+      course, much hyped in the <a href="http://www.wired.com">Wired
+      magazine</a>. I've just ordered it from Amazon, but I've been walking
+      around thinking about Internet business models, open access and the
+      like. I've also <a
+      href="http://sigfrid-lundberg.se/2004/biblioteket/">written at length
+      about this</a> (in Swedish, I'm afraid).</p>
 
-      <p>How is this related to the situation for libraries? Well... I'd say:
-      in just about any way you may imagine. However, let me start at an
-      entirely different angle. Blog and wiki software were at the time
-      the first easy ways to really take advantage of the new medium based on
-      hypertext, a simple protocol and a global network. Through additions
-      such as syndication and pings (notifications that new content have
-      appeared) and automatic cross-linking (based on pings) to enable
-      discussions across blogs, it goes beyond hypertext.</p>
+      <p>How is <em>Free</em> related to the situation for <em>The
+      Library</em>?  Well...  I'd say: in just about any way you may
+      imagine. However, let me start at an entirely different angle. Blog and
+      Wiki software were at the time the first easy ways to really take
+      advantage of the new medium based on hypertext, a simple protocol and a
+      global network.  Through additions such as syndication and pings
+      (notifications that new content have appeared) and automatic
+      cross-linking (based on pings) to enable discussions across blogs, it
+      goes beyond hypertext.</p>
 
-      <p>This gave us basically new medium which using HTTP transaction
-      creates human interaction.</p>
+      <h2>Built for interaction and transactions</h2>
+
+      <p>This gave us basically a new medium built for transaction and human
+      interaction.</p>
 
       <p>When a blog really takes off, the traffic generated is enough for
       letting the ads pay your rent and buy milk for your kids. Obviously some
-      quality is required or it won't take off in the first place. That is
-      what gives the attention needed for the transactions to take place.</p>
+      quality is required or it won't take off in the first place. (Quality
+      which is in the eye of the beholder). Content which is hard to get
+      elsewhere. That is what gives the attention needed for the transactions
+      to take place.</p>
 
       <p>Blogging is cheap. You write about what's around you that you
       know. You benefit from from the transaction and attention economy which
-      feeds the Internet. Syndication, aggregation, mashups and harvesting
-      will move you're content around, and you'll mostly benefit from it.</p>
+      feeds the Internet. Syndication, aggregation and harvesting will move
+      you're content around, and you'll mostly benefit from it.</p>
+
+      <h2>Syndication, harvesting and leeches</h2>
 
       <p>On the other hand, much of the user's navigation will take place
       elsewhere, and many user's will not be exposed to your ads but Google's.
-      This lead to Jakob Nielsen's out-cry where he labelled them as <a
-      href="http://www.useit.com/alertbox/search_engines.html">leeches</a>
+      This lead to Jakob Nielsen's out-cry where he labelled them as <a href="http://www.useit.com/alertbox/search_engines.html">leeches</a>
       already a few years ago.</p>
 
       <p><a href="http://www.nybooks.com/authors/71">Michael Massing</a>
-      discusses this and other issues in a <a
-      href="http://www.nybooks.com/articles/22960">recent article</a> in The
+      discusses this and other issues in a <a href="http://www.nybooks.com/articles/22960">recent article</a> in The
       New York Review of Books. He quotes David Simon's statement in a
       testimony in front of the US Senate:</p>
       
-      <blockquote>[Internet] <em>leeches...reporting from mainstream news
-      publications, whereupon aggregating websites and bloggers contribute
+      <blockquote>[Internet] <em>leeches... reporting from mainstream news
+      publications, whereupon aggregating web-sites and bloggers contribute
       little more than repetition, commentary and froth. Meanwhile, readers
       acquire news from the aggregators and abandon its point of origin—namely
       the newspapers themselves. In short, the parasite is slowly killing the
@@ -78,6 +88,8 @@
       correspondents travelling there seems extremely arrogant to me, on the
       verge of being racist.</p>
 
+      <h2>Adaption and struggle for existence</h2>
+
       <p>This is not to say that we don't need journalism. Indeed we do. But
       as Massing states, it is currently reinventing itself on the Internet. A
       new one which has adapted itself to the medium. One which is part of the
@@ -85,18 +97,41 @@
 
       <p>Now, let us return to <em>The Library</em>.</p>
 
-      <p>The business model <em>The Library</em> is based upon the idea that
-      it will save money to share media. It started with scholars sharing
+      <p>The business model <em>The Library</em> is based upon is the idea
+      that it will save money to share media. It started with scholars sharing
       papyrus scrolls two thousand years ago. Continued with libraries within
       monastic societies during the middle age, where books were extremely
-      valuable assets. Then, today, we're licensing electronic material... The
-      marginal cost for producing one additional copy is <em>zero</em>. Hence
-      in the end, the price will end up to be really cheap.</p>
+      valuable assets. Then, today, we're licensing electronic material which
+      is meant to save money as an alternative to pay per view.</p>
 
-      <p>Who will fund the acquisition of free resources. The library as we
-      know it is as dependent on that we can save money by sharing valuable
-      information objects. A collection of codices for the monastic society,
-      or a campus license for electronic journals.</p>
+      <p>Those who invented <em>The Library</em> had clearly in mind
+      collections of stuff that were not <em>Free</em>. Stuff that are scarce
+      and only legal to copy for fair use. Produced by organizations that
+      think that Google is stealing their content.</p>
+
+      <p>In Chris Anderson's world, and in Google's, the value of information
+      is declining. Material which is <em>Free</em> or open access have the
+      price corresponding to a zero marginal cost of producing one additional
+      copy.</p>
+
+      <p>Who will fund each University library's fumbling and overlapping
+      attempts to collect, preserve, organize and provide access to virtually
+      the same digital resources through very similar integrated library
+      systems? And do these resources belong at <em>The Library</em> at all if
+      they are <em>Free</em>?</p>
+
+      <p>I leave these questions as an exercise to the reader (hint: think
+      about the economics of blogging). And end this by quoting Google CEO <a
+      href="http://www.wired.co.uk/wired-magazine/archive/2009/08/features/the-unstoppable-google.aspx">Eric Schmidt</a></p>
+
+      <blockquote>
+	<em>“We don’t have a big picture. We don’t have a five-year plan, we
+	don’t have a two-year plan, we don’t have a one-year plan. We have a
+	mission and a strategy, and the mission is… you know, [to organise]
+	all the world’s information. And the strategy is to do it through
+	innovation. It doesn’t bother us if something doesn’t work. Because we
+	understand that something else will work.”</em>
+      </blockquote>
 
     </div>
   </content>
@@ -104,8 +139,8 @@
   <category label="media" term="Media"/>
   <category label="thelibrary" term="The Library"/>
   <category label="internet" term="Internet"/>
-  <updated>2009-07-31T18:30:14+01:00</updated>
+  <updated>2009-08-03T17:57:08+01:00</updated>
   <published>2009-07-31T07:48:53+01:00</published>
-  <!-- $Id$ -->
   <id>http://www.sigfrid-lundberg.se/entries/2009/07/blogging/</id>
+  <!-- $Id$ -->
 </entry>
