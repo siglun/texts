@@ -57,7 +57,7 @@
 	</div>
 
 	<div class="right_box">
-	  <h1 style="width: 58%; float: left;text-align: left">
+	  <h1 style="font-family: sans-serif; width: 55%; float: left;text-align: left;">
 	    <xsl:value-of select="f:title"/>
 	  </h1>
 	  <p style="width: 38%; float: left;text-align: right">

@@ -6,7 +6,66 @@
   <title>Sigfrid Lundberg's Stuff</title>
   <id>http://sigfrid-lundberg.se/files.atom</id>
   <link rel="self" href="http://sigfrid-lundberg.se/files.atom"/>
-  <updated>2009-08-03T17:57:08+01:00</updated>
+  <updated>2009-08-04T17:58:28+01:00</updated>
+  <entry>
+  <author>
+    <name>Sigfrid Lundberg</name>
+  </author>
+  <title>Why do I keep this site?</title>
+  <link href="http://sigfrid-lundberg.se/entries/2009/08/trends/"/>
+  <summary>Having had a web site for about 15 years, I start to wonder why I
+  keep it in the first place.</summary>
+  <content type="xhtml">
+    <div xmlns="http://www.w3.org/1999/xhtml">
+
+      <table width="100%" border="0">
+	<tr>
+	  <td>
+	    <a href="/entries/2009/08/trends/kassa_series.png">
+	      <img src="/entries/2009/08/trends/kassa_series.png" width="100%"/>
+	    </a>
+	  </td>
+	  <td>
+	    <a href="/entries/2009/08/trends/kassa.png">
+	      <img src="/entries/2009/08/trends/kassa.png" width="100%"/>
+	    </a>
+	  </td>
+	</tr>
+	<tr>
+	  <td>
+	    <a href="/entries/2009/08/trends/divorce-da-series.png">
+	      <img src="/entries/2009/08/trends/divorce-da-series.png" width="100%"/>
+	    </a>
+	  </td>
+	  <td>
+	    <a href="/entries/2009/08/trends/divorce-da.png">
+	      <img src="/entries/2009/08/trends/divorce-da.png" width="100%"/>
+	    </a>
+	  </td>
+	</tr>
+	<tr>
+	  <td>
+	    <a href="/entries/2009/08/trends/divorce-sv-series.png">
+	      <img src="/entries/2009/08/trends/divorce-sv-series.png" width="100%"/> 
+	    </a>
+	  </td>
+	  <td>
+	    <a href="/entries/2009/08/trends/divorce-sv.png">
+	      <img src="/entries/2009/08/trends/divorce-sv.png" width="100%"/> 
+	    </a>
+	  </td>
+	</tr>
+      </table>
+
+    </div>
+  </content>
+  <dc:date>2009</dc:date>
+  <category label="structuralwebdesign" term="Structural web design"/>
+  <updated>2009-08-04T17:58:28+01:00</updated>
+  <published>2009-08-04T17:58:28+01:00</published>
+  <id>http://www.sigfrid-lundberg.se/entries/2009/08/trends/</id>
+  <!-- $Id$ -->
+</entry>
   <entry>
   <author>
     <name>Sigfrid Lundberg</name>
