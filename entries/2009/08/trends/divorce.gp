@@ -1,5 +1,9 @@
 #!/usr/bin/gnuplot
-#
+# 
+# Plots all the graphs in this entry
+# Author Sigfrid Lundberg (siggelundberg@gmail.com)
+# $Id$
+
 set fit noerrorvariables
 set term png
 
