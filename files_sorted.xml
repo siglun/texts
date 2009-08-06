@@ -11,26 +11,59 @@
   <author>
     <name>Sigfrid Lundberg</name>
   </author>
-  <title>Why do I keep this site?</title>
+  <title>Until death do us part -- an analysis of search statistics</title>
   <link href="/entries/2009/08/trends/"/>
-  <summary>Having had a web site for about 15 years, I start to wonder why I
-  keep it in the first place.</summary>
+  <summary>Here I analyse of some data retrieved from Google Insight
+  Search. This little study is inspired by the study performed by Hyunyoung
+  Choi &amp; Hal Varian, Google Research, were they were able to show that it
+  is possible to make short-term forcasts of economic behavours using search
+  statistics.</summary>
   <content type="xhtml">
     <div xmlns="http://www.w3.org/1999/xhtml">
 
+      <p>Hyunyoung Choi &amp; Hal Varian, Google Research, have
+      claimed that it is possible to make <a href="http://googleresearch.blogspot.com/2009/07/posted-by-hal-varian-chief-economist.html">short
+      term economic forcasts</a> using analysis of search terms entered into
+      the Google search engine. In particular, they have shown that there is a
+      positive correlation between the search interest for terms related to
+      the filing for unemployment benefits. This has previously been shown to
+      be a very good predictor of a future increase in unemployment.</p>
+
+      <p>The search interest for terms in the <a href="http://www.google.com/insights/search/#cat=706&amp;geo=US&amp;cmpt=q">Welfare
+      &amp; Unemployment category</a> appear to be a predictor of the number
+      of people filing for benefits. I read these papers &amp; blog entries
+      with great interest. These data are easily accessible. You retrieve them
+      through a search form, and you can get them in CSV, so they can be
+      loaded into your favorite statistics program via excel or any
+      work-alike.</p>
+
+      <div style="float: left; width: 50%; margin-left:0.5em;margin-right:0.5em;">
+	<a href="/entries/2009/08/trends/kassa_series.png">
+	  <img src="/entries/2009/08/trends/kassa_series.png" width="100%"/>
+	</a>
+	<small>Fig. 1. Time series for search interest for the Swedish term "a
+	kassa" and the corresponding Danish "a kasse" with the same
+	meaning. They provide people with insurance policies against
+	unemployment. I.e., it is not really a benefit or allowance. You pay
+	in advance through your membership fee.</small>
+      </div>
+
+      <p>My idea was to track down effects of the recession on human life and
+      people's interest. It is indeed easy to find such correlations. <a href="http://www.google.com/insights/search/#q=john%20maynard%20keynes&amp;cmpt=q">John
+      Maynard Keynes</a> has experienced a formidable revival during the last
+      six months or so. I had expected to see some shift in interest where <a href="http://www.google.com/insights/search/#q=Adam%20Smith%2CKarl%20Marx&amp;cmpt=q">Karl
+      Marx should gain Adam Smith and loose</a>. I think this trend is
+      there.</p>
+
+      <div style="float: right; width: 50%; margin-left:0.5em;margin-right:0.5em;">
+	<a href="/entries/2009/08/trends/kassa.png">
+	  <img src="/entries/2009/08/trends/kassa.png" width="100%"/>
+	</a>
+      </div>
+
+
       <table width="100%" border="0">
-	<tr>
-	  <td>
-	    <a href="/entries/2009/08/trends/kassa_series.png">
-	      <img src="/entries/2009/08/trends/kassa_series.png" width="100%"/>
-	    </a>
-	  </td>
-	  <td>
-	    <a href="/entries/2009/08/trends/kassa.png">
-	      <img src="/entries/2009/08/trends/kassa.png" width="100%"/>
-	    </a>
-	  </td>
-	</tr>
+
 	<tr>
 	  <td>
 	    <a href="/entries/2009/08/trends/divorce-da-series.png">
@@ -60,8 +93,8 @@
     </div>
   </content>
   <dc:date>2009</dc:date>
-  <category label="structuralwebdesign" term="Structural web design"/>
-  <updated>2009-08-04T17:58:28+01:00</updated>
+  <category label="essays" term="Essays"/>
+  <updated>2009-08-06T17:32:40+01:00</updated>
   <published>2009-08-04T17:58:28+01:00</published>
   <id>http://www.sigfrid-lundberg.se/entries/2009/08/trends/</id>
   <!-- $Id$ -->
