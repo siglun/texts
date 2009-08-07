@@ -33,54 +33,89 @@
 	<a href="/entries/2009/08/trends/kassa_series.png">
 	  <img src="/entries/2009/08/trends/kassa_series.png" width="100%"/>
 	</a>
-	<small>Fig. 1. Time series for search interest for the Swedish term "a
-	kassa" and the corresponding Danish "a kasse" with the same
-	meaning. They provide people with insurance policies against
-	unemployment. I.e., it is not really a benefit or allowance. You pay
-	in advance through your membership fee.</small>
+	<p>
+	  <small>Fig. 1. Time series for search interest for the Swedish term
+	  "a kassa" (in red) and the corresponding Danish "a kasse" (in green)
+	  with the same meaning.</small>
+	</p>
       </div>
 
       <p>My idea was to track down effects of the recession on human life and
       people's interest. It is indeed easy to find such correlations. <a href="http://www.google.com/insights/search/#q=john%20maynard%20keynes&amp;cmpt=q">John
       Maynard Keynes</a> has experienced a formidable revival during the last
-      six months or so. I had expected to see some shift in interest where <a href="http://www.google.com/insights/search/#q=Adam%20Smith%2CKarl%20Marx&amp;cmpt=q">Karl
-      Marx should gain Adam Smith and loose</a>. I think this trend is
-      there.</p>
+      six months or so. I had expected to see some shift in interest, where
+      Karl Marx should gain Adam Smith would loose. <a href="http://www.google.com/insights/search/#q=Adam%20Smith%2CKarl%20Marx&amp;cmpt=q">I
+      think that trend is real</a>.</p>
+
+      <p>Having read Choi &amp; Varian's brilliant <a href="http://reseabrch.google.com/archive/papers/initialclaimsUS.pdf">little
+      paper</a> (well, I'm neither economist nor statistician, but I think
+      it's good), I just had to test this data source.</p>
+
+      <h2>Cross country correlation</h2>
+
+      <p>In Denmark and Sweden we have to become members in a unemployment
+      benefit society, i.e., pay for an insurance policy against unemployment
+      to get a sizeable unemployment allowance. There are a governmental dole
+      as well, but that one is really so diminutive that it will hardly keep
+      you from the street. Hence, we won't get benefit or allowance as some
+      kind of charity from the other tax payers. You have pay in advance
+      through your membership in an <strong>a kass<em>a</em></strong> in Sweden
+      and an <strong>a kass<em>e</em></strong> in Denmark.</p>
 
       <div style="float: right; width: 50%; margin-left:0.5em;margin-right:0.5em;">
 	<a href="/entries/2009/08/trends/kassa.png">
 	  <img src="/entries/2009/08/trends/kassa.png" width="100%"/>
 	</a>
+
+	<p>
+	  <small>Fig. 2. The search interest for the Danish search term 'a
+	  kasse' (y axis) plotted against the corresponding Swedish 'a kassa'
+	  the same week. The green line represent the least square fit. There
+	  is quite some scatter but the positive correlation is highly
+	  significant (n=177, t=4.252 and P&lt;0.00004, two-tailed).</small>
+	</p>
+
       </div>
 
+      <p>Now, these two words does not appear in any other language, and I can
+      safely look up the <a href="http://www.google.com/insights/search/#q=a%20%20kassa%2Ca%20kasse&amp;cmpt=q">search
+      interest</a> in Google Insight for Search and be fairly sure that these
+      terms are not used anywhere else. The result is depicted in Fig. 1. Note
+      that for a better part of 2004 one or both columns were zero. I've
+      regarded those as missing values and removed them. The same was true for
+      that were actually representing the future. I have plotted the data as
+      delivered, and it seems to me that Google has to apply some kind
+      smoothing such as a spline function.</p>
 
-      <table width="100%" border="0">
+      <p>It seemed to me that major peaks appeared in both graphs in Fig. 1. T
+      test for that I made a linear regressionn and correlation analysis. The
+      correlation is indeed highly significant, which would indicate that
+      Swedes and Danes start looking for an unemployment benefit society
+      during the same periods. Makes sense to me.</p>
 
-	<tr>
-	  <td>
-	    <a href="/entries/2009/08/trends/divorce-da-series.png">
-	      <img src="/entries/2009/08/trends/divorce-da-series.png" width="100%"/>
-	    </a>
-	  </td>
-	  <td>
-	    <a href="/entries/2009/08/trends/divorce-da.png">
-	      <img src="/entries/2009/08/trends/divorce-da.png" width="100%"/>
-	    </a>
-	  </td>
-	</tr>
-	<tr>
-	  <td>
-	    <a href="/entries/2009/08/trends/divorce-sv-series.png">
-	      <img src="/entries/2009/08/trends/divorce-sv-series.png" width="100%"/> 
-	    </a>
-	  </td>
-	  <td>
-	    <a href="/entries/2009/08/trends/divorce-sv.png">
-	      <img src="/entries/2009/08/trends/divorce-sv.png" width="100%"/> 
-	    </a>
-	  </td>
-	</tr>
-      </table>
+      <div style="float: left; width: 50%; margin-left:0.5em;margin-right:0.5em;">
+	<a href="/entries/2009/08/trends/divorce-da-series.png">
+	  <img src="/entries/2009/08/trends/divorce-da-series.png" width="100%"/>
+	</a>
+      </div>
+
+      <div style="float: right; width: 50%; margin-left:0.5em;margin-right:0.5em;">
+	<a href="/entries/2009/08/trends/divorce-da.png">
+	  <img src="/entries/2009/08/trends/divorce-da.png" width="100%"/>
+	</a>
+      </div>
+
+      <div style="float: left; width: 50%; margin-left:0.5em;margin-right:0.5em;">
+	<a href="/entries/2009/08/trends/divorce-sv-series.png">
+	  <img src="/entries/2009/08/trends/divorce-sv-series.png" width="100%"/> 
+	</a>
+      </div>
+
+      <div style="float: right; width: 50%; margin-left:0.5em;margin-right:0.5em;">
+	<a href="/entries/2009/08/trends/divorce-sv.png">
+	  <img src="/entries/2009/08/trends/divorce-sv.png" width="100%"/> 
+	</a>
+      </div>
 
     </div>
     <p style="text-align: right">
