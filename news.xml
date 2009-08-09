@@ -5,7 +5,7 @@
       <em>
         <strong>
 		Sigfrid Lundberg's Stuff,
-	      2009-08-06</strong>
+	      2009-08-09</strong>
       </em>
     </p>
   </div>
@@ -32,8 +32,8 @@
       work-alike.</p>
 
       <div style="float: left; width: 50%; margin-left:0.5em;margin-right:0.5em;">
-	<a href="/entries/2009/08/trends/kassa_series.png">
-	  <img src="/entries/2009/08/trends/kassa_series.png" width="100%"/>
+	<a href="http://sigfrid-lundberg.se/entries/2009/08/trends/kassa_series.png">
+	  <img src="http://sigfrid-lundberg.se/entries/2009/08/trends/kassa_series.png" width="100%" alt="Fig. 1. Time series for search interest for the Swedish term  'a kassa' (in red) and the corresponding Danish 'a kasse' (in green) with the same meaning."/>
 	</a>
 	<p>
 	  <small>Fig. 1. Time series for search interest for the Swedish term
@@ -67,8 +67,8 @@
       kass<em>e</em></strong> in Denmark.</p>
 
       <div style="float: right; width: 50%; margin-left:0.5em;margin-right:0.5em;">
-	<a href="/entries/2009/08/trends/kassa.png">
-	  <img src="/entries/2009/08/trends/kassa.png" width="100%"/>
+	<a href="http://sigfrid-lundberg.se/entries/2009/08/trends/kassa.png">
+	  <img src="http://sigfrid-lundberg.se/entries/2009/08/trends/kassa.png" width="100%" alt="Fig. 2. The search interest for the Danish search term 'a    kasse' (y axis) plotted against the corresponding Swedish 'a kassa'    the same week. The green line represent the least square fit. There    is quite some scatter but the positive correlation is highly    significant"/>
 	</a>
 
 	<p>
@@ -76,7 +76,8 @@
 	  kasse' (y axis) plotted against the corresponding Swedish 'a kassa'
 	  the same week. The green line represent the least square fit. There
 	  is quite some scatter but the positive correlation is highly
-	  significant (n=177, t=4.252 and P<sup>***</sup>&lt;0.00004, two-tailed).</small>
+	  significant (n=177, t=4.252 and P<sup>***</sup>&lt;0.00004,
+	  two-tailed).</small>
 	</p>
 
       </div>
@@ -100,8 +101,8 @@
       global market.</p>
 
       <div style="float: left; width: 50%; margin-left:0.5em;margin-right:0.5em;">
-	<a href="/entries/2009/08/trends/divorce-da-series.png">
-	  <img src="/entries/2009/08/trends/divorce-da-series.png" width="100%"/>
+	<a href="http://sigfrid-lundberg.se/entries/2009/08/trends/divorce-da-series.png">
+	  <img src="http://sigfrid-lundberg.se/entries/2009/08/trends/divorce-da-series.png" width="100%" alt="Fig. 3. Search interest for the terms 'a kasse' and    'skilsmisse', i.e., unemployment benefit society' and 'divorce',    respectively in Danish."/>
 	</a>
 	<p>
 	  <small>Fig. 3. Search interest for the terms 'a kasse' and
@@ -193,7 +194,7 @@
 
       <div style="float: right; width: 50%; margin-left:0.5em;margin-right:0.5em;">
 	<a href="/entries/2009/08/trends/divorce-da.png">
-	  <img src="/entries/2009/08/trends/divorce-da.png" width="100%"/>
+	  <img src="http://sigfrid-lundberg.se/entries/2009/08/trends/divorce-da.png" width="100%" alt="Fig. 4. Correlation analysis between search interest for      'skilsmisse' (divorce) and 'a kasse' (unemployment benefit society)      in Denmark. There is a weak but significant positive correlation"/>
 	</a>
 	<p>
 	  <small>Fig. 4. Correlation analysis between search interest for
@@ -222,8 +223,8 @@
       daily newspapers:</p>
 
       <div style="float: left; width: 50%; margin-left:0.5em;margin-right:0.5em;">
-	<a href="/entries/2009/08/trends/divorce-sv-series.png">
-	  <img src="/entries/2009/08/trends/divorce-sv-series.png" width="100%"/> 
+	<a href="http://sigfrid-lundberg.se/entries/2009/08/trends/divorce-sv-series.png">
+	  <img src="http://sigfrid-lundberg.se/entries/2009/08/trends/divorce-sv-series.png" width="100%" alt="Fig. 5. Search interest for the terms 'a kasse' and    'skilsmisse', i.e., unemployment benefit society' and 'divorce',    respectively in Swedish."/> 
 	</a>
 	<p>
 	  <small>Fig. 5. Search interest for the terms 'a kasse' and
@@ -255,8 +256,8 @@
       miserable. I'll search for "skilsmässa" in Google later on.</em></p>
 
       <div style="float: right; width: 50%; margin-left:0.5em;margin-right:0.5em;">
-	<a href="/entries/2009/08/trends/divorce-sv.png">
-	  <img src="/entries/2009/08/trends/divorce-sv.png" width="100%"/> 
+	<a href="http://sigfrid-lundberg.se/entries/2009/08/trends/divorce-sv.png">
+	  <img src="http://sigfrid-lundberg.se/entries/2009/08/trends/divorce-sv.png" width="100%" alt="&gt;Fig. 6. Correlation analysis between search interest for    'skilsmässa' (divorce) and 'a kassa' (unemployment benefit society)    in Sweden. There is a significant negative correlation"/> 
 	</a>
 	<p>
 	  <small>Fig. 6. Correlation analysis between search interest for
