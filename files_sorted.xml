@@ -11,7 +11,7 @@
   <author>
     <name>Sigfrid Lundberg</name>
   </author>
-  <title>Until death do us part -- an analysis of search statistics</title>
+  <title>On Divorce and Unemployment Benefit Societies</title>
   <link href="/entries/2009/08/trends/"/>
   <summary>Here I analyse of some data retrieved from Google Insight
   Search. This little study is inspired by the study performed by Hyunyoung
@@ -21,19 +21,21 @@
   <content type="xhtml">
     <div xmlns="http://www.w3.org/1999/xhtml">
 
-      <p>Hyunyoung Choi &amp; Hal Varian, Google Research, have
-      claimed that it is possible to make <a href="http://googleresearch.blogspot.com/2009/07/posted-by-hal-varian-chief-economist.html">short
+      <p>Hyunyoung Choi &amp; Hal Varian, Google Research, have claimed that
+      it is possible to make <a href="http://googleresearch.blogspot.com/2009/07/posted-by-hal-varian-chief-economist.html">short
       term economic forcasts</a> using analysis of search terms entered into
       the Google search engine. In particular, they have shown that there is a
       positive correlation between the search interest for terms related to
-      the filing for unemployment benefits. This has previously been shown to
-      be a very good predictor of a future increase in unemployment.</p>
+      the filing for unemployment benefits and the number of people who
+      actually file for unemployment benefits. This number has previously been
+      shown to be a very good predictor of a future increase in
+      unemployment.</p>
 
       <p>The search interest for terms in the <a href="http://www.google.com/insights/search/#cat=706&amp;geo=US&amp;cmpt=q">Welfare
       &amp; Unemployment category</a> appear to be a predictor of the number
       of people filing for benefits. I read these papers &amp; blog entries
-      with great interest. These data are easily accessible. You retrieve them
-      through a search form, and you can get them in CSV, so they can be
+      with great interest. The search data are easily accessible. You retrieve
+      them through a search form, and you can get them in CSV, so they can be
       loaded into your favorite statistics program via excel or any
       work-alike.</p>
 
@@ -48,27 +50,29 @@
 	</p>
       </div>
 
-      <p>My idea was to track down effects of the recession on human life and
-      people's interest. It is indeed easy to find such correlations. <a href="http://www.google.com/insights/search/#q=john%20maynard%20keynes&amp;cmpt=q">John
+      <p>My idea was to track down effects of the recession on everyday life
+      and changes in peoples views of things. It is indeed easy to find such
+      correlations. <a href="http://www.google.com/insights/search/#q=john%20maynard%20keynes&amp;cmpt=q">John
       Maynard Keynes</a> has experienced a formidable revival during the last
       six months or so. I had expected to see some shift in interest, where
       Karl Marx should gain Adam Smith would loose. <a href="http://www.google.com/insights/search/#q=Adam%20Smith%2CKarl%20Marx&amp;cmpt=q">I
-      think that trend is real</a>.</p>
+      think that there is such a trend as well.</a>.</p>
 
       <p>Having read Choi &amp; Varian's brilliant <a href="http://reseabrch.google.com/archive/papers/initialclaimsUS.pdf">little
       paper</a> (well, I'm neither economist nor statistician, but I think
-      it's good), I just had to test this data source.</p>
+      it's good), I just had to test this data source myself.</p>
 
       <h2>Cross country correlation</h2>
 
       <p>In Denmark and Sweden we have to become members in a unemployment
-      benefit society, i.e., pay for an insurance policy against unemployment
-      to get a sizeable unemployment allowance. There are a governmental dole
-      as well, but that one is really so diminutive that it will hardly keep
-      you from the street. Hence, we won't get benefit or allowance as some
-      kind of charity from the other tax payers. You have pay in advance
-      through your membership in an <strong>a kass<em>a</em></strong> in Sweden
-      and an <strong>a kass<em>e</em></strong> in Denmark.</p>
+      benefit society, i.e., we have to pay for an insurance policy against
+      unemployment in order to get a sizeable unemployment allowance. There is
+      a governmental dole as well, but that one is really so diminutive that
+      it will hardly keep you from the street. Hence, we hardly get any
+      benefit or allowance as some kind of charity from the other tax
+      payers. You have to pay in advance through your membership in an
+      <strong>a kass<em>a</em></strong> in Sweden or an <strong>a
+      kass<em>e</em></strong> in Denmark.</p>
 
       <div style="float: right; width: 50%; margin-left:0.5em;margin-right:0.5em;">
 	<a href="/entries/2009/08/trends/kassa.png">
@@ -80,7 +84,7 @@
 	  kasse' (y axis) plotted against the corresponding Swedish 'a kassa'
 	  the same week. The green line represent the least square fit. There
 	  is quite some scatter but the positive correlation is highly
-	  significant (n=177, t=4.252 and P&lt;0.00004, two-tailed).</small>
+	  significant (n=177, t=4.252 and P<sup>***</sup>&lt;0.00004, two-tailed).</small>
 	</p>
 
       </div>
@@ -88,42 +92,230 @@
       <p>Now, these two words does not appear in any other language, and I can
       safely look up the <a href="http://www.google.com/insights/search/#q=a%20%20kassa%2Ca%20kasse&amp;cmpt=q">search
       interest</a> in Google Insight for Search and be fairly sure that these
-      terms are not used anywhere else. The result is depicted in Fig. 1. Note
+      terms are not used elsewhere. The result is depicted in Fig. 1. Note
       that for a better part of 2004 one or both columns were zero. I've
       regarded those as missing values and removed them. The same was true for
-      that were actually representing the future. I have plotted the data as
-      delivered, and it seems to me that Google has to apply some kind
-      smoothing such as a spline function.</p>
+      a few datapoints representing the future. I have plotted the data as
+      delivered, and it seems to me that Google applies some kind smoothing
+      such as a spline function. Their graphs are much smoother than mine.</p>
 
-      <p>It seemed to me that major peaks appeared in both graphs in Fig. 1. T
-      test for that I made a linear regressionn and correlation analysis. The
-      correlation is indeed highly significant, which would indicate that
-      Swedes and Danes start looking for an unemployment benefit society
-      during the same periods. Makes sense to me.</p>
+      <p>It seemed to me that major peaks appeared at the same time in both
+      countries. To test this I made a linear regression and correlation
+      analysis. The correlation is indeed highly significant, which would
+      indicate that Swedes and Danes start looking for an unemployment benefit
+      society during the same periods in time. Makes sense to me. The two
+      countries' economies are tightly coupled and both depend on the same
+      global market.</p>
 
       <div style="float: left; width: 50%; margin-left:0.5em;margin-right:0.5em;">
 	<a href="/entries/2009/08/trends/divorce-da-series.png">
 	  <img src="/entries/2009/08/trends/divorce-da-series.png" width="100%"/>
 	</a>
+	<p>
+	  <small>Fig. 3. Search interest for the terms 'a kasse' and
+	  'skilsmisse', i.e., unemployment benefit society' and 'divorce',
+	  respectively in Danish.</small>
+	</p>
       </div>
+
+      <p>From what I can see, this correlation is OK theoretically. For all
+      practical purposes we can regard the Swedish and Danish as taken from
+      distinct populations, the only factor they have in common is time, and
+      information in media about the international economic development (which
+      off course include the development in the neighboring countries).</p>
+
+      <h2>Until death do us part</h2>
+
+      <p>The day after I had convinced myself that the Danes and Swedes
+      recognize the risk for being made redundant at the same time, I read in
+      a Danish news paper that the rise in unemployment was leading to an
+      increase in divorce rate in Denmark. Most people can end their life
+      without help of Internet.</p>
+
+      <table border="0" width="40%" style="border:none;float:left;margin-left:0.5em;margin-right:0.5em;">
+
+	<caption style="border:none;background:white;border-bottom:solid  thin;">Table 1. Top ten divorce related searches in Google,
+	worldwide</caption>
+
+	<tr style="border:none;background:white;">
+	  <th style="border:none;background:white;">Term</th>
+	  <th style="border:none;background:white;text-align: right;">Search interest</th>
+	</tr>
+	<tr style="border:none;">
+	  <td style="border:none;">divorce law</td>
+	  <td style="border:none;text-align: right;">100</td>
+	</tr>
+	<tr>
+	  <td style="border:none;">how to divorce</td>
+	  <td style="border:none;text-align: right;">85</td>
+	</tr>
+	<tr style="border:none;">
+	  <td style="border:none;">divorce records</td>
+	  <td style="border:none;text-align: right;">85</td>
+	</tr>
+	<tr style="border:none;">
+	  <td style="border:none"> divorce court</td>
+	  <td style="border:none;text-align: right;">80</td>
+	</tr>
+	<tr style="border:none;">
+	  <td style="border:none;">divorce laws</td>
+	  <td style="border:none;text-align: right;">75</td>
+	</tr>
+	<tr style="border:none;">
+	  <td style="border:none;">divorce lawyers</td>
+	  <td style="border:none;text-align: right;">50</td>
+	</tr>
+	<tr style="border:none;">
+	  <td style="border:none;">jon and kate</td>
+	  <td style="border:none;text-align: right;">45</td>
+	</tr>
+	<tr style="border:none;">
+	  <td style="border:none;">divorce rate</td>
+	  <td style="border:none;text-align: right;">45</td>
+	</tr>
+	<tr style="border:none;">
+	  <td style="border:none;">divorce papers</td>
+	  <td style="border:none;text-align: right;">45</td>
+	</tr>
+	<tr style="border:none;">
+	  <td style="border:none;">divorce lawyer</td>
+	  <td style="border:none;text-align: right;">45</td>
+	</tr>
+      </table>
+
+      <p>Divorce is a bit more difficult. You must get in contact with a
+      lawyer and applicable authorities. You need to fill in and sign a lot of
+      forms. All this is something that require information, which users
+      expect to find on the Internet.</p>
+
+      <p>Table 1 shows Google's top ten list for divorce oriented search
+      terms. Jon and Kate are obviously a reality TV series in the US, so this
+      one reflects a voracious appetite for gossip rather than a need for
+      information. Then there is a group of users who are interested in
+      statistics, such as divorce rate. This won't help you to get a divorce
+      and is purely factual. The same true for divorce law, but here we reach
+      the border line between pure fact and pure HOWTO. It is good to know the
+      law if you need a divorce, isn't it? All in all, I'd say that more than
+      half of these terms are searches aiming at divorce HOWTO documents. The
+      same is true for Scandinavian search terms.</p>
 
       <div style="float: right; width: 50%; margin-left:0.5em;margin-right:0.5em;">
 	<a href="/entries/2009/08/trends/divorce-da.png">
 	  <img src="/entries/2009/08/trends/divorce-da.png" width="100%"/>
 	</a>
+	<p>
+	  <small>Fig. 4. Correlation analysis between search interest for
+	  "skilsmisse" (divorce) and "a kasse" (unemployment benefit society)
+	  in Denmark. There is a weak but significant positive correlation
+	  r=0.162793, n=194, t=2.28622, P<sup>*</sup>&lt;0.05 (two-tailed test).</small>
+	</p>
+
       </div>
+
+      <p>These considerations make it interesting enough to attempt the method
+      I used for correlation above, but now for "divorce" and "unemployment
+      benefit society" within each of the two countries. The Danish statistics
+      is in Fig. 3-4 and the Swedish in Fig. 5-6.</p>
+
+      <p>Danish search interest for unemployment benefit societies seemed
+      lower than in Sweden (Fig. 1). Also, the Danish search interest for
+      divorce "skilsmisse" is higher than for unemployment benefit societies
+      "a kasse" (Fig. 3), whereas in Sweden the reverse is true. We Swedes are
+      search less for "skilsmässa" than we do for "a kassa" (Fig. 4).</p>
+
+      <p>These correlations, if real, have not, for me at least, any obvious
+      interpretation. A few <a href="http://en.wiktionary.org/wiki/factoid">factoids</a> as a
+      background. I list them without references -- this is not a scientific
+      report, but a blog entry. They my recollections from radio news and the
+      daily newspapers:</p>
 
       <div style="float: left; width: 50%; margin-left:0.5em;margin-right:0.5em;">
 	<a href="/entries/2009/08/trends/divorce-sv-series.png">
 	  <img src="/entries/2009/08/trends/divorce-sv-series.png" width="100%"/> 
 	</a>
+	<p>
+	  <small>Fig. 5. Search interest for the terms 'a kasse' and
+	  'skilsmisse', i.e., unemployment benefit society' and 'divorce',
+	  respectively in Swedish.</small>
+	</p>
+
       </div>
+
+      <p><strong>i.</strong> Denmark had a lower unemployment before the
+      current recession than had Sweden. This is still true. We have
+      good reasons to look for a good unemployment benefit society.</p>
+
+      <p><strong>ii.</strong> In Sweden the unemployment is biased such as it
+      affects larger degree affects males than females. This is due to the
+      crisis within the automobile industries we imported from the other side
+      of the Atlantic.</p>
+
+      <p><strong>iii.</strong> The Danish divorce rate 2.92 per 1000
+      inhabitants) is higher than the one in Sweden (2.24). <a href="http://en.wikipedia.org/wiki/Divorce_demography">Both figures from
+      2004</a>.</p>
+
+      <p>It could be possible to understand the different correlations in Figs
+      4 and 6 in the light of these three factoids. It would help if there is
+      an asymmetry between males and females, such that the latter are a bit
+      more mercyful towards their unhappy unemployed spouses than are the
+      former. I.e., if Swedish women think somewhat like: <em>Well, I want to
+      leave the bastard, but I don't have to do this week when he's so
+      miserable. I'll search for "skilsmässa" in Google later on.</em></p>
 
       <div style="float: right; width: 50%; margin-left:0.5em;margin-right:0.5em;">
 	<a href="/entries/2009/08/trends/divorce-sv.png">
 	  <img src="/entries/2009/08/trends/divorce-sv.png" width="100%"/> 
 	</a>
+	<p>
+	  <small>Fig. 6. Correlation analysis between search interest for
+	  "skilsmässa" (divorce) and "a kassa" (unemployment benefit society)
+	  in Sweden. There is a significant negative correlation r=-0.30391, n=241,
+	  t=-4.93168, P<sup>***</sup>&lt;0.0000 (two-tailed test).</small>
+	</p>
+
       </div>
+
+      <h2>Concluding remarks</h2>
+
+      <p>First and formost I wish to point out that the analyses in this blog
+      entry are made by someone who has forgotten most, if not all, the theory
+      behind statistical inference. I've not performed any serious statistical
+      analysis for more than fifteen years. In addition the fact that my
+      knowledge about statistical inference has decayed to below a statistics
+      101 level, I've never worked with proper time series analysis. I fear that
+      not any of my tests here would hold a critical analysis by a
+      professional. To make sense, the divorce analysis require some kind of
+      time lag. You don't become member of an unemployment benefit society the
+      same week your spouse get fed up with you because of your bad
+      unemployment temper. The latter comes later.</p>
+
+      <p>Anyway, the purpose of this note wasn't to make a really serious
+      analysis <em>per se</em>, but to explore Google's claims that one could
+      use search data for serious work. I think they are right. These data are
+      available for free; you can test an idea in a few days and then decide
+      what more experimental &amp; survey kind of data you'll need to make a
+      test your hypotheses.</p>
+
+      <h2>PS</h2>
+
+      <p>There are more to say about this.</p>
+
+      <p>Unemployment is no fun. The fact that unemployment can break marriges
+      doesn't worry me too much. However, some people <a href="http://www.businessweekly.co.uk/2009071635221/academia-and-research/rise-in-unemployment-linked-to-suicide-rate.html">cannot
+      live with unemployment</a>. That is much worse.</p>
+
+      <p>Obviously there are companies out there subscribing to terms related
+      to suicide, depression, drug abuse, alcoholism and the like as
+      adwords. A superficial look at the ads appearing in relations to such
+      searches doesn't convince me that people who search for help this way
+      necessarily get the best professional help available.</p>
+
+      <p>There is a lot to do in this area. There are a many of governmental
+      and charitable organizations that do great work. Serious mental problems
+      should not be treated by quacks, and the subscription to adwords related
+      to such terms should, in my view, not be available to just anyone. I'm
+      not even sure that I think it is a good idea that pharmaceutical
+      industries should sell their drugs this way.</p>
 
     </div>
   </content>

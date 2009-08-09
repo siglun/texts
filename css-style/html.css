@@ -91,10 +91,6 @@ div.left_box ul {
     font-family: "Times New Roman",Times;
 }
 
-div.left_box li {
-    margin-left:  -5%;
-}
-
 pre {
     font-family: courier;
     font-size: 85%;
@@ -182,9 +178,8 @@ h3, h4 {
 
 table {
     text-align: left;
-    width: 80%;
     color: black;
-    background-color: #DDDDDD;
+    background-color: white;
     font-size: 90%;
     margin-left: +1%;
     vertical-align: top;
@@ -196,17 +191,10 @@ tbody {
 
 
 caption {
-    text-align: center;
+    text-align: left;
     color: black;
-    background-color: #DDDDDD;
-    font-weight: bold;
     font-size: 90%;
     vertical-align: top;
-    margin-left: +5%;
-    border-top: solid thin;
-    border-bottom: none;
-    border-right: none;
-    border-left: none;
 }
 
 td {
