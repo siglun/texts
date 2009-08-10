@@ -46,7 +46,21 @@
 	    select="f:entry[not(f:category/@label = 'aboutme')][1]/
 		    f:content[@type='xhtml']/*"/>
 
-	<p style="text-align: right">
+	<p style="text-align: left;">
+	  <em><strong>Tags:</strong></em>
+	  <xsl:text> 
+	  </xsl:text>
+	  <xsl:for-each select="f:entry[not(f:category/@label = 'aboutme')][1]/
+				f:category">
+	    <xsl:element name="a">
+	      <xsl:attribute name="href">
+		<xsl:value-of select="concat('/subjects/',@label,'/')"/>
+	      </xsl:attribute>
+	      <xsl:value-of select="@term"/>
+	      </xsl:element><xsl:if test="not(position()=last())"><xsl:text>,
+	    </xsl:text></xsl:if>
+	  </xsl:for-each>
+	  <br/>
 	  <em>
 	    <strong>
 	      <xsl:text>
