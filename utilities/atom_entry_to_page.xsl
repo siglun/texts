@@ -77,6 +77,39 @@
 	  <xsl:apply-templates mode="copy" select="f:content[@type='xhtml']"/>
 	</div>
 
+	<div id="disqus_thread">
+	  <xsl:text>
+	  </xsl:text>
+	</div>
+	<script type="text/javascript" src="http://disqus.com/forums/sigfridlundbergsstuff/embed.js">
+	  <xsl:text>
+	  </xsl:text>
+	</script>
+	<noscript>
+	  <a href="http://sigfridlundbergsstuff.disqus.com/?url=ref">View the
+	  discussion thread.</a>
+	</noscript>
+	<a href="http://disqus.com" class="dsq-brlink">blog comments powered
+	by <span class="logo-disqus">Disqus</span>
+	</a>
+
+	<script type="text/javascript">
+	  <xsl:text disable-output-escaping="yes">//&lt;!--</xsl:text>
+	  <xsl:text disable-output-escaping="yes">
+	  (function() {
+	      var links = document.getElementsByTagName('a');
+	      var query = '?';
+	      for(var i = 0; i &lt; links.length; i++) {
+		  if(links[i].href.indexOf('#disqus_thread') >= 0) {
+		      query += 'url' + i + '=' + encodeURIComponent(links[i].href) + '&amp;';
+		  }
+	      }
+	      document.write('&lt;script charset="utf-8" type="text/javascript" src="http://disqus.com/forums/sigfridlundbergsstuff/get_num_replies.js' + query + '">&lt;/' + 'script>');
+	  })();
+	  </xsl:text>
+	  <xsl:text disable-output-escaping="yes">//--&gt;</xsl:text>
+	</script>
+
 	<xsl:comment>#include virtual="/js/urchin.js" </xsl:comment>
 
       </xsl:element>
