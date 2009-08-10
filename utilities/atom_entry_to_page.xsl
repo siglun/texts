@@ -91,8 +91,16 @@
 	  </xsl:text>
 	</script>
 	<noscript>
-	  <a href="http://sigfridlundbergsstuff.disqus.com/?url=ref">View the
-	  discussion thread.</a>
+	  <xsl:element name="a">
+	    <xsl:attribute name="href">
+	      <xsl:value-of 
+		  select="concat('http://sigfridlundbergsstuff.disqus.com/',
+			  '?url=',
+			  'http://sigfrid-lundberg.se',
+			  f:link/@href)"/>
+	    </xsl:attribute>
+	      View the discussion thread
+	  </xsl:element>
 	</noscript>
 	<a href="http://disqus.com" class="dsq-brlink">blog comments powered
 	by <span class="logo-disqus">Disqus</span>
