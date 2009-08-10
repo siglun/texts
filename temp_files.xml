@@ -2003,6 +2003,10 @@
 	</p>
       </div>
 
+      <p>Having read Choi &amp; Varian's brilliant <a href="http://reseabrch.google.com/archive/papers/initialclaimsUS.pdf">little
+      paper</a> (well, I'm neither economist nor statistician, but I think
+      it's good), I just had to test this data source myself.</p>
+
       <p>My idea was to track down effects of the recession on everyday life
       and changes in peoples views of things. It is indeed easy to find such
       correlations. <a href="http://www.google.com/insights/search/#q=john%20maynard%20keynes&amp;cmpt=q">John
@@ -2010,10 +2014,6 @@
       six months or so. I had expected to see some shift in interest, where
       Karl Marx should gain Adam Smith would loose. <a href="http://www.google.com/insights/search/#q=Adam%20Smith%2CKarl%20Marx&amp;cmpt=q">I
       think that there is such a trend as well.</a>.</p>
-
-      <p>Having read Choi &amp; Varian's brilliant <a href="http://reseabrch.google.com/archive/papers/initialclaimsUS.pdf">little
-      paper</a> (well, I'm neither economist nor statistician, but I think
-      it's good), I just had to test this data source myself.</p>
 
       <h2>Cross country correlation</h2>
 
@@ -2275,7 +2275,7 @@
   </content>
   <dc:date>2009</dc:date>
   <category label="essays" term="Essays"/>
-  <updated>2009-08-09T15:36:11+01:00</updated>
+  <updated>2009-08-10T08:47:07+01:00</updated>
   <published>2009-08-04T17:58:28+01:00</published>
   <id>http://www.sigfrid-lundberg.se/entries/2009/08/trends/</id>
   <!-- $Id$ -->
