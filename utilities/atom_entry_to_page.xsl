@@ -75,16 +75,17 @@
 	  </div>
 
 	  <xsl:apply-templates mode="copy" select="f:content[@type='xhtml']"/>
-	</div>
 
-	<div style="clear:both">
-	  <xsl:text> 
-	  </xsl:text>
-	</div>
 
-	<div id="disqus_thread">
-	  <xsl:text>
-	  </xsl:text>
+	  <div style="clear:both">
+	    <xsl:text> 
+	    </xsl:text>
+	  </div>
+
+	  <div id="disqus_thread">
+	    <xsl:text>
+	    </xsl:text>
+	  </div>
 	</div>
 	<script type="text/javascript" src="http://disqus.com/forums/sigfridlundbergsstuff/embed.js">
 	  <xsl:text>
