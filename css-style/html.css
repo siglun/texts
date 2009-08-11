@@ -66,7 +66,11 @@ div.indented {
     margin-right: +2%;
     background-color: white;
 }
-
+ 
+div#disqus_thread {
+    margin-left:  +1%;
+    margin-right: +1%;
+}
 
 blockquote {
     background-color: white;
