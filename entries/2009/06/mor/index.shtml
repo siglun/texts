@@ -110,11 +110,11 @@
     </div>
   <div style="clear:both"> 
 	    </div><div id="disqus_thread">
-	    </div></div><script type="text/javascript" src="http://disqus.com/forums/sigfridlundbergsstuff/embed.js">
+	    </div><a href="http://disqus.com" class="dsq-brlink">blog comments powered
+	  by <span class="logo-disqus">Disqus</span></a></div><script type="text/javascript" src="http://disqus.com/forums/sigfridlundbergsstuff/embed.js">
 	  </script><noscript><a href="http://sigfridlundbergsstuff.disqus.com/?url=http://sigfrid-lundberg.se/entries/2009/06/mor/">
 	      View the discussion thread
-	  </a></noscript><a href="http://disqus.com" class="dsq-brlink">blog comments powered
-	by <span class="logo-disqus">Disqus</span></a><script type="text/javascript">//<!--
+	  </a></noscript><script type="text/javascript">//<!--
 	  (function() {
 	      var links = document.getElementsByTagName('a');
 	      var query = '?';

@@ -86,6 +86,10 @@
 	    <xsl:text>
 	    </xsl:text>
 	  </div>
+	  <a href="http://disqus.com" class="dsq-brlink">blog comments powered
+	  by <span class="logo-disqus">Disqus</span>
+	  </a>
+
 	</div>
 	<script type="text/javascript" src="http://disqus.com/forums/sigfridlundbergsstuff/embed.js">
 	  <xsl:text>
@@ -103,9 +107,6 @@
 	      View the discussion thread
 	  </xsl:element>
 	</noscript>
-	<a href="http://disqus.com" class="dsq-brlink">blog comments powered
-	by <span class="logo-disqus">Disqus</span>
-	</a>
 
 	<script type="text/javascript">
 	  <xsl:text disable-output-escaping="yes">//&lt;!--</xsl:text>
