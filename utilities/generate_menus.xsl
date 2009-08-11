@@ -96,7 +96,8 @@
 		  <a href="/">Home</a><br/>
 		</p>
 		<p>
-		  <a href="/files.atom" type="application/atom+xml" class="feed-link">
+		  <a href="http://feeds.feedburner.com/SigfridLundbergsStuff?format=xml"
+		     type="application/atom+xml" class="feed-link">
 		    <img src="/images/Newsfeed-Atom.png" 
 			 alt="Subscribe to Stuff from Sigfrid Lundberg"
 			 border="0"/>
