@@ -19,9 +19,12 @@ my $stylesheet = $xslt->parse_stylesheet($style_doc);
 
 my $atomfile   = '';
 my $directory  = '';
+my $debug      = '';
 
 my $result = GetOptions ("atomfile=s"  => \$atomfile,  
-			 "directory=s" => \$directory);
+			 "directory=s" => \$directory,
+			 "debug"       => \$debug);
+
 
 die "Invalid arguments" unless(-d $directory);
 
@@ -29,7 +32,6 @@ my $dom;
 my $feed;
 
 if($atomfile) {
-
     open my($fh), $atomfile;
     binmode $fh;
     $dom = $parser->parse_fh($fh);
@@ -52,7 +54,12 @@ while(my $entryFile = <$find>) {
     open my($h), $entryFile;
     my $entry = $parser->parse_fh($h);
     close $h;
-    my $results = $stylesheet->transform($entry);
+    my $results;
+    if($debug) {
+	$results = $stylesheet->transform($entry,'debug'=>"'".$debug."'");
+    } else {
+	$results = $stylesheet->transform($entry);
+    }
     open my $out, ">$directory/index.shtml";
     binmode $out,':raw'; 
     $results->toFH($out);

@@ -14,6 +14,8 @@
     $Revision$ last modified $Date$
     $Id$
   -->
+
+  <xsl:param name="debug" select="''"/>
   
   <xsl:output method="xml"
 	      indent="yes"
@@ -38,6 +40,14 @@
 	  <xsl:text> 
 	  </xsl:text>
 	</script>
+
+	<xsl:if test="$debug">
+	  <script type="text/javascript">
+	    <xsl:text>
+	      var disqus_developer=1;
+	    </xsl:text>
+	  </script>
+	</xsl:if>
 
 	<meta http-equiv="Content-Type" 
 	      content="text/html;charset=UTF-8"/>

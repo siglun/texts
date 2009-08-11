@@ -9,7 +9,10 @@
 # The blog entryoids lives in entries hierarchy. We merge in them in the
 # global feed
 #
-utilities/feeder --directory entries/ --atomfile all_files.xml > temp_files.xml
+utilities/feeder \
+    --directory entries/ \
+    $* \
+    --atomfile all_files.xml > temp_files.xml
 
 #
 # Create index files in all year and subject directories

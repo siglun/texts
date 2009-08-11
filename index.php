@@ -21,8 +21,13 @@
 
     <link href="http://feeds.feedburner.com/SigfridLundbergsStuff?format=xml"
 	  type="application/atom+xml"
+	  title="Subscribe to new conent"
 	  rel="alternate"/>
 
+    <link href="http://sigfridlundbergsstuff.disqus.com/latest.rss"
+	  type="application/rss+xml"
+	  title="Subscribe to comments"
+	  rel="alternate"/>
 
   </head>
   <body>
