@@ -75,7 +75,7 @@
 		  select="f:entry[not(f:category/@label = 'aboutme')][1]/f:link/@href"/>
 	    </xsl:attribute>
 	    <xsl:value-of 
-		select="concat('http://www.sigfrid-lundberg.se',
+		select="concat('http://sigfrid-lundberg.se',
 			f:entry[not(f:category/@label = 'aboutme')][1]/f:link/@href)"/>
 	  </xsl:element>
 	</p>
