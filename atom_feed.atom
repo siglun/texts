@@ -5,8 +5,8 @@
   </author>
   <title>Sigfrid Lundberg's Stuff</title>
   <id>http://sigfrid-lundberg.se/files.atom</id>
-  <link rel="self" href="http://sigfrid-lundberg.se/files.atom"/>
-  <updated>2009-08-11T07:23:23+01:00</updated>
+  <link rel="self" href="http://sigfrid-lundberg.sehttp://feeds.feedburner.com/SigfridLundbergsStuff?format=xml"/>
+  <updated>2009-08-11T08:15:39+01:00</updated>
   <entry>
   <author>
     <name>Sigfrid Lundberg</name>
@@ -44,10 +44,11 @@
     </div>
   </content>
   <dc:date>2009</dc:date>
-  <category label="structuralwebdesign" term="Structural web design"/>
-  <updated>2009-08-11T07:23:23+01:00</updated>
+  <category label="colophon" term="Colophon"/>
+  <updated>2009-08-11T08:15:39+01:00</updated>
   <published>2009-08-11T07:23:23+01:00</published>
   <id>http://www.sigfrid-lundberg.se/entries/2009/08/features/</id>
+  <!-- $Id$ -->
 </entry>
   <entry>
   <author>

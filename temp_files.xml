@@ -5,7 +5,7 @@
   </author>
   <title>Sigfrid Lundberg's Stuff</title>
   <id>http://sigfrid-lundberg.se/files.atom</id>
-  <link rel="self" href="/files.atom"/>
+  <link rel="self" href="http://feeds.feedburner.com/SigfridLundbergsStuff?format=xml"/>
   <updated>2006-06-08T00:03:00+01:00</updated>
   <!--
       $Revision$, last modified $Date$
@@ -1997,10 +1997,11 @@
     </div>
   </content>
   <dc:date>2009</dc:date>
-  <category label="structuralwebdesign" term="Structural web design"/>
-  <updated>2009-08-11T07:23:23+01:00</updated>
+  <category label="colophon" term="Colophon"/>
+  <updated>2009-08-11T08:15:39+01:00</updated>
   <published>2009-08-11T07:23:23+01:00</published>
   <id>http://www.sigfrid-lundberg.se/entries/2009/08/features/</id>
+  <!-- $Id$ -->
 </entry><entry xmlns:dc="http://purl.org/dc/elements/1.1/">
   <author>
     <name>Sigfrid Lundberg</name>
