@@ -86,9 +86,11 @@
 	    <xsl:text>
 	    </xsl:text>
 	  </div>
-	  <a href="http://disqus.com" class="dsq-brlink">blog comments powered
-	  by <span class="logo-disqus">Disqus</span>
-	  </a>
+	  <p style="margin-left:+1%;">
+	    <a href="http://disqus.com" class="dsq-brlink">blog comments powered
+	    by <span class="logo-disqus">Disqus</span>
+	    </a>
+	  </p>
 
 	</div>
 	<script type="text/javascript" src="http://disqus.com/forums/sigfridlundbergsstuff/embed.js">
