@@ -47,7 +47,7 @@
 		    f:content[@type='xhtml']/*"/>
 
 	<p style="text-align: left;">
-	  <em><strong>Tags:</strong></em>
+	  <em><strong>Categories:</strong></em>
 	  <xsl:text> 
 	  </xsl:text>
 	  <xsl:for-each select="f:entry[not(f:category/@label = 'aboutme')][1]/
