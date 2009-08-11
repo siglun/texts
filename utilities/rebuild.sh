@@ -34,7 +34,9 @@ xsltproc utilities/generate_news.xsl files_sorted.xml > news.xml
 #
 # Creates the atom feed
 #
-xsltproc utilities/filter.xsl files_sorted.xml > files.atom
+xsltproc utilities/filter.xsl files_sorted.xml > atom_feed.atom
+
+# the feed files.atom is now defunct.
 
 #
 # cleaning up

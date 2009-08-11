@@ -19,7 +19,9 @@
 	  href='/css-style/html.css'
 	  type="text/css" />
 
-    <link href="./files.atom" type="application/atom+xml" rel="alternate"/>
+    <link href="http://feeds.feedburner.com/SigfridLundbergsStuff?format=xml"
+	  type="application/atom+xml"
+	  rel="alternate"/>
 
 
   </head>
@@ -35,11 +37,12 @@
       ?>
 
       <p>
-	<a href="/files.atom" type="application/atom+xml" class="feed-link">
+	<a href="http://feeds.feedburner.com/SigfridLundbergsStuff?format=xml"
+	   type="application/atom+xml"
+	   class="feed-link">
 	  <img src="/images/Newsfeed-Atom.png" 
 	       alt="Subscribe to Stuff from Sigfrid Lundberg"
-	       border="0"/>
-	  Subscribe to more Stuff</a>
+	       border="0"/>Subscribe to all my Stuff</a>
       </p>
 
       <?php

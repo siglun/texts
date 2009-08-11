@@ -5,14 +5,14 @@
   </author>
   <title>Sigfrid Lundberg's Stuff</title>
   <id>http://sigfrid-lundberg.se/files.atom</id>
-  <link rel="self" href="/files.atom"/>
-  <updated>2006-06-08T00:03:00+01:00</updated>
+  <link rel="self" href="http://sigfrid-lundberg.se/files.atom"/>
+  <updated>2009-08-11T07:23:23+01:00</updated>
   <entry>
   <author>
     <name>Sigfrid Lundberg</name>
   </author>
   <title>Changed URI for my feed, and a forum for discussions</title>
-  <link href="/entries/2009/08/features/"/>
+  <link href="http://sigfrid-lundberg.se/entries/2009/08/features/"/>
   <summary>Having actively maintained my site for some, I've decided make a
   few changes...</summary>
   <content type="xhtml">
@@ -54,7 +54,7 @@
     <name>Sigfrid Lundberg</name>
   </author>
   <title>On Divorce and Unemployment Benefit Societies</title>
-  <link href="/entries/2009/08/trends/"/>
+  <link href="http://sigfrid-lundberg.se/entries/2009/08/trends/"/>
   <summary>Here I analyse of some data retrieved from Google Insight
   Search. This little study is inspired by the study performed by Hyunyoung
   Choi &amp; Hal Varian, Google Research, were they were able to show that it
@@ -378,7 +378,7 @@
     <name>Sigfrid Lundberg</name>
   </author>
   <title>What does Free mean for The Library</title>
-  <link href="/entries/2009/07/blogging/"/>
+  <link href="http://sigfrid-lundberg.se/entries/2009/07/blogging/"/>
   <summary>Blogging is out, and the new trend is to tweet in
   Twitters. Syndication is out as well, since Google steals your content and
   you cannot make money on journalism. How can we survive when all media are
@@ -521,7 +521,7 @@
     <name>Sigfrid Lundberg</name>
   </author>
   <title>Wagging the long tail</title>
-  <link href="/entries/2009/07/indexing_philosophy/"/>
+  <link href="http://sigfrid-lundberg.se/entries/2009/07/indexing_philosophy/"/>
   <summary>The problem with providing an OK Amazoogle experience is that we
   might fail in providing advanced services to patrons that have special
   needs.</summary>
@@ -578,7 +578,7 @@
     <name>Sigfrid Lundberg</name>
   </author>
   <title>On being an international commuter</title>
-  <link href="/entries/2009/07/commuting/"/>
+  <link href="http://sigfrid-lundberg.se/entries/2009/07/commuting/"/>
   <summary>The last four years I've spent more than two hours a day on
   trains. And usually, but not always less than three. Furthermore, I go from
   one nation to another and participate in the in the digital dissemination of
@@ -749,7 +749,7 @@
     <name>Sigfrid Lundberg</name>
   </author>
   <title>Why I love XSLT extension functions</title>
-  <link href="/entries/2009/07/xslt_extensions/"/>
+  <link href="http://sigfrid-lundberg.se/entries/2009/07/xslt_extensions/"/>
   <summary>xslt extensions allow you to define xpath functions and extension
   elements. That makes it easy for you to perform tasks within xslt that are
   just only theoretically possible to do.</summary>
@@ -814,7 +814,7 @@
     <name>Sigfrid Lundberg</name>
   </author>
   <title>The description and encoding of structure</title>
-  <link href="/entries/2009/07/structure/"/>
+  <link href="http://sigfrid-lundberg.se/entries/2009/07/structure/"/>
   <summary>Much metadata is fairly stright forward. A book does have a title
   and an author. That's usually no big deal. We've been able to handle that
   for centuries. A digital book has chapters, and everything you might want to
@@ -919,7 +919,7 @@
     <name>Sigfrid Lundberg</name>
   </author>
   <title>Will the research libraries play a role in e-science</title>
-  <link href="/entries/2009/07/escience/"/>
+  <link href="http://sigfrid-lundberg.se/entries/2009/07/escience/"/>
   <summary>I was asked to participate in an e-science pilot project.  The work
   in the project has been food for thought for me. Will libraries be a part of
   a future eScience infrastructure?</summary>
@@ -1000,7 +1000,7 @@
     <name>Sigfrid Lundberg</name>
   </author>
   <title>The predator rests on its prey</title>
-  <link href="/entries/2009/07/victory/"/>
+  <link href="http://sigfrid-lundberg.se/entries/2009/07/victory/"/>
   <summary>I've seen this image before. An excavator has demolished a
   building, and has then proudly been parked on top of the remnants.</summary>
   <content type="xhtml">
@@ -1039,7 +1039,7 @@
     <name>Sigfrid Lundberg</name>
   </author>
   <title>XML on the web, Client Side XSLT and Google</title>
-  <link href="/entries/2009/07/client_side_xslt/"/>
+  <link href="http://sigfrid-lundberg.se/entries/2009/07/client_side_xslt/"/>
   <summary>The market has forced the major browser manufacturers to converge
   on standards. But why are the search engines lagging behind? Browsers are
   capable of AJAX and advanced XML processing, but the search engines are
@@ -1129,7 +1129,7 @@
   </author>
   <title>OpenSearch, RSS and OPML as XML Webservices for information
   retrieval</title>
-  <link href="/entries/2009/07/opml/"/>
+  <link href="http://sigfrid-lundberg.se/entries/2009/07/opml/"/>
   <summary>At the Royal Library we have been working with the building of an
   infrastructure for publishing of digitized material. It is collections of
   digital images, usually with very little textual content to go with it. It
@@ -1241,7 +1241,7 @@
     <name>Sigfrid Lundberg</name>
   </author>
   <title>About this site</title>
-  <link href="/entries/2009/07/colophon/"/>
+  <link href="http://sigfrid-lundberg.se/entries/2009/07/colophon/"/>
   <summary>I'm a terrible nerd. To use software like content management
   systems or blog software is unthinkable for me. There are many ways to build
   a site like this. I have chosen one that maximizes the use of angle
@@ -1345,7 +1345,7 @@
     <name>Sigfrid Lundberg</name>
   </author>
   <title>Min mor</title>
-  <link href="/entries/2009/06/mor/"/>
+  <link href="http://sigfrid-lundberg.se/entries/2009/06/mor/"/>
   <summary>Min mor var 43 år gammal när hon födde mig 1956. Alltså föddes hon
   själv 1913, året innan första världskriget bröt ut. Nu är hon 96, och lever,
   som hon säger, på lånad tid. Tid, det är något som hon tar på största
@@ -1468,7 +1468,7 @@
     <uri>http://www.sigfrid-lundberg.se/</uri>
   </author>
   <title>My first serious experience with ATOM</title>
-  <link href="/entries/2009/06/atom/"/>
+  <link href="http://sigfrid-lundberg.se/entries/2009/06/atom/"/>
   <summary>You don't really understand a document format until you've manually
   encoded some documents, and written the software to parse and use it for
   something useful. This somewhat refurbished version of my web site is to a
@@ -1565,7 +1565,7 @@
     <name>Sigfrid Lundberg</name>
   </author>
   <title>Why do I keep this site?</title>
-  <link href="/entries/2009/06/why/"/>
+  <link href="http://sigfrid-lundberg.se/entries/2009/06/why/"/>
   <summary>Having had a web site for about 15 years, I start to wonder why I
   keep it in the first place.</summary>
   <content type="xhtml">
@@ -1649,7 +1649,7 @@
   <entry>
     <title>List of publications by Sigfrid Lundberg
     </title>
-    <link href="/2009/cv/publications.html"/>
+    <link href="http://sigfrid-lundberg.se/2009/cv/publications.html"/>
     <summary>Both peer reviewed articles, other articles and some
     presentations</summary>
     <dc:date>2009</dc:date>
@@ -1659,7 +1659,7 @@
   </entry>
   <entry>
     <title>Kortfattat Curriculum Vitae: Sigfrid Lundberg</title>
-    <link href="/2009/cv/cv_sv.xml"/>
+    <link href="http://sigfrid-lundberg.se/2009/cv/cv_sv.xml"/>
     <category term="About me" label="aboutme"/>
     <summary>Ett CV är väldigt tråkigt att skriva</summary>
     <dc:date>2009</dc:date>
@@ -1671,7 +1671,7 @@
     <author>
       <name>Sigfrid Lundberg</name>
     </author>
-    <link href="/2008/clarin_adl/"/>
+    <link href="http://sigfrid-lundberg.se/2008/clarin_adl/"/>
     <summary>En presentation jag höll om Arkiv før dansk litteratur (ADL)</summary>
     <category term="XML processing" label="xmlprocessing"/>
     <category term="Text encoding" label="textencoding"/>
@@ -1686,7 +1686,7 @@
     <author>
       <name>Sigfrid Lundberg</name>
     </author>
-    <link href="/2008/dighum/digital_humanities.xml"/>
+    <link href="http://sigfrid-lundberg.se/2008/dighum/digital_humanities.xml"/>
     <summary>This note discusses different initiatives as regards providing
     access to resources and tools aimed at researchers within the
     humanities. Since the general breakthrough of search services like Google,
@@ -1709,7 +1709,7 @@
     <author>
       <name>Sigfrid Lundberg</name>
     </author>
-    <link href="/2007/hidden_web/usage_vs_dissemination_method.html"/>
+    <link href="http://sigfrid-lundberg.se/2007/hidden_web/usage_vs_dissemination_method.html"/>
     <summary>I compared the usage of Digital material in relation to whether
     the material was hidden away in the the library opac or published on our
     web site. The result was as expected a disappointment for those who regard
@@ -1731,7 +1731,7 @@
     <author>
       <name>Sigfrid Lundberg</name>
     </author>
-    <link href="/2007/search-statistics/user-expectations.html"/>
+    <link href="http://sigfrid-lundberg.se/2007/search-statistics/user-expectations.html"/>
     <summary>What can deduced by analyses of the search terms entered into the
     search field on the home page of a large modern library? Could we possibly
     regard this form as the digital library´s information desk, and the
@@ -1755,7 +1755,7 @@
     <author>
       <name>Sigfrid Lundberg</name>
     </author>
-    <link href="/2006/google/google-vs-thelibrary.html"/>
+    <link href="http://sigfrid-lundberg.se/2006/google/google-vs-thelibrary.html"/>
     <summary>En diskussion om Bibliotekets förhållande till sökmaskinen
     Google</summary>
     <category term="The Library" label="thelibrary"/>
@@ -1770,7 +1770,7 @@
     <author>
       <name>Sigfrid Lundberg</name>
     </author>
-    <link href="/2005/Oct_28/"/>
+    <link href="http://sigfrid-lundberg.se/2005/Oct_28/"/>
     <summary>En superkort presentation om Ediffah, hållen vid
     Ediffahprojektets avslutning på Kungl. Biblioteket i Stockholm den 28
     oktober 2005</summary>
@@ -1787,7 +1787,7 @@
     </author>
     <summary>En föreläsning om Internets historia, Det Digitala Biblioteket
     och Bibliotekets historia.</summary>
-    <link href="/2005/bivil-digitala-bibliotek/"/>
+    <link href="http://sigfrid-lundberg.se/2005/bivil-digitala-bibliotek/"/>
     <dc:date>2005</dc:date>
     <updated>2009-06-09T22:06:00+01:00</updated>
     <category term="Digital libraries" label="digitallibraries"/>
@@ -1800,7 +1800,7 @@
     <author>
       <name>Sigfrid Lundberg</name>
     </author>
-    <link href="/2005/digital-preservation/"/>
+    <link href="http://sigfrid-lundberg.se/2005/digital-preservation/"/>
     <summary>Notes to presentation held in Lund 7 June 2005. The audience was
     a group of people from China</summary>
     <category term="Digital preservation" label="preservation"/>    
@@ -1813,7 +1813,7 @@
   <entry>
     <title>Ediffah – En digital infrastruktur för forskningsbibliotekens
     arkiv- och handskriftssamlingar</title>
-    <link href="/2004/arkiv_bibliotek/"/>
+    <link href="http://sigfrid-lundberg.se/2004/arkiv_bibliotek/"/>
     <author>
       <name>Sigfrid Lundberg</name>
     </author>
@@ -1837,7 +1837,7 @@
     <author>
       <name>Sigfrid Lundberg</name>
     </author>
-    <link href="/2004/biblioteket/"/>
+    <link href="http://sigfrid-lundberg.se/2004/biblioteket/"/>
     <summary>Biblioteken existerar för att det finns användare som är beredda
     att betala för deras tjänster. Visserligen betalar man i regel via
     skattesedeln och inte med sitt betalkortet, men principen är densamma.
@@ -1860,7 +1860,7 @@
     <author>
       <name>Sigfrid Lundberg</name>
     </author>
-    <link href="/2004/digitalisering/position.pdf"/>
+    <link href="http://sigfrid-lundberg.se/2004/digitalisering/position.pdf"/>
     <summary>En diskussion av vilka funktioner ett bra textarkiv bör, och vad
     digitalisering bör innebära.</summary>
     <category term="Digital libraries" label="digitallibraries"/>
@@ -1878,7 +1878,7 @@
     <summary>En presentation om digitalisering och digitalt bevarande i
     Lund. Jag tror att jag höll den vid ett stort möte på Kungl. Biblioteket i
     Stockholm.</summary>
-    <link href="/2004/digitalisering/presentation_04-11-04.html"/>
+    <link href="http://sigfrid-lundberg.se/2004/digitalisering/presentation_04-11-04.html"/>
     <category term="Digital preservation" label="preservation"/>
     <category term="Digitization" label="digitization"/>
     <dc:date>2004</dc:date>
@@ -1894,7 +1894,7 @@
     <author>
       <name>Sigfrid Lundberg</name>
     </author>
-    <link href="/2004/metadata_makes_the_world/"/>
+    <link href="http://sigfrid-lundberg.se/2004/metadata_makes_the_world/"/>
     <summary>Sara Kjellberg och jag höll ett antal kurser om metadata
     o. XML. detta är vår presentation. Vi höll det inom ramen för BTJs
     kursutbud.</summary>
@@ -1910,7 +1910,7 @@
     <author>
       <name>Sigfrid Lundberg</name>
     </author>
-    <link href="/2004/navet/navet.html"/>
+    <link href="http://sigfrid-lundberg.se/2004/navet/navet.html"/>
     <summary>En recension av KB-utredningen, SOU 2003:129</summary>
     <category term="The Library" label="thelibrary"/>
     <category term="Reviews" label="reviews"/>
@@ -1925,7 +1925,7 @@
     </author>
     <summary>En diskussion av Zornmärket och
     riksspelmannainstitutionen och dess roll i svensk folkmusik</summary>
-    <link href="/2004/zorn_etc/"/>
+    <link href="http://sigfrid-lundberg.se/2004/zorn_etc/"/>
     <category term="Music, language &amp; literature" label="musiclanglit"/>
     <dc:date>2004</dc:date>
     <updated>2009-06-09T22:06:00+01:00</updated>
@@ -1934,7 +1934,7 @@
   <entry>
     <title>Implementering av OAI-PMH i ett bibliotekssystem -- Några ord på
     vägen</title>
-    <link href="/2003/axiell-oai/oai-opac.pdf"/>
+    <link href="http://sigfrid-lundberg.se/2003/axiell-oai/oai-opac.pdf"/>
     <summary>Syftet med denna text är att ge lite kött på benen om vad OAI-PMH
     är, vad det kan användas till och hur det skulle kunna integreras i ett
     bibliotekssystem. Det är inte en ersättning för andra dokument utan skall
@@ -1964,7 +1964,7 @@
       <name>Tomas Schönthal</name>
     </author>
     <summary>En utvärdering av digital library produkten Keystone DLS (TKL)</summary>
-    <link href="/2003/def-test/"/>
+    <link href="http://sigfrid-lundberg.se/2003/def-test/"/>
     <updated>2009-06-09T08:23:00+01:00</updated>
     <dc:date>2003</dc:date>
     <category term="Digital collections" label="digitalcollections"/>
@@ -1983,7 +1983,7 @@
     "pek" för att beskriva en kommunikation, bland akademiker var det på
     1980-talet slang för "uppsats" och på Långholmen var det en text som
     skickades med linbana längs med fängelsemurarna.</summary>
-    <link href="/2003/pek/"/>
+    <link href="http://sigfrid-lundberg.se/2003/pek/"/>
     <dc:date>2003</dc:date>
     <updated>2009-06-09T20:25:00+01:00</updated>
     <category term="Music, language &amp; literature" label="musiclanglit"/>
@@ -2000,7 +2000,7 @@
     platser. Vad skall man då göra åt saken? Vad är det för grundläggande
     designproblem som gör att organisationer vilka underhåller länksamlingar
     av olika slag tvingas bära en allt tyngre börda?</summary>
-    <link href="/2003/urnar_och_digitala_bibliotek/"/>
+    <link href="http://sigfrid-lundberg.se/2003/urnar_och_digitala_bibliotek/"/>
     <dc:date>2003</dc:date>
     <updated>2009-06-09T20:36:00+01:00</updated>
     <category term="Digital libraries" label="digitallibraries"/>
@@ -2012,7 +2012,7 @@
     <author>
       <name>Sigfrid Lundberg</name>
     </author>
-    <link href="/2002/DRH2002/toc.html"/>
+    <link href="http://sigfrid-lundberg.se/2002/DRH2002/toc.html"/>
     <summary>In this lecture, I discussed the
     experiences gained by the development of a specific service, which, using
     a collection of detailed XML descriptions, provides its users access to a
@@ -2037,7 +2037,7 @@
     <author>
       <name>Sigfrid Lundberg</name>
     </author>
-    <link href="/2002/Laurentius/laurentius.pdf"/>
+    <link href="http://sigfrid-lundberg.se/2002/Laurentius/laurentius.pdf"/>
     <summary>This note has three aims. First it discusses the experiences
     gained by the development of a specific service, which, using a collection
     of detailed XML descriptions, provides its users access to a collection
@@ -2062,7 +2062,7 @@
     <author>
       <name>Sigfrid Lundberg</name>
     </author>
-    <link href="/2002/DigitaliseringsPolicy/digitaliserings_policy.pdf"/>
+    <link href="http://sigfrid-lundberg.se/2002/DigitaliseringsPolicy/digitaliserings_policy.pdf"/>
     <summary>Digital arkivering är att bereda serverplats för information om
     oss, vår tid och vår historia för våra barn och deras efterkommande. Detta
     dokument beskriver förutsättningarna för digitalisering, lagring och
@@ -2092,7 +2092,7 @@
     <author>
       <name>Tomas Schönthal</name>
     </author>
-    <link href="/2002/Scripta/"/>
+    <link href="http://sigfrid-lundberg.se/2002/Scripta/"/>
     <summary>This document specifies the metadata once used in the Lund university
     dissertation database.</summary>
     <category term="Digital collections" label="digitalcollections"/>
@@ -2105,7 +2105,7 @@
   <entry>
     <title>XML -- en mjuk start för biblioteksfolk Mitt ständigt ofärdiga
     undervisningsmaterial (...och en del annat)</title>
-    <link href="/2003/XMLforLibrarians/"/>
+    <link href="http://sigfrid-lundberg.se/2003/XMLforLibrarians/"/>
 
     <summary>Denna text syftar till att ge en överblick över vissa områden av
     det digitala biblioteksområdet vilka är stadda i snabb utveckling. En
@@ -2130,7 +2130,7 @@
     <author>
       <name>Sigfrid Lundberg</name>
     </author>
-    <link href="/2001/studera.nu/documentation/studera.pdf"/>
+    <link href="http://sigfrid-lundberg.se/2001/studera.nu/documentation/studera.pdf"/>
     <summary>This is a description of the Studera.NU search engine in the very
     first version. The search engine carries focused information, all of which is
     indexed manually by content providers. The indexing information is
@@ -2152,7 +2152,7 @@
     <author>
       <name>Sigfrid Lundberg</name>
     </author>
-    <link href="/2000/delft/"/>
+    <link href="http://sigfrid-lundberg.se/2000/delft/"/>
     <summary>This is unfortunately unpublished, but it presents most one of
     the most extensive datasets on the content of HTML embedded metadata which
     I collected while working with the Nordic Webindex.</summary>
@@ -2173,7 +2173,7 @@
     <author>
       <name>Lars Nooden</name>
     </author>
-    <link href="/1999/web_masters_guide/"/>
+    <link href="http://sigfrid-lundberg.se/1999/web_masters_guide/"/>
     <summary>As the title indicates, this is a note on how to be indexed by
     search engines. It is obsolete. Please note that it does not contain
     anything about search engine optimization in the modern evil
@@ -2193,7 +2193,7 @@
     <author><name>Sebastian Hammer</name></author>
     <author><name>Kenneth Holmlund</name></author>
     <author><name>Sigfrid Lundberg</name></author>
-    <link href="/1998/nwi2/"/>
+    <link href="http://sigfrid-lundberg.se/1998/nwi2/"/>
     <summary>The Nordic Web Index (NWI) project is a collaborative effort
     across the Nordic countries, aiming at providing a free Worldwide Web
     search service to the general public in the countries involved. NWI has
@@ -2212,7 +2212,7 @@
   <entry>
     <title>En arkitektur för ett distribuerat system för spridning av
     forskningsinformation</title>
-    <link href="/1998/safari/cris.pdf"/>
+    <link href="http://sigfrid-lundberg.se/1998/safari/cris.pdf"/>
     <summary>Arkitekturen för ett nätverk av tjänster för spridning av
     forskningsinformation beskrivs. Nätverket tillåter distribuerat underhåll
     av såväl data som metadata. Till nätverket kan anslutas såväl
@@ -2234,7 +2234,7 @@
   <entry>
     <title>A regional distributed WWW search and indexing service - the DESIRE
     way</title>
-    <link href="/1998/www7/"/>
+    <link href="http://sigfrid-lundberg.se/1998/www7/"/>
     <summary>In an attempt to implement a regional search engine we have
     created an open, metadata aware system for distributed, collaborative
     WWW-indexing. The system has three main components: a harvester (for
@@ -2262,7 +2262,7 @@
     <author>
       <name>Sigfrid Lundberg</name>
     </author>
-    <link href="/1997/SMN_metadata/smn_metadata.pdf"/>
+    <link href="http://sigfrid-lundberg.se/1997/SMN_metadata/smn_metadata.pdf"/>
     <summary>This paper outlines a combination of the Dublin Core metadata
     embedded in HTML metadata tags and the GILS Z39.50 profile used for
     information retrieval. It is a combination would solve the distributed
@@ -2281,7 +2281,7 @@
     <author>
       <name>Sigfrid Lundberg</name>
     </author>
-    <link href="/1997/kultur_naet_sverige/"/>
+    <link href="http://sigfrid-lundberg.se/1997/kultur_naet_sverige/"/>
     <summary>En recension av IT i kulturens tjänst, SOU 1997:14 som i mina
     ögon vid den tidpunkten var en fullständigt överflödig utredning. Här
     fanns alla möjligheter att börja arbeta för en konvergens när det gäller
@@ -2302,7 +2302,7 @@
     <author>
       <name>Allan Arvidson, The Royal Library</name>
     </author>
-    <link href="/1998/KulturArw3/archive-format-1.rtf"/>
+    <link href="http://sigfrid-lundberg.se/1998/KulturArw3/archive-format-1.rtf"/>
     <summary>This note describes a file format intended for the joint storage of
     objects retrieved from the World Wide Web and various kinds of meta
     information on those objects. The information includes the HTTP response
@@ -2324,7 +2324,7 @@
     <author>
       <name>Anders Ardö</name>
     </author>
-    <link href="/1996/nwi/press_release.html"/>
+    <link href="http://sigfrid-lundberg.se/1996/nwi/press_release.html"/>
     <summary>Ett konsortium av nordiska forskningsbibliotek och nätverksorgan
     presenterar Nordiskt Webindex, en nordisk söktjänst utvecklad i norden för
     en nordisk publik. I dag finns en experimentell tjänst offentligt

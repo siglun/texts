@@ -1964,6 +1964,47 @@
   <author>
     <name>Sigfrid Lundberg</name>
   </author>
+  <title>Changed URI for my feed, and a forum for discussions</title>
+  <link href="/entries/2009/08/features/"/>
+  <summary>Having actively maintained my site for some, I've decided make a
+  few changes...</summary>
+  <content type="xhtml">
+    <div xmlns="http://www.w3.org/1999/xhtml">
+      <p>Dear Reader!</p>
+
+      <p>I've got <a href="http://feeds.feedburner.com/SigfridLundbergsStuff?format=xml">a
+      new URI</a> for my ATOM feed. I appologize for the inconvenience. This
+      entry will be the only one available at the original one. Feed burner
+      provides so many advantages that I cannot ignore them. Just click on the
+      link above and subscribe, and you'll get my scribbles as usual. However,
+      I've got another new feature as well.</p>
+
+      <p>The really substantial responses I've got on this site I got from my
+      <a href="http://sigfrid-lundberg.se/images/jacob.shtml">colleague
+      Jacob</a> and <a href="http://sigfrid-lundberg.se/images/Gertrud_berger.shtml">my wife
+      Gertrud</a></p>
+
+      <p>Both agree that my note on <a href="http://sigfrid-lundberg.se/entries/2009/07/commuting/">commuting
+      is brilliant</a>. I'm grateful for that, but as far I can tell from the
+      download stats, they are the only ones who like. Then Jacob told me I
+      ought to have a forum for discussions in relation to my scribbles. Well,
+      then... I've added one of those nifty javascript based ones, <a href="http://disqus.com/">disqus.com</a>. Then Gertrud said: You'll
+      never find the time to moderate that. We'll see.</p>
+
+      <p>I guess it's more likely that it will be yet another of those
+      pathetic empty discussion things on the net.</p>
+
+    </div>
+  </content>
+  <dc:date>2009</dc:date>
+  <category label="structuralwebdesign" term="Structural web design"/>
+  <updated>2009-08-11T07:23:23+01:00</updated>
+  <published>2009-08-11T07:23:23+01:00</published>
+  <id>http://www.sigfrid-lundberg.se/entries/2009/08/features/</id>
+</entry><entry xmlns:dc="http://purl.org/dc/elements/1.1/">
+  <author>
+    <name>Sigfrid Lundberg</name>
+  </author>
   <title>On Divorce and Unemployment Benefit Societies</title>
   <link href="/entries/2009/08/trends/"/>
   <summary>Here I analyse of some data retrieved from Google Insight
