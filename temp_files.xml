@@ -2006,6 +2006,28 @@
   <author>
     <name>Sigfrid Lundberg</name>
   </author>
+  <title>OpenSearch -- A simple XML web service for information
+  retrieval</title>
+  <link href="/entries/2009/08/opensearch/"/>
+  <summary>A few weeks ago I demonstrated our navigation services. In that
+  entry I promised to tell you more about these services when they are are
+  more mature. Here is the story on the architecture of our new digitization
+  services.</summary>
+  <content type="xhtml">
+    <div xmlns="http://www.w3.org/1999/xhtml">
+
+    </div>
+  </content>
+  <dc:date>2009</dc:date>
+  <category label="xws" term="XML web services"/>
+  <updated>2009-08-12T21:42:34+01:00</updated>
+  <published>2009-08-12T20:57:47+01:00</published>
+  <id>http://www.sigfrid-lundberg.se/entries/2009/08/opensearch/</id>
+  <!-- $Id$ -->
+</entry><entry xmlns:dc="http://purl.org/dc/elements/1.1/">
+  <author>
+    <name>Sigfrid Lundberg</name>
+  </author>
   <title>On Divorce and Unemployment Benefit Societies</title>
   <link href="/entries/2009/08/trends/"/>
   <summary>Here I analyse of some data retrieved from Google Insight

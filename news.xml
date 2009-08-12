@@ -1,51 +1,34 @@
 <div xmlns="http://www.w3.org/1999/xhtml">
   <div>
-    <h1 style="font-family: sans-serif; width: 55%; float: left;text-align: left;">Changed URI for my feed, and a forum for discussions</h1>
+    <h1 style="font-family: sans-serif; width: 55%; float: left;text-align: left;">OpenSearch -- A simple XML web service for information
+  retrieval</h1>
     <p style="width: 38%; float: left;text-align: right">
       <em>
         <strong>
 		Sigfrid Lundberg's Stuff,
-	      2009-08-11</strong>
+	      2009-08-12</strong>
       </em>
     </p>
   </div>
   <div style="clear:both;"> </div>
   <div style="width:100%;">
     <div>
-      <p>Dear Reader!</p>
-
-      <p>I've got <a href="http://feeds.feedburner.com/SigfridLundbergsStuff?format=xml">a
-      new URI</a> for my ATOM feed. I appologize for the inconvenience. This
-      entry will be the only one available at the original one. Feed burner
-      provides so many advantages that I cannot ignore them. Just click on the
-      link above and subscribe, and you'll get my scribbles as usual. However,
-      I've got another new feature as well.</p>
-
-      <p>The really substantial responses I've got on this site I got from my
-      <a href="http://sigfrid-lundberg.se/images/jacob.shtml">colleague
-      Jacob</a> and <a href="http://sigfrid-lundberg.se/images/Gertrud_berger.shtml">my wife
-      Gertrud</a></p>
-
-      <p>Both agree that my note on <a href="http://sigfrid-lundberg.se/entries/2009/07/commuting/">commuting
-      is brilliant</a>. I'm grateful for that, but as far I can tell from the
-      download stats, they are the only ones who like it. Then Jacob told me I
-      ought to have a forum for discussions in relation to my scribbles. Well,
-      then... I've added one of those nifty javascript based ones, <a href="http://disqus.com/">disqus.com</a>. Then Gertrud said: You'll
-      never find the time to moderate that. We'll see.</p>
-
-      <p>I guess it's more likely that it will be yet another of those
-      pathetic empty discussion things on the net.</p>
 
     </div>
     <p style="text-align: left;"><em><strong>Categories:</strong></em> 
-	  <a href="/subjects/colophon/">Colophon</a><br/><em><strong>
+	  <a href="/subjects/xws/">XML web services</a><br/><em><strong>
 		Permalink:
-	      </strong></em><a rel="bookmark" href="/entries/2009/08/features/">http://sigfrid-lundberg.se/entries/2009/08/features/</a></p>
+	      </strong></em><a rel="bookmark" href="/entries/2009/08/opensearch/">http://sigfrid-lundberg.se/entries/2009/08/opensearch/</a></p>
     <hr width="50%" align="center"/>
   </div>
   <div>
     <h1>Other, not yet obsolete stuff</h1>
     <table class="news">
+      <tr>
+        <td class="left">2009</td>
+        <td class="left"><a href="/entries/2009/08/features/"><em>Changed URI for my feed, and a forum for discussions</em></a><br/>Having actively maintained my site for some, I've decided make a
+  few changes...<br/><a href="/subjects/colophon/">Colophon</a></td>
+      </tr>
       <tr>
         <td class="left">2009</td>
         <td class="left"><a href="/entries/2009/08/trends/"><em>On Divorce and Unemployment Benefit Societies</em></a><br/>Here I analyse of some data retrieved from Google Insight
@@ -81,16 +64,6 @@
         <td class="left"><a href="/entries/2009/07/xslt_extensions/"><em>Why I love XSLT extension functions</em></a><br/>xslt extensions allow you to define xpath functions and extension
   elements. That makes it easy for you to perform tasks within xslt that are
   just only theoretically possible to do.<br/><a href="/subjects/xmlprocessing/">XML processing</a></td>
-      </tr>
-      <tr>
-        <td class="left">2009</td>
-        <td class="left"><a href="/entries/2009/07/structure/"><em>The description and encoding of structure</em></a><br/>Much metadata is fairly stright forward. A book does have a title
-  and an author. That's usually no big deal. We've been able to handle that
-  for centuries. A digital book has chapters, and everything you might want to
-  know may be in chapter two on page seventyfive. Or someone may tell you the
-  solution to your problems after a quarter of an hour in some video on
-  YouTube. Now, how do we cope with this?<br/><a href="/subjects/structuralwebdesign/">Structural web design</a>,
-	<a href="/subjects/metadata/">Metadata</a></td>
       </tr>
     </table>
   </div>
