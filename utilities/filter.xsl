@@ -8,6 +8,11 @@
 	       exclude-result-prefixes="exsl xsl f"
 	       version="1.0">
 
+  <!-- Makes a feed ready for publising 
+       Author: Sigfrid Lundberg (siggelundberg@gmail.com
+       $Id$
+  -->
+
   <xsl:output method="xml"
 	      indent="yes"
 	      encoding="UTF-8"/>
