@@ -14,9 +14,56 @@
   <div style="width:100%;">
     <div>
 
+      <p>This is my personal story of <em>'my'</em> part of the digitization
+      workflow of The Royal Library. There are a lot of people working on
+      this, and I'm only involved in the metadata processing &amp;
+      dissemination part. And within this area there are several persons
+      working; I'm not even the project leader.</p>
+
+      <div style="float: left; width: 70%; margin-left:0.5em;margin-right:0.5em;">
+	<a href="/entries/2009/08/opensearch/architecture.png">
+	  <img src="/entries/2009/08/opensearch/architecture.png" width="100%" alt="Fig. 1."/>
+	</a>
+	<p>
+	  <small>Fig. 1.</small>
+	</p>
+      </div>
+
+      <p>This entry is the second part of something that undoubtedly will
+      become a series, because there are so much to consider in a beast like
+      this.</p>
+
+      <p>What I'm not going to talk about today is the image processing,
+      because when we started this that part of the system was a boundary
+      condition; it was there already. What we're up to is the processing of
+      metadata, and the dissemination of them on the Worldwide Web.</p>
+
+
+      <div style="float: right; width: 70%; margin-left:0.5em;margin-right:0.5em;">
+	<a href="/entries/2009/08/opensearch/architecture2.png">
+	  <img src="/entries/2009/08/opensearch/architecture2.png" width="100%" alt="Fig. 2."/>
+	</a>
+	<p>
+	  <small>Fig. 2.</small>
+	</p>
+      </div>
+
+      <div style="float: left; width: 70%; margin-left:0.5em;margin-right:0.5em;">
+	<a href="/entries/2009/08/opensearch/cool_uri.png">
+	  <img src="/entries/2009/08/opensearch/cool_uri.png" width="100%" alt="Fig. 3."/>
+	</a>
+	<p>
+	  <small>Fig. 3.</small>
+	</p>
+      </div>
+
+
+
+
     </div>
     <p style="text-align: left;"><em><strong>Categories:</strong></em> 
-	  <a href="/subjects/xws/">XML web services</a><br/><em><strong>
+	  <a href="/subjects/xws/">XML web services</a>,
+	    <a href="/subjects/metadataprocessing/">Metadata processing</a><br/><em><strong>
 		Permalink:
 	      </strong></em><a rel="bookmark" href="/entries/2009/08/opensearch/">http://sigfrid-lundberg.se/entries/2009/08/opensearch/</a></p>
     <hr width="50%" align="center"/>

@@ -39,7 +39,14 @@
 	</xsl:attribute>
       </xsl:if>
       <xsl:attribute name="href">
-	<xsl:value-of select="concat('http://sigfrid-lundberg.se',@href)"/>
+	<xsl:choose>
+	  <xsl:when test="contains(@href,'http')">
+	    <xsl:value-of select="@href"/>
+	  </xsl:when>
+	  <xsl:otherwise>
+	    <xsl:value-of select="concat('http://sigfrid-lundberg.se',@href)"/>
+	  </xsl:otherwise>
+	</xsl:choose>
       </xsl:attribute>
     </xsl:element>
   </xsl:template>
