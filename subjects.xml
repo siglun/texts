@@ -43,9 +43,6 @@
     <a href="/subjects/metadata/">Metadata</a>
   </li>
   <li>
-    <a href="/subjects/metadataprocessing/">Metadata processing</a>
-  </li>
-  <li>
     <a href="/subjects/musiclanglit/">Music, language &amp; literature</a>
   </li>
   <li>
@@ -71,9 +68,6 @@
   </li>
   <li>
     <a href="/subjects/xmlprocessing/">XML processing</a>
-  </li>
-  <li>
-    <a href="/subjects/xws/">XML web services</a>
   </li>
   <li>
     <a href="/subjects/z3950/">Z39.50</a>
