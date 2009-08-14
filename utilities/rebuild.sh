@@ -1,12 +1,18 @@
 #!/bin/sh
 
 #
+# Shell script for rebuilding the entire blog from source
+# Author: Sigfrid Lundberg (siggelundberg@gmail.com)
+# Last modified $Date$ by $Author$
+# $Id$
+
+#
 # We remove all subject menus
 #
 # rm -rf subjects
 
 #
-# The blog entryoids lives in entries hierarchy. We merge in them in the
+# The blog entrys lives in entries hierarchy. We merge in them in the
 # global feed
 #
 utilities/feeder \
@@ -46,3 +52,10 @@ xsltproc utilities/filter.xsl files_sorted.xml > atom_feed.atom
 #
 #rm temp_files.xml
 cp subjects.xml navigation.html
+
+#
+# $Log$
+# Revision 1.5  2009/08/14 15:20:33  sigfrid
+# no comments
+#
+#
