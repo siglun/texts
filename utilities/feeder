@@ -17,13 +17,15 @@ my $style_doc  = $parser->parse_file($transform_sheet);
 my $stylesheet = $xslt->parse_stylesheet($style_doc);
 
 
-my $atomfile   = '';
-my $directory  = '';
-my $debug      = '';
+my $atomfile    = '';
+my $directory   = '';
+my $debug       = '';
+my $show_hidden = '';
 
-my $result = GetOptions ("atomfile=s"  => \$atomfile,  
-			 "directory=s" => \$directory,
-			 "debug=s"     => \$debug);
+my $result = GetOptions ("atomfile=s"    => \$atomfile,  
+			 "directory=s"   => \$directory,
+			 "show_hidden=s" => \$show_hidden,
+			 "debug=s"       => \$debug);
 
 
 die "Invalid arguments" unless(-d $directory);
@@ -52,7 +54,7 @@ while(my $entryFile = <$find>) {
     $entryFile =~ m|(.+?)/([^/]+)$|;
     my $directory = $1;
     if(-f "$directory/hide") {
-	next unless $debug;
+	next unless $show_hidden;
     }
     open my($h), $entryFile;
     my $entry = $parser->parse_fh($h);

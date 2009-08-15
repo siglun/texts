@@ -6,7 +6,135 @@
   <title>Sigfrid Lundberg's Stuff</title>
   <id>http://sigfrid-lundberg.se/files.atom</id>
   <link rel="self" href="http://feeds.feedburner.com/SigfridLundbergsStuff?format=xml"/>
-  <updated>2009-08-11T08:15:39+01:00</updated>
+  <updated>2009-08-15T14:11:54+01:00</updated>
+  <entry>
+  <author>
+    <name>Sigfrid Lundberg</name>
+  </author>
+  <title>Forgive me, Father, I have sinned... I have moved a document</title>
+  <link href="http://sigfrid-lundberg.se/entries/2009/08/cooluris/"/>
+  <summary>The initiatives behind the persistent linking is trying to change
+  the status of old documents. From 404 to 200. We've had some success with
+  books and journals using ISBN and ISSN numbers. Why not try to copy this to
+  the web? But, alas!, library people have in general too little understanding
+  of the Worldwide Web. In particular those who advocate persistent
+  identifiers.</summary>
+  <content type="xhtml">
+    <div xmlns="http://www.w3.org/1999/xhtml">
+
+      <p>This comes to you as an afterthought. I'm a murderer. I have killed
+      other peoples links. Last week I committed a deadly sin. <a href="http://sigfrid-lundberg.se/entries/2009/08/features/">I've just
+      moved a document</a>. I've felt guilt for this for a week now.</p>
+
+      <p>Status 404 is a pain in the arse. You've found that link.  Apparently
+      it contained some vital information for you. And then it's gone...
+      We've all seen this. And since the end of the last century there have
+      been people working on it, many of them coming to from the library world
+      where I belong as well. The Germans seem to be most ardent. Followed by
+      the Finnish and us Swedes.</p>
+
+      <p>I full well understand people who try do something against URI rot.
+      Mind you, I've spent six years of my life maintaining harvesting robots.
+      However, I've URNs hated intensely since the end of the last century
+      when I realized that people who hardly knew anything about HTTP,
+      hypertext and markup commissioned technical solutions, such as URNs and
+      URN resolvers as futile fixes human and organizational problems.</p>
+
+      <p>Those who know me also know that I have very strong emotions about
+      persistence. These emotions started long before I had read Tim
+      Berners-Lee's brilliant paper <a href="http://www.w3.org/Provider/Style/URI">Cool URIs don't
+      change</a>. Tim did get one thing wrong in that paper: <em>URI's never
+      ever change, people move or remove the documents.</em></p>
+
+      <p>Once you've formulated a URI, it will exist until the end of
+      networked information as we know it (or until the end of the world,
+      whichever happens first).</p>
+
+      <p>By the end of the nineties, the <a href="http://www.kansalliskirjasto.fi/extra/muut/meta/">Nordic Metadata
+      Project</a> had commissioned a technical solution where we in the Nordic
+      Web index should identify all pages with DCMI metadata and in particular
+      those that where using encoding scheme URN for identifier.</p>
+
+      <p>As a matter of fact, I found a couple of thousands such &lt;meta&gt;
+      tags searching my databases. The only snag was that they all appeared on
+      two sites. <a href="http://www.runeberg.org/">Project Runeberg</a> had a
+      very neat collection with digitized books, each with unique URN embedded
+      in the cover page, and then isPartOf elements for each chapter.</p>
+
+      <p><a href="http://aronsson.se/">Lars Aronsson</a>, the main architect
+      behind Project Runeberg, had made his homework. However, most of the
+      DCMI identifiers with encoding scheme URN were found on the web site of
+      the <a href="http://www.kb.se/">Swedish National Library</a>. The only
+      snag here was that all of them contained the same value.</p>
+
+      <p>I worked for a couple of weeks with this, and result was useless
+      because of the incompetence of the very people who marketed these ideas
+      in Sweden. For some years to come, I sat on many meetings listening to
+      them talking about the status of URN:NBN in Sweden, and for each time I
+      heard about it my anger increased.</p>
+
+      <p>One document colleagues has wanted to discuss with me the last few
+      years has the following URI:</p>
+
+      <pre>
+	<a href="http://nbn-resolving.de/urn:nbn:de:gbv:7-isbn-90-6984-508-3-8">http://nbn-resolving.de/urn:nbn:de:gbv:7-isbn-90-6984-508-3-8</a>
+      </pre>
+
+      <p>It leads to Hans-Werner Hilse and Jochen Kothe, 2006.
+      <em>Implementing Persistent Identifiers</em>, published by <a href="http://www.cerl,org/">Consortium of European Research Libraries,
+      London</a> and <a href="www.knaw.nl/ecpa">European Commission on
+      Preservation and Access</a>.</p>
+
+      <p>Sending a HTTP HEAD request to the URI above yields the following
+      response:</p>
+
+      <pre>
+	HEAD <a href="http://nbn-resolving.de/urn:nbn:de:gbv:7-isbn-90-6984-508-3-8">http://nbn-resolving.de/urn:nbn:de:gbv:7- ...-8</a> --&gt; 302 Found
+	HEAD <a href="http://resolver.sub.uni-goettingen.de/purl/?isbn-90-6984-508-3">http://resolver ... 508-3</a> --&gt; 307 Temporary Redirect
+	HEAD <a href="http://webdoc.sub.gwdg.de/edoc/ah/2006/hilse_kothe/urn%3Anbn%3Ade%3Agbv%3A7-isbn-90-6984-508-3-8.pdf">http://webdoc.sub. ...3-8.pdf</a> --&gt; 200 OK
+	Connection: close
+	Date: Sat, 15 Aug 2009 11:16:15 GMT
+	Accept-Ranges: bytes
+	ETag: "7499f564-92b7f-f0dca280"
+	Server: Apache
+	Content-Length: 600959
+	Content-Type: application/pdf
+	Last-Modified: Tue, 12 Dec 2006 15:28:58 GMT
+	Client-Date: Sat, 15 Aug 2009 11:16:01 GMT
+	Client-Peer: 134.76.9.3:80
+	Client-Response-Num: 1
+      </pre>
+
+      <p>Obviously people in Germany love maintaining resolution
+      services. First there is this global one at DNB, Deutsche
+      Nationalbibliothek, and then the local one at Göttingen.</p>
+
+      <p>It does not help them very much, though. I've been through <a href="http://www.google.com/search?hl=en&amp;q=link%3Anbn-resolving.de%2Furn%3Anbn%3Ade%3Agbv%3A7-isbn-90-6984-508-3-8&amp;btnG=Search">all
+      links pointing to this booklet</a>. Only four out of fifteen points to
+      the canonical source. To put this another way. Whenever Gesellschaft für
+      wissenschaftliche Datenverarbeitung moves their documents, three quarter
+      of the links pointing to them are gone.</p>
+
+      <p>I have tried for hours to find any document in Google Scholar with a
+      reference pointing to the Finnish URN:NBN resolver. If there are any,
+      I ensure you that they never appear in papers with any impact.</p>
+
+      <p>The money spent on maintaining the resolvers doesn't help. A complete
+      waste of both time and Euros if you ask me. The PI is dead concept,
+      promoted by organizations who fail to learn from experience. It is
+      completely incompatible with modern thinking on web technologies, and in
+      particular semantic web and annotation and navigation of complex digital
+      resources. Sorry, I felt the anger boiling up again.</p>
+
+      <p>Forgive me, Father, I have sinned... I have moved a document.</p>
+
+    </div>
+  </content>
+  <dc:date>2009</dc:date>
+  <category label="structuralwebdesign" term="Structural web design"/>
+  <updated>2009-08-15T14:11:54+01:00</updated>
+  <id>http://www.sigfrid-lundberg.se/entries/2009/08/cooluris/</id>
+</entry>
   <entry>
   <author>
     <name>Sigfrid Lundberg</name>
