@@ -2033,13 +2033,13 @@
       However, I've hated URNs intensely since the end of the last century
       when I realized that people who hardly knew anything about HTTP,
       hypertext and markup commissioned technical solutions, such as URNs and
-      URN resolvers as futile fixes human and organizational problems.</p>
+      URN resolvers as futile fixes to human and organizational problems.</p>
 
       <p>Those who know me also know that I have very strong emotions about
       persistence. These emotions started long before I had read Tim
       Berners-Lee's brilliant paper <a href="http://www.w3.org/Provider/Style/URI">Cool URIs don't
       change</a>. Tim did get one thing wrong in that paper: <em>URI's never
-      ever change, people move or remove the documents.</em></p>
+      ever change, people move (or remove) the documents.</em></p>
 
       <p>Once you've formulated a URI, it will exist until the end of
       networked information as we know it (or until the end of the world,
@@ -2053,8 +2053,9 @@
       <p>As a matter of fact, I found a couple of thousands such &lt;meta&gt;
       tags searching my databases. The only snag was that they all appeared on
       two sites. <a href="http://www.runeberg.org/">Project Runeberg</a> had a
-      very neat collection with digitized books, each with unique URN embedded
-      in the cover page, and then isPartOf elements for each chapter.</p>
+      very neat collection with digitized books, each with a unique URN
+      embedded in the cover page, and then <kbd>isPartOf</kbd> elements for
+      each chapter.</p>
 
       <p><a href="http://aronsson.se/">Lars Aronsson</a>, the main architect
       behind Project Runeberg, had made his homework. However, most of the
@@ -2106,7 +2107,7 @@
 
       <p>It does not help them very much, though. I've been through <a href="http://www.google.com/search?hl=en&amp;q=link%3Anbn-resolving.de%2Furn%3Anbn%3Ade%3Agbv%3A7-isbn-90-6984-508-3-8&amp;btnG=Search">all
       links pointing to this booklet</a>. Only four out of fifteen points to
-      the canonical source. To put this another way. Whenever Gesellschaft für
+      the canonical source. To put this another way: Whenever Gesellschaft für
       wissenschaftliche Datenverarbeitung moves their documents, three quarter
       of the links pointing to them are gone.</p>
 
