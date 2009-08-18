@@ -11,7 +11,8 @@
   <author>
     <name>Sigfrid Lundberg</name>
   </author>
-  <title>Forgive me, Father, I have sinned... I have moved a document</title>
+  <title>Forgive me, Father, for I have sinned... I have moved a
+  document</title>
   <link href="http://sigfrid-lundberg.se/entries/2009/08/cooluris/"/>
   <summary>The initiatives behind the persistent linking is trying to change
   the status of old documents. From 404 to 200. We've had some success with
@@ -22,9 +23,10 @@
   <content type="xhtml">
     <div xmlns="http://www.w3.org/1999/xhtml">
 
-      <p>This comes to you as an afterthought. I'm a murderer. I have killed
-      other peoples' links. Last week I committed a deadly sin. <a href="http://sigfrid-lundberg.se/entries/2009/08/features/">I've just
-      moved a document</a>. I've felt guilt for this for a week now.</p>
+      <p>This comes to you as an afterthought. I killed other peoples' links
+      when <a href="http://sigfrid-lundberg.se/entries/2009/08/features/">I
+      last week moved a document</a>. I've felt guilt for this for a week
+      now.</p>
 
       <p>Status 404 is a pain in the arse. You've found that link.  Apparently
       it contained some vital information for you. And then it's gone...

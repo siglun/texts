@@ -67,9 +67,11 @@
 	</div>
 
 	<div class="right_box">
+
 	  <h1 style="font-family: sans-serif; width: 55%; float: left;text-align: left;">
 	    <xsl:value-of select="f:title"/>
 	  </h1>
+
 	  <p style="width: 38%; float: left;text-align: right">
 	    <em>
 	      <strong>
@@ -77,12 +79,30 @@
 		<xsl:value-of select="substring-before(f:updated,'T')"/>
 	      </strong>
 	    </em>
+	    <br/>
+	    <br/>
+	    <!-- AddThis Button BEGIN -->
+	    <a class="addthis_button"
+	       href="http://www.addthis.com/bookmark.php?v=250&amp;pub=siggelundberg">
+	      <img src="http://s7.addthis.com/static/btn/v2/lg-share-en.gif"
+		   width="125" 
+		   height="16" 
+		   alt="Bookmark and Share" 
+		   style="border:0"/></a>
+	      <script type="text/javascript" 
+		      src="http://s7.addthis.com/js/250/addthis_widget.js?pub=siggelundberg">
+		<xsl:text>
+		</xsl:text>
+	      </script>
+	      <!-- AddThis Button END -->
 	  </p>
 
 	  <div style="clear:both">
 	    <xsl:text>
 	    </xsl:text>
 	  </div>
+
+
 
 	  <xsl:apply-templates mode="copy" select="f:content[@type='xhtml']"/>
 
