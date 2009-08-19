@@ -47,7 +47,15 @@
 	   class="feed-link">
 	  <img src="/images/Newsfeed-Atom.png" 
 	       alt="Subscribe to Stuff from Sigfrid Lundberg"
-	       border="0"/>Subscribe to all my Stuff</a>
+	       border="0"/>Subscribe to my stuff</a><br/>
+
+	<a href="http://sigfridlundbergsstuff.disqus.com/latest.rss"
+	   type="application/rss+xml"
+	   class="feed-link">
+	  <img src="/images/Newsfeed-Atom.png" 
+	       alt="Subscribe to Stuff from Sigfrid Lundberg"
+	       border="0"/>Subscribe to discussion feed
+	</a>
       </p>
 
       <?php
