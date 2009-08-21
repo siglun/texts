@@ -1,0 +1,130 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<html xmlns="http://www.w3.org/1999/xhtml"><head><title>A quotations is much more than an extract: 
+	  Sigfrid Lundberg's Stuff
+	</title><meta http-equiv="Content-Type" content="text/html;charset=UTF-8"/><script src="/js/navigation.js" type="text/javascript"> 
+	  </script><script type="text/javascript">
+	      var disqus_developer=1;
+	    </script><meta http-equiv="Content-Type" content="text/html;charset=UTF-8"/><link rel="stylesheet" href="/css-style/html.css"/></head><body><div class="left_box"><div style="text-align:left;width=90%;"><!--#include virtual="/div_top_left_box.xml" --></div><div style="text-align:left;width=90%;"><p><a href="/">Home</a></p><!--#include virtual="/subjects.xml" --><!--#include virtual="/me.xml" --></div></div><div class="right_box"><h1 style="font-family: sans-serif; width: 55%; float: left;text-align: left;">A quotations is much more than an extract</h1><p style="width: 38%; float: left;text-align: right"><em><strong>Sigfrid Lundberg's Stuff 2009-08-17</strong></em><br/><br/><a class="addthis_button" href="http://www.addthis.com/bookmark.php?v=250&amp;pub=siggelundberg"><img src="http://s7.addthis.com/static/btn/v2/lg-share-en.gif" width="125" height="16" alt="Bookmark and Share" style="border:0"/></a><script type="text/javascript" src="http://s7.addthis.com/js/250/addthis_widget.js?pub=siggelundberg">
+		</script></p><div style="clear:both">
+	    </div>
+    <div>
+
+      <p><em>'We quote,'</em> <a href="http://books.google.com/books?id=duUQAAAAYAAJ&amp;pg=PA54&amp;ci=164%2C315%2C723%2C168&amp;source=bookclip">writes
+      Disraeli</a>, <em>'to save proving what has been demonstrated, referring
+      to where the proofs may be found.'</em> How much wisdom isn't embedded
+      in this single line! If we did not quote, then we had to explore or
+      invent everything anew ourselves. We do need methods of referring our
+      readers to the source. Worldwide web provides eminent facilities for
+      this, such as the hypertext link.</p>
+
+      <p>With a quote we can make our lives as writers more comfortable. We
+      can, as Disraeli continues, <em>'screen ourselves from the odium of
+      doubtful opinions, which the world would not willingly accept from
+      ourselves'</em>. How wonderful! I can thus market ideas that noone would
+      find credible when coming from me, or refer to ones that I would not
+      myself dare to publicize. The actual use of referencing belong to the
+      art of writing, which is distinct from the art of hypertext.</p>
+
+      <p>Google books provide writers with exellent facilities for hypertext
+      linking. For instance, you can cut a piece of text and put into your own
+      page. Like this:</p>
+
+      <a title="Quotation like much better things has its abuses One may quote till one compiles." href="http://books.google.com/books?id=duUQAAAAYAAJ&amp;pg=PA54&amp;ci=150%2C1240%2C753%2C64&amp;source=bookclip" style="margin-left:10%;text-align:center;">
+      <img src="http://books.google.com/books?id=duUQAAAAYAAJ&amp;pg=PA54&amp;img=1&amp;zoom=3&amp;hl=en&amp;sig=ACfU3U18wMKXLnxI-TBSM7IJ4VUTCz8bhQ&amp;ci=150%2C1240%2C753%2C64&amp;edge=0" border="0" alt="Quotation, like much better things, has its abuses. One may quote till one compiles."/>
+      </a>
+
+      <p>There are dangers of quoting, as Disraeli makes clear. When you you
+      cut and paste too much, you're no longer authoring. You're
+      compiling.</p>
+
+      <h2>The annotation anchor</h2>
+
+      <p>If you've followed my links above you've seen how one can link to a
+      page in a text, how we can highlight an area in an image and also quote
+      by cutting a snippet out of an image. The single points, areas or ranges
+      in an object which can be used for referencing is in my world called
+      <a href="http://scholar.google.se/scholar?q=%22annotation+anchor%22&amp;hl=en&amp;btnG=S%C3%B6k">annotation anchor</a>s.</p>
+
+      <p>In text we anchor a reference by using a unique sequence of tokens.
+      In this particular text, <em>unique sequence of tokens</em> could have
+      served the purpose, if I hadn't repeated here. The position of a
+      footnote could have been persistently anchored just by that sequence. In
+      hypertext, we typically use mark-up for the purpose. There is a drawback
+      in that, a user can only anchor his or her reference in the predefined
+      positions. However, if the text is completely tokenized each single word
+      is available for the purpose (see below). </p>
+
+      <h2>Persistence</h2>
+
+      <p>Any user interface searching and navigating parts of an object
+      requires new thinking when it comes to persistence policies.  The
+      libraries' HTTP hostile resolution ideas fails utterly. There is also <a href="http://scholar.google.se/scholar?q=%22annotation+anchor%22+persistence&amp;hl=en&amp;btnG=Sök">much
+      less research in the area</a>.</p>
+
+      <p>Very competent search and navigation systems, such as the <a href="http://www.cdlib.org/inside/projects/xtf/">eXtensible Text
+      Framework</a> (XTF) which delivers the following <a href="http://ark.cdlib.org/ark:/13030/ft8r29p2ss">http://ark.cdlib.org/ark:/13030/ft8r29p2ss</a>. Now,
+      here we have extremely good facilities to navigate and search the text,
+      facilities that goes far beyond what can be delivered by Google. But,
+      alas, <a href="http://www.cdlib.org/inside/diglib/ark/">ark based</a>
+      persistent identification layer isn't used here, and any linking or
+      quotations referring to parts of the document might die with this
+      particular applicaiton.</p>
+
+      <h2>Linked data</h2>
+
+      <p>I don't think anyone involved in current web development has escaped
+      the linked data band wagon. Linked data and the semantic web is believed
+      by many to become the core of Web 3.0. Tim Berners-Lee <a href="http://www.w3.org/DesignIssues/LinkedData.html">lists four
+      characteristics</a> of the web of data.</p>
+
+      <em>
+	<ol>
+	  <li>Use URIs as names for things</li> 
+	  <li>Use HTTP URIs so that people can look up those names.</li>
+	  <li>When someone looks up a URI, provide useful information, using the
+	  standards (RDF, SPARQL)</li>
+	  <li>Include links to other URIs. so that they can discover more
+	  things.</li>
+	</ol>
+      </em>
+
+      <p>Anyone who wants to join the band wagon by means anything else than
+      than good old cool URIs does so at his or her own risk. For,
+      <a href="http://books.google.com/books?id=duUQAAAAYAAJ&amp;pg=PA59&amp;ci=137%2C351%2C711%2C137&amp;source=bookclip">as Disraeli puts it:</a>
+      <em>'The art of quotation requires more delicacy in the practice than
+      those conceive who can see nothing more in a quotation than an
+      extract.'</em></p>
+
+      <h2>PS</h2>
+
+      <p>If you're interested in experimenting with mark-up based anchors,
+      I'll give a <a href="/entries/2009/08/quotations/add-id.xsl">XSLT-script</a> which
+      basically copies a XML but while doing so it adds an id attribute to
+      each element in your document. I find this extremely useful. You can
+      extend it to <a href="http://exslt.org/str/functions/tokenize/">tokenize
+      text</a> to add anchors on individual words.</p>
+
+      <p>I use such a script when creating search and navigation systems
+      involving XML text. Beware though that a document type may use generic
+      xml:id attributes, and sometimes a DTD or schema have another name for
+      id attribute and also it may not be permissible on all elements.</p>
+
+    </div>
+  <div style="clear:both"> 
+	    </div><div id="disqus_thread">
+	    </div><p style="margin-left:+1%;"><a href="http://disqus.com" class="dsq-brlink">blog comments powered
+	    by <span class="logo-disqus">Disqus</span></a></p></div><script type="text/javascript" src="http://disqus.com/forums/sigfridlundbergsstuff/embed.js">
+	  </script><noscript><a href="http://sigfridlundbergsstuff.disqus.com/?url=http://sigfrid-lundberg.se/entries/2009/08/quotations/">
+	      View the discussion thread
+	  </a></noscript><script type="text/javascript">//<!--
+	  (function() {
+	      var links = document.getElementsByTagName('a');
+	      var query = '?';
+	      for(var i = 0; i < links.length; i++) {
+		  if(links[i].href.indexOf('#disqus_thread') >= 0) {
+		      query += 'url' + i + '=' + encodeURIComponent(links[i].href) + '&';
+		  }
+	      }
+	      document.write('<script charset="utf-8" type="text/javascript" src="http://disqus.com/forums/sigfridlundbergsstuff/get_num_replies.js' + query + '"></' + 'script>');
+	  })();
+	  //--></script><!--#include virtual="/js/urchin.js" --></body></html>
