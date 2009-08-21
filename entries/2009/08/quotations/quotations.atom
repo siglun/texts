@@ -65,21 +65,23 @@
       <p>Any user interface for searching and navigating parts of an object
       requires new thinking when it comes to persistence policies.  The
       libraries' HTTP hostile resolution procedures fails utterly. There is
-      also much less research in the area <a
-      href="http://scholar.google.se/scholar?q=%22annotation+anchor%22+persistence&amp;hl=en&amp;btnG=Sök">persistence
+      also much less research in the area <a href="http://scholar.google.se/scholar?q=%22annotation+anchor%22+persistence&amp;hl=en&amp;btnG=Sök">persistence
       and annotation anchors</a>.</p>
 
-      <p>Very competent search and navigation systems, such as the <a
-      href="http://www.cdlib.org/inside/projects/xtf/">eXtensible Text
-      Framework</a> (XTF) from California Digital Library which delivers the
-      following <a
-      href="http://ark.cdlib.org/ark:/13030/ft8r29p2ss">http://ark.cdlib.org/ark:/13030/ft8r29p2ss</a>.
-      Now, here we have <em>extremely good</em> facilities for navigation and
-      search, facilities that goes far beyond what can be delivered by
-      Google. But, alas, <a href="http://www.cdlib.org/inside/diglib/ark/">ark
-      based</a> persistent identification layer isn't used here, and any
-      linking or quotations referring to parts of the document might die with
-      this particular implementation.</p>
+      <p>Very competent search and navigation systems, such as the <a href="http://www.cdlib.org/inside/projects/xtf/">eXtensible Text
+      Framework</a> (XTF) from California Digital Library, allow users to
+      search, navigate and link to arbitrary parts of a document. XTF is used
+      to deliver the following document: <a href="http://ark.cdlib.org/ark:/13030/ft8r29p2ss">http://ark.cdlib.org/ark:/13030/ft8r29p2ss</a>.</p>
+
+      <p>Now, here we have <em>extremely good</em> facilities for navigation
+      and search, facilities that goes far beyond what can be delivered by
+      Google. But, alas, the <a href="http://www.cdlib.org/inside/diglib/ark/">ark based</a> persistent
+      identification layer isn't used for those facilities, and any linking or
+      quotations or references pointing into the document might die
+      with this particular implementation.</p>
+
+      <p>The PI people lives with ideal of delivering documents, in the same
+      way as they were delivered at the lending counter 25 years ago.</p>
 
       <h2>Linked data</h2>
 
@@ -99,34 +101,32 @@
 	</ol>
       </em>
 
-      <p>Anyone who wants to jump the bandwagon by means anything else than
-      than good old cool URIs does so at his or her own risk, and I won't. For,
-      <a href="http://books.google.com/books?id=duUQAAAAYAAJ&amp;pg=PA59&amp;ci=137%2C351%2C711%2C137&amp;source=bookclip">as Disraeli puts it,</a>
-      <em>'the art of quotation requires more delicacy in the practice than
-      those conceive who can see nothing more in a quotation than an
-      extract.'</em></p>
+      <p>Anyone who wants to jump the bandwagon by means anything else on than
+      than good old cool URIs does so at his or her own risk, and I
+      won't. For, <a href="http://books.google.com/books?id=duUQAAAAYAAJ&amp;pg=PA59&amp;ci=137%2C351%2C711%2C137&amp;source=bookclip">as
+      Disraeli puts it,</a> <em>'the art of quotation requires more delicacy
+      in the practice than those conceive, who can see nothing more in a
+      quotation than an extract.'</em></p>
 
       <h2 id="ps">PS</h2>
 
       <p>If you're interested in experimenting with mark-up based anchors,
-      I'll give you a <a
-      href="http://sigfrid-lundberg.se/entries/2009/08/quotations/add-id.xsl">XSLT-script</a>
+      I'll give you a <a href="http://sigfrid-lundberg.se/entries/2009/08/quotations/add-id.xsl">XSLT-script</a>
       which basically copies a XML document but while doing so it adds an id
       attribute to every element in your document. I find this extremely
-      useful. You can extend it to <a
-      href="http://exslt.org/str/functions/tokenize/">tokenize text</a> and
+      useful. You can extend it to <a href="http://exslt.org/str/functions/tokenize/">tokenize text</a> and
       add anchors on individual words.</p>
 
       <p>I use such a script when creating search and navigation systems
-      involving XML text. Beware though that a document type may use generic
-      xml:id attributes, and sometimes a DTD or schema have another name for
-      id attribute and also it may not be permissible on all elements.</p>
+      involving XML text. Beware though that a document type may use the
+      generic xml:id attribute. Also, a DTD or schema may have another name
+      for id attribute and also it may not be permissible on all elements.</p>
 
     </div>
   </content>
   <dc:date>2009</dc:date>
   <category label="structuralwebdesign" term="Structural web design"/>
-  <updated>2009-08-21T18:02:29+01:00</updated>
+  <updated>2009-08-21T21:13:49+01:00</updated>
   <published>2009-08-17T22:37:28+01:00</published>
   <id>http://www.sigfrid-lundberg.se/entries/2009/08/quotations/</id>
   <!-- $Id$ -->
