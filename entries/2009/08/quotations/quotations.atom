@@ -110,12 +110,12 @@
 
       <p>If you're interested in experimenting with mark-up based anchors,
       I'll give you a <a
-      href="/entries/2009/08/quotations/add-id.xsl">XSLT-script</a> which
-      basically copies a XML document but while doing so it adds an id
+      href="http://sigfrid-lundberg.se/entries/2009/08/quotations/add-id.xsl">XSLT-script</a>
+      which basically copies a XML document but while doing so it adds an id
       attribute to every element in your document. I find this extremely
       useful. You can extend it to <a
-      href="http://exslt.org/str/functions/tokenize/">tokenize text</a> and add
-      anchors on individual words.</p>
+      href="http://exslt.org/str/functions/tokenize/">tokenize text</a> and
+      add anchors on individual words.</p>
 
       <p>I use such a script when creating search and navigation systems
       involving XML text. Beware though that a document type may use generic
