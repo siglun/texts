@@ -75,7 +75,8 @@
       <p>Almost all of these events were triggered by XML. If I remember
       correctly, We released <a href="http://laurentius.ub.lu.se">S:t
       Laurentius Digital Manuscript Library</a> 2001 which included my first
-      serious XSLT scripting, but before that I made some serious work using .</p>
+      serious XSLT scripting, but before that I made some serious work using
+      perl and the expat XML parser.</p>
 
     </div>
   </content>
