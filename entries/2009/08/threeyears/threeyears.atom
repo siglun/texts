@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<entry xmlns="http://www.w3.org/2005/Atom" xmlns:dc="http://purl.org/dc/elements/1.1/">
+  <author>
+    <name>Sigfrid Lundberg</name>
+  </author>
+  <title>Five years that formed the digital library as we know it:
+  1997-2001</title>
+  <link href="/entries/2009/08/threeyears/"/>
+  <summary>It appeared to me that many the standards and technologies
+  underpinning the digital library as we know it were formed during five years
+  around the turn of the century.</summary>
+  <content type="xhtml">
+    <div xmlns="http://www.w3.org/1999/xhtml">
+
+      <p>I sat there looking up references for a text. Then I realized that
+      there were these five years, 1997-2001. They were decisive for the
+      coming nine to ten years digital library development. For the fun of I
+      looked up some events that occured during these five years</p>
+
+      <table border="0" style="border:none;" >
+	<tr style="border:none;">
+	  <td style="border:none;"><strong>year</strong></td>
+	  <td style="border:none;"><strong>event</strong></td>
+	</tr>
+	<tr style="border:none;">
+	  <td style="border:none;">February 1998</td>
+	  <td style="border:none;"><a href="http://www.w3.org/TR/1998/REC-xml-19980210">XML became
+	  recommendation</a></td>
+	</tr>
+	<tr style="border:none;">
+	  <td style="border:none;">1998</td>
+	  <td style="border:none;"><a href="http://www.ietf.org/rfc/rfc2413.txt">Dublin Core
+	  Metadata for Resource Discovery published as RFC 2413</a></td>
+	</tr>
+	<tr style="border:none;">
+	  <td style="border:none;">1998</td>
+	  <td style="border:none;"><a href="http://www.loc.gov/ead/tglib1998/index.html">Encoded
+	  Archival Description tag lib published</a></td>
+	</tr>
+	<tr style="border:none;">
+	  <td style="border:none;">January 1999</td>
+	  <td style="border:none;"><a href="http://www.tei-c.org/About/history.xml">the University
+	  of Virginia and the University of Bergen (Norway) </a> proposes the
+	  formation of TEI consortium.</td>
+	</tr>
+	<tr style="border:none;">
+	  <td style="border:none;">22 February 1999</td>
+	  <td style="border:none;"><a href="http://www.w3.org/TR/1999/REC-rdf-syntax-19990222/">RDF
+	  model and Syntax</a> specification appeared</td>
+	</tr>
+	<tr style="border:none;">
+	  <td style="border:none;"> 16 November 1999</td>
+	  <td style="border:none;"><a href="http://www.w3.org/TR/xslt">XSL Transformations (XSLT)
+	  Version 1.0 W3C Recommendation</a></td>
+	</tr>
+	<tr style="border:none;">
+	  <td style="border:none;">January 2001</td>
+	  <td style="border:none;"><a
+	  href="http://www.openarchives.org/OAI/1.0/openarchivesprotocol.htm">OAI-PMH
+	  version 1.0</a></td>
+	</tr>
+	<tr style="border:none;">
+	  <td style="border:none;">February, 2001</td>
+	  <td style="border:none;">The development of <a
+	  href="http://www.loc.gov/standards/mets/">METS</a> <a
+	  href="http://www.lib.berkeley.edu/digicoll/bestpractices/mets_history.html">starts</a></td>
+	</tr>
+      </table>
+
+      <p>Almost all of these events were triggered by XML. If I remember
+      correctly, We released <a href="http://laurentius.ub.lu.se">S:t
+      Laurentius Digital Manuscript Library</a> 2001 which included my first
+      serious XSLT scripting, but before that I made some serious work using .</p>
+
+    </div>
+  </content>
+  <dc:date>2009</dc:date>
+  <category label="metadata" term="Metadata"/>
+  <updated>2009-08-24T21:09:02+01:00</updated>
+  <id>http://www.sigfrid-lundberg.se/entries/2009/08/threeyears/</id>
+</entry>

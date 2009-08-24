@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<html xmlns="http://www.w3.org/1999/xhtml"><head><title>Five years that formed the digital library as we know it:
+  1997-2001: 
+	  Sigfrid Lundberg's Stuff
+	</title><meta http-equiv="Content-Type" content="text/html;charset=UTF-8"/><script src="/js/navigation.js" type="text/javascript"> 
+	  </script><meta http-equiv="Content-Type" content="text/html;charset=UTF-8"/><link rel="stylesheet" href="/css-style/html.css"/></head><body><div class="left_box"><div style="text-align:left;width=90%;"><!--#include virtual="/div_top_left_box.xml" --></div><div style="text-align:left;width=90%;"><p><a href="/">Home</a></p><!--#include virtual="/subjects.xml" --><!--#include virtual="/me.xml" --></div></div><div class="right_box"><h1 style="font-family: sans-serif; width: 55%; float: left;text-align: left;">Five years that formed the digital library as we know it:
+  1997-2001</h1><p style="width: 38%; float: left;text-align: right"><em><strong>Sigfrid Lundberg's Stuff 2009-08-24</strong></em><br/><br/><a class="addthis_button" href="http://www.addthis.com/bookmark.php?v=250&amp;pub=siggelundberg"><img src="http://s7.addthis.com/static/btn/v2/lg-share-en.gif" width="125" height="16" alt="Bookmark and Share" style="border:0"/></a><script type="text/javascript" src="http://s7.addthis.com/js/250/addthis_widget.js?pub=siggelundberg">
+		</script></p><div style="clear:both">
+	    </div>
+    <div>
+
+      <p>I sat there looking up references for a text. Then I realized that
+      there were these five years, 1997-2001. They were decisive for the
+      coming nine to ten years digital library development. For the fun of I
+      looked up some events that occured during these five years</p>
+
+      <table border="0" style="border:none;">
+	<tr style="border:none;">
+	  <td style="border:none;"><strong>year</strong></td>
+	  <td style="border:none;"><strong>event</strong></td>
+	</tr>
+	<tr style="border:none;">
+	  <td style="border:none;">February 1998</td>
+	  <td style="border:none;"><a href="http://www.w3.org/TR/1998/REC-xml-19980210">XML became
+	  recommendation</a></td>
+	</tr>
+	<tr style="border:none;">
+	  <td style="border:none;">1998</td>
+	  <td style="border:none;"><a href="http://www.ietf.org/rfc/rfc2413.txt">Dublin Core
+	  Metadata for Resource Discovery published as RFC 2413</a></td>
+	</tr>
+	<tr style="border:none;">
+	  <td style="border:none;">1998</td>
+	  <td style="border:none;"><a href="http://www.loc.gov/ead/tglib1998/index.html">Encoded
+	  Archival Description tag lib published</a></td>
+	</tr>
+	<tr style="border:none;">
+	  <td style="border:none;">January 1999</td>
+	  <td style="border:none;"><a href="http://www.tei-c.org/About/history.xml">the University
+	  of Virginia and the University of Bergen (Norway) </a> proposes the
+	  formation of TEI consortium.</td>
+	</tr>
+	<tr style="border:none;">
+	  <td style="border:none;">22 February 1999</td>
+	  <td style="border:none;"><a href="http://www.w3.org/TR/1999/REC-rdf-syntax-19990222/">RDF
+	  model and Syntax</a> specification appeared</td>
+	</tr>
+	<tr style="border:none;">
+	  <td style="border:none;"> 16 November 1999</td>
+	  <td style="border:none;"><a href="http://www.w3.org/TR/xslt">XSL Transformations (XSLT)
+	  Version 1.0 W3C Recommendation</a></td>
+	</tr>
+	<tr style="border:none;">
+	  <td style="border:none;">January 2001</td>
+	  <td style="border:none;"><a href="http://www.openarchives.org/OAI/1.0/openarchivesprotocol.htm">OAI-PMH
+	  version 1.0</a></td>
+	</tr>
+	<tr style="border:none;">
+	  <td style="border:none;">February, 2001</td>
+	  <td style="border:none;">The development of <a href="http://www.loc.gov/standards/mets/">METS</a> <a href="http://www.lib.berkeley.edu/digicoll/bestpractices/mets_history.html">starts</a></td>
+	</tr>
+      </table>
+
+      <p>Almost all of these events were triggered by XML. If I remember
+      correctly, We released <a href="http://laurentius.ub.lu.se">S:t
+      Laurentius Digital Manuscript Library</a> 2001 which included my first
+      serious XSLT scripting, but before that I made some serious work using .</p>
+
+    </div>
+  <div style="clear:both"> 
+	    </div><div id="disqus_thread">
+	    </div><p style="margin-left:+1%;"><a href="http://disqus.com" class="dsq-brlink">blog comments powered
+	    by <span class="logo-disqus">Disqus</span></a></p></div><script type="text/javascript" src="http://disqus.com/forums/sigfridlundbergsstuff/embed.js">
+	  </script><noscript><a href="http://sigfridlundbergsstuff.disqus.com/?url=http://sigfrid-lundberg.se/entries/2009/08/threeyears/">
+	      View the discussion thread
+	  </a></noscript><script type="text/javascript">//<!--
+	  (function() {
+	      var links = document.getElementsByTagName('a');
+	      var query = '?';
+	      for(var i = 0; i < links.length; i++) {
+		  if(links[i].href.indexOf('#disqus_thread') >= 0) {
+		      query += 'url' + i + '=' + encodeURIComponent(links[i].href) + '&';
+		  }
+	      }
+	      document.write('<script charset="utf-8" type="text/javascript" src="http://disqus.com/forums/sigfridlundbergsstuff/get_num_replies.js' + query + '"></' + 'script>');
+	  })();
+	  //--></script><!--#include virtual="/js/urchin.js" --></body></html>
