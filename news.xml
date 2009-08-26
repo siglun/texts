@@ -1,87 +1,55 @@
 <div xmlns="http://www.w3.org/1999/xhtml">
   <div>
-    <h1 style="font-family: sans-serif; width: 55%; float: left;text-align: left;">Five years that formed the digital library as we know it:
-  1997-2001</h1>
+    <h1 style="font-family: sans-serif; width: 55%; float: left;text-align: left;">What is a book, and does it matter?</h1>
     <p style="width: 38%; float: left;text-align: right">
       <em>
         <strong>
 		Sigfrid Lundberg's Stuff,
-	      2009-08-24</strong>
+	      2009-08-26</strong>
       </em>
     </p>
   </div>
   <div style="clear:both;"> </div>
   <div style="width:100%;">
     <div>
+      <p>Lorcan Dempsey of OCLC research, is involved in among lots of things,
+      statistical analyses of media use. In that work he and his colleagues
+      are forced to make som operational definitions of the 'book'. Definitions
+      that inspired Lorcan to make some <a href="http://orweblog.oclc.org/archives/002000.html">interesting
+      reflections on books</a>.</p>
 
-      <p>I sat there looking up references for a text. Then I realized that
-      there were these five years, 1997-2001. They were decisive for the
-      coming nine to ten years digital library development. For the fun of I
-      looked up some events that occured during these five years</p>
+      <p>I once had a chat with a book historian. Her view is was that a book
+      is defined by its binding. The binding is the most important part of a
+      book. Without it, it's just a pile of paper.</p>
 
-      <table border="0" style="border:none;">
-	<tr style="border:none;">
-	  <td style="border:none;"><strong>year</strong></td>
-	  <td style="border:none;"><strong>event</strong></td>
-	</tr>
-	<tr style="border:none;">
-	  <td style="border:none;">February 1998</td>
-	  <td style="border:none;"><a href="http://www.w3.org/TR/1998/REC-xml-19980210">XML became
-	  recommendation</a></td>
-	</tr>
-	<tr style="border:none;">
-	  <td style="border:none;">1998</td>
-	  <td style="border:none;"><a href="http://www.ietf.org/rfc/rfc2413.txt">Dublin Core
-	  Metadata for Resource Discovery published as RFC 2413</a></td>
-	</tr>
-	<tr style="border:none;">
-	  <td style="border:none;">1998</td>
-	  <td style="border:none;"><a href="http://www.loc.gov/ead/tglib1998/index.html">Encoded
-	  Archival Description tag lib published</a></td>
-	</tr>
-	<tr style="border:none;">
-	  <td style="border:none;">January 1999</td>
-	  <td style="border:none;"><a href="http://www.tei-c.org/About/history.xml">the University
-	  of Virginia and the University of Bergen (Norway) </a> proposes the
-	  formation of TEI consortium.</td>
-	</tr>
-	<tr style="border:none;">
-	  <td style="border:none;">22 February 1999</td>
-	  <td style="border:none;"><a href="http://www.w3.org/TR/1999/REC-rdf-syntax-19990222/">RDF
-	  model and Syntax</a> specification appeared</td>
-	</tr>
-	<tr style="border:none;">
-	  <td style="border:none;"> 16 November 1999</td>
-	  <td style="border:none;"><a href="http://www.w3.org/TR/xslt">XSL Transformations (XSLT)
-	  Version 1.0 W3C Recommendation</a></td>
-	</tr>
-	<tr style="border:none;">
-	  <td style="border:none;">January 2001</td>
-	  <td style="border:none;"><a href="http://www.openarchives.org/OAI/1.0/openarchivesprotocol.htm">OAI-PMH
-	  version 1.0</a></td>
-	</tr>
-	<tr style="border:none;">
-	  <td style="border:none;">February, 2001</td>
-	  <td style="border:none;">The development of <a href="http://www.loc.gov/standards/mets/">METS</a> <a href="http://www.lib.berkeley.edu/digicoll/bestpractices/mets_history.html">starts</a></td>
-	</tr>
-      </table>
+      <p>My answer was as follows: Assume that an author is writing a
+      book. While working on it there is a mansuscript -- which is a computer
+      file. After a year or so, the book is completed and is accepted for
+      publication.</p>
 
-      <p>Almost all of these events were triggered by XML. If I remember
-      correctly, We released <a href="http://laurentius.ub.lu.se">S:t
-      Laurentius Digital Manuscript Library</a> 2001 which included my first
-      serious XSLT scripting, but before that I made some serious work using
-      perl and the expat XML parser.</p>
-
+      <p>In my view it is now a book. After all <em>the book has been accepted
+      for publication</em>. When you send it to the printers workshop, then I
+      suppose it is manuscript. 5On the other hand, when you download the thing
+      from <a href="http://www.amazon.com/">amazon.com</a> to your kindle,
+      then it's a book.</p>
     </div>
     <p style="text-align: left;"><em><strong>Categories:</strong></em> 
-	  <a href="/subjects/metadata/">Metadata</a><br/><em><strong>
+	  <a href="/subjects/essays/">Essays</a>,
+	    <a href="/subjects/media/">Media</a><br/><em><strong>
 		Permalink:
-	      </strong></em><a rel="bookmark" href="/entries/2009/08/threeyears/">http://sigfrid-lundberg.se/entries/2009/08/threeyears/</a></p>
+	      </strong></em><a rel="bookmark" href="/entries/2009/08/whatisabook/">http://sigfrid-lundberg.se/entries/2009/08/whatisabook/</a></p>
     <hr width="50%" align="center"/>
   </div>
   <div>
     <h1>Other, not yet obsolete stuff</h1>
     <table class="news">
+      <tr>
+        <td class="left">2009</td>
+        <td class="left"><a href="/entries/2009/08/threeyears/"><em>Five years that formed the digital library as we know it:
+  1997-2001</em></a><br/>It appeared to me that many the standards and technologies
+  underpinning the digital library as we know it were formed during five years
+  around the turn of the century.<br/><a href="/subjects/metadata/">Metadata</a></td>
+      </tr>
       <tr>
         <td class="left">2009</td>
         <td class="left"><a href="/entries/2009/08/quotations/"><em>A quotation is much more than an extract</em></a><br/>In my last entry, on cool URIs, I discussed the identification of
@@ -123,12 +91,6 @@
   free?<br/><a href="/subjects/media/">Media</a>,
 	<a href="/subjects/thelibrary/">The Library</a>,
 	<a href="/subjects/internet/">Internet</a></td>
-      </tr>
-      <tr>
-        <td class="left">2009</td>
-        <td class="left"><a href="/entries/2009/07/indexing_philosophy/"><em>Wagging the long tail</em></a><br/>The problem with providing an OK Amazoogle experience is that we
-  might fail in providing advanced services to patrons that have special
-  needs.<br/><a href="/subjects/opac/">Library catalogues</a></td>
       </tr>
     </table>
   </div>

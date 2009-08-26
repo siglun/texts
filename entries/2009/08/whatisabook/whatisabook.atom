@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<entry xmlns="http://www.w3.org/2005/Atom" xmlns:dc="http://purl.org/dc/elements/1.1/">
+  <author>
+    <name>Sigfrid Lundberg</name>
+  </author>
+  <title>What is a book, and does it matter?</title>
+  <link href="/entries/2009/08/whatisabook/"/>
+  <summary>Lorcan Dempsey of OCLC research, is involved in among lots of
+  things, statistical analyses of media use. In that work they are forced to
+  make operational definitions of the 'book'.</summary>
+  <content type="xhtml">
+    <div xmlns="http://www.w3.org/1999/xhtml">
+      <p>Lorcan Dempsey of OCLC research, is involved in among lots of things,
+      statistical analyses of media use. In that work he and his colleagues
+      are forced to make som operational definitions of the 'book'. Definitions
+      that inspired Lorcan to make some <a href="http://orweblog.oclc.org/archives/002000.html">interesting
+      reflections on books</a>.</p>
+
+      <p>I once had a chat with a book historian. Her view is was that a book
+      is defined by its binding. The binding is the most important part of a
+      book. Without it, it's just a pile of paper.</p>
+
+      <p>My answer was as follows: Assume that an author is writing a
+      book. While working on it there is a mansuscript -- which is a computer
+      file. After a year or so, the book is completed and is accepted for
+      publication.</p>
+
+      <p>In my view it is now a book. After all <em>the book has been accepted
+      for publication</em>. When you send it to the printers workshop, then I
+      suppose it is manuscript. 5On the other hand, when you download the thing
+      from <a href="http://www.amazon.com/">amazon.com</a> to your kindle,
+      then it's a book.</p>
+    </div>
+  </content>
+  <dc:date>2009</dc:date>
+  <category label="essays" term="Essays"/>
+  <category label="media" term="Media"/>
+  <updated>2009-08-26T08:09:45+01:00</updated>
+  <published>2009-08-26T07:51:07+01:00</published>
+  <id>http://www.sigfrid-lundberg.se/entries/2009/08/whatisabook/</id>
+  <!-- $Id$ -->
+</entry>
