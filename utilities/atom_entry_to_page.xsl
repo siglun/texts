@@ -33,6 +33,17 @@
 	  Sigfrid Lundberg's Stuff
 	</title>
 
+
+	<link href="http://feeds.feedburner.com/SigfridLundbergsStuff?format=xml"
+	      type="application/atom+xml"
+	      title="Sigfrid Lundberg's Stuff"
+	      rel="alternate"/>
+
+	<link href="http://sigfridlundbergsstuff.disqus.com/latest.rss"
+	      type="application/rss+xml"
+	      title="Latest Comments"
+	      rel="alternate"/>
+
 	<meta http-equiv="Content-Type"
 	      content="text/html;charset=UTF-8" />
 
@@ -60,7 +71,23 @@
 	    <xsl:comment>#include virtual="/div_top_left_box.xml" </xsl:comment>
 	  </div>
 	  <div style="text-align:left;width=90%;">
-	    <p><a href="/">Home</a></p>
+	    <p>
+	    <a href="/">Home</a><br/>
+	    <a href="http://feeds.feedburner.com/SigfridLundbergsStuff?format=xml"
+	       type="application/atom+xml"
+	       class="feed-link">
+	      <img src="/images/Newsfeed-Atom.png" 
+		   alt="Subscribe to Stuff from Sigfrid Lundberg"
+		   border="0"/>Subscribe to my stuff</a><br/>
+
+	      <a href="http://sigfridlundbergsstuff.disqus.com/latest.rss"
+		 type="application/rss+xml"
+		 class="feed-link">
+		<img src="/images/Newsfeed-Atom.png" 
+		     alt="Subscribe to Stuff from Sigfrid Lundberg"
+		     border="0"/>Subscribe to discussion feed</a>
+
+	    </p>
 	    <xsl:comment>#include virtual="/subjects.xml" </xsl:comment>
 	    <xsl:comment>#include virtual="/me.xml" </xsl:comment>
 	  </div>

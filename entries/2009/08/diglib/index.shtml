@@ -2,9 +2,7 @@
 <html xmlns="http://www.w3.org/1999/xhtml"><head><title>The predigital library: 
 	  Sigfrid Lundberg's Stuff
 	</title><link href="http://feeds.feedburner.com/SigfridLundbergsStuff?format=xml" type="application/atom+xml" title="Sigfrid Lundberg's Stuff" rel="alternate"/><link href="http://sigfridlundbergsstuff.disqus.com/latest.rss" type="application/rss+xml" title="Latest Comments" rel="alternate"/><meta http-equiv="Content-Type" content="text/html;charset=UTF-8"/><script src="/js/navigation.js" type="text/javascript"> 
-	  </script><script type="text/javascript">
-	      var disqus_developer=1;
-	    </script><meta http-equiv="Content-Type" content="text/html;charset=UTF-8"/><link rel="stylesheet" href="/css-style/html.css"/></head><body><div class="left_box"><div style="text-align:left;width=90%;"><!--#include virtual="/div_top_left_box.xml" --></div><div style="text-align:left;width=90%;"><p><a href="/">Home</a><br/><a href="http://feeds.feedburner.com/SigfridLundbergsStuff?format=xml" type="application/atom+xml" class="feed-link"><img src="/images/Newsfeed-Atom.png" alt="Subscribe to Stuff from Sigfrid Lundberg" border="0"/>Subscribe to my stuff</a><br/><a href="http://sigfridlundbergsstuff.disqus.com/latest.rss" type="application/rss+xml" class="feed-link"><img src="/images/Newsfeed-Atom.png" alt="Subscribe to Stuff from Sigfrid Lundberg" border="0"/>Subscribe to discussion feed</a></p><!--#include virtual="/subjects.xml" --><!--#include virtual="/me.xml" --></div></div><div class="right_box"><h1 style="font-family: sans-serif; width: 55%; float: left;text-align: left;">The predigital library</h1><p style="width: 38%; float: left;text-align: right"><em><strong>Sigfrid Lundberg's Stuff 2009-08-28</strong></em><br/><br/><a class="addthis_button" href="http://www.addthis.com/bookmark.php?v=250&amp;pub=siggelundberg"><img src="http://s7.addthis.com/static/btn/v2/lg-share-en.gif" width="125" height="16" alt="Bookmark and Share" style="border:0"/></a><script type="text/javascript" src="http://s7.addthis.com/js/250/addthis_widget.js?pub=siggelundberg">
+	  </script><meta http-equiv="Content-Type" content="text/html;charset=UTF-8"/><link rel="stylesheet" href="/css-style/html.css"/></head><body><div class="left_box"><div style="text-align:left;width=90%;"><!--#include virtual="/div_top_left_box.xml" --></div><div style="text-align:left;width=90%;"><p><a href="/">Home</a><br/><a href="http://feeds.feedburner.com/SigfridLundbergsStuff?format=xml" type="application/atom+xml" class="feed-link"><img src="/images/Newsfeed-Atom.png" alt="Subscribe to Stuff from Sigfrid Lundberg" border="0"/>Subscribe to my stuff</a><br/><a href="http://sigfridlundbergsstuff.disqus.com/latest.rss" type="application/rss+xml" class="feed-link"><img src="/images/Newsfeed-Atom.png" alt="Subscribe to Stuff from Sigfrid Lundberg" border="0"/>Subscribe to discussion feed</a></p><!--#include virtual="/subjects.xml" --><!--#include virtual="/me.xml" --></div></div><div class="right_box"><h1 style="font-family: sans-serif; width: 55%; float: left;text-align: left;">The predigital library</h1><p style="width: 38%; float: left;text-align: right"><em><strong>Sigfrid Lundberg's Stuff 2009-08-31</strong></em><br/><br/><a class="addthis_button" href="http://www.addthis.com/bookmark.php?v=250&amp;pub=siggelundberg"><img src="http://s7.addthis.com/static/btn/v2/lg-share-en.gif" width="125" height="16" alt="Bookmark and Share" style="border:0"/></a><script type="text/javascript" src="http://s7.addthis.com/js/250/addthis_widget.js?pub=siggelundberg">
 		</script></p><div style="clear:both">
 	    </div>
     <div>
@@ -73,12 +71,8 @@
       for the digital library towards the resources themselves. There should
       be no need to go to the digital library, its content should be on the
       Web. There is no need to move the library to Facebook to be where the
-      users are. It is sufficient to have the library resource on the Web --
+      users are. It is sufficient to have the library resources on the Web --
       which isn't the same as having the library there.</p>
-
-      <p>Just the other week I made a list of <a href="/entries/2009/08/threeyears/">standards</a>. One of the most
-      important ones is OAI PMH from <a href="http://www.openarchives.org">openarchives.org</a></p>
-
 
       <p>Carl Lagoze et al. uses this shift as a justification for proposing
       the new standard OAI-ORE.<sup><a href="#oaiore">1</a></sup> When
@@ -86,6 +80,7 @@
       they formulate the trend in a very clear way:</p>
 
       <blockquote style="margin-left:+5%;font-style:italic;" cite="http://arxiv.org/abs/0804.2273v1">
+
 	<p>It <span style="font-style:normal;">[OAI-ORE]</span> also reflects
 	a recognition of the position of digital libraries vis-à-vis the Web
 	that sometimes seem to co-exist in a curiously parallel conceptual and
@@ -104,10 +99,6 @@
 	black hole.</p>
 	<p style="text-align:right;font-style:normal"><a href="http://arxiv.org/abs/0804.2273v1">http://arxiv.org/abs/0804.2273v1</a></p>
       </blockquote>
-
-      <p>We've regarded ourselves as special because our material is
-      special. We have digitized archival records, manuscripts, musical scores
-      and other, more or less unique material.</p>
 
     </div>
   <div style="clear:both"> 

@@ -76,6 +76,16 @@
 	      </xsl:text>
 	    </script>
 
+	    <link href="http://feeds.feedburner.com/SigfridLundbergsStuff?format=xml"
+		  type="application/atom+xml"
+		  title="Sigfrid Lundberg's Stuff"
+		  rel="alternate"/>
+
+	    <link href="http://sigfridlundbergsstuff.disqus.com/latest.rss"
+		  type="application/rss+xml"
+		  title="Latest Comments"
+		  rel="alternate"/>
+
 	    <meta http-equiv="Content-Type" 
 		  content="text/html;charset=UTF-8"/>
 	    <link rel="stylesheet" href="/css-style/html.css" />
@@ -94,16 +104,19 @@
 	      <div style="text-align:left;width=90%;">
 		<p>
 		  <a href="/">Home</a><br/>
-		</p>
-		<p>
 		  <a href="http://feeds.feedburner.com/SigfridLundbergsStuff?format=xml"
 		     type="application/atom+xml" class="feed-link">
 		    <img src="/images/Newsfeed-Atom.png" 
 			 alt="Subscribe to Stuff from Sigfrid Lundberg"
 			 border="0"/>
-		    <xsl:text> Subscribe to more Stuff</xsl:text>
-		  </a>
-
+		    <xsl:text>Subscribe to more Stuff</xsl:text>
+		  </a><br/>
+		  <a href="http://sigfridlundbergsstuff.disqus.com/latest.rss"
+		     type="application/rss+xml"
+		     class="feed-link">
+		    <img src="/images/Newsfeed-Atom.png" 
+			 alt="Subscribe to Stuff from Sigfrid Lundberg"
+			 border="0"/>Subscribe to discussion feed</a>
 		</p>
 		<xsl:comment>#include virtual="/subjects.xml" </xsl:comment>
 		<xsl:comment>#include virtual="/me.xml" </xsl:comment>

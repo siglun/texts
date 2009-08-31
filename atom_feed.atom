@@ -6,7 +6,119 @@
   <title>Sigfrid Lundberg's Stuff</title>
   <id>http://sigfrid-lundberg.se/files.atom</id>
   <link rel="self" href="http://feeds.feedburner.com/SigfridLundbergsStuff?format=xml"/>
-  <updated>2009-08-26T08:09:45+01:00</updated>
+  <updated>2009-08-31T07:41:21+01:00</updated>
+  <entry>
+  <author>
+    <name>Sigfrid Lundberg</name>
+  </author>
+  <title>The predigital library</title>
+  <link href="http://sigfrid-lundberg.se/entries/2009/08/diglib/"/>
+  <summary>What is the strategic goal for a library web site? Could it be to
+  put the library on the web, or is it basically to the library's resources
+  visible to users anywhere on the globe?</summary>
+  <content type="xhtml">
+    <div xmlns="http://www.w3.org/1999/xhtml">
+
+      <p><q cite="http://web.media.mit.edu/~nicholas/Wired/WIRED6-12.html">The
+      digital revolution is over</q> wrote <a href="http://web.media.mit.edu/~nicholas/Wired/WIRED6-12.html">Nicholas
+      Negroponte already 1998</a>. According to <a href="http://escherman.wordpress.com/2008/03/12/the-digital-revolution-is-over-nicholas-negroponte-in-1998/">one
+      source</a>, whose credibility I have not evaluated, Douglas Adams once
+      described Nicholas Negroponte as someone who <q cite="http://escherman.wordpress.com/2008/03/12/the-digital-revolution-is-over-nicholas-negroponte-in-1998/">writes
+      about the future with the authority of someone who has spent a great
+      deal of time there.</q> The declaration of victory for the digital
+      appeared in Negroponte's last regular column in the Wired Magazine. He
+      might've thougth: <em>We've won, and now is time for giving one lap top
+      to every child on the globe.</em> That would indeed consolidate the
+      victory.</p>
+
+      <p style="text-align:center;">
+	<br/>*
+      </p>
+
+      <p>After the digital revolution, it was natural for the library
+      community to create a vision of moving <em>The Library</em> onto the
+      Internet. The libraries were rising new buildings all over the globe
+      called digital libraries. One particularly good one is <a href="http://www.cdlib.org/">California Digital Library</a>. CDL was
+      founded 1997, i.e., the year before the digital revolution ended. The
+      CDL web site is very typical in many ways. In particular its home
+      page. It starts with a corporate site, and on it there is a list of
+      services <q>powered by CDL</q>. For example:
+      <a href="http://www.calisphere.universityofcalifornia.edu/">Calisphere</a>,
+
+      <a href="http://content.cdlib.org/escholarship/">eScholarship
+      Editions</a>,
+
+      <a href="http://repositories.cdlib.org/escholarship/">eScholarship
+      Repository</a>,
+
+      <a href="http://www.marktwainproject.org/homepage.html">Mark Twain Project
+      Online</a> 
+
+      and 
+
+      <a href="http://www.oac.cdlib.org/">Online Archive of California
+      (OAC)</a>.
+      </p>
+
+      <p>There is much more available. I just took those from the top
+      page. Most of these services are brilliant, they about the best you can
+      find from any library on the globe.</p>
+
+      <p>We see here the main method of moving the library to the Internet:
+      The creation of repositories. Just as we have structured the library
+      into collections, the major ones may have seperate reading rooms, the
+      digital library is split into seperate services. The information
+      resources from California Digital Library are spread over many,
+      different domains. I'm not critizing my colleagues over there. Rather
+      I'm just stating a fact that more or less all digital libraries -- even
+      the best ones -- are suffering from the same problems, of which the most
+      important one is that <strong>all of us are building a new repository
+      whenever we start a new project</strong>.</p>
+
+      <p style="text-align:center;">
+	<br/>*
+      </p>
+
+      <p>We see now a shift from the repository is the gravitational center
+      for the digital library towards the resources themselves. There should
+      be no need to go to the digital library, its content should be on the
+      Web. There is no need to move the library to Facebook to be where the
+      users are. It is sufficient to have the library resources on the Web --
+      which isn't the same as having the library there.</p>
+
+      <p>Carl Lagoze et al. uses this shift as a justification for proposing
+      the new standard OAI-ORE.<sup><a href="#oaiore">1</a></sup> When
+      discussing the differences between the old OAI-PMH and the new OAI-ORE,
+      they formulate the trend in a very clear way:</p>
+
+      <blockquote style="margin-left:+5%;font-style:italic;" cite="http://arxiv.org/abs/0804.2273v1">
+
+	<p>It <span style="font-style:normal;">[OAI-ORE]</span> also reflects
+	a recognition of the position of digital libraries vis-à-vis the Web
+	that sometimes seem to co-exist in a curiously parallel conceptual and
+	architectural space.</p>
+
+	<p>We exist in a world where information is synonymous not with
+	<q>library</q> but with the Web and the applications that are rooted
+	in it. In this world, the Web Architecture is the lingua franca for
+	information interoperability, and applications such as most digital
+	libraries must exist within the capabilities and constraints of that
+	Web Architecture. Because of the virtual hegemony of Web browsers as
+	an information access tool and Google as a discovery tool, failure to
+	heed to Web Architecture principles, and therefore requiring somewhat
+	special treatment by these <q>monopoly applications</q> (which is
+	rarely if ever granted), effectively means falling into an information
+	black hole.</p>
+	<p style="text-align:right;font-style:normal"><a href="http://arxiv.org/abs/0804.2273v1">http://arxiv.org/abs/0804.2273v1</a></p>
+      </blockquote>
+
+    </div>
+  </content>
+  <dc:date>2009</dc:date>
+  <category label="structuralwebdesign" term="Structural web design"/>
+  <updated>2009-08-31T07:41:21+01:00</updated>
+  <id>http://www.sigfrid-lundberg.se/entries/2009/08/diglib/</id>
+</entry>
   <entry>
   <author>
     <name>Sigfrid Lundberg</name>
@@ -336,7 +448,7 @@
 
       <p>It leads to Hans-Werner Hilse and Jochen Kothe, 2006.
       <em>Implementing Persistent Identifiers</em>, published by <a href="http://www.cerl,org/">Consortium of European Research Libraries,
-      London</a> and <a href="www.knaw.nl/ecpa">European Commission on
+      London</a> and <a href="http://www.knaw.nl/ecpa">European Commission on
       Preservation and Access</a>.</p>
 
       <p>Sending a HTTP HEAD request to the URI above yields the following

@@ -77,7 +77,7 @@
 
       <p>It leads to Hans-Werner Hilse and Jochen Kothe, 2006.
       <em>Implementing Persistent Identifiers</em>, published by <a href="http://www.cerl,org/">Consortium of European Research Libraries,
-      London</a> and <a href="www.knaw.nl/ecpa">European Commission on
+      London</a> and <a href="http://www.knaw.nl/ecpa">European Commission on
       Preservation and Access</a>.</p>
 
       <p>Sending a HTTP HEAD request to the URI above yields the following
