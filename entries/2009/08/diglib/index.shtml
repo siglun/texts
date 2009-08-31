@@ -1,0 +1,130 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<html xmlns="http://www.w3.org/1999/xhtml"><head><title>The predigital library: 
+	  Sigfrid Lundberg's Stuff
+	</title><link href="http://feeds.feedburner.com/SigfridLundbergsStuff?format=xml" type="application/atom+xml" title="Sigfrid Lundberg's Stuff" rel="alternate"/><link href="http://sigfridlundbergsstuff.disqus.com/latest.rss" type="application/rss+xml" title="Latest Comments" rel="alternate"/><meta http-equiv="Content-Type" content="text/html;charset=UTF-8"/><script src="/js/navigation.js" type="text/javascript"> 
+	  </script><script type="text/javascript">
+	      var disqus_developer=1;
+	    </script><meta http-equiv="Content-Type" content="text/html;charset=UTF-8"/><link rel="stylesheet" href="/css-style/html.css"/></head><body><div class="left_box"><div style="text-align:left;width=90%;"><!--#include virtual="/div_top_left_box.xml" --></div><div style="text-align:left;width=90%;"><p><a href="/">Home</a><br/><a href="http://feeds.feedburner.com/SigfridLundbergsStuff?format=xml" type="application/atom+xml" class="feed-link"><img src="/images/Newsfeed-Atom.png" alt="Subscribe to Stuff from Sigfrid Lundberg" border="0"/>Subscribe to my stuff</a><br/><a href="http://sigfridlundbergsstuff.disqus.com/latest.rss" type="application/rss+xml" class="feed-link"><img src="/images/Newsfeed-Atom.png" alt="Subscribe to Stuff from Sigfrid Lundberg" border="0"/>Subscribe to discussion feed</a></p><!--#include virtual="/subjects.xml" --><!--#include virtual="/me.xml" --></div></div><div class="right_box"><h1 style="font-family: sans-serif; width: 55%; float: left;text-align: left;">The predigital library</h1><p style="width: 38%; float: left;text-align: right"><em><strong>Sigfrid Lundberg's Stuff 2009-08-28</strong></em><br/><br/><a class="addthis_button" href="http://www.addthis.com/bookmark.php?v=250&amp;pub=siggelundberg"><img src="http://s7.addthis.com/static/btn/v2/lg-share-en.gif" width="125" height="16" alt="Bookmark and Share" style="border:0"/></a><script type="text/javascript" src="http://s7.addthis.com/js/250/addthis_widget.js?pub=siggelundberg">
+		</script></p><div style="clear:both">
+	    </div>
+    <div>
+
+      <p><q cite="http://web.media.mit.edu/~nicholas/Wired/WIRED6-12.html">The
+      digital revolution is over</q> wrote <a href="http://web.media.mit.edu/~nicholas/Wired/WIRED6-12.html">Nicholas
+      Negroponte already 1998</a>. According to <a href="http://escherman.wordpress.com/2008/03/12/the-digital-revolution-is-over-nicholas-negroponte-in-1998/">one
+      source</a>, whose credibility I have not evaluated, Douglas Adams once
+      described Nicholas Negroponte as someone who <q cite="http://escherman.wordpress.com/2008/03/12/the-digital-revolution-is-over-nicholas-negroponte-in-1998/">writes
+      about the future with the authority of someone who has spent a great
+      deal of time there.</q> The declaration of victory for the digital
+      appeared in Negroponte's last regular column in the Wired Magazine. He
+      might've thougth: <em>We've won, and now is time for giving one lap top
+      to every child on the globe.</em> That would indeed consolidate the
+      victory.</p>
+
+      <p style="text-align:center;">
+	<br/>*
+      </p>
+
+      <p>After the digital revolution, it was natural for the library
+      community to create a vision of moving <em>The Library</em> onto the
+      Internet. The libraries were rising new buildings all over the globe
+      called digital libraries. One particularly good one is <a href="http://www.cdlib.org/">California Digital Library</a>. CDL was
+      founded 1997, i.e., the year before the digital revolution ended. The
+      CDL web site is very typical in many ways. In particular its home
+      page. It starts with a corporate site, and on it there is a list of
+      services <q>powered by CDL</q>. For example:
+      <a href="http://www.calisphere.universityofcalifornia.edu/">Calisphere</a>,
+
+      <a href="http://content.cdlib.org/escholarship/">eScholarship
+      Editions</a>,
+
+      <a href="http://repositories.cdlib.org/escholarship/">eScholarship
+      Repository</a>,
+
+      <a href="http://www.marktwainproject.org/homepage.html">Mark Twain Project
+      Online</a> 
+
+      and 
+
+      <a href="http://www.oac.cdlib.org/">Online Archive of California
+      (OAC)</a>.
+      </p>
+
+      <p>There is much more available. I just took those from the top
+      page. Most of these services are brilliant, they about the best you can
+      find from any library on the globe.</p>
+
+      <p>We see here the main method of moving the library to the Internet:
+      The creation of repositories. Just as we have structured the library
+      into collections, the major ones may have seperate reading rooms, the
+      digital library is split into seperate services. The information
+      resources from California Digital Library are spread over many,
+      different domains. I'm not critizing my colleagues over there. Rather
+      I'm just stating a fact that more or less all digital libraries -- even
+      the best ones -- are suffering from the same problems, of which the most
+      important one is that <strong>all of us are building a new repository
+      whenever we start a new project</strong>.</p>
+
+      <p style="text-align:center;">
+	<br/>*
+      </p>
+
+      <p>We see now a shift from the repository is the gravitational center
+      for the digital library towards the resources themselves. There should
+      be no need to go to the digital library, its content should be on the
+      Web. There is no need to move the library to Facebook to be where the
+      users are. It is sufficient to have the library resource on the Web --
+      which isn't the same as having the library there.</p>
+
+      <p>Just the other week I made a list of <a href="/entries/2009/08/threeyears/">standards</a>. One of the most
+      important ones is OAI PMH from <a href="http://www.openarchives.org">openarchives.org</a></p>
+
+
+      <p>Carl Lagoze et al. uses this shift as a justification for proposing
+      the new standard OAI-ORE.<sup><a href="#oaiore">1</a></sup> When
+      discussing the differences between the old OAI-PMH and the new OAI-ORE,
+      they formulate the trend in a very clear way:</p>
+
+      <blockquote style="margin-left:+5%;font-style:italic;" cite="http://arxiv.org/abs/0804.2273v1">
+	<p>It <span style="font-style:normal;">[OAI-ORE]</span> also reflects
+	a recognition of the position of digital libraries vis-à-vis the Web
+	that sometimes seem to co-exist in a curiously parallel conceptual and
+	architectural space.</p>
+
+	<p>We exist in a world where information is synonymous not with
+	<q>library</q> but with the Web and the applications that are rooted
+	in it. In this world, the Web Architecture is the lingua franca for
+	information interoperability, and applications such as most digital
+	libraries must exist within the capabilities and constraints of that
+	Web Architecture. Because of the virtual hegemony of Web browsers as
+	an information access tool and Google as a discovery tool, failure to
+	heed to Web Architecture principles, and therefore requiring somewhat
+	special treatment by these <q>monopoly applications</q> (which is
+	rarely if ever granted), effectively means falling into an information
+	black hole.</p>
+	<p style="text-align:right;font-style:normal"><a href="http://arxiv.org/abs/0804.2273v1">http://arxiv.org/abs/0804.2273v1</a></p>
+      </blockquote>
+
+      <p>We've regarded ourselves as special because our material is
+      special. We have digitized archival records, manuscripts, musical scores
+      and other, more or less unique material.</p>
+
+    </div>
+  <div style="clear:both"> 
+	    </div><div id="disqus_thread">
+	    </div><p style="margin-left:+1%;"><a href="http://disqus.com" class="dsq-brlink">blog comments powered
+	    by <span class="logo-disqus">Disqus</span></a></p></div><script type="text/javascript" src="http://disqus.com/forums/sigfridlundbergsstuff/embed.js">
+	  </script><noscript><a href="http://sigfridlundbergsstuff.disqus.com/?url=http://sigfrid-lundberg.se/entries/2009/08/diglib/">
+	      View the discussion thread
+	  </a></noscript><script type="text/javascript">//<!--
+	  (function() {
+	      var links = document.getElementsByTagName('a');
+	      var query = '?';
+	      for(var i = 0; i < links.length; i++) {
+		  if(links[i].href.indexOf('#disqus_thread') >= 0) {
+		      query += 'url' + i + '=' + encodeURIComponent(links[i].href) + '&';
+		  }
+	      }
+	      document.write('<script charset="utf-8" type="text/javascript" src="http://disqus.com/forums/sigfridlundbergsstuff/get_num_replies.js' + query + '"></' + 'script>');
+	  })();
+	  //--></script><!--#include virtual="/js/urchin.js" --></body></html>
