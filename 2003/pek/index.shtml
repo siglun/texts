@@ -14,6 +14,9 @@ $Id$
 
   </head>
   <body>
+
+    <p style="text-align:right;"><a href="/">Sigfrid Lundberg's Stuff</a></p>
+
     <h1 class="title">Vad är ett PEK?</h1>
 
     <p class="author">Sigfrid Lundberg</p>
@@ -62,6 +65,8 @@ $Id$
 
     <blockquote>[1] Alving, Barbro. Dagbok från Långholmen. Albert Bonniers
     Förlag, Stockholm 1956 (s. 41).</blockquote>
+
+    <hr/>
 
     <div style="clear:both"> 
     </div>
