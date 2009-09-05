@@ -1,11 +1,11 @@
 <div xmlns="http://www.w3.org/1999/xhtml">
   <div>
-    <h1 style="font-family: sans-serif; width: 55%; float: left;text-align: left;">The predigital library</h1>
+    <h1 style="font-family: sans-serif; width: 55%; float: left;text-align: left;">Twelve weeks</h1>
     <p style="width: 38%; float: left;text-align: right">
       <em>
         <strong>
 		Sigfrid Lundberg's Stuff,
-	      2009-08-31</strong>
+	      2009-09-05</strong>
       </em>
     </p>
   </div>
@@ -13,109 +13,90 @@
   <div style="width:100%;">
     <div>
 
-      <p><q cite="http://web.media.mit.edu/~nicholas/Wired/WIRED6-12.html">The
-      digital revolution is over</q> wrote <a href="http://web.media.mit.edu/~nicholas/Wired/WIRED6-12.html">Nicholas
-      Negroponte already 1998</a>. According to <a href="http://escherman.wordpress.com/2008/03/12/the-digital-revolution-is-over-nicholas-negroponte-in-1998/">one
-      source</a>, whose credibility I have not evaluated, Douglas Adams once
-      described Nicholas Negroponte as someone who <q cite="http://escherman.wordpress.com/2008/03/12/the-digital-revolution-is-over-nicholas-negroponte-in-1998/">writes
-      about the future with the authority of someone who has spent a great
-      deal of time there.</q> The declaration of victory for the digital
-      appeared in Negroponte's last regular column in the Wired Magazine. He
-      might've thougth: <em>We've won, and now is time for giving one lap top
-      to every child on the globe.</em> That would indeed consolidate the
-      victory.</p>
 
-      <p style="text-align:center;">
-	<br/>*
-      </p>
+      <p>It is about twelve weeks since i refurbished and redecorated this
+      site. It is time for an evaluation. I do ask myself more or less daily
+      if I can continue to say that this is worthwhile? My answer has been yes
+      so far. I also ask myself if I do a good enough job, and to that my
+      answer has been: Yes, I believe that some of my entries are good
+      enough.</p>
 
-      <p>After the digital revolution, it was natural for the library
-      community to create a vision of moving <em>The Library</em> onto the
-      Internet. The libraries were rising new buildings all over the globe
-      called digital libraries. One particularly good one is <a href="http://www.cdlib.org/">California Digital Library</a>. CDL was
-      founded 1997, i.e., the year before the digital revolution ended. The
-      CDL web site is very typical in many ways. In particular its home
-      page. It starts with a corporate site, and on it there is a list of
-      services <q>powered by CDL</q>. For example:
-      <a href="http://www.calisphere.universityofcalifornia.edu/">Calisphere</a>,
 
-      <a href="http://content.cdlib.org/escholarship/">eScholarship
-      Editions</a>,
+      <div style="float: left; width: 50%; margin-left:0.5em;margin-right:0.5em;">
 
-      <a href="http://repositories.cdlib.org/escholarship/">eScholarship
-      Repository</a>,
+	<a href="http://sigfrid-lundberg.se/entries/2009/09/twelveweeks/usage.pdf">
+	  <img src="http://sigfrid-lundberg.se/entries/2009/09/twelveweeks/usage.png" alt="About 12 weeks usage statistics for my site." width="100%" border="0"/>
+	</a>
 
-      <a href="http://www.marktwainproject.org/homepage.html">Mark Twain Project
-      Online</a> 
+	<p>
+	  <small>Figure 1. Average number of visits per week for my site
+	  sigfrid-lundberg.se (in blue) and the average time (in seconds)
+	  people stay there (in red).</small>
+	</p>
 
-      and 
+      </div>
 
-      <a href="http://www.oac.cdlib.org/">Online Archive of California
-      (OAC)</a>.
-      </p>
+      <p>The number of visitors has been growing steadily from only a few
+      individual visitors per week, to about two dozen. But on the other hand
+      the time spend reading have declined dramatically (Figure 1). I do have
+      a handful of visitors staying for a couple of minutes reading my weekly
+      entry. This is easy to tell from the google statistics. I have no graphs
+      on this, but distribution of time spent per visit is bimodal. A majority
+      stays less than ten seconds, very few stay for a minute but a larger
+      minority stay for three to five minutes, perhaps reading one entry and
+      skimming another.</p>
 
-      <p>There is much more available. I just took those from the top
-      page. Most of these services are brilliant, they about the best you can
-      find from any library on the globe.</p>
+      <p>My most successful entry is <a href="http://sigfrid-lundberg.se/entries/2009/08/trends/">On Divorce and
+      Unemployment Benefit Societies</a>. I do think it deserves it, but the
+      key to its success is that I wrote a comment on Google Research Blog, <a href="http://googleresearch.blogspot.com/2009/07/posted-by-hal-varian-chief-economist.html">the
+      place</a> that inspired me to write in the first place. Just yesterday I
+      got 26 visitors through that blog entry.</p>
 
-      <p>We see here the main method of moving the library to the Internet:
-      The creation of repositories. Just as we have structured the library
-      into collections, the major ones may have seperate reading rooms, the
-      digital library is split into seperate services. The information
-      resources from California Digital Library are spread over many,
-      different domains. I'm not critizing my colleagues over there. Rather
-      I'm just stating a fact that more or less all digital libraries -- even
-      the best ones -- are suffering from the same problems, of which the most
-      important one is that <strong>all of us are building a new repository
-      whenever we start a new project</strong>.</p>
+      <p>That entry was also the one that took most time to write, followed by
+      my text <a href="http://sigfrid-lundberg.se/entries/2009/07/commuting/">On being an
+      international commuter</a> where the actual wordsmithing took an awful
+      amount of time. Two people has told me that they thought it was funny.</p>
 
-      <p style="text-align:center;">
-	<br/>*
-      </p>
+      <h2>Subject matters</h2>
 
-      <p>We see now a shift from the repository is the gravitational center
-      for the digital library towards the resources themselves. There should
-      be no need to go to the digital library, its content should be on the
-      Web. There is no need to move the library to Facebook to be where the
-      users are. It is sufficient to have the library resources on the Web --
-      which isn't the same as having the library there.</p>
+      <p>I've mentioned earlier that I started all this by adding categories
+      to all material that existed here before (mind you, this site is fifteen
+      years old). I've hardly used any of them. Why should I. I'd rather not
+      wright anything about harvesting or Z39.50. (I've done both the last
+      three years, but these topics doesn't interest me anymore.)</p>
 
-      <p>Carl Lagoze et al. uses this shift as a justification for proposing
-      the new standard OAI-ORE. When discussing the differences between the
-      old OAI-PMH and the new OAI-ORE, they formulate the trend in a very
-      clear way:</p>
+      <p>I suppose I should figure out a new system to categorize my material,
+      but then why should I?</p>
 
-      <blockquote style="margin-left:+5%;font-style:italic;" cite="http://arxiv.org/abs/0804.2273v1">
+      <h2>It does take time</h2>
 
-	<p>It <span style="font-style:normal;">[OAI-ORE]</span> also reflects
-	a recognition of the position of digital libraries vis-à-vis the Web
-	that sometimes seem to co-exist in a curiously parallel conceptual and
-	architectural space.</p>
+      <p>All this writing takes time, and energy. I feel that I have to
+      publish something every week. I mostly use the time on train, but I
+      several hours on evenings and weekends on this. You cannot start a
+      project which is time consuming without side effects. I read less novels
+      and literature just for the fun of it. I've hardly touched my flute and
+      recorders during this period.</p>
 
-	<p>We exist in a world where information is synonymous not with
-	<q>library</q> but with the Web and the applications that are rooted
-	in it. In this world, the Web Architecture is the lingua franca for
-	information interoperability, and applications such as most digital
-	libraries must exist within the capabilities and constraints of that
-	Web Architecture. Because of the virtual hegemony of Web browsers as
-	an information access tool and Google as a discovery tool, failure to
-	heed to Web Architecture principles, and therefore requiring somewhat
-	special treatment by these <q>monopoly applications</q> (which is
-	rarely if ever granted), effectively means falling into an information
-	black hole.</p>
-	<p style="text-align:right;font-style:normal"><a href="http://arxiv.org/abs/0804.2273v1">http://arxiv.org/abs/0804.2273v1</a></p>
-      </blockquote>
+      <p>I've read somewhere that it takes about half a year to establish a
+      blog, and I suppose that's about it.</p>
+
 
     </div>
     <p style="text-align: left;"><em><strong>Categories:</strong></em> 
-	  <a href="/subjects/structuralwebdesign/">Structural web design</a><br/><em><strong>
+	  <a href="/subjects/essays/">Essays</a><br/><em><strong>
 		Permalink:
-	      </strong></em><a rel="bookmark" href="/entries/2009/08/diglib/">http://sigfrid-lundberg.se/entries/2009/08/diglib/</a></p>
+	      </strong></em><a rel="bookmark" href="/entries/2009/09/twelveweeks/">http://sigfrid-lundberg.se/entries/2009/09/twelveweeks/</a></p>
     <hr width="50%" align="center"/>
   </div>
   <div>
     <h1>Other, not yet obsolete stuff</h1>
     <table class="news">
+      <tr>
+        <td class="left">2009</td>
+        <td class="left"><a href="/entries/2009/08/diglib/"><em>The predigital library</em></a><br/>What is the strategic goal for a library web site? Could it be to
+  put the library on the web, or is it basically to the library's resources
+  visible to users anywhere on the globe?<br/><a href="/subjects/structuralwebdesign/">Structural web design</a></td>
+      </tr>
       <tr>
         <td class="left">2009</td>
         <td class="left"><a href="/entries/2009/08/whatisabook/"><em>What is a book, and does it matter?</em></a><br/>Lorcan Dempsey of OCLC research, is involved in among lots of
@@ -154,14 +135,6 @@
         <td class="left">2009</td>
         <td class="left"><a href="/entries/2009/08/features/"><em>Changed URI for my feed, and a forum for discussions</em></a><br/>Having actively maintained my site for some, I've decided make a
   few changes...<br/><a href="/subjects/colophon/">Colophon</a></td>
-      </tr>
-      <tr>
-        <td class="left">2009</td>
-        <td class="left"><a href="/entries/2009/08/trends/"><em>On Divorce and Unemployment Benefit Societies</em></a><br/>Here I analyse of some data retrieved from Google Insight
-  Search. This little study is inspired by the study performed by Hyunyoung
-  Choi &amp; Hal Varian, Google Research, were they were able to show that it
-  is possible to make short-term forcasts of economic behavours using search
-  statistics.<br/><a href="/subjects/essays/">Essays</a></td>
       </tr>
     </table>
   </div>
