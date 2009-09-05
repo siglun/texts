@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<entry xmlns="http://www.w3.org/2005/Atom" xmlns:dc="http://purl.org/dc/elements/1.1/">
+  <author>
+    <name>Sigfrid Lundberg</name>
+  </author>
+  <title>Twelve weeks</title>
+  <link href="/entries/2009/09/twelveweeks/"/>
+  <summary>It is twelve weeks since i refurbished and redecorated this
+  site. It is time for an evaluation...</summary>
+  <content type="xhtml">
+    <div xmlns="http://www.w3.org/1999/xhtml">
+
+
+      <p>It is about twelve weeks since i refurbished and redecorated this
+      site. It is time for an evaluation. I do ask myself more or less daily
+      if I can continue to say that this is worthwhile? My answer has been yes
+      so far. I also ask myself if I do a good enough job, and to that my
+      answer has been: Yes, I believe that some of my entries are good
+      enough.</p>
+
+
+      <div style="float: left; width: 50%; margin-left:0.5em;margin-right:0.5em;">
+
+	<a href="/entries/2009/09/twelveweeks/usage.pdf">
+	  <img src="/entries/2009/09/twelveweeks/usage.png" alt="About 12 weeks usage statistics for my site." width="100%" border="0"/>
+	</a>
+
+	<p>
+	  <small>Figure 1. Average number of visits per week for my site
+	  sigfrid-lundberg.se (in blue) and the average time (in seconds)
+	  people stay there (in red).</small>
+	</p>
+
+      </div>
+
+      <p>The number of visitors has been growing steadily from only a few
+      individual visitors per week, to about two dozen. But on the other hand
+      the time spend reading have declined dramatically (Figure 1). I do have
+      a handful of visitors staying for a couple of minutes reading my weekly
+      entry. This is easy to tell from the google statistics. I have no graphs
+      on this, but distribution of time spent per visit is bimodal. A majority
+      stays less than ten seconds, very few stay for a minute but a larger
+      minority stay for three to five minutes, perhaps reading one entry and
+      skimming another.</p>
+
+      <p>My most successful entry is <a href="http://sigfrid-lundberg.se/entries/2009/08/trends/">On Divorce and
+      Unemployment Benefit Societies</a>. I do think it deserves it, but the
+      key to its success is that I wrote a comment on Google Research Blog, <a href="http://googleresearch.blogspot.com/2009/07/posted-by-hal-varian-chief-economist.html">the
+      place</a> that inspired me to write in the first place. Just yesterday I
+      got 26 visitors through that blog entry.</p>
+
+      <p>That entry was also the one that took most time to write, followed by
+      my text <a href="http://sigfrid-lundberg.se/entries/2009/07/commuting/">On being an
+      international commuter</a> where the actual wordsmithing took an awful
+      amount of time. Two people has told me that they thought it was funny.</p>
+
+      <h2>Subject matters</h2>
+
+      <p>I've mentioned earlier that I started all this by adding categories
+      to all material that existed here before (mind you, this site is fifteen
+      years old). I've hardly used any of them. Why should I. I'd rather not
+      wright anything about harvesting or Z39.50. (I've done both the last
+      three years, but these topics doesn't interest me anymore.)</p>
+
+      <p>I suppose I should figure out a new system to categorize my material,
+      but then why should I?</p>
+
+      <h2>It does take time</h2>
+
+      <p>All this writing takes time, and energy. I feel that I have to
+      publish something every week. I mostly use the time on train, but I
+      several hours on evenings and weekends on this. You cannot start a
+      project which is time consuming without side effects. I read less novels
+      and literature just for the fun of it. I've hardly touched my flute and
+      recorders during this period.</p>
+
+      <p>I've read somewhere that it takes about half a year to establish a
+      blog, and I suppose that's about it.</p>
+
+
+    </div>
+  </content>
+  <dc:date>2009</dc:date>
+  <category label="essays" term="Essays"/>
+  <updated>2009-09-05T13:10:12+01:00</updated>
+  <published>2009-09-01T17:42:45+01:00</published>
+  <id>http://www.sigfrid-lundberg.se/entries/2009/09/twelveweeks/</id>
+</entry>
