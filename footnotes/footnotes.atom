@@ -13,12 +13,12 @@
   <content type="xhtml">
     <div xmlns="http://www.w3.org/1999/xhtml">
 
-      <p>There is a link at the top of this page. It says "Show anchors". It's
-      not a very user friendly description of what it does, but I cannot
-      figure out a better term right now. If you click on it, there will
-      appear a link after most words in the text. These are the annotation
-      anchors. When visible, the anchors appears as a clickable asterisk '*',
-      and click on one of them activates the usual <a
+      <p>There is a link at the top of this page. It says <q><strong>Show
+      Anchors</strong></q>. It's not a very user friendly description of what
+      it does, but I cannot figure out a better term right now. If you click
+      on it, there will appear a link after most words in the text. These are
+      the annotation anchors. When visible, the anchors appears as a clickable
+      asterisk '*', and click on one of them activates the usual <a
       href="http://disqus.com">disqus.com forum</a>.</p>
 
       <p>Submitting a footnote works, but the script never get the
