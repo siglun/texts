@@ -13,16 +13,7 @@
   <content type="xhtml">
     <div xmlns="http://www.w3.org/1999/xhtml">
 
-      <p>In order to understand what's going on here, you have have to <a
-      href="http://sigfrid-lundberg.se/footnotes/">visit the
-      resource</a>. There is a some scripting going on which cannot be
-      syndicated</p>
-
-      <h2>What you can do here</h2>
-
-      <p>There is a link at the top of this page (if you're reading the HTML
-      version <a href="http://sigfrid-lundberg.se/footnotes/">directly from my
-      site</a>, that is). It says "Show anchors". It's not a very user
+      <p>There is a link at the top of this page. It says "Show anchors". It's not a very user
       friendly description of what it does, but I cannot figure out a better
       term right now. If you click on it, there will appear a link after most
       words in the text. These are the annotation anchors of this text.</p>
