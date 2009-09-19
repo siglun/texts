@@ -1,11 +1,12 @@
 <div xmlns="http://www.w3.org/1999/xhtml">
   <div>
-    <h1 style="font-family: sans-serif; width: 55%; float: left;text-align: left;">Twelve weeks</h1>
+    <h1 style="font-family: sans-serif; width: 55%; float: left;text-align: left;">Add footnotes to my pages -- a prototype text annotation
+  interface</h1>
     <p style="width: 38%; float: left;text-align: right">
       <em>
         <strong>
 		Sigfrid Lundberg's Stuff,
-	      2009-09-05</strong>
+	      2009-09-19</strong>
       </em>
     </p>
   </div>
@@ -13,86 +14,129 @@
   <div style="width:100%;">
     <div>
 
+      <p>In order to understand what's going on here, you have have to <a href="http://sigfrid-lundberg.se/footnotes/">visit the
+      resource</a>. There is a some scripting going on which cannot be
+      syndicated</p>
 
-      <p>It is about twelve weeks since i refurbished and redecorated this
-      site. It is time for an evaluation. I do ask myself more or less daily
-      if I can continue to say that this is worthwhile? My answer has been yes
-      so far. I also ask myself if I do a good enough job, and to that my
-      answer has been: Yes, I believe that some of my entries are good
-      enough.</p>
+      <h2>What you can do here</h2>
 
+      <p>There is a link at the top of this page (if you're reading the HTML
+      version <a href="http://sigfrid-lundberg.se/footnotes/">directly from my
+      site</a>, that is). It says "Show anchors". It's not a very user
+      friendly description of what it does, but I cannot figure out a better
+      term right now. If you click on it, there will appear a link after most
+      words in the text. These are the annotation anchors of this text.</p>
 
-      <div style="float: left; width: 50%; margin-left:0.5em;margin-right:0.5em;">
+      <p>When visible, the anchors appears as a clickable asterisk '*', and
+      and a click on one of them activates the usual <a href="disqus.com">disqus.com forum</a>. This is by some client side DOM
+      programming.</p>
 
-	<a href="http://sigfrid-lundberg.se/entries/2009/09/twelveweeks/usage.pdf">
-	  <img src="http://sigfrid-lundberg.se/entries/2009/09/twelveweeks/usage.png" alt="About 12 weeks usage statistics for my site." width="100%" border="0"/>
-	</a>
+      <p>Submitting a footnote works, but the script never get the
+      acknowledgement from the disqus.com server. I don't know why, but it
+      seems that the form doesn't like to live in an iframe.</p>
 
-	<p>
-	  <small>Figure 1. Average number of visits per week for my site
-	  sigfrid-lundberg.se (in blue) and the average time (in seconds)
-	  people stay there (in red). Week 1 in the graph is the starting June
-	  14, 2009. The last week is August 23 to 29.</small>
-	</p>
-      </div>
+      <p id="anchor55576b680.592539918884886">My server retrieves the
+      annotations from the disqus.com web services and print a list of notes
+      at the end of the page. This is done server side, shuch that the
+      discussions within the footnotes will be visible by search engines. The
+      place of the annotation is marked as a note with a link to the
+      notes. You may read the annotation when your mouse is over the link.</p>
 
-      <p>The number of visitors has been growing steadily from only a few
-      individual visitors per week, to about two dozen. But on the other hand
-      the time spend reading have declined dramatically (Figure 1). I do have
-      a handful of visitors staying for a couple of minutes reading my weekly
-      entry. This is easy to tell from the google statistics. I have no graphs
-      on this, but distribution of time spent per visit is bimodal. A majority
-      stays less than ten seconds, very few stay for a minute but a larger
-      minority stay for three to five minutes, perhaps reading one entry and
-      skimming another.</p>
+      <p>Is this a good idea? Do you like it? Should all my pages have user
+      supplied foot notes?</p>
+      
+      <h2>How is it done</h2>
 
-      <p>My most successful entry is <a href="http://sigfrid-lundberg.se/entries/2009/08/trends/">On Divorce and
-      Unemployment Benefit Societies</a>. I do think it deserves it, but the
-      key to its success is that I wrote a comment on Google Research Blog, <a href="http://googleresearch.blogspot.com/2009/07/posted-by-hal-varian-chief-economist.html">the
-      place</a> that inspired me to write in the first place. Just yesterday I
-      got 26 visitors through that blog entry.</p>
+      <p id="anchor55018b510.584488500647474">In order to add footnotes to a
+      text, we need to be able to address individual positions in it. These
+      positions are what I'd like to call annotation anchors. I've already
+      briefly discussed the problem on how to create identifiers (see a <a href="http://sigfrid-lundberg.se/entries/2009/08/quotations/">A
+      quotation is much more than an extract</a>). For this entry I've
+      extended the xslt script such that it can <a href="http://exslt.org/str/functions/tokenize/">tokenize</a> html text
+      embedded in atom entry documents. It can also add anchors (id
+      attributes) on each individual word (produced by the tokenize function)
+      in the whole text. We also implement a javascript which expose these
+      anchors to users, and allow them to comment more or less arbitrary point
+      in the text.</p>
 
-      <p>That entry was also the one that took most time to write, followed by
-      my text <a href="http://sigfrid-lundberg.se/entries/2009/07/commuting/">On being an
-      international commuter</a> where the actual wordsmithing took an awful
-      amount of time. Two people has told me that they thought it was funny.</p>
+      <p id="anchor55402b10.359095368701543">There is a <strong>big</strong>
+      drawback in this procedure; once you have processed your text and the
+      anchors are there, then you <strong>must not</strong> change them. Each
+      word has become a resource on the internet. Please view the source of
+      this document, before you use the stylesheet <kbd><a href="http://sigfrid-lundberg.se/footnotes/atom_anchor_id.xsl">atom_anchor_id.xsl</a></kbd>.</p>
 
-      <h2>Subject matters</h2>
+      <pre>
+	&lt;span id="anchor54764"&gt;Would&lt;/span&gt;
+	&lt;span id="anchor54766"&gt;you&lt;/span&gt;
+	&lt;span id="anchor54768"&gt;like&lt;/span&gt;
+	&lt;span id="anchor54770"&gt;to&lt;/span&gt;
+	&lt;span id="anchor54772"&gt;edit&lt;/span&gt;
+	&lt;span id="anchor54774"&gt;this&lt;/span&gt;
+	&lt;span id="anchor54778"&gt;text?&lt;/span&gt;
+      </pre>
 
-      <p>I've mentioned earlier that I started all this by adding categories
-      to all material that existed here before (mind you, this site is fifteen
-      years old). I've hardly used any of them. Why should I. I'd rather not
-      wright anything about harvesting or Z39.50. (I've done both the last
-      three years, but these topics doesn't interest me anymore.)</p>
+      <p>See what I mean? I cannot author prose like that in my XML
+      editor. You wouldn't suffer as much using WYSIWYG tools, but on the hand
+      it would presumably destroy the ID-strings.</p>
 
-      <p>I suppose I should figure out a new system to categorize my material,
-      but then why should I?</p>
+      <p>When preparing this text, I felt that I had to prepare some
+      annotations of my own, and in order to do that I compiled the text,
+      published it, made my annotation and then pasted the ID back into the
+      source XML in order to be able to continue writing. Formbased proof
+      reading of an existing digital text wouldn't be any problem, though.</p>
 
-      <h2>It does take time</h2>
+      <h2>Javascript &amp; DOM scripting</h2>
 
-      <p>All this writing takes time, and energy. I feel that I have to
-      publish something every week. I mostly use the time I spend on train
-      between Lund and Copenhagen, but I also use several hours on evenings
-      and weekends on this. You cannot start a project which is time consuming
-      without side effects. I read less novels and literature just for the fun
-      of it. I've hardly touched my flute and <a href="http://sigfrid-lundberg.se/images/Degeberga_duo.shtml" title="me       and my son Erik cooking porridge while playing a polska">recorders</a>
-      during this period.</p>
+      <p>You can find the possible anchors by clicking on the link
+      <strong>Show anchors</strong>, and hide them again by clicking on
+      <strong>Hide anchors</strong> at the same place (there is a
+      toggle). There are two javascript functions handling the toggling. The
+      possibly most interesting, but also, the most vulnerable, feature is the
+      generation of javascript from rss for handling the readable
+      notes.</p>
 
-      <p>I've read somewhere that it takes about half a year to establish a
-      blog, and I suppose that's about it. I won't write about web statistics
-      until then.</p>
+      <pre>
+      &lt;script type="text/javascript"&gt;
+	    var usedAnchorIds = new Array();
+	    var noteTexts     = new Array();
+	    
+	    usedAnchorIds[0]="anchor55402b10.359095368701543";
 
+	    noteTexts[0]='I had problems obtaining unique id strings from the'
+	    +'generate-id() function in XSLT. (siggelundberg, Fri, 18 Sep 2009'
+	    +'17:46:27 -0000)';
+
+	    usedAnchorIds[1]="anchor55018b510.584488500647474";
+
+	    noteTexts[1]='This is an arbitrary point in my text. I find this'
+	    +'really suitable for adding a footnote. (siggelundberg, Fri, 18 Sep
+	    +'2009 03:27:16 -0000)';
+
+	    printNotes(usedAnchorIds,noteTexts);
+
+    &lt;/script&gt;
+      </pre>
+
+      <p>The rest of the features are readily visible on this page. You have
+      to reaload the page to see the new footnote -- if I implement this I'll
+      will refresh those asynchronously.</p>
 
     </div>
     <p style="text-align: left;"><em><strong>Categories:</strong></em> 
-	  <a href="/subjects/essays/">Essays</a><br/><em><strong>
+	  <a href="/subjects/structuralwebdesign/">Structural web design</a>,
+	    <a href="/subjects/xmlprocessing/">XML Processing</a><br/><em><strong>
 		Permalink:
-	      </strong></em><a rel="bookmark" href="/entries/2009/09/twelveweeks/">http://sigfrid-lundberg.se/entries/2009/09/twelveweeks/</a></p>
+	      </strong></em><a rel="bookmark" href="/footnotes/">http://sigfrid-lundberg.se/footnotes/</a></p>
     <hr width="50%" align="center"/>
   </div>
   <div>
     <h1>Other, not yet obsolete stuff</h1>
     <table class="news">
+      <tr>
+        <td class="left">2009</td>
+        <td class="left"><a href="/entries/2009/09/twelveweeks/"><em>Twelve weeks</em></a><br/>It is twelve weeks since i refurbished and redecorated this
+  site. It is time for an evaluation...<br/><a href="/subjects/essays/">Essays</a></td>
+      </tr>
       <tr>
         <td class="left">2009</td>
         <td class="left"><a href="/entries/2009/08/diglib/"><em>The predigital library</em></a><br/>What is the strategic goal for a library web site? Could it be to
@@ -132,11 +176,6 @@
   the web? But, alas!, library people have in general too little understanding
   of the Worldwide Web. In particular those who advocate persistent
   identifiers.<br/><a href="/subjects/structuralwebdesign/">Structural web design</a></td>
-      </tr>
-      <tr>
-        <td class="left">2009</td>
-        <td class="left"><a href="/entries/2009/08/features/"><em>Changed URI for my feed, and a forum for discussions</em></a><br/>Having actively maintained my site for some, I've decided make a
-  few changes...<br/><a href="/subjects/colophon/">Colophon</a></td>
       </tr>
     </table>
   </div>

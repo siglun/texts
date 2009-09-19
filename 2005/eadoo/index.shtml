@@ -34,7 +34,7 @@
       formats than its native using export and import filters written in XSLT.
       This package implements editing of EAD in OOo using that mechanism.</p>
 
-      <h2>Please note that this is work in progress</h2>
+      <h2>Please note that this once was a work in progress</h2>
 
       <p><strong>Don't expect</strong> this to work at all! The EAD produced
       isn't valid, and don't ever edit any originals using this. The EAD

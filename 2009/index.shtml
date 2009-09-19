@@ -11,7 +11,12 @@
   systems or blog software is unthinkable for me. There are many ways to build
   a site like this. I have chosen one that maximizes the use of angle
   brackets.<br/><a href="/subjects/structuralwebdesign/">Structural web design</a>,
-	<a href="/subjects/colophon/">Colophon</a></p><p><a href="/entries/2009/08/features/"><em>Changed URI for my feed, and a forum for discussions</em></a><br/>Having actively maintained my site for some, I've decided make a
+	<a href="/subjects/colophon/">Colophon</a></p><p><a href="/footnotes/"><em>Add footnotes to my pages -- a prototype text annotation
+  interface</em></a><br/>I've had a javascript based forum with thread for each entry. That
+  seemed boring to me. Why should users be restricted to commenting entire
+  articles. Why not letting them add footnotes to arbitrary positions in a
+  text. In this entry I experiment with this feature.<br/><a href="/subjects/structuralwebdesign/">Structural web design</a>,
+	<a href="/subjects/xmlprocessing/">XML Processing</a></p><p><a href="/entries/2009/08/features/"><em>Changed URI for my feed, and a forum for discussions</em></a><br/>Having actively maintained my site for some, I've decided make a
   few changes...<br/><a href="/subjects/colophon/">Colophon</a></p><p><a href="/entries/2009/08/threeyears/"><em>Five years that formed the digital library as we know it:
   1997-2001</em></a><br/>It appeared to me that many the standards and technologies
   underpinning the digital library as we know it were formed during five years
