@@ -96,8 +96,10 @@
       <strong>Hide anchors</strong> at the same place (there is a
       toggle). There are two javascript functions handling the toggling. The
       possibly most interesting, but also, the most vulnerable, feature is the
-      generation of javascript from rss for handling the readable
-      notes.</p>
+      generation of javascript by <a
+      href="http://sigfrid-lundberg.se/footnotes/make_javascript.xsl">XSLT
+      from RSS</a> for handling the readable notes. The code entering the
+      notes into the text looks like this:</p>
 
       <pre>
       &lt;script type="text/javascript">
