@@ -18,8 +18,8 @@
       it does, but I cannot figure out a better term right now. If you click
       on it, there will appear a link after most words in the text. These are
       the annotation anchors. When visible, the anchors appears as a clickable
-      asterisk '*', and click on one of them activates the usual <a
-      href="http://disqus.com">disqus.com forum</a>.</p>
+      asterisk '*'. Clicking on one of them activates the usual <a
+      href="http://disqus.com">disqus.com</a> forum.</p>
 
       <p>Submitting a footnote works, but the script never get the
       acknowledgement from the disqus.com server. I don't know why, but it
