@@ -17,7 +17,7 @@
 
   <xsl:include href="php_macros.xsl"/>
 
-  <xsl:param name="debug" select="'1'"/>
+  <xsl:param name="debug" select="''"/>
   
   <xsl:output method="xml"
 	      indent="yes"
@@ -205,7 +205,7 @@
 	  </script>
 
 
-<!--
+
 	  <div id="disqus_thread">
 	    <xsl:text>
 	    </xsl:text>
@@ -215,9 +215,9 @@
 	    by <span class="logo-disqus">Disqus</span>
 	    </a>
 	  </p>
--->
+
 	</div>
-<!--
+
 	<script type="text/javascript" src="http://disqus.com/forums/sigfridlundbergsstuff/embed.js">
 	  <xsl:text>
 	  </xsl:text>
@@ -234,10 +234,10 @@
 	      View the discussion thread
 	  </xsl:element>
 	</noscript>
--->
+
 	<script type="text/javascript">
 	  <xsl:text disable-output-escaping="yes">//&lt;!--</xsl:text>
-	  <!--xsl:text disable-output-escaping="yes">
+	  <xsl:text disable-output-escaping="yes">
 	  (function() {
 	      var links = document.getElementsByTagName('a');
 	      var query = '?';
@@ -248,7 +248,7 @@
 	      }
 	      document.write('&lt;script charset="utf-8" type="text/javascript" src="http://disqus.com/forums/sigfridlundbergsstuff/get_num_replies.js' + query + '">&lt;/' + 'script>');
 	  })();
-	  </xsl:text-->
+	  </xsl:text>
 	  <xsl:text disable-output-escaping="yes">//--&gt;</xsl:text>
 	</script>
 
