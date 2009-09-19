@@ -27,7 +27,7 @@
 
       <p id="anchor55576b680.592539918884886">My server retrieves the
       annotations from the disqus.com web services and print a list of notes
-      at the end of the page. This is done server side, shuch that the
+      at the end of the page. This is done server side, such that the
       discussions within the footnotes will be visible by search engines. The
       place of the annotation is marked as a note with a link to the
       notes. You may read the annotation when your mouse is over the link.</p>
