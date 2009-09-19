@@ -16,7 +16,8 @@
 
       <p>In order to understand what's going on here, you have have to <a href="http://sigfrid-lundberg.se/footnotes/">visit the
       resource</a>. There is a some scripting going on which cannot be
-      syndicated</p>
+      syndicated. If you're reading this, you are on the wrong
+      page. Sorry.</p>
 
       <h2>What you can do here</h2>
 
@@ -27,9 +28,9 @@
       term right now. If you click on it, there will appear a link after most
       words in the text. These are the annotation anchors of this text.</p>
 
-      <p>When visible, the anchors appears as a clickable asterisk '*', and
-      and a click on one of them activates the usual <a href="disqus.com">disqus.com forum</a>. This is by some client side DOM
-      programming.</p>
+      <p>When visible, the anchors appears as a clickable asterisk '*', and a
+      click on one of them activates the usual <a href="disqus.com">disqus.com
+      forum</a>. This is by some client side DOM programming.</p>
 
       <p>Submitting a footnote works, but the script never get the
       acknowledgement from the disqus.com server. I don't know why, but it
