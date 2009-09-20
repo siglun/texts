@@ -11,6 +11,146 @@
   <author>
     <name>Sigfrid Lundberg</name>
   </author>
+  <title>Att tjäna den demokratiska kulturnationens minne</title>
+  <link href="/entries/2009/09/msb/"/>
+  <summary>Jag har arbetat med att programmera digitala bibliotek i ungefär 15
+  år. När jag läser debatten om biblioteket i Sydsvenskan känner jag att jag
+  borde säga något. Jag vet inte i vilken utsträckning mitt perspektiv kommer
+  att kännas relevant för alla de som känner sig kallade att yttra sig, men
+  jag har en hel del erfarenheter som nog de flesta andra saknar.</summary>
+  <content type="xhtml">
+    <div xmlns="http://www.w3.org/1999/xhtml">
+
+      <p>Biblioteket bygger på två principer. När jag säger biblioteket menar
+      jag inget särskilt bibliotek, vare sig Library of Congress, Umberto Ecos
+      klosterbibliotek i <q>Rosens namn</q> eller för den delen Malmö
+      Stadsbibliotek, utan biblioteket som idé. Jag syftar på alla bibliotek i
+      kollektiv singularis. För att över huvud taget förstå varför det finns
+      bibliotek, måste man ta hänsyn till de två prinicperna.</p>
+
+      <p>Den första principen är att det är lönsamt för de som läser och
+      studerar att dela böcker. Böcker har varit sällsynta, dyrbara och
+      platskrävande. Under en stor del av den civiliserade mänsklighetens
+      historia har det funnits bibliotek som den boksynte gärna tagit en omväg
+      för att kunna besöka. Den andra principen är att man gjort ett undantag
+      i upphovsrätten som gör just denna delning möjlig i en
+      marknadsekonomi. Författare får en viss ersättning per utlån.</p>
+
+      <p>Förnyarna i biblioteksdebatten ser säkert denna inledning som
+      ytterligt konservativ. <em>À la bon heur.</em> Det enda sättet att få en
+      träff på i princip enbart mission statements för större Nordamerikanska
+      bibliotek är att söka på <a href="http://www.google.com/search?hl=en&amp;q=collect+preserve+organize+provide+access&amp;start=0&amp;sa=N">collect
+      preserve organize provide access</a> i Google. Det smyger sig in en del
+      arkiv i träffmängden, med det är flest bibliotek.</p>
+
+      <h2>Public service search engines</h2>
+
+      <p>Jag har arbetat med att programmera digitala bibliotek i ungefär 15
+      år. Jag startade min första webbserver 1994 och började arbeta
+      professionellt med forskning &amp; utveckling på
+      digitalabiblioteksområdet mindre än ett år senare. Mitt personliga mål
+      har hela tiden varit att <em>inte</em> arbeta med problem vars lösning
+      går att köpa, att hela tiden ligga vid någon front. Under nittiotalet
+      låg biblioteken faktiskt i framkant i IT-utvecklingen. Vi arbetade med
+      att testa var gränserna går. Vårt arbetsområde var information. Böckerna
+      var bara en källa. Vid NetLab vid Lunds universitet arbetade vi med att
+      bygga sökrobotar och såg det som en naturlig uppgift för oss att
+      organisera hela Internet enligt public service-principen. När vi började
+      arbetet kunde sökmaskinen Lycos, som hade monopol just då, inte indexera
+      dokument med europeiska tecken.</p>
+
+      <p>Ödet ville att vi skulle släppa Nordiskt Webbindex månaden efter Alta
+      Vista släppte sin sökmaskin. De kunde, precis som vi, faktiskt söka på
+      <em>ål and öl</em>, och att <a href="http://www7.scu.edu.au/1900/com1900.htm">vi skulle presentera
+      oss</a> vid the <a href="http://www7.scu.edu.au/">Seventh International
+      Worldwide Web Conference 1998</a>, samma konferens där två unga
+      studenter från Kalifornien, <a href="http://www7.scu.edu.au/1921/com1921.htm">Lawrence Page och Sergey
+      Brin</a>, presenterade en ny sökmaskin som de kallade Google.</p>
+
+      <p>Jag ägnade mig åt att sälja insamling, bevarande, organisering och
+      tillgängliggörande av Internet ytterligare något år, sedan fick andra ta
+      över. Det finns ingen som vill finansiera organisering av informationen
+      på Internet enligt public service-modellen. Jag programmerar fortfarande
+      digitala bibliotek, men det är en annan historia.</p>
+
+      <h2>Biblioteket Chris Anderson's värld</h2>
+
+      <p>Som biblioteksperson är tillhör jag den minoritet som <em>aldrig</em>
+      arbetat med annat digital library R&amp;D. Som sådan kan jag inte förstå
+      varför inte Chris Anderson's böcker <em>The Long Tail</em> &amp;
+      <em>Free</em> inte nämnts en enda gång i de artiklar i
+      Sydsvenskan. Åtminstone inte i de artiklar som jag har läst.</p>
+
+      <p>Det traditionella biblioteket är inklämt mellan Akademibokhandeln, å
+      ena sidan, och Amazoogle å andra. Google har som uttalat mål att
+      organisera all <a href="http://www.wired.co.uk/wired-magazine/archive/2009/08/features/the-unstoppable-google.aspx">information
+      i världen</a>.</p>
+
+      <p>Boklådorna säljer hitlistornas material, och Amazoogle distribuerar
+      resten.</p>
+
+      <p>Information väger ingenting längre, den är inte dyr och tar inte så
+      mycket plats. Inte ens fysiska böcker är dyrbara att lagra om man har
+      ett magasin långt ute. Med rätt logistik fungerar det ändå.  25% av
+      Amazon's försäljning är titlar som ligger utanför deras 100,000
+      toppsäljare. De har ett helt nätverk av antikvariat bakom sig för att
+      kunna tillfredsställa de mest esoteriska önskemål. Vad Malmö
+      Stadsbibliotek betraktar som hyllvärmare är big business för
+      Amazoogle.</p>
+
+      <p>I den massdigitaliseringens årtionde är de utgallrade böckerna
+      hårdvaluta.</p>
+
+      <h2>En demokratisk kulturnations minne</h2>
+
+      <p>Skall vi ha hus med böcker? Det inte är uppenbart att vi behöver
+      sådana hus. Problemet är likartat som när René Descartes betvivlade sin
+      egen existens. Det gäller att hitta en punkt där vi kan nysta upp det
+      den härva av argument vi sett för och emot Biblioteket. Det finns
+      faktiskt en sak som bara bibliotek gör, och det är att bevara
+      kulturnationens minne. OK, Malmö Stadsbibliotek slänger en del. Men tror
+      mig, de skulle inte slänga sista examplaret av en bok, om det råkade
+      finnas i samlingarna där.</p>
+
+      <p>Små som stora bibliotek samlar och bevarar. Det finns lokalsamlingar
+      ute vid folkbiblioteken. De stora nationalbiblioteken gör sådant som att
+      bevara Worldwide Web. Det görs vid Kungl. Biblioteket i Humlegården och
+      vi gör det vid Det Konglige Bibliotek i København.</p>
+
+      <p>Allt detta samlande utgör den demokratiska kulturnationens minne. Vi
+      kan inte överlåta denna uppgift till någon annan. Vare sig till
+      Akademibokhandeln eller Amazoogle. Inte ens till <a href="http://www.archive.org">Internet Archive</a>. Om vi börjar vid
+      denna punkt kan vi förstå att vi faktiskt inte skulle klara oss utan
+      biblioteken.</p>
+
+      <p>Varje kommun, region och nation måste samla, bevara, organisera och
+      tillgängliggöra. Den som inte gör det kommer att förlora en viktig del
+      av sig själv. Minnet. Vi måste tillhandahålla unikt material via webben
+      i våra digitala bibliotek, vi måste ha en rent fysisk infrastruktur i
+      form av läsesalar där studenter tentamensläser och raggar brudar. Varje
+      målgrupp måste ha sina faciliteter.</p>
+
+      <p>Ja, och så kan vi bygga vidare. Och då har vi snart mentalt byggt ett
+      hus med böcker, och dessutom insett att vi behöver det. Även om somliga
+      köper sina Stieg Larsson och Camilla Läckberg på ICA, och sin De
+      Consolatione Philosophie via amazon.com.</p>
+
+      <p>Problemet är närmast när vi inom biblioteksväsendet börjar skämmas
+      för att vi faktiskt tjänar den demokratiska kulturnationens
+      minne.</p>
+
+    </div>
+  </content>
+  <dc:date>2009</dc:date>
+  <category label="thelibrary" term="The Library"/>
+  <category label="internet" term="Internet"/>
+  <updated>2009-09-20T15:55:13+01:00</updated>
+  <id>http://www.sigfrid-lundberg.se/entries/2009/09/msb/</id>
+</entry>
+  <entry>
+  <author>
+    <name>Sigfrid Lundberg</name>
+  </author>
   <title>Add footnotes to my pages -- a prototype text annotation
   interface</title>
   <link href="/footnotes/"/>

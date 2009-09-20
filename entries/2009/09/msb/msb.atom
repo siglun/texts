@@ -1,17 +1,17 @@
-<div xmlns="http://www.w3.org/1999/xhtml">
-  <div>
-    <h1 style="font-family: sans-serif; width: 55%; float: left;text-align: left;">Att tjäna den demokratiska kulturnationens minne</h1>
-    <p style="width: 38%; float: left;text-align: right">
-      <em>
-        <strong>
-		Sigfrid Lundberg's Stuff,
-	      2009-09-20</strong>
-      </em>
-    </p>
-  </div>
-  <div style="clear:both;"> </div>
-  <div style="width:100%;">
-    <div>
+<?xml version="1.0" encoding="UTF-8"?>
+<entry xmlns="http://www.w3.org/2005/Atom" xmlns:dc="http://purl.org/dc/elements/1.1/">
+  <author>
+    <name>Sigfrid Lundberg</name>
+  </author>
+  <title>Att tjäna den demokratiska kulturnationens minne</title>
+  <link href="/entries/2009/09/msb/"/>
+  <summary>Jag har arbetat med att programmera digitala bibliotek i ungefär 15
+  år. När jag läser debatten om biblioteket i Sydsvenskan känner jag att jag
+  borde säga något. Jag vet inte i vilken utsträckning mitt perspektiv kommer
+  att kännas relevant för alla de som känner sig kallade att yttra sig, men
+  jag har en hel del erfarenheter som nog de flesta andra saknar.</summary>
+  <content type="xhtml">
+    <div xmlns="http://www.w3.org/1999/xhtml">
 
       <p>Biblioteket bygger på två principer. När jag säger biblioteket menar
       jag inget särskilt bibliotek, vare sig Library of Congress, Umberto Ecos
@@ -31,7 +31,8 @@
       <p>Förnyarna i biblioteksdebatten ser säkert denna inledning som
       ytterligt konservativ. <em>À la bon heur.</em> Det enda sättet att få en
       träff på i princip enbart mission statements för större Nordamerikanska
-      bibliotek är att söka på <a href="http://www.google.com/search?hl=en&amp;q=collect+preserve+organize+provide+access&amp;start=0&amp;sa=N">collect
+      bibliotek är att söka på <a
+      href="http://www.google.com/search?hl=en&amp;q=collect+preserve+organize+provide+access&amp;start=0&amp;sa=N">collect
       preserve organize provide access</a> i Google. Det smyger sig in en del
       arkiv i träffmängden, med det är flest bibliotek.</p>
 
@@ -53,10 +54,12 @@
 
       <p>Ödet ville att vi skulle släppa Nordiskt Webbindex månaden efter Alta
       Vista släppte sin sökmaskin. De kunde, precis som vi, faktiskt söka på
-      <em>ål and öl</em>, och att <a href="http://www7.scu.edu.au/1900/com1900.htm">vi skulle presentera
+      <em>ål and öl</em>, och att <a
+      href="http://www7.scu.edu.au/1900/com1900.htm">vi skulle presentera
       oss</a> vid the <a href="http://www7.scu.edu.au/">Seventh International
       Worldwide Web Conference 1998</a>, samma konferens där två unga
-      studenter från Kalifornien, <a href="http://www7.scu.edu.au/1921/com1921.htm">Lawrence Page och Sergey
+      studenter från Kalifornien, <a
+      href="http://www7.scu.edu.au/1921/com1921.htm">Lawrence Page och Sergey
       Brin</a>, presenterade en ny sökmaskin som de kallade Google.</p>
 
       <p>Jag ägnade mig åt att sälja insamling, bevarande, organisering och
@@ -75,7 +78,8 @@
 
       <p>Det traditionella biblioteket är inklämt mellan Akademibokhandeln, å
       ena sidan, och Amazoogle å andra. Google har som uttalat mål att
-      organisera all <a href="http://www.wired.co.uk/wired-magazine/archive/2009/08/features/the-unstoppable-google.aspx">information
+      organisera all <a
+      href="http://www.wired.co.uk/wired-magazine/archive/2009/08/features/the-unstoppable-google.aspx">information
       i världen</a>.</p>
 
       <p>Boklådorna säljer hitlistornas material, och Amazoogle distribuerar
@@ -111,7 +115,8 @@
 
       <p>Allt detta samlande utgör den demokratiska kulturnationens minne. Vi
       kan inte överlåta denna uppgift till någon annan. Vare sig till
-      Akademibokhandeln eller Amazoogle. Inte ens till <a href="http://www.archive.org">Internet Archive</a>. Om vi börjar vid
+      Akademibokhandeln eller Amazoogle. Inte ens till <a
+      href="http://www.archive.org">Internet Archive</a>. Om vi börjar vid
       denna punkt kan vi förstå att vi faktiskt inte skulle klara oss utan
       biblioteken.</p>
 
@@ -132,60 +137,10 @@
       minne.</p>
 
     </div>
-    <p style="text-align: left;"><em><strong>Categories:</strong></em> 
-	  <a href="/subjects/thelibrary/">The Library</a>,
-	    <a href="/subjects/internet/">Internet</a><br/><em><strong>
-		Permalink:
-	      </strong></em><a rel="bookmark" href="/entries/2009/09/msb/">http://sigfrid-lundberg.se/entries/2009/09/msb/</a></p>
-    <hr width="50%" align="center"/>
-  </div>
-  <div>
-    <h1>Other, not yet obsolete stuff</h1>
-    <table class="news">
-      <tr>
-        <td class="left">2009</td>
-        <td class="left"><a href="/footnotes/"><em>Add footnotes to my pages -- a prototype text annotation
-  interface</em></a><br/>I've had a javascript based forum with thread for each entry. That
-  seemed boring to me. Why should users be restricted to commenting entire
-  articles. Why not letting them add footnotes to arbitrary positions in a
-  text. In this entry I experiment with this feature.<br/><a href="/subjects/structuralwebdesign/">Structural web design</a>,
-	<a href="/subjects/xmlprocessing/">XML Processing</a></td>
-      </tr>
-      <tr>
-        <td class="left">2009</td>
-        <td class="left"><a href="/entries/2009/09/twelveweeks/"><em>Twelve weeks</em></a><br/>It is twelve weeks since i refurbished and redecorated this
-  site. It is time for an evaluation...<br/><a href="/subjects/essays/">Essays</a></td>
-      </tr>
-      <tr>
-        <td class="left">2009</td>
-        <td class="left"><a href="/entries/2009/08/diglib/"><em>The predigital library</em></a><br/>What is the strategic goal for a library web site? Could it be to
-  put the library on the web, or is it basically to the library's resources
-  visible to users anywhere on the globe?<br/><a href="/subjects/structuralwebdesign/">Structural web design</a></td>
-      </tr>
-      <tr>
-        <td class="left">2009</td>
-        <td class="left"><a href="/entries/2009/08/whatisabook/"><em>What is a book, and does it matter?</em></a><br/>Lorcan Dempsey of OCLC research, is involved in among lots of
-  things, statistical analyses of media use. In that work they are forced to
-  make operational definitions of the 'book'.<br/><a href="/subjects/essays/">Essays</a>,
-	<a href="/subjects/media/">Media</a></td>
-      </tr>
-      <tr>
-        <td class="left">2009</td>
-        <td class="left"><a href="/entries/2009/08/threeyears/"><em>Five years that formed the digital library as we know it:
-  1997-2001</em></a><br/>It appeared to me that many the standards and technologies
-  underpinning the digital library as we know it were formed during five years
-  around the turn of the century.<br/><a href="/subjects/metadata/">Metadata</a></td>
-      </tr>
-      <tr>
-        <td class="left">2009</td>
-        <td class="left"><a href="/entries/2009/08/quotations/"><em>A quotation is much more than an extract</em></a><br/>In my last entry, on cool URIs, I discussed the identification of
-  documents. The conclusion from that is that people in the library world are
-  obsessed by being able to find documents. I take that more serious than most
-  other library folk. I'd say that it is our mission to help our patrons find
-  a single word in a text, a rectangle in an image and so forth. The time is
-  gone when we could tell users: The answer to your question might be in any
-  of the books on that shelf.<br/><a href="/subjects/structuralwebdesign/">Structural web design</a></td>
-      </tr>
-    </table>
-  </div>
-</div>
+  </content>
+  <dc:date>2009</dc:date>
+  <category label="thelibrary" term="The Library"/>
+  <category label="internet" term="Internet"/>
+  <updated>2009-09-20T15:55:13+01:00</updated>
+  <id>http://www.sigfrid-lundberg.se/entries/2009/09/msb/</id>
+</entry>
