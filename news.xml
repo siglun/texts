@@ -22,8 +22,8 @@
       architectural components, the database layer (<a href="#fig1">Fig. 1</a>) and the presentation layer (<a href="#fig2">Fig. 2</a>).</p>
 
       <div style="float: left; width: 70%; margin-left:0.5em;margin-right:0.5em;" id="fig1">
-	<a href="/entries/2009/08/opensearch/architecture.png">
-	  <img src="/entries/2009/08/opensearch/architecture.png" width="100%" alt="Fig. 1." border="0"/>
+	<a href="http://sigfrid-lundberg.se/entries/2009/08/opensearch/architecture.png">
+	  <img src="http://sigfrid-lundberg.se/entries/2009/08/opensearch/architecture.png" width="100%" alt="Fig. 1." border="0"/>
 	</a>
 	<p>
 	  <small>Fig. 1. Database layer. The export controller pulls data out
@@ -58,8 +58,8 @@
 
 
       <div style="float: right; width: 60%; margin-left:0.5em;margin-right:0.5em;" id="fig2">
-	<a href="/entries/2009/08/opensearch/architecture2.png">
-	  <img src="/entries/2009/08/opensearch/architecture2.png" width="100%" alt="Fig. 2." border="0"/>
+	<a href="http://sigfrid-lundberg.se/entries/2009/08/opensearch/architecture2.png">
+	  <img src="http://sigfrid-lundberg.se/entries/2009/08/opensearch/architecture2.png" width="100%" alt="Fig. 2." border="0"/>
 	</a>
 	<p>
 	  <small>Fig. 2. Presentation layer. The presentation layer is really
