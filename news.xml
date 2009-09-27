@@ -1,11 +1,11 @@
 <div xmlns="http://www.w3.org/1999/xhtml">
   <div>
-    <h1 style="font-family: sans-serif; width: 55%; float: left;text-align: left;">Att tjäna den demokratiska kulturnationens minne</h1>
+    <h1 style="font-family: sans-serif; width: 55%; float: left;text-align: left;">Syndication and Simple REST XML web services in a library context</h1>
     <p style="width: 38%; float: left;text-align: right">
       <em>
         <strong>
 		Sigfrid Lundberg's Stuff,
-	      2009-09-20</strong>
+	      2009-09-27</strong>
       </em>
     </p>
   </div>
@@ -13,140 +13,210 @@
   <div style="width:100%;">
     <div>
 
-      <p>Det har varit en lång debatt om vad biblioteket är till för i
-      Sydsvenskan, nu senast av Per Svensson: <a href="http://sydsvenskan.se/kultur-och-nojen/article551225/Viva-Las-Vegas.html">Viva
-      Läs Vegas</a>. Här kommer min version av varför jag tycker vi behöver
-      bibliotek.</p>
+      <p>Some time ago I discussed our architecture for <a href="http://sigfrid-lundberg.se/entries/2009/07/opml/">presenting some
+      of our digitized material</a>. We use a combination of <a href="http://www.opml.org/">opml</a> and <a href="http://www.opensearch.org/">OpenSearch</a> for letting our users
+      search and navigate our <a href="http://www.kb.dk/editions/any/2009/jul/editions/en/">Digital
+      Editions</a>.  Opml is used for dissemination of the subject structure
+      and for hierarchical tables of contents. Result set navigation is using
+      open search. The system could be described as having two major
+      architectural components, the database layer (<a href="#fig1">Fig. 1</a>) and the presentation layer (<a href="#fig2">Fig. 2</a>).</p>
 
-      <p>Biblioteket bygger på två principer. När jag säger biblioteket menar
-      jag inget särskilt bibliotek, vare sig Library of Congress, Umberto Ecos
-      klosterbibliotek i <q>Rosens namn</q> eller för den delen Malmö
-      Stadsbibliotek, utan biblioteket som idé. Jag syftar på alla bibliotek i
-      kollektiv singularis. För att över huvud taget förstå varför det finns
-      bibliotek, måste man ta hänsyn till de två prinicperna.</p>
+      <div style="float: left; width: 70%; margin-left:0.5em;margin-right:0.5em;" id="fig1">
+	<a href="/entries/2009/08/opensearch/architecture.png">
+	  <img src="/entries/2009/08/opensearch/architecture.png" width="100%" alt="Fig. 1." border="0"/>
+	</a>
+	<p>
+	  <small>Fig. 1. Database layer. The export controller pulls data out
+	  of our Cumulous Digital Asset Management system, normalizes them to
+	  a single syntactical and semantical system, namely <a href="http://www.loc.gov/standards/mods/">Metadata Object
+	  Description Schema (MODS)</a>. From that format it is further
+	  transformed into RSS 2.0 and Dublin Core. Finally these metadata
+	  objects are stored in our Oracle as XML fragments.</small>
 
-      <p>Den första principen är att det är lönsamt för de som läser och
-      studerar att dela böcker. Böcker har varit sällsynta, dyrbara och
-      platskrävande. Under en stor del av den civiliserade mänsklighetens
-      historia har det funnits bibliotek som den boksynte gärna tagit en omväg
-      för att kunna besöka. Den andra principen är att man gjort ett undantag
-      i upphovsrätten som gör just denna delning möjlig i en
-      marknadsekonomi. Författare får en viss ersättning per utlån.</p>
+	  <small>The normalization rules are implemented as a set of XSLT
+	  scripts with a supporting set of xpath functions implemented in
+	  java.</small>
+	</p>
+      </div>
 
-      <p>Förnyarna i biblioteksdebatten ser säkert denna inledning som
-      ytterligt konservativ. <em>À la bon heur.</em> Det enda sättet att få en
-      träff på i princip enbart mission statements för större Nordamerikanska
-      bibliotek är att söka på <a href="http://www.google.com/search?hl=en&amp;q=collect+preserve+organize+provide+access&amp;start=0&amp;sa=N">collect
-      preserve organize provide access</a> i Google. Det smyger sig in en del
-      arkiv i träffmängden, med det är flest bibliotek.</p>
+      <h2>Metadata processing</h2>
 
-      <h2>Public service search engines</h2>
+      <p>A couple of weeks ago, I accidentally searched the Web for "metadata
+      processing". "Google suggest" invites you to that kind of
+      serendipity. I've previously not been able to give a name to the
+      discipline of one of my main areas of expertise; here we go. It's
+      metadata processing. This phrase yields <a href="http://www.google.com/search?hl=en&amp;q=%22metadata+processing%22&amp;btnG=Search">about
+      10.600 hits</a> in a Google search, which makes it a smaller disciplin
+      than <a href="http://www.google.com/search?hl=en&amp;q=%22sewage+processing%22&amp;btnG=Search">sewage
+      processing</a>.</p>
 
-      <p>Jag har arbetat med att programmera digitala bibliotek i ungefär 15
-      år. Jag startade min första webbserver 1994 och började arbeta
-      professionellt med forskning &amp; utveckling på
-      digitalabiblioteksområdet mindre än ett år senare. Mitt personliga mål
-      har hela tiden varit att <em>inte</em> arbeta med problem vars lösning
-      går att köpa, att hela tiden ligga vid någon front. Under nittiotalet
-      låg biblioteken faktiskt i framkant i IT-utvecklingen. Vi arbetade med
-      att testa var gränserna går. Vårt arbetsområde var information. Böckerna
-      var bara en källa. Vid NetLab vid Lunds universitet arbetade vi med att
-      bygga sökrobotar och såg det som en naturlig uppgift för oss att
-      organisera hela Internet enligt public service-principen. När vi började
-      arbetet kunde sökmaskinen Lycos, som hade monopol just då, inte indexera
-      dokument med europeiska tecken.</p>
+      <p>The database layer is all about metadata processing. Our <a href="http://www.canto.com/">Cumulus</a> installation contains a
+      multitude of metadata fields invented by people for particular purposes
+      in the past. The main objective has been to get a job done and images
+      into a database, not out on the web in an efficient way and not to get
+      the metadata across to other services.</p>
 
-      <p>Ödet ville att vi skulle släppa Nordiskt Webbindex månaden efter Alta
-      Vista släppte sin sökmaskin. De kunde, precis som vi, faktiskt söka på
-      <em>ål and öl</em>, och att <a href="http://www7.scu.edu.au/1900/com1900.htm">vi skulle presentera
-      oss</a> vid the <a href="http://www7.scu.edu.au/">Seventh International
-      Worldwide Web Conference 1998</a>, samma konferens där två unga
-      studenter från Kalifornien, <a href="http://www7.scu.edu.au/1921/com1921.htm">Lawrence Page och Sergey
-      Brin</a>, presenterade en ny sökmaskin som de kallade Google.</p>
 
-      <p>Jag ägnade mig åt att sälja insamling, bevarande, organisering och
-      tillgängliggörande av Internet ytterligare något år, sedan fick andra ta
-      över. Det finns ingen som vill finansiera organisering av informationen
-      på Internet enligt public service-modellen. Jag programmerar fortfarande
-      digitala bibliotek, men det är en annan historia.</p>
+      <div style="float: right; width: 60%; margin-left:0.5em;margin-right:0.5em;" id="fig2">
+	<a href="/entries/2009/08/opensearch/architecture2.png">
+	  <img src="/entries/2009/08/opensearch/architecture2.png" width="100%" alt="Fig. 2." border="0"/>
+	</a>
+	<p>
+	  <small>Fig. 2. Presentation layer. The presentation layer is really
+	  two layers, one Web service layer and one user step further away a
+	  graphical user interface which we refer to as an OpenSearch
+	  gateway. This is because OpenSearch is its main communication
+	  protocol with the web service layer.</small>
+	</p>
+      </div>
 
-      <h2>Biblioteket i Chris Anderson's värld</h2>
+      <p>In this project our goal was to be able to present this material in a
+      single framework, using a homogenous metadata profile. The metadata core
+      is built around Metadata Object Description Schema (MODS). The Export
+      controller (<a href="#fig1">Fig. 1</a>) consists of two loosely
+      connected components; the Exporter and the Digester. The former
+      basically dumps data from Cumulus using its <a href="http://www.canto.com/en/docs/documentation/PDF_JCR_ReadMe_750_Z.pdf">java
+      API</a>, the latter basically transforms those data into a range of XML
+      fragment formats described in <a href="#tab1">Table 1</a>.</p>
 
-      <p>Som biblioteksperson tillhör jag den minoritet som <em>aldrig</em>
-      arbetat med annat än digital library R&amp;D. Som sådan kan jag inte
-      förstå varför inte Chris Andersons böcker <em>The Long Tail</em> och
-      <em>Free</em> inte nämnts en enda gång i Sydsvenskan. Åtminstone inte i
-      de artiklar som jag har läst.</p>
+      <p>The basic idea is to avoid any stage where we have to generate XML
+      from scratch later on in the process; processing of semi-manufactured
+      XML objects is computationally much cheaper than the generation of new
+      ones.</p>
 
-      <p>Det traditionella biblioteket är inklämt mellan Akademibokhandeln, å
-      ena sidan, och Amazoogle å den andra. Google har som uttalat mål att
-      organisera <a href="http://www.wired.co.uk/wired-magazine/archive/2009/08/features/the-unstoppable-google.aspx">all  information
-      i världen</a>.</p>
+      <h2>Web services</h2>
 
-      <p>Boklådorna säljer hitlistornas material, och Amazoogle distribuerar
-      resten.</p>
+      <p>The web service layer (<a href="#fig2">Fig. 2</a>) does search and
+      retrieval and operates basically by retrieving the XML fragments
+      generated by the Digester (see above). The design goal has been to
+      minimize the cost of XML processing here to a minimum. For the
+      processing that occur there we use the <a href="http://stax.codehaus.org/Home">Streaming API for XML (StAX)</a>
+      (JSR-173). StAX is standard from java sdk 1.6. It wasn't trivial to get
+      it running for java 5.</p>
 
-      <p>Information väger ingenting längre, den är inte dyr och tar inte så
-      mycket plats. Inte ens fysiska böcker är dyrbara att lagra om man har
-      ett magasin långt ute in the middle of nowhere. Med rätt logistik
-      fungerar det ändå.  25% av Amazon's försäljning är titlar som ligger
-      utanför deras 100,000 toppsäljare. De har ett helt nätverk av
-      antikvariat bakom sig för att kunna tillfredsställa de mest esoteriska
-      önskemål. Vad Malmö Stadsbibliotek betraktar som hyllvärmare är big
-      business för Amazoogle.</p>
+      <p>When you just want to make modest stream editing of XML,
+      this is an excellent tool. I doubt that you can ever get an as fast DOM
+      based XML tool, so whenever possible use this. There are a few cases
+      where we were forced to introduced XML and XSLT for more extensive
+      editing, but in general here we use ligh-weight XML technology. We
+      access Oracle through <a href="http://www.hibernate.org/">Hibernate</a>,
+      which was a pleasure when the mappings were in place -- but it is a
+      nightmare to make the hibernate mappings if you're a beginner.</p>
 
-      <p>I massdigitaliseringens årtionde är de utgallrade böckerna
-      hårdvaluta.</p>
+      <p>OpenSearch is my favourate XML protocol for searching, since it is
+      much easier to use than <a href="http://www.loc.gov/standards/sru/">SRU</a>.  You can direct test
+      an OpenSearch implementation on <a href="http://www.a9.com/-/opensearch/">on a9.com</a>. You paste the URI
+      of an opensearch description into their form and you'll then get back an
+      interpretation of your data and a search form. <a href="http://www.a9.com/-/opensearch/?url=http%3A%2F%2Fwww.kb.dk%2Fcop%2Fdescription%2Fimages%2Fbilled%2F2008%2Fsep%2Fkistebilleder&amp;x=39&amp;y=11">Please
+      try it!</a>. Don't search for the suggested search term esbjerg, try
+      something like "Adam".</p>
 
-      <h2>En demokratisk kulturnations minne</h2>
+      <p>The OAI service is already running, and for the first time our
+      library catalog can retrieve and import bibliographical records from our
+      digitization services automatically.</p>
 
-      <p>Skall vi ha hus med böcker? Det inte är uppenbart att vi behöver
-      sådana hus. Problemet är likartat som när René Descartes betvivlade sin
-      egen existens. Det gäller att hitta en punkt där vi kan nysta upp 
-      den härva av argument vi sett för Biblioteket. Det finns
-      faktiskt en sak som bara bibliotek gör, och det är att bevara
-      kulturnationens minne. OK, Malmö Stadsbibliotek slänger en del. Men tro
-      mig, de skulle inte slänga sista examplaret av en titel, om den råkade
-      finnas i samlingarna där.</p>
 
-      <p>Små som stora bibliotek samlar och bevarar. Det finns lokalsamlingar
-      ute vid folkbiblioteken. De stora nationalbiblioteken gör sådant som att
-      bevara Worldwide Web. Det görs vid Kungl. Biblioteket i Humlegården och
-      vi gör det vid Det Konglige Bibliotek i København.</p>
+      <div style="width: 90%; margin-left:0.5em;margin-right:0.5em;" id="tab1">
+	<table>
+	  <caption>Table 1. Various formats used for dissemination and
+	  syndication of our data through the various XML web services mentioned
+	  in <a href="#fig2">Fig. 2</a>.</caption>
+	  <tr>
+	    <th style="border:none;" border="0">function</th>
+	    <th style="border:none;" border="0">format</th>
+	    <th style="border:none;" border="0">example service</th>
+	  </tr>
+	  <tr>
+	    <td style="border:none;" border="0">dissemination of metadata</td>
+	    <td style="border:none;" border="0"><a href="http://www.loc.gov/standards/mods/">MODS</a>, oai_dc via 
+	    <a href="http://www.openarchives.org">OAI</a></td>
+	    <td style="border:none;" border="0">
+	      <a href="http://www.kb.dk/cop/oai?verb=GetRecord&amp;identifier=oai:kb.dk:Samlingsbilleder/100&amp;metadataPrefix=oai_dc">http://www.kb.dk/cop/oai?verb=GetRecord&amp;identifier=oai:kb.dk:Samlingsbilleder/100&amp;metadataPrefix=oai_dc</a>
+	    </td>
+	  </tr>
+	  <tr>
+	    <td style="border:none;" border="0">syndication and search</td>
+	    <td style="border:none;" border="0"><a href="http://cyber.law.harvard.edu/rss/rss.html">RSS 2.0</a> and <a href="http://www.opensearch.org/">opensearch</a></td>
+	    <td style="border:none;" border="0"><a class="feed-link" type="application/rss+xml" href="http://www.kb.dk/images/billed/2008/sep/kistebilleder/en/?query=Adam*&amp;itemsPerPage=40">http://www.kb.dk/images/billed/2008/sep/kistebilleder/en/?query=Adam*&amp;itemsPerPage=40</a></td>
+	  </tr>
+	  <tr>
+	    <td style="border:none;" border="0">subject navigation</td>
+	    <td style="border:none;" border="0">opml</td>
+	    <td style="border:none;" border="0">
+	      <a href="http://www.kb.dk/cop/navigation/images/billed/2008/sep/kistebilleder">http://www.kb.dk/cop/navigation/images/billed/2008/sep/kistebilleder</a>
+	    </td>
+	  </tr>
+	  <tr>
+	    <td style="border:none;" border="0">content navigation (via tables
+	    of contents)</td>
+	    <td style="border:none;" border="0">opml</td>
+	    <td style="border:none;" border="0">no edition available yet</td>
+	  </tr>
+	  <tr>
+	    <td style="border:none;" border="0">REST Web service description<br/>
+	    Rudimentary collection level description</td>
+	    <td style="border:none;" border="0"><a href="http://www.opensearch.org/Specifications/OpenSearch/1.1#OpenSearch_description_document">OpenSearchDescription</a></td>
+	    <td style="border:none;" border="0"><a href="http://www.kb.dk/cop/description/images/billed/2008/sep/kistebilleder">http://www.kb.dk/cop/description/images/billed/2008/sep/kistebilleder</a>
+	    </td>
+	  </tr>
 
-      <p>Allt detta samlande utgör den demokratiska kulturnationens minne. Vi
-      kan inte överlåta denna uppgift till någon annan. Vare sig till
-      Akademibokhandeln eller Amazoogle. Inte ens till <a href="http://www.archive.org">Internet Archive</a>. Om vi börjar vid
-      denna punkt kan vi förstå att vi faktiskt inte skulle klara oss utan
-      biblioteken.</p>
+	  <tr>
+	    <td style="border:none;" border="0">Configuration service</td>
+	    <td style="border:none;" border="0"><a href="http://java.sun.com/j2se/1.5.0/docs/api/java/util/Properties.html">Java
+	    properties in XML</a>. See also <a href="http://java.sun.com/dtd/properties.dtd">the DTD</a>.</td>
+	    <td style="border:none;" border="0"><a href="http://www.kb.dk/cop/configuration/images/billed/2008/sep/kistebilleder">http://www.kb.dk/cop/configuration/images/billed/2008/sep/kistebilleder</a></td>
 
-      <p>Varje kommun, region och nation måste samla, bevara, organisera och
-      tillgängliggöra. Den som inte gör det kommer att förlora en viktig del
-      av sig själv. Minnet. Vi måste tillhandahålla unikt material via webben
-      i våra digitala bibliotek, vi måste ha en rent fysisk infrastruktur i
-      form av läsesalar där studenter tentamensläser och raggar. Varje
-      målgrupp måste ha sina faciliteter.</p>
 
-      <p>Ja, och så kan vi bygga vidare. Och då har vi snart mentalt byggt ett
-      hus med böcker, och dessutom insett att vi behöver det. Även om somliga
-      köper sina Stieg Larsson och Camilla Läckberg på ICA, och sin De
-      Consolatione Philosophie via amazon.com.</p>
+	  </tr>
 
-      <p>Problemet är närmast när vi inom biblioteksväsendet börjar skämmas
-      för att vi faktiskt tjänar den demokratiska kulturnationens
-      minne.</p>
+
+	</table>
+      </div>
+
+      <h2>Presentation layer</h2>
+
+      <p>The part of the system which users will actually see and use is best
+      described as a mash-up engine. The basis is yet-another template
+      system. I think that it is fair guess that each major web development
+      platform already has more of those than they need. My problem was that I
+      needed a recursive one.</p>
+
+      <p>The template is a XML document with include statements in certain
+      places. The engine then retrieves data from the web services, transform
+      the them and put the product in place with the XML DOM api. There will
+      now be new include statements, which were the product of the previous
+      set of data inserted. There are usually a handful of recursions before
+      the page is ready for delivery. We have two skins or templates running,
+      <a href="http://www.kb.dk/images/billed/2008/maj/danmarksbilleder/">Danmarksbilleder</a>
+      and Default used for the services mentioned above. Apart from different
+      look and feel, Danmarksbilleder uses an older version of the database
+      and another set of web services. See my previous <a href="http://sigfrid-lundberg.se/entries/2009/07/opml/">posting</a>.</p>
+
+      <p>There is currently no plans to make new HTML skins. However, I'm
+      about to write one that generates Metadata Encoding and Transmission
+      Standard (METS) documents. But that's another story.</p>
+
 
     </div>
     <p style="text-align: left;"><em><strong>Categories:</strong></em> 
-	  <a href="/subjects/thelibrary/">The Library</a>,
-	    <a href="/subjects/internet/">Internet</a><br/><em><strong>
+	  <a href="/subjects/xws/">XML web services</a>,
+	    <a href="/subjects/metadataprocessing/">Metadata processing</a><br/><em><strong>
 		Permalink:
-	      </strong></em><a rel="bookmark" href="/entries/2009/09/msb/">http://sigfrid-lundberg.se/entries/2009/09/msb/</a></p>
+	      </strong></em><a rel="bookmark" href="/entries/2009/08/opensearch/">http://sigfrid-lundberg.se/entries/2009/08/opensearch/</a></p>
     <hr width="50%" align="center"/>
   </div>
   <div>
     <h1>Other, not yet obsolete stuff</h1>
     <table class="news">
+      <tr>
+        <td class="left">2009</td>
+        <td class="left"><a href="/entries/2009/09/msb/"><em>Att tjäna den demokratiska kulturnationens minne</em></a><br/>Jag har arbetat med att programmera digitala bibliotek i ungefär 15
+  år. När jag läser debatten om biblioteket i Sydsvenskan känner jag att jag
+  borde säga något. Jag vet inte i vilken utsträckning mitt perspektiv kommer
+  att kännas relevant för alla de som känner sig kallade att yttra sig, men
+  jag har en hel del erfarenheter som nog de flesta andra saknar.<br/><a href="/subjects/thelibrary/">The Library</a>,
+	<a href="/subjects/internet/">Internet</a></td>
+      </tr>
       <tr>
         <td class="left">2009</td>
         <td class="left"><a href="/footnotes/"><em>Add footnotes to my pages -- a prototype text annotation
@@ -180,16 +250,6 @@
   1997-2001</em></a><br/>It appeared to me that many the standards and technologies
   underpinning the digital library as we know it were formed during five years
   around the turn of the century.<br/><a href="/subjects/metadata/">Metadata</a></td>
-      </tr>
-      <tr>
-        <td class="left">2009</td>
-        <td class="left"><a href="/entries/2009/08/quotations/"><em>A quotation is much more than an extract</em></a><br/>In my last entry, on cool URIs, I discussed the identification of
-  documents. The conclusion from that is that people in the library world are
-  obsessed by being able to find documents. I take that more serious than most
-  other library folk. I'd say that it is our mission to help our patrons find
-  a single word in a text, a rectangle in an image and so forth. The time is
-  gone when we could tell users: The answer to your question might be in any
-  of the books on that shelf.<br/><a href="/subjects/structuralwebdesign/">Structural web design</a></td>
       </tr>
     </table>
   </div>

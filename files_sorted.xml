@@ -11,6 +11,213 @@
   <author>
     <name>Sigfrid Lundberg</name>
   </author>
+  <title>Syndication and Simple REST XML web services in a library context</title>
+  <link href="/entries/2009/08/opensearch/"/>
+  <summary>Some time ago I demonstrated our navigation services. In that entry
+  I promised to tell you more about these services when they are are more
+  mature. Here is the story on the architecture of some of our new
+  digitization services.</summary>
+  <content type="xhtml">
+    <div xmlns="http://www.w3.org/1999/xhtml">
+
+      <p>Some time ago I discussed our architecture for <a href="http://sigfrid-lundberg.se/entries/2009/07/opml/">presenting some
+      of our digitized material</a>. We use a combination of <a href="http://www.opml.org/">opml</a> and <a href="http://www.opensearch.org/">OpenSearch</a> for letting our users
+      search and navigate our <a href="http://www.kb.dk/editions/any/2009/jul/editions/en/">Digital
+      Editions</a>.  Opml is used for dissemination of the subject structure
+      and for hierarchical tables of contents. Result set navigation is using
+      open search. The system could be described as having two major
+      architectural components, the database layer (<a href="#fig1">Fig. 1</a>) and the presentation layer (<a href="#fig2">Fig. 2</a>).</p>
+
+      <div style="float: left; width: 70%; margin-left:0.5em;margin-right:0.5em;" id="fig1">
+	<a href="/entries/2009/08/opensearch/architecture.png">
+	  <img src="/entries/2009/08/opensearch/architecture.png" width="100%" alt="Fig. 1." border="0"/>
+	</a>
+	<p>
+	  <small>Fig. 1. Database layer. The export controller pulls data out
+	  of our Cumulous Digital Asset Management system, normalizes them to
+	  a single syntactical and semantical system, namely <a href="http://www.loc.gov/standards/mods/">Metadata Object
+	  Description Schema (MODS)</a>. From that format it is further
+	  transformed into RSS 2.0 and Dublin Core. Finally these metadata
+	  objects are stored in our Oracle as XML fragments.</small>
+
+	  <small>The normalization rules are implemented as a set of XSLT
+	  scripts with a supporting set of xpath functions implemented in
+	  java.</small>
+	</p>
+      </div>
+
+      <h2>Metadata processing</h2>
+
+      <p>A couple of weeks ago, I accidentally searched the Web for "metadata
+      processing". "Google suggest" invites you to that kind of
+      serendipity. I've previously not been able to give a name to the
+      discipline of one of my main areas of expertise; here we go. It's
+      metadata processing. This phrase yields <a href="http://www.google.com/search?hl=en&amp;q=%22metadata+processing%22&amp;btnG=Search">about
+      10.600 hits</a> in a Google search, which makes it a smaller disciplin
+      than <a href="http://www.google.com/search?hl=en&amp;q=%22sewage+processing%22&amp;btnG=Search">sewage
+      processing</a>.</p>
+
+      <p>The database layer is all about metadata processing. Our <a href="http://www.canto.com/">Cumulus</a> installation contains a
+      multitude of metadata fields invented by people for particular purposes
+      in the past. The main objective has been to get a job done and images
+      into a database, not out on the web in an efficient way and not to get
+      the metadata across to other services.</p>
+
+
+      <div style="float: right; width: 60%; margin-left:0.5em;margin-right:0.5em;" id="fig2">
+	<a href="/entries/2009/08/opensearch/architecture2.png">
+	  <img src="/entries/2009/08/opensearch/architecture2.png" width="100%" alt="Fig. 2." border="0"/>
+	</a>
+	<p>
+	  <small>Fig. 2. Presentation layer. The presentation layer is really
+	  two layers, one Web service layer and one user step further away a
+	  graphical user interface which we refer to as an OpenSearch
+	  gateway. This is because OpenSearch is its main communication
+	  protocol with the web service layer.</small>
+	</p>
+      </div>
+
+      <p>In this project our goal was to be able to present this material in a
+      single framework, using a homogenous metadata profile. The metadata core
+      is built around Metadata Object Description Schema (MODS). The Export
+      controller (<a href="#fig1">Fig. 1</a>) consists of two loosely
+      connected components; the Exporter and the Digester. The former
+      basically dumps data from Cumulus using its <a href="http://www.canto.com/en/docs/documentation/PDF_JCR_ReadMe_750_Z.pdf">java
+      API</a>, the latter basically transforms those data into a range of XML
+      fragment formats described in <a href="#tab1">Table 1</a>.</p>
+
+      <p>The basic idea is to avoid any stage where we have to generate XML
+      from scratch later on in the process; processing of semi-manufactured
+      XML objects is computationally much cheaper than the generation of new
+      ones.</p>
+
+      <h2>Web services</h2>
+
+      <p>The web service layer (<a href="#fig2">Fig. 2</a>) does search and
+      retrieval and operates basically by retrieving the XML fragments
+      generated by the Digester (see above). The design goal has been to
+      minimize the cost of XML processing here to a minimum. For the
+      processing that occur there we use the <a href="http://stax.codehaus.org/Home">Streaming API for XML (StAX)</a>
+      (JSR-173). StAX is standard from java sdk 1.6. It wasn't trivial to get
+      it running for java 5.</p>
+
+      <p>When you just want to make modest stream editing of XML,
+      this is an excellent tool. I doubt that you can ever get an as fast DOM
+      based XML tool, so whenever possible use this. There are a few cases
+      where we were forced to introduced XML and XSLT for more extensive
+      editing, but in general here we use ligh-weight XML technology. We
+      access Oracle through <a href="http://www.hibernate.org/">Hibernate</a>,
+      which was a pleasure when the mappings were in place -- but it is a
+      nightmare to make the hibernate mappings if you're a beginner.</p>
+
+      <p>OpenSearch is my favourate XML protocol for searching, since it is
+      much easier to use than <a href="http://www.loc.gov/standards/sru/">SRU</a>.  You can direct test
+      an OpenSearch implementation on <a href="http://www.a9.com/-/opensearch/">on a9.com</a>. You paste the URI
+      of an opensearch description into their form and you'll then get back an
+      interpretation of your data and a search form. <a href="http://www.a9.com/-/opensearch/?url=http%3A%2F%2Fwww.kb.dk%2Fcop%2Fdescription%2Fimages%2Fbilled%2F2008%2Fsep%2Fkistebilleder&amp;x=39&amp;y=11">Please
+      try it!</a>. Don't search for the suggested search term esbjerg, try
+      something like "Adam".</p>
+
+      <p>The OAI service is already running, and for the first time our
+      library catalog can retrieve and import bibliographical records from our
+      digitization services automatically.</p>
+
+
+      <div style="width: 90%; margin-left:0.5em;margin-right:0.5em;" id="tab1">
+	<table>
+	  <caption>Table 1. Various formats used for dissemination and
+	  syndication of our data through the various XML web services mentioned
+	  in <a href="#fig2">Fig. 2</a>.</caption>
+	  <tr>
+	    <th style="border:none;" border="0">function</th>
+	    <th style="border:none;" border="0">format</th>
+	    <th style="border:none;" border="0">example service</th>
+	  </tr>
+	  <tr>
+	    <td style="border:none;" border="0">dissemination of metadata</td>
+	    <td style="border:none;" border="0"><a href="http://www.loc.gov/standards/mods/">MODS</a>, oai_dc via 
+	    <a href="http://www.openarchives.org">OAI</a></td>
+	    <td style="border:none;" border="0">
+	      <a href="http://www.kb.dk/cop/oai?verb=GetRecord&amp;identifier=oai:kb.dk:Samlingsbilleder/100&amp;metadataPrefix=oai_dc">http://www.kb.dk/cop/oai?verb=GetRecord&amp;identifier=oai:kb.dk:Samlingsbilleder/100&amp;metadataPrefix=oai_dc</a>
+	    </td>
+	  </tr>
+	  <tr>
+	    <td style="border:none;" border="0">syndication and search</td>
+	    <td style="border:none;" border="0"><a href="http://cyber.law.harvard.edu/rss/rss.html">RSS 2.0</a> and <a href="http://www.opensearch.org/">opensearch</a></td>
+	    <td style="border:none;" border="0"><a class="feed-link" type="application/rss+xml" href="http://www.kb.dk/images/billed/2008/sep/kistebilleder/en/?query=Adam*&amp;itemsPerPage=40">http://www.kb.dk/images/billed/2008/sep/kistebilleder/en/?query=Adam*&amp;itemsPerPage=40</a></td>
+	  </tr>
+	  <tr>
+	    <td style="border:none;" border="0">subject navigation</td>
+	    <td style="border:none;" border="0">opml</td>
+	    <td style="border:none;" border="0">
+	      <a href="http://www.kb.dk/cop/navigation/images/billed/2008/sep/kistebilleder">http://www.kb.dk/cop/navigation/images/billed/2008/sep/kistebilleder</a>
+	    </td>
+	  </tr>
+	  <tr>
+	    <td style="border:none;" border="0">content navigation (via tables
+	    of contents)</td>
+	    <td style="border:none;" border="0">opml</td>
+	    <td style="border:none;" border="0">no edition available yet</td>
+	  </tr>
+	  <tr>
+	    <td style="border:none;" border="0">REST Web service description<br/>
+	    Rudimentary collection level description</td>
+	    <td style="border:none;" border="0"><a href="http://www.opensearch.org/Specifications/OpenSearch/1.1#OpenSearch_description_document">OpenSearchDescription</a></td>
+	    <td style="border:none;" border="0"><a href="http://www.kb.dk/cop/description/images/billed/2008/sep/kistebilleder">http://www.kb.dk/cop/description/images/billed/2008/sep/kistebilleder</a>
+	    </td>
+	  </tr>
+
+	  <tr>
+	    <td style="border:none;" border="0">Configuration service</td>
+	    <td style="border:none;" border="0"><a href="http://java.sun.com/j2se/1.5.0/docs/api/java/util/Properties.html">Java
+	    properties in XML</a>. See also <a href="http://java.sun.com/dtd/properties.dtd">the DTD</a>.</td>
+	    <td style="border:none;" border="0"><a href="http://www.kb.dk/cop/configuration/images/billed/2008/sep/kistebilleder">http://www.kb.dk/cop/configuration/images/billed/2008/sep/kistebilleder</a></td>
+
+
+	  </tr>
+
+
+	</table>
+      </div>
+
+      <h2>Presentation layer</h2>
+
+      <p>The part of the system which users will actually see and use is best
+      described as a mash-up engine. The basis is yet-another template
+      system. I think that it is fair guess that each major web development
+      platform already has more of those than they need. My problem was that I
+      needed a recursive one.</p>
+
+      <p>The template is a XML document with include statements in certain
+      places. The engine then retrieves data from the web services, transform
+      the them and put the product in place with the XML DOM api. There will
+      now be new include statements, which were the product of the previous
+      set of data inserted. There are usually a handful of recursions before
+      the page is ready for delivery. We have two skins or templates running,
+      <a href="http://www.kb.dk/images/billed/2008/maj/danmarksbilleder/">Danmarksbilleder</a>
+      and Default used for the services mentioned above. Apart from different
+      look and feel, Danmarksbilleder uses an older version of the database
+      and another set of web services. See my previous <a href="http://sigfrid-lundberg.se/entries/2009/07/opml/">posting</a>.</p>
+
+      <p>There is currently no plans to make new HTML skins. However, I'm
+      about to write one that generates Metadata Encoding and Transmission
+      Standard (METS) documents. But that's another story.</p>
+
+
+    </div>
+  </content>
+  <dc:date>2009</dc:date>
+  <category label="xws" term="XML web services"/>
+  <category label="metadataprocessing" term="Metadata processing"/>
+  <updated>2009-09-27T12:23:52+01:00</updated>
+  <published>2009-09-23T18:03:30+01:00</published>
+  <id>http://www.sigfrid-lundberg.se/entries/2009/08/opensearch/</id>
+  <!-- $Id$ -->
+</entry>
+  <entry>
+  <author>
+    <name>Sigfrid Lundberg</name>
+  </author>
   <title>Att tjäna den demokratiska kulturnationens minne</title>
   <link href="/entries/2009/09/msb/"/>
   <summary>Jag har arbetat med att programmera digitala bibliotek i ungefär 15
