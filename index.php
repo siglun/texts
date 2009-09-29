@@ -55,7 +55,12 @@
 	  <img src="/images/Newsfeed-Atom.png" 
 	       alt="Subscribe to Stuff from Sigfrid Lundberg"
 	       border="0"/>Subscribe to discussion feed
+	</a><br/>
+
+	<a href="http://nyligen.se/blogg/nc3435">
+	  Sigfrid Lundgberg's Stuff@nyligen.se
 	</a>
+
       </p>
 
       <?php
