@@ -3047,10 +3047,10 @@ Kan utvecklas</td>
 dokumentarkiv</h2>
         <h3 id="item58">Bakgrund</h3>
         <ul>
-          <li><a href="DEF-projektorganisation.doc">DEF-utvärdering -
-projektorganisation</a> (.doc)</li>
-          <li><a href="DEF-test.doc">Projektbeskrivning. DEF Toolkit - test
-och utvärdering</a> (.doc)</li>
+          <li><!--a href="DEF-projektorganisation.doc"-->DEF-utvärdering -
+projektorganisation<!--/a--> (.doc)</li>
+          <li><!--a href="DEF-test.doc"-->Projektbeskrivning. DEF Toolkit - test
+och utvärdering<!--/a--> (.doc)</li>
           <li><a href="http://matport.cvt.dk/maintain.htm">Materials.dk:
 vejledning til administrationsgrÃ¦nsefladen</a>
 (Hjälptext för en av de danska fagportaler som
@@ -3062,14 +3062,14 @@ Dokumentation: IndexData</a>
         </ul>
         <h3 id="item59">Kriterieunderlag</h3>
         <ul>
-          <li><a href="kriterieunderlaget2.doc">Kriterieunderlag V0.01</a>
+          <li><!--a href="kriterieunderlaget2.doc"-->Kriterieunderlag V0.01<!--/a-->
 Skickat till referensgruppen 2002-12-20 (.doc)</li>
-          <li><a href="Kriteriesvar_sammanstallning01.doc">Kriterier för
+          <li><!--a href="Kriteriesvar_sammanstallning01.doc"-->Kriterier för
 utvärdering av DEF Toolkit: Sammanställning av svaren
-från ansvarsbiblioteken</a> 2003-01-28 (.doc)</li>
-          <li><a href="Kriteriesvar_sammanstallning02.doc">Kriterier för
+från ansvarsbiblioteken<!--/a--> 2003-01-28 (.doc)</li>
+          <li><!--a href="Kriteriesvar_sammanstallning02.doc"-->Kriterier för
 utvärdering av DEF Toolkit: Sammanställning av svaren
-från ansvarsbiblioteken</a> 2003-02-11 (.doc)</li>
+från ansvarsbiblioteken<!--/a--> 2003-02-11 (.doc)</li>
         </ul>
         <br/>
         <h3 id="item60">Testschema</h3>
