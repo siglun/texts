@@ -3074,29 +3074,29 @@ från ansvarsbiblioteken<!--/a--> 2003-02-11 (.doc)</li>
         <br/>
         <h3 id="item60">Testschema</h3>
         <ul>
-          <li><a href="testschema.doc">Testschema 1.0</a> Presenterad
+          <li><!--a href="testschema.doc"-->Testschema 1.0<!--/a--> Presenterad
 på referensgruppsmötet i Lund 2003-03-05 (.doc)</li>
-          <li><a href="admin.doc">Administration av TKL</a> ger tips om
+          <li><!--a href="admin.doc"-->Administration av TKL<!--/a--> ger tips om
 användaradministration, attändra metadataformuläret
 och att skapa en kontrollerad vokabulär (.doc)</li>
-          <li><a href="skapa_poster.doc">Att skapa, editera och makulera
-poster</a>även med information om att "dubbelklassa" en post
+          <li><!--a href="skapa_poster.doc"-->Att skapa, editera och makulera
+poster<!--/a-->även med information om att "dubbelklassa" en post
 och att flytta en post i ämneshierarkin (.doc)</li>
         </ul>
         <h3 id="item61">Referensgruppens rapporter</h3>
         <ul>
           <li>Maria Cederblad: (Malmö Högskola) - Länksamling
-för pedagoger <a href="Testrapport_MAH.doc">(Rapport)</a></li>
+för pedagoger <!--a href="Testrapport_MAH.doc"-->(Rapport)<!--/a--></li>
           <li>Ann-Sofi Cullhed (Uppsala UB) - Agora <a href="Testrapport_agora.doc">(Rapport)</a></li>
-          <li>Ylva Gavel, (Karolinska institutets universitetsbibliotek) <a href="Testrapport_KIB.doc">(Rapport)</a></li>
+          <li>Ylva Gavel, (Karolinska institutets universitetsbibliotek) <!--a href="Testrapport_KIB.doc"-->(Rapport)<!--/a--></li>
           <li>Kjell Jansson (Kungl Tekniska högskolans bibliotek), - fd.
-EELS <a href="Testrapport_KTH.doc">(Rapport)</a></li>
-          <li>Åse Paulsson (Biologibiblioteket, Lund) - Biogate <a href="Testrapport_biogate.doc">(Rapport)</a></li>
+EELS <!--a href="Testrapport_KTH.doc"-->(Rapport)<!--/a--></li>
+          <li>Åse Paulsson (Biologibiblioteket, Lund) - Biogate <!--a href="Testrapport_biogate.doc"-->(Rapport)<!--/a--></li>
           <li>Alexandra Machol Ravnskov (Stockholms UB), -
-Rättskällan <a href="Testrapport_SUB.doc">(Rapport)</a></li>
-          <li>Gullbritt Åhman (Göteborgs UB)- Samweb <a href="Testrapport_GUB.doc">(Rapport)</a></li>
+Rättskällan <!--a href="Testrapport_SUB.doc"-->(Rapport)<!--/a--></li>
+          <li>Gullbritt Åhman (Göteborgs UB)- Samweb <!--a href="Testrapport_GUB.doc"-->(Rapport)<!--/a--></li>
           <li>Per Åkerlund (Sveriges lantbruksuniversitets bibliotek) -
-NOVAgate <a href="Testrapport_novagate.doc">(Rapport)</a></li>
+NOVAgate <!--a href="Testrapport_novagate.doc"-->(Rapport)<!--/a--></li>
         </ul>
       </li>
     </ul>
