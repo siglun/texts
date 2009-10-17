@@ -6,7 +6,114 @@
   <title>Sigfrid Lundberg's Stuff</title>
   <id>http://sigfrid-lundberg.se/files.atom</id>
   <link rel="self" href="http://feeds.feedburner.com/SigfridLundbergsStuff?format=xml"/>
-  <updated>2009-09-27T12:23:52+01:00</updated>
+  <updated>2009-10-17T17:50:56+01:00</updated>
+  <entry>
+  <author>
+    <name>Sigfrid Lundberg</name>
+  </author>
+  <title>What about the HECS platforms?</title>
+  <link href="http://sigfrid-lundberg.se/entries/2009/10/webdevelopment/"/>
+  <summary>I've used fortran, pascal, C, perl, php and java in addition to
+  more specialized tools such as SQL and XSLT. There is currently a lot of
+  discussions on what platform will be the next winner.</summary>
+  <content type="xhtml">
+    <div xmlns="http://www.w3.org/1999/xhtml">
+
+      <p>Anyone who has stayed in the same business for some years, have seen
+      the recurrent changes in fashion. You'll also experience how people try
+      to sell you the <a href="http://en.wikipedia.org/wiki/Little_black_dress">little black
+      dress</a> as something new. People invent a lot of things. Some of them
+      are not that innovative. Some ideas required further development before
+      they could take off. Some ideas were right, but the time wasn't.</p>
+
+      <p>The <a href="http://www.tbray.org/ongoing/When/200x/2009/10/14/OOW-Take-aways#p-2">legacy</a>
+      is something that is accumululating behind you. What someone (usually
+      someone else) acquired or developed. You don't like the legacy, in
+      particular not its documentation, but you have to maintain it.</p>
+
+      <p>Once upon a time just about every script on the internet was written
+      in the PERL programming language. Then just about every introductory
+      programming course choose java as the prime example of an OO
+      language. Just about any project should have some object oriented
+      modelling, and J2EE was the name of the game. There were noone available
+      for the legacy.</p>
+
+      <h2>The HECS platforms</h2>
+
+      <p>Then things happen again. PHP had been there all along. Many of the
+      largest sites hade been using it for years for front-end work. The
+      back-end could be written in JAVA but C, C++, perl and python are
+      used. For newer sites there are languages like <a href="http://haskell.org/">Haskell</a> and <a href="http://erlang.org/">Erlang</a>, H and E in HECS. The remaining
+      characters are C as in <a href="http://clojure.org/">Clojure</a> and S
+      for <a href="http://www.scala-lang.org/">Scala</a></p>
+
+      <p>Mankind is stratified into those who are early adopters and those
+      that are more hesitant. Some of the early adopters buy the little black
+      dress over and over again. In a sense I belong to the hesitant ones;
+      novelty per se does not add to my interest. On the other hand I can get
+      very enthusiastic to learn about ideas and technologies that I find
+      elegant and new <em>to me</em>. One such idea, which is a true design
+      classic, is functional programming. It isn't strictly speaking new to
+      me. I've studied the Scheme programming language, and I'm using
+      XSLT and Xquery.</p>
+
+      <p>I'm very impressed by the elegance of the Haskell programming
+      language, and the community that has been built around it. <a href="http://hackage.haskell.org/">Hackage</a> is Haskell's answer to
+      PERL's <a href="http://cpan.org/">cpan</a>, PHP's <a href="http://pear.php.net/">PEAR</a> and Python's <a href="http://pypi.python.org/pypi">pypi</a>. The Haskell developers
+      seems to be most advanced when it comes to building an open-source
+      community. I do believe that Erlang is the platform which has the best
+      track record; it has been used in Ericsson's Open Telecom Platform, for
+      building ATM switches, <a href="http://couchdb.apache.org/">couchDB</a>
+      -- a modern cloud computing classic.</p>
+
+      <p>Still, I'm going for Haskell. I want a language which isn't using any
+      virtual machine. The <a href="http://www.haskell.org/haskellwiki/Referential_transparency">referential
+      transparency</a> (purity) is just a wonderful idea. I wan't something
+      really new and elegant, such as a little black dress.</p>
+
+
+    </div>
+  </content>
+  <dc:date>2009</dc:date>
+  <category label="programming" term="Programming"/>
+  <updated>2009-10-17T17:50:56+01:00</updated>
+  <id>http://www.sigfrid-lundberg.se/entries/2009/10/webdevelopment/</id>
+</entry>
+  <entry>
+  <author>
+    <name>Sigfrid Lundberg</name>
+  </author>
+  <title>Aggravated autumn depression</title>
+  <link href="http://sigfrid-lundberg.se/entries/2009/10/nicotine/"/>
+  <summary>I've felt miserable for a month, at least. Here is the
+  explanation...</summary>
+  <content type="xhtml">
+    <div xmlns="http://www.w3.org/1999/xhtml">
+
+      <p>The last few weeks I've not felt as good as I used to. As a matter of
+      fact I've been really miserable.</p>
+
+      <p>It started in August. You see, when I was about to complete any
+      substantial <a href="http://sigfrid-lundberg.se/entries/2009/08/opensearch/">piece of
+      work or project</a>, I looked forward to the delivery with certain level
+      of <a href="http://en.wikipedia.org/wiki/Separation_anxiety_disorder">separation
+      anxiety</a>. And then, after all deliverables were completed and a new
+      <a href="http://sigfrid-lundberg.se/entries/2009/08/opensearch/">service
+      was in place</a>, I got a <a href="http://en.wikipedia.org/wiki/Postpartum_depression">postpartum
+      depression</a>.</p>
+
+      <p>This autumn all this was aggravated by severe <a href="http://www.nlm.nih.gov/medlineplus/ency/article/000953.htm">nicotine
+      withdrawal</a> symptoms. I'd say, don't even try giving up <a href="http://www.youtube.com/watch?v=SA7ljAYX6kE">wet snuff</a>, unless
+      you've prepared yourself for a passage through hell.</p>
+
+
+    </div>
+  </content>
+  <dc:date>2009</dc:date>
+  <category label="aboutme" term="About me"/>
+  <updated>2009-10-15T07:56:59+01:00</updated>
+  <id>http://www.sigfrid-lundberg.se/entries/2009/10/nicotine/</id>
+</entry>
   <entry>
   <author>
     <name>Sigfrid Lundberg</name>
@@ -199,7 +306,7 @@
       look and feel, Danmarksbilleder uses an older version of the database
       and another set of web services. See my previous <a href="http://sigfrid-lundberg.se/entries/2009/07/opml/">posting</a>.</p>
 
-      <p>There is currently no plans to make new HTML skins. However, I'm
+      <p>There are currently no plans to make new HTML skins. However, I'm
       about to write one that generates Metadata Encoding and Transmission
       Standard (METS) documents. But that's another story.</p>
 
