@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<entry xmlns="http://www.w3.org/2005/Atom" xmlns:dc="http://purl.org/dc/elements/1.1/">
+  <author>
+    <name>Sigfrid Lundberg</name>
+  </author>
+  <title>The two Cultures</title>
+  <link href="/entries/2009/11/twocultures/"/>
+  <summary>Do you know the second law of thermodynamics?</summary>
+  <content type="xhtml">
+    <div xmlns="http://www.w3.org/1999/xhtml">
+
+      <p> C.P. Snow quoted G.H. Hardy</p>
+
+      <blockquote style="font-style:italic;font-size:98%;">
+	<p>“I remember G. H. Hardy once remarking to me in mild puzzlement,
+	some time in the 1930s, Have you noticed how the word "intellectual"
+	is used nowadays? There seems to be a new definition which certainly
+	doesn't include Rutherford or Eddington or Dirac or Adrian or me? It
+	does seem rather odd, don't y'know. (<a
+	href="http://en.wikipedia.org/wiki/The_Two_Cultures#C._P._Snow_quotations">C. P. Snow</a>)”</p>
+      </blockquote>
+
+      <p>in his book <em>The Two Cultures</em>. Another one:</p>
+
+      <blockquote style="font-style:italic;font-size:98%;" >
+	<p>“A good many times I have been present at gatherings of people who,
+	by the standards of the traditional culture, are thought highly
+	educated and who have with considerable gusto been expressing their
+	incredulity at the illiteracy of scientists.”</p>
+
+	<p>“Once or twice I have been provoked and have asked the company how
+	many of them could describe the Second Law of Thermodynamics. The
+	response was cold: it was also negative.”</p>
+
+	<p>“Yet I was asking something which is the scientific equivalent of:
+	Have you read a work of Shakespeare’s?”</p>
+      </blockquote>
+
+      <p>C.P. Snows book appeared <a
+      href="http://tech.mit.edu/V129/N26/shu.html">fifty years</a> ago. I've
+      studied science and technology for a better part of my life, and I've no
+      idea how many times I've got remarks like “that's a technical
+      detail.” It has happened this year.</p>
+
+      <p>Do you know what a markup language is? You may, or may not know the
+      answer, but I suppose it's still more important to read Shakespeare if
+      you're to be regarded as an educated person.</p>
+
+      <p>I do know the laws of thermodynamics, and I've read more than one
+      work by Shakespeare. However, we software developers usually don't write
+      like <a
+      href="http://en.wikipedia.org/wiki/Shakespeare_(programming_language)">Shakespeare</a>. We
+      may be good hackers anyway.</p>
+
+
+    </div>
+  </content>
+  <dc:date>2009</dc:date>
+  <category label="programming" term="Programming"/>
+  <updated>2009-11-01T15:31:26+01:00</updated>
+  <id>http://www.sigfrid-lundberg.se/entries/2009/11/twocultures/</id>
+</entry>

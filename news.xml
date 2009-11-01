@@ -1,11 +1,11 @@
 <div xmlns="http://www.w3.org/1999/xhtml">
   <div>
-    <h1 style="font-family: sans-serif; width: 55%; float: left;text-align: left;">What about the HECS platforms?</h1>
+    <h1 style="font-family: sans-serif; width: 55%; float: left;text-align: left;">The specification and the TODO-list</h1>
     <p style="width: 38%; float: left;text-align: right">
       <em>
         <strong>
 		Sigfrid Lundberg's Stuff,
-	      2009-10-17</strong>
+	      2009-11-01</strong>
       </em>
     </p>
   </div>
@@ -13,69 +13,88 @@
   <div style="width:100%;">
     <div>
 
-      <p>Anyone who has stayed in the same business for some years, have seen
-      the recurrent changes in fashion. You'll also experience how people try
-      to sell you the <a href="http://en.wikipedia.org/wiki/Little_black_dress">little black
-      dress</a> as something new. People invent a lot of things. Some of them
-      are not that innovative. Some ideas required further development before
-      they could take off. Some ideas were right, but the time wasn't.</p>
+      <p>People within any profession or trade should continuously be involved
+      in discussions of quality. I describe my profession as <em>web
+      developer</em> and my trade as <em>digital libraries</em>. These areas
+      are no exception.</p>
 
-      <p>The <a href="http://www.tbray.org/ongoing/When/200x/2009/10/14/OOW-Take-aways#p-2">legacy</a>
-      is something that is accumululating behind you. What someone (usually
-      someone else) acquired or developed. You don't like the legacy, in
-      particular not its documentation, but you have to maintain it.</p>
+      <p>Like many web developers I spend a better part of my day on coding
+      and other activities related to software development. But so do people
+      involved in non-linear oscillation simulators. The web is an
+      <em>application area</em>, but like non-linear systems it is also an
+      area of research on its own right, and so is digital library
+      research.</p>
 
-      <p>Once upon a time just about every script on the internet was written
-      in the PERL programming language. Then just about every introductory
-      programming course choose java as the prime example of an OO
-      language. Just about any project should have some object oriented
-      modelling, and J2EE was the name of the game. There were noone available
-      for the legacy.</p>
+      <p>There is more to digital libraries than just software
+      development. There are all research concerning resource description, and
+      how it relates to usability. There are also extensive standardization
+      work going on. Now, how much digital library knowledge would a
+      programmer need to know in order to build a good service?</p>
 
-      <h2>The HECS platforms</h2>
+      <h2>The specification and the TODO-list</h2>
 
-      <p>Then things happen again. PHP had been there all along. Many of the
-      largest sites hade been using it for years for front-end work. The
-      back-end could be written in JAVA but C, C++, perl and python are
-      used. For newer sites there are languages like <a href="http://haskell.org/">Haskell</a> and <a href="http://erlang.org/">Erlang</a>, H and E in HECS. The remaining
-      characters are C as in <a href="http://clojure.org/">Clojure</a> and S
-      for <a href="http://www.scala-lang.org/">Scala</a></p>
+      <p>In theory nothing. If the specification is good enough, then the
+      product should be good enough and this could, again in theory, ensured
+      by unit tests.</p>
 
-      <p>Mankind is stratified into those who are early adopters and those
-      that are more hesitant. Some of the early adopters buy the little black
-      dress over and over again. In a sense I belong to the hesitant ones;
-      novelty per se does not add to my interest. On the other hand I can get
-      very enthusiastic to learn about ideas and technologies that I find
-      elegant and new <em>to me</em>. One such idea, which is a true design
-      classic, is functional programming. It isn't strictly speaking new to
-      me. I've studied the Scheme programming language, and I'm using
-      XSLT and Xquery.</p>
+      <p>The problems here are, first, the quality of the specification, and,
+      secondly, the <a href="http://sigfrid-lundberg.se/entries/2009/11/twocultures/">Two
+      Cultures</a> (developers and editorial staff do not always understand
+      each other).  The two problems are related to each other.</p>
 
-      <p>I'm very impressed by the elegance of the Haskell programming
-      language, and the community that has been built around it. <a href="http://hackage.haskell.org/">Hackage</a> is Haskell's answer to
-      PERL's <a href="http://cpan.org/">cpan</a>, PHP's <a href="http://pear.php.net/">PEAR</a> and Python's <a href="http://pypi.python.org/pypi">pypi</a>. The Haskell developers
-      seems to be most advanced when it comes to building an open-source
-      community. I do believe that Erlang is the platform which has the best
-      track record; it has been used in Ericsson's Open Telecom Platform, for
-      building ATM switches, <a href="http://couchdb.apache.org/">couchDB</a>
-      -- a modern cloud computing classic.</p>
+      <p>The specification is a part of the agreement between the programmer
+      and his or her customer. The work is completed when everything in the
+      spec is in place. Programmer's need to know when they can send the
+      bill.</p>
 
-      <p>Still, I'm going for Haskell. I want a language which isn't using any
-      virtual machine. The <a href="http://www.haskell.org/haskellwiki/Referential_transparency">referential
-      transparency</a> (purity) is just a wonderful idea. I want something
-      really new and elegant, such as a little black dress.</p>
+      <p>We who write software, we're a kind of mathematical people. We will
+      feel secure if we know that the axioms are in place, that the theorems
+      are there as well, and that the deductions are correct.</p>
+
+      <p>For instance, if a piece of software is intended to assist an
+      aircraft both at take-off and landing, then the specification should say
+      so. Even if we thus kind of state the obvious, or if could imagine that
+      there is no space in the sky for all planes that wouldn't be able to
+      land.</p>
+
+      <h2>The web and software as services</h2>
+
+      <p>The web changed this. Not entirely but to a very large
+      extent. There's a fundamental difference between being a vendor and
+      being a service provider. The service provider try to get more users all
+      the time which calls for continuous development.</p>
+
+      <p>Through the web, a software vendor and a service provider could all
+      of a sudden compete on the same market. The software vendor use the
+      traditional specification, but a service implies software which is in
+      continuous development. Strictly speaking, there are no projects
+      anymore, just different activities. No specifications anymore, but TODO
+      lists containing incidents, bugs and requests for features ranked by
+      importance.</p>
+
+      <p>And there is a continuous need for innovation.</p>
 
 
     </div>
     <p style="text-align: left;"><em><strong>Categories:</strong></em> 
 	  <a href="/subjects/programming/">Programming</a><br/><em><strong>
 		Permalink:
-	      </strong></em><a rel="bookmark" href="/entries/2009/10/webdevelopment/">http://sigfrid-lundberg.se/entries/2009/10/webdevelopment/</a></p>
+	      </strong></em><a rel="bookmark" href="/entries/2009/10/programming/">http://sigfrid-lundberg.se/entries/2009/10/programming/</a></p>
     <hr width="50%" align="center"/>
   </div>
   <div>
     <h1>Other, not yet obsolete stuff</h1>
     <table class="news">
+      <tr>
+        <td class="left">2009</td>
+        <td class="left"><a href="/entries/2009/11/twocultures/"><em>The two Cultures</em></a><br/>Do you know the second law of thermodynamics?<br/><a href="/subjects/programming/">Programming</a></td>
+      </tr>
+      <tr>
+        <td class="left">2009</td>
+        <td class="left"><a href="/entries/2009/10/webdevelopment/"><em>What about the HECS platforms?</em></a><br/>I've used fortran, pascal, C, perl, php and java in addition to
+  more specialized tools such as SQL and XSLT. There is currently a lot of
+  discussions on what platform will be the next winner.<br/><a href="/subjects/programming/">Programming</a></td>
+      </tr>
       <tr>
         <td class="left">2009</td>
         <td class="left"><a href="/entries/2009/08/opensearch/"><em>Syndication and Simple REST XML web services in a library context</em></a><br/>Some time ago I demonstrated our navigation services. In that entry
@@ -106,19 +125,6 @@
         <td class="left">2009</td>
         <td class="left"><a href="/entries/2009/09/twelveweeks/"><em>Twelve weeks</em></a><br/>It is twelve weeks since i refurbished and redecorated this
   site. It is time for an evaluation...<br/><a href="/subjects/essays/">Essays</a></td>
-      </tr>
-      <tr>
-        <td class="left">2009</td>
-        <td class="left"><a href="/entries/2009/08/diglib/"><em>The predigital library</em></a><br/>What is the strategic goal for a library web site? Could it be to
-  put the library on the web, or is it basically to the library's resources
-  visible to users anywhere on the globe?<br/><a href="/subjects/structuralwebdesign/">Structural web design</a></td>
-      </tr>
-      <tr>
-        <td class="left">2009</td>
-        <td class="left"><a href="/entries/2009/08/whatisabook/"><em>What is a book, and does it matter?</em></a><br/>Lorcan Dempsey of OCLC research, is involved in among lots of
-  things, statistical analyses of media use. In that work they are forced to
-  make operational definitions of the 'book'.<br/><a href="/subjects/essays/">Essays</a>,
-	<a href="/subjects/media/">Media</a></td>
       </tr>
     </table>
   </div>

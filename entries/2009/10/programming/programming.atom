@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<entry xmlns="http://www.w3.org/2005/Atom" xmlns:dc="http://purl.org/dc/elements/1.1/">
+  <author>
+    <name>Sigfrid Lundberg</name>
+  </author>
+  <title>The specification and the TODO-list</title>
+  <link href="/entries/2009/10/programming/"/>
+  <summary>Through the web, a software vendor and a service provider could all
+  of a sudden compete on the same market. The software vendor use the
+  traditional specification, but a service implies software which is in
+  continuous development. Strictly speaking, there are no projects anymore,
+  just different activities. No specifications anymore, but TODO lists
+  containing incidents, bugs and requests for features ranked by
+  importance.</summary>
+  <content type="xhtml">
+    <div xmlns="http://www.w3.org/1999/xhtml">
+
+      <p>People within any profession or trade should continuously be involved
+      in discussions of quality. I describe my profession as <em>web
+      developer</em> and my trade as <em>digital libraries</em>. These areas
+      are no exception.</p>
+
+      <p>Like many web developers I spend a better part of my day on coding
+      and other activities related to software development. But so do people
+      involved in non-linear oscillation simulators. The web is an
+      <em>application area</em>, but like non-linear systems it is also an
+      area of research on its own right, and so is digital library
+      research.</p>
+
+      <p>There is more to digital libraries than just software
+      development. There are all research concerning resource description, and
+      how it relates to usability. There are also extensive standardization
+      work going on. Now, how much digital library knowledge would a
+      programmer need to know in order to build a good service?</p>
+
+      <h2>The specification and the TODO-list</h2>
+
+      <p>In theory nothing. If the specification is good enough, then the
+      product should be good enough and this could, again in theory, ensured
+      by unit tests.</p>
+
+      <p>The problems here are, first, the quality of the specification, and,
+      secondly, the <a
+      href="http://sigfrid-lundberg.se/entries/2009/11/twocultures/">Two
+      Cultures</a> (developers and editorial staff do not always understand
+      each other).  The two problems are related to each other.</p>
+
+      <p>The specification is a part of the agreement between the programmer
+      and his or her customer. The work is completed when everything in the
+      spec is in place. Programmer's need to know when they can send the
+      bill.</p>
+
+      <p>We who write software, we're a kind of mathematical people. We will
+      feel secure if we know that the axioms are in place, that the theorems
+      are there as well, and that the deductions are correct.</p>
+
+      <p>For instance, if a piece of software is intended to assist an
+      aircraft both at take-off and landing, then the specification should say
+      so. Even if we thus kind of state the obvious, or if could imagine that
+      there is no space in the sky for all planes that wouldn't be able to
+      land.</p>
+
+      <h2>The web and software as services</h2>
+
+      <p>The web changed this. Not entirely but to a very large
+      extent. There's a fundamental difference between being a vendor and
+      being a service provider. The service provider try to get more users all
+      the time which calls for continuous development.</p>
+
+      <p>Through the web, a software vendor and a service provider could all
+      of a sudden compete on the same market. The software vendor use the
+      traditional specification, but a service implies software which is in
+      continuous development. Strictly speaking, there are no projects
+      anymore, just different activities. No specifications anymore, but TODO
+      lists containing incidents, bugs and requests for features ranked by
+      importance.</p>
+
+      <p>And there is a continuous need for innovation.</p>
+
+
+    </div>
+  </content>
+  <dc:date>2009</dc:date>
+  <category label="programming" term="Programming"/>
+  <updated>2009-11-01T15:39:44+01:00</updated>
+  <published>2009-10-28T08:19:08+01:00</published>
+  <id>http://www.sigfrid-lundberg.se/entries/2009/10/programming/</id>
+</entry>
