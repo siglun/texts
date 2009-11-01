@@ -92,6 +92,7 @@
   <updated>2009-11-01T15:39:44+01:00</updated>
   <published>2009-10-28T08:19:08+01:00</published>
   <id>http://www.sigfrid-lundberg.se/entries/2009/10/programming/</id>
+  <!-- $Id$ -->
 </entry>
   <entry>
   <author>
@@ -150,6 +151,7 @@
   <category label="programming" term="Programming"/>
   <updated>2009-11-01T15:31:26+01:00</updated>
   <id>http://www.sigfrid-lundberg.se/entries/2009/11/twocultures/</id>
+  <!-- $Id$ -->
 </entry>
   <entry>
   <author>
