@@ -1,0 +1,268 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<html xmlns="http://www.w3.org/1999/xhtml">
+  <head>
+    <title>Content models and reusable descriptions of structure</title>
+    <meta http-equiv="Content-Type" content="application/xml+html;charset=UTF-8" />
+    <link rel="stylesheet" href="http://sigfrid-lundberg.se/css-style/html_print.css"/>
+   <meta name="svg.render.forceflash" content="true" />
+   <script src="./svg/svg.js" data-path="./svg/" type="application/javascript">
+   </script>
+
+  </head>
+  <body>
+    
+    <div>
+
+      <h1 class="title">Content models and reusable descriptions of structure</h1>
+      
+      <p class="author">Sigfrid Lundberg<br/>
+      The Royal Library, Copenhagen</p>
+
+      <blockquote>
+	<h2>Abstract</h2>
+	<p>This project will study methods for identification, indexing,
+	search and retrieval of arbitrary parts or segments of structured
+	information objects.</p>
+
+	<p>The ability to address arbitrary points in texts, images or videos
+	is a basic requirement for using the resources in a scholarly context,
+	but also for annotation and <a
+	href="http://orweblog.oclc.org/archives/002017.html">crowdsourced</a>
+	cataloging. Finally, without it, it is more or less impossible to
+	participate in the <a
+	href="http://www.w3.org/DesignIssues/LinkedData.html">web of
+	data</a>.</p>
+      </blockquote>
+
+      <div>
+
+	<h1>1. The problem identified</h1>
+
+	<p>The library does many things; one of them is to act as a broker for
+	information (Figure 1). I.e., it connects various environments for information
+	production with environments of information consumption. Most
+	consumption environments are user interfaces for services provided by
+	the library, but some such as RSS feeds, are for end users -- or
+	possibly in his or her feed reader.</p>
+
+	<div style="text-align: center;">
+	  
+	  <!--[if IE]>
+	      <object src="./11000ft.svg" classid="image/svg+xml"
+	          width="750" height="400" >
+	      <![endif]-->
+	  <!--[if !IE]>-->
+	  <object data="./11000ft.svg"
+		  type="image/svg+xml" 
+		  width="750" height="400">
+	    <!--<![endif]-->
+	  </object>
+    
+
+
+	  
+	  <blockquote>
+	    <p>Figure 1. The library as an information broker which connects
+	    various environments for information production with environments
+	    of information consumption. Among the production environments we
+	    find digitized material. Users should be able to find data about
+	    this material in general search engines, various union catalogs
+	    and all these data should be syndicated to other services, such as
+	    flickr or facebook.</p>
+	    <p>Inspired by a similar <a
+	    href="http://orweblog.oclc.org/radial.png" title="Lorcan's
+	    version">graph</a> by <a
+	    href="http://orweblog.oclc.org/archives/002015.html">Lorcan
+	    Dempsey</a>.</p>
+	  </blockquote>
+	</div>
+
+	<p>The challenge is to be able to produce functional data for each
+	medium, that will satisfy special requirements in specialized
+	consumption environments that will be possible to reuse in other
+	similar environments but also possible to mirror in a integrated
+	library catalog as well as in one of possibly many union catalogs.</p>
+
+	<p>The problem I want to address is how to satisfy the user's need for
+	information in production and consumption environments that are
+	traditionally satisfying users needs for Document Like Objects (DLO's)
+	such as books or articles. So what about the situation where the
+	required information is</p>
+
+	<ul>
+	  <li>in the last paragraph on page 313, which continues on page
+	  314</li>
+	  <li>on the rear side of a photograph</li>
+	  <li>in foot note 42</li>
+	  <li>scribbled in the margin on folio 711r of <em>Codex fictivus</em></li>
+	</ul>
+
+
+      </div>
+
+      <div>
+
+	<h1>2. Standards and technologies</h1>
+
+	<div>
+
+	  <h2>2.1 Modeling structure</h2>
+
+	  <p>In the area of mark-up languages, <a
+	  href="http://www.xmlgrrl.com/publications/DSDTD/go01.html#contmdl-gdef">a
+	  content model</a> is <q
+	  cite="http://www.xmlgrrl.com/publications/DSDTD/go01.html#contmdl-gdef">the
+	  rules for the configuration of element and/or data content allowable
+	  in instances of an element type</q>. I.e., a content model is a
+	  range of objects that may be contained inside a container
+	  object. This means that each element has its own content model.  A
+	  related usage of the term content model emanates from the partly
+	  overlapping communities around the <a
+	  href="http://www.loc.gov/standards/mets/">Metadata Encoding and
+	  Transmission Standard</a> (METS) and <a
+	  href="http://www.fedora-commons.org/documentation/3.0b1/userdocs/digitalobjects/objectModel.html">Fedora
+	  Commons</a>. See the nice overview of of Fedora content models
+	  provided by, <a
+	  href="https://wiki.dlib.indiana.edu/confluence/display/INF/Fedora+Content+Models">Indiana
+	  Digital Library</a> and the set of type attribute values used within
+	  the <a
+	  href="http://www.nla.gov.au/australianmetsprofile/documents/divTYPEvocabulary.pdf">Australian
+	  METS Profile</a>. In this text, I will use the term <em>content
+	  structure</em> rather than <em>content model</em>, since I need to
+	  be able to discuss the content model of an element as well as the
+	  internal structure of physical as well as digital information
+	  objects.</p>
+
+	</div>
+
+	<div>
+
+	  <h2>2.2. Modeling text</h2>
+
+	  <p>An XML content model is the set of content objects that are valid
+	  inside a given element. A content structure (sensu a Fedora content
+	  model) is total valid tree of an information object, for instance an
+	  entire document. Fedora comes equipped with an object oriented
+	  data model capable of handling many different content structures.</p>
+
+	  <p>There are a large number of mark-up languages available. All
+	  languages aimed for textual documents builds upon a common theory of
+	  text which is usually referred to as the Ordered Hierarchy of
+	  Content Objects (OHCO) model. The model <a
+	  href="http://www.stg.brown.edu/resources/stg/monographs/ohco.html">is
+	  problematic for various reasons</a>. The theory behind Fedora and
+	  METS is basically the same, so they come, I suppose, with the same
+	  problems.</p>
+
+	</div>
+
+	<div>
+
+	  <h2>2.3. Resource and content description</h2>
+
+	  <p>There are a few standards for the description, encoding and
+	  transmission of structural metadata. We may distinguish between
+	  descriptive encoding systems used within certain communities such as
+	  <a
+	  href="http://www.tei-c.org/release/doc/tei-p5-doc/en/html/MS.html">TEI
+	  Manuscript Description</a> and <a
+	  href="http://www.loc.gov/ead/">Encoded Archival Description</a> that
+	  are used to describe cultural heritage materials such manuscripts
+	  and archives, whereas tools such as <a
+	  href="http://www.xml.com/lpt/a/792">DIDL</a> can be used to describe
+	  the contents inside multimedia objects of various kinds.</p>
+
+	</div>
+
+	<div>
+
+	  <h2> 2.4 Dissemination of structure</h2>
+
+	  <p>The dissemination and syndication of aggregates of resources is
+	  simplified by standards such as <a
+	  href="http://www.openarchives.org/ore/">OAI-ORE</a>), (such as <a
+	  href="http://tools.ietf.org/html/draft-divilly-atom-hierarchy">Hierarchy
+	  Relations for Atom</a>).
+
+	  These standards are complemented by vocabularies such as IANA's
+	  relation type vocabularies e.g., for use with <a
+	  href="http://www.iana.org/assignments/link-relations.html">atom:link</a>
+	  tag (compare the corresponding vocabulary for <a
+	  href="http://www.w3.org/TR/REC-html40/types.html#type-links">html
+	  4</a> and <a
+	  href="http://www.w3.org/TR/REC-html40/types.html#type-links">html
+	  5</a> ). </p>
+
+	</div>
+
+      </div>
+
+      <div>
+
+	<h1>3. Project</h1>
+
+	<div style="float: right;">
+	  <img src="items_2.png" alt="splitting a book into addressable items"/>
+	  <blockquote>
+	    <p>Figure 2. Splitting a <a
+	    href="http://laurentius.ub.lu.se/volumes/Mh_35/detailed/">text</a>
+	    into identifiable units.</p>
+	  </blockquote>
+	</div>
+
+	<p>The project will address three hypotheses:</p>
+
+	<ol>
+	  <li>
+	    The normalization of structural information is essential for
+	    making different media types available through a single user
+	    interface.
+	    <ul>
+
+	      <li>This project will study methods for identification,
+	      indexing, search and retrieval of arbitrary parts or segments of
+	      structured information objects.</li>
+
+	    </ul>
+	  </li>
+
+	  <li>
+	    The normalization should be based on metadata schemes or text
+	    encoding formats, not applications, which embodies the data model.
+
+	    <ul>
+	      <li>This is in accordance with the philosophy that <a
+	      href="http://www.redmonk.com/jgovernor/2007/04/05/why-applications-are-like-fish-and-data-is-like-wine/">applications
+	      are like fish and data is like wine, where only the latter
+	      become more valuable as it ages.</a></li>
+
+	      <li>The metadata schemes and text encoding formats should among
+	      the successful ones according to the principles outlined by Tim
+	      Bray in his article <a
+	      href="http://web.archive.org/web/20070126140434/www.idealliance.org/proceedings/xml05/ship/175/xml2005.HTML">On
+	      Language Creation</a></li>
+
+	    </ul>
+	  </li>
+
+	  <li>
+	    Items inside structured objects must be accessible through cool
+	    persistent http URIs
+
+	    <ul>
+	      <li>The ability to address arbitrary points in texts, images or
+	      videos is a basic requirement for using the resources in a
+	      scholarly context, but also for annotation and <a
+	      href="http://orweblog.oclc.org/archives/002017.html">crowdsourced</a>
+	      cataloging. Finally, without it, it is more or less impossible
+	      to participate in the <a
+	      href="http://www.w3.org/DesignIssues/LinkedData.html">web of
+	      data</a>.</li>
+	    </ul>
+	  </li>
+	</ol>
+      </div>
+    </div>
+    
+  </body>
+</html>
