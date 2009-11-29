@@ -1,8 +1,12 @@
 <?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+                      "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+
 <html xmlns="http://www.w3.org/1999/xhtml"
       lang="en">
   <head>
     <title>seminar 2009-11-30: new metadata formats@kb.dk</title>
+    <meta http-equiv="Content-Type" content="application/html+xml"/>
     <script type="application/javascript">
       
       function closeopen(elementId) {
@@ -24,69 +28,150 @@
   </head>
   <body>
     <h1>new metadata formats@kb.dk</h1>
-    <h2>seminar 2009-11-30</h2>
+    <h2>seminar 2009-11-30 &mdash; slu@kb.dk</h2>
+
+    <div>
+      <ul>
+
+	<li>
+	  <a target="slide"
+	     href="http://images.google.com/images?gbv=2&amp;hl=en&amp;um=1&amp;sa=1&amp;q=det+kongelige+bibliotek&amp;aq=0&amp;oq=det+kon&amp;aqi=g1&amp;start=0">images 0</a>
+	  why are there so few of our images in google images?
+	</li>
+
+      </ul>
+
+      <h2  id="span000x" style="display:block"
+	onclick='closeopen("span000x")'>We have some problems
+      </h2>
+
+      <div id="conclusion000x" style="display:none;"
+	    onclick='closeopen("conclusion000x")'>
+	<h2>More exactly, we've four problems</h2>
+	
+	<ol>
+	  <li>
+	    <a target="slide"
+	       href="http://images.google.com/images?gbv=2&amp;hl=en&amp;um=1&amp;sa=1&amp;q=architecture+of+the+worldwide+web&amp;aq=f&amp;oq=&amp;aqi=&amp;start=0">images 10</a>
+	    well, we didn't adhere to the architecture of the world wide web<br/>
+	  </li>
+
+	  <li>we have too many applications for us to maintain.<br/> in my
+	  view that is due to the fact that each of the application has its
+	  own metadata element set<br/></li>
+
+	  <li>we have relied far too much on the OPAC for dissemination of
+	  digital objects<br/></li>
+
+	  <li>we've lacked efficient descriptions of document structure<br/></li>
+
+	</ol>
+
+      </div>
+
+
+
+
+    </div>
 
     <div>
       <ul>
 	<li>
 	  <a target="slide"
-	     href="http://orweblog.oclc.org/archives/002015.html">slide 1</a>
+	     href="http://images.google.com/images?gbv=2&amp;hl=en&amp;sa=1&amp;q=untangling+library+systems+environment&amp;aq=f&amp;oq=&amp;aqi=&amp;start=0">images 1</a>
 	  the ecosystem of metadata in libraries is a complicated one
 	</li>
 
 	<li>
 	  <a target="slide"
-	     href="http://images.google.com/images?gbv=2&amp;hl=en&amp;sa=1&amp;q=collect+organize+and+provide+access+to&amp;aq=f&amp;oq=&amp;aqi=&amp;start=0">slide
-	  2</a>
+	     href="http://images.google.com/images?gbv=2&amp;hl=en&amp;sa=1&amp;q=collect+organize+and+provide+access+to&amp;aq=f&amp;oq=&amp;aqi=&amp;start=0">images 2</a>
 	  libraries collect, preserve, organize and provide access to information ressources
 	</li>
 
 	<li>
+
 	  <a target="slide"
-	     href="http://images.google.com/images?gbv=2&amp;hl=en&amp;sa=1&amp;q=find+identify+select+obtain+access&amp;aq=f&amp;oq=&amp;aqi=&amp;start=0">slide 3</a>
+	  href="http://images.google.com/images?hl=en&amp;source=hp&amp;q=work+expression+manifestation+item&amp;gbv=2&amp;aq=f&amp;oq=&amp;aqi=">images 3</a> the bibliographic record is the single most important intellectual dissemination tool
+
+	</li>
+
+	<li>
+	  <a target="slide"
+	     href="http://images.google.com/images?gbv=2&amp;hl=en&amp;sa=1&amp;q=find+identify+select+obtain+access&amp;aq=f&amp;oq=&amp;aqi=&amp;start=0">images 4</a>
 	  library users should be able to find identify select and optain access to information resources
 	</li>
 
 	<li>
 	  <a target="slide"
-	     href="http://images.google.com/images?gbv=2&amp;hl=en&amp;sa=1&amp;q=library+catalog&amp;aq=f&amp;oq=&amp;aqi=g1&amp;start=0">slide 4</a>
+	     href="http://images.google.com/images?gbv=2&amp;hl=en&amp;sa=1&amp;q=library+catalog&amp;aq=f&amp;oq=&amp;aqi=g1&amp;start=0">images 5</a>
 	  users use the library catalog
 	</li>
 
 	<li>
 	  <a target="slide"
-	     href="http://images.google.com/images?gbv=2&amp;hl=en&amp;sa=1&amp;q=library+books&amp;aq=f&amp;oq=&amp;aqi=g6g-m2&amp;start=0">slide 5</a>
+	     href="http://images.google.com/images?gbv=2&amp;hl=en&amp;sa=1&amp;q=library+books&amp;aq=f&amp;oq=&amp;aqi=g6g-m2&amp;start=0">images 6</a>
 	  traditionally the information has been obtained in books
 	</li>
 
 	<li>
 	  <a target="slide"
-	     href="http://images.google.com/images?gbv=2&amp;hl=en&amp;sa=1&amp;q=circulation+desk&amp;aq=f&amp;oq=&amp;aqi=g-m1&amp;start=0">slide 6</a>
+	     href="http://images.google.com/images?gbv=2&amp;hl=en&amp;sa=1&amp;q=circulation+desk&amp;aq=f&amp;oq=&amp;aqi=g-m1&amp;start=0">images 7</a>
 	  books are retrieved at the circulation desk
 	</li>
+      </ul>
+
+      <h2 id="span000" style="display:block"
+	onclick='closeopen("span000")'>
+	electronic services doesn't look like the
+	circulation desk
+      </h2>
+      <div id="conclusion000"
+	   style="display:none;" 
+	   onclick='closeopen("conclusion000")'>
+	<h2>electronic services require granularity</h2>
+
+	<p>traditionally the library has delivered whole books or journal
+	volumes.  That is just fine, if that's what the users ask for. however
+	that is not in generally true, in particular if the requested
+	information is on <a
+	href="http://images.google.com/images?gbv=2&amp;hl=en&amp;sa=1&amp;q=side+42&amp;aq=f&amp;oq=&amp;aqi=&amp;start=0"
+	target="slide">page 42</a></p>
+
+      </div>
+      
+    </div>
+
+    <div>
+
+      <ul>
 
 	<li>
 	  <a target="slide"
-	     href="http://images.google.com/images?gbv=2&amp;hl=en&amp;q=users+find+information&amp;um=1&amp;ie=UTF-8&amp;sa=N&amp;tab=wi">slide 7</a>
-	  users need to find, not search
+	     href="http://images.google.com/images?gbv=2&amp;hl=en&amp;q=users+find+information&amp;um=1&amp;ie=UTF-8&amp;sa=N&amp;tab=wi">images 8</a>
+	  in general, users want the information not the medium 
 	</li>
 
 	<li>
 	  <a target="slide"
-	     href="http://www.escholarship.org/editions/">slide 8</a>
+	     href="http://www.escholarship.org/editions/">images 9</a>
 	  on vampires and blood
 	</li>
 
       </ul>
 
-      <h2>
-	<span id="span001" style="display:block" onclick='closeopen("span001")'>conclusion</span>
-	<span id="conclusion001" style="display:none;"
-	onclick='closeopen("conclusion001")'>metadata is not just about the resource as a whole object<br/>
-	a search and navigation system requires a content model<br/>
-	describing its internal structure</span>
+      <h2 id="span001" style="display:block" onclick='closeopen("span001")'>
+	content models
       </h2>
 
+      <div id="conclusion001" style="display:none;"
+	onclick='closeopen("conclusion001")'>
+	<h2>internal structure</h2>
+	metadata is not just about the resource as a whole object<br/>
+	a search and navigation system requires a content model<br/>
+	describing its internal structure
+      </div>
+
+
     </div>
 
     <div>
@@ -94,49 +179,35 @@
       <ul>
 	<li>
 	  <a target="slide"
-	     href="http://images.google.com/images?gbv=2&amp;hl=en&amp;um=1&amp;sa=1&amp;q=det+kongelige+bibliotek&amp;aq=0&amp;oq=det+kon&amp;aqi=g1&amp;start=0">slide 9</a>
-	  why are there so few of our images in google images?
-	  <ul>
+	     href="http://sigfrid-lundberg.se/2007/hidden_web/usage_vs_dissemination_method.html">
+	    images 11
+	  </a>
+	  we have relied on the library catalog for dissemination<br/>
+	  most metadata have not been available on the web
+	</li>
 
-	    <li>
-	      <a target="slide"
-		 href="http://images.google.com/images?gbv=2&amp;hl=en&amp;um=1&amp;sa=1&amp;q=architecture+of+the+worldwide+web&amp;aq=f&amp;oq=&amp;aqi=&amp;start=0">slide 10</a>
-	      well, we didn't adhere to the architecture of the world wide web
-	    </li>
+	<li>
+	  <a target="slide"
+	     href="http://www.google.com/insights/search/#q=guaman%20poma&amp;cmpt=q">
+	    images 12
+	  </a>
+	  conquistadores and incas
+	</li>
 
-	    <li>
-	      <a target="slide"
-		 href="http://sigfrid-lundberg.se/2007/hidden_web/usage_vs_dissemination_method.html">
-		slide 11
-	      </a>
-	      we have relied on the library catalog for dissemination<br/>
-	      most metadata have not been available on the web
-	    </li>
-
-	    <li>
-	      <a target="slide"
-		 href="http://www.google.com/insights/search/#q=guaman%20poma&amp;cmpt=q">
-		slide 12
-	      </a>
-	      conquistadores and incas
-	    </li>
-
-	    <li>
-	      <a target="slide"
-		 href="http://www.alexa.com/siteinfo/www.kb.dk">slide 13</a>
-	      peruvian traffic
-	    </li>
+	<li>
+	  <a target="slide"
+	     href="http://www.alexa.com/siteinfo/www.kb.dk">images 13</a>
+	  peruvian traffic
+	</li>
 	
-	    <li>
-	      <a target="slide"
-		 href="http://images.google.com/images?q=Don+Mart%C3%ADn+Guaman+Malqui+and+Do%C3%B1a+Juana+Curi+Ocllo&amp;gbv=2&amp;hl=en&amp;sa=G">slide 14</a>
-	      Guaman Poma de Ayala's family
-	    </li>
-
-	  </ul>
-
+	<li>
+	  <a target="slide"
+	     href="http://images.google.com/images?q=Don+Mart%C3%ADn+Guaman+Malqui+and+Do%C3%B1a+Juana+Curi+Ocllo&amp;gbv=2&amp;hl=en&amp;sa=G">images 14</a>
+	  Guaman Poma de Ayala's family
 	</li>
+
       </ul>
+
     </div>
 
     <div>
@@ -145,21 +216,29 @@
 
 	<li>
 	  <a target="slide"
-	     href="http://images.google.com/images?gbv=2&amp;amp;hl=en&amp;amp;sa=1&amp;amp;q=mods+mets+xml&amp;amp;aq=f&amp;amp;oq=&amp;amp;aqi=&amp;amp;start=0">slide 12</a>
-	  mods and mets new metadata formats&amp;kb.dk
+	     href="http://images.google.com/images?gbv=2&amp;amp;hl=en&amp;amp;sa=1&amp;amp;q=mods+mets+xml&amp;amp;aq=f&amp;amp;oq=&amp;amp;aqi=&amp;amp;start=0">images 15</a>
+	  mods and mets new metadata formats@kb.dk
 	</li>
+
+	<li>
+	  <a target="slide" href="http://images.google.com/images?hl=en&amp;client=firefox-a&amp;rls=org.mozilla%3Aen-US%3Aofficial&amp;um=1&amp;sa=3&amp;q=REST+XML+web+services+in+a+library+context&amp;btnG=S%C3%B6k+bilder">images 16</a> mods is used in the COP family of services
+	</li>
+
 
       </ul>
 
       <h2>
 	<span id="span002" style="display:block" onclick='closeopen("span002")'>conclusion</span>
 	<span id="conclusion002" style="display:none;"
-	onclick='closeopen("conclusion002")'>metadata is not just about the resource as a whole object<br/>
-	a search and navigation system requires a content model<br/>
-	describing its internal structure</span>
+	onclick='closeopen("conclusion002")'>METS is standard for structural
+	metadata which is as useful for search and navigation system
+	requires<br/> as for logical description of complex systems for
+	digital preservation</span>
       </h2>
 
     </div>
 
   </body>
 </html>
+
+
