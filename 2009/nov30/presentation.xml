@@ -36,14 +36,14 @@
 
 	<li>
 	  <a target="slide"
-	     href="http://images.google.com/images?gbv=2&amp;hl=en&amp;um=1&amp;sa=1&amp;q=det+kongelige+bibliotek&amp;aq=0&amp;oq=det+kon&amp;aqi=g1&amp;start=0">images 0</a>
+	     href="http://images.google.com/images?gbv=2&amp;hl=en&amp;um=1&amp;sa=1&amp;q=det+kongelige+bibliotek&amp;aq=0&amp;oq=det+kon&amp;aqi=g1&amp;start=0">010</a>
 	  why are there so few of our images in google images?
 	</li>
 
       </ul>
 
       <h2  id="span000x" style="display:block"
-	onclick='closeopen("span000x")'>We have some problems
+	onclick='closeopen("span000x")'>we have some problems
       </h2>
 
       <div id="conclusion000x" style="display:none;"
@@ -51,17 +51,13 @@
 	<h2>More exactly, we've at least six problems</h2>
 	
 	<ol>
-	  <li><a target="slide" href="http://images.google.com/images?gbv=2&amp;hl=en&amp;um=1&amp;sa=1&amp;q=architecture+of+the+worldwide+web&amp;aq=f&amp;oq=&amp;aqi=&amp;start=0">images 10</a> well, we didn't adhere to the architecture of the world wide web</li>
+	  <li><a target="slide" href="http://images.google.com/images?gbv=2&amp;hl=en&amp;um=1&amp;sa=1&amp;q=architecture+of+the+worldwide+web&amp;aq=f&amp;oq=&amp;aqi=&amp;start=0">020</a> well, we didn't adhere to the architecture of the world wide web</li>
 
-	  <li>an there are more ...</li>
+	  <li>and there are more ...</li>
 
 	</ol>
 
       </div>
-
-
-
-
     </div>
 
     <div>
@@ -70,47 +66,47 @@
 	 <li>
 
 	   <a target="slide"
-	   href="http://images.google.com/images?hl=en&amp;source=hp&amp;q=work+expression+manifestation+item&amp;gbv=2&amp;aq=f&amp;oq=&amp;aqi=">images 3</a> the bibliographic record is the single most important intellectual dissemination tool
+	   href="http://images.google.com/images?hl=en&amp;source=hp&amp;q=work+expression+manifestation+item&amp;gbv=2&amp;aq=f&amp;oq=&amp;aqi=">030</a> the bibliographic record is the single most important intellectual dissemination tool
 
 	 </li>
 
 	 <li>
 	   <a target="slide"
-	      href="http://images.google.com/images?gbv=2&amp;hl=en&amp;sa=1&amp;q=find+identify+select+obtain+access&amp;aq=f&amp;oq=&amp;aqi=&amp;start=0">images 4</a>
+	      href="http://images.google.com/images?gbv=2&amp;hl=en&amp;sa=1&amp;q=find+identify+select+obtain+access&amp;aq=f&amp;oq=&amp;aqi=&amp;start=0">040</a>
 	   library users should be able to find identify select and optain access to information resources
 	 </li>
 
 	 <li>
 	   <a target="slide"
-	      href="http://images.google.com/images?gbv=2&amp;hl=en&amp;sa=1&amp;q=library+catalog&amp;aq=f&amp;oq=&amp;aqi=g1&amp;start=0">images 5</a>
+	      href="http://images.google.com/images?gbv=2&amp;hl=en&amp;sa=1&amp;q=library+catalog&amp;aq=f&amp;oq=&amp;aqi=g1&amp;start=0">050</a>
 	   users use the library catalog
 	 </li>
 
 	 <li>
 	   <a target="slide"
-	      href="http://images.google.com/images?gbv=2&amp;hl=en&amp;sa=1&amp;q=library+books&amp;aq=f&amp;oq=&amp;aqi=g6g-m2&amp;start=0">images 6</a>
+	      href="http://images.google.com/images?gbv=2&amp;hl=en&amp;sa=1&amp;q=library+books&amp;aq=f&amp;oq=&amp;aqi=g6g-m2&amp;start=0">060</a>
 	   traditionally the information has been obtained in books
 	 </li>
 
 	 <li>
 	   <a target="slide"
-	      href="http://images.google.com/images?gbv=2&amp;hl=en&amp;sa=1&amp;q=circulation+desk&amp;aq=f&amp;oq=&amp;aqi=g-m1&amp;start=0">images 7</a>
+	      href="http://images.google.com/images?gbv=2&amp;hl=en&amp;sa=1&amp;q=circulation+desk&amp;aq=f&amp;oq=&amp;aqi=g-m1&amp;start=0">070</a>
 	   books are retrieved at the circulation desk
 	 </li>
 
 	 <li>
 	   <a target="slide"
 	      href="http://sigfrid-lundberg.se/2007/hidden_web/usage_vs_dissemination_method.html">
-	     images 11
+	     080
 	   </a>
-	   we have relied on the library catalog for dissemination<br/>
-	   most metadata have not been available on the web
+	   we have relied on the library catalog for dissemination material
+	   available on the web &mdash; sometimes it has been the only method used
 	 </li>
 
 
 	 <li>
 	   <a target="slide"
-	      href="http://images.google.com/images?gbv=2&amp;hl=en&amp;q=users+find+information&amp;um=1&amp;ie=UTF-8&amp;sa=N&amp;tab=wi">images 8</a>
+	      href="http://images.google.com/images?gbv=2&amp;hl=en&amp;q=users+find+information&amp;um=1&amp;ie=UTF-8&amp;sa=N&amp;tab=wi">090</a>
 	   in general, users want the information not the medium 
 	 </li>
 
@@ -143,11 +139,31 @@
 
 	 <li>
 	   <a target="slide"
-	      href="http://www.escholarship.org/editions/">images 9</a>
-	   on vampires and blood
+	      href="http://www.escholarship.org/editions/">100</a>
+	   vampires and blood
+	 </li>
+
+
+	 <li>
+	   <a target="slide"
+	      href="http://www.google.com/insights/search/#q=guaman%20poma&amp;cmpt=q">110</a>
+	   conquistadores and incas
+	 </li>
+
+	 <li>
+	   <a target="slide"
+	      href="http://www.alexa.com/siteinfo/www.kb.dk">120</a>
+	   peruvian traffic
+	 </li>
+
+	 <li>
+	   <a target="slide"
+	      href="http://images.google.com/images?q=Don+Mart%C3%ADn+Guaman+Malqui+and+Do%C3%B1a+Juana+Curi+Ocllo&amp;gbv=2&amp;hl=en&amp;sa=G">130</a>
+	   Guaman Poma de Ayala's family
 	 </li>
 
        </ul>
+
 
        <h2 id="span001" style="display:block" onclick='closeopen("span001")'>
 	 content models
@@ -162,33 +178,6 @@
        </div>
 
 
-     </div>
-
-     <div>
-
-       <ul>
-
-	 <li>
-	   <a target="slide"
-	      href="http://www.google.com/insights/search/#q=guaman%20poma&amp;cmpt=q">
-	     images 12
-	   </a>
-	   conquistadores and incas
-	 </li>
-
-	 <li>
-	   <a target="slide"
-	      href="http://www.alexa.com/siteinfo/www.kb.dk">images 13</a>
-	   peruvian traffic
-	 </li>
-
-	 <li>
-	   <a target="slide"
-	      href="http://images.google.com/images?q=Don+Mart%C3%ADn+Guaman+Malqui+and+Do%C3%B1a+Juana+Curi+Ocllo&amp;gbv=2&amp;hl=en&amp;sa=G">images 14</a>
-	   Guaman Poma de Ayala's family
-	 </li>
-
-       </ul>
 
      </div>
 
@@ -198,12 +187,12 @@
 
 	 <li>
 	   <a target="slide"
-	      href="http://images.google.com/images?gbv=2&amp;hl=en&amp;sa=1&amp;q=mods+metadata&amp;aq=f&amp;oq=&amp;aqi=&amp;start=0">images 15</a>
+	      href="http://images.google.com/images?gbv=2&amp;hl=en&amp;sa=1&amp;q=mods+metadata&amp;aq=f&amp;oq=&amp;aqi=&amp;start=0">140</a>
 	   mods and mets new metadata formats@kb.dk
 	 </li>
 
 	 <li>
-	   <a target="slide" href="http://images.google.com/images?hl=en&amp;client=firefox-a&amp;rls=org.mozilla%3Aen-US%3Aofficial&amp;um=1&amp;sa=3&amp;q=REST+XML+web+services+in+a+library+context&amp;btnG=S%C3%B6k+bilder">images 16</a> mods is used in the COP family of services
+	   <a target="slide" href="http://images.google.com/images?hl=en&amp;client=firefox-a&amp;rls=org.mozilla%3Aen-US%3Aofficial&amp;um=1&amp;sa=3&amp;q=REST+XML+web+services+in+a+library+context&amp;btnG=S%C3%B6k+bilder">150</a> mods is used in the COP family of services
 	 </li>
 
 
@@ -232,6 +221,9 @@
   <!--
       $Id$
       $Log$
+      Revision 1.5  2009/11/29 20:59:28  sigfrid
+      no comments
+
       Revision 1.4  2009/11/29 18:08:25  sigfrid
       no comments
 
