@@ -1,16 +1,10 @@
-<div xmlns="http://www.w3.org/1999/xhtml">
-  <div>
-    <h1 style="font-family: sans-serif; width: 55%; float: left;text-align: left;">Image, Searching &amp; Metadata</h1>
-    <p style="width: 38%; float: left;text-align: right">
-      <em>
-        <strong>
-		Sigfrid Lundberg's Stuff,
-	      2009-11-30</strong>
-      </em>
-    </p>
-  </div>
-  <div style="clear:both;"> </div>
-  <div style="width:100%;">
+<?xml version="1.0" encoding="UTF-8"?>
+<html xmlns="http://www.w3.org/1999/xhtml"><head><title>Image, Searching &amp; Metadata: 
+	  Sigfrid Lundberg's Stuff
+	</title><link href="http://feeds.feedburner.com/SigfridLundbergsStuff?format=xml" type="application/atom+xml" title="Sigfrid Lundberg's Stuff" rel="alternate"/><link href="http://sigfridlundbergsstuff.disqus.com/latest.rss" type="application/rss+xml" title="Latest Comments" rel="alternate"/><meta http-equiv="Content-Type" content="text/html;charset=UTF-8"/><script src="/js/navigation.js" type="text/javascript"> 
+	  </script><meta http-equiv="Content-Type" content="text/html;charset=UTF-8"/><link rel="stylesheet" href="/css-style/html.css"/></head><body><div class="left_box"><div style="text-align:left;width=90%;"><!--#include virtual="/div_top_left_box.xml" --></div><div style="text-align:left;width=90%;"><p><a href="/">Home</a><br/><a href="http://feeds.feedburner.com/SigfridLundbergsStuff?format=xml" type="application/atom+xml" class="feed-link"><img src="/images/Newsfeed-Atom.png" alt="Subscribe to Stuff from Sigfrid Lundberg" border="0"/>Subscribe to my stuff</a><br/><a href="http://sigfridlundbergsstuff.disqus.com/latest.rss" type="application/rss+xml" class="feed-link"><img src="/images/Newsfeed-Atom.png" alt="Subscribe to Stuff from Sigfrid Lundberg" border="0"/>Subscribe to discussion feed</a></p><!--#include virtual="/subjects.xml" --><!--#include virtual="/me.xml" --></div></div><div class="right_box"><h1 style="font-family: sans-serif; width: 55%; float: left;text-align: left;">Image, Searching &amp; Metadata</h1><p style="width: 38%; float: left;text-align: right"><em><strong>Sigfrid Lundberg's Stuff 2009-11-30</strong></em><br/><br/><a class="addthis_button" href="http://www.addthis.com/bookmark.php?v=250&amp;pub=siggelundberg"><img src="http://s7.addthis.com/static/btn/v2/lg-share-en.gif" width="125" height="16" alt="Bookmark and Share" style="border:0"/></a><script type="text/javascript" src="http://s7.addthis.com/js/250/addthis_widget.js?pub=siggelundberg">
+		</script></p><div style="clear:both">
+	    </div>
     <div>
 
       <p>Today I gave a presentation on our metadata work. It was meant to be
@@ -97,61 +91,21 @@
 
 
     </div>
-    <p style="text-align: left;"><em><strong>Categories:</strong></em> 
-	  <a href="/subjects/metadata/">Metadata</a><br/><em><strong>
-		Permalink:
-	      </strong></em><a rel="bookmark" href="/entries/2009/11/kbmetadta/">http://sigfrid-lundberg.se/entries/2009/11/kbmetadta/</a></p>
-    <hr width="50%" align="center"/>
-  </div>
-  <div>
-    <h1>Other, not yet obsolete stuff</h1>
-    <table class="news">
-      <tr>
-        <td class="left">2009</td>
-        <td class="left"><a href="/entries/2009/10/programming/"><em>The specification and the TODO-list</em></a><br/>Through the web, a software vendor and a service provider could all
-  of a sudden compete on the same market. The software vendor use the
-  traditional specification, but a service implies software which is in
-  continuous development. Strictly speaking, there are no projects anymore,
-  just different activities. No specifications anymore, but TODO lists
-  containing incidents, bugs and requests for features ranked by
-  importance.<br/><a href="/subjects/programming/">Programming</a></td>
-      </tr>
-      <tr>
-        <td class="left">2009</td>
-        <td class="left"><a href="/entries/2009/11/twocultures/"><em>The two Cultures</em></a><br/>Do you know the second law of thermodynamics?<br/><a href="/subjects/programming/">Programming</a></td>
-      </tr>
-      <tr>
-        <td class="left">2009</td>
-        <td class="left"><a href="/entries/2009/10/webdevelopment/"><em>What about the HECS platforms?</em></a><br/>I've used fortran, pascal, C, perl, php and java in addition to
-  more specialized tools such as SQL and XSLT. There is currently a lot of
-  discussions on what platform will be the next winner.<br/><a href="/subjects/programming/">Programming</a></td>
-      </tr>
-      <tr>
-        <td class="left">2009</td>
-        <td class="left"><a href="/entries/2009/08/opensearch/"><em>Syndication and Simple REST XML web services in a library context</em></a><br/>Some time ago I demonstrated our navigation services. In that entry
-  I promised to tell you more about these services when they are are more
-  mature. Here is the story on the architecture of some of our new
-  digitization services.<br/><a href="/subjects/xws/">XML web services</a>,
-	<a href="/subjects/metadataprocessing/">Metadata processing</a></td>
-      </tr>
-      <tr>
-        <td class="left">2009</td>
-        <td class="left"><a href="/entries/2009/09/msb/"><em>Att tjäna den demokratiska kulturnationens minne</em></a><br/>Jag har arbetat med att programmera digitala bibliotek i ungefär 15
-  år. När jag läser debatten om biblioteket i Sydsvenskan känner jag att jag
-  borde säga något. Jag vet inte i vilken utsträckning mitt perspektiv kommer
-  att kännas relevant för alla de som känner sig kallade att yttra sig, men
-  jag har en hel del erfarenheter som nog de flesta andra saknar.<br/><a href="/subjects/thelibrary/">The Library</a>,
-	<a href="/subjects/internet/">Internet</a></td>
-      </tr>
-      <tr>
-        <td class="left">2009</td>
-        <td class="left"><a href="/footnotes/"><em>Add footnotes to my pages -- a prototype text annotation
-  interface</em></a><br/>I've had a javascript based forum with thread for each entry. That
-  seemed boring to me. Why should users be restricted to commenting entire
-  articles. Why not letting them add footnotes to arbitrary positions in a
-  text. In this entry I experiment with this feature.<br/><a href="/subjects/structuralwebdesign/">Structural web design</a>,
-	<a href="/subjects/xmlprocessing/">XML Processing</a></td>
-      </tr>
-    </table>
-  </div>
-</div>
+  <div style="clear:both"> 
+	    </div><div id="disqus_thread">
+	    </div><p style="margin-left:+1%;"><a href="http://disqus.com" class="dsq-brlink">blog comments powered
+	    by <span class="logo-disqus">Disqus</span></a></p></div><script type="text/javascript" src="http://disqus.com/forums/sigfridlundbergsstuff/embed.js">
+	  </script><noscript><a href="http://sigfridlundbergsstuff.disqus.com/?url=http://sigfrid-lundberg.se/entries/2009/11/kbmetadta/">
+	      View the discussion thread
+	  </a></noscript><script type="text/javascript">//<!--
+	  (function() {
+	      var links = document.getElementsByTagName('a');
+	      var query = '?';
+	      for(var i = 0; i < links.length; i++) {
+		  if(links[i].href.indexOf('#disqus_thread') >= 0) {
+		      query += 'url' + i + '=' + encodeURIComponent(links[i].href) + '&';
+		  }
+	      }
+	      document.write('<script charset="utf-8" type="text/javascript" src="http://disqus.com/forums/sigfridlundbergsstuff/get_num_replies.js' + query + '"></' + 'script>');
+	  })();
+	  //--></script><!--#include virtual="/js/urchin.js" --></body></html>

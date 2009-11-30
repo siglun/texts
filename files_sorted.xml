@@ -11,6 +11,107 @@
   <author>
     <name>Sigfrid Lundberg</name>
   </author>
+  <title>Image, Searching &amp; Metadata</title>
+  <link href="/entries/2009/11/kbmetadta/"/>
+  <summary>Today I gave a presentation on our metadata work. My experience of
+  that turned out to be about images.</summary>
+  <content type="xhtml">
+    <div xmlns="http://www.w3.org/1999/xhtml">
+
+      <p>Today I gave a presentation on our metadata work. It was meant to be
+      about METS and MODS, but it became more of a justification for our work
+      than about. As usual I had <a href="http://sigfrid-lundberg.se/2009/nov30/presentation.xml">too many
+      slides</a>. My main idea was to use google images instead of slides, but
+      then I had to add some slides anyway because the navigation overhead was
+      too high and I had difficulties to remember which images to click on.</p>
+
+      <p>The google searches are interesting. The visual result sets give you
+      an overview very different from the text search. The visual search
+      engines (see, for example <a href="http://www.search-cube.com/">Search
+      Cube</a>) base their navigation on some kind of canned screen dumps.
+      That's nice but it isn't the images produced by the author, but an image
+      of the text.</p>
+
+      <p>Please find below an annotated list of links to searches I like:</p>
+
+      <div style="float: left; width: 50%; margin-left:0.5em;margin-right:0.5em;">
+	<a href="http://www.w3.org/TR/webarch/" title="Architecture of the worldwide web"><img src="http://www.w3.org/2001/tag/2004/webarch-20041021/uri-res-rep.png" width="90%" border="0" alt="URI &amp; representations &amp; resources"/></a>
+	<p><small>Figure 1</small></p>
+
+      </div>
+
+      <h2><a href="http://images.google.com/images?gbv=2&amp;hl=en&amp;um=1&amp;sa=1&amp;q=architecture+of+the+worldwide+web&amp;aq=f&amp;oq=&amp;aqi=&amp;start=0">Architecture of the worldwide web</a></h2>
+
+      <p>First hit is Figure 1, from <a href="http://www.w3.org/TR/webarch/">the appropriate W3
+      recommendation</a>. Then there are fifteen ice bears belonging to the
+      cover of <q>Information Architecture for the World Wide Web</q>, a title
+      that I think I should read when I get the opportunity.</p>
+
+      <h2><a href="http://images.google.com/images?gbv=2&amp;hl=en&amp;sa=1&amp;q=library+catalog&amp;aq=f&amp;oq=&amp;aqi=g1&amp;start=0">Library
+      catalog</a></h2>
+
+      <p>This one isn't as spectacular as the architecture, but it
+      gives you an idea on what people know and believe they know when it
+      comes to what libraries and cataloging is about.</p>
+
+      <div style="float: right; width: 50%; margin-left:0.5em;margin-right:0.5em;">
+	<a href="http://www.library.nd.edu/daiad/morgan/musings/ngc/" title="Eric Lease Morgan's musings on next generation catalog">
+	  <img src="http://www.library.nd.edu/daiad/morgan/musings/ngc/ngo.gif" width="100%" border="0" alt="Eric Lease Morgan's musings on next generation catalog"/>
+	  </a>
+	  <p><small>Figure 2. Eric Lease Morgan's musing on the Next
+	  Generation Opac</small></p>
+
+      </div>
+
+      <p>There is a wonderful image (Figure 2) showing what we were all
+      thinking about around 2006. When I think of it, we still are. The range
+      of protocols to support, and the list of metadata formats are the
+      same. The ideas doesn't change that fast.</p>
+
+      <h2><a href="http://images.google.com/images?gbv=2&amp;hl=en&amp;q=circulation+desk&amp;sa=N&amp;start=0&amp;ndsp=20">Circulation desk</a></h2>
+
+      <p>All libraries I know have a circulation desk. Searching for it in
+      Google images yields 978000 hits. Adding quotation marks reduces the
+      number to 34400. None of them are particularly interesting, except
+      perhaps the one at <a href="http://www.flickr.com/photos/army_arch/2691906687/">Doheny
+      Library</a>.</p>
+
+      <p>My fascination is more due to fact that they are all there, all these
+      desks. I mean, how interesting is a circulation desk?</p>
+
+      <div style="float: right; width: 50%; margin-left:0.5em;margin-right:0.5em;">
+	<a href="http://library.web.cern.ch/library/Webzine/10/papers/1/">
+	  <img src="http://library.web.cern.ch/library/Webzine/10/papers/1/figure3.jpg" width="90%" border="0" alt="Works, expressions, manifestations and relations"/>
+	</a>
+
+	<p><small>Figure 3. Knut Hegna (2004) <q>Using FRBR</q></small></p>
+
+      </div>
+
+      <h2><a href="http://images.google.com/images?hl=en&amp;source=hp&amp;q=work+expression+manifestation+item&amp;gbv=2&amp;aq=f&amp;oq=&amp;aqi=">work expression manifestation item</a></h2>
+
+      <p>This one hard core information science. <em>Work</em> is the
+      ontological work, before it is expressed in a manuscript. The platonic
+      blog entry, before it hits the web.</p>
+
+      <p>There are other hard core ones, such as <a href="http://images.google.com/images?gbv=2&amp;hl=en&amp;sa=1&amp;q=collect+preserve+organize+provide+access&amp;aq=f&amp;oq=&amp;aqi=&amp;start=0">collect
+      preserve organize provide access</a>. As a web search, it yields hits in
+      <a href="http://www.google.com/search?gbv=2&amp;hl=en&amp;q=collect%20preserve%20organize%20provide%20access&amp;ie=UTF-8&amp;sa=N&amp;tab=iw&amp;start=0">library
+      &amp; archive mission statements</a>.</p>
+
+
+
+    </div>
+  </content>
+  <dc:date>2009</dc:date>
+  <category label="metadata" term="Metadata"/>
+  <updated>2009-11-30T16:47:21+01:00</updated>
+  <id>http://www.sigfrid-lundberg.se/entries/2009/11/kbmetadta/</id>
+</entry>
+  <entry>
+  <author>
+    <name>Sigfrid Lundberg</name>
+  </author>
   <title>The specification and the TODO-list</title>
   <link href="/entries/2009/10/programming/"/>
   <summary>Through the web, a software vendor and a service provider could all
