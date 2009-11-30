@@ -27,6 +27,11 @@
     </script>
   </head>
   <body>
+    <p style="text-align:right;">
+      [<a href="New_metadata_formats_at_kb_dk.pdf">metadata slides</a>
+      ||
+      <a href="A_METS_profile_for_kb_dk.pdf">mets slides</a>]
+    </p>
     <h1>new metadata formats@kb.dk</h1>
 
     <h2>seminar 2009-11-30 &mdash; slu@kb.dk</h2>
@@ -228,6 +233,9 @@
   <!--
       $Id$
       $Log$
+      Revision 1.12  2009/11/30 15:30:23  sigfrid
+      added links to presentation
+
       Revision 1.11  2009/11/30 09:47:39  sigfrid
       page 42
 
