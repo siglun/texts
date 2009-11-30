@@ -63,6 +63,14 @@
     <div>
       <ul>
 
+	<li>
+	  <a target="slide"
+	     href="http://images.google.com/images?gbv=2&amp;hl=en&amp;um=1&amp;sa=1&amp;q=collect+preserve+organize+provide+access&amp;aq=f&amp;oq=&amp;aqi=&amp;start=0">025</a>
+	  libraries collect, preserve, organize and provide access
+	</li>
+
+	
+
 	 <li>
 
 	   <a target="slide"
@@ -221,6 +229,9 @@
   <!--
       $Id$
       $Log$
+      Revision 1.6  2009/11/30 08:11:53  sigfrid
+      added collect, preserve... again
+
       Revision 1.5  2009/11/29 20:59:28  sigfrid
       no comments
 
