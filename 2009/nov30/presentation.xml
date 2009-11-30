@@ -165,7 +165,7 @@
 
 	 <li>
 	   <a target="slide"
-	      href="http://images.google.com/images?q=Pontifical+world:+The+Indies+of+Peru+and+the kingdom+of+Castile&amp;gbv=2&amp;hl=en&amp;sa=G">130</a>
+	      href="http://images.google.com/images?gbv=2&amp;hl=en&amp;sa=1&amp;q=Dibujo+16.+Pontifical+mundo%3A+Las+Indias+del+Per%C3%BA+y+el+reino+de+Castilla&amp;aq=f&amp;oq=&amp;aqi=&amp;start=0">130</a>
 	   Pontifical world: The Indies of Peru and the kingdom of Castile
 	 </li>
 
@@ -228,6 +228,9 @@
   <!--
       $Id$
       $Log$
+      Revision 1.11  2009/11/30 09:47:39  sigfrid
+      page 42
+
       Revision 1.10  2009/11/30 09:33:44  sigfrid
       forcing page 42
 
