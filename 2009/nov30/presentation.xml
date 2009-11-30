@@ -87,7 +87,7 @@
 	 <li>
 	   <a target="slide"
 	      href="http://images.google.com/images?gbv=2&amp;hl=en&amp;sa=1&amp;q=library+catalog&amp;aq=f&amp;oq=&amp;aqi=g1&amp;start=0">050</a>
-	   users use the library catalog
+	   users use the library catalog, or do they?
 	 </li>
 
 	 <li>
@@ -229,6 +229,9 @@
   <!--
       $Id$
       $Log$
+      Revision 1.7  2009/11/30 08:23:11  sigfrid
+      added rethorics
+
       Revision 1.6  2009/11/30 08:11:53  sigfrid
       added collect, preserve... again
 
