@@ -104,18 +104,17 @@
 
 	 <li>
 	   <a target="slide"
-	      href="http://sigfrid-lundberg.se/2007/hidden_web/usage_vs_dissemination_method.html">
-	     080
-	   </a>
-	   we have relied on the library catalog for dissemination material
-	   available on the web &mdash; sometimes it has been the only method used
+	      href="http://images.google.com/images?gbv=2&amp;hl=en&amp;q=users+find+information&amp;um=1&amp;ie=UTF-8&amp;sa=N&amp;tab=wi">080</a>
+	   in general, users want the information not the medium 
 	 </li>
-
 
 	 <li>
 	   <a target="slide"
-	      href="http://images.google.com/images?gbv=2&amp;hl=en&amp;q=users+find+information&amp;um=1&amp;ie=UTF-8&amp;sa=N&amp;tab=wi">090</a>
-	   in general, users want the information not the medium 
+	      href="http://sigfrid-lundberg.se/2007/hidden_web/usage_vs_dissemination_method.html">
+	     090
+	   </a>
+	   we have relied on the library catalog for dissemination material
+	   available on the web &mdash; sometimes it has been the only method used
 	 </li>
 
        </ul>
@@ -229,6 +228,9 @@
   <!--
       $Id$
       $Log$
+      Revision 1.8  2009/11/30 08:29:28  sigfrid
+      reshuffeled
+
       Revision 1.7  2009/11/30 08:23:11  sigfrid
       added rethorics
 
