@@ -165,8 +165,8 @@
 
 	 <li>
 	   <a target="slide"
-	      href="http://images.google.com/images?q=The+Indies+of+Peru+and+the kingdom+of+Castile&amp;gbv=2&amp;hl=en&amp;sa=G">130</a>
-	   Guaman Poma de Ayala's family
+	      href="http://images.google.com/images?q=Pontifical+world:+The+Indies+of+Peru+and+the kingdom+of+Castile&amp;gbv=2&amp;hl=en&amp;sa=G">130</a>
+	   Pontifical world: The Indies of Peru and the kingdom of Castile
 	 </li>
 
        </ul>
@@ -228,6 +228,9 @@
   <!--
       $Id$
       $Log$
+      Revision 1.10  2009/11/30 09:33:44  sigfrid
+      forcing page 42
+
       Revision 1.9  2009/11/30 09:29:42  sigfrid
       changed page in poma
 
