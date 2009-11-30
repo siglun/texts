@@ -228,11 +228,26 @@
 
     </div>
 
+<script type="text/javascript">
+var gaJsHost = (("https:" == document.location.protocol) ? "https://ssl." : "h
+ttp://www.");
+document.write(unescape("%3Cscript src='" + gaJsHost + "google-analytics.com/g
+a.js' type='text/javascript'%3E%3C/script%3E"));
+</script>
+<script type="text/javascript">
+try {
+var pageTracker = _gat._getTracker("UA-9306307-1");
+pageTracker._trackPageview();
+} catch(err) {}</script>
+
   </body>
 
   <!--
       $Id$
       $Log$
+      Revision 1.13  2009/11/30 15:36:03  sigfrid
+      added google analytics
+
       Revision 1.12  2009/11/30 15:30:23  sigfrid
       added links to presentation
 
