@@ -1,0 +1,17 @@
+# week offset = 0
+# Data format Task no;Milestone;Project weeks comma seperated
+1;a;Studies of stuctured metadata formats (TEI P5 MS DESC, TEI, EAD, METS, DIDL, FOXML). Milestones: Brief presentations in a KB BLOG and a final comparison in the same medium;01,02
+1;b;Formulation of a simple ontology for item types using RDFS and/or SKOS;02,03,04
+1;c;Establishing a repository, a native XML database connected to a triple store. Experiences posted on BLOG;02,03
+2;a;Acquisition of test database. Try to use EAD from ediffah.org, TEI P5 MS DESC from laurentius.ub.lu.se, METS from kb.dk, and TEI from adl.dk;01,02,03,04
+2;b;Ingestion of data;03,04
+3;a;Specification of access protocol (i.e., an XML web service). Document published on BLOG;04,05
+3;b;Implementation of access protocol, access point published on BLOG;04,05,06
+4;a;User interfaces: Implementation of client search engine for the XML web service, access point published on BLOG;08
+4;b;User interfaces: Implementation of client navigation engine for the XML web service, access point published on BLOG;07,08,09
+4;c;User interface for the editing of structured content data, access point published on BLOG;08,09
+5;a;Small scale user tests of the various interfaces. A handful persons will be used;08,09
+5;b;Data analysis. Results presented on BLOG;08,09,10
+6;a;Writing paper. Manuscript will be written directly in the BLOG;08,09,10,11,12
+6;b;Merging BLOG entries to paper. Submission;12
+
