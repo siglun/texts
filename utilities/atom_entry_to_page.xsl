@@ -114,7 +114,10 @@
 	      <xsl:attribute name="class">addthis_button</xsl:attribute>
 	      <xsl:attribute name="addthis:title"><xsl:value-of select="f:title"/></xsl:attribute>
 	      <xsl:attribute name="addthis:description"><xsl:value-of select="f:summary"/></xsl:attribute>
-	      <xsl:attribute name="addthis:url"><xsl:value-of select="f:link/@href"/></xsl:attribute>
+	      <xsl:attribute name="addthis:url">
+		<xsl:value-of 
+		    select="concat('http://sigfrid-lundberg.se',f:link/@href)"/>
+	      </xsl:attribute>
 	      <xsl:attribute name="href">http://www.addthis.com/bookmark.php?v=250&amp;pub=siggelundberg</xsl:attribute>
 	      <img src="http://s7.addthis.com/static/btn/v2/lg-share-en.gif"
 		   width="125" 
