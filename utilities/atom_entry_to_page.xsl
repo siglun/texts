@@ -53,6 +53,10 @@
 	  </xsl:text>
 	</script>
 
+	<script type="text/javascript">
+	  <xsl:text>var addthis_share = { email_vars: { title: "</xsl:text><xsl:value-of select="f:title"/><xsl:text>" } }</xsl:text>
+	</script>
+
 	<xsl:if test="$debug">
 	  <script type="text/javascript">
 	    <xsl:text>
