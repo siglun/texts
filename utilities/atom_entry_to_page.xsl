@@ -4,6 +4,7 @@
 	       xmlns:dc="http://purl.org/dc/elements/1.1/"
 	       xmlns:exsl="http://exslt.org/common"
 	       xmlns="http://www.w3.org/1999/xhtml"
+	       xmlns:addthis="http://www.addthis.com/help/api-spec"
 	       exclude-result-prefixes="xsl f dc"
 	       extension-element-prefixes="exsl"
 	       version="1.0">
@@ -109,13 +110,18 @@
 	    <br/>
 	    <br/>
 	    <!-- AddThis Button BEGIN -->
-	    <a class="addthis_button"
-	       href="http://www.addthis.com/bookmark.php?v=250&amp;pub=siggelundberg">
+	    <xsl:element name="a">
+	      <xsl:attribute name="class">addthis_button</xsl:attribute>
+	      <xsl:attribute name="addthis:title"><xsl:value-of select="f:title"/></xsl:attribute>
+	      <xsl:attribute name="addthis:description"><xsl:value-of select="f:summary"/></xsl:attribute>
+	      <xsl:attribute name="addthis:url"><xsl:value-of select="f:link"/></xsl:attribute>
+	      <xsl:attribute name="href">http://www.addthis.com/bookmark.php?v=250&amp;pub=siggelundberg</xsl:attribute>
 	      <img src="http://s7.addthis.com/static/btn/v2/lg-share-en.gif"
 		   width="125" 
 		   height="16" 
 		   alt="Bookmark and Share" 
-		   style="border:0"/></a>
+		   style="border:0"/>
+	    </xsl:element>
 	      <script type="text/javascript" 
 		      src="http://s7.addthis.com/js/250/addthis_widget.js?pub=siggelundberg">
 		<xsl:text>
