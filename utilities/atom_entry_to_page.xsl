@@ -53,9 +53,9 @@
 	  </xsl:text>
 	</script>
 
-	<script type="text/javascript">
+	<!--script type="text/javascript">
 	  <xsl:text>var addthis_share = { email_vars: { title: "</xsl:text><xsl:value-of select="f:title"/><xsl:text>" } }</xsl:text>
-	</script>
+	</script-->
 
 	<xsl:if test="$debug">
 	  <script type="text/javascript">
@@ -117,7 +117,7 @@
 	    <xsl:element name="a">
 	      <xsl:attribute name="class">addthis_button</xsl:attribute>
 	      <xsl:attribute name="addthis:title"><xsl:value-of select="f:title"/></xsl:attribute>
-	      <xsl:attribute name="addthis:description"><xsl:value-of select="f:summary"/></xsl:attribute>
+	      <!--xsl:attribute name="addthis:description"><xsl:value-of select="f:summary"/></xsl:attribute-->
 	      <xsl:attribute name="addthis:url">
 		<xsl:value-of 
 		    select="concat('http://sigfrid-lundberg.se',f:link/@href)"/>
