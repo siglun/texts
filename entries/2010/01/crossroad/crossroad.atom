@@ -1,17 +1,13 @@
-<div xmlns="http://www.w3.org/1999/xhtml">
-  <div>
-    <h1 style="font-family: sans-serif; width: 55%; float: left;text-align: left;">An Irish Stew</h1>
-    <p style="width: 38%; float: left;text-align: right">
-      <em>
-        <strong>
-		Sigfrid Lundberg's Stuff,
-	      2010-02-14</strong>
-      </em>
-    </p>
-  </div>
-  <div style="clear:both;"> </div>
-  <div style="width:100%;">
-    <div>
+<?xml version="1.0" encoding="UTF-8"?>
+<entry xmlns="http://www.w3.org/2005/Atom" xmlns:dc="http://purl.org/dc/elements/1.1/">
+  <author>
+    <name>Sigfrid Lundberg</name>
+  </author>
+  <title>An Irish Stew</title>
+  <link href="/entries/2010/01/crossroad/"/>
+  <summary>Is Internet at a crossroad?</summary>
+  <content type="xhtml">
+    <div xmlns="http://www.w3.org/1999/xhtml">
 
       <p>An earlier version of this entry had the title: <em>Social media,
       Google adwords and the curation of digital refuse</em>. However, it
@@ -112,53 +108,10 @@
 
 
     </div>
-    <p style="text-align: left;"><em><strong>Categories:</strong></em> 
-	  <a href="/subjects/structuralwebdesign/">Structural web design</a><br/><em><strong>
-		Permalink:
-	      </strong></em><a rel="bookmark" href="/entries/2010/01/crossroad/">http://sigfrid-lundberg.se/entries/2010/01/crossroad/</a></p>
-    <hr width="50%" align="center"/>
-  </div>
-  <div>
-    <h1>Other, not yet obsolete stuff</h1>
-    <table class="news">
-      <tr>
-        <td class="left">2010</td>
-        <td class="left"><a href="/entries/2010/01/dusk/"><em>Reflections on a Library at Dusk</em></a><br/>During my soon five years at The Royal Library, I've seen its
-  exterior in all kinds of weather conditions. Here I give you some images
-  showing the spectacular black granite fasade at dusk.<br/><a href="/subjects/essays/">Essays</a></td>
-      </tr>
-      <tr>
-        <td class="left">2009</td>
-        <td class="left"><a href="/entries/2009/07/commuting/"><em>On being an international commuter</em></a><br/>The last four years I've spent more than two hours a day on
-  trains. And usually, but not always less than three. Furthermore, I go from
-  one nation to another and participate in the in the digital dissemination of
-  cultural heritage of a country which isn't my own.<br/><a href="/subjects/essays/">Essays</a></td>
-      </tr>
-      <tr>
-        <td class="left">2009</td>
-        <td class="left"><a href="/entries/2009/11/kbmetadta/"><em>Fifteen polar bears and one architecture</em></a><br/>Today I gave a presentation on our metadata work. My experience of
-  that turned out to be about images.<br/><a href="/subjects/metadata/">Metadata</a></td>
-      </tr>
-      <tr>
-        <td class="left">2009</td>
-        <td class="left"><a href="/entries/2009/10/programming/"><em>The specification and the TODO-list</em></a><br/>Through the web, a software vendor and a service provider could all
-  of a sudden compete on the same market. The software vendor use the
-  traditional specification, but a service implies software which is in
-  continuous development. Strictly speaking, there are no projects anymore,
-  just different activities. No specifications anymore, but TODO lists
-  containing incidents, bugs and requests for features ranked by
-  importance.<br/><a href="/subjects/programming/">Programming</a></td>
-      </tr>
-      <tr>
-        <td class="left">2009</td>
-        <td class="left"><a href="/entries/2009/11/twocultures/"><em>The two Cultures</em></a><br/>Do you know the second law of thermodynamics?<br/><a href="/subjects/programming/">Programming</a></td>
-      </tr>
-      <tr>
-        <td class="left">2009</td>
-        <td class="left"><a href="/entries/2009/10/webdevelopment/"><em>What about the HECS platforms?</em></a><br/>I've used fortran, pascal, C, perl, php and java in addition to
-  more specialized tools such as SQL and XSLT. There is currently a lot of
-  discussions on what platform will be the next winner.<br/><a href="/subjects/programming/">Programming</a></td>
-      </tr>
-    </table>
-  </div>
-</div>
+  </content>
+  <dc:date>2010</dc:date>
+  <category label="structuralwebdesign" term="Structural web design"/>
+  <published>2010-01-29T21:23:40+01:00</published>
+  <updated>2010-02-14T18:07:24+01:00</updated>
+  <id>http://www.sigfrid-lundberg.se/entries/2010/01/crossroad/</id>
+</entry>
