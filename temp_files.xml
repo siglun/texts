@@ -3962,6 +3962,10 @@
       <p>Apple don't support flash. Apple don't support the *.epub copy
       protection promoted by Adobe.</p>
 
+      <script type="text/javascript" src="http://www.gmodules.com/ig/ifr?url=http%3A%2F%2Fwww.google.com%2Fig%2Fmodules%2Fgoogle_insightsforsearch_interestovertime_searchterms.xml&amp;up__property=empty&amp;up__search_terms=tablet+pc&amp;up__location=empty&amp;up__category=0&amp;up__time_range=empty&amp;up__compare_to_category=false&amp;synd=ig&amp;w=320&amp;h=350&amp;lang=sv&amp;title=Google+Trender&amp;border=%23ffffff%7C3px%2C1px+solid+%23999999&amp;output=js"/>
+      <p><small>Fig. 1. The search interest for "tablet pc" in Google. It has
+      been declining until very recently :-)</small></p>
+
       <h3>II</h3>
 
       <p>Amazon thinks that eBooks should be cheap, say $9.99. Just as Apple
@@ -3987,4 +3991,5 @@
   <category label="internet" term="Internet"/>
   <updated>2010-02-17T20:16:45+01:00</updated>
   <id>http://www.sigfrid-lundberg.se/entries/2010/02/ibooook/</id>
+  <!-- $Id$ -->
 </entry></feed>
