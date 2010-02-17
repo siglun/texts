@@ -3940,4 +3940,51 @@
   <updated>2010-01-28T08:06:52+01:00</updated>
   <id>http://www.sigfrid-lundberg.se/entries/2010/01/dusk/</id>
   <!-- $Id$ -->
+</entry><entry xmlns:dc="http://purl.org/dc/elements/1.1/">
+  <author>
+    <name>Sigfrid Lundberg</name>
+  </author>
+  <title>Amazon, Adobe &amp; Apple</title>
+  <link href="/entries/2010/02/ibooook/"/>
+  <summary>My attitude towards eBooks has always been negative. Why should we lock content into proprietary formats. The sitution has changed.</summary>
+  <content type="xhtml">
+    <div xmlns="http://www.w3.org/1999/xhtml">
+
+      <p>Three reflexions inspired by the three</p>
+
+      <h3>I</h3>
+
+      <p>Adobe has grown from being the owner of postscript and the electronic
+      font foundry of the 1990's. It is still going strong on the traditional
+      markets but have a lot of inpact on just about anything related to media
+      consumption and production.</p>
+
+      <p>Apple don't support flash. Apple don't support the *.epub copy
+      protection promoted by Adobe.</p>
+
+      <h3>II</h3>
+
+      <p>Amazon thinks that eBooks should be cheap, say $9.99. Just as Apple
+      thinks that 99 cent is OK for a track. Publishers in general and
+      MacMillan in particular doesn't like that and suggests $14.99.</p>
+
+      <p>Apple likes that.</p> 
+
+      <p>Torrent users doesn't like that.</p> 
+
+      <h3>III</h3>
+
+      <p>I don't think that iPad will have any effect on eBook prices in the
+      long run. However, the table PC will, finally, gain in popularity. And
+      so will eBooks.</p>
+
+      <p>The eBooks will make 40 year old books a commercial asset, which will further
+      decrease the libraries market share.</p>
+
+    </div>
+  </content>
+  <dc:date>2010</dc:date>
+  <category label="structuralwebdesign" term="Structural web design"/>
+  <updated>2010-02-17T20:16:45+01:00</updated>
+  <id>http://www.sigfrid-lundberg.se/entries/2010/02/ibooook/</id>
 </entry></feed>
