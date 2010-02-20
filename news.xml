@@ -5,7 +5,7 @@
       <em>
         <strong>
 		Sigfrid Lundberg's Stuff,
-	      2010-02-19</strong>
+	      2010-02-20</strong>
       </em>
     </p>
   </div>
@@ -18,7 +18,7 @@
 	  <img src="/entries/2010/02/semanticdrift/graph.png" style="width:100%;" alt="frequency occurrences of the term 'semantic drift'"/>
 	</a>
 	<p><small>Fig. 1. The usage of the term <q>semantic drift</q> in web
-	documents. Note the logarithmic scale on the Y-axos: There is a
+	documents. Note the logarithmic scale on the Y-axis: There is a
 	tenfold increase between 2007 and 2008. By the first of January 2010
 	there had appeared 19600. These use of the term in the context of
 	semantic web is not very common. For instance, <q>semantic drift</q>
@@ -39,7 +39,7 @@
       of word usage</q> (<a href="http://en.wikipedia.org/wiki/Semantic_drift">Wikipedia</a>).</p>
 
       <p>I'm an evolutionary biologist by training, for me drift and evolution
-      through natural (darwinian) selection has <em>two</em> different
+      through natural (Darwinian) selection has <em>two</em> different
       meanings -- drift is the evolution which is due to random change which
       arise, mainly but not exclusively, through mutation between synonymous
       genes.</p>
@@ -48,7 +48,7 @@
       year 2000</a>. I used it for a couple of years, but I don't think I've
       used it since 2003. The term has since then gained some popularity in
       many communities (see Fig. 1). From what I've found out, the term first
-      appeared in a metadata or semeantic web context in an <a href="http://www.dlib.org/dlib/July95/07weibel.html">article by Stuart
+      appeared in a metadata or semantic web context in an <a href="http://www.dlib.org/dlib/July95/07weibel.html">article by Stuart
       Weibel 1995</a>.</p>
 
       <div style="float:right;width:180px;margin:0.5em;">
@@ -69,13 +69,13 @@
       that.</p>
 
       <p>This is the history behind the version number 1.1 in DC. At the time
-      I presented a study of meta-tags in around 5 million html documents
+      I presented a study of meta-tags in around 5 million HTML documents
       during my life as search engineer <a href="http://sigfrid-lundberg.se/2000/delft/examples/metadata_statistics.html">1996-2000</a>. This
       was the time when I felt the need for Fig. 2. I drew it for illustrating
       what I was doing when I was handling metadata. The reason for using dumb
       down is that even if your service you're building is equipped with an
       advanced search form, you won't be able to sell it to a customer who
-      claim that usability is important if it containes more than around ten
+      claim that usability is important if it contains more than around ten
       fields.</p>
 
       <p>I have recently been thinking about these issues, frightened by
@@ -85,9 +85,7 @@
       their own vocabularies, and <a href="http://xmlns.com/foaf/spec/">foaf</a>. I cannot find dc:creator as
       a property of Inferno, instead they use <a href="http://dbpedia.org/ontology/author">dbpedia-owl:author</a>. I hope
       they had a nice time defining their ontologies. I, however, feel
-      that I need my funnel (Fig. 2).</p>
-
-
+      that I need my funnel (Fig. 2) more than ever.</p>
 
 
     </div>
