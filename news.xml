@@ -26,7 +26,7 @@
 	<ul>
 	  <li>Använd <a href="itpc://sigfrid-lundberg.se/podcasts/mor_minns/mor_minns.rss">iTunes</a></li>
 
-	  <li><label for="podcast">Länk till RSS-flöde</label>
+	  <li><label for="podcast"><a href="http://sigfrid-lundberg.se/podcasts/mor_minns/mor_minns.rss">XML/RSS-flöde</a></label>
         <input id="podcast" title="Länk till RSS-flöde" size="31" value="http://sigfrid-lundberg.se/podcasts/mor_minns/mor_minns.rss" onclick="this.focus();this.select();" type="text"/></li>
 	</ul>
 
