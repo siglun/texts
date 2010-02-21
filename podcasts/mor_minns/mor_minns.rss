@@ -44,6 +44,7 @@ $Revision$ last modified $Date$ by $Author$
     <image>
       <url>http://sigfrid-lundberg.se/galleri/200902-200904/smaller/cimg1154.jpg</url>
       <title>Syster Lundberg: Mor minns</title>
+      <link>http://sigfrid-lundberg.se/</link>
     </image>
 
     <lastBuildDate>Sun, Feb 21 14:14:34 CET 2010</lastBuildDate>
@@ -103,6 +104,9 @@ $Revision$ last modified $Date$ by $Author$
 <!-- 
 
 $Log$
+Revision 1.9  2010/02/21 13:25:22  sigfrid
+added URI to image
+
 Revision 1.8  2010/02/21 13:22:13  sigfrid
 added email to podcast
 

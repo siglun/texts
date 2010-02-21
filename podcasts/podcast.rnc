@@ -29,7 +29,7 @@ start =
       element image {
         element url { xsd:anyURI },
         title,
-        link?
+        link
       }?,
       element lastBuildDate { text },
       element item {
