@@ -11,6 +11,77 @@
   <author>
     <name>Sigfrid Lundberg</name>
   </author>
+  <title>Podcast: Mor minns</title>
+  <link href="/entries/2010/02/mor_minns/"/>
+  <summary>Min mor har tre år kvar till 100. Jag menar att hon är en helt
+  fantastisk kvinna, med ett knivskarpt intellekt. Hon fick aldrig gå mer än
+  sju år i skolan som barn, men i 60-årsåldern tog hon i princip
+  gymnasiekompetens. I denna serie läser hon dikter och berättar ur minnet
+  eftersom hon är nästan blind.</summary>
+  <content type="xhtml">
+    <div xmlns="http://www.w3.org/1999/xhtml">
+
+      <p>Syster Lundberg föddes den 27 februari 1913 och hon är min mor. Jag
+      menar att hon är en helt fantastisk kvinna, med ett knivskarpt
+      intellekt. Hon fick aldrig gå mer än sju år i skolan som barn, men i
+      60-årsåldern tog hon i princip gymnasiekompetens.</p>
+
+      <p>I denna serie läser hon dikter och berättar ur minnet eftersom hon är
+      nästan blind.</p>
+
+      <div>
+	<ul>
+	  <li>Använd <a href="itpc://sigfrid-lundberg.se/podcasts/mor_minns/mor_minns.rss">iTunes</a></li>
+
+	  <li><label for="podcast">Länk till RSS-flöde</label>
+        <input id="podcast" title="Länk till RSS-flöde" size="31" value="http://sigfrid-lundberg.se/podcasts/mor_minns/mor_minns.rss" onclick="this.focus();this.select();" type="text"/></li>
+	</ul>
+
+      </div>
+
+      <div style="float:right;width:40%;margin:0.5em;">
+	<img src="http://sigfrid-lundberg.se/galleri/200902-200904/smaller/cimg1154.jpg" style="width:100%;" alt="Syster Lundberg, snart 97"/>
+      </div>
+
+
+      <h3 id="haerenkaellarinner">Här en källa rinner</h3>
+
+      <p>Sannolikt ur <a href="http://runeberg.org/sondag/0086.html">Svensk
+      söndagsskolsångbok för hem, skolor och barngudstjänster</a></p>
+
+      <p><a href="http://storage.sigfrid-lundberg.se/sound/dikten_haer_en_kaella_rinner.mp3">http://storage.sigfrid-lundberg.se/sound/dikten_haer_en_kaella_rinner.mp3</a>
+      (938 KB)</p>
+
+      <h3 id="nydag">Ny Dag/Fåglarna som bådar gryningen flyger</h3>
+
+      <p>Dikten Ny Dag är egentligen en sång ur en kantat av Anita Nathorst
+      (text) och Oskar Lindberg (musik), skriven till Fredrika Bremer
+      Förbundets 50-årsfest 1934 och publicerad i <a href="http://www.ub.gu.se/kvinn/digtid/06/1934/hertha1934_4.pdf">förbundets
+      tidsskrift Herta</a>. Mor var med och sjöng den i Husmodersföreningens
+      kör någon gång på 60-talet.</p>
+
+      <p><a href="http://storage.sigfrid-lundberg.se/sound/dikten_faaglarna_flyger.mp3">http://storage.sigfrid-lundberg.se/sound/dikten_faaglarna_flyger.mp3</a>
+ (938 KB)</p>
+
+      <h3 id="denvaen">Var är den vän som överallt jag söker?</h3>
+
+      <p>En av Johan Olof Wallin vackraste psalmer. <a href="http://runeberg.org/psalmbok/1932/0325.html">Svenska Psalmboken
+      481</a></p>
+
+      <p><a href="http://storage.sigfrid-lundberg.se/sound/dikten_hur_skon.mp3">http://storage.sigfrid-lundberg.se/sound/dikten_hur_skon.mp3</a> 
+      (894 KB)</p>
+
+    </div>
+  </content>
+  <dc:date>2010</dc:date>
+  <category label="aboutme" term="About me"/>
+  <updated>2010-02-21T17:07:10+01:00</updated>
+  <id>http://www.sigfrid-lundberg.se/entries/2010/02/mor_minns/</id>
+</entry>
+  <entry>
+  <author>
+    <name>Sigfrid Lundberg</name>
+  </author>
   <title>The proliferation of redundant meaning</title>
   <link href="/entries/2010/02/semanticdrift/"/>
   <summary>I first used the term semantic drift about 10 years ago. It was a
