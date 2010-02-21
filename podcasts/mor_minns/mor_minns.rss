@@ -57,9 +57,8 @@ $Revision$ last modified $Date$ by $Author$
       <pubDate>Sun, 21 Feb 2010 13:39:34 -0100</pubDate>
       <link>http://sigfrid-lundberg.se/entries/2009/06/mor/</link>
       <guid>http://storage.sigfrid-lundberg.se/sound/dikten_haer_en_kaella_rinner.mp3</guid>
-      <itunes:summary><![CDATA[Sannolikt ur "Svensk söndagsskolsångbok för hem,
-      skolor och barngudstjänster" <a
-      href="http://runeberg.org/sondag/0086.html">Här en källa rinner</a>]]></itunes:summary>
+      <itunes:summary>Sannolikt ur "Svensk söndagsskolsångbok för hem,
+      skolor och barngudstjänster"</itunes:summary>
       <itunes:duration>01:00</itunes:duration>
       <itunes:explicit>no</itunes:explicit>
       <enclosure 
@@ -75,8 +74,7 @@ $Revision$ last modified $Date$ by $Author$
       <pubDate>Sun, 21 Feb 2010 13:39:34 -0100</pubDate>
       <link>http://sigfrid-lundberg.se/entries/2009/06/mor/</link>
       <guid>http://storage.sigfrid-lundberg.se/sound/dikten_faaglarna_flyger.mp3</guid>
-      <itunes:summary><![CDATA[Dikten
-	<a href="http://www.ub.gu.se/kvinn/digtid/06/1934/hertha1934_4.pdf">Fåglarna som bådar gryningen flyger... </a> är en sång ur en kantat av Anita Nathorst (text) och Oskar Lindberg (musik), skriven till Fredrika Bremer Förbundets 50-årsfest 1934. Mor var med och sjöng den i kör någon gång på 60-talet.]]></itunes:summary>
+      <itunes:summary>Fåglarna som bådar gryningen flyger... är en sång ur en kantat av Anita Nathorst (text) och Oskar Lindberg (musik), skriven till Fredrika Bremer Förbundets 50-årsfest 1934. Mor var med och sjöng den i kör någon gång på 60-talet.</itunes:summary>
       <itunes:duration>01:11</itunes:duration>
       <itunes:explicit>no</itunes:explicit>
       <enclosure 
@@ -89,10 +87,10 @@ $Revision$ last modified $Date$ by $Author$
     <item>
       <title>Var är den vän som överallt jag söker?</title>
       <description><![CDATA[Gamla hederlige Johan Olof Wallin <a href="http://runeberg.org/psalmbok/1932/0325.html">Svenska Psalmboken 481</a>]]></description>
-      <pubDate>Sun, Feb 21 2010 13:39:34 -0100</pubDate>
+      <pubDate>Sun, 21 Feb 2010 13:39:34 -0100</pubDate>
       <link>http://sigfrid-lundberg.se/entries/2009/06/mor/</link>
       <guid>http://storage.sigfrid-lundberg.se/sound/dikten_hur_skon.mp3</guid>
-      <itunes:summary><![CDATA[Gamla hederlige Johan Olof Wallin <a href="http://runeberg.org/psalmbok/1932/0325.html">Svenska Psalmboken 481</a>]]></itunes:summary>
+      <itunes:summary>Gamle hederlige Johan Olof Wallin Svenska Psalmboken 481</itunes:summary>
       <itunes:duration>00:57</itunes:duration>
       <itunes:explicit>no</itunes:explicit>
       <enclosure 
@@ -104,6 +102,9 @@ $Revision$ last modified $Date$ by $Author$
 <!-- 
 
 $Log$
+Revision 1.14  2010/02/21 13:54:33  sigfrid
+correcting summaries
+
 Revision 1.13  2010/02/21 13:44:10  sigfrid
 bloody RFC 822
 
