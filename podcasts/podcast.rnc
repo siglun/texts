@@ -1,5 +1,6 @@
 default namespace = ""
 namespace itunes = "http://www.itunes.com/dtds/podcast-1.0.dtd"
+namespace atom   = "http://www.w3.org/2005/Atom"
 
 start =
   element rss {
@@ -7,6 +8,7 @@ start =
     element channel {
       title,
       link,
+      atomLink,
       description,
       element copyright { text }?,
       element generator { text }?,
@@ -59,3 +61,31 @@ itunes.category =
     itunes.category?
   }
 itunes.explicit = element itunes:explicit { xsd:NCName }
+
+atomLink =
+      element atom:link {
+         atomCommonAttributes,
+         attribute href { atomUri },
+         attribute rel { atomNCName | atomUri }?,
+         attribute type { atomMediaType }?,
+         attribute hreflang { atomLanguageTag }?,
+         attribute title { text }?,
+         attribute length { text }?
+
+      }
+
+atomUri    = text
+atomNCName = xsd:string { minLength = "1" pattern = "[^:]*" }
+
+# Whatever a media type is, it contains at least one slash
+atomMediaType = xsd:string { pattern = ".+/.+" }
+
+# As defined in RFC 3066
+atomLanguageTag = xsd:string {
+    pattern = "[A-Za-z]{1,8}(-[A-Za-z0-9]{1,8})*"
+}
+
+atomCommonAttributes =
+    attribute xml:base { atomUri }?,
+    attribute xml:lang { atomLanguageTag }?
+

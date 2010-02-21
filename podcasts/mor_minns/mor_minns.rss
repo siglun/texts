@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="UTF-8" ?>
 <rss version="2.0" 
+     xmlns:atom="http://www.w3.org/2005/Atom"
      xmlns:itunes="http://www.itunes.com/dtds/podcast-1.0.dtd">
 <!--
 
@@ -11,6 +12,8 @@ $Revision$ last modified $Date$ by $Author$
   <channel>
     <title>Mor minns</title>
     <link  >http://sigfrid-lundberg.se/podcasts/mor_minns/mor_minns.xml</link>
+    <atom:link href="http://sigfrid-lundberg.se/podcasts/mor_minns/mor_minns.xml"
+	       rel="self"/>
     <description>Syster Lundberg föddes den 27 februari 1913 och hon är min
     mor. Jag menar att hon är en helt fantastisk kvinna, med ett knivskarpt
     intellekt. Hon fick aldrig gå mer än sju år i skolan som barn, men i
@@ -43,7 +46,7 @@ $Revision$ last modified $Date$ by $Author$
       <title>Syster Lundberg: Mor minns</title>
     </image>
 
-    <lastBuildDate>Sun, Feb 21 13:39:34 CET 2010</lastBuildDate>
+    <lastBuildDate>Sun, Feb 21 14:14:34 CET 2010</lastBuildDate>
     
     <item>
       <title>Här en källa rinner</title>
@@ -100,6 +103,9 @@ $Revision$ last modified $Date$ by $Author$
 <!-- 
 
 $Log$
+Revision 1.6  2010/02/21 13:15:11  sigfrid
+added atom:link to the schema
+
 Revision 1.5  2010/02/21 12:57:38  sigfrid
 correcting the dates
 
