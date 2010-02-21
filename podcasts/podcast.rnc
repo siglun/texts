@@ -1,0 +1,61 @@
+default namespace = ""
+namespace itunes = "http://www.itunes.com/dtds/podcast-1.0.dtd"
+
+start =
+  element rss {
+    attribute version { xsd:decimal },
+    element channel {
+      title,
+      link,
+      description,
+      element copyright { text }?,
+      element generator { text }?,
+      element language { xsd:NCName }?,
+      itunes.summary?,
+      element itunes:subtitle { text }?,
+      itunes.keywords,
+      element itunes:author { text }?,
+      element itunes:owner {
+        element itunes:email { text }?,
+        element itunes:name { text }
+      }?,
+      itunes.category+,
+      element itunes:image {
+        attribute href { xsd:anyURI }
+      }?,
+      itunes.explicit?,
+      element image {
+        element url { xsd:anyURI },
+        title,
+        link?
+      }?,
+      element lastBuildDate { text },
+      element item {
+        title,
+        description,
+        element pubDate { text },
+        link,
+        element guid { xsd:anyURI },
+        itunes.summary,
+        itunes.keywords,
+        element itunes:duration { xsd:NMTOKEN },
+        itunes.explicit,
+        element enclosure {
+          attribute length { xsd:integer },
+          attribute type { text },
+          attribute url { xsd:anyURI }
+        }
+      }+
+    }
+  }
+title = element title { text }
+link = element link { xsd:anyURI }
+description = element description { text }
+itunes.summary = element itunes:summary { text }
+itunes.keywords = element itunes:keywords { text }?
+itunes.category =
+  element itunes:category {
+    attribute text { text },
+    itunes.category?
+  }
+itunes.explicit = element itunes:explicit { xsd:NCName }
