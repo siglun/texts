@@ -1,6 +1,6 @@
 <div xmlns="http://www.w3.org/1999/xhtml">
   <div>
-    <h1 style="font-family: sans-serif; width: 55%; float: left;text-align: left;">The proliferation of redundant meaning</h1>
+    <h1 style="font-family: sans-serif; width: 55%; float: left;text-align: left;">Podcast: Mor minns</h1>
     <p style="width: 38%; float: left;text-align: right">
       <em>
         <strong>
@@ -13,94 +13,74 @@
   <div style="width:100%;">
     <div>
 
-      <div style="float:left;width:60%;margin:0.5em;">
-	<a href="http://sigfrid-lundberg.se/entries/2010/02/semanticdrift/graph.png">
-	  <img src="http://sigfrid-lundberg.se/entries/2010/02/semanticdrift/graph.png" style="width:100%;" alt="frequency occurrences of the term 'semantic drift'"/>
-	</a>
-	<p><small>Fig. 1. The usage of the term <q>semantic drift</q> in web
-	documents. Note the logarithmic scale on the Y-axis: There is a
-	tenfold increase between 2007 and 2008. By the first of January 2010
-	there had appeared 19600. These use of the term in the context of
-	semantic web is not very common. For instance, <q>semantic drift</q>
-	and <q>semantic web</q> <a href="http://www.google.com/search?hl=en&amp;q=%22semantic+drift%22+%22semantic+web%22&amp;aq=f&amp;aqi=&amp;oq=">827
-	hits</a> whereas the latter on its own yields more than three
-	millions hits.</small></p>
+      <p>Syster Lundberg föddes den 27 februari 1913 och hon är min mor. Jag
+      menar att hon är en helt fantastisk kvinna, med ett knivskarpt
+      intellekt. Hon fick aldrig gå mer än sju år i skolan som barn, men i
+      60-årsåldern tog hon i princip gymnasiekompetens.</p>
 
-	<p><small>The increase in popularity occurs in bursts. It seems to me
-	that the term get a new meaning in each burst, but I've only looked at
-	a small number of texts.</small></p>
+      <p>I denna serie läser hon dikter och berättar ur minnet eftersom hon är
+      nästan blind. Det är inte helt lätt att få henne att berätta, men gamla
+      psalmer är lättare.</p>
+
+      <div>
+	<ul>
+	  <li>Använd <a href="itpc://sigfrid-lundberg.se/podcasts/mor_minns/mor_minns.rss">iTunes</a></li>
+
+	  <li><label for="podcast">Länk till RSS-flöde</label>
+        <input id="podcast" title="Länk till RSS-flöde" size="31" value="http://sigfrid-lundberg.se/podcasts/mor_minns/mor_minns.rss" onclick="this.focus();this.select();" type="text"/></li>
+	</ul>
 
       </div>
 
-      <p>You hear a term, and you may think that it sounds cool and therefore
-      you import it into your active vocabulary. About ten or twelve years ago
-      <q>semantic drift</q> was such a term for me. <q>Semantic change, also
-      known as semantic shift or semantic progression describes the evolution
-      of word usage</q> (<a href="http://en.wikipedia.org/wiki/Semantic_drift">Wikipedia</a>).</p>
-
-      <p>I'm an evolutionary biologist by training, for me <em>genetic</em>
-      drift and evolution through natural (Darwinian) selection have
-      <em>two</em> different meanings -- drift is the evolution which is due
-      to random change which arise, mainly but not exclusively, through
-      mutation between <em>synonymous</em> genes -- they differ but the effect
-      is the same.</p>
-
-      <p>I used the term <q>semantic drift</q> <a href="http://lists.w3.org/Archives/Public/www-rdf-interest/2000Oct/0121.html">publicly
-      year 2000</a>. I used it for a couple of years, but I don't think I've
-      used it since 2003. The term has since then gained some popularity in
-      many communities (see Fig. 1). From what I've found out, the term first
-      appeared in a metadata or semantic web context in an <a href="http://www.dlib.org/dlib/July95/07weibel.html">article by Stuart
-      Weibel 1995</a>.</p>
-
-      <div style="float:right;width:180px;margin:0.5em;">
-	<img src="http://sigfrid-lundberg.se/2000/delft/dumb_down.gif" alt="dumb down" width="178px" height="238px"/>
-	<p><small>Fig. 2. The so-called dumb down principle. The only way to
-	cope with the semantic diversity.</small></p>
+      <div style="float:right;width:40%;margin:0.5em;">
+	<img src="http://sigfrid-lundberg.se/galleri/200902-200904/smaller/cimg1154.jpg" style="width:100%;" alt="Syster Lundberg, snart 97"/>
       </div>
 
-      <p>The discussion I adhere to above (the hitherto only documented
-      occation where I mention semantic drift) was on w3.org's RDF mailing
-      list, and was about the meaning of the metadata element title. More
-      precisely, we were discussing what it meant that the DC title changed
-      name space URI between version 1.0 (<a href="http://purl.org/dc/elements/1.0/title">http://purl.org/dc/elements/1.0/title</a>)
-      and version 1.1, (i.e., <a href="http://purl.org/dc/elements/1.1/title">http://purl.org/dc/elements/1.1/title</a>)?</p>
 
-      <p>There was a reader of DCMI documents who didn't understand why we did
-      that change. In retrospect I think we didn't understand that either
-      ourselves. We had made a mistake and we couldn't really acknowledge
-      that.</p>
+      <h3 id="haerenkaellarinner">I. Här en källa rinner</h3>
 
-      <p>This is the history behind the version number 1.1 in DC. At the time
-      I presented a study of meta-tags in around 5 million HTML documents
-      during my life as search engineer <a href="http://sigfrid-lundberg.se/2000/delft/examples/metadata_statistics.html">1996-2000</a>. This
-      was the time when I felt the need for Fig. 2. I drew it for illustrating
-      what I was doing when I was handling metadata. The reason for using dumb
-      down is that even if your service you're building is equipped with an
-      advanced search form, you won't be able to sell it to a customer who
-      claim that usability is important if it contains more than around ten
-      fields.</p>
+      <p>Sannolikt ur <a href="http://runeberg.org/sondag/0086.html">Svensk
+      söndagsskolsångbok för hem, skolor och barngudstjänster</a></p>
 
-      <p>I have recently been thinking about these issues, frightened by
-      dbpedia.org's vocabularies. See for instance <a href="http://dbpedia.org/page/August_Strindberg">August Strindberg's
-      entry</a>. <a href="http://dbpedia.org/page/Inferno_(Strindberg_novel)">Inferno</a> is
-      one of his works. From what I can tell, dbpedia.org is mainly using
-      their own vocabularies, and <a href="http://xmlns.com/foaf/spec/">foaf</a>. I cannot find dc:creator as
-      a property of Inferno, instead they use <a href="http://dbpedia.org/ontology/author">dbpedia-owl:author</a>. I hope
-      they had a nice time defining their ontologies. I, however, feel
-      that I need my funnel (Fig. 2) more than ever.</p>
+      <p><a href="http://storage.sigfrid-lundberg.se/sound/dikten_haer_en_kaella_rinner.mp3">http://storage.sigfrid-lundberg.se/sound/dikten_haer_en_kaella_rinner.mp3</a>
+      (938 KB)</p>
 
+      <h3 id="nydag">II. Ny Dag/Fåglarna som bådar gryningen flyger</h3>
+
+      <p>Dikten Ny Dag är egentligen en sång ur en kantat av Anita Nathorst
+      (text) och Oskar Lindberg (musik), skriven till Fredrika Bremer
+      Förbundets 50-årsfest 1934 och publicerad i <a href="http://www.ub.gu.se/kvinn/digtid/06/1934/hertha1934_4.pdf">förbundets
+      tidsskrift Herta</a>. Mor var med och sjöng den i Husmodersföreningens
+      kör någon gång på 60-talet.</p>
+
+      <p><a href="http://storage.sigfrid-lundberg.se/sound/dikten_faaglarna_flyger.mp3">http://storage.sigfrid-lundberg.se/sound/dikten_faaglarna_flyger.mp3</a>
+ (938 KB)</p>
+
+      <h3 id="denvaen">III. Var är den vän som överallt jag söker?</h3>
+
+      <p>En av Johan Olof Wallin vackraste psalmer. <a href="http://runeberg.org/psalmbok/1932/0325.html">Svenska Psalmboken
+      481</a></p>
+
+      <p><a href="http://storage.sigfrid-lundberg.se/sound/dikten_hur_skon.mp3">http://storage.sigfrid-lundberg.se/sound/dikten_hur_skon.mp3</a> 
+      (894 KB)</p>
 
     </div>
     <p style="text-align: left;"><em><strong>Categories:</strong></em> 
-	  <a href="/subjects/internet/">Internet</a>,
-	    <a href="/subjects/metadata/">Metadata</a><br/><em><strong>
+	  <a href="/subjects/essays/">Essays</a><br/><em><strong>
 		Permalink:
-	      </strong></em><a rel="bookmark" href="/entries/2010/02/semanticdrift/">http://sigfrid-lundberg.se/entries/2010/02/semanticdrift/</a></p>
+	      </strong></em><a rel="bookmark" href="/entries/2010/02/mor_minns/">http://sigfrid-lundberg.se/entries/2010/02/mor_minns/</a></p>
     <hr width="50%" align="center"/>
   </div>
   <div>
     <h1>Other, not yet obsolete stuff</h1>
     <table class="news">
+      <tr>
+        <td class="left">2010</td>
+        <td class="left"><a href="/entries/2010/02/semanticdrift/"><em>The proliferation of redundant meaning</em></a><br/>I first used the term semantic drift about 10 years ago. It was a
+  real danger then, it still is but the proliferation of synonymous
+  vocabularies is worse still.<br/><a href="/subjects/internet/">Internet</a>,
+	<a href="/subjects/metadata/">Metadata</a></td>
+      </tr>
       <tr>
         <td class="left">2010</td>
         <td class="left"><a href="/entries/2010/02/ibooook/"><em>Amazon, Adobe &amp; Apple</em></a><br/>My attitude towards eBooks has always been negative. Why should we lock content into proprietary formats. The sitution has changed.<br/><a href="/subjects/internet/">Internet</a></td>
@@ -126,16 +106,6 @@
         <td class="left">2009</td>
         <td class="left"><a href="/entries/2009/11/kbmetadta/"><em>Fifteen polar bears and one architecture</em></a><br/>Today I gave a presentation on our metadata work. My experience of
   that turned out to be about images.<br/><a href="/subjects/metadata/">Metadata</a></td>
-      </tr>
-      <tr>
-        <td class="left">2009</td>
-        <td class="left"><a href="/entries/2009/10/programming/"><em>The specification and the TODO-list</em></a><br/>Through the web, a software vendor and a service provider could all
-  of a sudden compete on the same market. The software vendor use the
-  traditional specification, but a service implies software which is in
-  continuous development. Strictly speaking, there are no projects anymore,
-  just different activities. No specifications anymore, but TODO lists
-  containing incidents, bugs and requests for features ranked by
-  importance.<br/><a href="/subjects/programming/">Programming</a></td>
       </tr>
     </table>
   </div>
