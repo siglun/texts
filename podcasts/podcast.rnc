@@ -16,7 +16,7 @@ start =
       itunes.keywords,
       element itunes:author { text }?,
       element itunes:owner {
-        element itunes:email { text }?,
+        element itunes:email { text },
         element itunes:name { text }
       }?,
       itunes.category+,

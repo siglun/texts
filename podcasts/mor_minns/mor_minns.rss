@@ -29,7 +29,11 @@ $Revision$ last modified $Date$ by $Author$
       <itunes:email></itunes:email>
       <itunes:name>Sigfrid Lundberg</itunes:name>
     </itunes:owner>
-    <itunes:category text="Dikter Psalmer &amp; hågkomster" >
+    <itunes:category text="Arts" >
+      <itunes:category  text="Literature"/>
+    </itunes:category>
+    <itunes:category text="Religion &amp; Spirituality">
+      <itunes:category text="Christianity"/>
     </itunes:category>
     <itunes:image 
 	href="http://sigfrid-lundberg.se/galleri/200902-200904/smaller/cimg1154.jpg"/>
@@ -96,6 +100,9 @@ $Revision$ last modified $Date$ by $Author$
 <!-- 
 
 $Log$
+Revision 1.4  2010/02/21 12:53:50  sigfrid
+The categories should be taken from Apple's vocabulary
+
 Revision 1.3  2010/02/21 12:46:46  sigfrid
 more debugging. the email seems to be mandatory
 
