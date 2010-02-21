@@ -11,8 +11,8 @@ $Revision$ last modified $Date$ by $Author$
 -->
   <channel>
     <title>Mor minns</title>
-    <link  >http://feeds.feedburner.com/MorMinns</link>
-    <atom:link href="http://feeds.feedburner.com/MorMinns"
+    <link>http://sigfrid-lundberg.se/podcasts/mor_minns/mor_minns.rss</link>
+    <atom:link href="http://sigfrid-lundberg.se/podcasts/mor_minns/mor_minns.rss"
 	       rel="self"/>
     <description>Syster Lundberg föddes den 27 februari 1913 och hon är min
     mor. Jag menar att hon är en helt fantastisk kvinna, med ett knivskarpt
@@ -44,7 +44,7 @@ $Revision$ last modified $Date$ by $Author$
     <image>
       <url>http://sigfrid-lundberg.se/galleri/200902-200904/smaller/cimg1154.jpg</url>
       <title>Mor minns</title>
-      <link>http://feeds.feedburner.com/MorMinns</link>
+      <link>http://sigfrid-lundberg.se/podcasts/mor_minns/mor_minns.rss</link>
     </image>
 
     <lastBuildDate>Sun, 21 Feb 2010 14:14:34 +0100</lastBuildDate>
@@ -102,6 +102,9 @@ $Revision$ last modified $Date$ by $Author$
 <!-- 
 
 $Log$
+Revision 1.18  2010/02/21 14:15:24  sigfrid
+To use the feedburner thing for this was no good
+
 Revision 1.17  2010/02/21 14:11:20  sigfrid
 OK changed the URI to the feedburner URI
 
