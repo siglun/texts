@@ -43,7 +43,7 @@ $Revision$ last modified $Date$ by $Author$
     <itunes:explicit>no</itunes:explicit>
     <image>
       <url>http://sigfrid-lundberg.se/galleri/200902-200904/smaller/cimg1154.jpg</url>
-      <title>Syster Lundberg: Mor minns</title>
+      <title>Mor minns</title>
       <link>http://sigfrid-lundberg.se/podcasts/mor_minns/mor_minns.rss</link>
     </image>
 
@@ -102,6 +102,9 @@ $Revision$ last modified $Date$ by $Author$
 <!-- 
 
 $Log$
+Revision 1.15  2010/02/21 13:57:31  sigfrid
+seems correct now!
+
 Revision 1.14  2010/02/21 13:54:33  sigfrid
 correcting summaries
 
