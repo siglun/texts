@@ -58,10 +58,11 @@
 	cope with the semantic diversity.</small></p>
       </div>
 
-      <p>The discussion I adhere to above was on w3.org's RDF mailing list,
-      and was about the meaning of the metadata element title. More precisely,
-      we were discussing what it meant that the DC title changed name space
-      URI between version 1.0 (<a href="http://purl.org/dc/elements/1.0/title">http://purl.org/dc/elements/1.0/title</a>)
+      <p>The discussion I adhere to above (the hitherto only documented
+      occation where I mention semantic drift) was on w3.org's RDF mailing
+      list, and was about the meaning of the metadata element title. More
+      precisely, we were discussing what it meant that the DC title changed
+      name space URI between version 1.0 (<a href="http://purl.org/dc/elements/1.0/title">http://purl.org/dc/elements/1.0/title</a>)
       and version 1.1, (i.e., <a href="http://purl.org/dc/elements/1.1/title">http://purl.org/dc/elements/1.1/title</a>)?</p>
 
       <p>There was a reader of DCMI documents who didn't understand why we did
