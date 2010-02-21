@@ -29,6 +29,7 @@ $Revision$ last modified $Date$ by $Author$
     <itunes:subtitle>En 97 årig kvinnas minns</itunes:subtitle>
     <itunes:keywords>psalmer, dikter, hågkomster</itunes:keywords>
     <itunes:owner>
+      <itunes:email>i.do.not@reveal.my.address.se</itunes:email>
       <itunes:name>Sigfrid Lundberg</itunes:name>
     </itunes:owner>
     <itunes:category text="Arts" >
@@ -102,6 +103,9 @@ $Revision$ last modified $Date$ by $Author$
 <!-- 
 
 $Log$
+Revision 1.8  2010/02/21 13:22:13  sigfrid
+added email to podcast
+
 Revision 1.7  2010/02/21 13:19:22  sigfrid
 is email necessary
 
