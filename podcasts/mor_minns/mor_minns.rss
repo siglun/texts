@@ -11,8 +11,8 @@ $Revision$ last modified $Date$ by $Author$
 -->
   <channel>
     <title>Mor minns</title>
-    <link  >http://sigfrid-lundberg.se/podcasts/mor_minns/mor_minns.xml</link>
-    <atom:link href="http://sigfrid-lundberg.se/podcasts/mor_minns/mor_minns.xml"
+    <link  >http://sigfrid-lundberg.se/podcasts/mor_minns/mor_minns.rss</link>
+    <atom:link href="http://sigfrid-lundberg.se/podcasts/mor_minns/mor_minns.rss"
 	       rel="self"/>
     <description>Syster Lundberg föddes den 27 februari 1913 och hon är min
     mor. Jag menar att hon är en helt fantastisk kvinna, med ett knivskarpt
@@ -29,7 +29,6 @@ $Revision$ last modified $Date$ by $Author$
     <itunes:subtitle>En 97 årig kvinnas minns</itunes:subtitle>
     <itunes:keywords>psalmer, dikter, hågkomster</itunes:keywords>
     <itunes:owner>
-      <itunes:email></itunes:email>
       <itunes:name>Sigfrid Lundberg</itunes:name>
     </itunes:owner>
     <itunes:category text="Arts" >
@@ -103,6 +102,9 @@ $Revision$ last modified $Date$ by $Author$
 <!-- 
 
 $Log$
+Revision 1.7  2010/02/21 13:19:22  sigfrid
+is email necessary
+
 Revision 1.6  2010/02/21 13:15:11  sigfrid
 added atom:link to the schema
 
