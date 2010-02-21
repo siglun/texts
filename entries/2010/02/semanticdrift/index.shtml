@@ -8,8 +8,8 @@
     <div>
 
       <div style="float:left;width:60%;margin:0.5em;">
-	<a href="/entries/2010/02/semanticdrift/graph.png">
-	  <img src="/entries/2010/02/semanticdrift/graph.png" style="width:100%;" alt="frequency occurrences of the term 'semantic drift'"/>
+	<a href="http://sigfrid-lundberg.se/entries/2010/02/semanticdrift/graph.png">
+	  <img src="http://sigfrid-lundberg.se/entries/2010/02/semanticdrift/graph.png" style="width:100%;" alt="frequency occurrences of the term 'semantic drift'"/>
 	</a>
 	<p><small>Fig. 1. The usage of the term <q>semantic drift</q> in web
 	documents. Note the logarithmic scale on the Y-axis: There is a
@@ -46,7 +46,7 @@
       Weibel 1995</a>.</p>
 
       <div style="float:right;width:180px;margin:0.5em;">
-	<img src="http://fsdata/2000/delft/dumb_down.gif" alt="dumb down" width="178px" height="238px"/>
+	<img src="http://sigfrid-lundberg.se/2000/delft/dumb_down.gif" alt="dumb down" width="178px" height="238px"/>
 	<p><small>Fig. 2. The so-called dumb down principle. The only way to
 	cope with the semantic diversity.</small></p>
       </div>
