@@ -43,14 +43,14 @@ $Revision$ last modified $Date$ by $Author$
       <title>Syster Lundberg: Mor minns</title>
     </image>
 
-    <lastBuildDate>Sun Feb 21 13:39:34 CET 2010</lastBuildDate>
+    <lastBuildDate>Sun, Feb 21 13:39:34 CET 2010</lastBuildDate>
     
     <item>
       <title>Här en källa rinner</title>
       <description><![CDATA[Sannolikt ur "Svensk söndagsskolsångbok för hem,
       skolor och barngudstjänster" <a
       href="http://runeberg.org/sondag/0086.html">Här en källa rinner</a>]]></description>
-      <pubDate>Sun Feb 21 13:39:34 CET 2010</pubDate>
+      <pubDate>Sun, Feb 21 13:39:34 CET 2010</pubDate>
       <link>http://sigfrid-lundberg.se/entries/2009/06/mor/</link>
       <guid>http://storage.sigfrid-lundberg.se/sound/dikten_haer_en_kaella_rinner.mp3</guid>
       <itunes:summary><![CDATA[Sannolikt ur "Svensk söndagsskolsångbok för hem,
@@ -68,7 +68,7 @@ $Revision$ last modified $Date$ by $Author$
       <title>Ny dag</title>
       <description><![CDATA[Dikten
 	<a href="http://www.ub.gu.se/kvinn/digtid/06/1934/hertha1934_4.pdf">Fåglarna som bådar gryningen flyger... </a> är en sång ur en kantat av Anita Nathorst (text) och Oskar Lindberg (musik), skriven till Fredrika Bremer Förbundets 50-årsfest 1934. Mor var med och sjöng den i kör någon gång på 60-talet.]]></description>
-      <pubDate>Sun Feb 21 13:39:34 CET 2010</pubDate>
+      <pubDate>Sun, Feb 21 13:39:34 CET 2010</pubDate>
       <link>http://sigfrid-lundberg.se/entries/2009/06/mor/</link>
       <guid>http://storage.sigfrid-lundberg.se/sound/dikten_faaglarna_flyger.mp3</guid>
       <itunes:summary><![CDATA[Dikten
@@ -85,7 +85,7 @@ $Revision$ last modified $Date$ by $Author$
     <item>
       <title>Var är den vän som överallt jag söker?</title>
       <description><![CDATA[Gamla hederlige Johan Olof Wallin <a href="http://runeberg.org/psalmbok/1932/0325.html">Svenska Psalmboken 481</a>]]></description>
-      <pubDate>Sun Feb 21 13:39:34 CET 2010</pubDate>
+      <pubDate>Sun, Feb 21 13:39:34 CET 2010</pubDate>
       <link>http://sigfrid-lundberg.se/entries/2009/06/mor/</link>
       <guid>http://storage.sigfrid-lundberg.se/sound/dikten_hur_skon.mp3</guid>
       <itunes:summary><![CDATA[Gamla hederlige Johan Olof Wallin <a href="http://runeberg.org/psalmbok/1932/0325.html">Svenska Psalmboken 481</a>]]></itunes:summary>
@@ -100,6 +100,9 @@ $Revision$ last modified $Date$ by $Author$
 <!-- 
 
 $Log$
+Revision 1.5  2010/02/21 12:57:38  sigfrid
+correcting the dates
+
 Revision 1.4  2010/02/21 12:53:50  sigfrid
 The categories should be taken from Apple's vocabulary
 
