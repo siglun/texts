@@ -1,9 +1,16 @@
 <?xml version="1.0" encoding="UTF-8" ?>
 <rss version="2.0" 
      xmlns:itunes="http://www.itunes.com/dtds/podcast-1.0.dtd">
+<!--
+
+Podcast om min mor
+Author: Sigfrid Lundberg
+$Revision$ last modified $Date$ by $Date$
+
+-->
   <channel>
     <title>Mor minns</title>
-    <link>http://sigfrid-lundberg.se/podcasts/mor_minns/mor_minns.xml</link>
+    <link  >http://sigfrid-lundberg.se/podcasts/mor_minns/mor_minns.xml</link>
     <description>Syster Lundberg föddes den 27 februari 1913 och hon är min
     mor. Jag menar att hon är en helt fantastisk kvinna, med ett knivskarpt
     intellekt. Hon fick aldrig gå mer än sju år i skolan som barn, men i
@@ -31,14 +38,14 @@
       <title>Syster Lundberg: Mor minns</title>
     </image>
 
-    <lastBuildDate>2010-02-21</lastBuildDate>
+    <lastBuildDate>Sun Feb 21 13:39:34 CET 2010</lastBuildDate>
     
     <item>
       <title>Här en källa rinner</title>
       <description><![CDATA[Sannolikt ur "Svensk söndagsskolsångbok för hem,
       skolor och barngudstjänster" <a
       href="http://runeberg.org/sondag/0086.html">Här en källa rinner</a>]]></description>
-      <pubDate>2010-02-21</pubDate>
+      <pubDate>Sun Feb 21 13:39:34 CET 2010</pubDate>
       <link>http://sigfrid-lundberg.se/entries/2009/06/mor/</link>
       <guid>http://storage.sigfrid-lundberg.se/sound/dikten_haer_en_kaella_rinner.mp3</guid>
       <itunes:summary><![CDATA[Sannolikt ur "Svensk söndagsskolsångbok för hem,
@@ -56,7 +63,7 @@
       <title>Ny dag</title>
       <description><![CDATA[Dikten
 	<a href="http://www.ub.gu.se/kvinn/digtid/06/1934/hertha1934_4.pdf">Fåglarna som bådar gryningen flyger... </a> är en sång ur en kantat av Anita Nathorst (text) och Oskar Lindberg (musik), skriven till Fredrika Bremer Förbundets 50-årsfest 1934. Mor var med och sjöng den i kör någon gång på 60-talet.]]></description>
-      <pubDate>2010-02-21</pubDate>
+      <pubDate>Sun Feb 21 13:39:34 CET 2010</pubDate>
       <link>http://sigfrid-lundberg.se/entries/2009/06/mor/</link>
       <guid>http://storage.sigfrid-lundberg.se/sound/dikten_faaglarna_flyger.mp3</guid>
       <itunes:summary><![CDATA[Dikten
@@ -73,7 +80,7 @@
     <item>
       <title>Var är den vän som överallt jag söker?</title>
       <description><![CDATA[Gamla hederlige Johan Olof Wallin <a href="http://runeberg.org/psalmbok/1932/0325.html">Svenska Psalmboken 481</a>]]></description>
-      <pubDate>2010-02-21</pubDate>
+      <pubDate>Sun Feb 21 13:39:34 CET 2010</pubDate>
       <link>http://sigfrid-lundberg.se/entries/2009/06/mor/</link>
       <guid>http://storage.sigfrid-lundberg.se/sound/dikten_hur_skon.mp3</guid>
       <itunes:summary><![CDATA[Gamla hederlige Johan Olof Wallin <a href="http://runeberg.org/psalmbok/1932/0325.html">Svenska Psalmboken 481</a>]]></itunes:summary>
@@ -85,7 +92,10 @@
 	  length="915435" />
 
     </item>
-    
+<!-- $Log$
+<!-- Revision 1.2  2010/02/21 12:42:56  sigfrid
+<!-- debugging
+<!-- -->    
 
   </channel>
 </rss>
