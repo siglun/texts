@@ -14,14 +14,15 @@
       the problems related to addressing on the Internet. I've written at
       length about <a href="http://sigfrid-lundberg.se/2003/urnar_och_digitala_bibliotek">URNs
       and digital libraries</a> and <a href="http://sigfrid-lundberg.se/entries/2009/08/cooluris/">Cool
-      URIs</a>. I'm going to continue to that, because there are people in the
-      library community who just fail to understand that the URN stuff is a
-      complete waste of time and money on something which is to little benefit
-      and in my view potentially harmful. Most recently it is the <a href="http://www.surffoundation.nl/wiki/display/persid/Partners">PersID
+      URIs</a>. I'm going to continue to do that, because there are people in
+      the library communities who just fail to understand that the URN stuff
+      is a complete waste of time and money on something which is to little
+      benefit and that may, in my view, be potentially harmful. Most recently
+      it is the <a href="http://www.surffoundation.nl/wiki/display/persid/Partners">PersID
       project</a>.</p>
 
-      <p>Please don't pull resources from scarce budgets in support for an
-      idea which which died six or seven years ago.</p>
+      <p><strong>Please don't pull resources from scarce library budgets in
+      support for an idea which died six or seven years ago!</strong></p>
 
       <h3>Single points of failure</h3>
 
@@ -76,10 +77,10 @@
       <p>Things have changed a lot since 1998. It was only Tim Berners-Lee and
       others in the working groups of w3.org and IETF that could forsee Web
       2.0 and Web 3.0. You can recognize many of the pioneers from the fact
-      that they usually claim that nothing has changed. An they're right,
-      nothing has changed since 1998, other than that peoples understanding of
-      what the web can do has gone from version 1.0 to 2.0 and is now on its
-      way to version 3.0.</p>
+      that they usually claim that nothing has changed. And they're right,
+      nothing technical has changed since 1998, other than that peoples
+      understanding of what can be achieved using the web can do has gone from
+      version 1.0 to 2.0 and is now on its way to version 3.0.</p>
 
       <p>Those who argue that we should go for URN:NBN have not understood.</p>
 
@@ -87,7 +88,8 @@
       version 0.9. I'm sorry.</p>
 
       <p><strong>In the web of data, the aspects of a resource that are worth
-      persistent identification is in the hand of its users.</strong></p>
+      persistent identification is in the hand of its users, since it is the
+      users who do the linking.</strong></p>
 
       <p>Why on earth should we assign a URN:NBN to Romeo &amp; Juliet, if the
       users want to quote the balcony scene?</p>

@@ -84,10 +84,10 @@
       <p>Things have changed a lot since 1998. It was only Tim Berners-Lee and
       others in the working groups of w3.org and IETF that could forsee Web
       2.0 and Web 3.0. You can recognize many of the pioneers from the fact
-      that they usually claim that nothing has changed. An they're right,
-      nothing has changed since 1998, other than that peoples understanding of
-      what the web can do has gone from version 1.0 to 2.0 and is now on its
-      way to version 3.0.</p>
+      that they usually claim that nothing has changed. And they're right,
+      nothing technical has changed since 1998, other than that peoples
+      understanding of what can be achieved using the web can do has gone from
+      version 1.0 to 2.0 and is now on its way to version 3.0.</p>
 
       <p>Those who argue that we should go for URN:NBN have not understood.</p>
 
@@ -95,7 +95,8 @@
       version 0.9. I'm sorry.</p>
 
       <p><strong>In the web of data, the aspects of a resource that are worth
-      persistent identification is in the hand of its users.</strong></p>
+      persistent identification is in the hand of its users, since it is the
+      users who do the linking.</strong></p>
 
       <p>Why on earth should we assign a URN:NBN to Romeo &amp; Juliet, if the
       users want to quote the balcony scene?</p>
