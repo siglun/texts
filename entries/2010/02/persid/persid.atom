@@ -1,29 +1,30 @@
-<div xmlns="http://www.w3.org/1999/xhtml">
-  <div>
-    <h1 style="font-family: sans-serif; width: 55%; float: left;text-align: left;">The URN:NBN is dead and resurrection is meaningless</h1>
-    <p style="width: 38%; float: left;text-align: right">
-      <em>
-        <strong>
-		Sigfrid Lundberg's Stuff,
-	      2010-02-23</strong>
-      </em>
-    </p>
-  </div>
-  <div style="clear:both;"> </div>
-  <div style="width:100%;">
-    <div>
+<?xml version="1.0" encoding="UTF-8"?>
+<entry xmlns="http://www.w3.org/2005/Atom" xmlns:dc="http://purl.org/dc/elements/1.1/">
+  <author>
+    <name>Sigfrid Lundberg</name>
+  </author>
+  <title>The URN:NBN is dead and resurrection is meaningless</title>
+  <link href="/entries/2010/02/persid/"/>
+  <summary>I'm one of those who try to base all decisions on facts. Politics
+  belong to the strategic field, and in that field the only thing I can offer
+  is advice.</summary>
+  <content type="xhtml">
+    <div xmlns="http://www.w3.org/1999/xhtml">
       <p>I'm one of those who try to base all decisions on facts. Politics
       belong to the strategic field, and in that field the only thing I can
       offer is advice.</p>
 
       <p>As a scientist and a software developer I've repeatedly considered
       the problems related to addressing on the internet. I've written at
-      leangth about <a href="http://sigfrid-lundberg.se/2003/urnar_och_digitala_bibliotek">URNs
-      and digital libraries</a> and <a href="http://sigfrid-lundberg.se/entries/2009/08/cooluris/">Cool
+      leangth about <a
+      href="http://sigfrid-lundberg.se/2003/urnar_och_digitala_bibliotek">URNs
+      and digital libraries</a> and <a
+      href="http://sigfrid-lundberg.se/entries/2009/08/cooluris/">Cool
       URIs</a>. I'm going to continue to that, because there are people in the
       library community who just fail to understand that the URN stuff is a
       complete waste of time and money on something which is to little benefit
-      and in my view potentially harmful. Most recently it is the <a href="http://www.surffoundation.nl/wiki/display/persid/Partners">PersID
+      and in my view potentially harmful. Most recently it is the <a
+      href="http://www.surffoundation.nl/wiki/display/persid/Partners">PersID
       project</a>.</p>
 
       <p>Please don't pull resources from scarce budgets in support for an
@@ -109,52 +110,10 @@
 
 
     </div>
-    <p style="text-align: left;"><em><strong>Categories:</strong></em> 
-	  <a href="/subjects/structuralwebdesign/">Structural web design</a>,
-	    <a href="/subjects/internet/">Internet</a><br/><em><strong>
-		Permalink:
-	      </strong></em><a rel="bookmark" href="/entries/2010/02/persid/">http://sigfrid-lundberg.se/entries/2010/02/persid/</a></p>
-    <hr width="50%" align="center"/>
-  </div>
-  <div>
-    <h1>Other, not yet obsolete stuff</h1>
-    <table class="news">
-      <tr>
-        <td class="left">2010</td>
-        <td class="left"><a href="/entries/2010/02/mor_minns/"><em>Podcast: Mor minns</em></a><br/>Min mor har tre år kvar till 100. Jag menar att hon är en helt
-  fantastisk kvinna, med ett knivskarpt intellekt. Hon fick aldrig gå mer än
-  sju år i skolan som barn, men i 60-årsåldern tog hon i princip
-  gymnasiekompetens. I denna serie läser hon dikter och berättar ur minnet
-  eftersom hon är nästan blind.<br/><a href="/subjects/essays/">Essays</a></td>
-      </tr>
-      <tr>
-        <td class="left">2010</td>
-        <td class="left"><a href="/entries/2010/02/semanticdrift/"><em>The proliferation of redundant meaning</em></a><br/>I first used the term semantic drift about 10 years ago. It was a
-  real danger then, it still is but the proliferation of synonymous
-  vocabularies is worse still.<br/><a href="/subjects/internet/">Internet</a>,
-	<a href="/subjects/metadata/">Metadata</a></td>
-      </tr>
-      <tr>
-        <td class="left">2010</td>
-        <td class="left"><a href="/entries/2010/02/ibooook/"><em>Amazon, Adobe &amp; Apple</em></a><br/>My attitude towards eBooks has always been negative. Why should we lock content into proprietary formats. The sitution has changed.<br/><a href="/subjects/internet/">Internet</a></td>
-      </tr>
-      <tr>
-        <td class="left">2010</td>
-        <td class="left"><a href="/entries/2010/01/crossroad/"><em>An Irish Stew</em></a><br/>Is Internet at a crossroad?<br/><a href="/subjects/internet/">Internet</a></td>
-      </tr>
-      <tr>
-        <td class="left">2010</td>
-        <td class="left"><a href="/entries/2010/01/dusk/"><em>Reflections on a Library at Dusk</em></a><br/>During my soon five years at The Royal Library, I've seen its
-  exterior in all kinds of weather conditions. Here I give you some images
-  showing the spectacular black granite fasade at dusk.<br/><a href="/subjects/essays/">Essays</a></td>
-      </tr>
-      <tr>
-        <td class="left">2009</td>
-        <td class="left"><a href="/entries/2009/07/commuting/"><em>On being an international commuter</em></a><br/>The last four years I've spent more than two hours a day on
-  trains. And usually, but not always less than three. Furthermore, I go from
-  one nation to another and participate in the in the digital dissemination of
-  cultural heritage of a country which isn't my own.<br/><a href="/subjects/essays/">Essays</a></td>
-      </tr>
-    </table>
-  </div>
-</div>
+  </content>
+  <dc:date>2010</dc:date>
+  <category label="structuralwebdesign" term="Structural web design"/>
+  <category label="internet" term="Internet"/>
+  <updated>2010-02-23T07:31:22+01:00</updated>
+  <id>http://www.sigfrid-lundberg.se/entries/2010/02/persid/</id>
+</entry>

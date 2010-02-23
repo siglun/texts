@@ -11,6 +11,121 @@
   <author>
     <name>Sigfrid Lundberg</name>
   </author>
+  <title>The URN:NBN is dead and resurrection is meaningless</title>
+  <link href="/entries/2010/02/persid/"/>
+  <summary>I'm one of those who try to base all decisions on facts. Politics
+  belong to the strategic field, and in that field the only thing I can offer
+  is advice.</summary>
+  <content type="xhtml">
+    <div xmlns="http://www.w3.org/1999/xhtml">
+      <p>I'm one of those who try to base all decisions on facts. Politics
+      belong to the strategic field, and in that field the only thing I can
+      offer is advice.</p>
+
+      <p>As a scientist and a software developer I've repeatedly considered
+      the problems related to addressing on the internet. I've written at
+      leangth about <a href="http://sigfrid-lundberg.se/2003/urnar_och_digitala_bibliotek">URNs
+      and digital libraries</a> and <a href="http://sigfrid-lundberg.se/entries/2009/08/cooluris/">Cool
+      URIs</a>. I'm going to continue to that, because there are people in the
+      library community who just fail to understand that the URN stuff is a
+      complete waste of time and money on something which is to little benefit
+      and in my view potentially harmful. Most recently it is the <a href="http://www.surffoundation.nl/wiki/display/persid/Partners">PersID
+      project</a>.</p>
+
+      <p>Please don't pull resources from scarce budgets in support for an
+      idea which which died six or seven years ago.</p>
+
+      <h3>Single points of failure</h3>
+
+      <p>The success of internet is due to the fact that there are very few
+      single points of failure. The same is true for the Worldwide web and the
+      protocols that support it. The URN:NBN systems require HTTP based
+      resolution servieces. <strong>That introduces such single points of
+      failures.</strong></p>
+
+      <h3>URN:NBN systems are lying</h3>
+
+      <p>The <strong>H</strong>yper<strong>T</strong>ext
+      <strong>T</strong>ransfer <strong>P</strong>rotocol provide means for
+      servers to inform software clients that a resource has been moved. This
+      is called redirection and comes in two shapes: Moved permanently and
+      Moved temporarily. The redirects should be used for exactly what the
+      protocol says. Anything else is abuse of the intention of the
+      protocol.</p>
+
+      <p>Unfortunately redirects is the perhaps most abused part of the HTTP
+      protocol, and URN:NBN resolvers and similar systems are the worst
+      culprits. They are permanently sending temporary redirects. <strong>That
+      is, they are lying.</strong></p>
+
+      <h3>It is always best to tell the truth</h3>
+
+      <blockquote cite="http://www.w3.org/Provider/Style/URI">
+	What makes a cool URI?<br/>
+	A cool URI is one which does not change.<br/>
+	What sorts of URI change?<br/>
+	<em>URIs don't change: people change them.</em>
+      </blockquote>
+
+      <p>wrote <a href="http://www.w3.org/Provider/Style/URI">Tim
+      Berners-Lee</a> 1998. He knows what he's talking about, because he
+      actually invented the Worldwide web.</p>
+
+      <p>The take-home message of his essay is that if you have things you
+      care of, you should assign URIs to them that are such that you will be
+      able to maintain for years to come.</p>
+
+      <p><strong>If you change the URI, then you don't care enough.</strong>
+      And you have definitely not put enough intellectual effort into the
+      dissemination of your resources. To put it another way: You have not
+      considered the fact that your URI structure is a part your application
+      and essential to the reusability of your date. To invent a special
+      infrastructure, such as URN:NBN for this is to hide away these basic
+      facts.</p>
+
+      <h3>The interactive semantic web requires cool URIs</h3>
+
+      <p>Things have changed a lot since 1998. It was only Tim Berners-Lee and
+      others in the working groups of w3.org and IETF that could forsee Web
+      2.0 and Web 3.0. You can recognize many of the pioneers from the fact
+      that they usually claim that nothing has changed. An they're right,
+      nothing has changed since 1998, other than that peoples understanding of
+      what the web can do has gone from version 1.0 to 2.0 and is now on its
+      way to version 3.0.</p>
+
+      <p>Those who argue that we should go for URN:NBN have not understood.</p>
+
+      <p>As a matter of fact, I'd say that they never understood the release
+      version 0.9. I'm sorry.</p>
+
+      <p><strong>In the web of data, the aspects of a resource that are worth
+      persistent identification is in the hand of its users.</strong></p>
+
+      <p>Why on earth should we assign a URN:NBN to Romeo &amp; Juliet, if the
+      users wan't to quote the balcony scene?</p>
+
+      <p>Why on earth should you assign a URN:NBN to an article, when I want
+      to address Figure 3?</p>
+
+      <p>User annotation need a persistant annotation anchor, and that could
+      be a part of an image.</p>
+
+      <p>Yes, we need persistence. But please, not technology advised by
+      people who never understood web 0.9</p>
+
+
+    </div>
+  </content>
+  <dc:date>2010</dc:date>
+  <category label="structuralwebdesign" term="Structural web design"/>
+  <category label="internet" term="Internet"/>
+  <updated>2010-02-23T07:31:22+01:00</updated>
+  <id>http://www.sigfrid-lundberg.se/entries/2010/02/persid/</id>
+</entry>
+  <entry>
+  <author>
+    <name>Sigfrid Lundberg</name>
+  </author>
   <title>Podcast: Mor minns</title>
   <link href="/entries/2010/02/mor_minns/"/>
   <summary>Min mor har tre år kvar till 100. Jag menar att hon är en helt
