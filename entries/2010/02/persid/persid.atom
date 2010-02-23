@@ -15,8 +15,8 @@
       offer is advice.</p>
 
       <p>As a scientist and a software developer I've repeatedly considered
-      the problems related to addressing on the internet. I've written at
-      leangth about <a
+      the problems related to addressing on the Internet. I've written at
+      length about <a
       href="http://sigfrid-lundberg.se/2003/urnar_och_digitala_bibliotek">URNs
       and digital libraries</a> and <a
       href="http://sigfrid-lundberg.se/entries/2009/08/cooluris/">Cool
@@ -32,10 +32,10 @@
 
       <h3>Single points of failure</h3>
 
-      <p>The success of internet is due to the fact that there are very few
+      <p>The success of Internet is due to the fact that there are very few
       single points of failure. The same is true for the Worldwide web and the
       protocols that support it. The URN:NBN systems require HTTP based
-      resolution servieces. <strong>That introduces such single points of
+      resolution services. <strong>That introduces such single points of
       failures.</strong></p>
 
       <h3>URN:NBN systems are lying</h3>
@@ -97,12 +97,12 @@
       persistent identification is in the hand of its users.</strong></p>
 
       <p>Why on earth should we assign a URN:NBN to Romeo &amp; Juliet, if the
-      users wan't to quote the balcony scene?</p>
+      users want to quote the balcony scene?</p>
 
       <p>Why on earth should you assign a URN:NBN to an article, when I want
       to address Figure 3?</p>
 
-      <p>User annotation need a persistant annotation anchor, and that could
+      <p>User annotation need a persistent annotation anchor, and that could
       be a part of an image.</p>
 
       <p>Yes, we need persistence. But please, not technology advised by
@@ -116,4 +116,5 @@
   <category label="internet" term="Internet"/>
   <updated>2010-02-23T07:31:22+01:00</updated>
   <id>http://www.sigfrid-lundberg.se/entries/2010/02/persid/</id>
+  <!-- $Id$ -->
 </entry>
