@@ -24,6 +24,10 @@
 	  title="Sigfrid Lundberg's Stuff"
 	  rel="alternate"/>
 
+    <link rel="stylesheet" 
+	  href="http://www.google.com/cse/style/look/default.css" 
+	  type="text/css" />
+
     <link href="http://sigfridlundbergsstuff.disqus.com/latest.rss"
 	  type="application/rss+xml"
 	  title="Latest Comments"
@@ -81,6 +85,20 @@
     </div>
 
     <div class="right_box">
+
+      
+      <div id="cse" style="width: 45%;">Loading</div>
+      <script src="http://www.google.com/jsapi" type="text/javascript"></script>
+      <script type="text/javascript">
+	google.load('search', '1', {language : 'en'});
+	google.setOnLoadCallback(function(){
+	var customSearchControl =
+	new google.search.CustomSearchControl('014822456156750504894:ajwd07-5i_k');
+	customSearchControl.setResultSetSize(google.search.Search.FILTERED_CSE_RESULTSET);
+	customSearchControl.draw('cse');
+	}, true);
+      </script>
+
 
       <?php
 	$file = "./news.xml";
