@@ -6,7 +6,7 @@
   <title>Sigfrid Lundberg's Stuff</title>
   <id>http://sigfrid-lundberg.se/files.atom</id>
   <link rel="self" href="http://feeds.feedburner.com/SigfridLundbergsStuff?format=xml"/>
-  <updated>2010-02-25T07:07:57+01:00</updated>
+  <updated>2010-02-25T18:37:29+01:00</updated>
   <entry>
   <author>
     <name>Sigfrid Lundberg</name>
@@ -95,7 +95,7 @@
   <dc:date>2010</dc:date>
   <category label="structuralwebdesign" term="Structural web design"/>
   <category label="internet" term="Internet"/>
-  <updated>2010-02-25T07:07:57+01:00</updated>
+  <updated>2010-02-25T18:37:29+01:00</updated>
   <id>http://www.sigfrid-lundberg.se/entries/2010/02/youdontneed/</id>
 
   <!-- $Id$ -->
