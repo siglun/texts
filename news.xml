@@ -1,126 +1,98 @@
 <div xmlns="http://www.w3.org/1999/xhtml">
   <div>
-    <h1 style="font-family: sans-serif; width: 55%; float: left;text-align: left;">The URN:NBN is dead and resurrection is meaningless</h1>
+    <h1 style="font-family: sans-serif; width: 55%; float: left;text-align: left;">Why you need a persistence strategy</h1>
     <p style="width: 38%; float: left;text-align: right">
       <em>
         <strong>
 		Sigfrid Lundberg's Stuff,
-	      2010-02-23</strong>
+	      2010-02-25</strong>
       </em>
     </p>
   </div>
   <div style="clear:both;"> </div>
   <div style="width:100%;">
     <div>
-      <p>I'm one of those who try to base all decisions on facts. Politics
-      belong to the strategic field, and in that field the only thing I can
-      offer is advice.</p>
 
-      <p>As a scientist and a software developer I've repeatedly considered
-      the problems related to addressing on the Internet. I've written at
-      length about <a href="http://sigfrid-lundberg.se/2003/urnar_och_digitala_bibliotek">URNs
-      and digital libraries</a> and <a href="http://sigfrid-lundberg.se/entries/2009/08/cooluris/">Cool
-      URIs</a>. I'm going to continue to do that, because there are people in
-      the library communities who just fail to understand that the URN stuff
-      is a complete waste of time and money on something which is to little
-      benefit and that may, in my view, be potentially harmful. Most recently
-      it is the <a href="http://www.surffoundation.nl/wiki/display/persid/Partners">PersID
-      project</a>.</p>
+      <p>Alma Mater (the university that saw me mature from a teenager to a Ph
+      D) has a web site. It used to implement a graphical profile which stated
+      that links should be listed at the end of a document. The documentation
+      actually also claimed that hypertext links inside text bodies was poor
+      usability. This is just plain bullshit. The hypertext link is the the
+      single thing that makes the Worldwide web to a web. If some usability
+      expert dislikes Wikipedia I bet it isn't because of all the hypertext
+      links.</p>
 
-      <p><strong>Please don't pull resources from scarce library budgets in
-      support for an idea which died six or seven years ago!</strong></p>
+      <p>Libraries have over the centuries provided experiences and
+      information. Scholars have read and <a href="http://sigfrid-lundberg.se/entries/2009/08/quotations/">quoted the
+      material we offer</a>. This has changed. <strong>Today the most
+      important challenge for libraries today is to provide anchors for
+      hypertext links.</strong></p>
 
-      <h3>Single points of failure</h3>
+      <p>Libraries who think that when they're done when they've solved the
+      problem of efficient document delivery belong to the past. You have to
+      provide means for patrons to link the a arbitrary anchor in hypertexts or to
+      polygons in images or a time segments in video recordings.</p>
 
-      <p>The success of Internet is due to the fact that there are very few
-      single points of failure. The same is true for the Worldwide web and the
-      protocols that support it. The URN:NBN systems require HTTP based
-      resolution services. <strong>That introduces such single points of
-      failures.</strong></p>
+      <p>Document delivery is important. You cannot use documents if they're
+      not delivered, and neither can you create arbitrary hypertext
+      links. However, it is the fact that you're not done when your patron has
+      the document which is the single most important reason why URN:NBN, DOI
+      or HANDLEs doesn't work.</p>
 
-      <h3>URN:NBN systems are lying</h3>
+      <p>It isn't you who should link to your documents. It's your users who
+      should do that, and if they want to link to page five, they should be
+      able to do so, and the link created should be as persistent as any ISBN
+      and hopefully more correct.</p>
 
-      <p>The <strong>H</strong>yper<strong>T</strong>ext
-      <strong>T</strong>ransfer <strong>P</strong>rotocol provide means for
-      servers to inform software clients that a resource has been moved. This
-      is called redirection and comes in two shapes: Moved permanently and
-      Moved temporarily. The redirects should be used for exactly what the
-      protocol says. Anything else is abuse of the intention of the
-      protocol.</p>
+      <p>And then. If you're not convinced</p>
 
-      <p>Unfortunately redirects is the perhaps most abused part of the HTTP
-      protocol, and URN:NBN resolvers and similar systems are the worst
-      culprits. They are permanently sending temporary redirects. <strong>That
-      is, they are lying.</strong></p>
+      <h3>1. I need PID to connect documents to archived copies</h3>
 
-      <h3>It is always best to tell the truth</h3>
+      <p>The problem is that people don't use PIDs in their texts, since they
+      never see them. When you remove your original hypertext anchor many of
+      your digital patrons links will rot.</p>
 
-      <blockquote cite="http://www.w3.org/Provider/Style/URI">
-	What makes a cool URI?<br/>
-	A cool URI is one which does not change.<br/>
-	What sorts of URI change?<br/>
-	<em>URIs don't change: people change them.</em>
-      </blockquote>
+      <p>The truth is that you don't need to. If you use HTTP as intended and
+      redirect your users when moving documents to the archived they will
+      never suffer.</p>
 
-      <p>wrote <a href="http://www.w3.org/Provider/Style/URI">Tim
-      Berners-Lee</a> 1998. He knows what he's talking about, because he
-      actually invented the Worldwide web.</p>
+      <h3>2. The DOI system is very good. It works</h3>
 
-      <p>The take-home message of his essay is that if you have things you
-      care of, you should assign URIs to them that are such that you will be
-      able to maintain for years to come.</p>
+      <p>Yes, it works but it is no good. It is as bad as any other redirect
+      based PID system. But it works, and that is because the consortium
+      forces its members to care about links. That is very good, but the DOI
+      system isn't.</p>
 
-      <p><strong>If you change the URI, then you don't care enough.</strong>
-      And you have definitely not put enough intellectual effort into the
-      dissemination of your resources. To put it another way: You have not
-      considered the fact that your URI structure is a part your application
-      and essential to the reusability of your date. To invent a special
-      infrastructure, such as URN:NBN for this is to hide away these basic
-      facts.</p>
+      <p>The truth is that you don't need DOIs for that. You need a link
+      management policy.</p>
 
-      <h3>The interactive semantic web requires cool URIs</h3>
+      <h3>3. PID's work when people change their domains. Cool URIs don't</h3>
 
-      <p>Things have changed a lot since 1998. It was only Tim Berners-Lee and
-      others in the working groups of w3.org and IETF that could forsee Web
-      2.0 and Web 3.0. You can recognize many of the pioneers from the fact
-      that they usually claim that nothing has changed. And they're right,
-      nothing technical has changed since 1998, other than that peoples
-      understanding of what can be achieved using the web can do has gone from
-      version 1.0 to 2.0 and is now on its way to version 3.0.</p>
+      <p>Not really. Since people don't use PIDs in their documents, this
+      doesn't help here either -- see point 1. above.</p>
 
-      <p>Those who argue that we should go for URN:NBN have not understood.</p>
-
-      <p>As a matter of fact, I'd say that they never understood the release
-      version 0.9. I'm sorry.</p>
-
-      <p><strong>In the web of data, the aspects of a resource that are worth
-      persistent identification is in the hand of its users, since it is the
-      users who do the linking.</strong></p>
-
-      <p>Why on earth should we assign a URN:NBN to Romeo &amp; Juliet, if the
-      users want to quote the balcony scene?</p>
-
-      <p>Why on earth should you assign a URN:NBN to an article, when I want
-      to address Figure 3?</p>
-
-      <p>User annotation need a persistent annotation anchor, and that could
-      be a part of an image.</p>
-
-      <p>Yes, we need persistence. But please, not technology advised by
-      people who never understood web 0.9</p>
-
+      <p>The truth is that you don't need to change your domain. And if you
+      do, use redirects. If you leave your domain, you'll regret it. Someone
+      will buy it for selling porn or something. Believe me.</p>
 
     </div>
     <p style="text-align: left;"><em><strong>Categories:</strong></em> 
 	  <a href="/subjects/structuralwebdesign/">Structural web design</a>,
 	    <a href="/subjects/internet/">Internet</a><br/><em><strong>
 		Permalink:
-	      </strong></em><a rel="bookmark" href="/entries/2010/02/persid/">http://sigfrid-lundberg.se/entries/2010/02/persid/</a></p>
+	      </strong></em><a rel="bookmark" href="/entries/2010/02/youdontneed/">http://sigfrid-lundberg.se/entries/2010/02/youdontneed/</a></p>
     <hr width="50%" align="center"/>
   </div>
   <div>
     <h1>Other, not yet obsolete stuff</h1>
     <table class="news">
+      <tr>
+        <td class="left">2010</td>
+        <td class="left"><a href="/entries/2010/02/persid/"><em>The URN:NBN is dead and resurrection is meaningless</em></a><br/>I'm one of those who try to base all decisions on facts. Politics
+  belong to the strategic field, and in that field the only thing I can offer
+  is advice.<br/><a href="/subjects/structuralwebdesign/">Structural web design</a>,
+	<a href="/subjects/internet/">Internet</a></td>
+      </tr>
       <tr>
         <td class="left">2010</td>
         <td class="left"><a href="/entries/2010/02/mor_minns/"><em>Podcast: Mor minns</em></a><br/>Min mor har tre år kvar till 100. Jag menar att hon är en helt
@@ -149,13 +121,6 @@
         <td class="left"><a href="/entries/2010/01/dusk/"><em>Reflections on a Library at Dusk</em></a><br/>During my soon five years at The Royal Library, I've seen its
   exterior in all kinds of weather conditions. Here I give you some images
   showing the spectacular black granite fasade at dusk.<br/><a href="/subjects/essays/">Essays</a></td>
-      </tr>
-      <tr>
-        <td class="left">2009</td>
-        <td class="left"><a href="/entries/2009/07/commuting/"><em>On being an international commuter</em></a><br/>The last four years I've spent more than two hours a day on
-  trains. And usually, but not always less than three. Furthermore, I go from
-  one nation to another and participate in the in the digital dissemination of
-  cultural heritage of a country which isn't my own.<br/><a href="/subjects/essays/">Essays</a></td>
       </tr>
     </table>
   </div>
