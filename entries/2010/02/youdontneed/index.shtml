@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<html xmlns="http://www.w3.org/1999/xhtml" xmlns:addthis="http://www.addthis.com/help/api-spec"><head><title>Why you need a persistence strategy: 
+	  Sigfrid Lundberg's Stuff
+	</title><link href="http://feeds.feedburner.com/SigfridLundbergsStuff?format=xml" type="application/atom+xml" title="Sigfrid Lundberg's Stuff" rel="alternate"/><link href="http://sigfridlundbergsstuff.disqus.com/latest.rss" type="application/rss+xml" title="Latest Comments" rel="alternate"/><meta http-equiv="Content-Type" content="text/html;charset=UTF-8"/><script src="/js/navigation.js" type="text/javascript"> 
+	  </script><meta http-equiv="Content-Type" content="text/html;charset=UTF-8"/><link rel="stylesheet" href="/css-style/html.css"/></head><body><div class="left_box"><div style="text-align:left;width=90%;"><!--#include virtual="/div_top_left_box.xml" --></div><div style="text-align:left;width=90%;"><p><a href="/">Home</a><br/><a href="http://feeds.feedburner.com/SigfridLundbergsStuff?format=xml" type="application/atom+xml" class="feed-link"><img src="/images/Newsfeed-Atom.png" alt="Subscribe to Stuff from Sigfrid Lundberg" border="0"/>Subscribe to my stuff</a><br/><a href="http://sigfridlundbergsstuff.disqus.com/latest.rss" type="application/rss+xml" class="feed-link"><img src="/images/Newsfeed-Atom.png" alt="Subscribe to Stuff from Sigfrid Lundberg" border="0"/>Subscribe to discussion feed</a></p><!--#include virtual="/subjects.xml" --><!--#include virtual="/me.xml" --></div></div><div class="right_box"><h1 style="font-family: sans-serif; width: 55%; float: left;text-align: left;">Why you need a persistence strategy</h1><p style="width: 38%; float: left;text-align: right"><em><strong>Sigfrid Lundberg's Stuff 2010-02-25</strong></em><br/><br/><a class="addthis_button" addthis:title="Why you need a persistence strategy" addthis:url="http://sigfrid-lundberg.se/entries/2010/02/youdontneed/" href="http://www.addthis.com/bookmark.php?v=250&amp;pub=siggelundberg"><img src="http://s7.addthis.com/static/btn/v2/lg-share-en.gif" width="125" height="16" alt="Bookmark and Share" style="border:0"/></a><script type="text/javascript" src="http://s7.addthis.com/js/250/addthis_widget.js?pub=siggelundberg">
+		</script></p><div style="clear:both">
+	    </div>
+    <div>
+
+      <p>Alma Mater (the university that saw me mature from a teenager to a Ph
+      D) has a web site. It used to implement a graphical profile which stated
+      that links should be listed at the end of a document. The documentation
+      actually also claimed that hypertext links inside text bodies was poor
+      usability. This is just plain bullshit. The hypertext link is the the
+      single thing that makes the Worldwide web to a web. If some usability
+      expert dislikes Wikipedia I bet it isn't because of all the hypertext
+      links.</p>
+
+      <p>Libraries have over the centuries provided experiences and
+      information. Scholars have read and <a href="http://sigfrid-lundberg.se/entries/2009/08/quotations/">quoted the
+      material we offer</a>. This has changed. <strong>Today the most
+      important challenge for libraries today is to provide anchors for
+      hypertext links.</strong></p>
+
+      <p>Libraries who think that when they're done when they've solved the
+      problem of efficient document delivery belong to the past. You have to
+      provide means for patrons to link the a arbitrary anchor in hypertexts or to
+      polygons in images or a time segments in video recordings.</p>
+
+      <p>Document delivery is important. You cannot use documents if they're
+      not delivered, and neither can you create arbitrary hypertext
+      links. However, it is the fact that you're not done when your patron has
+      the document which is the single most important reason why URN:NBN, DOI
+      or HANDLEs doesn't work.</p>
+
+      <p>It isn't you who should link to your documents. It's your users who
+      should do that, and if they want to link to page five, they should be
+      able to do so, and the link created should be as persistent as any ISBN
+      and hopefully more correct.</p>
+
+      <p>And then. If you're not convinced</p>
+
+      <h3>1. I need PID to connect documents to archived copies</h3>
+
+      <p>The problem is that people don't use PIDs in their texts, since they
+      never see them. When you remove your original hypertext anchor many of
+      your digital patrons links will rot.</p>
+
+      <p>The truth is that you don't need to. If you use HTTP as intended and
+      redirect your users when moving documents to the archived they will
+      never suffer.</p>
+
+      <h3>2. The DOI system is very good. It works</h3>
+
+      <p>Yes, it works but it is no good. It is as bad as any other redirect
+      based PID system. But it works, and that is because the consortium
+      forces its members to care about links. That is very good, but the DOI
+      system isn't.</p>
+
+      <p>The truth is that you don't need DOIs for that. You need a link
+      management policy.</p>
+
+      <h3>3. PID's work when people change their domains. Cool URIs don't</h3>
+
+      <p>Not really. Since people don't use PIDs in their documents, this
+      doesn't help here either -- see point 1. above.</p>
+
+      <p>The truth is that you don't need to change your domain. And if you
+      do, use redirects. If you leave your domain, you'll regret it. Someone
+      will buy it for selling porn or something. Believe me.</p>
+
+    </div>
+  <div style="clear:both"> 
+	    </div><div id="disqus_thread">
+	    </div><p style="margin-left:+1%;"><a href="http://disqus.com" class="dsq-brlink">blog comments powered
+	    by <span class="logo-disqus">Disqus</span></a></p></div><script type="text/javascript" src="http://disqus.com/forums/sigfridlundbergsstuff/embed.js">
+	  </script><noscript><a href="http://sigfridlundbergsstuff.disqus.com/?url=http://sigfrid-lundberg.se/entries/2010/02/youdontneed/">
+	      View the discussion thread
+	  </a></noscript><script type="text/javascript">//<!--
+	  (function() {
+	      var links = document.getElementsByTagName('a');
+	      var query = '?';
+	      for(var i = 0; i < links.length; i++) {
+		  if(links[i].href.indexOf('#disqus_thread') >= 0) {
+		      query += 'url' + i + '=' + encodeURIComponent(links[i].href) + '&';
+		  }
+	      }
+	      document.write('<script charset="utf-8" type="text/javascript" src="http://disqus.com/forums/sigfridlundbergsstuff/get_num_replies.js' + query + '"></' + 'script>');
+	  })();
+	  //--></script><!--#include virtual="/js/urchin.js" --></body></html>
