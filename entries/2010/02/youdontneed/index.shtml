@@ -9,12 +9,12 @@
 
       <p>Alma Mater (the university that saw me mature from a teenager to a Ph
       D) has a web site. It used to implement a graphical profile which stated
-      that links should be listed at the end of a document. The documentation
-      actually also claimed that hypertext links inside text bodies was poor
-      usability. This is just plain bullshit. The hypertext link is the the
-      single thing that makes the Worldwide web to a web. If some usability
-      expert dislikes Wikipedia I bet it isn't because of all the hypertext
-      links.</p>
+      that all links should be listed at the end of a document. The
+      documentation actually also claimed that hypertext links inside text
+      bodies was poor usability. This is just plain bullshit. The hypertext
+      link is the the single thing that makes the Worldwide web to a web. If
+      some usability expert dislikes Wikipedia I bet it isn't because of all
+      the hypertext links.</p>
 
       <p>Libraries have over the centuries provided experiences and
       information. Scholars have read and <a href="http://sigfrid-lundberg.se/entries/2009/08/quotations/">quoted the
@@ -22,40 +22,43 @@
       important challenge for libraries today is to provide anchors for
       hypertext links.</strong></p>
 
-      <p>Libraries who think that when they're done when they've solved the
-      problem of efficient document delivery belong to the past. You have to
-      provide means for patrons to link the a arbitrary anchor in hypertexts or to
-      polygons in images or a time segments in video recordings.</p>
+      <p>Libraries who think that mission is accomplished when they've solved
+      the problem of efficient document delivery belong to the past. You have
+      to provide means for patrons to link to the arbitrary anchors in
+      hypertexts, to polygons in images or time segments in video
+      recordings.</p>
 
-      <p>Document delivery is important. You cannot use documents if they're
-      not delivered, and neither can you create arbitrary hypertext
-      links. However, it is the fact that you're not done when your patron has
-      the document which is the single most important reason why URN:NBN, DOI
-      or HANDLEs doesn't work.</p>
+      <p>Document delivery is important. You cannot use documents unless they
+      are not delivered. Neither can you create arbitrary hypertext links into
+      it. However, it is the fact that you are not done when your patron has
+      the document in his or her browser which is the single most important
+      reason why URN:NBN, DOI or HANDLEs are obsolete.</p>
 
-      <p>It isn't you who should link to your documents. It's your users who
-      should do that, and if they want to link to page five, they should be
-      able to do so, and the link created should be as persistent as any ISBN
-      and hopefully more correct.</p>
+      <p>It isn't you who should link to your documents. It is the library
+      patrons who should do that. If they want to link to page five, they
+      should be able to do so, and the link created should be as persistent as
+      any German URN:NBN.</p>
 
-      <p>And then. If you're not convinced</p>
+      <p>And then. If you're not convinced:</p>
 
       <h3>1. I need PID to connect documents to archived copies</h3>
 
       <p>The problem is that people don't use PIDs in their texts, since they
-      never see them. When you remove your original hypertext anchor many of
-      your digital patrons links will rot.</p>
+      never see them. They follow links, are redirected by the resolver and
+      link to what they get. When you remove your original hypertext anchor,
+      many of your digital patrons links will rot.</p>
 
-      <p>The truth is that you don't need to. If you use HTTP as intended and
-      redirect your users when moving documents to the archived they will
-      never suffer.</p>
+      <p>The truth is that you don't need to use PIDs for this. If you use
+      HTTP as intended you redirect your users when moving documents to the
+      archive. Users will never suffer. If you use PIDs they'll experience the
+      404.</p>
 
       <h3>2. The DOI system is very good. It works</h3>
 
-      <p>Yes, it works but it is no good. It is as bad as any other redirect
-      based PID system. But it works, and that is because the consortium
-      forces its members to care about links. That is very good, but the DOI
-      system isn't.</p>
+      <p>Yes, it works but it is not good. It is as bad as any other redirect
+      based PID system. It works though, but that is because the consortium
+      forces its members to care about links. That is very
+      <strong>good</strong>, but the DOI system isn't.</p>
 
       <p>The truth is that you don't need DOIs for that. You need a link
       management policy.</p>
@@ -63,11 +66,15 @@
       <h3>3. PID's work when people change their domains. Cool URIs don't</h3>
 
       <p>Not really. Since people don't use PIDs in their documents, this
-      doesn't help here either -- see point 1. above.</p>
+      doesn't help here either -- see point 1 above.</p>
 
-      <p>The truth is that you don't need to change your domain. And if you
-      do, use redirects. If you leave your domain, you'll regret it. Someone
-      will buy it for selling porn or something. Believe me.</p>
+      <p>The truth is that you should not change your domain. It is not
+      regarded good practice among people who care about content. However, if
+      you have to, use redirects (Moved permanently, status 301).</p>
+
+      <p>If you have to change, keep the old one for a very long time. Someone
+      may buy using your brand for selling porn or something else you don't
+      approve.</p>
 
     </div>
   <div style="clear:both"> 
