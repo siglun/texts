@@ -1,0 +1,119 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<html xmlns="http://www.w3.org/1999/xhtml" xmlns:addthis="http://www.addthis.com/help/api-spec"><head><title>A form with a join: 
+	  Sigfrid Lundberg's Stuff
+	</title><link href="http://feeds.feedburner.com/SigfridLundbergsStuff?format=xml" type="application/atom+xml" title="Sigfrid Lundberg's Stuff" rel="alternate"/><link href="http://sigfridlundbergsstuff.disqus.com/latest.rss" type="application/rss+xml" title="Latest Comments" rel="alternate"/><meta http-equiv="Content-Type" content="text/html;charset=UTF-8"/><script src="/js/navigation.js" type="text/javascript"> 
+	  </script><script type="text/javascript">
+	      var disqus_developer=1;
+	    </script><meta http-equiv="Content-Type" content="text/html;charset=UTF-8"/><link rel="stylesheet" href="/css-style/html.css"/></head><body><div class="left_box"><div style="text-align:left;width=90%;"><!--#include virtual="/div_top_left_box.xml" --></div><div style="text-align:left;width=90%;"><p><a href="/">Home</a><br/><a href="http://feeds.feedburner.com/SigfridLundbergsStuff?format=xml" type="application/atom+xml" class="feed-link"><img src="/images/Newsfeed-Atom.png" alt="Subscribe to Stuff from Sigfrid Lundberg" border="0"/>Subscribe to my stuff</a><br/><a href="http://sigfridlundbergsstuff.disqus.com/latest.rss" type="application/rss+xml" class="feed-link"><img src="/images/Newsfeed-Atom.png" alt="Subscribe to Stuff from Sigfrid Lundberg" border="0"/>Subscribe to discussion feed</a></p><!--#include virtual="/subjects.xml" --><!--#include virtual="/me.xml" --></div></div><div class="right_box"><h1 style="font-family: sans-serif; width: 55%; float: left;text-align: left;">A form with a join</h1><p style="width: 38%; float: left;text-align: right"><em><strong>Sigfrid Lundberg's Stuff 2010-03-05</strong></em><br/><br/><a class="addthis_button" addthis:title="A form with a join" addthis:url="http://sigfrid-lundberg.se/entries/2010/03/aformwithajoin/" href="http://www.addthis.com/bookmark.php?v=250&amp;pub=siggelundberg"><img src="http://s7.addthis.com/static/btn/v2/lg-share-en.gif" width="125" height="16" alt="Bookmark and Share" style="border:0"/></a><script type="text/javascript" src="http://s7.addthis.com/js/250/addthis_widget.js?pub=siggelundberg">
+		</script></p><div style="clear:both">
+	    </div>
+    <div>
+
+      <p>A <strong>form</strong> is a document that can be used for the entry
+      of data. A join is a construct in query languages such SQL. A
+      <strong>join</strong> allows you to lookup data in one part of a
+      database based on a query in an other part. Joins are very general, and
+      may appear in other contexts. Such as XQuery, XSLT and XML forms
+      language, XForms. I've recently written my first extensive application
+      in that language.</p>
+
+      <p>Having worked with XML processing for more than ten years, I'd say
+      that I thought that I would easily be able to relate to a new XML
+      technology by extrapolating from my earlier experiences. This has
+      hitherto been the case. For instance, learning Xerces in java when I've
+      used dom4j in java and XML::LibXML in perl was i piece of cake. If
+      you've used venerable Expat callback based parser, the idea behind SAX
+      or Stream API for XML (StaX) are quite obvious.</p>
+
+      <p>One could expect that if you know XML technologies and HTML forms you
+      would easily grasp XForms. Having realised that this wasn't the case I
+      thought that having learned XPath and XSLT I would easily grasp
+      XForms. That was true, but only partly. A small part.</p>
+
+      <h3>UI and Events</h3>
+
+      <p>An XForm script, just as an XSLT one, can read XML documents and act
+      upon them. The result is very different. XSLT generates another
+      document, usually an XML one. The XForm generates a form, a graphical
+      user interface. And it is usually one that can be used for editing
+      XML. A user interface is event driven, an there are a whole lot of <a href="http://en.wikipedia.org/wiki/DOM_events">events to keep track
+      of</a>.</p>
+
+      <p>What is a brilliant feature in XSLT might not work at all in a GUI,
+      so if you're a lover of the functional programming style recursive
+      processing in XSLT you'll be disappointed. XForms isn't XML transformed
+      into forms, it is language for writing GUIs for XML.</p>
+
+      <div style="float: right; width:50%;">
+      <pre>
+&lt;data&gt; 
+  &lt;lookup&gt;
+    &lt;values xml:id="id1"&gt;
+      &lt;value&gt;one a&lt;/value&gt;
+      &lt;value&gt;one b&lt;/value&gt;
+      &lt;value&gt;one c&lt;/value&gt; 
+    &lt;/values&gt;
+    &lt;values xml:id="id2"&gt; 
+      &lt;value&gt;two a&lt;/value&gt;
+      &lt;value&gt;two b&lt;/value&gt; 
+      &lt;value&gt;two c&lt;/value&gt;
+    &lt;/values&gt; 
+    &lt;values xml:id="id3"&gt;
+      &lt;value&gt;three&lt;/value&gt; 
+    &lt;/values&gt;
+  &lt;/lookup&gt; 
+  &lt;keys&gt; 
+    &lt;key lookup="id1"&gt;first&lt;/key&gt; 
+    &lt;key lookup="id2"&gt;second&lt;/key&gt;
+    &lt;key lookup="id3"&gt;third&lt;/key&gt;
+  &lt;/keys&gt; 
+&lt;/data&gt;
+      </pre>
+
+      <p><small>Fig. 1. An XML snippet where there is a list of key's that via
+      a reference (a socalled IDREF) in an attribute called lookup refer to
+      nodes in another part of the document. The references are anchored using
+      xml:id attributes. The relation between the keys and the values is one
+      to many.</small></p>
+
+      </div>
+
+      <p>Typically one can write really nifty GUI's in XForms. You'll find a
+      lot of examples online, for instance by following links from the <a href="http://en.wikipedia.org/wiki/XForms">Wikipedia article</a>.  There
+      are various implementations, serverside ones as well as those running
+      client side. I opted for the one implemented as a <a href="https://addons.mozilla.org/en-US/firefox/addon/824">Firefox
+      plugin</a>.</p>
+
+      <h3>Join's and XML documents</h3>
+
+      <p>My project is about editing quite complicated documents, namely
+      really heavy beasts in <a href="http://www2.lib.virginia.edu/innovation/mei/">Music Encoding
+      Initiative XML</a>. We're building a MEI application while the Perry
+      people is revising the standard and, among other thins, move from a DTD
+      to <a href="http://relaxng.org/">RelaxNG</a>. A wise move.</p>
+
+      <p>I might return to the project itself at a later stage, but here I
+      want to tell you about XForms itself. And about joins. Consider the
+      fragment in Fig. 1.</p>
+
+
+
+    </div>
+  <div style="clear:both"> 
+	    </div><div id="disqus_thread">
+	    </div><p style="margin-left:+1%;"><a href="http://disqus.com" class="dsq-brlink">blog comments powered
+	    by <span class="logo-disqus">Disqus</span></a></p></div><script type="text/javascript" src="http://disqus.com/forums/sigfridlundbergsstuff/embed.js">
+	  </script><noscript><a href="http://sigfridlundbergsstuff.disqus.com/?url=http://sigfrid-lundberg.se/entries/2010/03/aformwithajoin/">
+	      View the discussion thread
+	  </a></noscript><script type="text/javascript">//<!--
+	  (function() {
+	      var links = document.getElementsByTagName('a');
+	      var query = '?';
+	      for(var i = 0; i < links.length; i++) {
+		  if(links[i].href.indexOf('#disqus_thread') >= 0) {
+		      query += 'url' + i + '=' + encodeURIComponent(links[i].href) + '&';
+		  }
+	      }
+	      document.write('<script charset="utf-8" type="text/javascript" src="http://disqus.com/forums/sigfridlundbergsstuff/get_num_replies.js' + query + '"></' + 'script>');
+	  })();
+	  //--></script><!--#include virtual="/js/urchin.js" --></body></html>
