@@ -24,12 +24,87 @@
       that I thought that I would easily be able to relate to a new XML
       technology by extrapolating from my earlier experiences. This has
       hitherto been the case. For instance, learning Xerces in java when I've
-      used dom4j in java and XML::LibXML in perl was i piece of cake.</p>
+      used dom4j in java and XML::LibXML in perl was i piece of cake. If
+      you've used venerable Expat callback based parser, the idea behind SAX
+      or Stream API for XML (StaX) are quite obvious.</p>
 
       <p>One could expect that if you know XML technologies and HTML forms you
       would easily grasp XForms. Having realised that this wasn't the case I
       thought that having learned XPath and XSLT I would easily grasp
-      XForms. That was true, but only partly.</p>
+      XForms. That was true, but only partly. A small part.</p>
+
+      <h3>UI and Events</h3>
+
+      <p>An XForm script, just as an XSLT one, can read XML documents and act
+      upon them. The result is very different. XSLT generates another
+      document, usually an XML one. The XForm generates a form, a graphical
+      user interface. And it is usually one that can be used for editing
+      XML. A user interface is event driven, an there are a whole lot of <a
+      href="http://en.wikipedia.org/wiki/DOM_events">events to keep track
+      of</a>.</p>
+
+      <p>What is a brilliant feature in XSLT might not work at all in a GUI,
+      so if you're a lover of the functional programming style recursive
+      processing in XSLT you'll be disappointed. XForms isn't XML transformed
+      into forms, it is language for writing GUIs for XML.</p>
+
+      <div style="float: right; width:50%;">
+      <pre>
+&lt;data> 
+  &lt;lookup>
+    &lt;values xml:id="id1">
+      &lt;value>one a&lt;/value>
+      &lt;value>one b&lt;/value>
+      &lt;value>one c&lt;/value> 
+    &lt;/values>
+    &lt;values xml:id="id2"> 
+      &lt;value>two a&lt;/value>
+      &lt;value>two b&lt;/value> 
+      &lt;value>two c&lt;/value>
+    &lt;/values> 
+    &lt;values xml:id="id3">
+      &lt;value>three&lt;/value> 
+    &lt;/values>
+  &lt;/lookup> 
+  &lt;keys> 
+    &lt;key lookup="id1">first&lt;/key> 
+    &lt;key lookup="id2">second&lt;/key>
+    &lt;key lookup="id3">third&lt;/key>
+  &lt;/keys> 
+&lt;/data>
+      </pre>
+
+      <p><small>Fig. 1. An XML snippet where there is a list of key's that via
+      a reference (a socalled IDREF) in an attribute called lookup refer to
+      nodes in another part of the document. The references are anchored using
+      xml:id attributes. The relation between the keys and the values is one
+      to many.</small></p>
+
+      </div>
+
+      <p>Typically one can write really nifty GUI's in XForms. You'll find a
+      lot of examples online, for instance by following links from the <a
+      href="http://en.wikipedia.org/wiki/XForms">Wikipedia article</a>.  There
+      are various implementations, serverside ones as well as those running
+      client side. I opted for the one implemented as a <a
+      href="https://addons.mozilla.org/en-US/firefox/addon/824">Firefox
+      plugin</a>.</p>
+
+      <h3>Join's and XML documents</h3>
+
+      <p>My project is about editing quite complicated documents, namely
+      really heavy beasts in <a
+      href="http://www2.lib.virginia.edu/innovation/mei/">Music Encoding
+      Initiative XML</a>. We're building a MEI application while the Perry
+      people is revising the standard and, among other thins, move from a DTD
+      to <a href="http://relaxng.org/">RelaxNG</a>. A wise move.</p>
+
+      <p>I might return to the project itself at a later stage, but here I
+      want to tell you about XForms itself. And about joins. Consider the
+      fragment in Fig. 1. If you want to be able to edit the values in the
+      vicinity of the keys, you may need a form like</p>
+
+
 
     </div>
   </content>

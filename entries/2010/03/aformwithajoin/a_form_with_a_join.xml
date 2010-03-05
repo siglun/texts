@@ -1,0 +1,149 @@
+<html xmlns="http://www.w3.org/1999/xhtml"
+      xmlns:xf="http://www.w3.org/2002/xforms"
+      xmlns:ev="http://www.w3.org/2001/xml-events">
+
+  <head>
+    <title>A form with a join</title>
+    <xf:model>
+      <xf:instance id="data-instance">
+	<data xmlns="">
+	  <lookup>
+	    <values xml:id="id1">
+	      <value>one a</value>
+	      <value>one b</value>
+	      <value>one c</value>
+	    </values>
+	    <values xml:id="id2">
+	      <value>two a</value>
+	      <value>two b</value>
+	      <value>two c</value>
+	    </values>
+	    <values xml:id="id3">
+	      <value>three</value>
+	    </values>
+	  </lookup>
+	  <keys>
+	    <key lookup="id1">first</key>
+	    <key lookup="id2">second</key>
+	    <key lookup="id3">third</key>
+	  </keys>
+	</data>
+      </xf:instance>
+      <xf:instance id="empty-instance">
+	<data xmlns="">
+	  <lookup>
+	    <values xml:id="">
+	      <value></value>
+	    </values>
+	  </lookup>
+	  <keys>
+	    <key lookup=""></key>
+	  </keys>
+	</data>
+      </xf:instance>
+    </xf:model>
+
+  </head>
+
+  <body>
+    <h1>A form with a join</h1>
+    <dl>
+      <xf:group ref="instance('data-instance')/keys">
+	<xf:repeat nodeset="key"
+		   id="lookup-keys-loop">
+	  <dt>
+	    <xf:input ref=".">
+	      <xf:lable>key</xf:lable>
+	    </xf:input>
+	    <br/>
+	    <xf:input ref="@lookup">
+	      <xf:lable>@lookup</xf:lable>
+	    </xf:input>
+	  </dt>
+	  <xf:repeat nodeset="instance('data-instance')/lookup/values[@xml:id = current()/@lookup]/value"
+		     id="value-loop">
+	  <dd>
+	    <xf:input ref=".">
+	      <xf:lable>Lookup value</xf:lable>
+	    </xf:input>
+	    <xf:trigger>
+	      <xf:label>
+		<img src="/2009/xforms/images/remove.gif" alt="Delete"/>
+	      </xf:label>
+	      <xf:delete nodeset="." 
+			 at="index('value-loop')" 
+			 ev:event="DOMActivate"/>
+	    </xf:trigger>
+
+	    <xf:trigger>
+	      <xf:label>
+		<img src="/2009/xforms/images/add.gif" alt="Add"/>
+	      </xf:label>
+	
+	      <xf:action ev:event="DOMActivate">
+		<xf:insert nodeset="."
+			   at="index('value-loop')" 
+			   position="after" 
+			   origin="instance('empty-instance')/lookup/values/value"/>
+
+	      </xf:action>
+	    </xf:trigger>
+
+
+	  </dd>
+
+	</xf:repeat>
+
+	<xf:trigger>
+	  <xf:label>
+	    <img src="/2009/xforms/images/remove.gif" alt="Delete"/>
+	  </xf:label>
+	  <xf:delete nodeset="." 
+		     at="index('value-loop')" 
+		     ev:event="DOMActivate"/>
+	</xf:trigger>
+
+
+
+      </xf:repeat>
+
+      <dt>	
+	<xf:trigger>
+	  <xf:label>
+	    <img src="/2009/xforms/images/add.gif" alt="Add"/>
+	  </xf:label>
+	
+	  <xf:action ev:event="DOMActivate">
+	    <xf:insert nodeset="key"
+		       at="last()"
+		       position="after" 
+		       origin="instance('empty-instance')/keys/key"/>
+	    <xf:setvalue ev:event="DOMActivate"
+			 ref="key[last()]/@lookup" 
+			 value="digest(string(random(true)), 'MD5', 'hex')"/>
+
+
+	    <xf:insert nodeset="instance('data-instance')/lookup/values"
+		       at="last()" 
+		       position="after" 
+		       origin="instance('empty-instance')/lookup/values"/>
+
+	    <xf:setvalue ev:event="DOMActivate"
+			 ref="instance('data-instance')/lookup/values[last()]/@xml:id"
+			 value="instance('data-instance')/keys/key[last()]/@lookup"/>
+
+
+	  </xf:action>
+
+
+	</xf:trigger>
+	<br/>
+	lookup <xf:output ref="key[last()]/@lookup"/>
+	<br/>
+	values <xf:output ref="instance('data-instance')/lookup/values[last()]/@xml:id"/>
+      </dt>
+      </xf:group>
+    </dl>
+  </body>
+
+</html>

@@ -1,0 +1,22 @@
+&lt;data> 
+  &lt;lookup>
+    &lt;values xml:id="id1">
+      &lt;value>one a&lt;/value>
+      &lt;value>one b&lt;/value>
+      &lt;value>one c&lt;/value> 
+    &lt;/values>
+    &lt;values xml:id="id2"> 
+      &lt;value>two a&lt;/value>
+      &lt;value>two b&lt;/value> 
+      &lt;value>two c&lt;/value>
+    &lt;/values> 
+    &lt;values xml:id="id3">
+      &lt;value>three&lt;/value> 
+    &lt;/values>
+  &lt;/lookup> 
+  &lt;keys> 
+    &lt;key lookup="id1">first&lt;/key> 
+    &lt;key lookup="id2">second&lt;/key>
+    &lt;key lookup="id3">third&lt;/key>
+  &lt;/keys> 
+&lt;/data>
