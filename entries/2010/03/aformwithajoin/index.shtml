@@ -9,13 +9,13 @@
 	    </div>
     <div>
 
-      <p>A <strong>form</strong> is a document that can be used for the entry
-      of data. A join is a construct in query languages such SQL. A
-      <strong>join</strong> allows you to lookup data in one part of a
-      database based on a query in an other part. Joins are very general, and
-      may appear in other contexts. Such as XQuery, XSLT and XML forms
-      language, XForms. I've recently written my first extensive application
-      in that language.</p>
+      <p>A <strong>form</strong> is a document, or a part of one, that can be
+      used for the entry of data. A <strong>join</strong> is a construct in
+      query languages such SQL. A join allows you to lookup data in one part
+      of a database based on a query in an other part. Joins are general, and
+      may appear in other contexts than SQL. Such as XQuery, XSLT and XML
+      forms language, XForms. I've recently written my first extensive
+      application in that language.</p>
 
       <p>Having worked with XML processing for more than ten years, I'd say
       that I thought that I would easily be able to relate to a new XML
@@ -38,11 +38,6 @@
       user interface. And it is usually one that can be used for editing
       XML. A user interface is event driven, an there are a whole lot of <a href="http://en.wikipedia.org/wiki/DOM_events">events to keep track
       of</a>.</p>
-
-      <p>What is a brilliant feature in XSLT might not work at all in a GUI,
-      so if you're a lover of the functional programming style recursive
-      processing in XSLT you'll be disappointed. XForms isn't XML transformed
-      into forms, it is language for writing GUIs for XML.</p>
 
       <div style="float: right; width:50%;">
       <pre>
@@ -78,6 +73,12 @@
 
       </div>
 
+
+      <p>What is a brilliant feature in XSLT might not work at all in a GUI,
+      so if you're a lover of the functional programming style recursive
+      processing in XSLT you'll be disappointed. XForms isn't XML transformed
+      into forms, it is language for writing GUIs for XML.</p>
+
       <p>Typically one can write really nifty GUI's in XForms. You'll find a
       lot of examples online, for instance by following links from the <a href="http://en.wikipedia.org/wiki/XForms">Wikipedia article</a>.  There
       are various implementations, serverside ones as well as those running
@@ -94,9 +95,40 @@
 
       <p>I might return to the project itself at a later stage, but here I
       want to tell you about XForms itself. And about joins. Consider the
-      fragment in Fig. 1.</p>
+      fragment in Fig. 1. If you want to be able to edit the values in the
+      vicinity of the keys, you may need <a href="/entries/2010/03/aformwithajoin/a_form_with_a_join.xml">a form
+      like this</a> (requires XForms in your browser). The essential code
+      performing the join can be studied in Fig. 2.</p>
 
+      <div>
+	<pre>
+      &lt;xf:group ref="instance('data-instance')/keys"&gt;
+          &lt;xf:repeat nodeset="key"
+        	  id="lookup-keys-loop"&gt;
+               &lt;!-- do things with each key --&gt;
+               &lt;xf:repeat 
+                       nodeset="instance('data-instance')/lookup/
+                       values[<span style="color:red;">@xml:id = current()/@lookup</span>]/value"
+                       id="value-loop"&gt;
+               &lt;!-- do things with value group --&gt;
+               &lt;/xf:repeat&gt;
+          &lt;/xf:repeat&gt;
+       &lt;/xf:group&gt;
+	</pre>
 
+	<p style="margin-left:+5%;margin-right:+5%;"><small>Fig. 2. XForms
+	snippet that loops around all key elements and for each of them make
+	the lookup. That is, here we have the join in red colour. xf is short
+	for the xforms namespace, which is
+	http://www.w3.org/2002/xforms</small></p>
+
+      </div>
+
+       <p>The core is the XPath function <kbd style="font-family:courier;">current()</kbd> which returns the current
+       context node. This construct can then be combined with input fields,
+       textareas etc.</p>
+
+       
 
     </div>
   <div style="clear:both"> 

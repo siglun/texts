@@ -1,9 +1,12 @@
+<?xml version="1.0" encoding="UTF-8" ?>
 <html xmlns="http://www.w3.org/1999/xhtml"
       xmlns:xf="http://www.w3.org/2002/xforms"
       xmlns:ev="http://www.w3.org/2001/xml-events">
 
   <head>
     <title>A form with a join</title>
+    <meta http-equiv="Content-Type" 
+	  content="application/xhtml+xml;charset=UTF-8"/>
     <xf:model>
       <xf:instance id="data-instance">
 	<data xmlns="">

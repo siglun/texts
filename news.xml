@@ -1,11 +1,11 @@
 <div xmlns="http://www.w3.org/1999/xhtml">
   <div>
-    <h1 style="font-family: sans-serif; width: 55%; float: left;text-align: left;">Why you need a persistence strategy</h1>
+    <h1 style="font-family: sans-serif; width: 55%; float: left;text-align: left;">A form with a join</h1>
     <p style="width: 38%; float: left;text-align: right">
       <em>
         <strong>
 		Sigfrid Lundberg's Stuff,
-	      2010-02-25</strong>
+	      2010-03-05</strong>
       </em>
     </p>
   </div>
@@ -13,86 +13,147 @@
   <div style="width:100%;">
     <div>
 
-      <p>Alma Mater (the university that saw me mature from a teenager to a Ph
-      D) has a web site. It used to implement a graphical profile which stated
-      that all links should be listed at the end of a document. The
-      documentation actually also claimed that hypertext links inside text
-      bodies was poor usability. This is just plain bullshit. The hypertext
-      link is the the single thing that makes the Worldwide web to a web. If
-      some usability expert dislikes Wikipedia I bet it isn't because of all
-      the hypertext links.</p>
+      <p>A <strong>form</strong> is a document, or a part of one, that can be
+      used for the entry of data. A <strong>join</strong> is a construct in
+      query languages such SQL. A join allows you to lookup data in one part
+      of a database based on a query in an other part. Joins are general, and
+      may appear in other contexts than SQL. Such as XQuery, XSLT and XML
+      forms language, XForms. I've recently written my first extensive
+      application in that language.</p>
 
-      <p>Libraries have over the centuries provided experiences and
-      information. Scholars have read and <a href="http://sigfrid-lundberg.se/entries/2009/08/quotations/">quoted the
-      material we offer</a>. This has changed. <strong>Today the most
-      important challenge for libraries today is to provide anchors for
-      hypertext links.</strong></p>
+      <p>Having worked with XML processing for more than ten years, I'd say
+      that I thought that I would easily be able to relate to a new XML
+      technology by extrapolating from my earlier experiences. This has
+      hitherto been the case. For instance, learning Xerces in java when I've
+      used dom4j in java and XML::LibXML in perl was i piece of cake. If
+      you've used venerable Expat callback based parser, the idea behind SAX
+      or Stream API for XML (StaX) are quite obvious.</p>
 
-      <p>Libraries who think that mission is accomplished when they've solved
-      the problem of efficient document delivery belong to the past. You have
-      to provide means for patrons to link to the arbitrary anchors in
-      hypertexts, to polygons in images or time segments in video
-      recordings.</p>
+      <p>One could expect that if you know XML technologies and HTML forms you
+      would easily grasp XForms. Having realised that this wasn't the case I
+      thought that having learned XPath and XSLT I would easily grasp
+      XForms. That was true, but only partly. A small part.</p>
 
-      <p>Document delivery is important. You cannot use documents unless they
-      are delivered. Neither can you create arbitrary hypertext links into
-      it. However, it is the fact that you are not done when your patron has
-      the document in his or her browser which is the single most important
-      reason why URN:NBN, DOI or HANDLEs are obsolete.</p>
+      <h3>UI and Events</h3>
 
-      <p>It isn't you who should link to your documents. It is the library
-      patrons who should do that. If they want to link to page five, they
-      should be able to do so, and the link created should be as persistent as
-      any German URN:NBN.</p>
+      <p>An XForm script, just as an XSLT one, can read XML documents and act
+      upon them. The result is very different. XSLT generates another
+      document, usually an XML one. The XForm generates a form, a graphical
+      user interface. And it is usually one that can be used for editing
+      XML. A user interface is event driven, an there are a whole lot of <a href="http://en.wikipedia.org/wiki/DOM_events">events to keep track
+      of</a>.</p>
 
-      <p>And then. If you're not convinced:</p>
+      <div style="float: right; width:50%;">
+      <pre>
+&lt;data&gt; 
+  &lt;lookup&gt;
+    &lt;values xml:id="id1"&gt;
+      &lt;value&gt;one a&lt;/value&gt;
+      &lt;value&gt;one b&lt;/value&gt;
+      &lt;value&gt;one c&lt;/value&gt; 
+    &lt;/values&gt;
+    &lt;values xml:id="id2"&gt; 
+      &lt;value&gt;two a&lt;/value&gt;
+      &lt;value&gt;two b&lt;/value&gt; 
+      &lt;value&gt;two c&lt;/value&gt;
+    &lt;/values&gt; 
+    &lt;values xml:id="id3"&gt;
+      &lt;value&gt;three&lt;/value&gt; 
+    &lt;/values&gt;
+  &lt;/lookup&gt; 
+  &lt;keys&gt; 
+    &lt;key lookup="id1"&gt;first&lt;/key&gt; 
+    &lt;key lookup="id2"&gt;second&lt;/key&gt;
+    &lt;key lookup="id3"&gt;third&lt;/key&gt;
+  &lt;/keys&gt; 
+&lt;/data&gt;
+      </pre>
 
-      <h3>1. I need PID to connect documents to archived copies</h3>
+      <p><small>Fig. 1. An XML snippet where there is a list of key's that via
+      a reference (a socalled IDREF) in an attribute called lookup refer to
+      nodes in another part of the document. The references are anchored using
+      xml:id attributes. The relation between the keys and the values is one
+      to many.</small></p>
 
-      <p>The problem is that people don't use PIDs in their texts, since they
-      never see them. They follow links, are redirected by the resolver and
-      link to what they get. When you remove your original hypertext anchor,
-      many of your digital patrons links will rot.</p>
+      </div>
 
-      <p>The truth is that you don't need to use PIDs for this. If you use
-      HTTP as intended you redirect your users when moving documents to the
-      archive. Users will never suffer. If you use PIDs they'll experience the
-      404.</p>
 
-      <h3>2. The DOI system is very good. It works</h3>
+      <p>What is a brilliant feature in XSLT might not work at all in a GUI,
+      so if you're a lover of the functional programming style recursive
+      processing in XSLT you'll be disappointed. XForms isn't XML transformed
+      into forms, it is language for writing GUIs for XML.</p>
 
-      <p>Yes, it works but it is not good. It is as bad as any other redirect
-      based PID system. It works though, but that is because the consortium
-      forces its members to care about links. That is very
-      <strong>good</strong>, but the DOI system isn't.</p>
+      <p>Typically one can write really nifty GUI's in XForms. You'll find a
+      lot of examples online, for instance by following links from the <a href="http://en.wikipedia.org/wiki/XForms">Wikipedia article</a>.  There
+      are various implementations, serverside ones as well as those running
+      client side. I opted for the one implemented as a <a href="https://addons.mozilla.org/en-US/firefox/addon/824">Firefox
+      plugin</a>.</p>
 
-      <p>The truth is that you don't need DOIs for that. You need a link
-      management policy.</p>
+      <h3>Join's and XML documents</h3>
 
-      <h3>3. PID's work when people change their domains. Cool URIs don't</h3>
+      <p>My project is about editing quite complicated documents, namely
+      really heavy beasts in <a href="http://www2.lib.virginia.edu/innovation/mei/">Music Encoding
+      Initiative XML</a>. We're building a MEI application while the Perry
+      people is revising the standard and, among other thins, move from a DTD
+      to <a href="http://relaxng.org/">RelaxNG</a>. A wise move.</p>
 
-      <p>Not really. Since people don't use PIDs in their documents, this
-      doesn't help here either -- see point 1 above.</p>
+      <p>I might return to the project itself at a later stage, but here I
+      want to tell you about XForms itself. And about joins. Consider the
+      fragment in Fig. 1. If you want to be able to edit the values in the
+      vicinity of the keys, you may need <a href="/entries/2010/03/aformwithajoin/a_form_with_a_join.xml">a form
+      like this</a> (requires XForms in your browser). The essential code
+      performing the join can be studied in Fig. 2.</p>
 
-      <p>The truth is that you should not change your domain. It is not
-      regarded good practice among people who care about content. However, if
-      you have to, use redirects (Moved permanently, status 301).</p>
+      <div>
+	<pre>
+      &lt;xf:group ref="instance('data-instance')/keys"&gt;
+          &lt;xf:repeat nodeset="key"
+        	  id="lookup-keys-loop"&gt;
+               &lt;!-- do things with each key --&gt;
+               &lt;xf:repeat 
+                       nodeset="instance('data-instance')/lookup/
+                       values[<span style="color:red;">@xml:id = current()/@lookup</span>]/value"
+                       id="value-loop"&gt;
+               &lt;!-- do things with value group --&gt;
+               &lt;/xf:repeat&gt;
+          &lt;/xf:repeat&gt;
+       &lt;/xf:group&gt;
+	</pre>
 
-      <p>If you have to change, keep the old one for a very long time. Someone
-      may buy using your brand for selling porn or something else you don't
-      approve.</p>
+	<p style="margin-left:+5%;margin-right:+5%;"><small>Fig. 2. XForms
+	snippet that loops around all key elements and for each of them make
+	the lookup. That is, here we have the join in red colour. xf is short
+	for the xforms namespace, which is
+	http://www.w3.org/2002/xforms</small></p>
+
+      </div>
+
+       <p>The core is the XPath function <kbd style="font-family:courier;">current()</kbd> which returns the current
+       context node. This construct can then be combined with input fields,
+       textareas etc.</p>
+
+       
 
     </div>
     <p style="text-align: left;"><em><strong>Categories:</strong></em> 
-	  <a href="/subjects/structuralwebdesign/">Structural web design</a>,
-	    <a href="/subjects/internet/">Internet</a><br/><em><strong>
+	  <a href="/subjects/xmlprocessing/">XML processing</a>,
+	    <a href="/subjects/metadataprocessing/">Metadata processing</a><br/><em><strong>
 		Permalink:
-	      </strong></em><a rel="bookmark" href="/entries/2010/02/youdontneed/">http://sigfrid-lundberg.se/entries/2010/02/youdontneed/</a></p>
+	      </strong></em><a rel="bookmark" href="/entries/2010/03/aformwithajoin/">http://sigfrid-lundberg.se/entries/2010/03/aformwithajoin/</a></p>
     <hr width="50%" align="center"/>
   </div>
   <div>
     <h1>Other, not yet obsolete stuff</h1>
     <table class="news">
+      <tr>
+        <td class="left">2010</td>
+        <td class="left"><a href="/entries/2010/02/youdontneed/"><em>Why you need a persistence strategy</em></a><br/>Here I go through some of the arguments why you need to implement a
+  persistence strategy. We also conclude that the hypertext link is the single
+  thing that makes the Worldwide web to a web. Hence it is a serious thing. If
+  you're working within the digital library world you should be devoted to the
+  hypertext link.<br/><a href="/subjects/structuralwebdesign/">Structural web design</a>,
+	<a href="/subjects/internet/">Internet</a></td>
+      </tr>
       <tr>
         <td class="left">2010</td>
         <td class="left"><a href="/entries/2010/02/persid/"><em>The URN:NBN is dead and resurrection is meaningless</em></a><br/>I'm one of those who try to base all decisions on facts. Politics
@@ -122,12 +183,6 @@
       <tr>
         <td class="left">2010</td>
         <td class="left"><a href="/entries/2010/01/crossroad/"><em>An Irish Stew</em></a><br/>Is Internet at a crossroad?<br/><a href="/subjects/internet/">Internet</a></td>
-      </tr>
-      <tr>
-        <td class="left">2010</td>
-        <td class="left"><a href="/entries/2010/01/dusk/"><em>Reflections on a Library at Dusk</em></a><br/>During my soon five years at The Royal Library, I've seen its
-  exterior in all kinds of weather conditions. Here I give you some images
-  showing the spectacular black granite fasade at dusk.<br/><a href="/subjects/essays/">Essays</a></td>
       </tr>
     </table>
   </div>
