@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<entry xmlns="http://www.w3.org/2005/Atom" xmlns:dc="http://purl.org/dc/elements/1.1/">
+  <author>
+    <name>Sigfrid Lundberg</name>
+  </author>
+  <title>A form with a join</title>
+  <link href="/entries/2010/03/aformwithajoin/"/>
+  <summary>A form is a document that can be used for the entry of data. A join
+  is a construct in query languages such SQL. A join allows you to lookup data
+  in one part of a database based on a query in an other part. Joins are very
+  general, and may appear in other contexts. Such as the XML forms language.</summary>
+  <content type="xhtml">
+    <div xmlns="http://www.w3.org/1999/xhtml">
+
+      <p>A <strong>form</strong> is a document that can be used for the entry
+      of data. A join is a construct in query languages such SQL. A
+      <strong>join</strong> allows you to lookup data in one part of a
+      database based on a query in an other part. Joins are very general, and
+      may appear in other contexts. Such as XQuery, XSLT and XML forms
+      language, XForms. I've recently written my first extensive application
+      in that language.</p>
+
+      <p>Having worked with XML processing for more than ten years, I'd say
+      that I thought that I would easily be able to relate to a new XML
+      technology by extrapolating from my earlier experiences. This has
+      hitherto been the case. For instance, learning Xerces in java when I've
+      used dom4j in java and XML::LibXML in perl was i piece of cake.</p>
+
+      <p>One could expect that if you know XML technologies and HTML forms you
+      would easily grasp XForms. Having realised that this wasn't the case I
+      thought that having learned XPath and XSLT I would easily grasp
+      XForms. That was true, but only partly.</p>
+
+    </div>
+  </content>
+  <dc:date>2010</dc:date>
+  <category label="xmlprocessing" term="XML processing"/>
+  <category label="metadataprocessing" term="Metadata processing"/>
+  <updated>2010-03-05T18:11:43+01:00</updated>
+  <id>http://www.sigfrid-lundberg.se/entries/2010/03/aformwithajoin/</id>
+  <!-- $Id$ -->
+</entry>
