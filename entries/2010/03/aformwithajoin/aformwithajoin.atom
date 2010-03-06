@@ -97,8 +97,8 @@
       <p>My project is about editing quite complicated documents, namely
       really heavy beasts in <a
       href="http://www2.lib.virginia.edu/innovation/mei/">Music Encoding
-      Initiative XML</a>. We're building a MEI application while the Perry
-      people is revising the standard and, among other thins, move from a DTD
+      Initiative XML</a>. We're building a MEI application while the inititive
+      are revising the specification and, among other things, move from a DTD
       to <a href="http://relaxng.org/">RelaxNG</a>. A wise move.</p>
 
       <p>I might return to the project itself at a later stage, but here I
@@ -138,9 +138,7 @@
        context node. This construct can then be combined with input fields,
        textareas etc.</p>
 
-       
-
-    </div>
+     </div>
   </content>
   <dc:date>2010</dc:date>
   <category label="xmlprocessing" term="XML processing"/>

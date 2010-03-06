@@ -27,15 +27,15 @@
       of a database based on a query in an other part. Joins are general, and
       may appear in other contexts than SQL. Such as XQuery, XSLT and XML
       forms language, XForms. I've recently written my first extensive
-      application in that language.</p>
+      application in that language. It required a larger effort than I had expected.</p>
 
-      <p>Having worked with XML processing for more than ten years, I'd say
-      that I thought that I would easily be able to relate to a new XML
-      technology by extrapolating from my earlier experiences. This has
-      hitherto been the case. For instance, learning Xerces in java when I've
-      used dom4j in java and XML::LibXML in perl was i piece of cake. If
-      you've used venerable Expat callback based parser, the idea behind SAX
-      or Stream API for XML (StaX) are quite obvious.</p>
+      <p>Having worked with XML processing for more than ten years, I had
+      thought that I would easily be able to relate to a new XML technology by
+      extrapolating from my earlier experiences. This has hitherto been the
+      case. For instance, learning Xerces in java when I've used dom4j in java
+      and XML::LibXML in perl was i piece of cake. If you've used venerable
+      Expat callback based parser, the idea behind SAX or Stream API for XML
+      (StaX) are quite obvious.</p>
 
       <p>One could expect that if you know XML technologies and HTML forms you
       would easily grasp XForms. Having realised that this wasn't the case I
@@ -101,8 +101,8 @@
 
       <p>My project is about editing quite complicated documents, namely
       really heavy beasts in <a href="http://www2.lib.virginia.edu/innovation/mei/">Music Encoding
-      Initiative XML</a>. We're building a MEI application while the Perry
-      people is revising the standard and, among other thins, move from a DTD
+      Initiative XML</a>. We're building a MEI application while the inititive
+      are revising the specification and, among other things, move from a DTD
       to <a href="http://relaxng.org/">RelaxNG</a>. A wise move.</p>
 
       <p>I might return to the project itself at a later stage, but here I
