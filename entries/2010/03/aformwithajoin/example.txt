@@ -33,3 +33,32 @@
 
   &lt;/xf:repeat>
 &lt;/xf:group>
+
+
+&lt;xf:trigger>
+  &lt;xf:label>Add key and value&lt;/xf:label>
+	
+  &lt;xf:action ev:event="DOMActivate">
+    &lt;xf:insert nodeset="key"
+	       at="last()"
+	       position="after" 
+	       origin="instance('empty-instance')/keys/key"/>
+    &lt;xf:setvalue ev:event="DOMActivate"
+		 ref="key[last()]/@lookup" 
+		 value="digest(string(random(true)), 'MD5', 'hex')"/>
+    
+
+    &lt;xf:insert nodeset="instance('data-instance')/lookup/values"
+	       at="last()" 
+	       position="after" 
+	       origin="instance('empty-instance')/lookup/values"/>
+
+    &lt;xf:setvalue ev:event="DOMActivate"
+		 ref="instance('data-instance')/lookup/values[last()]/@xml:id"
+		 value="instance('data-instance')/keys/key[last()]/@lookup"/>
+
+
+  &lt;/xf:action>
+
+
+&lt;/xf:trigger>

@@ -123,18 +123,79 @@
 	<p style="margin-left:+5%;margin-right:+5%;"><small>Fig. 2. XForms
 	snippet that loops around all key elements and for each of them make
 	the lookup. That is, here we have the join in red colour. xf is short
-	for the xforms namespace, which is
-	http://www.w3.org/2002/xforms</small></p>
+	for the xforms namespace, which is http://www.w3.org/2002/xforms. Note
+	that this code works inside a single document that looks like the one
+	in Fig. 1. You cannot edit a database this way.</small></p>
 
       </div>
 
        <p>The core is the XPath function <kbd style="font-family:courier;">current()</kbd> which returns the current
        context node. This construct can then be combined with input fields,
-       textareas etc.</p>
+       textareas etc. The corresponding SQL code could look as in Fig. 3.</p>
 
-       
+       <div>
+	 <pre>
+	   select
+	      last_name,
+	      department_name
+	   from
+	      employees e 
+           left outer join 
+              departments d
+           on
+              e.department_id = d.department_id;
+	 </pre>
 
-    </div>
+	 <p style="margin-left:+5%;margin-right:+5%;"><small>Fig. 3. The SQL
+	 equivalent to the XForms code in Fig. 2.</small></p>
+
+       </div>
+
+       <h3>Get the last inserted id</h3>
+
+       <p><em><q>It's the same old story, but it's new to me.</q></em>
+       Whenever you use a RDBMS, you'll sooner or later ask the question is
+       there a way to <a href="http://www.google.com/search?hl=en&amp;q=%22get+the+last+inserted+id%22&amp;aq=f&amp;aqi=g-m1&amp;aql=&amp;oq=">get
+       the last inserted ID</a>. This, if any, is indeed a SQL FAQ.</p>
+
+       <p>That is, you'll inserted a line in a table, and no you want to use
+       this ID as a foreign key in another table. That is you wan't to create
+       data that can be retrieved using a join. All SQL dialects and API's
+       provide facilities for this.</p>
+
+       <div>
+	 <pre>
+&lt;xf:trigger&gt;
+  &lt;xf:label&gt;Add key and value&lt;/xf:label&gt;
+  &lt;xf:action ev:event="DOMActivate"&gt;
+    &lt;xf:insert nodeset="key"
+	 at="last()"
+	 position="after" 
+	 origin="instance('empty-instance')/keys/key"/&gt;
+    &lt;xf:setvalue ev:event="DOMActivate"
+	 ref="key[last()]/@lookup" 
+	 value="concat('id',digest(string(random(true)), 'MD5', 'hex'))"/&gt;
+    &lt;xf:insert nodeset="instance('data-instance')/lookup/values"
+	 at="last()" 
+	 position="after" 
+	 origin="instance('empty-instance')/lookup/values"/&gt;
+    &lt;xf:setvalue ev:event="DOMActivate"
+	 ref="instance('data-instance')/lookup/values[last()]/@xml:id"
+	 value="instance('data-instance')/keys/key[last()]/@lookup"/&gt;
+  &lt;/xf:action&gt;
+&lt;/xf:trigger&gt;
+	 </pre>
+	 <p style="margin-left:+5%;margin-right:+5%;"><small>Fig. 4. XForms
+	 code that inserts two elements in a document of the kind shown in
+	 Fig. 1. The key element contains an IDREF (the attribute lookup)
+	 which points the corresponding xml:id among the values.</small></p>
+       </div>
+
+
+
+
+
+     </div>
     <p style="text-align: left;"><em><strong>Categories:</strong></em> 
 	  <a href="/subjects/xmlprocessing/">XML processing</a>,
 	    <a href="/subjects/metadataprocessing/">Metadata processing</a><br/><em><strong>
