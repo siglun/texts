@@ -63,8 +63,8 @@
 &lt;/data&gt;
       </pre>
 
-      <p><small>Fig. 1. An XML snippet where there is a list of key's that via
-      a reference (a socalled IDREF) in an attribute called lookup refer to
+      <p><small>Fig. 1. An XML snippet where there is a list of keys that via
+      a reference (a so-called IDREF) in an attribute called lookup refer to
       nodes in another part of the document. The references are anchored using
       xml:id attributes. The relation between the keys and the values is one
       to many.</small></p>
@@ -77,13 +77,13 @@
       processing in XSLT you'll be disappointed. XForms isn't XML transformed
       into forms, it is language for writing GUIs for XML.</p>
 
-      <p>Typically one can write really nifty GUI's in XForms. You'll find a
+      <p>Typically one can write really nifty GUIs in XForms. You'll find a
       lot of examples online, for instance by following links from the <a href="http://en.wikipedia.org/wiki/XForms">Wikipedia article</a>.  There
-      are various implementations, serverside ones as well as those running
+      are various implementations, server side ones as well as those running
       client side. I opted for the one implemented as a <a href="https://addons.mozilla.org/en-US/firefox/addon/824">Firefox
-      plugin</a>.</p>
+      plug-in</a>.</p>
 
-      <h3>Join's and XML documents</h3>
+      <h3>Joins and XML documents</h3>
 
       <p>My project is about editing quite complicated documents, namely
       really heavy beasts in <a href="http://www2.lib.virginia.edu/innovation/mei/">Music Encoding
@@ -94,8 +94,8 @@
       <p>I might return to the project itself at a later stage, but here I
       want to tell you about XForms itself. And about joins. Consider the
       fragment in Fig. 1. If you want to be able to edit the values in the
-      vicinity of the keys, you may need <a href="/entries/2010/03/aformwithajoin/a_form_with_a_join.xml">a form
-      like this</a> (requires XForms in your browser). The essential code
+      vicinity of the keys, you may need <a href="http://sigfrid-lundberg.se/entries/2010/03/aformwithajoin/a_form_with_a_join.xml">a
+      form like this</a> (requires XForms in your browser). The essential code
       performing the join can be studied in Fig. 2.</p>
 
       <div>
@@ -117,45 +117,63 @@
 	<p style="margin-left:+5%;margin-right:+5%;"><small>Fig. 2. XForms
 	snippet that loops around all key elements and for each of them make
 	the lookup. That is, here we have the join in red colour. xf is short
-	for the xforms namespace, which is http://www.w3.org/2002/xforms. Note
+	for the XForms namespace, which is http://www.w3.org/2002/xforms. Note
 	that this code works inside a single document that looks like the one
 	in Fig. 1. You cannot edit a database this way.</small></p>
 
       </div>
 
-       <p>The core is the XPath function <kbd style="font-family:courier;">current()</kbd> which returns the current
-       context node. This construct can then be combined with input fields,
-       textareas etc. The corresponding SQL code could look as in Fig. 3.</p>
 
-       <div>
+      <div style="float: left; width:50%;">
 	 <pre>
-	   select
-	      last_name,
-	      department_name
-	   from
-	      employees e 
-           left outer join 
-              departments d
-           on
-              e.department_id = d.department_id;
+   select
+      last_name,
+      department_name
+   from
+      employees e 
+   left outer join 
+      departments d
+   on
+      e.department_id=d.department_id;
 	 </pre>
 
-	 <p style="margin-left:+5%;margin-right:+5%;"><small>Fig. 3. The SQL
-	 equivalent to the XForms code in Fig. 2.</small></p>
+	 <p><small>Fig. 3. The SQL
+	 equivalent to the XForms code in Fig. 2. The SQL assumes that there
+	 is a table called employees and another called departments, and that
+	 employees table contains department_id as a foreign key. This setup
+	 is similar with the key-values (based on IDREF &amp; ID) arrangements
+	 in Fig. 1-2.</small></p>
 
        </div>
 
-       <h3>Get the last inserted id</h3>
+       <p>The core is the XPath function <kbd style="font-family:courier;">current()</kbd> which returns the current
+       context node. This construct can then be combined with input fields,
+       text areas etc. The corresponding SQL code could look as in Fig. 3.</p>
+
+
+       <h3>Get the last inserted ID</h3>
 
        <p><em><q>It's the same old story, but it's new to me.</q></em>
        Whenever you use a RDBMS, you'll sooner or later ask the question is
        there a way to <a href="http://www.google.com/search?hl=en&amp;q=%22get+the+last+inserted+id%22&amp;aq=f&amp;aqi=g-m1&amp;aql=&amp;oq=">get
        the last inserted ID</a>. This, if any, is indeed a SQL FAQ.</p>
 
-       <p>That is, you'll inserted a line in a table, and no you want to use
-       this ID as a foreign key in another table. That is you wan't to create
-       data that can be retrieved using a join. All SQL dialects and API's
+       <p>That is, you'll inserted a line in a table, and now you want to use
+       this ID as a foreign key in another table. That is you want to create
+       data that can be retrieved using a join. All SQL dialects and APIs
        provide facilities for this.</p>
+
+       <p>Unfortunately, you don't have such functions in neither XForms nor
+       XSLT. In XSLT that is no big deal; you <a href="http://sigfrid-lundberg.se/entries/2009/07/xslt_extensions/">can
+       program anything</a> in that language. It is worse in XForms. Fig. 4
+       shows shows an XForms trigger that executes a number of actions. It
+       inserts two nodes, one containing an IDREF and the other the
+       corresponding ID (like inserting both a department and an employee in
+       the SQL setup in Fig. 3).</p>
+
+       <p>The IDREF/ID values are created on the fly using XPath
+       functions. The problem turned out to be to get hold of the value again
+       for the second insert.</p>
 
        <div>
 	 <pre>
@@ -182,11 +200,27 @@
 	 <p style="margin-left:+5%;margin-right:+5%;"><small>Fig. 4. XForms
 	 code that inserts two elements in a document of the kind shown in
 	 Fig. 1. The key element contains an IDREF (the attribute lookup)
-	 which points the corresponding xml:id among the values.</small></p>
+	 which points the corresponding xml:id among the values. The form
+	 operates by copying nodes from an empty instance and inserting them
+	 into the data-instance, i.e., the instance being edited by the
+	 user. The last setvalue contains the solution to the SQL FAQ:
+	 <strong>How do I get the last inserted ID</strong></small></p>
        </div>
 
+       <h3>Take home message</h3>
 
+       <p>I've learned a lot of XForms and some new XPath functions. The code
+       I needed in the Music Encoding initiative example was much more
+       complicated than the trigger in Fig. 4.</p>
 
+       <p>The very reason for writing this was that I used more than a week on
+       this join and the corresponding ID/IDREF thing. I hadn't expected
+       that complexity.</p>
+
+       <p>But having been through this, I don't think there is any format that
+       cannot be edited using XForms 1.1. It is a pity that virtually all text
+       books and tutorials out there is XForms 1.0 and six or seven years
+       old. This is a very good technology that deserves a breakthrough.</p>
 
 
      </div>
