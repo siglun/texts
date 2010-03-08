@@ -11,34 +11,6 @@
   <author>
     <name>Sigfrid Lundberg</name>
   </author>
-  <title>Bourne Again Shell</title>
-  <link href="/entries/2010/03/bash/"/>
-  <summary>The Bourne Again Shell is a prominent part of my life. Dark moments
-  I've felt that I'm obsoleted by modern technologies, but all of a sudden I
-  realised that I'm as modern as smarphone users</summary>
-  <content type="xhtml">
-    <div xmlns="http://www.w3.org/1999/xhtml">
-
-      <div style="float:left;width:50%;margin-right:0.5em;margin-left:0.5em;">
-	<a href="/entries/2010/03/bash/20100226247.jpg"><img src="/entries/2010/03/bash/smaller20100226247.jpg" width="100%" alt="Bourne Again Shell"/></a>
-      </div>
-
-      <p>The Bourne Again Shell is a prominent part of my life. Dark moments
-      I've felt that I'm obsoleted by modern technologies, but all of a sudden
-      I realised that I'm as modern as smarphone users.</p>
-
-
-    </div>
-  </content>
-  <dc:date>2010</dc:date>
-  <category label="images" term="Images"/>
-  <updated>2010-03-08T18:19:52+01:00</updated>
-  <id>http://www.sigfrid-lundberg.se/entries/2010/03/bash/</id>
-</entry>
-  <entry>
-  <author>
-    <name>Sigfrid Lundberg</name>
-  </author>
   <title>Solar energy</title>
   <link href="/entries/2010/03/solarenergy/"/>
   <summary>White reflects radiation from the sun to a larger degree than do
@@ -47,7 +19,7 @@
     <div xmlns="http://www.w3.org/1999/xhtml">
 
       <div style="float:left;width:50%;margin-right:0.5em;margin-left:0.5em;">
-	<a href="/entries/2010/03/solarenergy/20100307269.jpg"><img src="/entries/2010/03/solarenergy/smaller20100307269.jpg" alt="Solar energy" width="100%"/></a>
+	<a href="http://sigfrid-lundberg.se/entries/2010/03/solarenergy/20100307269.jpg"><img src="http://sigfrid-lundberg.se/entries/2010/03/solarenergy/smaller20100307269.jpg" alt="Solar energy" width="100%"/></a>
 	
       </div>
 
@@ -60,9 +32,37 @@
   </content>
   <dc:date>2010</dc:date>
   <category label="images" term="Images"/>
-  <updated>2010-03-08T17:54:57+01:00</updated>
+  <updated>2010-03-08T21:31:33+01:00</updated>
   <id>http://www.sigfrid-lundberg.se/entries/2010/03/solarenergy/</id>
   <!-- $Id$ -->
+</entry>
+  <entry>
+  <author>
+    <name>Sigfrid Lundberg</name>
+  </author>
+  <title>Bourne Again Shell</title>
+  <link href="/entries/2010/03/bash/"/>
+  <summary>The Bourne Again Shell is a prominent part of my life. Dark moments
+  I've felt that I'm obsoleted by modern technologies, but all of a sudden I
+  realised that I'm as modern as smarphone users</summary>
+  <content type="xhtml">
+    <div xmlns="http://www.w3.org/1999/xhtml">
+
+      <div style="float:left;width:50%;margin-right:0.5em;margin-left:0.5em;">
+	<a href="http://sigfrid-lundberg.se/entries/2010/03/bash/20100226247.jpg"><img src="http://sigfrid-lundberg.se/entries/2010/03/bash/smaller20100226247.jpg" width="100%" alt="Bourne Again Shell"/></a>
+      </div>
+
+      <p>The Bourne Again Shell is a prominent part of my life. Dark moments
+      I've felt that I'm obsoleted by modern technologies, but all of a sudden
+      I realised that I'm as modern as smarphone users.</p>
+
+
+    </div>
+  </content>
+  <dc:date>2010</dc:date>
+  <category label="images" term="Images"/>
+  <updated>2010-03-08T21:31:11+01:00</updated>
+  <id>http://www.sigfrid-lundberg.se/entries/2010/03/bash/</id>
 </entry>
   <entry>
   <author>
