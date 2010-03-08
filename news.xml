@@ -1,11 +1,11 @@
 <div xmlns="http://www.w3.org/1999/xhtml">
   <div>
-    <h1 style="font-family: sans-serif; width: 55%; float: left;text-align: left;">A form with a join</h1>
+    <h1 style="font-family: sans-serif; width: 55%; float: left;text-align: left;">Bourne Again Shell</h1>
     <p style="width: 38%; float: left;text-align: right">
       <em>
         <strong>
 		Sigfrid Lundberg's Stuff,
-	      2010-03-05</strong>
+	      2010-03-08</strong>
       </em>
     </p>
   </div>
@@ -13,233 +13,40 @@
   <div style="width:100%;">
     <div>
 
-      <p>A <strong>form</strong> is a document, or a part of one, that can be
-      used for the entry of data. A <strong>join</strong> is a construct in
-      query languages such SQL. A join allows you to lookup data in one part
-      of a database based on a query in an other part. Joins are general, and
-      may appear in other contexts than SQL. Such as XQuery, XSLT and XML
-      forms language, XForms. I've recently written my first extensive
-      application in that language. It required a larger effort than I had expected.</p>
-
-      <p>Having worked with XML processing for more than ten years, I had
-      thought that I would easily be able to relate to a new XML technology by
-      extrapolating from my earlier experiences. This has hitherto been the
-      case. For instance, learning Xerces in java when I've used dom4j in java
-      and XML::LibXML in perl was i piece of cake. If you've used venerable
-      Expat callback based parser, the idea behind SAX or Stream API for XML
-      (StaX) are quite obvious.</p>
-
-      <p>One could expect that if you know XML technologies and HTML forms you
-      would easily grasp XForms. Having realised that this wasn't the case I
-      thought that having learned XPath and XSLT I would easily grasp
-      XForms. That was true, but only partly. A small part.</p>
-
-      <h3>UI and Events</h3>
-
-      <p>An XForm script, just as an XSLT one, can read XML documents and act
-      upon them. The result is very different. XSLT generates another
-      document, usually an XML one. The XForm generates a form, a graphical
-      user interface. And it is usually one that can be used for editing
-      XML. A user interface is event driven, an there are a whole lot of <a href="http://en.wikipedia.org/wiki/DOM_events">events to keep track
-      of</a>.</p>
-
-      <div style="float: right; width:50%;">
-      <pre>
-&lt;data&gt; 
-  &lt;lookup&gt;
-    &lt;values xml:id="id1"&gt;
-      &lt;value&gt;one a&lt;/value&gt;
-      &lt;value&gt;one b&lt;/value&gt;
-      &lt;value&gt;one c&lt;/value&gt; 
-    &lt;/values&gt;
-    &lt;values xml:id="id2"&gt; 
-      &lt;value&gt;two a&lt;/value&gt;
-      &lt;value&gt;two b&lt;/value&gt; 
-      &lt;value&gt;two c&lt;/value&gt;
-    &lt;/values&gt; 
-    &lt;values xml:id="id3"&gt;
-      &lt;value&gt;three&lt;/value&gt; 
-    &lt;/values&gt;
-  &lt;/lookup&gt; 
-  &lt;keys&gt; 
-    &lt;key lookup="id1"&gt;first&lt;/key&gt; 
-    &lt;key lookup="id2"&gt;second&lt;/key&gt;
-    &lt;key lookup="id3"&gt;third&lt;/key&gt;
-  &lt;/keys&gt; 
-&lt;/data&gt;
-      </pre>
-
-      <p><small>Fig. 1. An XML snippet where there is a list of keys that via
-      a reference (a so-called IDREF) in an attribute called lookup refer to
-      nodes in another part of the document. The references are anchored using
-      xml:id attributes. The relation between the keys and the values is one
-      to many.</small></p>
-
+      <div style="float:left;width:50%;margin-right:0.5em;margin-left:0.5em;">
+	<a href="/entries/2010/03/bash/20100226247.jpg"><img src="/entries/2010/03/bash/smaller20100226247.jpg" width="100%" alt="Bourne Again Shell"/></a>
       </div>
 
-
-      <p>What is a brilliant feature in XSLT might not work at all in a GUI,
-      so if you're a lover of the functional programming style recursive
-      processing in XSLT you'll be disappointed. XForms isn't XML transformed
-      into forms, it is language for writing GUIs for XML.</p>
-
-      <p>Typically one can write really nifty GUIs in XForms. You'll find a
-      lot of examples online, for instance by following links from the <a href="http://en.wikipedia.org/wiki/XForms">Wikipedia article</a>.  There
-      are various implementations, server side ones as well as those running
-      client side. I opted for the one implemented as a <a href="https://addons.mozilla.org/en-US/firefox/addon/824">Firefox
-      plug-in</a>.</p>
-
-      <h3>Joins and XML documents</h3>
-
-      <p>My project is about editing quite complicated documents, namely
-      really heavy beasts in <a href="http://www2.lib.virginia.edu/innovation/mei/">Music Encoding
-      Initiative XML</a>. We're building a MEI application while the inititive
-      are revising the specification and, among other things, move from a DTD
-      to <a href="http://relaxng.org/">RelaxNG</a>. A wise move.</p>
-
-      <p>I might return to the project itself at a later stage, but here I
-      want to tell you about XForms itself. And about joins. Consider the
-      fragment in Fig. 1. If you want to be able to edit the values in the
-      vicinity of the keys, you may need <a href="http://sigfrid-lundberg.se/entries/2010/03/aformwithajoin/a_form_with_a_join.xml">a
-      form like this</a> (requires XForms in your browser). The essential code
-      performing the join can be studied in Fig. 2.</p>
-
-      <div>
-	<pre>
-      &lt;xf:group ref="instance('data-instance')/keys"&gt;
-          &lt;xf:repeat nodeset="key"
-        	  id="lookup-keys-loop"&gt;
-               &lt;!-- do things with each key --&gt;
-               &lt;xf:repeat 
-                       nodeset="instance('data-instance')/lookup/
-                       values[<span style="color:red;">@xml:id = current()/@lookup</span>]/value"
-                       id="value-loop"&gt;
-               &lt;!-- do things with value group --&gt;
-               &lt;/xf:repeat&gt;
-          &lt;/xf:repeat&gt;
-       &lt;/xf:group&gt;
-	</pre>
-
-	<p style="margin-left:+5%;margin-right:+5%;"><small>Fig. 2. XForms
-	snippet that loops around all key elements and for each of them make
-	the lookup. That is, here we have the join in red colour. xf is short
-	for the XForms namespace, which is http://www.w3.org/2002/xforms. Note
-	that this code works inside a single document that looks like the one
-	in Fig. 1. You cannot edit a database this way.</small></p>
-
-      </div>
+      <p>The Bourne Again Shell is a prominent part of my life. Dark moments
+      I've felt that I'm obsoleted by modern technologies, but all of a sudden
+      I realised that I'm as modern as smarphone users.</p>
 
 
-      <div style="float: left; width:50%;">
-	 <pre>
-   select
-      last_name,
-      department_name
-   from
-      employees e 
-   left outer join 
-      departments d
-   on
-      e.department_id=d.department_id;
-	 </pre>
-
-	 <p><small>Fig. 3. The SQL
-	 equivalent to the XForms code in Fig. 2. The SQL assumes that there
-	 is a table called employees and another called departments, and that
-	 employees table contains department_id as a foreign key. This setup
-	 is similar with the key-values (based on IDREF &amp; ID) arrangements
-	 in Fig. 1-2.</small></p>
-
-       </div>
-
-       <p>The core is the XPath function <kbd style="font-family:courier;">current()</kbd> which returns the current
-       context node. This construct can then be combined with input fields,
-       text areas etc. The corresponding SQL code could look as in Fig. 3.</p>
-
-
-       <h3>Get the last inserted ID</h3>
-
-       <p><em><q>It's the same old story, but it's new to me.</q></em>
-       Whenever you use a RDBMS, you'll sooner or later ask the question is
-       there a way to <a href="http://www.google.com/search?hl=en&amp;q=%22get+the+last+inserted+id%22&amp;aq=f&amp;aqi=g-m1&amp;aql=&amp;oq=">get
-       the last inserted ID</a>. This, if any, is indeed a SQL FAQ.</p>
-
-       <p>That is, you'll inserted a line in a table, and now you want to use
-       this ID as a foreign key in another table. That is you want to create
-       data that can be retrieved using a join. All SQL dialects and APIs
-       provide facilities for this.</p>
-
-       <p>Unfortunately, you don't have such functions in neither XForms nor
-       XSLT. In XSLT that is no big deal; you <a href="http://sigfrid-lundberg.se/entries/2009/07/xslt_extensions/">can
-       program anything</a> in that language. It is worse in XForms. Fig. 4
-       shows shows an XForms trigger that executes a number of actions. It
-       inserts two nodes, one containing an IDREF and the other the
-       corresponding ID (like inserting both a department and an employee in
-       the SQL setup in Fig. 3).</p>
-
-       <p>The IDREF/ID values are created on the fly using XPath
-       functions. The problem turned out to be to get hold of the value again
-       for the second insert.</p>
-
-       <div>
-	 <pre>
-&lt;xf:trigger&gt;
-  &lt;xf:label&gt;Add key and value&lt;/xf:label&gt;
-  &lt;xf:action ev:event="DOMActivate"&gt;
-    &lt;xf:insert nodeset="key"
-	 at="last()"
-	 position="after" 
-	 origin="instance('empty-instance')/keys/key"/&gt;
-    &lt;xf:setvalue ev:event="DOMActivate"
-	 ref="key[last()]/@lookup" 
-	 value="concat('id',digest(string(random(true)), 'MD5', 'hex'))"/&gt;
-    &lt;xf:insert nodeset="instance('data-instance')/lookup/values"
-	 at="last()" 
-	 position="after" 
-	 origin="instance('empty-instance')/lookup/values"/&gt;
-    &lt;xf:setvalue ev:event="DOMActivate"
-	 ref="instance('data-instance')/lookup/values[last()]/@xml:id"
-	 value="instance('data-instance')/keys/key[last()]/@lookup"/&gt;
-  &lt;/xf:action&gt;
-&lt;/xf:trigger&gt;
-	 </pre>
-	 <p style="margin-left:+5%;margin-right:+5%;"><small>Fig. 4. XForms
-	 code that inserts two elements in a document of the kind shown in
-	 Fig. 1. The key element contains an IDREF (the attribute lookup)
-	 which points the corresponding xml:id among the values. The form
-	 operates by copying nodes from an empty instance and inserting them
-	 into the data-instance, i.e., the instance being edited by the
-	 user. The last setvalue contains the solution to the SQL FAQ:
-	 <strong>How do I get the last inserted ID</strong></small></p>
-       </div>
-
-       <h3>Take home message</h3>
-
-       <p>I've learned a lot of XForms and some new XPath functions. The code
-       I needed in the Music Encoding initiative example was much more
-       complicated than the trigger in Fig. 4.</p>
-
-       <p>The very reason for writing this was that I used more than a week on
-       this join and the corresponding ID/IDREF thing. I hadn't expected
-       that complexity.</p>
-
-       <p>But having been through this, I don't think there is any format that
-       cannot be edited using XForms 1.1. It is a pity that virtually all text
-       books and tutorials out there is XForms 1.0 and six or seven years
-       old. This is a very good technology that deserves a breakthrough.</p>
-
-
-     </div>
+    </div>
+    <br clear="all"/>
     <p style="text-align: left;"><em><strong>Categories:</strong></em> 
-	  <a href="/subjects/xmlprocessing/">XML processing</a>,
-	    <a href="/subjects/metadataprocessing/">Metadata processing</a><br/><em><strong>
+	  <a href="/subjects/images/">Images</a><br/><em><strong>
 		Permalink:
-	      </strong></em><a rel="bookmark" href="/entries/2010/03/aformwithajoin/">http://sigfrid-lundberg.se/entries/2010/03/aformwithajoin/</a></p>
+	      </strong></em><a rel="bookmark" href="/entries/2010/03/bash/">http://sigfrid-lundberg.se/entries/2010/03/bash/</a></p>
     <hr width="50%" align="center"/>
   </div>
   <div>
     <h1>Other, not yet obsolete stuff</h1>
     <table class="news">
+      <tr>
+        <td class="left">2010</td>
+        <td class="left"><a href="/entries/2010/03/solarenergy/"><em>Solar energy</em></a><br/>White reflects radiation from the sun to a larger degree than do
+  other colours<br/><a href="/subjects/images/">Images</a></td>
+      </tr>
+      <tr>
+        <td class="left">2010</td>
+        <td class="left"><a href="/entries/2010/03/aformwithajoin/"><em>A form with a join</em></a><br/>A form is a document, or part of one, that can be used for the
+  entry of data. A join is a construct in query languages such SQL. A join
+  allows you to lookup data in one part of a database based on a query in an
+  other part. Joins are very general, and may appear in other contexts. Such
+  as the XML forms language.<br/><a href="/subjects/xmlprocessing/">XML processing</a>,
+	<a href="/subjects/metadataprocessing/">Metadata processing</a></td>
+      </tr>
       <tr>
         <td class="left">2010</td>
         <td class="left"><a href="/entries/2010/02/youdontneed/"><em>Why you need a persistence strategy</em></a><br/>Here I go through some of the arguments why you need to implement a
@@ -270,14 +77,6 @@
   real danger then, it still is but the proliferation of synonymous
   vocabularies is worse still.<br/><a href="/subjects/internet/">Internet</a>,
 	<a href="/subjects/metadata/">Metadata</a></td>
-      </tr>
-      <tr>
-        <td class="left">2010</td>
-        <td class="left"><a href="/entries/2010/02/ibooook/"><em>Amazon, Adobe &amp; Apple</em></a><br/>My attitude towards eBooks has always been negative. Why should we lock content into proprietary formats. The sitution has changed.<br/><a href="/subjects/internet/">Internet</a></td>
-      </tr>
-      <tr>
-        <td class="left">2010</td>
-        <td class="left"><a href="/entries/2010/01/crossroad/"><em>An Irish Stew</em></a><br/>Is Internet at a crossroad?<br/><a href="/subjects/internet/">Internet</a></td>
       </tr>
     </table>
   </div>

@@ -39,12 +39,15 @@
 	</p>
       </div>
       <div style="clear:both;"><xsl:text> </xsl:text></div>
+
       <div style="width:100%;">
 
 	<xsl:apply-templates 
 	    mode="copy" 
 	    select="f:entry[not(f:category/@label = 'aboutme')][1]/
 		    f:content[@type='xhtml']/*"/>
+
+	<br clear="all"/>
 
 	<p style="text-align: left;">
 	  <em><strong>Categories:</strong></em>
@@ -82,7 +85,7 @@
 
 	<hr width="50%" align="center"/>
       </div>
-	
+
       <div>
 	<h1>Other, not yet obsolete stuff</h1>
 
