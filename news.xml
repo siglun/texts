@@ -1,11 +1,11 @@
 <div xmlns="http://www.w3.org/1999/xhtml">
   <div>
-    <h1 style="font-family: sans-serif; width: 55%; float: left;text-align: left;">Solar energy</h1>
+    <h1 style="font-family: sans-serif; width: 55%; float: left;text-align: left;">Thinking when the spring is approaching</h1>
     <p style="width: 38%; float: left;text-align: right">
       <em>
         <strong>
 		Sigfrid Lundberg's Stuff,
-	      2010-03-08</strong>
+	      2010-03-09</strong>
       </em>
     </p>
   </div>
@@ -13,27 +13,83 @@
   <div style="width:100%;">
     <div>
 
-      <div style="float:left;width:50%;margin-right:0.5em;margin-left:0.5em;">
-	<a href="http://sigfrid-lundberg.se/entries/2010/03/solarenergy/20100307269.jpg"><img src="http://sigfrid-lundberg.se/entries/2010/03/solarenergy/smaller20100307269.jpg" alt="Solar energy" width="100%"/></a>
-	
+      <div style="float:right;width:33%;margin-right:0.5em;margin-left:0.5em;">
+	<a href="http://sigfrid-lundberg.se/entries/2010/03/thinking/20100218231.jpg" title="The Thinker"><img src="http://sigfrid-lundberg.se/entries/2010/03/thinking/smaller20100218231.jpg" alt="The Thinker" width="100%"/></a>
+	<p>
+	  <small>Fig. 1. There is no doubt what the thinker has been thinking
+	  about this winter. Or that is what I think.</small>
+	</p>
       </div>
 
-      <p>White reflects radiation from the sun to a larger degree than do
-      other colours. The small leaf, seems like oak, is absorbing enough
-      energy to cause a local increase in temperature, which in turn has
-      caused the melting of some snow.</p>
+     <p>It has been a long and harsh winter here in Scandinavia. I am one of
+     those who hate the cold darkness which characterizes my part of the
+     world. Many of us have been thinking about the weather (Fig. 1).</p>
+
+     <p>Since christmas I've been involved two projects, one of which is
+     currently approaching deliverable. Unfortunately it has been delayed but
+     on the other hand I've got the opportunity to learn <a href="http://sigfrid-lundberg.se/entries/2010/03/aformwithajoin/" title="A Form with a Join">Xforms</a>. I think that both the library and
+     myself will benefit from it.</p>
+
+     <div style="float:left;width:33%;margin-right:0.75em;margin-left:0.5em;">
+       <a href="http://sigfrid-lundberg.se/entries/2010/03/thinking/20100130216.jpg" title="Public Transport Burdened by Ice">
+	 <img src="http://sigfrid-lundberg.se/entries/2010/03/thinking/smaller20100130216.jpg" width="100%" alt="Public Transport Burdened by Ice"/>
+       </a>
+       <p><small>Fig. 2. All public transport has had far too much
+       problems. And far too few trains has carried too many passengers, and
+       too much ice.</small></p>
+     </div>
+
+     <p>The other project, a redesign of our Digital Object Management System
+     (DOMS), is approaching a journey to Stanford together with some good
+     colleagues.</p>
+
+     <p>Those of us who <a href="http://sigfrid-lundberg.se/entries/2009/07/commuting/">commute</a>
+     has had problems during the winter (Fig. 2). Regardless of how we travel,
+     most of us look forward to the spring (Fig. 3).</p>
+
+      <div style="float:right;width:45%;margin-right:0.5em;margin-left:0.5em;">
+	<a href="http://sigfrid-lundberg.se/entries/2010/03/thinking/20100207227.jpg" title="Socially unacceptable vehicle in snow"><img src="http://sigfrid-lundberg.se/entries/2010/03/thinking/smaller20100207227.jpg" alt="Socially unacceptable vehicle in snow" width="100%"/></a>
+
+	<p><small>Fig. 3. But so has all Socially Unacceptable Vehicles. This
+	vehicle is buried. In snow. The owner looks forward to spring. So do
+	I.</small></p>
+      </div>
+
+      <h2>New projects</h2>
+
+      <p>I have two really stimulating projects which will keep me occupied
+      for the better part of the coming year. The most important one for me is
+      that I've been given the opportunity to spend one quarter of my time on
+      basic research into digital library objects.</p>
+
+      <p>The idea is to start from the <a href="http://scholar.google.com/scholar?hl=en&amp;q=soda%20model%20dumb%20archive&amp;aql=&amp;oq=&amp;um=1&amp;ie=UTF-8&amp;sa=N&amp;tab=ws">Smart
+      Object Dumb Archive</a> (SODA) model. It is an old model, but there is
+      not many alternatives.  There are a number of new approaches that look
+      very much like SODA, such as the successful <a href="http://www.idpf.org/">.epub format</a> and the formats used within
+      <a href="http://www.upnp.org/">Universal Plug and Play</a>. UPnP
+      distributes both metadata and digital objects such as music and film
+      within a local area network.</p>
+
+      <p>The second project is still just planning but here I will contribute
+      to a new critical edition of Ludvig Holbergs collected work.</p>
 
     </div>
     <br clear="all"/>
     <p style="text-align: left;"><em><strong>Categories:</strong></em> 
-	  <a href="/subjects/images/">Images</a><br/><em><strong>
+	  <a href="/subjects/essays/">Essays</a>,
+	    <a href="/subjects/images/">Images</a><br/><em><strong>
 		Permalink:
-	      </strong></em><a rel="bookmark" href="/entries/2010/03/solarenergy/">http://sigfrid-lundberg.se/entries/2010/03/solarenergy/</a></p>
+	      </strong></em><a rel="bookmark" href="/entries/2010/03/thinking/">http://sigfrid-lundberg.se/entries/2010/03/thinking/</a></p>
     <hr width="50%" align="center"/>
   </div>
   <div>
     <h1>Other, not yet obsolete stuff</h1>
     <table class="news">
+      <tr>
+        <td class="left">2010</td>
+        <td class="left"><a href="/entries/2010/03/solarenergy/"><em>Solar energy</em></a><br/>White reflects radiation from the sun to a larger degree than do
+  other colours<br/><a href="/subjects/images/">Images</a></td>
+      </tr>
       <tr>
         <td class="left">2010</td>
         <td class="left"><a href="/entries/2010/03/bash/"><em>Bourne Again Shell</em></a><br/>The Bourne Again Shell is a prominent part of my life. Dark moments
@@ -72,13 +128,6 @@
   sju år i skolan som barn, men i 60-årsåldern tog hon i princip
   gymnasiekompetens. I denna serie läser hon dikter och berättar ur minnet
   eftersom hon är nästan blind.<br/><a href="/subjects/essays/">Essays</a></td>
-      </tr>
-      <tr>
-        <td class="left">2010</td>
-        <td class="left"><a href="/entries/2010/02/semanticdrift/"><em>The proliferation of redundant meaning</em></a><br/>I first used the term semantic drift about 10 years ago. It was a
-  real danger then, it still is but the proliferation of synonymous
-  vocabularies is worse still.<br/><a href="/subjects/internet/">Internet</a>,
-	<a href="/subjects/metadata/">Metadata</a></td>
       </tr>
     </table>
   </div>
