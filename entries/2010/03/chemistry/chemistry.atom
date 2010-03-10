@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<entry xmlns="http://www.w3.org/2005/Atom" xmlns:dc="http://purl.org/dc/elements/1.1/">
+  <author>
+    <name>Sigfrid Lundberg</name>
+  </author>
+  <title>Drugs and OpenAccess</title>
+  <link href="/entries/2010/03/chemistry/"/>
+  <summary>In a recent article Theresa Velden &amp; Carl Lagoze (Communicating
+  chemistry, Nature Chemistry 1, 673-678 (2009)) discusses how tradition and
+  attitudes concerning IPR affect data sharing and how that in turn affects
+  scientists propensities to use web 2.0 tools and web of data
+  technologies.</summary>
+  <content type="xhtml">
+    <div xmlns="http://www.w3.org/1999/xhtml">
+
+      <p>In a recent article Theresa Velden &amp; Carl Lagoze
+      <em>Communicating chemistry</em>, <a
+      href="http://www.nature.com/nchem/journal/v1/n9/full/nchem.448.html">Nature
+      Chemistry 1, 673-678 (2009)</a> discusses how traditions and attitudes
+      concerning IPR affect data sharing and how that in turn affects
+      scientists propensities to use web 2.0 tools and web of data
+      technologies.</p>
+
+      <p>They address the problem why chemists, as opposed to (say) physicists
+      and molecular biologists are late adopters of </p>
+
+    </div>
+  </content>
+  <dc:date>2010</dc:date>
+  <category label="structuralwebdesign" term="Structural web design"/>
+  <updated>2010-03-10T08:02:01+01:00</updated>
+  <id>http://www.sigfrid-lundberg.se/entries/2010/03/chemistry/</id>
+  <!-- $Id$ -->
+</entry>
