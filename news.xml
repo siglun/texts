@@ -1,11 +1,11 @@
 <div xmlns="http://www.w3.org/1999/xhtml">
   <div>
-    <h1 style="font-family: sans-serif; width: 55%; float: left;text-align: left;">Thinking when the spring is approaching</h1>
+    <h1 style="font-family: sans-serif; width: 55%; float: left;text-align: left;">Drugs and OpenAccess</h1>
     <p style="width: 38%; float: left;text-align: right">
       <em>
         <strong>
 		Sigfrid Lundberg's Stuff,
-	      2010-03-09</strong>
+	      2010-03-10</strong>
       </em>
     </p>
   </div>
@@ -13,78 +13,79 @@
   <div style="width:100%;">
     <div>
 
-      <div style="float:right;width:33%;margin-right:0.5em;margin-left:0.5em;">
-	<a href="http://sigfrid-lundberg.se/entries/2010/03/thinking/20100218231.jpg" title="The Thinker"><img src="http://sigfrid-lundberg.se/entries/2010/03/thinking/smaller20100218231.jpg" alt="The Thinker" width="100%"/></a>
-	<p>
-	  <small>Fig. 1. There is no doubt what the thinker has been thinking
-	  about this winter. Or that is what I think.</small>
-	</p>
-      </div>
+      <p>In a recent article Theresa Velden &amp; Carl Lagoze
+      <em>Communicating chemistry</em>, <a href="http://www.nature.com/nchem/journal/v1/n9/full/nchem.448.html">Nature
+      Chemistry 1, 673-678 (2009)</a> discusses how traditions and attitudes
+      concerning IPR affect data sharing and how that in turn affects
+      scientists propensities to use web 2.0 tools and web of data
+      technologies.</p>
 
-     <p>It has been a long and harsh winter here in Scandinavia. I am one of
-     those who hate the cold darkness which characterizes my part of the
-     world. Many of us have been thinking about the weather (Fig. 1).</p>
+      <p>They address the problem why chemists, as opposed to (say) physicists
+      and molecular biologists are late adopters of Web 2.0 and
+      OpenAccess. These two are entirely different entities. The former is a
+      set of technologies and the second is a business model for the
+      publishing industry. Nevertheless, they are related.</p>
 
-     <p>Since christmas I've been involved two projects, one of which is
-     currently approaching deliverable. Unfortunately it has been delayed but
-     on the other hand I've got the opportunity to learn <a href="http://sigfrid-lundberg.se/entries/2010/03/aformwithajoin/" title="A Form with a Join">Xforms</a>. I think that both the library and
-     myself will benefit from it.</p>
+      <h3>Chemistry is a bit different</h3>
 
-     <div style="float:left;width:33%;margin-right:0.75em;margin-left:0.5em;">
-       <a href="http://sigfrid-lundberg.se/entries/2010/03/thinking/20100130216.jpg" title="Public Transport Burdened by Ice">
-	 <img src="http://sigfrid-lundberg.se/entries/2010/03/thinking/smaller20100130216.jpg" width="100%" alt="Public Transport Burdened by Ice"/>
-       </a>
-       <p><small>Fig. 2. All public transport has had far too much
-       problems. And far too few trains has carried too many passengers, and
-       too much ice.</small></p>
-     </div>
+      <p>Chemical and pharmaceutical industry are large employers of
+      chemists. Velden &amp; Lagoze mentions that ACS has 155000 members. Of
+      them <a href="http://pubs.acs.org/cen/acsnews/87/8710salary.html"> 62%
+      works within industry</a>. As a comparison, American physical Society
+      has <a href="http://www.aps.org/publications/apsnews/200902/loader.cfm?csModule=security/getfile&amp;pageid=159887">47189
+      members (year 2009)</a> but only about <a href="http://www.pas.rochester.edu/urpas/summary_of_aps_report_on_physicists_in_industry">20%
+      of them work within industry</a>. On the other hand, the same US source
+      claims that 56% of all physics PhDs worked in industry. </p>
 
-     <p>The other project, a redesign of our Digital Object Management System
-     (DOMS), is approaching a journey to Stanford together with some good
-     colleagues.</p>
+      <p>I don't think that the proportion of chemists working within industry
+      is high compared with people having training in engineering or computer
+      science. However, chemistry should be compared with the other sciences
+      not with engineering. Here chemistry appears to be a bit different in
+      comparison with physics or earth and life sciences.</p>
 
-     <p>Those of us who <a href="http://sigfrid-lundberg.se/entries/2009/07/commuting/">commute</a>
-     has had problems during the winter (Fig. 2). Regardless of how we travel,
-     most of us look forward to the spring (Fig. 3).</p>
+      <p>Chemistry is the science where a the largest proportion of all
+      researchers just consume scientific publication, but not contribute. It
+      should, conclude Velden &amp; Lagoze, not conclude anyone that IPR
+      thinking and secrecy more common within chemistry than elsewhere.</p>
 
-      <div style="float:right;width:45%;margin-right:0.5em;margin-left:0.5em;">
-	<a href="http://sigfrid-lundberg.se/entries/2010/03/thinking/20100207227.jpg" title="Socially unacceptable vehicle in snow"><img src="http://sigfrid-lundberg.se/entries/2010/03/thinking/smaller20100207227.jpg" alt="Socially unacceptable vehicle in snow" width="100%"/></a>
+      <p>Chemistry has fewer OpenAccess journals than most other part of
+      science, and chemists are less interested in social media kind of
+      e-science than are most other branches.</p>
 
-	<p><small>Fig. 3. But so has all Socially Unacceptable Vehicles. This
-	vehicle is buried. In snow. The owner looks forward to spring. So do
-	I.</small></p>
-      </div>
+      <h3>Infrastructure</h3>
 
-      <h2>New projects</h2>
+      <p>In spite of this, there are some really interesting developments
+      coming from chemistry. Velden &amp; Lagoze mentions</p>
 
-      <p>I have two really stimulating projects which will keep me occupied
-      for the better part of the coming year. The most important one for me is
-      that I've been given the opportunity to spend one quarter of my time on
-      basic research into digital library objects.</p>
+      <blockquote><em>a standardized chemical mark-up language, a computable
+      identifier for organic molecules (the IUPAC international chemical
+      identifier, or InChI), open-source tools for the manipulation and
+      management of chemical information6, and the use of free, hosted Web 2.0
+      services to support 'open-notebook science'</em></blockquote>
 
-      <p>The idea is to start from the <a href="http://scholar.google.com/scholar?hl=en&amp;q=soda%20model%20dumb%20archive&amp;aql=&amp;oq=&amp;um=1&amp;ie=UTF-8&amp;sa=N&amp;tab=ws">Smart
-      Object Dumb Archive</a> (SODA) model. It is an old model, but there is
-      not many alternatives.  There are a number of new approaches that look
-      very much like SODA, such as the successful <a href="http://www.idpf.org/">.epub format</a> and the formats used within
-      <a href="http://www.upnp.org/">Universal Plug and Play</a>. UPnP
-      distributes both metadata and digital objects such as music and film
-      within a local area network.</p>
-
-      <p>The second project is still just planning but here I will contribute
-      to a new critical edition of Ludvig Holbergs collected work.</p>
+      <p><a href="http://www.slideshare.net/jcbradley/scholar2scholar-presentation">This
+      open lab notebook</a> is interesting. It is fascinating to see how an
+      e-science infrastructure makes use of off-the shelf wiki and blog
+      software and combine these with storage in Google apps and communicates
+      via syndication feeds.</p>
 
     </div>
     <br clear="all"/>
     <p style="text-align: left;"><em><strong>Categories:</strong></em> 
-	  <a href="/subjects/essays/">Essays</a>,
-	    <a href="/subjects/images/">Images</a><br/><em><strong>
+	  <a href="/subjects/escience/">eScience</a><br/><em><strong>
 		Permalink:
-	      </strong></em><a rel="bookmark" href="/entries/2010/03/thinking/">http://sigfrid-lundberg.se/entries/2010/03/thinking/</a></p>
+	      </strong></em><a rel="bookmark" href="/entries/2010/03/chemistry/">http://sigfrid-lundberg.se/entries/2010/03/chemistry/</a></p>
     <hr width="50%" align="center"/>
   </div>
   <div>
     <h1>Other, not yet obsolete stuff</h1>
     <table class="news">
+      <tr>
+        <td class="left">2010</td>
+        <td class="left"><a href="/entries/2010/03/thinking/"><em>Thinking when the spring is approaching</em></a><br/>Winter is just the worst part of the year. Where approaching the
+  end of it.<br/><a href="/subjects/essays/">Essays</a>,
+	<a href="/subjects/images/">Images</a></td>
+      </tr>
       <tr>
         <td class="left">2010</td>
         <td class="left"><a href="/entries/2010/03/solarenergy/"><em>Solar energy</em></a><br/>White reflects radiation from the sun to a larger degree than do
@@ -120,14 +121,6 @@
   belong to the strategic field, and in that field the only thing I can offer
   is advice.<br/><a href="/subjects/structuralwebdesign/">Structural web design</a>,
 	<a href="/subjects/internet/">Internet</a></td>
-      </tr>
-      <tr>
-        <td class="left">2010</td>
-        <td class="left"><a href="/entries/2010/02/mor_minns/"><em>Podcast: Mor minns</em></a><br/>Min mor har tre år kvar till 100. Jag menar att hon är en helt
-  fantastisk kvinna, med ett knivskarpt intellekt. Hon fick aldrig gå mer än
-  sju år i skolan som barn, men i 60-årsåldern tog hon i princip
-  gymnasiekompetens. I denna serie läser hon dikter och berättar ur minnet
-  eftersom hon är nästan blind.<br/><a href="/subjects/essays/">Essays</a></td>
       </tr>
     </table>
   </div>

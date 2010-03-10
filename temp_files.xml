@@ -3972,6 +3972,83 @@
   <author>
     <name>Sigfrid Lundberg</name>
   </author>
+  <title>Drugs and OpenAccess</title>
+  <link href="/entries/2010/03/chemistry/"/>
+  <summary>In a recent article Theresa Velden &amp; Carl Lagoze (Communicating
+  chemistry, Nature Chemistry 1, 673-678 (2009)) discusses how tradition and
+  attitudes concerning IPR affect data sharing and how that in turn affects
+  scientists propensities to use web 2.0 tools and web of data
+  technologies.</summary>
+  <content type="xhtml">
+    <div xmlns="http://www.w3.org/1999/xhtml">
+
+      <p>In a recent article Theresa Velden &amp; Carl Lagoze
+      <em>Communicating chemistry</em>, <a href="http://www.nature.com/nchem/journal/v1/n9/full/nchem.448.html">Nature
+      Chemistry 1, 673-678 (2009)</a> discusses how traditions and attitudes
+      concerning IPR affect data sharing and how that in turn affects
+      scientists propensities to use web 2.0 tools and web of data
+      technologies.</p>
+
+      <p>They address the problem why chemists, as opposed to (say) physicists
+      and molecular biologists are late adopters of Web 2.0 and
+      OpenAccess. These two are entirely different entities. The former is a
+      set of technologies and the second is a business model for the
+      publishing industry. Nevertheless, they are related.</p>
+
+      <h3>Chemistry is a bit different</h3>
+
+      <p>Chemical and pharmaceutical industry are large employers of
+      chemists. Velden &amp; Lagoze mentions that ACS has 155000 members. Of
+      them <a href="http://pubs.acs.org/cen/acsnews/87/8710salary.html"> 62%
+      works within industry</a>. As a comparison, American physical Society
+      has <a href="http://www.aps.org/publications/apsnews/200902/loader.cfm?csModule=security/getfile&amp;pageid=159887">47189
+      members (year 2009)</a> but only about <a href="http://www.pas.rochester.edu/urpas/summary_of_aps_report_on_physicists_in_industry">20%
+      of them work within industry</a>. On the other hand, the same US source
+      claims that 56% of all physics PhDs worked in industry. </p>
+
+      <p>I don't think that the proportion of chemists working within industry
+      is high compared with people having training in engineering or computer
+      science. However, chemistry should be compared with the other sciences
+      not with engineering. Here chemistry appears to be a bit different in
+      comparison with physics or earth and life sciences.</p>
+
+      <p>Chemistry is the science where a the largest proportion of all
+      researchers just consume scientific publication, but not contribute. It
+      should, conclude Velden &amp; Lagoze, not conclude anyone that IPR
+      thinking and secrecy more common within chemistry than elsewhere.</p>
+
+      <p>Chemistry has fewer OpenAccess journals than most other part of
+      science, and chemists are less interested in social media kind of
+      e-science than are most other branches.</p>
+
+      <h3>Infrastructure</h3>
+
+      <p>In spite of this, there are some really interesting developments
+      coming from chemistry. Velden &amp; Lagoze mentions</p>
+
+      <blockquote><em>a standardized chemical mark-up language, a computable
+      identifier for organic molecules (the IUPAC international chemical
+      identifier, or InChI), open-source tools for the manipulation and
+      management of chemical information6, and the use of free, hosted Web 2.0
+      services to support 'open-notebook science'</em></blockquote>
+
+      <p><a href="http://www.slideshare.net/jcbradley/scholar2scholar-presentation">This
+      open lab notebook</a> is interesting. It is fascinating to see how an
+      e-science infrastructure makes use of off-the shelf wiki and blog
+      software and combine these with storage in Google apps and communicates
+      via syndication feeds.</p>
+
+    </div>
+  </content>
+  <dc:date>2010</dc:date>
+  <category label="escience" term="eScience"/>
+  <updated>2010-03-10T21:05:18+01:00</updated>
+  <id>http://www.sigfrid-lundberg.se/entries/2010/03/chemistry/</id>
+  <!-- $Id$ -->
+</entry><entry xmlns:dc="http://purl.org/dc/elements/1.1/">
+  <author>
+    <name>Sigfrid Lundberg</name>
+  </author>
   <title>Bourne Again Shell</title>
   <link href="/entries/2010/03/bash/"/>
   <summary>The Bourne Again Shell is a prominent part of my life. Dark moments
