@@ -16,9 +16,70 @@
       GET-requests, which good if you're actually just delivering
       content.</p>
 
-      <p>You can do a lot using REST and the <a
-      href="http://www.w3.org/Protocols/rfc2616/rfc2616-sec9.html">HTTP
-      protocol methods</a>.</p>
+      <div style="float:left;width:33%;margin-left:0.5em;margin-right:0.5em;">
+	<table style="width:100%;">
+	  <caption>Tab. 1. The methods defined in HTTP 1.1. Safe methods
+	  should not take any other action than retrieval. An idempotent
+	  method is one that has the same side effects if it is applied
+	  <em>n</em> times (<em>n</em>&gt;0), as when it it is applied
+	  once.</caption>
+
+	  <tr>
+	    <th>Method</th>
+	    <th>safe</th>
+	    <th>idempotent</th>
+	  </tr>
+
+	  <tr>
+	    <td>HEAD</td>
+	    <td>Yes</td>
+	    <td>Yes</td>
+	  </tr>
+
+	  <tr>
+	    <td>GET</td>
+	    <td>Yes</td>
+	    <td>Yes</td>
+	  </tr>
+
+	  <tr>
+	    <td>DELETE</td>
+	    <td>Yes</td>
+	    <td>Yes</td>
+	  </tr>
+
+	  <tr>
+	    <td>PUT</td>
+	    <td>No</td>
+	    <td>Yes</td>
+	  </tr>
+
+	  <tr>
+	    <td>POST</td>
+	    <td>No</td>
+	    <td>No</td>
+	  </tr>
+
+	  <tr>
+	    <td>TRACE</td>
+	    <td></td>
+	    <td></td>
+	  </tr>
+
+	  <tr>
+	    <td>OPTIONS</td>
+	    <td></td>
+	    <td></td>
+	  </tr>
+
+	</table>
+      </div>
+
+      <p>You can do a lot using REST and the set of <a
+      href="http://www.w3.org/Protocols/rfc2616/rfc2616-sec9.html">methods
+      defined for HTTP 1.1</a>. I've put the method in Tab. 1. Before we start
+      discussing Apache and how to implement the more esoteric methods
+      practically I'd like to dwell on the idempotency concept. </p>
 
     </div>
   </content>
