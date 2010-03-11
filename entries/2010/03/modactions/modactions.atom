@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<entry xmlns="http://www.w3.org/2005/Atom" xmlns:dc="http://purl.org/dc/elements/1.1/">
+  <author>
+    <name>Sigfrid Lundberg</name>
+  </author>
+  <title>Taking a REST with Apache mod_actions</title>
+  <link href="/entries/2010/03/modactions/"/>
+  <summary>REST has reached critical mass. And the war between REST and SOAP
+  is over.</summary>
+  <content type="xhtml">
+    <div xmlns="http://www.w3.org/1999/xhtml">
+
+      <p>I've been working with the REST paradigm for years. Or that is what
+      I've claimed. But really, what I've been delivering is really GETful web
+      services. These are services delivering all services using
+      GET-requests, which good if you're actually just delivering
+      content.</p>
+
+      <p>You can do a lot using REST and the <a
+      href="http://www.w3.org/Protocols/rfc2616/rfc2616-sec9.html">HTTP
+      protocol methods</a>.</p>
+
+    </div>
+  </content>
+  <dc:date>2010</dc:date>
+  <category label="internet" term="Internet"/>
+  <updated>2010-03-11T07:53:13+01:00</updated>
+  <id>http://www.sigfrid-lundberg.se/entries/2010/03/modactions/</id>
+</entry>
