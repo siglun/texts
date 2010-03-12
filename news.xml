@@ -1,11 +1,11 @@
 <div xmlns="http://www.w3.org/1999/xhtml">
   <div>
-    <h1 style="font-family: sans-serif; width: 55%; float: left;text-align: left;">Drugs and OpenAccess</h1>
+    <h1 style="font-family: sans-serif; width: 55%; float: left;text-align: left;">Idempotency and HTTP methods</h1>
     <p style="width: 38%; float: left;text-align: right">
       <em>
         <strong>
 		Sigfrid Lundberg's Stuff,
-	      2010-03-10</strong>
+	      2010-03-12</strong>
       </em>
     </p>
   </div>
@@ -13,73 +13,126 @@
   <div style="width:100%;">
     <div>
 
-      <p>In a recent article Theresa Velden &amp; Carl Lagoze
-      <em>Communicating chemistry</em>, <a href="http://www.nature.com/nchem/journal/v1/n9/full/nchem.448.html">Nature
-      Chemistry 1, 673-678 (2009)</a> discusses how traditions and attitudes
-      concerning IPR affect data sharing and how that in turn affects
-      scientists propensities to use web 2.0 tools and web of data
-      technologies.</p>
+      <p>I've been working with the <a href="http://en.wikipedia.org/wiki/Representational_State_Transfer">REST
+      paradigm for years</a>. Or that is what I've claimed. But really, what
+      I've been delivering is really GETful web services. These are services
+      delivering all services using GET-requests, which good if you're
+      actually just delivering content. But REST the architecture behind the
+      IT revolution. And central in the WWW is HTTP and there in the midst
+      you'll find the HTTP methods.</p>
 
-      <p>They address the problem why chemists, as opposed to (say) physicists
-      and molecular biologists are late adopters of Web 2.0 and
-      OpenAccess. These two are entirely different entities. The former is a
-      set of technologies and the second is a business model for the
-      publishing industry. Nevertheless, they are related.</p>
+      <div style="float:right;width:33%;margin-left:0.5em;margin-right:0.5em;margin-bottom:0.5em;">
+	<table style="width:100%;">
+	  <caption>Tab. 1. The methods defined in HTTP 1.1. Safe methods
+	  should not take any other action than retrieval. An idempotent
+	  method is one that has the same side effects if it is applied
+	  <em>n</em> times (<em>n</em>&gt;0), as when it it is applied
+	  once.</caption>
 
-      <h3>Chemistry is a bit different</h3>
+	  <tr>
+	    <th>Method</th>
+	    <th>safe</th>
+	    <th>idempotent</th>
+	  </tr>
 
-      <p>Chemical and pharmaceutical industry are large employers of
-      chemists. Velden &amp; Lagoze mentions that ACS has 155000 members. Of
-      them <a href="http://pubs.acs.org/cen/acsnews/87/8710salary.html"> 62%
-      works within industry</a>. As a comparison, American physical Society
-      has <a href="http://www.aps.org/publications/apsnews/200902/loader.cfm?csModule=security/getfile&amp;pageid=159887">47189
-      members (year 2009)</a> but only about <a href="http://www.pas.rochester.edu/urpas/summary_of_aps_report_on_physicists_in_industry">20%
-      of them work within industry</a>. On the other hand, the same US source
-      claims that 56% of all physics PhDs worked in industry. </p>
+	  <tr>
+	    <td>HEAD</td>
+	    <td>Yes</td>
+	    <td>Yes</td>
+	  </tr>
 
-      <p>I don't think that the proportion of chemists working within industry
-      is high compared with people having training in engineering or computer
-      science. However, chemistry should be compared with the other sciences
-      not with engineering. Here chemistry appears to be a bit different in
-      comparison with physics or earth and life sciences.</p>
+	  <tr>
+	    <td>GET</td>
+	    <td>Yes</td>
+	    <td>Yes</td>
+	  </tr>
 
-      <p>Chemistry is the science where a the largest proportion of all
-      researchers just consume scientific publication, but not contribute. It
-      should, conclude Velden &amp; Lagoze, not conclude anyone that IPR
-      thinking and secrecy more common within chemistry than elsewhere.</p>
+	  <tr>
+	    <td>DELETE</td>
+	    <td>Yes</td>
+	    <td>No</td>
+	  </tr>
 
-      <p>Chemistry has fewer OpenAccess journals than most other part of
-      science, and chemists are less interested in social media kind of
-      e-science than are most other branches.</p>
+	  <tr>
+	    <td>PUT</td>
+	    <td>No</td>
+	    <td>Yes</td>
+	  </tr>
 
-      <h3>Infrastructure</h3>
+	  <tr>
+	    <td>POST</td>
+	    <td>No</td>
+	    <td>No</td>
+	  </tr>
 
-      <p>In spite of this, there are some really interesting developments
-      coming from chemistry. Velden &amp; Lagoze mentions</p>
+	  <tr>
+	    <td>TRACE</td>
+	    <td/>
+	    <td/>
+	  </tr>
 
-      <blockquote><em>a standardized chemical mark-up language, a computable
-      identifier for organic molecules (the IUPAC international chemical
-      identifier, or InChI), open-source tools for the manipulation and
-      management of chemical information6, and the use of free, hosted Web 2.0
-      services to support 'open-notebook science'</em></blockquote>
+	  <tr>
+	    <td>OPTIONS</td>
+	    <td/>
+	    <td/>
+	  </tr>
 
-      <p><a href="http://www.slideshare.net/jcbradley/scholar2scholar-presentation">This
-      open lab notebook</a> is interesting. It is fascinating to see how an
-      e-science infrastructure makes use of off-the shelf wiki and blog
-      software and combine these with storage in Google apps and communicates
-      via syndication feeds.</p>
+	</table>
+      </div>
+
+      <p>You can do a lot using REST and the set of <a href="http://www.w3.org/Protocols/rfc2616/rfc2616-sec9.html">methods
+      defined for HTTP 1.1</a>. I've put the method in Tab. 1. I'd like to
+      dwell on the idempotency concept as applied to computing. I <a href="http://en.wikipedia.org/wiki/Idempotence#In_computing">quote
+      directly from Wikipedia</a>:</p>
+
+      <blockquote style="font-style:italic;">
+	<p style="margin-left:+5%;">In computer science, the term idempotent
+	is used to describe methods or subroutine calls that can safely be
+	called multiple times, as invoking the procedure a single time or
+	multiple times has the same result; i.e., after any number of method
+	calls all variables have the same value as they did after the first
+	call.</p>
+
+
+	<p style="margin-left:+5%;">This is a very useful property in many
+	situations: It means that an operation can be repeated or retried as
+	often as necessary without causing unintended effects. If the
+	operation were non-idempotent, it would be necessary to keep track of
+	whether it was already performed or not, which complicates many
+	algorithms.</p>
+      </blockquote>
+
+      <p>Let us make the <a href="http://www.guardian.co.uk/science/blog/2009/aug/14/hans-christian-rsted-birthday">gedanken
+      experiment</a> that the retrieval methods, GET and HEAD, in HTTP where
+      <strong>not idempotent in exactly this sense</strong>. Lean back, close
+      your eyes and meditate over the problem: <em>Which sequence of pages
+      would be necessary to retrieve <strong>today</strong> in order to get
+      the original <a href="http://www.nature.com/nature/dna50/watsoncrick.pdf">DNA</a>
+      structure.</em></p>
+
+      <p>To put it in another way: Idempotency is the feature of HTTP ensuring
+      that you receive predictable content when you dereference an URI, rather
+      than a my personalized version of, say, Watson &amp; Crick.</p>
 
     </div>
     <br clear="all"/>
     <p style="text-align: left;"><em><strong>Categories:</strong></em> 
-	  <a href="/subjects/escience/">eScience</a><br/><em><strong>
+	  <a href="/subjects/internet/">Internet</a><br/><em><strong>
 		Permalink:
-	      </strong></em><a rel="bookmark" href="/entries/2010/03/chemistry/">http://sigfrid-lundberg.se/entries/2010/03/chemistry/</a></p>
+	      </strong></em><a rel="bookmark" href="/entries/2010/03/modactions/">http://sigfrid-lundberg.se/entries/2010/03/modactions/</a></p>
     <hr width="50%" align="center"/>
   </div>
   <div>
     <h1>Other, not yet obsolete stuff</h1>
     <table class="news">
+      <tr>
+        <td class="left">2010</td>
+        <td class="left"><a href="/entries/2010/03/chemistry/"><em>Drugs and OpenAccess</em></a><br/>In a recent article Theresa Velden &amp; Carl Lagoze (Communicating
+  chemistry, Nature Chemistry 1, 673-678 (2009)) discusses how tradition and
+  attitudes concerning IPR affect data sharing and how that in turn affects
+  scientists propensities to use web 2.0 tools and web of data
+  technologies.<br/><a href="/subjects/escience/">eScience</a></td>
+      </tr>
       <tr>
         <td class="left">2010</td>
         <td class="left"><a href="/entries/2010/03/thinking/"><em>Thinking when the spring is approaching</em></a><br/>Winter is just the worst part of the year. Where approaching the
@@ -113,13 +166,6 @@
   thing that makes the Worldwide web to a web. Hence it is a serious thing. If
   you're working within the digital library world you should be devoted to the
   hypertext link.<br/><a href="/subjects/structuralwebdesign/">Structural web design</a>,
-	<a href="/subjects/internet/">Internet</a></td>
-      </tr>
-      <tr>
-        <td class="left">2010</td>
-        <td class="left"><a href="/entries/2010/02/persid/"><em>The URN:NBN is dead and resurrection is meaningless</em></a><br/>I'm one of those who try to base all decisions on facts. Politics
-  belong to the strategic field, and in that field the only thing I can offer
-  is advice.<br/><a href="/subjects/structuralwebdesign/">Structural web design</a>,
 	<a href="/subjects/internet/">Internet</a></td>
       </tr>
     </table>

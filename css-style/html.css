@@ -187,6 +187,8 @@ table {
     font-size: 90%;
     margin-left: +1%;
     vertical-align: top;
+    border-right: 1px solid;
+    border-bottom: 1px solid;
 }
 
 tbody {
@@ -194,11 +196,12 @@ tbody {
 }
 
 
-caption {
+table caption {
     text-align: left;
     color: black;
     font-size: 90%;
     vertical-align: top;
+    padding:0.2em;
 }
 
 td {
@@ -219,6 +222,8 @@ th {
     background-color: white;
     font-size: 90%;
     vertical-align: top;
+    border-top: 1px solid;
+    border-left: 1px solid;
 }
 
 table.navigation {
