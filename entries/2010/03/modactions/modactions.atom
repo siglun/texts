@@ -99,14 +99,12 @@
 	algorithms.</p>
       </blockquote>
 
-      <p>Let us make the <a
-      href="http://www.guardian.co.uk/science/blog/2009/aug/14/hans-christian-rsted-birthday">gedanken
+      <p>Let us make the <a href="http://www.guardian.co.uk/science/blog/2009/aug/14/hans-christian-rsted-birthday">gedanken
       experiment</a> that the retrieval methods, GET and HEAD, in HTTP where
       <strong>not idempotent in exactly this sense</strong>. Lean back, close
       your eyes and meditate over the problem: <em>Which sequence of pages
       would be necessary to retrieve <strong>today</strong> in order to get
-      the original <a
-      href="http://www.nature.com/nature/dna50/watsoncrick.pdf">DNA</a>
+      the original <a href="http://www.nature.com/nature/dna50/watsoncrick.pdf">DNA</a>
       structure.</em></p>
 
       <p>To put it in another way: Idempotency is the feature of HTTP ensuring
@@ -117,6 +115,6 @@
   </content>
   <dc:date>2010</dc:date>
   <category label="internet" term="Internet"/>
-  <updated>2010-03-12T08:38:52+01:00</updated>
+  <updated>2010-03-13T08:45:44+01:00</updated>
   <id>http://www.sigfrid-lundberg.se/entries/2010/03/modactions/</id>
 </entry>
