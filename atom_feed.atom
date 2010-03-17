@@ -6,7 +6,47 @@
   <title>Sigfrid Lundberg's Stuff</title>
   <id>http://sigfrid-lundberg.se/files.atom</id>
   <link rel="self" href="http://feeds.feedburner.com/SigfridLundbergsStuff?format=xml"/>
-  <updated>2010-03-14T21:31:02+01:00</updated>
+  <updated>2010-03-17T16:35:12+01:00</updated>
+  <entry>
+  <author>
+    <name>Sigfrid Lundberg</name>
+  </author>
+  <title>Modelling identifers?</title>
+  <link href="http://sigfrid-lundberg.se/entries/2010/03/pilin/"/>
+  <summary>Nick Nicholas, Nigel Ward and Kerry Blinco helps obscuring the
+  digital identifiers concept</summary>
+  <content type="xhtml">
+    <div xmlns="http://www.w3.org/1999/xhtml">
+
+      <p>Nick Nicholas, Nigel Ward and Kerry Blinco Abstract presents
+      discusses at length in the article <a href="http://www.ariadne.ac.uk/issue62/nicholas-et-al/">Modelling of
+      Digital Identifiers</a>.</p>
+
+      <p>About eighty percent of the paper presents a taxonomy of possible
+      identifiers. I hope that the authors enjoyed the intellectual exercise
+      writing it.</p>
+
+      <p>The remaining twenty percent disputes the current usage of URIs for
+      identification, and in particular the use of HTTP URIs that can easily
+      be dereferenced.</p>
+
+      <p>I want to make one thing clear. What interests me is hypertext
+      linking. In my world I working with resources that are overlapping
+      hierarchies of content objects, where the access point or anchor is to
+      be decided by the user and not the service provider.</p>
+
+      <p>Nicholas et al. are interested in something else. I cannot understand
+      why they find these other things are useful. To me they are just
+      boring.</p>
+
+    </div>
+  </content>
+  <dc:date>2010</dc:date>
+  <category label="structuralwebdesign" term="Structural web design"/>
+  <category label="internet" term="Internet"/>
+  <updated>2010-03-17T16:35:12+01:00</updated>
+  <id>http://www.sigfrid-lundberg.se/entries/2010/03/pilin/</id>
+</entry>
   <entry>
   <author>
     <name>Sigfrid Lundberg</name>
