@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<entry xmlns="http://www.w3.org/2005/Atom" xmlns:dc="http://purl.org/dc/elements/1.1/">
+  <author>
+    <name>Sigfrid Lundberg</name>
+  </author>
+  <title>On indexing of XML using XSLT</title>
+  <link href="/entries/2010/03/xslt_indexer/"/>
+  <summary>One of my really deep interests is the indexing of complex XML
+  content. Please find here the home page of one my software projects,
+  xslt_indexer</summary>
+  <content type="xhtml">
+    <div xmlns="http://www.w3.org/1999/xhtml">
+      <p>Back in July last year, I promised that I should return to how <a
+      href="http://sigfrid-lundberg.se/entries/2009/07/xslt_extensions/">xslt
+      extensions</a> could be used to index arbitrary XML documents.</p>
+
+      <p><kbd>xslt_indexer</kbd> is a JAVA application that I wrote a few
+      years ago. It is used in some applications, such as the <a
+      href="http://www.kb.dk/permalink/2006/poma/info/en/frontpage.htm">Guaman
+      Poma Web Site</a>.</p>
+
+      <p>The search engine is Apache Lucene, and the indexing engine is based
+      on Xalan Java. The principle is that you use xslt to create and save
+      lucene documents, and you can use xslt constructs to insert text into
+      arbitrary fields in the lucene documents.</p>
+    </div>
+  </content>
+  <dc:date>2010</dc:date>
+  <category label="xmlprocessing" term="XML Processing"/>
+  <updated>2010-03-18T07:39:00+01:00</updated>
+  <id>http://www.sigfrid-lundberg.se/entries/2010/03/xslt_indexer/</id>
+</entry>
