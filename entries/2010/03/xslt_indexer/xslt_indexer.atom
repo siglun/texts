@@ -23,6 +23,13 @@
       on Xalan Java. The principle is that you use xslt to create and save
       lucene documents, and you can use xslt constructs to insert text into
       arbitrary fields in the lucene documents.</p>
+
+      <p>Please find here</p>
+      <ul>
+	<li><a href="http://sigfrid-lundberg.se/entries/2010/03/xslt_indexer/xslt_indexer.tar.gz">xslt_indexer.tar.gz</a></li>
+	<li><a href="http://sigfrid-lundberg.se/entries/2010/03/xslt_indexer/docs/sjauiga_indexer.html">The manual</a></li>
+		<li><a href="http://sigfrid-lundberg.se/entries/2010/03/xslt_indexer/docs/javadoc/">The javadocs</a></li>
+      </ul>
     </div>
   </content>
   <dc:date>2010</dc:date>
