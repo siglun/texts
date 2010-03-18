@@ -1,0 +1,449 @@
+<html xmlns="http://www.w3.org/1999/xhtml">
+  <head>
+    <title>Indexer &amp; Search Engine</title>
+    <link rel="stylesheet"
+          href="/html_print.css"/>
+    <style media="all" type="text/css">
+      blockquote {
+      font-size: 9pt;
+      font-style: italic;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="level1">
+
+      <h1 class="title">xslt_indexer -- a full text indexing tool
+      extracting text and XML fragments using XSLT</h1>
+
+      <p class="author">Sigfrid Lundberg (slu@kb.dk)<br/>
+      The Royal Library<br/>
+      Copenhagen</p>
+
+      <div class="level2">
+
+	<h2>Introduction</h2>
+
+	<p>The xslt_indexer is a JAVA application and an API developed as a
+	part of the migration initiative which aimed at migrate a number of
+	old database applications to a common XML based platform.</p>
+
+	<p>This project, also known as SJAUIGA, developed a search and
+	xslt_indexer was developed as a general method of loading complex XML
+	objects, such as METS and TEI documents into a fielded search-able
+	index.</p>
+
+	<p>The machinery consists of an implementation of the <a
+	href="http://lucene.apache.org/java/docs/">Lucene JAVA search
+	API</a>. On top of that we have built an application
+	<kbd>xsl_index</kbd>, that can index arbitrary XML documents.</p>
+
+	<h2>The application</h2>
+
+	<p>xsl_index is using the xalan java xslt processor's
+	capability to use xpath functions <a
+	href="http://xml.apache.org/xalan-j/extensions.html">extensions
+	written in java</a>. The xsl_index is a command line tool. Its
+	<kbd>xsl_index --help</kbd> reports the following:</p>
+
+	<pre>
+Usage:
+-h or --help:                       Print this message
+-x or --xslt     &lt;xsl transform>:   A XSLT script performing the indexing
+-c or --create   &lt;index directory>: The directory where Lucene should
+                                    create a new index
+-u or --update   &lt;index directory>: The directory where Lucene should
+                                    update an existing index
+-d or --datafile &lt;file name>:       The name of an XML file to be indexed.
+                                    If a - is given as argument, the
+                                    program assumes that a list of file
+                                    names can be read from STDIN.
+-s or --source &lt;file name>:         Similar to -d but instead of containing a
+                                    single XML object file is supposed to
+                                    contain one single XML document per line
+                                    as a single string. If the argument is -,
+                                    these XML objects are read from STDIN.
+-v or --verbose &lt;verbosity>:        verbosity (debug level) 1, 2 or 3
+                                    The log is written to STDERR. You will
+                                    redirect to file yourself
+
+All files and directory should be given with complete path
+	</pre>
+
+	<p>There is no need to program to index a new kind of XML,
+	however one has to be able to write fairly advanced XSLT
+	scripts. We will give the one, mets2lucene.xsl we wrote to
+	index our METS files as an example below.</p>
+
+	<h3>A few worked examples</h3>
+
+	<p>Assuming we have a couple of hundred mets file in a file
+	system, all of which are called 'metsfile.xml', you may index
+	them all with the following command</p>
+
+	<pre>
+find /var/www/html/metsnavigator/manus/ -name metsfile.xml -print | \
+    ./xsl_index --xslt mets-data/scripts/mets2lucene.xsl \
+    --create ./index  --datafile - --verbose 3 > index.log 2>&amp;1
+	</pre>
+
+	<p>We use find to search throught our file system. xsl_index
+	will read its style sheet in
+	<kbd>../xslt/mets2lucene.xsl</kbd>, it will create a
+	new Lucene index in directory <kbd>./lucene</kbd>. The
+	xsl_index will read file names to index from STDIN, hence we
+	use the option --datafile - and it will write its very verbose
+	(--verbose 3) log to the file index.log</p>
+
+	<p>Using brief options.</p>
+
+	<pre>
+./xsl_index -x ./xslt_indexer/xslt/tei2lucene.xsl -u poma_index/ \
+            -d ./poma/tei/Poma-parsed.xml -v 0
+	</pre>
+
+	<p>which implies that we read an indexing style sheet from
+	<kbd><a
+	href="../xslt/tei2lucene.xsl">xslt_indexer/xslt/tei2lucene.xsl</a></kbd>,
+	updates an index in poma_index/ and creates a search index for
+	a single XML file <kbd>/poma/tei/Poma-parsed.xml</kbd>. The
+	indexer will hardly log anything.</p>
+
+
+	<p>The -s (or --source) option is useful for instance for the
+	case that multiple documents are stored in a single
+	file. Assuming that we have a file consisting of a lot of
+	xhtml which is structured such that fragments of XML can be
+	retrieved from it just by "grepping" for a string (in the case
+	below 'literary fragments', we can index these XML doclets
+	using the command:</p>
+
+	<h3>About the software</h3>
+
+	<p>xsl_index consists of two JAVA classes,</p>
+
+	<pre>
+dk.kb.dup.xsltIndexer.Driver
+dk.kb.dup.xsltIndexer.IndexLoader
+	</pre>
+
+	<p>Driver is the class containing the main method, and it is
+	that class which "transforms" the documents. The main class
+	communicates with the rest of the system by sending parameters
+	to xalan, and the style sheet must pass some of them the to
+	IndexLoader. The list of parameters used are</p>
+
+	<table border="1">
+	  <caption>Parameters that are given to the Driver on command
+	  line or created at need. They are passed on to the
+	  stylesheet via xalan. The style sheet must pass them on to
+	  the IndexLoader.</caption>
+	  <tr><th>parameter</th><th>meaning</th></tr>
+
+	  <tr>
+	    <td>mode</td>
+	    <td><kbd>create</kbd> or <kbd>update</kbd>. Tells Lucene
+	    whether it should create a new index or update an existing
+	    one. <strong>From command line</strong></td>
+	  </tr>
+	  <tr>
+	    <td>index_directory</td>
+	    <td>where the index should be built <strong>from command line</strong></td>
+	  </tr>	  
+	  <tr>
+	    <td>reader</td><td>An object (a Lucene indexReader) passed
+	    from the Driver. The style sheet <strong>must</strong> pass
+	    this on to the IndexLoader.</td>
+	  </tr>
+	  <tr>
+	    <td>writer</td><td>An object (a Lucene indexWriter) passed
+	    from the Driver. The style sheet <strong>must</strong> pass
+	    this on to the IndexLoader.</td>
+	  </tr>
+	  <tr>
+	    <td>analyzer</td><td>An object (a Lucene SimpleAnalyzer)
+	    passed from the Driver. The style sheet <strong>must</strong>
+	    pass this on to the IndexLoader.</td>
+	  </tr>
+	  <tr>
+	    <td>debug_level</td>
+	    <td>The verbosity parameter <strong>from command line</strong></td>
+	  </tr>
+	  <tr>
+	    <td>datasource</td>
+	    <td>Used for incremental update of indexes. Since one XML file
+	    can lead to hundreds of records, we embed its name in each
+	    record it will lead to. We can then identify (by a lucene
+	    search) and delete the lucene documents as needed if the XML
+	    file has been updated.</td>
+	  </tr>
+	  <tr>
+	    <td>sourcefield</td>
+	    <td>The field in the lucene documents in which we store the datasource</td>
+	  </tr>
+	</table>
+
+	<p>We give an example style sheet, designed for indexing METS
+	files. The example may not be up to date, but shows the
+	principles.</p>
+
+	<p>Please note the extension name spaces, and in particular
+	xmlns:IndexLoader="xalan://dk.kb.dup.xsltIndexer.IndexLoader,
+	which is where we declare our IndexLoader class. The methods
+	in that class which we use are</p>
+
+	<table border="1">
+	  <caption>Java methods used from inside XSLT for indexing
+	  text in the XML document</caption>
+	  <tr><td><kbd><a
+	  href="../javadoc/dk/kb/dup/xsltIndexer/IndexLoader.html#open_index(java.lang.String,%20java.lang.String,%20java.lang.String)">open_index</a></kbd></td><td>Opens
+	  the index for reading and writing.  May be deprecated in future
+	  releases.</td></tr>
+	  <tr><td><kbd><a
+	  href="../javadoc/dk/kb/dup/xsltIndexer/IndexLoader.html#open_document()">open_document</a></kbd></td><td>Called
+	  at the beginning of a lucene document.</td></tr>
+
+	  <tr><td><kbd><a
+	  href="../javadoc/dk/kb/dup/xsltIndexer/IndexLoader.html#setAnalyzer(Analyzer)">setAnalyzer</a></kbd></td><td>Method
+	  for passing the analyzer object from the Driver to the
+	  IndexLoader</td></tr>
+	  <tr><td><kbd><a
+	  href="../javadoc/dk/kb/dup/xsltIndexer/IndexLoader.html#setIndexReader(IndexReader)">setIndexReader</a></kbd></td><td>Method
+	  for passing the index reader object from the Driver to the
+	  IndexLoader</td></tr>
+	  <tr><td><kbd><a
+	  href="../javadoc/dk/kb/dup/xsltIndexer/IndexLoader.html#setIndexWriter(IndexWriter)">setIndexWriter</a></kbd></td><td>Method
+	  for passing the index writer object from the Driver to the
+	  IndexLoader</td></tr>
+
+
+	  <tr><td><kbd><a
+	  href="../javadoc/dk/kb/dup/xsltIndexer/IndexLoader.html#add_field(java.lang.String,%20java.lang.String,%20java.lang.String,%20java.lang.String)">add_field</a></kbd></td><td>adds
+	  a field and its content to the index</td></tr>
+	  <tr><td><kbd><a
+	  href="../javadoc/dk/kb/dup/xsltIndexer/IndexLoader.html#add_xml_field(java.lang.String,
+	  org.w3c.dom.traversal.NodeIterator, java.lang.String,
+	  java.lang.String)">add_xml_field</a></kbd></td><td>adds a
+	  XSLT node set as a XML document as a field in the
+	  index</td></tr>
+	  <tr><td><kbd><a
+	  href="../javadoc/dk/kb/dup/xsltIndexer/IndexLoader.html#close_document()">close_document</a></kbd></td><td>we
+	  close a lucene document</td></tr>
+	  <tr><td><kbd><a
+	  href="../javadoc/dk/kb/dup/xsltIndexer/IndexLoader.html#close_index()">close_index</a></kbd></td><td>Called
+	  after completing the indexing after a XML document. May be
+	  deprecated in future releases.</td></tr>
+	  <tr><td><kbd><a
+	  href="../javadoc/dk/kb/dup/xsltIndexer/IndexLoader.html#delete_documents(java.lang.String,%20java.lang.String)">delete_documents</a></kbd></td><td>delete
+	  lucene documents connected to the current data
+	  source</td></tr>
+	  <tr><td><kbd><a
+	  href="../javadoc/dk/kb/dup/xsltIndexer/IndexLoader.html#encode_uri(java.lang.String)">encode_uri</a></kbd></td><td>a
+	  utility function. It turned out that calling
+	  java.net.URI.Encode was better than using the URI encoder
+	  available inside Xalan.</td></tr>
+	</table>
+
+
+	<h3>An example stylesheet</h3>
+
+	<p>The functions are declared in &lt;xalan:component>
+	... &lt;xalan:component> tag at the very beginning of the
+	style sheet.</p>
+
+	<p>In the example below, all calls to the IndexLoader are in
+	bold face, and link to the appropriate part of the
+	javadoc.</p>
+
+	<pre>
+&lt;xsl:transform version="1.0"
+	       xmlns:xsl="http://www.w3.org/1999/XSL/Transform"
+	       xmlns:m="http://www.loc.gov/METS/"
+	       xmlns:xlink="http://www.w3.org/1999/xlink" 
+	       xmlns:md="http://www.loc.gov/mods/v3"
+	       xmlns:xalan="http://xml.apache.org/xslt"
+	       xmlns:java="http://xml.apache.org/xslt/java"
+	       xmlns:str="http://exslt.org/strings"
+	       xmlns:IndexLoader="xalan://dk.kb.dup.xsltIndexer.IndexLoader">
+
+  &lt;xsl:output encoding="UTF-8"
+	      method="text"/>
+
+  &lt;xsl:param name="mode"            select="'create'"   />
+  &lt;xsl:param name="index_directory" select="'/dev/null'"/>
+  &lt;xsl:param name="debug_level"     select="'0'"        />
+  &lt;xsl:param name="datasource"      select="''"         />
+  &lt;xsl:param name="sourcefield"     select="''"         />
+  &lt;xsl:param name="reader"          select="''"         />
+  &lt;xsl:param name="writer"          select="''"         />
+  &lt;xsl:param name="analyzer"        select="''"         />
+
+ &lt;xalan:component
+      prefix="IndexLoader"
+      functions="open_index open_document setAnalyzer setIndexReader setIndexWriter add_field add_xml_field close_document close_index delete_documents encode_uri">
+    &lt;xalan:script lang="javaclass" src="xalan://dk.kb.dup.xsltIndexer.IndexLoader"/>
+  &lt;/xalan:component>
+
+  &lt;xsl:template match="/">
+
+    &lt;!-- here we pass objects created in the Driver to the index loader.
+    <strong>These function calls should be somewhere where they are executed
+            once per indexed XML file</strong> -->
+
+    &lt;xsl:value-of 
+	select="IndexLoader:setAnalyzer($analyzer)"/>
+    &lt;xsl:value-of 
+	select="IndexLoader:setIndexReader($reader)"/>
+    &lt;xsl:value-of 
+	select="IndexLoader:setIndexWriter($writer)"/>
+
+    &lt;xsl:value-of 
+	select="<strong><a href="../javadoc/dk/kb/dup/xsltIndexer/IndexLoader.html#open_index(java.lang.String,%20java.lang.String,%20java.lang.String)">IndexLoader:open_index($mode,$index_directory,$debug_level)</a></strong>"/>
+
+    &lt;!-- Both the datasource and the corresponding source field come from
+	 the indexing driver.
+         This function call ensures that the lucene documents from a given
+	 XML document are deleted prior to indexing. This is our way to
+	 implement incremental update -->
+
+    &lt;xsl:if test="$mode='update' and $datasource and $sourcefield">
+       &lt;xsl:value-of 
+	   select="<strong><a href="../javadoc/dk/kb/dup/xsltIndexer/IndexLoader.html#delete_documents(java.lang.String,%20java.lang.String)">IndexLoader:delete_documents($sourcefield,$datasource)</a></strong>"/>
+    &lt;/xsl:if>
+    &lt;xsl:apply-templates select="m:mets"/>
+    &lt;xsl:value-of select="<strong><a href="../javadoc/dk/kb/dup/xsltIndexer/IndexLoader.html#close_index()">IndexLoader:close_index()</a></strong>"/>
+  &lt;/xsl:template>
+
+  &lt;xsl:template match="m:mets">
+    &lt;xsl:apply-templates select="m:structMap[@type='physical']"/>
+  &lt;/xsl:template>
+
+  &lt;xsl:template match="m:structMap">
+    &lt;xsl:for-each
+	select="/m:mets/
+		 m:dmdSec[@ID='md-root']/
+		 m:mdWrap/
+		 m:xmlData/
+		 md:mods/
+		 md:titleInfo">
+      &lt;xsl:variable name="lang">
+	&lt;xsl:value-of select="@xml:lang"/>
+      &lt;/xsl:variable>
+      &lt;xsl:apply-templates select="/m:mets/m:structMap[@type='physical']/m:div">
+	&lt;xsl:with-param name="lang">
+	  &lt;xsl:value-of select="$lang"/>
+	&lt;/xsl:with-param>
+      &lt;/xsl:apply-templates>
+    &lt;/xsl:for-each>
+  &lt;/xsl:template>
+
+  &lt;xsl:template match="m:div">
+    &lt;xsl:param name="lang" select="'dan'"/>
+
+    &lt;xsl:variable name="language">
+      &lt;xsl:choose>
+	&lt;xsl:when test="@xml:lang">
+	  &lt;xsl:value-of select="@xml:lang"/>
+	&lt;/xsl:when>
+	&lt;xsl:otherwise>
+	  &lt;xsl:value-of select="$lang"/>
+	&lt;/xsl:otherwise>
+      &lt;/xsl:choose>
+    &lt;/xsl:variable>
+
+    &lt;xsl:value-of select="<strong><a href="../javadoc/dk/kb/dup/xsltIndexer/IndexLoader.html#open_document()">IndexLoader:open_document()</a></strong>"/>
+    &lt;!-- Both the field and the data comes from the indexing driver.
+         The function call must be present in order to permit incremental
+         update -->
+    &lt;xsl:if test="$datasource and $sourcefield">
+      &lt;xsl:value-of 
+	  select="<strong><a href="../javadoc/dk/kb/dup/xsltIndexer/IndexLoader.html#add_field(java.lang.String,%20java.lang.String,%20java.lang.String,%20java.lang.String)">IndexLoader:add_field($sourcefield,$datasource,'store.yes','un_tokenized')</a></strong>"/>
+    &lt;/xsl:if>
+
+    &lt;xsl:if test="@ID">
+      &lt;xsl:value-of select="<strong><a href="../javadoc/dk/kb/dup/xsltIndexer/IndexLoader.html#add_field(java.lang.String,%20java.lang.String,%20java.lang.String,%20java.lang.String)">IndexLoader:add_field('divid',@ID,'store.yes','un_tokenized')</a></strong>"/>
+    &lt;/xsl:if>
+    &lt;xsl:if test="@ORDERLABEL">
+      &lt;xsl:value-of select="<strong><a href="../javadoc/dk/kb/dup/xsltIndexer/IndexLoader.html#add_field(java.lang.String,%20java.lang.String,%20java.lang.String,%20java.lang.String)">IndexLoader:add_field('orderlabel',@ORDERLABEL,'store.yes','un_tokenized')</a></strong>"/>
+    &lt;/xsl:if>
+
+    &lt;xsl:value-of select="<strong><a href="../javadoc/dk/kb/dup/xsltIndexer/IndexLoader.html#add_field(java.lang.String,%20java.lang.String,%20java.lang.String,%20java.lang.String)">IndexLoader:add_field('record_lang',$language,'store.yes','tokenized')</a></strong>"/>
+    &lt;xsl:call-template name="generateURI">
+      &lt;xsl:with-param name="lang">
+	&lt;xsl:value-of select="$language"/>
+      &lt;/xsl:with-param>
+    &lt;/xsl:call-template>
+
+    &lt;xsl:if test="@DMDID">
+      &lt;xsl:variable name="goto_id" select="@DMDID"/>
+      &lt;xsl:apply-templates
+	  select="//m:dmdSec[@ID=$goto_id]/m:mdWrap/m:xmlData/md:mods">
+	&lt;xsl:with-param name="lang">
+	  &lt;xsl:value-of select="$language"/>
+	&lt;/xsl:with-param>
+      &lt;/xsl:apply-templates>
+    &lt;/xsl:if>
+    &lt;xsl:value-of select="<strong><a href="../javadoc/dk/kb/dup/xsltIndexer/IndexLoader.html#close_document()">IndexLoader:close_document()</a></strong>"/>
+    &lt;xsl:apply-templates select="m:div[@xml:lang=$language]"/>
+  &lt;/xsl:template>
+
+  &lt;xsl:template match="md:mods">
+    &lt;xsl:param name="lang" select="'dan'"/>
+    &lt;xsl:apply-templates select="md:titleInfo[@xml:lang=$lang]"/>
+    &lt;xsl:apply-templates select="md:note[@xml:lang=$lang]"/>
+    &lt;xsl:apply-templates select="md:name[@xml:lang=$lang]"/>
+    &lt;xsl:apply-templates select="md:identifier"/>
+  &lt;/xsl:template>
+
+  &lt;xsl:template match="md:titleInfo">
+    &lt;xsl:apply-templates select="md:title"/>
+  &lt;/xsl:template>
+
+  &lt;xsl:template match="md:title">
+    &lt;xsl:value-of select="<strong><a href="../javadoc/dk/kb/dup/xsltIndexer/IndexLoader.html#add_field(java.lang.String,%20java.lang.String,%20java.lang.String,%20java.lang.String)">IndexLoader:add_field('title',.,'store.yes','tokenized')</a></strong>"/>
+  &lt;/xsl:template>
+
+  &lt;xsl:template match="md:note">
+    &lt;xsl:variable name="description">
+      &lt;xsl:apply-templates/>
+    &lt;/xsl:variable>
+    &lt;xsl:value-of select="<strong><a href="../javadoc/dk/kb/dup/xsltIndexer/IndexLoader.html#add_field(java.lang.String,%20java.lang.String,%20java.lang.String,%20java.lang.String)">IndexLoader:add_field('description',$description,'store.yes','tokenized')</a></strong>"/>
+  &lt;/xsl:template>
+
+  &lt;xsl:template match="md:name">
+    &lt;xsl:variable name="description">
+      &lt;xsl:apply-templates/>
+    &lt;/xsl:variable>
+    &lt;xsl:value-of select="<strong><a href="../javadoc/dk/kb/dup/xsltIndexer/IndexLoader.html#add_field(java.lang.String,%20java.lang.String,%20java.lang.String,%20java.lang.String)">IndexLoader:add_field('creator',$description,'store.yes','tokenized')</a></strong>"/>
+  &lt;/xsl:template>
+
+
+  &lt;xsl:template match="md:identifier[@type='signature']">
+    &lt;xsl:value-of select="<strong><a href="../javadoc/dk/kb/dup/xsltIndexer/IndexLoader.html#add_field(java.lang.String,%20java.lang.String,%20java.lang.String,%20java.lang.String)">IndexLoader:add_field('signature',.,'store.yes','tokenized')</a></strong>"/>
+  &lt;/xsl:template>
+
+  &lt;xsl:template match="md:relatedItem"/>
+
+  &lt;xsl:template name="generateURI">
+    &lt;xsl:param name="lang" select="'dan'"/>
+    &lt;xsl:variable name="application">
+      &lt;xsl:value-of select="substring-before(/m:mets/@OBJID,':')"/>
+    &lt;/xsl:variable>
+    &lt;xsl:variable name="document">
+      &lt;xsl:value-of select="substring-after(/m:mets/@OBJID,':')"/>
+    &lt;/xsl:variable>
+    &lt;xsl:variable name="orderlabel">
+      &lt;xsl:if test="@ORDERLABEL">
+	&lt;xsl:value-of select="concat(<strong><a href="../javadoc/dk/kb/dup/xsltIndexer/IndexLoader.html#encode_uri(java.lang.String)">IndexLoader:encode_uri(@ORDERLABEL)</a></strong>,'/')"/>
+      &lt;/xsl:if>
+    &lt;/xsl:variable>
+    &lt;xsl:value-of select="<strong><a href="../javadoc/dk/kb/dup/xsltIndexer/IndexLoader.html#add_field(java.lang.String,%20java.lang.String,%20java.lang.String,%20java.lang.String)">IndexLoader:add_field('identifier',concat('http://www.kb.dk/permalink/2006/',$application,'/',$document,'/',$lang,'/',$orderlabel),'store.yes','un_tokenized')</a></strong>"/>
+  &lt;/xsl:template>
+
+&lt;/xsl:transform>
+    </pre>
+  </div>
+</div>
+<p class="version"><small>$Revision$<br/>Last modified $Date$<br/>by $Author$</small></p>
+</body>
+</html>
