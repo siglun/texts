@@ -1,6 +1,6 @@
 <div xmlns="http://www.w3.org/1999/xhtml">
   <div>
-    <h1 style="font-family: sans-serif; width: 55%; float: left;text-align: left;">On indexing of XML using XSLT</h1>
+    <h1 style="font-family: sans-serif; width: 55%; float: left;text-align: left;">A new line in the list</h1>
     <p style="width: 38%; float: left;text-align: right">
       <em>
         <strong>
@@ -12,40 +12,57 @@
   <div style="clear:both;"> </div>
   <div style="width:100%;">
     <div>
-      <p>Back in July last year, I promised that I should return to how <a href="http://sigfrid-lundberg.se/entries/2009/07/xslt_extensions/">xslt
-      extensions</a> could be used to index arbitrary XML documents.</p>
 
-      <p><kbd>xslt_indexer</kbd> is a JAVA application that I wrote a few
-      years ago. It is used in some applications, such as the <a href="http://www.kb.dk/permalink/2006/poma/info/en/frontpage.htm">Guaman
-      Poma Web Site</a>.</p>
+      <p>If you're involved in what goes on on the Net at a technical level
+      then you will at some stage run into acronyms asuch ISOC, IESG and
+      IETF. They are, respectively, short for <a href="http://www.isoc.org/">Internet Society</a>, <a href="http://www.ietf.org/iesg/">Internet Engineering Steering Group</a>
+      and <a href="http://www.ietf.org/">Internet Engineering Task
+      Force</a>.</p>
 
-      <p>The search engine is Apache Lucene, and the indexing engine is based
-      on Xalan Java. The principle is that you use xslt to create and save
-      lucene documents, and you can use xslt constructs to insert text into
-      arbitrary fields in the lucene documents.</p>
+      <p>Even if industry has contributed a lot to the development of Internet
+      it has done so through these organizations. Furthermore, the Net as we
+      know it with its standards, traditions and concepts comes from
+      Academia. Internet grew out of a research project financed by the US
+      Navy, which supported research at US universities such as University of
+      California at Berkeley.</p>
 
-      <p>Please find here</p>
-      <ul>
-	<li><a href="http://sigfrid-lundberg.se/entries/2010/03/xslt_indexer/xslt_indexer.tar.gz">xslt_indexer.tar.gz</a></li>
-	<li><a href="http://sigfrid-lundberg.se/entries/2010/03/xslt_indexer/docs/sjauiga_indexer.html">The manual</a></li>
-		<li><a href="http://sigfrid-lundberg.se/entries/2010/03/xslt_indexer/javadoc/">The javadocs</a></li>
-      </ul>
+      <p>These organizations keep track of their histories. Indeed the best
+      Internet history comes from the IETF in <a href="http://tools.ietf.org/html/rfc2235">Request For Comments
+      2235</a>.</p>
 
-      <p>Beware though that this is work in progress, although the rate of
-      progress is very low. I've put it online mostly for the purpose of
-      publishing the idea. The error handling is virtually absent.</p>
+      <h3>IANA</h3>
+
+      <p>There is another important entity on the Internet. The <a href="http://www.iana.org">Internet Assigned Numbers Authority</a>
+      (IANA). This organization has in its care the <em>Internet Root
+      Zone</em>, that is it owns the name server that rules them all.</p>
+
+      <p>IANA is also keeping track of <strong>the list</strong> of MIME <a href="http://www.iana.org/assignments/media-types/">media types</a>. To
+      explain the significance of this list, you have to think about all those
+      times when you've failed to open some file sent to you with
+      e-mail. That's what happens when the sender's message header contains an
+      erroneous MIME media type.</p>
+
+      <p>Laurent Romary and myself have spent quite some time this week
+      writing an Internet draft.  The purpose of that draft is to add a single
+      line on the list of media types, namely <a href="http://sigfrid-lundberg.se/entries/2010/03/appteixml/draft-lundberg-app-tei-xml-00.html">application/tei+xml</a>.</p>
 
     </div>
     <br clear="all"/>
     <p style="text-align: left;"><em><strong>Categories:</strong></em> 
-	  <a href="/subjects/xmlprocessing/">XML Processing</a><br/><em><strong>
+	  <a href="/subjects/internet/">Internet</a><br/><em><strong>
 		Permalink:
-	      </strong></em><a rel="bookmark" href="/entries/2010/03/xslt_indexer/">http://sigfrid-lundberg.se/entries/2010/03/xslt_indexer/</a></p>
+	      </strong></em><a rel="bookmark" href="/entries/2010/03/appteixml/">http://sigfrid-lundberg.se/entries/2010/03/appteixml/</a></p>
     <hr width="50%" align="center"/>
   </div>
   <div>
     <h1>Other, not yet obsolete stuff</h1>
     <table class="news">
+      <tr>
+        <td class="left">2010</td>
+        <td class="left"><a href="/entries/2010/03/xslt_indexer/"><em>On indexing of XML using XSLT</em></a><br/>One of my really deep interests is the indexing of complex XML
+  content. Please find here the home page of one my software projects,
+  xslt_indexer<br/><a href="/subjects/xmlprocessing/">XML Processing</a></td>
+      </tr>
       <tr>
         <td class="left">2010</td>
         <td class="left"><a href="/entries/2010/03/pilin/"><em>Modelling identifers?</em></a><br/>Nick Nicholas, Nigel Ward and Kerry Blinco helps obscuring the
@@ -80,11 +97,6 @@
         <td class="left"><a href="/entries/2010/03/thinking/"><em>Thinking when the spring is approaching</em></a><br/>Winter is just the worst part of the year. Where approaching the
   end of it.<br/><a href="/subjects/essays/">Essays</a>,
 	<a href="/subjects/images/">Images</a></td>
-      </tr>
-      <tr>
-        <td class="left">2010</td>
-        <td class="left"><a href="/entries/2010/03/solarenergy/"><em>Solar energy</em></a><br/>White reflects radiation from the sun to a larger degree than do
-  other colours<br/><a href="/subjects/images/">Images</a></td>
       </tr>
     </table>
   </div>

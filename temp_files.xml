@@ -4653,6 +4653,56 @@
   <author>
     <name>Sigfrid Lundberg</name>
   </author>
+  <title>A new line in the list</title>
+  <link href="/entries/2010/03/appteixml/"/>
+  <summary>I've spent half of this week writing an Internet draft</summary>
+  <content type="xhtml">
+    <div xmlns="http://www.w3.org/1999/xhtml">
+
+      <p>If you're involved in what goes on on the Net at a technical level
+      then you will at some stage run into acronyms asuch ISOC, IESG and
+      IETF. They are, respectively, short for <a href="http://www.isoc.org/">Internet Society</a>, <a href="http://www.ietf.org/iesg/">Internet Engineering Steering Group</a>
+      and <a href="http://www.ietf.org/">Internet Engineering Task
+      Force</a>.</p>
+
+      <p>Even if industry has contributed a lot to the development of Internet
+      it has done so through these organizations. Furthermore, the Net as we
+      know it with its standards, traditions and concepts comes from
+      Academia. Internet grew out of a research project financed by the US
+      Navy, which supported research at US universities such as University of
+      California at Berkeley.</p>
+
+      <p>These organizations keep track of their histories. Indeed the best
+      Internet history comes from the IETF in <a href="http://tools.ietf.org/html/rfc2235">Request For Comments
+      2235</a>.</p>
+
+      <h3>IANA</h3>
+
+      <p>There is another important entity on the Internet. The <a href="http://www.iana.org">Internet Assigned Numbers Authority</a>
+      (IANA). This organization has in its care the <em>Internet Root
+      Zone</em>, that is it owns the name server that rules them all.</p>
+
+      <p>IANA is also keeping track of <strong>the list</strong> of MIME <a href="http://www.iana.org/assignments/media-types/">media types</a>. To
+      explain the significance of this list, you have to think about all those
+      times when you've failed to open some file sent to you with
+      e-mail. That's what happens when the sender's message header contains an
+      erroneous MIME media type.</p>
+
+      <p>Laurent Romary and myself have spent quite some time this week
+      writing an Internet draft.  The purpose of that draft is to add a single
+      line on the list of media types, namely <a href="http://sigfrid-lundberg.se/entries/2010/03/appteixml/draft-lundberg-app-tei-xml-00.html">application/tei+xml</a>.</p>
+
+    </div>
+  </content>
+  <dc:date>2010</dc:date>
+  <category label="internet" term="Internet"/>
+  <updated>2010-03-18T15:19:53+01:00</updated>
+  <id>http://www.sigfrid-lundberg.se/entries/2010/03/appteixml/</id>
+  <!-- $Id$ -->
+</entry><entry xmlns:dc="http://purl.org/dc/elements/1.1/">
+  <author>
+    <name>Sigfrid Lundberg</name>
+  </author>
   <title>Thinking when the spring is approaching</title>
   <link href="/entries/2010/03/thinking/"/>
   <summary>Winter is just the worst part of the year. Where approaching the
