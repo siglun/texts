@@ -1,11 +1,11 @@
 <div xmlns="http://www.w3.org/1999/xhtml">
   <div>
-    <h1 style="font-family: sans-serif; width: 55%; float: left;text-align: left;">A new line in the list</h1>
+    <h1 style="font-family: sans-serif; width: 55%; float: left;text-align: left;">Stanford</h1>
     <p style="width: 38%; float: left;text-align: right">
       <em>
         <strong>
 		Sigfrid Lundberg's Stuff,
-	      2010-03-18</strong>
+	      2010-03-24</strong>
       </em>
     </p>
   </div>
@@ -13,50 +13,89 @@
   <div style="width:100%;">
     <div>
 
-      <p>If you're involved in what goes on on the Net at a technical level
-      then you will at some stage run into acronyms asuch ISOC, IESG and
-      IETF. They are, respectively, short for <a href="http://www.isoc.org/">Internet Society</a>, <a href="http://www.ietf.org/iesg/">Internet Engineering Steering Group</a>
-      and <a href="http://www.ietf.org/">Internet Engineering Task
-      Force</a>.</p>
+      <p>Jacob Larsen, Eld Zierau and myself are participating in the <a href="http://lib.stanford.edu/ldcx">LibDevConX Meeting at Stanford,
+      23-25 March 2010</a> (See also <a href="http://www.flickr.com/photos/rtennant/4457544717/">Roy Tennant's
+      Photostream</a>). I will return to this here. However, I've as yet
+      little to report. I have to think a bit before I write. While I do that,
+      you may enjoy my first visual impressions from Palo Alto and
+      Stanford..</p>
 
-      <p>Even if industry has contributed a lot to the development of Internet
-      it has done so through these organizations. Furthermore, the Net as we
-      know it with its standards, traditions and concepts comes from
-      Academia. Internet grew out of a research project financed by the US
-      Navy, which supported research at US universities such as University of
-      California at Berkeley.</p>
+      <div style="float:left;width:60%;margin:0.5em;">
+	<a href="/entries/2010/03/stanford/20100322315.jpg" title="Garden in Palo Alto">
+	  <img src="/entries/2010/03/stanford/smaller20100322315.jpg" alt="Garden in Palo Alto"/>
+	</a>
+      </div>
 
-      <p>These organizations keep track of their histories. Indeed the best
-      Internet history comes from the IETF in <a href="http://tools.ietf.org/html/rfc2235">Request For Comments
-      2235</a>.</p>
+      <p>A lovely garden somewhere between our hotel and the Meyer Library at
+      Stanford University.</p>
 
-      <h3>IANA</h3>
+      <br clear="all"/>
 
-      <p>There is another important entity on the Internet. The <a href="http://www.iana.org">Internet Assigned Numbers Authority</a>
-      (IANA). This organization has in its care the <em>Internet Root
-      Zone</em>, that is it owns the name server that rules them all.</p>
+      <div style="float:right;width:60%;margin:0.5em;">
+	<a href="/entries/2010/03/stanford/20100322318.jpg" title="Rodin at Stanford">
+	  <img src="/entries/2010/03/stanford/smaller20100322318.jpg" alt="Rodin at Stanford" width="100%"/>
+	</a>
+      </div>
 
-      <p>IANA is also keeping track of <strong>the list</strong> of MIME <a href="http://www.iana.org/assignments/media-types/">media types</a>. To
-      explain the significance of this list, you have to think about all those
-      times when you've failed to open some file sent to you with
-      e-mail. That's what happens when the sender's message header contains an
-      erroneous MIME media type.</p>
+      <p>Gustave Rodin at Stanford University. You may want to compare this
+      with <a href="http://sigfrid-lundberg.se/entries/2010/03/thinking/">the
+      Rodin in Copenhagen.</a></p>
 
-      <p>Laurent Romary and myself have spent quite some time this week
-      writing an Internet draft.  The purpose of that draft is to add a single
-      line on the list of media types, namely <a href="http://sigfrid-lundberg.se/entries/2010/03/appteixml/draft-lundberg-app-tei-xml-00.html">application/tei+xml</a>.</p>
+      <br clear="all"/>
+
+      <div style="float:left;width:60%;margin:0.5em;">
+	<a href="/entries/2010/03/stanford/20100322320.jpg" title="Graffiti?">
+	  <img src="/entries/2010/03/stanford/smaller20100322320.jpg" alt="Graffiti?" width="100%"/>
+	</a>
+      </div>
+
+      <p>A nice graffiti, or is it al fresco? And what is the difference</p>
+
+      <br clear="all"/>
+
+      <div style="float:right;width:60%;margin:0.5em;">
+	<a href="/entries/2010/03/stanford/20100322322.jpg">
+	  <img src="/entries/2010/03/stanford/smaller20100322322.jpg" width="100%"/>
+	</a>
+      </div>
+      
+      <p>Science against an evilgelical religion.</p>
+
+      <br clear="all"/>
+
+      <div style="float:left;width:60%;margin:0.5em;">
+	<a href="/entries/2010/03/stanford/20100323325.jpg">
+	  <img src="/entries/2010/03/stanford/smaller20100323325.jpg" width="100%"/>
+	</a>
+      </div>
+
+      <p>The Papua New Guinea Sculpture Park.</p>
+
+      <br clear="all"/>
+
+      <div style="float:right;width:60%;margin:0.5em;">
+	<a href="/entries/2010/03/stanford/20100323329.jpg">
+	  <img src="/entries/2010/03/stanford/smaller20100323329.jpg" width="100%"/>
+	</a>
+      </div>
+
+      <p>The view from my hotel room.</p>
 
     </div>
     <br clear="all"/>
     <p style="text-align: left;"><em><strong>Categories:</strong></em> 
-	  <a href="/subjects/internet/">Internet</a><br/><em><strong>
+	  <a href="/subjects/images/">Images</a><br/><em><strong>
 		Permalink:
-	      </strong></em><a rel="bookmark" href="/entries/2010/03/appteixml/">http://sigfrid-lundberg.se/entries/2010/03/appteixml/</a></p>
+	      </strong></em><a rel="bookmark" href="/entries/2010/03/stanford/">http://sigfrid-lundberg.se/entries/2010/03/stanford/</a></p>
     <hr width="50%" align="center"/>
   </div>
   <div>
     <h1>Other, not yet obsolete stuff</h1>
     <table class="news">
+      <tr>
+        <td class="left">2010</td>
+        <td class="left"><a href="/entries/2010/03/appteixml/"><em>A new line in the list</em></a><br/>I've spent half of this week writing an Internet draft<br/><a href="/subjects/internet/">Internet</a></td>
+      </tr>
       <tr>
         <td class="left">2010</td>
         <td class="left"><a href="/entries/2010/03/xslt_indexer/"><em>On indexing of XML using XSLT</em></a><br/>One of my really deep interests is the indexing of complex XML
@@ -91,12 +130,6 @@
   attitudes concerning IPR affect data sharing and how that in turn affects
   scientists propensities to use web 2.0 tools and web of data
   technologies.<br/><a href="/subjects/escience/">eScience</a></td>
-      </tr>
-      <tr>
-        <td class="left">2010</td>
-        <td class="left"><a href="/entries/2010/03/thinking/"><em>Thinking when the spring is approaching</em></a><br/>Winter is just the worst part of the year. Where approaching the
-  end of it.<br/><a href="/subjects/essays/">Essays</a>,
-	<a href="/subjects/images/">Images</a></td>
       </tr>
     </table>
   </div>

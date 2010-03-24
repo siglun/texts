@@ -6,7 +6,94 @@
   <title>Sigfrid Lundberg's Stuff</title>
   <id>http://sigfrid-lundberg.se/files.atom</id>
   <link rel="self" href="http://feeds.feedburner.com/SigfridLundbergsStuff?format=xml"/>
-  <updated>2010-03-18T15:19:53+01:00</updated>
+  <updated>2010-03-24T06:04:51+01:00</updated>
+  <entry>
+  <author>
+    <name>Sigfrid Lundberg</name>
+  </author>
+  <title>Stanford</title>
+  <link href="http://sigfrid-lundberg.se/entries/2010/03/stanford/"/>
+  <summary>I've never been to California before. Now I'm here late in March
+  after an unusually harsh Scandinavian winter</summary>
+  <content type="xhtml">
+    <div xmlns="http://www.w3.org/1999/xhtml">
+
+      <p>Jacob Larsen, Eld Zierau and myself are participating in the <a href="http://lib.stanford.edu/ldcx">LibDevConX Meeting at Stanford,
+      23-25 March 2010</a> (See also <a href="http://www.flickr.com/photos/rtennant/4457544717/">Roy Tennant's
+      Photostream</a>). I will return to this here. However, I've as yet
+      little to report. I have to think a bit before I write. While I do that,
+      you may enjoy my first visual impressions from Palo Alto and
+      Stanford..</p>
+
+      <div style="float:left;width:60%;margin:0.5em;">
+	<a href="/entries/2010/03/stanford/20100322315.jpg" title="Garden in Palo Alto">
+	  <img src="/entries/2010/03/stanford/smaller20100322315.jpg" alt="Garden in Palo Alto"/>
+	</a>
+      </div>
+
+      <p>A lovely garden somewhere between our hotel and the Meyer Library at
+      Stanford University.</p>
+
+      <br clear="all"/>
+
+      <div style="float:right;width:60%;margin:0.5em;">
+	<a href="/entries/2010/03/stanford/20100322318.jpg" title="Rodin at Stanford">
+	  <img src="/entries/2010/03/stanford/smaller20100322318.jpg" alt="Rodin at Stanford" width="100%"/>
+	</a>
+      </div>
+
+      <p>Gustave Rodin at Stanford University. You may want to compare this
+      with <a href="http://sigfrid-lundberg.se/entries/2010/03/thinking/">the
+      Rodin in Copenhagen.</a></p>
+
+      <br clear="all"/>
+
+      <div style="float:left;width:60%;margin:0.5em;">
+	<a href="/entries/2010/03/stanford/20100322320.jpg" title="Graffiti?">
+	  <img src="/entries/2010/03/stanford/smaller20100322320.jpg" alt="Graffiti?" width="100%"/>
+	</a>
+      </div>
+
+      <p>A nice graffiti, or is it al fresco? And what is the difference</p>
+
+      <br clear="all"/>
+
+      <div style="float:right;width:60%;margin:0.5em;">
+	<a href="/entries/2010/03/stanford/20100322322.jpg">
+	  <img src="/entries/2010/03/stanford/smaller20100322322.jpg" width="100%"/>
+	</a>
+      </div>
+      
+      <p>Science against an evilgelical religion.</p>
+
+      <br clear="all"/>
+
+      <div style="float:left;width:60%;margin:0.5em;">
+	<a href="/entries/2010/03/stanford/20100323325.jpg">
+	  <img src="/entries/2010/03/stanford/smaller20100323325.jpg" width="100%"/>
+	</a>
+      </div>
+
+      <p>The Papua New Guinea Sculpture Park.</p>
+
+      <br clear="all"/>
+
+      <div style="float:right;width:60%;margin:0.5em;">
+	<a href="/entries/2010/03/stanford/20100323329.jpg">
+	  <img src="/entries/2010/03/stanford/smaller20100323329.jpg" width="100%"/>
+	</a>
+      </div>
+
+      <p>The view from my hotel room.</p>
+
+    </div>
+  </content>
+  <dc:date>2010</dc:date>
+  <category label="images" term="Images"/>
+  <updated>2010-03-24T06:04:51+01:00</updated>
+  <id>http://www.sigfrid-lundberg.se/entries/2010/03/stanford/</id>
+  <!-- $Id$ -->
+</entry>
   <entry>
   <author>
     <name>Sigfrid Lundberg</name>
@@ -48,7 +135,7 @@
 
       <p>Laurent Romary and myself have spent quite some time this week
       writing an Internet draft.  The purpose of that draft is to add a single
-      line on the list of media types, namely <a href="http://sigfrid-lundberg.se/entries/2010/03/appteixml/draft-lundberg-app-tei-xml-00.html">application/tei+xml</a>.</p>
+      line on the list of media types, containing the string <a href="http://sigfrid-lundberg.se/entries/2010/03/appteixml/draft-lundberg-app-tei-xml-00.html">application/tei+xml</a>.</p>
 
     </div>
   </content>
