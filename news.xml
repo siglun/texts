@@ -19,7 +19,7 @@
       Analytics</a>, and the crude statistics from <a href="http://en.wikipedia.org/wiki/FeedBurner">FeedBurner</a>. Analytics
       doesn't tell me anything about the use of the feed, since I cannot embed
       javascript in a feed. Only Googlebot (I use it as a Google Sitemap) and
-      Feedburner accesses the feed directly,. The rest of you get the feed via
+      Feedburner accesses the feed directly. The rest of you get the feed via
       Feedburner.</p>
 
       <p>Feedburner keeps a cache, and refreshes that every 30 minutes. The
