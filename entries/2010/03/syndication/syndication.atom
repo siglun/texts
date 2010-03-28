@@ -39,11 +39,9 @@
       <h3>Headless Layout &amp; Absolute Links</h3>
 
       <p>All the entries on this site are written directly in Atom using nxml
-      mode for Emacs. The <a
-      href="http://sigfrid-lundberg.se/entries/2009/07/colophon/">site is
+      mode for Emacs. The <a href="http://sigfrid-lundberg.se/entries/2009/07/colophon/">site is
       generated</a> from this source using a number of different scripts, the
-      bulk of it written in XSLT. The source file for this entry is <a
-      href="http://sigfrid-lundberg.se/entries/2010/03/syndication/syndication.atom">here</a>.
+      bulk of it written in XSLT. The source file for this entry is <a href="http://sigfrid-lundberg.se/entries/2010/03/syndication/syndication.atom">here</a>.
       There are two things you have to think about when you write and design
       your content for syndication:</p>
 
@@ -59,22 +57,16 @@
 	unable to define CSS classes.</li>
       </ol>
 
-      <p>The problem with javascript manifests itself differently. <a
-      href="http://grazr.com">grazr.com</a> has a nice category browser, which
-      can be used on some of <a
-      href="http://sigfrid-lundberg.se/entries/2009/07/opml/">KB's
+      <p>The problem with javascript manifests itself differently. <a href="http://grazr.com">grazr.com</a> has a nice category browser, which
+      can be used on some of <a href="http://sigfrid-lundberg.se/entries/2009/07/opml/">KB's
       data</a>. It seases to work at least when stuff is syndicated on Google
       Hompepage.</p>
 
       <div style="float:left;width:60%;margin:0.5em;">
-	<a href="http://sigfrid-lundberg.se/entries/2010/03/syndication/screenshot.png" 
-	   title="Entry on Google Homepage">
-	  <img src="/entries/2010/03/syndication/screenshot.png" 
-	       width="100%"
-	       alt="Entry on Google Homepage"/>
+	<a href="http://sigfrid-lundberg.se/entries/2010/03/syndication/screenshot.png" title="Entry on Google Homepage">
+	  <img src="/entries/2010/03/syndication/screenshot.png" width="100%" alt="Entry on Google Homepage"/>
 	</a>
-	<p><small>Fig. 1. My <a
-	href="http://sigfrid-lundberg.se/entries/2010/03/stanford/">previous
+	<p><small>Fig. 1. My <a href="http://sigfrid-lundberg.se/entries/2010/03/stanford/">previous
 	entry</a> as it appears on my iGoogle Homepage. Note that all the
 	captions appear next to the first image, not as they should adjacent
 	to the corresponding one. This is Google chrome but it looks the same
@@ -146,7 +138,7 @@
 
       <p>A nice graffiti, or is it al fresco? And what is the difference?
       Break is using an empty <kbd>&lt;div
-      style="clear:both;">...&lt;/div></kbd>. Predicted behaviour: Will
+      style="clear:both;"&gt;...&lt;/div&gt;</kbd>. Predicted behaviour: Will
       generate a break in Google.</p>
 
       <div style="clear:both;">
@@ -159,7 +151,7 @@
       </div>
       
       <p>Science against an evilgelical religion. Break is again a <kbd>&lt;br
-      style="clear:both;"/></kbd></p>
+      style="clear:both;"/&gt;</kbd></p>
 
       <br style="clear:both;"/>
 
@@ -170,7 +162,7 @@
       </div>
 
       <p>The Papua New Guinea Sculpture Park. <kbd>&lt;br
-      clear="all"/></kbd> as before</p>
+      clear="all"/&gt;</kbd> as before</p>
 
       <br clear="all"/>
 
@@ -185,8 +177,8 @@
     </div>
   </content>
   <dc:date>2010</dc:date>
-  <category label="images" term="Images"/>
-  <updated>2010-03-28T15:07:36+01:00</updated>
+  <category label="structuralwebdesign" term="Structural web design"/>
+  <updated>2010-03-28T17:51:55+01:00</updated>
   <id>http://www.sigfrid-lundberg.se/entries/2010/03/syndication/</id>
   <!-- $Id$ -->
 </entry>
