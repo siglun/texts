@@ -4462,6 +4462,188 @@
   <author>
     <name>Sigfrid Lundberg</name>
   </author>
+  <title>The syndication of style &amp; layout</title>
+  <link href="/entries/2010/03/syndication/"/>
+  <summary>Quite a few and perhaps a majority of my readers seldom visits my
+  site. This entry is about the problems of syndication and how you are
+  limited by the styling and layout on the site where your material is
+  presented.</summary>
+  <content type="xhtml">
+    <div xmlns="http://www.w3.org/1999/xhtml">
+
+      <p>The most frequently retrieved document from this site is my <a href="http://feeds.feedburner.com/SigfridLundbergsStuff?format=xml">syndication
+      feed</a>. I can tell that from the otherwise lousy statistics provided
+      by my ISP. I also use <a href="http://www.google.com/analytics/">Google
+      Analytics</a>, and the crude statistics from <a href="http://en.wikipedia.org/wiki/FeedBurner">FeedBurner</a>. Analytics
+      doesn't tell me anything about the use of the feed, since I cannot embed
+      javascript in a feed. Only Googlebot (I use it as a Google Sitemap) and
+      Feedburner accesses the feed directly,. The rest of you get the feed via
+      Feedburner.</p>
+
+      <p>Feedburner keeps a cache, and refreshes that every 30 minutes. The
+      feed is retrieved around 250 times a week, and I would have expected
+      2*24*7=336 hits on the feed. Note that 250 includes Googlebot. Since
+      I've no direct access to the Apache log files I cannot tell how the file
+      is retrieved. If I was Google I would add an
+      <kbd>If-Modified-Since</kbd> header to my GET request and looked for a
+      Status 304 (not modified) in the response. Then I could get away with a
+      much lower access frequency and gain throughput. This would explain the
+      slightly lower access rate than expected.</p>
+
+      <p>My estimate is that about five to ten persons visits my site daily
+      and that two or three of them read something. Furthermore, between ten
+      and fifteen readers follows me using the feed. In particular the use
+      stats for the feed is hard to evaluate.</p>
+
+      <h3>Headless Layout &amp; Absolute Links</h3>
+
+      <p>All the entries on this site are written directly in Atom using nxml
+      mode for Emacs. The <a href="http://sigfrid-lundberg.se/entries/2009/07/colophon/">site is
+      generated</a> from this source using a number of different scripts, the
+      bulk of it written in XSLT. The source file for this entry is <a href="http://sigfrid-lundberg.se/entries/2010/03/syndication/syndication.atom">here</a>.
+      There are two things you have to think about when you write and design
+      your content for syndication:</p>
+
+      <ol>
+	<li>Your content will be rendered in sites which isn't yours: You
+	cannot use relative URIs, and a lot of your javascript won't
+	work.</li>
+
+	<li>You have to manage without the
+	<kbd>&lt;head&gt;...&lt;/head&gt;</kbd> and everything you normally
+	would put there which implies that you can not use
+	<kbd>&lt;style&gt;...&lt;/style&gt;</kbd> elements and that you are
+	unable to define CSS classes.</li>
+      </ol>
+
+      <p>The problem with javascript manifests itself differently. <a href="http://grazr.com">grazr.com</a> has a nice category browser, which
+      can be used on some of <a href="http://sigfrid-lundberg.se/entries/2009/07/opml/">KB's
+      data</a>. It seases to work at least when stuff is syndicated on Google
+      Hompepage.</p>
+
+      <div style="float:left;width:60%;margin:0.5em;">
+	<a href="http://sigfrid-lundberg.se/entries/2010/03/syndication/screenshot.png" title="Entry on Google Homepage">
+	  <img src="/entries/2010/03/syndication/screenshot.png" width="100%" alt="Entry on Google Homepage"/>
+	</a>
+	<p><small>Fig. 1. My <a href="http://sigfrid-lundberg.se/entries/2010/03/stanford/">previous
+	entry</a> as it appears on my iGoogle Homepage. Note that all the
+	captions appear next to the first image, not as they should adjacent
+	to the corresponding one. This is Google chrome but it looks the same
+	in Firefox.</small></p>
+      </div>
+
+
+      <p>When I write these entries I preview them using the server I run on
+      my laptop. Making the links absolute is the last thing I do before
+      publishing to the web. I forget this now and then, and I won't see that
+      before it has been through feedburner and reached google and
+      bloglines. The rebuild-run-debug cycle is long for syndicated
+      content.</p>
+
+      <p>There migh be problems with the feed readers HTML support. I'm
+      currently only the online ones, iGoogle and Bloglines, so the html
+      shouldn't theoretically not be a problem on them, but still there
+      is.</p>
+
+      <p>One is that (for instance) Google defines stuff in its CSS which
+      changes the behaviour of tags in a way such that my content does not
+      look as intended. The <kbd>&lt;kbd&gt;...&lt;kbd&gt;</kbd> (keyboard)
+      didn't work the last time I checked. The other problem is that (for
+      instance) Google actually edits my markup. It seems that in my previous
+      entry, the one about stanford, Google stripped the <kbd>&lt;br
+      clear="all"/&gt;</kbd> elements from its attribute
+      (<kbd>clear="all"</kbd>) and that CSS redefines the break tag in some
+      way or another (see Fig. 1).</p>
+
+      <h3>An experiment</h3>
+
+      <p>Please bear with me. Below you find the content from my previous
+      entry. In this version I'm employing some other methods for achieving a
+      break. I indicate in the text which method I use.</p>
+
+      <div style="float:left;width:60%;margin:0.5em;">
+	<a href="http://sigfrid-lundberg.se/entries/2010/03/stanford/20100322315.jpg" title="Garden in Palo Alto">
+	  <img src="http://sigfrid-lundberg.se/entries/2010/03/stanford/smaller20100322315.jpg" alt="Garden in Palo Alto"/>
+	</a>
+      </div>
+
+      <p>A lovely garden somewhere between our hotel and the Meyer Library at
+      Stanford University. Break is the original <kbd>&lt;br
+      clear="all"/&gt;</kbd>. Predicted behaviour: No break will be
+      generated in Google.</p>
+
+      <br clear="all"/>
+
+      <div style="float:right;width:60%;margin:0.5em;">
+	<a href="http://sigfrid-lundberg.se/entries/2010/03/stanford/20100322318.jpg" title="Rodin at Stanford">
+	  <img src="http://sigfrid-lundberg.se/entries/2010/03/stanford/smaller20100322318.jpg" alt="Rodin at Stanford" width="100%"/>
+	</a>
+      </div>
+
+      <p>Gustave Rodin at Stanford University. You may want to compare this
+      with <a href="http://sigfrid-lundberg.se/entries/2010/03/thinking/">the
+      Rodin in Copenhagen.</a> Break is using CSS <kbd>&lt;br
+      style="clear:both;"/&gt;</kbd> Predicted behaviour: Will not generate a
+      break if Google strips all attributes on &lt;br/&gt; and generate one if
+      it just strips clear</p>
+
+      <br style="clear:both;"/>
+
+      <div style="float:left;width:60%;margin:0.5em;">
+	<a href="http://sigfrid-lundberg.se/entries/2010/03/stanford/20100322320.jpg" title="Graffiti?">
+	  <img src="http://sigfrid-lundberg.se/entries/2010/03/stanford/smaller20100322320.jpg" alt="Graffiti?" width="100%"/>
+	</a>
+      </div>
+
+      <p>A nice graffiti, or is it al fresco? And what is the difference?
+      Break is using an empty <kbd>&lt;div
+      style="clear:both;"&gt;...&lt;/div&gt;</kbd>. Predicted behaviour: Will
+      generate a break in Google.</p>
+
+      <div style="clear:both;">
+      </div>
+
+      <div style="float:right;width:60%;margin:0.5em;">
+	<a href="http://sigfrid-lundberg.se/entries/2010/03/stanford/20100322322.jpg">
+	  <img src="http://sigfrid-lundberg.se/entries/2010/03/stanford/smaller20100322322.jpg" width="100%"/>
+	</a>
+      </div>
+      
+      <p>Science against an evilgelical religion. Break is again a <kbd>&lt;br
+      style="clear:both;"/&gt;</kbd></p>
+
+      <br style="clear:both;"/>
+
+      <div style="float:left;width:60%;margin:0.5em;">
+	<a href="http://sigfrid-lundberg.se/entries/2010/03/stanford/20100323325.jpg">
+	  <img src="http://sigfrid-lundberg.se/entries/2010/03/stanford/smaller20100323325.jpg" width="100%"/>
+	</a>
+      </div>
+
+      <p>The Papua New Guinea Sculpture Park. <kbd>&lt;br
+      clear="all"/&gt;</kbd> as before</p>
+
+      <br clear="all"/>
+
+      <div style="float:right;width:60%;margin:0.5em;">
+	<a href="http://sigfrid-lundberg.se/entries/2010/03/stanford/20100323329.jpg">
+	  <img src="http://sigfrid-lundberg.se/entries/2010/03/stanford/smaller20100323329.jpg" width="100%"/>
+	</a>
+      </div>
+
+      <p>The view from my hotel room.</p>
+
+    </div>
+  </content>
+  <dc:date>2010</dc:date>
+  <category label="images" term="Images"/>
+  <updated>2010-03-28T15:07:36+01:00</updated>
+  <id>http://www.sigfrid-lundberg.se/entries/2010/03/syndication/</id>
+  <!-- $Id$ -->
+</entry><entry xmlns:dc="http://purl.org/dc/elements/1.1/">
+  <author>
+    <name>Sigfrid Lundberg</name>
+  </author>
   <title>A form with a join</title>
   <link href="/entries/2010/03/aformwithajoin/"/>
   <summary>A form is a document, or part of one, that can be used for the
