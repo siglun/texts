@@ -4270,7 +4270,7 @@
 
       <div style="float:left;width:60%;margin:0.5em;">
 	<a href="http://sigfrid-lundberg.se/entries/2010/03/stanford/20100322320.jpg" title="Graffiti?">
-	  <img src="/entries/2010/03/stanford/smaller20100322320.jpg" alt="Graffiti?" width="100%"/>
+	  <img src="http://sigfrid-lundberg.se/entries/2010/03/stanford/smaller20100322320.jpg" alt="Graffiti?" width="100%"/>
 	</a>
       </div>
 
@@ -4310,7 +4310,7 @@
   </content>
   <dc:date>2010</dc:date>
   <category label="images" term="Images"/>
-  <updated>2010-03-24T06:04:51+01:00</updated>
+  <updated>2010-03-28T13:23:50+01:00</updated>
   <id>http://www.sigfrid-lundberg.se/entries/2010/03/stanford/</id>
   <!-- $Id$ -->
 </entry><entry xmlns:dc="http://purl.org/dc/elements/1.1/">
@@ -4478,15 +4478,16 @@
       of a database based on a query in an other part. Joins are general, and
       may appear in other contexts than SQL. Such as XQuery, XSLT and XML
       forms language, XForms. I've recently written my first extensive
-      application in that language. It required a larger effort than I had expected.</p>
+      application in that language. It required a larger effort than I had
+      expected.</p>
 
       <p>Having worked with XML processing for more than ten years, I had
       thought that I would easily be able to relate to a new XML technology by
       extrapolating from my earlier experiences. This has hitherto been the
       case. For instance, learning Xerces in java when I've used dom4j in java
-      and XML::LibXML in perl was i piece of cake. If you've used venerable
-      Expat callback based parser, the idea behind SAX or Stream API for XML
-      (StaX) are quite obvious.</p>
+      and XML::LibXML in perl was a piece of cake. If you have used the
+      venerable Expat callback based parser, the idea behind SAX or Stream API
+      for XML (StaX) are quite obvious.</p>
 
       <p>One could expect that if you know XML technologies and HTML forms you
       would easily grasp XForms. Having realised that this wasn't the case I
@@ -4619,9 +4620,9 @@
        <h3>Get the last inserted ID</h3>
 
        <p><em><q>It's the same old story, but it's new to me.</q></em>
-       Whenever you use a RDBMS, you'll sooner or later ask the question is
+       Whenever you use a RDBMS, you'll sooner or later ask the question: Is
        there a way to <a href="http://www.google.com/search?hl=en&amp;q=%22get+the+last+inserted+id%22&amp;aq=f&amp;aqi=g-m1&amp;aql=&amp;oq=">get
-       the last inserted ID</a>. This, if any, is indeed a SQL FAQ.</p>
+       the last inserted ID</a>? This, if any, is indeed a SQL FAQ.</p>
 
        <p>That is, you'll inserted a line in a table, and now you want to use
        this ID as a foreign key in another table. That is you want to create
