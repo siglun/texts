@@ -10,20 +10,16 @@
   <content type="xhtml">
     <div xmlns="http://www.w3.org/1999/xhtml">
 
-      <p>Jacob Larsen, Eld Zierau and myself are participating in the <a
-      href="http://lib.stanford.edu/ldcx">LibDevConX Meeting at Stanford,
-      23-25 March 2010</a> (See also <a
-      href="http://www.flickr.com/photos/rtennant/4457544717/">Roy Tennant's
+      <p>Jacob Larsen, Eld Zierau and myself are participating in the <a href="http://lib.stanford.edu/ldcx">LibDevConX Meeting at Stanford,
+      23-25 March 2010</a> (See also <a href="http://www.flickr.com/photos/rtennant/4457544717/">Roy Tennant's
       Photostream</a>). I will return to this here. However, I've as yet
       little to report. I have to think a bit before I write. While I do that,
       you may enjoy my first visual impressions from Palo Alto and
       Stanford..</p>
 
       <div style="float:left;width:60%;margin:0.5em;">
-	<a href="http://sigfrid-lundberg.se/entries/2010/03/stanford/20100322315.jpg"
-	   title="Garden in Palo Alto">
-	  <img src="http://sigfrid-lundberg.se/entries/2010/03/stanford/smaller20100322315.jpg"
-	       alt="Garden in Palo Alto"/>
+	<a href="http://sigfrid-lundberg.se/entries/2010/03/stanford/20100322315.jpg" title="Garden in Palo Alto">
+	  <img src="http://sigfrid-lundberg.se/entries/2010/03/stanford/smaller20100322315.jpg" alt="Garden in Palo Alto"/>
 	</a>
       </div>
 
@@ -33,11 +29,8 @@
       <br clear="all"/>
 
       <div style="float:right;width:60%;margin:0.5em;">
-	<a href="http://sigfrid-lundberg.se/entries/2010/03/stanford/20100322318.jpg"
-	   title="Rodin at Stanford">
-	  <img src="http://sigfrid-lundberg.se/entries/2010/03/stanford/smaller20100322318.jpg" 
-	       alt="Rodin at Stanford"
-	       width="100%"/>
+	<a href="http://sigfrid-lundberg.se/entries/2010/03/stanford/20100322318.jpg" title="Rodin at Stanford">
+	  <img src="http://sigfrid-lundberg.se/entries/2010/03/stanford/smaller20100322318.jpg" alt="Rodin at Stanford" width="100%"/>
 	</a>
       </div>
 
@@ -48,11 +41,8 @@
       <br clear="all"/>
 
       <div style="float:left;width:60%;margin:0.5em;">
-	<a href="http://sigfrid-lundberg.se/entries/2010/03/stanford/20100322320.jpg"
-	   title="Graffiti?">
-	  <img src="/entries/2010/03/stanford/smaller20100322320.jpg"
-	       alt="Graffiti?"
-	       width="100%"/>
+	<a href="http://sigfrid-lundberg.se/entries/2010/03/stanford/20100322320.jpg" title="Graffiti?">
+	  <img src="http://sigfrid-lundberg.se/entries/2010/03/stanford/smaller20100322320.jpg" alt="Graffiti?" width="100%"/>
 	</a>
       </div>
 
@@ -62,8 +52,7 @@
 
       <div style="float:right;width:60%;margin:0.5em;">
 	<a href="http://sigfrid-lundberg.se/entries/2010/03/stanford/20100322322.jpg">
-	  <img src="http://sigfrid-lundberg.se/entries/2010/03/stanford/smaller20100322322.jpg"
-	       width="100%"/>
+	  <img src="http://sigfrid-lundberg.se/entries/2010/03/stanford/smaller20100322322.jpg" width="100%"/>
 	</a>
       </div>
       
@@ -73,8 +62,7 @@
 
       <div style="float:left;width:60%;margin:0.5em;">
 	<a href="http://sigfrid-lundberg.se/entries/2010/03/stanford/20100323325.jpg">
-	  <img src="http://sigfrid-lundberg.se/entries/2010/03/stanford/smaller20100323325.jpg"
-	       width="100%"/>
+	  <img src="http://sigfrid-lundberg.se/entries/2010/03/stanford/smaller20100323325.jpg" width="100%"/>
 	</a>
       </div>
 
@@ -84,8 +72,7 @@
 
       <div style="float:right;width:60%;margin:0.5em;">
 	<a href="http://sigfrid-lundberg.se/entries/2010/03/stanford/20100323329.jpg">
-	  <img src="http://sigfrid-lundberg.se/entries/2010/03/stanford/smaller20100323329.jpg"
-	       width="100%"/>
+	  <img src="http://sigfrid-lundberg.se/entries/2010/03/stanford/smaller20100323329.jpg" width="100%"/>
 	</a>
       </div>
 
@@ -95,7 +82,7 @@
   </content>
   <dc:date>2010</dc:date>
   <category label="images" term="Images"/>
-  <updated>2010-03-24T06:04:51+01:00</updated>
+  <updated>2010-03-28T13:23:50+01:00</updated>
   <id>http://www.sigfrid-lundberg.se/entries/2010/03/stanford/</id>
   <!-- $Id$ -->
 </entry>
