@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<entry xmlns="http://www.w3.org/2005/Atom" xmlns:dc="http://purl.org/dc/elements/1.1/">
+  <author>
+    <name>Sigfrid Lundberg</name>
+  </author>
+  <title>application/tei+xml</title>
+  <link href="/entries/2010/03/teimime/"/>
+  <summary>We are about to register a mime type for TEI. This page tracks the
+  progress of that effort</summary>
+  <content type="xhtml">
+    <div xmlns="http://www.w3.org/1999/xhtml">
+
+      <p>We are about to register a mime type for TEI. This page tracks the
+      progress of that effort</p>
+
+      <ul>
+	<li><a href="http://www.ietf.org/id/draft-lundberg-app-tei-xml-01.txt">http://www.ietf.org/id/draft-lundberg-app-tei-xml-01.txt</a></li>
+	<li><a href="http://www.ietf.org/id/draft-lundberg-app-tei-xml-00.txt">http://www.ietf.org/id/draft-lundberg-app-tei-xml-00.txt</a></li>
+      </ul>
+
+    </div>
+  </content>
+  <dc:date>2010</dc:date>
+  <category label="internet" term="Internet"/>
+  <updated>2010-03-29T17:42:20+01:00</updated>
+  <id>http://www.sigfrid-lundberg.se/entries/2010/03/teimime/</id>
+</entry>
