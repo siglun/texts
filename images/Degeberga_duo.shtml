@@ -11,6 +11,17 @@
   <body>
    <!--#include virtual="./navigate_images.xml" -->
    <div class="right_box">
+
+     <p style ="text-align: center;">
+      <a href="erik_plays_mandola.jpg"
+	title="Erik Berger Lundberg &ndash; my son" >
+	<img width="100%" src="erik_plays_mandola.jpg"
+	     alt="Erik Berger Lundberg &ndash; my son" />
+      </a>
+      <br />
+      Photo: Stephen Wessels
+    </p>
+
     <p style ="text-align: center;">
       <a href="Degeberga_duo.jpg"
 	title="Erik Berger Lundberg &ndash; my son &ndash;
