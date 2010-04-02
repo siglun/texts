@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<entry xmlns="http://www.w3.org/2005/Atom" xmlns:dc="http://purl.org/dc/elements/1.1/">
+  <author>
+    <name>Sigfrid Lundberg</name>
+  </author>
+  <title>George Smiley, archival records and libraries</title>
+  <link href="/entries/2010/04/smiley/"/>
+  <summary>I'm an ardent John le Carré reader. In particular I'm very fond of
+  the books about George Smiley.</summary>
+  <content type="xhtml">
+    <div xmlns="http://www.w3.org/1999/xhtml">
+      <p>Year 1986 is special since it is the year I spent PosDoc year in
+      London. It was during that year I ran into John le Carré's books. Since
+      then I've read ten or twelve of them. And of these, it is those about
+      the spy master <a
+      href="http://en.wikipedia.org/wiki/George_Smiley">George Smiley</a> and
+      in particular the <a
+      href="http://en.wikipedia.org/wiki/George_Smiley#The_Karla_trilogy">The
+      Karla Trilogy</a> I like the most. It consists of <em><a
+      href="http://en.wikipedia.org/wiki/Tinker,_Tailor,_Soldier,_Spy">Tinker
+      Tailor Soldier Spy</a></em> (1974), <em><a
+      href="http://en.wikipedia.org/wiki/The_Honourable_Schoolboy">The
+      Honourable Schoolboy</a></em> and <em><a
+      href="http://en.wikipedia.org/wiki/Smiley%27s_People">Smiley's
+      People</a></em> (1979).</p>
+
+      <div style="float:right;width:40%;margin:0.5em;">
+	<a href="http://www.londonlibrary.co.uk/press/General%20library%20images.htm"
+	   title="The reading room at the London Library">
+
+	  <img src="http://www.londonlibrary.co.uk/press/photos/General%20library%20images/picture-005.jpg"
+	       width="100%"
+	       alt="The reading room at the London Library"/>
+	</a>
+	<p><small>The reading room at the London Library. It is hard to tell
+	whether the window is a sash-window, or if there is a tree
+	outside</small></p>
+      </div>
+
+      <p>The first and the last of the three books have in common that George
+      is called in from his retirement.</p>
+
+      <p>In Smiley's people he</p>
+
+      <blockquote>
+	[...] <em>was toiling obliviously, with whatever conviction he could
+	muster, at his habitual desk in the London Library in St James's
+	Square, with two spindly trees to look at through the sash-window of
+	the reading room.</em><sup><a href="#londonlib">1</a></sup>
+      </blockquote>
+
+      <p>George Smiley borrowed not only books, but also journals, at the
+      library:</p>
+
+      <blockquote>
+	<em>What was due?</em> German Life and Letters? Philology? Philology
+	<em>he decided; it was already overdue. Putting on the hall light he
+	stooped and peered through his post.</em><sup><a href="#whatisdue">2</a></sup>
+      </blockquote>
+
+      <p>From what I can tell from the <a
+      href="http://lms3.londonlibrary.co.uk/F">London Library's catalogue</a>,
+      it has <em>German Life and Letters</em> in its holdings since 1936, but
+      not any journal called <em>Philology</em> there.</p>
+
+      <p>I spent quite a few weekends during 1986 as a literary tourist. The
+      London Library is a <a
+      href="http://www.londonlibrary.co.uk/join/individualmembership.htm">membership
+      lending library</a>. The staff at the time were not particularly
+      interested in showing the reading room for literary tourists. I think
+      that <a href="http://www.londonlibrary.co.uk/visit/index.htm">may have
+      changed somewhat</a>.</p>
+
+      <h3>Record keeping</h3>
+
+
+      <h3>Notes</h3>
+
+      <p>You need to be log in to Amazon to look inside</p>
+
+      <ol>
+	<li id="londonlib">le Carré, John, 1979. <em>Smiley's People</em> <a href="http://www.amazon.com/s/ref=nb_sb_noss?url=search-alias%3Daps&amp;field-keywords=with+two+spindly+trees+to+look+at+through+the+sash-window+of+the+reading+room&amp;x=0&amp;y=0">Look inside</a></li>
+
+	<li id="whatisdue">le Carré, John, 1974. <em>Tinker, Tailor, Soldier, Spy</em> <a href="http://www.amazon.com/s/ref=nb_sb_noss?url=search-alias%3Daps&amp;field-keywords=Putting+on+the+hall+light+he+stooped+and+peered+through+his+post&amp;x=0&amp;y=0">Look inside</a></li>
+
+      </ol>
+
+    </div>
+  </content>
+  <dc:date>2010</dc:date>
+  <category label="essays" term="Essays"/>
+  <category label="musiclanglit" term="Music, language &amp; literature"/>
+  <updated>2010-04-02T19:05:24+01:00</updated>
+  <id>http://www.sigfrid-lundberg.se/entries/2010/04/smiley/</id>
+  <!-- $Id$ -->
+</entry>
