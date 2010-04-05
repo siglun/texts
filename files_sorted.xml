@@ -11,6 +11,111 @@
   <author>
     <name>Sigfrid Lundberg</name>
   </author>
+  <title>George Smiley and libraries</title>
+  <link href="/entries/2010/04/smiley/"/>
+  <summary>I'm an ardent John le Carré reader. In particular I'm very fond of
+  the books about George Smiley.</summary>
+  <content type="xhtml">
+    <div xmlns="http://www.w3.org/1999/xhtml">
+      <p>Year 1986 is special since it is the year I spent as a PosDoc year in
+      London. During that year I ran into John le Carré's books. Some of my
+      spare time, quite a few weekends actually, I spent as a literary tourist
+      in London.</p>
+
+      <p>I bought and read a handful of le Carré's books.
+      In particular, those about the old spy master <a href="http://en.wikipedia.org/wiki/George_Smiley">George Smiley</a> and
+      of those, it is in particular the <a href="http://en.wikipedia.org/wiki/George_Smiley#The_Karla_trilogy">The
+      Karla Trilogy</a> I like the most. George Smiley is an academic,
+      germanist and a spy. During the thirties he had operated under cover in
+      Germany and during the World War II he ran networks in Germany, Sweden
+      and Switzerland. If you are to believe the Wikipedia article about
+      him. I've just recently had a very nice time enjoying <a href="http://www.bbc.co.uk/radio4/features/smiley-season/">BBC's Smiley
+      Season</a> and rereading <em>The Secret Pilgrim</em>.  </p>
+
+      <p>The trilogy consists of <em><a href="http://en.wikipedia.org/wiki/Tinker,_Tailor,_Soldier,_Spy">Tinker
+      Tailor Soldier Spy</a></em> (1974) which tells the story on how Smiley
+      tracks down a Soviet mole inside British intelligence, 
+
+      <em><a href="http://en.wikipedia.org/wiki/The_Honourable_Schoolboy">The
+      Honourable Schoolboy</a></em> (1977) on how he restores the "Circus" to
+      something that looks like an intelligence service
+
+      and finally <em><a href="http://en.wikipedia.org/wiki/Smiley%27s_People">Smiley's
+      People</a></em> (1979) on how he finally forces his old Soviet adversary
+      with code name Karla to defect.</p>
+
+      <div style="float:right;width:40%;margin-left:0.5em;margin-right:0.5em;">
+	<a href="http://www.londonlibrary.co.uk/press/General%20library%20images.htm" title="The reading room at the London Library">
+
+	  <img src="http://www.londonlibrary.co.uk/press/photos/General%20library%20images/picture-005.jpg" width="100%" alt="The reading room at the London Library"/>
+	</a>
+	<p><small>The reading room at the London Library. It is hard to tell
+	whether the window is a sash-window, or if there are trees
+	outside.</small></p>
+      </div>
+
+      <p>The first and the last of the three books have in common that George
+      is called in from his retirement. An important part of Smiley's
+      character is his involvement in various scholarly pursuits, like the
+      writing of a monograph about the bard Opitz.  In <em>Smiley's
+      people</em> George</p>
+
+      <blockquote>
+	[...] <em>was toiling obliviously, with whatever conviction he could
+	muster, at his habitual desk in the London Library in St James's
+	Square, with two spindly trees to look at through the sash-window of
+	the reading room [...] for at the time he was writing a monograph on
+	the bard Opitz and trying loyally to distinguish true passion from the
+	literary convention of the period.</em><sup><a href="#londonlib">1</a></sup>
+      </blockquote>
+
+      <p>Passion is not a characteristic of George, but his work requires not
+      only borrowed books, but also scholarly journals, and the library
+      reminds him of expired loans:</p>
+
+      <blockquote>
+	<em>What was due?</em> German Life and Letters? Philology? Philology
+	<em>he decided; it was already overdue. Putting on the hall light he
+	stooped and peered through his post.</em><sup><a href="#whatisdue">2</a></sup>
+      </blockquote>
+
+      <p>From what I can tell from the <a href="http://lms3.londonlibrary.co.uk/F">London Library's catalogue</a>,
+      it has <em>German Life and Letters</em> in its holdings since 1936, but
+      not any journal called <em>Philology</em> there.</p>
+
+      <p>The London Library is an UK Registered Charity and a <a href="http://www.londonlibrary.co.uk/join/individualmembership.htm">membership
+      lending library</a>. The staff where at the time were not particularly
+      interested in showing the reading room for literary tourists. I think
+      that <a href="http://www.londonlibrary.co.uk/visit/index.htm">may have
+      changed somewhat</a>. Some day I will go to London visit the London
+      Library and look through the window in the reading room. Maybe there are
+      still two trees outside the sash-window. I suppose that they must have
+      grown since the seventies, though.</p>
+
+      <h3>Notes</h3>
+
+      <p>You need to be logged in to Amazon to look inside these books.</p>
+
+      <ol>
+	<li id="londonlib">le Carré, John, 1979. <em>Smiley's People</em> <a href="http://www.amazon.com/s/ref=nb_sb_noss?url=search-alias%3Daps&amp;field-keywords=with+two+spindly+trees+to+look+at+through+the+sash-window+of+the+reading+room&amp;x=0&amp;y=0">Amazon</a></li>
+
+	<li id="whatisdue">le Carré, John, 1974. <em>Tinker, Tailor, Soldier, Spy</em> <a href="http://www.amazon.com/s/ref=nb_sb_noss?url=search-alias%3Daps&amp;field-keywords=Putting+on+the+hall+light+he+stooped+and+peered+through+his+post&amp;x=0&amp;y=0">Amazon</a></li>
+
+      </ol>
+
+    </div>
+  </content>
+  <dc:date>2010</dc:date>
+  <category label="essays" term="Essays"/>
+  <category label="musiclanglit" term="Music, language &amp; literature"/>
+  <updated>2010-04-02T19:05:24+01:00</updated>
+  <id>http://www.sigfrid-lundberg.se/entries/2010/04/smiley/</id>
+  <!-- $Id$ -->
+</entry>
+  <entry>
+  <author>
+    <name>Sigfrid Lundberg</name>
+  </author>
   <title>application/tei+xml</title>
   <link href="/entries/2010/03/teimime/"/>
   <summary>We are about to register a mime type for TEI. This page tracks the
