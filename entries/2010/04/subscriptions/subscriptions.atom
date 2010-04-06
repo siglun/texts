@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<entry xmlns="http://www.w3.org/2005/Atom" xmlns:dc="http://purl.org/dc/elements/1.1/">
+  <author>
+    <name>Sigfrid Lundberg</name>
+  </author>
+  <title>A Safari among Subscription Libraries</title>
+  <link href="/entries/2010/04/subscriptions/"/>
+  <summary>I have been a subscriber to O'Reilly's Safari services for quite
+  some years now. Recently I upgraded the subscription such that I get access
+  to the entire stock without limitations.</summary>
+  <content type="xhtml">
+    <div xmlns="http://www.w3.org/1999/xhtml">
+      <p>The <a href="http://www.londonlibrary.co.uk/">London Library</a> is
+      an <a
+      href="http://en.wikipedia.org/wiki/Subscription_library">independent
+      subscription library</a>. In the UK there are quite a few libraries of
+      this kind left, in spite of the fact that it is more or less an
+      anachronism. There are enough of them to organize themselves in an <a
+      href="http://www.independentlibraries.co.uk/">Association of Independent
+      Libraries</a>. The London Library is the largest member of the
+      organization, and it is also the one with the highest membership fee.</p>
+
+      <p>O'Reilly, the book publishling company, has an <a
+      href="http://my.safaribooksonline.com/">online subscription library</a>,
+      perhaps mainly aimed at technical people like myself. I've had a
+      personal subscription for quite some time, and I recently I upgraded the
+      subscription such that I have unlimited access to the entire stock. The
+      fee is $53.74 (including VAT 25%). That's $656.88 per annum which is
+      £398.60. This is an interesting figure, since the annual membership fee
+      for The London Library is £395.00.</p>
+
+      <p>
+      </p>
+
+    </div>
+  </content>
+  <dc:date>2010</dc:date>
+  <category label="structuralwebdesign" term="Structural web design"/>
+  <updated>2010-04-06T16:49:48+01:00</updated>
+  <id>http://www.sigfrid-lundberg.se/entries/2010/04/subscriptions/</id>
+</entry>
