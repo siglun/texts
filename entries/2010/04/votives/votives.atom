@@ -3,17 +3,30 @@
   <author>
     <name>Sigfrid Lundberg</name>
   </author>
-  <title>Why do I keep this site?</title>
+  <title>Recycled Votive Guitar on the Compost</title>
   <link href="/entries/2010/04/votives/"/>
-  <summary>Having had a web site for about 15 years, I start to wonder why I
-  keep it in the first place.</summary>
+  <summary>A view of a cemetary</summary>
   <content type="xhtml">
     <div xmlns="http://www.w3.org/1999/xhtml">
+
+      <div style="float:right;width:60%;margin:0.5em;">
+	<a href="http://sigfrid-lundberg.se/entries/2010/04/votives/20100403362.jpg" title="Recycled Votive Guitar on the Compost">
+	  <img src="http://sigfrid-lundberg.se/entries/2010/04/votives/smaller20100403362.jpg" alt="Recycled Votive Guitar on the Compost"/>
+	</a>
+      </div>
+
+      <p>I found this guitar at the cemetary where my father is buried.  The
+      instrument has been lying for a month or so on a grave together with
+      reefs and other more traditional votives. Now it has been moved to the
+      compost. For dust thou art, and unto dust shalt thou return.</p>
+
+
 
     </div>
   </content>
   <dc:date>2010</dc:date>
-  <category label="structuralwebdesign" term="Structural web design"/>
+  <category label="images" term="Images"/>
   <updated>2010-04-06T21:20:36+01:00</updated>
   <id>http://www.sigfrid-lundberg.se/entries/2010/04/votives/</id>
+  <!-- $Id$ -->
 </entry>
