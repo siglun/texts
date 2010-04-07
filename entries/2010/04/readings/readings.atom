@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<entry xmlns="http://www.w3.org/2005/Atom" xmlns:dc="http://purl.org/dc/elements/1.1/">
+  <author>
+    <name>Sigfrid Lundberg</name>
+  </author>
+  <title>Readings on digital objects: An annotated URIography</title>
+  <link href="/entries/2010/04/readings/"/>
+  <summary>I have a long list of articles to read on digital objects, how to
+  model them etc. This page is for keeping track of my progress</summary>
+  <content type="xhtml">
+    <div xmlns="http://www.w3.org/1999/xhtml">
+      <p>Many hours searching for articles on digital objects, and how to
+      model, store and deliver them. This entry is for measuring my
+      progress.</p>
+
+      <p>The articles are grouped with respect to the theme I feel they
+      belong.</p>
+
+      <ul>
+	<li>
+	  digital object store
+	  <ul>
+	    <li id="kahnframework">Robert Kahn, Robert Wilensky, 2006. <a href="http://sigfrid-lundberg.se/entries/2010/04/kahnframework/">A
+	    framework for distributed digital object services</a></li>
+	  </ul>
+	</li>
+      </ul>
+
+    </div>
+  </content>
+  <dc:date>2010</dc:date>
+  <category label="digitalcollections" term="Digital collections"/>
+  <category label="digitalobjects" term="Digital objects"/>
+  <updated>2010-04-07T20:52:36+01:00</updated>
+  <id>http://www.sigfrid-lundberg.se/entries/2010/04/readings/</id>
+  <!-- $Id$ -->
+</entry>
