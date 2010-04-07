@@ -13,16 +13,14 @@
        <p id="kahnframework">
 	 Robert Kahn and Robert Wilensky, 2006. A framework for distributed
 	 digital object services, <em>International Journal on Digital
-	 Libraries</em> 6(2), pp. 115-123, <a
-	 href="http://doi.info/topics/2006_05_02_Kahn_Framework.pdf">http://doi.info/topics/2006_05_02_Kahn_Framework.pdf</a>
+	 Libraries</em> 6(2), pp. 115-123, <a href="http://doi.info/topics/2006_05_02_Kahn_Framework.pdf">http://doi.info/topics/2006_05_02_Kahn_Framework.pdf</a>
        </p>
 
        <p>This is not really a scientific paper, or rather it does not look
        like one. Rather, it is a document written, maintained and used
        1993-1995 internally within the CSTR project (Computer Science
        Technical Reports).  The text has since influenced the development, and
-       was finally published in a special issue on <a
-       href="http://portal.acm.org/toc.cfm?id=1124646&amp;type=issue&amp;coll=GUIDE&amp;dl=GUIDE&amp;CFID=85174388&amp;CFTOKEN=70566202">complex
+       was finally published in a special issue on <a href="http://portal.acm.org/toc.cfm?id=1124646&amp;type=issue&amp;coll=GUIDE&amp;dl=GUIDE&amp;CFID=85174388&amp;CFTOKEN=70566202">complex
        digital objects</a> of <em>International Journal on Digital
        Libraries</em>. I ensure you that you'll find more references to that
        issue here in the weeks to come.</p>
@@ -35,8 +33,7 @@
        <p>Having written this, I have to confess that I've already lost the
        interest to discuss it further.</p>
 
-       <p>This entry is part of my series <a
-       href="http://sigfrid-lundberg.se/entries/2010/04/readings/">Readings on
+       <p>This entry is part of my series <a href="http://sigfrid-lundberg.se/entries/2010/04/readings/">Readings on
        digital objects</a></p>
 
 
@@ -45,6 +42,6 @@
   <dc:date>2010</dc:date>
   <category label="digitalobjects" term="Digital objects"/>
   <category label="objectstores" term="Digital object stores"/>
-  <updated>2010-04-07T20:43:56+01:00</updated>
+  <updated>2010-04-07T21:52:25+01:00</updated>
   <id>http://www.sigfrid-lundberg.se/entries/2010/04/kahnframework/</id>
 </entry>
