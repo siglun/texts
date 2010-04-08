@@ -1,11 +1,11 @@
 <div xmlns="http://www.w3.org/1999/xhtml">
   <div>
-    <h1 style="font-family: sans-serif; width: 55%; float: left;text-align: left;">A framework for distributed digital object services</h1>
+    <h1 style="font-family: sans-serif; width: 55%; float: left;text-align: left;">application/tei+xml</h1>
     <p style="width: 38%; float: left;text-align: right">
       <em>
         <strong>
 		Sigfrid Lundberg's Stuff,
-	      2010-04-07</strong>
+	      2010-04-08</strong>
       </em>
     </p>
   </div>
@@ -13,45 +13,32 @@
   <div style="width:100%;">
     <div>
 
-       <p id="kahnframework">
-	 Robert Kahn and Robert Wilensky, 2006. A framework for distributed
-	 digital object services, <em>International Journal on Digital
-	 Libraries</em> 6(2), pp. 115-123, <a href="http://doi.info/topics/2006_05_02_Kahn_Framework.pdf">http://doi.info/topics/2006_05_02_Kahn_Framework.pdf</a>
-       </p>
+      <p>We are about to register a mime type for TEI. This page tracks the
+      progress of that effort</p>
 
-       <p>This is not really a scientific paper, or it does not look
-       like one. Rather, it is a document written, maintained and used
-       1993-1995 internally within the CSTR project (Computer Science
-       Technical Reports).  The text has since influenced the development, and
-       was finally published in a special issue on <a href="http://portal.acm.org/toc.cfm?id=1124646&amp;type=issue&amp;coll=GUIDE&amp;dl=GUIDE&amp;CFID=85174388&amp;CFTOKEN=70566202">complex
-       digital objects</a> of <em>International Journal on Digital
-       Libraries</em>. I ensure you that you'll find more references to that
-       issue here in the weeks to come.</p>
-
-       <p>The importance of the CSTR project cannot be overestimated. In many
-       ways it lead forward to initiatives such as DCMI and OAI, and indeed
-       the establishment of digital libraries research as a discipline on its
-       own right.</p>
-
-       <p>Having written this, I have to confess that I've already lost the
-       interest to discuss it further.</p>
-
-       <p>This entry is part of my series <a href="http://sigfrid-lundberg.se/entries/2010/04/readings/">Readings on
-       digital objects</a></p>
-
+      <ul>
+	<li><a href="http://www.ietf.org/id/draft-lundberg-app-tei-xml-02.txt">http://www.ietf.org/id/draft-lundberg-app-tei-xml-02.txt</a></li>
+	<li><a href="http://www.ietf.org/id/draft-lundberg-app-tei-xml-01.txt">http://www.ietf.org/id/draft-lundberg-app-tei-xml-01.txt</a></li>
+	<li><a href="http://www.ietf.org/id/draft-lundberg-app-tei-xml-00.txt">http://www.ietf.org/id/draft-lundberg-app-tei-xml-00.txt</a></li>
+      </ul>
 
     </div>
     <br clear="all"/>
     <p style="text-align: left;"><em><strong>Categories:</strong></em> 
-	  <a href="/subjects/digitalobjects/">Digital objects</a>,
-	    <a href="/subjects/objectstores/">Digital object stores</a><br/><em><strong>
+	  <a href="/subjects/internet/">Internet</a><br/><em><strong>
 		Permalink:
-	      </strong></em><a rel="bookmark" href="/entries/2010/04/kahnframework/">http://sigfrid-lundberg.se/entries/2010/04/kahnframework/</a></p>
+	      </strong></em><a rel="bookmark" href="/entries/2010/03/teimime/">http://sigfrid-lundberg.se/entries/2010/03/teimime/</a></p>
     <hr width="50%" align="center"/>
   </div>
   <div>
     <h1>Other, not yet obsolete stuff</h1>
     <table class="news">
+      <tr>
+        <td class="left">2010</td>
+        <td class="left"><a href="/entries/2010/04/kahnframework/"><em>A framework for distributed digital object services</em></a><br/>Robert Kahn and Robert Wilensky, 2006. A framework for distributed
+  digital object services<br/><a href="/subjects/digitalobjects/">Digital objects</a>,
+	<a href="/subjects/objectstores/">Digital object stores</a></td>
+      </tr>
       <tr>
         <td class="left">2010</td>
         <td class="left"><a href="/entries/2010/04/readings/"><em>Readings on digital objects: An annotated URIography</em></a><br/>I have a long list of articles to read on digital objects, how to
@@ -73,11 +60,6 @@
         <td class="left"><a href="/entries/2010/04/smiley/"><em>George Smiley and libraries</em></a><br/>I'm an ardent John le Carré reader. In particular I'm very fond of
   the books about George Smiley.<br/><a href="/subjects/essays/">Essays</a>,
 	<a href="/subjects/musiclanglit/">Music, language &amp; literature</a></td>
-      </tr>
-      <tr>
-        <td class="left">2010</td>
-        <td class="left"><a href="/entries/2010/03/teimime/"><em>application/tei+xml</em></a><br/>We are about to register a mime type for TEI. This page tracks the
-  progress of that effort<br/><a href="/subjects/internet/">Internet</a></td>
       </tr>
       <tr>
         <td class="left">2010</td>

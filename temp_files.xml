@@ -4334,6 +4334,7 @@
       progress of that effort</p>
 
       <ul>
+	<li><a href="http://www.ietf.org/id/draft-lundberg-app-tei-xml-02.txt">http://www.ietf.org/id/draft-lundberg-app-tei-xml-02.txt</a></li>
 	<li><a href="http://www.ietf.org/id/draft-lundberg-app-tei-xml-01.txt">http://www.ietf.org/id/draft-lundberg-app-tei-xml-01.txt</a></li>
 	<li><a href="http://www.ietf.org/id/draft-lundberg-app-tei-xml-00.txt">http://www.ietf.org/id/draft-lundberg-app-tei-xml-00.txt</a></li>
       </ul>
@@ -4342,7 +4343,7 @@
   </content>
   <dc:date>2010</dc:date>
   <category label="internet" term="Internet"/>
-  <updated>2010-03-29T17:42:20+01:00</updated>
+  <updated>2010-04-08T14:58:26+01:00</updated>
   <id>http://www.sigfrid-lundberg.se/entries/2010/03/teimime/</id>
 </entry><entry xmlns:dc="http://purl.org/dc/elements/1.1/">
   <author>
