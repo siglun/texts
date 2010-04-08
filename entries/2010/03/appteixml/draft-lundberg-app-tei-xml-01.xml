@@ -15,14 +15,14 @@
     <title>The 'application/tei+xml' mediatype</title>
 
     <author initials="L." surname="Romary" fullname="Laurent Romary"> 
-      <organization>TEI Consortium</organization>
+      <organization>TEI Consortium and INRIA</organization>
       <address>
 	<postal>
 	  <street/>
 	  <city/>
 	  <country/>
 	</postal>
-	<email>laurent.romary@loria.fr</email>
+	<email>laurent.romary@inria.fr</email>
 	<uri>http://www.tei-c.org/</uri>
       </address>
     </author>
@@ -126,7 +126,8 @@
 	      <t>
 		file extension(s):
 		<list>
-		  <t>TEI documents have most often the extensions '.xml' and '.tei'.</t>
+		  <t>TEI documents have most often the extension '.xml'. Other
+		  common extensions are '.tei', '.teiCorpus' and '.odd'.</t>
 		</list>
 	      </t>
 	      <t>
@@ -153,10 +154,14 @@
     <section title="Recognizing TEI files">
       <t>A <xref target="TEI"/> file usually contains either of the strings
       <list>
+	<t>&lt;tei</t>
 	<t>&lt;TEI</t>
-	<t>&lt;TEI.2</t>
       </list>
       near the beginning.</t>
+
+      <t>Examples: Older versions of the standard may start with &lt;TEI.2,
+      more recent ones with &lt;TEI. More specialized types of documents may
+      start with &lt;teiCorpus.</t>
     </section>
 
     <section title="Fragment identifier">
