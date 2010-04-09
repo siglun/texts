@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<entry xmlns="http://www.w3.org/2005/Atom" xmlns:dc="http://purl.org/dc/elements/1.1/">
+  <author>
+    <name>Sigfrid Lundberg</name>
+  </author>
+  <title>Digital Representation and the Text Model</title>
+  <link href="/entries/2010/04/buzzetti/"/>
+  <summary>Dino Buzzetti, 2002. Digital Representation and the Text Model. New
+  Literary History, 33(1), p. 61-88.</summary>
+  <content type="xhtml">
+    <div xmlns="http://www.w3.org/1999/xhtml">
+
+      <p>Dino Buzzetti, 2002. Digital Representation and the Text Model. New
+      Literary History, 33(1), p. 61-88.  <a
+      href="http://www.jstor.org/stable/pdfplus/20057710.pdf">http://www.jstor.org/stable/pdfplus/20057710.pdf</a></p>
+
+       <p>This entry is part of my series <a href="http://sigfrid-lundberg.se/entries/2010/04/readings/">Readings on
+       digital objects</a></p>
+
+    </div>
+  </content>
+  <dc:date>2010</dc:date>
+  <category label="textencoding" term="Text encoding"/>
+  <category label="digitalobjects" term="Digital objects"/>
+  <updated>2010-04-09T07:30:47+01:00</updated>
+  <id>http://www.sigfrid-lundberg.se/entries/2010/04/buzzetti/</id>
+</entry>
