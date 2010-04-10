@@ -6,7 +6,137 @@
   <title>Sigfrid Lundberg's Stuff</title>
   <id>http://sigfrid-lundberg.se/files.atom</id>
   <link rel="self" href="http://feeds.feedburner.com/SigfridLundbergsStuff?format=xml"/>
-  <updated>2010-04-08T14:58:26+01:00</updated>
+  <updated>2010-04-09T07:30:47+01:00</updated>
+  <entry>
+  <author>
+    <name>Sigfrid Lundberg</name>
+  </author>
+  <title>Digital Representation and the Text Model</title>
+  <link href="http://sigfrid-lundberg.se/entries/2010/04/buzzetti/"/>
+  <summary>Dino Buzzetti, 2002. Digital Representation and the Text Model. New
+  Literary History, 33(1), p. 61-88.</summary>
+  <content type="xhtml">
+    <div xmlns="http://www.w3.org/1999/xhtml">
+
+      <p>Dino Buzzetti, 2002. Digital Representation and the Text Model.<em>New
+      Literary History</em>, 33(1), p. 61-88.  <a href="http://www.jstor.org/stable/pdfplus/20057710.pdf">http://www.jstor.org/stable/pdfplus/20057710.pdf</a></p>
+
+      <p>I found this article by searching for <q>Ordered Hierarchy of
+      Content Objects</q> (OHCO) in Google Scholar.</p>
+
+      <p>The study and use of the theory and methodologies of text is
+      either very practical, i.e., deployed by people attempting to use it for
+      producing digital editions or text collections. It can also be extremely
+      theoretical, i.e., used by people proving that it is impossible to
+      represent using such crude technologies such stronly embedded markup
+      languages, such as Text Encoding Initiative XML.</p>
+
+      <p>It should not suprise you that the people discussing OHCO belong to
+      the latter category. It is those who perceive problems that need to name
+      them.</p>
+
+      <h3>Bumblebees and the theory of text</h3>
+
+      <p>I am writing code for my living. I spend most of my time on practical
+      problems. I'm about as interested in the intricacies of the theory of
+      text as I am in flight mechanics theories proving that bumblebees are
+      unable to fly.</p>
+
+      <p>However, if you want a really good discussion about text, you have to
+      turn to these contributions. They are written by people that are just as
+      smart as the students of flight mechanics. Recently they managed to
+      prove that bumblebees can fly which required more sofisticated
+      mathematics and data. That is, it required new knowledge.</p>
+
+      <p>Buzzettis contribution is a classic in the area. It was published
+      2002, but that version is a translation. The original was published
+      in Italian 1999. That means that it was written somewhere in the interval
+      1997-1999. That means that he might have started his research before XML
+      even were a recommendation. Most of the tools we use today where not
+      even on the drawing board. When he offers criticism against markup
+      languages, he talks exclusively about SGML, the precursor of XML -- the
+      much extended subset of SGML.</p>
+
+      <h3>The Map isn't the Landscape</h3>
+
+      <p>Anything which somehow depicts something else can be said to be
+      model, like a globe is a model of the earth. Buzetti focus two aspects
+      of any model of a text.</p>
+
+      <ol>
+	<li>the information represented</li>
+	<li>the represention of the information</li>
+      </ol>
+
+      <p>The first aspect is called the <em>content</em> of the text, whereas
+      the second is referred to as an <em>expression</em> of it. For example,
+      assume that you want to preserve a MS Word document. One way would be to
+      <q>print</q> it to a file and transform that to a (i) high resolution
+      bitmap as a (say) tif or jpeg2000. You could also export it as (ii)
+      ASCII text. The former would be an expression of the text and the latter
+      would be its content.</p>
+
+      <p>The conventional wisdom says that we have two aspects of a text, its
+      form and its content. Buzzetti doesn't mention this dichotomy at
+      all. Rather, he says that an expression as well as the content may have
+      a <em>form</em> and a <em>substance</em>. In his parlance, an
+      <em>edition</em> is the set of the various contents and expressions
+      available that can be linked to work. The edition may then represented
+      by <em>interpretations</em>, that may be seen as expressions or
+      content.</p>
+
+      <h3>Embedded vs. external encoding</h3>
+
+      <p>Buzzetti is very much against the use of SGML. I will not go into his
+      discussion of the lack of datamodels connected to the the markup, since
+      the explosive development of XML technologies make that part of his
+      criticism obsolete. The Document Object Model api supported by all major
+      programming languages is just one of many answers to that critique.</p>
+
+      <p>Buzzetti makes a distinction between strong and weak embedded
+      markup. Languages that embed marks both at the beginning and at the end
+      of character sequences inside a text are strongly embedded. Those that
+      mark onsets are weakly embedded. Buzzetti is against strong embedding,
+      but claims that text encoding ideally should be done without any
+      embedded markup. By using that you blur the distincion between the
+      form of substance.</p>
+
+      <p>The ideal form of text encoding is to store the offsets, string
+      lengths and corresponding semantics externally. Doing encoding this way
+      you may support as many overlapping hierarchies of content objects your
+      heart may desire. No hierarchy need to be given more importance all of
+      them are are equal.</p>
+
+      <h3>Buzzetti is right, but...</h3>
+
+      <p>TEI doesn't do things this way. It isn't because Buzzetti isn't
+      right. I'm sure he is. We who do text encoding thought that SGML was
+      good enough. Now we think that XML is OK and practical to use.</p>
+
+      <p>The designers of TEI choose to give a priority to the logical
+      structure of the texts we are encoding. That is, since we are allowed to
+      have one single hierarchy, we use it for encoding the content. I.e., the
+      chapters, sections, paragraphs and phrases. We don't use it for pages,
+      lines and characters which belong to the expression. We regard the page
+      and line breaks as points in the character stream and add empty tags for
+      them. These empty tags are called <em>milestones</em>. If we accept some
+      computational difficulties we can encode a lot using this machinery.</p>
+
+      <p>But, yes, our encoded text is an expression of the content, and we
+      limited the number of possible interpretations of the text.</p>
+
+      <p>This entry is part of my series <a href="http://sigfrid-lundberg.se/entries/2010/04/readings/">Readings on
+      digital objects</a></p>
+
+    </div>
+  </content>
+  <dc:date>2010</dc:date>
+  <category label="textencoding" term="Text encoding"/>
+  <category label="digitalobjects" term="Digital objects"/>
+  <updated>2010-04-09T07:30:47+01:00</updated>
+  <id>http://www.sigfrid-lundberg.se/entries/2010/04/buzzetti/</id>
+  <!-- $Id$ -->
+</entry>
   <entry>
   <author>
     <name>Sigfrid Lundberg</name>
@@ -103,6 +233,14 @@
 	  <ul>
 	    <li id="kahnframework">Robert Kahn, Robert Wilensky, 2006. <a href="http://sigfrid-lundberg.se/entries/2010/04/kahnframework/">A
 	    framework for distributed digital object services</a></li>
+	  </ul>
+	</li>
+	<li>
+	  the theory of text &amp; text modelling
+	  <ul>
+	    <li>Dino Buzzetti, 2002. <a href="http://sigfrid-lundberg.se/entries/2010/04/buzzetti/">Digital Representation and the Text</a>
+	    Model.
+	    </li>
 	  </ul>
 	</li>
       </ul>
