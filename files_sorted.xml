@@ -11,6 +11,41 @@
   <author>
     <name>Sigfrid Lundberg</name>
   </author>
+  <title>Pathologically Eclectic Rubbish Lister</title>
+  <link href="/entries/2010/04/perl/"/>
+  <summary>For many years I wrote most of my code in the Perl programming
+  language. Now I've been a exclusively java programmers for five years</summary>
+  <content type="xhtml">
+    <div xmlns="http://www.w3.org/1999/xhtml">
+
+      <div style="float:left;width:50%;margin-right:0.5em;margin-left:0.5em;">
+	<a href="http://sigfrid-lundberg.se/entries/2010/04/perl/20100407379.jpg"><img src="http://sigfrid-lundberg.se/entries/2010/04/perl/smaller20100407379.jpg" width="100%" alt=""/>Pathologically Eclectic Rubbish Lister</a>
+      </div>
+
+      <p>The Perl programming language was created by Larry Wall, who declared
+      that the name was an abbreviation of <q>Pathologically Eclectic Rubbish
+      Lister</q>, or possibly <q>Practical Extraction and Report
+      Language</q>. I've used it a lot and I'm not ashamed of it. And I still
+      use it. In spite of the fact that some people say it's dying. However,
+      now when I'm more or less completetly converted to JAVA, we are actually
+      discussing to switch part of our development to Ruby on Rails.</p>
+
+      
+    </div>
+  </content>
+  <dc:date>2010</dc:date>
+
+  <category label="images" term="Images"/>
+  <category label="programming" term="Programming"/>
+
+  <updated>2010-04-11T11:46:48+01:00</updated>
+  <id>http://www.sigfrid-lundberg.se/entries/2010/04/perl/</id>
+  <!-- $Id$ -->
+</entry>
+  <entry>
+  <author>
+    <name>Sigfrid Lundberg</name>
+  </author>
   <title>Digital Representation and the Text Model</title>
   <link href="/entries/2010/04/buzzetti/"/>
   <summary>Dino Buzzetti, 2002. Digital Representation and the Text Model. New
@@ -135,7 +170,7 @@
   <dc:date>2010</dc:date>
   <category label="textencoding" term="Text encoding"/>
   <category label="digitalobjects" term="Digital objects"/>
-  <updated>2010-04-10T15:50:25+01:00</updated>
+  <updated>2010-04-11T11:46:37+01:00</updated>
   <id>http://www.sigfrid-lundberg.se/entries/2010/04/buzzetti/</id>
   <!-- $Id$ -->
 </entry>
@@ -1365,6 +1400,7 @@
   </content>
   <dc:date>2010</dc:date>
   <category label="images" term="Images"/>
+  <category label="programming" term="Programming"/>
   <updated>2010-03-08T21:31:11+01:00</updated>
   <id>http://www.sigfrid-lundberg.se/entries/2010/03/bash/</id>
 </entry>
