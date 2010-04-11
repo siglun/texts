@@ -16,16 +16,17 @@
       <p>I found this article by searching for <q>Ordered Hierarchy of
       Content Objects</q> (OHCO) in Google Scholar.</p>
 
-      <p>The study and use of the theory and methodologies of text is
-      either very practical, i.e., deployed by people attempting to use it for
+      <p>The study and use of the theory and methodologies of text is either
+      very practical, i.e., deployed by people attempting to use it for
       producing digital editions or text collections. It can also be extremely
-      theoretical, i.e., used by people proving that it is impossible to
-      represent using such crude technologies such stronly embedded markup
-      languages, such as Text Encoding Initiative XML.</p>
+      theoretical, i.e., it is used by people proving that it is impossible to
+      represent text using such crude technologies such strongly embedded
+      markup languages, such as Text Encoding Initiative (TEI) XML.</p>
 
       <p>It should not suprise you that the people discussing OHCO belong to
       the latter category. It is those who perceive problems that need to name
-      them.</p>
+      them. And regardless of how many elements and attributes are added to
+      the TEI, it is limited by the fact that it is XML.</p>
 
       <h3>Bumblebees and the theory of text</h3>
 
@@ -40,18 +41,18 @@
       prove that bumblebees can fly which required more sofisticated
       mathematics and data. That is, it required new knowledge.</p>
 
-      <p>Buzzettis contribution is a classic in the area. It was published
-      2002, but that version is a translation. The original was published
-      in Italian 1999. That means that it was written somewhere in the interval
-      1997-1999. That means that he might have started his research before XML
-      even were a recommendation. Most of the tools we use today where not
+      <p>Buzzetti's contribution is a classic in the area. It was published
+      2002, but that version is a translation. The original was published in
+      Italian 1999. That means that it was written somewhere in the interval
+      1997-1999. That is, he might have started his research before XML
+      even was a recommendation. Most of the tools we use today where not
       even on the drawing board. When he offers criticism against markup
       languages, he talks exclusively about SGML, the precursor of XML -- the
       much extended subset of SGML.</p>
 
       <h3>The Map isn't the Landscape</h3>
 
-      <p>Anything which somehow depicts something else can be said to be
+      <p>Anything which somehow depicts something else can be said to be a
       model, like a globe is a model of the earth. Buzetti focus two aspects
       of any model of a text.</p>
 
@@ -73,16 +74,15 @@
       all. Rather, he says that an expression as well as the content may have
       a <em>form</em> and a <em>substance</em>. In his parlance, an
       <em>edition</em> is the set of the various contents and expressions
-      available that can be linked to work. The edition may then represented
-      by <em>interpretations</em>, that may be seen as expressions or
-      content.</p>
+      available that can be linked to a work. The edition may then represented
+      by <em>interpretations</em>.</p>
 
       <h3>Embedded vs. external encoding</h3>
 
       <p>Buzzetti is very much against the use of SGML. I will not go into his
       discussion of the lack of datamodels connected to the the markup, since
       the explosive development of XML technologies make that part of his
-      criticism obsolete. The Document Object Model api supported by all major
+      criticism obsolete. The Document Object Model API supported by all major
       programming languages is just one of many answers to that critique.</p>
 
       <p>Buzzetti makes a distinction between strong and weak embedded
@@ -102,20 +102,22 @@
       <h3>Buzzetti is right, but...</h3>
 
       <p>TEI doesn't do things this way. It isn't because Buzzetti isn't
-      right. I'm sure he is. We who do text encoding thought that SGML was
+      right. I'm sure he is. Those who did text encoding thought that SGML was
       good enough. Now we think that XML is OK and practical to use.</p>
 
       <p>The designers of TEI choose to give a priority to the logical
       structure of the texts we are encoding. That is, since we are allowed to
-      have one single hierarchy, we use it for encoding the content. I.e., the
-      chapters, sections, paragraphs and phrases. We don't use it for pages,
-      lines and characters which belong to the expression. We regard the page
-      and line breaks as points in the character stream and add empty tags for
-      them. These empty tags are called <em>milestones</em>. If we accept some
-      computational difficulties we can encode a lot using this machinery.</p>
+      have one single hierarchy, we use it for encoding the
+      <em>content</em>. I.e., the chapters, sections, paragraphs and
+      phrases. We don't use it for pages, lines and characters which belong to
+      the <em>expression</em>. We regard the page and line breaks as points in
+      the character stream and add empty tags for them. These empty tags are
+      called <em>milestones</em>. If we accept some computational difficulties
+      we can encode a lot using this machinery, including insertions and
+      deletions of text across (for example) paragraphs.</p>
 
       <p>But, yes, our encoded text is an expression of the content, and we
-      limited the number of possible interpretations of the text.</p>
+      have limited the range possible interpretations of the text.</p>
 
       <p>This entry is part of my series <a href="http://sigfrid-lundberg.se/entries/2010/04/readings/">Readings on
       digital objects</a></p>
