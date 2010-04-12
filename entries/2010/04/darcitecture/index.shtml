@@ -1,0 +1,137 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<html xmlns="http://www.w3.org/1999/xhtml" xmlns:addthis="http://www.addthis.com/help/api-spec"><head><title>Towards an Architectural Document
+      Analysis: 
+	  Sigfrid Lundberg's Stuff
+	</title><link href="http://feeds.feedburner.com/SigfridLundbergsStuff?format=xml" type="application/atom+xml" title="Sigfrid Lundberg's Stuff" rel="alternate"/><link href="http://sigfridlundbergsstuff.disqus.com/latest.rss" type="application/rss+xml" title="Latest Comments" rel="alternate"/><meta http-equiv="Content-Type" content="text/html;charset=UTF-8"/><script src="/js/navigation.js" type="text/javascript"> 
+	  </script><meta http-equiv="Content-Type" content="text/html;charset=UTF-8"/><link rel="stylesheet" href="/css-style/html.css"/></head><body><div class="left_box"><div style="text-align:left;width=90%;"><!--#include virtual="/div_top_left_box.xml" --></div><div style="text-align:left;width=90%;"><p><a href="/">Home</a><br/><a href="http://feeds.feedburner.com/SigfridLundbergsStuff?format=xml" type="application/atom+xml" class="feed-link"><img src="/images/Newsfeed-Atom.png" alt="Subscribe to Stuff from Sigfrid Lundberg" border="0"/>Subscribe to my stuff</a><br/><a href="http://sigfridlundbergsstuff.disqus.com/latest.rss" type="application/rss+xml" class="feed-link"><img src="/images/Newsfeed-Atom.png" alt="Subscribe to Stuff from Sigfrid Lundberg" border="0"/>Subscribe to discussion feed</a></p><!--#include virtual="/subjects.xml" --><!--#include virtual="/me.xml" --></div></div><div class="right_box"><h1 style="font-family: sans-serif; width: 55%; float: left;text-align: left;">Towards an Architectural Document
+      Analysis</h1><p style="width: 38%; float: left;text-align: right"><em><strong>Sigfrid Lundberg's Stuff 2010-04-12</strong></em><br/><br/><a class="addthis_button" addthis:title="Towards an Architectural Document&#10;      Analysis" addthis:url="http://sigfrid-lundberg.se/entries/2010/04/darcitecture/" href="http://www.addthis.com/bookmark.php?v=250&amp;pub=siggelundberg"><img src="http://s7.addthis.com/static/btn/v2/lg-share-en.gif" width="125" height="16" alt="Bookmark and Share" style="border:0"/></a><script type="text/javascript" src="http://s7.addthis.com/js/250/addthis_widget.js?pub=siggelundberg">
+		</script></p><div style="clear:both">
+	    </div>
+    <div>
+
+      <p>Helena Francke, 2008. Towards an Architectural Document
+      Analysis. <em>Journal of Information Architecture</em>, 1(1).
+      <a href="http://journalofia.org/volume1/issue1/03-francke/jofia-0101-03-francke.pdf">http://journalofia.org/volume1/issue1/03-francke/jofia-0101-03-francke.pdf</a></p>
+
+      <div style="float:right;width:50%;margin:0.5em;">
+	<table style="border:1px solid black;width:100%;">
+	  <tr>
+	    <th style="border:0;">
+	      <dl style="margin:0;">
+		<dt>Document Architecture</dt>
+	      </dl>
+	    </th>
+	    <th style="border:0;">
+	      <dl style="margin:0;">
+		<dt>Information Architecture</dt>
+	      </dl>
+	    </th>
+	  </tr>
+	  <tr>
+	    <td style="border:0;">
+	      <dl style="margin:0;">
+		<dt>logical structures</dt>
+	      </dl>
+	    </td>
+	    <td style="border:0;">
+	      <dl style="margin:0;">
+		<dt>organisation system</dt>
+	      </dl>
+	    </td>
+	  </tr>
+	  <tr>
+	    <td style="border:0;">
+	      <dl style="margin:0;">
+		<dt>layout structures</dt>
+	      </dl>
+	    </td>
+	    <td style="border:0;">
+	      <dl style="margin:0;">
+		<dt>organisation schemes</dt>
+	      </dl>
+	    </td>
+	  </tr>
+	  <tr>
+	    <td style="border:0;">
+	      <dl style="margin:0;">
+		<dt>content structures</dt>
+	      </dl>
+	    </td>
+	    <td style="border:0;">
+	      <dl style="margin:0;">
+		<dt>organisation structures</dt>
+	      </dl>
+	    </td>
+	  </tr>
+	  <tr>
+	    <td style="border:0;">
+	      <dl style="margin:0;">
+		<dt>file structures</dt>
+		<dd>browsing</dd>
+		<dd>searching</dd>
+		<dd>labelling</dd>
+	      </dl>
+	    </td>
+	    <td style="border:0;">
+	      <dl style="margin:0;">
+		<dt>navigation</dt>
+		<dd>browsing</dd>
+		<dd>searching</dd>
+		<dd>labelling</dd>
+	      </dl>
+	    </td>
+	  </tr>
+	</table>
+
+	<p>
+	  <small>Fig. 1. Information architecture level categories compared
+	  with document architecture ones, as Helena Franke presents them. The
+	  term <q>labelling</q> refers to how subjects or segments are
+	  referred to in the navigation system. In the case of navigation
+	  inside a document the labels are, I presume, equal to the chapter
+	  and section headers.</small>
+	</p>
+
+      </div>
+
+      <p>This is a paper with a very simple take home message, which I
+      reformulate here in my own words (Helena Franke might not agree): When a
+      document, be it a book or an article or whatever is transformed to web
+      content its content and expression (I've decided to adopt <a href="http://sigfrid-lundberg.se/entries/2010/04/buzzetti/">Buzzetti's
+      terminology</a>) become a part of a web site's information architecture,
+      or perhaps an extension of it. The usability of a digital text, does
+      depend its literary and scientific quality, but also very much on how
+      well the information is represented.</p>
+
+      <p>Now, this might be obvious for those who consume media on the net,
+      but unfortunately it is not obvious for many of those who produce
+      digital editions on the same net, which is the reason I have waste so much
+      HTML markup on this subject area.</p>
+
+      <div style="clear:both;">
+
+      </div>
+
+      <p>This entry is part of my series <a href="http://sigfrid-lundberg.se/entries/2010/04/readings/">Readings on
+      digital objects</a></p>
+
+
+    </div>
+  <div style="clear:both"> 
+	    </div><div id="disqus_thread">
+	    </div><p style="margin-left:+1%;"><a href="http://disqus.com" class="dsq-brlink">blog comments powered
+	    by <span class="logo-disqus">Disqus</span></a></p></div><script type="text/javascript" src="http://disqus.com/forums/sigfridlundbergsstuff/embed.js">
+	  </script><noscript><a href="http://sigfridlundbergsstuff.disqus.com/?url=http://sigfrid-lundberg.se/entries/2010/04/darcitecture/">
+	      View the discussion thread
+	  </a></noscript><script type="text/javascript">//<!--
+	  (function() {
+	      var links = document.getElementsByTagName('a');
+	      var query = '?';
+	      for(var i = 0; i < links.length; i++) {
+		  if(links[i].href.indexOf('#disqus_thread') >= 0) {
+		      query += 'url' + i + '=' + encodeURIComponent(links[i].href) + '&';
+		  }
+	      }
+	      document.write('<script charset="utf-8" type="text/javascript" src="http://disqus.com/forums/sigfridlundbergsstuff/get_num_replies.js' + query + '"></' + 'script>');
+	  })();
+	  //--></script><!--#include virtual="/js/urchin.js" --></body></html>

@@ -6,7 +6,133 @@
   <title>Sigfrid Lundberg's Stuff</title>
   <id>http://sigfrid-lundberg.se/files.atom</id>
   <link rel="self" href="http://feeds.feedburner.com/SigfridLundbergsStuff?format=xml"/>
-  <updated>2010-04-11T11:46:48+01:00</updated>
+  <updated>2010-04-12T18:34:52+01:00</updated>
+  <entry>
+  <author>
+    <name>Sigfrid Lundberg</name>
+  </author>
+  <title>Towards an Architectural Document
+      Analysis</title>
+  <link href="http://sigfrid-lundberg.se/entries/2010/04/darcitecture/"/>
+  <summary>Helena Francke, 2008. Towards an Architectural Document
+      Analysis. Journal of Information Architecture</summary>
+  <content type="xhtml">
+    <div xmlns="http://www.w3.org/1999/xhtml">
+
+      <p>Helena Francke, 2008. Towards an Architectural Document
+      Analysis. <em>Journal of Information Architecture</em>, 1(1).
+      <a href="http://journalofia.org/volume1/issue1/03-francke/jofia-0101-03-francke.pdf">http://journalofia.org/volume1/issue1/03-francke/jofia-0101-03-francke.pdf</a></p>
+
+      <div style="float:right;width:50%;margin:0.5em;">
+	<table style="border:1px solid black;width:100%;">
+	  <tr>
+	    <th style="border:0;">
+	      <dl style="margin:0;">
+		<dt>Document Architecture</dt>
+	      </dl>
+	    </th>
+	    <th style="border:0;">
+	      <dl style="margin:0;">
+		<dt>Information Architecture</dt>
+	      </dl>
+	    </th>
+	  </tr>
+	  <tr>
+	    <td style="border:0;">
+	      <dl style="margin:0;">
+		<dt>logical structures</dt>
+	      </dl>
+	    </td>
+	    <td style="border:0;">
+	      <dl style="margin:0;">
+		<dt>organisation system</dt>
+	      </dl>
+	    </td>
+	  </tr>
+	  <tr>
+	    <td style="border:0;">
+	      <dl style="margin:0;">
+		<dt>layout structures</dt>
+	      </dl>
+	    </td>
+	    <td style="border:0;">
+	      <dl style="margin:0;">
+		<dt>organisation schemes</dt>
+	      </dl>
+	    </td>
+	  </tr>
+	  <tr>
+	    <td style="border:0;">
+	      <dl style="margin:0;">
+		<dt>content structures</dt>
+	      </dl>
+	    </td>
+	    <td style="border:0;">
+	      <dl style="margin:0;">
+		<dt>organisation structures</dt>
+	      </dl>
+	    </td>
+	  </tr>
+	  <tr>
+	    <td style="border:0;">
+	      <dl style="margin:0;">
+		<dt>file structures</dt>
+		<dd>browsing</dd>
+		<dd>searching</dd>
+		<dd>labelling</dd>
+	      </dl>
+	    </td>
+	    <td style="border:0;">
+	      <dl style="margin:0;">
+		<dt>navigation</dt>
+		<dd>browsing</dd>
+		<dd>searching</dd>
+		<dd>labelling</dd>
+	      </dl>
+	    </td>
+	  </tr>
+	</table>
+
+	<p>
+	  <small>Fig. 1. Information architecture level categories compared
+	  with document architecture ones, as Helena Franke presents them. The
+	  term <q>labelling</q> refers to how subjects or segments are
+	  referred to in the navigation system. In the case of navigation
+	  inside a document the labels are, I presume, equal to the chapter
+	  and section headers.</small>
+	</p>
+
+      </div>
+
+      <p>This is a paper with a very simple take home message, which I
+      reformulate here in my own words (Helena Franke might not agree): When a
+      document, be it a book or an article or whatever is transformed to web
+      content its content and expression (I've decided to adopt <a href="http://sigfrid-lundberg.se/entries/2010/04/buzzetti/">Buzzetti's
+      terminology</a>) become a part of a web site's information architecture,
+      or perhaps an extension of it. The usability of a digital text, does
+      depend its literary and scientific quality, but also very much on how
+      well the information is represented.</p>
+
+      <p>Now, this might be obvious for those who consume media on the net,
+      but unfortunately it is not obvious for many of those who produce
+      digital editions on the same net, which is the reason I have waste so much
+      HTML markup on this subject area.</p>
+
+      <div style="clear:both;">
+
+      </div>
+
+      <p>This entry is part of my series <a href="http://sigfrid-lundberg.se/entries/2010/04/readings/">Readings on
+      digital objects</a></p>
+
+
+    </div>
+  </content>
+  <dc:date>2010</dc:date>
+  <category label="structuralwebdesign" term="Structural web design"/>
+  <updated>2010-04-12T18:34:52+01:00</updated>
+  <id>http://www.sigfrid-lundberg.se/entries/2010/04/darcitecture/</id>
+</entry>
   <entry>
   <author>
     <name>Sigfrid Lundberg</name>
@@ -202,10 +328,16 @@
 	<li>
 	  the theory of text &amp; text modelling
 	  <ul>
+
 	    <li>Dino Buzzetti, 2002. <a href="http://sigfrid-lundberg.se/entries/2010/04/buzzetti/">Digital Representation and the Text</a>
 	    Model.
 	    </li>
+
+	    <li>Helena Francke, 2008. <a href="http://sigfrid-lundberg.se/entries/2010/04/darchitecture/">Towards
+	    an Architectural Document Analysis</a></li>
+
 	  </ul>
+
 	</li>
       </ul>
 
