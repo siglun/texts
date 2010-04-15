@@ -5084,6 +5084,87 @@
   <author>
     <name>Sigfrid Lundberg</name>
   </author>
+  <title>Is Google Making us Stupid?</title>
+  <link href="/entries/2010/04/gstupid/"/>
+  <summary>Having had a web site for about 15 years, I start to wonder why I
+  keep it in the first place.</summary>
+  <content type="xhtml">
+    <div xmlns="http://www.w3.org/1999/xhtml">
+
+      <p>Nicholas Carr, 2008. Is Google Making Us Stupid?  What the Internet
+      is doing to our brains. <em>The Atlantic Magazine</em>.  <a href="http://www.theatlantic.com/magazine/archive/2008/07/is-google-making-us-stupid/6868/">http://www.theatlantic.com/magazine/archive/2008/07/is-google-making-us-stupid/6868/</a></p>
+
+      <blockquote cite="http://www.theatlantic.com/magazine/archive/2008/07/is-google-making-us-stupid/6868/"><em>Over
+      the past few years I’ve had an uncomfortable sense that someone, or
+      something, has been tinkering with my brain, remapping the neural
+      circuitry, reprogramming the memory. My mind isn’t going—so far as I can
+      tell—but it’s changing.</em></blockquote>
+
+      <p>writes Nicholas Carr, and continues a bit further down:</p>
+
+      <blockquote cite="http://www.theatlantic.com/magazine/archive/2008/07/is-google-making-us-stupid/6868/"><em>Immersing
+      myself in a book or a lengthy article used to be easy. My mind would get
+      caught up in the narrative or the turns of the argument, and I’d spend
+      hours strolling through long stretches of prose. That’s rarely the case
+      anymore. Now my concentration often starts to drift after two or three
+      pages. I get fidgety, lose the thread, begin looking for something else
+      to do. I feel as if I’m always dragging my wayward brain back to the
+      text. The deep reading that used to come naturally has become a
+      struggle.</em></blockquote>
+
+      <p>I first read this article in a printed Swedish translation. I was
+      about a year and a half ago. Months later I found the original and
+      started to read that. Initially I did not realize that I was actually
+      rereading it, but for some reason I then returned to the translation and
+      could establish the connection between. It was when I started to follow
+      Carr's arguments in some detail that I recognized the article.</p>
+
+      <p>Texts on the Internet are generally brief. I don't say that Fyodor
+      Mikhaylovich Dostoyevsky's texts somehow become more condensed in
+      digital editions, but most texts are entries shorter than this one and
+      they are shorter than articles in printed newspapers and magazines. We
+      have accustomed ourselves to brevity and and perceive difficulties when
+      reading longer texts. This is just the symptoms; Nicholas Carr reviews
+      the evidence and I'm convinced. Our media consumption habits are
+      changing, and he even manages to convince me that this affects the brain
+      itself.</p>
+
+      <p>Does it matter? Nicholas Carr does not even try to answer that
+      question. It might be that the Internet brain has acclimatized itself to
+      the new information environment, and that is neither good or bad. He
+      mentions <q><em>Plato’s Phaedrus,</em> [in which] <em>Socrates
+      bemoaned the development of writing. He feared that, as people came to
+      rely on the written word as a substitute for the knowledge they used to
+      carry inside their heads, they would, in the words of one of the
+      dialogue’s characters, 'cease to exercise their memory and become
+      forgetful.'</em> </q></p>
+
+      <p>Then, through history, this bemoaning has been repeated at each step
+      when media production and consumption passes through a new period of
+      rapid development.</p>
+
+      <p>Carr claims that Socrates was right: People's memory deteriorated
+      when they no longer had to memorize Homer's <em>Iliad</em> and
+      <em>Odyssey</em>. He also claims that for each of these historic changes
+      the benefits have exceeded the drawbacks.</p>
+
+      <p>We don't know if this will be the case this time, though.</p>
+
+      <p>This entry is part of my series <a href="http://sigfrid-lundberg.se/entries/2010/04/readings/">Readings on
+      digital objects</a></p>
+
+    </div>
+  </content>
+  <dc:date>2010</dc:date>
+  <category label="digitalobjects" term="Digital objects"/>
+  <category label="internet" term="Internet"/>
+  <updated>2010-04-14T17:09:23+01:00</updated>
+  <id>http://www.sigfrid-lundberg.se/entries/2010/04/gstupid/</id>
+  <!-- $Id$ -->
+</entry><entry xmlns:dc="http://purl.org/dc/elements/1.1/">
+  <author>
+    <name>Sigfrid Lundberg</name>
+  </author>
   <title>A Safari among Subscription Libraries</title>
   <link href="/entries/2010/04/subscriptions/"/>
   <summary>I have been a subscriber to O'Reilly's Safari services for quite
@@ -5209,6 +5290,17 @@
 	  </ul>
 
 	</li>
+
+	<li>
+	  reading habits
+	  <ul>
+	    <li>Nicholas Carr, 2008. <a href="http://sigfrid-lundberg.se/entries/2010/04/gstupid/">Is
+	    Google Making Us Stupid?  What the Internet is doing to our
+	    brains.</a></li>
+	  </ul>
+
+	</li>
+
       </ul>
 
     </div>
