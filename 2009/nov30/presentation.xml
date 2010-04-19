@@ -6,7 +6,7 @@
       lang="en">
   <head>
     <title>seminar 2009-11-30: new metadata formats@kb.dk</title>
-    <meta http-equiv="Content-Type" content="application/html+xml"/>
+    <meta http-equiv="Content-Type" content="application/xhtml+xml"/>
     <script type="application/javascript">
       
       function closeopen(elementId) {
@@ -245,6 +245,9 @@ pageTracker._trackPageview();
   <!--
       $Id$
       $Log$
+      Revision 1.14  2010/04/19 16:21:03  sigfrid
+      publishing extractive
+
       Revision 1.13  2009/11/30 15:36:03  sigfrid
       added google analytics
 
