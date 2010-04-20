@@ -6,7 +6,63 @@
   <title>Sigfrid Lundberg's Stuff</title>
   <id>http://sigfrid-lundberg.se/files.atom</id>
   <link rel="self" href="http://feeds.feedburner.com/SigfridLundbergsStuff?format=xml"/>
-  <updated>2010-04-20T07:50:37+01:00</updated>
+  <updated>2010-04-20T17:25:00+01:00</updated>
+  <entry>
+  <author>
+    <name>Sigfrid Lundberg</name>
+  </author>
+  <title>Why do I keep this site?</title>
+  <link rel="self" href="http://sigfrid-lundberg.se/entries/2010/04/thinkerinthespring/"/>
+  <summary>Having had a web site for about 15 years, I start to wonder why I
+  keep it in the first place.</summary>
+  <content type="xhtml">
+    <div xmlns="http://www.w3.org/1999/xhtml">
+
+      <div style="float:left;width:50%;margin-right:0.5em;margin-left:0.5em;">
+	<a title="Thinking about tulips" href="http://sigfrid-lundberg.se/entries/2010/04/thinkerinthespring/20100408380.jpg"><img src="http://sigfrid-lundberg.se/entries/2010/04/thinkerinthespring/20100408380.jpg" width="100%" alt="Thinking about tulips"/></a>
+      </div>
+      
+      <p>I took this image 8 April and <a href="http://fsdata/entries/2010/03/thinking/" title="The thinker       2010-02-18">another earlier in February</a>. The difference in weather
+      is dramatic, it is 49 days between the two images.</p>
+
+      <p>There is one odd thing about the tulips surrounding the
+      April Thinker. They are extremely early. I haven't seen any tulips as
+      early in Skåne or Zealand.</p>
+
+      <div style="clear:both;margin-bottom:0.5em;">
+
+      </div>
+
+      <div style="float:right;width:50%;margin-right:0.5em;margin-left:0.5em;">
+	<a title="Ludvig Holberg" href="http://sigfrid-lundberg.se/entries/2010/04/thinkerinthespring/20100409384.jpg"><img src="http://sigfrid-lundberg.se/entries/2010/04/thinkerinthespring/smaller20100409384.jpg" width="100%" alt="Ludvig Holberg"/></a>
+      </div>
+
+	<p><a href="http://en.wikipedia.org/wiki/Ludvig_Holberg">Ludvig
+	Holberg</a> on the main square in down-town Bergen, a wonderful city
+	by a very Norwegian fjord beneath some Norwegian mountains. I took
+	this snapshot when I visited <a href="http://digital.uni.no/">Uni
+	Digital</a></p>
+
+	<p>I wanted Ludvig, the square and the mountain on the same
+	image. Ludvig isn't as sharp has he could have been. Sorry for
+	that. The camera in my phone focused on the background.</p>
+
+	<p>Ludvig Holberg was born here, but his academic career is connected
+	to the university of Copenhagen. The <a href="http://www.uib.no/">University of Bergen</a> and <a href="http://dsl.dk/">Det Danske Sprog- og Litteraturselskab</a> are
+	now producing a new critical edition of Holbergs collected work. <a href="http://digital.uni.no/">Uni Digital</a> delivers the technology
+	and then plan is that we, The Royal Library, Copenhagen, and
+	the University Library, Bergen,  share the burden of hosting the
+	system.</p>
+
+
+    </div>
+  </content>
+  <dc:date>2010</dc:date>
+  <category label="images" term="Images"/>
+  <updated>2010-04-20T17:25:00+01:00</updated>
+  <id>http://www.sigfrid-lundberg.se/entries/2010/04/thinkerinthespring/</id>
+  <!-- $Id$ -->
+</entry>
   <entry>
   <author>
     <name>Sigfrid Lundberg</name>
@@ -30,7 +86,7 @@
 
       <p>In addition I find almost all comparisons between old and new medias
       tedious, inasmuchas that I seldom learn something new reading
-      them. Similarly, any text starting by claiming that the ICT area is
+      them. Similarly, any text starting with claims such that the ICT area is
       under rapid development will remain only partly read. Usually only the
       very first part. Unless the first few sentences contain something
       interesting <strong>and</strong> something that's new to me. Like the <a href="http://sigfrid-lundberg.se/entries/2010/04/gstupid/">article by
