@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<entry xmlns="http://www.w3.org/2005/Atom" xmlns:dc="http://purl.org/dc/elements/1.1/">
+  <author>
+    <name>Sigfrid Lundberg</name>
+  </author>
+  <title>Why do I keep this site?</title>
+  <link rel="self"  href="/entries/2010/04/thinkerinthespring/"/>
+  <summary>Having had a web site for about 15 years, I start to wonder why I
+  keep it in the first place.</summary>
+  <content type="xhtml">
+    <div xmlns="http://www.w3.org/1999/xhtml">
+
+      <div style="float:left;width:50%;margin-right:0.5em;margin-left:0.5em;">
+	<a title="Thinking about tulips"
+	   href="http://sigfrid-lundberg.se/entries/2010/04/thinkerinthespring/20100408380.jpg"><img src="http://sigfrid-lundberg.se/entries/2010/04/thinkerinthespring/20100408380.jpg" width="100%" alt="Thinking about tulips"/></a>
+      </div>
+
+
+
+    </div>
+  </content>
+  <dc:date>2010</dc:date>
+  <category label="images" term="Images"/>
+  <updated>2010-04-20T17:25:00+01:00</updated>
+  <id>http://www.sigfrid-lundberg.se/entries/2010/04/thinkerinthespring/</id>
+</entry>
