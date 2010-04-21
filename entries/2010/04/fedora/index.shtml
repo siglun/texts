@@ -1,0 +1,130 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<html xmlns="http://www.w3.org/1999/xhtml" xmlns:addthis="http://www.addthis.com/help/api-spec"><head><title>Fedora: 
+	  Sigfrid Lundberg's Stuff
+	</title><link href="http://feeds.feedburner.com/SigfridLundbergsStuff?format=xml" type="application/atom+xml" title="Sigfrid Lundberg's Stuff" rel="alternate"/><link href="http://sigfridlundbergsstuff.disqus.com/latest.rss" type="application/rss+xml" title="Latest Comments" rel="alternate"/><meta http-equiv="Content-Type" content="text/html;charset=UTF-8"/><script src="/js/navigation.js" type="text/javascript"> 
+	  </script><meta http-equiv="Content-Type" content="text/html;charset=UTF-8"/><link rel="stylesheet" href="/css-style/html.css"/></head><body><div class="left_box"><div style="text-align:left;width=90%;"><!--#include virtual="/div_top_left_box.xml" --></div><div style="text-align:left;width=90%;"><p><a href="/">Home</a><br/><a href="http://feeds.feedburner.com/SigfridLundbergsStuff?format=xml" type="application/atom+xml" class="feed-link"><img src="/images/Newsfeed-Atom.png" alt="Subscribe to Stuff from Sigfrid Lundberg" border="0"/>Subscribe to my stuff</a><br/><a href="http://sigfridlundbergsstuff.disqus.com/latest.rss" type="application/rss+xml" class="feed-link"><img src="/images/Newsfeed-Atom.png" alt="Subscribe to Stuff from Sigfrid Lundberg" border="0"/>Subscribe to discussion feed</a></p><!--#include virtual="/subjects.xml" --><!--#include virtual="/me.xml" --></div></div><div class="right_box"><h1 style="font-family: sans-serif; width: 55%; float: left;text-align: left;">Fedora</h1><p style="width: 38%; float: left;text-align: right"><em><strong>Sigfrid Lundberg's Stuff 2010-04-21</strong></em><br/><br/><a class="addthis_button" addthis:title="Fedora" addthis:url="http://sigfrid-lundberg.se/entries/2010/04/fedora/" href="http://www.addthis.com/bookmark.php?v=250&amp;pub=siggelundberg"><img src="http://s7.addthis.com/static/btn/v2/lg-share-en.gif" width="125" height="16" alt="Bookmark and Share" style="border:0"/></a><script type="text/javascript" src="http://s7.addthis.com/js/250/addthis_widget.js?pub=siggelundberg">
+		</script></p><div style="clear:both">
+	    </div>
+    <div>
+
+      <p>Carl Lagoze, Sandy Payette, Edwin Shin and Chris Wilper, 2005.
+      Fedora: an architecture for complex objects and their
+      relationships. <em>International Journal on Digital Libraries</em>. <a href="http://arxiv.org/ftp/cs/papers/0501/0501012.pdf">http://arxiv.org/ftp/cs/papers/0501/0501012.pdf</a></p>
+
+      <p>This entry should have been about the paper mentioned above. It is
+      only remotely related to it, I'm afraid.</p>
+
+      <p>We are about to start implementing Fedora here at the Royal Library;
+      our <a href="http://sigfrid-lundberg.se/entries/2010/03/stanford/">journey to
+      Stanford</a> was about about that. The decision has been discussed at
+      length and I think that it is wise, because when you build a
+      repository of digital objects you need a uniform environment for
+      metadata processing.</p>
+
+      <p>Here I'm going to discuss XML processing, not metadata
+      processing. Some may think Fedora isn't a tool for XML
+      processing. However, it is often used that way.</p>
+
+      <p>One caveat, the thoughts here are the opinions of one who have not
+      yet used the package. However</p>
+
+      <ol>
+	<li>I have read the writings by Carl Lagoze et al. and also</li>
+	<li>the information on the Fedora Commons web site.</li>
+	<li>In addition I've had quite a few conversations with people
+	involved with Fedora, including Carl himself at the turn of the
+	century when he was very much involved in the project.</li>
+      </ol>
+
+      <p>So if you are willing to consider my predilections, read on. From my
+      view, the use of Fedora is connected with some pitfalls. They are as
+      dangerous as they are easy to circumvent.</p>
+
+      <h3>Stale XML technology stack</h3>
+
+      <p>In my view Fedora is basically JAXP &amp; Web technologies built on
+      top of standards such as WSDL, SOAP &amp; XSD. It is not even a little
+      <em>anno dazumal</em>, to me it is very much the obvious technology
+      stack of year 2001. Today it is REST not SOAP, RelaxNG not XSD. Also we
+      have now XQuery and other technologies that were just not invented
+      <em>anno dazumal</em>.</p>
+
+      <p>Since Fedora Commons 3.0 the entire Fedora API should be available
+      through REST. <a href="http://cafe.elharo.com/xml/relax-wins/">XSD still
+      sucks</a> (<a href="http://www.tbray.org/ongoing/When/200x/2006/11/27/Choose-Relax">read
+      this as well</a>), but I can live with it.</p>
+
+      <h3>Poorly standardized container format</h3>
+
+      <p>All objects in Fedora are ingested by formulating your data in <a href="http://www.fedora-commons.org/confluence/display/FCR30/Introduction+to+FOXML">Fedora
+      Object XML</a> (FOXML), which is the format used internally in
+      Fedora. Tim Bray (editor of the spec of XML 1.0) gives the following
+      advice to anyone designing mark-up languages:</p>
+
+      <blockquote cite="http://www.pdfpower.com/XML2005Proceedings/ship/175/xml2005.PDF"><em>Accept
+      that there will be a clash between the model-centric and syntax-centric
+      world-views, but bear in mind that successful XML-based languages
+      support the use of multiple software implementations that cannot be
+      expected to share a data model.</em> (<a href="http://www.pdfpower.com/XML2005Proceedings/ship/175/xml2005.PDF">Tim
+      Bray, 2005</a>) </blockquote>
+
+      <p>Seen from this perspective FOXML is not a good idea, being a typical
+      object-oriented serialization used in one single implementation only,
+      with one single datamodel. FOXML is poorly documented and usually used
+      as a container for home brewed mixture of XML or RDF. That is, it has
+      all characteristics of a loser language.</p>
+
+      <p>Now, here I here we have to put this into perspective. If we look
+      upon FOXML as <em>just</em> a serialized object and not as <em>the
+      document format that will preserve our valuable data for posterity</em>,
+      then FOXML is just another internal data format used inside a piece of
+      software. Then I can live with FOXML. Indeed people invent such XML
+      languages all the time to get their job done, and in comparison with
+      those, then FOXML isn't that bad. In an object store with multiple
+      document types this is almost the only way to do it, unless you've got
+      an XML database.</p>
+
+      <h3>Performance problems</h3>
+
+      <p>The FOXML is usually indexed using a RDF triple store. However, the
+      indexing process is computationally demanding and many implementors
+      switch of this feature. A popular complement (or even replacement) is to
+      index the data using <a href="http://lucene.apache.org/solr/">Solr</a>,
+      which is a high performance search and retrieval engine based on
+      Apache Lucene.</p>
+
+      <p>I can live with the indexing in Lucene or Solr. They are good.</p>
+
+      <h3>In conclusion</h3>
+
+      <p>I haven't even mentioned all the object oriented bindings. The
+      bindings are not better than what it binds to. And that is FOXML and it
+      sucks. The thing is just poor quality in comparison with TEI, DIDL,
+      METS, MODS and ATOM.  It is good enough for a lot of purposes,
+      though. Such as presenting the content of a METS file. You cand do
+      wonders with Fedora. But remember FOXML can never replace METS even if
+      the Fedora people are better at UML. The METS community is better at
+      XML.</p>
+
+      <p>This entry is part of my series <a href="http://sigfrid-lundberg.se/entries/2010/04/readings/">Readings on
+      digital objects</a></p>
+
+    </div>
+  <div style="clear:both"> 
+	    </div><div id="disqus_thread">
+	    </div><p style="margin-left:+1%;"><a href="http://disqus.com" class="dsq-brlink">blog comments powered
+	    by <span class="logo-disqus">Disqus</span></a></p></div><script type="text/javascript" src="http://disqus.com/forums/sigfridlundbergsstuff/embed.js">
+	  </script><noscript><a href="http://sigfridlundbergsstuff.disqus.com/?url=http://sigfrid-lundberg.se/entries/2010/04/fedora/">
+	      View the discussion thread
+	  </a></noscript><script type="text/javascript">//<!--
+	  (function() {
+	      var links = document.getElementsByTagName('a');
+	      var query = '?';
+	      for(var i = 0; i < links.length; i++) {
+		  if(links[i].href.indexOf('#disqus_thread') >= 0) {
+		      query += 'url' + i + '=' + encodeURIComponent(links[i].href) + '&';
+		  }
+	      }
+	      document.write('<script charset="utf-8" type="text/javascript" src="http://disqus.com/forums/sigfridlundbergsstuff/get_num_replies.js' + query + '"></' + 'script>');
+	  })();
+	  //--></script><!--#include virtual="/js/urchin.js" --></body></html>

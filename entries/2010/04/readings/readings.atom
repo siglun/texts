@@ -20,9 +20,17 @@
 	<li>
 	  digital object store
 	  <ul>
+
 	    <li id="kahnframework">Robert Kahn, Robert Wilensky, 2006. <a href="http://sigfrid-lundberg.se/entries/2010/04/kahnframework/">A
 	    framework for distributed digital object services</a></li>
+
+	    <li id="lagozeetalfedora2005">Carl Lagoze, Sandy Payette, Edwin
+	    Shin and Chris Wilper, 2005.  <a href="http://sigfrid-lundberg.se/entries/2010/04/fedora/">Fedora:
+	    an architecture for complex objects and their
+	    relationships.</a></li>
+
 	  </ul>
+
 	</li>
 	<li>
 	  the theory of text &amp; text modelling
@@ -32,8 +40,7 @@
 	    Model.
 	    </li>
 
-	    <li>Helena Francke, 2008. <a
-	    href="http://sigfrid-lundberg.se/entries/2010/04/darcitecture/">Towards
+	    <li>Helena Francke, 2008. <a href="http://sigfrid-lundberg.se/entries/2010/04/darcitecture/">Towards
 	    an Architectural Document Analysis</a></li>
 
 	  </ul>
@@ -43,8 +50,7 @@
 	<li>
 	  reading habits
 	  <ul>
-	    <li>Nicholas Carr, 2008. <a
-	    href="http://sigfrid-lundberg.se/entries/2010/04/gstupid/">Is
+	    <li>Nicholas Carr, 2008. <a href="http://sigfrid-lundberg.se/entries/2010/04/gstupid/">Is
 	    Google Making Us Stupid?  What the Internet is doing to our
 	    brains.</a></li>
 	  </ul>
@@ -58,7 +64,7 @@
   <dc:date>2010</dc:date>
   <category label="digitalcollections" term="Digital collections"/>
   <category label="digitalobjects" term="Digital objects"/>
-  <updated>2010-04-10T15:50:11+01:00</updated>
+  <updated>2010-04-21T14:06:26+01:00</updated>
   <id>http://www.sigfrid-lundberg.se/entries/2010/04/readings/</id>
   <!-- $Id$ -->
 </entry>

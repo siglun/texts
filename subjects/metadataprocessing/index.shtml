@@ -6,7 +6,10 @@
   allows you to lookup data in one part of a database based on a query in an
   other part. Joins are very general, and may appear in other contexts. Such
   as the XML forms language.<br/><a href="/subjects/xmlprocessing/">XML processing</a>,
-	<a href="/subjects/metadataprocessing/">Metadata processing</a></p><p><strong><a href="/2009">2009</a>: </strong><a href="/entries/2009/08/opensearch/"><em>Syndication and Simple REST XML web services in a library context</em></a><br/>Some time ago I demonstrated our navigation services. In that entry
+	<a href="/subjects/metadataprocessing/">Metadata processing</a></p><p><strong><a href="/2010">2010</a>: </strong><a href="/entries/2010/04/fedora/"><em>Fedora</em></a><br/>Carl Lagoze, Sandy Payette, Edwin Shin and Chris Wilper,
+  2005. Fedora: an architecture for complex objects and their
+  relationships<br/><a href="/subjects/metadataprocessing/">Metadata processing</a>,
+	<a href="/subjects/digitalobjects/">Digital objects</a></p><p><strong><a href="/2009">2009</a>: </strong><a href="/entries/2009/08/opensearch/"><em>Syndication and Simple REST XML web services in a library context</em></a><br/>Some time ago I demonstrated our navigation services. In that entry
   I promised to tell you more about these services when they are are more
   mature. Here is the story on the architecture of some of our new
   digitization services.<br/><a href="/subjects/xws/">XML web services</a>,
