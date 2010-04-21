@@ -1,11 +1,11 @@
 <div xmlns="http://www.w3.org/1999/xhtml">
   <div>
-    <h1 style="font-family: sans-serif; width: 55%; float: left;text-align: left;">Holberg, the Thinker and the Tulips</h1>
+    <h1 style="font-family: sans-serif; width: 55%; float: left;text-align: left;">Fedora</h1>
     <p style="width: 38%; float: left;text-align: right">
       <em>
         <strong>
 		Sigfrid Lundberg's Stuff,
-	      2010-04-20</strong>
+	      2010-04-21</strong>
       </em>
     </p>
   </div>
@@ -13,54 +13,130 @@
   <div style="width:100%;">
     <div>
 
-      <div style="float:left;width:50%;margin-right:0.5em;margin-left:0.5em;">
-	<a title="Thinking about tulips" href="http://sigfrid-lundberg.se/entries/2010/04/thinkerinthespring/20100408380.jpg"><img src="http://sigfrid-lundberg.se/entries/2010/04/thinkerinthespring/20100408380.jpg" width="100%" alt="Thinking about tulips"/></a>
-      </div>
-      
-      <p>I took this image 8 April and <a href="http://fsdata/entries/2010/03/thinking/" title="The thinker       2010-02-18">another earlier in February</a>. The difference in weather
-      is dramatic, it is 49 days between the two images.</p>
+      <p>Carl Lagoze, Sandy Payette, Edwin Shin and Chris Wilper, 2005.
+      Fedora: an architecture for complex objects and their
+      relationships. <em>International Journal on Digital Libraries</em>. <a href="http://arxiv.org/ftp/cs/papers/0501/0501012.pdf">http://arxiv.org/ftp/cs/papers/0501/0501012.pdf</a></p>
 
-      <p>There is one odd thing about the tulips surrounding the
-      April Thinker. They are extremely early. I haven't seen any tulips as
-      early in Skåne or Zealand.</p>
+      <p>This entry should have been about the paper mentioned above. It is
+      only remotely related to it, I'm afraid.</p>
 
-      <div style="clear:both;margin-bottom:0.5em;">
+      <p>We are about to start implementing Fedora here at the Royal Library;
+      our <a href="http://sigfrid-lundberg.se/entries/2010/03/stanford/">journey to
+      Stanford</a> was about about that. The decision has been discussed at
+      length and I think that it is wise, because when you build a
+      repository of digital objects you need a uniform environment for
+      metadata processing.</p>
 
-      </div>
+      <p>Here I'm going to discuss XML processing, not metadata
+      processing. Some may think Fedora isn't a tool for XML
+      processing. However, it is often used that way.</p>
 
-      <div style="float:right;width:50%;margin-right:0.5em;margin-left:0.5em;">
-	<a title="Ludvig Holberg" href="http://sigfrid-lundberg.se/entries/2010/04/thinkerinthespring/20100409384.jpg"><img src="http://sigfrid-lundberg.se/entries/2010/04/thinkerinthespring/smaller20100409384.jpg" width="100%" alt="Ludvig Holberg"/></a>
-      </div>
+      <p>One caveat, the thoughts here are the opinions of one who have not
+      yet used the package. However</p>
 
-	<p><a href="http://en.wikipedia.org/wiki/Ludvig_Holberg">Ludvig
-	Holberg</a> on the main square in down-town Bergen, a wonderful city
-	by a very Norwegian fjord beneath some Norwegian mountains. I took
-	this snapshot when I visited <a href="http://digital.uni.no/">Uni
-	Digital</a></p>
+      <ol>
+	<li>I have read the writings by Carl Lagoze et al. and also</li>
+	<li>the information on the Fedora Commons web site.</li>
+	<li>In addition I've had quite a few conversations with people
+	involved with Fedora, including Carl himself at the turn of the
+	century when he was very much involved in the project.</li>
+      </ol>
 
-	<p>I wanted Ludvig, the square and the mountain on the same
-	image. Ludvig isn't as sharp has he could have been. Sorry for
-	that. The camera in my phone focused on the background.</p>
+      <p>So if you are willing to consider my predilections, read on. From my
+      view, the use of Fedora is connected with some pitfalls. They are as
+      dangerous as they are easy to circumvent.</p>
 
-	<p>Ludvig Holberg was born here, but his academic career is connected
-	to the university of Copenhagen. The <a href="http://www.uib.no/">University of Bergen</a> and <a href="http://dsl.dk/">Det Danske Sprog- og Litteraturselskab</a> are
-	now producing a new critical edition of Holbergs collected work. <a href="http://digital.uni.no/">Uni Digital</a> delivers the technology
-	and then plan is that we, The Royal Library, Copenhagen, and
-	the University Library, Bergen,  share the burden of hosting the
-	system.</p>
+      <h3>Stale XML technology stack</h3>
 
+      <p>In my view Fedora is basically JAXP &amp; Web technologies built on
+      top of standards such as WSDL, SOAP &amp; XSD. It is not even a little
+      <em>anno dazumal</em>, to me it is very much the obvious technology
+      stack of year 2001. Today it is REST not SOAP, RelaxNG not XSD. Also we
+      have now XQuery and other technologies that were just not invented
+      <em>anno dazumal</em>.</p>
+
+      <p>Since Fedora Commons 3.0 the entire Fedora API should be available
+      through REST. <a href="http://cafe.elharo.com/xml/relax-wins/">XSD still
+      sucks</a> (<a href="http://www.tbray.org/ongoing/When/200x/2006/11/27/Choose-Relax">read
+      this as well</a>), but I can live with it.</p>
+
+      <h3>Poorly standardized container format</h3>
+
+      <p>All objects in Fedora are ingested by formulating your data in <a href="http://www.fedora-commons.org/confluence/display/FCR30/Introduction+to+FOXML">Fedora
+      Object XML</a> (FOXML), which is the format used internally in
+      Fedora. Tim Bray (editor of the spec of XML 1.0) gives the following
+      advice to anyone designing mark-up languages:</p>
+
+      <blockquote cite="http://www.pdfpower.com/XML2005Proceedings/ship/175/xml2005.PDF"><em>Accept
+      that there will be a clash between the model-centric and syntax-centric
+      world-views, but bear in mind that successful XML-based languages
+      support the use of multiple software implementations that cannot be
+      expected to share a data model.</em> (<a href="http://www.pdfpower.com/XML2005Proceedings/ship/175/xml2005.PDF">Tim
+      Bray, 2005</a>) </blockquote>
+
+      <p>Seen from this perspective FOXML is not a good idea, being a typical
+      object-oriented serialization used in one single implementation only,
+      with one single datamodel. FOXML is poorly documented and usually used
+      as a container for home brewed mixture of XML or RDF. That is, it has
+      all characteristics of a loser language.</p>
+
+      <p>Now, here I here we have to put this into perspective. If we look
+      upon FOXML as <em>just</em> a serialized object and not as <em>the
+      document format that will preserve our valuable data for posterity</em>,
+      then FOXML is just another internal data format used inside a piece of
+      software. Then I can live with FOXML. Indeed people invent such XML
+      languages all the time to get their job done, and in comparison with
+      those, then FOXML isn't that bad. In an object store with multiple
+      document types this is almost the only way to do it, unless you've got
+      an XML database.</p>
+
+      <h3>Performance problems</h3>
+
+      <p>The FOXML is usually indexed using a RDF triple store. However, the
+      indexing process is computationally demanding and many implementors
+      switch of this feature. A popular complement (or even replacement) is to
+      index the data using <a href="http://lucene.apache.org/solr/">Solr</a>,
+      which is a high performance search and retrieval engine based on
+      Apache Lucene.</p>
+
+      <p>I can live with the indexing in Lucene or Solr. They are good.</p>
+
+      <h3>In conclusion</h3>
+
+      <p>I haven't even mentioned all the object oriented bindings. The
+      bindings are not better than what it binds to. And that is FOXML and it
+      sucks. The thing is just poor quality in comparison with TEI, DIDL,
+      METS, MODS and ATOM.  It is good enough for a lot of purposes,
+      though. Such as presenting the content of a METS file. You cand do
+      wonders with Fedora. But remember FOXML can never replace METS even if
+      the Fedora people are better at UML. The METS community is better at
+      XML.</p>
+
+      <p>This entry is part of my series <a href="http://sigfrid-lundberg.se/entries/2010/04/readings/">Readings on
+      digital objects</a></p>
 
     </div>
     <br clear="all"/>
     <p style="text-align: left;"><em><strong>Categories:</strong></em> 
-	  <a href="/subjects/images/">Images</a><br/><em><strong>
+	  <a href="/subjects/metadataprocessing/">Metadata processing</a>,
+	    <a href="/subjects/digitalobjects/">Digital objects</a><br/><em><strong>
 		Permalink:
-	      </strong></em><a rel="bookmark" href="/entries/2010/04/thinkerinthespring/">http://sigfrid-lundberg.se/entries/2010/04/thinkerinthespring/</a></p>
+	      </strong></em><a rel="bookmark" href="/entries/2010/04/fedora/">http://sigfrid-lundberg.se/entries/2010/04/fedora/</a></p>
     <hr width="50%" align="center"/>
   </div>
   <div>
     <h1>Other, not yet obsolete stuff</h1>
     <table class="news">
+      <tr>
+        <td class="left">2010</td>
+        <td class="left"><a href="/entries/2010/04/readings/"><em>Readings on digital objects: An annotated URIography</em></a><br/>I have a long list of articles to read on digital objects, how to
+  model them etc. This page is for keeping track of my progress<br/><a href="/subjects/digitalcollections/">Digital collections</a>,
+	<a href="/subjects/digitalobjects/">Digital objects</a></td>
+      </tr>
+      <tr>
+        <td class="left">2010</td>
+        <td class="left"><a href="/entries/2010/04/thinkerinthespring/"><em>Holberg, the Thinker and the Tulips</em></a><br/>Two statues, one in Copenhagen and one in Bergen<br/><a href="/subjects/images/">Images</a></td>
+      </tr>
       <tr>
         <td class="left">2010</td>
         <td class="left"><a href="/entries/2010/04/extractive/"><em>Does hypertext promote extractive interaction rather than
@@ -87,18 +163,6 @@
         <td class="left"><a href="/entries/2010/04/perl/"><em>Pathologically Eclectic Rubbish Lister</em></a><br/>For many years I wrote most of my code in the Perl programming
   language. Now I've been a exclusively java programmers for five years<br/><a href="/subjects/images/">Images</a>,
 	<a href="/subjects/programming/">Programming</a></td>
-      </tr>
-      <tr>
-        <td class="left">2010</td>
-        <td class="left"><a href="/entries/2010/04/buzzetti/"><em>Digital Representation and the Text Model</em></a><br/>Dino Buzzetti, 2002. Digital Representation and the Text Model. New
-  Literary History, 33(1), p. 61-88.<br/><a href="/subjects/textencoding/">Text encoding</a>,
-	<a href="/subjects/digitalobjects/">Digital objects</a></td>
-      </tr>
-      <tr>
-        <td class="left">2010</td>
-        <td class="left"><a href="/entries/2010/04/readings/"><em>Readings on digital objects: An annotated URIography</em></a><br/>I have a long list of articles to read on digital objects, how to
-  model them etc. This page is for keeping track of my progress<br/><a href="/subjects/digitalcollections/">Digital collections</a>,
-	<a href="/subjects/digitalobjects/">Digital objects</a></td>
       </tr>
     </table>
   </div>
