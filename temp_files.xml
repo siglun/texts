@@ -5904,8 +5904,8 @@
 
       <h3>In conclusion</h3>
 
-      <p>I haven't even mentioned all the object oriented bindings. The
-      bindings can never be better than what it binds to. And that is FOXML
+      <p>I haven't even mentioned all the object oriented bindings. However,
+      bindings can never be better than what they bind to. And that is FOXML
       and it sucks. It is just a poor quality language in comparison with TEI,
       DIDL, METS, MODS and ATOM.  It is good enough for a lot of purposes,
       though. Such as presenting the content of a METS file. You can do
