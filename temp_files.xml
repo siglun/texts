@@ -5895,7 +5895,7 @@
 
       <p>The FOXML is usually indexed using a RDF triple store. However, the
       indexing process is computationally demanding and many implementors
-      switch of this feature. A popular complement (or even replacement) is to
+      switch off this feature. A popular complement (or even replacement) is to
       index the data using <a href="http://lucene.apache.org/solr/">Solr</a>,
       which is a high performance search and retrieval engine based on
       Apache Lucene.</p>
@@ -5905,13 +5905,13 @@
       <h3>In conclusion</h3>
 
       <p>I haven't even mentioned all the object oriented bindings. The
-      bindings are not better than what it binds to. And that is FOXML and it
-      sucks. The thing is just poor quality in comparison with TEI, DIDL,
-      METS, MODS and ATOM.  It is good enough for a lot of purposes,
-      though. Such as presenting the content of a METS file. You cand do
-      wonders with Fedora. But remember FOXML can never replace METS even if
-      the Fedora people are better at UML. The METS community is better at
-      XML.</p>
+      bindings can never be better than what it binds to. And that is FOXML
+      and it sucks. It is just a poor quality language in comparison with TEI,
+      DIDL, METS, MODS and ATOM.  It is good enough for a lot of purposes,
+      though. Such as presenting the content of a METS file. You can do
+      wonders with Fedora. But remember FOXML can never
+      <strong>replace</strong> METS even if the Fedora people are better at
+      UML. The METS community is better at XML.</p>
 
       <p>This entry is part of my series <a href="http://sigfrid-lundberg.se/entries/2010/04/readings/">Readings on
       digital objects</a></p>

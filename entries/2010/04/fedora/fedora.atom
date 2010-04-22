@@ -92,7 +92,7 @@
 
       <p>The FOXML is usually indexed using a RDF triple store. However, the
       indexing process is computationally demanding and many implementors
-      switch of this feature. A popular complement (or even replacement) is to
+      switch off this feature. A popular complement (or even replacement) is to
       index the data using <a href="http://lucene.apache.org/solr/">Solr</a>,
       which is a high performance search and retrieval engine based on
       Apache Lucene.</p>
