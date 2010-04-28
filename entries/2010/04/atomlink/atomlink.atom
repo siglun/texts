@@ -16,7 +16,7 @@
       <a href="http://tools.ietf.org/html/rfc4287">http://tools.ietf.org/html/rfc4287</a></p>
 
 
-      <p>The RFC 4287 specifies the Atom syndicaton format and states the
+      <p>The RFC 4287 specifies the Atom syndication format and states the
       following about</p>
 
       <blockquote cite="http://tools.ietf.org/html/rfc4287#section-4.2.7">
@@ -26,7 +26,7 @@
 	4.2.7</a>)
       </blockquote>
 
-      <p>The reference mentioned is given in the <kbd>kref</kbd>
+      <p>The reference mentioned is given in the <kbd>href</kbd>
       attribute. The RFC does, clearly, not assign any semantics to the
       relation embodied by the tag. However, it continues discussing the
       <kbd>rel</kbd> attribute (those of you who know the elements of
@@ -52,7 +52,7 @@
 
       <p>Now, the vocabulary to be used for the <kbd>rel</kbd> attribute is
       maintained by <a href="http://www.iana.org/">Internet Assigned Numbers
-      Authority</a> (IANA) and published in a document <a href="http://www.iana.org/assignments/link-relations/link-relations.xhtml">Atom
+      Authority</a> (IANA) and published in the document <a href="http://www.iana.org/assignments/link-relations/link-relations.xhtml">Atom
       Link Relations</a>. Each entry on this list has to be documented (which
       is usually done in an RFC). Here are obvious ones, such as:</p>
 
@@ -64,7 +64,7 @@
 	<li><kbd>last</kbd></li>
       </ul>
 
-      <p>Hence, here you have anythin you need for navigating just about any
+      <p>Hence, here you have anything you need for navigating just about any
       content that may be modelled as a tree. And much more.</p>
 
       <h3 id="atomannotations">Annotate</h3>
@@ -83,7 +83,8 @@
 	Section 3</a>)
       </blockquote>
 
-      <p>The <kbd>ref</kbd> <q cite="http://tools.ietf.org/html/rfc4685#section-3">attribute specifies
+      <p>The <kbd>ref</kbd> 
+      <q cite="http://tools.ietf.org/html/rfc4685#section-3">attribute specifies
       the persistent, universally unique identifier of the resource being
       responded to</q>. In practice it will refer to the content of the
       <kbd>id</kbd> element of the annotated research, which is described in
@@ -101,7 +102,7 @@
   <dc:date>2010</dc:date>
   <category label="digitalobjects" term="Digital objects"/>
   <category label="xws" term="XML web services"/>
-  <updated>2010-04-28T13:15:31+01:00</updated>
+  <updated>2010-04-28T16:46:25+01:00</updated>
   <id>http://www.sigfrid-lundberg.se/entries/2010/04/atomlink/</id>
   <!-- $Id$ -->
 </entry>
