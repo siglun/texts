@@ -1,11 +1,11 @@
 <div xmlns="http://www.w3.org/1999/xhtml">
   <div>
-    <h1 style="font-family: sans-serif; width: 55%; float: left;text-align: left;">Fedora</h1>
+    <h1 style="font-family: sans-serif; width: 55%; float: left;text-align: left;">Atom contains all you need to annotate &amp; navigate</h1>
     <p style="width: 38%; float: left;text-align: right">
       <em>
         <strong>
 		Sigfrid Lundberg's Stuff,
-	      2010-04-21</strong>
+	      2010-04-28</strong>
       </em>
     </p>
   </div>
@@ -13,115 +13,99 @@
   <div style="width:100%;">
     <div>
 
-      <p>Carl Lagoze, Sandy Payette, Edwin Shin and Chris Wilper, 2005.
-      Fedora: an architecture for complex objects and their
-      relationships. <em>International Journal on Digital Libraries</em>. <a href="http://arxiv.org/ftp/cs/papers/0501/0501012.pdf">http://arxiv.org/ftp/cs/papers/0501/0501012.pdf</a></p>
+      <h3 id="atomnavigation">Navigate</h3>
 
-      <p>This entry should have been about the paper mentioned above. It is
-      only remotely related to it, I'm afraid.</p>
+      <p>M. Nottingham &amp; R. Sayre, 2005. The Atom Syndication Format
+      <a href="http://tools.ietf.org/html/rfc4287">http://tools.ietf.org/html/rfc4287</a></p>
 
-      <p>We are about to start implementing Fedora here at the Royal Library;
-      our <a href="http://sigfrid-lundberg.se/entries/2010/03/stanford/">journey to
-      Stanford</a> was about about that. The decision has been discussed at
-      length and I think that it is wise, because when you build a
-      repository of digital objects you need a uniform environment for
-      metadata processing.</p>
 
-      <p>Here I'm going to discuss XML processing, not metadata
-      processing. Some may think Fedora isn't a tool for XML
-      processing. However, it is often used that way.</p>
+      <p>The RFC 4287 specifies the Atom syndicaton format and states the
+      following about</p>
 
-      <p>One caveat, the thoughts here are the opinions of one who have not
-      yet used the package. However</p>
+      <blockquote cite="http://tools.ietf.org/html/rfc4287#section-4.2.7">
+	<em>[t]he "atom:link" element [which] defines a reference from an entry or
+	feed to a Web resource.  This specification assigns no meaning to the
+	content (if any) of this element.</em> (<a href="http://tools.ietf.org/html/rfc4287#section-4.2.7">Section
+	4.2.7</a>)
+      </blockquote>
 
-      <ol>
-	<li>I have read the writings by Carl Lagoze et al. and also</li>
-	<li>the information on the Fedora Commons web site.</li>
-	<li>In addition I've had quite a few conversations with people
-	involved with Fedora, including Carl himself at the turn of the
-	century when he was very much involved in the project.</li>
-      </ol>
+      <p>The reference mentioned is given in the <kbd>kref</kbd>
+      attribute. The RFC does, clearly, not assign any semantics to the
+      relation embodied by the tag. However, it continues discussing the
+      <kbd>rel</kbd> attribute (those of you who know the elements of
+      &lt;html:link/&gt; realizes that the two tags are very similar):</p>
 
-      <p>So if you are willing to consider my predilections, read on. From my
-      view, the use of Fedora is connected with some pitfalls. They are as
-      dangerous as they are easy to circumvent.</p>
+      <blockquote>
+	<em>atom:link elements MAY have a "rel" attribute that indicates the
+	link relation type.  If the "rel" attribute is not present, the link
+	element MUST be interpreted as if the link relation type is
+	"alternate". [...] If a name is given, implementations MUST consider
+	the link relation type equivalent to the same name registered within
+	the IANA </em> (<a href="http://tools.ietf.org/html/rfc4287#section-4.2.7.2">Section
+	4.2.7.2</a>)
+      </blockquote>
 
-      <h3>Stale XML technology stack</h3>
+      <p>The semantics of the relations are thus from a controlled list which
+      is has an international maintenance agency, IANA. In a moment I'll
+      discuss that list, but before I'll mention a few more useful attributes
+      of the atom:link element: <kbd>title</kbd> and <kbd>hreflang</kbd>. The
+      former <q>conveys human-readable information about the link</q> and the
+      latter <q>describes the language of the resource pointed to by the href
+      attribute</q>.</p>
 
-      <p>In my view Fedora is basically JAXP &amp; Web technologies built on
-      top of standards such as WSDL, SOAP &amp; XSD. It is not even a little
-      <em>anno dazumal</em>, to me it is very much the obvious technology
-      stack of year 2001. Today it is REST not SOAP, RelaxNG not XSD. Also we
-      have now XQuery and other technologies that were just not invented
-      <em>anno dazumal</em>.</p>
+      <p>Now, the vocabulary to be used for the <kbd>rel</kbd> attribute is
+      maintained by <a href="http://www.iana.org/">Internet Assigned Numbers
+      Authority</a> (IANA) and published in a document <a href="http://www.iana.org/assignments/link-relations/link-relations.xhtml">Atom
+      Link Relations</a>. Each entry on this list has to be documented (which
+      is usually done in an RFC). Here are obvious ones, such as:</p>
 
-      <p>Since Fedora Commons 3.0 the entire Fedora API should be available
-      through REST. <a href="http://cafe.elharo.com/xml/relax-wins/">XSD still
-      sucks</a> (<a href="http://www.tbray.org/ongoing/When/200x/2006/11/27/Choose-Relax">read
-      this as well</a>), but I can live with it.</p>
+      <ul>
+	<li><kbd>up</kbd></li>
+	<li><kbd>first</kbd></li>
+	<li><kbd>previous</kbd></li>
+	<li><kbd>next</kbd></li>
+	<li><kbd>last</kbd></li>
+      </ul>
 
-      <h3>Poorly standardized container format</h3>
+      <p>Hence, here you have anythin you need for navigating just about any
+      content that may be modelled as a tree. And much more.</p>
 
-      <p>All objects in Fedora are ingested by formulating your data in <a href="http://www.fedora-commons.org/confluence/display/FCR30/Introduction+to+FOXML">Fedora
-      Object XML</a> (FOXML), which is the format used internally in
-      Fedora. Tim Bray (editor of the spec of XML 1.0) gives the following
-      advice to anyone designing mark-up languages:</p>
+      <h3 id="atomannotations">Annotate</h3>
 
-      <blockquote cite="http://www.pdfpower.com/XML2005Proceedings/ship/175/xml2005.PDF"><em>Accept
-      that there will be a clash between the model-centric and syntax-centric
-      world-views, but bear in mind that successful XML-based languages
-      support the use of multiple software implementations that cannot be
-      expected to share a data model.</em> (<a href="http://www.pdfpower.com/XML2005Proceedings/ship/175/xml2005.PDF">Tim
-      Bray, 2005</a>) </blockquote>
+      <p>J. Snell, 2006. Atom Threading Extensions
+      <a href="http://tools.ietf.org/html/rfc4685">http://tools.ietf.org/html/rfc4685</a></p>
 
-      <p>Seen from this perspective FOXML is not a good idea, being a typical
-      object-oriented serialization used in one single implementation only,
-      with one single datamodel. FOXML is poorly documented and usually used
-      as a container for home brewed mixture of XML or RDF. That is, it has
-      all characteristics of a loser language.</p>
+      <p>The Atom infrastructure for comments, discussions and annotations is
+      described in RFC4685. The mechanism is simple:</p>
 
-      <p>Now, here I here we have to put this into perspective. If we look
-      upon FOXML as <em>just</em> a serialized object and not as <em>the
-      document format that will preserve our valuable data for posterity</em>,
-      then FOXML is just another internal data format used inside a piece of
-      software. Then I can live with FOXML. Indeed people invent such XML
-      languages all the time to get their job done, and in comparison with
-      those, then FOXML isn't that bad. In an object store with multiple
-      document types this is almost the only way to do it, unless you've got
-      an XML database.</p>
+      <blockquote cite="http://tools.ietf.org/html/rfc4685#section-3">
+	<em>The "in-reply-to" element is used to indicate that an entry is a
+	response to another resource.  The element MUST contain a "ref"
+	attribute identifying the resource that is being responded to.</em>
+	(<a href="http://tools.ietf.org/html/rfc4685#section-3">RFC 4685,
+	Section 3</a>)
+      </blockquote>
 
-      <h3>Performance problems</h3>
+      <p>The <kbd>ref</kbd> <q cite="http://tools.ietf.org/html/rfc4685#section-3">attribute specifies
+      the persistent, universally unique identifier of the resource being
+      responded to</q>. In practice it will refer to the content of the
+      <kbd>id</kbd> element of the annotated research, which is described in
+      <a href="http://tools.ietf.org/html/rfc4287#section-4.2.6">RFC 4287</a>.</p>
 
-      <p>The FOXML is usually indexed using a RDF triple store. However, the
-      indexing process is computationally demanding and many implementors
-      switch off this feature. A popular complement (or even replacement) is to
-      index the data using <a href="http://lucene.apache.org/solr/">Solr</a>,
-      which is a high performance search and retrieval engine based on
-      Apache Lucene.</p>
+      <p>So, you just add a reply-to link to your entry, and the entry has
+      become an annotation. The rest is programming. <strong>;-)</strong></p>
 
-      <p>I can live with the indexing in Lucene or Solr. They are good.</p>
-
-      <h3>In conclusion</h3>
-
-      <p>I haven't even mentioned all the object oriented bindings. However,
-      bindings can never be better than what they bind to. And that is FOXML
-      and it sucks. It is just a poor quality language in comparison with TEI,
-      DIDL, METS, MODS and ATOM.  It is good enough for a lot of purposes,
-      though. Such as presenting the content of a METS file. You can do
-      wonders with Fedora. But remember FOXML can never
-      <strong>replace</strong> METS even if the Fedora people are better at
-      UML. The METS community is better at XML.</p>
-
+      <hr/>
       <p>This entry is part of my series <a href="http://sigfrid-lundberg.se/entries/2010/04/readings/">Readings on
       digital objects</a></p>
 
     </div>
     <br clear="all"/>
     <p style="text-align: left;"><em><strong>Categories:</strong></em> 
-	  <a href="/subjects/metadataprocessing/">Metadata processing</a>,
-	    <a href="/subjects/digitalobjects/">Digital objects</a><br/><em><strong>
+	  <a href="/subjects/digitalobjects/">Digital objects</a>,
+	    <a href="/subjects/xws/">XML web services</a><br/><em><strong>
 		Permalink:
-	      </strong></em><a rel="bookmark" href="/entries/2010/04/fedora/">http://sigfrid-lundberg.se/entries/2010/04/fedora/</a></p>
+	      </strong></em><a rel="bookmark" href="/entries/2010/04/atomlink/">http://sigfrid-lundberg.se/entries/2010/04/atomlink/</a></p>
     <hr width="50%" align="center"/>
   </div>
   <div>
@@ -131,6 +115,13 @@
         <td class="left">2010</td>
         <td class="left"><a href="/entries/2010/04/readings/"><em>Readings on digital objects: An annotated URIography</em></a><br/>I have a long list of articles to read on digital objects, how to
   model them etc. This page is for keeping track of my progress<br/><a href="/subjects/digitalcollections/">Digital collections</a>,
+	<a href="/subjects/digitalobjects/">Digital objects</a></td>
+      </tr>
+      <tr>
+        <td class="left">2010</td>
+        <td class="left"><a href="/entries/2010/04/fedora/"><em>Fedora</em></a><br/>Carl Lagoze, Sandy Payette, Edwin Shin and Chris Wilper,
+  2005. Fedora: an architecture for complex objects and their
+  relationships<br/><a href="/subjects/metadataprocessing/">Metadata processing</a>,
 	<a href="/subjects/digitalobjects/">Digital objects</a></td>
       </tr>
       <tr>
@@ -157,12 +148,6 @@
       Analysis</em></a><br/>Helena Francke, 2008. Towards an Architectural Document
       Analysis. Journal of Information Architecture<br/><a href="/subjects/structuralwebdesign/">Structural web design</a>,
 	<a href="/subjects/digitalobjects/">Digital objects</a></td>
-      </tr>
-      <tr>
-        <td class="left">2010</td>
-        <td class="left"><a href="/entries/2010/04/perl/"><em>Pathologically Eclectic Rubbish Lister</em></a><br/>For many years I wrote most of my code in the Perl programming
-  language. Now I've been a exclusively java programmers for five years<br/><a href="/subjects/images/">Images</a>,
-	<a href="/subjects/programming/">Programming</a></td>
       </tr>
     </table>
   </div>

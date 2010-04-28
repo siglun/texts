@@ -48,6 +48,19 @@
 	</li>
 
 	<li>
+	  Navigation &amp; annotation
+
+	  <ul>
+
+	    <li>M. Nottingham &amp; R. Sayre, 2005. <a href="http://sigfrid-lundberg.se/entries/2010/04/atomlink/#atomnavigation">The Atom Syndication Format</a></li>
+
+	    <li>J. Snell, 2006. <a href="http://sigfrid-lundberg.se/entries/2010/04/atomlink/#atomannotations">Atom Threading Extensions</a></li>
+
+	  </ul>
+
+	</li>
+
+	<li>
 	  reading habits
 	  <ul>
 	    <li>Nicholas Carr, 2008. <a href="http://sigfrid-lundberg.se/entries/2010/04/gstupid/">Is
@@ -64,7 +77,7 @@
   <dc:date>2010</dc:date>
   <category label="digitalcollections" term="Digital collections"/>
   <category label="digitalobjects" term="Digital objects"/>
-  <updated>2010-04-21T14:06:26+01:00</updated>
+  <updated>2010-04-28T13:15:18+01:00</updated>
   <id>http://www.sigfrid-lundberg.se/entries/2010/04/readings/</id>
   <!-- $Id$ -->
 </entry>
