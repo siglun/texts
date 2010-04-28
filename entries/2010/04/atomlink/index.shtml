@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<html xmlns="http://www.w3.org/1999/xhtml" xmlns:addthis="http://www.addthis.com/help/api-spec"><head><title>Atom contains all you need to annotate &amp; navigate: 
+	  Sigfrid Lundberg's Stuff
+	</title><link href="http://feeds.feedburner.com/SigfridLundbergsStuff?format=xml" type="application/atom+xml" title="Sigfrid Lundberg's Stuff" rel="alternate"/><link href="http://sigfridlundbergsstuff.disqus.com/latest.rss" type="application/rss+xml" title="Latest Comments" rel="alternate"/><meta http-equiv="Content-Type" content="text/html;charset=UTF-8"/><script src="/js/navigation.js" type="text/javascript"> 
+	  </script><script type="text/javascript">
+	      var disqus_developer=1;
+	    </script><meta http-equiv="Content-Type" content="text/html;charset=UTF-8"/><link rel="stylesheet" href="/css-style/html.css"/></head><body><div class="left_box"><div style="text-align:left;width=90%;"><!--#include virtual="/div_top_left_box.xml" --></div><div style="text-align:left;width=90%;"><p><a href="/">Home</a><br/><a href="http://feeds.feedburner.com/SigfridLundbergsStuff?format=xml" type="application/atom+xml" class="feed-link"><img src="/images/Newsfeed-Atom.png" alt="Subscribe to Stuff from Sigfrid Lundberg" border="0"/>Subscribe to my stuff</a><br/><a href="http://sigfridlundbergsstuff.disqus.com/latest.rss" type="application/rss+xml" class="feed-link"><img src="/images/Newsfeed-Atom.png" alt="Subscribe to Stuff from Sigfrid Lundberg" border="0"/>Subscribe to discussion feed</a></p><!--#include virtual="/subjects.xml" --><!--#include virtual="/me.xml" --></div></div><div class="right_box"><h1 style="font-family: sans-serif; width: 55%; float: left;text-align: left;">Atom contains all you need to annotate &amp; navigate</h1><p style="width: 38%; float: left;text-align: right"><em><strong>Sigfrid Lundberg's Stuff 2010-04-28</strong></em><br/><br/><a class="addthis_button" addthis:title="Atom contains all you need to annotate &amp; navigate" addthis:url="http://sigfrid-lundberg.se/entries/2010/04/atomlink/" href="http://www.addthis.com/bookmark.php?v=250&amp;pub=siggelundberg"><img src="http://s7.addthis.com/static/btn/v2/lg-share-en.gif" width="125" height="16" alt="Bookmark and Share" style="border:0"/></a><script type="text/javascript" src="http://s7.addthis.com/js/250/addthis_widget.js?pub=siggelundberg">
+		</script></p><div style="clear:both">
+	    </div>
+    <div>
+
+      <h3 id="atomnavigation">Navigate</h3>
+
+      <p>M. Nottingham &amp; R. Sayre, 2005. The Atom Syndication Format
+      <a href="http://tools.ietf.org/html/rfc4287">http://tools.ietf.org/html/rfc4287</a></p>
+
+
+      <p>The RFC 4287 specifies the Atom syndicaton format and states the
+      following about</p>
+
+      <blockquote cite="http://tools.ietf.org/html/rfc4287#section-4.2.7">
+	<em>[t]he "atom:link" element [which] defines a reference from an entry or
+	feed to a Web resource.  This specification assigns no meaning to the
+	content (if any) of this element.</em> (<a href="http://tools.ietf.org/html/rfc4287#section-4.2.7">Section
+	4.2.7</a>)
+      </blockquote>
+
+      <p>The reference mentioned is given in the <kbd>kref</kbd>
+      attribute. The RFC does, clearly, not assign any semantics to the
+      relation embodied by the tag. However, it continues discussing the
+      <kbd>rel</kbd> attribute (those of you who know the elements of
+      &lt;html:link/&gt; realizes that the two tags are very similar):</p>
+
+      <blockquote>
+	<em>atom:link elements MAY have a "rel" attribute that indicates the
+	link relation type.  If the "rel" attribute is not present, the link
+	element MUST be interpreted as if the link relation type is
+	"alternate". [...] If a name is given, implementations MUST consider
+	the link relation type equivalent to the same name registered within
+	the IANA </em> (<a href="http://tools.ietf.org/html/rfc4287#section-4.2.7.2">Section
+	4.2.7.2</a>)
+      </blockquote>
+
+      <p>The semantics of the relations are thus from a controlled list which
+      is has an international maintenance agency, IANA. In a moment I'll
+      discuss that list, but before I'll mention a few more useful attributes
+      of the atom:link element: <kbd>title</kbd> and <kbd>hreflang</kbd>. The
+      former <q>conveys human-readable information about the link</q> and the
+      latter <q>describes the language of the resource pointed to by the href
+      attribute</q>.</p>
+
+      <p>Now, the vocabulary to be used for the <kbd>rel</kbd> attribute is
+      maintained by <a href="http://www.iana.org/">Internet Assigned Numbers
+      Authority</a> (IANA) and published in a document <a href="http://www.iana.org/assignments/link-relations/link-relations.xhtml">Atom
+      Link Relations</a>. Each entry on this list has to be documented (which
+      is usually done in an RFC). Here are obvious ones, such as:</p>
+
+      <ul>
+	<li><kbd>up</kbd></li>
+	<li><kbd>first</kbd></li>
+	<li><kbd>previous</kbd></li>
+	<li><kbd>next</kbd></li>
+	<li><kbd>last</kbd></li>
+      </ul>
+
+      <p>Hence, here you have anythin you need for navigating just about any
+      content that may be modelled as a tree. And much more.</p>
+
+      <h3 id="atomannotations">Annotate</h3>
+
+      <p>J. Snell, 2006. Atom Threading Extensions
+      <a href="http://tools.ietf.org/html/rfc4685">http://tools.ietf.org/html/rfc4685</a></p>
+
+      <p>The Atom infrastructure for comments, discussions and annotations is
+      described in RFC4685. The mechanism is simple:</p>
+
+      <blockquote cite="http://tools.ietf.org/html/rfc4685#section-3">
+	<em>The "in-reply-to" element is used to indicate that an entry is a
+	response to another resource.  The element MUST contain a "ref"
+	attribute identifying the resource that is being responded to.</em>
+	(<a href="http://tools.ietf.org/html/rfc4685#section-3">RFC 4685,
+	Section 3</a>)
+      </blockquote>
+
+      <p>The <kbd>ref</kbd> <q cite="http://tools.ietf.org/html/rfc4685#section-3">attribute specifies
+      the persistent, universally unique identifier of the resource being
+      responded to</q>. In practice it will refer to the content of the
+      <kbd>id</kbd> element of the annotated research, which is described in
+      <a href="http://tools.ietf.org/html/rfc4287#section-4.2.6">RFC 4287</a>.</p>
+
+      <p>So, you just add a reply-to link to your entry, and the entry has
+      become an annotation. The rest is programming. <strong>;-)</strong></p>
+
+      <hr/>
+      <p>This entry is part of my series <a href="http://sigfrid-lundberg.se/entries/2010/04/readings/">Readings on
+      digital objects</a></p>
+
+    </div>
+  <div style="clear:both"> 
+	    </div><div id="disqus_thread">
+	    </div><p style="margin-left:+1%;"><a href="http://disqus.com" class="dsq-brlink">blog comments powered
+	    by <span class="logo-disqus">Disqus</span></a></p></div><script type="text/javascript" src="http://disqus.com/forums/sigfridlundbergsstuff/embed.js">
+	  </script><noscript><a href="http://sigfridlundbergsstuff.disqus.com/?url=http://sigfrid-lundberg.se/entries/2010/04/atomlink/">
+	      View the discussion thread
+	  </a></noscript><script type="text/javascript">//<!--
+	  (function() {
+	      var links = document.getElementsByTagName('a');
+	      var query = '?';
+	      for(var i = 0; i < links.length; i++) {
+		  if(links[i].href.indexOf('#disqus_thread') >= 0) {
+		      query += 'url' + i + '=' + encodeURIComponent(links[i].href) + '&';
+		  }
+	      }
+	      document.write('<script charset="utf-8" type="text/javascript" src="http://disqus.com/forums/sigfridlundbergsstuff/get_num_replies.js' + query + '"></' + 'script>');
+	  })();
+	  //--></script><!--#include virtual="/js/urchin.js" --></body></html>
