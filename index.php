@@ -19,7 +19,7 @@
 	  href='/css-style/html.css'
 	  type="text/css" />
 
-    <link href="http://feeds.feedburner.com/SigfridLundbergsStuff?format=xml"
+    <link href="http://feeds.feedburner.com/SigfridLundbergsStuff/?format=xml"
 	  type="application/atom+xml"
 	  title="Sigfrid Lundberg's Stuff"
 	  rel="alternate"/>
