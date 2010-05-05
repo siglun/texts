@@ -1,0 +1,9 @@
+
+&lt;structMap TYPE="logical"&gt;
+   &lt;div TYPE="newspaper"&gt;
+      &lt;div TYPE="issue"&gt;
+         &lt;div TYPE="edition"&gt;
+	    &lt;div TYPE="supplement"&gt;
+	       &lt;div TYPE="section"&gt;
+	          &lt;div TYPE="article"&gt;
+		     &lt;div TYPE="article part"&gt;
