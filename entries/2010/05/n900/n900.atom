@@ -45,11 +45,9 @@
       href="http://meego.com/">Meego</a> maintained by Linux foundation.</p>
 
       <div style="float:right;width:60%;margin:0.5em;">
-	<a href="http://sigfrid-lundberg.se/entries/2010/05/n900/20100403362.jpg"
-	   title="A phone for an old nerd?">
-	  <img src="http://sigfrid-lundberg.se/entries/2010/05/n900/20100403362.jpg"
-	       alt="A phone for an old nerd?"/>
-        </a>
+	<a href="http://sigfrid-lundberg.se/entries/2010/05/n900/20100504446.jpg"
+	   title="A phone for an old nerd?"><img src="http://sigfrid-lundberg.se/entries/2010/05/n900/smaller20100504446.jpg"
+	       alt="A phone for an old nerd?"/></a>
 	<p><small>The N900 is about as large as a state of the art smart
 	phone, a bit larger when the keyboard is slid open. It is twice a
 	thick as an iPhone, and when carried in your pocket it will
@@ -98,7 +96,8 @@
     </div>
   </content>
   <dc:date>2010</dc:date>
-  <category label="structuralwebdesign" term="Structural web design"/>
+  <category label="hardware" term="Hardware"/>
+  <category label="reviews"  term="Reviews"/>
   <updated>2010-05-05T07:53:56+01:00</updated>
   <id>http://www.sigfrid-lundberg.se/entries/2010/05/n900/</id>
   <!-- $Id$ -->

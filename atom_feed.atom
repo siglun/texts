@@ -6,7 +6,106 @@
   <title>Sigfrid Lundberg's Stuff</title>
   <id>http://sigfrid-lundberg.se/files.atom</id>
   <link rel="self" href="http://feeds.feedburner.com/SigfridLundbergsStuff?format=xml"/>
-  <updated>2010-04-28T16:46:25+01:00</updated>
+  <updated>2010-05-05T07:53:56+01:00</updated>
+  <entry>
+  <author>
+    <name>Sigfrid Lundberg</name>
+  </author>
+  <title>A phone for elderly hackers?</title>
+  <link href="http://sigfrid-lundberg.se/entries/2010/05/n900/"/>
+  <summary>The young and smart people people have smart phones. But what phone
+  should an old hacker choose. My answer is Nokia N900. The only snag is that
+  this gadget isn't really a phone.</summary>
+  <content type="xhtml">
+    <div xmlns="http://www.w3.org/1999/xhtml">
+
+      <p>I've been looking with envy on all people around with flashy smart
+      phones. All these iPhones and Androids. My problem has been: Should I
+      aquire a phone capable of computing or a computer capable of
+      phoning.</p>
+
+      <p>I'm an open source - open access kind of person. I just cannot buy
+      any i* gadget. Apple's business model is clever, but I need a device I
+      can understand. I've been UNIX man for more than twenty years and to buy
+      something without a shell would be unthinkable. On the other hand I'm
+      using my computer for the same reasons as every one else. I.e., mostly
+      surfing and communication. Which would be the same as a mobile internet
+      device (a MID).</p>
+
+      <p>In spite of the fact that I had settled that my next phone should be
+      an Android one, the fate wanted that I should run into Nokia N900. This
+      gadget weighs more than twice as much as an iPhone but you i think you
+      should compare it with an iPad rather than with a cell phone. It is
+      actually easier to send an email than to make phone call.</p>
+
+      <p>Nokia doesn't market the thing as a phone but as very mobile
+      computer. Yes, I do know that iPad has a screen which is (perhaps) six
+      times as large as the one on N900. But I have checked out my entire web
+      site from my CVS repository and I'm able to run the entire rebuild
+      machinery. This is a computer that allows creativity.</p>
+
+      <p>I did try to install emacs and nxml mode but that wasn't trivial. The
+      OS is called <a href="http://maemo.org/">Maemo</a>, which is a Debian
+      based Linux maintained by a community sponsored by Nokia. The
+      development is promising since Nokia and Intel are joining forces and
+      are merging forces. Their respective mobile OSes will merge into <a href="http://meego.com/">Meego</a> maintained by Linux foundation.</p>
+
+      <div style="float:right;width:60%;margin:0.5em;">
+	<a href="http://sigfrid-lundberg.se/entries/2010/05/n900/20100504446.jpg" title="A phone for an old nerd?"><img src="http://sigfrid-lundberg.se/entries/2010/05/n900/smaller20100504446.jpg" alt="A phone for an old nerd?"/></a>
+	<p><small>The N900 is about as large as a state of the art smart
+	phone, a bit larger when the keyboard is slid open. It is twice a
+	thick as an iPhone, and when carried in your pocket it will
+	bulge.</small></p>
+      </div>
+
+
+      <h3>Does it work?</h3>
+
+      <p>Well. This is a very good little tablet computer.</p>
+
+      <ul>
+	<li>Web</li>
+	<li>Mail using POP and IMAP</li>
+	<li>SMS and other messaging</li>
+	<li>Voice phoning using 3G and Skype</li>
+	<li>Calendar</li>
+	<li>Synchonizing with Outlook</li>
+	<li>Wifi and mobile internet</li>
+	<li>GPS and supporting software</li>
+	<li>Camera and images with geodata</li>
+	<li>And much more</li>
+      </ul>
+
+      <p>... just works. Sometimes things aren't really as intuitive as you
+      wanted. Or, perhaps, the intuition of the designers were not the one you
+      expected but that is common, isn't it?</p>
+
+      <h3>A phone for an olde UNIX hacker</h3>
+
+
+      <p>There's a lot of other software. OpenOffice.org is here and then
+      there is the whole lot of UNIX utilities. I can plot my data using
+      Gnuplot and edit perl script with VI.</p>
+
+      <p>So what about the screen and keyboard?</p>
+
+      <p>The buttons on this thing are smaller than on my phone. You operate
+      with your thumbs, and it does work. The suite supplied by Nokia uses
+      some clever T9 like algorithm for guessing what you're typing which
+      minimises the typing.</p>
+
+      <p>The thing will keep you connected 24/7. The thing has 3D graphics,
+      and should you like a shoot'em: DOOM is ported!</p>
+
+    </div>
+  </content>
+  <dc:date>2010</dc:date>
+  <category label="hardware" term="Hardware"/>
+  <category label="reviews" term="Reviews"/>
+  <updated>2010-05-05T07:53:56+01:00</updated>
+  <id>http://www.sigfrid-lundberg.se/entries/2010/05/n900/</id>
+  <!-- $Id$ -->
+</entry>
   <entry>
   <author>
     <name>Sigfrid Lundberg</name>

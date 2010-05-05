@@ -1,11 +1,11 @@
 <div xmlns="http://www.w3.org/1999/xhtml">
   <div>
-    <h1 style="font-family: sans-serif; width: 55%; float: left;text-align: left;">Atom contains all you need to annotate &amp; navigate</h1>
+    <h1 style="font-family: sans-serif; width: 55%; float: left;text-align: left;">A phone for elderly hackers?</h1>
     <p style="width: 38%; float: left;text-align: right">
       <em>
         <strong>
 		Sigfrid Lundberg's Stuff,
-	      2010-04-28</strong>
+	      2010-05-05</strong>
       </em>
     </p>
   </div>
@@ -13,105 +13,102 @@
   <div style="width:100%;">
     <div>
 
-      <h3 id="atomnavigation">Navigate</h3>
+      <p>I've been looking with envy on all people around with flashy smart
+      phones. All these iPhones and Androids. My problem has been: Should I
+      aquire a phone capable of computing or a computer capable of
+      phoning.</p>
 
-      <p>M. Nottingham &amp; R. Sayre, 2005. The Atom Syndication Format
-      <a href="http://tools.ietf.org/html/rfc4287">http://tools.ietf.org/html/rfc4287</a></p>
+      <p>I'm an open source - open access kind of person. I just cannot buy
+      any i* gadget. Apple's business model is clever, but I need a device I
+      can understand. I've been UNIX man for more than twenty years and to buy
+      something without a shell would be unthinkable. On the other hand I'm
+      using my computer for the same reasons as every one else. I.e., mostly
+      surfing and communication. Which would be the same as a mobile internet
+      device (a MID).</p>
+
+      <p>In spite of the fact that I had settled that my next phone should be
+      an Android one, the fate wanted that I should run into Nokia N900. This
+      gadget weighs more than twice as much as an iPhone but you i think you
+      should compare it with an iPad rather than with a cell phone. It is
+      actually easier to send an email than to make phone call.</p>
+
+      <p>Nokia doesn't market the thing as a phone but as very mobile
+      computer. Yes, I do know that iPad has a screen which is (perhaps) six
+      times as large as the one on N900. But I have checked out my entire web
+      site from my CVS repository and I'm able to run the entire rebuild
+      machinery. This is a computer that allows creativity.</p>
+
+      <p>I did try to install emacs and nxml mode but that wasn't trivial. The
+      OS is called <a href="http://maemo.org/">Maemo</a>, which is a Debian
+      based Linux maintained by a community sponsored by Nokia. The
+      development is promising since Nokia and Intel are joining forces and
+      are merging forces. Their respective mobile OSes will merge into <a href="http://meego.com/">Meego</a> maintained by Linux foundation.</p>
+
+      <div style="float:right;width:60%;margin:0.5em;">
+	<a href="http://sigfrid-lundberg.se/entries/2010/05/n900/20100504446.jpg" title="A phone for an old nerd?"><img src="http://sigfrid-lundberg.se/entries/2010/05/n900/smaller20100504446.jpg" alt="A phone for an old nerd?"/></a>
+	<p><small>The N900 is about as large as a state of the art smart
+	phone, a bit larger when the keyboard is slid open. It is twice a
+	thick as an iPhone, and when carried in your pocket it will
+	bulge.</small></p>
+      </div>
 
 
-      <p>The RFC 4287 specifies the Atom syndication format and states the
-      following about</p>
+      <h3>Does it work?</h3>
 
-      <blockquote cite="http://tools.ietf.org/html/rfc4287#section-4.2.7">
-	<em>[t]he "atom:link" element [which] defines a reference from an entry or
-	feed to a Web resource.  This specification assigns no meaning to the
-	content (if any) of this element.</em> (<a href="http://tools.ietf.org/html/rfc4287#section-4.2.7">Section
-	4.2.7</a>)
-      </blockquote>
-
-      <p>The reference mentioned is given in the <kbd>href</kbd>
-      attribute. The RFC does, clearly, not assign any semantics to the
-      relation embodied by the tag. However, it continues discussing the
-      <kbd>rel</kbd> attribute (those of you who know the elements of
-      &lt;html:link/&gt; realizes that the two tags are very similar):</p>
-
-      <blockquote>
-	<em>atom:link elements MAY have a "rel" attribute that indicates the
-	link relation type.  If the "rel" attribute is not present, the link
-	element MUST be interpreted as if the link relation type is
-	"alternate". [...] If a name is given, implementations MUST consider
-	the link relation type equivalent to the same name registered within
-	the IANA </em> (<a href="http://tools.ietf.org/html/rfc4287#section-4.2.7.2">Section
-	4.2.7.2</a>)
-      </blockquote>
-
-      <p>The semantics of the relations are thus from a controlled list which
-      is has an international maintenance agency, IANA. In a moment I'll
-      discuss that list, but before I'll mention a few more useful attributes
-      of the atom:link element: <kbd>title</kbd> and <kbd>hreflang</kbd>. The
-      former <q>conveys human-readable information about the link</q> and the
-      latter <q>describes the language of the resource pointed to by the href
-      attribute</q>.</p>
-
-      <p>Now, the vocabulary to be used for the <kbd>rel</kbd> attribute is
-      maintained by <a href="http://www.iana.org/">Internet Assigned Numbers
-      Authority</a> (IANA) and published in the document <a href="http://www.iana.org/assignments/link-relations/link-relations.xhtml">Atom
-      Link Relations</a>. Each entry on this list has to be documented (which
-      is usually done in an RFC). Here are obvious ones, such as:</p>
+      <p>Well. This is a very good little tablet computer.</p>
 
       <ul>
-	<li><kbd>up</kbd></li>
-	<li><kbd>first</kbd></li>
-	<li><kbd>previous</kbd></li>
-	<li><kbd>next</kbd></li>
-	<li><kbd>last</kbd></li>
+	<li>Web</li>
+	<li>Mail using POP and IMAP</li>
+	<li>SMS and other messaging</li>
+	<li>Voice phoning using 3G and Skype</li>
+	<li>Calendar</li>
+	<li>Synchonizing with Outlook</li>
+	<li>Wifi and mobile internet</li>
+	<li>GPS and supporting software</li>
+	<li>Camera and images with geodata</li>
+	<li>And much more</li>
       </ul>
 
-      <p>Hence, here you have anything you need for navigating just about any
-      content that may be modelled as a tree. And much more.</p>
+      <p>... just works. Sometimes things aren't really as intuitive as you
+      wanted. Or, perhaps, the intuition of the designers were not the one you
+      expected but that is common, isn't it?</p>
 
-      <h3 id="atomannotations">Annotate</h3>
+      <h3>A phone for an olde UNIX hacker</h3>
 
-      <p>J. Snell, 2006. Atom Threading Extensions
-      <a href="http://tools.ietf.org/html/rfc4685">http://tools.ietf.org/html/rfc4685</a></p>
 
-      <p>The Atom infrastructure for comments, discussions and annotations is
-      described in RFC4685. The mechanism is simple:</p>
+      <p>There's a lot of other software. OpenOffice.org is here and then
+      there is the whole lot of UNIX utilities. I can plot my data using
+      Gnuplot and edit perl script with VI.</p>
 
-      <blockquote cite="http://tools.ietf.org/html/rfc4685#section-3">
-	<em>The "in-reply-to" element is used to indicate that an entry is a
-	response to another resource.  The element MUST contain a "ref"
-	attribute identifying the resource that is being responded to.</em>
-	(<a href="http://tools.ietf.org/html/rfc4685#section-3">RFC 4685,
-	Section 3</a>)
-      </blockquote>
+      <p>So what about the screen and keyboard?</p>
 
-      <p>The <kbd>ref</kbd> 
-      <q cite="http://tools.ietf.org/html/rfc4685#section-3">attribute specifies
-      the persistent, universally unique identifier of the resource being
-      responded to</q>. In practice it will refer to the content of the
-      <kbd>id</kbd> element of the annotated research, which is described in
-      <a href="http://tools.ietf.org/html/rfc4287#section-4.2.6">RFC 4287</a>.</p>
+      <p>The buttons on this thing are smaller than on my phone. You operate
+      with your thumbs, and it does work. The suite supplied by Nokia uses
+      some clever T9 like algorithm for guessing what you're typing which
+      minimises the typing.</p>
 
-      <p>So, you just add a reply-to link to your entry, and the entry has
-      become an annotation. The rest is programming. <strong>;-)</strong></p>
-
-      <hr/>
-      <p>This entry is part of my series <a href="http://sigfrid-lundberg.se/entries/2010/04/readings/">Readings on
-      digital objects</a></p>
+      <p>The thing will keep you connected 24/7. The thing has 3D graphics,
+      and should you like a shoot'em: DOOM is ported!</p>
 
     </div>
     <br clear="all"/>
     <p style="text-align: left;"><em><strong>Categories:</strong></em> 
-	  <a href="/subjects/digitalobjects/">Digital objects</a>,
-	    <a href="/subjects/xws/">XML web services</a><br/><em><strong>
+	  <a href="/subjects/hardware/">Hardware</a>,
+	    <a href="/subjects/reviews/">Reviews</a><br/><em><strong>
 		Permalink:
-	      </strong></em><a rel="bookmark" href="/entries/2010/04/atomlink/">http://sigfrid-lundberg.se/entries/2010/04/atomlink/</a></p>
+	      </strong></em><a rel="bookmark" href="/entries/2010/05/n900/">http://sigfrid-lundberg.se/entries/2010/05/n900/</a></p>
     <hr width="50%" align="center"/>
   </div>
   <div>
     <h1>Other, not yet obsolete stuff</h1>
     <table class="news">
+      <tr>
+        <td class="left">2010</td>
+        <td class="left"><a href="/entries/2010/04/atomlink/"><em>Atom contains all you need to annotate &amp; navigate</em></a><br/>Atom syndication format contains everything you need to build 
+  good annotation and navigation systems<br/><a href="/subjects/digitalobjects/">Digital objects</a>,
+	<a href="/subjects/xws/">XML web services</a></td>
+      </tr>
       <tr>
         <td class="left">2010</td>
         <td class="left"><a href="/entries/2010/04/readings/"><em>Readings on digital objects: An annotated URIography</em></a><br/>I have a long list of articles to read on digital objects, how to
@@ -142,13 +139,6 @@
         <td class="left"><a href="/entries/2010/04/gstupid/"><em>Is Google Making us Stupid?</em></a><br/>Having had a web site for about 15 years, I start to wonder why I
   keep it in the first place.<br/><a href="/subjects/digitalobjects/">Digital objects</a>,
 	<a href="/subjects/internet/">Internet</a></td>
-      </tr>
-      <tr>
-        <td class="left">2010</td>
-        <td class="left"><a href="/entries/2010/04/darcitecture/"><em>Towards an Architectural Document
-      Analysis</em></a><br/>Helena Francke, 2008. Towards an Architectural Document
-      Analysis. Journal of Information Architecture<br/><a href="/subjects/structuralwebdesign/">Structural web design</a>,
-	<a href="/subjects/digitalobjects/">Digital objects</a></td>
       </tr>
     </table>
   </div>
