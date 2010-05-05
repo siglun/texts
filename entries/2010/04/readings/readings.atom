@@ -9,9 +9,9 @@
   model them etc. This page is for keeping track of my progress</summary>
   <content type="xhtml">
     <div xmlns="http://www.w3.org/1999/xhtml">
-      <p>Many hours searching for articles on digital objects, and how to
-      model, store and deliver them. This entry is for measuring my
-      progress.</p>
+      <p>I've spent many hours searching for articles, standards and texts on
+      digital objects, and how to model, store and deliver them. This entry is
+      for measuring my progress.</p>
 
       <p>The articles are grouped with respect to the theme I feel they
       belong.</p>
@@ -56,6 +56,8 @@
 
 	    <li>J. Snell, 2006. <a href="http://sigfrid-lundberg.se/entries/2010/04/atomlink/#atomannotations">Atom Threading Extensions</a></li>
 
+	    <li>National Library of Australia. <a href="http://sigfrid-lundberg.se/entries/2010/05/next/">On the meaning of next</a></li>
+
 	  </ul>
 
 	</li>
@@ -77,7 +79,7 @@
   <dc:date>2010</dc:date>
   <category label="digitalcollections" term="Digital collections"/>
   <category label="digitalobjects" term="Digital objects"/>
-  <updated>2010-04-28T13:15:18+01:00</updated>
+  <updated>2010-05-05T14:47:19+01:00</updated>
   <id>http://www.sigfrid-lundberg.se/entries/2010/04/readings/</id>
   <!-- $Id$ -->
 </entry>

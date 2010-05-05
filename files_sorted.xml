@@ -11,6 +11,153 @@
   <author>
     <name>Sigfrid Lundberg</name>
   </author>
+  <title>On the meaning of next</title>
+  <link href="/entries/2010/05/next/"/>
+  <summary>Nearest in place, degree, quality, rank, right or relation; having
+  no similar object intervening</summary>
+  <content type="xhtml">
+    <div xmlns="http://www.w3.org/1999/xhtml">
+      <p>The previous object is something that came or occurred before the
+      one at hand. The <a href="http://sigfrid-lundberg.se/entries/2010/04/atomlink/">previous
+      installment</a> of my digital object series addressed the vocabulary
+      used in the Atom link tag describing relations between
+      URI's.</p>
+
+      <p>Next means the nearest in place, degree, quality, rank, right or
+      relation; having no similar object intervening. For page <em>n</em> the
+      previous is page <em>n</em>-1 and the next is <em>n</em>+1. I haven't
+      made up my mind about the next installment in this series.</p>
+
+      <p>In the previous installment we discussed <kbd>up</kbd>,
+      <kbd>first</kbd>, <kbd>previous</kbd>, <kbd>next</kbd> and
+      <kbd>last</kbd>. Now we discuss the meaning of <kdb>next</kdb>. The next
+      what? A vocabulary may be helpful:</p>
+
+      <p>The National Library of Australia. <em>Australian METS Profile
+      TYPE attribute vocabulary.  Version 1.0</em>
+      <a href="http://www.nla.gov.au/australianmetsprofile/documents/divTYPEvocabulary_v1_0.pdf">http://www.nla.gov.au/australianmetsprofile/documents/divTYPEvocabulary_v1_0.pdf</a></p>
+
+      <p>This list gives terms that can be used to describe content
+      structure. The vocabulary is organized for the use in conjunc with <a href="http://www.loc.gov/standards/mets/">Metadata Encoding and
+      Transmission Standard</a> (METS). Using this approach permits
+      Australians to write stuff like:</p>
+
+      <pre>
+
+&lt;structMap TYPE="logical"&gt;
+   &lt;div TYPE="newspaper"&gt;
+      &lt;div TYPE="issue"&gt;
+         &lt;div TYPE="edition"&gt;
+	    &lt;div TYPE="supplement"&gt;
+	       &lt;div TYPE="section"&gt;
+	          &lt;div TYPE="article"&gt;
+		     &lt;div TYPE="article part"&gt;
+
+      </pre>
+
+      <p>Having your content organized like this makes sense. All of a sudden
+      you know the meaning of next.</p>
+
+      <p>This entry is part of my series <a href="http://sigfrid-lundberg.se/entries/2010/04/readings/">Readings on
+      digital objects</a></p>
+
+    </div>
+  </content>
+  <dc:date>2010</dc:date>
+  <category label="metadataprocessing" term="Metadata processing"/>
+  <category label="digitalobjects" term="Digital objects"/>
+  <updated>2010-05-05T14:47:36+01:00</updated>
+  <id>http://www.sigfrid-lundberg.se/entries/2010/05/next/</id>
+  <!-- $Id$ -->
+</entry>
+  <entry>
+  <author>
+    <name>Sigfrid Lundberg</name>
+  </author>
+  <title>Readings on digital objects: An annotated URIography</title>
+  <link href="/entries/2010/04/readings/"/>
+  <summary>I have a long list of articles to read on digital objects, how to
+  model them etc. This page is for keeping track of my progress</summary>
+  <content type="xhtml">
+    <div xmlns="http://www.w3.org/1999/xhtml">
+      <p>I've spent many hours searching for articles, standards and texts on
+      digital objects, and how to model, store and deliver them. This entry is
+      for measuring my progress.</p>
+
+      <p>The articles are grouped with respect to the theme I feel they
+      belong.</p>
+
+      <ul>
+	<li>
+	  digital object store
+	  <ul>
+
+	    <li id="kahnframework">Robert Kahn, Robert Wilensky, 2006. <a href="http://sigfrid-lundberg.se/entries/2010/04/kahnframework/">A
+	    framework for distributed digital object services</a></li>
+
+	    <li id="lagozeetalfedora2005">Carl Lagoze, Sandy Payette, Edwin
+	    Shin and Chris Wilper, 2005.  <a href="http://sigfrid-lundberg.se/entries/2010/04/fedora/">Fedora:
+	    an architecture for complex objects and their
+	    relationships.</a></li>
+
+	  </ul>
+
+	</li>
+	<li>
+	  the theory of text &amp; text modelling
+	  <ul>
+
+	    <li>Dino Buzzetti, 2002. <a href="http://sigfrid-lundberg.se/entries/2010/04/buzzetti/">Digital Representation and the Text</a>
+	    Model.
+	    </li>
+
+	    <li>Helena Francke, 2008. <a href="http://sigfrid-lundberg.se/entries/2010/04/darcitecture/">Towards
+	    an Architectural Document Analysis</a></li>
+
+	  </ul>
+
+	</li>
+
+	<li>
+	  Navigation &amp; annotation
+
+	  <ul>
+
+	    <li>M. Nottingham &amp; R. Sayre, 2005. <a href="http://sigfrid-lundberg.se/entries/2010/04/atomlink/#atomnavigation">The Atom Syndication Format</a></li>
+
+	    <li>J. Snell, 2006. <a href="http://sigfrid-lundberg.se/entries/2010/04/atomlink/#atomannotations">Atom Threading Extensions</a></li>
+
+	    <li>National Library of Australia. <a href="http://sigfrid-lundberg.se/entries/2010/05/next/">On the meaning of next</a></li>
+
+	  </ul>
+
+	</li>
+
+	<li>
+	  reading habits
+	  <ul>
+	    <li>Nicholas Carr, 2008. <a href="http://sigfrid-lundberg.se/entries/2010/04/gstupid/">Is
+	    Google Making Us Stupid?  What the Internet is doing to our
+	    brains.</a></li>
+	  </ul>
+
+	</li>
+
+      </ul>
+
+    </div>
+  </content>
+  <dc:date>2010</dc:date>
+  <category label="digitalcollections" term="Digital collections"/>
+  <category label="digitalobjects" term="Digital objects"/>
+  <updated>2010-05-05T14:47:19+01:00</updated>
+  <id>http://www.sigfrid-lundberg.se/entries/2010/04/readings/</id>
+  <!-- $Id$ -->
+</entry>
+  <entry>
+  <author>
+    <name>Sigfrid Lundberg</name>
+  </author>
   <title>A phone for elderly hackers?</title>
   <link href="/entries/2010/05/n900/"/>
   <summary>The young and smart people people have smart phones. But what phone
@@ -211,88 +358,6 @@
   <category label="xws" term="XML web services"/>
   <updated>2010-04-28T16:46:25+01:00</updated>
   <id>http://www.sigfrid-lundberg.se/entries/2010/04/atomlink/</id>
-  <!-- $Id$ -->
-</entry>
-  <entry>
-  <author>
-    <name>Sigfrid Lundberg</name>
-  </author>
-  <title>Readings on digital objects: An annotated URIography</title>
-  <link href="/entries/2010/04/readings/"/>
-  <summary>I have a long list of articles to read on digital objects, how to
-  model them etc. This page is for keeping track of my progress</summary>
-  <content type="xhtml">
-    <div xmlns="http://www.w3.org/1999/xhtml">
-      <p>Many hours searching for articles on digital objects, and how to
-      model, store and deliver them. This entry is for measuring my
-      progress.</p>
-
-      <p>The articles are grouped with respect to the theme I feel they
-      belong.</p>
-
-      <ul>
-	<li>
-	  digital object store
-	  <ul>
-
-	    <li id="kahnframework">Robert Kahn, Robert Wilensky, 2006. <a href="http://sigfrid-lundberg.se/entries/2010/04/kahnframework/">A
-	    framework for distributed digital object services</a></li>
-
-	    <li id="lagozeetalfedora2005">Carl Lagoze, Sandy Payette, Edwin
-	    Shin and Chris Wilper, 2005.  <a href="http://sigfrid-lundberg.se/entries/2010/04/fedora/">Fedora:
-	    an architecture for complex objects and their
-	    relationships.</a></li>
-
-	  </ul>
-
-	</li>
-	<li>
-	  the theory of text &amp; text modelling
-	  <ul>
-
-	    <li>Dino Buzzetti, 2002. <a href="http://sigfrid-lundberg.se/entries/2010/04/buzzetti/">Digital Representation and the Text</a>
-	    Model.
-	    </li>
-
-	    <li>Helena Francke, 2008. <a href="http://sigfrid-lundberg.se/entries/2010/04/darcitecture/">Towards
-	    an Architectural Document Analysis</a></li>
-
-	  </ul>
-
-	</li>
-
-	<li>
-	  Navigation &amp; annotation
-
-	  <ul>
-
-	    <li>M. Nottingham &amp; R. Sayre, 2005. <a href="http://sigfrid-lundberg.se/entries/2010/04/atomlink/#atomnavigation">The Atom Syndication Format</a></li>
-
-	    <li>J. Snell, 2006. <a href="http://sigfrid-lundberg.se/entries/2010/04/atomlink/#atomannotations">Atom Threading Extensions</a></li>
-
-	  </ul>
-
-	</li>
-
-	<li>
-	  reading habits
-	  <ul>
-	    <li>Nicholas Carr, 2008. <a href="http://sigfrid-lundberg.se/entries/2010/04/gstupid/">Is
-	    Google Making Us Stupid?  What the Internet is doing to our
-	    brains.</a></li>
-	  </ul>
-
-	</li>
-
-      </ul>
-
-    </div>
-  </content>
-  <dc:date>2010</dc:date>
-  <category label="digitalcollections" term="Digital collections"/>
-  <category label="digitalobjects" term="Digital objects"/>
-  <updated>2010-04-28T13:15:18+01:00</updated>
-  <id>http://www.sigfrid-lundberg.se/entries/2010/04/readings/</id>
   <!-- $Id$ -->
 </entry>
   <entry>

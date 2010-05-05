@@ -1,6 +1,6 @@
 <div xmlns="http://www.w3.org/1999/xhtml">
   <div>
-    <h1 style="font-family: sans-serif; width: 55%; float: left;text-align: left;">A phone for elderly hackers?</h1>
+    <h1 style="font-family: sans-serif; width: 55%; float: left;text-align: left;">On the meaning of next</h1>
     <p style="width: 38%; float: left;text-align: right">
       <em>
         <strong>
@@ -12,92 +12,57 @@
   <div style="clear:both;"> </div>
   <div style="width:100%;">
     <div>
+      <p>The previous object is something that came or occurred before the
+      one at hand. The <a href="http://sigfrid-lundberg.se/entries/2010/04/atomlink/">previous
+      installment</a> of my digital object series addressed the vocabulary
+      used in the Atom link tag describing relations between
+      URI's.</p>
 
-      <p>I've been looking with envy on all people around with flashy smart
-      phones. All these iPhones and Androids. My problem has been: Should I
-      aquire a phone capable of computing or a computer capable of
-      phoning.</p>
+      <p>Next means the nearest in place, degree, quality, rank, right or
+      relation; having no similar object intervening. For page <em>n</em> the
+      previous is page <em>n</em>-1 and the next is <em>n</em>+1. I haven't
+      made up my mind about the next installment in this series.</p>
 
-      <p>I'm an open source - open access kind of person. I just cannot buy
-      any i* gadget. Apple's business model is clever, but I need a device I
-      can understand. I've been UNIX man for more than twenty years and to buy
-      something without a shell would be unthinkable. On the other hand I'm
-      using my computer for the same reasons as every one else. I.e., mostly
-      surfing and communication. Which would be the same as a mobile internet
-      device (a MID).</p>
+      <p>In the previous installment we discussed <kbd>up</kbd>,
+      <kbd>first</kbd>, <kbd>previous</kbd>, <kbd>next</kbd> and
+      <kbd>last</kbd>. Now we discuss the meaning of <kdb>next</kdb>. The next
+      what? A vocabulary may be helpful:</p>
 
-      <p>In spite of the fact that I had settled that my next phone should be
-      an Android one, the fate wanted that I should run into Nokia N900. This
-      gadget weighs more than twice as much as an iPhone but you i think you
-      should compare it with an iPad rather than with a cell phone. It is
-      actually easier to send an email than to make phone call.</p>
+      <p>The National Library of Australia. <em>Australian METS Profile
+      TYPE attribute vocabulary.  Version 1.0</em>
+      <a href="http://www.nla.gov.au/australianmetsprofile/documents/divTYPEvocabulary_v1_0.pdf">http://www.nla.gov.au/australianmetsprofile/documents/divTYPEvocabulary_v1_0.pdf</a></p>
 
-      <p>Nokia doesn't market the thing as a phone but as very mobile
-      computer. Yes, I do know that iPad has a screen which is (perhaps) six
-      times as large as the one on N900. But I have checked out my entire web
-      site from my CVS repository and I'm able to run the entire rebuild
-      machinery. This is a computer that allows creativity.</p>
+      <p>This list gives terms that can be used to describe content
+      structure. The vocabulary is organized for the use in conjunc with <a href="http://www.loc.gov/standards/mets/">Metadata Encoding and
+      Transmission Standard</a> (METS). Using this approach permits
+      Australians to write stuff like:</p>
 
-      <p>I did try to install emacs and nxml mode but that wasn't trivial. The
-      OS is called <a href="http://maemo.org/">Maemo</a>, which is a Debian
-      based Linux maintained by a community sponsored by Nokia. The
-      development is promising since Nokia and Intel are joining forces and
-      are merging forces. Their respective mobile OSes will merge into <a href="http://meego.com/">Meego</a> maintained by Linux foundation.</p>
+      <pre>
 
-      <div style="float:right;width:60%;margin:0.5em;">
-	<a href="http://sigfrid-lundberg.se/entries/2010/05/n900/20100504446.jpg" title="A phone for an old nerd?"><img src="http://sigfrid-lundberg.se/entries/2010/05/n900/smaller20100504446.jpg" alt="A phone for an old nerd?"/></a>
-	<p><small>The N900 is about as large as a state of the art smart
-	phone, a bit larger when the keyboard is slid open. It is twice a
-	thick as an iPhone, and when carried in your pocket it will
-	bulge.</small></p>
-      </div>
+&lt;structMap TYPE="logical"&gt;
+   &lt;div TYPE="newspaper"&gt;
+      &lt;div TYPE="issue"&gt;
+         &lt;div TYPE="edition"&gt;
+	    &lt;div TYPE="supplement"&gt;
+	       &lt;div TYPE="section"&gt;
+	          &lt;div TYPE="article"&gt;
+		     &lt;div TYPE="article part"&gt;
 
+      </pre>
 
-      <h3>Does it work?</h3>
+      <p>Having your content organized like this makes sense. All of a sudden
+      you know the meaning of next.</p>
 
-      <p>Well. This is a very good little tablet computer.</p>
-
-      <ul>
-	<li>Web</li>
-	<li>Mail using POP and IMAP</li>
-	<li>SMS and other messaging</li>
-	<li>Voice phoning using 3G and Skype</li>
-	<li>Calendar</li>
-	<li>Synchonizing with Outlook</li>
-	<li>Wifi and mobile internet</li>
-	<li>GPS and supporting software</li>
-	<li>Camera and images with geodata</li>
-	<li>And much more</li>
-      </ul>
-
-      <p>... just works. Sometimes things aren't really as intuitive as you
-      wanted. Or, perhaps, the intuition of the designers were not the one you
-      expected but that is common, isn't it?</p>
-
-      <h3>A phone for an olde UNIX hacker</h3>
-
-
-      <p>There's a lot of other software. OpenOffice.org is here and then
-      there is the whole lot of UNIX utilities. I can plot my data using
-      Gnuplot and edit perl script with VI.</p>
-
-      <p>So what about the screen and keyboard?</p>
-
-      <p>The buttons on this thing are smaller than on my phone. You operate
-      with your thumbs, and it does work. The suite supplied by Nokia uses
-      some clever T9 like algorithm for guessing what you're typing which
-      minimises the typing.</p>
-
-      <p>The thing will keep you connected 24/7. The thing has 3D graphics,
-      and should you like a shoot'em: DOOM is ported!</p>
+      <p>This entry is part of my series <a href="http://sigfrid-lundberg.se/entries/2010/04/readings/">Readings on
+      digital objects</a></p>
 
     </div>
     <br clear="all"/>
     <p style="text-align: left;"><em><strong>Categories:</strong></em> 
-	  <a href="/subjects/hardware/">Hardware</a>,
-	    <a href="/subjects/reviews/">Reviews</a><br/><em><strong>
+	  <a href="/subjects/metadataprocessing/">Metadata processing</a>,
+	    <a href="/subjects/digitalobjects/">Digital objects</a><br/><em><strong>
 		Permalink:
-	      </strong></em><a rel="bookmark" href="/entries/2010/05/n900/">http://sigfrid-lundberg.se/entries/2010/05/n900/</a></p>
+	      </strong></em><a rel="bookmark" href="/entries/2010/05/next/">http://sigfrid-lundberg.se/entries/2010/05/next/</a></p>
     <hr width="50%" align="center"/>
   </div>
   <div>
@@ -105,15 +70,22 @@
     <table class="news">
       <tr>
         <td class="left">2010</td>
-        <td class="left"><a href="/entries/2010/04/atomlink/"><em>Atom contains all you need to annotate &amp; navigate</em></a><br/>Atom syndication format contains everything you need to build 
-  good annotation and navigation systems<br/><a href="/subjects/digitalobjects/">Digital objects</a>,
-	<a href="/subjects/xws/">XML web services</a></td>
-      </tr>
-      <tr>
-        <td class="left">2010</td>
         <td class="left"><a href="/entries/2010/04/readings/"><em>Readings on digital objects: An annotated URIography</em></a><br/>I have a long list of articles to read on digital objects, how to
   model them etc. This page is for keeping track of my progress<br/><a href="/subjects/digitalcollections/">Digital collections</a>,
 	<a href="/subjects/digitalobjects/">Digital objects</a></td>
+      </tr>
+      <tr>
+        <td class="left">2010</td>
+        <td class="left"><a href="/entries/2010/05/n900/"><em>A phone for elderly hackers?</em></a><br/>The young and smart people people have smart phones. But what phone
+  should an old hacker choose. My answer is Nokia N900. The only snag is that
+  this gadget isn't really a phone.<br/><a href="/subjects/hardware/">Hardware</a>,
+	<a href="/subjects/reviews/">Reviews</a></td>
+      </tr>
+      <tr>
+        <td class="left">2010</td>
+        <td class="left"><a href="/entries/2010/04/atomlink/"><em>Atom contains all you need to annotate &amp; navigate</em></a><br/>Atom syndication format contains everything you need to build 
+  good annotation and navigation systems<br/><a href="/subjects/digitalobjects/">Digital objects</a>,
+	<a href="/subjects/xws/">XML web services</a></td>
       </tr>
       <tr>
         <td class="left">2010</td>
@@ -133,12 +105,6 @@
   claims that the digital library services have successfully implemented
   facilities for extractive media consumption but that it is very difficult to
   help users in the immersive pattern.<br/><a href="/subjects/essays/">Essays</a></td>
-      </tr>
-      <tr>
-        <td class="left">2010</td>
-        <td class="left"><a href="/entries/2010/04/gstupid/"><em>Is Google Making us Stupid?</em></a><br/>Having had a web site for about 15 years, I start to wonder why I
-  keep it in the first place.<br/><a href="/subjects/digitalobjects/">Digital objects</a>,
-	<a href="/subjects/internet/">Internet</a></td>
       </tr>
     </table>
   </div>
