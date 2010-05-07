@@ -6,7 +6,37 @@
   <title>Sigfrid Lundberg's Stuff</title>
   <id>http://sigfrid-lundberg.se/files.atom</id>
   <link rel="self" href="http://feeds.feedburner.com/SigfridLundbergsStuff?format=xml"/>
-  <updated>2010-05-05T14:47:36+01:00</updated>
+  <updated>2010-05-06T22:05:15+01:00</updated>
+  <entry>
+  <author>
+    <name>Sigfrid Lundberg</name>
+  </author>
+  <title>Thinking about tulips dropping their petals</title>
+  <link href="http://sigfrid-lundberg.se/entries/2010/05/tulips/"/>
+  <summary>The spring is advances. April's weather has been staying, but
+  nevertheless the Thinker's Tulips have dropped their petals.</summary>
+  <content type="xhtml">
+
+    <div xmlns="http://www.w3.org/1999/xhtml">
+      <div style="float:right;width:60%;margin:0.5em;">
+	<a href="http://sigfrid-lundberg.se/entries/2010/05/tulips/20100503_001.jpg" title="A phone for an old nerd?"><img src="http://sigfrid-lundberg.se/entries/2010/05/tulips/smaller20100503_001.jpg" alt="Tulips drop their petals"/></a>
+      </div>
+
+      <p>The spring is advances. April's weather has been staying, but
+      nevertheless the Thinker's Tulips drop their petals.</p>
+
+      <ul>
+	<li><a href="http://sigfrid-lundberg.se/entries/2010/03/thinking/">Thinking about snow and ice</a></li>
+	<li><a href="http://sigfrid-lundberg.se/entries/2010/04/thinkerinthespring/">Thinking about tulip blossom</a></li>
+      </ul>
+
+    </div>
+  </content>
+  <dc:date>2010</dc:date>
+  <category label="images" term="Images"/>
+  <updated>2010-05-06T22:05:15+01:00</updated>
+  <id>http://www.sigfrid-lundberg.se/entries/2010/05/tulips/</id>
+</entry>
   <entry>
   <author>
     <name>Sigfrid Lundberg</name>
