@@ -1,40 +1,70 @@
 <div xmlns="http://www.w3.org/1999/xhtml">
   <div>
-    <h1 style="font-family: sans-serif; width: 55%; float: left;text-align: left;">Thinking about tulips dropping their petals</h1>
+    <h1 style="font-family: sans-serif; width: 55%; float: left;text-align: left;">Will the tablets changing the world?</h1>
     <p style="width: 38%; float: left;text-align: right">
       <em>
         <strong>
 		Sigfrid Lundberg's Stuff,
-	      2010-05-06</strong>
+	      2010-05-09</strong>
       </em>
     </p>
   </div>
   <div style="clear:both;"> </div>
   <div style="width:100%;">
     <div>
-      <div style="float:right;width:60%;margin:0.5em;">
-	<a href="http://sigfrid-lundberg.se/entries/2010/05/tulips/20100503_001.jpg" title="A phone for an old nerd?"><img src="http://sigfrid-lundberg.se/entries/2010/05/tulips/smaller20100503_001.jpg" alt="Tulips drop their petals"/></a>
-      </div>
 
-      <p>The spring is advances. April's weather has been staying, but
-      nevertheless the Thinker's Tulips drop their petals.</p>
+      <p>I have previously discussed the impact of the <a href="http://sigfrid-lundberg.se/entries/2010/02/ibooook/">tablet
+      computer</a> and described how I've <a href="http://sigfrid-lundberg.se/entries/2010/05/n900/">acqired one
+      myself</a>. Here I give some further pointers on the subject.</p>
 
-      <ul>
-	<li><a href="http://sigfrid-lundberg.se/entries/2010/03/thinking/">Thinking about snow and ice</a></li>
-	<li><a href="http://sigfrid-lundberg.se/entries/2010/04/thinkerinthespring/">Thinking about tulip blossom</a></li>
-      </ul>
+      <p>Wired Magazine dedicated the cover and quite a few of its April issue
+      to the appearance of the iPad. Here's two quotes:</p>
+
+      <blockquote><em>[The iPad] will remake both book publishing and
+      Hollywood, because it creates a transmedia that conflates books and
+      video. You get TV you read, books you watch, movies you touch.</em>
+      (<a href="http://www.wired.com/magazine/2010/03/ff_tablet_essays#kelly">Kevin
+      Kelly</a>)</blockquote>
+
+      <p>and</p>
+
+      <blockquote><em>For decades, futurists have dreamed of the “universal
+      book”: a handheld reading device that would give you instant access to
+      every book in the Library of Congress. In the tablet era, it’s no longer
+      technology holding us back from realizing that vision; it’s the
+      copyright holders.</em> <a href="http://www.wired.com/magazine/2010/03/ff_tablet_essays#johnson">Steven
+      Johnson, 2010</a></blockquote>
+
+
+      <p>I found this snippet on the effect of tablets on higher education:</p>
+
+      <blockquote><em>Personally, I think that the current version of the iPad
+      is the ultimate personal entertainment device, but one that has been
+      designed for an ulterior purpose.  I believe the iPad is destined to
+      become the first device/platform to make significant headway in the
+      education space — particularly in higher education.</em> (<a href="http://www.blackplasticglasses.com/2010/05/05/ipad-digital-learning/">Evan
+      Schnittman </a>).</blockquote>
+
+      <p>I can really recommend Evan Schnittman's blog <a href="http://www.blackplasticglasses.com/">Black Plastic
+      Glasses</a>.</p>
 
     </div>
     <br clear="all"/>
     <p style="text-align: left;"><em><strong>Categories:</strong></em> 
-	  <a href="/subjects/images/">Images</a><br/><em><strong>
+	  <a href="/subjects/hardware/">Hardware</a>,
+	    <a href="/subjects/media/">Media</a><br/><em><strong>
 		Permalink:
-	      </strong></em><a rel="bookmark" href="/entries/2010/05/tulips/">http://sigfrid-lundberg.se/entries/2010/05/tulips/</a></p>
+	      </strong></em><a rel="bookmark" href="/entries/2010/05/tabletsagain/">http://sigfrid-lundberg.se/entries/2010/05/tabletsagain/</a></p>
     <hr width="50%" align="center"/>
   </div>
   <div>
     <h1>Other, not yet obsolete stuff</h1>
     <table class="news">
+      <tr>
+        <td class="left">2010</td>
+        <td class="left"><a href="/entries/2010/05/tulips/"><em>Thinking about tulips dropping their petals</em></a><br/>The spring is advances. April's weather has been staying, but
+  nevertheless the Thinker's Tulips have dropped their petals.<br/><a href="/subjects/images/">Images</a></td>
+      </tr>
       <tr>
         <td class="left">2010</td>
         <td class="left"><a href="/entries/2010/05/next/"><em>On the meaning of next</em></a><br/>Nearest in place, degree, quality, rank, right or relation; having
@@ -66,10 +96,6 @@
   2005. Fedora: an architecture for complex objects and their
   relationships<br/><a href="/subjects/metadataprocessing/">Metadata processing</a>,
 	<a href="/subjects/digitalobjects/">Digital objects</a></td>
-      </tr>
-      <tr>
-        <td class="left">2010</td>
-        <td class="left"><a href="/entries/2010/04/thinkerinthespring/"><em>Holberg, the Thinker and the Tulips</em></a><br/>Two statues, one in Copenhagen and one in Bergen<br/><a href="/subjects/images/">Images</a></td>
       </tr>
     </table>
   </div>
