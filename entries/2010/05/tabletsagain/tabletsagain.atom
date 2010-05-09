@@ -5,11 +5,17 @@
   </author>
   <title>Will the tablets changing the world?</title>
   <link href="/entries/2010/05/tabletsagain/"/>
-  <summary>I have previously discussed the impact of the
-  and described how I've acqired one myself. Here I give
+  <summary>I have previously discussed the impact of the tablet computer, an
+  in particular iPad, and described how I've acqired one myself. Here I give
   some further pointers on the subject.</summary>
   <content type="xhtml">
     <div xmlns="http://www.w3.org/1999/xhtml">
+
+      <p>I have previously discussed the impact of the <a
+      href="http://sigfrid-lundberg.se/entries/2010/02/ibooook/">tablet
+      computer</a> and described how I've <a
+      href="http://sigfrid-lundberg.se/entries/2010/05/n900/">acqired one
+      myself</a>. Here I give some further pointers on the subject.</p>
 
       <p>Wired Magazine dedicated the cover and quite a few of its April issue
       to the appearance of the iPad. Here's two quotes:</p>
@@ -49,7 +55,9 @@
     </div>
   </content>
   <dc:date>2010</dc:date>
-  <category label="structuralwebdesign" term="Structural web design"/>
+  <category label="hardware" term="Hardware"/>
+  <category label="media" term="Media"/>
   <updated>2010-05-09T18:32:53+01:00</updated>
   <id>http://www.sigfrid-lundberg.se/entries/2010/05/tabletsagain/</id>
+  <!-- $Id$ -->
 </entry>
