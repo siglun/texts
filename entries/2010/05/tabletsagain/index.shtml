@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<html xmlns="http://www.w3.org/1999/xhtml" xmlns:addthis="http://www.addthis.com/help/api-spec"><head><title>Will the tablets changing the world?: 
+	  Sigfrid Lundberg's Stuff
+	</title><link href="http://feeds.feedburner.com/SigfridLundbergsStuff?format=xml" type="application/atom+xml" title="Sigfrid Lundberg's Stuff" rel="alternate"/><link href="http://sigfridlundbergsstuff.disqus.com/latest.rss" type="application/rss+xml" title="Latest Comments" rel="alternate"/><meta http-equiv="Content-Type" content="text/html;charset=UTF-8"/><script src="/js/navigation.js" type="text/javascript"> 
+	  </script><meta http-equiv="Content-Type" content="text/html;charset=UTF-8"/><link rel="stylesheet" href="/css-style/html.css"/></head><body><div class="left_box"><div style="text-align:left;width=90%;"><!--#include virtual="/div_top_left_box.xml" --></div><div style="text-align:left;width=90%;"><p><a href="/">Home</a><br/><a href="http://feeds.feedburner.com/SigfridLundbergsStuff?format=xml" type="application/atom+xml" class="feed-link"><img src="/images/Newsfeed-Atom.png" alt="Subscribe to Stuff from Sigfrid Lundberg" border="0"/>Subscribe to my stuff</a><br/><a href="http://sigfridlundbergsstuff.disqus.com/latest.rss" type="application/rss+xml" class="feed-link"><img src="/images/Newsfeed-Atom.png" alt="Subscribe to Stuff from Sigfrid Lundberg" border="0"/>Subscribe to discussion feed</a></p><!--#include virtual="/subjects.xml" --><!--#include virtual="/me.xml" --></div></div><div class="right_box"><h1 style="font-family: sans-serif; width: 55%; float: left;text-align: left;">Will the tablets changing the world?</h1><p style="width: 38%; float: left;text-align: right"><em><strong>Sigfrid Lundberg's Stuff 2010-05-09</strong></em><br/><br/><a class="addthis_button" addthis:title="Will the tablets changing the world?" addthis:url="http://sigfrid-lundberg.se/entries/2010/05/tabletsagain/" href="http://www.addthis.com/bookmark.php?v=250&amp;pub=siggelundberg"><img src="http://s7.addthis.com/static/btn/v2/lg-share-en.gif" width="125" height="16" alt="Bookmark and Share" style="border:0"/></a><script type="text/javascript" src="http://s7.addthis.com/js/250/addthis_widget.js?pub=siggelundberg">
+		</script></p><div style="clear:both">
+	    </div>
+    <div>
+
+      <p>I have previously discussed the impact of the <a href="http://sigfrid-lundberg.se/entries/2010/02/ibooook/">tablet
+      computer</a> and described how I've <a href="http://sigfrid-lundberg.se/entries/2010/05/n900/">acqired one
+      myself</a>. Here I give some further pointers on the subject.</p>
+
+      <p>Wired Magazine dedicated the cover and quite a few of its April issue
+      to the appearance of the iPad. Here's two quotes:</p>
+
+      <blockquote><em>[The iPad] will remake both book publishing and
+      Hollywood, because it creates a transmedia that conflates books and
+      video. You get TV you read, books you watch, movies you touch.</em>
+      (<a href="http://www.wired.com/magazine/2010/03/ff_tablet_essays#kelly">Kevin
+      Kelly</a>)</blockquote>
+
+      <p>and</p>
+
+      <blockquote><em>For decades, futurists have dreamed of the “universal
+      book”: a handheld reading device that would give you instant access to
+      every book in the Library of Congress. In the tablet era, it’s no longer
+      technology holding us back from realizing that vision; it’s the
+      copyright holders.</em> <a href="http://www.wired.com/magazine/2010/03/ff_tablet_essays#johnson">Steven
+      Johnson, 2010</a></blockquote>
+
+
+      <p>I found this snippet on the effect of tablets on higher education:</p>
+
+      <blockquote><em>Personally, I think that the current version of the iPad
+      is the ultimate personal entertainment device, but one that has been
+      designed for an ulterior purpose.  I believe the iPad is destined to
+      become the first device/platform to make significant headway in the
+      education space — particularly in higher education.</em> (<a href="http://www.blackplasticglasses.com/2010/05/05/ipad-digital-learning/">Evan
+      Schnittman </a>).</blockquote>
+
+      <p>I can really recommend Evan Schnittman's blog <a href="http://www.blackplasticglasses.com/">Black Plastic
+      Glasses</a>.</p>
+
+    </div>
+  <div style="clear:both"> 
+	    </div><div id="disqus_thread">
+	    </div><p style="margin-left:+1%;"><a href="http://disqus.com" class="dsq-brlink">blog comments powered
+	    by <span class="logo-disqus">Disqus</span></a></p></div><script type="text/javascript" src="http://disqus.com/forums/sigfridlundbergsstuff/embed.js">
+	  </script><noscript><a href="http://sigfridlundbergsstuff.disqus.com/?url=http://sigfrid-lundberg.se/entries/2010/05/tabletsagain/">
+	      View the discussion thread
+	  </a></noscript><script type="text/javascript">//<!--
+	  (function() {
+	      var links = document.getElementsByTagName('a');
+	      var query = '?';
+	      for(var i = 0; i < links.length; i++) {
+		  if(links[i].href.indexOf('#disqus_thread') >= 0) {
+		      query += 'url' + i + '=' + encodeURIComponent(links[i].href) + '&';
+		  }
+	      }
+	      document.write('<script charset="utf-8" type="text/javascript" src="http://disqus.com/forums/sigfridlundbergsstuff/get_num_replies.js' + query + '"></' + 'script>');
+	  })();
+	  //--></script><!--#include virtual="/js/urchin.js" --></body></html>
