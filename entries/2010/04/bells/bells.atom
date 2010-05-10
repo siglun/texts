@@ -5,15 +5,23 @@
   </author>
   <title>Bell's Books</title>
   <link href="/entries/2010/04/bells/"/>
-  <summary>I bought three books on Bell's Books, 536 Emerson Street, Palo
+  <summary>I bought three books at Bell's Books, 536 Emerson Street, Palo
   Alto</summary>
   <content type="xhtml">
     <div xmlns="http://www.w3.org/1999/xhtml">
 
+      <div style="float:right;width:60%;margin:0.5em;">
+	<a href="http://sigfrid-lundberg.se/entries/2010/04/bells/smaller20100509_001.jpg" alt="Three books acquired at Bell's Books, Palo Alto"><img src="http://sigfrid-lundberg.se/entries/2010/04/bells/smaller20100509_001.jpg" alt="Three books acquired at Bell's Books, Palo Alto"/></a>
+      </div>
+
+      <p>I bought three books at <a href="http://www.bellsbooks.com/">Bell's
+      Books</a>, 536 Emerson Street, Palo Alto. This is a fairly large, well
+      kept (mostly antiquarian) bookshop.</p>
+
     </div>
   </content>
   <dc:date>2010</dc:date>
-  <category label="structuralwebdesign" term="Structural web design"/>
-  <updated>2010-04-27T21:35:53+01:00</updated>
+  <category label="stories" term="Stories"/>
+  <updated>2010-05-10T21:29:22+01:00</updated>
   <id>http://www.sigfrid-lundberg.se/entries/2010/04/bells/</id>
 </entry>
