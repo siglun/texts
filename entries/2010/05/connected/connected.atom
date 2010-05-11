@@ -3,24 +3,33 @@
   <author>
     <name>Sigfrid Lundberg</name>
   </author>
-  <title>Why do I keep this site?</title>
+  <title>On my life as being connected</title>
   <link href="/entries/2010/05/connected/"/>
-  <summary>Having had a web site for about 15 years, I start to wonder why I
-  keep it in the first place.</summary>
+  <summary>The new smartphone/tablet computer intervenes in my life, sometimes
+  annoying me, but more often my wife and other people</summary>
   <content type="xhtml">
     <div xmlns="http://www.w3.org/1999/xhtml">
 
-Thursday morning. A clock went off in the bedroom. Very early. It was the calendar prompting me to attend a whole day event. The tablet synchronizes calendar entries from my outlook calendar. Very nifty, I'd say. "What was that?" my wife asked. "Oh, it was just  my calendar", I answered.
+      <p>Thursday morning. A clock went off in the bedroom. Very early. It was
+      the calendar prompting me to attend a whole day event. The tablet
+      synchronizes calendar entries from my outlook calendar. Very nifty, I'd
+      say. <q>What was that?</q> my wife asked. <q>Oh, it was just my
+      calendar,</q> I answered. <q>The standard <a
+      href="http://office.microsoft.com/en-us/outlook/HP100307951033.aspx">18
+      hrs</a></q></p>
 
-Yesterday she heard a pling from my left pocket. "An SMS?" she enquired. "Nope, an e-mail!" said I. "The alerts differ".
+      <p>Yesterday she heard a pling from my left pocket. <q>An SMS?</q> she
+      enquired. <q>Nope, an e-mail!</q> said I. <q>The alerts differ.</q></p>
 
-I stand in the kitchen, by the stove, cooking.  I write while waiting for something, typing phrenetically on my tablet. "What are you doing?" says she. "I'm just writing a text on my life as being connected."
-
+      <p>I stand in the kitchen, by the stove, cooking.  I write while waiting
+      for something to get ready, typing with frenzy on my tablet. <q>What are
+      you up to?</q> asks she. <q>I'm just writing a text on my life as being
+      connected.</q></p>
 
     </div>
   </content>
   <dc:date>2010</dc:date>
-  <category label="structuralwebdesign" term="Structural web design"/>
-  <updated>2010-05-10T18:28:14+01:00</updated>
+  <category label="stories" term="Stories"/>
+  <updated>2010-05-10T21:29:45+01:00</updated>
   <id>http://www.sigfrid-lundberg.se/entries/2010/05/connected/</id>
 </entry>
