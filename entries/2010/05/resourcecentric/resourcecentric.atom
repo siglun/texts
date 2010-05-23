@@ -3,7 +3,7 @@
   <author>
     <name>Sigfrid Lundberg</name>
   </author>
-  <title>Resource Centric or SODA </title>
+  <title>Resource Centric</title>
   <link href="/entries/2010/05/resourcecentric/"/>
   <summary>Having had a web site for about 15 years, I start to wonder why I
   keep it in the first place.</summary>
@@ -42,17 +42,19 @@
       very clear way:</p>
 
       <blockquote>
-	<p>It [the OAI-ORE standard] also reflects a recognition of the
-	position of digital libraries vis-à-vis the Web that sometimes seem to
-	co-exist in a curiously parallel conceptual and architectural
-	space.</p>
+	<em>
+	  <p>It [the OAI-ORE standard] also reflects a recognition of the
+	  position of digital libraries vis-à-vis the Web that sometimes seem
+	  to co-exist in a curiously parallel conceptual and architectural
+	  space.</p>
 
-	<p>We exist in a world where information is synonymous not with
-	'library' but with the Web and the applications that are rooted in
-	it. In this world, the Web Architecture is the lingua franca for
-	information interoperability, and applications such as most digital
-	libraries must exist within the capabilities and constraints of that
-	Web Architecture.</p>
+	  <p>We exist in a world where information is synonymous not with
+	  'library' but with the Web and the applications that are rooted in
+	  it. In this world, the Web Architecture is the lingua franca for
+	  information interoperability, and applications such as most digital
+	  libraries must exist within the capabilities and constraints of that
+	  Web Architecture.</p>
+	</em>
       </blockquote>
 
       <p>Implementors of digital library objects have often successfully put
@@ -65,9 +67,11 @@
       producing interoperable objects. Or, as McDonough (2008) puts it:</p>
 
       <blockquote>
-	<p>Hence XML's similarity to a rope. Like a rope, it is
-	extraordinarily flexible; unfortunately, just as with rope, that
-	flexibility makes it all too easy to hang yourself.</p>
+	<em>
+	  <p>Hence XML's similarity to a rope. Like a rope, it is
+	  extraordinarily flexible; unfortunately, just as with rope, that
+	  flexibility makes it all too easy to hang yourself.</p>
+	</em>
       </blockquote>
 
       <p>Maly and Nelson (1999) make distinctions between Dumb and Smart
@@ -86,26 +90,24 @@
       <p id="lagozeetal">Lagoze, Carl, Herbert Van de Sompel, Michael
       L. Nelson, Simeon Warner, Robert Sanderson and Pete Johnston,
       2008. Object Re-Use &amp; Exchange: A Resource-Centric
-      Approach. <em>Arxiv preprint.</em> <a
-      href="http://arxiv.org/abs/0804.2273v1">arXiv:0804.2273v1</a></p>
+      Approach. <em>Arxiv preprint.</em> <a href="http://arxiv.org/abs/0804.2273v1">arXiv:0804.2273v1</a></p>
 
       <p id="malyetal">Maly, Kurt and Michael L. Nelson, 1999. Smart Objects,
       Dumb Archives — A User-Centric, Layered Digital Library
-      Framework. <em>D-Lib Magazine.</em> Vol. 5(3). <a
-      href="http://www.dlib.org/dlib/march99/maly/03maly.html">http://www.dlib.org/dlib/march99/maly/03maly.html</a></p>
+      Framework. <em>D-Lib Magazine.</em> Vol. 5(3). <a href="http://www.dlib.org/dlib/march99/maly/03maly.html">http://www.dlib.org/dlib/march99/maly/03maly.html</a></p>
 
       <p id="mcdonough">McDonough, Jerome, 2008. “Structural Metadata and the
       Social Limitation of Interoperability: A Sociotechnical View of XML and
       Digital Library Standards Development.” Presented at Balisage: The
       Markup Conference 2008, Montréal, Canada, August 12 - 15, 2008. In
       Proceedings of Balisage: The Markup Conference 2008. <em>Balisage Series
-      on Markup Technologies</em>, vol. 1 (2008). <a
-      href="http://www.balisage.net/Proceedings/vol1/html/McDonough01/BalisageVol1-McDonough01.html">doi:10.4242/BalisageVol1.McDonough01</a>.</p>
+      on Markup Technologies</em>, vol. 1 (2008). <a href="http://www.balisage.net/Proceedings/vol1/html/McDonough01/BalisageVol1-McDonough01.html">doi:10.4242/BalisageVol1.McDonough01</a>.</p>
 
     </div>
   </content>
   <dc:date>2010</dc:date>
-  <category label="structuralwebdesign" term="Structural web design"/>
-  <updated>2010-05-23T20:37:30+01:00</updated>
+  <category label="digitalobjects" term="Digital Object"/>
+  <category label="objectstores" term="Digital Object Stores"/>
+  <updated>2010-05-23T22:24:07+01:00</updated>
   <id>http://www.sigfrid-lundberg.se/entries/2010/05/resourcecentric/</id>
 </entry>
