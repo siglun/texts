@@ -29,6 +29,20 @@
 	    an architecture for complex objects and their
 	    relationships.</a></li>
 
+	    <li id="centric">Maly, Kurt and Michael L. Nelson, 1999. <a href="http://sigfrid-lundberg.se/entries/2010/05/resourcecentric/">
+	    Smart Objects, Dumb Archives — A User-Centric, Layered Digital
+	    Library Framework.</a></li>
+
+	    <li id="centric">McDonough, Jerome, 2008. <a href="http://sigfrid-lundberg.se/entries/2010/05/resourcecentric/">“Structural
+	    Metadata and the Social Limitation of Interoperability: A
+	    Sociotechnical View of XML and Digital Library Standards
+	    Development.”
+
+
+</a></li>
+
+
+
 	  </ul>
 
 	</li>
@@ -79,7 +93,7 @@
   <dc:date>2010</dc:date>
   <category label="digitalcollections" term="Digital collections"/>
   <category label="digitalobjects" term="Digital objects"/>
-  <updated>2010-05-05T14:47:19+01:00</updated>
+  <updated>2010-05-23T22:23:46+01:00</updated>
   <id>http://www.sigfrid-lundberg.se/entries/2010/04/readings/</id>
   <!-- $Id$ -->
 </entry>
