@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<entry xmlns="http://www.w3.org/2005/Atom" xmlns:dc="http://purl.org/dc/elements/1.1/">
+  <author>
+    <name>Sigfrid Lundberg</name>
+  </author>
+  <title>Resource Centric or SODA </title>
+  <link href="/entries/2010/05/resourcecentric/"/>
+  <summary>Having had a web site for about 15 years, I start to wonder why I
+  keep it in the first place.</summary>
+  <content type="xhtml">
+    <div xmlns="http://www.w3.org/1999/xhtml">
+
+
+      <p>I've been publishing entries here under a general heading Readings on
+      Digital Objects. This text will not be the last entry in that series,
+      but you should not expect many more in the near future.</p>
+
+      <p>Scholars as well as the general public consume digital objects en
+      mass. The range of digital genres on the menu is broad, covering
+      everything between Worlds of Warcraft and Shakespeare's Sonnets. An
+      object delivered on the net via a library (in the broadest sense of the
+      word) is a digital library object. Those who have followed this series
+      have realized that the discussion on what kind of data a digital library
+      object should contain has been going on for more than a decade and
+      possibly almost two.</p>
+
+      <p>From very early stage, the vision within the library communities has
+      been to move the library to the Internet and particularly to the
+      Web. The trend to be present <q>where the users are</q> has been
+      hysterical at times with libraries spending a lot on being present in
+      second life and Facebook.</p>
+
+      <p>Otherwise, the tactic has been the creation of repositories. We do
+      now see now a shift from the repository as the gravitational center
+      towards the objects, the resources, themselves. There should be no need
+      to <strong>go to the</strong> digital library and search in what is
+      basically hidden web. Rather the content should be on the Worldwide Web
+      and available in the mainstream search engines.</p>
+
+      <p>Lagoze et al. (2008) use this shift of emphasis as justification for
+      proposal of the new standard OAI-ORE. They formulate the new trend in a
+      very clear way:</p>
+
+      <blockquote>
+	<p>It [the OAI-ORE standard] also reflects a recognition of the
+	position of digital libraries vis-à-vis the Web that sometimes seem to
+	co-exist in a curiously parallel conceptual and architectural
+	space.</p>
+
+	<p>We exist in a world where information is synonymous not with
+	'library' but with the Web and the applications that are rooted in
+	it. In this world, the Web Architecture is the lingua franca for
+	information interoperability, and applications such as most digital
+	libraries must exist within the capabilities and constraints of that
+	Web Architecture.</p>
+      </blockquote>
+
+      <p>Implementors of digital library objects have often successfully put
+      the library collections on the web. They are also successfully
+      disseminating simple bibliographical metadata (for example using
+      OAI). Libraries have, however, been less successful as regards putting
+      the objects on the Web (Lagoze, op. cit.)</p>
+
+      <p>Another point of failure is that we have yet been incapable of
+      producing interoperable objects. Or, as McDonough (2008) puts it:</p>
+
+      <blockquote>
+	<p>Hence XML's similarity to a rope. Like a rope, it is
+	extraordinarily flexible; unfortunately, just as with rope, that
+	flexibility makes it all too easy to hang yourself.</p>
+      </blockquote>
+
+      <p>Maly and Nelson (1999) make distinctions between Dumb and Smart
+      Archives and Dumb and Smart Archives, leading to four architectures
+      DODA, SODA, DOSA and SOSA. Ever since, object oriented developers have
+      concentrated on the SODA model (Smart Objects in a Dumb archive. Fedora
+      is intended as an implementation of that.</p>
+
+      <p>I think it is time to give attention to the DODA architecture. Then
+      the all inferencing and intelligence is deferred to an independent
+      indexing agent which behaves more or less like an Internet search engine
+      through clever indexing and automatic text analysis.</p>
+
+      <h3>References</h3>
+
+      <p id="lagozeetal">Lagoze, Carl, Herbert Van de Sompel, Michael
+      L. Nelson, Simeon Warner, Robert Sanderson and Pete Johnston,
+      2008. Object Re-Use &amp; Exchange: A Resource-Centric
+      Approach. <em>Arxiv preprint.</em> <a
+      href="http://arxiv.org/abs/0804.2273v1">arXiv:0804.2273v1</a></p>
+
+      <p id="malyetal">Maly, Kurt and Michael L. Nelson, 1999. Smart Objects,
+      Dumb Archives — A User-Centric, Layered Digital Library
+      Framework. <em>D-Lib Magazine.</em> Vol. 5(3). <a
+      href="http://www.dlib.org/dlib/march99/maly/03maly.html">http://www.dlib.org/dlib/march99/maly/03maly.html</a></p>
+
+      <p id="mcdonough">McDonough, Jerome, 2008. “Structural Metadata and the
+      Social Limitation of Interoperability: A Sociotechnical View of XML and
+      Digital Library Standards Development.” Presented at Balisage: The
+      Markup Conference 2008, Montréal, Canada, August 12 - 15, 2008. In
+      Proceedings of Balisage: The Markup Conference 2008. <em>Balisage Series
+      on Markup Technologies</em>, vol. 1 (2008). <a
+      href="http://www.balisage.net/Proceedings/vol1/html/McDonough01/BalisageVol1-McDonough01.html">doi:10.4242/BalisageVol1.McDonough01</a>.</p>
+
+    </div>
+  </content>
+  <dc:date>2010</dc:date>
+  <category label="structuralwebdesign" term="Structural web design"/>
+  <updated>2010-05-23T20:37:30+01:00</updated>
+  <id>http://www.sigfrid-lundberg.se/entries/2010/05/resourcecentric/</id>
+</entry>
