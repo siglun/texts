@@ -1,6 +1,6 @@
 <div xmlns="http://www.w3.org/1999/xhtml">
   <div>
-    <h1 style="font-family: sans-serif; width: 55%; float: left;text-align: left;">Resource Centric</h1>
+    <h1 style="font-family: sans-serif; width: 55%; float: left;text-align: left;">Focus on the resources</h1>
     <p style="width: 38%; float: left;text-align: right">
       <em>
         <strong>
@@ -13,25 +13,27 @@
   <div style="width:100%;">
     <div>
 
-
-      <p>I've been publishing entries here under a general heading Readings on
-      Digital Objects. This text will not be the last entry in that series,
-      but you should not expect many more in the near future.</p>
+      <p>I've posted entries here under the heading <a href="http://sigfrid-lundberg.se/entries/2010/04/readings/">Readings on
+      Digital Objects</a>. This text will, I hope, <strong>not</strong> be the
+      last posting in that series, but you should not expect many more in the
+      near future.</p>
 
       <p>Scholars as well as the general public consume digital objects en
       mass. The range of digital genres on the menu is broad, covering
       everything between Worlds of Warcraft and Shakespeare's Sonnets. An
-      object delivered on the net via a library (in the broadest sense of the
-      word) is a digital library object. Those who have followed this series
-      have realized that the discussion on what kind of data a digital library
-      object should contain has been going on for more than a decade and
-      possibly almost two.</p>
+      object delivered on the net via a library (in the broadest sense of that
+      word) is a Digital Library Object. Those who have followed this series
+      have realized that the research on what kind of data such an object
+      should contain has been going on for more than a decade and possibly
+      almost two.</p>
 
-      <p>From very early stage, the vision within the library communities has
-      been to move the library to the Internet and particularly to the
-      Web. The trend to be present <q>where the users are</q> has been
-      hysterical at times with libraries spending a lot on being present in
-      second life and Facebook.</p>
+      <p>From a very early stage, the vision within the library communities
+      has been to move the library to the Internet and particularly to the
+      Web. The trend to establish a presence <q>where the users are</q> has
+      been hysterical at times with libraries spending staff manpower on
+      engagement in Second Life and Facebook.</p>
+
+      <h3>Towards a resource centric view</h3>
 
       <p>Otherwise, the tactic has been the creation of repositories. We do
       now see now a shift from the repository as the gravitational center
@@ -66,6 +68,8 @@
       OAI). Libraries have, however, been less successful as regards putting
       the objects on the Web (Lagoze, op. cit.)</p>
 
+      <h3>XML &amp; SODA</h3>
+
       <p>Another point of failure is that we have yet been incapable of
       producing interoperable objects. Or, as McDonough (2008) puts it:</p>
 
@@ -78,7 +82,7 @@
       </blockquote>
 
       <p>Maly and Nelson (1999) make distinctions between Dumb and Smart
-      Archives and Dumb and Smart Archives, leading to four architectures
+      Objects and Dumb and Smart Archives, leading to four architectures
       DODA, SODA, DOSA and SOSA. Ever since, object oriented developers have
       concentrated on the SODA model (Smart Objects in a Dumb archive. Fedora
       is intended as an implementation of that.</p>
