@@ -10,8 +10,7 @@
   <content type="xhtml">
     <div xmlns="http://www.w3.org/1999/xhtml">
 
-      <p>I've posted entries here under the heading <a
-      href="http://sigfrid-lundberg.se/entries/2010/04/readings/">Readings on
+      <p>I've posted entries here under the heading <a href="http://sigfrid-lundberg.se/entries/2010/04/readings/">Readings on
       Digital Objects</a>. This text will, I hope, <strong>not</strong> be the
       last posting in that series, but you should not expect many more in the
       near future.</p>
@@ -113,6 +112,6 @@
   <dc:date>2010</dc:date>
   <category label="digitalobjects" term="Digital Object"/>
   <category label="objectstores" term="Digital Object Stores"/>
-  <updated>2010-05-23T22:24:07+01:00</updated>
+  <updated>2010-05-24T13:44:08+01:00</updated>
   <id>http://www.sigfrid-lundberg.se/entries/2010/05/resourcecentric/</id>
 </entry>
