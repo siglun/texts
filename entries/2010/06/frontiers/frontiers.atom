@@ -3,7 +3,7 @@
   <author>
     <name>Sigfrid Lundberg</name>
   </author>
-  <title>Who defines a PC</title>
+  <title>Who defines the PC</title>
   <link href="/entries/2010/06/frontiers/"/>
   <summary>The PC was defined by IBM and Microsoft. Who defines it
   today?</summary>
@@ -23,45 +23,145 @@
       there's.a fair chance that both your phone, your wireless router and
       your fridge are all ARM systems.</p>
 
-      <p>The mobiles &amp; the tablets are given prominent positions in the news
-      feeds, and as I write this there one such item in top of Google News'
-      Sci/Tech section. It is about Apple's iPhone, which, by the way, like
-      the Android systems, are ARM.</p>
+      <h3>The current chips</h3>
 
-      <p>Intel has tried to establish itself in this area, have not been able
-      to do so through can getting an increased market share by winning
+      <p>The mobiles &amp; the tablets are currently given prominent positions
+      in the news feeds, and as I write this there one such item in top of
+      Google News' Sci/Tech section. It is usually about Apple's iPhone or
+      iPadd, both of which, by the way, like the Android systems, are ARM.</p>
+
+      <p>Intel has tried to establish itself in this area, but have not been
+      able to do so through can getting an increased market share by winning
       customers from ARM. The tablets is a new segment, and the race to start
       exploit the unchartered land. The chip Intel try to market here is the
-      Atom processor which, of course, is x86.</p>
+      Atom processor which, of course, is x86. See, for instence:
+      
+	<a
+	href="http://tech.fortune.cnn.com/2010/06/08/arm-intel-living-room/?section=magazines_fortune">ARM
+	and Intel's new battleground: the living room</a>
+
+      </p>
+
+      <h3>Software frontiers</h3>
 
       <p>Google's Android &amp; Chromium are both Linux platforms (hence
-      Helsinki &amp; Stanford Universities), whereas iPhone OS is a redecorated
-      Berkeley Unix with a Mach kernel. Yes, it is a Mach kernel, as in the
-      speed of sound. This makes these gadgets University of California &amp;
-      Carnegie Mellon University.</p>
+      Helsinki &amp; Stanford Universities), whereas iPhone OS is a
+      redecorated Berkeley Unix with a Mach kernel. Yes, it is a Mach kernel,
+      as in the speed of sound, not Mac. This makes these gadgets University
+      of California &amp; Carnegie Mellon University. Here is already at the
+      basic level Europe against US, MIT, New England and Boston (GNU lives
+      there) against California, Stanford against Berkeley.</p>
 
-      <p>All of a sudden we see new and sometimes unexpected alliances. Two
-      examples:</p>
+      <p>For those who don't know the history of the Unixes, it is well worth
+      to know that Linux is a reverse engineered variant of the AT&amp;T
+      System V Unix. Which isn't BSD Unix.</p>
+
+      <p>At basic academic levels there's differences. Frontiers.</p>
+
+      <p>Whenever theres conflicts, there are alliances, new ones and
+      sometimes entirely unexpected:</p>
 
       <ul>
-	<li>Global leaders Intel Corporation and Nokia merge Moblin and Maemo
-	to create MeeGo*, a Linux-based …</li>
+	<li>
+	  <p>
 
-	<li>ARM, Freescale, IBM, Samsung, ST-Ericsson and Texas Instruments
-	Form New Company to Speed the Rollout of Linux-Based Devices</li>
+	    <q>The good news is that we finally have an operating system to
+	    unite behind. Android is an operating system that has gained a
+	    tremendous amount of momentum all over the world</q>
+
+	    [...]
+
+	    <q>Android has become the fastest growing mobile operating system
+	    in the world and, in fact, it has surpassed the iPhone in terms of
+	    growth and in terms of users</q>,
+
+	    said 
+
+	    <a
+		href="http://www.computerworld.com/s/article/9177518/Nvidia_CEO_Hardware_makers_uniting_behind_Android_for_tablets">Jen-Hsun Huang</a>,
+	     president and CEO at Nvidia
+	  </p>
+	</li>
+
+	<li>
+	  <p>
+	    <q>Global leaders Intel Corporation and Nokia merge Moblin and
+	    Maemo to create MeeGo, a Linux-based software platform that will
+	    support multiple hardware architectures across the broadest range
+	    of device segments, including pocketable mobile computers,
+	    netbooks, tablets, mediaphones, connected TVs and in-vehicle
+	    infotainment systems.</q> [...]
+
+	    <q>MeeGo will be hosted by the Linux Foundation and governed using
+	    the best practices of the open source development model.</q>
+
+	    <a
+	    href="http://www.intel.com/pressroom/archive/releases/2010/20100215corp.htm">intel.com</a></p>
+
+	    <p><a
+	    href="http://meego.org/meego-v1-0-core-software-platform-netbook-user-experience-project-release/">Just
+	    recently Meego 1.0 was released</a>. A lot of creative work focus
+	    on Meego, and it seem to gain impetus, there are aleady quite
+	    discussions around it and even a positive review in <a
+	    href="http://arstechnica.com/open-source/reviews/2010/05/hands-on-meego-for-netbooks-picks-up-where-moblin-left-off.ars">ArsTechnica</a>,
+	    where you can find a <a
+	    href="http://arstechnica.com/open-source/news/2010/06/meego-linux-platform-gains-allies-at-computex.ars">discussion
+	    of the prospects of the system</a>.</p>
+
+	</li>
+
+	<li>
+	  <p>
+	    This one is so interresting, so I just had to quote a whole list:
+	    <ul>
+	      <li>ARM, Freescale, IBM, Samsung, ST-Ericsson and Texas
+	      Instruments have created the not-for-profit company, Linaro,
+	      committed to providing new resources and industry alignment for
+	      open source software developers using Linux on the world’s most
+	      sophisticated semiconductor System-on-Chips (SoCs).</li>
+
+	      <li> Linaro will invest resources in open source projects that
+	      can then be used by Linux-based distributions such as Android,
+	      LiMo, MeeGo, Ubuntu and webOS.</li>
+
+	      <li> Linaro will provide a stable and optimized base for
+	      distributions and developers by creating new releases of
+	      optimized tools, kernel and middleware software validated for a
+	      wide range of SoCs, every six months.</li>
+
+	      <li> Linaro's base of software and tools will be applicable to a
+	      wide range of markets, helping reduce time-to-market for
+	      products such as smart phones, tablets, digital televisions,
+	      automotive entertainment and enterprise equipment.</li>
+
+	      <li> Linaro's first software and tools release is due out in
+	      November 2010, and will provide optimizations for the latest
+	      range of ARM® Cortex™-A family of processors.</li>
+	    </ul>
+	  </p>
+	  <p><a
+	  href="http://www.linaro.org/arm-freescale-ibm-samsung-st-ericsson-and-texas-instruments-form-new-company-to-speed-the-rollout-of-linux-based-devices/">linaro.org</a>. It seems that,
+	  Linaro's mission is to ensure that there will be a Linux kernels and
+	  device drivers for a large number of mobile platforms.</p>
+
+	</li>
 
       </ul>
+
+      <p>Anyone percieving a pattern? There are quite a few companies out
+      there that see an opportonity for both innovation and business. Quite a
+      few of them would very much like to see a future without Apple and
+      Microsoft and furthermote, there are some that wouldn't mind a bit less
+      influence of Intel and AMD.</p>
+
+      <h3>The PC and the Tablet</h3>
 
       <p>I read and write mail, manage my calendars, surf and do a better part
       of my wordprocessing with my <a
       href="http://sigfrid-lundberg.se/entries/2010/05/n900/">tablet</a>. I
-      also do some authoring on it, which requires programming and XML tools
-      such as an XSLT processor.</p>
-
-      <p>Hence, I want a hand-held computer which enables me.to do much the
-      same things I've done using my laptop. One could say that this is one of
-      many the preliminary answers to the questions the industry is posing to
-      the market.</p>
+      also do word processing on it. I want a hand-held gadget which enabling
+      me to be creative anywhere anytime. This is one of many the preliminary
+      answers to the questions the industry is posing to the market.</p>
 
       <p>The vendors have obviously radically different views on the future of
       computing. Recently Steve Jobs claimed that the PC as we know it is like
