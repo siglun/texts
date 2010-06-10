@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<entry xmlns="http://www.w3.org/2005/Atom" xmlns:dc="http://purl.org/dc/elements/1.1/">
+  <author>
+    <name>Sigfrid Lundberg</name>
+  </author>
+  <title>Who defines a PC</title>
+  <link href="/entries/2010/06/frontiers/"/>
+  <summary>The PC was defined by IBM and Microsoft. Who defines it
+  today?</summary>
+  <content type="xhtml">
+    <div xmlns="http://www.w3.org/1999/xhtml">
+
+    </div>
+  </content>
+  <dc:date>2010</dc:date>
+  <category label="hardware" term="Hardware"/>
+  <category label="software" term="Software"/>
+  <updated>2010-06-10T07:29:24+01:00</updated>
+  <id>http://www.sigfrid-lundberg.se/entries/2010/06/frontiers/</id>
+  <!-- $Id$ -->
+</entry>
