@@ -11,8 +11,7 @@
     <div xmlns="http://www.w3.org/1999/xhtml">
 
       <p>Tablets, eReaders, Smartbooks: You Name the Device and It’s News at
-      Computex <a
-      href="http://blogs.arm.com/arm-events/tablets-ereaders-smartbooks-you-name-the-device-and-its-news-at-computex/">writes
+      Computex <a href="http://blogs.arm.com/arm-events/tablets-ereaders-smartbooks-you-name-the-device-and-its-news-at-computex/">writes
       Katie Morgan</a>
       of Advanced Risc Machines (ARM). You may not know about it, but just as
       Intel rules the desktop, the British chip design company's ARM
@@ -36,8 +35,7 @@
       exploit the unchartered land. The chip Intel try to market here is the
       Atom processor which, of course, is x86. See, for instence:
       
-	<a
-	href="http://tech.fortune.cnn.com/2010/06/08/arm-intel-living-room/?section=magazines_fortune">ARM
+	<a href="http://tech.fortune.cnn.com/2010/06/08/arm-intel-living-room/?section=magazines_fortune">ARM
 	and Intel's new battleground: the living room</a>
 
       </p>
@@ -77,8 +75,7 @@
 
 	    said 
 
-	    <a
-		href="http://www.computerworld.com/s/article/9177518/Nvidia_CEO_Hardware_makers_uniting_behind_Android_for_tablets">Jen-Hsun Huang</a>,
+	    <a href="http://www.computerworld.com/s/article/9177518/Nvidia_CEO_Hardware_makers_uniting_behind_Android_for_tablets">Jen-Hsun Huang</a>,
 	     president and CEO at Nvidia
 	  </p>
 	</li>
@@ -95,17 +92,13 @@
 	    <q>MeeGo will be hosted by the Linux Foundation and governed using
 	    the best practices of the open source development model.</q>
 
-	    <a
-	    href="http://www.intel.com/pressroom/archive/releases/2010/20100215corp.htm">intel.com</a></p>
+	    <a href="http://www.intel.com/pressroom/archive/releases/2010/20100215corp.htm">intel.com</a></p>
 
-	    <p><a
-	    href="http://meego.org/meego-v1-0-core-software-platform-netbook-user-experience-project-release/">Just
+	    <p><a href="http://meego.org/meego-v1-0-core-software-platform-netbook-user-experience-project-release/">Just
 	    recently Meego 1.0 was released</a>. A lot of creative work focus
 	    on Meego, and it seem to gain impetus, there are aleady quite
-	    discussions around it and even a positive review in <a
-	    href="http://arstechnica.com/open-source/reviews/2010/05/hands-on-meego-for-netbooks-picks-up-where-moblin-left-off.ars">ArsTechnica</a>,
-	    where you can find a <a
-	    href="http://arstechnica.com/open-source/news/2010/06/meego-linux-platform-gains-allies-at-computex.ars">discussion
+	    discussions around it and even a positive review in <a href="http://arstechnica.com/open-source/reviews/2010/05/hands-on-meego-for-netbooks-picks-up-where-moblin-left-off.ars">ArsTechnica</a>,
+	    where you can find a <a href="http://arstechnica.com/open-source/news/2010/06/meego-linux-platform-gains-allies-at-computex.ars">discussion
 	    of the prospects of the system</a>.</p>
 
 	</li>
@@ -139,8 +132,7 @@
 	      range of ARM® Cortex™-A family of processors.</li>
 	    </ul>
 	  </p>
-	  <p><a
-	  href="http://www.linaro.org/arm-freescale-ibm-samsung-st-ericsson-and-texas-instruments-form-new-company-to-speed-the-rollout-of-linux-based-devices/">linaro.org</a>. It seems that,
+	  <p><a href="http://www.linaro.org/arm-freescale-ibm-samsung-st-ericsson-and-texas-instruments-form-new-company-to-speed-the-rollout-of-linux-based-devices/">linaro.org</a>. It seems that,
 	  Linaro's mission is to ensure that there will be a Linux kernels and
 	  device drivers for a large number of mobile platforms.</p>
 
@@ -157,8 +149,7 @@
       <h3>The PC and the Tablet</h3>
 
       <p>I read and write mail, manage my calendars, surf and do a better part
-      of my wordprocessing with my <a
-      href="http://sigfrid-lundberg.se/entries/2010/05/n900/">tablet</a>. I
+      of my wordprocessing with my <a href="http://sigfrid-lundberg.se/entries/2010/05/n900/">tablet</a>. I
       also do word processing on it. I want a hand-held gadget which enabling
       me to be creative anywhere anytime. This is one of many the preliminary
       answers to the questions the industry is posing to the market.</p>
@@ -185,7 +176,7 @@
   <dc:date>2010</dc:date>
   <category label="hardware" term="Hardware"/>
   <category label="software" term="Software"/>
-  <updated>2010-06-10T07:29:24+01:00</updated>
+  <updated>2010-06-10T21:03:16+01:00</updated>
   <id>http://www.sigfrid-lundberg.se/entries/2010/06/frontiers/</id>
   <!-- $Id$ -->
 </entry>
