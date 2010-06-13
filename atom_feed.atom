@@ -6,7 +6,198 @@
   <title>Sigfrid Lundberg's Stuff</title>
   <id>http://sigfrid-lundberg.se/files.atom</id>
   <link rel="self" href="http://feeds.feedburner.com/SigfridLundbergsStuff?format=xml"/>
-  <updated>2010-05-24T13:44:08+01:00</updated>
+  <updated>2010-06-10T21:03:16+01:00</updated>
+  <entry>
+  <author>
+    <name>Sigfrid Lundberg</name>
+  </author>
+  <title>Skirmishes along the boarder of the PC</title>
+  <link href="http://sigfrid-lundberg.se/entries/2010/06/frontiers/"/>
+  <summary>The PC was defined by IBM and Microsoft. Who defines it
+  today? Who defines the boarder?</summary>
+  <content type="xhtml">
+    <div xmlns="http://www.w3.org/1999/xhtml">
+
+      <p><q>Tablets, eReaders, Smartbooks: You Name the Device and It’s News
+      at Computex</q> <a href="http://blogs.arm.com/arm-events/tablets-ereaders-smartbooks-you-name-the-device-and-its-news-at-computex/">writes
+      Katie Morgan</a> of Advanced Risc Machines (ARM). You may not know about
+      it, but just as Intel rules the desktop, the British chip design
+      company's ARM Architecture rules the pockets.</p>
+
+      <p>According to Wikipedia, 90%+ of all processors in embedded devices and an even higher of the mobile 
+      devices are designed around this architecture. 
+      There's.a fair chance that both your phone, your wireless router and
+      your fridge are all ARM systems.</p>
+
+      <p>Most new gadgets appear first at <a href="http://www.computextaipei.com.tw/">Computex</a>, and most of them
+      are based on <a href="http://en.wikipedia.org/wiki/ARM_architecture">the
+      ARM architecture</a>.</p>
+
+      <h3>The chip territories</h3>
+
+      <p>The mobiles &amp; the tablets are currently given prominent positions
+      in the news feeds, and as I write this there one such item in top of
+      Google News' Sci/Tech section. It is usually about Apple's iPhone or
+      iPad, both of which, by the way, like the Android systems, are ARM.</p>
+
+      <p>Intel has tried to establish itself in this area, but have not been
+      able to do so through can getting an increased market share by winning
+      customers from ARM. The tablet is a new market segment, and the race has started to gain control over the as yet
+      unchartered land. The chip Intel tries to market is the
+      Atom processor which, of course, is x86. See, for instence:
+      
+	<a href="http://tech.fortune.cnn.com/2010/06/08/arm-intel-living-room/?section=magazines_fortune">ARM
+	and Intel's new battleground: the living room</a>
+
+      </p>
+
+      <h3>Software frontiers</h3>
+
+      <p>At basic academic levels there's differences. Frontiers. Different
+      academic traditions expressing themselves in people's pockets.</p>
+
+      <p>For those who don't know the history of the Unixes, it is well worth
+      to know that Linux is a reverse engineered variant of the AT&amp;T
+      System V Unix originally by Linus Torvalds who at the time lived in
+      Hellsinki. There is also a free Unix coming from the Berkeley Software
+      Distribution BSD Unix. BSD &amp; Linux come with very different open
+      source licenses.</p>
+
+      <p>Google's Android &amp; Chromium are both Linux platforms (hence
+      Helsinki &amp; Stanford Universities), whereas iPhone OS is a
+      redecorated Berkeley Unix with a Mach kernel. Yes, it is a Mach kernel,
+      Mack as in the speed of sound, not Mac as in Macintosh. These gadgets
+      are somehow affiliated to University of California &amp; Carnegie Mellon
+      University. It shouldn't surprice you that Steve Wozniak got his
+      training in computer science and electric engineering at Berkeley.</p>
+
+      <p>Whenever there are conflicts, people form alliances, sometimes new and
+      entirely unexpected:</p>
+
+      <ul>
+	<li>
+	  <p>
+
+	    <q>The good news is that we finally have an operating system to
+	    unite behind. Android is an operating system that has gained a
+	    tremendous amount of momentum all over the world</q>
+
+	    [...]
+
+	    <q>Android has become the fastest growing mobile operating system
+	    in the world and, in fact, it has surpassed the iPhone in terms of
+	    growth and in terms of users</q>,
+
+	    said 
+
+	    <a href="http://www.computerworld.com/s/article/9177518/Nvidia_CEO_Hardware_makers_uniting_behind_Android_for_tablets">Jen-Hsun Huang</a>,
+	     president and CEO at Nvidia
+	  </p>
+	</li>
+
+	<li>
+	  <p>
+	    <q>Global leaders Intel Corporation and Nokia merge Moblin and
+	    Maemo to create MeeGo, a Linux-based software platform that will
+	    support multiple hardware architectures across the broadest range
+	    of device segments, including pocketable mobile computers,
+	    netbooks, tablets, mediaphones, connected TVs and in-vehicle
+	    infotainment systems.</q> [...]
+
+	    <q>MeeGo will be hosted by the Linux Foundation and governed using
+	    the best practices of the open source development model.</q>
+
+	    <a href="http://www.intel.com/pressroom/archive/releases/2010/20100215corp.htm">intel.com</a></p>
+
+	    <p><a href="http://meego.org/meego-v1-0-core-software-platform-netbook-user-experience-project-release/">Just
+	    recently Meego 1.0 was released</a>. A lot of creative work focus
+	    on Meego, and it seem to gain impetus, there are aleady quite
+	    discussions around it and even a positive review in <a href="http://arstechnica.com/open-source/reviews/2010/05/hands-on-meego-for-netbooks-picks-up-where-moblin-left-off.ars">ArsTechnica</a>,
+	    where you can find a <a href="http://arstechnica.com/open-source/news/2010/06/meego-linux-platform-gains-allies-at-computex.ars">discussion
+	    of the prospects of the system</a>.</p>
+
+	</li>
+
+	<li>
+	  <p>
+	    This is very hardware oriented alliance, formalized as a not for profit company. Its mission is so.interesting, so I just had to quote the whole list:
+	    <ul>
+	      <li>ARM, Freescale, IBM, Samsung, ST-Ericsson and Texas
+	      Instruments have created the not-for-profit company, Linaro,
+	      committed to providing new resources and industry alignment for
+	      open source software developers using Linux on the world’s most
+	      sophisticated semiconductor System-on-Chips (SoCs).</li>
+
+	      <li> Linaro will invest resources in open source projects that
+	      can then be used by Linux-based distributions such as Android,
+	      LiMo, MeeGo, Ubuntu and webOS.</li>
+
+	      <li> Linaro will provide a stable and optimized base for
+	      distributions and developers by creating new releases of
+	      optimized tools, kernel and middleware software validated for a
+	      wide range of SoCs, every six months.</li>
+
+	      <li> Linaro's base of software and tools will be applicable to a
+	      wide range of markets, helping reduce time-to-market for
+	      products such as smart phones, tablets, digital televisions,
+	      automotive entertainment and enterprise equipment.</li>
+
+	      <li> Linaro's first software and tools release is due out in
+	      November 2010, and will provide optimizations for the latest
+	      range of ARM® Cortex™-A family of processors.</li>
+	    </ul>
+	  </p>
+	  <p><a href="http://www.linaro.org/arm-freescale-ibm-samsung-st-ericsson-and-texas-instruments-form-new-company-to-speed-the-rollout-of-linux-based-devices/">linaro.org</a>. 
+	  Linaro's mission is to ensure that there will be a Linux kernels and
+	  device drivers for a large number of mobile platforms. See the point here? All of a sudden it will be as 
+	easy to install Ubuntu Linux on a smart phone as 
+	it is on a standard PC today.</p>
+
+	</li>
+
+      </ul>
+
+      <p>Anyone percieving a pattern? There are quite a few companies out
+      there that see an opportonity for both innovation and business. Quite a
+      few of them would very much like to see one or more of the actors Google, Apple and
+      Microsoft. Furthermore, there are some that wouldn't mind a bit less
+      influence of Intel and AMD.</p>
+
+      <h3>The PC and the Tablet</h3>
+
+      <p>I read and write mail, manage my calendars, surf and do a better part
+      of my wordprocessing with my <a href="http://sigfrid-lundberg.se/entries/2010/05/n900/">tablet</a>. 
+      That is, I want a hand-held gadget which
+      enables me to be creative anywhere anytime. 
+	This is pin-points one of 
+      questions most important questions: Why do we buy gadgets for computing.
+      That is, does user consume digital media or should
+      the gadget release his or her productivity.</p>
+
+      <p>The vendors have obviously radically different views on the future of
+      computing. Recently Steve Jobs claimed that the PC as we know it is like
+      an old truck and that the future belongs to the tablets. Steve Ballmer
+      participated in the same conference and disputed these claims. He seemed
+      to be convinced that the desktop PC will continue to be the workstation
+      for a foreseeable future. <a href="http://blogs.computerworld.com/16252/were_ballmer_ozzie_in_denial_at_d">Read
+      more about blogosphere is saying about D</a></p>
+
+      <p><q>The PC as we know it will continue to morph,</q> he said. <q>The
+      real question is what are you going to push.</q> In Microsoft’s case,
+      the answer is more machines that run flavors of Windows. <q>To a man
+      with a hammer everything looks like a nail; we have a hammer,</q> <a href="http://bits.blogs.nytimes.com/2010/06/03/ballmer-the-pc-will-continue-to-thrive/">Mr. Ballmer
+      joked</a>. The problem is, it isn't funny, not at all. It is as arrogant
+      as it is tragic.</p>
+
+    </div>
+  </content>
+  <dc:date>2010</dc:date>
+  <category label="hardware" term="Hardware"/>
+  <category label="software" term="Software"/>
+  <updated>2010-06-10T21:03:16+01:00</updated>
+  <id>http://www.sigfrid-lundberg.se/entries/2010/06/frontiers/</id>
+  <!-- $Id$ -->
+</entry>
   <entry>
   <author>
     <name>Sigfrid Lundberg</name>

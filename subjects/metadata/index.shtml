@@ -4,22 +4,22 @@
 	      </script><link href="http://feeds.feedburner.com/SigfridLundbergsStuff?format=xml" type="application/atom+xml" title="Sigfrid Lundberg's Stuff" rel="alternate"/><link href="http://sigfridlundbergsstuff.disqus.com/latest.rss" type="application/rss+xml" title="Latest Comments" rel="alternate"/><meta http-equiv="Content-Type" content="text/html;charset=UTF-8"/><link rel="stylesheet" href="/css-style/html.css"/></head><body><div class="left_box"><div style="text-align:left;width=90%;"><!--#include virtual="/div_top_left_box.xml" --></div><div style="text-align:left;width=90%;"><p><a href="/">Home</a><br/><a href="http://feeds.feedburner.com/SigfridLundbergsStuff?format=xml" type="application/atom+xml" class="feed-link"><img src="/images/Newsfeed-Atom.png" alt="Subscribe to Stuff from Sigfrid Lundberg" border="0"/>Subscribe to more Stuff</a><br/><a href="http://sigfridlundbergsstuff.disqus.com/latest.rss" type="application/rss+xml" class="feed-link"><img src="/images/Newsfeed-Atom.png" alt="Subscribe to Stuff from Sigfrid Lundberg" border="0"/>Subscribe to discussion feed</a></p><!--#include virtual="/subjects.xml" --><!--#include virtual="/me.xml" --></div></div><div class="right_box"><h1 style="width: 58%; float: left;text-align: left">Metadata</h1><p style="width: 38%; float: left;text-align: right"><em><strong>Sigfrid Lundberg's Stuff</strong></em></p><div style="clear:both;"> </div><div style="width:100%;"><p><strong><a href="/2010">2010</a>: </strong><a href="/entries/2010/02/semanticdrift/"><em>The proliferation of redundant meaning</em></a><br/>I first used the term semantic drift about 10 years ago. It was a
   real danger then, it still is but the proliferation of synonymous
   vocabularies is worse still.<br/><a href="/subjects/internet/">Internet</a>,
-	<a href="/subjects/metadata/">Metadata</a></p><p><strong><a href="/2009">2009</a>: </strong><a href="/entries/2009/06/atom/"><em>My first serious experience with ATOM</em></a><br/>You don't really understand a document format until you've manually
-  encoded some documents, and written the software to parse and use it for
-  something useful. This somewhat refurbished version of my web site is to a
-  large extent built upon the ATOM syndication format, and here I discuss my
-  experience.<br/><a href="/subjects/structuralwebdesign/">Structural web design</a>,
-	<a href="/subjects/metadata/">Metadata</a></p><p><strong><a href="/2009">2009</a>: </strong><a href="/entries/2009/07/structure/"><em>The description and encoding of structure</em></a><br/>Much metadata is fairly stright forward. A book does have a title
+	<a href="/subjects/metadata/">Metadata</a></p><p><strong><a href="/2009">2009</a>: </strong><a href="/entries/2009/08/threeyears/"><em>Five years that formed the digital library as we know it:
+  1997-2001</em></a><br/>It appeared to me that many the standards and technologies
+  underpinning the digital library as we know it were formed during five years
+  around the turn of the century.<br/><a href="/subjects/metadata/">Metadata</a></p><p><strong><a href="/2009">2009</a>: </strong><a href="/entries/2009/07/structure/"><em>The description and encoding of structure</em></a><br/>Much metadata is fairly stright forward. A book does have a title
   and an author. That's usually no big deal. We've been able to handle that
   for centuries. A digital book has chapters, and everything you might want to
   know may be in chapter two on page seventyfive. Or someone may tell you the
   solution to your problems after a quarter of an hour in some video on
   YouTube. Now, how do we cope with this?<br/><a href="/subjects/structuralwebdesign/">Structural web design</a>,
 	<a href="/subjects/metadata/">Metadata</a></p><p><strong><a href="/2009">2009</a>: </strong><a href="/entries/2009/11/kbmetadta/"><em>Fifteen polar bears and one architecture</em></a><br/>Today I gave a presentation on our metadata work. My experience of
-  that turned out to be about images.<br/><a href="/subjects/metadata/">Metadata</a></p><p><strong><a href="/2009">2009</a>: </strong><a href="/entries/2009/08/threeyears/"><em>Five years that formed the digital library as we know it:
-  1997-2001</em></a><br/>It appeared to me that many the standards and technologies
-  underpinning the digital library as we know it were formed during five years
-  around the turn of the century.<br/><a href="/subjects/metadata/">Metadata</a></p><p><strong><a href="/2005">2005</a>: </strong><a href="/2005/Oct_28/"><em>Ediffah</em></a><br/>En superkort presentation om Ediffah, hållen vid
+  that turned out to be about images.<br/><a href="/subjects/metadata/">Metadata</a></p><p><strong><a href="/2009">2009</a>: </strong><a href="/entries/2009/06/atom/"><em>My first serious experience with ATOM</em></a><br/>You don't really understand a document format until you've manually
+  encoded some documents, and written the software to parse and use it for
+  something useful. This somewhat refurbished version of my web site is to a
+  large extent built upon the ATOM syndication format, and here I discuss my
+  experience.<br/><a href="/subjects/structuralwebdesign/">Structural web design</a>,
+	<a href="/subjects/metadata/">Metadata</a></p><p><strong><a href="/2005">2005</a>: </strong><a href="/2005/Oct_28/"><em>Ediffah</em></a><br/>En superkort presentation om Ediffah, hållen vid
     Ediffahprojektets avslutning på Kungl. Biblioteket i Stockholm den 28
     oktober 2005<br/><a href="/subjects/metadata/">Metadata</a>,
 	<a href="/subjects/archivaldescription/">Archival description</a></p><p><strong><a href="/2004">2004</a>: </strong><a href="/2004/arkiv_bibliotek/"><em>Ediffah – En digital infrastruktur för forskningsbibliotekens

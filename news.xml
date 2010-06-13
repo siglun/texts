@@ -1,11 +1,11 @@
 <div xmlns="http://www.w3.org/1999/xhtml">
   <div>
-    <h1 style="font-family: sans-serif; width: 55%; float: left;text-align: left;">Focus on the resources</h1>
+    <h1 style="font-family: sans-serif; width: 55%; float: left;text-align: left;">Skirmishes along the boarder of the PC</h1>
     <p style="width: 38%; float: left;text-align: right">
       <em>
         <strong>
 		Sigfrid Lundberg's Stuff,
-	      2010-05-24</strong>
+	      2010-06-10</strong>
       </em>
     </p>
   </div>
@@ -13,115 +13,195 @@
   <div style="width:100%;">
     <div>
 
-      <p>I've posted entries here under the heading <a href="http://sigfrid-lundberg.se/entries/2010/04/readings/">Readings on
-      Digital Objects</a>. This text will, I hope, <strong>not</strong> be the
-      last posting in that series, but you should not expect many more in the
-      near future.</p>
+      <p><q>Tablets, eReaders, Smartbooks: You Name the Device and It’s News
+      at Computex</q> <a href="http://blogs.arm.com/arm-events/tablets-ereaders-smartbooks-you-name-the-device-and-its-news-at-computex/">writes
+      Katie Morgan</a> of Advanced Risc Machines (ARM). You may not know about
+      it, but just as Intel rules the desktop, the British chip design
+      company's ARM Architecture rules the pockets.</p>
 
-      <p>Scholars as well as the general public consume digital objects en
-      mass. The range of digital genres on the menu is broad, covering
-      everything between Worlds of Warcraft and Shakespeare's Sonnets. An
-      object delivered on the net via a library (in the broadest sense of that
-      word) is a Digital Library Object. Those who have followed this series
-      have realized that the research on what kind of data such an object
-      should contain has been going on for more than a decade and possibly
-      almost two.</p>
+      <p>According to Wikipedia, 90%+ of all processors in embedded devices and an even higher of the mobile 
+      devices are designed around this architecture. 
+      There's.a fair chance that both your phone, your wireless router and
+      your fridge are all ARM systems.</p>
 
-      <p>From a very early stage, the vision within the library communities
-      has been to move the library to the Internet and particularly to the
-      Web. The trend to establish a presence <q>where the users are</q> has
-      been hysterical at times with libraries spending staff manpower on
-      engagement in Second Life and Facebook.</p>
+      <p>Most new gadgets appear first at <a href="http://www.computextaipei.com.tw/">Computex</a>, and most of them
+      are based on <a href="http://en.wikipedia.org/wiki/ARM_architecture">the
+      ARM architecture</a>.</p>
 
-      <h3>Towards a resource centric view</h3>
+      <h3>The chip territories</h3>
 
-      <p>Otherwise, the tactic has been the creation of repositories. We do
-      now see now a shift from the repository as the gravitational center
-      towards the objects, the resources, themselves. There should be no need
-      to <strong>go to the</strong> digital library and search in what is
-      basically hidden web. Rather the content should be on the Worldwide Web
-      and available in the mainstream search engines.</p>
+      <p>The mobiles &amp; the tablets are currently given prominent positions
+      in the news feeds, and as I write this there one such item in top of
+      Google News' Sci/Tech section. It is usually about Apple's iPhone or
+      iPad, both of which, by the way, like the Android systems, are ARM.</p>
 
-      <p>Lagoze et al. (2008) use this shift of emphasis as justification for
-      proposal of the new standard OAI-ORE. They formulate the new trend in a
-      very clear way:</p>
+      <p>Intel has tried to establish itself in this area, but have not been
+      able to do so through can getting an increased market share by winning
+      customers from ARM. The tablet is a new market segment, and the race has started to gain control over the as yet
+      unchartered land. The chip Intel tries to market is the
+      Atom processor which, of course, is x86. See, for instence:
+      
+	<a href="http://tech.fortune.cnn.com/2010/06/08/arm-intel-living-room/?section=magazines_fortune">ARM
+	and Intel's new battleground: the living room</a>
 
-      <blockquote>
-	<em>
-	  <p>It [the OAI-ORE standard] also reflects a recognition of the
-	  position of digital libraries vis-à-vis the Web that sometimes seem
-	  to co-exist in a curiously parallel conceptual and architectural
-	  space.</p>
+      </p>
 
-	  <p>We exist in a world where information is synonymous not with
-	  'library' but with the Web and the applications that are rooted in
-	  it. In this world, the Web Architecture is the lingua franca for
-	  information interoperability, and applications such as most digital
-	  libraries must exist within the capabilities and constraints of that
-	  Web Architecture.</p>
-	</em>
-      </blockquote>
+      <h3>Software frontiers</h3>
 
-      <p>Implementors of digital library objects have often successfully put
-      the library collections on the web. They are also successfully
-      disseminating simple bibliographical metadata (for example using
-      OAI). Libraries have, however, been less successful as regards putting
-      the objects on the Web (Lagoze, op. cit.)</p>
+      <p>At basic academic levels there's differences. Frontiers. Different
+      academic traditions expressing themselves in people's pockets.</p>
 
-      <h3>XML &amp; SODA</h3>
+      <p>For those who don't know the history of the Unixes, it is well worth
+      to know that Linux is a reverse engineered variant of the AT&amp;T
+      System V Unix originally by Linus Torvalds who at the time lived in
+      Hellsinki. There is also a free Unix coming from the Berkeley Software
+      Distribution BSD Unix. BSD &amp; Linux come with very different open
+      source licenses.</p>
 
-      <p>Another point of failure is that we have yet been incapable of
-      producing interoperable objects. Or, as McDonough (2008) puts it:</p>
+      <p>Google's Android &amp; Chromium are both Linux platforms (hence
+      Helsinki &amp; Stanford Universities), whereas iPhone OS is a
+      redecorated Berkeley Unix with a Mach kernel. Yes, it is a Mach kernel,
+      Mack as in the speed of sound, not Mac as in Macintosh. These gadgets
+      are somehow affiliated to University of California &amp; Carnegie Mellon
+      University. It shouldn't surprice you that Steve Wozniak got his
+      training in computer science and electric engineering at Berkeley.</p>
 
-      <blockquote>
-	<em>
-	  <p>Hence XML's similarity to a rope. Like a rope, it is
-	  extraordinarily flexible; unfortunately, just as with rope, that
-	  flexibility makes it all too easy to hang yourself.</p>
-	</em>
-      </blockquote>
+      <p>Whenever there are conflicts, people form alliances, sometimes new and
+      entirely unexpected:</p>
 
-      <p>Maly and Nelson (1999) make distinctions between Dumb and Smart
-      Objects and Dumb and Smart Archives, leading to four architectures
-      DODA, SODA, DOSA and SOSA. Ever since, object oriented developers have
-      concentrated on the SODA model (Smart Objects in a Dumb archive. Fedora
-      is intended as an implementation of that.</p>
+      <ul>
+	<li>
+	  <p>
 
-      <p>I think it is time to give attention to the DODA architecture. Then
-      the all inferencing and intelligence is deferred to an independent
-      indexing agent which behaves more or less like an Internet search engine
-      through clever indexing and automatic text analysis.</p>
+	    <q>The good news is that we finally have an operating system to
+	    unite behind. Android is an operating system that has gained a
+	    tremendous amount of momentum all over the world</q>
 
-      <h3>References</h3>
+	    [...]
 
-      <p id="lagozeetal">Lagoze, Carl, Herbert Van de Sompel, Michael
-      L. Nelson, Simeon Warner, Robert Sanderson and Pete Johnston,
-      2008. Object Re-Use &amp; Exchange: A Resource-Centric
-      Approach. <em>Arxiv preprint.</em> <a href="http://arxiv.org/abs/0804.2273v1">arXiv:0804.2273v1</a></p>
+	    <q>Android has become the fastest growing mobile operating system
+	    in the world and, in fact, it has surpassed the iPhone in terms of
+	    growth and in terms of users</q>,
 
-      <p id="malyetal">Maly, Kurt and Michael L. Nelson, 1999. Smart Objects,
-      Dumb Archives — A User-Centric, Layered Digital Library
-      Framework. <em>D-Lib Magazine.</em> Vol. 5(3). <a href="http://www.dlib.org/dlib/march99/maly/03maly.html">http://www.dlib.org/dlib/march99/maly/03maly.html</a></p>
+	    said 
 
-      <p id="mcdonough">McDonough, Jerome, 2008. “Structural Metadata and the
-      Social Limitation of Interoperability: A Sociotechnical View of XML and
-      Digital Library Standards Development.” Presented at Balisage: The
-      Markup Conference 2008, Montréal, Canada, August 12 - 15, 2008. In
-      Proceedings of Balisage: The Markup Conference 2008. <em>Balisage Series
-      on Markup Technologies</em>, vol. 1 (2008). <a href="http://www.balisage.net/Proceedings/vol1/html/McDonough01/BalisageVol1-McDonough01.html">doi:10.4242/BalisageVol1.McDonough01</a>.</p>
+	    <a href="http://www.computerworld.com/s/article/9177518/Nvidia_CEO_Hardware_makers_uniting_behind_Android_for_tablets">Jen-Hsun Huang</a>,
+	     president and CEO at Nvidia
+	  </p>
+	</li>
+
+	<li>
+	  <p>
+	    <q>Global leaders Intel Corporation and Nokia merge Moblin and
+	    Maemo to create MeeGo, a Linux-based software platform that will
+	    support multiple hardware architectures across the broadest range
+	    of device segments, including pocketable mobile computers,
+	    netbooks, tablets, mediaphones, connected TVs and in-vehicle
+	    infotainment systems.</q> [...]
+
+	    <q>MeeGo will be hosted by the Linux Foundation and governed using
+	    the best practices of the open source development model.</q>
+
+	    <a href="http://www.intel.com/pressroom/archive/releases/2010/20100215corp.htm">intel.com</a></p>
+
+	    <p><a href="http://meego.org/meego-v1-0-core-software-platform-netbook-user-experience-project-release/">Just
+	    recently Meego 1.0 was released</a>. A lot of creative work focus
+	    on Meego, and it seem to gain impetus, there are aleady quite
+	    discussions around it and even a positive review in <a href="http://arstechnica.com/open-source/reviews/2010/05/hands-on-meego-for-netbooks-picks-up-where-moblin-left-off.ars">ArsTechnica</a>,
+	    where you can find a <a href="http://arstechnica.com/open-source/news/2010/06/meego-linux-platform-gains-allies-at-computex.ars">discussion
+	    of the prospects of the system</a>.</p>
+
+	</li>
+
+	<li>
+	  <p>
+	    This is very hardware oriented alliance, formalized as a not for profit company. Its mission is so.interesting, so I just had to quote the whole list:
+	    <ul>
+	      <li>ARM, Freescale, IBM, Samsung, ST-Ericsson and Texas
+	      Instruments have created the not-for-profit company, Linaro,
+	      committed to providing new resources and industry alignment for
+	      open source software developers using Linux on the world’s most
+	      sophisticated semiconductor System-on-Chips (SoCs).</li>
+
+	      <li> Linaro will invest resources in open source projects that
+	      can then be used by Linux-based distributions such as Android,
+	      LiMo, MeeGo, Ubuntu and webOS.</li>
+
+	      <li> Linaro will provide a stable and optimized base for
+	      distributions and developers by creating new releases of
+	      optimized tools, kernel and middleware software validated for a
+	      wide range of SoCs, every six months.</li>
+
+	      <li> Linaro's base of software and tools will be applicable to a
+	      wide range of markets, helping reduce time-to-market for
+	      products such as smart phones, tablets, digital televisions,
+	      automotive entertainment and enterprise equipment.</li>
+
+	      <li> Linaro's first software and tools release is due out in
+	      November 2010, and will provide optimizations for the latest
+	      range of ARM® Cortex™-A family of processors.</li>
+	    </ul>
+	  </p>
+	  <p><a href="http://www.linaro.org/arm-freescale-ibm-samsung-st-ericsson-and-texas-instruments-form-new-company-to-speed-the-rollout-of-linux-based-devices/">linaro.org</a>. 
+	  Linaro's mission is to ensure that there will be a Linux kernels and
+	  device drivers for a large number of mobile platforms. See the point here? All of a sudden it will be as 
+	easy to install Ubuntu Linux on a smart phone as 
+	it is on a standard PC today.</p>
+
+	</li>
+
+      </ul>
+
+      <p>Anyone percieving a pattern? There are quite a few companies out
+      there that see an opportonity for both innovation and business. Quite a
+      few of them would very much like to see one or more of the actors Google, Apple and
+      Microsoft. Furthermore, there are some that wouldn't mind a bit less
+      influence of Intel and AMD.</p>
+
+      <h3>The PC and the Tablet</h3>
+
+      <p>I read and write mail, manage my calendars, surf and do a better part
+      of my wordprocessing with my <a href="http://sigfrid-lundberg.se/entries/2010/05/n900/">tablet</a>. 
+      That is, I want a hand-held gadget which
+      enables me to be creative anywhere anytime. 
+	This is pin-points one of 
+      questions most important questions: Why do we buy gadgets for computing.
+      That is, does user consume digital media or should
+      the gadget release his or her productivity.</p>
+
+      <p>The vendors have obviously radically different views on the future of
+      computing. Recently Steve Jobs claimed that the PC as we know it is like
+      an old truck and that the future belongs to the tablets. Steve Ballmer
+      participated in the same conference and disputed these claims. He seemed
+      to be convinced that the desktop PC will continue to be the workstation
+      for a foreseeable future. <a href="http://blogs.computerworld.com/16252/were_ballmer_ozzie_in_denial_at_d">Read
+      more about blogosphere is saying about D</a></p>
+
+      <p><q>The PC as we know it will continue to morph,</q> he said. <q>The
+      real question is what are you going to push.</q> In Microsoft’s case,
+      the answer is more machines that run flavors of Windows. <q>To a man
+      with a hammer everything looks like a nail; we have a hammer,</q> <a href="http://bits.blogs.nytimes.com/2010/06/03/ballmer-the-pc-will-continue-to-thrive/">Mr. Ballmer
+      joked</a>. The problem is, it isn't funny, not at all. It is as arrogant
+      as it is tragic.</p>
 
     </div>
     <br clear="all"/>
     <p style="text-align: left;"><em><strong>Categories:</strong></em> 
-	  <a href="/subjects/digitalobjects/">Digital Object</a>,
-	    <a href="/subjects/objectstores/">Digital Object Stores</a><br/><em><strong>
+	  <a href="/subjects/hardware/">Hardware</a>,
+	    <a href="/subjects/software/">Software</a><br/><em><strong>
 		Permalink:
-	      </strong></em><a rel="bookmark" href="/entries/2010/05/resourcecentric/">http://sigfrid-lundberg.se/entries/2010/05/resourcecentric/</a></p>
+	      </strong></em><a rel="bookmark" href="/entries/2010/06/frontiers/">http://sigfrid-lundberg.se/entries/2010/06/frontiers/</a></p>
     <hr width="50%" align="center"/>
   </div>
   <div>
     <h1>Other, not yet obsolete stuff</h1>
     <table class="news">
+      <tr>
+        <td class="left">2010</td>
+        <td class="left"><a href="/entries/2010/05/resourcecentric/"><em>Focus on the resources</em></a><br/>Having had a web site for about 15 years, I start to wonder why I
+  keep it in the first place.<br/><a href="/subjects/digitalobjects/">Digital Object</a>,
+	<a href="/subjects/objectstores/">Digital Object Stores</a></td>
+      </tr>
       <tr>
         <td class="left">2010</td>
         <td class="left"><a href="/entries/2010/04/readings/"><em>Readings on digital objects: An annotated URIography</em></a><br/>I have a long list of articles to read on digital objects, how to
@@ -149,12 +229,6 @@
         <td class="left">2010</td>
         <td class="left"><a href="/entries/2010/05/tulips/"><em>Thinking about tulips dropping their petals</em></a><br/>The spring is advances. April's weather has been staying, but
   nevertheless the Thinker's Tulips have dropped their petals.<br/><a href="/subjects/images/">Images</a></td>
-      </tr>
-      <tr>
-        <td class="left">2010</td>
-        <td class="left"><a href="/entries/2010/05/next/"><em>On the meaning of next</em></a><br/>Nearest in place, degree, quality, rank, right or relation; having
-  no similar object intervening<br/><a href="/subjects/metadataprocessing/">Metadata processing</a>,
-	<a href="/subjects/digitalobjects/">Digital objects</a></td>
       </tr>
     </table>
   </div>
