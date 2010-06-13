@@ -3,26 +3,31 @@
   <author>
     <name>Sigfrid Lundberg</name>
   </author>
-  <title>Who defines the PC</title>
+  <title>Skirmishes along the boarder of the PC</title>
   <link href="/entries/2010/06/frontiers/"/>
   <summary>The PC was defined by IBM and Microsoft. Who defines it
-  today?</summary>
+  today? Who defines the boarder?</summary>
   <content type="xhtml">
     <div xmlns="http://www.w3.org/1999/xhtml">
 
-      <p>Tablets, eReaders, Smartbooks: You Name the Device and It’s News at
-      Computex <a href="http://blogs.arm.com/arm-events/tablets-ereaders-smartbooks-you-name-the-device-and-its-news-at-computex/">writes
-      Katie Morgan</a>
-      of Advanced Risc Machines (ARM). You may not know about it, but just as
-      Intel rules the desktop, the British chip design company's ARM
-      Architecture rules the pockets.</p>
+      <p><q>Tablets, eReaders, Smartbooks: You Name the Device and It’s News
+      at Computex</q> <a
+      href="http://blogs.arm.com/arm-events/tablets-ereaders-smartbooks-you-name-the-device-and-its-news-at-computex/">writes
+      Katie Morgan</a> of Advanced Risc Machines (ARM). You may not know about
+      it, but just as Intel rules the desktop, the British chip design
+      company's ARM Architecture rules the pockets.</p>
 
       <p>According to Wikipedia, 90%+ of all processors in embedded devices and an even higher of the mobile 
       devices are designed around this architecture. 
       There's.a fair chance that both your phone, your wireless router and
       your fridge are all ARM systems.</p>
 
-      <h3>The current chips</h3>
+      <p>Most new gadgets appear first at <a
+      href="http://www.computextaipei.com.tw/">Computex</a>, and most of them
+      are based on <a href="http://en.wikipedia.org/wiki/ARM_architecture">the
+      ARM architecture</a>.</p>
+
+      <h3>The chip territories</h3>
 
       <p>The mobiles &amp; the tablets are currently given prominent positions
       in the news feeds, and as I write this there one such item in top of
@@ -42,19 +47,23 @@
 
       <h3>Software frontiers</h3>
 
-      <p>Google's Android &amp; Chromium are both Linux platforms (hence
-      Helsinki &amp; Stanford Universities), whereas iPhone OS is a
-      redecorated Berkeley Unix with a Mach kernel. Yes, it is a Mach kernel,
-      as in the speed of sound, not Mac. This makes these gadgets belong to a tradition from University
-      of California &amp; Carnegie Mellon University. Here is already at the
-      basic level Europe against US, MIT, New England and Boston (GNU lives
-      there) against California, Stanford against Berkeley.</p>
+      <p>At basic academic levels there's differences. Frontiers. Different
+      academic traditions expressing themselves in people's pockets.</p>
 
       <p>For those who don't know the history of the Unixes, it is well worth
       to know that Linux is a reverse engineered variant of the AT&amp;T
-      System V Unix. Which isn't BSD Unix.</p>
+      System V Unix originally by Linus Torvalds who at the time lived in
+      Hellsinki. There is also a free Unix coming from the Berkeley Software
+      Distribution BSD Unix. BSD &amp; Linux come with very different open
+      source licenses.</p>
 
-      <p>At basic academic levels there's differences. Frontiers.</p>
+      <p>Google's Android &amp; Chromium are both Linux platforms (hence
+      Helsinki &amp; Stanford Universities), whereas iPhone OS is a
+      redecorated Berkeley Unix with a Mach kernel. Yes, it is a Mach kernel,
+      Mack as in the speed of sound, not Mac as in Macintosh. These gadgets
+      are somehow affiliated to University of California &amp; Carnegie Mellon
+      University. It shouldn't surprice you that Steve Wozniak got his
+      training in computer science and electric engineering at Berkeley.</p>
 
       <p>Whenever theres conflicts, there are alliances, new ones and
       sometimes entirely unexpected:</p>
@@ -149,27 +158,32 @@
       <h3>The PC and the Tablet</h3>
 
       <p>I read and write mail, manage my calendars, surf and do a better part
-      of my wordprocessing with my <a href="http://sigfrid-lundberg.se/entries/2010/05/n900/">tablet</a>. I
-      also do word processing on it. I want a hand-held gadget which enabling
-      me to be creative anywhere anytime. This is one of many the preliminary
-      answers to the questions the industry is posing to the market.</p>
+      of my wordprocessing with my <a
+      href="http://sigfrid-lundberg.se/entries/2010/05/n900/">tablet</a>. I
+      also do word processing on it. that is, I want a hand-held gadget which
+      enables me to be creative anywhere anytime. This is one of many the
+      preliminary answers to the questions the industry is posing to the
+      market.</p>
+
+      <p>That is, should the user be able to consume digital media or should
+      the mobile release productivity.</p>
 
       <p>The vendors have obviously radically different views on the future of
       computing. Recently Steve Jobs claimed that the PC as we know it is like
       an old truck and that the future belongs to the tablets. Steve Ballmer
       participated in the same conference and disputed these claims. He seemed
       to be convinced that the desktop PC will.continue to be the workstation
-      for a foreseeable future.</p>
-
-      <a href="http://blogs.computerworld.com/16252/were_ballmer_ozzie_in_denial_at_d">http://blogs.computerworld.com/16252/were_ballmer_ozzie_in_denial_at_d</a>
+      for a foreseeable future. <a
+      href="http://blogs.computerworld.com/16252/were_ballmer_ozzie_in_denial_at_d">Read
+      more about blogosphere is saying about D</a></p>
 
       <p><q>The PC as we know it will continue to morph,</q> he said. <q>The
       real question is what are you going to push.</q> In Microsoft’s case,
-      the answer is more machines that run flavors of Windows. <q>To a man with
-      a hammer everything looks like a nail; we have a hammer,</q> Mr. Ballmer
-      joked.</p>
-
-      <a href="http://bits.blogs.nytimes.com/2010/06/03/ballmer-the-pc-will-continue-to-thrive/">http://bits.blogs.nytimes.com/2010/06/03/ballmer-the-pc-will-continue-to-thrive/</a>
+      the answer is more machines that run flavors of Windows. <q>To a man
+      with a hammer everything looks like a nail; we have a hammer,</q> <a
+      href="http://bits.blogs.nytimes.com/2010/06/03/ballmer-the-pc-will-continue-to-thrive/">Mr. Ballmer
+      joked</a>. The problem is, it isn't funny, not at all. It is as arrogant
+      as it is tragic.</p>
 
     </div>
   </content>
