@@ -17,9 +17,9 @@
       Intel rules the desktop, the British chip design company's ARM
       Architecture rules the pockets.</p>
 
-      <p>According to Wikipedia, 90%+ of all processors in mobile phones and
-      embedded devices are equipped with this architecture. This means that
-      there's.a fair chance that both your phone, your wireless router and
+      <p>According to Wikipedia, 90%+ of all processors in embedded devices and an even higher of the mobile 
+      devices are designed around this architecture. 
+      There's.a fair chance that both your phone, your wireless router and
       your fridge are all ARM systems.</p>
 
       <h3>The current chips</h3>
@@ -27,12 +27,12 @@
       <p>The mobiles &amp; the tablets are currently given prominent positions
       in the news feeds, and as I write this there one such item in top of
       Google News' Sci/Tech section. It is usually about Apple's iPhone or
-      iPadd, both of which, by the way, like the Android systems, are ARM.</p>
+      iPad, both of which, by the way, like the Android systems, are ARM.</p>
 
       <p>Intel has tried to establish itself in this area, but have not been
       able to do so through can getting an increased market share by winning
-      customers from ARM. The tablets is a new segment, and the race to start
-      exploit the unchartered land. The chip Intel try to market here is the
+      customers from ARM. The tablet is a new market segment, and the race has started to gain control over the as yet
+      unchartered land. The chip Intel tries to market is the
       Atom processor which, of course, is x86. See, for instence:
       
 	<a href="http://tech.fortune.cnn.com/2010/06/08/arm-intel-living-room/?section=magazines_fortune">ARM
@@ -45,7 +45,7 @@
       <p>Google's Android &amp; Chromium are both Linux platforms (hence
       Helsinki &amp; Stanford Universities), whereas iPhone OS is a
       redecorated Berkeley Unix with a Mach kernel. Yes, it is a Mach kernel,
-      as in the speed of sound, not Mac. This makes these gadgets University
+      as in the speed of sound, not Mac. This makes these gadgets belong to a tradition from University
       of California &amp; Carnegie Mellon University. Here is already at the
       basic level Europe against US, MIT, New England and Boston (GNU lives
       there) against California, Stanford against Berkeley.</p>
