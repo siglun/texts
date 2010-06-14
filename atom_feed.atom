@@ -24,10 +24,10 @@
       it, but just as Intel rules the desktop, the British chip design
       company's ARM Architecture rules the pockets.</p>
 
-      <p>According to Wikipedia, 90%+ of all processors in embedded devices and an even higher of the mobile 
-      devices are designed around this architecture. 
-      There's.a fair chance that both your phone, your wireless router and
-      your fridge are all ARM systems.</p>
+      <p>According to Wikipedia, 90%+ of all embedded devices and an even
+      higher proportion of mobile devices are designed around the ARM
+      Architecture.  There's.a fair chance that both your phone, your wireless
+      router and your fridge are all ARM systems.</p>
 
       <p>Most new gadgets appear first at <a href="http://www.computextaipei.com.tw/">Computex</a>, and most of them
       are based on <a href="http://en.wikipedia.org/wiki/ARM_architecture">the
@@ -35,7 +35,7 @@
 
       <h3>The chip territories</h3>
 
-      <p>The mobiles &amp; the tablets are currently given prominent positions
+      <p>The mobiles and the tablets are currently given prominent positions
       in the news feeds, and as I write this there one such item in top of
       Google News' Sci/Tech section. It is usually about Apple's iPhone or
       iPad, both of which, by the way, like the Android systems, are ARM.</p>
@@ -60,14 +60,14 @@
       to know that Linux is a reverse engineered variant of the AT&amp;T
       System V Unix originally by Linus Torvalds who at the time lived in
       Hellsinki. There is also a free Unix coming from the Berkeley Software
-      Distribution BSD Unix. BSD &amp; Linux come with very different open
+      Distribution BSD Unix. BSD and Linux come with very different open
       source licenses.</p>
 
-      <p>Google's Android &amp; Chromium are both Linux platforms (hence
-      Helsinki &amp; Stanford Universities), whereas iPhone OS is a
+      <p>Google's Android and Chromium are both Linux platforms (hence
+      Helsinki and Stanford Universities), whereas iPhone OS is a
       redecorated Berkeley Unix with a Mach kernel. Yes, it is a Mach kernel,
       Mack as in the speed of sound, not Mac as in Macintosh. These gadgets
-      are somehow affiliated to University of California &amp; Carnegie Mellon
+      are somehow affiliated to University of California and Carnegie Mellon
       University. It shouldn't surprice you that Steve Wozniak got his
       training in computer science and electric engineering at Berkeley.</p>
 
@@ -158,21 +158,18 @@
       </ul>
 
       <p>Anyone percieving a pattern? There are quite a few companies out
-      there that see an opportonity for both innovation and business. Quite a
-      few of them would very much like to see one or more of the actors Google, Apple and
-      Microsoft. Furthermore, there are some that wouldn't mind a bit less
-      influence of Intel and AMD.</p>
+      there that see an opportunity for both innovation and business. Quite a
+      few of them would very much like to see one or more of the actors
+      Google, Apple and Microsoft. Furthermore, there are some that wouldn't
+      mind a bit less influence of Intel and AMD.</p>
 
       <h3>The PC and the Tablet</h3>
 
-      <p>I read and write mail, manage my calendars, surf and do a better part
-      of my wordprocessing with my <a href="http://sigfrid-lundberg.se/entries/2010/05/n900/">tablet</a>. 
-      That is, I want a hand-held gadget which
-      enables me to be creative anywhere anytime. 
-	This is pin-points one of 
-      questions most important questions: Why do we buy gadgets for computing.
-      That is, does user consume digital media or should
-      the gadget release his or her productivity.</p>
+      <p>I read and write mail, manage my calendars, surf and do some
+      of my wordprocessing with my <a href="http://sigfrid-lundberg.se/entries/2010/05/n900/">tablet</a>.
+      That is, I want a hand-held gadget which enables me to be creative
+      anywhere anytime.  This is pin-points one of questions most important
+      questions: Why do we buy gadgets for computing in the first place?</p>
 
       <p>The vendors have obviously radically different views on the future of
       computing. Recently Steve Jobs claimed that the PC as we know it is like
