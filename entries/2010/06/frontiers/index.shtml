@@ -2,9 +2,7 @@
 <html xmlns="http://www.w3.org/1999/xhtml" xmlns:addthis="http://www.addthis.com/help/api-spec"><head><title>Skirmishes along the boarder of the PC: 
 	  Sigfrid Lundberg's Stuff
 	</title><link href="http://feeds.feedburner.com/SigfridLundbergsStuff?format=xml" type="application/atom+xml" title="Sigfrid Lundberg's Stuff" rel="alternate"/><link href="http://sigfridlundbergsstuff.disqus.com/latest.rss" type="application/rss+xml" title="Latest Comments" rel="alternate"/><meta http-equiv="Content-Type" content="text/html;charset=UTF-8"/><script src="/js/navigation.js" type="text/javascript"> 
-	  </script><script type="text/javascript">
-	      var disqus_developer=1;
-	    </script><meta http-equiv="Content-Type" content="text/html;charset=UTF-8"/><link rel="stylesheet" href="/css-style/html.css"/></head><body><div class="left_box"><div style="text-align:left;width=90%;"><!--#include virtual="/div_top_left_box.xml" --></div><div style="text-align:left;width=90%;"><p><a href="/">Home</a><br/><a href="http://feeds.feedburner.com/SigfridLundbergsStuff?format=xml" type="application/atom+xml" class="feed-link"><img src="/images/Newsfeed-Atom.png" alt="Subscribe to Stuff from Sigfrid Lundberg" border="0"/>Subscribe to my stuff</a><br/><a href="http://sigfridlundbergsstuff.disqus.com/latest.rss" type="application/rss+xml" class="feed-link"><img src="/images/Newsfeed-Atom.png" alt="Subscribe to Stuff from Sigfrid Lundberg" border="0"/>Subscribe to discussion feed</a></p><!--#include virtual="/subjects.xml" --><!--#include virtual="/me.xml" --></div></div><div class="right_box"><h1 style="font-family: sans-serif; width: 55%; float: left;text-align: left;">Skirmishes along the boarder of the PC</h1><p style="width: 38%; float: left;text-align: right"><em><strong>Sigfrid Lundberg's Stuff 2010-06-10</strong></em><br/><br/><a class="addthis_button" addthis:title="Skirmishes along the boarder of the PC" addthis:url="http://sigfrid-lundberg.se/entries/2010/06/frontiers/" href="http://www.addthis.com/bookmark.php?v=250&amp;pub=siggelundberg"><img src="http://s7.addthis.com/static/btn/v2/lg-share-en.gif" width="125" height="16" alt="Bookmark and Share" style="border:0"/></a><script type="text/javascript" src="http://s7.addthis.com/js/250/addthis_widget.js?pub=siggelundberg">
+	  </script><meta http-equiv="Content-Type" content="text/html;charset=UTF-8"/><link rel="stylesheet" href="/css-style/html.css"/></head><body><div class="left_box"><div style="text-align:left;width=90%;"><!--#include virtual="/div_top_left_box.xml" --></div><div style="text-align:left;width=90%;"><p><a href="/">Home</a><br/><a href="http://feeds.feedburner.com/SigfridLundbergsStuff?format=xml" type="application/atom+xml" class="feed-link"><img src="/images/Newsfeed-Atom.png" alt="Subscribe to Stuff from Sigfrid Lundberg" border="0"/>Subscribe to my stuff</a><br/><a href="http://sigfridlundbergsstuff.disqus.com/latest.rss" type="application/rss+xml" class="feed-link"><img src="/images/Newsfeed-Atom.png" alt="Subscribe to Stuff from Sigfrid Lundberg" border="0"/>Subscribe to discussion feed</a></p><!--#include virtual="/subjects.xml" --><!--#include virtual="/me.xml" --></div></div><div class="right_box"><h1 style="font-family: sans-serif; width: 55%; float: left;text-align: left;">Skirmishes along the boarder of the PC</h1><p style="width: 38%; float: left;text-align: right"><em><strong>Sigfrid Lundberg's Stuff 2010-06-15</strong></em><br/><br/><a class="addthis_button" addthis:title="Skirmishes along the boarder of the PC" addthis:url="http://sigfrid-lundberg.se/entries/2010/06/frontiers/" href="http://www.addthis.com/bookmark.php?v=250&amp;pub=siggelundberg"><img src="http://s7.addthis.com/static/btn/v2/lg-share-en.gif" width="125" height="16" alt="Bookmark and Share" style="border:0"/></a><script type="text/javascript" src="http://s7.addthis.com/js/250/addthis_widget.js?pub=siggelundberg">
 		</script></p><div style="clear:both">
 	    </div>
     <div>
@@ -27,7 +25,7 @@
       <h3>The chip territories</h3>
 
       <p>The mobiles and the tablets are currently given prominent positions
-      in the news feeds, and as I write this there one such item in top of
+      in the news feeds, and as I write this entry there one such item in top of
       Google News' Sci/Tech section. It is usually about Apple's iPhone or
       iPad, both of which, by the way, like the Android systems, are ARM.</p>
 
@@ -138,21 +136,21 @@
 	      range of ARM® Cortex™-A family of processors.</li>
 	    </ul>
 	  </p>
-	  <p><a href="http://www.linaro.org/arm-freescale-ibm-samsung-st-ericsson-and-texas-instruments-form-new-company-to-speed-the-rollout-of-linux-based-devices/">linaro.org</a>. 
+	  <p>From <a href="http://www.linaro.org/arm-freescale-ibm-samsung-st-ericsson-and-texas-instruments-form-new-company-to-speed-the-rollout-of-linux-based-devices/">linaro.org</a>. Obviously,
 	  Linaro's mission is to ensure that there will be a Linux kernels and
-	  device drivers for a large number of mobile platforms. See the point here? All of a sudden it will be as 
-	easy to install Ubuntu Linux on a smart phone as 
-	it is on a standard PC today.</p>
+	  device drivers for a large number of mobile platforms. See the point
+	  here? All of a sudden it will be as easy to install Ubuntu Linux on
+	  a smart phone as it is on a standard PC today.</p>
 
 	</li>
 
       </ul>
 
-      <p>Anyone percieving a pattern? There are quite a few companies out
-      there that see an opportunity for both innovation and business. Quite a
-      few of them would very much like to see one or more of the actors
-      Google, Apple and Microsoft. Furthermore, there are some that wouldn't
-      mind a bit less influence of Intel and AMD.</p>
+      <p>Anyone percieving a pattern? There are many companies out there that right now
+      see opportunities for innovation and business. Quite a few of them
+      would very much like to see one or more of the actors Google, Apple and
+      Microsoft dwindle. Furthermore, there are some that wouldn't mind a bit
+      less influence of Intel and AMD.</p>
 
       <h3>The PC and the Tablet</h3>
 
@@ -168,14 +166,13 @@
       participated in the same conference and disputed these claims. He seemed
       to be convinced that the desktop PC will continue to be the workstation
       for a foreseeable future. <a href="http://blogs.computerworld.com/16252/were_ballmer_ozzie_in_denial_at_d">Read
-      more about blogosphere is saying about D</a></p>
+      more about what the blogosphere is saying about D</a></p>
 
       <p><q>The PC as we know it will continue to morph,</q> he said. <q>The
       real question is what are you going to push.</q> In Microsoft’s case,
-      the answer is more machines that run flavors of Windows. <q>To a man
+      the answer is more installations of Windows. <q>To a man
       with a hammer everything looks like a nail; we have a hammer,</q> <a href="http://bits.blogs.nytimes.com/2010/06/03/ballmer-the-pc-will-continue-to-thrive/">Mr. Ballmer
-      joked</a>. The problem is, it isn't funny, not at all. It is as arrogant
-      as it is tragic.</p>
+      joked</a>. The problem is, it isn't funny.</p>
 
     </div>
   <div style="clear:both"> 
