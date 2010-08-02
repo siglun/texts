@@ -3,23 +3,60 @@
   <author>
     <name>Sigfrid Lundberg</name>
   </author>
-  <title>Do you hate XML?</title> <link href="/entries/2010/07/hate_xml/"/>
-  <summary>Does developers really dislike XML?
-  </summary>
+  <title>Do you hate XML?</title> 
+  <link href="/entries/2010/07/hate_xml/"/>
+  <summary>Does developers really dislike XML? If they do, why and how much</summary>
   <content type="xhtml">
     <div xmlns="http://www.w3.org/1999/xhtml">
-Do you hate XML?
 
-I cannot recall that I've ever written somewhere that I hate someone or even something.  I feel that hatred is emotional and irrational. It may be a difference between languages and cultures; to hate something might be more serious in Scandinavia than the anglo-american sphere, and it may also be a question of age.  When you're middle-aged you may not think it's appropriate to hate things, or at least you may not think that it's appropriate to formulate your dislike as hatred.
+      <div style="float:left;width:65%;margin-right:0.5em;margin-left:0.5em;">
+	<a href="http://sigfrid-lundberg.se/entries/2010/07/hate_xml/hate_xml.png">
+	  <img src="/entries/2010/07/hate_xml/hate_xml.png" 
+	       width="100%" 
+	       alt="Hate XML web pages"/>
+	</a>
+	<p>
+	  <small>Figure 1. The change in the occurrence of web pages
+	  containing the text <strong><q>hate xml</q></strong>. Because of the
+	  way Google works, the date searches mostly hits blog entries and
+	  other syndicated material.</small>
+	</p>
+      </div>
+
+      <p>I cannot recall that I've ever written somewhere that I hate someone
+      or even something.  I feel that hatred is emotional and irrational. It
+      may be a difference between languages and cultures; to hate something
+      might be more serious in Scandinavia than the anglo-american sphere, and
+      it may also be a question of age.  When you're middle-aged you may not
+      think it's appropriate to hate things, or at least you may not think
+      that it's appropriate to formulate your dislike as hatred.</p>
+
+      <div style="float:right;width:65%;margin-right:0.5em;margin-left:0.5em;">
+	<a href="http://sigfrid-lundberg.se/entries/2010/07/hate_xml/report_hate_xml.png"><img src="/entries/2010/07/hate_xml/report_hate_xml.png" 
+	width="100%" 
+	alt="Search interest for &quot;hate xml&quot; in Google 2004-2010"/></a>
+	<p>
+	  <small>Figure 2. Search interest in Google for the term
+	  <strong><q>hate xml</q></strong>.</small>
+	</p>
+      </div>
 
 
-Chris’s big beef with XML is that XML must be processed in isolation, using special purpose tools and languages such as XSLT. In order to use these special things, developers must become domain experts in a rich and complex space that is essentially unrelated to the application itself.
+      <blockquote>
+	<em>Chris’s big beef with XML is that XML must be processed in
+	isolation, using special purpose tools and languages such as XSLT. In
+	order to use these special things, developers must become domain
+	experts in a rich and complex space that is essentially unrelated to
+	the application itself.</em>
+	<a href="http://www.jeff-barr.com/?p=80">Jeff Barr</a>
+      </blockquote>
 
-http://www.jeff-barr.com/?p=80
 
-http://www.devsource.com/c/a/Techniques/Programming-Guidance-from-the-Uumlbergeeks/
-</div> </content> <dc:date>2010</dc:date>
-  <category label="structuralwebdesign" term="Structural web design"/>
+      http://www.devsource.com/c/a/Techniques/Programming-Guidance-from-the-Uumlbergeeks/
+    </div> 
+  </content>
+  <dc:date>2010</dc:date>
+  <category label="xmltechnologies" term="XML technologies"/>
   <updated>2010-07-29T16:34:22+01:00</updated>
   <id>http://www.sigfrid-lundberg.se/entries/2010/07/hate_xml/</id>
 </entry>
