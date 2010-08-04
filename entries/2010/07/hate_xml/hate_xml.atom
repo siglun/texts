@@ -19,18 +19,17 @@
 	  <small>Figure 1. The change in the occurrence of web pages
 	  containing the text <strong><q>hate xml</q></strong>. Because of the
 	  way Google works, the date searches mostly hits blog entries and
-	  other syndicated material.</small>
+	  other syndicated material with metadata.</small>
+	</p>
+	<p>
+	<small>The data points represents hits for two year periods graphed against the first of january the second year in each period.</small>
 	</p>
       </div>
 
       <p>I cannot recall that I've ever written somewhere that I hate someone
       or even something.  I feel that hatred is emotional and irrational. It
-      may be a difference between languages and cultures; to hate something
-      might be more serious in Scandinavia than the anglo-american sphere, and
-      it may also be a question of age.  When you're middle-aged you may not
-      think it's appropriate to hate things, or at least you may not think
-      that it's appropriate to formulate your dislike as hatred.</p>
-
+      may be a difference between languages and cultures; it can be a question of semantic inflation. When we Scandinavians say that we hate something, we mean it.
+      I'm not sure that that's the case in the anglo-american sphere.  However, it may also be a question of age; when you're middle-aged you may not think it's appropriate to hate, or you may not think that it's appropriate to describe your dislikes and annoyances as hatred.</p> <p>Already year 2000 a friend of mine described his relation to XML as <q>angle bracket fatique</q>, which is to be understood as <q>I hate typing XML</q></p>
       <div style="float:right;width:65%;margin-right:0.5em;margin-left:0.5em;">
 	<a href="http://sigfrid-lundberg.se/entries/2010/07/hate_xml/report_hate_xml.png"><img src="/entries/2010/07/hate_xml/report_hate_xml.png" 
 	width="100%" 
