@@ -9,6 +9,15 @@
   <content type="xhtml">
     <div xmlns="http://www.w3.org/1999/xhtml">
 
+      <p>I've spent much of the last ten or twelve years working with problems
+      related to interoperability and portability of data and metadata. During
+      these years I've been forced to work with XML. Early on I evangelized
+      about XML with the fervor of a taleban. I suppose that I contributed to
+      the four or five of XML hype that started at the turn of the century and
+      culminated 2004 - 2005.</p>
+
+
+
       <div style="float:left;width:65%;margin-right:0.5em;margin-left:0.5em;">
 	<a href="http://sigfrid-lundberg.se/entries/2010/07/hate_xml/hate_xml.png">
 	  <img src="/entries/2010/07/hate_xml/hate_xml.png" 
@@ -19,39 +28,80 @@
 	  <small>Figure 1. The change in the occurrence of web pages
 	  containing the text <strong><q>hate xml</q></strong>. Because of the
 	  way Google works, the date searches mostly hits blog entries and
-	  other syndicated material with metadata.</small>
+	  other syndicated material, where date and other metadata are
+	  known. There earliest occurence is from 2001. There is a steep
+	  increase in occurence a few year after the Applied XML Developer's
+	  Conference 2004. After that it seems to level off.</small>
 	</p>
 	<p>
-	<small>The data points represents hits for two year periods graphed against the first of january the second year in each period.</small>
+	  <small>The data points represents hits for two year periods graphed
+	  against the first of january the second year in each period.</small>
 	</p>
       </div>
 
+      <p>When you have grasped a technology you cannot keep up strong
+      emotions, at least not positive ones. Possibly you can become more
+      negative as time goes by. Or that is my personal experience.</p>
+
       <p>I cannot recall that I've ever written somewhere that I hate someone
       or even something.  I feel that hatred is emotional and irrational. It
-      may be a difference between languages and cultures; it can be a question of semantic inflation. When we Scandinavians say that we hate something, we mean it.
-      I'm not sure that that's the case in the anglo-american sphere.  However, it may also be a question of age; when you're middle-aged you may not think it's appropriate to hate, or you may not think that it's appropriate to describe your dislikes and annoyances as hatred.</p> <p>Already year 2000 a friend of mine described his relation to XML as <q>angle bracket fatique</q>, which is to be understood as <q>I hate typing XML</q></p>
+      may be a difference between languages and cultures; it can be a question
+      of semantic inflation. When we Scandinavians say that we hate something,
+      we mean it.  I'm not sure that that's the case in the anglo-american
+      sphere.  However, it may also be a question of age; when you're
+      middle-aged you may not think it's appropriate to hate, or you may not
+      think that it's appropriate to describe your dislikes and annoyances as
+      hatred.</p> <p>Already year 2000 a friend of mine described his relation
+      to XML as <q>angle bracket fatique</q>, which is to be understood as
+      <q>I hate typing XML</q></p>
+
+
       <div style="float:right;width:65%;margin-right:0.5em;margin-left:0.5em;">
 	<a href="http://sigfrid-lundberg.se/entries/2010/07/hate_xml/report_hate_xml.png"><img src="/entries/2010/07/hate_xml/report_hate_xml.png" 
 	width="100%" 
 	alt="Search interest for &quot;hate xml&quot; in Google 2004-2010"/></a>
 	<p>
 	  <small>Figure 2. Search interest in Google for the term
-	  <strong><q>hate xml</q></strong>.</small>
+	  <strong><q>hate xml</q></strong>. There are hardly any connection
+	  between the change in occurrence of the <q>hate xml</q>-emotions and
+	  search interest. People seem search for the term a few years after they
+	  wrote about it.</small>
 	</p>
       </div>
 
+      <p>Year 2004, <a
+      href="http://www.sellsbrothers.com/">sellsbrothers.com</a> convened an
+      <a
+      href="http://www.devsource.com/c/a/Techniques/Programming-Guidance-from-the-Uumlbergeeks/">Applied
+      XML Developer's Conference</a>. I cannot recollect that I heard of that
+      conference at the time, but there was one contribution which got quite
+      some attention around in the blogosphere. It was by Chris Anderson (AKA
+      <a href="http://www.simplegeek.com/">SimpleGeek</a>) who gave the
+      presentation <q>Developers Hate XML</q>. I haven't found the slides on
+      the net. However, <a href="http://www.jeff-barr.com/?p=80">Jeff Barr</a>
+      summarizes as follows</p>
 
       <blockquote>
 	<em>Chris’s big beef with XML is that XML must be processed in
 	isolation, using special purpose tools and languages such as XSLT. In
-	order to use these special things, developers must become domain
-	experts in a rich and complex space that is essentially unrelated to
-	the application itself.</em>
-	<a href="http://www.jeff-barr.com/?p=80">Jeff Barr</a>
+	order to use these special things, <strong>developers must become
+	domain experts</strong></em> [my emphasis] <em>in a rich and complex
+	space that is essentially unrelated to the application itself.</em>
       </blockquote>
 
+      <p>I think Chris (and Jeff) points out something important here. Many
+      developers are interested in programming and computing, but not
+      necessarily application areas. To parse and make something meaningful
+      out of, say, bibliographical records or encoded text requires that you
+      are actually interested in those areas. The same is true for fluid
+      dynamics and natural language processing. Interest in partial
+      differential equations and lingustics, respectively, will help.</p>
 
-      http://www.devsource.com/c/a/Techniques/Programming-Guidance-from-the-Uumlbergeeks/
+      <p>I cannot see any difference here between XML and SQL in this
+      respect. Any tools for object-relational modeling is subject to the same
+      problems. The developers that do the modelling has to become domain
+      experts.</p>
+
     </div> 
   </content>
   <dc:date>2010</dc:date>
