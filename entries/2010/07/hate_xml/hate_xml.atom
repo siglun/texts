@@ -9,14 +9,15 @@
   <content type="xhtml">
     <div xmlns="http://www.w3.org/1999/xhtml">
 
-      <p>I've spent much of the last ten or twelve years working with problems
-      related to interoperability and portability of data and metadata. During
-      these years I've been forced to work with XML. Early on I evangelized
-      about XML with the fervor of a taleban. I suppose that I contributed to
-      the four or five of XML hype that started at the turn of the century and
-      culminated 2004 - 2005.</p>
-
-
+      <p>I've spent much of the last ten or twelve years working on problems
+      related to interoperability, portability ant longevity of data and
+      metadata. During these years I've been forced to work with XML. Early on
+      I evangelized about XML with the fervor of a taleban. I suppose that I
+      contributed to the four or five years of XML hype that started at the
+      turn of the century and culminated 2004 - 2005 (cf. Figure 1, and Edd
+      Dumbill's <a href="http://www.xml.com/pub/a/2004/11/03/deviant.html">How
+      Do I Hate Thee?</a>). Since then I've become more moderate, but still
+      XML is the preferred tool for the modelling of data.</p>
 
       <div style="float:left;width:65%;margin-right:0.5em;margin-left:0.5em;">
 	<a href="http://sigfrid-lundberg.se/entries/2010/07/hate_xml/hate_xml.png">
@@ -25,13 +26,17 @@
 	       alt="Hate XML web pages"/>
 	</a>
 	<p>
-	  <small>Figure 1. The change in the occurrence of web pages
-	  containing the text <strong><q>hate xml</q></strong>. Because of the
-	  way Google works, the date searches mostly hits blog entries and
-	  other syndicated material, where date and other metadata are
-	  known. There earliest occurence is from 2001. There is a steep
-	  increase in occurence a few year after the Applied XML Developer's
-	  Conference 2004. After that it seems to level off.</small>
+	  <small>Figure 1. The change in the rate of appearance of web pages
+	  containing the text <strong><q>hate xml</q></strong>. There is a
+	  steep increase in occurence a few year after the Applied XML
+	  Developer's Conference 2004. After that it seems to level
+	  off.</small>
+	</p>
+	<p>
+	  <small>Because of the way Google works, the date searches mostly
+	  hits blog entries and other syndicated material, where date and
+	  other metadata are known. There earliest occurence is from
+	  2001.</small>
 	</p>
 	<p>
 	  <small>The data points represents hits for two year periods graphed
@@ -39,9 +44,15 @@
 	</p>
       </div>
 
-      <p>When you have grasped a technology you cannot keep up strong
+      <p>However, once you have grasped a technology you cannot keep up strong
       emotions, at least not positive ones. Possibly you can become more
-      negative as time goes by. Or that is my personal experience.</p>
+      negative as time goes by. Or that is my personal experience. I think
+      that our relations to our technologies is a bit like human
+      relations. There is an early period when you fall in love. Then if
+      you're lucky there is a long period of friendship and love of another
+      deeper kind that may last much longer.</p>
+
+      <h3>On hatred</h3> 
 
       <p>I cannot recall that I've ever written somewhere that I hate someone
       or even something.  I feel that hatred is emotional and irrational. It
@@ -51,10 +62,11 @@
       sphere.  However, it may also be a question of age; when you're
       middle-aged you may not think it's appropriate to hate, or you may not
       think that it's appropriate to describe your dislikes and annoyances as
-      hatred.</p> <p>Already year 2000 a friend of mine described his relation
-      to XML as <q>angle bracket fatique</q>, which is to be understood as
-      <q>I hate typing XML</q></p>
+      hatred. </p>
 
+      <p>Already year 2000 a friend of mine described his relation to XML as
+      <q>angle bracket fatique</q>, which I suppose is to be understood as
+      <q>I hate typing XML</q>. </p>
 
       <div style="float:right;width:65%;margin-right:0.5em;margin-left:0.5em;">
 	<a href="http://sigfrid-lundberg.se/entries/2010/07/hate_xml/report_hate_xml.png"><img src="/entries/2010/07/hate_xml/report_hate_xml.png" 
@@ -68,6 +80,8 @@
 	  wrote about it.</small>
 	</p>
       </div>
+
+      <h3><q>Developers hate XML</q></h3>
 
       <p>Year 2004, <a
       href="http://www.sellsbrothers.com/">sellsbrothers.com</a> convened an
@@ -100,7 +114,7 @@
       <p>I cannot see any difference here between XML and SQL in this
       respect. Any tools for object-relational modeling is subject to the same
       problems. The developers that do the modelling has to become domain
-      experts.</p>
+v      experts.</p>
 
     </div> 
   </content>
