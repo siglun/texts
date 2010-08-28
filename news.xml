@@ -1,11 +1,11 @@
 <div xmlns="http://www.w3.org/1999/xhtml">
   <div>
-    <h1 style="font-family: sans-serif; width: 55%; float: left;text-align: left;">Skirmishes along the boarder of the PC</h1>
+    <h1 style="font-family: sans-serif; width: 55%; float: left;text-align: left;">Do you hate XML?</h1>
     <p style="width: 38%; float: left;text-align: right">
       <em>
         <strong>
 		Sigfrid Lundberg's Stuff,
-	      2010-06-15</strong>
+	      2010-07-29</strong>
       </em>
     </p>
   </div>
@@ -13,185 +13,142 @@
   <div style="width:100%;">
     <div>
 
-      <p><q>Tablets, eReaders, Smartbooks: You Name the Device and It’s News
-      at Computex</q> <a href="http://blogs.arm.com/arm-events/tablets-ereaders-smartbooks-you-name-the-device-and-its-news-at-computex/">writes
-      Katie Morgan</a> of Advanced Risc Machines (ARM). You may not know about
-      it, but just as Intel rules the desktop, the British chip design
-      company's ARM Architecture rules the pockets.</p>
+      <p>I've spent much of the last fifteen years working on problems related
+      to interoperability, portability and longevity of data, and in
+      particular metadata in a librar context. During these years I've been
+      working a lot with XML.</p>
 
-      <p>According to Wikipedia, 90%+ of all embedded devices and an even
-      higher proportion of mobile devices are designed around the ARM
-      Architecture.  There's.a fair chance that both your phone, your wireless
-      router and your fridge are all ARM systems.</p>
+      <p>Early on I evangelized about XML with the fervour of a taleban. I
+      suppose that I contributed to the four or five years of XML hype that
+      started at the turn of the century and culminated 2004 - 2005
+      (cf. Figure 1, and Edd Dumbill's <a href="http://www.xml.com/pub/a/2004/11/03/deviant.html">How Do I Hate
+      Thee?</a>). Since then I've become more moderate, but still embrace XML
+      as the preferred tool for the modelling of data.</p>
 
-      <p>Most new gadgets appear first at <a href="http://www.computextaipei.com.tw/">Computex</a>, and most of them
-      are based on <a href="http://en.wikipedia.org/wiki/ARM_architecture">the
-      ARM architecture</a>.</p>
+      <div style="float:left;width:65%;margin-right:0.5em;margin-left:0.5em;">
+	<a href="http://sigfrid-lundberg.se/entries/2010/07/hate_xml/hate_xml.png">
+	  <img src="/entries/2010/07/hate_xml/hate_xml.png" width="100%" alt="Hate XML web pages"/>
+	</a>
+	<p>
+	  <small>Figure 1. The number of web pages appearing per year
+	  containing the phrase <strong><q>hate xml</q></strong>. There is a
+	  steep increase in occurence a few year after the Applied XML
+	  Developer's Conference 2004. After that it seems to level
+	  off.</small>
+	</p>
+	<p>
+	  <small>The data points represents hits pooled for two year periods
+	  graphed against the first of january the second year in each
+	  period.</small>
+	</p>
+	<p>
+	  <small>Because of the way Google works, the date searches mostly
+	  hits blog entries and other syndicated material, where publication
+	  date and other metadata are known. The earliest occurence is from
+	  2001.</small>
+	</p>
+      </div>
 
-      <h3>The chip territories</h3>
+      <p>Once you have grasped a technology you cannot keep up strong
+      emotions, at least not positive ones. You see both the shortcomings and
+      the advantages. Possibly you can become more negative as time goes
+      by. Or that is my personal experience. I think that our relations to our
+      technologies is a bit like human relations. There is an early period
+      when you fall in love. Then if you're lucky there is a long period of
+      friendship and love of another deeper kind that may last much
+      longer.</p>
 
-      <p>The mobiles and the tablets are currently given prominent positions
-      in the news feeds, and as I write this entry there one such item in top of
-      Google News' Sci/Tech section. It is usually about Apple's iPhone or
-      iPad, both of which, by the way, like the Android systems, are ARM.</p>
+      <p>Already year 2000 a friend of mine described his relation to XML as
+      <q>angle bracket fatique</q>, which I suppose is to be understood as
+      <q>I hate typing XML, since its syntax is just terrible</q>.</p>
 
-      <p>Intel has tried to establish itself in this area, but have not been
-      able to do so through can getting an increased market share by winning
-      customers from ARM. The tablet is a new market segment, and the race has started to gain control over the as yet
-      unchartered land. The chip Intel tries to market is the
-      Atom processor which, of course, is x86. See, for instence:
-      
-	<a href="http://tech.fortune.cnn.com/2010/06/08/arm-intel-living-room/?section=magazines_fortune">ARM
-	and Intel's new battleground: the living room</a>
+      <div style="float:right;width:65%;margin-right:0.5em;margin-left:0.5em;">
+	<a href="http://sigfrid-lundberg.se/entries/2010/07/hate_xml/report_hate_xml.png"><img src="/entries/2010/07/hate_xml/report_hate_xml.png" width="100%" alt="Search interest for &quot;hate xml&quot; in Google 2004-2010"/></a>
+	<p>
+	  <small>Figure 2. Search interest in Google for the term
+	  <strong><q>hate xml</q></strong>. There are hardly any connection
+	  between the change in occurrence of the <q>hate xml</q>-emotions and
+	  search interest. People seem search for the term a few years after they
+	  wrote about it.</small>
+	</p>
+      </div>
 
-      </p>
+      <h3><q>Developers hate XML</q></h3>
 
-      <h3>Software frontiers</h3>
+      <p>Year 2004, <a href="http://www.sellsbrothers.com/">sellsbrothers.com</a> convened an
+      <a href="http://www.devsource.com/c/a/Techniques/Programming-Guidance-from-the-Uumlbergeeks/">Applied
+      XML Developer's Conference</a>. I cannot recollect that I heard of that
+      conference at the time, but there was one contribution which got quite
+      some attention around in the blogosphere. It was by Chris Anderson (AKA
+      <a href="http://www.simplegeek.com/">SimpleGeek</a>) who gave the
+      presentation <q>Developers Hate XML</q>. I haven't found the slides on
+      the net. However, <a href="http://www.jeff-barr.com/?p=80">Jeff Barr</a>
+      summarizes as follows</p>
 
-      <p>At basic academic levels there's differences. Frontiers. Different
-      academic traditions expressing themselves in people's pockets.</p>
+      <blockquote>
+	<em>Chris’s big beef with XML is that XML must be processed in
+	isolation, using special purpose tools and languages such as XSLT. In
+	order to use these special things, <strong>developers must become
+	domain experts</strong></em> [my emphasis] <em>in a rich and complex
+	space that is essentially unrelated to the application itself.</em>
+      </blockquote>
 
-      <p>For those who don't know the history of the Unixes, it is well worth
-      to know that Linux is a reverse engineered variant of the AT&amp;T
-      System V Unix originally by Linus Torvalds who at the time lived in
-      Hellsinki. There is also a free Unix coming from the Berkeley Software
-      Distribution BSD Unix. BSD and Linux come with very different open
-      source licenses.</p>
+      <p>I think Chris (and Jeff) points out something important here. Many
+      developers are interested in programming and computing, but not
+      necessarily application areas. To parse and make something meaningful
+      out of, say, bibliographical records or encoded text requires that you
+      are actually interested in those areas. The same is true for fluid
+      mechanics and natural language processing. Interest in partial
+      differential equations and lingustics, respectively, will help.</p>
 
-      <p>Google's Android and Chromium are both Linux platforms (hence
-      Helsinki and Stanford Universities), whereas iPhone OS is a
-      redecorated Berkeley Unix with a Mach kernel. Yes, it is a Mach kernel,
-      Mack as in the speed of sound, not Mac as in Macintosh. These gadgets
-      are somehow affiliated to University of California and Carnegie Mellon
-      University. It shouldn't surprice you that Steve Wozniak got his
-      training in computer science and electric engineering at Berkeley.</p>
+      <p>I cannot see any difference here between XML and SQL in this
+      respect. Any tools for object-relational modeling is subject to the same
+      problems. The developers that do the modelling has to become domain
+      experts. This is fairly obvious for XML and less so for SQL. While few
+      people form large scale standardization efforts for XML schemas, they
+      hardly do so for RDBMS Schemas. </p>
 
-      <p>Whenever there are conflicts, people form alliances, sometimes new and
-      entirely unexpected:</p>
+      <p>What XML technologies provide that RDBMSs don't is an interoperable
+      transfer syntax. Which I suppose is the reason why most XML in the world
+      is stored in, well, RDBMSs.</p>
 
-      <ul>
-	<li>
-	  <p>
+      <h3>On hatred</h3> 
 
-	    <q>The good news is that we finally have an operating system to
-	    unite behind. Android is an operating system that has gained a
-	    tremendous amount of momentum all over the world</q>
+      <p>I cannot recall that I've ever written somewhere that I hate someone
+      or even something.  I feel that hatred is emotional and irrational. It
+      may be a difference between languages and cultures, though; it can also
+      be a question of semantic inflation.</p>
 
-	    [...]
+      <p>When we Scandinavians say that we hate something, we mean it.  I'm
+      not sure that that's the case in the anglo-american sphere, and I'm not
+      even certain that's the case for young Scandinavians.  However, when
+      you're a middle-aged academic and intellectual, you may not think it's
+      appropriate to hate. Or, at least, you may not think that it's
+      appropriate to describe your dislikes and annoyances as hatred.</p>
 
-	    <q>Android has become the fastest growing mobile operating system
-	    in the world and, in fact, it has surpassed the iPhone in terms of
-	    growth and in terms of users</q>,
-
-	    said 
-
-	    <a href="http://www.computerworld.com/s/article/9177518/Nvidia_CEO_Hardware_makers_uniting_behind_Android_for_tablets">Jen-Hsun Huang</a>,
-	     president and CEO at Nvidia
-	  </p>
-	</li>
-
-	<li>
-	  <p>
-	    <q>Global leaders Intel Corporation and Nokia merge Moblin and
-	    Maemo to create MeeGo, a Linux-based software platform that will
-	    support multiple hardware architectures across the broadest range
-	    of device segments, including pocketable mobile computers,
-	    netbooks, tablets, mediaphones, connected TVs and in-vehicle
-	    infotainment systems.</q> [...]
-
-	    <q>MeeGo will be hosted by the Linux Foundation and governed using
-	    the best practices of the open source development model.</q>
-
-	    <a href="http://www.intel.com/pressroom/archive/releases/2010/20100215corp.htm">intel.com</a></p>
-
-	    <p><a href="http://meego.org/meego-v1-0-core-software-platform-netbook-user-experience-project-release/">Just
-	    recently Meego 1.0 was released</a>. A lot of creative work focus
-	    on Meego, and it seem to gain impetus, there are aleady quite
-	    discussions around it and even a positive review in <a href="http://arstechnica.com/open-source/reviews/2010/05/hands-on-meego-for-netbooks-picks-up-where-moblin-left-off.ars">ArsTechnica</a>,
-	    where you can find a <a href="http://arstechnica.com/open-source/news/2010/06/meego-linux-platform-gains-allies-at-computex.ars">discussion
-	    of the prospects of the system</a>.</p>
-
-	</li>
-
-	<li>
-	  <p>
-	    This is very hardware oriented alliance, formalized as a not for profit company. Its mission is so.interesting, so I just had to quote the whole list:
-	    <ul>
-	      <li>ARM, Freescale, IBM, Samsung, ST-Ericsson and Texas
-	      Instruments have created the not-for-profit company, Linaro,
-	      committed to providing new resources and industry alignment for
-	      open source software developers using Linux on the world’s most
-	      sophisticated semiconductor System-on-Chips (SoCs).</li>
-
-	      <li> Linaro will invest resources in open source projects that
-	      can then be used by Linux-based distributions such as Android,
-	      LiMo, MeeGo, Ubuntu and webOS.</li>
-
-	      <li> Linaro will provide a stable and optimized base for
-	      distributions and developers by creating new releases of
-	      optimized tools, kernel and middleware software validated for a
-	      wide range of SoCs, every six months.</li>
-
-	      <li> Linaro's base of software and tools will be applicable to a
-	      wide range of markets, helping reduce time-to-market for
-	      products such as smart phones, tablets, digital televisions,
-	      automotive entertainment and enterprise equipment.</li>
-
-	      <li> Linaro's first software and tools release is due out in
-	      November 2010, and will provide optimizations for the latest
-	      range of ARM® Cortex™-A family of processors.</li>
-	    </ul>
-	  </p>
-	  <p>From <a href="http://www.linaro.org/arm-freescale-ibm-samsung-st-ericsson-and-texas-instruments-form-new-company-to-speed-the-rollout-of-linux-based-devices/">linaro.org</a>. Obviously,
-	  Linaro's mission is to ensure that there will be a Linux kernels and
-	  device drivers for a large number of mobile platforms. See the point
-	  here? All of a sudden it will be as easy to install Ubuntu Linux on
-	  a smart phone as it is on a standard PC today.</p>
-
-	</li>
-
-      </ul>
-
-      <p>Anyone percieving a pattern? There are many companies out there that right now
-      see opportunities for innovation and business. Quite a few of them
-      would very much like to see one or more of the actors Google, Apple and
-      Microsoft dwindle. Furthermore, there are some that wouldn't mind a bit
-      less influence of Intel and AMD.</p>
-
-      <h3>The PC and the Tablet</h3>
-
-      <p>I read and write mail, manage my calendars, surf and do some
-      of my wordprocessing with my <a href="http://sigfrid-lundberg.se/entries/2010/05/n900/">tablet</a>.
-      That is, I want a hand-held gadget which enables me to be creative
-      anywhere anytime.  This is pin-points one of questions most important
-      questions: Why do we buy gadgets for computing in the first place?</p>
-
-      <p>The vendors have obviously radically different views on the future of
-      computing. Recently Steve Jobs claimed that the PC as we know it is like
-      an old truck and that the future belongs to the tablets. Steve Ballmer
-      participated in the same conference and disputed these claims. He seemed
-      to be convinced that the desktop PC will continue to be the workstation
-      for a foreseeable future. <a href="http://blogs.computerworld.com/16252/were_ballmer_ozzie_in_denial_at_d">Read
-      more about what the blogosphere is saying about D</a></p>
-
-      <p><q>The PC as we know it will continue to morph,</q> he said. <q>The
-      real question is what are you going to push.</q> In Microsoft’s case,
-      the answer is more installations of Windows. <q>To a man
-      with a hammer everything looks like a nail; we have a hammer,</q> <a href="http://bits.blogs.nytimes.com/2010/06/03/ballmer-the-pc-will-continue-to-thrive/">Mr. Ballmer
-      joked</a>. The problem is, it isn't funny.</p>
+      <p>I have tried, a lot, to find out what people think about technologies
+      such as XML, SQL, noSQL etc. Here both love and hatred are used as code
+      words. People hate (or love) XML the same way they love (or hate) bebop,
+      pop or hip hop music. Not the way they love their children, wife or
+      mother.</p>
 
     </div>
     <br clear="all"/>
     <p style="text-align: left;"><em><strong>Categories:</strong></em> 
-	  <a href="/subjects/hardware/">Hardware</a>,
-	    <a href="/subjects/software/">Software</a><br/><em><strong>
+	  <a href="/subjects/xmltechnologies/">XML technologies</a><br/><em><strong>
 		Permalink:
-	      </strong></em><a rel="bookmark" href="/entries/2010/06/frontiers/">http://sigfrid-lundberg.se/entries/2010/06/frontiers/</a></p>
+	      </strong></em><a rel="bookmark" href="/entries/2010/07/hate_xml/">http://sigfrid-lundberg.se/entries/2010/07/hate_xml/</a></p>
     <hr width="50%" align="center"/>
   </div>
   <div>
     <h1>Other, not yet obsolete stuff</h1>
     <table class="news">
+      <tr>
+        <td class="left">2010</td>
+        <td class="left"><a href="/entries/2010/06/frontiers/"><em>Skirmishes along the boarder of the PC</em></a><br/>The PC was defined by IBM and Microsoft. Who defines it
+  today? Who defines the boarder?<br/><a href="/subjects/hardware/">Hardware</a>,
+	<a href="/subjects/software/">Software</a></td>
+      </tr>
       <tr>
         <td class="left">2010</td>
         <td class="left"><a href="/entries/2010/05/resourcecentric/"><em>Focus on the resources</em></a><br/>Having had a web site for about 15 years, I start to wonder why I
@@ -220,11 +177,6 @@
   in particular iPad, and described how I've acqired one myself. Here I give
   some further pointers on the subject.<br/><a href="/subjects/hardware/">Hardware</a>,
 	<a href="/subjects/media/">Media</a></td>
-      </tr>
-      <tr>
-        <td class="left">2010</td>
-        <td class="left"><a href="/entries/2010/05/tulips/"><em>Thinking about tulips dropping their petals</em></a><br/>The spring is advances. April's weather has been staying, but
-  nevertheless the Thinker's Tulips have dropped their petals.<br/><a href="/subjects/images/">Images</a></td>
       </tr>
     </table>
   </div>
