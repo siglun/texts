@@ -9,15 +9,18 @@
   <content type="xhtml">
     <div xmlns="http://www.w3.org/1999/xhtml">
 
-      <p>I've spent much of the last ten or twelve years working on problems
-      related to interoperability, portability ant longevity of data and
-      metadata. During these years I've been forced to work with XML. Early on
-      I evangelized about XML with the fervor of a taleban. I suppose that I
-      contributed to the four or five years of XML hype that started at the
-      turn of the century and culminated 2004 - 2005 (cf. Figure 1, and Edd
-      Dumbill's <a href="http://www.xml.com/pub/a/2004/11/03/deviant.html">How
-      Do I Hate Thee?</a>). Since then I've become more moderate, but still
-      XML is the preferred tool for the modelling of data.</p>
+      <p>I've spent much of the last fifteen years working on problems related
+      to interoperability, portability and longevity of data, and in
+      particular metadata in a librar context. During these years I've been
+      working a lot with XML.</p>
+
+      <p>Early on I evangelized about XML with the fervour of a taleban. I
+      suppose that I contributed to the four or five years of XML hype that
+      started at the turn of the century and culminated 2004 - 2005
+      (cf. Figure 1, and Edd Dumbill's <a
+      href="http://www.xml.com/pub/a/2004/11/03/deviant.html">How Do I Hate
+      Thee?</a>). Since then I've become more moderate, but still embrace XML
+      as the preferred tool for the modelling of data.</p>
 
       <div style="float:left;width:65%;margin-right:0.5em;margin-left:0.5em;">
 	<a href="http://sigfrid-lundberg.se/entries/2010/07/hate_xml/hate_xml.png">
@@ -26,47 +29,37 @@
 	       alt="Hate XML web pages"/>
 	</a>
 	<p>
-	  <small>Figure 1. The change in the rate of appearance of web pages
-	  containing the text <strong><q>hate xml</q></strong>. There is a
+	  <small>Figure 1. The number of web pages appearing per year
+	  containing the phrase <strong><q>hate xml</q></strong>. There is a
 	  steep increase in occurence a few year after the Applied XML
 	  Developer's Conference 2004. After that it seems to level
 	  off.</small>
 	</p>
 	<p>
-	  <small>Because of the way Google works, the date searches mostly
-	  hits blog entries and other syndicated material, where date and
-	  other metadata are known. There earliest occurence is from
-	  2001.</small>
+	  <small>The data points represents hits pooled for two year periods
+	  graphed against the first of january the second year in each
+	  period.</small>
 	</p>
 	<p>
-	  <small>The data points represents hits for two year periods graphed
-	  against the first of january the second year in each period.</small>
+	  <small>Because of the way Google works, the date searches mostly
+	  hits blog entries and other syndicated material, where publication
+	  date and other metadata are known. The earliest occurence is from
+	  2001.</small>
 	</p>
       </div>
 
-      <p>However, once you have grasped a technology you cannot keep up strong
-      emotions, at least not positive ones. Possibly you can become more
-      negative as time goes by. Or that is my personal experience. I think
-      that our relations to our technologies is a bit like human
-      relations. There is an early period when you fall in love. Then if
-      you're lucky there is a long period of friendship and love of another
-      deeper kind that may last much longer.</p>
-
-      <h3>On hatred</h3> 
-
-      <p>I cannot recall that I've ever written somewhere that I hate someone
-      or even something.  I feel that hatred is emotional and irrational. It
-      may be a difference between languages and cultures; it can be a question
-      of semantic inflation. When we Scandinavians say that we hate something,
-      we mean it.  I'm not sure that that's the case in the anglo-american
-      sphere.  However, it may also be a question of age; when you're
-      middle-aged you may not think it's appropriate to hate, or you may not
-      think that it's appropriate to describe your dislikes and annoyances as
-      hatred. </p>
+      <p>Once you have grasped a technology you cannot keep up strong
+      emotions, at least not positive ones. You see both the shortcomings and
+      the advantages. Possibly you can become more negative as time goes
+      by. Or that is my personal experience. I think that our relations to our
+      technologies is a bit like human relations. There is an early period
+      when you fall in love. Then if you're lucky there is a long period of
+      friendship and love of another deeper kind that may last much
+      longer.</p>
 
       <p>Already year 2000 a friend of mine described his relation to XML as
       <q>angle bracket fatique</q>, which I suppose is to be understood as
-      <q>I hate typing XML</q>. </p>
+      <q>I hate typing XML, since its syntax is just terrible</q>.</p>
 
       <div style="float:right;width:65%;margin-right:0.5em;margin-left:0.5em;">
 	<a href="http://sigfrid-lundberg.se/entries/2010/07/hate_xml/report_hate_xml.png"><img src="/entries/2010/07/hate_xml/report_hate_xml.png" 
@@ -108,13 +101,39 @@
       necessarily application areas. To parse and make something meaningful
       out of, say, bibliographical records or encoded text requires that you
       are actually interested in those areas. The same is true for fluid
-      dynamics and natural language processing. Interest in partial
+      mechanics and natural language processing. Interest in partial
       differential equations and lingustics, respectively, will help.</p>
 
       <p>I cannot see any difference here between XML and SQL in this
       respect. Any tools for object-relational modeling is subject to the same
       problems. The developers that do the modelling has to become domain
-v      experts.</p>
+      experts. This is fairly obvious for XML and less so for SQL. While few
+      people form large scale standardization efforts for XML schemas, they
+      hardly do so for RDBMS Schemas. </p>
+
+      <p>What XML technologies provide that RDBMSs don't is an interoperable
+      transfer syntax. Which I suppose is the reason why most XML in the world
+      is stored in, well, RDBMSs.</p>
+
+      <h3>On hatred</h3> 
+
+      <p>I cannot recall that I've ever written somewhere that I hate someone
+      or even something.  I feel that hatred is emotional and irrational. It
+      may be a difference between languages and cultures, though; it can also
+      be a question of semantic inflation.</p>
+
+      <p>When we Scandinavians say that we hate something, we mean it.  I'm
+      not sure that that's the case in the anglo-american sphere, and I'm not
+      even certain that's the case for young Scandinavians.  However, when
+      you're a middle-aged academic and intellectual, you may not think it's
+      appropriate to hate. Or, at least, you may not think that it's
+      appropriate to describe your dislikes and annoyances as hatred.</p>
+
+      <p>I have tried, a lot, to find out what people think about technologies
+      such as XML, SQL, noSQL etc. Here both love and hatred are used as code
+      words. People hate (or love) XML the same way they love (or hate) bebop,
+      pop or hip hop music. Not the way they love their children, wife or
+      mother.</p>
 
     </div> 
   </content>
@@ -122,4 +141,5 @@ v      experts.</p>
   <category label="xmltechnologies" term="XML technologies"/>
   <updated>2010-07-29T16:34:22+01:00</updated>
   <id>http://www.sigfrid-lundberg.se/entries/2010/07/hate_xml/</id>
+  <!-- $Id$ -->
 </entry>
