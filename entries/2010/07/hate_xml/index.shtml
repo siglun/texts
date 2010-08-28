@@ -1,0 +1,149 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<html xmlns="http://www.w3.org/1999/xhtml" xmlns:addthis="http://www.addthis.com/help/api-spec"><head><title>Do you hate XML?: 
+	  Sigfrid Lundberg's Stuff
+	</title><link href="http://feeds.feedburner.com/SigfridLundbergsStuff?format=xml" type="application/atom+xml" title="Sigfrid Lundberg's Stuff" rel="alternate"/><link href="http://sigfridlundbergsstuff.disqus.com/latest.rss" type="application/rss+xml" title="Latest Comments" rel="alternate"/><meta http-equiv="Content-Type" content="text/html;charset=UTF-8"/><script src="/js/navigation.js" type="text/javascript"> 
+	  </script><script type="text/javascript">
+	      var disqus_developer=1;
+	    </script><meta http-equiv="Content-Type" content="text/html;charset=UTF-8"/><link rel="stylesheet" href="/css-style/html.css"/></head><body><div class="left_box"><div style="text-align:left;width=90%;"><!--#include virtual="/div_top_left_box.xml" --></div><div style="text-align:left;width=90%;"><p><a href="/">Home</a><br/><a href="http://feeds.feedburner.com/SigfridLundbergsStuff?format=xml" type="application/atom+xml" class="feed-link"><img src="/images/Newsfeed-Atom.png" alt="Subscribe to Stuff from Sigfrid Lundberg" border="0"/>Subscribe to my stuff</a><br/><a href="http://sigfridlundbergsstuff.disqus.com/latest.rss" type="application/rss+xml" class="feed-link"><img src="/images/Newsfeed-Atom.png" alt="Subscribe to Stuff from Sigfrid Lundberg" border="0"/>Subscribe to discussion feed</a></p><!--#include virtual="/subjects.xml" --><!--#include virtual="/me.xml" --></div></div><div class="right_box"><h1 style="font-family: sans-serif; width: 55%; float: left;text-align: left;">Do you hate XML?</h1><p style="width: 38%; float: left;text-align: right"><em><strong>Sigfrid Lundberg's Stuff 2010-07-29</strong></em><br/><br/><a class="addthis_button" addthis:title="Do you hate XML?" addthis:url="http://sigfrid-lundberg.se/entries/2010/07/hate_xml/" href="http://www.addthis.com/bookmark.php?v=250&amp;pub=siggelundberg"><img src="http://s7.addthis.com/static/btn/v2/lg-share-en.gif" width="125" height="16" alt="Bookmark and Share" style="border:0"/></a><script type="text/javascript" src="http://s7.addthis.com/js/250/addthis_widget.js?pub=siggelundberg">
+		</script></p><div style="clear:both">
+	    </div>
+    <div>
+
+      <p>I've spent much of the last fifteen years working on problems related
+      to interoperability, portability and longevity of data, and in
+      particular metadata in a librar context. During these years I've been
+      working a lot with XML.</p>
+
+      <p>Early on I evangelized about XML with the fervour of a taleban. I
+      suppose that I contributed to the four or five years of XML hype that
+      started at the turn of the century and culminated 2004 - 2005
+      (cf. Figure 1, and Edd Dumbill's <a href="http://www.xml.com/pub/a/2004/11/03/deviant.html">How Do I Hate
+      Thee?</a>). Since then I've become more moderate, but still embrace XML
+      as the preferred tool for the modelling of data.</p>
+
+      <div style="float:left;width:65%;margin-right:0.5em;margin-left:0.5em;">
+	<a href="http://sigfrid-lundberg.se/entries/2010/07/hate_xml/hate_xml.png">
+	  <img src="/entries/2010/07/hate_xml/hate_xml.png" width="100%" alt="Hate XML web pages"/>
+	</a>
+	<p>
+	  <small>Figure 1. The number of web pages appearing per year
+	  containing the phrase <strong><q>hate xml</q></strong>. There is a
+	  steep increase in occurence a few year after the Applied XML
+	  Developer's Conference 2004. After that it seems to level
+	  off.</small>
+	</p>
+	<p>
+	  <small>The data points represents hits pooled for two year periods
+	  graphed against the first of january the second year in each
+	  period.</small>
+	</p>
+	<p>
+	  <small>Because of the way Google works, the date searches mostly
+	  hits blog entries and other syndicated material, where publication
+	  date and other metadata are known. The earliest occurence is from
+	  2001.</small>
+	</p>
+      </div>
+
+      <p>Once you have grasped a technology you cannot keep up strong
+      emotions, at least not positive ones. You see both the shortcomings and
+      the advantages. Possibly you can become more negative as time goes
+      by. Or that is my personal experience. I think that our relations to our
+      technologies is a bit like human relations. There is an early period
+      when you fall in love. Then if you're lucky there is a long period of
+      friendship and love of another deeper kind that may last much
+      longer.</p>
+
+      <p>Already year 2000 a friend of mine described his relation to XML as
+      <q>angle bracket fatique</q>, which I suppose is to be understood as
+      <q>I hate typing XML, since its syntax is just terrible</q>.</p>
+
+      <div style="float:right;width:65%;margin-right:0.5em;margin-left:0.5em;">
+	<a href="http://sigfrid-lundberg.se/entries/2010/07/hate_xml/report_hate_xml.png"><img src="/entries/2010/07/hate_xml/report_hate_xml.png" width="100%" alt="Search interest for &quot;hate xml&quot; in Google 2004-2010"/></a>
+	<p>
+	  <small>Figure 2. Search interest in Google for the term
+	  <strong><q>hate xml</q></strong>. There are hardly any connection
+	  between the change in occurrence of the <q>hate xml</q>-emotions and
+	  search interest. People seem search for the term a few years after they
+	  wrote about it.</small>
+	</p>
+      </div>
+
+      <h3><q>Developers hate XML</q></h3>
+
+      <p>Year 2004, <a href="http://www.sellsbrothers.com/">sellsbrothers.com</a> convened an
+      <a href="http://www.devsource.com/c/a/Techniques/Programming-Guidance-from-the-Uumlbergeeks/">Applied
+      XML Developer's Conference</a>. I cannot recollect that I heard of that
+      conference at the time, but there was one contribution which got quite
+      some attention around in the blogosphere. It was by Chris Anderson (AKA
+      <a href="http://www.simplegeek.com/">SimpleGeek</a>) who gave the
+      presentation <q>Developers Hate XML</q>. I haven't found the slides on
+      the net. However, <a href="http://www.jeff-barr.com/?p=80">Jeff Barr</a>
+      summarizes as follows</p>
+
+      <blockquote>
+	<em>Chris’s big beef with XML is that XML must be processed in
+	isolation, using special purpose tools and languages such as XSLT. In
+	order to use these special things, <strong>developers must become
+	domain experts</strong></em> [my emphasis] <em>in a rich and complex
+	space that is essentially unrelated to the application itself.</em>
+      </blockquote>
+
+      <p>I think Chris (and Jeff) points out something important here. Many
+      developers are interested in programming and computing, but not
+      necessarily application areas. To parse and make something meaningful
+      out of, say, bibliographical records or encoded text requires that you
+      are actually interested in those areas. The same is true for fluid
+      mechanics and natural language processing. Interest in partial
+      differential equations and lingustics, respectively, will help.</p>
+
+      <p>I cannot see any difference here between XML and SQL in this
+      respect. Any tools for object-relational modeling is subject to the same
+      problems. The developers that do the modelling has to become domain
+      experts. This is fairly obvious for XML and less so for SQL. While few
+      people form large scale standardization efforts for XML schemas, they
+      hardly do so for RDBMS Schemas. </p>
+
+      <p>What XML technologies provide that RDBMSs don't is an interoperable
+      transfer syntax. Which I suppose is the reason why most XML in the world
+      is stored in, well, RDBMSs.</p>
+
+      <h3>On hatred</h3> 
+
+      <p>I cannot recall that I've ever written somewhere that I hate someone
+      or even something.  I feel that hatred is emotional and irrational. It
+      may be a difference between languages and cultures, though; it can also
+      be a question of semantic inflation.</p>
+
+      <p>When we Scandinavians say that we hate something, we mean it.  I'm
+      not sure that that's the case in the anglo-american sphere, and I'm not
+      even certain that's the case for young Scandinavians.  However, when
+      you're a middle-aged academic and intellectual, you may not think it's
+      appropriate to hate. Or, at least, you may not think that it's
+      appropriate to describe your dislikes and annoyances as hatred.</p>
+
+      <p>I have tried, a lot, to find out what people think about technologies
+      such as XML, SQL, noSQL etc. Here both love and hatred are used as code
+      words. People hate (or love) XML the same way they love (or hate) bebop,
+      pop or hip hop music. Not the way they love their children, wife or
+      mother.</p>
+
+    </div> 
+  <div style="clear:both"> 
+	    </div><div id="disqus_thread">
+	    </div><p style="margin-left:+1%;"><a href="http://disqus.com" class="dsq-brlink">blog comments powered
+	    by <span class="logo-disqus">Disqus</span></a></p></div><script type="text/javascript" src="http://disqus.com/forums/sigfridlundbergsstuff/embed.js">
+	  </script><noscript><a href="http://sigfridlundbergsstuff.disqus.com/?url=http://sigfrid-lundberg.se/entries/2010/07/hate_xml/">
+	      View the discussion thread
+	  </a></noscript><script type="text/javascript">//<!--
+	  (function() {
+	      var links = document.getElementsByTagName('a');
+	      var query = '?';
+	      for(var i = 0; i < links.length; i++) {
+		  if(links[i].href.indexOf('#disqus_thread') >= 0) {
+		      query += 'url' + i + '=' + encodeURIComponent(links[i].href) + '&';
+		  }
+	      }
+	      document.write('<script charset="utf-8" type="text/javascript" src="http://disqus.com/forums/sigfridlundbergsstuff/get_num_replies.js' + query + '"></' + 'script>');
+	  })();
+	  //--></script><!--#include virtual="/js/urchin.js" --></body></html>
