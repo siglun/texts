@@ -3,17 +3,18 @@
   <author>
     <name>Sigfrid Lundberg</name>
   </author>
-  <title>Why do I keep this site?</title>
+  <title>Why a new camera?</title>
   <link href="/entries/2010/08/m43/"/>
-  <summary>Having had a web site for about 15 years, I start to wonder why I
-  keep it in the first place.</summary>
+  <summary>I've boughyt a new camera. And I'm just very enthusiastic</summary>
   <content type="xhtml">
     <div xmlns="http://www.w3.org/1999/xhtml">
 
     </div>
   </content>
   <dc:date>2010</dc:date>
-  <category label="structuralwebdesign" term="Structural web design"/>
+  <category label="hardware" term="Hardware"/>
+  <category label="images" term="Images"/>
   <updated>2010-08-29T14:18:28+01:00</updated>
   <id>http://www.sigfrid-lundberg.se/entries/2010/08/m43/</id>
+  <!-- $Id$ -->
 </entry>
