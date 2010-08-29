@@ -1,11 +1,11 @@
 <div xmlns="http://www.w3.org/1999/xhtml">
   <div>
-    <h1 style="font-family: sans-serif; width: 55%; float: left;text-align: left;">Do you hate XML?</h1>
+    <h1 style="font-family: sans-serif; width: 55%; float: left;text-align: left;">I ditched my SLR, my camera phone but not my lenses</h1>
     <p style="width: 38%; float: left;text-align: right">
       <em>
         <strong>
 		Sigfrid Lundberg's Stuff,
-	      2010-07-29</strong>
+	      2010-08-29</strong>
       </em>
     </p>
   </div>
@@ -13,136 +13,234 @@
   <div style="width:100%;">
     <div>
 
-      <p>I've spent much of the last fifteen years working on problems related
-      to interoperability, portability and longevity of data, and in
-      particular metadata in a librar context. During these years I've been
-      working a lot with XML.</p>
+      <p>I have just recently bought a new digital camera, one of the new
+      Electronic Viewfinder Interchangable Lens (EVIL) ones. Actually one that
+      embodies all the <a href="http://www.wired.com/gadgetlab/2010/01/five-reasons-you-should-ditch-your-dslr/">5
+      Reasons to Ditch Your Digital SLR</a>. It is an Olympus PEN E-P 2, 
+      a second generation <a href="http://en.wikipedia.org/wiki/Micro_Four_Thirds_system">Micro Four
+      Thirds</a> camera.</p>
 
-      <p>Early on I evangelized about XML with the fervour of a taleban. I
-      suppose that I contributed to the four or five years of XML hype that
-      started at the turn of the century and culminated 2004 - 2005
-      (cf. Figure 1, and Edd Dumbill's <a href="http://www.xml.com/pub/a/2004/11/03/deviant.html">How Do I Hate
-      Thee?</a>). Since then I've become more moderate, but still embrace XML
-      as the preferred tool for the modelling of data.</p>
-
-      <div style="float:left;width:65%;margin-right:0.5em;margin-left:0.5em;">
-	<a href="http://sigfrid-lundberg.se/entries/2010/07/hate_xml/hate_xml.png">
-	  <img src="/entries/2010/07/hate_xml/hate_xml.png" width="100%" alt="Hate XML web pages"/>
+      <div style="float:left;width:370px;margin-right:0.5em;margin-left:0.5em;">
+	<a href="http://sigfrid-lundberg.se/entries/2010/08/m43/CIMG1545.JPG">
+	  <img src="http://sigfrid-lundberg.se/entries/2010/08/m43/camera_familly_annotated.jpg" width="100%" alt="Camera equipment"/>
 	</a>
-	<p>
-	  <small>Figure 1. The number of web pages appearing per year
-	  containing the phrase <strong><q>hate xml</q></strong>. There is a
-	  steep increase in occurence a few year after the Applied XML
-	  Developer's Conference 2004. After that it seems to level
-	  off.</small>
-	</p>
-	<p>
-	  <small>The data points represents hits pooled for two year periods
-	  graphed against the first of january the second year in each
-	  period.</small>
-	</p>
-	<p>
-	  <small>Because of the way Google works, the date searches mostly
-	  hits blog entries and other syndicated material, where publication
-	  date and other metadata are known. The earliest occurence is from
-	  2001.</small>
-	</p>
+	<small>
+	  <p>Figure 1. My two two cameras with accessories. The equipment on
+	  the image are:</p>
+	  <ol>
+	    <li>Zuiko Digital 14-42mm F3.5-5.6</li>
+	    <li>Olympus PEN E-P 2 body</li>
+	    <li>Voigtländer Nikon F mount to Micro 4/3 adapter</li>
+	    <li>Nikon Macro Extension Tube</li>
+	    <li>Nikon F body with serial number in 656* number, implying that
+	    it was <a href="http://www.destoutz.ch/typ_production_data_f.html">Aug 1964
+	    to DEc 1964</a></li>
+	    <li>Nikon lens hood</li>
+	    <li><a href="http://www.destoutz.ch/lens_35mm_f2_690117.html">NIKKOR-O
+	    Auto 1:2 f=35mm</a></li>
+	    <li><a href="http://www.destoutz.ch/lens_135mm_f3.5_959014.html">NIKKOR-Q Auto 1:3.5 f=135mm</a></li>
+	    <li>Nikon Macro Fold Bellow</li>
+	    <li>Original package for the bellow</li>
+	  </ol>
+	  <p>I also have an early <a href="http://www.mir.com.my/michaeliu/cameras/nikonf/ffinders/fmeterprism.htm">Nikon
+	  Photomic viewfinder</a>, but is lives somewhere in a cupboard
+	  together with my <a href="http://www.flickr.com/photos/anssipuisto/4059736964/">Gossen
+	  Variosix light meter</a>. Nikon F, configured in the image, is
+	  capable of flash synchronization. That is the <em>only</em>
+	  electronics it has.
+	  </p>
+	</small>
       </div>
 
-      <p>Once you have grasped a technology you cannot keep up strong
-      emotions, at least not positive ones. You see both the shortcomings and
-      the advantages. Possibly you can become more negative as time goes
-      by. Or that is my personal experience. I think that our relations to our
-      technologies is a bit like human relations. There is an early period
-      when you fall in love. Then if you're lucky there is a long period of
-      friendship and love of another deeper kind that may last much
-      longer.</p>
+      <h3>How I ditched my SLR</h3>
 
-      <p>Already year 2000 a friend of mine described his relation to XML as
-      <q>angle bracket fatique</q>, which I suppose is to be understood as
-      <q>I hate typing XML, since its syntax is just terrible</q>.</p>
+      <p>One could say that I've ditched my SLR, but that I did very long
+      ago.</p>
 
-      <div style="float:right;width:65%;margin-right:0.5em;margin-left:0.5em;">
-	<a href="http://sigfrid-lundberg.se/entries/2010/07/hate_xml/report_hate_xml.png"><img src="/entries/2010/07/hate_xml/report_hate_xml.png" width="100%" alt="Search interest for &quot;hate xml&quot; in Google 2004-2010"/></a>
+      <p>I've been interested in photography since I was a teenager. My father
+      was a printer and he had a workshop where I worked during summer
+      holidays. When I was thirteen or fourteen I used my savings together
+      with some extra support from my parents to by a Nikon F single-lens
+      reflex camera. This must have been 1969-70. I still keep this treasure,
+      but the configuration has improved. The original 50 mm F1.4 lens was
+      replaced with a 35mm wide angle and a 135m tele lens. My Nikon stuff are
+      items number 4-10 in Figure 1.</p>
+
+      <p>During the mid eighties I lost my interest in photography, but it was
+      (kind of) revitalized when our two children were born 1988-89. That lead
+      to the acquisition of an easy to use 35mm compact camera, which could be
+      carried a pocket and swiftly pulled out to document the various
+      milestones in the kids development.</p>
+
+      <p>More recently my wife and myself decided, I'd say less than five
+      years ago, that the time was ripe to buy a digital camera. A bit later
+      still we acquired smarter phones. The digital camera was actually a
+      really good one. I used it to take the snap shot in Figure 1. The phone
+      caused a new development I hadn't expected.</p>
+
+      <div style="float:right;width:364px;margin-right:0.5em;margin-left:0.5em;">
+	<a href="http://sigfrid-lundberg.se/entries/2010/08/m43/20100710_040_smaller.jpg">
+	  <img src="http://sigfrid-lundberg.se/entries/2010/08/m43/20100710_040_smaller.jpg" width="100%" alt="Glumslöv &amp; Alabodarna, Skåne, Sweden"/>
+
+	</a>
+
 	<p>
-	  <small>Figure 2. Search interest in Google for the term
-	  <strong><q>hate xml</q></strong>. There are hardly any connection
-	  between the change in occurrence of the <q>hate xml</q>-emotions and
-	  search interest. People seem search for the term a few years after they
-	  wrote about it.</small>
+	  <small>Figure 2. A summer view. This is one of the really beautiful
+	  <a href="http://maps.google.com/maps?hl=en&amp;q=Glumsl%C3%B6v,+Sweden&amp;ie=UTF8&amp;cd=1&amp;geocode=FUioVQMdCGLDAA&amp;split=0&amp;sll=37.0625,-95.677068&amp;sspn=23.875,57.630033&amp;hq=&amp;hnear=Glumsl%C3%B6v,+Landskrona,+Sk%C3%A5ne,+Sweden&amp;ll=55.929202,12.790146&amp;spn=0.019907,0.055189&amp;t=h&amp;z=14">places
+	  along the Strait of Øresund</a>. I think myself that this is a nice
+	  picture taken with my <a href="http://sigfrid-lundberg.se/entries/2010/05/n900/">mobile
+	  phone</a>. It is nice from almost all perspective except the
+	  technical ones. I blame on the digital zoom, but excuses cannot
+	  change the fact that the poor image quality masks all the other
+	  qualities of the image.</small>
 	</p>
+
       </div>
 
-      <h3><q>Developers hate XML</q></h3>
+      <h3>How I ditched my camera phone</h3>
 
-      <p>Year 2004, <a href="http://www.sellsbrothers.com/">sellsbrothers.com</a> convened an
-      <a href="http://www.devsource.com/c/a/Techniques/Programming-Guidance-from-the-Uumlbergeeks/">Applied
-      XML Developer's Conference</a>. I cannot recollect that I heard of that
-      conference at the time, but there was one contribution which got quite
-      some attention around in the blogosphere. It was by Chris Anderson (AKA
-      <a href="http://www.simplegeek.com/">SimpleGeek</a>) who gave the
-      presentation <q>Developers Hate XML</q>. I haven't found the slides on
-      the net. However, <a href="http://www.jeff-barr.com/?p=80">Jeff Barr</a>
-      summarizes as follows</p>
+      <p>Once I has a serious interest in photography. I lost that. I have
+      still all darkroom equipment in a few cardboard boxes in the
+      basement.</p>
 
-      <blockquote>
-	<em>Chris’s big beef with XML is that XML must be processed in
-	isolation, using special purpose tools and languages such as XSLT. In
-	order to use these special things, <strong>developers must become
-	domain experts</strong></em> [my emphasis] <em>in a rich and complex
-	space that is essentially unrelated to the application itself.</em>
-      </blockquote>
+      <p>The phone changed everything. I continuously carried around (what I
+      used to regard as a) decent camera. All the images I've recently <a href="http://sigfrid-lundberg.se/subjects/images/">put on this site</a>
+      are taken with my phone. I started to think of image composition rules
+      again.</p>
+      
+      <p>Now, web images are one thing. High resolution things you can print
+      large copies to put on your wall is something else. Now, I copied some
+      images to an USB stick had the local photo store enlarge them to
+      20x30cm. Figure 2 was one of the images. When I did this, I hadn't
+      looked at the image in any other way than in the phone's viewer.</p>
 
-      <p>I think Chris (and Jeff) points out something important here. Many
-      developers are interested in programming and computing, but not
-      necessarily application areas. To parse and make something meaningful
-      out of, say, bibliographical records or encoded text requires that you
-      are actually interested in those areas. The same is true for fluid
-      mechanics and natural language processing. Interest in partial
-      differential equations and lingustics, respectively, will help.</p>
+      <div style="float:left;width:364px;margin-right:0.5em;margin-left:0.5em;">
+	<a href="http://sigfrid-lundberg.se/entries/2010/08/m43/20100819_001_smaller.jpg">
+	  <img src="http://sigfrid-lundberg.se/entries/2010/08/m43/20100819_001_smaller.jpg" width="100%" alt="My Olympus PEN, equiped with the NIKKOR-O      Auto 1:2 f=35mm"/>
 
-      <p>I cannot see any difference here between XML and SQL in this
-      respect. Any tools for object-relational modeling is subject to the same
-      problems. The developers that do the modelling has to become domain
-      experts. This is fairly obvious for XML and less so for SQL. While few
-      people form large scale standardization efforts for XML schemas, they
-      hardly do so for RDBMS Schemas. </p>
+	</a>
 
-      <p>What XML technologies provide that RDBMSs don't is an interoperable
-      transfer syntax. Which I suppose is the reason why most XML in the world
-      is stored in, well, RDBMSs.</p>
+	<p>
+	  <small>Figure 3. My Olympus PEN, equiped with the NIKKOR-O Auto 1:2
+	  f=35mm using the Voigtländer adapter. See Figure 1 for the details
+	  on the various items.</small>
+	</p>
 
-      <h3>On hatred</h3> 
+      </div>
 
-      <p>I cannot recall that I've ever written somewhere that I hate someone
-      or even something.  I feel that hatred is emotional and irrational. It
-      may be a difference between languages and cultures, though; it can also
-      be a question of semantic inflation.</p>
+      <p>I just cannot tell how disappointed I was with the result. This,
+      however, coincided with me something else. I brought all my
+      photographical chemicals to the deposit for environmentally hazardous
+      chemicals.</p>
 
-      <p>When we Scandinavians say that we hate something, we mean it.  I'm
-      not sure that that's the case in the anglo-american sphere, and I'm not
-      even certain that's the case for young Scandinavians.  However, when
-      you're a middle-aged academic and intellectual, you may not think it's
-      appropriate to hate. Or, at least, you may not think that it's
-      appropriate to describe your dislikes and annoyances as hatred.</p>
+      <h3>Micro four thirds</h3>
 
-      <p>I have tried, a lot, to find out what people think about technologies
-      such as XML, SQL, noSQL etc. Here both love and hatred are used as code
-      words. People hate (or love) XML the same way they love (or hate) bebop,
-      pop or hip hop music. Not the way they love their children, wife or
-      mother.</p>
+      <p>I felt that I somehow had lost a way to express myself. I became
+      obsessed with the thought of a really good camera which I could carry
+      around without any effort. I found the Olympus PEN in the local Photo
+      Store. It is a real beauty, with the right feeling. I suppose it is all
+      plastic, but it doesn't feel like it.</p>
+
+      <p>The decisive point was all the communities where people mentioned all
+      the wonderful lenses they are able to put on these cameras. That is a
+      virtue of standardization.</p>
+
+      <div style="float:right;width:364px;margin-right:0.5em;margin-left:0.5em;">
+
+	<p style="float:right;">(a)</p>
+	<a href="http://sigfrid-lundberg.se/entries/2010/08/m43/P8180368_detail.jpg">
+	  <img src="http://sigfrid-lundberg.se/entries/2010/08/m43/P8180368_detail_smaller.jpg" width="364px" alt="My Olympus PEN, equiped with the NIKKOR-O Auto 1:2 f=35mm"/>
+
+	</a>
+
+	<p style="float:right;">(b)</p>
+	<a href="http://sigfrid-lundberg.se/entries/2010/08/m43/P8180369_detail.jpg">
+	  <img src="http://sigfrid-lundberg.se/entries/2010/08/m43/P8180369_detail_smaller.jpg" width="364px" alt="My Olympus PEN, equiped with the NIKKOR-O Auto 1:2 f=35mm"/>
+
+	</a>
+
+	<p>
+	  <small>Figure 4. Now I have again controll. These two details are my
+	  Nikon F body photographed with the configuration you see in Figure
+	  2. In (a) I have at least tried to focus on <q>Nikon</q>, whereas in
+	  (b) the focus is on <q>3.5</q> on the 135mm lens.</small>
+	</p>
+
+      </div>
+
+      <p>However, there are not that many different kinds of lenses available,
+      but there are a <a href="http://www.cameraquest.com/adp_micro_43.htm">large number of
+      adapters</a>. Leica, Nikon and all other kinds of lenses are now used
+      successfully and there are people whose interest in photography seems to
+      boil down to find obscure lenses to fit on their micro 4/3 shooters. For
+      instance, there are a lot of <a href="http://asia.cnet.com/reviews/digitalcameras/0,39001469,62061468,00.htm">C-mount</a>
+      video and cinematic lenses available. One example is the <a href="http://www.flickr.com/photos/coyanis/4337508202/">P. Angenieux
+      25mm/f0.95</a> from the early sixties and originally a professional cine
+      lens.</p>
+
+      <p>Believe me, eBay has got an entirely new segment of lens
+      collectors.</p>
+
+      <h3>My NIKKOR lenses</h3>
+
+      <p>I suppose that you've already realized that when you put a vintage
+      SLR lens on a modern digital camera there are things you loose. You use
+      them with fixed aperture and the camera choose the exposure. This is
+      better than what I'm used to. I don't need to bring use my <a href="http://www.flickr.com/photos/anssipuisto/4059736964/">Gossen
+      Variosix light meter</a>. Also, you have to focus manually.</p>
+
+      <p>The interesting effect of the m4/3 architecture is that my NIKKOR-O
+      35mm, which used to be my wide angle lens back in the seventies, is now
+      a short telephoto lens. It is the equivalent of a 70mm lens and ideal
+      for landscapes and portraits.</p>
+
+      <p>In addition, its maximum aperture 2.0 is
+      much better than what you get today in the kit zoom lens of an ordinary
+      DSLR. With the wide aperture that lens gives me the possibilty to focus
+      on a just a part of an image leave an unsharp back- or forground (Figure
+      4).</p>
+
+      <div style="float:left;width:364px;margin-right:0.5em;margin-left:0.5em;">
+	<a href="http://sigfrid-lundberg.se/entries/2010/08/m43/P8230492.JPG">
+	  <img src="http://sigfrid-lundberg.se/entries/2010/08/m43/P8230492_smaller.JPG" width="364px" alt="A fountain in Central Park, Lund, Sweden"/>
+
+	</a>
+	<p><small>Figure 5. A fountain in Central Park, Lund, Sweden. An early
+	morning, taken with the Olympus PEN kit zoom Zuiko Digital 14-42mm
+	F3.5-5.6, which is really nice lens. The camera as it is delivered is
+	really good, even without vintage equipment.</small></p>
+      </div>
+
+      <p>My NIKKOR-Q 135mm 1:3.5 is also capable collecting more light than
+      most modern zoom lenses. When I bought it, this was regarded as a poor
+      lens in this respect. On the other hand, I wouldn't even dream of a zoom
+      at the time. The 135mm lens is more difficult to use than the 35mm
+      one. It is heavier, naturally, than the other lenses and it is not that
+      easy to focus. To increase the success rate, I'm considering to bring my
+      tripod, but then the equipment isn't that portable anymore.</p>
+
+      <h3>The Olympus lens</h3>
+
+      <p>I don't have more than the original Zuiko Digital kit lens (See
+      Figure 5). It is a very nice and light lense and with it, the e-p2 is
+      almost as light as any compact camera.</p>
 
     </div>
     <br clear="all"/>
     <p style="text-align: left;"><em><strong>Categories:</strong></em> 
-	  <a href="/subjects/xmltechnologies/">XML technologies</a><br/><em><strong>
+	  <a href="/subjects/hardware/">Hardware</a>,
+	    <a href="/subjects/images/">Images</a><br/><em><strong>
 		Permalink:
-	      </strong></em><a rel="bookmark" href="/entries/2010/07/hate_xml/">http://sigfrid-lundberg.se/entries/2010/07/hate_xml/</a></p>
+	      </strong></em><a rel="bookmark" href="/entries/2010/08/m43/">http://sigfrid-lundberg.se/entries/2010/08/m43/</a></p>
     <hr width="50%" align="center"/>
   </div>
   <div>
     <h1>Other, not yet obsolete stuff</h1>
     <table class="news">
+      <tr>
+        <td class="left">2010</td>
+        <td class="left"><a href="/entries/2010/07/hate_xml/"><em>Do you hate XML?</em></a><br/>Does developers really dislike XML? If they do, why and how much<br/><a href="/subjects/xmltechnologies/">XML technologies</a></td>
+      </tr>
       <tr>
         <td class="left">2010</td>
         <td class="left"><a href="/entries/2010/06/frontiers/"><em>Skirmishes along the boarder of the PC</em></a><br/>The PC was defined by IBM and Microsoft. Who defines it
@@ -170,13 +268,6 @@
         <td class="left">2010</td>
         <td class="left"><a href="/entries/2010/04/bells/"><em>Bell's Books</em></a><br/>I bought three books at Bell's Books, 536 Emerson Street, Palo
   Alto<br/><a href="/subjects/stories/">Stories</a></td>
-      </tr>
-      <tr>
-        <td class="left">2010</td>
-        <td class="left"><a href="/entries/2010/05/tabletsagain/"><em>Will the tablets change the world?</em></a><br/>I have previously discussed the impact of the tablet computer, an
-  in particular iPad, and described how I've acqired one myself. Here I give
-  some further pointers on the subject.<br/><a href="/subjects/hardware/">Hardware</a>,
-	<a href="/subjects/media/">Media</a></td>
       </tr>
     </table>
   </div>
