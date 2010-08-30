@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <html xmlns="http://www.w3.org/1999/xhtml"><head><title>Digital humanities: Sigfrid Lundberg's Stuff
 	    </title><meta http-equiv="Content-Type" content="text/html;charset=UTF-8"/><script src="/js/navigation.js" type="text/javascript"> 
-	      </script><link href="http://feeds.feedburner.com/SigfridLundbergsStuff?format=xml" type="application/atom+xml" title="Sigfrid Lundberg's Stuff" rel="alternate"/><link href="http://sigfridlundbergsstuff.disqus.com/latest.rss" type="application/rss+xml" title="Latest Comments" rel="alternate"/><meta http-equiv="Content-Type" content="text/html;charset=UTF-8"/><link rel="stylesheet" href="/css-style/html.css"/></head><body><div class="left_box"><div style="text-align:left;width=90%;"><!--#include virtual="/div_top_left_box.xml" --></div><div style="text-align:left;width=90%;"><p><a href="/">Home</a><br/><a href="http://feeds.feedburner.com/SigfridLundbergsStuff?format=xml" type="application/atom+xml" class="feed-link"><img src="/images/Newsfeed-Atom.png" alt="Subscribe to Stuff from Sigfrid Lundberg" border="0"/>Subscribe to more Stuff</a><br/><a href="http://sigfridlundbergsstuff.disqus.com/latest.rss" type="application/rss+xml" class="feed-link"><img src="/images/Newsfeed-Atom.png" alt="Subscribe to Stuff from Sigfrid Lundberg" border="0"/>Subscribe to discussion feed</a></p><!--#include virtual="/subjects.xml" --><!--#include virtual="/me.xml" --></div></div><div class="right_box"><h1 style="width: 58%; float: left;text-align: left">Digital humanities</h1><p style="width: 38%; float: left;text-align: right"><em><strong>Sigfrid Lundberg's Stuff</strong></em></p><div style="clear:both;"> </div><div style="width:100%;"><p><strong><a href="/2008">2008</a>: </strong><a href="/2008/clarin_adl/"><em>ADL i CLARIN-DK WP5</em></a><br/>En presentation jag höll om Arkiv før dansk litteratur (ADL)<br/><a href="/subjects/xmlprocessing/">XML processing</a>,
+	      </script><link href="http://feeds.feedburner.com/SigfridLundbergsStuff?format=xml" type="application/atom+xml" title="Sigfrid Lundberg's Stuff" rel="alternate"/><link href="http://sigfridlundbergsstuff.disqus.com/latest.rss" type="application/rss+xml" title="Latest Comments" rel="alternate"/><meta http-equiv="Content-Type" content="text/html;charset=UTF-8"/><link rel="stylesheet" href="/css-style/html.css"/></head><body><div class="left_box"><div style="text-align:left;width=90%;"><!--#include virtual="/div_top_left_box.xml" --></div><div style="text-align:left;width=90%;"><p><a href="/">Home</a><br/><a href="http://feeds.feedburner.com/SigfridLundbergsStuff?format=xml" type="application/atom+xml" class="feed-link"><img src="/images/Newsfeed-Atom.png" alt="Subscribe to Stuff from Sigfrid Lundberg" border="0"/>Subscribe to more Stuff</a><br/><a href="http://sigfridlundbergsstuff.disqus.com/latest.rss" type="application/rss+xml" class="feed-link"><img src="/images/Newsfeed-Atom.png" alt="Subscribe to Stuff from Sigfrid Lundberg" border="0"/>Subscribe to discussion feed</a></p><!--#include virtual="/subjects.xml" --><!--#include virtual="/me.xml" --></div></div><div class="right_box"><h1 style="width: 58%; float: left;text-align: left">Digital humanities</h1><p style="width: 38%; float: left;text-align: right"><em><strong>Sigfrid Lundberg's Stuff</strong></em></p><div style="clear:both;"> </div><div style="width:100%;"><p>2008: <a href="/2008/clarin_adl/"><em>ADL i CLARIN-DK WP5</em></a><br/>En presentation jag höll om Arkiv før dansk litteratur (ADL)<br/><a href="/subjects/xmlprocessing/">XML processing</a>,
 	<a href="/subjects/textencoding/">Text encoding</a>,
 	<a href="/subjects/ehumanities/">Digital humanities</a>,
-	<a href="/subjects/musiclanglit/">Music, language &amp; literature</a></p><p><strong><a href="/2008">2008</a>: </strong><a href="/2008/dighum/digital_humanities.xml"><em>Digital Humanities Infrastructures</em></a><br/>This note discusses different initiatives as regards providing
+	<a href="/subjects/musiclanglit/">Music, language &amp; literature</a>, <a href="/2008">2008</a></p><p>2008: <a href="/2008/dighum/digital_humanities.xml"><em>Digital Humanities Infrastructures</em></a><br/>This note discusses different initiatives as regards providing
     access to resources and tools aimed at researchers within the
     humanities. Since the general breakthrough of search services like Google,
     annotation and bookmarking services like del.icio.us and the like, the
@@ -15,7 +15,7 @@
     that it is possible to formalize many humanities computing tasks as
     pipelines between XML processing steps.<br/><a href="/subjects/xmlprocessing/">XML processing</a>,
 	<a href="/subjects/textencoding/">Text encoding</a>,
-	<a href="/subjects/ehumanities/">Digital humanities</a></p><p><strong><a href="/2002">2002</a>: </strong><a href="/2002/DRH2002/toc.html"><em>Lecture notes: S:t Laurentius Digital Manuscript Library</em></a><br/>In this lecture, I discussed the
+	<a href="/subjects/ehumanities/">Digital humanities</a>, <a href="/2008">2008</a></p><p>2002: <a href="/2002/DRH2002/toc.html"><em>Lecture notes: S:t Laurentius Digital Manuscript Library</em></a><br/>In this lecture, I discussed the
     experiences gained by the development of a specific service, which, using
     a collection of detailed XML descriptions, provides its users access to a
     collection of digitized medieval manuscripts.  Secondly, I discussed the
@@ -27,7 +27,7 @@
     protocol.<br/><a href="/subjects/xmlprocessing/">XML processing</a>,
 	<a href="/subjects/metadata/">Metadata</a>,
 	<a href="/subjects/ehumanities/">Digital humanities</a>,
-	<a href="/subjects/digitization/">Digitization</a></p><p><strong><a href="/2002">2002</a>: </strong><a href="/2002/Laurentius/laurentius.pdf"><em>S:t Laurentius Digital Manuscript Library: An excursion along the
+	<a href="/subjects/digitization/">Digitization</a>, <a href="/2002">2002</a></p><p>2002: <a href="/2002/Laurentius/laurentius.pdf"><em>S:t Laurentius Digital Manuscript Library: An excursion along the
     border between resource discovery and resource description</em></a><br/>This note has three aims. First it discusses the experiences
     gained by the development of a specific service, which, using a collection
     of detailed XML descriptions, provides its users access to a collection
@@ -40,4 +40,4 @@
 	<a href="/subjects/textencoding/">Text encoding</a>,
 	<a href="/subjects/metadata/">Metadata</a>,
 	<a href="/subjects/ehumanities/">Digital humanities</a>,
-	<a href="/subjects/digitization/">Digitization</a></p></div></div><!--#include virtual="/js/urchin.js" --></body></html>
+	<a href="/subjects/digitization/">Digitization</a>, <a href="/2002">2002</a></p></div></div><!--#include virtual="/js/urchin.js" --></body></html>
