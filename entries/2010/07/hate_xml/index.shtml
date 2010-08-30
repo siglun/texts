@@ -21,7 +21,7 @@
 
       <div style="float:left;width:65%;margin-right:0.5em;margin-left:0.5em;">
 	<a href="http://sigfrid-lundberg.se/entries/2010/07/hate_xml/hate_xml.png">
-	  <img src="/entries/2010/07/hate_xml/hate_xml.png" width="100%" alt="Hate XML web pages"/>
+	  <img src="http://sigfrid-lundberg.se/entries/2010/07/hate_xml/hate_xml.png" width="100%" alt="Hate XML web pages"/>
 	</a>
 	<p>
 	  <small>Figure 1. The number of web pages appearing per year
@@ -57,7 +57,8 @@
       <q>I hate typing XML, since its syntax is just terrible</q>.</p>
 
       <div style="float:right;width:65%;margin-right:0.5em;margin-left:0.5em;">
-	<a href="http://sigfrid-lundberg.se/entries/2010/07/hate_xml/report_hate_xml.png"><img src="/entries/2010/07/hate_xml/report_hate_xml.png" width="100%" alt="Search interest for &quot;hate xml&quot; in Google 2004-2010"/></a>
+	<a href="http://sigfrid-lundberg.se/entries/2010/07/hate_xml/report_hate_xml.png">
+	  <img src="http://sigfrid-lundberg.se/entries/2010/07/hate_xml/report_hate_xml.png" width="100%" alt="Search interest for &quot;hate xml&quot; in Google 2004-2010"/></a>
 	<p>
 	  <small>Figure 2. Search interest in Google for the term
 	  <strong><q>hate xml</q></strong>. There are hardly any connection
