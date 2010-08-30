@@ -190,14 +190,16 @@
 
     <p>
       <xsl:if test="$vocabulary = 'category'">
-	<strong>
-	  <xsl:element name="a">
-	    <xsl:attribute name="href">
-	      <xsl:value-of select="concat('/',dc:date)"/>
-	    </xsl:attribute>
-	    <xsl:value-of select="dc:date"/>
-	    </xsl:element><xsl:text>: </xsl:text>
-	</strong>
+	<xsl:choose>
+	  <xsl:when test="dc:date &lt; 2009">
+	    <xsl:value-of 
+		select="dc:date"/><xsl:text>: </xsl:text>
+	  </xsl:when>
+	  <xsl:otherwise>
+	    <xsl:value-of 
+		select="substring-before(f:updated,'T')"/><xsl:text>: </xsl:text>
+	  </xsl:otherwise>
+	</xsl:choose>
       </xsl:if>
       <xsl:element name="a">
 	<xsl:attribute name="href">
@@ -219,6 +221,17 @@
 	  </xsl:element><xsl:if test="not(position()=last())"><xsl:text>,
 	</xsl:text></xsl:if>
       </xsl:for-each>
+
+      <xsl:if test="dc:date">
+	<xsl:if test="f:category">, </xsl:if>
+	<xsl:element name="a">
+	  <xsl:attribute name="href">
+	    <xsl:value-of select="concat('/',dc:date)"/>
+	  </xsl:attribute>
+	  <xsl:value-of select="dc:date" />
+	</xsl:element>
+      </xsl:if>
+
     </p>
   </xsl:template>
 
