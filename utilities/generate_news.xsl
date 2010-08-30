@@ -102,7 +102,8 @@
 
   <xsl:template match="f:entry">
     <td class="left">
-      <xsl:value-of select="dc:date"/>
+      <!--xsl:value-of select="dc:date"/-->
+      <xsl:value-of select="substring-before(f:updated,'T')"/>
     </td>
     <td class="left">
       <xsl:element name="a">
