@@ -17,7 +17,7 @@
       stuff by
       <a href="#open" onclick="closeopen('browsebycategory')">category</a> 
       ||
-      <a href="#open" onclick="closeopen('browsebydate')">date</a>
+      <a href="#open" onclick="closeopen('browsebydate')">year</a>
     </h3>
     <ul id="browsebycategory" style="display:block;">
       <xsl:for-each
