@@ -6,7 +6,66 @@
   <title>Sigfrid Lundberg's Stuff</title>
   <id>http://sigfrid-lundberg.se/files.atom</id>
   <link rel="self" href="http://feeds.feedburner.com/SigfridLundbergsStuff?format=xml"/>
-  <updated>2010-08-29T14:18:28+01:00</updated>
+  <updated>2010-08-31T08:13:20+01:00</updated>
+  <entry>
+  <author>
+    <name>Sigfrid Lundberg</name>
+  </author>
+  <title>Newsagent predictions</title>
+  <link href="http://sigfrid-lundberg.se/entries/2010/08/glossy/"/>
+  <summary>According to Wikipedia, a newsagent is the owner of a newsagent's
+  shop (or news stand in US English). The stock in his or her shop contains
+  items that are expected to interest the market.</summary>
+  <content type="xhtml">
+    <div xmlns="http://www.w3.org/1999/xhtml">
+      <p>According to Wikipedia, a newsagent is the owner of a newsagent's
+      shop (or news stand in US English). The stock in his or her shop
+      contains items that are expected to interest the market. Earlier this
+      year I realized that some of my <a href="http://sigfrid-lundberg.se/entries/2010/04/perl/">experience</a>
+      indeed were regarded as useful in more glossy contexts.</p>
+
+      <div style="float:right;width:370px;margin-right:0.5em;margin-left:0.5em;">
+	<a href="http://sigfrid-lundberg.se/entries/2010/08/glossy/20100831_004.jpg">
+          <img src="http://sigfrid-lundberg.se/entries/2010/08/glossy/20100831_004.jpg " width="100%" alt="Linux Format PHP Coding"/>
+        </a>
+      </div>
+
+      <p>All of a sudden Knoppix Admin and Linux Format PHP coding is Glossy.</p>
+
+      <div style="clear: both;">
+	<pre>
+	</pre>
+      </div>
+
+      <div style="float:left;width:370px;margin-right:0.5em;margin-left:0.5em;">
+	<a href="http://sigfrid-lundberg.se/entries/2010/08/glossy/20100831_005.jpg">
+          <img src="http://sigfrid-lundberg.se/entries/2010/08/glossy/20100831_005.jpg " width="100%" alt="Users &amp; Developers want to Master Linux Now"/>
+        </a>
+      </div>
+
+      <p>Users &amp; Developers want to Master Linux Now</p>
+
+      <div style="clear: both;">
+	<pre>
+	</pre>
+      </div>
+
+      <div style="float:right;width:370px;margin-right:0.5em;margin-left:0.5em;">
+	<a href="http://sigfrid-lundberg.se/entries/2010/08/glossy/20100831_006.jpg">
+          <img src="http://sigfrid-lundberg.se/entries/2010/08/glossy/20100831_006.jpg " width="100%" alt="Hidden away, there is a magazine for Office 2010"/>
+        </a>
+      </div>
+      <p>Hidden away, there is a magazine for Office 2010</p>
+
+    </div>
+  </content>
+  <dc:date>2010</dc:date>
+  <category label="media" term="Media"/>
+  <category label="software" term="Software"/>
+  <category label="images" term="Images"/>
+  <updated>2010-08-31T08:13:20+01:00</updated>
+  <id>http://www.sigfrid-lundberg.se/entries/2010/08/glossy/</id>
+</entry>
   <entry>
   <author>
     <name>Sigfrid Lundberg</name>

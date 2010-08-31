@@ -1,242 +1,75 @@
 <div xmlns="http://www.w3.org/1999/xhtml">
   <div>
-    <h1 style="font-family: sans-serif; width: 55%; float: left;text-align: left;">I ditched my SLR, my camera phone but not my lenses</h1>
+    <h1 style="font-family: sans-serif; width: 55%; float: left;text-align: left;">Newsagent predictions</h1>
     <p style="width: 38%; float: left;text-align: right">
       <em>
         <strong>
 		Sigfrid Lundberg's Stuff,
-	      2010-08-29</strong>
+	      2010-08-31</strong>
       </em>
     </p>
   </div>
   <div style="clear:both;"> </div>
   <div style="width:100%;">
     <div>
+      <p>According to Wikipedia, a newsagent is the owner of a newsagent's
+      shop (or news stand in US English). The stock in his or her shop
+      contains items that are expected to interest the market. Earlier this
+      year I realized that some of my <a href="http://sigfrid-lundberg.se/entries/2010/04/perl/">experience</a>
+      indeed were regarded as useful in more glossy contexts.</p>
 
-      <p>I have just recently bought a new digital camera, one of the new
-      Electronic Viewfinder Interchangable Lens (EVIL) ones. Actually one that
-      embodies all the <a href="http://www.wired.com/gadgetlab/2010/01/five-reasons-you-should-ditch-your-dslr/">5
-      Reasons to Ditch Your Digital SLR</a>. It is an Olympus PEN E-P 2, 
-      a second generation <a href="http://en.wikipedia.org/wiki/Micro_Four_Thirds_system">Micro Four
-      Thirds</a> camera.</p>
+      <div style="float:right;width:370px;margin-right:0.5em;margin-left:0.5em;">
+	<a href="http://sigfrid-lundberg.se/entries/2010/08/glossy/20100831_004.jpg">
+          <img src="http://sigfrid-lundberg.se/entries/2010/08/glossy/20100831_004.jpg " width="100%" alt="Linux Format PHP Coding"/>
+        </a>
+      </div>
+
+      <p>All of a sudden Knoppix Admin and Linux Format PHP coding is Glossy.</p>
+
+      <div style="clear: both;">
+	<pre>
+	</pre>
+      </div>
 
       <div style="float:left;width:370px;margin-right:0.5em;margin-left:0.5em;">
-	<a href="http://sigfrid-lundberg.se/entries/2010/08/m43/CIMG1545.JPG">
-	  <img src="http://sigfrid-lundberg.se/entries/2010/08/m43/camera_familly_annotated.jpg" width="100%" alt="Camera equipment"/>
-	</a>
-	<small>
-	  <p>Figure 1. My two two cameras with accessories. The equipment on
-	  the image are:</p>
-	  <ol>
-	    <li>Zuiko Digital 14-42mm F3.5-5.6</li>
-	    <li>Olympus PEN E-P 2 body</li>
-	    <li>Voigtländer Nikon F mount to Micro 4/3 adapter</li>
-	    <li>Nikon Macro Extension Tube</li>
-	    <li>Nikon F body with serial number in 656* number, implying that
-	    it was <a href="http://www.destoutz.ch/typ_production_data_f.html">Aug 1964
-	    to DEc 1964</a></li>
-	    <li>Nikon lens hood</li>
-	    <li><a href="http://www.destoutz.ch/lens_35mm_f2_690117.html">NIKKOR-O
-	    Auto 1:2 f=35mm</a></li>
-	    <li><a href="http://www.destoutz.ch/lens_135mm_f3.5_959014.html">NIKKOR-Q Auto 1:3.5 f=135mm</a></li>
-	    <li>Nikon Macro Fold Bellow</li>
-	    <li>Original package for the bellow</li>
-	  </ol>
-	  <p>I also have an early <a href="http://www.mir.com.my/michaeliu/cameras/nikonf/ffinders/fmeterprism.htm">Nikon
-	  Photomic viewfinder</a>, but is lives somewhere in a cupboard
-	  together with my <a href="http://www.flickr.com/photos/anssipuisto/4059736964/">Gossen
-	  Variosix light meter</a>. Nikon F, configured in the image, is
-	  capable of flash synchronization. That is the <em>only</em>
-	  electronics it has.
-	  </p>
-	</small>
+	<a href="http://sigfrid-lundberg.se/entries/2010/08/glossy/20100831_005.jpg">
+          <img src="http://sigfrid-lundberg.se/entries/2010/08/glossy/20100831_005.jpg " width="100%" alt="Users &amp; Developers want to Master Linux Now"/>
+        </a>
       </div>
 
-      <h3>How I ditched my SLR</h3>
+      <p>Users &amp; Developers want to Master Linux Now</p>
 
-      <p>One could say that I've ditched my SLR, but that I did very long
-      ago.</p>
-
-      <p>I've been interested in photography since I was a teenager. My father
-      was a printer and he had a workshop where I worked during summer
-      holidays. When I was thirteen or fourteen I used my savings together
-      with some extra support from my parents to by a Nikon F single-lens
-      reflex camera. This must have been 1969-70. I still keep this treasure,
-      but the configuration has improved. The original 50 mm F1.4 lens was
-      replaced with a 35mm wide angle and a 135m tele lens. My Nikon stuff are
-      items number 4-10 in Figure 1.</p>
-
-      <p>During the mid eighties I lost my interest in photography, but it was
-      (kind of) revitalized when our two children were born 1988-89. That lead
-      to the acquisition of an easy to use 35mm compact camera, which could be
-      carried a pocket and swiftly pulled out to document the various
-      milestones in the kids development.</p>
-
-      <p>More recently my wife and myself decided, I'd say less than five
-      years ago, that the time was ripe to buy a digital camera. A bit later
-      still we acquired smarter phones. The digital camera was actually a
-      really good one. I used it to take the snap shot in Figure 1. The phone
-      caused a new development I hadn't expected.</p>
-
-      <div style="float:right;width:364px;margin-right:0.5em;margin-left:0.5em;">
-	<a href="http://sigfrid-lundberg.se/entries/2010/08/m43/20100710_040_smaller.jpg">
-	  <img src="http://sigfrid-lundberg.se/entries/2010/08/m43/20100710_040_smaller.jpg" width="100%" alt="Glumslöv &amp; Alabodarna, Skåne, Sweden"/>
-
-	</a>
-
-	<p>
-	  <small>Figure 2. A summer view. This is one of the really beautiful
-	  <a href="http://maps.google.com/maps?hl=en&amp;q=Glumsl%C3%B6v,+Sweden&amp;ie=UTF8&amp;cd=1&amp;geocode=FUioVQMdCGLDAA&amp;split=0&amp;sll=37.0625,-95.677068&amp;sspn=23.875,57.630033&amp;hq=&amp;hnear=Glumsl%C3%B6v,+Landskrona,+Sk%C3%A5ne,+Sweden&amp;ll=55.929202,12.790146&amp;spn=0.019907,0.055189&amp;t=h&amp;z=14">places
-	  along the Strait of Øresund</a>. I think myself that this is a nice
-	  picture taken with my <a href="http://sigfrid-lundberg.se/entries/2010/05/n900/">mobile
-	  phone</a>. It is nice from almost all perspective except the
-	  technical ones. I blame on the digital zoom, but excuses cannot
-	  change the fact that the poor image quality masks all the other
-	  qualities of the image.</small>
-	</p>
-
+      <div style="clear: both;">
+	<pre>
+	</pre>
       </div>
 
-      <h3>How I ditched my camera phone</h3>
-
-      <p>Once I has a serious interest in photography. I lost that. I have
-      still all darkroom equipment in a few cardboard boxes in the
-      basement.</p>
-
-      <p>The phone changed everything. I continuously carried around (what I
-      used to regard as a) decent camera. All the images I've recently <a href="http://sigfrid-lundberg.se/subjects/images/">put on this site</a>
-      are taken with my phone. I started to think of image composition rules
-      again.</p>
-      
-      <p>Now, web images are one thing. High resolution things you can print
-      large copies to put on your wall is something else. Now, I copied some
-      images to an USB stick had the local photo store enlarge them to
-      20x30cm. Figure 2 was one of the images. When I did this, I hadn't
-      looked at the image in any other way than in the phone's viewer.</p>
-
-      <div style="float:left;width:364px;margin-right:0.5em;margin-left:0.5em;">
-	<a href="http://sigfrid-lundberg.se/entries/2010/08/m43/20100819_001_smaller.jpg">
-	  <img src="http://sigfrid-lundberg.se/entries/2010/08/m43/20100819_001_smaller.jpg" width="100%" alt="My Olympus PEN, equiped with the NIKKOR-O      Auto 1:2 f=35mm"/>
-
-	</a>
-
-	<p>
-	  <small>Figure 3. My Olympus PEN, equiped with the NIKKOR-O Auto 1:2
-	  f=35mm using the Voigtländer adapter. See Figure 1 for the details
-	  on the various items.</small>
-	</p>
-
+      <div style="float:right;width:370px;margin-right:0.5em;margin-left:0.5em;">
+	<a href="http://sigfrid-lundberg.se/entries/2010/08/glossy/20100831_006.jpg">
+          <img src="http://sigfrid-lundberg.se/entries/2010/08/glossy/20100831_006.jpg " width="100%" alt="Hidden away, there is a magazine for Office 2010"/>
+        </a>
       </div>
-
-      <p>I just cannot tell how disappointed I was with the result. This,
-      however, coincided with me something else. I brought all my
-      photographical chemicals to the deposit for environmentally hazardous
-      chemicals.</p>
-
-      <h3>Micro four thirds</h3>
-
-      <p>I felt that I somehow had lost a way to express myself. I became
-      obsessed with the thought of a really good camera which I could carry
-      around without any effort. I found the Olympus PEN in the local Photo
-      Store. It is a real beauty, with the right feeling. I suppose it is all
-      plastic, but it doesn't feel like it.</p>
-
-      <p>The decisive point was all the communities where people mentioned all
-      the wonderful lenses they are able to put on these cameras. That is a
-      virtue of standardization.</p>
-
-      <div style="float:right;width:364px;margin-right:0.5em;margin-left:0.5em;">
-
-	<p style="float:right;">(a)</p>
-	<a href="http://sigfrid-lundberg.se/entries/2010/08/m43/P8180368_detail.jpg">
-	  <img src="http://sigfrid-lundberg.se/entries/2010/08/m43/P8180368_detail_smaller.jpg" width="364px" alt="My Olympus PEN, equiped with the NIKKOR-O Auto 1:2 f=35mm"/>
-
-	</a>
-
-	<p style="float:right;">(b)</p>
-	<a href="http://sigfrid-lundberg.se/entries/2010/08/m43/P8180369_detail.jpg">
-	  <img src="http://sigfrid-lundberg.se/entries/2010/08/m43/P8180369_detail_smaller.jpg" width="364px" alt="My Olympus PEN, equiped with the NIKKOR-O Auto 1:2 f=35mm"/>
-
-	</a>
-
-	<p>
-	  <small>Figure 4. Now I have again controll. These two details are my
-	  Nikon F body photographed with the configuration you see in Figure
-	  2. In (a) I have at least tried to focus on <q>Nikon</q>, whereas in
-	  (b) the focus is on <q>3.5</q> on the 135mm lens.</small>
-	</p>
-
-      </div>
-
-      <p>However, there are not that many different kinds of lenses available,
-      but there are a <a href="http://www.cameraquest.com/adp_micro_43.htm">large number of
-      adapters</a>. Leica, Nikon and all other kinds of lenses are now used
-      successfully and there are people whose interest in photography seems to
-      boil down to find obscure lenses to fit on their micro 4/3 shooters. For
-      instance, there are a lot of <a href="http://asia.cnet.com/reviews/digitalcameras/0,39001469,62061468,00.htm">C-mount</a>
-      video and cinematic lenses available. One example is the <a href="http://www.flickr.com/photos/coyanis/4337508202/">P. Angenieux
-      25mm/f0.95</a> from the early sixties and originally a professional cine
-      lens.</p>
-
-      <p>Believe me, eBay has got an entirely new segment of lens
-      collectors.</p>
-
-      <h3>My NIKKOR lenses</h3>
-
-      <p>I suppose that you've already realized that when you put a vintage
-      SLR lens on a modern digital camera there are things you loose. You use
-      them with fixed aperture and the camera choose the exposure. This is
-      better than what I'm used to. I don't need to bring use my <a href="http://www.flickr.com/photos/anssipuisto/4059736964/">Gossen
-      Variosix light meter</a>. Also, you have to focus manually.</p>
-
-      <p>The interesting effect of the m4/3 architecture is that my NIKKOR-O
-      35mm, which used to be my wide angle lens back in the seventies, is now
-      a short telephoto lens. It is the equivalent of a 70mm lens and ideal
-      for landscapes and portraits.</p>
-
-      <p>In addition, its maximum aperture 2.0 is
-      much better than what you get today in the kit zoom lens of an ordinary
-      DSLR. With the wide aperture that lens gives me the possibilty to focus
-      on a just a part of an image leave an unsharp back- or forground (Figure
-      4).</p>
-
-      <div style="float:left;width:364px;margin-right:0.5em;margin-left:0.5em;">
-	<a href="http://sigfrid-lundberg.se/entries/2010/08/m43/P8230492.JPG">
-	  <img src="http://sigfrid-lundberg.se/entries/2010/08/m43/P8230492_smaller.JPG" width="364px" alt="A fountain in Central Park, Lund, Sweden"/>
-
-	</a>
-	<p><small>Figure 5. A fountain in Central Park, Lund, Sweden. An early
-	morning, taken with the Olympus PEN kit zoom Zuiko Digital 14-42mm
-	F3.5-5.6, which is really nice lens. The camera as it is delivered is
-	really good, even without vintage equipment.</small></p>
-      </div>
-
-      <p>My NIKKOR-Q 135mm 1:3.5 is also capable collecting more light than
-      most modern zoom lenses. When I bought it, this was regarded as a poor
-      lens in this respect. On the other hand, I wouldn't even dream of a zoom
-      at the time. The 135mm lens is more difficult to use than the 35mm
-      one. It is heavier, naturally, than the other lenses and it is not that
-      easy to focus. To increase the success rate, I'm considering to bring my
-      tripod, but then the equipment isn't that portable anymore.</p>
-
-      <h3>The Olympus lens</h3>
-
-      <p>I don't have more than the original Zuiko Digital kit lens (See
-      Figure 5). It is a very nice and light lense and with it, the e-p2 is
-      almost as light as any compact camera.</p>
+      <p>Hidden away, there is a magazine for Office 2010</p>
 
     </div>
     <br clear="all"/>
     <p style="text-align: left;"><em><strong>Categories:</strong></em> 
-	  <a href="/subjects/hardware/">Hardware</a>,
+	  <a href="/subjects/media/">Media</a>,
+	    <a href="/subjects/software/">Software</a>,
 	    <a href="/subjects/images/">Images</a><br/><em><strong>
 		Permalink:
-	      </strong></em><a rel="bookmark" href="/entries/2010/08/m43/">http://sigfrid-lundberg.se/entries/2010/08/m43/</a></p>
+	      </strong></em><a rel="bookmark" href="/entries/2010/08/glossy/">http://sigfrid-lundberg.se/entries/2010/08/glossy/</a></p>
     <hr width="50%" align="center"/>
   </div>
   <div>
     <h1>Other, not yet obsolete stuff</h1>
     <table class="news">
+      <tr>
+        <td class="left">2010-08-29</td>
+        <td class="left"><a href="/entries/2010/08/m43/"><em>I ditched my SLR, my camera phone but not my lenses</em></a><br/>I've bought a new camera. And I'm now a very enthusiastic owner of
+  one of the new EVIL cameras, an Olympus E-P2.<br/><a href="/subjects/hardware/">Hardware</a>,
+	<a href="/subjects/images/">Images</a></td>
+      </tr>
       <tr>
         <td class="left">2010-07-29</td>
         <td class="left"><a href="/entries/2010/07/hate_xml/"><em>Do you hate XML?</em></a><br/>Does developers really dislike XML? If they do, why and how much<br/><a href="/subjects/xmltechnologies/">XML technologies</a></td>
@@ -263,11 +96,6 @@
         <td class="left">2010-05-10</td>
         <td class="left"><a href="/entries/2010/05/connected/"><em>On my life as being connected</em></a><br/>The new smartphone/tablet computer intervenes in my life, sometimes
   annoying me, but more often my wife and other people<br/><a href="/subjects/stories/">Stories</a></td>
-      </tr>
-      <tr>
-        <td class="left">2010-05-10</td>
-        <td class="left"><a href="/entries/2010/04/bells/"><em>Bell's Books</em></a><br/>I bought three books at Bell's Books, 536 Emerson Street, Palo
-  Alto<br/><a href="/subjects/stories/">Stories</a></td>
       </tr>
     </table>
   </div>

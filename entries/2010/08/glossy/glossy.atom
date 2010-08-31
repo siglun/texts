@@ -12,49 +12,41 @@
     <div xmlns="http://www.w3.org/1999/xhtml">
       <p>According to Wikipedia, a newsagent is the owner of a newsagent's
       shop (or news stand in US English). The stock in his or her shop
-      contains items that are expected to interest the market.</p>
-
-      http://sigfrid-lundberg.se/entries/2010/04/perl/
-
-
-      <div style="float:left;width:370px;margin-right:0.5em;margin-left:0.5em;">
-	<a href="http://sigfrid-lundberg.se/entries/2010/08/glossy/20100831_003.jpg">
-          <img 
-	      src="http://sigfrid-lundberg.se/entries/2010/08/glossy/20100831_003.jpg " 
-	      width="100%" 
-	      alt="Camera equipment"/>
-        </a>
-      </div>
-
-      <div style="clear: both;">
-      </div>
+      contains items that are expected to interest the market. Earlier this
+      year I realized that some of my <a
+      href="http://sigfrid-lundberg.se/entries/2010/04/perl/">experience</a>
+      indeed were regarded as useful in more glossy contexts.</p>
 
       <div style="float:right;width:370px;margin-right:0.5em;margin-left:0.5em;">
 	<a href="http://sigfrid-lundberg.se/entries/2010/08/glossy/20100831_004.jpg">
           <img 
 	      src="http://sigfrid-lundberg.se/entries/2010/08/glossy/20100831_004.jpg " 
 	      width="100%" 
-	      alt="Camera equipment"/>
+	      alt="Linux Format PHP Coding"/>
         </a>
       </div>
 
+      <p>All of a sudden Knoppix Admin and Linux Format PHP coding is Glossy.</p>
 
       <div style="clear: both;">
+	<pre>
+	</pre>
       </div>
-
-
 
       <div style="float:left;width:370px;margin-right:0.5em;margin-left:0.5em;">
 	<a href="http://sigfrid-lundberg.se/entries/2010/08/glossy/20100831_005.jpg">
           <img 
 	      src="http://sigfrid-lundberg.se/entries/2010/08/glossy/20100831_005.jpg " 
 	      width="100%" 
-	      alt="Camera equipment"/>
+	      alt="Users &amp; Developers want to Master Linux Now"/>
         </a>
       </div>
 
+      <p>Users &amp; Developers want to Master Linux Now</p>
 
       <div style="clear: both;">
+	<pre>
+	</pre>
       </div>
 
       <div style="float:right;width:370px;margin-right:0.5em;margin-left:0.5em;">
@@ -62,11 +54,10 @@
           <img 
 	      src="http://sigfrid-lundberg.se/entries/2010/08/glossy/20100831_006.jpg " 
 	      width="100%" 
-	      alt="Camera equipment"/>
+	      alt="Hidden away, there is a magazine for Office 2010"/>
         </a>
       </div>
-
-
+      <p>Hidden away, there is a magazine for Office 2010</p>
 
     </div>
   </content>
