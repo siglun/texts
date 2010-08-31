@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<entry xmlns="http://www.w3.org/2005/Atom" xmlns:dc="http://purl.org/dc/elements/1.1/">
+  <author>
+    <name>Sigfrid Lundberg</name>
+  </author>
+  <title>Newsagent predictions</title>
+  <link href="/entries/2010/08/glossy/"/>
+  <summary>According to Wikipedia, a newsagent is the owner of a newsagent's
+  shop (or news stand in US English). The stock in his or her shop contains
+  items that are expected to interest the market.</summary>
+  <content type="xhtml">
+    <div xmlns="http://www.w3.org/1999/xhtml">
+      <p>According to Wikipedia, a newsagent is the owner of a newsagent's
+      shop (or news stand in US English). The stock in his or her shop
+      contains items that are expected to interest the market.</p>
+
+      http://sigfrid-lundberg.se/entries/2010/04/perl/
+
+
+      <div style="float:left;width:370px;margin-right:0.5em;margin-left:0.5em;">
+	<a href="http://sigfrid-lundberg.se/entries/2010/08/glossy/20100831_003.jpg">
+          <img 
+	      src="http://sigfrid-lundberg.se/entries/2010/08/glossy/20100831_003.jpg " 
+	      width="100%" 
+	      alt="Camera equipment"/>
+        </a>
+      </div>
+
+      <div style="clear: both;">
+      </div>
+
+      <div style="float:right;width:370px;margin-right:0.5em;margin-left:0.5em;">
+	<a href="http://sigfrid-lundberg.se/entries/2010/08/glossy/20100831_004.jpg">
+          <img 
+	      src="http://sigfrid-lundberg.se/entries/2010/08/glossy/20100831_004.jpg " 
+	      width="100%" 
+	      alt="Camera equipment"/>
+        </a>
+      </div>
+
+
+      <div style="clear: both;">
+      </div>
+
+
+
+      <div style="float:left;width:370px;margin-right:0.5em;margin-left:0.5em;">
+	<a href="http://sigfrid-lundberg.se/entries/2010/08/glossy/20100831_005.jpg">
+          <img 
+	      src="http://sigfrid-lundberg.se/entries/2010/08/glossy/20100831_005.jpg " 
+	      width="100%" 
+	      alt="Camera equipment"/>
+        </a>
+      </div>
+
+
+      <div style="clear: both;">
+      </div>
+
+      <div style="float:right;width:370px;margin-right:0.5em;margin-left:0.5em;">
+	<a href="http://sigfrid-lundberg.se/entries/2010/08/glossy/20100831_006.jpg">
+          <img 
+	      src="http://sigfrid-lundberg.se/entries/2010/08/glossy/20100831_006.jpg " 
+	      width="100%" 
+	      alt="Camera equipment"/>
+        </a>
+      </div>
+
+
+
+    </div>
+  </content>
+  <dc:date>2010</dc:date>
+  <category label="media"    term="Media"/>
+  <category label="software" term="Software"/>
+  <category label="images"   term="Images"/>
+  <updated>2010-08-31T08:13:20+01:00</updated>
+  <id>http://www.sigfrid-lundberg.se/entries/2010/08/glossy/</id>
+</entry>
