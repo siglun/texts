@@ -61,8 +61,8 @@
 	       border="0"/>Subscribe to discussion feed
 	</a><br/>
 
-	<a href="http://nyligen.se/blogg/nc3435">
-	  Sigfrid Lundgberg's Stuff@nyligen.se
+	<a href="http://www.flickr.com/photos/sigfridlundberg/">
+	  my photostream @ flickr
 	</a>
 
       </p>
