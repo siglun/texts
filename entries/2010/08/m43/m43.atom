@@ -124,7 +124,8 @@
       20x30cm. Figure 2 was one of the images. When I did this, I hadn't
       looked at the image in any other way than in the phone's viewer.</p>
 
-      <div style="float:left;width:364px;margin-right:0.5em;margin-left:0.5em;">
+      <div id="nikkorO"
+	   style="float:left;width:364px;margin-right:0.5em;margin-left:0.5em;">
 	<a href="http://sigfrid-lundberg.se/entries/2010/08/m43/20100819_001_smaller.jpg">
 	  <img src="http://sigfrid-lundberg.se/entries/2010/08/m43/20100819_001_smaller.jpg" 
 	       width="100%" 
