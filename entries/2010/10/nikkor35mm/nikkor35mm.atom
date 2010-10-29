@@ -130,6 +130,8 @@
 	</p>
       </div>
 
+      <br style="clear:both"/>
+
       <h2>Some images and details</h2>
 
       <div style="clear: both;">
@@ -145,7 +147,7 @@
 	resolution one (which is 4032x3024 or 300dpi). Almost all lenses are
 	good at the center, this is no exception.</p>
       </div>
-      <br/>
+
       <div style="clear: both;">
 
 	<a style="float:left;"
