@@ -121,26 +121,6 @@
   <author>
     <name>Sigfrid Lundberg</name>
   </author>
-  <title>The development department</title>
-  <link href="/entries/2010/09/agility/"/>
-  <summary>Yesterday a number of us attended a workshop on agile
-  development.</summary>
-  <content type="xhtml">
-    <div xmlns="http://www.w3.org/1999/xhtml">
-      <p>
-      </p>
-    </div>
-  </content>
-  <dc:date>2010</dc:date>
-  <category label="structuralwebdesign" term="Structural web design"/>
-  <updated>2010-09-10T08:07:43+01:00</updated>
-  <id>http://www.sigfrid-lundberg.se/entries/2010/09/agility/</id>
-  <!-- $Id$ -->
-</entry>
-  <entry>
-  <author>
-    <name>Sigfrid Lundberg</name>
-  </author>
   <title>Newsagent predictions</title>
   <link href="/entries/2010/08/glossy/"/>
   <summary>According to Wikipedia, a newsagent is the owner of a newsagent's

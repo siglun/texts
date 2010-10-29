@@ -117,11 +117,6 @@
     <h1>Other, not yet obsolete stuff</h1>
     <table class="news">
       <tr>
-        <td class="left">2010-09-10</td>
-        <td class="left"><a href="/entries/2010/09/agility/"><em>The development department</em></a><br/>Yesterday a number of us attended a workshop on agile
-  development.<br/><a href="/subjects/structuralwebdesign/">Structural web design</a></td>
-      </tr>
-      <tr>
         <td class="left">2010-08-31</td>
         <td class="left"><a href="/entries/2010/08/glossy/"><em>Newsagent predictions</em></a><br/>According to Wikipedia, a newsagent is the owner of a newsagent's
   shop (or news stand in US English). The stock in his or her shop contains
@@ -150,6 +145,12 @@
         <td class="left"><a href="/entries/2010/05/resourcecentric/"><em>Focus on the resources</em></a><br/>Having had a web site for about 15 years, I start to wonder why I
   keep it in the first place.<br/><a href="/subjects/digitalobjects/">Digital Object</a>,
 	<a href="/subjects/objectstores/">Digital Object Stores</a></td>
+      </tr>
+      <tr>
+        <td class="left">2010-05-23</td>
+        <td class="left"><a href="/entries/2010/04/readings/"><em>Readings on digital objects: An annotated URIography</em></a><br/>I have a long list of articles to read on digital objects, how to
+  model them etc. This page is for keeping track of my progress<br/><a href="/subjects/digitalcollections/">Digital collections</a>,
+	<a href="/subjects/digitalobjects/">Digital objects</a></td>
       </tr>
     </table>
   </div>
