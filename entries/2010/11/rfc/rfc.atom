@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<entry xmlns="http://www.w3.org/2005/Atom" xmlns:dc="http://purl.org/dc/elements/1.1/">
+  <author>
+    <name>Sigfrid Lundberg</name>
+  </author>
+  <title>Peer review and request for comments</title>
+  <link href="/entries/2010/11/rfc/"/>
+  <summary></summary>
+  <content type="xhtml">
+    <div xmlns="http://www.w3.org/1999/xhtml">
+
+    </div>
+  </content>
+  <dc:date>2010</dc:date>
+  <category label="structuralwebdesign" term="Structural web design"/>
+  <updated>2010-11-17T17:45:15+01:00</updated>
+  <id>http://www.sigfrid-lundberg.se/entries/2010/11/rfc/</id>
+  <!-- $Id$ -->
+</entry>
