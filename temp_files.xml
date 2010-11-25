@@ -7560,7 +7560,7 @@
       world. Friendly geeks who want that the Internet should be good place
       for its users. So, when you submit a draft you <em>do</em> get the
       comments you requested. You get a lot of them and in our case they were
-      all constructive and friendly.</p>
+      all constructive and friendly. The process is <a href="http://datatracker.ietf.org/doc/draft-lundberg-app-tei-xml/">open</a></p>
 
       <p>That's why its called an RFC and thats why they Internets
       standardization procedures works so well.</p>
@@ -7568,7 +7568,7 @@
     </div>
   </content>
   <dc:date>2010</dc:date>
-  <category label="structuralwebdesign" term="Structural web design"/>
+  <category label="internet" term="Internet"/>
   <updated>2010-11-25T18:31:04+01:00</updated>
   <id>http://www.sigfrid-lundberg.se/entries/2010/11/rfc/</id>
   <!-- $Id$ -->
