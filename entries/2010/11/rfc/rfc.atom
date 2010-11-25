@@ -5,9 +5,34 @@
   </author>
   <title>Peer review and request for comments</title>
   <link href="/entries/2010/11/rfc/"/>
-  <summary></summary>
+  <summary>Laurent Romary and myself have authored an RFC. That means a
+  Request For Comments. I now understand why.</summary>
   <content type="xhtml">
     <div xmlns="http://www.w3.org/1999/xhtml">
+      <p><a
+      href="http://sigfrid-lundberg.se/entries/2010/03/appteixml/">Earlier
+      this year</a> Laurent Romary and myself authored an Internet Draft,
+      which the first step to an Request For Comments (RFC). Now this text has
+      been trough the review process and we have made all the revisions
+      required. Finally it has now been approved by the <a
+      href="http://www.iesg.org">IESG</a>'s review process. I now understand
+      the RFC concept.</p>
+
+      <p>Internet was created by people connected to the <a
+      href="http://en.wikipedia.org/wiki/Darpanet">DARPA net</a> with the
+      first serious experimental work starting around 1968. The people who did
+      it were affiliated to various US universities and a few companies
+      capable mean, you send your idea on how Internet can be made better to
+      your fellow researches in ARPA net.</p>
+
+      <p>It seems that these people communicated their findings by storing and
+      circulating as odd text files on the very infrastructures that were the
+      subjects for their research. And now more than forty years later there
+      still is this mix of individuals from academic and corporate research
+      environments from all over the world. Friendly geeks who want that the
+      Internet should be good place. So, when you submit a draft you
+      <em>do</em> get comments, a lot of them but all were constructive and
+      friendly.</p>
 
     </div>
   </content>
