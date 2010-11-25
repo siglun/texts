@@ -6,7 +6,52 @@
   <title>Sigfrid Lundberg's Stuff</title>
   <id>http://sigfrid-lundberg.se/files.atom</id>
   <link rel="self" href="http://feeds.feedburner.com/SigfridLundbergsStuff?format=xml"/>
-  <updated>2010-10-29T09:44:52+01:00</updated>
+  <updated>2010-11-17T17:45:15+01:00</updated>
+  <entry>
+  <author>
+    <name>Sigfrid Lundberg</name>
+  </author>
+  <title>Peer review and request for comments</title>
+  <link href="http://sigfrid-lundberg.se/entries/2010/11/rfc/"/>
+  <summary>Laurent Romary and myself have authored an RFC. That means a
+  Request For Comments. I now understand why.</summary>
+  <content type="xhtml">
+    <div xmlns="http://www.w3.org/1999/xhtml">
+      <p><a href="http://sigfrid-lundberg.se/entries/2010/03/appteixml/">Earlier
+      this year</a> Laurent Romary and myself authored an Internet Draft,
+      which is the first step towards a Request For Comments (RFC). Now the
+      text has been trough the review process and we have made all the
+      revisions required. So, finally it has been approved by the <a href="http://www.iesg.org">IESG</a>'s review process. I do now
+      understand the RFC concept.</p>
+
+      <p>Internet was created by people connected to the <a href="http://en.wikipedia.org/wiki/Darpanet">DARPA net</a> family of
+      projects with the first serious experimental work starting around
+      1968. The people who did it were affiliated to various US universities
+      and a few companies capable mean, you send your idea on how Internet can
+      be made better to your fellow researches in ARPA net.</p>
+
+      <p>It seems that these people communicated their findings by storing and
+      circulating them as oddly formatted text files on the very
+      infrastructure that were the subject for their research. And now more
+      than forty years later there still is this mix of individuals from
+      academic and corporate research environments from all over the
+      world. Friendly geeks who want that the Internet should be good place
+      for its users. So, when you submit a draft you <em>do</em> get the
+      comments you requested. You get a lot of them and in our case they were
+      all constructive and friendly.</p>
+
+      <p>That's why its called an RFC and thats why they Internets
+      standardization procedure works so well.
+      </p>
+
+    </div>
+  </content>
+  <dc:date>2010</dc:date>
+  <category label="structuralwebdesign" term="Structural web design"/>
+  <updated>2010-11-17T17:45:15+01:00</updated>
+  <id>http://www.sigfrid-lundberg.se/entries/2010/11/rfc/</id>
+  <!-- $Id$ -->
+</entry>
   <entry>
   <author>
     <name>Sigfrid Lundberg</name>
