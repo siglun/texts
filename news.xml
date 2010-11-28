@@ -1,54 +1,60 @@
 <div xmlns="http://www.w3.org/1999/xhtml">
   <div>
-    <h1 style="font-family: sans-serif; width: 55%; float: left;text-align: left;">Peer review and request for comments</h1>
+    <h1 style="font-family: sans-serif; width: 55%; float: left;text-align: left;">On patience and bus stops</h1>
     <p style="width: 38%; float: left;text-align: right">
       <em>
         <strong>
 		Sigfrid Lundberg's Stuff,
-	      2010-11-25</strong>
+	      2010-11-28</strong>
       </em>
     </p>
   </div>
   <div style="clear:both;"> </div>
   <div style="width:100%;">
     <div>
-      <p><a href="http://sigfrid-lundberg.se/entries/2010/03/appteixml/">Earlier
-      this year</a> Laurent Romary and myself authored an Internet Draft,
-      which is the first step towards a Request For Comments (RFC). Now the
-      text has been trough the review process and we have made all the
-      revisions required. So, finally it has been approved by the <a href="http://www.iesg.org">IESG</a>'s review process. I do now
-      understand the RFC concept.</p>
 
-      <p>Internet was created by people connected to the <a href="http://en.wikipedia.org/wiki/Darpanet">DARPA net</a> family of
-      projects with the first serious experimental work starting around
-      1968. The people who did it were affiliated to various US universities
-      and a few companies capable mean, you send your idea on how Internet can
-      be made better to your fellow researches in ARPA net.</p>
+      <!--img src="http://books.google.com/books?id=q2cJAAAAQAAJ&amp;pg=PA119&amp;img=1&amp;zoom=3&amp;hl=en&amp;sig=ACfU3U1uLANXhGxurHshyIN4q1BHy2z_jA&amp;ci=134%2C1267%2C380%2C131&amp;edge=0"/-->
 
-      <p>It seems that these people communicated their findings by storing and
-      circulating them as oddly formatted text files on the very
-      infrastructure that were the subject for their research. And now more
-      than forty years later there still is this mix of individuals from
-      academic and corporate research environments from all over the
-      world. Friendly geeks who want that the Internet should be good place
-      for its users. So, when you submit a draft you <em>do</em> get the
-      comments you requested. You get a lot of them and in our case they were
-      all constructive and friendly. The process is <a href="http://datatracker.ietf.org/doc/draft-lundberg-app-tei-xml/">open</a></p>
+      <p>Waiting is not for everyone. I'm good at it, though. Brilliant, if I
+      may say so myself. I've practiced. I'm particularly good at waiting
+      for public transports. Such as waiting for trains. Or buses.</p>
 
-      <p>That's why its called an RFC and thats why they Internets
-      standardization procedures works so well.</p>
+      <p><q style="font-style:italic;">Patience</q>, states <a href="http://books.google.com/books?id=q2cJAAAAQAAJ&amp;dq=%22art%20of%20waiting%22&amp;pg=PA119&amp;ci=134%2C1267%2C380%2C131&amp;source=bookclip">The
+      Mirror</a> (Saturday 19, 1825), <q style="font-style:italic;">is the art
+      of waiting.</q> That's true, for sure. But then the editor continues: <q style="font-style:italic;">Time passes quickly with him who hopes for
+      days and lives for the morrow. Hope has such efficacy that it can lead
+      us to the end of life through an agreeable path and even beyond life
+      itself.</q> Interesting concept. The hopeful ones are those who believe
+      that the bus will come and pick them up before they die. Or least such
+      that they arrive home before dinner.</p>
+
+      <p>I think that the The Mirror is wrong. Patience comes from the
+      erroneous conviction that time spent waiting is an investment or an
+      asset of some kind. The really patient person is the one who after
+      waiting for (say) a quarter of an hour, dismisses the option to take a
+      cab or walk, because he feels that he will then somehow loose the time
+      he'd investmented in waiting. You've heard it, haven't you: <q>Let's
+      wait five minutes more.</q></p>
+
+      <p>Mind you, it's even worse than that, since it takes just twenty
+      minutes to walk.</p>
 
     </div>
     <br clear="all"/>
     <p style="text-align: left;"><em><strong>Categories:</strong></em> 
-	  <a href="/subjects/internet/">Internet</a><br/><em><strong>
+	  <a href="/subjects/structuralwebdesign/">Structural web design</a><br/><em><strong>
 		Permalink:
-	      </strong></em><a rel="bookmark" href="/entries/2010/11/rfc/">http://sigfrid-lundberg.se/entries/2010/11/rfc/</a></p>
+	      </strong></em><a rel="bookmark" href="/entries/2010/11/patience/">http://sigfrid-lundberg.se/entries/2010/11/patience/</a></p>
     <hr width="50%" align="center"/>
   </div>
   <div>
     <h1>Other, not yet obsolete stuff</h1>
     <table class="news">
+      <tr>
+        <td class="left">2010-11-25</td>
+        <td class="left"><a href="/entries/2010/11/rfc/"><em>Peer review and request for comments</em></a><br/>Laurent Romary and myself have authored an RFC. That means a
+  Request For Comments. I now understand why.<br/><a href="/subjects/internet/">Internet</a></td>
+      </tr>
       <tr>
         <td class="left">2010-10-29</td>
         <td class="left"><a href="/entries/2010/10/nikkor35mm/"><em>Portrait of a lens: NIKKOR-O Auto 1:2 f=35mm</em></a><br/>Portrait of a lens I've kept since I was a teenager.<br/><a href="/subjects/images/">Images</a>,
@@ -77,12 +83,6 @@
         <td class="left"><a href="/entries/2010/06/frontiers/"><em>Skirmishes along the boarder of the PC</em></a><br/>The PC was defined by IBM and Microsoft. Who defines it
   today? Who defines the boarder?<br/><a href="/subjects/hardware/">Hardware</a>,
 	<a href="/subjects/software/">Software</a></td>
-      </tr>
-      <tr>
-        <td class="left">2010-05-24</td>
-        <td class="left"><a href="/entries/2010/05/resourcecentric/"><em>Focus on the resources</em></a><br/>Having had a web site for about 15 years, I start to wonder why I
-  keep it in the first place.<br/><a href="/subjects/digitalobjects/">Digital Object</a>,
-	<a href="/subjects/objectstores/">Digital Object Stores</a></td>
       </tr>
     </table>
   </div>
