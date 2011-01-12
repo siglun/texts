@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<entry xmlns="http://www.w3.org/2005/Atom" xmlns:dc="http://purl.org/dc/elements/1.1/">
+  <author>
+    <name>Sigfrid Lundberg</name>
+  </author>
+  <title>The Book Thief</title>
+  <link href="/entries/2011/01/thief/"/>
+  <summary>This is the story about the one and only book thief I've met</summary>
+  <content type="xhtml">
+    <div xmlns="http://www.w3.org/1999/xhtml">
+      <p>
+      </p>
+    </div>
+  </content>
+  <dc:date>2010</dc:date>
+  <category label="thelibrary" term="The Library"/>
+  <category label="stories" term="Stories"/>
+  <updated>2011-01-12T07:59:21+01:00</updated>
+  <id>http://www.sigfrid-lundberg.se/entries/2011/01/thief/</id>
+  <!-- $Id$ -->
+</entry>
