@@ -38,12 +38,12 @@
 
     <div class="left_box">
 
-      <?php
-	$file = "./div_top_left_box.xml";
-	if (file_exists($file)) {
-	readfile($file);
-	}
-      ?>
+      <a href="/images/computing_by_candlelight.shtml"
+	 title="Portrait of The Author as an Old Rogue"><img
+	 width="80%"
+	 src="/images/sigge.png"
+	 alt="Portrait of the author as an Old Rogue" 
+	 border="0" /></a>
 
       <p>
 	<a href="http://feeds.feedburner.com/SigfridLundbergsStuff?format=xml"
