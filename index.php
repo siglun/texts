@@ -61,6 +61,10 @@
 	       border="0"/>Subscribe to discussion feed
 	</a><br/>
 
+	<a href="http://www.flickriver.com/photos/sigfridlundberg/popular-interesting/">
+	  my photostream @ flickriver
+	</a><br/>
+
 	<a href="http://www.flickr.com/photos/sigfridlundberg/">
 	  my photostream @ flickr
 	</a>
