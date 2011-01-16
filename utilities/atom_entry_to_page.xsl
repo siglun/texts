@@ -95,6 +95,35 @@
 	    </p>
 	    <xsl:comment>#include virtual="/subjects.xml" </xsl:comment>
 	    <xsl:comment>#include virtual="/me.xml" </xsl:comment>
+
+	    <p><small>
+	      <a rel="license" 
+		 href="http://creativecommons.org/licenses/by-sa/3.0/">
+		<img alt="Creative Commons License" 
+		     style="border-width:0" 
+		     src="http://i.creativecommons.org/l/by-sa/3.0/88x31.png" />
+		</a>
+		<br />
+		This entry (<em><span xmlns:dct="http://purl.org/dc/terms/"
+		property="dct:title"> <xsl:value-of
+		select="f:title"/></span></em>) within Sigfrid Lundberg's Stuff,
+
+		by <a xmlns:cc="http://creativecommons.org/ns#" 
+		   property="cc:attributionName" 
+		   rel="cc:attributionURL">
+		  <xsl:attribute name="href">
+		    <xsl:value-of 
+			select="concat('http://sigfrid-lundberg.se',f:link/@href)"/>
+		  </xsl:attribute>
+		  Sigfrid Lundberg
+		</a>
+		is licensed under a 
+		<a rel="license"
+		   href="http://creativecommons.org/licenses/by-sa/3.0/">Creative Commons
+		Attribution-ShareAlike 3.0 Unported License</a>.
+	      </small></p>
+
+
 	  </div>
 	</div>
 
