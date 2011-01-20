@@ -1,0 +1,82 @@
+#!/usr/bin/perl -w
+
+use strict;
+require LWP::UserAgent;
+use File::Path;
+use XML::LibXML;
+use XML::LibXSLT;
+use Getopt::Long;
+
+my $parser      = new XML::LibXML; 
+
+# Constants 
+my $xml_version = '1.0';
+my $char_encod  = 'UTF-8';
+my $atomNS      = 'http://www.w3.org/2005/Atom';
+my $dcNS        = 'http://purl.org/dc/elements/1.1/';
+
+my $ua = LWP::UserAgent->new;
+$ua->timeout(10);
+$ua->env_proxy;
+
+my $base_uri = join('',('http://api.flickr.com/services/feeds/photos_public.gne?',
+			join('&',('id=36853098@N06',
+				  'lang=en-us',
+				  'format=atom'))));
+
+#my @years  = (2009,2010,2011);
+my @years  = (2011);
+my @months = ('january');
+#,
+#	      'february',
+#	      'march',
+#	      'april',
+#	      'may',
+#	      'june',
+#	      'july',
+#	      'august',
+#	      'september',
+#	      'october',
+#	      'november',
+#	      'december');
+
+my %monthseq = ('january'    =>'01',
+		'february'  => '02',
+		'march'     => '03',
+		'april'     => '04',
+		'may'       => '05',
+		'june'      => '06',
+		'july'      => '07',
+		'august'    => '08',
+		'september' => '09',
+		'october'   => '10',
+		'november'  => '11',
+		'december'  => '12');
+
+
+foreach my $year (@years) {
+    foreach my $month (@months) {
+	my $uri = join '',($base_uri,
+			   '&tags=',
+			   $year,
+			   ',', 
+			   $month);
+
+	print STDERR "$uri $month $monthseq{$month}\n";
+
+	my $response = $ua->get($uri);
+
+	if ($response->is_success) {
+	    my $dom = XML::LibXML->load_xml(
+		string => $response->decoded_content
+	    );
+	    open my $fh,">".$year.$monthseq{$month}.".xml";
+	    binmode $fh;
+	    print $fh $dom->toString();
+	} else {
+	    die $response->status_line;
+	}
+
+
+    }
+}
