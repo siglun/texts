@@ -40,7 +40,7 @@ my @months = ('january');
 #	      'november',
 #	      'december');
 
-my %monthseq = ('january'    =>'01',
+my %monthseq = ('january'   => '01',
 		'february'  => '02',
 		'march'     => '03',
 		'april'     => '04',
@@ -53,6 +53,10 @@ my %monthseq = ('january'    =>'01',
 		'november'  => '11',
 		'december'  => '12');
 
+my $transform_sheet = 'utilities/flickr_transform.xsl';
+my $xslt            = new XML::LibXSLT;
+my $style_doc       = $parser->parse_file($transform_sheet);
+my $stylesheet      = $xslt->parse_stylesheet($style_doc);
 
 foreach my $year (@years) {
     foreach my $month (@months) {
@@ -70,13 +74,48 @@ foreach my $year (@years) {
 	    my $dom = XML::LibXML->load_xml(
 		string => $response->decoded_content
 	    );
-	    open my $fh,">".$year.$monthseq{$month}.".xml";
-	    binmode $fh;
-	    print $fh $dom->toString();
+	    if($#{$dom->getElementsByTagNameNS($atomNS,'entry')}>0) {
+
+		my $date = &date_gen();
+		my $result = 
+		    $stylesheet->transform($dom,
+					   'year'      => "'" . $year            . "'",
+					   'month'     => "'" . $month           . "'",
+					   'date'      => "'" . $date            . "'",
+					   'month_num' => "'" . $monthseq{$month}. "'");
+
+		my $entry_home = 'entries/'.$year.'/'.$monthseq{$month}.'/images/';
+		mkpath( $entry_home, {verbose => 1} );
+		open my $fh,">$entry_home"."images.atom";
+		binmode $fh;
+		print $fh $result->toString();
+	    }
 	} else {
 	    die $response->status_line;
 	}
 
 
     }
+}
+
+sub date_gen {
+
+    my ($sec,$min,$hour,$mday,$mon,$year,$wday,$yday,$isdst) = localtime(time);
+    my $yyyy = 1900 + $year;
+    my $mm   = $mon +1;
+    my $dd   = $mday;
+
+    $mm   = '0' . $mm    unless ($mm   =~ m/\d\d/);
+    $dd   = '0' . $dd    unless ($dd   =~ m/\d\d/);
+    $hour = '0' . $hour  unless ($hour =~ m/\d\d/);
+    $min  = '0' . $min   unless ($min  =~ m/\d\d/);
+    $sec  = '0' . $sec   unless ($sec  =~ m/\d\d/);
+
+    my $zone        = '+01:00';
+
+    my $date = join('T',(join('-',($yyyy,$mm,$dd)),
+			 join(':',($hour,$min,$sec)))) . $zone;
+
+    return $date;
+
 }
