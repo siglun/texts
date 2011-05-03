@@ -17,7 +17,7 @@
   -->
 
   <xsl:param name="debug" select="''"/>
-  
+
   <xsl:output method="xml"
 	      indent="yes"
 	      encoding="UTF-8"/>
@@ -48,14 +48,12 @@
 	<meta http-equiv="Content-Type"
 	      content="text/html;charset=UTF-8" />
 
+	<xsl:comment>#include virtual="/js/colorbox_include.html" </xsl:comment>
+
 	<script src="/js/navigation.js" type="text/javascript">
 	  <xsl:text> 
 	  </xsl:text>
 	</script>
-
-	<!--script type="text/javascript">
-	  <xsl:text>var addthis_share = { email_vars: { title: "</xsl:text><xsl:value-of select="f:title"/><xsl:text>" } }</xsl:text>
-	</script-->
 
 	<xsl:if test="$debug">
 	  <script type="text/javascript">
@@ -68,6 +66,7 @@
 	<meta http-equiv="Content-Type" 
 	      content="text/html;charset=UTF-8"/>
 	<link rel="stylesheet" href="/css-style/html.css" />
+
       </head>
 
       <xsl:element name="body">

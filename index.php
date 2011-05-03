@@ -33,6 +33,15 @@
 	  title="Latest Comments"
 	  rel="alternate"/>
 
+    <?php
+      $file = "./js/colorbox_include.html";
+      if (file_exists($file)) {
+          readfile($file);
+      }
+    ?>
+
+
+
   </head>
   <body>
 

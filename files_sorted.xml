@@ -11,6 +11,100 @@
   <author>
     <name>Sigfrid Lundberg</name>
   </author>
+  <title>A Leica lens from Minolta?</title>
+  <link href="/entries/2011/04/rokkor/"/>
+  <summary>The M Rokkor lenses were produced by Minolta for their excellent
+  rangefinder camera Minolta CLE. I aquired one of them, the 40mm f2.0, for
+  use with my Olympus E-P2.</summary>
+  <content type="xhtml">
+    <div xmlns="http://www.w3.org/1999/xhtml">
+       <div style="float: right; width: 240px; margin-left: 0.2em; margin-right: 0.5em;">
+	 <a href="http://www.flickr.com/photos/sigfridlundberg/5496533284/" title="Minolta M-Rokkor 40mm f/2.0 by Sigfrid Lundberg, on Flickr">
+	   <img src="http://farm6.static.flickr.com/5259/5496533284_b6846740e7_m.jpg" alt="Minolta M-Rokkor 40mm f/2.0"/>
+	 </a>
+	 <p>
+	   <small>Minolta M-Rokkor 40mm f/2.0 mounted on an Olympus Digital
+	   Pen (E-P2).</small>
+	 </p>
+       </div>
+
+       <p>The rangefinder camera <a href="http://en.wikipedia.org/wiki/Leica_CL">Leica CL</a> (also known
+       as Leica Minolta CL) appeared 1973 as a joint venture between Leitz and
+       Minolta. The collaboration did not last long, and the next version of
+       this product was called Minolta CLE. without carrying a "Leica" or a
+       Leitz logo.</p>
+
+       <blockquote>
+	 <em>
+	   The Minolta CLE was introduced 1980. Yet, father Leitz makes haste
+	   very slowly.  Until the introduction of the Leica M7 in 2001, the
+	   CLE remained for 21 years the most technologically advanced Leica M
+	   mount camera ever produced.  Not bad, for a Minolta.  Most CLE
+	   owners consider it one of the best cameras they have ever owned.
+	 </em>
+	 <a href="http://www.cameraquest.com/cle.htm">Stephen Gandy,
+	 CameraQuest</a>
+       </blockquote>
+
+       <div style="float: left; width: 240px; margin-left: 0.2em; margin-right: 0.5em;">
+	 <a href="http://www.flickr.com/photos/sigfridlundberg/5674707921/" title="P4307205.ORF by Sigfrid Lundberg, on Flickr">
+	   <img src="http://farm6.static.flickr.com/5143/5674707921_1ffd141bab_m.jpg" width="240" height="180" alt="P4307205.ORF"/>
+	 </a>
+	 <p><small>Dandelions shot with M Rokkor 30 April 2011. The aperture was 2.8,
+	 so the background became blurred.</small></p>
+       </div>
+
+       <div style="float: right; width: 240px; margin-left: 0.2em; margin-right: 0.5em;">
+	 <a href="http://www.flickr.com/photos/sigfridlundberg/5619840338/" title="P4116371.tif by Sigfrid Lundberg, on Flickr">
+	 <img src="http://farm6.static.flickr.com/5104/5619840338_2bfce4b588_m.jpg" width="240" height="229" alt="P4116371.tif"/></a>
+	 <p>
+	   <small>Gammel strand from Højbro. Holmens' canal, Copenhagen.</small>
+	 </p>
+       </div>
+
+       <p>The M Rokkor lenses were produced by Minolta for this excellent camera.
+       I've recently aquired one of them, the 40mm f2.0, for use with my
+       Olympus E-P2. On 35mm film leica M mount camera that lens is a standard
+       (or <q>normal</q>) lens, albeit a bit more shorter than normal. On my micro
+       four thirds camera it becomes a short telephoto lens, with a focal length
+       suitable for portrait and landscape photography</p>
+
+       <div style="float: right; width: 240px; margin-left: 0.2em; margin-right: 0.5em;">
+	 <a href="http://www.flickr.com/photos/sigfridlundberg/5516412953/" title="P3105155.tif by Sigfrid Lundberg, on Flickr"><img src="http://farm6.static.flickr.com/5176/5516412953_71eb5bdedb_m.jpg" width="240" height="181" alt="P3105155.tif"/></a>
+	 <p>
+	   <small>The antiquarian bookstore is closed at night.</small>
+	 </p>
+       </div>
+
+       <p>I'm not going to review the lens. Instead I'll refer to the
+       following rather personal statement, again from Stephen Gandy:</p>
+
+       <blockquote>
+	 <em>The 40/2 lenses for the CL or CLE are among the sharpest lenses I
+	 have ever used.</em> 
+	 <a href="http://www.cameraquest.com/cle.htm#Minolta%20CL%20and%20CLE%20Lenses">Stephen
+	 Gandy, CameraQuest</a>
+       </blockquote>
+
+       <p>There are a lot of useful and interesting information to gather
+       about rangefinder technologies; Stephen Gandy has a lot less info left
+       to gather tnan most of us. I love this lens.</p>
+
+
+
+    </div>
+  </content>
+  <dc:date>2011</dc:date>
+  <category label="images" term="Images"/>
+  <category label="photography" term="Photography"/>
+  <category label="hardware" term="Hardware"/>
+  <updated>2011-04-20T07:00:59+01:00</updated>
+  <id>http://www.sigfrid-lundberg.se/entries/2011/04/rokkor/</id>
+</entry>
+  <entry>
+  <author>
+    <name>Sigfrid Lundberg</name>
+  </author>
   <title>I have smoked a cigarr together with The Book Thief</title>
   <link href="/entries/2011/01/thief/"/>
   <summary>This is the story about the one and only book thief I've met</summary>
@@ -205,7 +299,8 @@
     </div>
   </content>
   <dc:date>2010</dc:date>
-  <category label="structuralwebdesign" term="Structural web design"/>
+  <category label="images" term="Images"/>
+  <category label="hardware" term="Hardware"/>
   <updated>2010-12-02T20:05:18+01:00</updated>
   <id>http://www.sigfrid-lundberg.se/entries/2010/12/twolenses/</id>
   <!-- $Id$ -->

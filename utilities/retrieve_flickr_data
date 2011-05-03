@@ -93,8 +93,6 @@ foreach my $year (@years) {
 	} else {
 	    die $response->status_line;
 	}
-
-
     }
 }
 

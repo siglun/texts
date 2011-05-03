@@ -21,6 +21,8 @@
   <xsl:param name="month"     select="'January'"/>
   <xsl:param name="month_num" select="'01'"/>
   <xsl:param name="date"      select="'01'"/>
+
+  <xsl:param name="unwanted" select="'&lt;/a&gt;&lt;/p&gt;'"/>
   
   <xsl:output method="xml"
 	      indent="yes"
@@ -81,8 +83,10 @@
 
   <xsl:template match="f:feed">
     <xsl:for-each select="f:entry" xmlns="http://www.w3.org/1999/xhtml">
+
       <div style="float:left;width:30%;text-align:center;margin-bottom:1em;">
 	<xsl:element name="a">
+	  <xsl:attribute name="rel">viewer</xsl:attribute>
 	  <xsl:attribute name="href">
 	    <xsl:value-of select="f:link[@rel='enclosure']/@href"/>
 	  </xsl:attribute>
@@ -105,12 +109,14 @@
 	</xsl:element>
 	<xsl:element name="br"/>
 	<small>
-	  <xsl:element name="a">
+	  <xsl:value-of disable-output-escaping="yes" 
+			select="substring-before(substring-after(substring-after(f:content[@type='html'],$unwanted),'&lt;p&gt;'),'&lt;/p&gt;')"/>
+	  (<xsl:element name="a">
 	    <xsl:attribute name="href">
 	      <xsl:value-of select="f:link[@rel='alternate']/@href"/>
 	    </xsl:attribute>
 	    See in Flickr
-	  </xsl:element>
+	  </xsl:element>)
 	</small>
       </div>
       <xsl:if test="position() mod 3 = 0">
