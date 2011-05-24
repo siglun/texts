@@ -6,7 +6,34 @@
   <title>Sigfrid Lundberg's Stuff</title>
   <id>http://sigfrid-lundberg.se/files.atom</id>
   <link rel="self" href="http://feeds.feedburner.com/SigfridLundbergsStuff?format=xml"/>
-  <updated>2011-05-07T10:44:19+01:00</updated>
+  <updated>2011-05-24T06:48:57+01:00</updated>
+  <entry>
+  <author>
+    <name>Sigfrid Lundberg</name>
+  </author>
+  <title>A neighbour, almost</title>
+  <link href="http://sigfrid-lundberg.se/entries/2011/05/gustav/"/>
+  <summary>I've made a new acquaintance, Gustav Holmberg, a history of science
+  scholar with a deep interest in photography. He has started a small series
+  with portraits of cameras he meets on the streets of the world.</summary>
+  <content type="xhtml">
+    <div xmlns="http://www.w3.org/1999/xhtml">
+      <p>I met Gustav Holmberg, a history of science scholar who also has a
+      deep interest in photography, at the butcher's shop. He was gazing
+      intently at my camera, well perhaps not the camera, but at my CV
+      Super-Wide Heliaf 15mm/4.5. This lens is obviously one of those that he
+      would be interested to fit on his Leica M3. Now he has started his own
+      series with camera portraits like the one in <a href="http://tokyocamerastyle.com/">Tokyo Camera Style</a>. See his <a href="http://www.5063.com/fotografiskt/tag/lund-camera-style/">Lund
+      Camera Style (in Swedish)</a>.</p>
+    </div>
+  </content>
+  <dc:date>2011</dc:date>
+  <category label="photography" term="Photography"/>
+  <category label="hardware" term="Hardware"/>
+  <category label="neighbours" term="Neighbours"/>
+  <updated>2011-05-24T06:48:57+01:00</updated>
+  <id>http://www.sigfrid-lundberg.se/entries/2011/05/gustav/</id>
+</entry>
   <entry>
   <author>
     <name>Sigfrid Lundberg</name>
