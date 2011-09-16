@@ -3,12 +3,32 @@
   <author>
     <name>Sigfrid Lundberg</name>
   </author>
-  <title>Why do I keep this site?</title>
+  <title>Costs and benefits of standards</title>
   <link href="/entries/2011/09/standards/"/>
-  <summary>Having had a web site for about 15 years, I start to wonder why I
-  keep it in the first place.</summary>
+  <summary>The Library communities have been more prone to accept and create
+  standards than most other communities. Here I try to list costs and benifits
+  for this.</summary>
   <content type="xhtml">
     <div xmlns="http://www.w3.org/1999/xhtml">
+
+      <p>For about fifteen years I've been active with both the creation and
+      implementations of standards. I've been an evangelist for good metadata,
+      good text encoding and sound internet standards. Good standards do
+      help. In the library world we have the MARC bibliographic record as a
+      prime example. Without such a standard it would have been much more
+      difficult to establish the computerized library catalog as we know
+      it. That concept has been the basis for a small but not insignificant
+      branch of the software industry.</p>
+
+      <p>The bibliographic records are created and maintained in workflows
+      that are supported by sets of complicated cataloging rules. The uniform
+      acceptance of the MARC format and the cataloging rules makes it possible
+      to exchange records on a global scale across systems from different
+      vendors. To the success we have to add the Z39.50 standard for
+      bibliorgraphic search and information retrieval.</p>
+
+      <p>All this do save money. On the other hand, these processes requires
+      trained staff, often with academic education.</p>
 
     </div>
   </content>
