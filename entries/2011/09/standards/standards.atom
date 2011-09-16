@@ -13,7 +13,10 @@
     </div>
   </content>
   <dc:date>2011</dc:date>
-  <category label="structuralwebdesign" term="Structural web design"/>
+  <category label="metadata" term="Metadata"/>
+  <category label="metadataprocessing" term="Metadata processing"/>
+  <category label="thelibrary" term="The Library"/>  
   <updated>2011-09-16T06:44:59+01:00</updated>
   <id>http://www.sigfrid-lundberg.se/entries/2011/09/standards/</id>
+  <!-- $Id$ -->
 </entry>
