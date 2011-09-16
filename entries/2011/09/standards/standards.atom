@@ -20,15 +20,17 @@
       it. That concept has been the basis for a small but not insignificant
       branch of the software industry.</p>
 
-      <p>The bibliographic records are created and maintained in workflows
-      that are supported by sets of complicated cataloging rules. The uniform
-      acceptance of the MARC format and the cataloging rules makes it possible
-      to exchange records on a global scale across systems from different
-      vendors. To the success we have to add the Z39.50 standard for
-      bibliorgraphic search and information retrieval.</p>
+      <p>The uniform acceptance of the MARC format makes it possible to
+      exchange records on a global scale across systems from different
+      vendors. To the success we have to add the Z39.50 protocol for
+      bibliorgraphic search and information retrieval, which has enabled us to
+      cross-search virtually any library OPACS.</p>
 
-      <p>All this do save money. On the other hand, these processes requires
-      trained staff, often with academic education.</p>
+      <p>All this is indeed useful. But to prove that we've saved money is
+      hard. The bibliographic records are created and maintained in workflows
+      that are supported by sets of complicated cataloging rules. The
+      bibliographic processes requires trained staff, often with academic
+      education.</p>
 
     </div>
   </content>
