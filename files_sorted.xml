@@ -11,6 +11,69 @@
   <author>
     <name>Sigfrid Lundberg</name>
   </author>
+  <title>Costs and benefits of standards</title>
+  <link href="/entries/2011/09/standards/"/>
+  <summary>The Library communities have been more prone to accept and create
+  standards than most other communities. Here I try to list costs and benifits
+  for this.</summary>
+  <content type="xhtml">
+    <div xmlns="http://www.w3.org/1999/xhtml">
+
+      <p>For about fifteen years I've been active with both the creation and
+      implementations of standards. I've been an evangelist for good metadata,
+      good text encoding and sound internet standards. Good standards do
+      help. In the library world we have the MARC bibliographic record as a
+      prime example. Without such a standard it would have been much more
+      difficult to establish the computerized library catalog as we know
+      it. That concept has been the basis for a small but not insignificant
+      branch of the software industry.</p>
+
+      <p>The uniform acceptance of the MARC format makes it possible to
+      exchange records on a global scale across systems from different
+      vendors. To the success we have to add the Z39.50 protocol for
+      bibliorgraphic search and information retrieval, which has enabled us to
+      cross-search virtually any library OPACS.</p>
+
+      <p>All this is indeed useful. But to prove that we've saved money is
+      hard. The bibliographic records are created and maintained in workflows
+      that are supported by sets of complicated cataloging rules. The
+      bibliographic processes requires trained staff, often with academic
+      education.</p>
+
+      <p>
+	Now Library of Congress has finally reached the following conclusion:
+	<q style="font-style:italic;">Recognizing that Z39.2/MARC are no longer fit for the purpose, work
+	with the library and other interested communities to specify and
+	implement a carrier for bibliographic information that is capable of
+	representing the full range of data of interest to libraries, and of
+	facilitating the exchange of such data both within the library
+	community and with related communities.</q>
+	<a href="http://www.loc.gov/marc/transition/news/framework-103111.html">
+	  A Bibliographic Framework for the Digital Age
+	</a>
+      </p>
+
+      <p>I sincerely think that this will lead to lesser costs for OPAC
+      software. Noone knows if this will benefit the libraries or just
+      increase the revenues of the software houses that will implement the
+      next generation of library catalogs.</p>
+
+      <p>I doubt that RDA will be cheaper to use than AACR2.</p>
+
+    </div>
+  </content>
+  <dc:date>2011</dc:date>
+  <category label="metadata" term="Metadata"/>
+  <category label="metadataprocessing" term="Metadata processing"/>
+  <category label="thelibrary" term="The Library"/>  
+  <updated>2011-09-16T06:44:59+01:00</updated>
+  <id>http://www.sigfrid-lundberg.se/entries/2011/09/standards/</id>
+  <!-- $Id$ -->
+</entry>
+  <entry>
+  <author>
+    <name>Sigfrid Lundberg</name>
+  </author>
   <title>A neighbour, almost</title>
   <link href="/entries/2011/05/gustav/"/>
   <summary>I've made a new acquaintance, Gustav Holmberg, a history of science
@@ -572,7 +635,7 @@
     </div>
   </content>
   <dc:date>2010</dc:date>
-  <category label="structuralwebdesign" term="Structural web design"/>
+  <category label="essays" term="Essays"/>
   <updated>2010-11-28T22:32:50+01:00</updated>
   <id>http://www.sigfrid-lundberg.se/entries/2010/11/patience/</id>
   <!-- $Id$ -->
