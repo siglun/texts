@@ -1,0 +1,162 @@
+Regeringen var mycket framsynt, inte minst i ett internationellt perspektiv,
+när den 1996 gav Högskoleverket i uppdrag att utveckla ett system för
+forskningsinformation på Internet. I ett land som vill vara framträdande
+forsknings- och IT-nation ter det sig logiskt att det finns en digital
+infrastruktur för forskningsinformation och att det är lätt för olika
+intressenter i och utanför Sverige att snabbt hitta vilken forskning som
+bedrivs. Vetenskapsrådets beslut att lägga ner Safari är av flera skäl
+bekymmersamt och tyder på att myndigheten inte förmår lyfta blicken till ett
+nationellt och strategiskt perspektiv från ett mycket snävt målgruppstänkande.
+Beslutet rimmar också illa med de ambitioner regeringen ger uttryck för i sin
+forskningspolitik, IT-politik och förvaltningspolitik.
+
+Det system Högskoleverket konstruerade i samarbete med NetLab var en
+internetbaserad söktjänst som enbart sökte i information på högskolornas
+webbservrar.  Det krävdes därför att högskolorna skulle publicera information
+om sin forskning på sina webbservrar. Informationsansvaret skulle ligga så
+nära "producenten" som möjligt. Utvecklingen av mängden forskningsinformation
+på webben har också varit remarkabel i Sverige. Från att sammanlagt haft ett
+hundratal "sidor" om forskning ute på webben 1998 har svenska universitet och
+högskolor i dag över 15.000 "sidor". I princip var det enda som krävdes för
+att en sida skulle indexeras i Safari, att servern tillhörde en forskande
+myndighet och att den katalogiserades enligt vissa standardiserade regler. För
+en van användare tog processen vid pass tio minuter och för den ovane kunde
+det vara ett oöverkomligt problem. Med hjälp av dagens modernare teknik skulle
+det gå fortare.
+
+Sidorna i Safari producerades lokalt, och bara delvis för Safaris räkning. Det
+fanns aldrig mer än marginella resurser för produktion av information
+specifikt för Safari. Tjänsten innehåller därför till stor del material som
+skulle ha producerats oavsett om Safari fanns. Vilket material som hamnat där
+har bestämts av vad varje enskild högskola har satsat på ett visst
+budgetår. När Safari var nytt arbetade ett universitet med sin projektkatalog,
+ett annat med sin publikationsdatabas och ett tredje med något annat. Detta
+medförde att det roboten samlade in blev pytt-i-panna. Varje satsning var i
+sig inte fel men helheten blev en heterogen samling stickprov.
+
+Ett av Vetenskapsrådets argument för att lägga ned Safari är en absurd
+beräkning genom vilken man kommer fram till att kostnaden för tjänsten varit
+mellan 10 och 20 miljoner kronor per år (Jacobsson och Billfalk, Utvärdering
+av SAFARI. Vetenskapsrådets Rapportserie 2002:3). I media har detta
+förvanskats till att varje besök i tjänsten skulle ha kostat 10.000 kronor. En
+beräkning som bygger på det felaktiga antagandet att materialet endast finns
+tillgängligt via den centrala tjänsten och producerats enkom för det
+ändamålet. Att beräkningen presenteras visar tydligt att Vetenskapsrådets
+utvärderare helt enkelt inte har färstått vad rådet har fått att förvalta.
+
+Ett annat av Vetenskapsrådets viktigaste argument för att lägga ner Safari
+tycks vara att det inte finns tillräckligt med information för den så kallade
+allmänheten och att skolelever inte förstår vad där står. I princip har
+Vetenskapsrådet haft två och ett halvt år på sig att göra något åt detta
+problem med databasens kataloginformation som utgångspunkt är det lätt att
+bygga separata gränssnitt för olika typer av material och olika
+användargrupper.
+
+I stället för Safari menar man att det måste finnas en redaktion som bearbetar
+forskarnas material till något lättsmält. Samma argument fördes fram, av samma
+informatörer, redan 1996, 1997, 1998... Vad man då helt bortser från är alla
+andra grupper som har intresse av att hitta rätt i forskningsdjungeln
+(myndigheter, företag, högskolestudenter m.fl.)  och vars eventuella kontakt
+med högskolan är näst intill omöjlig att sätta ett pris på. Dessa grupper
+lyfte regeringen också fram 1996 i uppdraget till Högskoleverket men
+informatörerna på Vetenskapsrådet väljer att bortse från det.
+
+Redaktionell bearbetning av forskarnas populärvetenskapliga publikationer
+fyller ofta en viktig roll och det finns ingen motsättning mellan detta och en
+infrastruktur för digital forskningsinformation. Men till skillnad mot den
+information som riktas mot näringslivet, universitetsstuderande och forskarna
+själva finns det redan en mängd aktörer som tar ansvar för populärvetenskaplig
+publicering, inklusive dagspress, ett flertal tidskrifter och etermedia. Dessa
+aktörer sköter detta med bravur.
+
+I själva verket blottlägger Safaris nedläggning fundamentala motsättningar
+mellan olika behov och intressen på informationens område; motsättningar
+mellan centrum och periferi, mellan dokumentation av forskningsverksamhet
+(dvs. en detaljerad kartläggning av vad som publiceras och vilka projekt som
+bedrivs) och översiktlig och populär beskrivning av forskning, och mellan
+informatör och forskare.
+
+I ett Schlaraffenland med obegränsade resurser hade naturligtvis inte
+motsättningarna flutit upp till ytan.
+
+För att se motsättningarna klarare vill vi ta ett exempel på en typ av
+information som högskolorna uppenbarligen känt ett stort behov av att
+dokumentera, men som inte Vetenskapsrådet vill ta hand om, nämligen
+produktionen av akademiska avhandlingar. Avhandlingsdatabaser finns vid många
+högskoleenheter, och flera av dem har låtit Safari indexera dem för att göra
+dem gemensamt sökbara. Men eftersom flertalet avhandlingar är av perifert
+intresse för gymnasister och informatörer har de heller inget intresse för
+Vetenskapsrådets forskningsportal.
+
+Safari var ett tidigt exempel på en digital infrastruktur, som även innehöll
+tydliga processer för digital publicering inom universitet och högskolor,
+vilken skulle göra det möjligt för den intresserade att hitta rätt, oavsett
+vem det är och i vilket syfte som sökningen görs. Safari samlade automatiskt
+in avhandlingarnas sammanfattningar, och gjorde dem sökbara, vilket innebar
+att Safari faktiskt i princip var en bättre källa för information om sådana än
+bibliotekskatalogerna för de högskolor som täcktes av tjänsten.
+
+Inget tyder på att behovet av denna typ av infrastruktur har minskat.  Liksom
+teknikutvecklingen har förändrat våra möjligheter att uträtta bankärenden,
+hitta och lyssna till musik, läsa och titta på nyheter, boka biljetter,
+handla, söka lagtexter och skattedeklarera, håller den på att förändra
+publicering och hantering av forskningsresultat. För tio år sedan gällde för
+många discipliner att det forskningsresultat som inte återfanns i en
+internationell tidskrift med peer-review, det fanns inte. I dag gäller att den
+internationella tidskrift som inte finns på Internet, den finns inte heller.
+
+Men det stormar i vetenskapliga kommunikationens politiska ekonomi.  De stora
+förlagens forskningstidskrifter kostar enorma pengar för biblioteken att
+licensiera. För vetenskapliga artiklar får man inget honorar - inte sällan
+debiteras forskaren i stället får publiceringen. Att situationen i dag är
+sådan att frukterna av offentligt finansierad forskning i dag måste köpas för
+pengar möts i dag med global avsmak (se: www.publiclibraryofscience.org).
+
+Runt om i världen byggs nu tjänster som bygger på samma filosofi som Safari,
+men med ny och mycket mer standardiserad teknik. Ett ledande initiativ som
+försöker underlätta den internationella kunskapsdelningen är "Open Archives
+Initiative" (OAI, www.openarchives.org) som syftar till att stödja standarder
+som främjar en effektiv spridning av innehåll och att tillgängliggöra digitala
+arkiv med forskningsartiklar. I styrgruppen finns Library of Congress, Harvard
+University, Los Alamos National Laboratory, Cornell University och California
+Digital Library. I Storbritannien (Jisc FAIR-programmet se:
+www.jisc.ac.uk/events/02/fair.html) finansieras fjorton projekt baserade på
+OAI-konceptet vilka knyter samman ett 50-tal institutioner inom forskning och
+högre utbildning. Precis som Safari.
+
+Safari väckte internationell uppmärksamhet i projektets begynnelse och valet
+av standarder visade sig helt riktigt. Därmed inte sagt att det inte finns en
+rad brister och behov av modernisering. Det gäller även universitetens interna
+rutiner för, och syn på, digital publicering och
+kunskapsdelning. Vetenskapsrådet tog över ansvaret för Safari för över två år
+sedan men har sedan dess endast förberett nedläggning av tjänsten genom att
+"utreda" frågan.
+
+Nedläggningen väcker en rad frågor. Är det rimligt att ett så omfattande
+infrastrukturellt projekt endast får tre år på sig att utvecklas till något
+fruktbart när hela statsförvaltningen i övrigt fortfarande väntar på att komma
+i gång med en mer systematisk informationshantering myndigheter emellan?  Är
+det rimligt att lägga ner ett utvecklingsprojekt vars grundkoncept nu
+implementeras i hela förvaltningen i Storbritannien (se www.ukonline.gov.uk)?
+Vilken myndighet har, eller tar, nationellt ansvar för att driva utvecklingen
+framåt och utveckla den digitala publiceringen av forskningsresultat och annan
+offentlig information?
+
+Det är en spännande utmaning att förena olika yrkesgruppers kompetens. För att
+utveckla möjligheterna till kommunikation och kunskapsdelning i samhället
+ställs krav på samarbete mellan exempelvis bibliotekarier, systemvetare,
+informatörer, webbutvecklare, språkvetare och pedagoger. Förmår
+Regeringskansliet att bearbeta all den information den får i dessa frågor från
+exempelvis EU, Statskontoret, Kungliga biblioteket, IT-kommissionen, Statens
+kvalitets- och kompetensråd, Post- och telestyrelsen, Nutek, Vinnova och
+säkert många andra?
+
+Sigfrid Lundberg (sigfrid.lundberg@lub.lu.se), Biblioteksdirektion, Lunds
+universitet Martin Sparr (martin.sparr@kkr.se), Statens kvalitets- och
+kompetensråd
+
+
+
+
+
+
