@@ -1,11 +1,11 @@
 <div xmlns="http://www.w3.org/1999/xhtml">
   <div>
-    <h1 style="font-family: sans-serif; width: 55%; float: left;text-align: left;">Costs and benefits of standards</h1>
+    <h1 style="font-family: sans-serif; width: 55%; float: left;text-align: left;">100% M</h1>
     <p style="width: 38%; float: left;text-align: right">
       <em>
         <strong>
 		Sigfrid Lundberg's Stuff,
-	      2011-09-16</strong>
+	      2012-01-17</strong>
       </em>
     </p>
   </div>
@@ -13,60 +13,70 @@
   <div style="width:100%;">
     <div>
 
-      <p>For about fifteen years I've been active with both the creation and
-      implementations of standards. I've been an evangelist for good metadata,
-      good text encoding and sound internet standards. Good standards do
-      help. In the library world we have the MARC bibliographic record as a
-      prime example. Without such a standard it would have been much more
-      difficult to establish the computerized library catalog as we know
-      it. That concept has been the basis for a small but not insignificant
-      branch of the software industry.</p>
+      <div style="float: left; width: 240px; margin-left: 0.2em; margin-right: 0.5em;">
+	<a href="http://www.flickr.com/photos/sigfridlundberg/6340958317/" title="100% M by Sigfrid Lundberg, on Flickr">
+	  <img src="http://farm7.staticflickr.com/6229/6340958317_9c8b262e6c_m.jpg" width="240" height="180" alt="100% M"/>
+	</a>
+      </div>
 
-      <p>The uniform acceptance of the MARC format makes it possible to
-      exchange records on a global scale across systems from different
-      vendors. To the success we have to add the Z39.50 protocol for
-      bibliorgraphic search and information retrieval, which has enabled us to
-      cross-search virtually any library OPACS.</p>
+      <p>Everything there is M mount, but there is no <b>real</b> Leica
+      stuff. I could afford the real thing but then I would have to sacrifice
+      a lot of other parts in my life. I do suffer from Leica envy inasmuch as
+      I'd love to have some lenses. But I've no interest in a M9. I don't
+      think that the rangefinder technology is my cup of tea.</p>
 
-      <p>All this is indeed useful. But to prove that we've saved money is
-      hard. The bibliographic records are created and maintained in workflows
-      that are supported by sets of complicated cataloging rules. The
-      bibliographic processes requires trained staff, often with academic
-      education.</p>
+      <div style="float: right; width: 240px; margin-left: 0.2em; margin-right: 0.5em;">
+
+	<a href="http://www.flickr.com/photos/sigfridlundberg/6398818559/" title="20111125_001.jpg by Sigfrid Lundberg, on Flickr"><img src="http://farm8.staticflickr.com/7003/6398818559_c72bb06b70_m.jpg" width="240" height="180" alt="20111125_001.jpg"/></a>
+      </div>
+
+      <p>I've presented all the lenses here before. They are Heliar 15mm
+      f/4.5, 25mm f/2.8 ZM-Biogon and M-Rokkor 40mm f/2 The small black camera
+      is a Ricoh GXR body with Mount A12 sensor. It takes the same lens family
+      as Leica M. And it is modern digital mirrorless camera with an
+      electronic view-finder. My F- lenses are eagerly awaiting a new
+      adapter. Here's some reading for those who are interested:</p>
+
+      <p><a href="http://www.stevehuffphoto.com/2011/09/28/the-ricoh-gxr-a12-m-mount-module-review-by-ashwin-rao/" rel="nofollow">Ashwin Rao</a> describes how he is able to do manual
+      focus fast enough to do sports photography. That impressed me, and that
+      was one of the factors that settled the issue for me.  <a href="http://www.luminous-landscape.com/essays/ricoh_lens_mount_a12.shtml" rel="nofollow">Sean Reid</a> was the one who convinced me that
+      anti-aliasing filters are detrimental for image quality.  <a href="http://www.luminous-landscape.com/reviews/cameras/ricoh_gxr_a12_field_report.shtml" rel="nofollow">Luminous Landscape's The field report</a> convinced me
+      about the user interface. </p>
+
 
       <p>
-	Now Library of Congress has finally reached the following conclusion:
-	<q style="font-style:italic;">Recognizing that Z39.2/MARC are no longer fit for the purpose, work
-	with the library and other interested communities to specify and
-	implement a carrier for bibliographic information that is capable of
-	representing the full range of data of interest to libraries, and of
-	facilitating the exchange of such data both within the library
-	community and with related communities.</q>
-	<a href="http://www.loc.gov/marc/transition/news/framework-103111.html">
-	  A Bibliographic Framework for the Digital Age
-	</a>
+	<a href="http://www.luminous-landscape.com/essays/ricoh_lens_mount_a12.shtml">Sean
+	Reid</a> was the one who convinced me that anti-aliasing filters are
+	detrimental for image quality.  <a href="http://www.luminous-landscape.com/reviews/cameras/ricoh_gxr_a12_field_report.shtml" rel="nofollow">Luminous Landscape's The field report</a> convinced me
+	about the user interface.
       </p>
 
-      <p>I sincerely think that this will lead to lesser costs for OPAC
-      software. Noone knows if this will benefit the libraries or just
-      increase the revenues of the software houses that will implement the
-      next generation of library catalogs.</p>
+      <p>Having used it over the weekend I can ensure you that I expected a lot of this little black beastm but that its capabilities have exceeded all my expectations.</p>
+    
 
-      <p>I doubt that RDA will be cheaper to use than AACR2.</p>
+
 
     </div>
     <br clear="all"/>
     <p style="text-align: left;"><em><strong>Categories:</strong></em> 
-	  <a href="/subjects/metadata/">Metadata</a>,
-	    <a href="/subjects/metadataprocessing/">Metadata processing</a>,
-	    <a href="/subjects/thelibrary/">The Library</a><br/><em><strong>
+	  <a href="/subjects/images/">Images</a>,
+	    <a href="/subjects/photography/">Photography</a>,
+	    <a href="/subjects/hardware/">Hardware</a><br/><em><strong>
 		Permalink:
-	      </strong></em><a rel="bookmark" href="/entries/2011/09/standards/">http://sigfrid-lundberg.se/entries/2011/09/standards/</a></p>
+	      </strong></em><a rel="bookmark" href="/entries/2012/01/gxrm/">http://sigfrid-lundberg.se/entries/2012/01/gxrm/</a></p>
     <hr width="50%" align="center"/>
   </div>
   <div>
     <h1>Other, not yet obsolete stuff</h1>
     <table class="news">
+      <tr>
+        <td class="left">2011-09-16</td>
+        <td class="left"><a href="/entries/2011/09/standards/"><em>Costs and benefits of standards</em></a><br/>The Library communities have been more prone to accept and create
+  standards than most other communities. Here I try to list costs and benifits
+  for this.<br/><a href="/subjects/metadata/">Metadata</a>,
+	<a href="/subjects/metadataprocessing/">Metadata processing</a>,
+	<a href="/subjects/thelibrary/">The Library</a></td>
+      </tr>
       <tr>
         <td class="left">2011-05-24</td>
         <td class="left"><a href="/entries/2011/05/gustav/"><em>A neighbour, almost</em></a><br/>I've made a new acquaintance, Gustav Holmberg, a history of science
@@ -104,11 +114,6 @@
   respective companies building them. But appart from that they differ in
   almost all aspects. Even in the very idea behind their existence.<br/><a href="/subjects/images/">Images</a>,
 	<a href="/subjects/hardware/">Hardware</a></td>
-      </tr>
-      <tr>
-        <td class="left">2010-11-28</td>
-        <td class="left"><a href="/entries/2010/11/patience/"><em>On patience and bus stops</em></a><br/>Waiting at a bus stop can learn us something significant about
-  human nature<br/><a href="/subjects/essays/">Essays</a></td>
       </tr>
     </table>
   </div>
