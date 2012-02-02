@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<entry xmlns="http://www.w3.org/2005/Atom" xmlns:dc="http://purl.org/dc/elements/1.1/">
+  <author>
+    <name>Sigfrid Lundberg</name>
+  </author>
+  <title>Why do I keep this site?</title>
+  <link href="/entries/2012/02/interview/"/>
+  <summary>Having had a web site for about 15 years, I start to wonder why I
+  keep it in the first place.</summary>
+  <content type="xhtml">
+    <div xmlns="http://www.w3.org/1999/xhtml">
+
+    </div>
+  </content>
+  <dc:date>2011</dc:date>
+  <category label="structuralwebdesign" term="Structural web design"/>
+  <updated>2012-02-02T21:36:43+01:00</updated>
+  <id>http://www.sigfrid-lundberg.se/entries/2012/02/interview/</id>
+</entry>
