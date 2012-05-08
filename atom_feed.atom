@@ -6,7 +6,55 @@
   <title>Sigfrid Lundberg's Stuff</title>
   <id>http://sigfrid-lundberg.se/files.atom</id>
   <link rel="self" href="http://feeds.feedburner.com/SigfridLundbergsStuff?format=xml"/>
-  <updated>2012-02-02T21:36:43+01:00</updated>
+  <updated>2012-05-08T19:18:41+01:00</updated>
+  <entry>
+  <author>
+    <name>Sigfrid Lundberg</name>
+  </author>
+  <title>Creative Commons and Dutch Elm Disease?</title>
+  <link href="http://sigfrid-lundberg.se/entries/2012/05/elmdisease/"/>
+  <summary>A story about some dead trees, a walk with friends in Skåne and a
+  natural reserve outside Bristol, UK.</summary>
+  <content type="xhtml">
+    <div xmlns="http://www.w3.org/1999/xhtml">
+      <p>
+	<a href="http://www.flickr.com/photos/sigfridlundberg/5660543200/" title="P4256945.ORF by Sigfrid Lundberg, on Flickr">
+	  <img src="http://farm6.staticflickr.com/5262/5660543200_3495ab74ae_z.jpg" width="100%" alt="P4256945.ORF"/>
+	</a>
+      </p>
+      <p>I've been an active amateur photographer many years, but more so
+      since I about three years acquired a digital system camera and started
+      to <a href="http://www.flickr.com/photos/sigfridlundberg/">share my
+      images on Flickr</a>. Besides the actual publication of your photos,
+      there is an ongoing conversation on images and photography on Flickr
+      which usually means that photographers visits each others streams and
+      comment. Today I got the following comment:</p>
+
+      <blockquote>Hi Sigfrid, Thanks for licensing this powerful image under
+      Creative Commons. Dutch elm disease wreaked similar havoc here in the
+      UK. We have used the image on a community blog about an open space,
+      called Clifton and Durham Downs, here in Bristol. You can see the image
+      and accompanying story here:<br/>
+      <a href="http://www.thedowns150.org.uk/2011/12/dutch-elm-disease/">www.thedowns150.org.uk/2011/12/dutch-elm-disease/</a></blockquote>
+
+      <p>I haven't got any comment that made me sad on Flickr, but hardly any
+      that made me more glad than the one above.</p>
+
+      <p>My photos are used all over the place, and it makes me happy when I
+      see them used for commendable purposes. They even appear on less
+      worthwhile sites as well, but that is another story. But this is the
+      first time someone actually thanked me for licensing my photos under a
+      CC license.</p>
+
+    </div>
+  </content>
+  <dc:date>2012</dc:date>
+  <category label="flickr" term="Flickr"/>
+  <category label="creativecommons" term="Creative Commons"/>
+  <category label="photography" term="Photography"/>
+  <updated>2012-05-08T19:18:41+01:00</updated>
+  <id>http://www.sigfrid-lundberg.se/entries/2012/05/elmdisease/</id>
+</entry>
   <entry>
   <author>
     <name>Sigfrid Lundberg</name>
