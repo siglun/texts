@@ -10,10 +10,10 @@
 	  content="text/html;charset=UTF-8" />
 
     <meta name="description"
-	  content="contains thoughts about digital libraries.
+	  content="contains thoughts about digital libraries, music &amp; photography.
 		   That is, I describe some of the stuff I've
-		   been working on (and strived for)
-		   during fifteen years or so." />
+		   been working on and striven for
+		   the last decades." />
 
     <link rel ='stylesheet'
 	  href='/css-style/html.css'
