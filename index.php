@@ -10,13 +10,13 @@
 	  content="text/html;charset=UTF-8" />
 
     <meta name="description"
-	  content="contains thoughts about digital libraries, music &amp; photography.
-		   That is, I describe some of the stuff I've
+	  content="contains thoughts about digital libraries, music and photography.
+		   That is, I describe some of the stuff I have
 		   been working on and striven for
 		   the last decades." />
 
-    <link rel ='stylesheet'
-	  href='/css-style/html.css'
+    <link rel ="stylesheet"
+	  href="/css-style/html.css"
 	  type="text/css" />
 
     <link href="http://feeds.feedburner.com/SigfridLundbergsStuff/?format=xml"
@@ -39,8 +39,6 @@
           readfile($file);
       }
     ?>
-
-
 
   </head>
   <body>

@@ -1,9 +1,0 @@
-AddType "application/rss+xml;charset=UTF-8" .rss
-AddType "application/atom+xml;charset=UTF-8" .atom
-AddType "text/xml" .xsl
-AddType "text/xml" .xml
-AddType "text/html" .shtml
-AddOutputFilter INCLUDES .shtml
-DirectoryIndex index.html index.shtml index.php
-
-XBitHack on
