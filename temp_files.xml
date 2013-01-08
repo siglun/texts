@@ -1389,7 +1389,7 @@ over again.</summary>
 
       <p>The National Library of Australia. <em>Australian METS Profile
       TYPE attribute vocabulary.  Version 1.0</em>
-      <a href="http://www.nla.gov.au/australianmetsprofile/documents/divTYPEvocabulary_v1_0.pdf">http://www.nla.gov.au/australianmetsprofile/documents/divTYPEvocabulary_v1_0.pdf</a></p>
+      <a href="http://www.nla.gov.au/standards/type-attribute-vocabulary">http://www.nla.gov.au/standards/type-attribute-vocabulary</a></p>
 
       <p>This list gives terms that can be used to describe content
       structure. The vocabulary is organized for the use in conjunc with <a href="http://www.loc.gov/standards/mets/">Metadata Encoding and
@@ -4770,7 +4770,7 @@ over again.</summary>
 
       <p>I've spent much of the last fifteen years working on problems related
       to interoperability, portability and longevity of data, and in
-      particular metadata in a librar context. During these years I've been
+      particular metadata in a library context. During these years I've been
       working a lot with XML.</p>
 
       <p>Early on I evangelized about XML with the fervour of a taleban. I
@@ -4778,7 +4778,7 @@ over again.</summary>
       started at the turn of the century and culminated 2004 - 2005
       (cf. Figure 1, and Edd Dumbill's <a href="http://www.xml.com/pub/a/2004/11/03/deviant.html">How Do I Hate
       Thee?</a>). Since then I've become more moderate, but still embrace XML
-      as the preferred tool for the modelling of data.</p>
+      as the preferred tool for the modeling of data.</p>
 
       <div style="float:left;width:65%;margin-right:0.5em;margin-left:0.5em;">
 	<a href="http://sigfrid-lundberg.se/entries/2010/07/hate_xml/hate_xml.png">
@@ -4786,20 +4786,20 @@ over again.</summary>
 	</a>
 	<p>
 	  <small>Figure 1. The number of web pages appearing per year
-	  containing the phrase <strong><q>hate xml</q></strong>. There is a
-	  steep increase in occurence a few year after the Applied XML
+	  containing the phrase <strong><q>hate XML</q></strong>. There is a
+	  steep increase in occurrence a few year after the Applied XML
 	  Developer's Conference 2004. After that it seems to level
 	  off.</small>
 	</p>
 	<p>
 	  <small>The data points represents hits pooled for two year periods
-	  graphed against the first of january the second year in each
+	  graphed against the first of January the second year in each
 	  period.</small>
 	</p>
 	<p>
 	  <small>Because of the way Google works, the date searches mostly
 	  hits blog entries and other syndicated material, where publication
-	  date and other metadata are known. The earliest occurence is from
+	  date and other metadata are known. The earliest occurrence is from
 	  2001.</small>
 	</p>
       </div>
@@ -4814,7 +4814,7 @@ over again.</summary>
       longer.</p>
 
       <p>Already year 2000 a friend of mine described his relation to XML as
-      <q>angle bracket fatique</q>, which I suppose is to be understood as
+      <q>angle bracket fatigue</q>, which I suppose is to be understood as
       <q>I hate typing XML, since its syntax is just terrible</q>.</p>
 
       <div style="float:right;width:65%;margin-right:0.5em;margin-left:0.5em;">
@@ -4822,8 +4822,8 @@ over again.</summary>
 	  <img src="http://sigfrid-lundberg.se/entries/2010/07/hate_xml/report_hate_xml.png" width="100%" alt="Search interest for &quot;hate xml&quot; in Google 2004-2010"/></a>
 	<p>
 	  <small>Figure 2. Search interest in Google for the term
-	  <strong><q>hate xml</q></strong>. There are hardly any connection
-	  between the change in occurrence of the <q>hate xml</q>-emotions and
+	  <strong><q>hate XML</q></strong>. There are hardly any connection
+	  between the change in occurrence of the <q>hate XML</q>-emotions and
 	  search interest. People seem search for the term a few years after they
 	  wrote about it.</small>
 	</p>
@@ -4855,11 +4855,11 @@ over again.</summary>
       out of, say, bibliographical records or encoded text requires that you
       are actually interested in those areas. The same is true for fluid
       mechanics and natural language processing. Interest in partial
-      differential equations and lingustics, respectively, will help.</p>
+      differential equations and linguistics, respectively, will help.</p>
 
       <p>I cannot see any difference here between XML and SQL in this
       respect. Any tools for object-relational modeling is subject to the same
-      problems. The developers that do the modelling has to become domain
+      problems. The developers that do the modeling has to become domain
       experts. This is fairly obvious for XML and less so for SQL. While few
       people form large scale standardization efforts for XML schemas, they
       hardly do so for RDBMS Schemas. </p>
@@ -4876,7 +4876,7 @@ over again.</summary>
       be a question of semantic inflation.</p>
 
       <p>When we Scandinavians say that we hate something, we mean it.  I'm
-      not sure that that's the case in the anglo-american sphere, and I'm not
+      not sure that that's the case in the Anglo-American sphere, and I'm not
       even certain that's the case for young Scandinavians.  However, when
       you're a middle-aged academic and intellectual, you may not think it's
       appropriate to hate. Or, at least, you may not think that it's
