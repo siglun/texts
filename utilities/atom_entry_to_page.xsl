@@ -48,8 +48,6 @@
 	<meta http-equiv="Content-Type"
 	      content="text/html;charset=UTF-8" />
 
-	<xsl:comment>#include virtual="/js/colorbox_include.html" </xsl:comment>
-
 	<script src="/js/navigation.js" type="text/javascript">
 	  <xsl:text> 
 	  </xsl:text>
@@ -66,6 +64,8 @@
 	<meta http-equiv="Content-Type" 
 	      content="text/html;charset=UTF-8"/>
 	<link rel="stylesheet" href="/css-style/html.css" />
+
+	<xsl:comment>#include virtual="/js/colorbox_include.html" </xsl:comment>
 
       </head>
 

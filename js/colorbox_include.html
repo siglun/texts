@@ -1,8 +1,16 @@
-    <link media="screen" rel="stylesheet" href="/css-style/colorbox.css" />
-    <script src="/js/jquery-1.4.4.min.js"></script>
-    <script src="/js/jquery.colorbox.js"></script>
-    <script>
-      $(document).ready(function(){
-      $("a[rel='viewer']").colorbox({transition:"none", width:"80%", height:"80%",iframe:true});
-      });
-    </script>
+
+  <style>
+    @import url("/css-style/colorbox.css");
+  </style>
+  <script type='text/javascript'
+	  src="https://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js">
+    //
+  </script>
+  <script type="text/javascript" src="/js/jquery.colorbox.js">
+    //
+  </script>
+  <script type="text/javascript">
+    $(document).ready(function(){
+    $("a[rel='viewer']").colorbox({rel:'viewer',height:'100%'});
+    });
+  </script>

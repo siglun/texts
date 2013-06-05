@@ -1386,8 +1386,8 @@ over again.</summary>
       indeed were regarded as useful in more glossy contexts.</p>
 
       <div style="float:right;width:370px;margin-right:0.5em;margin-left:0.5em;">
-	<a href="http://sigfrid-lundberg.se/entries/2010/08/glossy/20100831_004.jpg">
-          <img src="http://sigfrid-lundberg.se/entries/2010/08/glossy/20100831_004.jpg " width="100%" alt="Linux Format PHP Coding"/>
+	<a rel="viewer" href="http://sigfrid-lundberg.se/entries/2010/08/glossy/20100831_004.jpg">
+          <img id="img1" src="http://sigfrid-lundberg.se/entries/2010/08/glossy/20100831_004.jpg " width="100%" alt="Linux Format PHP Coding"/>
         </a>
       </div>
 
@@ -1399,8 +1399,8 @@ over again.</summary>
       </div>
 
       <div style="float:left;width:370px;margin-right:0.5em;margin-left:0.5em;">
-	<a href="http://sigfrid-lundberg.se/entries/2010/08/glossy/20100831_005.jpg">
-          <img src="http://sigfrid-lundberg.se/entries/2010/08/glossy/20100831_005.jpg " width="100%" alt="Users &amp; Developers want to Master Linux Now"/>
+	<a rel="viewer" href="http://sigfrid-lundberg.se/entries/2010/08/glossy/20100831_005.jpg">
+          <img id="img2" src="http://sigfrid-lundberg.se/entries/2010/08/glossy/20100831_005.jpg " width="100%" alt="Users &amp; Developers want to Master Linux Now"/>
         </a>
       </div>
 
@@ -1412,8 +1412,8 @@ over again.</summary>
       </div>
 
       <div style="float:right;width:370px;margin-right:0.5em;margin-left:0.5em;">
-	<a href="http://sigfrid-lundberg.se/entries/2010/08/glossy/20100831_006.jpg">
-          <img src="http://sigfrid-lundberg.se/entries/2010/08/glossy/20100831_006.jpg " width="100%" alt="Hidden away, there is a magazine for Office 2010"/>
+	<a rel="viewer" href="http://sigfrid-lundberg.se/entries/2010/08/glossy/20100831_006.jpg">
+          <img id="img3" src="http://sigfrid-lundberg.se/entries/2010/08/glossy/20100831_006.jpg " width="100%" alt="Hidden away, there is a magazine for Office 2010"/>
         </a>
       </div>
       <p>Hidden away, there is a magazine for Office 2010</p>
