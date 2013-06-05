@@ -10,9 +10,11 @@
   use with my Olympus E-P2.</summary>
   <content type="xhtml">
     <div xmlns="http://www.w3.org/1999/xhtml">
-       <div style="float: right; width: 240px; margin-left: 0.2em; margin-right: 0.5em;">
+       <div style="float: right; width: 50%; margin-left: 0.2em; margin-right: 0.5em;">
 	 <a href="http://www.flickr.com/photos/sigfridlundberg/5496533284/" title="Minolta M-Rokkor 40mm f/2.0 by Sigfrid Lundberg, on Flickr">
-	   <img src="http://farm6.static.flickr.com/5259/5496533284_b6846740e7_m.jpg" alt="Minolta M-Rokkor 40mm f/2.0"/>
+	   <img
+	       src="http://farm6.static.flickr.com/5259/5496533284_b6846740e7_b.jpg"
+	       alt="Minolta M-Rokkor 40mm f/2.0" style="width:100%"/>
 	 </a>
 	 <p>
 	   <small>Minolta M-Rokkor 40mm f/2.0 mounted on an Olympus Digital
@@ -38,17 +40,17 @@
 	 CameraQuest</a>
        </blockquote>
 
-       <div style="float: left; width: 240px; margin-left: 0.2em; margin-right: 0.5em;">
+       <div style="float: left; width: 50%; margin-left: 0.2em; margin-right: 0.5em;">
 	 <a href="http://www.flickr.com/photos/sigfridlundberg/5674707921/" title="P4307205.ORF by Sigfrid Lundberg, on Flickr">
-	   <img src="http://farm6.static.flickr.com/5143/5674707921_1ffd141bab_m.jpg" width="240" height="180" alt="P4307205.ORF"/>
+	   <img src="http://farm6.static.flickr.com/5143/5674707921_1ffd141bab_b.jpg" style="width:100%" alt="P4307205.ORF"/>
 	 </a>
 	 <p><small>Dandelions shot with M Rokkor 30 April 2011. The aperture was 2.8,
 	 so the background became blurred.</small></p>
        </div>
 
-       <div style="float: right; width: 240px; margin-left: 0.2em; margin-right: 0.5em;">
+       <div style="float: right; width: 50%; margin-left: 0.2em; margin-right: 0.5em;">
 	 <a href="http://www.flickr.com/photos/sigfridlundberg/5619840338/" title="P4116371.tif by Sigfrid Lundberg, on Flickr">
-	 <img src="http://farm6.static.flickr.com/5104/5619840338_2bfce4b588_m.jpg" width="240" height="229" alt="P4116371.tif"/></a>
+	 <img src="http://farm6.static.flickr.com/5104/5619840338_2bfce4b588_b.jpg" style="width:100%" alt="P4116371.tif"/></a>
 	 <p>
 	   <small>Gammel strand from Højbro. Holmens' canal, Copenhagen.</small>
 	 </p>
@@ -61,8 +63,8 @@
        four thirds camera it becomes a short telephoto lens, with a focal length
        suitable for portrait and landscape photography</p>
 
-       <div style="float: right; width: 240px; margin-left: 0.2em; margin-right: 0.5em;">
-	 <a href="http://www.flickr.com/photos/sigfridlundberg/5516412953/" title="P3105155.tif by Sigfrid Lundberg, on Flickr"><img src="http://farm6.static.flickr.com/5176/5516412953_71eb5bdedb_m.jpg" width="240" height="181" alt="P3105155.tif"/></a>
+       <div style="float: left; width: 50%; margin-left: 0.2em; margin-right: 0.5em;">
+	 <a href="http://www.flickr.com/photos/sigfridlundberg/5516412953/" title="P3105155.tif by Sigfrid Lundberg, on Flickr"><img src="http://farm6.static.flickr.com/5176/5516412953_71eb5bdedb_b.jpg" style="width:100%" alt="P3105155.tif"/></a>
 	 <p>
 	   <small>The antiquarian bookstore is closed at night.</small>
 	 </p>

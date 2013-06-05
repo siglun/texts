@@ -71,19 +71,23 @@
       </head>
 
       <xsl:element name="body">
-	<div class="left_box">
-	  <div style="text-align:left;width=90%;">
-	    <xsl:comment>#include virtual="/div_top_left_box.xml" </xsl:comment>
-	  </div>
-	  <div style="text-align:left;width=90%;">
-	    <p>
-	    <a href="/">Home</a><br/>
-	    <a href="http://feeds.feedburner.com/SigfridLundbergsStuff?format=xml"
-	       type="application/atom+xml"
-	       class="feed-link">
-	      <img src="/images/Newsfeed-Atom.png" 
-		   alt="Subscribe to Stuff from Sigfrid Lundberg"
-		   border="0"/>Subscribe to my stuff</a><br/>
+	<div class="outer_box">
+
+	  <xsl:comment>#include virtual="/top_div.xml" </xsl:comment>
+
+	  <div class="left_box">
+	    <div style="text-align:left;width=90%;">
+	      <xsl:comment>#include virtual="/div_top_left_box.xml" </xsl:comment>
+	    </div>
+	    <div style="text-align:left;width=90%;">
+	      <p>
+		<a href="/">Home</a><br/>
+		<a href="http://feeds.feedburner.com/SigfridLundbergsStuff?format=xml"
+		   type="application/atom+xml"
+		   class="feed-link">
+		  <img src="/images/Newsfeed-Atom.png" 
+		       alt="Subscribe to Stuff from Sigfrid Lundberg"
+		       border="0"/>Subscribe to my stuff</a><br/>
 
 	      <a href="http://sigfridlundbergsstuff.disqus.com/latest.rss"
 		 type="application/rss+xml"
@@ -191,6 +195,7 @@
 	    </a>
 	  </p>
 
+	</div>
 	</div>
 	<script type="text/javascript" src="http://disqus.com/forums/sigfridlundbergsstuff/embed.js">
 	  <xsl:text>

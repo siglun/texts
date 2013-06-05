@@ -4,7 +4,7 @@
 	</title><link href="http://feeds.feedburner.com/SigfridLundbergsStuff?format=xml" type="application/atom+xml" title="Sigfrid Lundberg's Stuff" rel="alternate"/><link href="http://sigfridlundbergsstuff.disqus.com/latest.rss" type="application/rss+xml" title="Latest Comments" rel="alternate"/><meta http-equiv="Content-Type" content="text/html;charset=UTF-8"/><script src="/js/navigation.js" type="text/javascript"> 
 	  </script><script type="text/javascript">
 	      var disqus_developer=1;
-	    </script><meta http-equiv="Content-Type" content="text/html;charset=UTF-8"/><link rel="stylesheet" href="/css-style/html.css"/><!--#include virtual="/js/colorbox_include.html" --></head><body><div class="left_box"><div style="text-align:left;width=90%;"><!--#include virtual="/div_top_left_box.xml" --></div><div style="text-align:left;width=90%;"><p><a href="/">Home</a><br/><a href="http://feeds.feedburner.com/SigfridLundbergsStuff?format=xml" type="application/atom+xml" class="feed-link"><img src="/images/Newsfeed-Atom.png" alt="Subscribe to Stuff from Sigfrid Lundberg" border="0"/>Subscribe to my stuff</a><br/><a href="http://sigfridlundbergsstuff.disqus.com/latest.rss" type="application/rss+xml" class="feed-link"><img src="/images/Newsfeed-Atom.png" alt="Subscribe to Stuff from Sigfrid Lundberg" border="0"/>Subscribe to discussion feed</a></p><!--#include virtual="/subjects.xml" --><!--#include virtual="/me.xml" --><p><small><a rel="license" href="http://creativecommons.org/licenses/by-sa/3.0/"><img alt="Creative Commons License" style="border-width:0" src="http://i.creativecommons.org/l/by-sa/3.0/88x31.png"/></a><br/>
+	    </script><meta http-equiv="Content-Type" content="text/html;charset=UTF-8"/><link rel="stylesheet" href="/css-style/html.css"/><!--#include virtual="/js/colorbox_include.html" --></head><body><div class="outer_box"><!--#include virtual="/top_div.xml" --><div class="left_box"><div style="text-align:left;width=90%;"><!--#include virtual="/div_top_left_box.xml" --></div><div style="text-align:left;width=90%;"><p><a href="/">Home</a><br/><a href="http://feeds.feedburner.com/SigfridLundbergsStuff?format=xml" type="application/atom+xml" class="feed-link"><img src="/images/Newsfeed-Atom.png" alt="Subscribe to Stuff from Sigfrid Lundberg" border="0"/>Subscribe to my stuff</a><br/><a href="http://sigfridlundbergsstuff.disqus.com/latest.rss" type="application/rss+xml" class="feed-link"><img src="/images/Newsfeed-Atom.png" alt="Subscribe to Stuff from Sigfrid Lundberg" border="0"/>Subscribe to discussion feed</a></p><!--#include virtual="/subjects.xml" --><!--#include virtual="/me.xml" --><p><small><a rel="license" href="http://creativecommons.org/licenses/by-sa/3.0/"><img alt="Creative Commons License" style="border-width:0" src="http://i.creativecommons.org/l/by-sa/3.0/88x31.png"/></a><br/>
 		This entry (<em><span xmlns:dct="http://purl.org/dc/terms/" property="dct:title">Holberg, the Thinker and the Tulips</span></em>) within Sigfrid Lundberg's Stuff,
 
 		by <a xmlns:cc="http://creativecommons.org/ns#" property="cc:attributionName" rel="cc:attributionURL" href="http://sigfrid-lundberg.se/entries/2010/04/thinkerinthespring/">
@@ -19,7 +19,7 @@
     <div>
 
       <div style="float:left;width:50%;margin-right:0.5em;margin-left:0.5em;">
-	<a rel="viewer" title="Thinking about tulips" href="http://sigfrid-lundberg.se/entries/2010/04/thinkerinthespring/20100408380.jpg"><img src="http://sigfrid-lundberg.se/entries/2010/04/thinkerinthespring/20100408380.jpg" width="100%" alt="Thinking about tulips"/><div><small><element name="a" href="http://sigfrid-lundberg.se/entries/2010/04/thinkerinthespring/20100408380.jpg">Thinking about tulips</element></small></div></a>
+	<a rel="viewer" title="Thinking about tulips" href="http://sigfrid-lundberg.se/entries/2010/04/thinkerinthespring/20100408380.jpg"><img src="http://sigfrid-lundberg.se/entries/2010/04/thinkerinthespring/20100408380.jpg" width="100%" alt="Thinking about tulips"/></a><div><small><a href="http://sigfrid-lundberg.se/entries/2010/04/thinkerinthespring/20100408380.jpg">Thinking about tulips</a></small></div>
       </div>
       
       <p>I took this image 8 April and <a href="http://fsdata/entries/2010/03/thinking/" title="The thinker       2010-02-18">another earlier in February</a>. The difference in weather
@@ -34,7 +34,7 @@
       </div>
 
       <div style="float:right;width:50%;margin-right:0.5em;margin-left:0.5em;">
-	<a rel="viewer" title="Ludvig Holberg" href="http://sigfrid-lundberg.se/entries/2010/04/thinkerinthespring/smaller20100409384.jpg"><img src="http://sigfrid-lundberg.se/entries/2010/04/thinkerinthespring/smaller20100409384.jpg" width="100%" alt="Ludvig Holberg"/><div><small><element name="a" href="http://sigfrid-lundberg.se/entries/2010/04/thinkerinthespring/20100409384.jpg">Ludvig Holberg</element></small></div></a>
+	<a rel="viewer" title="Ludvig Holberg" href="http://sigfrid-lundberg.se/entries/2010/04/thinkerinthespring/smaller20100409384.jpg"><img src="http://sigfrid-lundberg.se/entries/2010/04/thinkerinthespring/smaller20100409384.jpg" width="100%" alt="Ludvig Holberg"/></a><div><small><a href="http://sigfrid-lundberg.se/entries/2010/04/thinkerinthespring/20100409384.jpg">Ludvig Holberg</a></small></div>
       </div>
 
 	<p><a href="http://en.wikipedia.org/wiki/Ludvig_Holberg">Ludvig
@@ -59,7 +59,7 @@
   <div style="clear:both"> 
 	    </div><div id="disqus_thread">
 	    </div><p style="margin-left:+1%;"><a href="http://disqus.com" class="dsq-brlink">blog comments powered
-	    by <span class="logo-disqus">Disqus</span></a></p></div><script type="text/javascript" src="http://disqus.com/forums/sigfridlundbergsstuff/embed.js">
+	    by <span class="logo-disqus">Disqus</span></a></p></div></div><script type="text/javascript" src="http://disqus.com/forums/sigfridlundbergsstuff/embed.js">
 	  </script><noscript><a href="http://sigfridlundbergsstuff.disqus.com/?url=http://sigfrid-lundberg.se/entries/2010/04/thinkerinthespring/">
 	      View the discussion thread
 	  </a></noscript><script type="text/javascript">//<!--

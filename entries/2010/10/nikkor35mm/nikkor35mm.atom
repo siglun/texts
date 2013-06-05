@@ -24,11 +24,12 @@
       ones</a>. This particular lens gets rating 5 for for traditional use
       with film and 4 otherwise. 5 is the highest rating and means:</p>
 
-      <div style="float: right; width: 240px;margin-left:0.2em; margin-right:0.5em;">
+      <div style="float: right; width: 50%;margin-left:0.2em; margin-right:0.5em;">
 	<a href="http://www.flickr.com/photos/sigfridlundberg/4993393887/"
 	   title="Brugmansia suaveolens by Sigfrid Lundberg, on Flickr">
-	  <img src="http://farm5.static.flickr.com/4103/4993393887_55eba5d46b_m.jpg" 
-	       width="240" height="180" 
+	  <img
+	      src="http://farm5.static.flickr.com/4103/4993393887_55eba5d46b_b.jpg" 
+	      style="width:100%"
 	       alt="Brugmansia suaveolens" />
 	</a>
 	<p>
@@ -57,12 +58,12 @@
       or not. If you're lucky and get it from someone who didn't understand
       just how good this lens is, then it is a bargain. Promise.</p>
 
-      <div style="float: left; width: 240px;margin-left:0.2em; margin-right:0.5em;">
+      <div style="float: left; width: 50%;margin-left:0.2em; margin-right:0.5em;">
 	<a href="http://www.flickr.com/photos/sigfridlundberg/5100556782/" 
 	   title="PA202467.JPG by Sigfrid Lundberg, on Flickr">
-	  <img src="http://farm2.static.flickr.com/1080/5100556782_2e8b7b4b79_m.jpg" 
-	       width="240" 
-	       height="180" 
+	  <img
+	      src="http://farm2.static.flickr.com/1080/5100556782_2e8b7b4b79_b.jpg" 
+	      style="width:100%"
 	       alt="PA202467.JPG" />
 	</a>
 	<p>
@@ -79,12 +80,12 @@
       href="http://en.wikipedia.org/wiki/Bokeh">bokeh</a> with the aperture
       wide open.</p>
 
-      <div style="float: right; width: 240px;margin-left:0.2em; margin-right:0.5em;">
+      <div style="float: right; width: 50%;margin-left:0.2em; margin-right:0.5em;">
 	<a href="http://www.flickr.com/photos/sigfridlundberg/5100557280/" 
 	   title="PA202470.JPG by Sigfrid Lundberg, on Flickr">
-	<img src="http://farm2.static.flickr.com/1372/5100557280_e968de7710_m.jpg" 
-	     width="240" 
-	     height="180" 
+	<img
+	    src="http://farm2.static.flickr.com/1372/5100557280_e968de7710_b.jpg" 
+	      style="width:100%"
 	     alt="PA202470.JPG" />
 	</a>
 	<p>
@@ -107,9 +108,9 @@
 	<a style="float: left; width: 500px;margin-left:0.2em; margin-right:0.5em;"
 	   href="http://www.flickr.com/photos/sigfridlundberg/5105205147/"
 	   title="PA212483.JPG by Sigfrid Lundberg, on Flickr">
-	  <img src="http://farm2.static.flickr.com/1260/5105205147_d00a9d8e66.jpg" 
-	       width="500" 
-	       height="375" 
+	  <img
+	      src="http://farm2.static.flickr.com/1260/5105205147_d00a9d8e66.jpg" 
+	      style="width:100%"
 	       alt="PA212483.JPG" />
 	</a>
 	<p>

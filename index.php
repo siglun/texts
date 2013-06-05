@@ -42,15 +42,23 @@
 
   </head>
   <body>
+    <div class="outer_box">
+    <?php
+	$top_file = "./top_div.xml";
+	if (file_exists($top_file)) {
+	readfile($top_file);
+	}
+    ?>
+
 
     <div class="left_box">
 
-      <a href="/images/computing_by_candlelight.shtml"
+      <!-- a href="/images/computing_by_candlelight.shtml"
 	 title="Portrait of The Author as an Old Rogue"><img
 	 width="80%"
 	 src="/images/sigge.png"
 	 alt="Portrait of the author as an Old Rogue" 
-	 border="0" /></a>
+	 border="0" /></a -->
 
       <p>
 	<a href="http://feeds.feedburner.com/SigfridLundbergsStuff?format=xml"
@@ -125,6 +133,7 @@
 	}
       ?>
 
+    </div>
     </div>
 
     <?php

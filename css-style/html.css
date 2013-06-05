@@ -7,7 +7,7 @@ $Id$
 body {
     font-family: serif;
     color: black;
-    background-color: white;
+    background-color: #DDDDDD;
     font-size: 100%;
     font-weight: normal;
     margin-top: 3%;
@@ -38,6 +38,31 @@ div {
     margin-left:  0%;
     margin-right: 0%;
     background-color: white;
+}
+
+.top-box-h {
+    opacity: 0.5;
+    font-size: 400%;
+    font-weight: normal;
+    text-align:right;
+    color: black;
+    width:100%;
+    background-color: white;
+    margin-left:0%;
+    margin-right:5%;
+}
+
+.top-box {
+    background:white url('/images/header.jpg') no-repeat;
+    background-size: 100%;
+    width:95%;
+    color: black;
+    background-color: white
+    font-size: 100%;
+    font-weight: normal;
+    text-align:right;
+    margin-left:  2.5%;
+    margin-right: 0%;
 }
 
 p {
@@ -76,7 +101,11 @@ blockquote {
     background-color: white;
 }
 
-ul, dl, ol {
+ul {
+    list-style-type: none;
+}
+
+dl, ol {
     font-family: "Times New Roman",Times;
 }
 
@@ -187,8 +216,8 @@ table {
     font-size: 90%;
     margin-left: +1%;
     vertical-align: top;
-    border-right: 1px solid;
-    border-bottom: 1px solid;
+/*    border-right: 1px solid;
+    border-bottom: 1px solid;*/
 }
 
 tbody {
@@ -210,10 +239,10 @@ td {
     background-color: white;
     font-size: 90%;
     vertical-align: top;
-    border-top: 1px solid;
+//    border-top: 1px solid;
     border-bottom: none;
     border-right: none;
-    border-left: 1px solid;
+//    border-left: 1px solid;
 }
 
 th {
@@ -344,7 +373,7 @@ div.top_left_box {
 
 
 div.left_box {
-    border-bottom:1px solid;
+//    border-bottom:1px solid;
     border-right:1px solid;
     vertical-align: top;
     width: 20%;
@@ -352,20 +381,26 @@ div.left_box {
     margin-bottom: 2.5em;
 }
 
+div.outer_box {
+    border-top:1px solid;
+    border-right:1px solid;
+    width:95%;
+    background-color: white;
+}
+
 div.top_right_box {
     vertical-align: middle;
+    display:inline-block;
     width: 75%;
-    float: left;
+//    float: left;
     clear: right;
 }
 
-
 div.right_box {
-    border-top:1px solid;
-    border-right:1px solid;
     vertical-align: top;
+    display:inline-block;
     width: 75%;
-    float: left;
+//    float: left;
     clear: right;
     margin-bottom: 2.5em;
 }

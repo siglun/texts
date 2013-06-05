@@ -4,7 +4,7 @@
 	</title><link href="http://feeds.feedburner.com/SigfridLundbergsStuff?format=xml" type="application/atom+xml" title="Sigfrid Lundberg's Stuff" rel="alternate"/><link href="http://sigfridlundbergsstuff.disqus.com/latest.rss" type="application/rss+xml" title="Latest Comments" rel="alternate"/><meta http-equiv="Content-Type" content="text/html;charset=UTF-8"/><script src="/js/navigation.js" type="text/javascript"> 
 	  </script><script type="text/javascript">
 	      var disqus_developer=1;
-	    </script><meta http-equiv="Content-Type" content="text/html;charset=UTF-8"/><link rel="stylesheet" href="/css-style/html.css"/><!--#include virtual="/js/colorbox_include.html" --></head><body><div class="left_box"><div style="text-align:left;width=90%;"><!--#include virtual="/div_top_left_box.xml" --></div><div style="text-align:left;width=90%;"><p><a href="/">Home</a><br/><a href="http://feeds.feedburner.com/SigfridLundbergsStuff?format=xml" type="application/atom+xml" class="feed-link"><img src="/images/Newsfeed-Atom.png" alt="Subscribe to Stuff from Sigfrid Lundberg" border="0"/>Subscribe to my stuff</a><br/><a href="http://sigfridlundbergsstuff.disqus.com/latest.rss" type="application/rss+xml" class="feed-link"><img src="/images/Newsfeed-Atom.png" alt="Subscribe to Stuff from Sigfrid Lundberg" border="0"/>Subscribe to discussion feed</a></p><!--#include virtual="/subjects.xml" --><!--#include virtual="/me.xml" --><p><small><a rel="license" href="http://creativecommons.org/licenses/by-sa/3.0/"><img alt="Creative Commons License" style="border-width:0" src="http://i.creativecommons.org/l/by-sa/3.0/88x31.png"/></a><br/>
+	    </script><meta http-equiv="Content-Type" content="text/html;charset=UTF-8"/><link rel="stylesheet" href="/css-style/html.css"/><!--#include virtual="/js/colorbox_include.html" --></head><body><div class="outer_box"><!--#include virtual="/top_div.xml" --><div class="left_box"><div style="text-align:left;width=90%;"><!--#include virtual="/div_top_left_box.xml" --></div><div style="text-align:left;width=90%;"><p><a href="/">Home</a><br/><a href="http://feeds.feedburner.com/SigfridLundbergsStuff?format=xml" type="application/atom+xml" class="feed-link"><img src="/images/Newsfeed-Atom.png" alt="Subscribe to Stuff from Sigfrid Lundberg" border="0"/>Subscribe to my stuff</a><br/><a href="http://sigfridlundbergsstuff.disqus.com/latest.rss" type="application/rss+xml" class="feed-link"><img src="/images/Newsfeed-Atom.png" alt="Subscribe to Stuff from Sigfrid Lundberg" border="0"/>Subscribe to discussion feed</a></p><!--#include virtual="/subjects.xml" --><!--#include virtual="/me.xml" --><p><small><a rel="license" href="http://creativecommons.org/licenses/by-sa/3.0/"><img alt="Creative Commons License" style="border-width:0" src="http://i.creativecommons.org/l/by-sa/3.0/88x31.png"/></a><br/>
 		This entry (<em><span xmlns:dct="http://purl.org/dc/terms/" property="dct:title">The syndication of style &amp; layout</span></em>) within Sigfrid Lundberg's Stuff,
 
 		by <a xmlns:cc="http://creativecommons.org/ns#" property="cc:attributionName" rel="cc:attributionURL" href="http://sigfrid-lundberg.se/entries/2010/03/syndication/">
@@ -69,7 +69,7 @@
       Hompepage.</p>
 
       <div style="float:left;width:60%;margin:0.5em;">
-	<a rel="viewer" href="http://sigfrid-lundberg.se/entries/2010/03/syndication/screenshot.png" title="Entry on Google Homepage"><img src="http://sigfrid-lundberg.se/entries/2010/03/syndication/screenshot.png" width="100%" alt="Entry on Google Homepage"/><div><small><element name="a" href="http://sigfrid-lundberg.se/entries/2010/03/syndication/screenshot.png">Entry on Google Homepage</element></small></div></a>
+	<a rel="viewer" href="http://sigfrid-lundberg.se/entries/2010/03/syndication/screenshot.png" title="Entry on Google Homepage"><img src="http://sigfrid-lundberg.se/entries/2010/03/syndication/screenshot.png" width="100%" alt="Entry on Google Homepage"/></a><div><small><a href="http://sigfrid-lundberg.se/entries/2010/03/syndication/screenshot.png">Entry on Google Homepage</a></small></div>
 	<p><small>Fig. 1. My <a href="http://sigfrid-lundberg.se/entries/2010/03/stanford/">previous
 	entry</a> as it appears on my iGoogle Homepage. Note that all the
 	captions appear next to the first two images, not as they should
@@ -107,7 +107,7 @@
       break. I indicate in the text which method I use.</p>
 
       <div style="float:left;width:60%;margin:0.5em;">
-	<a rel="viewer" href="http://sigfrid-lundberg.se/entries/2010/03/stanford/smaller20100322315.jpg" title="Garden in Palo Alto"><img src="http://sigfrid-lundberg.se/entries/2010/03/stanford/smaller20100322315.jpg" alt="Garden in Palo Alto"/><div><small><element name="a" href="http://sigfrid-lundberg.se/entries/2010/03/stanford/20100322315.jpg">Garden in Palo Alto</element></small></div></a>
+	<a rel="viewer" href="http://sigfrid-lundberg.se/entries/2010/03/stanford/smaller20100322315.jpg" title="Garden in Palo Alto"><img src="http://sigfrid-lundberg.se/entries/2010/03/stanford/smaller20100322315.jpg" alt="Garden in Palo Alto"/></a><div><small><a href="http://sigfrid-lundberg.se/entries/2010/03/stanford/20100322315.jpg">Garden in Palo Alto</a></small></div>
       </div>
 
       <p>A lovely garden somewhere between our hotel and the Meyer Library at
@@ -118,7 +118,7 @@
       <br clear="all"/>
 
       <div style="float:right;width:60%;margin:0.5em;">
-	<a rel="viewer" href="http://sigfrid-lundberg.se/entries/2010/03/stanford/smaller20100322318.jpg" title="Rodin at Stanford"><img src="http://sigfrid-lundberg.se/entries/2010/03/stanford/smaller20100322318.jpg" alt="Rodin at Stanford" width="100%"/><div><small><element name="a" href="http://sigfrid-lundberg.se/entries/2010/03/stanford/20100322318.jpg">Rodin at Stanford</element></small></div></a>
+	<a rel="viewer" href="http://sigfrid-lundberg.se/entries/2010/03/stanford/smaller20100322318.jpg" title="Rodin at Stanford"><img src="http://sigfrid-lundberg.se/entries/2010/03/stanford/smaller20100322318.jpg" alt="Rodin at Stanford" width="100%"/></a><div><small><a href="http://sigfrid-lundberg.se/entries/2010/03/stanford/20100322318.jpg">Rodin at Stanford</a></small></div>
       </div>
 
       <p>Gustave Rodin at Stanford University. You may want to compare this
@@ -131,7 +131,7 @@
       <br style="clear:both;"/>
 
       <div style="float:left;width:60%;margin:0.5em;">
-	<a rel="viewer" href="http://sigfrid-lundberg.se/entries/2010/03/stanford/smaller20100322320.jpg" title="Graffiti?"><img src="http://sigfrid-lundberg.se/entries/2010/03/stanford/smaller20100322320.jpg" alt="Graffiti?" width="100%"/><div><small><element name="a" href="http://sigfrid-lundberg.se/entries/2010/03/stanford/20100322320.jpg">Graffiti?</element></small></div></a>
+	<a rel="viewer" href="http://sigfrid-lundberg.se/entries/2010/03/stanford/smaller20100322320.jpg" title="Graffiti?"><img src="http://sigfrid-lundberg.se/entries/2010/03/stanford/smaller20100322320.jpg" alt="Graffiti?" width="100%"/></a><div><small><a href="http://sigfrid-lundberg.se/entries/2010/03/stanford/20100322320.jpg">Graffiti?</a></small></div>
       </div>
 
       <p>A nice graffiti, or is it al fresco? And what is the difference?
@@ -143,7 +143,7 @@
       </div>
 
       <div style="float:right;width:60%;margin:0.5em;">
-	<a rel="viewer" href="http://sigfrid-lundberg.se/entries/2010/03/stanford/smaller20100322322.jpg"><img src="http://sigfrid-lundberg.se/entries/2010/03/stanford/smaller20100322322.jpg" width="100%"/><div><small><element name="a" href="http://sigfrid-lundberg.se/entries/2010/03/stanford/20100322322.jpg"/></small></div></a>
+	<a rel="viewer" href="http://sigfrid-lundberg.se/entries/2010/03/stanford/smaller20100322322.jpg"><img src="http://sigfrid-lundberg.se/entries/2010/03/stanford/smaller20100322322.jpg" width="100%"/></a><div><small><a href="http://sigfrid-lundberg.se/entries/2010/03/stanford/20100322322.jpg"/></small></div>
       </div>
       
       <p>Science against an evilgelical religion. Break is again a <kbd>&lt;br
@@ -152,7 +152,7 @@
       <br style="clear:both;"/>
 
       <div style="float:left;width:60%;margin:0.5em;">
-	<a rel="viewer" href="http://sigfrid-lundberg.se/entries/2010/03/stanford/smaller20100323325.jpg"><img src="http://sigfrid-lundberg.se/entries/2010/03/stanford/smaller20100323325.jpg" width="100%"/><div><small><element name="a" href="http://sigfrid-lundberg.se/entries/2010/03/stanford/20100323325.jpg"/></small></div></a>
+	<a rel="viewer" href="http://sigfrid-lundberg.se/entries/2010/03/stanford/smaller20100323325.jpg"><img src="http://sigfrid-lundberg.se/entries/2010/03/stanford/smaller20100323325.jpg" width="100%"/></a><div><small><a href="http://sigfrid-lundberg.se/entries/2010/03/stanford/20100323325.jpg"/></small></div>
       </div>
 
       <p>The Papua New Guinea Sculpture Park. <kbd>&lt;br
@@ -161,7 +161,7 @@
       <br clear="all"/>
 
       <div style="float:right;width:60%;margin:0.5em;">
-	<a rel="viewer" href="http://sigfrid-lundberg.se/entries/2010/03/stanford/smaller20100323329.jpg"><img src="http://sigfrid-lundberg.se/entries/2010/03/stanford/smaller20100323329.jpg" width="100%"/><div><small><element name="a" href="http://sigfrid-lundberg.se/entries/2010/03/stanford/20100323329.jpg"/></small></div></a>
+	<a rel="viewer" href="http://sigfrid-lundberg.se/entries/2010/03/stanford/smaller20100323329.jpg"><img src="http://sigfrid-lundberg.se/entries/2010/03/stanford/smaller20100323329.jpg" width="100%"/></a><div><small><a href="http://sigfrid-lundberg.se/entries/2010/03/stanford/20100323329.jpg"/></small></div>
       </div>
 
       <p>The view from my hotel room.</p>
@@ -170,7 +170,7 @@
   <div style="clear:both"> 
 	    </div><div id="disqus_thread">
 	    </div><p style="margin-left:+1%;"><a href="http://disqus.com" class="dsq-brlink">blog comments powered
-	    by <span class="logo-disqus">Disqus</span></a></p></div><script type="text/javascript" src="http://disqus.com/forums/sigfridlundbergsstuff/embed.js">
+	    by <span class="logo-disqus">Disqus</span></a></p></div></div><script type="text/javascript" src="http://disqus.com/forums/sigfridlundbergsstuff/embed.js">
 	  </script><noscript><a href="http://sigfridlundbergsstuff.disqus.com/?url=http://sigfrid-lundberg.se/entries/2010/03/syndication/">
 	      View the discussion thread
 	  </a></noscript><script type="text/javascript">//<!--

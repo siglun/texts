@@ -97,6 +97,11 @@
 		<xsl:text>closeopen('browsebydate')</xsl:text>
 	      </xsl:attribute>
 	    </xsl:if>
+
+	    <div class="outer_box">
+
+	      <xsl:comment>#include virtual="/top_div.xml" </xsl:comment>
+
 	    <div class="left_box">
 	      <div style="text-align:left;width=90%;">
 		<xsl:comment>#include virtual="/div_top_left_box.xml" </xsl:comment>
@@ -138,7 +143,7 @@
 		<em><strong>Sigfrid Lundberg's Stuff</strong></em>
 	      </p>
 
-	      <div style="clear:both;"><xsl:text> </xsl:text></div>
+
 
 	      <div style="width:100%;">
 		<xsl:choose>
@@ -156,6 +161,7 @@
 		  </xsl:otherwise>
 		</xsl:choose>
 	      </div>
+	    </div>
 	    </div>
 	    <xsl:comment>#include virtual="/js/urchin.js" </xsl:comment>
 	  </xsl:element>
