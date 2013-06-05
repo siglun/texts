@@ -50,7 +50,7 @@
       are merging forces. Their respective mobile OSes will merge into <a href="http://meego.com/">Meego</a> maintained by Linux foundation.</p>
 
       <div style="float:right;width:60%;margin:0.5em;">
-	<a href="http://sigfrid-lundberg.se/entries/2010/05/n900/20100504446.jpg" title="A phone for an old nerd?"><img src="http://sigfrid-lundberg.se/entries/2010/05/n900/smaller20100504446.jpg" alt="A phone for an old nerd?"/></a>
+	<a rel="viewer" href="http://sigfrid-lundberg.se/entries/2010/05/n900/smaller20100504446.jpg" title="A phone for an old nerd?"><img src="http://sigfrid-lundberg.se/entries/2010/05/n900/smaller20100504446.jpg" alt="A phone for an old nerd?"/></a><div><small><element name="a" href="http://sigfrid-lundberg.se/entries/2010/05/n900/20100504446.jpg">A phone for an old nerd?</element></small></div>
 	<p><small>The N900 is about as large as a state of the art smart
 	phone, a bit larger when the keyboard is slid open. It is twice a
 	thick as an iPhone, and when carried in your pocket it will

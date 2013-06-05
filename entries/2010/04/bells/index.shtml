@@ -23,7 +23,7 @@
       knowledgeable staff. I can recommend it wholeheartedly.</p>
 
       <div style="float:right;width:60%;margin:0.5em;">
-	<a href="http://sigfrid-lundberg.se/entries/2010/04/bells/20100509_001.jpg" alt="Three books acquired at Bell's Books, Palo Alto"><img width="100%" src="http://sigfrid-lundberg.se/entries/2010/04/bells/smaller20100509_001.jpg" alt="Three books acquired at Bell's Books, Palo Alto"/></a>
+	<a rel="viewer" href="http://sigfrid-lundberg.se/entries/2010/04/bells/smaller20100509_001.jpg" alt="Three books acquired at Bell's Books, Palo Alto"><img width="100%" src="http://sigfrid-lundberg.se/entries/2010/04/bells/smaller20100509_001.jpg" alt="Three books acquired at Bell's Books, Palo Alto"/><div><small><element name="a" href="http://sigfrid-lundberg.se/entries/2010/04/bells/20100509_001.jpg"/></small></div></a>
 	<p><small>Fig. 1. I bought (from left to right) Wallace Stegner's
 	<em>Little live things</em>, <em>The man who loved books too much</em>
 	by Allison Hoover Bartlett and <em>A hole in the water</em> by Mae

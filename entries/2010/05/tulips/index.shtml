@@ -19,7 +19,7 @@
 
     <div>
       <div style="float:right;width:60%;margin:0.5em;">
-	<a href="http://sigfrid-lundberg.se/entries/2010/05/tulips/20100503_001.jpg" title="A phone for an old nerd?"><img src="http://sigfrid-lundberg.se/entries/2010/05/tulips/smaller20100503_001.jpg" alt="Tulips drop their petals"/></a>
+	<a rel="viewer" href="http://sigfrid-lundberg.se/entries/2010/05/tulips/smaller20100503_001.jpg" title="A phone for an old nerd?"><img src="http://sigfrid-lundberg.se/entries/2010/05/tulips/smaller20100503_001.jpg" alt="Tulips drop their petals"/></a><div><small><element name="a" href="http://sigfrid-lundberg.se/entries/2010/05/tulips/20100503_001.jpg">A phone for an old nerd?</element></small></div>
       </div>
 
       <p>The spring is advances. April's weather has been staying, but

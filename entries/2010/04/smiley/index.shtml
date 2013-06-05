@@ -45,10 +45,7 @@
       with code name Karla to defect.</p>
 
       <div style="float:right;width:40%;margin-left:0.5em;margin-right:0.5em;">
-	<a href="http://www.londonlibrary.co.uk/press/General%20library%20images.htm" title="The reading room at the London Library">
-
-	  <img src="http://www.londonlibrary.co.uk/press/photos/General%20library%20images/picture-005.jpg" width="100%" alt="The reading room at the London Library"/>
-	</a>
+	<a rel="viewer" href="http://www.londonlibrary.co.uk/press/photos/General%20library%20images/picture-005.jpg" title="The reading room at the London Library"><img src="http://www.londonlibrary.co.uk/press/photos/General%20library%20images/picture-005.jpg" width="100%" alt="The reading room at the London Library"/><div><small><element name="a" href="http://www.londonlibrary.co.uk/press/General%20library%20images.htm">The reading room at the London Library</element></small></div></a>
 	<p><small>The reading room at the London Library. It is hard to tell
 	whether the window is a sash-window, or if there are trees
 	outside.</small></p>

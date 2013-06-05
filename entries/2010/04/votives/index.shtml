@@ -19,9 +19,7 @@
     <div>
 
       <div style="float:right;width:60%;margin:0.5em;">
-	<a href="http://sigfrid-lundberg.se/entries/2010/04/votives/20100403362.jpg" title="Recycled Votive Guitar on the Compost">
-	  <img src="http://sigfrid-lundberg.se/entries/2010/04/votives/smaller20100403362.jpg" alt="Recycled Votive Guitar on the Compost"/>
-	</a>
+	<a rel="viewer" href="http://sigfrid-lundberg.se/entries/2010/04/votives/smaller20100403362.jpg" title="Recycled Votive Guitar on the Compost"><img src="http://sigfrid-lundberg.se/entries/2010/04/votives/smaller20100403362.jpg" alt="Recycled Votive Guitar on the Compost"/></a><div><small><element name="a" href="http://sigfrid-lundberg.se/entries/2010/04/votives/20100403362.jpg">Recycled Votive Guitar on the Compost</element></small></div>
       </div>
 
       <p>I found this guitar at the cemetary where my father is buried.  The

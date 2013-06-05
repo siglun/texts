@@ -19,9 +19,7 @@
     <div>
 
       <div style="float:left;width:60%;margin:0.5em;">
-	<a href="http://sigfrid-lundberg.se/entries/2010/02/semanticdrift/graph.png">
-	  <img src="http://sigfrid-lundberg.se/entries/2010/02/semanticdrift/graph.png" style="width:100%;" alt="frequency occurrences of the term 'semantic drift'"/>
-	</a>
+	<a rel="viewer" href="http://sigfrid-lundberg.se/entries/2010/02/semanticdrift/graph.png"><img src="http://sigfrid-lundberg.se/entries/2010/02/semanticdrift/graph.png" style="width:100%;" alt="frequency occurrences of the term 'semantic drift'"/></a>
 	<p><small>Fig. 1. The usage of the term <q>semantic drift</q> in web
 	documents. Note the logarithmic scale on the Y-axis: There is a
 	tenfold increase between 2007 and 2008. By the first of January 2010

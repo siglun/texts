@@ -19,7 +19,7 @@
     <div>
 
       <div style="float:left;width:50%;margin-right:0.5em;margin-left:0.5em;">
-	<a title="Thinking about tulips" href="http://sigfrid-lundberg.se/entries/2010/04/thinkerinthespring/20100408380.jpg"><img src="http://sigfrid-lundberg.se/entries/2010/04/thinkerinthespring/20100408380.jpg" width="100%" alt="Thinking about tulips"/></a>
+	<a rel="viewer" title="Thinking about tulips" href="http://sigfrid-lundberg.se/entries/2010/04/thinkerinthespring/20100408380.jpg"><img src="http://sigfrid-lundberg.se/entries/2010/04/thinkerinthespring/20100408380.jpg" width="100%" alt="Thinking about tulips"/><div><small><element name="a" href="http://sigfrid-lundberg.se/entries/2010/04/thinkerinthespring/20100408380.jpg">Thinking about tulips</element></small></div></a>
       </div>
       
       <p>I took this image 8 April and <a href="http://fsdata/entries/2010/03/thinking/" title="The thinker       2010-02-18">another earlier in February</a>. The difference in weather
@@ -34,7 +34,7 @@
       </div>
 
       <div style="float:right;width:50%;margin-right:0.5em;margin-left:0.5em;">
-	<a title="Ludvig Holberg" href="http://sigfrid-lundberg.se/entries/2010/04/thinkerinthespring/20100409384.jpg"><img src="http://sigfrid-lundberg.se/entries/2010/04/thinkerinthespring/smaller20100409384.jpg" width="100%" alt="Ludvig Holberg"/></a>
+	<a rel="viewer" title="Ludvig Holberg" href="http://sigfrid-lundberg.se/entries/2010/04/thinkerinthespring/smaller20100409384.jpg"><img src="http://sigfrid-lundberg.se/entries/2010/04/thinkerinthespring/smaller20100409384.jpg" width="100%" alt="Ludvig Holberg"/><div><small><element name="a" href="http://sigfrid-lundberg.se/entries/2010/04/thinkerinthespring/20100409384.jpg">Ludvig Holberg</element></small></div></a>
       </div>
 
 	<p><a href="http://en.wikipedia.org/wiki/Ludvig_Holberg">Ludvig

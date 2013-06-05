@@ -29,9 +29,7 @@
 
       <div style="float: left; width: 50%; margin-left:0.5em;margin-right:0.5em;">
 
-	<a href="http://sigfrid-lundberg.se/entries/2009/09/twelveweeks/usage.pdf">
-	  <img src="http://sigfrid-lundberg.se/entries/2009/09/twelveweeks/usage.png" alt="About 12 weeks usage statistics for my site." width="100%" border="0"/>
-	</a>
+	<a rel="viewer" href="http://sigfrid-lundberg.se/entries/2009/09/twelveweeks/usage.png"><img src="http://sigfrid-lundberg.se/entries/2009/09/twelveweeks/usage.png" alt="About 12 weeks usage statistics for my site." width="100%" border="0"/></a>
 
 	<p>
 	  <small>Figure 1. Average number of visits per week for my site

@@ -19,7 +19,7 @@
     <div>
 
       <div style="float:left;width:50%;margin-right:0.5em;margin-left:0.5em;">
-	<a href="http://sigfrid-lundberg.se/entries/2010/03/bash/20100226247.jpg"><img src="http://sigfrid-lundberg.se/entries/2010/03/bash/smaller20100226247.jpg" width="100%" alt="Bourne Again Shell"/></a>
+	<a rel="viewer" href="http://sigfrid-lundberg.se/entries/2010/03/bash/smaller20100226247.jpg"><img src="http://sigfrid-lundberg.se/entries/2010/03/bash/smaller20100226247.jpg" width="100%" alt="Bourne Again Shell"/><div><small><element name="a" href="http://sigfrid-lundberg.se/entries/2010/03/bash/20100226247.jpg"/></small></div></a>
       </div>
 
       <p>The Bourne Again Shell is a prominent part of my life. Dark moments

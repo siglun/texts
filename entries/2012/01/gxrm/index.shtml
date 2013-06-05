@@ -19,9 +19,7 @@
     <div>
 
       <div style="float: left; width: 240px; margin-left: 0.2em; margin-right: 0.5em;">
-	<a href="http://www.flickr.com/photos/sigfridlundberg/6340958317/" title="100% M by Sigfrid Lundberg, on Flickr">
-	  <img src="http://farm7.staticflickr.com/6229/6340958317_9c8b262e6c_m.jpg" width="240" height="180" alt="100% M"/>
-	</a>
+	<a rel="viewer" href="http://farm7.staticflickr.com/6229/6340958317_9c8b262e6c_m.jpg" title="100% M by Sigfrid Lundberg, on Flickr"><img src="http://farm7.staticflickr.com/6229/6340958317_9c8b262e6c_m.jpg" width="240" height="180" alt="100% M"/></a><div><small><a href="http://www.flickr.com/photos/sigfridlundberg/6340958317/">100% M by Sigfrid Lundberg, on Flickr</a></small></div>
 
 	<p><small>Figure 1. Some of my current photographic equipment. All of
 	it is Leica M-mount. None of it is from Leitz/Leica.</small></p>
@@ -54,9 +52,7 @@
 
       <div style="float: right; width: 240px; margin-left: 0.2em; margin-right: 0.5em;">
 
-	<a href="http://www.flickr.com/photos/sigfridlundberg/6398818559/" title="20111125_001.jpg by Sigfrid Lundberg, on Flickr">
-	  <img src="http://farm8.staticflickr.com/7003/6398818559_c72bb06b70_m.jpg" width="240" height="180" alt="20111125_001.jpg"/>
-	</a>
+	<a rel="viewer" href="http://farm8.staticflickr.com/7003/6398818559_c72bb06b70_m.jpg" title="20111125_001.jpg by Sigfrid Lundberg, on Flickr"><img src="http://farm8.staticflickr.com/7003/6398818559_c72bb06b70_m.jpg" width="240" height="180" alt="20111125_001.jpg"/></a><div><small><a href="http://www.flickr.com/photos/sigfridlundberg/6398818559/">20111125_001.jpg by Sigfrid Lundberg, on Flickr</a></small></div>
 	<p><small>Figure 2. I can use Nikon F glass as efficiently as Leica M
 	lenses.</small></p>
       </div>

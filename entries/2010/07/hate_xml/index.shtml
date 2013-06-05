@@ -31,9 +31,7 @@
       as the preferred tool for the modeling of data.</p>
 
       <div style="float:left;width:65%;margin-right:0.5em;margin-left:0.5em;">
-	<a href="http://sigfrid-lundberg.se/entries/2010/07/hate_xml/hate_xml.png">
-	  <img src="http://sigfrid-lundberg.se/entries/2010/07/hate_xml/hate_xml.png" width="100%" alt="Hate XML web pages"/>
-	</a>
+	<a rel="viewer" href="http://sigfrid-lundberg.se/entries/2010/07/hate_xml/hate_xml.png"><img src="http://sigfrid-lundberg.se/entries/2010/07/hate_xml/hate_xml.png" width="100%" alt="Hate XML web pages"/></a><div><small><element name="a" href="http://sigfrid-lundberg.se/entries/2010/07/hate_xml/hate_xml.png"/></small></div>
 	<p>
 	  <small>Figure 1. The number of web pages appearing per year
 	  containing the phrase <strong><q>hate XML</q></strong>. There is a
@@ -68,8 +66,7 @@
       <q>I hate typing XML, since its syntax is just terrible</q>.</p>
 
       <div style="float:right;width:65%;margin-right:0.5em;margin-left:0.5em;">
-	<a href="http://sigfrid-lundberg.se/entries/2010/07/hate_xml/report_hate_xml.png">
-	  <img src="http://sigfrid-lundberg.se/entries/2010/07/hate_xml/report_hate_xml.png" width="100%" alt="Search interest for &quot;hate xml&quot; in Google 2004-2010"/></a>
+	<a rel="viewer" href="http://sigfrid-lundberg.se/entries/2010/07/hate_xml/report_hate_xml.png"><img src="http://sigfrid-lundberg.se/entries/2010/07/hate_xml/report_hate_xml.png" width="100%" alt="Search interest for &quot;hate xml&quot; in Google 2004-2010"/></a><div><small><element name="a" href="http://sigfrid-lundberg.se/entries/2010/07/hate_xml/report_hate_xml.png"/></small></div>
 	<p>
 	  <small>Figure 2. Search interest in Google for the term
 	  <strong><q>hate XML</q></strong>. There are hardly any connection

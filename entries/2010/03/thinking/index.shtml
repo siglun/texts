@@ -19,7 +19,7 @@
     <div>
 
       <div style="float:right;width:33%;margin-right:0.5em;margin-left:0.5em;">
-	<a href="http://sigfrid-lundberg.se/entries/2010/03/thinking/20100218231.jpg" title="The Thinker"><img src="http://sigfrid-lundberg.se/entries/2010/03/thinking/smaller20100218231.jpg" alt="The Thinker" width="100%"/></a>
+	<a rel="viewer" href="http://sigfrid-lundberg.se/entries/2010/03/thinking/smaller20100218231.jpg" title="The Thinker"><img src="http://sigfrid-lundberg.se/entries/2010/03/thinking/smaller20100218231.jpg" alt="The Thinker" width="100%"/><div><small><element name="a" href="http://sigfrid-lundberg.se/entries/2010/03/thinking/20100218231.jpg">The Thinker</element></small></div></a>
 	<p>
 	  <small>Fig. 1. There is no doubt what the thinker has been thinking
 	  about this winter. Or that is what I think.</small>
@@ -36,9 +36,7 @@
      myself will benefit from it.</p>
 
      <div style="float:left;width:33%;margin-right:0.75em;margin-left:0.5em;">
-       <a href="http://sigfrid-lundberg.se/entries/2010/03/thinking/20100130216.jpg" title="Public Transport Burdened by Ice">
-	 <img src="http://sigfrid-lundberg.se/entries/2010/03/thinking/smaller20100130216.jpg" width="100%" alt="Public Transport Burdened by Ice"/>
-       </a>
+       <a rel="viewer" href="http://sigfrid-lundberg.se/entries/2010/03/thinking/smaller20100130216.jpg" title="Public Transport Burdened by Ice"><img src="http://sigfrid-lundberg.se/entries/2010/03/thinking/smaller20100130216.jpg" width="100%" alt="Public Transport Burdened by Ice"/><div><small><element name="a" href="http://sigfrid-lundberg.se/entries/2010/03/thinking/20100130216.jpg">Public Transport Burdened by Ice</element></small></div></a>
        <p><small>Fig. 2. All public transport has had far too much
        problems. And far too few trains has carried too many passengers, and
        too much ice.</small></p>
@@ -53,7 +51,7 @@
      most of us look forward to the spring (Fig. 3).</p>
 
       <div style="float:right;width:45%;margin-right:0.5em;margin-left:0.5em;">
-	<a href="http://sigfrid-lundberg.se/entries/2010/03/thinking/20100207227.jpg" title="Socially unacceptable vehicle in snow"><img src="http://sigfrid-lundberg.se/entries/2010/03/thinking/smaller20100207227.jpg" alt="Socially unacceptable vehicle in snow" width="100%"/></a>
+	<a rel="viewer" href="http://sigfrid-lundberg.se/entries/2010/03/thinking/smaller20100207227.jpg" title="Socially unacceptable vehicle in snow"><img src="http://sigfrid-lundberg.se/entries/2010/03/thinking/smaller20100207227.jpg" alt="Socially unacceptable vehicle in snow" width="100%"/><div><small><element name="a" href="http://sigfrid-lundberg.se/entries/2010/03/thinking/20100207227.jpg">Socially unacceptable vehicle in snow</element></small></div></a>
 
 	<p><small>Fig. 3. But so has all Socially Unacceptable Vehicles. This
 	vehicle is buried. In snow. The owner looks forward to spring. So do

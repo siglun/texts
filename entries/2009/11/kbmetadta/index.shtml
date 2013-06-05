@@ -35,7 +35,7 @@
       <p>Please find below an annotated list of links to searches I like:</p>
 
       <div style="float: left; width: 50%; margin-left:0.5em;margin-right:0.5em;">
-	<a href="http://www.w3.org/TR/webarch/" title="Architecture of the worldwide web"><img src="http://www.w3.org/2001/tag/2004/webarch-20041021/uri-res-rep.png" width="90%" border="0" alt="URI &amp; representations &amp; resources"/></a>
+	<a rel="viewer" href="http://www.w3.org/2001/tag/2004/webarch-20041021/uri-res-rep.png" title="Architecture of the worldwide web"><img src="http://www.w3.org/2001/tag/2004/webarch-20041021/uri-res-rep.png" width="90%" border="0" alt="URI &amp; representations &amp; resources"/></a>
 	<p><small>Figure 1</small></p>
 
       </div>
@@ -55,9 +55,7 @@
       comes to what libraries and cataloging is about.</p>
 
       <div style="float: right; width: 50%; margin-left:0.5em;margin-right:0.5em;">
-	<a href="http://www.library.nd.edu/daiad/morgan/musings/ngc/" title="Eric Lease Morgan's musings on next generation catalog">
-	  <img src="http://www.library.nd.edu/daiad/morgan/musings/ngc/ngo.gif" width="100%" border="0" alt="Eric Lease Morgan's musings on next generation catalog"/>
-	  </a>
+	<a rel="viewer" href="http://www.library.nd.edu/daiad/morgan/musings/ngc/ngo.gif" title="Eric Lease Morgan's musings on next generation catalog"><img src="http://www.library.nd.edu/daiad/morgan/musings/ngc/ngo.gif" width="100%" border="0" alt="Eric Lease Morgan's musings on next generation catalog"/></a>
 	  <p><small>Figure 2. Eric Lease Morgan's musing on the Next
 	  Generation Opac</small></p>
 
@@ -80,9 +78,7 @@
       desks. I mean, how interesting is a circulation desk?</p>
 
       <div style="float: right; width: 50%; margin-left:0.5em;margin-right:0.5em;">
-	<a href="http://library.web.cern.ch/library/Webzine/10/papers/1/">
-	  <img src="http://library.web.cern.ch/library/Webzine/10/papers/1/figure3.jpg" width="90%" border="0" alt="Works, expressions, manifestations and relations"/>
-	</a>
+	<a rel="viewer" href="http://library.web.cern.ch/library/Webzine/10/papers/1/figure3.jpg"><img src="http://library.web.cern.ch/library/Webzine/10/papers/1/figure3.jpg" width="90%" border="0" alt="Works, expressions, manifestations and relations"/></a>
 
 	<p><small>Figure 3. Knut Hegna (2004) <q>Using FRBR</q></small></p>
 

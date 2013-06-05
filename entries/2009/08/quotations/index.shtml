@@ -38,9 +38,7 @@
       linking. For instance, you can cut a piece of text and put into your own
       page. Like this:</p>
 
-      <a title="Quotation like much better things has its abuses One may quote till one compiles." href="http://books.google.com/books?id=duUQAAAAYAAJ&amp;pg=PA54&amp;ci=150%2C1240%2C753%2C64&amp;source=bookclip" style="margin-left:10%;text-align:center;">
-      <img src="http://books.google.com/books?id=duUQAAAAYAAJ&amp;pg=PA54&amp;img=1&amp;zoom=3&amp;hl=en&amp;sig=ACfU3U18wMKXLnxI-TBSM7IJ4VUTCz8bhQ&amp;ci=150%2C1240%2C753%2C64&amp;edge=0" border="0" alt="Quotation, like much better things, has its abuses. One may quote till one compiles."/>
-      </a>
+      <a rel="viewer" title="Quotation like much better things has its abuses One may quote till one compiles." href="http://books.google.com/books?id=duUQAAAAYAAJ&amp;pg=PA54&amp;img=1&amp;zoom=3&amp;hl=en&amp;sig=ACfU3U18wMKXLnxI-TBSM7IJ4VUTCz8bhQ&amp;ci=150%2C1240%2C753%2C64&amp;edge=0" style="margin-left:10%;text-align:center;"><img src="http://books.google.com/books?id=duUQAAAAYAAJ&amp;pg=PA54&amp;img=1&amp;zoom=3&amp;hl=en&amp;sig=ACfU3U18wMKXLnxI-TBSM7IJ4VUTCz8bhQ&amp;ci=150%2C1240%2C753%2C64&amp;edge=0" border="0" alt="Quotation, like much better things, has its abuses. One may quote till one compiles."/></a>
 
       <p>There are dangers of quoting, as D'Israeli makes clear. When you you
       cut and paste too much, you're no longer authoring. You're

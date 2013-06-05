@@ -4,8 +4,9 @@
 	       xmlns:dc="http://purl.org/dc/elements/1.1/"
 	       xmlns:exsl="http://exslt.org/common"
 	       xmlns="http://www.w3.org/1999/xhtml"
+	       xmlns:h="http://www.w3.org/1999/xhtml"
 	       xmlns:addthis="http://www.addthis.com/help/api-spec"
-	       exclude-result-prefixes="xsl f dc"
+	       exclude-result-prefixes="xsl f dc h"
 	       extension-element-prefixes="exsl"
 	       version="1.0">
 
@@ -234,6 +235,42 @@
 
   <xsl:template mode="copy" match="f:content">
     <xsl:apply-templates mode="copy"/>
+  </xsl:template>
+
+  <xsl:template mode="copy" match="h:a[h:img]">
+    <xsl:choose>
+      <xsl:when test="@rel">
+	<xsl:element name="a">
+	  <xsl:apply-templates mode="copy" select="@*|node()"/>
+	</xsl:element>
+      </xsl:when>
+      <xsl:otherwise>
+	<xsl:element name="a">
+	  <xsl:attribute name="rel">viewer</xsl:attribute>
+	  <xsl:choose>
+	    <xsl:when test="not(contains(h:a/@href,'jpg') 
+			    or contains(h:a/@href,'jpeg')
+			    or contains(h:a/@href,'png'))">
+	      <xsl:copy-of select="@*"/>
+	      <xsl:attribute name="href">
+		<xsl:value-of select="h:img/@src"/>
+	      </xsl:attribute>
+	    </xsl:when>
+	  </xsl:choose>
+	  <xsl:apply-templates mode="copy" select="h:img" />
+	</xsl:element>
+	<div>
+	  <small>
+	    <xsl:element name="a">
+	      <xsl:attribute name="href">
+		<xsl:value-of select="@href"/>
+	      </xsl:attribute>
+	      <xsl:value-of select="@title"/>
+	    </xsl:element>
+	  </small>
+	</div>
+      </xsl:otherwise>
+    </xsl:choose>
   </xsl:template>
 
   <xsl:template mode="copy" match="@*|node()">
