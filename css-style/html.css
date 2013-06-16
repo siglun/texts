@@ -42,27 +42,26 @@ div {
 
 .top-box-h {
     opacity: 0.5;
-    font-size: 400%;
+    font-size: 350%;
     font-weight: normal;
     text-align:right;
     color: black;
-    width:100%;
+    width: 100%;
+    margin-left:  0;
+    margin-right: 1em;
     background-color: white;
-    margin-left:0%;
-    margin-right:5%;
 }
 
 .top-box {
     background:white url('/images/header.jpg') no-repeat;
     background-size: 100%;
-    width:95%;
     color: black;
     background-color: white
     font-size: 100%;
     font-weight: normal;
-    text-align:right;
-    margin-left:  2.5%;
-    margin-right: 0%;
+    text-align:  right;
+    margin-left:  1em;
+    margin-right: 1em;
 }
 
 p {
@@ -121,7 +120,15 @@ dl dt {
 div.left_box ul {
     margin-left:  0%;
     margin-right: 0%;
-    font-family: "Times New Roman",Times;
+    font-family: sans-serif;
+    font-size: 85%;
+}
+
+div.left_box p {
+    margin-left:  0%;
+    margin-right: 0%;
+    font-family: sans-serif;
+    font-size: 85%;
 }
 
 pre {
@@ -373,11 +380,12 @@ div.top_left_box {
 
 
 div.left_box {
-//    border-bottom:1px solid;
     border-right:1px solid;
     vertical-align: top;
     width: 20%;
     float: left;
+    font-family: sans-serif;
+    margin-left: 0.5em;
     margin-bottom: 2.5em;
 }
 
