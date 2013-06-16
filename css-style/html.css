@@ -42,9 +42,10 @@ div {
 
 .top-box-h {
     opacity: 0.5;
-    font-size: 5em;
+    font-size: 350%;
     font-weight: normal;
     text-align:right;
+    font-family: courier;
     color: black;
     width: 100%;
     margin-left:  0;
