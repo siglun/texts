@@ -1,12 +1,12 @@
 <?xml version="1.0" encoding="utf-8" ?>
 <!DOCTYPE article PUBLIC "-//OASIS//DTD DocBook XML V4.1.2//EN"
-  "http://www.oasis-open.org/docbook/xml/4.1.2/docbookx.dtd" [
+"http://www.oasis-open.org/docbook/xml/4.1.2/docbookx.dtd" [
 ]>
 <?xml-stylesheet
-      href="/xml-style-library/db_special.xsl"
-      type="text/xsl"
-      media="screen"
-      title="default" ?>
+href="/xml-style-library/db_special.xsl"
+type="text/xsl"
+media="screen"
+title="default" ?>
 
 <article lang="sv">
   <articleinfo>
@@ -30,7 +30,7 @@
       karriär fram till docentkompetens inom teoretisk evolutions- och
       populationsbiologi 1995.</para>
 
-      <para>Detta CV handlar uteslutande om min karriät efter 1995.</para>
+      <para>Detta CV handlar uteslutande om min karriär efter 1995.</para>
 
     </sect2>
 
@@ -57,12 +57,11 @@
       <orderedlist>
 
 	<listitem>
-	  <para><emphasis>Programmering</emphasis>: Jag var utlärd
-	  programmerare långt innan Sun microsystems släppte JAVA. Jag har
-	  trots det anammat JAVA som min föredragna utvecklingsmiljö. I övrigt
-	  behärskar jag perl och XSLT. Därutöver programmerar jag i shell och
-	  php samt en aning python, C och lisp. I forntiden behärskade jag
-	  pascal och fortran.</para>
+	  <para><emphasis>Programmering</emphasis>: Jag JAVA är min föredragna
+	  utvecklingsmiljö. I övrigt behärskar jag Bourne shell, Perl och
+	  XSLT. Därutöver programmerar jag C och php. I forntiden behärskade
+	  jag pascal och fortran. Har testat en aning python, ruby och
+	  lisp.</para>
 	</listitem>
 
 	<listitem>
@@ -83,14 +82,12 @@
 	</listitem>
 
 	<listitem>
-	  <para><emphasis>Webbarkivering</emphasis>: På ett tidigt stadium
-	  hade vi ett visst samarbete mellan NWI och svenska
-	  Kungl. Bibliotekets arkiveringsprojekt KulturarW3, som utnyttjade de
-	  robotar vi utvecklade inom NWI- och Desireprojektet. Mitt mest
-	  konkreta bidrag till projektet var ett arkivformat baserat på
-	  Multi-Part mime<footnoteref linkend="kulturarw"/>
+	  <para><emphasis>MerMEId<footnoteref linkend="mermeid"/></emphasis>
+	  System for scientific cataloging of sheet music using Music
+	  Encoding Initiative (MEI) XML format <footnoteref linkend="mei"/>.
 	  </para>
 	</listitem>
+
 
 	<listitem>
 
@@ -117,16 +114,7 @@
 	      <footnoteref linkend="adl"/>
 	      </para>
 	    </listitem>
-
-	    <listitem>
-	      <para><emphasis>Cumulus Online Publishing</emphasis> (COP) är
-	      ett försök att skapa och tillgängliggöra standardiserade
-	      metadata via en plattform som har goda egenskaper när det gäller
-	      att administrera samlingar av bilder, men totalt saknar stöd för
-	      standarder för metadata.<footnoteref linkend="COP"/>
-	      </para>
-	    </listitem>
-	   
+	    
 	    <listitem>
 	      <para><emphasis>Sjauiga</emphasis> (Akronym för Sigges o. Jacobs
 	      arkeologiska utgrävningar i gamla applikationer). Detta var
@@ -136,11 +124,6 @@
 	      innehållsbeskrivningar i METS-format från en
 	      Oracledatabas. Under denna plattform finns över 1500
 	      objekt<footnoteref linkend="sjauiga_specimen"/> </para>
-	    </listitem>
-
-	    <listitem>
-	      <para><emphasis>tidsskrift.dk</emphasis>
-	      <footnoteref linkend="tidsskrift.dk"/></para>
 	    </listitem>
 
 	    <listitem>
@@ -293,7 +276,7 @@
 
     <biblioentry id="nwi">
       <title><ulink url="http://www.sigfrid-lundberg.se/1996/nwi/nwi.pdf">NWI - En
-	  nordisk söktjänst för Worldwide web</ulink></title>
+      nordisk söktjänst för Worldwide web</ulink></title>
     </biblioentry>
 
     <biblioentry id="www7">
@@ -307,8 +290,8 @@
       </author>
       <title>
 	<ulink url="http://www.sigfrid-lundberg.se/1998/www7/">A regional
-	  distributed WWW search and indexing service - the DESIRE
-	  way</ulink>
+	distributed WWW search and indexing service - the DESIRE
+	way</ulink>
       </title>
     </biblioentry>
 
@@ -319,7 +302,7 @@
       </author>
       <title>
 	<ulink url="http://www.sigfrid-lundberg.se/1998/safari/cris.pdf">En arkitektur
-	  för ett system för spridning av forskningsinformaton</ulink>
+	för ett system för spridning av forskningsinformaton</ulink>
       </title>
     </biblioentry>
 
@@ -330,7 +313,7 @@
       </author>
       <title>
 	<ulink
-	url="http://www.sigfrid-lundberg.se/2001/studera.nu/documentation/studera.pdf">Technical
+	    url="http://www.sigfrid-lundberg.se/2001/studera.nu/documentation/studera.pdf">Technical
 	deescription of the Studera.Nu search engine: Harvesting policies,
 	maintenance and software used</ulink>
       </title>
@@ -342,8 +325,8 @@
     <biblioentry id="dcmi">
       <title>
 	<ulink
-	url="http://dublincore.org/about/organization/formercommitteemembers.shtml">Former
-	DCMI Committee Members</ulink></title>
+	    url="http://dublincore.org/about/organization/formercommitteemembers.shtml">Former
+      DCMI Committee Members</ulink></title>
     </biblioentry>
 
     <biblioentry id="smn">
@@ -352,9 +335,9 @@
 	<surname>Lundberg</surname>
       </author>
       <title><ulink
-	  url="http://www.sigfrid-lundberg.se/1997/SMN_metadata/smn_metadata.pdf">A
-	  proposal for metadata for use in the Swedish
-	  Enviro-Net</ulink></title>
+		 url="http://www.sigfrid-lundberg.se/1997/SMN_metadata/smn_metadata.pdf">A
+      proposal for metadata for use in the Swedish
+      Enviro-Net</ulink></title>
     </biblioentry>
 
     <biblioentry id="kulturarw">
@@ -362,37 +345,37 @@
 	<firstname>Sigfrid</firstname>
 	<surname>Lundberg</surname>
 	<affiliation>
-	  <orgname>Lunds Universitet</orgname></affiliation>
+	<orgname>Lunds Universitet</orgname></affiliation>
       </author>
       <author>
 	<firstname>Allan</firstname>
 	<surname>Arvidson</surname>
 	<affiliation>
-	  <orgname>The Royal Library (Sweden)</orgname></affiliation>
+	<orgname>The Royal Library (Sweden)</orgname></affiliation>
       </author>
       <title><ulink
-	  url="http://www.sigfrid-lundberg.se/1998/KulturArw3/archive-format-1.rtf">The
-	  Kulturarw3 Archiving Format</ulink></title>
+		 url="http://www.sigfrid-lundberg.se/1998/KulturArw3/archive-format-1.rtf">The
+      Kulturarw3 Archiving Format</ulink></title>
     </biblioentry>
 
     <biblioentry id="laurentius">
       <title>
 	<ulink url="http://laurentius.ub.lu.se/">S:t Laurentius Digital
-	  Manuscript Library</ulink></title>
+      Manuscript Library</ulink></title>
     </biblioentry>
 
     <biblioentry id="drh2002">
       <title>
 	<ulink
-	  url="http://www.drh2002.lib.ed.ac.uk/abstracts.html#170">St
-	  Laurentius Digital Manuscript Library: An Excursion Along The Border
-	  Between Metadata For Resource Discovery And For Resource
-	  Description</ulink>
+	    url="http://www.drh2002.lib.ed.ac.uk/abstracts.html#170">St
+	Laurentius Digital Manuscript Library: An Excursion Along The Border
+	Between Metadata For Resource Discovery And For Resource
+	Description</ulink>
       </title>
     </biblioentry>
 
     <biblioentry id="sjauiga_specimen">
-      <title>Sjauiga AKA permalink</title>
+      <title>Sjauiga</title>
       <abstract>
 	<para>Fyra digitala tjänster lades ner, och slogs samman till en (som
 	innehåller smärre variationer beroende på den ingående medietyperna)
@@ -406,23 +389,9 @@
 
     <biblioentry id="poma">
       <title><ulink
-      url="http://www.kb.dk/permalink/2006/poma/info/en/frontpage.htm">The
+		 url="http://www.kb.dk/permalink/2006/poma/info/en/frontpage.htm">The
       Guaman Poma Web Site</ulink></title>
     </biblioentry>
-
-    <biblioentry id="COP">
-      <title>Cumulus Online Publishing</title>
-      <abstract>
-	<para>COP är inte offentligt tillgängligt ännu (19/4 2009). Två
-	samlingar tillgängliggjorda via COPs föregångare är <ulink
-	url="http://www.kb.dk/image_client_static/danmarksbilleder/">Danmarksbilleder</ulink>
-	och <ulink
-	url="http://www.kb.dk/images/billed/2008/sep/daellsvarehus/">Daells
-	varehus</ulink>.</para>
-      </abstract>
-
-    </biblioentry>
-
 
     <biblioentry id="excursion">
       <author>
@@ -431,21 +400,21 @@
       </author>
       <title>
 	<ulink
-	url="http://laurentius.ub.lu.se/search/presentation/laurentius.pdf">S:t
+	    url="http://laurentius.ub.lu.se/search/presentation/laurentius.pdf">S:t
 	Laurentius Digital Manuscript Library: An excursion along the border
-	between resource discovery and resource description</ulink></title>
+      between resource discovery and resource description</ulink></title>
     </biblioentry>
 
     <biblioentry id="ediffah">
       <title>
 	<ulink url="http://www.ediffah.org/">En digital infrastruktur för
-	  forskningsbibliotekens arkiv och handskriftssamlingar</ulink></title>
+      forskningsbibliotekens arkiv och handskriftssamlingar</ulink></title>
     </biblioentry>
 
     <biblioentry id="ediffah_report">
       <title>
 	<ulink url="http://www.ediffah.org/reports/slutrapport/">Ediffah --
-	Slutrapport och idéer för framtiden</ulink></title>
+      Slutrapport och idéer för framtiden</ulink></title>
     </biblioentry>
 
     <biblioentry id="mh">
@@ -454,8 +423,8 @@
       </authorblurb>
       <title>
 	<ulink
-	  url="http://laurentius.ub.lu.se/print/catalogue.pdf">Medieval
-	  Manuscript Catalogue</ulink></title>
+	    url="http://laurentius.ub.lu.se/print/catalogue.pdf">Medieval
+      Manuscript Catalogue</ulink></title>
     </biblioentry>
 
     <biblioentry id="arkiv-ex">
@@ -465,14 +434,8 @@
       </authorblurb>
       <title>
 	<ulink
-	url="http://www.kb.se/Dokument/Bibliotek/projekt/samord_soktj.pdf">Samordning
+	    url="http://www.kb.se/Dokument/Bibliotek/projekt/samord_soktj.pdf">Samordning
 	av söktjänster och metadatarepositorier för examensarbeten</ulink>
-	</title>
-    </biblioentry>
-
-    <biblioentry id="tidsskrift.dk">
-      <title>
-	<ulink url="http://www.tidsskrift.dk/">tidsskrift.dk</ulink>
       </title>
     </biblioentry>
 
@@ -493,7 +456,7 @@
       </author>
       <title>
 	<ulink
-	  url="http://www.sigfrid-lundberg.se/2003/axiell-oai/oai-opac.pdf">Implementering av OAI-PMH i ett bibliotekssystem? Några ord på vägen</ulink> 
+	    url="http://www.sigfrid-lundberg.se/2003/axiell-oai/oai-opac.pdf">Implementering av OAI-PMH i ett bibliotekssystem? Några ord på vägen</ulink> 
       </title> 
     </biblioentry>
 
@@ -506,7 +469,7 @@
     <biblioentry id="scripta">
       <title>
 	<ulink
-	url="http://web.archive.org/web/20040502214257/http://theses.lub.lu.se/postgrad/">Scripta
+	    url="http://web.archive.org/web/20040502214257/http://theses.lub.lu.se/postgrad/">Scripta
 	Academica Lundensia</ulink> (Tjänsten är tagen ur drift. Länken går till Internet Archive)
       </title>
     </biblioentry>
@@ -522,7 +485,7 @@
       </author>
       <title>
 	<ulink
-	  url="http://web.archive.org/web/20060203181450/http://www.lub.lu.se/svep/dp5/ws2/session_lundberg_och_lindholm.ppt">Xerxes och Scripta i perspektiv</ulink>
+	    url="http://web.archive.org/web/20060203181450/http://www.lub.lu.se/svep/dp5/ws2/session_lundberg_och_lindholm.ppt">Xerxes och Scripta i perspektiv</ulink>
       </title>
     </biblioentry>
 
@@ -533,14 +496,14 @@
       </author>
       <title>
 	<ulink
-	  url="http://www.sigfrid-lundberg.se/2004/digitalisering/position.pdf">Vad en
-	  bra samling av digital text bör kunna</ulink></title>
+	    url="http://www.sigfrid-lundberg.se/2004/digitalisering/position.pdf">Vad en
+      bra samling av digital text bör kunna</ulink></title>
     </biblioentry>
 
     <biblioentry id="digsrv">
       <title>
 	<ulink
-	  url="http://www.sigfrid-lundberg.se/2004/digitalisering/presentation_04-11-04.html">Digitalisering i Lund</ulink>
+	    url="http://www.sigfrid-lundberg.se/2004/digitalisering/presentation_04-11-04.html">Digitalisering i Lund</ulink>
       </title>
     </biblioentry>
 
@@ -551,9 +514,25 @@
       </authorblurb>
       <title>
 	<ulink
-	url="http://www.kb.se/Dokument/Bibliotek/utredn_rapporter/2003/tkl.pdf">Teknisk
+	    url="http://www.kb.se/Dokument/Bibliotek/utredn_rapporter/2003/tkl.pdf">Teknisk
 	samverkan mellan svenska ämnesportaler - Test och utvärdering av
 	portalprogramvaran TKL</ulink>
+      </title>
+    </biblioentry>
+
+    <biblioentry id="mei">
+      <title>
+	<ulink url="http://music-encoding.org/home">Music Encoding
+	Initiative</ulink>
+      </title>
+    </biblioentry>
+
+    <biblioentry id="mermeid">
+      <authorblurb>
+	<para>Axel Teich Geertinger &amp; Sigfrid Lundberg</para>
+      </authorblurb>
+      <title>
+	<ulink url="http://labs.kb.dk/editor/">Metadata Editor and Repository for MEI Data</ulink>
       </title>
     </biblioentry>
 
