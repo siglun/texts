@@ -1,159 +1,108 @@
 <!DOCTYPE html>
-<!--
-
-This presentation was made for #melbjs, 8th June 2011
-
--->
-<html xmlns="http://www.w3.org/1999/xhtml">
+<html lang="en" xmlns="http://www.w3.org/1999/xhtml">
   <head>
-    <title>Waltzing forever</title>
-    <link rel="stylesheet" type="text/css" href="media/presentation.css" />
-    <link rel="stylesheet" type="text/css" href="media/prettify.css" />
-    <link  href="http://fonts.googleapis.com/css?family=Ubuntu:300,300italic,regular,italic,500,500italic,bold,bolditalic" rel="stylesheet" type="text/css"/>
-    <script src="media/jquery-1.6.1.min.js" type="text/javascript"></script>
-    <script src="media/fathom.js" type="text/javascript"></script>
-    <script src="media/prettify.js" type="text/javascript"></script>
-    <script type="text/javascript">
-      $(document).ready(function(){
-      $('pre').addClass('prettyprint').attr('tabIndex', 0);
-      prettyPrint();
-      
-      var fathom = $('#presentation').fathom({
-      onActivateSlide: function() {
-      var $slide = $(this);
-      $slide.find('pre:first').focus();
-      }
-      });
-      });
+    <meta name="http-equiv" content="text/html;charset=utf-8" />
+
+    <title>reveal.js - The HTML Presentation Framework</title>
+
+    <meta name="description" content="A framework for easily
+				      creating beautiful
+				      presentations using HTML" />
+    <meta name="author" content="Hakim El Hattab" />
+
+    <meta name="apple-mobile-web-app-capable" content="yes" />
+    <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent" />
+
+    <meta name="viewport" content="width=device-width,
+				   initial-scale=1.0,
+				   maximum-scale=1.0,
+				   user-scalable=no" />
+
+    <link rel="stylesheet" href="css/reveal.min.css" />
+    <link rel="stylesheet" href="css/theme/default.css" id="theme"
+	  />
+
+    <!-- For syntax highlighting -->
+    <link rel="stylesheet" href="lib/css/zenburn.css" />
+
+    <!-- If the query includes 'print-pdf', use the PDF print sheet -->
+    <script>
+      document.write( '<link rel="stylesheet" href="css/print/' + ( window.location.search.match( /print-pdf/gi ) ? 'pdf' : 'paper' ) + '.css" type="text/css" media="print">' );
     </script>
+
+    <!--[if lt IE 9]>
+	<script src="lib/js/html5shiv.js"></script>
+	<![endif]-->
   </head>
+
   <body>
 
-    <div id="presentation">
+    <div class="reveal">
 
-      <div class="slide">
-	<h1>Waltzing forever. Friedrich Kuhlau's Kaleidakustikon</h1>
-	<br clear="all"/>
-	<h1><img src="kaleidakustikon_kort.jpg" alt="" /></h1>
+      <!-- Any section element inside of this container is displayed as a slide -->
+      <div class="slides">
+	<section id="part01">
+	  <h1>Library on the information high-way</h1>
+	  <br clear="all"/>
+	  <h1>
+	    <a
+		 href="http://www.flickr.com/photos/sigfridlundberg/9459672352/" title="L1004186_v2 by Sigfrid Lundberg, on Flickr"><img src="http://farm4.staticflickr.com/3743/9459672352_64c30ac0f0_z.jpg"  height="500px" alt="L1004186_v2"/></a>
+	</h1>
 	<div class="footer">
 	  <a href="http://sigfrid-lundberg.se">Sigfrid Lundberg</a> slu at kb
 	  period dk
 	</div>
-      </div>
+	</section>
 
-      <div class="slide">
-	<h1>Mind you...</h1>
+	<section id="part02">
+	<h1>After this session I hope that you should</h1>
 	<ul>
-	  <li>I'm neither a musician nor a musicologist, but a software
-	  developer</li>
-	  <li>This is work in progress.</li>
+	  <li>be less annoyed with acronyms. After all, they are just acronyms. And they
+	  don't bite.</li>
+	  <li>actually understand a few acronyms, and have an idea why someone
+	  invented them.</li>
+	  <li>perhaps have a more pragmatic how metadata records come
+	  about</li>
+	  <li>have a better understanding for the Internet and its standards.</li>
 	</ul>
+	</section>
+
+
+	<section id="part02">
+
+	<h1>"Stenographic conventions for constructing value strings?"</h1>
+	<br clear="all" />
+	<p>At the recent Dublin Core conference, Mikael Nilsson of the
+	Knowledge Management Research Group, Royal Institute of Technology,
+	Stockholm, described the rules from his point of view as basically
+	<strong>"stenographic conventions for constructing value
+	strings"</strong>. Clearly, if future library metadata approaches are
+	expected to incorporate machine created metadata and support advanced
+	machine manipulation, as recent reports from the Library of Congress
+	and the University of California have stated, the views of computer
+	scientists should be taken seriously.</p>
+	<br clear="all" />
+	<p>Coyle, Karen &amp; Diane Hillman, 2007. Resource Description and
+	Access (RDA) Cataloging Rules for the 20th Century. <em>D-Lib Magazine</em>
+	Vol 13 (1-2) <a
+	href="http://www.dlib.org/dlib/january07/coyle/01coyle.html">http://www.dlib.org/dlib/january07/coyle/01coyle.html</a></p>
+	</section>
+
+
+	<section id="part02">
+
+	<h1>The cathedral &amp; the bazaar</h1>
+	<br clear="all"/>
+	<h1>
+	  <a
+	      href="http://en.wikipedia.org/wiki/File:Cathedral-and-the-Bazaar-book-cover.jpg#file">
+	    <img
+		src="http://upload.wikimedia.org/wikipedia/en/c/c4/Cathedral-and-the-Bazaar-book-cover.jpg"
+		alt="" height="500px" />
+	  </a>
+	</h1>
+	</section>
       </div>
-
-      <div class="slide">
-	<h1>Kaleidakustikon (i)</h1>
-	<ul>
-	  <li>Written by Friedrich Kuhlau around 1820</li>
-	  <li>An aleatoric composition for piano</li>
-	  <li>Simple three-part structure (denoted capital A, B &amp; C), in F
-	  major, F major or F minor, and E flat respectively</li>
-	</ul>
-      </div>
-
-      <div class="slide">
-	<h1>Kaleidakustikon (ii)</h1>
-	<ul>
-	  <li>Consists of 21 piles of cards (named lower-case a to v, excluding j)</li>
-	  <li>Each pile contains 11 cards numbered 2 to 12 (except h which only contains 3)</li>
-	  <li>Each card contains one or two measures</li>
-	  <li>Modern edition exists in Gorm Busk &amp; Jan Maegaard (1996)
-	  <em>Kuhlau kanons</em></li>
-	  <li>The cards <a href="img-423130734-0001.pdf">as presented by Busk
-	  &amp; Maegaard</a></li>
-	</ul>
-      </div>
-
-      <div class="slide">
-	<h1>Why writing an application for it?</h1>
-	<ul>
-	  <li>Show the music as one-armed bandit</li>
-	  <li>Users could listen to the generated tunes in midi</li>
-	  <li>Let users down-load waltzes as PDF</li>
-	  <li>In short: Cool proof of concept...</li>
-	</ul>
-      </div>
-
-      <div class="slide">
-	<h1>Yeah, cool, but what's the concept?<!-- (i)--></h1>
-	<ul>
-	  <li>We wanted a project where we could encode music in an abstract
-	  symbolic notation.</li>
-	  <li>At the moment we are much into Music Encoding Initiative (MEI).</li>
-	  <li>If we can present aleatoric music, we should be able use the 
-	  technologies for philological purposes.</li>
-	  <li>Need a technology stack for storage, retrieval and
-	  transformation of the cards.</li>
-	  <li>That stack is similar to what is required for handling variants
-	  and sources.</li>
-	</ul>
-      </div>
-
-      <!-- div class="slide">
-	<h1>Yeah, cool, but what's the concept? (ii)</h1>
-	<ul>
-	  <li>There will be a need for annotation. Almost written one
-	  footnote already</li>
-	  <li>Turns out that we even need to transpose the music
-	  algorithmically, and annotate the music when we've done that.</li>
-	</ul>
-      </div -->
-
-      <div class="slide">
-	<h1>Now, lets take a look at the data</h1>
-	<ul>
-	  <li>Each layer has been transcribed.</li>
-	  <li>The transcriptions can be presented as <a href="kaleidakustikon_2.pdf">pdf</a></li>
-	  <li>and as <a href="kaleidakustikon_2.mid">midi</a>.</li>
-	  <li>The transcription is made in <a
-	  href="kaleidakustikon_2.xml">MEI</a></li>
-	  <li>In HTML5 canvas using <a
-	  href="../demo/MEItoVexFlow/tests/mere_essentials.html">mei2vexflow</a></li>
-	</ul>
-      </div>
-
-      <div class="slide">
-	<h1>How can we use the data?</h1>
-	<ul>
-	  <li>Obviously, make pdf &amp; midi.</li>
-	  <li>We've stored the data in a database</li>
-	  <li>Select cards/"divs" and make new tunes <a
-	  href="http://labs.kb.dk/storage/kuhlau/form.xq">based on the
-	  selection.</a>.</li>
-	</ul>
-      </div>
-
-      <div class="slide">
-	<h1>The problem</h1>
-	<ul>
-	  <li><a href="section2_example.html">F major vs F minor</a></li>
-	  <li>I'll just write a script that adds a natural to all E notes part B if
-	  and only if card h changes the key to F minor.</li>
-	</ul>
-      </div>
-
-      <div class="slide">
-	<h1>The lessons learned</h1>
-	<ul>
-	  <li>MEI is actually easy to learn.</li>
-	  <li>First layer took a week; now it takes four hours.</li>
-	  <li>The possibility to encode variations, freely mix them, and then
-	  proceed to checkout</li>
-
-	  <!-- pizza rustica con prosciutto e formaggio -->
-	</ul>
-      </div>
-
     </div>
-
   </body>
 </html>
