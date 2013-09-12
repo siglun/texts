@@ -3,7 +3,7 @@
   <head>
     <meta name="http-equiv" content="text/html;charset=utf-8" />
 
-    <title>reveal.js - The HTML Presentation Framework</title>
+    <title>Metadata and metadata processing for poets</title>
 
     <meta name="description" content="A framework for easily
 				      creating beautiful
@@ -27,7 +27,11 @@
 
     <!-- If the query includes 'print-pdf', use the PDF print sheet -->
     <script>
-      document.write( '<link rel="stylesheet" href="css/print/' + ( window.location.search.match( /print-pdf/gi ) ? 'pdf' : 'paper' ) + '.css" type="text/css" media="print">' );
+      //<!--
+      document.write( '<link rel="stylesheet" href="css/print/' + (
+      window.location.search.match( /print-pdf/gi ) ? 'pdf' : 'paper' ) +
+      '.css" type="text/css" media="print">' );
+      //-->
     </script>
 
     <!--[if lt IE 9]>
@@ -41,38 +45,46 @@
 
       <!-- Any section element inside of this container is displayed as a slide -->
       <div class="slides">
-	<section id="part01">
-	  <h1>Library on the information high-way</h1>
-	  <br clear="all"/>
-	  <h1>
-	    <a
-		 href="http://www.flickr.com/photos/sigfridlundberg/9459672352/" title="L1004186_v2 by Sigfrid Lundberg, on Flickr"><img src="http://farm4.staticflickr.com/3743/9459672352_64c30ac0f0_z.jpg"  height="500px" alt="L1004186_v2"/></a>
-	</h1>
-	<div class="footer">
-	  <a href="http://sigfrid-lundberg.se">Sigfrid Lundberg</a> slu at kb
-	  period dk
-	</div>
-	</section>
 
-	<section id="part02">
-	<h1>After this session I hope that you should</h1>
-	<ul>
-	  <li>be less annoyed with acronyms. After all, they are just acronyms. And they
-	  don't bite.</li>
-	  <li>actually understand a few acronyms, and have an idea why someone
+        <section>
+          <h3>Library on the information high-way</h3>
+	  <a style="float:left; width:40%;"
+             href="http://www.flickr.com/photos/sigfridlundberg/9459672352/"
+	     title="L1004186_v2 by Sigfrid Lundberg, on Flickr">
+            <img src="http://farm4.staticflickr.com/3743/9459672352_64c30ac0f0_z.jpg" alt="L1004186_v2"/>
+          </a>
+	  <ul style="float:left; width:50%;">
+	    <li>Part 1. He giveth to each man his food</li>
+	    <li>Part 2. Practice your skills</li>
+	    <li>Part 3. Why does the world need METS when it's already got
+	    MODS? And by the way, XML is a poison, so please give me RDF in
+	    JSON!</li>
+	  </ul>
+        </section>
+
+        <section>
+          <h3>After this session I hope that you should</h3>
+	  <a style="float:left; width:40%;"
+	     href="http://www.flickr.com/photos/sigfridlundberg/6262448935/"
+	     title="PA040262.tif by Sigfrid Lundberg, on Flickr"><img
+	     src="http://farm7.staticflickr.com/6094/6262448935_00256b79d3_z.jpg"
+	     alt="PA040262.tif"/></a>
+          <ul style="float:left; width:50%;">
+            <li>be less annoyed with acronyms. After all, they are just acronyms. And they
+	  don't bite, and you can find them in Wikipedia.</li>
+            <li>actually understand a few acronyms, and have an idea why someone
 	  invented them.</li>
-	  <li>perhaps have a more pragmatic how metadata records come
+            <li>perhaps have a more pragmatic how metadata records come
 	  about</li>
-	  <li>have a better understanding for the Internet and its standards.</li>
-	</ul>
-	</section>
+            <li>have a better understanding for the Internet and its
+	    standards.</li>
+            <li>not dislike graphs</li>
+          </ul>
 
-
-	<section id="part02">
-
-	<h1>"Stenographic conventions for constructing value strings?"</h1>
-	<br clear="all" />
-	<p>At the recent Dublin Core conference, Mikael Nilsson of the
+        </section>
+        <section>
+          <h3>"Stenographic conventions for constructing value strings?"</h3>
+          <p style="text-align:left;">At the recent Dublin Core conference, Mikael Nilsson of the
 	Knowledge Management Research Group, Royal Institute of Technology,
 	Stockholm, described the rules from his point of view as basically
 	<strong>"stenographic conventions for constructing value
@@ -81,28 +93,58 @@
 	machine manipulation, as recent reports from the Library of Congress
 	and the University of California have stated, the views of computer
 	scientists should be taken seriously.</p>
-	<br clear="all" />
-	<p>Coyle, Karen &amp; Diane Hillman, 2007. Resource Description and
-	Access (RDA) Cataloging Rules for the 20th Century. <em>D-Lib Magazine</em>
-	Vol 13 (1-2) <a
-	href="http://www.dlib.org/dlib/january07/coyle/01coyle.html">http://www.dlib.org/dlib/january07/coyle/01coyle.html</a></p>
-	</section>
 
+        <p style="text-align:left;">Coyle, Karen &amp; Diane Hillman,
+        2007. Resource Description and Access (RDA) Cataloging Rules for the
+        20th Century. <em>D-Lib Magazine</em> Vol 13 (1-2) <a
+        href="http://www.dlib.org/dlib/january07/coyle/01coyle.html">http://www.dlib.org/dlib/january07/coyle/01coyle.html</a></p>
+        </section>
 
-	<section id="part02">
+        <section id="part02">
+          <h3>The cathedral &amp; the bazaar</h3>
+          <br clear="all"/>
+          <h1>
+            <a href="http://en.wikipedia.org/wiki/File:Cathedral-and-the-Bazaar-book-cover.jpg#file">
+              <img src="http://upload.wikimedia.org/wikipedia/en/c/c4/Cathedral-and-the-Bazaar-book-cover.jpg" alt="" height="500px"/>
+            </a>
+          </h1>
+        </section>
 
-	<h1>The cathedral &amp; the bazaar</h1>
-	<br clear="all"/>
-	<h1>
-	  <a
-	      href="http://en.wikipedia.org/wiki/File:Cathedral-and-the-Bazaar-book-cover.jpg#file">
-	    <img
-		src="http://upload.wikimedia.org/wikipedia/en/c/c4/Cathedral-and-the-Bazaar-book-cover.jpg"
-		alt="" height="500px" />
-	  </a>
-	</h1>
-	</section>
       </div>
     </div>
+
+    <script src="lib/js/head.min.js" type="application/javascript">
+      //
+    </script>
+
+    <script src="js/reveal.min.js" type="application/javascript">
+    </script>
+
+    <script type="application/javascript">
+
+		// Full list of configuration options available here:
+		// https://github.com/hakimel/reveal.js#configuration
+		Reveal.initialize({
+		controls: true,
+		progress: true,
+		history: true,
+		center: true,
+
+		theme: Reveal.getQueryHash().theme, // available themes are in /css/theme
+		transition: Reveal.getQueryHash().transition || 'default', // default/cube/page/concave/zoom/linear/fade/none
+
+		// Optional libraries used to extend on reveal.js
+		dependencies: [
+		{ src: 'lib/js/classList.js', condition: function() { return !document.body.classList; } },
+		{ src: 'plugin/markdown/marked.js', condition: function() { return !!document.querySelector( '[data-markdown]' ); } },
+		{ src: 'plugin/markdown/markdown.js', condition: function() { return !!document.querySelector( '[data-markdown]' ); } },
+		{ src: 'plugin/highlight/highlight.js', async: true, callback: function() { hljs.initHighlightingOnLoad(); } },
+		{ src: 'plugin/zoom-js/zoom.js', async: true, condition: function() { return !!document.body.classList; } },
+		{ src: 'plugin/notes/notes.js', async: true, condition: function() { return !!document.body.classList; } }
+		]
+		});
+
+    </script>
+
   </body>
 </html>
