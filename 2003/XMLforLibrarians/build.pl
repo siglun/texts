@@ -1,6 +1,6 @@
 #!/usr/bin/perl
 
-my $groff = "/SERVICES/progs/bin/".
+my $groff = "".
     "groff -T ps -U -stp -M ~/documents/tmac -mgs lub-settings.ms";
 
 #
