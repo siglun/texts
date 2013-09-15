@@ -66,8 +66,9 @@
 	     src="http://farm7.staticflickr.com/6094/6262448935_00256b79d3_z.jpg"
 	     alt="PA040262.tif"/></a>
           <ul style="float:left; width:50%;">
-            <li class="fragment">be less annoyed with acronyms. After all, they are just acronyms. And they
-	  don't bite, and you can find them in Wikipedia.</li>
+            <li class="fragment">
+	      be less annoyed with acronyms. After all, they are just acronyms. They
+	    don't bite, and you can find them in Wikipedia.</li>
             <li class="fragment">actually understand a few acronyms, and have an idea why someone
 	  invented them.</li>
             <li class="fragment">perhaps have a more pragmatic how metadata records come
@@ -91,9 +92,7 @@
 	    <li><a href="#part01">Part 1</a>. He giveth to
 	    each man his food. A worked example.</li>
 	    <li><a href="#part02">Part 2</a>. Practice your skills</li>
-	    <li><a href="#part03">Part 3</a>. Why does the
-	    world need METS when it's already got MODS? And by the way, XML is
-	    a poison, so please give me RDF in JSON!</li>
+	    <li><a href="#part03">Part 3</a>. Nothing is forever</li>
 	  </ul>
         </section>
 
@@ -112,7 +111,40 @@
 	  </section>
 
 	  <section>
-	    <h3>Event centric</h3>
+	    <h3>Comparison</h3>
+	    <div style="width:100%;">
+	      <table style="width:100%;">
+		<tr>
+		  <th colspan="2">
+		    Focus on
+		  </th>
+		</tr>
+		<tr>
+		  <th>Event</th>
+		  <th>Resource</th>
+		</tr>
+		<tr>
+		  <td>Mary writes a book</td>
+		  <td>The books author is Mary</td>
+		</tr>
+		<tr>
+		  <td>John prints a book</td>
+		  <td>The printer is John</td>
+		</tr>
+	      </table>
+	    </div>
+	  </section>
+
+	  <section>
+	    <h3>Event Centric (i)</h3>
+	    <p>Keeping track of change</p>
+	    <p>
+	      <img src="event_centric.png" alt=""/>
+	    </p>
+	  </section>
+
+	  <section>
+	    <h3>Event centric (ii)</h3>
 
 	    <img src="http://www.wordsout.co.uk/Fig.1.gif" alt="" />
 	    <br/>
@@ -123,11 +155,24 @@
 	  </section>
 
 	  <section>
-	    <h3>Resource centric</h3>
-	    <img src="bibframe.png" alt="" />
-	    <br clear="all" />
-	    <small>Source: <a href="http://bibframe.org/vocab/">The BIBFRAME model</a></small>
+	    <h3>Resource Centric</h3>
+	    <p>For resource discovery</p>
+	    <p>
+	      <img src="resource_centric.png" alt=""/>
+	    </p>
 	  </section>
+
+	  <section>
+	    <p>Carl Lagoze</p>
+	    <h3>From Static to Dynamic Surrogates</h3>
+	    <p>Resource Discovery in the Digital Age</p>
+	    <p>
+	      <a href="http://www.dlib.org/dlib/june97/06lagoze.html">D-Lib
+	      Magazine,
+	      June 1997</a>
+	    </p>
+	  </section>
+
 	</section>
 
         <section id="part02">
@@ -170,16 +215,85 @@
         </section>
 
         <section id="part03">
+
 	  <section>
-            <h3>Why does the world need METS when it's already got MODS?</h3>
-            <p>
-	      The cathedral &amp; the bazaar
-              <a style="float:left;" 
+	    <h3>Nothing is forever</h3>
+	    <p>At some stage in the history of any ivy league cultural
+	    heritage institution it will require new ivy</p>
+	    <a href="http://www.flickr.com/photos/sigfridlundberg/9741943868/"
+	       title="L1004635_v1 by Sigfrid Lundberg, on Flickr">
+	      <img
+		  src="http://farm8.staticflickr.com/7367/9741943868_285d179cd5_z.jpg"
+		  alt="L1004635_v1"/>
+	    </a>
+	  </section>
+
+	  <section>
+	    <h3>The Cathedral and the Bazaar</h3>
+	      <p style="float:left;width:48%;">
+              <a 
 		 href="http://en.wikipedia.org/wiki/File:Cathedral-and-the-Bazaar-book-cover.jpg#file">
 		<img src="http://upload.wikimedia.org/wikipedia/en/c/c4/Cathedral-and-the-Bazaar-book-cover.jpg" alt="" height="500px"/>
               </a>
-	    </p>
+	      </p>
+	      <ul style="float:left;width:48%;">
+		<li>On the Internet all the information comes from the bazaar.</li>
+		<li>On the Internet there are few cathedrals. Usually less
+		than three, and they get everything from the bazaar</li>
+		<li>On the Internet, you must recognize other people</li>
+		<li>Or the Internet will never see you</li>
+	      </ul>
           </section>
+
+	  <section>
+	    <h3>Linked (Open) Data (LOD)</h3>
+	    <p>On the Internet, linking is recognition.
+	      <a href="http://www.w3.org/DesignIssues/LinkedData.html">Our
+	      great leader says:</a>
+	    </p>
+	    <ul>
+	      <li>Use URIs as names for things</li>
+	      <li>Use HTTP URIs so that people can look up those names.</li>
+	      <li>When someone looks up a URI, provide useful information, using the standards (RDF*, SPARQL)</li>
+	      <li>Include links to other URIs. so that they can discover more things.</li>
+	    </ul>
+	  </section>
+
+	  <section>
+            <h3>Or, why does the world need METS when it's already got
+	    MODS?</h3>
+
+	    <p style="float:left;width:48%;">
+	    <a href="http://www.flickr.com/photos/sigfridlundberg/8627294604/"
+	       title="L1002719_v1 by Sigfrid Lundberg, on Flickr">
+
+	      <img
+		  src="http://farm9.staticflickr.com/8105/8627294604_2ca432433c_z.jpg"
+		  alt="L1002719_v1"/>
+	    </a>
+	    </p>
+
+	    <ul style="float:left;width:48%;">
+	      <li>In the bazaar we must be able sell fish, as well as meat and
+	      vegetables</li>
+	      <li>Don't try to sell meat or fish to vegans!</li>
+	      <li>One standard isn't enough</li>
+	      <li>One size doesn't fit all</li>
+	    </ul>
+	  </section>
+
+	  <section>
+	    <p>Mind you</p>
+            <h3>If you make your own standard, you'll have to maintain it
+	    yourself</h3>
+	    <ul>
+	      <li>Document it on your own</li>
+	      <li>Migrate data all on your own</li>
+	      <li>Transform all your data when collaborating with others</li>
+	      <li>Not invented here attitudes are expensive in the long
+	      run.</li>
+	    </ul>
+	  </section>
 
 	  <section>
             <h3>
@@ -250,7 +364,36 @@
 	    <p><a href="http://laurentius.ub.lu.se/">S:t Laurentius Digital
 	    Manuscript Library</a></p>
 	  </section>
-	</section>
+
+	  <section>
+	    <h3>Encoded Archival Description (EAD)</h3>
+	    <p><a href="http://www.ediffah.org/">Ediffah</a></p>
+	  </section>
+
+	  <section>
+
+	    <h3>Metadata Encoding and Transmission Standard (METS)</h3>
+	    <ul>
+	      <li>A package for other metadata (e.g., Metadata Object
+	      Description Schema)</li>
+	      <li>A table of contents</li>
+	      <li>A recipe</li>
+	    </ul>
+	    <p>
+	      <a href="http://www.kb.dk/permalink/2006/manus/41/">Codex
+	    Holmiensis</a>,
+	    <a href="http://img.kb.dk/mets/manus/41/metsfile.xml">METS</a>
+	    </p>
+	  </section>
+
+	  <section>
+	    <h3>BIBFRAME</h3>
+	    <img src="bibframe.png" alt="" />
+	    <br clear="all" />
+	    <small>Source: <a href="http://bibframe.org/vocab/">The BIBFRAME model</a></small>
+	  </section>
+
+      </section>
 
 
       </div>
