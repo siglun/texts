@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<x:xmpmeta xmlns:x="adobe:ns:meta/" x:xmptk="XMP Core 4.4.0-Exiv2">
+ <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
+  <rdf:Description rdf:about=""
+    xmlns:xmp="http://ns.adobe.com/xap/1.0/"
+    xmlns:digiKam="http://www.digikam.org/ns/1.0/"
+    xmlns:tiff="http://ns.adobe.com/tiff/1.0/"
+    xmlns:exif="http://ns.adobe.com/exif/1.0/"
+   xmp:CreatorTool="digiKam-3.2.0"
+   digiKam:ImageHistory="&lt;?xml version=&quot;1.0&quot;?&gt;&#xA;&lt;history version=&quot;1&quot;&gt;&#xA;    &lt;file uuid=&quot;99bd2e90ce24c972c3d6537525cf776a43b476a33ec067b5bd833f586503a551&quot; type=&quot;original&quot;&gt;&#xA;        &lt;fileParams fileName=&quot;L1004513.DNG&quot; filePath=&quot;/home/sigge/Dropbox/galleri/201309-201309/&quot; fileHash=&quot;43b476a33ec067b5bd833f586503a551&quot; fileSize=&quot;18324480&quot; creationDate=&quot;2013-09-01T12:41:01&quot;/&gt;&#xA;    &lt;/file&gt;&#xA;    &lt;filter filterName=&quot;digikam:RawConverter&quot; filterDisplayName=&quot;Raw Conversion&quot; filterVersion=&quot;1&quot; filterCategory=&quot;reproducible&quot; branch=&quot;true&quot;&gt;&#xA;        &lt;params&gt;&#xA;            &lt;param name=&quot;RAWQuality&quot; value=&quot;0&quot;/&gt;&#xA;            &lt;param name=&quot;autoBrightness&quot; value=&quot;true&quot;/&gt;&#xA;            &lt;param name=&quot;enableBlackPoint&quot; value=&quot;false&quot;/&gt;&#xA;            &lt;param name=&quot;enableWhitePoint&quot; value=&quot;false&quot;/&gt;&#xA;            &lt;param name=&quot;fixColorsHighlights&quot; value=&quot;false&quot;/&gt;&#xA;            &lt;param name=&quot;inputColorSpace&quot; value=&quot;0&quot;/&gt;&#xA;            &lt;param name=&quot;kdcraw-version&quot; value=&quot;2.2.0&quot;/&gt;&#xA;            &lt;param name=&quot;outputColorSpace&quot; value=&quot;5&quot;/&gt;&#xA;            &lt;param name=&quot;outputProfile&quot; value=&quot;/home/sigge/.local/share/icc/display_calibration.icc&quot;/&gt;&#xA;            &lt;param name=&quot;sixteenBitsImage&quot; value=&quot;false&quot;/&gt;&#xA;            &lt;param name=&quot;whiteBalance&quot; value=&quot;1&quot;/&gt;&#xA;        &lt;/params&gt;&#xA;    &lt;/filter&gt;&#xA;    &lt;filter filterName=&quot;digikam:BWSepiaFilter&quot; filterDisplayName=&quot;Black &amp;amp; White / Sepia Filter&quot; filterVersion=&quot;1&quot; filterCategory=&quot;reproducible&quot;&gt;&#xA;        &lt;params&gt;&#xA;            &lt;param name=&quot;brightness&quot; value=&quot;0&quot;/&gt;&#xA;            &lt;param name=&quot;channel&quot; value=&quot;0&quot;/&gt;&#xA;            &lt;param name=&quot;contrast&quot; value=&quot;1&quot;/&gt;&#xA;            &lt;param name=&quot;curveBitDepth&quot; value=&quot;8&quot;/&gt;&#xA;            &lt;param name=&quot;curveData[0]&quot; value=&quot;AAEBAQAAAAAAAAAEAAAAAAAAAAAAAABDAAAAOgAAALAAAADVAAAA/wAAAP8=&quot;/&gt;&#xA;            &lt;param name=&quot;curveData[1]&quot; value=&quot;AAEAAQAAAAAAAAAA&quot;/&gt;&#xA;            &lt;param name=&quot;curveData[2]&quot; value=&quot;AAEAAQAAAAAAAAAA&quot;/&gt;&#xA;            &lt;param name=&quot;curveData[3]&quot; value=&quot;AAEAAQAAAAAAAAAA&quot;/&gt;&#xA;            &lt;param name=&quot;curveData[4]&quot; value=&quot;AAEAAQAAAAAAAAAA&quot;/&gt;&#xA;            &lt;param name=&quot;filmType&quot; value=&quot;7&quot;/&gt;&#xA;            &lt;param name=&quot;filterType&quot; value=&quot;0&quot;/&gt;&#xA;            &lt;param name=&quot;gamma&quot; value=&quot;1&quot;/&gt;&#xA;            &lt;param name=&quot;preview&quot; value=&quot;false&quot;/&gt;&#xA;            &lt;param name=&quot;previewType&quot; value=&quot;7&quot;/&gt;&#xA;            &lt;param name=&quot;strength&quot; value=&quot;1&quot;/&gt;&#xA;            &lt;param name=&quot;toneType&quot; value=&quot;25&quot;/&gt;&#xA;        &lt;/params&gt;&#xA;    &lt;/filter&gt;&#xA;    &lt;file uuid=&quot;7ab3fdb66be4ff89e90ad72dff4d568e43b476a33ec067b5bd833f586503a551&quot;&gt;&#xA;        &lt;fileParams fileName=&quot;L1004513_v1.JPG&quot; filePath=&quot;/home/sigge/Dropbox/galleri/201309-201309/&quot; fileHash=&quot;ec409728cf275254db5424e640887589&quot; fileSize=&quot;1272811&quot;/&gt;&#xA;    &lt;/file&gt;&#xA;&lt;/history&gt;&#xA;"
+   digiKam:ImageUniqueID="d11707d27a797e25abe869c347eb4a13ec409728cf275254db5424e640887589"
+   tiff:PhotometricInterpretation="2"
+   tiff:ImageWidth="5216"
+   tiff:ImageLength="3472"
+   tiff:Compression="1"
+   tiff:Orientation="1"
+   tiff:SamplesPerPixel="3"
+   tiff:PlanarConfiguration="1"
+   tiff:XResolution="72/1"
+   tiff:YResolution="72/1"
+   tiff:ResolutionUnit="2"
+   tiff:Make="Leica Camera AG"
+   tiff:Model="M9 Digital Camera"
+   tiff:Software="1.196"
+   exif:ExifVersion="0220"
+   exif:PixelXDimension="5216"
+   exif:PixelYDimension="3472"
+   exif:DateTimeDigitized="2013-09-01T12:41:01"
+   exif:ExposureTime="1/1000"
+   exif:ExposureProgram="3"
+   exif:ShutterSpeedValue="655360/65536"
+   exif:ExposureBiasValue="0/65536"
+   exif:MaxApertureValue="65536/65536"
+   exif:MeteringMode="2"
+   exif:LightSource="0"
+   exif:FocalLength="50000/1000"
+   exif:FileSource="3"
+   exif:SceneType="1"
+   exif:ExposureMode="1"
+   exif:WhiteBalance="0"
+   exif:DigitalZoomRatio="0/1"
+   exif:FocalLengthIn35mmFilm="50"
+   exif:SceneCaptureType="0"
+   exif:ImageUniqueID="000000000000000000000000000011ef">
+   <tiff:BitsPerSample>
+    <rdf:Seq>
+     <rdf:li>8 8 8</rdf:li>
+    </rdf:Seq>
+   </tiff:BitsPerSample>
+   <exif:Flash
+    exif:Fired="False"
+    exif:Return="0"
+    exif:Mode="0"
+    exif:Function="False"
+    exif:RedEyeMode="False"/>
+   <exif:ISOSpeedRatings>
+    <rdf:Seq>
+     <rdf:li>400</rdf:li>
+    </rdf:Seq>
+   </exif:ISOSpeedRatings>
+  </rdf:Description>
+ </rdf:RDF>
+</x:xmpmeta>
