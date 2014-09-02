@@ -11,10 +11,10 @@
 	       version="1.0">
 
   <!--
-    Builds entries
-    Author Sigfrid Lundberg (siggelundberg@gmail.com)
-    $Revision$ last modified $Date$
-    $Id$
+      Builds entries
+      Author Sigfrid Lundberg (siggelundberg@gmail.com)
+      $Revision$ last modified $Date$
+      $Id$
   -->
 
   <xsl:param name="debug" select="''"/>
@@ -81,7 +81,9 @@
 	    </div>
 	    <div style="text-align:left;width=90%;">
 	      <p>
-		<a href="/">Home</a><br/>
+		<a href="/"><strong>Home</strong></a>
+	      </p>
+	      <p>
 		<a href="http://feeds.feedburner.com/SigfridLundbergsStuff?format=xml"
 		   type="application/atom+xml"
 		   class="feed-link">
@@ -89,32 +91,33 @@
 		       alt="Subscribe to Stuff from Sigfrid Lundberg"
 		       border="0"/>Subscribe to my stuff</a><br/>
 
-	      <a href="http://sigfridlundbergsstuff.disqus.com/latest.rss"
-		 type="application/rss+xml"
-		 class="feed-link">
-		<img src="/images/Newsfeed-Atom.png" 
-		     alt="Subscribe to Stuff from Sigfrid Lundberg"
-		     border="0"/>Subscribe to discussion feed</a>
+		  <a href="http://sigfridlundbergsstuff.disqus.com/latest.rss"
+		     type="application/rss+xml"
+		     class="feed-link">
+		    <img src="/images/Newsfeed-Atom.png" 
+			 alt="Subscribe to Stuff from Sigfrid Lundberg"
+			 border="0"/>Subscribe to discussion feed</a>
 
-	    </p>
-	    <xsl:comment>#include virtual="/subjects.xml" </xsl:comment>
-	    <xsl:comment>#include virtual="/me.xml" </xsl:comment>
+	      </p>
+	      <xsl:comment>#include virtual="/subjects.xml" </xsl:comment>
+	      <xsl:comment>#include virtual="/me.xml" </xsl:comment>
 
-	    <p><small>
-	      <a rel="license" 
-		 href="http://creativecommons.org/licenses/by-sa/3.0/">
-		<img alt="Creative Commons License" 
-		     style="border-width:0" 
-		     src="http://i.creativecommons.org/l/by-sa/3.0/88x31.png" />
-		</a>
-		<br />
-		This entry (<em><span xmlns:dct="http://purl.org/dc/terms/"
-		property="dct:title"> <xsl:value-of
-		select="f:title"/></span></em>) within Sigfrid Lundberg's Stuff,
+	      <p>
+		<small>
+		  <a rel="license" 
+		     href="http://creativecommons.org/licenses/by-sa/3.0/">
+		    <img alt="Creative Commons License" 
+			 style="border-width:0" 
+			 src="http://i.creativecommons.org/l/by-sa/3.0/88x31.png" />
+		  </a>
+		  <br />
+		  This entry (<em><span xmlns:dct="http://purl.org/dc/terms/"
+		  property="dct:title"> <xsl:value-of
+		  select="f:title"/></span></em>) within Sigfrid Lundberg's Stuff,
 
-		by <a xmlns:cc="http://creativecommons.org/ns#" 
-		   property="cc:attributionName" 
-		   rel="cc:attributionURL">
+		  by <a xmlns:cc="http://creativecommons.org/ns#" 
+		  property="cc:attributionName" 
+		  rel="cc:attributionURL">
 		  <xsl:attribute name="href">
 		    <xsl:value-of 
 			select="concat('http://sigfrid-lundberg.se',f:link/@href)"/>
@@ -128,74 +131,78 @@
 	      </small></p>
 
 
+	    </div>
 	  </div>
-	</div>
 
-	<div class="right_box">
+	  <div class="right_box">
 
-	  <h1 style="font-family: sans-serif; width: 55%; float: left;text-align: left;">
-	    <xsl:value-of select="f:title"/>
-	  </h1>
+	    <h1 style="font-family: sans-serif; width: 55%; float: left;text-align: left;">
+	      <xsl:value-of select="f:title"/>
+	    </h1>
 
-	  <p style="width: 38%; float: left;text-align: right">
-	    <em>
-	      <strong>
-		<xsl:text>Sigfrid Lundberg's Stuff </xsl:text>
-		<xsl:value-of select="substring-before(f:updated,'T')"/>
-	      </strong>
-	    </em>
-	    <br/>
-	    <br/>
-	    <!-- AddThis Button BEGIN -->
-	    <xsl:element name="a">
-	      <xsl:attribute name="class">addthis_button</xsl:attribute>
-	      <xsl:attribute name="addthis:title"><xsl:value-of select="f:title"/></xsl:attribute>
-	      <!--xsl:attribute name="addthis:description"><xsl:value-of select="f:summary"/></xsl:attribute-->
-	      <xsl:attribute name="addthis:url">
-		<xsl:value-of 
-		    select="concat('http://sigfrid-lundberg.se',f:link/@href)"/>
-	      </xsl:attribute>
-	      <xsl:attribute name="href">http://www.addthis.com/bookmark.php?v=250&amp;pub=siggelundberg</xsl:attribute>
-	      <img src="http://s7.addthis.com/static/btn/v2/lg-share-en.gif"
-		   width="125" 
-		   height="16" 
-		   alt="Bookmark and Share" 
-		   style="border:0"/>
-	    </xsl:element>
+	    <p style="width: 38%; float: left;text-align: right">
+	      <em>
+		<strong>
+		  <xsl:text>Sigfrid Lundberg's Stuff </xsl:text>
+		  <xsl:value-of select="substring-before(f:updated,'T')"/>
+		</strong>
+	      </em>
+	      <br/>
+	      <br/>
+	      <!-- AddThis Button BEGIN -->
+	      <xsl:element name="a">
+		<xsl:attribute name="class">addthis_button</xsl:attribute>
+		<xsl:attribute name="addthis:title"><xsl:value-of select="f:title"/></xsl:attribute>
+		<!--xsl:attribute name="addthis:description"><xsl:value-of select="f:summary"/></xsl:attribute-->
+		<xsl:attribute name="addthis:url">
+		  <xsl:value-of 
+		      select="concat('http://sigfrid-lundberg.se',f:link/@href)"/>
+		</xsl:attribute>
+		<xsl:attribute name="href">http://www.addthis.com/bookmark.php?v=250&amp;pub=siggelundberg</xsl:attribute>
+		<img src="http://s7.addthis.com/static/btn/v2/lg-share-en.gif"
+		     width="125" 
+		     height="16" 
+		     alt="Bookmark and Share" 
+		     style="border:0"/>
+	      </xsl:element>
 	      <script type="text/javascript" 
 		      src="http://s7.addthis.com/js/250/addthis_widget.js?pub=siggelundberg">
 		<xsl:text>
 		</xsl:text>
 	      </script>
 	      <!-- AddThis Button END -->
-	  </p>
+	    </p>
 
+	    <div style="clear:both">
+	      <xsl:text>
+	      </xsl:text>
+	    </div>
+
+
+
+	    <xsl:apply-templates mode="copy" select="f:content[@type='xhtml']"/>
+
+
+	    <div style="clear:both">
+	      <xsl:text> 
+	      </xsl:text>
+	    </div>
+
+	    <div id="disqus_thread">
+	      <xsl:text>
+	      </xsl:text>
+	    </div>
+	    <p style="margin-left:+1%;">
+	      <a href="http://disqus.com" class="dsq-brlink">blog comments powered
+	      by <span class="logo-disqus">Disqus</span>
+	      </a>
+	    </p>
+
+	  </div>
 	  <div style="clear:both">
-	    <xsl:text>
-	    </xsl:text>
+	    &#160;
 	  </div>
 
-
-
-	  <xsl:apply-templates mode="copy" select="f:content[@type='xhtml']"/>
-
-
-	  <div style="clear:both">
-	    <xsl:text> 
-	    </xsl:text>
-	  </div>
-
-	  <div id="disqus_thread">
-	    <xsl:text>
-	    </xsl:text>
-	  </div>
-	  <p style="margin-left:+1%;">
-	    <a href="http://disqus.com" class="dsq-brlink">blog comments powered
-	    by <span class="logo-disqus">Disqus</span>
-	    </a>
-	  </p>
-
-	</div>
 	</div>
 	<script type="text/javascript" src="http://disqus.com/forums/sigfridlundbergsstuff/embed.js">
 	  <xsl:text>
@@ -210,23 +217,23 @@
 			  'http://sigfrid-lundberg.se',
 			  f:link/@href)"/>
 	    </xsl:attribute>
-	      View the discussion thread
+	    View the discussion thread
 	  </xsl:element>
 	</noscript>
 
 	<script type="text/javascript">
 	  <xsl:text disable-output-escaping="yes">//&lt;!--</xsl:text>
 	  <xsl:text disable-output-escaping="yes">
-	  (function() {
-	      var links = document.getElementsByTagName('a');
-	      var query = '?';
-	      for(var i = 0; i &lt; links.length; i++) {
-		  if(links[i].href.indexOf('#disqus_thread') >= 0) {
-		      query += 'url' + i + '=' + encodeURIComponent(links[i].href) + '&amp;';
-		  }
-	      }
-	      document.write('&lt;script charset="utf-8" type="text/javascript" src="http://disqus.com/forums/sigfridlundbergsstuff/get_num_replies.js' + query + '">&lt;/' + 'script>');
-	  })();
+	    (function() {
+	    var links = document.getElementsByTagName('a');
+	    var query = '?';
+	    for(var i = 0; i &lt; links.length; i++) {
+	    if(links[i].href.indexOf('#disqus_thread') >= 0) {
+	    query += 'url' + i + '=' + encodeURIComponent(links[i].href) + '&amp;';
+	    }
+	    }
+	    document.write('&lt;script charset="utf-8" type="text/javascript" src="http://disqus.com/forums/sigfridlundbergsstuff/get_num_replies.js' + query + '">&lt;/' + 'script>');
+	    })();
 	  </xsl:text>
 	  <xsl:text disable-output-escaping="yes">//--&gt;</xsl:text>
 	</script>

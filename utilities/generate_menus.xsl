@@ -108,7 +108,9 @@
 	      </div>
 	      <div style="text-align:left;width=90%;">
 		<p>
-		  <a href="/">Home</a><br/>
+		  <a href="/"><strong>Home</strong></a>
+		</p>
+		<p>
 		  <a href="http://feeds.feedburner.com/SigfridLundbergsStuff?format=xml"
 		     type="application/atom+xml" class="feed-link">
 		    <img src="/images/Newsfeed-Atom.png" 
@@ -162,6 +164,12 @@
 		</xsl:choose>
 	      </div>
 	    </div>
+	    <div style="clear:both">
+	      <xsl:text>
+		&#160;
+	      </xsl:text>
+	    </div>
+
 	    </div>
 	    <xsl:comment>#include virtual="/js/urchin.js" </xsl:comment>
 	  </xsl:element>
