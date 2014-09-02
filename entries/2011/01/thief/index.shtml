@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <html xmlns="http://www.w3.org/1999/xhtml" xmlns:addthis="http://www.addthis.com/help/api-spec"><head><title>I have smoked a cigarr together with The Book Thief: 
 	  Sigfrid Lundberg's Stuff
-	</title><link href="http://feeds.feedburner.com/SigfridLundbergsStuff?format=xml" type="application/atom+xml" title="Sigfrid Lundberg's Stuff" rel="alternate"/><link href="http://sigfridlundbergsstuff.disqus.com/latest.rss" type="application/rss+xml" title="Latest Comments" rel="alternate"/><meta http-equiv="Content-Type" content="text/html;charset=UTF-8"/><script src="/js/navigation.js" type="text/javascript"> 
+	</title><link href="http://feeds.feedburner.com/SigfridLundbergsStuff?format=xml" type="application/atom+xml" title="Sigfrid Lundberg's Stuff" rel="alternate"/><link href="http://sigfridlundbergsstuff.disqus.com/latest.rss" type="application/rss+xml" title="Latest Comments" rel="alternate"/><meta http-equiv="Content-Type" content="application/xhtml+xml;charset=UTF-8"/><script src="/js/navigation.js" type="text/javascript"> 
 	  </script><meta http-equiv="Content-Type" content="text/html;charset=UTF-8"/><link rel="stylesheet" href="/css-style/html.css"/><!--#include virtual="/js/colorbox_include.html" --></head><body><div class="outer_box"><!--#include virtual="/top_div.xml" --><div class="left_box"><div style="text-align:left;width=90%;"><!--#include virtual="/div_top_left_box.xml" --></div><div style="text-align:left;width=90%;"><p><a href="/"><strong>Home</strong></a></p><p><a href="http://feeds.feedburner.com/SigfridLundbergsStuff?format=xml" type="application/atom+xml" class="feed-link"><img src="/images/Newsfeed-Atom.png" alt="Subscribe to Stuff from Sigfrid Lundberg" border="0"/>Subscribe to my stuff</a><br/><a href="http://sigfridlundbergsstuff.disqus.com/latest.rss" type="application/rss+xml" class="feed-link"><img src="/images/Newsfeed-Atom.png" alt="Subscribe to Stuff from Sigfrid Lundberg" border="0"/>Subscribe to discussion feed</a></p><!--#include virtual="/subjects.xml" --><!--#include virtual="/me.xml" --><p><small><a rel="license" href="http://creativecommons.org/licenses/by-sa/3.0/"><img alt="Creative Commons License" style="border-width:0" src="http://i.creativecommons.org/l/by-sa/3.0/88x31.png"/></a><br/>
 		  This entry (<em><span xmlns:dct="http://purl.org/dc/terms/" property="dct:title">I have smoked a cigarr together with The Book Thief</span></em>) within Sigfrid Lundberg's Stuff,
 
@@ -22,7 +22,9 @@
       that you have to talk to and visit the right people.</p>
 
       <div style="width:500px;float:right;margin-left:0.5em; margin-right:0.2em;">
-	<a rel="viewer" href="http://farm6.static.flickr.com/5283/5351656340_18ece5cce0.jpg" title="P1133870_adjusted.JPG by Sigfrid Lundberg, on Flickr"><img src="http://farm6.static.flickr.com/5283/5351656340_18ece5cce0.jpg" style="width:100%;" alt="P1133870_adjusted.JPG"/></a><div><small><a href="http://www.flickr.com/photos/sigfridlundberg/5351656340/">P1133870_adjusted.JPG by Sigfrid Lundberg, on Flickr</a></small></div>
+	<a rel="viewer" href="http://farm6.static.flickr.com/5283/5351656340_18ece5cce0.jpg" title="P1133870_adjusted.JPG by Sigfrid Lundberg, on Flickr"><img src="http://farm6.static.flickr.com/5283/5351656340_18ece5cce0.jpg" style="width:100%;" alt="P1133870_adjusted.JPG"/>
+	</a><div><small><a href="http://www.flickr.com/photos/sigfridlundberg/5351656340/">P1133870_adjusted.JPG by Sigfrid Lundberg, on Flickr
+	    </a></small></div>
       </div>
 
       <p>One of the right people, in this case, was the Head of Manuscript and
@@ -54,7 +56,9 @@
       nation.</p>
 
       <div style="width:380px;float:left;margin-left:0.2em; margin-right:0.5em;">
-	<a rel="viewer" href="http://cdnstatic.expressen.se/polopoly/bilder/2007/02/09/1.156396TS1283781772343_defaultImage.jpg"><img src="http://cdnstatic.expressen.se/polopoly/bilder/2007/02/09/1.156396TS1283781772343_defaultImage.jpg" alt="Here lived the book thief" style="width:375px;"/></a><div><small><a href="http://www.expressen.se/nyheter/1.156404/har-bodde-boktjuven"/></small></div>
+	<a rel="viewer" href="http://cdnstatic.expressen.se/polopoly/bilder/2007/02/09/1.156396TS1283781772343_defaultImage.jpg"><img src="http://cdnstatic.expressen.se/polopoly/bilder/2007/02/09/1.156396TS1283781772343_defaultImage.jpg" alt="Here lived the book thief" style="width:375px;"/>
+	</a><div><small><a href="http://www.expressen.se/nyheter/1.156404/har-bodde-boktjuven">
+	    </a></small></div>
       </div>
 
       <p>A friend of mine, Birgitta Lindholm, curator of manuscripts at Lund

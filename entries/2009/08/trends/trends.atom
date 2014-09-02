@@ -33,7 +33,10 @@
 
       <div style="float: left; width: 50%; margin-left:0.5em;margin-right:0.5em;">
 	<a href="http://sigfrid-lundberg.se/entries/2009/08/trends/kassa_series.png">
-	  <img src="http://sigfrid-lundberg.se/entries/2009/08/trends/kassa_series.png" width="100%" alt="Fig. 1. Time series for search interest for the Swedish term  'a kassa' (in red) and the corresponding Danish 'a kasse' (in green) with the same meaning."/>
+	  <img
+	      src="http://sigfrid-lundberg.se/entries/2009/08/trends/kassa_series.png" 
+	      width="100%" 
+	      alt="Fig. 1."/>
 	</a>
 	<p>
 	  <small>Fig. 1. Time series for search interest for the Swedish term
@@ -68,7 +71,7 @@
 
       <div style="float: right; width: 50%; margin-left:0.5em;margin-right:0.5em;">
 	<a href="http://sigfrid-lundberg.se/entries/2009/08/trends/kassa.png">
-	  <img src="http://sigfrid-lundberg.se/entries/2009/08/trends/kassa.png" width="100%" alt="Fig. 2. The search interest for the Danish search term 'a    kasse' (y axis) plotted against the corresponding Swedish 'a kassa'    the same week. The green line represent the least square fit. There    is quite some scatter but the positive correlation is highly    significant"/>
+	  <img src="http://sigfrid-lundberg.se/entries/2009/08/trends/kassa.png" width="100%" alt="Fig. 2."/>
 	</a>
 
 	<p>
@@ -102,7 +105,10 @@
 
       <div style="float: left; width: 50%; margin-left:0.5em;margin-right:0.5em;">
 	<a href="http://sigfrid-lundberg.se/entries/2009/08/trends/divorce-da-series.png">
-	  <img src="http://sigfrid-lundberg.se/entries/2009/08/trends/divorce-da-series.png" width="100%" alt="Fig. 3. Search interest for the terms 'a kasse' and    'skilsmisse', i.e., unemployment benefit society' and 'divorce',    respectively in Danish."/>
+	  <img
+	      src="http://sigfrid-lundberg.se/entries/2009/08/trends/divorce-da-series.png" 
+	      width="100%" 
+	      alt="Fig. 3."/>
 	</a>
 	<p>
 	  <small>Fig. 3. Search interest for the terms 'a kasse' and
@@ -180,7 +186,7 @@
 	  <td style="border:none;text-align: right;">45</td>
 	</tr>
       </table>
-
+      <br style="clear:both"/>
       <p>Table 1 shows Google's top ten list for divorce oriented search
       terms. Jon and Kate are obviously a reality TV series in the US, so this
       one reflects a voracious appetite for gossip rather than a need for
@@ -198,7 +204,10 @@
 
       <div style="float: right; width: 50%; margin-left:0.5em;margin-right:0.5em;">
 	<a href="/entries/2009/08/trends/divorce-da.png">
-	  <img src="http://sigfrid-lundberg.se/entries/2009/08/trends/divorce-da.png" width="100%" alt="Fig. 4. Correlation analysis between search interest for      'skilsmisse' (divorce) and 'a kasse' (unemployment benefit society)      in Denmark. There is a weak but significant positive correlation"/>
+	  <img
+	      src="http://sigfrid-lundberg.se/entries/2009/08/trends/divorce-da.png"
+	      width="100%" 
+	      alt="Fig. 4."/>
 	</a>
 	<p>
 	  <small>Fig. 4. Correlation analysis between search interest for
@@ -228,7 +237,7 @@
 
       <div style="float: left; width: 50%; margin-left:0.5em;margin-right:0.5em;">
 	<a href="http://sigfrid-lundberg.se/entries/2009/08/trends/divorce-sv-series.png">
-	  <img src="http://sigfrid-lundberg.se/entries/2009/08/trends/divorce-sv-series.png" width="100%" alt="Fig. 5. Search interest for the terms 'a kasse' and    'skilsmisse', i.e., unemployment benefit society' and 'divorce',    respectively in Swedish."/> 
+	  <img src="http://sigfrid-lundberg.se/entries/2009/08/trends/divorce-sv-series.png" width="100%" alt="Fig. 5."/>
 	</a>
 	<p>
 	  <small>Fig. 5. Search interest for the terms 'a kasse' and
@@ -261,7 +270,7 @@
 
       <div style="float: right; width: 50%; margin-left:0.5em;margin-right:0.5em;">
 	<a href="http://sigfrid-lundberg.se/entries/2009/08/trends/divorce-sv.png">
-	  <img src="http://sigfrid-lundberg.se/entries/2009/08/trends/divorce-sv.png" width="100%" alt="&gt;Fig. 6. Correlation analysis between search interest for    'skilsmässa' (divorce) and 'a kassa' (unemployment benefit society)    in Sweden. There is a significant negative correlation"/> 
+	  <img src="http://sigfrid-lundberg.se/entries/2009/08/trends/divorce-sv.png" width="100%" alt="Fig. 6."/>
 	</a>
 	<p>
 	  <small>Fig. 6. Correlation analysis between search interest for

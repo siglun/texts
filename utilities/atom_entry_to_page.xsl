@@ -21,6 +21,7 @@
 
   <xsl:output method="xml"
 	      indent="yes"
+	      omit-xml-declaration="yes"
 	      encoding="UTF-8"/>
 
   <xsl:template match="/">
@@ -47,7 +48,7 @@
 	      rel="alternate"/>
 
 	<meta http-equiv="Content-Type"
-	      content="text/html;charset=UTF-8" />
+	      content="application/xhtml+xml;charset=UTF-8" />
 
 	<script src="/js/navigation.js" type="text/javascript">
 	  <xsl:text> 
@@ -253,8 +254,8 @@
     <xsl:choose>
       <xsl:when test="@rel">
 	<xsl:element name="a">
-	  <xsl:apply-templates mode="copy" select="@*|node()"/>
-	</xsl:element>
+	  <xsl:apply-templates mode="copy" select="@*|node()"/><xsl:text>
+	</xsl:text></xsl:element>
       </xsl:when>
       <xsl:otherwise>
 	<xsl:element name="a">
@@ -269,16 +270,16 @@
 	      </xsl:attribute>
 	    </xsl:when>
 	  </xsl:choose>
-	  <xsl:apply-templates mode="copy" select="h:img" />
-	</xsl:element>
+	  <xsl:apply-templates mode="copy" select="h:img" /><xsl:text>
+	</xsl:text></xsl:element>
 	<div>
 	  <small>
 	    <xsl:element name="a">
 	      <xsl:attribute name="href">
 		<xsl:value-of select="@href"/>
 	      </xsl:attribute>
-	      <xsl:value-of select="@title"/>
-	    </xsl:element>
+	      <xsl:value-of select="@title"/><xsl:text>
+	    </xsl:text></xsl:element>
 	  </small>
 	</div>
       </xsl:otherwise>
