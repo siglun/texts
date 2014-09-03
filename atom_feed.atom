@@ -6,7 +6,51 @@
   <title>Sigfrid Lundberg's Stuff</title>
   <id>http://sigfrid-lundberg.se/files.atom</id>
   <link rel="self" href="http://feeds.feedburner.com/SigfridLundbergsStuff?format=xml"/>
-  <updated>2013-09-09T20:38:33+01:00</updated>
+  <updated>2014-09-03T17:42:47+01:00</updated>
+  <entry>
+  <author>
+    <name>Sigfrid Lundberg</name>
+  </author>
+  <title>Granite is hard</title>
+  <link href="http://sigfrid-lundberg.se/entries/2014/09/granite/"/>
+  <summary>He sat on his knees and started to penetrate the tiles with hammer
+  and chisel</summary>
+  <content type="xhtml">
+    <div xmlns="http://www.w3.org/1999/xhtml">
+      <div style="width: 50%;margin:0.5em;float:left;">
+	<a href="https://www.flickr.com/photos/sigfridlundberg/14938683049" title="L1009950_v1 by Sigfrid  Lundberg, on Flickr">
+	  <img src="https://farm6.staticflickr.com/5596/14938683049_3e40d5cdf0_z.jpg" width="100%" alt="L1009950_v1"/>
+	</a>
+      </div>
+      <p>He sat on his knees and started to penetrate the tiles with hammer
+      and chisel. I pulled my camera and just before I pressed the shutter, he
+      stretched his back.</p>
+      <p> He noticed me taking the photograph.<br/>
+      <q>It is hard!</q> he said.<br/>
+      <q>What kind of stone is it?</q> I asked.<br/>
+      <q>Granite</q> said he.<br/>
+      Then he bent down and continued to penetrate the stone.</p>
+
+      <br style="clear:both;"/>
+
+      <div style="width: 50%;margin:0.5em;float:right;">
+	<a href="https://www.flickr.com/photos/sigfridlundberg/14943862449" title="L1010183_v1 by Sigfrid  Lundberg, on Flickr">
+	  <img src="https://farm6.staticflickr.com/5587/14943862449_d9ed891eef_z.jpg" width="100%" alt="L1010183_v1"/></a>
+      </div>
+
+      <p>Today I decided to return and have a look.  New nice
+      tiles. Slightly more gray. Don't know what he was up to.</p>
+
+      <p>None of my business, anyway.</p>
+
+    </div>
+  </content>
+  <dc:date>2014</dc:date>
+  <category label="essayes" term="Esayes"/>
+  <category label="photography" term="Photography"/>
+  <updated>2014-09-03T17:42:47+01:00</updated>
+  <id>http://www.sigfrid-lundberg.se/entries/2014/09/granite/</id>
+</entry>
   <entry>
   <author>
     <name>Sigfrid Lundberg</name>

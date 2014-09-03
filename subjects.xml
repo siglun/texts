@@ -34,6 +34,9 @@
     <a href="/subjects/escience/">eScience</a>
   </li>
   <li>
+    <a href="/subjects/essayes/">Esayes</a>
+  </li>
+  <li>
     <a href="/subjects/essays/">Essays</a>
   </li>
   <li>
@@ -121,6 +124,9 @@
     <a href="/subjects/z3950/">Z39.50</a>
   </li>
 </ul><ul id="browsebydate" style="display:none;">
+  <li>
+    <a href="/2014/">2014</a>
+  </li>
   <li>
     <a href="/2013/">2013</a>
   </li>
