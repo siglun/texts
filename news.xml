@@ -13,29 +13,33 @@
   <div style="width:100%;">
     <div>
 
-      <div style="width:50%;float:left;">
+      <div style="width:50%;float:right;">
 	<a href="/entries/2014/09/language/readers_according_to_google_analytics.png" title="Readers by contry, according to google analytics.">
 	  <img src="/entries/2014/09/language/readers_according_to_google_analytics.png" width="100%" alt="Readers by contry, according to google analytics."/>
 	</a>
       </div>
 
       <p>I have had this site since 1995, but the oldest parts are in fact
-      from 1994, which makes twenty years of presence on the web. I have
+      from 1994, which makes twenty years of personal presence on the web. I have
       thought about this for a while. For example, should I keep the site
       or through it away?</p>
 
       <p>I've discussed <a href="/entries/2009/06/why/">why</a> before. After
       that, I've decided to keep it whenever I pay the bill to my
-      provider.</p>
+      provider. The reason being: During periods when I don't care about the
+      site, it is because I'm up to something else. If people have problem
+      with my material not being up-to-date, that's their problem.  I I don't
+      care</p>
 
-      <p>So, assuming that I keep it, then</p>
+      <p>So, assuming that I keep it, while only periodically caring for it,
+      then</p>
 
-      <ul style="margin:+1em;">
+      <ol style="margin:+0.5em; list-style-type: lower-roman;">
 	<li>should I continue with my current hosting and my own (home
 	brewed) software.</li>
 	<li>should I stick to having English as its main language, or
 	return to my mother tongue Swedish?</li>
-      </ul>
+      </ol>
 
     </div>
     <br clear="all"/>
