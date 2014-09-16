@@ -9108,38 +9108,57 @@ over again.</summary>
   <content type="xhtml">
     <div xmlns="http://www.w3.org/1999/xhtml">
 
-      <div style="width:50%;float:right;">
+      <div style="margin: +1%; width:50%;float:right;">
 	<a href="/entries/2014/09/language/readers_according_to_google_analytics.png" title="Readers by contry, according to google analytics.">
 	  <img src="/entries/2014/09/language/readers_according_to_google_analytics.png" width="100%" alt="Readers by contry, according to google analytics."/>
 	</a>
+	<p><small>Figure 1. My largest readership comes from Sweden. However,
+	the total number of readers from the rest of the world exceeds my
+	Swedish readership. So, I suppose it might still be worthwhile for me
+	to write in English.</small></p>
       </div>
 
       <p>I have had this site since 1995, but the oldest parts are in fact
       from 1994, which makes twenty years of personal presence on the web. I have
       thought about this for a while. For example, should I keep the site
-      or through it away?</p>
+      or just through it away and save a couple of hundred SEK per month?</p>
 
       <p>I've discussed <a href="/entries/2009/06/why/">why</a> before. After
-      that, I've decided to keep it whenever I pay the bill to my
-      provider. The reason being: During periods when I don't care about the
-      site, it is because I'm up to something else. If people have problem
-      with my material not being up-to-date, that's their problem.  I I don't
-      care</p>
+      that, I decide to keep it several times a year. Whenever I pay the bill
+      to my service provider.</p>
 
-      <p>So, assuming that I keep it, while only periodically caring for it,
-      then</p>
+      <p>At times I just don't care about the site. I'm up to something
+      else. If people have problem with my material not being up-to-date,
+      that's their problem.  I don't care</p>
+
+      <p>Although I only periodically care for the stuff I keep here, I've
+      thought about if I</p>
 
       <ol style="margin:+0.5em; list-style-type: lower-roman;">
-	<li>should I continue with my current hosting and my own (home
+	<li>should continue with my current hosting and my own (home
 	brewed) software.</li>
-	<li>should I stick to having English as its main language, or
+	<li>should stick to English as its main language, or
 	return to my mother tongue Swedish?</li>
       </ol>
+
+      <p>However, now I feel that there are things that is more easy to
+      discuss in my native language, and many of my readers should find my
+      material more accessible. After all, Swedes are the largest single
+      nationality visiting my site. However the total number of readers from
+      the rest of the world exceeds my Swedish readership (Figure 1).</p>
+
+      <p>In short, expect more material in Swedish, but I will continue write
+      in English whenever I expect that it is worthwhile.</p>
+
+      <p>This means that you shouldn't really expect any significant changes
+      here..., and don't ask me why I use several hundred words for telling
+      you why I won't make any substantial change.</p>
 
     </div>
   </content>
   <dc:date>2014</dc:date>
   <category label="colophon" term="Colophon"/>
+  <category label="internet" term="Internet"/>
   <updated>2014-09-14T15:35:22+01:00</updated>
   <id>http://www.sigfrid-lundberg.se/entries/2014/09/language/</id>
 </entry></feed>
