@@ -6,7 +6,25 @@
   <title>Sigfrid Lundberg's Stuff</title>
   <id>http://sigfrid-lundberg.se/files.atom</id>
   <link rel="self" href="http://feeds.feedburner.com/SigfridLundbergsStuff?format=xml"/>
-  <updated>2014-09-14T15:35:22+01:00</updated>
+  <updated>2014-10-21T16:58:54+01:00</updated>
+  <entry>
+  <author>
+    <name>Sigfrid Lundberg</name>
+  </author>
+  <title>Why do I keep this site?</title>
+  <link href="http://sigfrid-lundberg.se/entries/2014/10/wallin/"/>
+  <summary>Having had a web site for about 15 years, I start to wonder why I
+  keep it in the first place.</summary>
+  <content type="xhtml">
+    <div xmlns="http://www.w3.org/1999/xhtml">
+
+    </div>
+  </content>
+  <dc:date>2014</dc:date>
+  <category label="structuralwebdesign" term="Structural web design"/>
+  <updated>2014-10-21T16:58:54+01:00</updated>
+  <id>http://www.sigfrid-lundberg.se/entries/2014/10/wallin/</id>
+</entry>
   <entry>
   <author>
     <name>Sigfrid Lundberg</name>
