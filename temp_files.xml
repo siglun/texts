@@ -9064,7 +9064,7 @@ over again.</summary>
   <content type="xhtml">
     <div xmlns="http://www.w3.org/1999/xhtml">
       <div style="margin: +1%; width:50%;float:right;">
-<a href="https://www.flickr.com/photos/sigfridlundberg/8391777099" title="Modet utvecklas inte"><img src="https://farm9.staticflickr.com/8368/8391777099_335655e14c_z.jpg" width="640" height="557" alt="Modet utvecklas inte"/></a>
+<a href="https://www.flickr.com/photos/sigfridlundberg/8391777099" title="Modet utvecklas inte"><img src="https://farm9.staticflickr.com/8368/8391777099_335655e14c_z.jpg" width="100%" alt="Modet utvecklas inte"/></a>
 	<p>
 	  <small>
 	    När jag ville ha jeans, långt hår och i övrigt se ut som en medlem
@@ -9072,12 +9072,39 @@ over again.</summary>
 	  </small>
 	</p>
       </div>
+
+      <p>När jag var tjugo var jag på många sätt full av tillförsikt, för vi
+      var medvetna om vad som var fel. Det var många miljöproblem, sur
+      nederbörd, DDT, PCB och kvicksilverbetat utsäde. Det var krig i Vietnam
+      och svält i Biafra, men vi var medvetna och visste vad som behövde
+      göras. Efter en socialistisk omdaning av samhället skulle allt bli
+      mycket bättre. Det var var inte många som fortfarande trodde på det
+      1980, och när så Sovjetunionen föll tio år senare var antalet sörjande
+      försumbart.</p>
+
+      <p>Sedan kom en generation unga smarta människor som anammade en ny
+      radikalism baserad på individuell frihet. De var precis lika övertygade
+      om att det skulle leda till en bättre värld. Varje aktör på marknaden
+      skulle dra sitt strå till stacken. Genom att var och en fattar kloka
+      beslut och väl utnyttjar sin valfrihet, kommer också samhället som
+      helhet blir bättre.</p>
+
+      <p>Avregleringarna och valfriheten löste inte heller problemen vi
+      upplevde 1970. Tron att en fri marknad med hjälp av <a href="http://en.wikipedia.org/wiki/Invisible_hand">Den Osynliga
+      Handen</a> leder allting rätt är ungefär lika naiv som att allt blir
+      bättre efter revolutionen. Ytterst är problemet att det aldrig har
+      funnits någon fri marknad utanför Adam Smiths idévärld och de klassiska
+      nationekonomernas matematiska modeller. Vietnamkriget tog slut av andra
+      skäl.</p>
+      
     </div>
   </content>
   <dc:date>2014</dc:date>
   <category label="ageing" term="Ageing"/>
+  <category label="essays" term="Essayes"/>
   <updated>2014-10-27T08:01:23+01:00</updated>
   <id>http://www.sigfrid-lundberg.se/entries/2014/10/bus/</id>
+  <!-- $Id$ -->
 </entry><entry xmlns:dc="http://purl.org/dc/elements/1.1/">
   <author>
     <name>Sigfrid Lundberg</name>
