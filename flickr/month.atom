@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<entry xmlns="http://www.w3.org/2005/Atom" xmlns:media="http://search.yahoo.com/mrss/">
+  <author>
+    <name>Sigfrid Lundberg</name>
+  </author>
+  <title>
+	Images taken 
+	January2011</title>
+  <link href="/entries/2011/01/images"/>
+  <summary>
+	Gallery of photos taken in 
+	January 
+	2011 
+	and published in my Flickr photostream.
+      </summary>
+  <content type="xhtml">
+    <div xmlns="http://www.w3.org/1999/xhtml" style="width:100%;text-align:center;">
+      <p>
+	    Gallery of photos taken in 
+	    January 
+	    2011 
+	    and published in my Flickr photostream.
+	  </p>
+      <div style="float:left;width:30%;text-align:center;margin-bottom:1em;">
+        <img style="width:80%;" src="http://farm6.static.flickr.com/5130/5352445740_5bcfeb57b2_m.jpg"/>
+      </div>
+      <div style="float:left;width:30%;text-align:center;margin-bottom:1em;">
+        <img style="width:80%;" src="http://farm6.static.flickr.com/5283/5351656340_18ece5cce0_m.jpg"/>
+      </div>
+      <div style="float:left;width:30%;text-align:center;margin-bottom:1em;">
+        <img style="width:80%;" src="http://farm6.static.flickr.com/5122/5346553443_7db7394ee2_m.jpg"/>
+      </div>
+      <div style="clear:both;"> </div>
+      <div style="float:left;width:30%;text-align:center;margin-bottom:1em;">
+        <img style="width:80%;" src="http://farm6.static.flickr.com/5007/5346737816_ef976262a3_m.jpg"/>
+      </div>
+      <div style="float:left;width:30%;text-align:center;margin-bottom:1em;">
+        <img style="width:80%;" src="http://farm6.static.flickr.com/5043/5346121439_89e2c09116_m.jpg"/>
+      </div>
+      <div style="float:left;width:30%;text-align:center;margin-bottom:1em;">
+        <img style="width:80%;" src="http://farm6.static.flickr.com/5127/5345630762_c9dc412647_m.jpg"/>
+      </div>
+      <div style="clear:both;"> </div>
+      <div style="float:left;width:30%;text-align:center;margin-bottom:1em;">
+        <img style="width:80%;" src="http://farm6.static.flickr.com/5090/5343766196_2a22cbe9a8_m.jpg"/>
+      </div>
+      <div style="float:left;width:30%;text-align:center;margin-bottom:1em;">
+        <img style="width:80%;" src="http://farm6.static.flickr.com/5042/5332957193_0ce0aa2d0b_m.jpg"/>
+      </div>
+      <div style="float:left;width:30%;text-align:center;margin-bottom:1em;">
+        <img style="width:80%;" src="http://farm6.static.flickr.com/5281/5332958759_fe6a79230b_m.jpg"/>
+      </div>
+      <div style="clear:both;"> </div>
+      <div style="float:left;width:30%;text-align:center;margin-bottom:1em;">
+        <img style="width:80%;" src="http://farm6.static.flickr.com/5165/5333574164_55822ccd2a_m.jpg"/>
+      </div>
+      <div style="float:left;width:30%;text-align:center;margin-bottom:1em;">
+        <img style="width:80%;" src="http://farm6.static.flickr.com/5086/5333572524_bcbd0a9d82_m.jpg"/>
+      </div>
+      <div style="float:left;width:30%;text-align:center;margin-bottom:1em;">
+        <img style="width:80%;" src="http://farm6.static.flickr.com/5207/5332958235_b80b1ee117_m.jpg"/>
+      </div>
+      <div style="clear:both;"> </div>
+      <div style="float:left;width:30%;text-align:center;margin-bottom:1em;">
+        <img style="width:80%;" src="http://farm6.static.flickr.com/5202/5331424552_a911542f6b_m.jpg"/>
+      </div>
+      <div style="float:left;width:30%;text-align:center;margin-bottom:1em;">
+        <img style="width:80%;" src="http://farm6.static.flickr.com/5285/5331424070_8c431c2c42_m.jpg"/>
+      </div>
+      <div style="float:left;width:30%;text-align:center;margin-bottom:1em;">
+        <img style="width:80%;" src="http://farm6.static.flickr.com/5168/5330815439_0cc0226ab5_m.jpg"/>
+      </div>
+      <div style="clear:both;"> </div>
+      <div style="float:left;width:30%;text-align:center;margin-bottom:1em;">
+        <img style="width:80%;" src="http://farm6.static.flickr.com/5246/5330674200_b3342f4940_m.jpg"/>
+      </div>
+      <div style="clear:both;"> </div>
+    </div>
+  </content>
+  <dc:date xmlns:dc="http://purl.org/dc/elements/1.1/">2011</dc:date>
+  <category label="images" term="Images"/>
+  <updated>2009-06-27T12:18:00+01:00</updated>
+  <id>http://www.sigfrid-lundberg.se/entries/2011/01/images/</id>
+</entry>
