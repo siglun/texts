@@ -1,0 +1,55 @@
+#!/usr/bin/perl -w
+
+use strict;
+use Flickr::API2;
+
+my $key    = 'dc7d97740216c982afae566ce098e108';
+my $secret = '7993c5c669d59d0d';
+my $flickr = new Flickr::API2({'key'    => $key,
+			       'secret' => $secret});
+
+# 36853098@N06
+my $id = '36853098@N06';
+#my @photos = $flickr->people->findByUsername('sigfridlundberg')->getPublicPhotos( per_page => 150);
+
+my $extras = "tags,views,description";
+my @photos = $flickr->photos->search(extras   => $extras,
+				     user_id  => $id, 
+				     tags     => 'consumerism' , 
+				     per_page => 1);
+
+
+my %params = ( 'method' => 'flickr.photos.getInfo',
+	       'api_key'=> $key,
+	       'format' => 'rest',
+	       'photo_id' => '13763646673');
+
+
+
+#https://api.flickr.com/services/rest/?method=flickr.photos.getInfo&api_key=f24363e3c98c490ac78e79cfe0a66c92&photo_id=13763646673&format=rest&auth_token=72157649091163298-9b9346cb7da86f79&api_sig=804f058ee4ab2e8240f2fcadbc0f5a6a
+
+# URL: https://api.flickr.com/services/rest/?method=flickr.photos.getInfo&api_key=f24363e3c98c490ac78e79cfe0a66c92&photo_id=13763646673&format=rest
+
+for my $photo (@photos) {
+    print "Title is " . $photo->title . "\n";
+    print "id is " . $photo->id . "\n";
+    print $photo->views . "\n";
+
+    my $api = $photo->api;
+    my $raw = ${$photo->api}{_raw};
+
+
+    system ("GET '" .  &genUri . "'");
+    print $photo->page_url . "\n\n";
+}
+
+
+sub genUri {
+
+    my $baseuri = 'https://api.flickr.com/services/rest/';
+    my @pars    = ();
+    while (my ($k,$v) = each %params) {
+	push @pars,join('=',$k,$v);
+    }
+    return join '?',$baseuri,join('&',@pars);
+}
