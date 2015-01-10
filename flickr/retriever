@@ -16,12 +16,12 @@ my $extras = "tags,views,description";
 my @photos = $flickr->photos->search(extras   => $extras,
 				     user_id  => $id, 
 				     tags     => 'consumerism' , 
-				     per_page => 1);
+				     per_page => 5);
 
 
-my %params = ( 'method' => 'flickr.photos.getInfo',
-	       'api_key'=> $key,
-	       'format' => 'rest',
+my %params = ( 'method'   => 'flickr.photos.getInfo',
+	       'api_key'  => $key,
+	       'format'   => 'rest',
 	       'photo_id' => '13763646673');
 
 
@@ -39,15 +39,17 @@ for my $photo (@photos) {
     my $raw = ${$photo->api}{_raw};
 
 
-    system ("GET '" .  &genUri . "'");
+    system ("GET '" .  &genUri($photo->id) . "'");
     print $photo->page_url . "\n\n";
 }
 
 
 sub genUri {
+    $params{'photo_id'}=shift;
 
     my $baseuri = 'https://api.flickr.com/services/rest/';
     my @pars    = ();
+
     while (my ($k,$v) = each %params) {
 	push @pars,join('=',$k,$v);
     }
