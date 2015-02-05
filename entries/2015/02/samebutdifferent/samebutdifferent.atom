@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<entry xmlns="http://www.w3.org/2005/Atom" xmlns:dc="http://purl.org/dc/elements/1.1/">
+  <author>
+    <name>Sigfrid Lundberg</name>
+  </author>
+  <title>Same but different</title>
+  <link href="/entries/2015/02/samebutdifferent/"/>
+  <summary>Two photos with similar composition but very different subject</summary>
+  <content type="xhtml">
+    <div xmlns="http://www.w3.org/1999/xhtml">
+      <div style="margin: +1%; width:45%;float:left;">
+	<a href="https://www.flickr.com/photos/sigfridlundberg/16265386337" 
+	   title="L1011895_v1 by Sigfrid  Lundberg, on Flickr">
+	<img
+	    src="https://farm8.staticflickr.com/7341/16265386337_8ea677021a_z.jpg"
+	    style="width:100%;"
+	    alt="L1011895_v1"/>
+	</a>
+      </div>
+      <div style="margin: +1%; width:45%;float:left;">
+	<a href="https://www.flickr.com/photos/sigfridlundberg/7471495318" 
+	   title="R0014554.JPG by Sigfrid  Lundberg, on Flickr">
+	  <img
+	  src="https://farm9.staticflickr.com/8008/7471495318_7c7e91d687_z.jpg"
+	  style="width:100%;"  alt="R0014554.JPG"/>
+      </a>
+      </div>
+      <br style="clear:both;"/>
+
+      <p>In all Lucky Luke stories, the cowboy jumps Jolly Jumper and rides
+      towards the sunset. He could, for instance, ride along Christian's
+      Brygge, pass Ny Kredit and Marriott hotel, Copenhagen, continue straight
+      ahead on Kalvebod Brygge towards the sunset.</p>
+
+      <p>I doubt that he would be able to convince Jolly Jumper to climb a hot
+      air balloon gondola, and dissappear over the sedimentation dam at Lund
+      sewage treatment plant.</p>
+
+      <p>However, the photos have something round in the upper right
+      corner. The sun over Copenhagen or a balloon in Lund. The similarity
+      doesn't end there, though. The is a tree lined dirt road going from
+      right to left in Lund, and a bridge in Copenhagen. The is a small
+      vessel, the harbour bus, in Copenhagen and a water fowl in Lund.</p>
+
+      <p>Almost all elements are present in both photos. Including air
+      pollution in Copenhagen and water pollution in Lund.</p>
+
+    </div>
+  </content>
+  <dc:date>2015</dc:date>
+  <category label="photography" term="Photography"/>
+  <updated>2015-02-05T19:13:51+01:00</updated>
+  <id>http://www.sigfrid-lundberg.se/entries/2015/02/samebutdifferent/</id>
+</entry>
