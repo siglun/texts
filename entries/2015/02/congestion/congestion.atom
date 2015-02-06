@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<entry xmlns="http://www.w3.org/2005/Atom" xmlns:dc="http://purl.org/dc/elements/1.1/">
+  <author>
+    <name>Sigfrid Lundberg</name>
+  </author>
+  <title>Too many buses and too many passengers</title>
+  <link href="/entries/2015/02/congestion/"/>
+  <summary>Inspired by the envy percieved when seeing all buses
+  go with high frequency, except those lines I'm using</summary>
+  <content type="xhtml">
+    <div xmlns="http://www.w3.org/1999/xhtml">
+
+    </div>
+  </content>
+  <dc:date>2015</dc:date>
+  <category label="structuralwebdesign" term="Structural web design"/>
+  <updated>2015-02-06T16:29:33+01:00</updated>
+  <id>http://www.sigfrid-lundberg.se/entries/2015/02/congestion/</id>
+</entry>
