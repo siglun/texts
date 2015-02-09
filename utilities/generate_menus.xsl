@@ -183,7 +183,7 @@
     <xsl:param name="term"/>
     <xsl:apply-templates 
 	select="//f:entry[$term = f:category/@label]">
-      <xsl:sort order="descending" select="dc:date"/>
+      <xsl:sort order="descending" select="f:updated"/>
       <xsl:with-param name="vocabulary" select="'category'"/>
     </xsl:apply-templates>
   </xsl:template>

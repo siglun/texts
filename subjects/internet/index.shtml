@@ -5,25 +5,25 @@
   from 1994, which makes twenty years of presence on the web. There are a lot
   of thoughts around this. For example, should I keep the site or through it
   away? If I keep it, should I stick to having English as its main language?<br/><a href="/subjects/colophon/">Colophon</a>,
-	<a href="/subjects/internet/">Internet</a>, <a href="/2014">2014</a></p><p>2010-02-14: <a href="/entries/2010/01/crossroad/"><em>An Irish Stew</em></a><br/>Is Internet at a crossroad?<br/><a href="/subjects/internet/">Internet</a>, <a href="/2010">2010</a></p><p>2010-04-14: <a href="/entries/2010/04/gstupid/"><em>Is Google Making us Stupid?</em></a><br/>Having had a web site for about 15 years, I start to wonder why I
+	<a href="/subjects/internet/">Internet</a>, <a href="/2014">2014</a></p><p>2010-11-25: <a href="/entries/2010/11/rfc/"><em>Peer review and request for comments</em></a><br/>Laurent Romary and myself have authored an RFC. That means a
+  Request For Comments. I now understand why.<br/><a href="/subjects/internet/">Internet</a>, <a href="/2010">2010</a></p><p>2010-04-14: <a href="/entries/2010/04/gstupid/"><em>Is Google Making us Stupid?</em></a><br/>Having had a web site for about 15 years, I start to wonder why I
   keep it in the first place.<br/><a href="/subjects/digitalobjects/">Digital objects</a>,
-	<a href="/subjects/internet/">Internet</a>, <a href="/2010">2010</a></p><p>2010-02-21: <a href="/entries/2010/02/semanticdrift/"><em>The proliferation of redundant meaning</em></a><br/>I first used the term semantic drift about 10 years ago. It was a
-  real danger then, it still is but the proliferation of synonymous
-  vocabularies is worse still.<br/><a href="/subjects/internet/">Internet</a>,
-	<a href="/subjects/metadata/">Metadata</a>, <a href="/2010">2010</a></p><p>2010-02-23: <a href="/entries/2010/02/persid/"><em>The URN:NBN is dead and resurrection is meaningless</em></a><br/>I'm one of those who try to base all decisions on facts. Politics
-  belong to the strategic field, and in that field the only thing I can offer
-  is advice.<br/><a href="/subjects/structuralwebdesign/">Structural web design</a>,
-	<a href="/subjects/internet/">Internet</a>, <a href="/2010">2010</a></p><p>2010-02-17: <a href="/entries/2010/02/ibooook/"><em>Amazon, Adobe &amp; Apple</em></a><br/>My attitude towards eBooks has always been negative. Why should we lock content into proprietary formats. The sitution has changed.<br/><a href="/subjects/internet/">Internet</a>, <a href="/2010">2010</a></p><p>2010-02-25: <a href="/entries/2010/02/youdontneed/"><em>Why you need a persistence strategy</em></a><br/>Here I go through some of the arguments why you need to implement a
+	<a href="/subjects/internet/">Internet</a>, <a href="/2010">2010</a></p><p>2010-04-08: <a href="/entries/2010/03/teimime/"><em>application/tei+xml</em></a><br/>We are about to register a mime type for TEI. This page tracks the
+  progress of that effort<br/><a href="/subjects/internet/">Internet</a>, <a href="/2010">2010</a></p><p>2010-03-29: <a href="/entries/2010/03/appteixml/"><em>A new line in the list</em></a><br/>I've spent half of this week writing an Internet draft<br/><a href="/subjects/internet/">Internet</a>, <a href="/2010">2010</a></p><p>2010-03-17: <a href="/entries/2010/03/pilin/"><em>Modelling identifers?</em></a><br/>Nick Nicholas, Nigel Ward and Kerry Blinco helps obscuring the
+  digital identifiers concept<br/><a href="/subjects/structuralwebdesign/">Structural web design</a>,
+	<a href="/subjects/internet/">Internet</a>, <a href="/2010">2010</a></p><p>2010-03-13: <a href="/entries/2010/03/modactions/"><em>Idempotency and HTTP methods</em></a><br/>Idempotency is actually the feature of HTTP that makes Worldwide
+  Web<br/><a href="/subjects/internet/">Internet</a>, <a href="/2010">2010</a></p><p>2010-02-25: <a href="/entries/2010/02/youdontneed/"><em>Why you need a persistence strategy</em></a><br/>Here I go through some of the arguments why you need to implement a
   persistence strategy. We also conclude that the hypertext link is the single
   thing that makes the Worldwide web to a web. Hence it is a serious thing. If
   you're working within the digital library world you should be devoted to the
   hypertext link.<br/><a href="/subjects/structuralwebdesign/">Structural web design</a>,
-	<a href="/subjects/internet/">Internet</a>, <a href="/2010">2010</a></p><p>2010-03-13: <a href="/entries/2010/03/modactions/"><em>Idempotency and HTTP methods</em></a><br/>Idempotency is actually the feature of HTTP that makes Worldwide
-  Web<br/><a href="/subjects/internet/">Internet</a>, <a href="/2010">2010</a></p><p>2010-04-08: <a href="/entries/2010/03/teimime/"><em>application/tei+xml</em></a><br/>We are about to register a mime type for TEI. This page tracks the
-  progress of that effort<br/><a href="/subjects/internet/">Internet</a>, <a href="/2010">2010</a></p><p>2010-03-29: <a href="/entries/2010/03/appteixml/"><em>A new line in the list</em></a><br/>I've spent half of this week writing an Internet draft<br/><a href="/subjects/internet/">Internet</a>, <a href="/2010">2010</a></p><p>2010-03-17: <a href="/entries/2010/03/pilin/"><em>Modelling identifers?</em></a><br/>Nick Nicholas, Nigel Ward and Kerry Blinco helps obscuring the
-  digital identifiers concept<br/><a href="/subjects/structuralwebdesign/">Structural web design</a>,
-	<a href="/subjects/internet/">Internet</a>, <a href="/2010">2010</a></p><p>2010-11-25: <a href="/entries/2010/11/rfc/"><em>Peer review and request for comments</em></a><br/>Laurent Romary and myself have authored an RFC. That means a
-  Request For Comments. I now understand why.<br/><a href="/subjects/internet/">Internet</a>, <a href="/2010">2010</a></p><p>2009-09-20: <a href="/entries/2009/09/msb/"><em>Att tjäna den demokratiska kulturnationens minne</em></a><br/>Jag har arbetat med att programmera digitala bibliotek i ungefär 15
+	<a href="/subjects/internet/">Internet</a>, <a href="/2010">2010</a></p><p>2010-02-23: <a href="/entries/2010/02/persid/"><em>The URN:NBN is dead and resurrection is meaningless</em></a><br/>I'm one of those who try to base all decisions on facts. Politics
+  belong to the strategic field, and in that field the only thing I can offer
+  is advice.<br/><a href="/subjects/structuralwebdesign/">Structural web design</a>,
+	<a href="/subjects/internet/">Internet</a>, <a href="/2010">2010</a></p><p>2010-02-21: <a href="/entries/2010/02/semanticdrift/"><em>The proliferation of redundant meaning</em></a><br/>I first used the term semantic drift about 10 years ago. It was a
+  real danger then, it still is but the proliferation of synonymous
+  vocabularies is worse still.<br/><a href="/subjects/internet/">Internet</a>,
+	<a href="/subjects/metadata/">Metadata</a>, <a href="/2010">2010</a></p><p>2010-02-17: <a href="/entries/2010/02/ibooook/"><em>Amazon, Adobe &amp; Apple</em></a><br/>My attitude towards eBooks has always been negative. Why should we lock content into proprietary formats. The sitution has changed.<br/><a href="/subjects/internet/">Internet</a>, <a href="/2010">2010</a></p><p>2010-02-14: <a href="/entries/2010/01/crossroad/"><em>An Irish Stew</em></a><br/>Is Internet at a crossroad?<br/><a href="/subjects/internet/">Internet</a>, <a href="/2010">2010</a></p><p>2009-09-20: <a href="/entries/2009/09/msb/"><em>Att tjäna den demokratiska kulturnationens minne</em></a><br/>Jag har arbetat med att programmera digitala bibliotek i ungefär 15
   år. När jag läser debatten om biblioteket i Sydsvenskan känner jag att jag
   borde säga något. Jag vet inte i vilken utsträckning mitt perspektiv kommer
   att kännas relevant för alla de som känner sig kallade att yttra sig, men
@@ -33,7 +33,10 @@
   you cannot make money on journalism. How can we survive when all media are
   free?<br/><a href="/subjects/media/">Media</a>,
 	<a href="/subjects/thelibrary/">The Library</a>,
-	<a href="/subjects/internet/">Internet</a>, <a href="/2009">2009</a></p><p>2007: <a href="/2007/hidden_web/usage_vs_dissemination_method.html"><em>Usage of digital resources with respect to method of publishing</em></a><br/>I compared the usage of Digital material in relation to whether
+	<a href="/subjects/internet/">Internet</a>, <a href="/2009">2009</a></p><p>2006: <a href="/2006/google/google-vs-thelibrary.html"><em>Konkurrerar Google framgångsrikt med biblioteken?</em></a><br/>En diskussion om Bibliotekets förhållande till sökmaskinen
+    Google<br/><a href="/subjects/thelibrary/">The Library</a>,
+	<a href="/subjects/digitallibraries/">Digital libraries</a>,
+	<a href="/subjects/internet/">Internet</a>, <a href="/2006">2006</a></p><p>2007: <a href="/2007/hidden_web/usage_vs_dissemination_method.html"><em>Usage of digital resources with respect to method of publishing</em></a><br/>I compared the usage of Digital material in relation to whether
     the material was hidden away in the the library opac or published on our
     web site. The result was as expected a disappointment for those who regard
     the Library catalogue as an important vehicle for dissemination of digital
@@ -41,10 +44,7 @@
 	<a href="/subjects/opac/">Library catalogues</a>,
 	<a href="/subjects/digitallibraries/">Digital libraries</a>,
 	<a href="/subjects/internet/">Internet</a>,
-	<a href="/subjects/structuralwebdesign/">Structural web design</a>, <a href="/2007">2007</a></p><p>2006: <a href="/2006/google/google-vs-thelibrary.html"><em>Konkurrerar Google framgångsrikt med biblioteken?</em></a><br/>En diskussion om Bibliotekets förhållande till sökmaskinen
-    Google<br/><a href="/subjects/thelibrary/">The Library</a>,
-	<a href="/subjects/digitallibraries/">Digital libraries</a>,
-	<a href="/subjects/internet/">Internet</a>, <a href="/2006">2006</a></p><p>2005: <a href="/2005/bivil-digitala-bibliotek/"><em>Digitala biblioteket</em></a><br/>En föreläsning om Internets historia, Det Digitala Biblioteket
+	<a href="/subjects/structuralwebdesign/">Structural web design</a>, <a href="/2007">2007</a></p><p>2005: <a href="/2005/bivil-digitala-bibliotek/"><em>Digitala biblioteket</em></a><br/>En föreläsning om Internets historia, Det Digitala Biblioteket
     och Bibliotekets historia.<br/><a href="/subjects/digitallibraries/">Digital libraries</a>,
 	<a href="/subjects/internet/">Internet</a>, <a href="/2005">2005</a></p><p>2004: <a href="/2004/biblioteket/"><em>Vad händer med biblioteket när dess samlingar finns överallt och
     ingen särskild stans?</em></a><br/>Biblioteken existerar för att det finns användare som är beredda

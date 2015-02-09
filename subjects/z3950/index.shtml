@@ -1,34 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <html xmlns="http://www.w3.org/1999/xhtml"><head><title>Z39.50: Sigfrid Lundberg's Stuff
 	    </title><meta http-equiv="Content-Type" content="text/html;charset=UTF-8"/><script src="/js/navigation.js" type="text/javascript"> 
-	      </script><link href="http://feeds.feedburner.com/SigfridLundbergsStuff?format=xml" type="application/atom+xml" title="Sigfrid Lundberg's Stuff" rel="alternate"/><link href="http://sigfridlundbergsstuff.disqus.com/latest.rss" type="application/rss+xml" title="Latest Comments" rel="alternate"/><meta http-equiv="Content-Type" content="text/html;charset=UTF-8"/><link rel="stylesheet" href="/css-style/html.css"/></head><body><div class="outer_box"><!--#include virtual="/top_div.xml" --><div class="left_box"><div style="text-align:left;width=90%;"><!--#include virtual="/div_top_left_box.xml" --></div><div style="text-align:left;width=90%;"><p><a href="/"><strong>Home</strong></a></p><p><a href="http://feeds.feedburner.com/SigfridLundbergsStuff?format=xml" type="application/atom+xml" class="feed-link"><img src="/images/Newsfeed-Atom.png" alt="Subscribe to Stuff from Sigfrid Lundberg" border="0"/>Subscribe to more Stuff</a><br/><a href="http://sigfridlundbergsstuff.disqus.com/latest.rss" type="application/rss+xml" class="feed-link"><img src="/images/Newsfeed-Atom.png" alt="Subscribe to Stuff from Sigfrid Lundberg" border="0"/>Subscribe to discussion feed</a></p><!--#include virtual="/subjects.xml" --><!--#include virtual="/me.xml" --></div></div><div class="right_box"><h1 style="width: 58%; float: left;text-align: left">Z39.50</h1><p style="width: 38%; float: left;text-align: right"><em><strong>Sigfrid Lundberg's Stuff</strong></em></p><div style="width:100%;"><p>2000: <a href="/2000/delft/"><em>Metadata harvesting</em></a><br/>This is unfortunately unpublished, but it presents most one of
-    the most extensive datasets on the content of HTML embedded metadata which
-    I collected while working with the Nordic Webindex.<br/><a href="/subjects/webindexing/">Web indexing</a>,
-	<a href="/subjects/harvesting/">Harvesting</a>,
-	<a href="/subjects/metadata/">Metadata</a>,
-	<a href="/subjects/z3950/">Z39.50</a>, <a href="/2000">2000</a></p><p>1998: <a href="/1998/nwi2/"><em>NWI II, An Enhanced Nordic Web index: Final report</em></a><br/>The Nordic Web Index (NWI) project is a collaborative effort
-    across the Nordic countries, aiming at providing a free Worldwide Web
-    search service to the general public in the countries involved. NWI has
-    been fruitful for several reasons: First and foremost we are today
-    providing access to databases covering the WWW in four of the Nordic
-    countries and, as of September 1998, five service points in six languages
-    Denmark, Finland, Sweden, Norway and Iceland.<br/><a href="/subjects/webindexing/">Web indexing</a>,
-	<a href="/subjects/harvesting/">Harvesting</a>,
-	<a href="/subjects/metadata/">Metadata</a>,
-	<a href="/subjects/z3950/">Z39.50</a>, <a href="/1998">1998</a></p><p>1998: <a href="/1998/safari/cris.pdf"><em>En arkitektur för ett distribuerat system för spridning av
-    forskningsinformation</em></a><br/>Arkitekturen för ett nätverk av tjänster för spridning av
-    forskningsinformation beskrivs. Nätverket tillåter distribuerat underhåll
-    av såväl data som metadata. Till nätverket kan anslutas såväl
-    bibliografiska databaser som helt WWWbaserade metadataberikade
-    tjänster. Metadataproduktionen följer standarden Dublin Core. De förra
-    typerna av tjänster inkorporeras i nätverket genom interoperabilitet på
-    sökprotokollsnivå, medan metadata och fulltext från de senare göres
-    sökbara genom en WWWrobot.  Kommunikation inom nätverket utnyttjar
-    standardiserade Internet protokoll som HTTP, och för
-    informationsåtervinning Z39.50<br/><a href="/subjects/webindexing/">Web indexing</a>,
-	<a href="/subjects/harvesting/">Harvesting</a>,
-	<a href="/subjects/metadata/">Metadata</a>,
-	<a href="/subjects/z3950/">Z39.50</a>, <a href="/1998">1998</a></p><p>1998: <a href="/1998/www7/"><em>A regional distributed WWW search and indexing service - the DESIRE
+	      </script><link href="http://feeds.feedburner.com/SigfridLundbergsStuff?format=xml" type="application/atom+xml" title="Sigfrid Lundberg's Stuff" rel="alternate"/><link href="http://sigfridlundbergsstuff.disqus.com/latest.rss" type="application/rss+xml" title="Latest Comments" rel="alternate"/><meta http-equiv="Content-Type" content="text/html;charset=UTF-8"/><link rel="stylesheet" href="/css-style/html.css"/></head><body><div class="outer_box"><!--#include virtual="/top_div.xml" --><div class="left_box"><div style="text-align:left;width=90%;"><!--#include virtual="/div_top_left_box.xml" --></div><div style="text-align:left;width=90%;"><p><a href="/"><strong>Home</strong></a></p><p><a href="http://feeds.feedburner.com/SigfridLundbergsStuff?format=xml" type="application/atom+xml" class="feed-link"><img src="/images/Newsfeed-Atom.png" alt="Subscribe to Stuff from Sigfrid Lundberg" border="0"/>Subscribe to more Stuff</a><br/><a href="http://sigfridlundbergsstuff.disqus.com/latest.rss" type="application/rss+xml" class="feed-link"><img src="/images/Newsfeed-Atom.png" alt="Subscribe to Stuff from Sigfrid Lundberg" border="0"/>Subscribe to discussion feed</a></p><!--#include virtual="/subjects.xml" --><!--#include virtual="/me.xml" --></div></div><div class="right_box"><h1 style="width: 58%; float: left;text-align: left">Z39.50</h1><p style="width: 38%; float: left;text-align: right"><em><strong>Sigfrid Lundberg's Stuff</strong></em></p><div style="width:100%;"><p>1998: <a href="/1998/www7/"><em>A regional distributed WWW search and indexing service - the DESIRE
     way</em></a><br/>In an attempt to implement a regional search engine we have
     created an open, metadata aware system for distributed, collaborative
     WWW-indexing. The system has three main components: a harvester (for
@@ -43,6 +16,33 @@
     databases can be used to build additional services. Services today include
     special metadata databases, multimedia databases, and statistics about the
     Nordic Web.<br/><a href="/subjects/webindexing/">Web indexing</a>,
+	<a href="/subjects/harvesting/">Harvesting</a>,
+	<a href="/subjects/metadata/">Metadata</a>,
+	<a href="/subjects/z3950/">Z39.50</a>, <a href="/1998">1998</a></p><p>2000: <a href="/2000/delft/"><em>Metadata harvesting</em></a><br/>This is unfortunately unpublished, but it presents most one of
+    the most extensive datasets on the content of HTML embedded metadata which
+    I collected while working with the Nordic Webindex.<br/><a href="/subjects/webindexing/">Web indexing</a>,
+	<a href="/subjects/harvesting/">Harvesting</a>,
+	<a href="/subjects/metadata/">Metadata</a>,
+	<a href="/subjects/z3950/">Z39.50</a>, <a href="/2000">2000</a></p><p>1998: <a href="/1998/safari/cris.pdf"><em>En arkitektur för ett distribuerat system för spridning av
+    forskningsinformation</em></a><br/>Arkitekturen för ett nätverk av tjänster för spridning av
+    forskningsinformation beskrivs. Nätverket tillåter distribuerat underhåll
+    av såväl data som metadata. Till nätverket kan anslutas såväl
+    bibliografiska databaser som helt WWWbaserade metadataberikade
+    tjänster. Metadataproduktionen följer standarden Dublin Core. De förra
+    typerna av tjänster inkorporeras i nätverket genom interoperabilitet på
+    sökprotokollsnivå, medan metadata och fulltext från de senare göres
+    sökbara genom en WWWrobot.  Kommunikation inom nätverket utnyttjar
+    standardiserade Internet protokoll som HTTP, och för
+    informationsåtervinning Z39.50<br/><a href="/subjects/webindexing/">Web indexing</a>,
+	<a href="/subjects/harvesting/">Harvesting</a>,
+	<a href="/subjects/metadata/">Metadata</a>,
+	<a href="/subjects/z3950/">Z39.50</a>, <a href="/1998">1998</a></p><p>1998: <a href="/1998/nwi2/"><em>NWI II, An Enhanced Nordic Web index: Final report</em></a><br/>The Nordic Web Index (NWI) project is a collaborative effort
+    across the Nordic countries, aiming at providing a free Worldwide Web
+    search service to the general public in the countries involved. NWI has
+    been fruitful for several reasons: First and foremost we are today
+    providing access to databases covering the WWW in four of the Nordic
+    countries and, as of September 1998, five service points in six languages
+    Denmark, Finland, Sweden, Norway and Iceland.<br/><a href="/subjects/webindexing/">Web indexing</a>,
 	<a href="/subjects/harvesting/">Harvesting</a>,
 	<a href="/subjects/metadata/">Metadata</a>,
 	<a href="/subjects/z3950/">Z39.50</a>, <a href="/1998">1998</a></p><p>1997: <a href="/1997/SMN_metadata/smn_metadata.pdf"><em>A proposal for metadata formats for use in the Swedish Enviro-Net</em></a><br/>This paper outlines a combination of the Dublin Core metadata

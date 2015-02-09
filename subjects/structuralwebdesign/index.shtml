@@ -4,37 +4,25 @@
 	      </script><link href="http://feeds.feedburner.com/SigfridLundbergsStuff?format=xml" type="application/atom+xml" title="Sigfrid Lundberg's Stuff" rel="alternate"/><link href="http://sigfridlundbergsstuff.disqus.com/latest.rss" type="application/rss+xml" title="Latest Comments" rel="alternate"/><meta http-equiv="Content-Type" content="text/html;charset=UTF-8"/><link rel="stylesheet" href="/css-style/html.css"/></head><body><div class="outer_box"><!--#include virtual="/top_div.xml" --><div class="left_box"><div style="text-align:left;width=90%;"><!--#include virtual="/div_top_left_box.xml" --></div><div style="text-align:left;width=90%;"><p><a href="/"><strong>Home</strong></a></p><p><a href="http://feeds.feedburner.com/SigfridLundbergsStuff?format=xml" type="application/atom+xml" class="feed-link"><img src="/images/Newsfeed-Atom.png" alt="Subscribe to Stuff from Sigfrid Lundberg" border="0"/>Subscribe to more Stuff</a><br/><a href="http://sigfridlundbergsstuff.disqus.com/latest.rss" type="application/rss+xml" class="feed-link"><img src="/images/Newsfeed-Atom.png" alt="Subscribe to Stuff from Sigfrid Lundberg" border="0"/>Subscribe to discussion feed</a></p><!--#include virtual="/subjects.xml" --><!--#include virtual="/me.xml" --></div></div><div class="right_box"><h1 style="width: 58%; float: left;text-align: left">Structural web design</h1><p style="width: 38%; float: left;text-align: right"><em><strong>Sigfrid Lundberg's Stuff</strong></em></p><div style="width:100%;"><p>2010-04-12: <a href="/entries/2010/04/darcitecture/"><em>Towards an Architectural Document
       Analysis</em></a><br/>Helena Francke, 2008. Towards an Architectural Document
       Analysis. Journal of Information Architecture<br/><a href="/subjects/structuralwebdesign/">Structural web design</a>,
-	<a href="/subjects/digitalobjects/">Digital objects</a>, <a href="/2010">2010</a></p><p>2010-02-23: <a href="/entries/2010/02/persid/"><em>The URN:NBN is dead and resurrection is meaningless</em></a><br/>I'm one of those who try to base all decisions on facts. Politics
-  belong to the strategic field, and in that field the only thing I can offer
-  is advice.<br/><a href="/subjects/structuralwebdesign/">Structural web design</a>,
+	<a href="/subjects/digitalobjects/">Digital objects</a>, <a href="/2010">2010</a></p><p>2010-03-28: <a href="/entries/2010/03/syndication/"><em>The syndication of style &amp; layout</em></a><br/>Quite a few and perhaps a majority of my readers seldom visits my
+  site. This entry is about the problems of syndication and how you are
+  limited by the styling and layout on the site where your material is
+  presented.<br/><a href="/subjects/structuralwebdesign/">Structural web design</a>, <a href="/2010">2010</a></p><p>2010-03-17: <a href="/entries/2010/03/pilin/"><em>Modelling identifers?</em></a><br/>Nick Nicholas, Nigel Ward and Kerry Blinco helps obscuring the
+  digital identifiers concept<br/><a href="/subjects/structuralwebdesign/">Structural web design</a>,
 	<a href="/subjects/internet/">Internet</a>, <a href="/2010">2010</a></p><p>2010-02-25: <a href="/entries/2010/02/youdontneed/"><em>Why you need a persistence strategy</em></a><br/>Here I go through some of the arguments why you need to implement a
   persistence strategy. We also conclude that the hypertext link is the single
   thing that makes the Worldwide web to a web. Hence it is a serious thing. If
   you're working within the digital library world you should be devoted to the
   hypertext link.<br/><a href="/subjects/structuralwebdesign/">Structural web design</a>,
-	<a href="/subjects/internet/">Internet</a>, <a href="/2010">2010</a></p><p>2010-03-28: <a href="/entries/2010/03/syndication/"><em>The syndication of style &amp; layout</em></a><br/>Quite a few and perhaps a majority of my readers seldom visits my
-  site. This entry is about the problems of syndication and how you are
-  limited by the styling and layout on the site where your material is
-  presented.<br/><a href="/subjects/structuralwebdesign/">Structural web design</a>, <a href="/2010">2010</a></p><p>2010-03-17: <a href="/entries/2010/03/pilin/"><em>Modelling identifers?</em></a><br/>Nick Nicholas, Nigel Ward and Kerry Blinco helps obscuring the
-  digital identifiers concept<br/><a href="/subjects/structuralwebdesign/">Structural web design</a>,
+	<a href="/subjects/internet/">Internet</a>, <a href="/2010">2010</a></p><p>2010-02-23: <a href="/entries/2010/02/persid/"><em>The URN:NBN is dead and resurrection is meaningless</em></a><br/>I'm one of those who try to base all decisions on facts. Politics
+  belong to the strategic field, and in that field the only thing I can offer
+  is advice.<br/><a href="/subjects/structuralwebdesign/">Structural web design</a>,
 	<a href="/subjects/internet/">Internet</a>, <a href="/2010">2010</a></p><p>2009-09-19: <a href="/footnotes/"><em>Add footnotes to my pages -- a prototype text annotation
   interface</em></a><br/>I've had a javascript based forum with thread for each entry. That
   seemed boring to me. Why should users be restricted to commenting entire
   articles. Why not letting them add footnotes to arbitrary positions in a
   text. In this entry I experiment with this feature.<br/><a href="/subjects/structuralwebdesign/">Structural web design</a>,
-	<a href="/subjects/xmlprocessing/">XML Processing</a>, <a href="/2009">2009</a></p><p>2009-06-27: <a href="/entries/2009/06/why/"><em>Why do I keep this site?</em></a><br/>Having had a web site for about 15 years, I start to wonder why I
-  keep it in the first place.<br/><a href="/subjects/structuralwebdesign/">Structural web design</a>, <a href="/2009">2009</a></p><p>2009-06-27: <a href="/entries/2009/06/atom/"><em>My first serious experience with ATOM</em></a><br/>You don't really understand a document format until you've manually
-  encoded some documents, and written the software to parse and use it for
-  something useful. This somewhat refurbished version of my web site is to a
-  large extent built upon the ATOM syndication format, and here I discuss my
-  experience.<br/><a href="/subjects/structuralwebdesign/">Structural web design</a>,
-	<a href="/subjects/metadata/">Metadata</a>, <a href="/2009">2009</a></p><p>2009-08-15: <a href="/entries/2009/08/cooluris/"><em>Forgive me, Father, for I have sinned... I have moved a
-  document</em></a><br/>The initiatives behind the persistent linking is trying to change
-  the status of old documents. From 404 to 200. We've had some success with
-  books and journals using ISBN and ISSN numbers. Why not try to copy this to
-  the web? But, alas!, library people have in general too little understanding
-  of the Worldwide Web. In particular those who advocate persistent
-  identifiers.<br/><a href="/subjects/structuralwebdesign/">Structural web design</a>, <a href="/2009">2009</a></p><p>2009-08-31: <a href="/entries/2009/08/diglib/"><em>The predigital library</em></a><br/>What is the strategic goal for a library web site? Could it be to
+	<a href="/subjects/xmlprocessing/">XML Processing</a>, <a href="/2009">2009</a></p><p>2009-08-31: <a href="/entries/2009/08/diglib/"><em>The predigital library</em></a><br/>What is the strategic goal for a library web site? Could it be to
   put the library on the web, or is it basically to the library's resources
   visible to users anywhere on the globe?<br/><a href="/subjects/structuralwebdesign/">Structural web design</a>, <a href="/2009">2009</a></p><p>2009-08-21: <a href="/entries/2009/08/quotations/"><em>A quotation is much more than an extract</em></a><br/>In my last entry, on cool URIs, I discussed the identification of
   documents. The conclusion from that is that people in the library world are
@@ -42,28 +30,32 @@
   other library folk. I'd say that it is our mission to help our patrons find
   a single word in a text, a rectangle in an image and so forth. The time is
   gone when we could tell users: The answer to your question might be in any
-  of the books on that shelf.<br/><a href="/subjects/structuralwebdesign/">Structural web design</a>, <a href="/2009">2009</a></p><p>2009-07-11: <a href="/entries/2009/07/client_side_xslt/"><em>XML on the web, Client Side XSLT and Google</em></a><br/>The market has forced the major browser manufacturers to converge
+  of the books on that shelf.<br/><a href="/subjects/structuralwebdesign/">Structural web design</a>, <a href="/2009">2009</a></p><p>2009-08-15: <a href="/entries/2009/08/cooluris/"><em>Forgive me, Father, for I have sinned... I have moved a
+  document</em></a><br/>The initiatives behind the persistent linking is trying to change
+  the status of old documents. From 404 to 200. We've had some success with
+  books and journals using ISBN and ISSN numbers. Why not try to copy this to
+  the web? But, alas!, library people have in general too little understanding
+  of the Worldwide Web. In particular those who advocate persistent
+  identifiers.<br/><a href="/subjects/structuralwebdesign/">Structural web design</a>, <a href="/2009">2009</a></p><p>2009-07-21: <a href="/entries/2009/07/structure/"><em>The description and encoding of structure</em></a><br/>Much metadata is fairly stright forward. A book does have a title
+  and an author. That's usually no big deal. We've been able to handle that
+  for centuries. A digital book has chapters, and everything you might want to
+  know may be in chapter two on page seventyfive. Or someone may tell you the
+  solution to your problems after a quarter of an hour in some video on
+  YouTube. Now, how do we cope with this?<br/><a href="/subjects/structuralwebdesign/">Structural web design</a>,
+	<a href="/subjects/metadata/">Metadata</a>, <a href="/2009">2009</a></p><p>2009-07-11: <a href="/entries/2009/07/client_side_xslt/"><em>XML on the web, Client Side XSLT and Google</em></a><br/>The market has forced the major browser manufacturers to converge
   on standards. But why are the search engines lagging behind? Browsers are
   capable of AJAX and advanced XML processing, but the search engines are
   still basically just removing tags and presenting raw text extracts.<br/><a href="/subjects/structuralwebdesign/">Structural web design</a>, <a href="/2009">2009</a></p><p>2009-07-06: <a href="/entries/2009/07/colophon/"><em>About this site</em></a><br/>I'm a terrible nerd. To use software like content management
   systems or blog software is unthinkable for me. There are many ways to build
   a site like this. I have chosen one that maximizes the use of angle
   brackets.<br/><a href="/subjects/structuralwebdesign/">Structural web design</a>,
-	<a href="/subjects/colophon/">Colophon</a>, <a href="/2009">2009</a></p><p>2009-07-21: <a href="/entries/2009/07/structure/"><em>The description and encoding of structure</em></a><br/>Much metadata is fairly stright forward. A book does have a title
-  and an author. That's usually no big deal. We've been able to handle that
-  for centuries. A digital book has chapters, and everything you might want to
-  know may be in chapter two on page seventyfive. Or someone may tell you the
-  solution to your problems after a quarter of an hour in some video on
-  YouTube. Now, how do we cope with this?<br/><a href="/subjects/structuralwebdesign/">Structural web design</a>,
-	<a href="/subjects/metadata/">Metadata</a>, <a href="/2009">2009</a></p><p>2007: <a href="/2007/hidden_web/usage_vs_dissemination_method.html"><em>Usage of digital resources with respect to method of publishing</em></a><br/>I compared the usage of Digital material in relation to whether
-    the material was hidden away in the the library opac or published on our
-    web site. The result was as expected a disappointment for those who regard
-    the Library catalogue as an important vehicle for dissemination of digital
-    material<br/><a href="/subjects/thelibrary/">The Library</a>,
-	<a href="/subjects/opac/">Library catalogues</a>,
-	<a href="/subjects/digitallibraries/">Digital libraries</a>,
-	<a href="/subjects/internet/">Internet</a>,
-	<a href="/subjects/structuralwebdesign/">Structural web design</a>, <a href="/2007">2007</a></p><p>2007: <a href="/2007/search-statistics/user-expectations.html"><em>What do our users expect from the search field on our top
+	<a href="/subjects/colophon/">Colophon</a>, <a href="/2009">2009</a></p><p>2009-06-27: <a href="/entries/2009/06/atom/"><em>My first serious experience with ATOM</em></a><br/>You don't really understand a document format until you've manually
+  encoded some documents, and written the software to parse and use it for
+  something useful. This somewhat refurbished version of my web site is to a
+  large extent built upon the ATOM syndication format, and here I discuss my
+  experience.<br/><a href="/subjects/structuralwebdesign/">Structural web design</a>,
+	<a href="/subjects/metadata/">Metadata</a>, <a href="/2009">2009</a></p><p>2009-06-27: <a href="/entries/2009/06/why/"><em>Why do I keep this site?</em></a><br/>Having had a web site for about 15 years, I start to wonder why I
+  keep it in the first place.<br/><a href="/subjects/structuralwebdesign/">Structural web design</a>, <a href="/2009">2009</a></p><p>2007: <a href="/2007/search-statistics/user-expectations.html"><em>What do our users expect from the search field on our top
     page?</em></a><br/>What can deduced by analyses of the search terms entered into the
     search field on the home page of a large modern library? Could we possibly
     regard this form as the digital library´s information desk, and the
@@ -76,6 +68,14 @@
     users.<br/><a href="/subjects/webindexing/">Web indexing</a>,
 	<a href="/subjects/harvesting/">Harvesting</a>,
 	<a href="/subjects/opac/">Library catalogues</a>,
+	<a href="/subjects/structuralwebdesign/">Structural web design</a>, <a href="/2007">2007</a></p><p>2007: <a href="/2007/hidden_web/usage_vs_dissemination_method.html"><em>Usage of digital resources with respect to method of publishing</em></a><br/>I compared the usage of Digital material in relation to whether
+    the material was hidden away in the the library opac or published on our
+    web site. The result was as expected a disappointment for those who regard
+    the Library catalogue as an important vehicle for dissemination of digital
+    material<br/><a href="/subjects/thelibrary/">The Library</a>,
+	<a href="/subjects/opac/">Library catalogues</a>,
+	<a href="/subjects/digitallibraries/">Digital libraries</a>,
+	<a href="/subjects/internet/">Internet</a>,
 	<a href="/subjects/structuralwebdesign/">Structural web design</a>, <a href="/2007">2007</a></p><p>1999: <a href="/1999/web_masters_guide/"><em>The Noble Art of Being Indexed or the Webmaster's Guide to
     Harvesting Robots</em></a><br/>As the title indicates, this is a note on how to be indexed by
     search engines. It is obsolete. Please note that it does not contain
