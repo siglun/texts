@@ -1,13 +1,10 @@
-<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
-"http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
-
 <html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" >
   <head>
     <title>Sigfrid Lundberg's Stuff</title>
     <script src="/js/navigation.js" type="text/javascript">
     </script>
     <meta http-equiv="content-type" 
-	  content="text/html;charset=UTF-8" />
+	  content="application/xhtml+xml;charset=UTF-8" />
 
     <meta name="description"
 	  content="contains thoughts about digital libraries, music and photography.
@@ -18,6 +15,8 @@
     <link rel ="stylesheet"
 	  href="/css-style/html.css"
 	  type="text/css" />
+
+    <meta name="viewport" content="width=device-width, initial-scale=1"/>
 
     <link href="http://feeds.feedburner.com/SigfridLundbergsStuff/?format=xml"
 	  type="application/atom+xml"

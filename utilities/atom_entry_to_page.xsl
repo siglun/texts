@@ -65,7 +65,10 @@
 
 	<meta http-equiv="Content-Type" 
 	      content="text/html;charset=UTF-8"/>
+
 	<link rel="stylesheet" href="/css-style/html.css" />
+
+	<meta name="viewport" content="width=device-width, initial-scale=1"/>
 
 	<xsl:comment>#include virtual="/js/colorbox_include.html" </xsl:comment>
 
