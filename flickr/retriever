@@ -1,16 +1,18 @@
 #!/usr/bin/perl -w
 
 use strict;
+use LWP::UserAgent;
+use XML::LibXML;
 use Flickr::API2;
+
+my $parser = XML::LibXML->new;
 
 my $key    = 'dc7d97740216c982afae566ce098e108';
 my $secret = '7993c5c669d59d0d';
+my $id     = '36853098@N06';
+
 my $flickr = new Flickr::API2({'key'    => $key,
 			       'secret' => $secret});
-
-# 36853098@N06
-my $id = '36853098@N06';
-#my @photos = $flickr->people->findByUsername('sigfridlundberg')->getPublicPhotos( per_page => 150);
 
 my $extras = "tags,views,description";
 my @photos = $flickr->photos->search(extras   => $extras,
@@ -18,31 +20,53 @@ my @photos = $flickr->photos->search(extras   => $extras,
 				     tags     => 'consumerism' , 
 				     per_page => 5);
 
-
 my %params = ( 'method'   => 'flickr.photos.getInfo',
 	       'api_key'  => $key,
 	       'format'   => 'rest',
 	       'photo_id' => '13763646673');
 
 
+ # Create a user agent object
 
-#https://api.flickr.com/services/rest/?method=flickr.photos.getInfo&api_key=f24363e3c98c490ac78e79cfe0a66c92&photo_id=13763646673&format=rest&auth_token=72157649091163298-9b9346cb7da86f79&api_sig=804f058ee4ab2e8240f2fcadbc0f5a6a
+my $ua = LWP::UserAgent->new;
+$ua->agent("GettingMyMetadata/0.1 ");
 
-# URL: https://api.flickr.com/services/rest/?method=flickr.photos.getInfo&api_key=f24363e3c98c490ac78e79cfe0a66c92&photo_id=13763646673&format=rest
+my $image_file = '>photostream.xml';
+open my($fh), $image_file;
+binmode $fh;
+
+my $stream = $parser->load_xml(string => '<stream/>');
+my $root   = $stream->documentElement();
 
 for my $photo (@photos) {
     print "Title is " . $photo->title . "\n";
     print "id is " . $photo->id . "\n";
     print $photo->views . "\n";
+    print $photo->page_url . "\n\n";
 
     my $api = $photo->api;
     my $raw = ${$photo->api}{_raw};
 
+    my $req = HTTP::Request->new(GET => &genUri($photo->id));
 
-    system ("GET '" .  &genUri($photo->id) . "'");
-    print $photo->page_url . "\n\n";
+    # Pass request to the user agent and get a response back
+    my $res = $ua->request($req);
+
+    # Check the outcome of the response
+    if ($res->is_success) {
+	my $xml_string = $res->content;
+	my $xres = 
+	    $parser->load_xml(
+		string => $xml_string
+	    );
+	my $element = $xres->documentElement();
+	$root->appendChild($element);
+    } else {
+	print $res->status_line, "\n";
+    }
 }
 
+$stream->toFH($fh);
 
 sub genUri {
     $params{'photo_id'}=shift;
