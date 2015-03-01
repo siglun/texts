@@ -102,34 +102,6 @@
 
 	      <xsl:comment>#include virtual="/top_div.xml" </xsl:comment>
 
-	    <div class="left_box">
-	      <div style="text-align:left;width=90%;">
-		<xsl:comment>#include virtual="/div_top_left_box.xml" </xsl:comment>
-	      </div>
-	      <div style="text-align:left;width=90%;">
-		<p>
-		  <a href="/"><strong>Home</strong></a>
-		</p>
-		<p>
-		  <a href="http://feeds.feedburner.com/SigfridLundbergsStuff?format=xml"
-		     type="application/atom+xml" class="feed-link">
-		    <img src="/images/Newsfeed-Atom.png" 
-			 alt="Subscribe to Stuff from Sigfrid Lundberg"
-			 border="0"/>
-		    <xsl:text>Subscribe to more Stuff</xsl:text>
-		  </a><br/>
-		  <a href="http://sigfridlundbergsstuff.disqus.com/latest.rss"
-		     type="application/rss+xml"
-		     class="feed-link">
-		    <img src="/images/Newsfeed-Atom.png" 
-			 alt="Subscribe to Stuff from Sigfrid Lundberg"
-			 border="0"/>Subscribe to discussion feed</a>
-		</p>
-		<xsl:comment>#include virtual="/subjects.xml" </xsl:comment>
-		<xsl:comment>#include virtual="/me.xml" </xsl:comment>
-	      </div>
-	    </div>
-
 	    <div class="right_box">
 	      <h1 style="width: 58%; float: left;text-align: left">
 		<xsl:choose>
@@ -164,6 +136,37 @@
 		</xsl:choose>
 	      </div>
 	    </div>
+
+
+	    <div class="left_box">
+	      <div style="text-align:left;width=90%;">
+		<xsl:comment>#include virtual="/div_top_left_box.xml" </xsl:comment>
+	      </div>
+	      <div style="text-align:left;width=90%;">
+		<p>
+		  <a href="/"><strong>Home</strong></a>
+		</p>
+		<p>
+		  <a href="http://feeds.feedburner.com/SigfridLundbergsStuff?format=xml"
+		     type="application/atom+xml" class="feed-link">
+		    <img src="/images/Newsfeed-Atom.png" 
+			 alt="Subscribe to Stuff from Sigfrid Lundberg"
+			 border="0"/>
+		    <xsl:text>Subscribe to more Stuff</xsl:text>
+		  </a><br/>
+		  <a href="http://sigfridlundbergsstuff.disqus.com/latest.rss"
+		     type="application/rss+xml"
+		     class="feed-link">
+		    <img src="/images/Newsfeed-Atom.png" 
+			 alt="Subscribe to Stuff from Sigfrid Lundberg"
+			 border="0"/>Subscribe to discussion feed</a>
+		</p>
+		<xsl:comment>#include virtual="/subjects.xml" </xsl:comment>
+		<xsl:comment>#include virtual="/me.xml" </xsl:comment>
+	      </div>
+	    </div>
+
+
 	    <div style="clear:both">
 	      <xsl:text>
 		&#160;
