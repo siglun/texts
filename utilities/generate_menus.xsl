@@ -88,7 +88,15 @@
 
 	    <meta http-equiv="Content-Type" 
 		  content="text/html;charset=UTF-8"/>
-	    <link rel="stylesheet" href="/css-style/html.css" />
+
+	    <link rel="stylesheet" 
+		  href="/css-style/html.css" 
+		  type="text/css" />
+
+	    <link rel ="stylesheet"
+		  href="/css-style/responsive-html.css"
+		  type="text/css" />
+
 	  </head>
 
 	  <xsl:element name="body">
@@ -98,11 +106,14 @@
 	      </xsl:attribute>
 	    </xsl:if>
 
-	    <div class="outer_box">
-
+	  <div class="section group">
+	    <div class="col span_4_of_4">
 	      <xsl:comment>#include virtual="/top_div.xml" </xsl:comment>
+	    </div>
+	  </div>
 
-	    <div class="right_box">
+	  <div class="section group">
+	    <div class="col span_3_of_4">
 	      <h1 style="width: 58%; float: left;text-align: left">
 		<xsl:choose>
 		  <xsl:when test="$vocabulary = 'category'">
@@ -138,7 +149,7 @@
 	    </div>
 
 
-	    <div class="left_box">
+	    <div class="col span_1_of_4">
 	      <div style="text-align:left;width=90%;">
 		<xsl:comment>#include virtual="/div_top_left_box.xml" </xsl:comment>
 	      </div>

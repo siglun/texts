@@ -16,6 +16,11 @@
 	  href="/css-style/html.css"
 	  type="text/css" />
 
+    <link rel ="stylesheet"
+	  href="/css-style/responsive-html.css"
+	  type="text/css" />
+
+
     <meta name="viewport" content="width=device-width, initial-scale=1"/>
 
     <link href="http://feeds.feedburner.com/SigfridLundbergsStuff/?format=xml"
@@ -41,16 +46,17 @@
 
   </head>
   <body>
-    <div class="outer_box">
+    <div class="section group">
       <?php
 	$top_file = "./top_div.xml";
 	if (file_exists($top_file)) {
 	readfile($top_file);
 	}
       ?>
+    </div>
 
-
-      <div class="right_box">
+    <div class="section group">
+      <div class="col span_3_of_4">
 
 	<?php
 	  $file = "./google-custom-search.xml";
@@ -68,14 +74,7 @@
 
       </div>
 
-      <div class="left_box">
-
-	<!-- a href="/images/computing_by_candlelight.shtml"
-	     title="Portrait of The Author as an Old Rogue"><img
-	     width="80%"
-	     src="/images/sigge.png"
-	     alt="Portrait of the author as an Old Rogue" 
-	     border="0" /></a -->
+      <div class="col span_1_of_4">
 
 	<p>
 	  <a href="http://feeds.feedburner.com/SigfridLundbergsStuff?format=xml"
@@ -132,10 +131,6 @@
 	    Attribution-ShareAlike 3.0 Unported License</a>.
 	</p>
 
-      </div>
-
-      <div style="clear:both">
-	&#160;
       </div>
 
     </div>

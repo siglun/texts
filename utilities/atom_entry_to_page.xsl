@@ -66,7 +66,13 @@
 	<meta http-equiv="Content-Type" 
 	      content="text/html;charset=UTF-8"/>
 
-	<link rel="stylesheet" href="/css-style/html.css" />
+	<link rel="stylesheet" 
+	      href="/css-style/html.css" />
+
+	<link rel ="stylesheet"
+	      href="/css-style/responsive-html.css"
+	      type="text/css" />
+
 
 	<meta name="viewport" content="width=device-width, initial-scale=1"/>
 
@@ -75,15 +81,19 @@
       </head>
 
       <xsl:element name="body">
-	<div class="outer_box">
 
-	  <xsl:comment>#include virtual="/top_div.xml" </xsl:comment>
+	  <div class="section group">
+	    <div class="col span_4_of_4">
+	      <xsl:comment>#include virtual="/top_div.xml" </xsl:comment>
+	    </div>
+	  </div>
 
-	  <div class="right_box">
+	  <div class="section group">
+	    <div class="col span_3_of_4">
 
-	    <h1 style="font-family: sans-serif; width: 55%; float: left;text-align: left;">
-	      <xsl:value-of select="f:title"/>
-	    </h1>
+	      <h1 style="font-family: sans-serif; width: 55%; float: left;text-align: left;">
+		<xsl:value-of select="f:title"/>
+	      </h1>
 
 	    <p style="width: 38%; float: left;text-align: right">
 	      <em>
@@ -143,7 +153,7 @@
 
 	  </div>
 
-	  <div class="left_box">
+	  <div class="col span_1_of_4">
 	    <div style="text-align:left;width=90%;">
 	      <xsl:comment>#include virtual="/div_top_left_box.xml" </xsl:comment>
 	    </div>
@@ -202,11 +212,8 @@
 	    </div>
 	  </div>
 
-	  <div style="clear:both">
-	    &#160;
-	  </div>
-
 	</div>
+
 	<script type="text/javascript" src="http://disqus.com/forums/sigfridlundbergsstuff/embed.js">
 	  <xsl:text>
 	  </xsl:text>
