@@ -40,7 +40,6 @@ if($atomfile) {
     $feed = $dom->documentElement();
 
 } else {
-
     $dom = XML::LibXML::Document->new($xml_version,$char_encod);
     $feed = $dom->createElementNS( $atomNS, $atom_qname );
     $dom->setDocumentElement($feed);

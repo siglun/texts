@@ -6,7 +6,32 @@
   <title>Sigfrid Lundberg's Stuff</title>
   <id>http://sigfrid-lundberg.se/files.atom</id>
   <link rel="self" href="http://feeds.feedburner.com/SigfridLundbergsStuff?format=xml"/>
-  <updated>2015-02-09T19:20:51+01:00</updated>
+  <updated>2015-03-01T15:57:03+01:00</updated>
+  <entry>
+  <author>
+    <name>Sigfrid Lundberg</name>
+  </author>
+  <title>A very long day</title>
+  <link href="http://sigfrid-lundberg.se/entries/2015/03/averylongday/"/>
+  <summary>From the life of a trans-national commuter</summary>
+  <content type="xhtml">
+    <div xmlns="http://www.w3.org/1999/xhtml">
+
+      <p>From the life of a trans-national commuter</p>
+      <div style="margin: +1%; text-align: center; width:95%;float:left;">
+	<iframe width="560" height="315" src="https://www.youtube.com/embed/UjvSB7WiGiE" frameborder="0" allowfullscreen="allowfullscreen">
+	  <!-- just a comment  -->
+	</iframe>
+      </div>
+
+    </div>
+  </content>
+  <dc:date>2015</dc:date>
+  <category label="photography" term="Photography"/>
+  <category label="video" term="Video"/>
+  <updated>2015-03-01T15:57:03+01:00</updated>
+  <id>http://www.sigfrid-lundberg.se/entries/2015/03/averylongday/</id>
+</entry>
   <entry>
   <author>
     <name>Sigfrid Lundberg</name>
