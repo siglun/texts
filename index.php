@@ -50,6 +50,24 @@
       ?>
 
 
+      <div class="right_box">
+
+	<?php
+	  $file = "./google-custom-search.xml";
+	  if (file_exists($file)) {
+	  readfile($file);
+	  }
+	?>
+
+	<?php
+	  $file = "./news.xml";
+	  if (file_exists($file)) {
+	  readfile($file);
+	  }
+	?>
+
+      </div>
+
       <div class="left_box">
 
 	<!-- a href="/images/computing_by_candlelight.shtml"
@@ -116,26 +134,10 @@
 
       </div>
 
-      <div class="right_box">
-
-	<?php
-	  $file = "./google-custom-search.xml";
-	  if (file_exists($file)) {
-	  readfile($file);
-	  }
-	?>
-
-	<?php
-	  $file = "./news.xml";
-	  if (file_exists($file)) {
-	  readfile($file);
-	  }
-	?>
-
-      </div>
       <div style="clear:both">
 	&#160;
       </div>
+
     </div>
 
     <?php

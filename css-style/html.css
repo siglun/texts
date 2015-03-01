@@ -379,7 +379,6 @@ div.top_left_box {
 
 
 div.left_box {
-    border-right:1px solid;
     vertical-align: top;
     font-size: 0.95em;
     width: 20%;
@@ -405,11 +404,13 @@ div.top_right_box {
 }
 
 div.right_box {
+    border-right:1px solid;
     vertical-align: top;
     display:inline-block;
     width: 75%;
-//    float: left;
+    float: left;
     clear: right;
+    margin-left: 0.5em;
     margin-bottom: 2.5em;
 }
 

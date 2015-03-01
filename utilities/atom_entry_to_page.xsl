@@ -79,6 +79,70 @@
 
 	  <xsl:comment>#include virtual="/top_div.xml" </xsl:comment>
 
+	  <div class="right_box">
+
+	    <h1 style="font-family: sans-serif; width: 55%; float: left;text-align: left;">
+	      <xsl:value-of select="f:title"/>
+	    </h1>
+
+	    <p style="width: 38%; float: left;text-align: right">
+	      <em>
+		<strong>
+		  <xsl:text>Sigfrid Lundberg's Stuff </xsl:text>
+		  <xsl:value-of select="substring-before(f:updated,'T')"/>
+		</strong>
+	      </em>
+	      <br/>
+	      <br/>
+	      <!-- AddThis Button BEGIN -->
+	      <xsl:element name="a">
+		<xsl:attribute name="class">addthis_button</xsl:attribute>
+		<xsl:attribute name="addthis:title"><xsl:value-of select="f:title"/></xsl:attribute>
+		<!--xsl:attribute name="addthis:description"><xsl:value-of select="f:summary"/></xsl:attribute-->
+		<xsl:attribute name="addthis:url">
+		  <xsl:value-of 
+		      select="concat('http://sigfrid-lundberg.se',f:link/@href)"/>
+		</xsl:attribute>
+		<xsl:attribute name="href">http://www.addthis.com/bookmark.php?v=250&amp;pub=siggelundberg</xsl:attribute>
+		<img src="http://s7.addthis.com/static/btn/v2/lg-share-en.gif"
+		     width="125" 
+		     height="16" 
+		     alt="Bookmark and Share" 
+		     style="border:0"/>
+	      </xsl:element>
+	      <script type="text/javascript" 
+		      src="http://s7.addthis.com/js/250/addthis_widget.js?pub=siggelundberg">
+		<xsl:text>
+		</xsl:text>
+	      </script>
+	      <!-- AddThis Button END -->
+	    </p>
+
+	    <div style="clear:both">
+	      <xsl:text>
+	      </xsl:text>
+	    </div>
+
+	    <xsl:apply-templates mode="copy" select="f:content[@type='xhtml']"/>
+
+
+	    <div style="clear:both">
+	      <xsl:text> 
+	      </xsl:text>
+	    </div>
+
+	    <div id="disqus_thread">
+	      <xsl:text>
+	      </xsl:text>
+	    </div>
+	    <p style="margin-left:+1%;">
+	      <a href="http://disqus.com" class="dsq-brlink">blog comments powered
+	      by <span class="logo-disqus">Disqus</span>
+	      </a>
+	    </p>
+
+	  </div>
+
 	  <div class="left_box">
 	    <div style="text-align:left;width=90%;">
 	      <xsl:comment>#include virtual="/div_top_left_box.xml" </xsl:comment>
@@ -138,71 +202,6 @@
 	    </div>
 	  </div>
 
-	  <div class="right_box">
-
-	    <h1 style="font-family: sans-serif; width: 55%; float: left;text-align: left;">
-	      <xsl:value-of select="f:title"/>
-	    </h1>
-
-	    <p style="width: 38%; float: left;text-align: right">
-	      <em>
-		<strong>
-		  <xsl:text>Sigfrid Lundberg's Stuff </xsl:text>
-		  <xsl:value-of select="substring-before(f:updated,'T')"/>
-		</strong>
-	      </em>
-	      <br/>
-	      <br/>
-	      <!-- AddThis Button BEGIN -->
-	      <xsl:element name="a">
-		<xsl:attribute name="class">addthis_button</xsl:attribute>
-		<xsl:attribute name="addthis:title"><xsl:value-of select="f:title"/></xsl:attribute>
-		<!--xsl:attribute name="addthis:description"><xsl:value-of select="f:summary"/></xsl:attribute-->
-		<xsl:attribute name="addthis:url">
-		  <xsl:value-of 
-		      select="concat('http://sigfrid-lundberg.se',f:link/@href)"/>
-		</xsl:attribute>
-		<xsl:attribute name="href">http://www.addthis.com/bookmark.php?v=250&amp;pub=siggelundberg</xsl:attribute>
-		<img src="http://s7.addthis.com/static/btn/v2/lg-share-en.gif"
-		     width="125" 
-		     height="16" 
-		     alt="Bookmark and Share" 
-		     style="border:0"/>
-	      </xsl:element>
-	      <script type="text/javascript" 
-		      src="http://s7.addthis.com/js/250/addthis_widget.js?pub=siggelundberg">
-		<xsl:text>
-		</xsl:text>
-	      </script>
-	      <!-- AddThis Button END -->
-	    </p>
-
-	    <div style="clear:both">
-	      <xsl:text>
-	      </xsl:text>
-	    </div>
-
-
-
-	    <xsl:apply-templates mode="copy" select="f:content[@type='xhtml']"/>
-
-
-	    <div style="clear:both">
-	      <xsl:text> 
-	      </xsl:text>
-	    </div>
-
-	    <div id="disqus_thread">
-	      <xsl:text>
-	      </xsl:text>
-	    </div>
-	    <p style="margin-left:+1%;">
-	      <a href="http://disqus.com" class="dsq-brlink">blog comments powered
-	      by <span class="logo-disqus">Disqus</span>
-	      </a>
-	    </p>
-
-	  </div>
 	  <div style="clear:both">
 	    &#160;
 	  </div>
