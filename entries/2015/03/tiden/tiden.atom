@@ -86,6 +86,12 @@
       You're Worth it</a></q>.
 </p>
 
+      <div style="margin: +1%; width:45%;float:left;">
+        <a class="twitter-timeline"  href="https://twitter.com/hashtag/biskopsgaarden" data-widget-id="579601206689038336">#biskopsgaarden Tweets</a>
+        <script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+"://platform.twitter.com/widgets.js";fjs.parentNode.insertBefore(js,fjs);}}(document,"script","twitter-wjs");</script>
+      </div>
+
+
     </div>
   </content>
   <dc:date>2015</dc:date>
