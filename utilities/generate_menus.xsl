@@ -53,6 +53,7 @@
 	href="{$menue}"
 	method="xml"
 	version="1.0"
+	omit-xml-declaration="yes"
 	encoding="UTF-8">
       <html>
 	  <head>
@@ -68,8 +69,11 @@
 	      <xsl:text>: </xsl:text>Sigfrid Lundberg's Stuff
 	    </title>
 
-	    <meta http-equiv="Content-Type"
-		  content="text/html;charset=UTF-8" />
+	    <meta http-equiv="content-type" 
+		  content="application/xhtml+xml;charset=UTF-8" />
+
+	    <meta name="viewport" 
+		  content="width=device-width, initial-scale=1"/>
 
 	    <script src="/js/navigation.js" type="text/javascript">
 	      <xsl:text> 
