@@ -75,9 +75,12 @@
 	    <meta name="viewport" 
 		  content="width=device-width, initial-scale=1"/>
 
-	    <script src="/js/navigation.js" type="text/javascript">
-	      <xsl:text> 
-	      </xsl:text>
+	    <script type="text/javascript">
+	      //<xsl:text disable-output-escaping="yes">&lt;!--
+	    </xsl:text>
+	      <xsl:comment>#include virtual="/js/navigation.js" </xsl:comment>
+	      //<xsl:text disable-output-escaping="yes">--&gt;
+	    </xsl:text>
 	    </script>
 
 	    <link href="http://feeds.feedburner.com/SigfridLundbergsStuff?format=xml"
