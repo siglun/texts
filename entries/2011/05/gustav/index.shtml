@@ -26,18 +26,4 @@
 		is licensed under a 
 		<a rel="license" href="http://creativecommons.org/licenses/by-sa/3.0/">Creative Commons
 		Attribution-ShareAlike 3.0 Unported License</a>.
-	      </small></p></div></div></div><script type="text/javascript" src="http://disqus.com/forums/sigfridlundbergsstuff/embed.js">
-	  </script><noscript><a href="http://sigfridlundbergsstuff.disqus.com/?url=http://sigfrid-lundberg.se/entries/2011/05/gustav/">
-	    View the discussion thread
-	  </a></noscript><script type="text/javascript">//<!--
-	    (function() {
-	    var links = document.getElementsByTagName('a');
-	    var query = '?';
-	    for(var i = 0; i < links.length; i++) {
-	    if(links[i].href.indexOf('#disqus_thread') >= 0) {
-	    query += 'url' + i + '=' + encodeURIComponent(links[i].href) + '&';
-	    }
-	    }
-	    document.write('<script charset="utf-8" type="text/javascript" src="http://disqus.com/forums/sigfridlundbergsstuff/get_num_replies.js' + query + '"></' + 'script>');
-	    })();
-	  //--></script><!--#include virtual="/js/urchin.js" --></body></html>
+	      </small></p></div></div></div><!--#include virtual="/js/disqus_include.html" --><!--#include virtual="/js/urchin.js" --></body></html>

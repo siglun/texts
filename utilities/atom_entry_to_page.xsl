@@ -214,40 +214,7 @@
 
 	</div>
 
-	<script type="text/javascript" src="http://disqus.com/forums/sigfridlundbergsstuff/embed.js">
-	  <xsl:text>
-	  </xsl:text>
-	</script>
-	<noscript>
-	  <xsl:element name="a">
-	    <xsl:attribute name="href">
-	      <xsl:value-of 
-		  select="concat('http://sigfridlundbergsstuff.disqus.com/',
-			  '?url=',
-			  'http://sigfrid-lundberg.se',
-			  f:link/@href)"/>
-	    </xsl:attribute>
-	    View the discussion thread
-	  </xsl:element>
-	</noscript>
-
-	<script type="text/javascript">
-	  <xsl:text disable-output-escaping="yes">//&lt;!--</xsl:text>
-	  <xsl:text disable-output-escaping="yes">
-	    (function() {
-	    var links = document.getElementsByTagName('a');
-	    var query = '?';
-	    for(var i = 0; i &lt; links.length; i++) {
-	    if(links[i].href.indexOf('#disqus_thread') >= 0) {
-	    query += 'url' + i + '=' + encodeURIComponent(links[i].href) + '&amp;';
-	    }
-	    }
-	    document.write('&lt;script charset="utf-8" type="text/javascript" src="http://disqus.com/forums/sigfridlundbergsstuff/get_num_replies.js' + query + '">&lt;/' + 'script>');
-	    })();
-	  </xsl:text>
-	  <xsl:text disable-output-escaping="yes">//--&gt;</xsl:text>
-	</script>
-
+	<xsl:comment>#include virtual="/js/disqus_include.html" </xsl:comment>
 	<xsl:comment>#include virtual="/js/urchin.js" </xsl:comment>
 
       </xsl:element>
