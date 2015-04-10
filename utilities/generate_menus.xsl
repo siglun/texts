@@ -93,16 +93,15 @@
 		  title="Latest Comments"
 		  rel="alternate"/>
 
-	    <meta http-equiv="Content-Type" 
-		  content="text/html;charset=UTF-8"/>
 
-	    <link rel="stylesheet" 
-		  href="/css-style/html.css" 
-		  type="text/css" />
 
-	    <link rel ="stylesheet"
-		  href="/css-style/responsive-html.css"
-		  type="text/css" />
+	    <style type="text/css" >
+	      <xsl:comment>#include virtual="/css-style/html.css" </xsl:comment>
+	    </style>
+
+	    <style type="text/css" >
+	      <xsl:comment>#include virtual="/css-style/responsive-html.css"</xsl:comment>
+	    </style>
 
 	  </head>
 

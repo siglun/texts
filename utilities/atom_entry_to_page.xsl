@@ -63,18 +63,18 @@
 	  </script>
 	</xsl:if>
 
+	<meta name="viewport" content="width=device-width, initial-scale=1"/>
+
 	<meta http-equiv="Content-Type" 
 	      content="text/html;charset=UTF-8"/>
 
-	<link rel="stylesheet" 
-	      href="/css-style/html.css" />
+	<style type="text/css" >
+	  <xsl:comment>#include virtual="/css-style/html.css" </xsl:comment>
+	</style>
 
-	<link rel ="stylesheet"
-	      href="/css-style/responsive-html.css"
-	      type="text/css" />
-
-
-	<meta name="viewport" content="width=device-width, initial-scale=1"/>
+	<style type="text/css" >
+	  <xsl:comment>#include virtual="/css-style/responsive-html.css"</xsl:comment>
+	</style>
 
 	<xsl:comment>#include virtual="/js/colorbox_include.html" </xsl:comment>
 
