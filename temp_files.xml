@@ -1916,8 +1916,8 @@ over again.</summary>
   <content type="xhtml">
     <div xmlns="http://www.w3.org/1999/xhtml">
 
-      <div style="margin: +1%; text-align: center; width:95%;float:left;">
-	<iframe width="560" height="315" src="https://www.youtube.com/embed/Evjc5Q-xNWs" frameborder="0" allowfullscreen="allowfullscreen">
+      <div style="margin: +1%; text-align: center; width:55%;float:left;">
+	<iframe width="100%" src="https://www.youtube.com/embed/Evjc5Q-xNWs" frameborder="0" allowfullscreen="allowfullscreen">
 	  <!-- a comment -->
 	</iframe>
       </div>
