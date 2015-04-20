@@ -13,8 +13,8 @@
   <div style="width:100%;">
     <div>
 
-      <div style="margin: +1%; text-align: center; width:55%;float:left;">
-	<iframe width="280" height="157" src="https://www.youtube.com/embed/Evjc5Q-xNWs" frameborder="0" allowfullscreen="allowfullscreen">
+      <div style="margin: +1%; text-align: center; width:560;float:left;">
+	<iframe width="560" height="315" src="https://www.youtube.com/embed/Evjc5Q-xNWs" frameborder="0" allowfullscreen="allowfullscreen">
 	  <!-- a comment -->
 	</iframe>
       </div>
