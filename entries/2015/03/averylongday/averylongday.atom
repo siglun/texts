@@ -9,18 +9,25 @@
   <content type="xhtml">
     <div xmlns="http://www.w3.org/1999/xhtml">
 
-      <p>From the life of a trans-national commuter</p>
       <div style="margin: +1%; text-align: center; width:95%;float:left;">
-	<iframe width="560" height="315" src="https://www.youtube.com/embed/KU2tfG3qNvc" frameborder="0" allowfullscreen="allowfullscreen">
-	  <!-- just a comment  -->
+	<iframe width="560" height="315" src="https://www.youtube.com/embed/Evjc5Q-xNWs" frameborder="0" allowfullscreen="allowfullscreen">
+	  <!-- a comment -->
 	</iframe>
       </div>
+
+      <p>I am making an effort to complete my commuting photoproject. (That
+      does not mean that I intend to stop commuting, just that I will no
+      longer regard that as a photoproject.) The product will be a short
+      documentary film; the video clip you see here is a prototype. I am also
+      considering making an attempt at publishing the stuff as a book.</p>
+
+      <p>The video consists of about 50 still images and three videoclips.</p>
 
     </div>
   </content>
   <dc:date>2015</dc:date>
   <category label="photography" term="Photography"/>
   <category label="video" term="Video"/>
-  <updated>2015-03-05T21:50:23+01:00</updated>
+  <updated>2015-04-20T19:32:29+01:00</updated>
   <id>http://www.sigfrid-lundberg.se/entries/2015/03/averylongday/</id>
 </entry>
