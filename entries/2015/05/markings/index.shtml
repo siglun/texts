@@ -1,21 +1,17 @@
-<div xmlns="http://www.w3.org/1999/xhtml">
-  <div>
-    <h1 style="font-family: sans-serif; width: 55%; float: left;text-align: left;">Vägmärken</h1>
-    <p style="width: 38%; float: left;text-align: right">
-      <em>
-        <strong>
-		Sigfrid Lundberg's Stuff,
-	      2015-05-12</strong>
-      </em>
-    </p>
-  </div>
-  <div style="clear:both;"> </div>
-  <div style="width:100%;">
+<?xml version="1.0" encoding="UTF-8"?>
+<html xmlns="http://www.w3.org/1999/xhtml" xmlns:addthis="http://www.addthis.com/help/api-spec"><head><title>Vägmärken: 
+	  Sigfrid Lundberg's Stuff
+	</title><link href="http://feeds.feedburner.com/SigfridLundbergsStuff?format=xml" type="application/atom+xml" title="Sigfrid Lundberg's Stuff" rel="alternate"/><link href="http://sigfridlundbergsstuff.disqus.com/latest.rss" type="application/rss+xml" title="Latest Comments" rel="alternate"/><meta http-equiv="Content-Type" content="application/xhtml+xml;charset=UTF-8"/><script src="/js/navigation.js" type="text/javascript"> 
+	  </script><script type="text/javascript">
+	      var disqus_developer=1;
+	    </script><meta name="viewport" content="width=device-width, initial-scale=1"/><meta http-equiv="Content-Type" content="text/html;charset=UTF-8"/><style type="text/css"><!--#include virtual="/css-style/html.css" --></style><style type="text/css"><!--#include virtual="/css-style/responsive-html.css"--></style><!--#include virtual="/js/colorbox_include.html" --></head><body><div class="section group"><div class="col span_4_of_4"><!--#include virtual="/top_div.xml" --></div></div><div class="section group"><div class="col span_3_of_4"><h1 style="font-family: sans-serif; width: 55%; float: left;text-align: left;">Vägmärken</h1><p style="width: 38%; float: left;text-align: right"><em><strong>Sigfrid Lundberg's Stuff 2015-05-12</strong></em><br/><br/><a class="addthis_button" addthis:title="Vägmärken" addthis:url="http://sigfrid-lundberg.se/entries/2015/05/markings/" href="http://www.addthis.com/bookmark.php?v=250&amp;pub=siggelundberg"><img src="http://s7.addthis.com/static/btn/v2/lg-share-en.gif" width="125" height="16" alt="Bookmark and Share" style="border:0"/></a><script type="text/javascript" src="http://s7.addthis.com/js/250/addthis_widget.js?pub=siggelundberg">
+		</script></p><div style="clear:both">
+	      </div>
     <div>
       <div style="margin: +1%; width:45%;float:right;">
-	<a href="https://www.flickr.com/photos/sigfridlundberg/17568169791" title="P1000173 by Sigfrid  Lundberg, on Flickr">
-	  <img src="https://c2.staticflickr.com/6/5464/17568169791_c22faa6c9c_z.jpg" width="100%" alt="P1000173"/>
-	</a>
+	<a rel="viewer" href="https://c2.staticflickr.com/6/5464/17568169791_c22faa6c9c_z.jpg" title="P1000173 by Sigfrid  Lundberg, on Flickr"><img src="https://c2.staticflickr.com/6/5464/17568169791_c22faa6c9c_z.jpg" width="100%" alt="P1000173"/>
+	</a><div><small><a href="https://www.flickr.com/photos/sigfridlundberg/17568169791">P1000173 by Sigfrid  Lundberg, on Flickr
+	    </a></small></div>
       </div>
 
       <p>Min Far fick Dag Hammarskjölds <em>Vägmärken</em><sup><a href="#not1">1</a></sup> i femtioårspresent för nästan exakt femtio år
@@ -47,9 +43,9 @@
       yttersta verkligheten.</p>
 
       <div style="margin: +1%; width:45%;float:left;">
-	<a href="https://www.flickr.com/photos/sigfridlundberg/17380454958" title="P1000174 by Sigfrid  Lundberg, on Flickr">
-	<img src="https://c2.staticflickr.com/8/7752/17380454958_d06fb31431_z.jpg" width="100%" alt="P1000174"/>
-	</a>
+	<a rel="viewer" href="https://c2.staticflickr.com/8/7752/17380454958_d06fb31431_z.jpg" title="P1000174 by Sigfrid  Lundberg, on Flickr"><img src="https://c2.staticflickr.com/8/7752/17380454958_d06fb31431_z.jpg" width="100%" alt="P1000174"/>
+	</a><div><small><a href="https://www.flickr.com/photos/sigfridlundberg/17380454958">P1000174 by Sigfrid  Lundberg, on Flickr
+	    </a></small></div>
       </div>
 
       <p>För min del har jag valt icke-tron för att slippa tro nå't alls, och
@@ -111,54 +107,16 @@
       </ol>
 
     </div>
-    <br clear="all"/>
-    <p style="text-align: left;"><em><strong>Categories:</strong></em> 
-	  <a href="/subjects/religion/">Religion</a>,
-	    <a href="/subjects/essays/">Essays</a>,
-	    <a href="/subjects/spirituality/">Spirituality</a><br/><em><strong>
-		Permalink:
-	      </strong></em><a rel="bookmark" href="/entries/2015/05/markings/">http://sigfrid-lundberg.se/entries/2015/05/markings/</a></p>
-    <hr width="50%" align="center"/>
-  </div>
-  <div>
-    <h1>Other, not yet obsolete stuff</h1>
-    <table class="news">
-      <tr>
-        <td class="left">2015-04-20</td>
-        <td class="left"><a href="/entries/2015/03/averylongday/"><em>At the end of the day there's another day dawning</em></a><br/>From the life of a trans-national commuter<br/><a href="/subjects/photography/">Photography</a>,
-	<a href="/subjects/video/">Video</a></td>
-      </tr>
-      <tr>
-        <td class="left">2015-04-06</td>
-        <td class="left"><a href="/entries/2015/04/memories/"><em>Gonna make a sentimental journey
-  to renew old memories</em></a><br/>För trettiofem år sen reste vi till Grekland, Gertrud och jag. Vi
-  var yngre då än vårt yngsta barn är nu. I veckan som gick återvände
-  vi. Trettiofem år är lång tid, mer än halva mitt liv, om trettiofem år är
-  vi sannolikt döda.<br/><a href="/subjects/souvenir/">Souvenir</a>,
-	<a href="/subjects/photography/">Photography</a>,
-	<a href="/subjects/essays/">Essays</a></td>
-      </tr>
-      <tr>
-        <td class="left">2015-03-22</td>
-        <td class="left"><a href="/entries/2015/03/tiden/"><em>Varför blir det såhär?</em></a><br/>Hörde på nyheterna idag att USA nu är nästan självförsörjande på
-  energi, och att det begåtts två nya mord i Biskopsgården.<br/><a href="/subjects/zeitgeist/">Zeitgeist</a>,
-	<a href="/subjects/essays/">Essays</a></td>
-      </tr>
-      <tr>
-        <td class="left">2015-03-17</td>
-        <td class="left"><a href="/entries/2015/03/patrick/"><em>On the availability of stout</em></a><br/>On my way home today I realized that something essential was
-  missing. The stout.<br/><a href="/subjects/photography/">Photography</a>,
-	<a href="/subjects/fooddrink/">Food and drink</a></td>
-      </tr>
-      <tr>
-        <td class="left">2015-02-09</td>
-        <td class="left"><a href="/entries/2015/02/congestion/"><em>Too many buses, too many passengers</em></a><br/>Inspired by the envy percieved when seeing all buses
-  go with high frequency, except those lines I'm using<br/><a href="/subjects/photography/">Photography</a></td>
-      </tr>
-      <tr>
-        <td class="left">2015-02-05</td>
-        <td class="left"><a href="/entries/2015/02/samebutdifferent/"><em>Same but different</em></a><br/>Two photos with similar composition but very different subject<br/><a href="/subjects/photography/">Photography</a></td>
-      </tr>
-    </table>
-  </div>
-</div>
+  <div style="clear:both"> 
+	      </div><div id="disqus_thread">
+	      </div><p style="margin-left:+1%;"><a href="http://disqus.com" class="dsq-brlink">blog comments powered
+	      by <span class="logo-disqus">Disqus</span></a></p></div><div class="col span_1_of_4"><div style="text-align:left;width=90%;"><!--#include virtual="/div_top_left_box.xml" --></div><div style="text-align:left;width=90%;"><p><a href="/"><strong>Home</strong></a></p><p><a href="http://feeds.feedburner.com/SigfridLundbergsStuff?format=xml" type="application/atom+xml" class="feed-link"><img src="/images/Newsfeed-Atom.png" alt="Subscribe to Stuff from Sigfrid Lundberg" border="0"/>Subscribe to my stuff</a><br/><a href="http://sigfridlundbergsstuff.disqus.com/latest.rss" type="application/rss+xml" class="feed-link"><img src="/images/Newsfeed-Atom.png" alt="Subscribe to Stuff from Sigfrid Lundberg" border="0"/>Subscribe to discussion feed</a></p><!--#include virtual="/subjects.xml" --><!--#include virtual="/me.xml" --><p><small><a rel="license" href="http://creativecommons.org/licenses/by-sa/3.0/"><img alt="Creative Commons License" style="border-width:0" src="http://i.creativecommons.org/l/by-sa/3.0/88x31.png"/></a><br/>
+		  This entry (<em><span xmlns:dct="http://purl.org/dc/terms/" property="dct:title">Vägmärken</span></em>) within Sigfrid Lundberg's Stuff,
+
+		  by <a xmlns:cc="http://creativecommons.org/ns#" property="cc:attributionName" rel="cc:attributionURL" href="http://sigfrid-lundberg.se/entries/2015/05/markings/">
+		  Sigfrid Lundberg
+		</a>
+		is licensed under a 
+		<a rel="license" href="http://creativecommons.org/licenses/by-sa/3.0/">Creative Commons
+		Attribution-ShareAlike 3.0 Unported License</a>.
+	      </small></p></div></div></div><!--#include virtual="/js/disqus_include.html" --><!--#include virtual="/js/urchin.js" --></body></html>

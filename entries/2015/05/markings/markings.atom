@@ -1,24 +1,26 @@
-<div xmlns="http://www.w3.org/1999/xhtml">
-  <div>
-    <h1 style="font-family: sans-serif; width: 55%; float: left;text-align: left;">Vägmärken</h1>
-    <p style="width: 38%; float: left;text-align: right">
-      <em>
-        <strong>
-		Sigfrid Lundberg's Stuff,
-	      2015-05-12</strong>
-      </em>
-    </p>
-  </div>
-  <div style="clear:both;"> </div>
-  <div style="width:100%;">
-    <div>
+<?xml version="1.0" encoding="UTF-8"?>
+<entry xmlns="http://www.w3.org/2005/Atom" xmlns:dc="http://purl.org/dc/elements/1.1/">
+  <author>
+    <name>Sigfrid Lundberg</name>
+  </author>
+  <title>Vägmärken</title>
+  <link href="/entries/2015/05/markings/"/>
+  <summary>Min Far fick Vägmärken i femtioårspresent för nästan exakt femtio
+  år sedan. Jag läser den just nu, och har faktiskt följt mig av och till ett
+  par år nu.</summary>
+  <content type="xhtml">
+    <div xmlns="http://www.w3.org/1999/xhtml">
       <div style="margin: +1%; width:45%;float:right;">
-	<a href="https://www.flickr.com/photos/sigfridlundberg/17568169791" title="P1000173 by Sigfrid  Lundberg, on Flickr">
-	  <img src="https://c2.staticflickr.com/6/5464/17568169791_c22faa6c9c_z.jpg" width="100%" alt="P1000173"/>
+	<a href="https://www.flickr.com/photos/sigfridlundberg/17568169791"
+	   title="P1000173 by Sigfrid  Lundberg, on Flickr">
+	  <img
+	      src="https://c2.staticflickr.com/6/5464/17568169791_c22faa6c9c_z.jpg"
+	      width="100%" alt="P1000173"/>
 	</a>
       </div>
 
-      <p>Min Far fick Dag Hammarskjölds <em>Vägmärken</em><sup><a href="#not1">1</a></sup> i femtioårspresent för nästan exakt femtio år
+      <p>Min Far fick Dag Hammarskjölds <em>Vägmärken</em><sup><a
+      href="#not1">1</a></sup> i femtioårspresent för nästan exakt femtio år
       sedan. Den har stod på hyllan hemma, och jag började läsa i den då för
       länge sedan. Nu har jag återvänt till den igen. Den har faktiskt följt
       mig av och till ett par år nu. Jag är djupt fängslad av Hammarskjölds
@@ -47,8 +49,11 @@
       yttersta verkligheten.</p>
 
       <div style="margin: +1%; width:45%;float:left;">
-	<a href="https://www.flickr.com/photos/sigfridlundberg/17380454958" title="P1000174 by Sigfrid  Lundberg, on Flickr">
-	<img src="https://c2.staticflickr.com/8/7752/17380454958_d06fb31431_z.jpg" width="100%" alt="P1000174"/>
+	<a href="https://www.flickr.com/photos/sigfridlundberg/17380454958"
+	   title="P1000174 by Sigfrid  Lundberg, on Flickr">
+	<img
+	    src="https://c2.staticflickr.com/8/7752/17380454958_d06fb31431_z.jpg"
+	    width="100%" alt="P1000174"/>
 	</a>
       </div>
 
@@ -86,9 +91,9 @@
 
       <blockquote>
 	<p>Ge mig något att dö för -!<br/>
-	    Die Maurern stehen<br/>
-	    sprachlos und kalt, die Fahnen<br/>
-	    klirren im Winde<br/>
+	&#160;&#160;&#160;&#160;Die Maurern stehen<br/>
+	&#160;&#160;&#160;&#160;sprachlos und kalt, die Fahnen<br/>
+	&#160;&#160;&#160;&#160;klirren im Winde<br/>
 	Icke detta gör ensamheten till en pina:<br/>
 	att ingen finns som delar min börda,<br/>
 	men detta:<br/>
@@ -111,54 +116,11 @@
       </ol>
 
     </div>
-    <br clear="all"/>
-    <p style="text-align: left;"><em><strong>Categories:</strong></em> 
-	  <a href="/subjects/religion/">Religion</a>,
-	    <a href="/subjects/essays/">Essays</a>,
-	    <a href="/subjects/spirituality/">Spirituality</a><br/><em><strong>
-		Permalink:
-	      </strong></em><a rel="bookmark" href="/entries/2015/05/markings/">http://sigfrid-lundberg.se/entries/2015/05/markings/</a></p>
-    <hr width="50%" align="center"/>
-  </div>
-  <div>
-    <h1>Other, not yet obsolete stuff</h1>
-    <table class="news">
-      <tr>
-        <td class="left">2015-04-20</td>
-        <td class="left"><a href="/entries/2015/03/averylongday/"><em>At the end of the day there's another day dawning</em></a><br/>From the life of a trans-national commuter<br/><a href="/subjects/photography/">Photography</a>,
-	<a href="/subjects/video/">Video</a></td>
-      </tr>
-      <tr>
-        <td class="left">2015-04-06</td>
-        <td class="left"><a href="/entries/2015/04/memories/"><em>Gonna make a sentimental journey
-  to renew old memories</em></a><br/>För trettiofem år sen reste vi till Grekland, Gertrud och jag. Vi
-  var yngre då än vårt yngsta barn är nu. I veckan som gick återvände
-  vi. Trettiofem år är lång tid, mer än halva mitt liv, om trettiofem år är
-  vi sannolikt döda.<br/><a href="/subjects/souvenir/">Souvenir</a>,
-	<a href="/subjects/photography/">Photography</a>,
-	<a href="/subjects/essays/">Essays</a></td>
-      </tr>
-      <tr>
-        <td class="left">2015-03-22</td>
-        <td class="left"><a href="/entries/2015/03/tiden/"><em>Varför blir det såhär?</em></a><br/>Hörde på nyheterna idag att USA nu är nästan självförsörjande på
-  energi, och att det begåtts två nya mord i Biskopsgården.<br/><a href="/subjects/zeitgeist/">Zeitgeist</a>,
-	<a href="/subjects/essays/">Essays</a></td>
-      </tr>
-      <tr>
-        <td class="left">2015-03-17</td>
-        <td class="left"><a href="/entries/2015/03/patrick/"><em>On the availability of stout</em></a><br/>On my way home today I realized that something essential was
-  missing. The stout.<br/><a href="/subjects/photography/">Photography</a>,
-	<a href="/subjects/fooddrink/">Food and drink</a></td>
-      </tr>
-      <tr>
-        <td class="left">2015-02-09</td>
-        <td class="left"><a href="/entries/2015/02/congestion/"><em>Too many buses, too many passengers</em></a><br/>Inspired by the envy percieved when seeing all buses
-  go with high frequency, except those lines I'm using<br/><a href="/subjects/photography/">Photography</a></td>
-      </tr>
-      <tr>
-        <td class="left">2015-02-05</td>
-        <td class="left"><a href="/entries/2015/02/samebutdifferent/"><em>Same but different</em></a><br/>Two photos with similar composition but very different subject<br/><a href="/subjects/photography/">Photography</a></td>
-      </tr>
-    </table>
-  </div>
-</div>
+  </content>
+  <dc:date>2015</dc:date>
+  <category label="religion" term="Religion"/>
+  <category label="essays" term="Essays"/>
+  <category label="spirituality" term="Spirituality"/>
+  <updated>2015-05-12T20:49:26+01:00</updated>
+  <id>http://www.sigfrid-lundberg.se/entries/2015/05/markings/</id>
+</entry>
