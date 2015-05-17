@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<entry xmlns="http://www.w3.org/2005/Atom" xmlns:dc="http://purl.org/dc/elements/1.1/">
+  <author>
+    <name>Sigfrid Lundberg</name>
+  </author>
+  <title>Om sökmaskiner och spindlar</title>
+  <link href="/entries/2015/05/spidering/"/>
+  <summary>År 1995 är ett märkesår för mig. Det är då jag bestämmer mig för
+  att byta karriär till Internet och programmering.</summary>
+  <content type="xhtml">
+    <div xmlns="http://www.w3.org/1999/xhtml">
+      <div style="margin: +1%; width:45%;float:right;">
+	<a href="https://www.flickr.com/photos/sigfridlundberg/15390269980"
+	   title="L1010913_v1 by Sigfrid  Lundberg, on Flickr">
+	<img
+	    src="https://c2.staticflickr.com/4/3937/15390269980_5c874ce69a_z.jpg"
+	    width="100%" alt="L1010913_v1"/>
+	</a>
+      </div>
+      <p>År 1995 är ett märkesår för mig. Det är då jag bestämmer mig för att
+      byta karriär till Internet och programmering.</p>
+    </div>
+  </content>
+  <dc:date>2015</dc:date>
+  <category label="structuralwebdesign" term="Structural web design"/>
+  <updated>2015-05-17T13:38:39+01:00</updated>
+  <id>http://www.sigfrid-lundberg.se/entries/2015/05/spidering/</id>
+</entry>
