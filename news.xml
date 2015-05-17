@@ -1,11 +1,11 @@
 <div xmlns="http://www.w3.org/1999/xhtml">
   <div>
-    <h1 style="font-family: sans-serif; width: 55%; float: left;text-align: left;">Vägmärken</h1>
+    <h1 style="font-family: sans-serif; width: 55%; float: left;text-align: left;">Om sökmaskiner och spindlar</h1>
     <p style="width: 38%; float: left;text-align: right">
       <em>
         <strong>
 		Sigfrid Lundberg's Stuff,
-	      2015-05-12</strong>
+	      2015-05-17</strong>
       </em>
     </p>
   </div>
@@ -13,116 +13,91 @@
   <div style="width:100%;">
     <div>
       <div style="margin: +1%; width:45%;float:right;">
-	<a href="https://www.flickr.com/photos/sigfridlundberg/17568169791" title="P1000173 by Sigfrid  Lundberg, on Flickr">
-	  <img src="https://c2.staticflickr.com/6/5464/17568169791_c22faa6c9c_z.jpg" width="100%" alt="P1000173"/>
+	<a href="https://www.flickr.com/photos/sigfridlundberg/15390269980" title="L1010913_v1 by Sigfrid  Lundberg, on Flickr">
+	<img src="https://c2.staticflickr.com/4/3937/15390269980_5c874ce69a_z.jpg" width="100%" alt="L1010913_v1"/>
 	</a>
+	<p><small>Ett engelskt begrepp för indexering av Internet är
+	<q>Spidering</q>. Roboten liknades vid en spindel i nätet.</small></p>
       </div>
+      <p>År 1995 är ett märkesår för mig. Det är då jag bestämmer mig för att
+      byta karriär till Internet och programmering. Jag gick från akademisk
+      forskning till Lunds universitetsbiblioteks forsknings- och
+      utvecklingsavdelning som kallade sig NetLab. Mitt specialområde blev
+      snabbt metadata, sökmaskiner och Internethöstning.</p>
 
-      <p>Min Far fick Dag Hammarskjölds <em>Vägmärken</em><sup><a href="#not1">1</a></sup> i femtioårspresent för nästan exakt femtio år
-      sedan. Den har stod på hyllan hemma, och jag började läsa i den då för
-      länge sedan. Nu har jag återvänt till den igen. Den har faktiskt följt
-      mig av och till ett par år nu. Jag är djupt fängslad av Hammarskjölds
-      samtal med sig själv och sin Gud; de kräver tanke och skall smältas
-      långsamt.</p>
+      <p>Vid den tidpunkten kunde man inte söka på "ål AND öl" i Lycos eller
+      Webcrawler, som var de enda sökmaskinerna där ute. Europeiska bokstäver
+      fungerade helt enkelt inte i de Nordamerikanskt inskränkta
+      sökmaskinerna. <em><q>l: too short for searching</q></em></p>
 
-      <p>Jag är ateist. Eller så har jag brukat beskriva mig, men jag skall
-      villigt erkänna att den Gud Hammarskjöld talar med är väldigt olik den
-      jag inte tror på. Den tionde april 1958 skriver han:</p>
-
+      <p>1996 släppte vi en public service sökrobot. <em><q>NWI -- En nordisk
+      söktjänst för World Wide Web</q></em> (läs vår <a href="http://sigfrid-lundberg.se/1996/nwi/nwi.pdf">press release från
+      det året</a>).</p>
+      
       <blockquote>
-	<p>Först i människan har den skapande utvecklingen nått den punkt där
-	verkligheten möter sig själv i dom och val. Utanför människan är den
-	varken ond eller god.</p>
-	<p>Först när du stiger ned i dig själv upplever du därför, i mötet med
-	den Andre, godheten såsom i den yttersta verkligheten - enad och
-	levande, <em>i</em> honom och <em>genom</em> dig. <sup><a href="#not2">2</a></sup></p>
+	Vi beräknar att den svensk WWW omfattar nästan 600 000 dokument. I
+	skrivande stund (den 9 maj 1996) innehåller vår svenska databas 427
+	901 "länkar", av vilka 268 170 är indexerade, dvs vi vet vad nästan
+	hälften av alla WWW-sidor i Sverige handlar om och känner till nästan
+	tre fjärdedelar av dem. Antalet kända servrar är 4 387. NWIs robot
+	arbetar för närvarande kontinuerligt med att kartlägga svensk WWW, för
+	att hinna bli färdig innan den färdiga tjänsten skall presenteras
+	senare i sommar. Roboten kopierar dokument över nätverket, läser
+	igenom dem och söker upp och sparar nyckelinformation i
+	texten. Programmet klarar i dag av att hantera ungefär 15 000 dokument
+	per dygn. Siffran är dock normalt lägre på grund av väntetider på
+	nätet, maskinbelasting och dylikt.
       </blockquote>
 
-      <p>Den skapande utvecklingen innersta natur är irrelevant för
-      Hammarskjöld. Mitt intryck är att den gärna får vara evolution genom
-      naturligt urval i ett universum som expanderat med ljusets hastighet
-      sedan the big bang. Eller inte. Hammarskjöld kunde inte bry sig
-      mindre. Andligheten finns i att fatta rätt beslut bland alla de fria val
-      människan ställs inför längs sin väg. Gud finns i den Andre och i den
-      yttersta verkligheten.</p>
+      <p>Jag misstänker att jag grovt underskattade den svenska webbens
+      storlek, kanske med en faktor två, men nog inte en faktor tio.</p>
 
-      <div style="margin: +1%; width:45%;float:left;">
-	<a href="https://www.flickr.com/photos/sigfridlundberg/17380454958" title="P1000174 by Sigfrid  Lundberg, on Flickr">
-	<img src="https://c2.staticflickr.com/8/7752/17380454958_d06fb31431_z.jpg" width="100%" alt="P1000174"/>
-	</a>
-      </div>
+      <p>Det blev dock inte NWI som blev först med att klara av europeiska
+      tecken, utan Digital Equipment's sökmaskin AltaVista som kom bara några
+      veckor före vår. Vi var dock nästan två år <em>före</em> Google. Under
+      de två åren hade vi åtminstone till att börja ett visst försprång genom
+      att vi inderexade lokala servrar djupare än just AltaVista.</p>
 
-      <p>För min del har jag valt icke-tron för att slippa tro nå't alls, och
-      för att slippa tro det som Svenssons tror, och, slutligen, kanske för
-      att skilja mig från alla dem som jag trodde var mängden. För att
-      apostrofera Ulf Peder Olrogs <em>Filosofisk dixieland</em>. Min icke-tro
-      formades som en del av tonårsrevolten, tillsammans med
-      ungdomsrevolten. Om Svensson gifter sig kyrkligt, så kan inte jag tro på
-      Gud.</p>
+      <p>Ett intressant sammanträffande. Anders Ardö och jag själv publicerade
+      våra erfarenheter i ett paper i 7th International Worldwide Web
+      Conference: <a href="http://www7.scu.edu.au/1900/com1900.htm">A
+      regional distributed WWW search and indexing service</a>.</p>
 
-      <p>Far fick boken av Tant Valborg. De var fostersyskon, Valborg och
-      Waldemar, min far. Min Farfar, Sigurd, dog 1918 i spanska sjukan när Far
-      var tre år gammal. Jag lär aldrig få veta varför, men efter faderns
-      bortgång flyttade Waldemar från Stockholm till sin farbror Torsten,
-      kyrkoherde i Glimåkra som hade fyra fosterbarn i ett annars barnlöst
-      äktenskap. Det var min far, faster, tant Valborg och en pojke jag inte
-      har något minne av alls.</p>
+      <p>Vid <em>samma</em> konferens publicerar Sergey Brin och Lawrence Page
+      <a href="http://infolab.stanford.edu/~backrub/google.html">The Anatomy
+      of a Large-Scale Hypertextual Web Search Engine</a>.</p>
 
-      <p>Farbror Torsten dog redan 1939, så honom har jag aldrig träffat. Det
-      hängde bilder av honom på väggen hemma. En man med små stålbågade
-      brillor och yvig vit kalufs och stora polisonger. Han var inte helt olik
-      Henrik Ibsen. Jag tänker mig honom som en sträng och allvarlig bildad
-      herre, inte olik biskopen i Ingmar Bergmans Fanny och Alexander. Jag
-      tror att Far blev agad som barn, men det förekom aldrig i mitt
-      barndomshem. Strängt taget bidrog kyrkoherden säkert till min ateism,
-      genom de attityder han grundlagt hos min far.</p>
+      <p>Det är enda gången jag var i samma volym som Google. I efterhand
+      känns det som ödets ironi. Vi slutade med web indexing eftersom vi inte
+      hade varken hade budget för fler hårddiskar eller kunde undvara personal
+      för mer centrala uppgifter för biblioteket. Vi fortsatte några projekt
+      ytterligare en tid, Safari och Studera.nu för högskoleverket.</p>
 
-      <p>Vi är alla ensamma. Hur mycket släkt och hur många vänner vi än omger
-      oss med så går vi ensamma. Instängda i våra kroppar, utelämnade åt vår
-      fria vilja och vår egen och andras domar över oss. Den 29 juli frågar
-      han: <q>Gav du mig denna olösliga ensamhet för att jag lättare skulle
-      kunna ge dig allt?</q><sup><a href="#not3">3</a></sup>, dagen efter
-      citatet ovan. Lindrade samtalet med Gud ensamheten?</p>
-
-      <blockquote>
-	<p>Ge mig något att dö för -!<br/>
-	    Die Maurern stehen<br/>
-	    sprachlos und kalt, die Fahnen<br/>
-	    klirren im Winde<br/>
-	Icke detta gör ensamheten till en pina:<br/>
-	att ingen finns som delar min börda,<br/>
-	men detta:<br/>
-	att jag har endast min egen börda att bära.<sup><a href="#not4">4</a></sup></p>
-      </blockquote>
-
-      <p>Gav honom Gud en börda att bära? Var inte Förenta Nationerna
-      tillräckligt tunga? En sista: <q>Så skall världen varje morgon skapas på
-      nytt, <em>förlåten</em> - i dig, av dig.</q><sup><a href="#not5">5</a></sup></p>
-
-
-      <h3>Noter</h3>
-      <ol>
-	<li id="not1">Hammarskjöld, Dag. <em>Vägmärken</em>,
-	Stockholm. Bonniers förlag, 1963.</li>
-	<li id="not2">Hammarskjöld, op. cit., s. 132</li>
-	<li id="not3">Hammarskjöld, op. cit., s. 132</li>
-	<li id="not4">Hammarskjöld, op. cit., s. 70</li>
-	<li id="not5">Hammarskjöld, op. cit., s. 130</li>
-      </ol>
+      <p>Vad vi kanske inte förstod förrän efteråt var att vi hade testat idén
+      att driva reklamfri Internetsökning som public service i regi av ett
+      konsortium av bibliotek. Det föreföll vara logiskt. Biblioteken skall
+      förse medborgarna med information. I praktiken fanns det ingen bärande
+      affärsmodell.</p>
 
     </div>
     <br clear="all"/>
     <p style="text-align: left;"><em><strong>Categories:</strong></em> 
-	  <a href="/subjects/religion/">Religion</a>,
-	    <a href="/subjects/essays/">Essays</a>,
-	    <a href="/subjects/spirituality/">Spirituality</a><br/><em><strong>
+	  <a href="/subjects/webindexing/">Web indexing</a><br/><em><strong>
 		Permalink:
-	      </strong></em><a rel="bookmark" href="/entries/2015/05/markings/">http://sigfrid-lundberg.se/entries/2015/05/markings/</a></p>
+	      </strong></em><a rel="bookmark" href="/entries/2015/05/spidering/">http://sigfrid-lundberg.se/entries/2015/05/spidering/</a></p>
     <hr width="50%" align="center"/>
   </div>
   <div>
     <h1>Other, not yet obsolete stuff</h1>
     <table class="news">
+      <tr>
+        <td class="left">2015-05-12</td>
+        <td class="left"><a href="/entries/2015/05/markings/"><em>Vägmärken</em></a><br/>Min Far fick Vägmärken i femtioårspresent för nästan exakt femtio
+  år sedan. Jag läser den just nu, och har faktiskt följt mig av och till ett
+  par år nu.<br/><a href="/subjects/religion/">Religion</a>,
+	<a href="/subjects/essays/">Essays</a>,
+	<a href="/subjects/spirituality/">Spirituality</a></td>
+      </tr>
       <tr>
         <td class="left">2015-04-20</td>
         <td class="left"><a href="/entries/2015/03/averylongday/"><em>At the end of the day there's another day dawning</em></a><br/>From the life of a trans-national commuter<br/><a href="/subjects/photography/">Photography</a>,
@@ -154,10 +129,6 @@
         <td class="left">2015-02-09</td>
         <td class="left"><a href="/entries/2015/02/congestion/"><em>Too many buses, too many passengers</em></a><br/>Inspired by the envy percieved when seeing all buses
   go with high frequency, except those lines I'm using<br/><a href="/subjects/photography/">Photography</a></td>
-      </tr>
-      <tr>
-        <td class="left">2015-02-05</td>
-        <td class="left"><a href="/entries/2015/02/samebutdifferent/"><em>Same but different</em></a><br/>Two photos with similar composition but very different subject<br/><a href="/subjects/photography/">Photography</a></td>
       </tr>
     </table>
   </div>

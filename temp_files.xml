@@ -1867,6 +1867,89 @@ over again.</summary>
   <author>
     <name>Sigfrid Lundberg</name>
   </author>
+  <title>Om sökmaskiner och spindlar</title>
+  <link href="/entries/2015/05/spidering/"/>
+  <summary>År 1995 är ett märkesår för mig. Det är då jag bestämmer mig för
+  att byta karriär till Internet och programmering.</summary>
+  <content type="xhtml">
+    <div xmlns="http://www.w3.org/1999/xhtml">
+      <div style="margin: +1%; width:45%;float:right;">
+	<a href="https://www.flickr.com/photos/sigfridlundberg/15390269980" title="L1010913_v1 by Sigfrid  Lundberg, on Flickr">
+	<img src="https://c2.staticflickr.com/4/3937/15390269980_5c874ce69a_z.jpg" width="100%" alt="L1010913_v1"/>
+	</a>
+	<p><small>Ett engelskt begrepp för indexering av Internet är
+	<q>Spidering</q>. Roboten liknades vid en spindel i nätet.</small></p>
+      </div>
+      <p>År 1995 är ett märkesår för mig. Det är då jag bestämmer mig för att
+      byta karriär till Internet och programmering. Jag gick från akademisk
+      forskning till Lunds universitetsbiblioteks forsknings- och
+      utvecklingsavdelning som kallade sig NetLab. Mitt specialområde blev
+      snabbt metadata, sökmaskiner och Internethöstning.</p>
+
+      <p>Vid den tidpunkten kunde man inte söka på "ål AND öl" i Lycos eller
+      Webcrawler, som var de enda sökmaskinerna där ute. Europeiska bokstäver
+      fungerade helt enkelt inte i de Nordamerikanskt inskränkta
+      sökmaskinerna. <em><q>l: too short for searching</q></em></p>
+
+      <p>1996 släppte vi en public service sökrobot. <em><q>NWI -- En nordisk
+      söktjänst för World Wide Web</q></em> (läs vår <a href="http://sigfrid-lundberg.se/1996/nwi/nwi.pdf">press release från
+      det året</a>).</p>
+      
+      <blockquote>
+	Vi beräknar att den svensk WWW omfattar nästan 600 000 dokument. I
+	skrivande stund (den 9 maj 1996) innehåller vår svenska databas 427
+	901 "länkar", av vilka 268 170 är indexerade, dvs vi vet vad nästan
+	hälften av alla WWW-sidor i Sverige handlar om och känner till nästan
+	tre fjärdedelar av dem. Antalet kända servrar är 4 387. NWIs robot
+	arbetar för närvarande kontinuerligt med att kartlägga svensk WWW, för
+	att hinna bli färdig innan den färdiga tjänsten skall presenteras
+	senare i sommar. Roboten kopierar dokument över nätverket, läser
+	igenom dem och söker upp och sparar nyckelinformation i
+	texten. Programmet klarar i dag av att hantera ungefär 15 000 dokument
+	per dygn. Siffran är dock normalt lägre på grund av väntetider på
+	nätet, maskinbelasting och dylikt.
+      </blockquote>
+
+      <p>Jag misstänker att jag grovt underskattade den svenska webbens
+      storlek, kanske med en faktor två, men nog inte en faktor tio.</p>
+
+      <p>Det blev dock inte NWI som blev först med att klara av europeiska
+      tecken, utan Digital Equipment's sökmaskin AltaVista som kom bara några
+      veckor före vår. Vi var dock nästan två år <em>före</em> Google. Under
+      de två åren hade vi åtminstone till att börja ett visst försprång genom
+      att vi inderexade lokala servrar djupare än just AltaVista.</p>
+
+      <p>Ett intressant sammanträffande. Anders Ardö och jag själv publicerade
+      våra erfarenheter i ett paper i 7th International Worldwide Web
+      Conference: <a href="http://www7.scu.edu.au/1900/com1900.htm">A
+      regional distributed WWW search and indexing service</a>.</p>
+
+      <p>Vid <em>samma</em> konferens publicerar Sergey Brin och Lawrence Page
+      <a href="http://infolab.stanford.edu/~backrub/google.html">The Anatomy
+      of a Large-Scale Hypertextual Web Search Engine</a>.</p>
+
+      <p>Det är enda gången jag var i samma volym som Google. I efterhand
+      känns det som ödets ironi. Vi slutade med web indexing eftersom vi inte
+      hade varken hade budget för fler hårddiskar eller kunde undvara personal
+      för mer centrala uppgifter för biblioteket. Vi fortsatte några projekt
+      ytterligare en tid, Safari och Studera.nu för högskoleverket.</p>
+
+      <p>Vad vi kanske inte förstod förrän efteråt var att vi hade testat idén
+      att driva reklamfri Internetsökning som public service i regi av ett
+      konsortium av bibliotek. Det föreföll vara logiskt. Biblioteken skall
+      förse medborgarna med information. I praktiken fanns det ingen bärande
+      affärsmodell.</p>
+
+    </div>
+  </content>
+  <dc:date>2015</dc:date>
+  <category label="webindexing" term="Web indexing"/>
+  <updated>2015-05-17T13:38:39+01:00</updated>
+  <id>http://www.sigfrid-lundberg.se/entries/2015/05/spidering/</id>
+</entry><entry xmlns:dc="http://purl.org/dc/elements/1.1/">
+  <author>
+    <name>Sigfrid Lundberg</name>
+  </author>
   <title>Vägmärken</title>
   <link href="/entries/2015/05/markings/"/>
   <summary>Min Far fick Vägmärken i femtioårspresent för nästan exakt femtio
