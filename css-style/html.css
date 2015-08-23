@@ -100,7 +100,7 @@ blockquote {
     background-color: white;
 }
 
-ul {
+ul#browsebycategory,ul#browsebydate  {
     list-style-type: none;
 }
 
@@ -109,11 +109,10 @@ dl, ol {
 }
 
 ul, dl, ol {
-    margin-left:  +1%;
+    margin-left:  1.0em;
 }
 
 dl dt {
-//    font-family: sans-serif;
     font-size: 90%;
 }
 
