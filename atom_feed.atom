@@ -6,12 +6,12 @@
   <title>Sigfrid Lundberg's Stuff</title>
   <id>http://sigfrid-lundberg.se/files.atom</id>
   <link rel="self" href="http://feeds.feedburner.com/SigfridLundbergsStuff?format=xml"/>
-  <updated>2015-08-23T20:06:26+01:00</updated>
+  <updated>2015-08-24T21:26:38+01:00</updated>
   <entry>
   <author>
     <name>Sigfrid Lundberg</name>
   </author>
-  <title>Why do I keep this site?</title>
+  <title>Landskrona fotofestival 2015</title>
   <link href="http://sigfrid-lundberg.se/entries/2015/08/fotofestival/"/>
   <summary>Fotofestivalen i Landskrona har seglat upp som en fixstjärna på den
   nordiska fotohimlen. Jag har varit där tre år i rad nu. Håller den
@@ -19,30 +19,57 @@
   <content type="xhtml">
     <div xmlns="http://www.w3.org/1999/xhtml">
 
+
+      <div style="margin: +1%; width:45%;float:left;">
+	<a href="https://www.flickr.com/photos/sigfridlundberg/20165936123" title="Corinne Vionnet's last slide. She had the last presentation at the International Seminar, Landskrona Photo">
+	  <img src="https://farm1.staticflickr.com/698/20165936123_2cc3947975_z.jpg" width="95%" alt=""/>
+	</a>
+      </div>
+
       <p>Fotofestivalen i Landskrona har seglat upp som en fixstjärna på den
       nordiska fotohimlen. Jag har varit där tre år i rad nu. Håller den
       måttet? Har den växtverk?</p>
 
-      <p>Två hela dagar har lagt ner på festivalen. Jag är inte på något sätt
+      <p>Två hela dagar har lagt på årets upplaga. Jag är inte på något sätt
       besviken, men det känns som om det var mer liv och rörelse 2013 och 2014
       än 2015. Å andra sidan var jag tre hela dagar i fjol. Svårt att säga,
       kanske man implementerade sitt koncept bättre tidigare om åren än nu.</p>
 
       <p>Fredagen ägnade jag åt det internationella symposiet och söndagen åt
       halva fotoboksdagen och resten åt utställningarna. Alltså har jag ägnat
-      för mycket tid åt prat och tyckande än åt das Ding an sich. Kanske ett
-      misstag. Kan i så fall inte göra det ogjort.</p>
+      för mycket tid åt prat och tyckande än åt <em>das Ding an
+      sich</em>. Kanske ett misstag. Kan i så fall inte göra det ogjort.</p>
 
+      <h3>Utställningarna</h3>
 
-      <div style="margin: +1%; width:45%;float:left;">
-	<a href="https://www.flickr.com/photos/sigfridlundberg/20165936123" title="CORINNE VIONNE's last slide. She had the last presentation at the International Seminar, Landskrona Photo">
-	  <img src="https://farm1.staticflickr.com/698/20165936123_2cc3947975_z.jpg" width="95%" alt=""/>
-	</a>
+      <p>Fotofestivalen 2015 lyckades samla ihop utställare från när och
+      fjärran. För många för att lista dem, och jag kan inte kommentera mer än
+      en bråkdel av dem. Lars Tunbjörks utställning <em>Vinter</em> i stadens
+      rådhus är en given höjdpunkt. Duane Michals, Boris Mikhailov och Maja
+      Forslund i Konsthallen.</p>
+
+      <p>Duane Michals gav mig festivalens bästa skratt med serien <q><em>How
+      photography lost its verginity on the way to the bank</em></q> (ja, det
+      skall vara <strong>verginity</strong>: <a href="http://www.urbandictionary.com/define.php?term=verginity">The
+      state or condition of being a vergin, i.e. one who has never had sex
+      with a complete retard</a>). I denna ingick den fantastiska bilden <em>A
+      <a href="https://goo.gl/Nr8nGQ">Gursky Gherkin</a> is Just a Very Large
+      Pickle</em> och bilderna med samlingsnamnet <em>Who is <a href="https://goo.gl/BaP1mq">Sidney Sherman</a></em>.</p>
+
+      <div style="width:420px; height:315px; float:right;">
+	<iframe width="420px" height="315px" src="https://www.youtube.com/embed/cpwykSn6_F4" frameborder="0" allowfullscreen="allowfullscreen">
+	  <!-- empty -->
+	</iframe>
       </div>
 
-      <p>Det <a href="http://www.landskronafoto.org/en/festival/#SEMINARIUMFESTIVAL">Internationella
-      symposiet</a> modererades av Marc Prüst (curator och bildredaktör) och
-      hade fyra talare</p>
+      <p>En definitiv höjdpunkt var utställningen med tjeckisk fotografi, och
+      i synnerhet Jindřich Štreit.</p>
+
+      <h3>Fotografins förvandling</h3>
+
+      <p>Temat var <a href="http://www.landskronafoto.org/en/festival/#SEMINARIUMFESTIVAL">Metamorphosis
+      of Photography</a> och det hela modererades av Marc Prüst (curator och
+      bildredaktör) och hade fyra talare</p>
 
       <ul>
 	<li>Michael Famighetti (Aperture Photography Magazine) diskuterade
@@ -55,6 +82,8 @@
 	<li>Slutligen Corinne Vionnet (bildkonstnär).</li>
       </ul>
 
+
+
       <p>Alla fyra hade intressanta ting att säga. Programmet beskriver
       Holzherr presentation så här:</p> 
 
@@ -64,15 +93,17 @@
 	reality can no longer be taken for granted.</em></p>
       </blockquote>
 
-      <p>Jag är faktiskt väldigt trött på de <em>postmodernas</em> beskrivning
-      av dokumentärfotografin. Jag känner inte till någon dokumentärfotograf
-      som gör gällande att deras form av fotografi producerar bilder vars
-      relation till verkligheten är direkt och okomplicerad. Det är en slags
-      ganska låg retorisk teknik att beskriva motståndarens inställning och
-      sedan kritisera den. (Jämför, t ex: Kristoffer Arvidsson, Louise
-      Wolthers &amp; Niclas Östlind (editors), 2014. <em>Between
-      realities. Photography in Sweden 1970–2000</em> Bokförlaget Arena, Lund
-      2014).</p>
+      <p>Det är uppenbart korrekt att såväl bildjournalistikens som
+      dokumentärfotografiets vilkor ändrats drastiskt de senaste 10
+      åren. Under själva temat och frågan ligger även något annat: Jag
+      är faktiskt väldigt trött på de <em>postmodernas</em> beskrivning av
+      dokumentärfotografin. Jag känner inte till någon dokumentärfotograf som
+      gör gällande att deras form av fotografi producerar bilder vars relation
+      till verkligheten är direkt och okomplicerad. Det är en slags ganska låg
+      retorisk teknik att beskriva motståndarens inställning och sedan
+      kritisera den. (Jämför, t ex: Kristoffer Arvidsson, Louise Wolthers
+      &amp; Niclas Östlind (editors), 2014. <em>Between realities. Photography
+      in Sweden 1970–2000</em> Bokförlaget Arena, Lund 2014).</p>
 
       <p>Andrea Holzherr gav en glimrande beskrivning av hur både samtida och
       historiska fotografer hanterat autenticitet och sanning i relation till
@@ -89,11 +120,39 @@
       enskilda objekt. Alla av typen <q>Min flickvän vid framför
       Eiffeltornet.</q></p>
 
+      <h3>Fotoboken</h3>
+
+      <p>Lieko Shiga, Mishka Henner och Tony Cairns och Kalev Erickson från
+      Archive of Modern Conflict, London, presenterade med Lars Mogensen som
+      moderator. Åter igen var alla presentationerna bra och väldigt
+      intressanta. Intressantast var dock den av Lieko Shiga.</p>
+
+      <p>Shiga är utpräglat dokumentär och undersökande fotograf. Hon bosatte
+      sig i en liten by på stranden mot Stilla havet i Sendai-provinsen i
+      norra Japan runt 2008.</p>
+
+      <p>Hon blev byns officiella fotografiska krönikör och arbetade med allt
+      visuellt där. Hon driver ett antal projekt bland byns tre-fyrahundra
+      invånare och deras liv som fiskare och bönder. Allt fick ett abrupt slut
+      med Tōhoku-jordbävningen och den följande Tsunamin utplånade hela
+      samhället.  Den japanska staten har bedömt riskerna för en upprepning av
+      katastrofen för stora och förbjudit permanent boende där.</p>
+
+      <p>Shiga samlade bilder och fotoalbum som blivit begravda bland alla
+      rasmassor. Dessa fragment av minnen samt Shigas egen dokumentation
+      ligger till grund för hennes bok Rasen kaigan (Spiral Shore).</p>
+
+      <h3>Slutligen</h3>
+
+      <p>Håller den måttet? Det tycker jag! Har den växtverk? Kanske. Min
+      känsla är att det var betydligt mindre folk i år än de två tidigare,
+      fast i år har man mer tid på sig. Har du inte varit där ännu, åk dit!</p>
+
     </div>
   </content>
   <dc:date>2015</dc:date>
-  <category label="structuralwebdesign" term="Structural web design"/>
-  <updated>2015-08-23T20:06:26+01:00</updated>
+  <category label="photography" term="Photography"/>
+  <updated>2015-08-24T21:26:38+01:00</updated>
   <id>http://www.sigfrid-lundberg.se/entries/2015/08/fotofestival/</id>
 </entry>
   <entry>
