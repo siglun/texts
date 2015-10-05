@@ -1,18 +1,19 @@
-<div xmlns="http://www.w3.org/1999/xhtml">
-  <div>
-    <h1 style="font-family: sans-serif; width: 55%; float: left;text-align: left;">Are the Ways of Seeing Franscesca Woodman and Edith Gowin the
-  same?</h1>
-    <p style="width: 38%; float: left;text-align: right">
-      <em>
-        <strong>
-		Sigfrid Lundberg's Stuff,
-	      2015-10-04</strong>
-      </em>
-    </p>
-  </div>
-  <div style="clear:both;"> </div>
-  <div style="width:100%;">
-    <div>
+<?xml version="1.0" encoding="UTF-8"?>
+<entry xmlns="http://www.w3.org/2005/Atom" xmlns:dc="http://purl.org/dc/elements/1.1/">
+  <author>
+    <name>Sigfrid Lundberg</name>
+  </author>
+
+  <title>Are the Ways of Seeing Franscesca Woodman and Edith Gowin the
+  same?</title>
+  <link href="/entries/2015/10/francesca/"/>
+
+  <summary>Francesca Woodman's work is on exhibition in Stockholm. I look at
+  her photography, and felt that I had to reread parts of John Berger's ways
+  of seeing.</summary>
+
+  <content type="xhtml">
+    <div xmlns="http://www.w3.org/1999/xhtml">
       <p>Francesca Woodman took her life 1981 at 22 years of age. By then she
       had become was a serious, hardworking and extremely good artist and
       photographer. She had started her exploration of art photography when
@@ -26,7 +27,8 @@
       as I know, neither Cunningham nor Bernard portrayed themselves, with or
       without clothes.</p>
 
-      <p>According to <a href="http://www.fotosidan.se/cldoc/podd-kultforklarad-angel-fascinerar-alltjamt.htm">an
+      <p>According to <a
+      href="http://www.fotosidan.se/cldoc/podd-kultforklarad-angel-fascinerar-alltjamt.htm">an
       interview with the curator, Anna Tellgren</a> the reason why Woodman
       used herself as model was just practical. She was there we she needed
       it. The cost was lower and there were no problems with model
@@ -99,7 +101,8 @@
 	<h3>Foot notes</h3>
 	<ol>
 
-	  <li><a href="http://www.npr.org/2011/07/21/138467808/stieglitz-and-okeeffe-their-love-and-life-in-letters">Stieglitz
+	  <li><a
+	  href="http://www.npr.org/2011/07/21/138467808/stieglitz-and-okeeffe-their-love-and-life-in-letters">Stieglitz
 	  And O'Keeffe: Their Love And Life In Letters</a></li>
 
 	  <li>Adams, Robert, 1994. <em>Why people photograph.</em> Aperture Foundation,
@@ -112,49 +115,9 @@
 	</ol>
       </div>
     </div>
-    <br clear="all"/>
-    <p style="text-align: left;"><em><strong>Categories:</strong></em> 
-	  <a href="/subjects/structuralwebdesign/">Structural web design</a><br/><em><strong>
-		Permalink:
-	      </strong></em><a rel="bookmark" href="/entries/2015/10/francesca/">http://sigfrid-lundberg.se/entries/2015/10/francesca/</a></p>
-    <hr width="50%" align="center"/>
-  </div>
-  <div>
-    <h1>Other, not yet obsolete stuff</h1>
-    <table class="news">
-      <tr>
-        <td class="left">2015-08-24</td>
-        <td class="left"><a href="/entries/2015/08/fotofestival/"><em>Landskrona fotofestival 2015</em></a><br/>Fotofestivalen i Landskrona har seglat upp som en fixstjärna på den
-  nordiska fotohimlen. Jag har varit där tre år i rad nu. Håller den
-  måttet? Har den växtverk?<br/><a href="/subjects/photography/">Photography</a></td>
-      </tr>
-      <tr>
-        <td class="left">2015-05-23</td>
-        <td class="left"><a href="/entries/2015/05/exhibits/"><em>Gerillautställning</em></a><br/>Lördagen den 23 maj, 13:00-16:00, Katarina Bangata 25, Södermalm, Stockholm<br/><a href="/subjects/photography/">Photography</a></td>
-      </tr>
-      <tr>
-        <td class="left">2015-05-22</td>
-        <td class="left"><a href="/entries/2015/05/witt/"><em>The Times They Are a-Changin'</em></a><br/>Knausgård går till rasande attack på Cyklopernas Land och
-  Witt-Brattström Har inte tid att hyckla mer<br/><a href="/subjects/ageing/">Ageing</a></td>
-      </tr>
-      <tr>
-        <td class="left">2015-05-17</td>
-        <td class="left"><a href="/entries/2015/05/spidering/"><em>Om sökmaskiner och spindlar</em></a><br/>År 1995 är ett märkesår för mig. Det är då jag bestämmer mig för
-  att byta karriär till Internet och programmering.<br/><a href="/subjects/webindexing/">Web indexing</a></td>
-      </tr>
-      <tr>
-        <td class="left">2015-05-12</td>
-        <td class="left"><a href="/entries/2015/05/markings/"><em>Vägmärken</em></a><br/>Min Far fick Vägmärken i femtioårspresent för nästan exakt femtio
-  år sedan. Jag läser den just nu, och har faktiskt följt mig av och till ett
-  par år nu.<br/><a href="/subjects/religion/">Religion</a>,
-	<a href="/subjects/essays/">Essays</a>,
-	<a href="/subjects/spirituality/">Spirituality</a></td>
-      </tr>
-      <tr>
-        <td class="left">2015-04-20</td>
-        <td class="left"><a href="/entries/2015/03/averylongday/"><em>At the end of the day there's another day dawning</em></a><br/>From the life of a trans-national commuter<br/><a href="/subjects/photography/">Photography</a>,
-	<a href="/subjects/video/">Video</a></td>
-      </tr>
-    </table>
-  </div>
-</div>
+  </content>
+  <dc:date>2015</dc:date>
+  <category label="structuralwebdesign" term="Structural web design"/>
+  <updated>2015-10-04T14:53:55+01:00</updated>
+  <id>http://www.sigfrid-lundberg.se/entries/2015/10/francesca/</id>
+</entry>
