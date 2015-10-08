@@ -17,15 +17,8 @@
 
       <div style="margin: +1%; width:45%;float:left;">
 
-	<a data-flickr-embed="true"  
-	   href="https://www.flickr.com/photos/sigfridlundberg/21376316183/in/dateposted/"
-	   title="In the background are two of Francesca Woodman's
-		  Caryatids. There are a large sample of photobooks about
-		  Francesca on the table in the foreground">
-	  <img
-	      src="https://farm6.staticflickr.com/5671/21376316183_216f52d8ee_z.jpg" 
-	      width="100%" 
-	      alt="L1014105_v1"/></a>
+	<a data-flickr-embed="true" href="https://www.flickr.com/photos/sigfridlundberg/21376316183/in/dateposted/" title="In the background are two of Francesca Woodman's     Caryatids. There are a large sample of photobooks about     Francesca on the table in the foreground">
+	  <img src="https://farm6.staticflickr.com/5671/21376316183_216f52d8ee_z.jpg" width="100%" alt="L1014105_v1"/></a>
 	  <p><small>In the background are two of Francesca Woodman's
 		  Caryatids. There are a large sample of photobooks about
 		  Francesca on the table in the foreground</small></p>
@@ -65,13 +58,7 @@
       the sexes.</p>
 
       <div style="margin: +1%; width:500;float:right;">
-	<iframe src="https://player.vimeo.com/video/113375054" 
-		width="500"
-		height="281"
-		frameborder="0" 
-		webkitallowfullscreen="webkitallowfullscreen"
-		mozallowfullscreen="mozallowfullscreen" 
-		allowfullscreen="allowfullscreen">
+	<iframe src="https://player.vimeo.com/video/113375054" width="500" height="281" frameborder="0" webkitallowfullscreen="webkitallowfullscreen" mozallowfullscreen="mozallowfullscreen" allowfullscreen="allowfullscreen">
 	  <!-- iframe -->
 	</iframe> 
 	<p>
@@ -221,13 +208,11 @@
 
 	  <li id="note0">
 	    Segestam, Göran, 2015. 
-	    <a
-		href="http://www.fotosidan.se/cldoc/podd-kultforklarad-angel-fascinerar-alltjamt.htm">Poddradio:
+	    <a href="http://www.fotosidan.se/cldoc/podd-kultforklarad-angel-fascinerar-alltjamt.htm">Poddradio:
 	    Kultförklarad ängel fascinerar alltjämt. Fotosidan, Stockholm.</a>
 	  </li>
 
-	  <li id="note1"><a
-	  href="http://www.npr.org/2011/07/21/138467808/stieglitz-and-okeeffe-their-love-and-life-in-letters">Stieglitz
+	  <li id="note1"><a href="http://www.npr.org/2011/07/21/138467808/stieglitz-and-okeeffe-their-love-and-life-in-letters">Stieglitz
 	  And O'Keeffe: Their Love And Life In Letters</a></li>
 
 	  <li id="note2">Adams, Robert, 1994. <em>Why people photograph.</em> Aperture Foundation,
@@ -243,6 +228,6 @@
   </content>
   <dc:date>2015</dc:date>
   <category label="photography" term="Photography"/>
-  <updated>2015-10-04T14:53:55+01:00</updated>
+  <updated>2015-10-08T22:11:51+01:00</updated>
   <id>http://www.sigfrid-lundberg.se/entries/2015/10/francesca/</id>
 </entry>
