@@ -11,7 +11,7 @@
     <link rel="SCHEMA.dc" href="http://purl.org/metadata/dublin_core_elements#title" />
     <meta name="DC.Creator.PersonalName" content="Ardö, Anders" />
     <link rel="SCHEMA.dc" href="http://purl.org/metadata/dublin_core_elements#creator" />
-    <meta name="DC.Creator.PersonalName.Address" content="and@dtv.dk" />
+
     <link rel="SCHEMA.dc" href="http://purl.org/metadata/dublin_core_elements#creator" />
     <meta name="DC.Creator.2" content="Lundberg, Sigfrid" />
     <link rel="SCHEMA.dc" href="http://purl.org/metadata/dublin_core_elements#creator" />
@@ -48,7 +48,7 @@ DESIRE way</h1><table border="0"><tr><th>Anders Ardö</th><td>and</td><th>Sigfri
 Library of Denmark, DTV</td><td></td><td align="center">NetLab,<br />
 Lund University Library</td></tr><tr><td align="center">P.O. Box 777,<br />
 DK-2800 Lyngby, Denmark</td><td></td><td align="center">P.O. Box 3,<br />
-S-221 00 Lund, Sweden</td></tr><tr><td align="center"></td><td align="center"></td></tr><tr><td align="center">Phone: +45 4525 7347</td><td></td><td align="center">+46 46 222 3683</td></tr><tr><td align="center">Email: <a href="mailto:and@dtv.dk">and@dtv.dk</a></td><td></td><td align="center">Email: <a href="mailto:sigfrid.lundberg@lub.lu.se">sigfrid.lundberg@lub.lu.se</a></td></tr></table><h3>Abstract</h3></center><blockquote><i>In an attempt to implement a regional search engine
+S-221 00 Lund, Sweden</td></tr><tr><td align="center"></td><td align="center"></td></tr><tr><td align="center">Phone: +45 4525 7347</td><td></td><td align="center">+46 46 222 3683</td></tr></table><h3>Abstract</h3></center><blockquote><i>In an attempt to implement a regional search engine
 we have created an open, metadata aware system for distributed,
 collaborative WWW-indexing. The system has three main components: a
 <b>harvester</b> (for collecting information), a <b>database</b>
