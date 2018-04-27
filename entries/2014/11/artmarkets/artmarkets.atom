@@ -25,20 +25,10 @@
       triggered me to continue. It never happened, though.</p>
 
       <p>19 August 2014 marked the 175th anniversary of the art of
-      photography. At least if we see the release of <a
-      href="http://en.wikipedia.org/wiki/Daguerreotype#Invention">Daguerre's
+      photography. At least if we see the release of <a href="http://en.wikipedia.org/wiki/Daguerreotype#Invention">Daguerre's
       patent</a> as the starting point of photography. Of those 175
-      years, about 50 were good years for photojournalism. <a
-      href="http://en.wikipedia.org/wiki/Photojournalism#Golden_age">Its
+      years, about 50 were good years for photojournalism. <a href="http://en.wikipedia.org/wiki/Photojournalism#Golden_age">Its
       Golden Age started in the 1930s</a>.</p>
-
-      <blockquote>
-	<p>The 'Golden Age of Photojournalism' is often considered to be roughly
-	the 1930s through the 1950s. It was made possible by the
-	development of the commercial 35mm Leica camera in 1925, and the first
-	flash bulbs between 1927 and 1930 that allowed the journalist true
-	flexibility in taking pictures.</p>
-      </blockquote>
 
       <div style="width:50%;float:left;margin:1%;">
 	<a title="" href="/entries/2014/11/artmarkets/bubble_in_the_art_market_22.png">
@@ -56,7 +46,17 @@
 	</p>
       </div>
 
-      <p>The glossy magazine continued another 20 years, though. <a href="http://en.wikipedia.org/wiki/Photojournalism#Decline">But
+      <blockquote>
+	<p>The 'Golden Age of Photojournalism' is often considered to be roughly
+	the 1930s through the 1950s. It was made possible by the
+	development of the commercial 35mm Leica camera in 1925, and the first
+	flash bulbs between 1927 and 1930 that allowed the journalist true
+	flexibility in taking pictures.</p>
+      </blockquote>
+
+
+      
+      <p>The glossy magazines continued another 20 years, though. <a href="http://en.wikipedia.org/wiki/Photojournalism#Decline">But
       then</a>:</p>
 
       <blockquote>
@@ -93,13 +93,22 @@
 
       <h3>The Photograph as Contemporary Art</h3>
 
-      <p>Be that as it may, but the curators has recently been even more
-      inclined to summarize their stories of Swedish photography in a number
-      of retrospective exhibitions here in Sweden. There have also been group
-      exhibitions following some threads from the past into the present. Less
-      than half a year ago there was one opening at Moderna Malmö which has
-      now moved the Stockholm head office, entitled <em>A WAY OF LIFE: Swedish
-      photography from Christer Strömholm until Today</em>.</p>
+      <p>Be that as it may, but the curators has recently been even
+      more inclined to summarize their stories of Swedish photography
+      in a number of retrospective exhibitions here in Sweden. There
+      have also been group exhibitions following some threads from the
+      past into the present. Less than half a year ago there was one
+      opening at Moderna Malmö which has now moved the Stockholm head
+      office, entitled <em>A WAY OF LIFE: Swedish photography from
+      Christer Strömholm until Today</em>.</p>
+      
+      <p>The whole idea of this uncompleted entry is to correlate the
+      demise of the glossy magazine with rise of photography as an art
+      form, and how the prices of photography follows the ones in art
+      into the hypothetical bubbles of the western economies.</p>
+
+      <p>As usual the reality isn't as easy to grasp as you believe
+      when you start formulating the hypotheses.</p>
 
       <h3>Addendum</h3>
       
@@ -108,8 +117,7 @@
       Ubuntu forced me to migrate my environment, and when that was
       done there was no energy left for what is importan: Writing and
       making photographs. My attention was drawn in other directions,
-      the most important one was the social media <a
-      href="https://twitter.com/sigfridlundberg">notably twitter</a>
+      the most important one was the social media <a href="https://twitter.com/sigfridlundberg">notably twitter</a>
       which didn't require a whole computer and permitted me to sit
       and participate in the global exchange of fast food like content.</p>
 
@@ -163,7 +171,7 @@
   <category label="photography" term="Photography"/>
   <category label="economics" term="Economics"/>
   <category label="essays" term="Essays"/>
-  <updated>2017-03-16T16:48:27+01:00</updated>
+  <updated>2018-04-27T10:19:33+01:00</updated>
   <id>http://www.sigfrid-lundberg.se/entries/2014/11/artmarkets/</id>
   <!-- $Id$ -->
 </entry>
