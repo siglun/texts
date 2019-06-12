@@ -22,14 +22,14 @@ title="default" ?>
       <para>I was born 1956.</para>
 
       <para>1975 I completed Gymnasium (preparatory
-      highschool).</para>
+      high school).</para>
 
       <para>1979 B. Sc.  in Ecology together with other
-      biological subjects and inorganic and physical chemsitry at Lund
+      biological subjects and inorganic and physical chemistry at Lund
       university.</para>
 
       <para>After exam I went directly to graduate school. Completed
-      Ph. D. in Zoology 1985 with a dissertation within computational
+      PhD. D. in Zoology 1985 with a dissertation within computational
       and theoretical population biology and evolutionary
       ecology.</para>
       <para>During 1986 I was Post-Doc at Parasite Epidemiology
@@ -74,7 +74,7 @@ title="default" ?>
 	  (again) shell, Ruby (also on rails) and Perl. For what it's
 	  worth now I am an expert on XML technologies. More on that
 	  below. I can do C and PHP. In the past I was fluent in
-	  Pascal and Fortran. I have never really mastered Python or
+	  Pascal and FORTRAN. I have never really mastered Python or
 	  Lisp.</para>
 	</listitem>
 
@@ -104,14 +104,14 @@ title="default" ?>
 
 	<listitem>
 
-	  <para><emphasis>Digitalisering</emphasis>:</para>
+	  <para><emphasis>Digitizing the heritage</emphasis>:</para>
 
 	  <itemizedlist>
 
 	    <listitem>
 
 	      <para><emphasis>The Guaman Poma Web Site</emphasis>:
-	      Guaman Poma was an Inka noble man and his work
+	      Guaman Poma was an Inca noble man and his work
 	      <emphasis>El Primer Nueva Corónica Y Buen
 	      Gobierno</emphasis> is most likely the only preserved
 	      extensive text describing the Spanish colonialism from
@@ -132,7 +132,7 @@ title="default" ?>
 	    
 	    <listitem>
 	      <para><emphasis>Sjauiga</emphasis> an attempt to migrate
-	      legacy digitalised objects to a newer portable platform,
+	      legacy digitized objects to a newer portable platform,
 	      based on a XML web service delivering content in METS
 	      format from a old Oracle database. The platform contains
 	      more than 1500 objects.<footnoteref
@@ -160,8 +160,8 @@ title="default" ?>
 	  technologies. The alternative formats are still (even 2019)
 	  more or less bad jokes. The longer and larger and more
 	  complex, the bigger the challenge and the greater the
-	  interest. For most of our projects we use Text Encoding Initiative
-	  documents.</para>
+	  interest. For most of our projects we use Text Encoding
+	  Initiative documents.</para>
 
 	  <para>I have close to twenty years experience using XSLT,
 	  XPath, XML Document Object Model (DOM), XQuery language.</para>
@@ -175,7 +175,7 @@ title="default" ?>
 
 	<listitem>
 	  <para><emphasis>Text search and retrieval</emphasis>: Prefer
-	  Apache SOLR and Lucene over Oracle Text and My SQL fulltext
+	  Apache SOLR and Lucene over Oracle Text and My SQL full text
 	  indexing.
 	  </para>
 	</listitem>
@@ -244,7 +244,7 @@ title="default" ?>
       <title>
 	<ulink
 	    url="http://www.sigfrid-lundberg.se/2001/studera.nu/documentation/studera.pdf">Technical
-	deescription of the Studera.Nu search engine: Harvesting policies,
+	description of the Studera.Nu search engine: Harvesting policies,
 	maintenance and software used</ulink>
       </title>
       <abstract>
