@@ -19,15 +19,20 @@ title="default" ?>
     <sect2 id="prehistory">
       <title>Education and scientific carrier</title>
 
-      <para>I was born 1956. 1975 I completed Gymnasium (preparatory
-      highschool). 1979 B. Sc.  in Ecology together with other
+      <para>I was born 1956.</para>
+
+      <para>1975 I completed Gymnasium (preparatory
+      highschool).</para>
+
+      <para>1979 B. Sc.  in Ecology together with other
       biological subjects and inorganic and physical chemsitry at Lund
       university.</para>
 
       <para>After exam I went directly to graduate school. Completed
       Ph. D. in Zoology 1985 with a dissertation within computational
       and theoretical population biology and evolutionary
-      ecology. During 1986 I was Post-Doc at Parasite Epidemiology
+      ecology.</para>
+      <para>During 1986 I was Post-Doc at Parasite Epidemiology
       Research Group, Dept. of Pure and Applied Biology, Imperial
       College, London. Thereafter I stayed within Academia until I
       became Docent in Theoretical ecology 1995.</para>
@@ -44,45 +49,45 @@ title="default" ?>
     <sect2 id="experience">
       <title>R &amp; D within the library sector</title>
 
-      <para>Since 1995 I've been working with R &amp; D within the
-      library sector. Started working at <emphasis>NetLab</emphasis>,
-      the development department of Lund university library.  The
-      NetLab disappeared when we became part of the
-      <emphasis>University Librarian's Office</emphasis> in Lund. From
-      2005 I work at <emphasis>Royal Danish Library</emphasis>,
-      Copenhagen.</para>
+      <para>Since 1995 I've been working with R &amp; D within digital
+      libraries. Joined <emphasis>NetLab</emphasis> that year, the
+      development department of Lund university library.  NetLab
+      disappeared when we became part of the <emphasis>University
+      Librarian's Office</emphasis> in Lund. Less research and more
+      development.</para>
+
+      <para>From 2005 I work at <emphasis>Royal Danish
+      Library</emphasis>, Copenhagen.</para>
 
       <para>I do just about every kind of development you can do at a
       really big library. Most of what I've done is related to
-      digitization of our collections and the creation of digital
-      cultural heritage objects. I try in vain to avoid the library
-      catalogue. A more detailed list of my experience could look like
-      this:</para>
+      digitization of our collections to provide digital access to
+      them. We model and create of digital cultural heritage
+      objects. I try in vain to avoid the library catalogue. A more
+      detailed list of my experience could look like this:</para>
 
       <orderedlist>
 
 	<listitem>
 	  <para><emphasis>Programming</emphasis>: JAVA is my preferred
-	  programming environment. I also Bourne (again) shell, Ruby
-	  (on rails) and Perl. For what it's worth now I am an expert
-	  on XML technologies and in particular XSLT and XQuery. I can
-	  do C and PHP. In the past I was fluent in Pascal and
-	  Fortran. I have never really mastered Python or Lisp.</para>
+	  programming environment for larger projects. I also Bourne
+	  (again) shell, Ruby (also on rails) and Perl. For what it's
+	  worth now I am an expert on XML technologies. More on that
+	  below. I can do C and PHP. In the past I was fluent in
+	  Pascal and Fortran. I have never really mastered Python or
+	  Lisp.</para>
 	</listitem>
 
 	<listitem>
-	  <para><emphasis>Söktjänster för webbresurser</emphasis>: I samband
-	  härmed har jag erfarenhet i att bygga robotbaserade index,
-	  ämnesportaler/länkskafferier och olika former av metadatabaserade
-	  sökindex. Exempel på tjänster och projekt är Nordiskt Webbindex
+	  <para><emphasis>Search engines for the Web around 1995</emphasis>: I have
+	  developed a harvester and built search indices,
+	  subject base information gateways and metadata based
+	  databases. Early on we built one called Nordic Web Index
 	  <footnoteref linkend="nwi"/>, Desire <footnoteref linkend="www7"/>,
 	  Safari <footnoteref linkend="safari"/>, Studera.Nu <footnoteref
-	  linkend="studera"/>.</para>
-
-	  <para>Together with other libraries and academic networks,
-	  NetLab built web search engines.  I was an early implementer
-	  of what is now referred to as semantic web.  We combined
-	  metadata searching with with full text web search. An idea
+	  linkend="studera"/>. These were a early precursors
+	  of what is now referred to as semantic web. We combined
+	  metadata searching with with full text web search, an idea
 	  that is mainly dead now. In connection with this I was
 	  engaged in the Dublin Core Metadata Initiative (DCMI). I
 	  left the DCMI Advisory Board 2007.  <footnoteref
@@ -99,9 +104,7 @@ title="default" ?>
 
 	<listitem>
 
-	  <para><emphasis>Digitalisering</emphasis>. Tillsammans med kollegor
-	  vid Lunds Universitet och Det Kongelige Bibliotek har jag med verkat
-	  i ett antal. Jag vill i synnerhet framhäva följande:</para>
+	  <para><emphasis>Digitalisering</emphasis>:</para>
 
 	  <itemizedlist>
 
@@ -122,7 +125,7 @@ title="default" ?>
 	    </listitem>
 
 	    <listitem>
-	      <para><emphasis>Arkiv før dansk litteratur</emphasis>
+	      <para><emphasis>Archive for Danish Literature</emphasis>
 	      <footnoteref linkend="adl"/>
 	      </para>
 	    </listitem>
@@ -137,9 +140,13 @@ title="default" ?>
 	    </listitem>
 
 	    <listitem>
-	      <para>The now defunct <emphasis>S:t Laurentius Digital Manuscript
-	      Library</emphasis><footnoteref linkend="laurentius"/>. I described the service at DRH 2002<footnoteref linkend="drh2002"/>
-	      and wrote a paper about it.<footnoteref linkend="excursion"/>.</para>
+	      <para>The now defunct <emphasis>S:t Laurentius Digital
+	      Manuscript Library</emphasis><footnoteref
+	      linkend="laurentius"/>. I described the service at DRH
+	      2002<footnoteref linkend="drh2002"/> and wrote a paper
+	      about it.<footnoteref linkend="excursion"/>. This
+	      service was introduced me to the area of computing
+	      called Digital Humanities.</para>
 	    </listitem>
 	  </itemizedlist>
 	</listitem>
@@ -178,7 +185,8 @@ title="default" ?>
 	  built an extensive infrastructure for indexing
 	  long texts based on originally Lucene and later SOLR. </para>
 
-	  <para>Document are typically indexed down to paragraph (for prose), strophe (poetry) and dialogue (scenic arts).</para>
+	  <para>Document are typically indexed down to paragraph (for
+	  prose), strophe (poetry) and dialogue (scenic arts).</para>
 	</listitem>
 
       </orderedlist>
