@@ -1,0 +1,355 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<!DOCTYPE article PUBLIC "-//OASIS//DTD DocBook XML V4.1.2//EN"
+"http://www.oasis-open.org/docbook/xml/4.1.2/docbookx.dtd" [
+]>
+<?xml-stylesheet
+href="/xml-style-library/db_special.xsl"
+type="text/xsl"
+media="screen"
+title="default" ?>
+
+<article lang="sv">
+  <articleinfo>
+    <title>Brief Curriculum Vitae: Sigfrid Lundberg</title>
+  </articleinfo>
+
+  <sect1  id="top">
+    <title>Brief Curriculum Vitae: Sigfrid Lundberg</title>
+
+    <sect2 id="prehistory">
+      <title>Education and scientific carrier</title>
+
+      <para>I was born 1956. 1975 I completed Gymnasium (preparatory
+      highschool). 1979 B. Sc.  in Ecology together with other
+      biological subjects and inorganic and physical chemsitry at Lund
+      university.</para>
+
+      <para>After exam I went directly to graduate school. Completed
+      Ph. D. in Zoology 1985 with a dissertation within computational
+      and theoretical population biology and evolutionary
+      ecology. During 1986 I was Post-Doc at Parasite Epidemiology
+      Research Group, Dept. of Pure and Applied Biology, Imperial
+      College, London. Thereafter I stayed within Academia until I
+      became Docent in Theoretical ecology 1995.</para>
+
+      <para>This CV is about what I did after 1995.</para>
+
+    </sect2>
+
+    <sect2 id="publications">
+      <title>Publications</title>
+      <para>See <ulink url="publications.html">list of publications </ulink>.</para>
+    </sect2>
+
+    <sect2 id="experience">
+      <title>R &amp; D within the library sector</title>
+
+      <para>Since 1995 I've been working with R &amp; D within the
+      library sector. Started working at <emphasis>NetLab</emphasis>,
+      the development department of Lund university library.  The
+      NetLab disappeared when we became part of the
+      <emphasis>University Librarian's Office</emphasis> in Lund. From
+      2005 I work at <emphasis>Royal Danish Library</emphasis>,
+      Copenhagen.</para>
+
+      <para>I do just about every kind of development you can do at a
+      really big library. Most of what I've done is related to
+      digitization of our collections and the creation of digital
+      cultural heritage objects. I try in vain to avoid the library
+      catalogue. A more detailed list of my experience could look like
+      this:</para>
+
+      <orderedlist>
+
+	<listitem>
+	  <para><emphasis>Programming</emphasis>: JAVA is my preferred
+	  programming environment. I also Bourne (again) shell, Ruby
+	  (on rails) and Perl. For what it's worth now I am an expert
+	  on XML technologies and in particular XSLT and XQuery. I can
+	  do C and PHP. In the past I was fluent in Pascal and
+	  Fortran. I have never really mastered Python or Lisp.</para>
+	</listitem>
+
+	<listitem>
+	  <para><emphasis>Söktjänster för webbresurser</emphasis>: I samband
+	  härmed har jag erfarenhet i att bygga robotbaserade index,
+	  ämnesportaler/länkskafferier och olika former av metadatabaserade
+	  sökindex. Exempel på tjänster och projekt är Nordiskt Webbindex
+	  <footnoteref linkend="nwi"/>, Desire <footnoteref linkend="www7"/>,
+	  Safari <footnoteref linkend="safari"/>, Studera.Nu <footnoteref
+	  linkend="studera"/>.</para>
+
+	  <para>Together with other libraries and academic networks,
+	  NetLab built web search engines.  I was an early implementer
+	  of what is now referred to as semantic web.  We combined
+	  metadata searching with with full text web search. An idea
+	  that is mainly dead now. In connection with this I was
+	  engaged in the Dublin Core Metadata Initiative (DCMI). I
+	  left the DCMI Advisory Board 2007.  <footnoteref
+	  linkend="dcmi"/>.</para>
+	</listitem>
+
+	<listitem>
+	  <para><emphasis>MerMEId<footnoteref linkend="mermeid"/></emphasis>
+	  System for scientific cataloging of sheet music using Music
+	  Encoding Initiative (MEI) XML format <footnoteref linkend="mei"/>.
+	  </para>
+	</listitem>
+
+
+	<listitem>
+
+	  <para><emphasis>Digitalisering</emphasis>. Tillsammans med kollegor
+	  vid Lunds Universitet och Det Kongelige Bibliotek har jag med verkat
+	  i ett antal. Jag vill i synnerhet framhäva följande:</para>
+
+	  <itemizedlist>
+
+	    <listitem>
+
+	      <para><emphasis>The Guaman Poma Web Site</emphasis>:
+	      Guaman Poma was an Inka noble man and his work
+	      <emphasis>El Primer Nueva Corónica Y Buen
+	      Gobierno</emphasis> is most likely the only preserved
+	      extensive text describing the Spanish colonialism from
+	      the perspective of the Indians.<footnoteref
+	      linkend="poma"/>.</para>
+
+	      <para>During 2008 this single work had about 250 000
+	      visitors (defined as the number of users staying more
+	      than 30 minutes).</para>
+	      
+	    </listitem>
+
+	    <listitem>
+	      <para><emphasis>Arkiv før dansk litteratur</emphasis>
+	      <footnoteref linkend="adl"/>
+	      </para>
+	    </listitem>
+	    
+	    <listitem>
+	      <para><emphasis>Sjauiga</emphasis> an attempt to migrate
+	      legacy digitalised objects to a newer portable platform,
+	      based on a XML web service delivering content in METS
+	      format from a old Oracle database. The platform contains
+	      more than 1500 objects.<footnoteref
+	      linkend="sjauiga_specimen"/> </para>
+	    </listitem>
+
+	    <listitem>
+	      <para>The now defunct <emphasis>S:t Laurentius Digital Manuscript
+	      Library</emphasis><footnoteref linkend="laurentius"/>. I described the service at DRH 2002<footnoteref linkend="drh2002"/>
+	      and wrote a paper about it.<footnoteref linkend="excursion"/>.</para>
+	    </listitem>
+	  </itemizedlist>
+	</listitem>
+
+	<listitem>
+	  <para><emphasis>XML and document and text
+	  technologies</emphasis>. One of my deepest interests is the
+	  search and navigation of literary text.</para>
+
+	  <para>For such texts, basically everyone is still using XML
+	  technologies. The alternative formats are still (even 2019)
+	  more or less bad jokes. The longer and larger and more
+	  complex, the bigger the challenge and the greater the
+	  interest. For most of our projects we use Text Encoding Initiative
+	  documents.</para>
+
+	  <para>I have close to twenty years experience using XSLT,
+	  XPath, XML Document Object Model (DOM), XQuery language.</para>
+	</listitem>
+
+	<listitem>
+	  <para><emphasis>Database technologies</emphasis>: Have used
+	  Oracle, MySQL and SQLite. I have some experience with
+	  Hibernate and its query language HQL.</para>
+	</listitem>
+
+	<listitem>
+	  <para><emphasis>Text search and retrieval</emphasis>: Prefer
+	  Apache SOLR and Lucene over Oracle Text and My SQL fulltext
+	  indexing.
+	  </para>
+	</listitem>
+
+	<listitem>
+	  <para><emphasis>Indexing of XML document</emphasis>: I have
+	  built an extensive infrastructure for indexing
+	  long texts based on originally Lucene and later SOLR. </para>
+
+	  <para>Document are typically indexed down to paragraph (for prose), strophe (poetry) and dialogue (scenic arts).</para>
+	</listitem>
+
+      </orderedlist>
+    </sect2>
+
+    <sect2 id="otherinfo">
+      <title>Other information</title>
+
+      <para>I am married and have two adult children and two grandchildren.</para>
+
+    </sect2>
+
+  </sect1>
+
+  <bibliography>
+    <title>Notes</title>
+
+    <biblioentry id="nwi">
+      <title><ulink url="http://www.sigfrid-lundberg.se/1996/nwi/nwi.pdf">NWI - En
+      nordisk söktjänst för Worldwide web</ulink></title>
+    </biblioentry>
+
+    <biblioentry id="www7">
+      <author>
+	<firstname>Anders</firstname>
+	<surname>Ardö</surname>
+      </author>
+      <author>
+	<firstname>Sigfrid</firstname>
+	<surname>Lundberg</surname>
+      </author>
+      <title>
+	<ulink url="http://www.sigfrid-lundberg.se/1998/www7/">A regional
+	distributed WWW search and indexing service - the DESIRE
+	way</ulink>
+      </title>
+    </biblioentry>
+
+    <biblioentry id="safari">
+      <author>
+	<firstname>Sigfrid</firstname>
+	<surname>Lundberg</surname>
+      </author>
+      <title>
+	<ulink url="http://www.sigfrid-lundberg.se/1998/safari/cris.pdf">En arkitektur
+	för ett system för spridning av forskningsinformaton</ulink>
+      </title>
+    </biblioentry>
+
+    <biblioentry id="studera">
+      <author>
+	<firstname>Sigfrid</firstname>
+	<surname>Lundberg</surname>
+      </author>
+      <title>
+	<ulink
+	    url="http://www.sigfrid-lundberg.se/2001/studera.nu/documentation/studera.pdf">Technical
+	deescription of the Studera.Nu search engine: Harvesting policies,
+	maintenance and software used</ulink>
+      </title>
+      <abstract>
+	<para>NetLab utvecklade första versionen av söksystemet i <ulink url="http://www.studera.nu">Studera.Nu</ulink> under två år</para>
+      </abstract>
+    </biblioentry>
+
+    <biblioentry id="dcmi">
+      <title>
+	<ulink
+	    url="http://dublincore.org/about/organization/formercommitteemembers.shtml">Former
+      DCMI Committee Members</ulink></title>
+    </biblioentry>
+
+    <biblioentry id="smn">
+      <author>
+	<firstname>Sigfrid</firstname>
+	<surname>Lundberg</surname>
+      </author>
+      <title><ulink
+		 url="http://www.sigfrid-lundberg.se/1997/SMN_metadata/smn_metadata.pdf">A
+      proposal for metadata for use in the Swedish
+      Enviro-Net</ulink></title>
+    </biblioentry>
+
+    <biblioentry id="kulturarw">
+      <author>
+	<firstname>Sigfrid</firstname>
+	<surname>Lundberg</surname>
+	<affiliation>
+	<orgname>Lunds Universitet</orgname></affiliation>
+      </author>
+      <author>
+	<firstname>Allan</firstname>
+	<surname>Arvidson</surname>
+	<affiliation>
+	<orgname>The Royal Library (Sweden)</orgname></affiliation>
+      </author>
+      <title><ulink
+		 url="http://www.sigfrid-lundberg.se/1998/KulturArw3/archive-format-1.rtf">The
+      Kulturarw3 Archiving Format</ulink></title>
+    </biblioentry>
+
+    <biblioentry id="laurentius">
+      <title>
+	<ulink url="http://laurentius.ub.lu.se/">S:t Laurentius Digital
+      Manuscript Library</ulink></title>
+    </biblioentry>
+
+    <biblioentry id="drh2002">
+      <title>
+	<ulink
+	    url="http://www.drh2002.lib.ed.ac.uk/abstracts.html#170">St
+	Laurentius Digital Manuscript Library: An Excursion Along The Border
+	Between Metadata For Resource Discovery And For Resource
+	Description</ulink>
+      </title>
+    </biblioentry>
+
+    <biblioentry id="sjauiga_specimen">
+      <title>Sjauiga</title>
+      <abstract>
+	<para>For example: <ulink
+	url="http://www.kb.dk/permalink/2006/manus/42/">GKS 182 2°: Vita
+	Anselmi. Vita Malachiae. Sermo</ulink></para>
+      </abstract>
+
+    </biblioentry>
+
+    <biblioentry id="poma">
+      <title><ulink
+		 url="http://www.kb.dk/permalink/2006/poma/info/en/frontpage.htm">The
+      Guaman Poma Web Site</ulink></title>
+    </biblioentry>
+
+    <biblioentry id="excursion">
+      <author>
+	<firstname>Sigfrid</firstname>
+	<surname>Lundberg</surname>
+      </author>
+      <title>
+	<ulink
+	    url="http://laurentius.ub.lu.se/search/presentation/laurentius.pdf">S:t
+	Laurentius Digital Manuscript Library: An excursion along the border
+      between resource discovery and resource description</ulink></title>
+    </biblioentry>
+
+
+    <biblioentry id="adl">
+      <title>
+	<ulink url="http://www.adl.dk">Arkiv før dansk litteratur</ulink>
+      </title>
+      <abstract>
+	<para>Jag har inte varit med och utvecklat den här tjänsten, däremot
+	satte jag inmatningsgränsnittet i stånd efter en tid av förfall</para>
+      </abstract>
+    </biblioentry>
+
+    <biblioentry id="mei">
+      <title>
+	<ulink url="http://music-encoding.org/home">Music Encoding
+	Initiative</ulink>
+      </title>
+    </biblioentry>
+
+    <biblioentry id="mermeid">
+      <authorblurb>
+	<para>Axel Teich Geertinger &amp; Sigfrid Lundberg</para>
+      </authorblurb>
+      <title>
+	<ulink url="http://labs.kb.dk/editor/">Metadata Editor and Repository for MEI Data</ulink>
+      </title>
+    </biblioentry>
+
+  </bibliography>
+</article>
