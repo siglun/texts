@@ -37,14 +37,9 @@
 	</title>
 
 
-	<link href="http://feeds.feedburner.com/SigfridLundbergsStuff?format=xml"
+	<link href="https://feeds.feedburner.com/SigfridLundbergsStuff?format=xml"
 	      type="application/atom+xml"
 	      title="Sigfrid Lundberg's Stuff"
-	      rel="alternate"/>
-
-	<link href="http://sigfridlundbergsstuff.disqus.com/latest.rss"
-	      type="application/rss+xml"
-	      title="Latest Comments"
 	      rel="alternate"/>
 
 	<meta http-equiv="Content-Type"
@@ -55,15 +50,7 @@
 	  </xsl:text>
 	</script>
 
-	<xsl:if test="$debug">
-	  <script type="text/javascript">
-	    <xsl:text>
-	      var disqus_developer=1;
-	    </xsl:text>
-	  </script>
-	</xsl:if>
 
-	<meta name="viewport" content="width=device-width, initial-scale=1"/>
 
 	<meta http-equiv="Content-Type" 
 	      content="text/html;charset=UTF-8"/>
@@ -141,16 +128,6 @@
 	      </xsl:text>
 	    </div>
 
-	    <div id="disqus_thread">
-	      <xsl:text>
-	      </xsl:text>
-	    </div>
-	    <p style="margin-left:+1%;">
-	      <a href="http://disqus.com" class="dsq-brlink">blog comments powered
-	      by <span class="logo-disqus">Disqus</span>
-	      </a>
-	    </p>
-
 	  </div>
 
 	  <div class="col span_1_of_4">
@@ -162,19 +139,12 @@
 		<a href="/"><strong>Home</strong></a>
 	      </p>
 	      <p>
-		<a href="http://feeds.feedburner.com/SigfridLundbergsStuff?format=xml"
+		<a href="https://feeds.feedburner.com/SigfridLundbergsStuff?format=xml"
 		   type="application/atom+xml"
 		   class="feed-link">
 		  <img src="/images/Newsfeed-Atom.png" 
 		       alt="Subscribe to Stuff from Sigfrid Lundberg"
 		       border="0"/>Subscribe to my stuff</a><br/>
-
-		  <a href="http://sigfridlundbergsstuff.disqus.com/latest.rss"
-		     type="application/rss+xml"
-		     class="feed-link">
-		    <img src="/images/Newsfeed-Atom.png" 
-			 alt="Subscribe to Stuff from Sigfrid Lundberg"
-			 border="0"/>Subscribe to discussion feed</a>
 
 	      </p>
 	      <xsl:comment>#include virtual="/subjects.xml" </xsl:comment>
@@ -183,10 +153,10 @@
 	      <p>
 		<small>
 		  <a rel="license" 
-		     href="http://creativecommons.org/licenses/by-sa/3.0/">
+		     href="https://creativecommons.org/licenses/by-sa/3.0/">
 		    <img alt="Creative Commons License" 
 			 style="border-width:0" 
-			 src="http://i.creativecommons.org/l/by-sa/3.0/88x31.png" />
+			 src="https://i.creativecommons.org/l/by-sa/3.0/88x31.png" />
 		  </a>
 		  <br />
 		  This entry (<em><span xmlns:dct="http://purl.org/dc/terms/"
@@ -214,7 +184,6 @@
 
 	</div>
 
-	<xsl:comment>#include virtual="/js/disqus_include.html" </xsl:comment>
 	<xsl:comment>#include virtual="/js/urchin.js" </xsl:comment>
 
       </xsl:element>

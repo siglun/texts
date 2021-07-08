@@ -10,8 +10,8 @@
   <content type="xhtml">
     <div xmlns="http://www.w3.org/1999/xhtml">
       <div style="width: 50%;margin:0.5em;float:left;">
-	<a href="http://www.flickr.com/photos/sigfridlundberg/9049172247/" title="L1003361_v1 by Sigfrid Lundberg, on Flickr">
-	  <img src="http://farm8.staticflickr.com/7458/9049172247_cbbc45da4a_z.jpg" width="100%"  alt="L1003361_v1"/>
+	<a href="https://www.flickr.com/photos/sigfridlundberg/9049172247/" title="L1003361_v1 by Sigfrid Lundberg, on Flickr">
+	  <img src="https://farm8.staticflickr.com/7458/9049172247_cbbc45da4a_z.jpg" width="100%"  alt="L1003361_v1"/>
 	</a>
       </div>
       <p>I've written some portraits of the lenses I've been using most. One
@@ -35,5 +35,5 @@
   <category label="lenses" term="Lenses"/>
   <category label="photography" term="Photography"/>
   <updated>2013-09-09T20:38:33+01:00</updated>
-  <id>http://www.sigfrid-lundberg.se/entries/2013/06/evenwider/</id>
+  <id>https://sigfrid-lundberg.se/entries/2013/06/evenwider/</id>
 </entry>

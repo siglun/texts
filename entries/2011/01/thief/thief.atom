@@ -10,15 +10,16 @@
     <div xmlns="http://www.w3.org/1999/xhtml">
 
       <p>Around 2003 I began the political foot work to establish <a
-      href="http://www.ediffah.org/">Ediffah</a>, a project aiming at
-      establishing an union catalog for archival collections at the larger
-      Swedish research libraries. As usual when you're up to something like
-      that you have to talk to and visit the right people.</p>
+      href="https://web.archive.org/web/*/http://www.ediffah.org/">Ediffah</a>,
+      a project aiming at establishing an union catalog for archival
+      collections at the larger Swedish research libraries. As usual
+      when you're up to something like that you have to talk to and
+      visit the right people.</p>
 
       <div style="width:500px;float:right;margin-left:0.5em; margin-right:0.2em;">
-	<a href="http://www.flickr.com/photos/sigfridlundberg/5351656340/" 
+	<a href="https://www.flickr.com/photos/sigfridlundberg/5351656340/" 
 	   title="P1133870_adjusted.JPG by Sigfrid Lundberg, on Flickr">
-	<img src="http://farm6.static.flickr.com/5283/5351656340_18ece5cce0.jpg" 
+	<img src="https://farm6.static.flickr.com/5283/5351656340_18ece5cce0.jpg" 
 	     style="width:100%;" 
 	     alt="P1133870_adjusted.JPG" />
 	</a>
@@ -26,7 +27,7 @@
 
       <p>One of the right people, in this case, was the Head of Manuscript and
       Rare books collections at the <a
-      href="http://www.kb.se/english/">National Library of Sweden</a>
+      href="https://www.kb.se/in-english.html/">National Library of Sweden</a>
       (KB). Let's call him John, since that is what he is called in the TV
       series that came up recently on Swedish National Television.</p>
 
@@ -54,8 +55,8 @@
       nation.</p>
 
       <div style="width:380px;float:left;margin-left:0.2em; margin-right:0.5em;">
-	<a href="http://www.expressen.se/nyheter/1.156404/har-bodde-boktjuven">
-	  <img src="http://cdnstatic.expressen.se/polopoly/bilder/2007/02/09/1.156396TS1283781772343_defaultImage.jpg" 
+	<a href="https://www.expressen.se/nyheter/har-bodde-boktjuven/">
+	  <img src="https://static.cdn-expressen.se/images/cb/e1/cbe1e076ac70c3337432209c57c0471e/375@60.jpg" 
 	       alt="Here lived the book thief"
 	       style="width:375px;"/>
 	</a>
@@ -83,6 +84,6 @@
   <category label="thelibrary" term="The Library"/>
   <category label="stories" term="Stories"/>
   <updated>2011-01-12T07:59:21+01:00</updated>
-  <id>http://www.sigfrid-lundberg.se/entries/2011/01/thief/</id>
+  <id>https://sigfrid-lundberg.se/entries/2011/01/thief/</id>
   <!-- $Id$ -->
 </entry>

@@ -10,8 +10,8 @@
     <div xmlns="http://www.w3.org/1999/xhtml">
 
       <div style="float: left; width: 240px; margin-left: 0.2em; margin-right: 0.5em;">
-	<a href="http://www.flickr.com/photos/sigfridlundberg/6340958317/" title="100% M by Sigfrid Lundberg, on Flickr">
-	  <img src="http://farm7.staticflickr.com/6229/6340958317_9c8b262e6c_m.jpg" width="240" height="180" alt="100% M"/>
+	<a href="https://www.flickr.com/photos/sigfridlundberg/6340958317/" title="100% M by Sigfrid Lundberg, on Flickr">
+	  <img src="https://farm7.staticflickr.com/6229/6340958317_9c8b262e6c_m.jpg" width="240" height="180" alt="100% M"/>
 	</a>
 
 	<p><small>Figure 1. Some of my current photographic equipment. All of
@@ -36,7 +36,7 @@
 	I acquired the Ricoh GXR Mount A12, also known as GXR-M. That body has
 	some advantages. It is M mount, i.e., I can use these lenses without
 	adapter. It is optimized for use together with manual lenses. For
-	instance, Ashwin Rao <a href="http://www.stevehuffphoto.com/2011/09/28/the-ricoh-gxr-a12-m-mount-module-review-by-ashwin-rao/">describes
+	instance, Ashwin Rao <a href="https://www.stevehuffphoto.com/2011/09/28/the-ricoh-gxr-a12-m-mount-module-review-by-ashwin-rao/">describes
 	how he is able to do manual focus</a> fast enough for sports
 	photography. That impressed me, and it the factor that settled the
 	issue for me. Focus peaking have become even more important for me
@@ -45,17 +45,17 @@
 
       <div style="float: right; width: 240px; margin-left: 0.2em; margin-right: 0.5em;">
 
-	<a href="http://www.flickr.com/photos/sigfridlundberg/6398818559/" title="20111125_001.jpg by Sigfrid Lundberg, on Flickr">
-	  <img src="http://farm8.staticflickr.com/7003/6398818559_c72bb06b70_m.jpg" width="240" height="180" alt="20111125_001.jpg"/>
+	<a href="https://www.flickr.com/photos/sigfridlundberg/6398818559/" title="20111125_001.jpg by Sigfrid Lundberg, on Flickr">
+	  <img src="https://farm8.staticflickr.com/7003/6398818559_c72bb06b70_m.jpg" width="240" height="180" alt="20111125_001.jpg"/>
 	</a>
 	<p><small>Figure 2. I can use Nikon F glass as efficiently as Leica M
 	lenses.</small></p>
       </div>
 
       <p>
-	It also has really good image quality.  <a href="http://www.luminous-landscape.com/essays/ricoh_lens_mount_a12.shtml" rel="nofollow">Sean Reid</a> was the one who convinced me that
+	It also has really good image quality.  <a href="https://www.luminous-landscape.com/essays/ricoh_lens_mount_a12.shtml" rel="nofollow">Sean Reid</a> was the one who convinced me that
 	anti-aliasing filters are detrimental for image quality.
-	Finally, the user interface is very well thought out. See <a href="http://www.luminous-landscape.com/reviews/cameras/ricoh_gxr_a12_field_report.shtml">Luminous Landscape's The field report</a>.
+	Finally, the user interface is very well thought out. See <a href="https://www.luminous-landscape.com/reviews/cameras/ricoh_gxr_a12_field_report.shtml">Luminous Landscape's The field report</a>.
       </p>
 
       <p>
@@ -74,5 +74,5 @@
   <category label="photography" term="Photography"/> 
   <category label="hardware" term="Hardware"/>
   <updated>2012-01-18T19:22:19+01:00</updated>
-  <id>http://www.sigfrid-lundberg.se/entries/2012/01/gxrm/</id>
+  <id>https://sigfrid-lundberg.se/entries/2012/01/gxrm/</id>
 </entry>
