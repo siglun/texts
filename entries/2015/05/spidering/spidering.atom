@@ -32,7 +32,7 @@
 
       <p>1996 släppte vi en public service sökrobot. <em><q>NWI -- En nordisk
       söktjänst för World Wide Web</q></em> (läs vår <a
-      href="http://sigfrid-lundberg.se/1996/nwi/nwi.pdf">press release från
+      href="https://sigfrid-lundberg.se/1996/nwi/nwi.pdf">press release från
       det året</a>).</p>
       
       <blockquote>
@@ -61,7 +61,7 @@
 
       <p>Ett intressant sammanträffande. Anders Ardö och jag själv publicerade
       våra erfarenheter i ett paper i 7th International Worldwide Web
-      Conference: <a href="http://www7.scu.edu.au/1900/com1900.htm" >A
+      Conference: <a href="https://sigfrid-lundberg.se/1998/www7/" >A
       regional distributed WWW search and indexing service</a>.</p>
 
       <p>Vid <em>samma</em> konferens publicerar Sergey Brin och Lawrence Page
@@ -85,5 +85,5 @@
   <dc:date>2015</dc:date>
   <category label="webindexing" term="Web indexing"/>
   <updated>2015-05-17T13:38:39+01:00</updated>
-  <id>http://www.sigfrid-lundberg.se/entries/2015/05/spidering/</id>
+  <id>https://sigfrid-lundberg.se/entries/2015/05/spidering/</id>
 </entry>
