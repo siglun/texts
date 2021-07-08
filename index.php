@@ -23,20 +23,10 @@
 
     <meta name="viewport" content="width=device-width, initial-scale=1"/>
 
-    <link href="http://feeds.feedburner.com/SigfridLundbergsStuff/?format=xml"
+    <link href="https://feeds.feedburner.com/SigfridLundbergsStuff/?format=xml"
 	  type="application/atom+xml"
 	  title="Sigfrid Lundberg's Stuff"
 	  rel="alternate"/>
-
-    <link rel="stylesheet" 
-	  href="http://www.google.com/cse/style/look/default.css" 
-	  type="text/css" />
-
-    <link href="http://sigfridlundbergsstuff.disqus.com/latest.rss"
-	  type="application/rss+xml"
-	  title="Latest Comments"
-	  rel="alternate"/>
-
     <?php
       $file = "./js/colorbox_include.html";
       if (file_exists($file)) {
@@ -77,26 +67,18 @@
       <div class="col span_1_of_4">
 
 	<p>
-	  <a href="http://feeds.feedburner.com/SigfridLundbergsStuff?format=xml"
+	  <a href="https://feeds.feedburner.com/SigfridLundbergsStuff?format=xml"
 	     type="application/atom+xml"
 	     class="feed-link">
 	    <img src="/images/Newsfeed-Atom.png" 
 		 alt="Subscribe to Stuff from Sigfrid Lundberg"
 		 border="0"/>Subscribe to my stuff</a><br/>
 
-	    <a href="http://sigfridlundbergsstuff.disqus.com/latest.rss"
-	       type="application/rss+xml"
-	       class="feed-link">
-	      <img src="/images/Newsfeed-Atom.png" 
-		   alt="Subscribe to Stuff from Sigfrid Lundberg"
-		   border="0"/>Subscribe to discussion feed
-	      </a><br/>
-
-	      <a href="http://www.flickriver.com/photos/sigfridlundberg/popular-interesting/">
+	      <a href="https://www.flickriver.com/photos/sigfridlundberg/popular-interesting/">
 		my photostream @ flickriver
 		</a><br/>
 
-		<a href="http://www.flickr.com/photos/sigfridlundberg/">
+		<a href="https://www.flickr.com/photos/sigfridlundberg/">
 		  my photostream @ flickr
 		</a>
 
@@ -118,16 +100,16 @@
 
 	<p>
 	  <a rel="license" 
-	     href="http://creativecommons.org/licenses/by-sa/3.0/">
+	     href="https://creativecommons.org/licenses/by-sa/3.0/">
 	    <img alt="Creative Commons License" 
 		 style="border-width:0" 
-		 src="http://i.creativecommons.org/l/by-sa/3.0/88x31.png" />
+		 src="https://i.creativecommons.org/l/by-sa/3.0/88x31.png" />
 	    </a><br />
 	    <span xmlns:dct="http://purl.org/dc/terms/" 
 		  property="dct:title">Sigfrid Lundberg's Stuff</span> is licensed under a 
 
 	    <a rel="license"
-	       href="http://creativecommons.org/licenses/by-sa/3.0/">Creative Commons
+	       href="https://creativecommons.org/licenses/by-sa/3.0/">Creative Commons
 	    Attribution-ShareAlike 3.0 Unported License</a>.
 	</p>
 
