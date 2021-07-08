@@ -5,7 +5,7 @@
   </author>
   <title>Sigfrid Lundberg's Stuff</title>
   <id>http://sigfrid-lundberg.se/files.atom</id>
-  <link rel="self" href="http://feeds.feedburner.com/SigfridLundbergsStuff?format=xml"/>
+  <link rel="self" href="https://feeds.feedburner.com/SigfridLundbergsStuff?format=xml"/>
   <updated>2006-06-08T00:03:00+01:00</updated>
   <!--
       $Revision$, last modified $Date$
@@ -28,7 +28,7 @@
     <category term="Harvesting" label="harvesting"/>
     <dc:date>1996</dc:date>
     <updated>2006-06-08T00:03:00+01:00</updated>
-    <id>http://www.sigfrid-lundberg.se/1996/nwi/nwi.pdf</id>
+    <id>https://sigfrid-lundberg.se/1996/nwi/nwi.pdf</id>
   </entry>
   <entry>
     <title>A proposal for metadata formats for use in the Swedish Enviro-Net</title>
@@ -47,7 +47,7 @@
     <category term="Z39.50" label="z3950"/>
     <dc:date>1997</dc:date>
     <updated>2006-06-08T00:04:00+01:00</updated>
-    <id>http://www.sigfrid-lundberg.se/1997/SMN_metadata/smn_metadata.pdf</id>
+    <id>https://sigfrid-lundberg.se/1997/SMN_metadata/smn_metadata.pdf</id>
   </entry>
   <entry>
     <title>Kulturnät Sverige</title>
@@ -65,7 +65,7 @@
     <updated>2009-06-08T00:05:00+01:00</updated>
     <category term="Digital collections" label="digitalcollections"/>
     <category term="Reviews" label="reviews"/>
-    <id>http://www.sigfrid-lundberg.se/1997/kultur_naet_sverige/</id>
+    <id>https://sigfrid-lundberg.se/1997/kultur_naet_sverige/</id>
   </entry>
   <entry>
     <title>The Kulturarw3 archiving format</title>
@@ -87,7 +87,7 @@
     <updated>2006-06-08T00:07:00+01:00</updated>
     <category term="Digital preservation" label="preservation"/>
     <category term="Harvesting" label="harvesting"/>
-    <id>http://www.sigfrid-lundberg.se/1998/KulturArw3/archive-format-1.rtf</id>
+    <id>https://sigfrid-lundberg.se/1998/KulturArw3/archive-format-1.rtf</id>
   </entry>
   <entry>
     <title>NWI II, An Enhanced Nordic Web index: Final report</title>
@@ -110,7 +110,7 @@
     <category term="Z39.50" label="z3950"/>
     <dc:date>1998</dc:date>
     <updated>2006-06-08T00:08:00+01:00</updated>
-    <id>http://www.sigfrid-lundberg.se/1998/nwi2/</id>
+    <id>https://sigfrid-lundberg.se/1998/nwi2/</id>
   </entry>
   <entry>
     <title>En arkitektur för ett distribuerat system för spridning av
@@ -132,7 +132,7 @@
     <category term="Z39.50" label="z3950"/>
     <dc:date>1998</dc:date>
     <updated>2006-06-08T00:10:00+01:00</updated>
-    <id>http://www.sigfrid-lundberg.se/1998/safari/cris.pdf</id>
+    <id>https://sigfrid-lundberg.se/1998/safari/cris.pdf</id>
   </entry>
   <entry>
     <title>A regional distributed WWW search and indexing service - the DESIRE
@@ -158,7 +158,7 @@
     <category term="Z39.50" label="z3950"/>
     <dc:date>1998</dc:date>
     <updated>2008-06-08T00:10:00+01:00</updated>
-    <id>http://www.sigfrid-lundberg.se/1998/www7/</id>
+    <id>https://sigfrid-lundberg.se/1998/www7/</id>
   </entry>
   <entry>
     <title>The Noble Art of Being Indexed or the Webmaster's Guide to
@@ -180,7 +180,7 @@
     <category term="Structural web design" label="structuralwebdesign"/>
     <dc:date>1999</dc:date>
     <updated>2006-06-09T00:11:00+01:00</updated>
-    <id>http://www.sigfrid-lundberg.se/1999/web_masters_guide/</id>
+    <id>https://sigfrid-lundberg.se/1999/web_masters_guide/</id>
   </entry>
   <entry>
     <title>Metadata harvesting</title>
@@ -197,7 +197,7 @@
     <category term="Z39.50" label="z3950"/>
     <dc:date>2000</dc:date>
     <updated>2006-06-09T15:11:00+01:00</updated>
-    <id>http://www.sigfrid-lundberg.se/2000/delft/</id>
+    <id>https://sigfrid-lundberg.se/2000/delft/</id>
   </entry>
   <entry>
     <title>Technical description of the Studera.Nu search engine Harvesting
@@ -220,7 +220,7 @@
     <category term="Metadata" label="metadata"/>
     <dc:date>2001</dc:date>
     <updated>2009-06-09T00:18:00+01:00</updated>
-    <id>http://www.sigfrid-lundberg.se/2001/studera.nu/documentation/studera.pdf</id>
+    <id>https://sigfrid-lundberg.se/2001/studera.nu/documentation/studera.pdf</id>
   </entry>
   <entry>
     <title>Lecture notes: S:t Laurentius Digital Manuscript Library</title>
@@ -244,7 +244,7 @@
     <category term="Digital humanities" label="ehumanities"/>
     <category term="Digitization" label="digitization"/>
     <updated>2009-06-11T00:06:00+01:00</updated>
-    <id>http://www.sigfrid-lundberg.se/2002/DRH2002/toc.html</id>
+    <id>https://sigfrid-lundberg.se/2002/DRH2002/toc.html</id>
   </entry>
   <entry>
     <title>S:t Laurentius Digital Manuscript Library: An excursion along the
@@ -269,7 +269,7 @@
     <category term="Digital humanities" label="ehumanities"/>
     <category term="Digitization" label="digitization"/>
     <updated>2009-06-11T00:19:00+01:00</updated>
-    <id>http://www.sigfrid-lundberg.se/2002/Laurentius/laurentius.pdf</id>
+    <id>https://sigfrid-lundberg.se/2002/Laurentius/laurentius.pdf</id>
   </entry>
   <entry>
     <title>Förslag till policy för digitaliseringsprojekt inom Lunds
@@ -288,7 +288,7 @@
     <category term="Digitization" label="digitization"/>
     <category term="Digital collections" label="digitalcollections"/>
     <updated>2009-06-11T00:18:00+01:00</updated>
-    <id>http://www.sigfrid-lundberg.se/2002/DigitaliseringsPolicy/digitaliserings_policy.pdf</id>
+    <id>https://sigfrid-lundberg.se/2002/DigitaliseringsPolicy/digitaliserings_policy.pdf</id>
   </entry>
   <entry>
     <title>The Metadata model in Scripta Academica Lundensis</title>
@@ -315,7 +315,7 @@
     <category term="Metadata" label="metadata"/>
     <dc:date>2002</dc:date>
     <updated>2009-06-12T00:20:00+01:00</updated>
-    <id>http://www.sigfrid-lundberg.se/2002/Scripta/</id>
+    <id>https://sigfrid-lundberg.se/2002/Scripta/</id>
   </entry>
   <entry>
     <title>XML -- en mjuk start för biblioteksfolk Mitt ständigt ofärdiga
@@ -337,7 +337,7 @@
     <category term="Metadata" label="metadata"/>
     <dc:date>2002</dc:date>
     <updated>2006-06-11T00:21:00+01:00</updated>
-    <id>http://www.sigfrid-lundberg.se/2003/XMLforLibrarians/</id>
+    <id>https://sigfrid-lundberg.se/2003/XMLforLibrarians/</id>
   </entry>
   <entry>
     <title>Implementering av OAI-PMH i ett bibliotekssystem -- Några ord på
@@ -348,13 +348,13 @@
     bibliotekssystem. Det är inte en ersättning för andra dokument utan skall
     ses som några ord på vägen för organisationer som planerar att eller är i
     färd med att implementera OAI-PMH. Texten skrevs på uppdrag av
-    http://www.axiell.se/bookit</summary>
+    https://www.axiell.com/se/ </summary>
     <updated>2009-06-09T08:08:00+01:00</updated>
     <dc:date>2003</dc:date>
     <category term="Harvesting" label="harvesting"/>
     <category term="Metadata" label="metadata"/>
     <category term="Library catalogues" label="opac"/>
-    <id>http://www.sigfrid-lundberg.se/2003/axiell-oai/oai-opac.pdf</id>
+    <id>https://sigfrid-lundberg.se/2003/axiell-oai/oai-opac.pdf</id>
   </entry>
   <entry>
     <title>Teknisk samverkan mellan svenska ämnesportaler - Test och
@@ -379,7 +379,7 @@
     <category term="Metadata" label="metadata"/>
     <category term="Reviews" label="reviews"/>
     <category term="XML processing" label="xmlprocessing"/>
-    <id>http://www.sigfrid-lundberg.se/2003/def-test/</id>
+    <id>https://sigfrid-lundberg.se/2003/def-test/</id>
   </entry>
   <entry>
     <title>Vad är ett PEK?</title>
@@ -395,7 +395,7 @@
     <dc:date>2003</dc:date>
     <updated>2009-06-09T20:25:00+01:00</updated>
     <category term="Music, language &amp; literature" label="musiclanglit"/>
-    <id>http://www.sigfrid-lundberg.se/2003/pek/</id>
+    <id>https://sigfrid-lundberg.se/2003/pek/</id>
   </entry>
   <entry>
     <title>Pesistent länkning och digitala bibliotek</title>
@@ -413,7 +413,7 @@
     <updated>2009-06-09T20:36:00+01:00</updated>
     <category term="Digital libraries" label="digitallibraries"/>
     <category term="Metadata" label="metadata"/>
-    <id>http://www.sigfrid-lundberg.se/2003/urnar_och_digitala_bibliotek/</id>
+    <id>https://sigfrid-lundberg.se/2003/urnar_och_digitala_bibliotek/</id>
   </entry>
   <entry>
     <title>Ediffah – En digital infrastruktur för forskningsbibliotekens
@@ -434,7 +434,7 @@
     <category term="Metadata" label="metadata"/>
     <category term="XML processing" label="xmlprocessing"/>
     <updated>2009-06-09T20:36:00+01:00</updated>
-    <id>http://www.sigfrid-lundberg.se/2004/arkiv_bibliotek/</id>
+    <id>https://sigfrid-lundberg.se/2004/arkiv_bibliotek/</id>
   </entry>
   <entry>
     <title>Vad händer med biblioteket när dess samlingar finns överallt och
@@ -458,7 +458,7 @@
     <category term="Digital libraries" label="digitallibraries"/>
     <category term="Internet" label="internet"/>
     <updated>2009-06-09T21:01:00+01:00</updated>
-    <id>http://www.sigfrid-lundberg.se/2004/biblioteket/</id>
+    <id>https://sigfrid-lundberg.se/2004/biblioteket/</id>
   </entry>
   <entry>
     <title>Vad en bra samling av digital text bör kunna</title>
@@ -473,7 +473,7 @@
     <category term="Digital collections" label="digitalcollections"/>
     <dc:date>2004</dc:date>
     <updated>2009-06-09T21:10:00+01:00</updated>
-    <id>http://www.sigfrid-lundberg.se/2004/digitalisering/position.pdf</id>
+    <id>https://sigfrid-lundberg.se/2004/digitalisering/position.pdf</id>
   </entry>
   <entry>
     <title>Digitalisering i Lund</title>
@@ -488,7 +488,7 @@
     <category term="Digitization" label="digitization"/>
     <dc:date>2004</dc:date>
     <updated>2009-06-09T21:45:00+01:00</updated>
-    <id>http://www.sigfrid-lundberg.se/2004/digitalisering/presentation_04-11-04.html</id>
+    <id>https://sigfrid-lundberg.se/2004/digitalisering/presentation_04-11-04.html</id>
   </entry>
   <entry>
     <title>Metadata makes the world going round - en orientering om användning
@@ -507,7 +507,7 @@
     <category term="Metadata" label="metadata"/>
     <dc:date>2004</dc:date>
     <updated>2009-06-09T21:58:00+01:00</updated>
-    <id>http://www.sigfrid-lundberg.se/2004/metadata_makes_the_world/</id>
+    <id>https://sigfrid-lundberg.se/2004/metadata_makes_the_world/</id>
   </entry>
   <entry>
     <title>Vilken arkitektur ger ett nav i ett nätverk?  Om
@@ -521,7 +521,7 @@
     <category term="Reviews" label="reviews"/>
     <dc:date>2004</dc:date>
     <updated>2009-06-09T22:06:00+01:00</updated>
-    <id>http://www.sigfrid-lundberg.se/2004/navet/navet.html</id>
+    <id>https://sigfrid-lundberg.se/2004/navet/navet.html</id>
   </entry>
   <entry>
     <title>Zornmedaljens baksida</title>
@@ -534,7 +534,7 @@
     <category term="Music, language &amp; literature" label="musiclanglit"/>
     <dc:date>2004</dc:date>
     <updated>2009-06-09T22:06:00+01:00</updated>
-    <id>http://www.sigfrid-lundberg.se/2004/zorn_etc/</id>
+    <id>https://sigfrid-lundberg.se/2004/zorn_etc/</id>
   </entry>
   <entry>
     <title>Ediffah</title>
@@ -549,7 +549,7 @@
     <category term="Archival description" label="archivaldescription"/>
     <dc:date>2005</dc:date>
     <updated>2009-06-09T22:06:00+01:00</updated>
-    <id>http://www.sigfrid-lundberg.se/2005/Oct_28/</id>
+    <id>https://sigfrid-lundberg.se/2005/Oct_28/</id>
   </entry>
   <entry>
     <title>Digitala biblioteket</title>
@@ -563,7 +563,7 @@
     <updated>2009-06-09T22:06:00+01:00</updated>
     <category term="Digital libraries" label="digitallibraries"/>
     <category term="Internet" label="internet"/>
-    <id>http://www.sigfrid-lundberg.se/2005/bivil-digitala-bibliotek/</id>
+    <id>https://sigfrid-lundberg.se/2005/bivil-digitala-bibliotek/</id>
   </entry>
   <entry>
     <title>Digital preservation and digitization at Lund University (and
@@ -579,7 +579,7 @@
     <category term="Digital collections" label="digitalcollections"/>
     <dc:date>2005</dc:date>
     <updated>2009-06-09T22:06:00+01:00</updated>
-    <id>http://www.sigfrid-lundberg.se/2005/digital-preservation/</id>
+    <id>https://sigfrid-lundberg.se/2005/digital-preservation/</id>
   </entry>
   <entry>
     <title>Konkurrerar Google framgångsrikt med biblioteken?</title>
@@ -594,7 +594,7 @@
     <category term="Internet" label="internet"/>
     <dc:date>2006</dc:date>
     <updated>2009-06-09T23:14:00+01:00</updated>
-    <id>http://www.sigfrid-lundberg.se/2006/google/google-vs-thelibrary.html</id>
+    <id>https://sigfrid-lundberg.se/2006/google/google-vs-thelibrary.html</id>
   </entry>
   <entry>
     <title>Usage of digital resources with respect to method of publishing</title>
@@ -614,7 +614,7 @@
     <category term="Structural web design" label="structuralwebdesign"/>
     <dc:date>2007</dc:date>
     <updated>2009-06-09T23:14:00+01:00</updated>
-    <id>http://www.sigfrid-lundberg.se/2007/hidden_web/</id>
+    <id>https://sigfrid-lundberg.se/2007/hidden_web/</id>
   </entry>
   <entry>
 
@@ -640,7 +640,7 @@
     <category term="Structural web design" label="structuralwebdesign"/>
     <dc:date>2007</dc:date>
     <updated>2009-06-09T23:31:00+01:00</updated>
-    <id>http://www.sigfrid-lundberg.se/2007/search-statistics/</id>
+    <id>https://sigfrid-lundberg.se/2007/search-statistics/</id>
   </entry>
   <entry>
     <title>ADL i CLARIN-DK WP5</title>
@@ -655,7 +655,7 @@
     <category term="Music, language &amp; literature" label="musiclanglit"/>
     <dc:date>2008</dc:date>
     <updated>2009-06-09T23:42:00+01:00</updated>
-    <id>http://www.sigfrid-lundberg.se/2008/clarin_adl/</id>
+    <id>https://sigfrid-lundberg.se/2008/clarin_adl/</id>
   </entry>
   <entry>
     <title>Digital Humanities Infrastructures</title>
@@ -678,7 +678,7 @@
     <category term="Digital humanities" label="ehumanities"/>
     <dc:date>2008</dc:date>
     <updated>2009-06-09T23:42:00+01:00</updated>
-    <id>http://www.sigfrid-lundberg.se/2008/dighum/digital_humanities.xml</id>
+    <id>https://sigfrid-lundberg.se/2008/dighum/digital_humanities.xml</id>
   </entry>
   <entry>
     <title>Kortfattat Curriculum Vitae: Sigfrid Lundberg</title>
@@ -687,7 +687,7 @@
     <summary>Ett CV är väldigt tråkigt att skriva</summary>
     <dc:date>2009</dc:date>
     <updated>2009-06-09T23:54:00+01:00</updated>
-    <id>http://www.sigfrid-lundberg.se/2009/cv/cv_sv.xml</id>
+    <id>https://sigfrid-lundberg.se/2009/cv/cv_sv.xml</id>
   </entry>
   <entry>
     <title>List of publications by Sigfrid Lundberg
@@ -698,10 +698,10 @@
     <dc:date>2009</dc:date>
     <updated>2009-06-09T23:57:00+01:00</updated>
     <category term="About me" label="aboutme"/>
-    <id>http://www.sigfrid-lundberg.se/2009/cv/publications.html</id>
+    <id>https://sigfrid-lundberg.se/2009/cv/publications.html</id>
   </entry>
 
-<entry xmlns="http://www.w3.org/2005/Atom" xmlns:dc="http://purl.org/dc/elements/1.1/">
+  <entry xmlns="http://www.w3.org/2005/Atom" xmlns:dc="http://purl.org/dc/elements/1.1/">
   <author>
     <name>Sigfrid Lundberg</name>
   </author>
@@ -716,7 +716,7 @@
     <div xmlns="http://www.w3.org/1999/xhtml">
 
       <p>In order to understand what's going on here, you have have to <a
-      href="http://sigfrid-lundberg.se/footnotes/">visit the
+      href="https://sigfrid-lundberg.se/footnotes/">visit the
       resource</a>. There is a some scripting going on which cannot be
       syndicated. If you're reading this, you are on the wrong
       page. Sorry.</p>
@@ -724,7 +724,7 @@
       <h2>What you can do here</h2>
 
       <p>There is a link at the top of this page (if you're reading the HTML
-      version <a href="http://sigfrid-lundberg.se/footnotes/">directly from my
+      version <a href="https://sigfrid-lundberg.se/footnotes/">directly from my
       site</a>, that is). It says "Show anchors". It's not a very user
       friendly description of what it does, but I cannot figure out a better
       term right now. If you click on it, there will appear a link after most
@@ -754,10 +754,10 @@
       text, we need to be able to address individual positions in it. These
       positions are what I'd like to call annotation anchors. I've already
       briefly discussed the problem on how to create identifiers (see a <a
-      href="http://sigfrid-lundberg.se/entries/2009/08/quotations/">A
+      href="https://sigfrid-lundberg.se/entries/2009/08/quotations/">A
       quotation is much more than an extract</a>). For this entry I've
       extended the xslt script such that it can <a
-      href="http://exslt.org/str/functions/tokenize/">tokenize</a> html text
+      href="https://exslt.org/str/functions/tokenize/">tokenize</a> html text
       embedded in atom entry documents. It can also add anchors (id
       attributes) on each individual word (produced by the tokenize function)
       in the whole text. We also implement a javascript which expose these
@@ -769,7 +769,7 @@
       anchors are there, then you <strong>must not</strong> change them. Each
       word has become a resource on the internet. Please view the source of
       this document, before you use the stylesheet <kbd><a
-      href="http://sigfrid-lundberg.se/footnotes/atom_anchor_id.xsl">atom_anchor_id.xsl</a></kbd>.</p>
+      href="https://sigfrid-lundberg.se/footnotes/atom_anchor_id.xsl">atom_anchor_id.xsl</a></kbd>.</p>
 
       <pre>
 	&lt;span id="anchor54764">Would&lt;/span>
@@ -833,7 +833,7 @@
   <category label="structuralwebdesign" term="Structural web design"/>
   <category label="xmlprocessing" term="XML Processing"/>
   <updated>2009-09-19T15:13:49+01:00</updated>
-  <id>http://sigfrid-lundberg.se/footnotes/</id>
+  <id>https://sigfrid-lundberg.se/footnotes/</id>
 
 </entry>
 
