@@ -21,19 +21,19 @@
 	  digital object store
 	  <ul>
 
-	    <li id="kahnframework">Robert Kahn, Robert Wilensky, 2006. <a href="http://sigfrid-lundberg.se/entries/2010/04/kahnframework/">A
+	    <li id="kahnframework">Robert Kahn, Robert Wilensky, 2006. <a href="https://sigfrid-lundberg.se/entries/2010/04/kahnframework/">A
 	    framework for distributed digital object services</a></li>
 
 	    <li id="lagozeetalfedora2005">Carl Lagoze, Sandy Payette, Edwin
-	    Shin and Chris Wilper, 2005.  <a href="http://sigfrid-lundberg.se/entries/2010/04/fedora/">Fedora:
+	    Shin and Chris Wilper, 2005.  <a href="https://sigfrid-lundberg.se/entries/2010/04/fedora/">Fedora:
 	    an architecture for complex objects and their
 	    relationships.</a></li>
 
-	    <li id="centric">Maly, Kurt and Michael L. Nelson, 1999. <a href="http://sigfrid-lundberg.se/entries/2010/05/resourcecentric/">
+	    <li id="centric">Maly, Kurt and Michael L. Nelson, 1999. <a href="https://sigfrid-lundberg.se/entries/2010/05/resourcecentric/">
 	    Smart Objects, Dumb Archives — A User-Centric, Layered Digital
 	    Library Framework.</a></li>
 
-	    <li id="centric">McDonough, Jerome, 2008. <a href="http://sigfrid-lundberg.se/entries/2010/05/resourcecentric/">“Structural
+	    <li id="centric">McDonough, Jerome, 2008. <a href="https://sigfrid-lundberg.se/entries/2010/05/resourcecentric/">“Structural
 	    Metadata and the Social Limitation of Interoperability: A
 	    Sociotechnical View of XML and Digital Library Standards
 	    Development.”
@@ -50,11 +50,11 @@
 	  the theory of text &amp; text modelling
 	  <ul>
 
-	    <li>Dino Buzzetti, 2002. <a href="http://sigfrid-lundberg.se/entries/2010/04/buzzetti/">Digital Representation and the Text</a>
+	    <li>Dino Buzzetti, 2002. <a href="https://sigfrid-lundberg.se/entries/2010/04/buzzetti/">Digital Representation and the Text</a>
 	    Model.
 	    </li>
 
-	    <li>Helena Francke, 2008. <a href="http://sigfrid-lundberg.se/entries/2010/04/darcitecture/">Towards
+	    <li>Helena Francke, 2008. <a href="https://sigfrid-lundberg.se/entries/2010/04/darcitecture/">Towards
 	    an Architectural Document Analysis</a></li>
 
 	  </ul>
@@ -66,11 +66,11 @@
 
 	  <ul>
 
-	    <li>M. Nottingham &amp; R. Sayre, 2005. <a href="http://sigfrid-lundberg.se/entries/2010/04/atomlink/#atomnavigation">The Atom Syndication Format</a></li>
+	    <li>M. Nottingham &amp; R. Sayre, 2005. <a href="https://sigfrid-lundberg.se/entries/2010/04/atomlink/#atomnavigation">The Atom Syndication Format</a></li>
 
-	    <li>J. Snell, 2006. <a href="http://sigfrid-lundberg.se/entries/2010/04/atomlink/#atomannotations">Atom Threading Extensions</a></li>
+	    <li>J. Snell, 2006. <a href="https://sigfrid-lundberg.se/entries/2010/04/atomlink/#atomannotations">Atom Threading Extensions</a></li>
 
-	    <li>National Library of Australia. <a href="http://sigfrid-lundberg.se/entries/2010/05/next/">On the meaning of next</a></li>
+	    <li>National Library of Australia. <a href="https://sigfrid-lundberg.se/entries/2010/05/next/">On the meaning of next</a></li>
 
 	  </ul>
 
@@ -79,7 +79,7 @@
 	<li>
 	  reading habits
 	  <ul>
-	    <li>Nicholas Carr, 2008. <a href="http://sigfrid-lundberg.se/entries/2010/04/gstupid/">Is
+	    <li>Nicholas Carr, 2008. <a href="https://sigfrid-lundberg.se/entries/2010/04/gstupid/">Is
 	    Google Making Us Stupid?  What the Internet is doing to our
 	    brains.</a></li>
 	  </ul>
@@ -94,6 +94,6 @@
   <category label="digitalcollections" term="Digital collections"/>
   <category label="digitalobjects" term="Digital objects"/>
   <updated>2010-05-23T22:23:46+01:00</updated>
-  <id>http://www.sigfrid-lundberg.se/entries/2010/04/readings/</id>
+  <id>https://sigfrid-lundberg.se/entries/2010/04/readings/</id>
   <!-- $Id$ -->
 </entry>

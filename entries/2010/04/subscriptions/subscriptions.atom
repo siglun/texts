@@ -11,24 +11,25 @@
   <content type="xhtml">
     <div xmlns="http://www.w3.org/1999/xhtml">
 
-      <p>The <a href="http://www.londonlibrary.co.uk/">London Library</a> is
+      <p>The <a href="https://www.londonlibrary.co.uk/">London Library</a> is
       an <a
-      href="http://en.wikipedia.org/wiki/Subscription_library">independent
+      href="https://en.wikipedia.org/wiki/Subscription_library">independent
       subscription library</a>. In the UK there are quite a few libraries of
       this kind left, in spite of the fact that it is more or less an
       anachronism. There are enough of them to organize themselves in an <a
-      href="http://www.independentlibraries.co.uk/">Association of Independent
+      href="https://www.independentlibraries.co.uk/">Association of Independent
       Libraries</a>. The London Library is the largest member of the
       organization, and it is also the one with the highest membership fee.</p>
 
-      <p><a href="http://oreilly.com/">O'Reilly</a>, the book publishling
-      company, has an <a href="http://my.safaribooksonline.com/">online
-      subscription library</a>, perhaps mainly aimed at technical people like
-      myself. I've had a personal subscription for quite some time, and I
-      recently I upgraded the subscription such that I have unlimited access
-      to the entire stock. The fee is $53.74 (including VAT 25%). That's
-      $656.88 per annum which is £398.60. This is an interesting figure, since
-      the annual membership fee for The London Library is £395.00.</p>
+      <p><a href="https://www.oreilly.com/">O'Reilly</a>, the book
+      publishling company, has an online subscription library (It had
+      when I wrote this. It is closed now.), perhaps mainly aimed at
+      technical people like myself. I've had a personal subscription
+      for quite some time, and I recently I upgraded the subscription
+      such that I have unlimited access to the entire stock. The fee
+      is $53.74 (including VAT 25%). That's $656.88 per annum which is
+      £398.60. This is an interesting figure, since the annual
+      membership fee for The London Library is £395.00.</p>
 
       <p>I let Safari describe itself in a quotation from its top page:</p>
 
@@ -51,7 +52,7 @@
       <h3>Is a comparison relevant?</h3>
 
       <p>The London Library has a very differen <q
-      cite="http://www.londonlibrary.co.uk/join/faqs.htm">subject range
+      cite="https://www.londonlibrary.co.uk/join/faqs">subject range
       [which] is mainly within the humanities, and the collection is
       particularly strong in history, literature (including fiction),
       biography, art, philosophy, religion and related fields</q><sup><a
@@ -81,9 +82,9 @@
       <h3>Notes</h3>
       
       <ol>
-	<li id="notell">The London Library, <a href="http://www.londonlibrary.co.uk/">http://www.londonlibrary.co.uk/</a></li>
-	<li id="notesafari">Safari Books Online, <a href="http://my.safaribooksonline.com/">http://my.safaribooksonline.com/</a></li>
-	<li id="note1">Frequently asked questions, <a href="http://www.londonlibrary.co.uk/join/faqs.htm">http://www.londonlibrary.co.uk/join/faqs.htm</a></li>
+	<li id="notell">The London Library, <a href="https://www.londonlibrary.co.uk/">https://www.londonlibrary.co.uk/</a></li>
+	<li id="notesafari">Safari Books Online, <a href="https://en.wikipedia.org/wiki/O%27Reilly_Media#O'Reilly_Online_Learning_(formerly_Safari_Books_Online)">https://en.wikipedia.org/wiki/O%27Reilly_Media#O'Reilly_Online_Learning_(formerly_Safari_Books_Online)</a></li>
+	<li id="note1">Frequently asked questions, <a href="https://www.londonlibrary.co.uk/join/faqs">https://www.londonlibrary.co.uk/join/faqs</a></li>
       </ol>
 
     </div>
@@ -91,6 +92,6 @@
   <dc:date>2010</dc:date>
   <category label="thelibrary" term="The Library"/>
   <updated>2010-04-06T16:49:48+01:00</updated>
-  <id>http://www.sigfrid-lundberg.se/entries/2010/04/subscriptions/</id>
+  <id>https://sigfrid-lundberg.se/entries/2010/04/subscriptions/</id>
   <!-- $Id$ -->
 </entry>
