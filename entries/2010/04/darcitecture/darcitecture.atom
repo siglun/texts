@@ -13,7 +13,7 @@
 
       <p>Helena Francke, 2008. Towards an Architectural Document
       Analysis. <em>Journal of Information Architecture</em>, 1(1).
-      <a href="http://journalofia.org/volume1/issue1/03-francke/jofia-0101-03-francke.pdf">http://journalofia.org/volume1/issue1/03-francke/jofia-0101-03-francke.pdf</a></p>
+      <a href="https://journalofia.org/volume1/issue1/03-francke/jofia-0101-03-francke.pdf">https://journalofia.org/volume1/issue1/03-francke/jofia-0101-03-francke.pdf</a></p>
 
       <div style="float:right;width:50%;margin:0.5em;">
 	<table style="border:1px solid black;width:100%;">
@@ -100,7 +100,7 @@
       reformulate here in my own words (Helena Franke might not agree): When a
       document, be it a book or an article or whatever is transformed to web
       content its content and expression (I've decided to adopt <a
-      href="http://sigfrid-lundberg.se/entries/2010/04/buzzetti/">Buzzetti's
+      href="https://sigfrid-lundberg.se/entries/2010/04/buzzetti/">Buzzetti's
       terminology</a>) become a part of a web site's information architecture,
       or perhaps an extension of it. The usability of a digital text, does
       depend its literary and scientific quality, but also very much on how
@@ -115,7 +115,7 @@
 
       </div>
 
-      <p>This entry is part of my series <a href="http://sigfrid-lundberg.se/entries/2010/04/readings/">Readings on
+      <p>This entry is part of my series <a href="https://sigfrid-lundberg.se/entries/2010/04/readings/">Readings on
       digital objects</a></p>
 
 
@@ -125,6 +125,6 @@
   <category label="structuralwebdesign" term="Structural web design"/>
   <category label="digitalobjects" term="Digital objects"/>
   <updated>2010-04-12T18:34:52+01:00</updated>
-  <id>http://www.sigfrid-lundberg.se/entries/2010/04/darcitecture/</id>
+  <id>https://sigfrid-lundberg.se/entries/2010/04/darcitecture/</id>
   <!-- $Id$ -->
 </entry>
