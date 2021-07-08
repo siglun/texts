@@ -19,7 +19,7 @@
       This occurs when at least one of the vehicles is unable to keep to its
       schedule and therefore ends up in the same location as one or more other
       vehicles of the same route at the same time.</em> (Wikipedia article: <a
-      href="http://en.wikipedia.org/wiki/Bus_bunching">Bus
+      href="https://en.wikipedia.org/wiki/Bus_bunching">Bus
       bunching</a>)</blockquote>
 
       <div style="margin: +1%; width:45%;float:left;">
@@ -70,5 +70,5 @@
   <dc:date>2015</dc:date>
   <category label="photography" term="Photography"/>
   <updated>2015-02-09T19:20:51+01:00</updated>
-  <id>http://www.sigfrid-lundberg.se/entries/2015/02/congestion/</id>
+  <id>https://sigfrid-lundberg.se/entries/2015/02/congestion/</id>
 </entry>
