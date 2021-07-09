@@ -10,8 +10,8 @@
     <div xmlns="http://www.w3.org/1999/xhtml">
 
       <div style="float:right;width:60%;margin:0.5em;">
-	<a href="http://sigfrid-lundberg.se/entries/2010/04/votives/20100403362.jpg" title="Recycled Votive Guitar on the Compost">
-	  <img src="http://sigfrid-lundberg.se/entries/2010/04/votives/smaller20100403362.jpg" alt="Recycled Votive Guitar on the Compost"/>
+	<a href="https://sigfrid-lundberg.se/entries/2010/04/votives/20100403362.jpg" title="Recycled Votive Guitar on the Compost">
+	  <img src="https://sigfrid-lundberg.se/entries/2010/04/votives/smaller20100403362.jpg" alt="Recycled Votive Guitar on the Compost"/>
 	</a>
       </div>
 
@@ -27,6 +27,6 @@
   <dc:date>2010</dc:date>
   <category label="images" term="Images"/>
   <updated>2010-04-06T21:20:36+01:00</updated>
-  <id>http://www.sigfrid-lundberg.se/entries/2010/04/votives/</id>
+  <id>https://sigfrid-lundberg.se/entries/2010/04/votives/</id>
   <!-- $Id$ -->
 </entry>

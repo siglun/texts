@@ -10,8 +10,6 @@
   <content type="xhtml">
     <div xmlns="http://www.w3.org/1999/xhtml">
 
-      <!--img src="http://books.google.com/books?id=q2cJAAAAQAAJ&amp;pg=PA119&amp;img=1&amp;zoom=3&amp;hl=en&amp;sig=ACfU3U1uLANXhGxurHshyIN4q1BHy2z_jA&amp;ci=134%2C1267%2C380%2C131&amp;edge=0"/-->
-
       <p>Waiting is not for everyone. I'm good at it, though. Brilliant, if I
       may say so myself. I've practiced. I'm particularly good at waiting
       for public transports. Such as waiting for trains. Or buses.</p>
@@ -41,6 +39,6 @@
   <dc:date>2010</dc:date>
   <category label="essays" term="Essays"/>
   <updated>2010-11-28T22:32:50+01:00</updated>
-  <id>http://www.sigfrid-lundberg.se/entries/2010/11/patience/</id>
+  <id>https://sigfrid-lundberg.se/entries/2010/11/patience/</id>
   <!-- $Id$ -->
 </entry>
