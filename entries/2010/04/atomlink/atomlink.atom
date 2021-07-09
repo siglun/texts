@@ -13,17 +13,16 @@
       <h3 id="atomnavigation">Navigate</h3>
 
       <p>M. Nottingham &amp; R. Sayre, 2005. The Atom Syndication Format
-      <a href="http://tools.ietf.org/html/rfc4287">http://tools.ietf.org/html/rfc4287</a></p>
+      <a href="https://datatracker.ietf.org/doc/html/rfc4287">https://datatracker.ietf.org/doc/html/rfc4287</a></p>
 
 
       <p>The RFC 4287 specifies the Atom syndication format and states the
       following about</p>
 
-      <blockquote cite="http://tools.ietf.org/html/rfc4287#section-4.2.7">
+      <blockquote cite="https://datatracker.ietf.org/doc/html/rfc4287#section-4.2.7">
 	<em>[t]he "atom:link" element [which] defines a reference from an entry or
 	feed to a Web resource.  This specification assigns no meaning to the
-	content (if any) of this element.</em> (<a href="http://tools.ietf.org/html/rfc4287#section-4.2.7">Section
-	4.2.7</a>)
+	content (if any) of this element.</em> (<a href="https://datatracker.ietf.org/doc/html/rfc4287#section-4.2.7">Section 4.2.7</a>)
       </blockquote>
 
       <p>The reference mentioned is given in the <kbd>href</kbd>
@@ -38,7 +37,7 @@
 	element MUST be interpreted as if the link relation type is
 	"alternate". [...] If a name is given, implementations MUST consider
 	the link relation type equivalent to the same name registered within
-	the IANA </em> (<a href="http://tools.ietf.org/html/rfc4287#section-4.2.7.2">Section
+	the IANA </em> (<a href="https://datatracker.ietf.org/doc/html/rfc4287#section-4.2.7.2">Section
 	4.2.7.2</a>)
       </blockquote>
 
@@ -51,9 +50,8 @@
       attribute</q>.</p>
 
       <p>Now, the vocabulary to be used for the <kbd>rel</kbd> attribute is
-      maintained by <a href="http://www.iana.org/">Internet Assigned Numbers
-      Authority</a> (IANA) and published in the document <a href="http://www.iana.org/assignments/link-relations/link-relations.xhtml">Atom
-      Link Relations</a>. Each entry on this list has to be documented (which
+      maintained by <a href="https://www.iana.org/">Internet Assigned Numbers
+      Authority</a> (IANA) and published in the document <a href="https://www.iana.org/assignments/link-relations/link-relations.xhtml">Atom Link Relations</a>. Each entry on this list has to be documented (which
       is usually done in an RFC). Here are obvious ones, such as:</p>
 
       <ul>
@@ -70,31 +68,31 @@
       <h3 id="atomannotations">Annotate</h3>
 
       <p>J. Snell, 2006. Atom Threading Extensions
-      <a href="http://tools.ietf.org/html/rfc4685">http://tools.ietf.org/html/rfc4685</a></p>
+      <a href="https://datatracker.ietf.org/doc/html/rfc4685">https://datatracker.ietf.org/doc/html/rfc4685</a></p>
 
       <p>The Atom infrastructure for comments, discussions and annotations is
       described in RFC4685. The mechanism is simple:</p>
 
-      <blockquote cite="http://tools.ietf.org/html/rfc4685#section-3">
+      <blockquote cite="https://datatracker.ietf.org/doc/html/rfc4685#section-3">
 	<em>The "in-reply-to" element is used to indicate that an entry is a
 	response to another resource.  The element MUST contain a "ref"
 	attribute identifying the resource that is being responded to.</em>
-	(<a href="http://tools.ietf.org/html/rfc4685#section-3">RFC 4685,
+	(<a href="https://datatracker.ietf.org/doc/html/rfc4685#section-3">RFC 4685,
 	Section 3</a>)
       </blockquote>
 
       <p>The <kbd>ref</kbd> 
-      <q cite="http://tools.ietf.org/html/rfc4685#section-3">attribute specifies
+      <q cite="https://datatracker.ietf.org/doc/html/rfc4685#section-3">attribute specifies
       the persistent, universally unique identifier of the resource being
       responded to</q>. In practice it will refer to the content of the
       <kbd>id</kbd> element of the annotated research, which is described in
-      <a href="http://tools.ietf.org/html/rfc4287#section-4.2.6">RFC 4287</a>.</p>
+      <a href="https://datatracker.ietf.org/doc/html/rfc4685#section-3">RFC 4287</a>.</p>
 
       <p>So, you just add a reply-to link to your entry, and the entry has
       become an annotation. The rest is programming. <strong>;-)</strong></p>
 
       <hr/>
-      <p>This entry is part of my series <a href="http://sigfrid-lundberg.se/entries/2010/04/readings/">Readings on
+      <p>This entry is part of my series <a href="https://sigfrid-lundberg.se/entries/2010/04/readings/">Readings on
       digital objects</a></p>
 
     </div>
@@ -103,6 +101,6 @@
   <category label="digitalobjects" term="Digital objects"/>
   <category label="xws" term="XML web services"/>
   <updated>2010-04-28T16:46:25+01:00</updated>
-  <id>http://www.sigfrid-lundberg.se/entries/2010/04/atomlink/</id>
+  <id>https://www.sigfrid-lundberg.se/entries/2010/04/atomlink/</id>
   <!-- $Id$ -->
 </entry>
