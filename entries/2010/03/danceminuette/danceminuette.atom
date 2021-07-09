@@ -13,7 +13,7 @@
 
       <p>Tankarna på projektet grundlades när jag (några år tidigare och
       av misstag) införlivade CDn <a
-      href="http://www.hurv.com/svenska/frames/frame-holder.htm">Dance Minuets
+      href="https://web.archive.org/web/20061029013104/http://www.hurv.com/svenska/frames/frame-holder.htm">Dance Minuets
       1731-1801</a> av Anders Rosén och Ulf Störling i mina samlingar.  I det
       lilla informativa häftet skriver Anders: <q>En polska låter aldrig
       vackrare än som avslutning till en menuett då kontrasten framhäver
@@ -26,9 +26,9 @@
       avgöra var den ena slutar och den andra tar vid</q>.</p>
 
       <div style="width:66%;float:left;margin-left:0.5em;margin-right:0.5em;">
-	<a href="http://sigfrid-lundberg.se/entries/2010/03/danceminuette/blomgren_menuette.png"
+	<a href="https://sigfrid-lundberg.se/entries/2010/03/danceminuette/blomgren_menuette.png"
 	   title="Menuett efter Johan Eric Blomgren">
-	  <img src="http://sigfrid-lundberg.se/entries/2010/03/danceminuette/blomgren_menuette.png"
+	  <img src="https://sigfrid-lundberg.se/entries/2010/03/danceminuette/blomgren_menuette.png"
 	     alt="Menuett efter Johan Eric Blomgren"
 	     style="width:100%;"/>
 	</a>
@@ -143,6 +143,6 @@
   <dc:date>2010</dc:date>
   <category label="musiclanglit" term="Music, language &amp; literature"/>
   <updated>2010-03-14T21:31:02+01:00</updated>
-  <id>http://www.sigfrid-lundberg.se/entries/2010/03/danceminuette/</id>
+  <id>https://sigfrid-lundberg.se/entries/2010/03/danceminuette/</id>
   <!-- $Id$ -->
 </entry>
