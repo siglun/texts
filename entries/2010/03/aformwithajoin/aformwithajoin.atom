@@ -42,7 +42,7 @@
       document, usually an XML one. The XForm generates a form, a graphical
       user interface. And it is usually one that can be used for editing
       XML. A user interface is event driven, an there are a whole lot of <a
-      href="http://en.wikipedia.org/wiki/DOM_events">events to keep track
+      href="https://en.wikipedia.org/wiki/DOM_events">events to keep track
       of</a>.</p>
 
       <div style="float: right; width:50%;">
@@ -87,7 +87,7 @@
 
       <p>Typically one can write really nifty GUIs in XForms. You'll find a
       lot of examples online, for instance by following links from the <a
-      href="http://en.wikipedia.org/wiki/XForms">Wikipedia article</a>.  There
+      href="https://en.wikipedia.org/wiki/XForms">Wikipedia article</a>.  There
       are various implementations, server side ones as well as those running
       client side. I opted for the one implemented as a <a
       href="https://addons.mozilla.org/en-US/firefox/addon/824">Firefox
@@ -97,16 +97,16 @@
 
       <p>My project is about editing quite complicated documents, namely
       really heavy beasts in <a
-      href="http://www2.lib.virginia.edu/innovation/mei/">Music Encoding
-      Initiative XML</a>. We're building a MEI application while the inititive
+      href="https://music-encoding.org/">Music Encoding
+      Initiative XML</a>. We are building a MEI application while the inititive
       are revising the specification and, among other things, move from a DTD
-      to <a href="http://relaxng.org/">RelaxNG</a>. A wise move.</p>
+      to <a href="https://relaxng.org/">RelaxNG</a>. A wise move.</p>
 
       <p>I might return to the project itself at a later stage, but here I
       want to tell you about XForms itself. And about joins. Consider the
       fragment in Fig. 1. If you want to be able to edit the values in the
       vicinity of the keys, you may need <a
-      href="http://sigfrid-lundberg.se/entries/2010/03/aformwithajoin/a_form_with_a_join.xml">a
+      href="https://sigfrid-lundberg.se/entries/2010/03/aformwithajoin/a_form_with_a_join.xml">a
       form like this</a> (requires XForms in your browser). The essential code
       performing the join can be studied in Fig. 2.</p>
 
@@ -167,9 +167,9 @@
        <h3>Get the last inserted ID</h3>
 
        <p><em><q>It's the same old story, but it's new to me.</q></em>
-       Whenever you use a RDBMS, you'll sooner or later ask the question: Is
+       Whenever you use a RDBMS, you will sooner or later ask the question: Is
        there a way to <a
-       href="http://www.google.com/search?hl=en&amp;q=%22get+the+last+inserted+id%22&amp;aq=f&amp;aqi=g-m1&amp;aql=&amp;oq=">get
+       href="https://www.google.com/search?hl=en&amp;q=%22get+the+last+inserted+id%22&amp;aq=f&amp;aqi=g-m1&amp;aql=&amp;oq=">get
        the last inserted ID</a>? This, if any, is indeed a SQL FAQ.</p>
 
        <p>That is, you'll inserted a line in a table, and now you want to use
@@ -179,7 +179,7 @@
 
        <p>Unfortunately, you don't have such functions in neither XForms nor
        XSLT. In XSLT that is no big deal; you <a
-       href="http://sigfrid-lundberg.se/entries/2009/07/xslt_extensions/">can
+       href="https://sigfrid-lundberg.se/entries/2009/07/xslt_extensions/">can
        program anything</a> in that language. It is worse in XForms. Fig. 4
        shows shows an XForms trigger that executes a number of actions. It
        inserts two nodes, one containing an IDREF and the other the
@@ -244,6 +244,6 @@
   <category label="xmlprocessing" term="XML processing"/>
   <category label="metadataprocessing" term="Metadata processing"/>
   <updated>2010-03-05T18:11:43+01:00</updated>
-  <id>http://www.sigfrid-lundberg.se/entries/2010/03/aformwithajoin/</id>
+  <id>https://sigfrid-lundberg.se/entries/2010/03/aformwithajoin/</id>
   <!-- $Id$ -->
 </entry>
