@@ -11,7 +11,7 @@
     <div xmlns="http://www.w3.org/1999/xhtml">
 
       <div style="float:right;width:33%;margin-right:0.5em;margin-left:0.5em;">
-	<a href="http://sigfrid-lundberg.se/entries/2010/03/thinking/20100218231.jpg" title="The Thinker" ><img src="http://sigfrid-lundberg.se/entries/2010/03/thinking/smaller20100218231.jpg" alt="The Thinker" width="100%"/></a>
+	<a href="https://sigfrid-lundberg.se/entries/2010/03/thinking/20100218231.jpg" title="The Thinker" ><img src="https://sigfrid-lundberg.se/entries/2010/03/thinking/smaller20100218231.jpg" alt="The Thinker" width="100%"/></a>
 	<p>
 	  <small>Fig. 1. There is no doubt what the thinker has been thinking
 	  about this winter. Or that is what I think.</small>
@@ -25,13 +25,13 @@
      <p>Since christmas I've been involved two projects, one of which is
      currently approaching deliverable. Unfortunately it has been delayed but
      on the other hand I've got the opportunity to learn <a
-     href="http://sigfrid-lundberg.se/entries/2010/03/aformwithajoin/"
+     href="https://sigfrid-lundberg.se/entries/2010/03/aformwithajoin/"
      title="A Form with a Join">Xforms</a>. I think that both the library and
      myself will benefit from it.</p>
 
      <div style="float:left;width:33%;margin-right:0.75em;margin-left:0.5em;">
-       <a href="http://sigfrid-lundberg.se/entries/2010/03/thinking/20100130216.jpg" title="Public Transport Burdened by Ice">
-	 <img src="http://sigfrid-lundberg.se/entries/2010/03/thinking/smaller20100130216.jpg" width="100%" alt="Public Transport Burdened by Ice"/>
+       <a href="https://sigfrid-lundberg.se/entries/2010/03/thinking/20100130216.jpg" title="Public Transport Burdened by Ice">
+	 <img src="https://sigfrid-lundberg.se/entries/2010/03/thinking/smaller20100130216.jpg" width="100%" alt="Public Transport Burdened by Ice"/>
        </a>
        <p><small>Fig. 2. All public transport has had far too much
        problems. And far too few trains has carried too many passengers, and
@@ -43,12 +43,12 @@
      colleagues.</p>
 
      <p>Those of us who <a
-     href="http://sigfrid-lundberg.se/entries/2009/07/commuting/">commute</a>
+     href="https://sigfrid-lundberg.se/entries/2009/07/commuting/">commute</a>
      has had problems during the winter (Fig. 2). Regardless of how we travel,
      most of us look forward to the spring (Fig. 3).</p>
 
       <div style="float:right;width:45%;margin-right:0.5em;margin-left:0.5em;">
-	<a href="http://sigfrid-lundberg.se/entries/2010/03/thinking/20100207227.jpg" title="Socially unacceptable vehicle in snow" ><img src="http://sigfrid-lundberg.se/entries/2010/03/thinking/smaller20100207227.jpg" alt="Socially unacceptable vehicle in snow" width="100%"/></a>
+	<a href="https://sigfrid-lundberg.se/entries/2010/03/thinking/20100207227.jpg" title="Socially unacceptable vehicle in snow" ><img src="https://sigfrid-lundberg.se/entries/2010/03/thinking/smaller20100207227.jpg" alt="Socially unacceptable vehicle in snow" width="100%"/></a>
 
 	<p><small>Fig. 3. But so has all Socially Unacceptable Vehicles. This
 	vehicle is buried. In snow. The owner looks forward to spring. So do
@@ -63,8 +63,8 @@
       basic research into digital library objects.</p>
 
       <p>The idea is to start from the <a
-      href="http://scholar.google.com/scholar?hl=en&amp;q=soda%20model%20dumb%20archive&amp;aql=&amp;oq=&amp;um=1&amp;ie=UTF-8&amp;sa=N&amp;tab=ws">Smart
-      Object Dumb Archive</a> (SODA) model. It is an old model, but there is
+      href="http://mirror.dlib.org/dlib/march99/maly/03maly.html">Smart
+      Object Dumb Archive</a> (SODA) model. It is an old model, but there are
       not many alternatives.  There are a number of new approaches that look
       very much like SODA, such as the successful <a
       href="http://www.idpf.org/">.epub format</a> and the formats used within
@@ -81,6 +81,6 @@
   <category label="essays" term="Essays"/>
   <category label="images" term="Images"/>
   <updated>2010-03-09T07:28:40+01:00</updated>
-  <id>http://www.sigfrid-lundberg.se/entries/2010/03/thinking/</id>
+  <id>https://sigfrid-lundberg.se/entries/2010/03/thinking/</id>
   <!-- $Id$ -->
 </entry>
