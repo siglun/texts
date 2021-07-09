@@ -11,7 +11,7 @@
     <div xmlns="http://www.w3.org/1999/xhtml">
 
       <div style="float:left;width:50%;margin-right:0.5em;margin-left:0.5em;">
-	<a href="http://sigfrid-lundberg.se/entries/2010/03/solarenergy/20100307269.jpg"><img src="http://sigfrid-lundberg.se/entries/2010/03/solarenergy/smaller20100307269.jpg" alt="Solar energy" width="100%"/></a>
+	<a href="https://sigfrid-lundberg.se/entries/2010/03/solarenergy/20100307269.jpg"><img src="https://sigfrid-lundberg.se/entries/2010/03/solarenergy/smaller20100307269.jpg" alt="Solar energy" width="100%"/></a>
 	
       </div>
 
@@ -25,6 +25,6 @@
   <dc:date>2010</dc:date>
   <category label="images" term="Images"/>
   <updated>2010-03-08T21:31:33+01:00</updated>
-  <id>http://www.sigfrid-lundberg.se/entries/2010/03/solarenergy/</id>
+  <id>https://sigfrid-lundberg.se/entries/2010/03/solarenergy/</id>
   <!-- $Id$ -->
 </entry>
