@@ -11,7 +11,7 @@
     <div xmlns="http://www.w3.org/1999/xhtml">
 
       <div style="float:left;width:50%;margin-right:0.5em;margin-left:0.5em;">
-	<a href="http://sigfrid-lundberg.se/entries/2010/04/perl/20100407379.jpg"><img src="http://sigfrid-lundberg.se/entries/2010/04/perl/smaller20100407379.jpg" width="100%" alt="Pathologically Eclectic Rubbish Lister"/></a>
+	<a href="https://sigfrid-lundberg.se/entries/2010/04/perl/20100407379.jpg"><img src="https://sigfrid-lundberg.se/entries/2010/04/perl/smaller20100407379.jpg" width="100%" alt="Pathologically Eclectic Rubbish Lister"/></a>
       </div>
 
       <p>The Perl programming language was created by Larry Wall, who declared
@@ -31,6 +31,6 @@
   <category label="programming" term="Programming"/>
 
   <updated>2010-04-11T11:46:48+01:00</updated>
-  <id>http://www.sigfrid-lundberg.se/entries/2010/04/perl/</id>
+  <id>https://www.sigfrid-lundberg.se/entries/2010/04/perl/</id>
   <!-- $Id$ -->
 </entry>
