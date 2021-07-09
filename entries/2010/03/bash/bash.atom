@@ -12,7 +12,7 @@
     <div xmlns="http://www.w3.org/1999/xhtml">
 
       <div style="float:left;width:50%;margin-right:0.5em;margin-left:0.5em;">
-	<a href="http://sigfrid-lundberg.se/entries/2010/03/bash/20100226247.jpg"><img src="http://sigfrid-lundberg.se/entries/2010/03/bash/smaller20100226247.jpg" width="100%" alt="Bourne Again Shell"/></a>
+	<a href="https://sigfrid-lundberg.se/entries/2010/03/bash/20100226247.jpg"><img src="https://sigfrid-lundberg.se/entries/2010/03/bash/smaller20100226247.jpg" width="100%" alt="Bourne Again Shell"/></a>
       </div>
 
       <p>The Bourne Again Shell is a prominent part of my life. Dark moments
@@ -26,5 +26,5 @@
   <category label="images" term="Images"/>
   <category label="programming" term="Programming"/>
   <updated>2010-03-08T21:31:11+01:00</updated>
-  <id>http://www.sigfrid-lundberg.se/entries/2010/03/bash/</id>
+  <id>https://sigfrid-lundberg.se/entries/2010/03/bash/</id>
 </entry>
