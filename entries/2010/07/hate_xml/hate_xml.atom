@@ -18,13 +18,13 @@
       suppose that I contributed to the four or five years of XML hype that
       started at the turn of the century and culminated 2004 - 2005
       (cf. Figure 1, and Edd Dumbill's <a
-      href="http://www.xml.com/pub/a/2004/11/03/deviant.html">How Do I Hate
+      href="https://www.xml.com/pub/a/2004/11/03/deviant.html">How Do I Hate
       Thee?</a>). Since then I've become more moderate, but still embrace XML
       as the preferred tool for the modeling of data.</p>
 
       <div style="float:left;width:65%;margin-right:0.5em;margin-left:0.5em;">
-	<a href="http://sigfrid-lundberg.se/entries/2010/07/hate_xml/hate_xml.png">
-	  <img src="http://sigfrid-lundberg.se/entries/2010/07/hate_xml/hate_xml.png" 
+	<a href="https://sigfrid-lundberg.se/entries/2010/07/hate_xml/hate_xml.png">
+	  <img src="https://sigfrid-lundberg.se/entries/2010/07/hate_xml/hate_xml.png" 
 	       width="100%" 
 	       alt="Hate XML web pages"/>
 	</a>
@@ -62,8 +62,8 @@
       <q>I hate typing XML, since its syntax is just terrible</q>.</p>
 
       <div style="float:right;width:65%;margin-right:0.5em;margin-left:0.5em;">
-	<a href="http://sigfrid-lundberg.se/entries/2010/07/hate_xml/report_hate_xml.png">
-	  <img src="http://sigfrid-lundberg.se/entries/2010/07/hate_xml/report_hate_xml.png" 
+	<a href="https://sigfrid-lundberg.se/entries/2010/07/hate_xml/report_hate_xml.png">
+	  <img src="https://sigfrid-lundberg.se/entries/2010/07/hate_xml/report_hate_xml.png" 
 	width="100%" 
 	alt="Search interest for &quot;hate xml&quot; in Google 2004-2010"/></a>
 	<p>
@@ -78,15 +78,15 @@
       <h3><q>Developers hate XML</q></h3>
 
       <p>Year 2004, <a
-      href="http://www.sellsbrothers.com/">sellsbrothers.com</a> convened an
+      href="https://sellsbrothers.com/">sellsbrothers.com</a> convened an
       <a
-      href="http://www.devsource.com/c/a/Techniques/Programming-Guidance-from-the-Uumlbergeeks/">Applied
+      href="https://sellsbrothers.com/public/conference/oldindex9.htm">Applied
       XML Developer's Conference</a>. I cannot recollect that I heard of that
       conference at the time, but there was one contribution which got quite
       some attention around in the blogosphere. It was by Chris Anderson (AKA
       <a href="http://www.simplegeek.com/">SimpleGeek</a>) who gave the
       presentation <q>Developers Hate XML</q>. I haven't found the slides on
-      the net. However, <a href="http://www.jeff-barr.com/?p=80">Jeff Barr</a>
+      the net. However, <a href="https://jeff-barr.com/">Jeff Barr</a>
       summarizes as follows</p>
 
       <blockquote>
@@ -141,6 +141,6 @@
   <dc:date>2010</dc:date>
   <category label="xmltechnologies" term="XML technologies"/>
   <updated>2010-07-29T16:34:22+01:00</updated>
-  <id>http://www.sigfrid-lundberg.se/entries/2010/07/hate_xml/</id>
+  <id>https://sigfrid-lundberg.se/entries/2010/07/hate_xml/</id>
   <!-- $Id$ -->
 </entry>
