@@ -9064,7 +9064,7 @@ over again.</summary>
     <div xmlns="http://www.w3.org/1999/xhtml">
 
       <p>Hyunyoung Choi &amp; Hal Varian, Google Research, have claimed that
-      it is possible to make <a href="http://googleresearch.blogspot.com/2009/07/posted-by-hal-varian-chief-economist.html">short
+      it is possible to make <a href="https://web.archive.org/web/20091102074956/http://googleresearch.blogspot.com/2009/07/posted-by-hal-varian-chief-economist.html">short
       term economic forcasts</a> using analysis of search terms entered into
       the Google search engine. In particular, they have shown that there is a
       positive correlation between the search interest for terms related to
@@ -9073,7 +9073,7 @@ over again.</summary>
       shown to be a very good predictor of a future increase in
       unemployment.</p>
 
-      <p>The search interest for terms in the <a href="http://www.google.com/insights/search/#cat=706&amp;geo=US&amp;cmpt=q">Welfare
+      <p>The search interest for terms in the <a href="https://trends.google.com/trends/?geo=SE#cat=706&amp;geo=US&amp;cmpt=q">Welfare
       &amp; Unemployment category</a> appear to be a predictor of the number
       of people filing for benefits. I read these papers &amp; blog entries
       with great interest. The search data are easily accessible. You retrieve
@@ -9082,8 +9082,8 @@ over again.</summary>
       work-alike.</p>
 
       <div style="float: left; width: 50%; margin-left:0.5em;margin-right:0.5em;">
-	<a href="http://sigfrid-lundberg.se/entries/2009/08/trends/kassa_series.png">
-	  <img src="http://sigfrid-lundberg.se/entries/2009/08/trends/kassa_series.png" width="100%" alt="Fig. 1."/>
+	<a href="https://sigfrid-lundberg.se/entries/2009/08/trends/kassa_series.png">
+	  <img src="https://sigfrid-lundberg.se/entries/2009/08/trends/kassa_series.png" width="100%" alt="Fig. 1."/>
 	</a>
 	<p>
 	  <small>Fig. 1. Time series for search interest for the Swedish term
@@ -9092,17 +9092,16 @@ over again.</summary>
 	</p>
       </div>
 
-      <p>Having read Choi &amp; Varian's brilliant <a href="http://reseabrch.google.com/archive/papers/initialclaimsUS.pdf">little
+      <p>Having read Choi &amp; Varian's brilliant <a href="https://static.googleusercontent.com/media/research.google.com/en//archive/papers/initialclaimsUS.pdf">little
       paper</a> (well, I'm neither economist nor statistician, but I think
       it's good), I just had to test this data source myself.</p>
 
       <p>My idea was to track down effects of the recession on everyday life
       and changes in peoples views of things. It is indeed easy to find such
-      correlations. <a href="http://www.google.com/insights/search/#q=john%20maynard%20keynes&amp;cmpt=q">John
+      correlations. <a href="https://trends.google.com/trends/explore?date=all&amp;q=john%20maynard%20keynes">John
       Maynard Keynes</a> has experienced a formidable revival during the last
       six months or so. I had expected to see some shift in interest, where
-      Karl Marx should gain Adam Smith would loose. <a href="http://www.google.com/insights/search/#q=Adam%20Smith%2CKarl%20Marx&amp;cmpt=q">I
-      think that there is such a trend as well.</a>.</p>
+      Karl Marx should gain Adam Smith would loose. <a href="https://trends.google.com/trends/explore?date=all&amp;q=%2Fm%2F048cl,%2Fm%2F0tfc">I think that there is such a trend as well.</a>.</p>
 
       <h2>Cross country correlation</h2>
 
@@ -9117,8 +9116,8 @@ over again.</summary>
       kass<em>e</em></strong> in Denmark.</p>
 
       <div style="float: right; width: 50%; margin-left:0.5em;margin-right:0.5em;">
-	<a href="http://sigfrid-lundberg.se/entries/2009/08/trends/kassa.png">
-	  <img src="http://sigfrid-lundberg.se/entries/2009/08/trends/kassa.png" width="100%" alt="Fig. 2."/>
+	<a href="https://sigfrid-lundberg.se/entries/2009/08/trends/kassa.png">
+	  <img src="https://sigfrid-lundberg.se/entries/2009/08/trends/kassa.png" width="100%" alt="Fig. 2."/>
 	</a>
 
 	<p>
@@ -9133,7 +9132,7 @@ over again.</summary>
       </div>
 
       <p>Now, these two words does not appear in any other language, and I can
-      safely look up the <a href="http://www.google.com/insights/search/#q=a%20%20kassa%2Ca%20kasse&amp;cmpt=q">search
+      safely look up the <a href="https://trends.google.com/trends/explore?date=all&amp;q=a-kassa,a-kasse">search
       interest</a> in Google Insight for Search and be fairly sure that these
       terms are not used elsewhere. The result is depicted in Fig. 1. Note
       that for a better part of 2004 one or both columns were zero. I've
@@ -9151,8 +9150,8 @@ over again.</summary>
       global market.</p>
 
       <div style="float: left; width: 50%; margin-left:0.5em;margin-right:0.5em;">
-	<a href="http://sigfrid-lundberg.se/entries/2009/08/trends/divorce-da-series.png">
-	  <img src="http://sigfrid-lundberg.se/entries/2009/08/trends/divorce-da-series.png" width="100%" alt="Fig. 3."/>
+	<a href="https://sigfrid-lundberg.se/entries/2009/08/trends/divorce-da-series.png">
+	  <img src="https://sigfrid-lundberg.se/entries/2009/08/trends/divorce-da-series.png" width="100%" alt="Fig. 3."/>
 	</a>
 	<p>
 	  <small>Fig. 3. Search interest for the terms 'a kasse' and
@@ -9248,7 +9247,7 @@ over again.</summary>
 
       <div style="float: right; width: 50%; margin-left:0.5em;margin-right:0.5em;">
 	<a href="/entries/2009/08/trends/divorce-da.png">
-	  <img src="http://sigfrid-lundberg.se/entries/2009/08/trends/divorce-da.png" width="100%" alt="Fig. 4."/>
+	  <img src="https://sigfrid-lundberg.se/entries/2009/08/trends/divorce-da.png" width="100%" alt="Fig. 4."/>
 	</a>
 	<p>
 	  <small>Fig. 4. Correlation analysis between search interest for
@@ -9271,14 +9270,14 @@ over again.</summary>
       search less for "skilsmässa" than we do for "a kassa" (Fig. 4).</p>
 
       <p>These correlations, if real, have not, for me at least, any obvious
-      interpretation. A few <a href="http://en.wiktionary.org/wiki/factoid">factoids</a> as a
+      interpretation. A few <a href="https://en.wiktionary.org/wiki/factoid">factoids</a> as a
       background. I list them without references -- this is not a scientific
       report, but a blog entry. They my recollections from radio news and the
       daily newspapers:</p>
 
       <div style="float: left; width: 50%; margin-left:0.5em;margin-right:0.5em;">
-	<a href="http://sigfrid-lundberg.se/entries/2009/08/trends/divorce-sv-series.png">
-	  <img src="http://sigfrid-lundberg.se/entries/2009/08/trends/divorce-sv-series.png" width="100%" alt="Fig. 5."/>
+	<a href="https://sigfrid-lundberg.se/entries/2009/08/trends/divorce-sv-series.png">
+	  <img src="https://sigfrid-lundberg.se/entries/2009/08/trends/divorce-sv-series.png" width="100%" alt="Fig. 5."/>
 	</a>
 	<p>
 	  <small>Fig. 5. Search interest for the terms 'a kasse' and
@@ -9298,7 +9297,7 @@ over again.</summary>
       of the Atlantic.</p>
 
       <p><strong>iii.</strong> The Danish divorce rate 2.92 per 1000
-      inhabitants) is higher than the one in Sweden (2.24). <a href="http://en.wikipedia.org/wiki/Divorce_demography">Both figures from
+      inhabitants) is higher than the one in Sweden (2.24). <a href="https://en.wikipedia.org/wiki/Divorce_demography">Both figures from
       2004</a>.</p>
 
       <p>It could be possible to understand the different correlations in Figs
@@ -9310,8 +9309,8 @@ over again.</summary>
       miserable. I'll search for "skilsmässa" in Google later on.</em></p>
 
       <div style="float: right; width: 50%; margin-left:0.5em;margin-right:0.5em;">
-	<a href="http://sigfrid-lundberg.se/entries/2009/08/trends/divorce-sv.png">
-	  <img src="http://sigfrid-lundberg.se/entries/2009/08/trends/divorce-sv.png" width="100%" alt="Fig. 6."/>
+	<a href="https://sigfrid-lundberg.se/entries/2009/08/trends/divorce-sv.png">
+	  <img src="https://sigfrid-lundberg.se/entries/2009/08/trends/divorce-sv.png" width="100%" alt="Fig. 6."/>
 	</a>
 	<p>
 	  <small>Fig. 6. Correlation analysis between search interest for
@@ -9348,7 +9347,7 @@ over again.</summary>
       <p>There are more to say about this.</p>
 
       <p>Unemployment is no fun. The fact that unemployment can break marriges
-      doesn't worry me too much. However, some people <a href="http://www.businessweekly.co.uk/2009071635221/academia-and-research/rise-in-unemployment-linked-to-suicide-rate.html">cannot
+      doesn't worry me too much. However, some people <a href="https://web.archive.org/web/20090720040903/http://www.businessweekly.co.uk/2009071635221/academia-and-research/rise-in-unemployment-linked-to-suicide-rate.html">cannot
       live with unemployment</a>. That is much worse.</p>
 
       <p>Obviously there are companies out there subscribing to terms related
@@ -9370,7 +9369,7 @@ over again.</summary>
   <category label="essays" term="Essays"/>
   <updated>2009-08-10T08:47:07+01:00</updated>
   <published>2009-08-04T17:58:28+01:00</published>
-  <id>http://www.sigfrid-lundberg.se/entries/2009/08/trends/</id>
+  <id>https://sigfrid-lundberg.se/entries/2009/08/trends/</id>
   <!-- $Id$ -->
 </entry>
   <entry>
