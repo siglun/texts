@@ -24,51 +24,53 @@
 	</tr>
 	<tr style="border:none;">
 	  <td style="border:none;">February 1998</td>
-	  <td style="border:none;"><a href="http://www.w3.org/TR/1998/REC-xml-19980210">XML became
+	  <td style="border:none;"><a href="https://www.w3.org/TR/1998/REC-xml-19980210">XML became
 	  recommendation</a></td>
 	</tr>
 	<tr style="border:none;">
 	  <td style="border:none;">1998</td>
-	  <td style="border:none;"><a href="http://www.ietf.org/rfc/rfc2413.txt">Dublin Core
+	  <td style="border:none;"><a href="https://www.ietf.org/rfc/rfc2413.txt">Dublin Core
 	  Metadata for Resource Discovery published as RFC 2413</a></td>
 	</tr>
 	<tr style="border:none;">
 	  <td style="border:none;">1998</td>
-	  <td style="border:none;"><a href="http://www.loc.gov/ead/tglib1998/index.html">Encoded
+	  <td style="border:none;"><a href="https://www.loc.gov/ead/tglib1998/index.html">Encoded
 	  Archival Description tag lib published</a></td>
 	</tr>
 	<tr style="border:none;">
 	  <td style="border:none;">January 1999</td>
-	  <td style="border:none;"><a href="http://www.tei-c.org/About/history.xml">the University
+	  <td style="border:none;"><a href="https://tei-c.org/about/history/#TEI-TEI-C">the University
 	  of Virginia and the University of Bergen (Norway) </a> proposes the
 	  formation of TEI consortium.</td>
 	</tr>
 	<tr style="border:none;">
 	  <td style="border:none;">22 February 1999</td>
-	  <td style="border:none;"><a href="http://www.w3.org/TR/1999/REC-rdf-syntax-19990222/">RDF
+	  <td style="border:none;"><a href="https://www.w3.org/TR/1999/REC-rdf-syntax-19990222/">RDF
 	  model and Syntax</a> specification appeared</td>
 	</tr>
 	<tr style="border:none;">
 	  <td style="border:none;"> 16 November 1999</td>
-	  <td style="border:none;"><a href="http://www.w3.org/TR/xslt">XSL Transformations (XSLT)
-	  Version 1.0 W3C Recommendation</a></td>
+	  <td style="border:none;">
+	    <a href="https://www.w3.org/TR/1999/REC-xslt-19991116">XSL
+	    Transformations (XSLT) Version 1.0 W3C Recommendation</a>
+	  </td>
 	</tr>
 	<tr style="border:none;">
 	  <td style="border:none;">January 2001</td>
 	  <td style="border:none;"><a
-	  href="http://www.openarchives.org/OAI/1.0/openarchivesprotocol.htm">OAI-PMH
+	  href="https://www.openarchives.org/OAI/1.0/openarchivesprotocol.htm">OAI-PMH
 	  version 1.0</a></td>
 	</tr>
 	<tr style="border:none;">
 	  <td style="border:none;">February, 2001</td>
 	  <td style="border:none;">The development of <a
-	  href="http://www.loc.gov/standards/mets/">METS</a> <a
-	  href="http://www.lib.berkeley.edu/digicoll/bestpractices/mets_history.html">starts</a></td>
+	  href="https://www.loc.gov/standards/mets/">METS</a> <a
+	  href="https://web.archive.org/web/20090410233611/http://www.lib.berkeley.edu/digicoll/bestpractices/mets_history.html">starts</a></td>
 	</tr>
       </table>
 
       <p>Almost all of these events were triggered by XML. If I remember
-      correctly, We released <a href="http://laurentius.ub.lu.se">S:t
+      correctly, We released <a href="https://web.archive.org/web/20170625133439/http://laurentius.ub.lu.se/">S:t
       Laurentius Digital Manuscript Library</a> 2001 which included my first
       serious XSLT scripting, but before that I made some serious work using
       perl and the expat XML parser.</p>
@@ -78,5 +80,5 @@
   <dc:date>2009</dc:date>
   <category label="metadata" term="Metadata"/>
   <updated>2009-08-24T21:09:02+01:00</updated>
-  <id>http://www.sigfrid-lundberg.se/entries/2009/08/threeyears/</id>
+  <id>https://sigfrid-lundberg.se/entries/2009/08/threeyears/</id>
 </entry>
