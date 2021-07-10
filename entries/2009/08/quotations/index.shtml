@@ -103,7 +103,7 @@
       <h2 id="ps">PS</h2>
 
       <p>If you're interested in experimenting with mark-up based anchors,
-      I'll give you a <a href="http://sigfrid-lundberg.se/entries/2009/08/quotations/add-id.xsl">XSLT-script</a>
+      I'll give you a <a href="https://sigfrid-lundberg.se/entries/2009/08/quotations/add-id.xsl">XSLT-script</a>
       which basically copies a XML document but while doing so it adds an id
       attribute to every element in your document. I find this extremely
       useful. You can extend it to <a href="http://exslt.org/str/functions/tokenize/">tokenize text</a> and
