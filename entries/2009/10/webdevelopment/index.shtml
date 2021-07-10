@@ -9,12 +9,12 @@
 
       <p>Anyone who has stayed in the same business for some years, have seen
       the recurrent changes in fashion. You'll also experience how people try
-      to sell you the <a href="http://en.wikipedia.org/wiki/Little_black_dress">little black
+      to sell you the <a href="https://en.wikipedia.org/wiki/Little_black_dress">little black
       dress</a> as something new. People invent a lot of things. Some of them
       are not that innovative. Some ideas required further development before
       they could take off. Some ideas were right, but the time wasn't.</p>
 
-      <p>The <a href="http://www.tbray.org/ongoing/When/200x/2009/10/14/OOW-Take-aways#p-2">legacy</a>
+      <p>The <a href="https://www.tbray.org/ongoing/When/200x/2009/10/14/OOW-Take-aways#p-2">legacy</a>
       is something that is accumululating behind you. What someone (usually
       someone else) acquired or developed. You don't like the legacy, in
       particular not its documentation, but you have to maintain it.</p>
@@ -31,9 +31,9 @@
       <p>Then things happen again. PHP had been there all along. Many of the
       largest sites hade been using it for years for front-end work. The
       back-end could be written in JAVA but C, C++, perl and python are
-      used. For newer sites there are languages like <a href="http://haskell.org/">Haskell</a> and <a href="http://erlang.org/">Erlang</a>, H and E in HECS. The remaining
-      characters are C as in <a href="http://clojure.org/">Clojure</a> and S
-      for <a href="http://www.scala-lang.org/">Scala</a></p>
+      used. For newer sites there are languages like <a href="https://www.haskell.org/">Haskell</a> and <a href="https://www.erlang.org/">Erlang</a>, H and E in HECS. The remaining
+      characters are C as in <a href="https://clojure.org/">Clojure</a> and S
+      for <a href="https://www.scala-lang.org/">Scala</a></p>
 
       <p>Mankind is stratified into those who are early adopters and those
       that are more hesitant. Some of the early adopters buy the little black
@@ -55,7 +55,7 @@
       -- a modern cloud computing classic.</p>
 
       <p>Still, I'm going for Haskell. I want a language which isn't using any
-      virtual machine. The <a href="http://www.haskell.org/haskellwiki/Referential_transparency">referential
+      virtual machine. The <a href="https://wiki.haskell.org/Referential_transparency">referential
       transparency</a> (purity) is just a wonderful idea. I want something
       really new and elegant, such as a little black dress.</p>
 
