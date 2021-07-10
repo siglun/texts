@@ -14,19 +14,20 @@
       belong to the strategic field, and in that field the only thing I can
       offer is advice.</p>
 
-      <p>As a scientist and a software developer I've repeatedly considered
-      the problems related to addressing on the Internet. I've written at
-      length about <a
-      href="http://sigfrid-lundberg.se/2003/urnar_och_digitala_bibliotek">URNs
+      <p>As a scientist and a software developer I've repeatedly
+      considered the problems related to addressing on the
+      Internet. I've written at length about <a
+      href="https://sigfrid-lundberg.se/2003/urnar_och_digitala_bibliotek">URNs
       and digital libraries</a> and <a
-      href="http://sigfrid-lundberg.se/entries/2009/08/cooluris/">Cool
-      URIs</a>. I'm going to continue to do that, because there are people in
-      the library communities who just fail to understand that the URN stuff
-      is a complete waste of time and money on something which is to little
-      benefit and that may, in my view, be potentially harmful. Most recently
-      it is the <a
+      href="https://sigfrid-lundberg.se/entries/2009/08/cooluris/">Cool
+      URIs</a>. I'm going to continue to do that, because there are
+      people in the library communities who just fail to understand
+      that the URN stuff is a complete waste of time and money on
+      something which is to little benefit and that may, in my view,
+      be potentially harmful. Most recently it is the <a
       href="http://www.surffoundation.nl/wiki/display/persid/Partners">PersID
-      project</a>.</p>
+      project</a> [that was dead July 10 2021 when I checked all links
+      on my site, and it wasn't on archive.org].</p>
 
       <p><strong>Please don't pull resources from scarce library budgets in
       support for an idea which died six or seven years ago!</strong></p>
@@ -56,14 +57,14 @@
 
       <h3>It is always best to tell the truth</h3>
 
-      <blockquote cite="http://www.w3.org/Provider/Style/URI">
+      <blockquote cite="https://www.w3.org/Provider/Style/URI">
 	What makes a cool URI?<br/>
 	A cool URI is one which does not change.<br/>
 	What sorts of URI change?<br/>
 	<em>URIs don't change: people change them.</em>
       </blockquote>
 
-      <p>wrote <a href="http://www.w3.org/Provider/Style/URI">Tim
+      <p>wrote <a href="https://www.w3.org/Provider/Style/URI">Tim
       Berners-Lee</a> 1998. He knows what he's talking about, because he
       actually invented the Worldwide web.</p>
 
@@ -117,6 +118,6 @@
   <category label="structuralwebdesign" term="Structural web design"/>
   <category label="internet" term="Internet"/>
   <updated>2010-02-23T07:31:22+01:00</updated>
-  <id>http://www.sigfrid-lundberg.se/entries/2010/02/persid/</id>
+  <id>https://sigfrid-lundberg.se/entries/2010/02/persid/</id>
   <!-- $Id$ -->
 </entry>
