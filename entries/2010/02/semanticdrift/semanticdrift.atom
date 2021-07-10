@@ -12,15 +12,15 @@
     <div xmlns="http://www.w3.org/1999/xhtml">
 
       <div style="float:left;width:60%;margin:0.5em;">
-	<a href="http://sigfrid-lundberg.se/entries/2010/02/semanticdrift/graph.png">
-	  <img src="http://sigfrid-lundberg.se/entries/2010/02/semanticdrift/graph.png" style="width:100%;" alt="frequency occurrences of the term 'semantic drift'"/>
+	<a href="https://sigfrid-lundberg.se/entries/2010/02/semanticdrift/graph.png">
+	  <img src="https://sigfrid-lundberg.se/entries/2010/02/semanticdrift/graph.png" style="width:100%;" alt="frequency occurrences of the term 'semantic drift'"/>
 	</a>
 	<p><small>Fig. 1. The usage of the term <q>semantic drift</q> in web
 	documents. Note the logarithmic scale on the Y-axis: There is a
 	tenfold increase between 2007 and 2008. By the first of January 2010
 	there had appeared 19600. These use of the term in the context of
 	semantic web is not very common. For instance, <q>semantic drift</q>
-	and <q>semantic web</q> <a href="http://www.google.com/search?hl=en&amp;q=%22semantic+drift%22+%22semantic+web%22&amp;aq=f&amp;aqi=&amp;oq=">827
+	and <q>semantic web</q> <a href="https://www.google.com/search?hl=en&amp;q=%22semantic+drift%22+%22semantic+web%22&amp;aq=f&amp;aqi=&amp;oq=">827
 	hits</a> whereas the latter on its own yields more than three
 	millions hits.</small></p>
 
@@ -34,7 +34,7 @@
       you import it into your active vocabulary. About ten or twelve years ago
       <q>semantic drift</q> was such a term for me. <q>Semantic change, also
       known as semantic shift or semantic progression describes the evolution
-      of word usage</q> (<a href="http://en.wikipedia.org/wiki/Semantic_drift">Wikipedia</a>).</p>
+      of word usage</q> (<a href="https://en.wikipedia.org/wiki/Semantic_drift">Wikipedia</a>).</p>
 
       <p>I'm an evolutionary biologist by training, for me <em>genetic</em>
       drift and evolution through natural (Darwinian) selection have
@@ -43,7 +43,7 @@
       mutation between <em>synonymous</em> genes -- they differ but the effect
       is the same.</p>
 
-      <p>I used the term <q>semantic drift</q> <a href="http://lists.w3.org/Archives/Public/www-rdf-interest/2000Oct/0121.html">publicly
+      <p>I used the term <q>semantic drift</q> <a href="https://lists.w3.org/Archives/Public/www-rdf-interest/2000Oct/0121.html">publicly
       year 2000</a>. I used it for a couple of years, but I don't think I've
       used it since 2003. The term has since then gained some popularity in
       many communities (see Fig. 1). From what I've found out, the term first
@@ -51,7 +51,7 @@
       Weibel 1995</a>.</p>
 
       <div style="float:right;width:180px;margin:0.5em;">
-	<img src="http://sigfrid-lundberg.se/2000/delft/dumb_down.gif" alt="dumb down" width="178px" height="238px"/>
+	<img src="https://sigfrid-lundberg.se/2000/delft/dumb_down.gif" alt="dumb down" width="178px" height="238px"/>
 	<p><small>Fig. 2. The so-called dumb down principle. The only way to
 	cope with the semantic diversity.</small></p>
       </div>
@@ -72,7 +72,7 @@
 
       <p>This is the history behind the version number 1.1 in DC. At the time
       I presented a study of meta-tags in around 5 million HTML documents
-      during my life as search engineer <a href="http://sigfrid-lundberg.se/2000/delft/examples/metadata_statistics.html">1996-2000</a>. This
+      during my life as search engineer <a href="https://sigfrid-lundberg.se/2000/delft/examples/metadata_statistics.html">1996-2000</a>. This
       was the time when I felt the need for Fig. 2. I drew it for illustrating
       what I was doing when I was handling metadata. The reason for using dumb
       down is that even if your service you're building is equipped with an
@@ -80,14 +80,18 @@
       claim that usability is important if it contains more than around ten
       fields.</p>
 
-      <p>I have recently been thinking about these issues, frightened by
-      dbpedia.org's vocabularies. See for instance <a href="http://dbpedia.org/page/August_Strindberg">August Strindberg's
-      entry</a>. <a href="http://dbpedia.org/page/Inferno_(Strindberg_novel)">Inferno</a> is
-      one of his works. From what I can tell, dbpedia.org is mainly using
-      their own vocabularies, and <a href="http://xmlns.com/foaf/spec/">foaf</a>. I cannot find dc:creator as
-      a property of Inferno, instead they use <a href="http://dbpedia.org/ontology/author">dbpedia-owl:author</a>. I hope
-      they had a nice time defining their ontologies. I, however, feel
-      that I need my funnel (Fig. 2) more than ever.</p>
+      <p>I have recently been thinking about these issues, frightened
+      by dbpedia.org's vocabularies. See for instance <a
+      href="https://dbpedia.org/page/August_Strindberg">August
+      Strindberg's entry</a>. <a
+      href="https://dbpedia.org/page/Inferno_(Strindberg_novel)">Inferno</a>
+      is one of his works. From what I can tell, dbpedia.org is mainly
+      using their own vocabularies, and <a
+      href="https://xmlns.com/foaf/spec/">foaf</a>. I cannot find
+      dc:creator as a property of Inferno, instead they use <a
+      href="https://dbpedia.org/ontology/author">dbpedia-owl:author</a>. I
+      hope they had a nice time defining their ontologies. I, however,
+      feel that I need my funnel (Fig. 2) more than ever.</p>
 
 
     </div>
@@ -96,7 +100,7 @@
   <category label="internet" term="Internet"/>
   <category label="metadata" term="Metadata"/>
   <updated>2010-02-21T09:52:02+01:00</updated>
-  <id>http://www.sigfrid-lundberg.se/entries/2010/02/semanticdrift/</id>
+  <id>https://sigfrid-lundberg.se/entries/2010/02/semanticdrift/</id>
 
   <!-- $Id$ -->
 </entry>
