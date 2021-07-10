@@ -10,10 +10,11 @@
   make operational definitions of the 'book'.</summary>
   <content type="xhtml">
     <div xmlns="http://www.w3.org/1999/xhtml">
-      <p>Lorcan Dempsey of OCLC research, is involved in among lots of things,
-      statistical analyses of media use. In that work he and his colleagues
-      are forced to make som operational definitions of the 'book'. Definitions
-      that inspired Lorcan to make some <a href="http://orweblog.oclc.org/archives/002000.html">interesting
+      <p>Lorcan Dempsey of OCLC research, is involved in among lots of
+      things, statistical analyses of media use. In that work he and
+      his colleagues are forced to make som operational definitions of
+      the 'book'. Definitions that inspired Lorcan to make some <a
+      href="https://www.lorcandempsey.net/orweblog/on-books-again/">interesting
       reflections on books</a>.</p>
 
       <p>I once had a chat with a book historian. Her view is was that a book
@@ -28,7 +29,7 @@
       <p>In my view it is now a book. After all <em>the book has been accepted
       for publication</em>. When you send it to the printers workshop, then I
       suppose it is manuscript. On the other hand, when you download the thing
-      from <a href="http://www.amazon.com/">amazon.com</a> to your kindle,
+      from <a href="https://www.amazon.com/">amazon.com</a> to your kindle,
       then it's a book.</p>
     </div>
   </content>
@@ -37,6 +38,6 @@
   <category label="media" term="Media"/>
   <updated>2009-08-26T08:09:45+01:00</updated>
   <published>2009-08-26T07:51:07+01:00</published>
-  <id>http://www.sigfrid-lundberg.se/entries/2009/08/whatisabook/</id>
+  <id>https://sigfrid-lundberg.se/entries/2009/08/whatisabook/</id>
   <!-- $Id$ -->
 </entry>
