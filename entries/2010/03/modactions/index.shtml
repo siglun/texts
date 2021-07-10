@@ -7,7 +7,7 @@
 	      </div>
     <div>
 
-      <p>I've been working with the <a href="http://en.wikipedia.org/wiki/Representational_State_Transfer">REST
+      <p>I've been working with the <a href="https://en.wikipedia.org/wiki/Representational_State_Transfer">REST
       paradigm for years</a>. Or that is what I've claimed. But really, what
       I've been delivering is really GETful web services. These are services
       delivering all services using GET-requests, which good if you're
@@ -74,9 +74,9 @@
 	</table>
       </div>
 
-      <p>You can do a lot using REST and the set of <a href="http://www.w3.org/Protocols/rfc2616/rfc2616-sec9.html">methods
+      <p>You can do a lot using REST and the set of <a href="https://www.w3.org/Protocols/rfc2616/rfc2616-sec9.html">methods
       defined for HTTP 1.1</a>. I've put the method in Tab. 1. I'd like to
-      dwell on the idempotency concept as applied to computing. I <a href="http://en.wikipedia.org/wiki/Idempotence#In_computing">quote
+      dwell on the idempotency concept as applied to computing. I <a href="https://en.wikipedia.org/wiki/Idempotence#In_computing">quote
       directly from Wikipedia</a>:</p>
 
       <blockquote style="font-style:italic;">
@@ -96,12 +96,12 @@
 	algorithms.</p>
       </blockquote>
 
-      <p>Let us make the <a href="http://www.guardian.co.uk/science/blog/2009/aug/14/hans-christian-rsted-birthday">gedanken
+      <p>Let us make the <a href="https://www.theguardian.com/science/blog/2009/aug/14/hans-christian-rsted-birthday">gedanken
       experiment</a> that the retrieval methods, GET and HEAD, in HTTP where
       <strong>not idempotent in exactly this sense</strong>. Lean back, close
       your eyes and meditate over the problem: <em>Which sequence of pages
       would be necessary to retrieve <strong>today</strong> in order to get
-      the original <a href="http://www.nature.com/nature/dna50/watsoncrick.pdf">DNA</a>
+      the original <a href="https://www.nature.com/articles/171737a0">DNA</a>
       structure.</em></p>
 
       <p>To put it in another way: Idempotency is the feature of HTTP ensuring

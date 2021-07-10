@@ -8,7 +8,7 @@
     <div>
 
       <p>In a recent article Theresa Velden &amp; Carl Lagoze
-      <em>Communicating chemistry</em>, <a href="http://www.nature.com/nchem/journal/v1/n9/full/nchem.448.html">Nature
+      <em>Communicating chemistry</em>, <a href="https://www.nature.com/articles/nchem.448">Nature
       Chemistry 1, 673-678 (2009)</a> discusses how traditions and attitudes
       concerning IPR affect data sharing and how that in turn affects
       scientists propensities to use web 2.0 tools and web of data
@@ -23,13 +23,14 @@
       <h3>Chemistry is a bit different</h3>
 
       <p>Chemical and pharmaceutical industry are large employers of
-      chemists. Velden &amp; Lagoze mentions that ACS has 155000 members. Of
-      them <a href="http://pubs.acs.org/cen/acsnews/87/8710salary.html"> 62%
-      works within industry</a>. As a comparison, American physical Society
-      has <a href="http://www.aps.org/publications/apsnews/200902/loader.cfm?csModule=security/getfile&amp;pageid=159887">47189
+      chemists. Velden &amp; Lagoze mentions that ACS has 155000
+      members. Of them <a href="https://pubsapp.acs.org/cen/acsnews/87/8710salary.html">
+      62% works within industry</a>. As a comparison, American
+      Physical Society has <a href="https://www.aps.org/publications/apsnews/200902/loader.cfm?csModule=security/getfile&amp;pageid=159887">47189
       members (year 2009)</a> but only about <a href="http://www.pas.rochester.edu/urpas/summary_of_aps_report_on_physicists_in_industry">20%
-      of them work within industry</a>. On the other hand, the same US source
-      claims that 56% of all physics PhDs worked in industry. </p>
+      of them work within industry</a>. On the other hand, the same US
+      source claims that 56% of all physics PhDs worked in
+      industry. </p>
 
       <p>I don't think that the proportion of chemists working within industry
       is high compared with people having training in engineering or computer
@@ -57,7 +58,7 @@
       management of chemical information6, and the use of free, hosted Web 2.0
       services to support 'open-notebook science'</em></blockquote>
 
-      <p><a href="http://www.slideshare.net/jcbradley/scholar2scholar-presentation">This
+      <p><a href="https://www.slideshare.net/jcbradley/scholar2scholar-presentation">This
       open lab notebook</a> is interesting. It is fascinating to see how an
       e-science infrastructure makes use of off-the shelf wiki and blog
       software and combine these with storage in Google apps and communicates
