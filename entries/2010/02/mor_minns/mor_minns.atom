@@ -26,18 +26,18 @@
 	<ul>
 	  <li>Använd <a href="itpc://sigfrid-lundberg.se/podcasts/mor_minns/mor_minns.rss">iTunes</a></li>
 
-	  <li><label for="podcast"><a href="http://sigfrid-lundberg.se/podcasts/mor_minns/mor_minns.rss">XML/RSS-flöde</a></label>
+	  <li><label for="podcast"><a href="https://sigfrid-lundberg.se/podcasts/mor_minns/mor_minns.rss">XML/RSS-flöde</a></label>
         <input id="podcast" 
 	       title="Länk till RSS-flöde" 
 	       size="31" 
-	       value="http://sigfrid-lundberg.se/podcasts/mor_minns/mor_minns.rss"
+	       value="https://sigfrid-lundberg.se/podcasts/mor_minns/mor_minns.rss"
 	       onclick="this.focus();this.select();" type="text" /></li>
 	</ul>
 
       </div>
 
       <div style="float:right;width:40%;margin:0.5em;">
-	<img src="http://sigfrid-lundberg.se/galleri/200902-200904/smaller/cimg1154.jpg" style="width:100%;"
+	<img src="https://sigfrid-lundberg.se/galleri/200902-200904/smaller/cimg1154.jpg" style="width:100%;"
 	     alt="Syster Lundberg, snart 97" />
       </div>
 
@@ -95,6 +95,6 @@
   <dc:date>2010</dc:date>
   <category label="essays" term="Essays"/>
   <updated>2010-02-21T17:07:10+01:00</updated>
-  <id>http://www.sigfrid-lundberg.se/entries/2010/02/mor_minns/</id>
+  <id>https://sigfrid-lundberg.se/entries/2010/02/mor_minns/</id>
   <!-- $Id$ -->
 </entry>
