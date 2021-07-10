@@ -21,8 +21,8 @@
 
       <div style="float: left; width: 50%; margin-left:0.5em;margin-right:0.5em;">
 
-	<a href="http://sigfrid-lundberg.se/entries/2009/09/twelveweeks/usage.pdf">
-	  <img src="http://sigfrid-lundberg.se/entries/2009/09/twelveweeks/usage.png" alt="About 12 weeks usage statistics for my site." width="100%" border="0"/>
+	<a href="https://sigfrid-lundberg.se/entries/2009/09/twelveweeks/usage.pdf">
+	  <img src="https://sigfrid-lundberg.se/entries/2009/09/twelveweeks/usage.png" alt="About 12 weeks usage statistics for my site." width="100%" border="0"/>
 	</a>
 
 	<p>
@@ -43,14 +43,14 @@
       minority stay for three to five minutes, perhaps reading one entry and
       skimming another.</p>
 
-      <p>My most successful entry is <a href="http://sigfrid-lundberg.se/entries/2009/08/trends/">On Divorce and
+      <p>My most successful entry is <a href="https://sigfrid-lundberg.se/entries/2009/08/trends/">On Divorce and
       Unemployment Benefit Societies</a>. I do think it deserves it, but the
-      key to its success is that I wrote a comment on Google Research Blog, <a href="http://googleresearch.blogspot.com/2009/07/posted-by-hal-varian-chief-economist.html">the
+      key to its success is that I wrote a comment on Google Research Blog, <a href="https://web.archive.org/web/20091102074956/http://googleresearch.blogspot.com/2009/07/posted-by-hal-varian-chief-economist.html">the
       place</a> that inspired me to write in the first place. Just yesterday I
       got 26 visitors through that blog entry.</p>
 
       <p>That entry was also the one that took most time to write, followed by
-      my text <a href="http://sigfrid-lundberg.se/entries/2009/07/commuting/">On being an
+      my text <a href="https://sigfrid-lundberg.se/entries/2009/07/commuting/">On being an
       international commuter</a> where the actual wordsmithing took an awful
       amount of time. Two people has told me that they thought it was funny.</p>
 
@@ -73,7 +73,7 @@
       and weekends on this. You cannot start a project which is time consuming
       without side effects. I read less novels and literature just for the fun
       of it. I've hardly touched my flute and <a
-      href="http://sigfrid-lundberg.se/images/Degeberga_duo.shtml" title="me
+      href="https://sigfrid-lundberg.se/images/Degeberga_duo.shtml" title="me
       and my son Erik cooking porridge while playing a polska">recorders</a>
       during this period.</p>
 
@@ -88,6 +88,6 @@
   <category label="essays" term="Essays"/>
   <updated>2009-09-05T13:10:12+01:00</updated>
   <published>2009-09-01T17:42:45+01:00</published>
-  <id>http://www.sigfrid-lundberg.se/entries/2009/09/twelveweeks/</id>
+  <id>https://sigfrid-lundberg.se/entries/2009/09/twelveweeks/</id>
   <!-- $Id$ -->
 </entry>
