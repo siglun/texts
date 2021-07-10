@@ -7,7 +7,7 @@
 	      </div>
     <div>
 
-      <p><em>'We quote,'</em> <a href="http://books.google.com/books?id=duUQAAAAYAAJ&amp;pg=PA54&amp;ci=164%2C315%2C723%2C168&amp;source=bookclip">writes Isaac
+      <p><em>'We quote,'</em> <a href="https://books.google.com/books?id=duUQAAAAYAAJ&amp;pg=PA54&amp;ci=164%2C315%2C723%2C168&amp;source=bookclip">writes Isaac
       D'Israeli</a>, <em>'to save proving what has been demonstrated, referring
       to where the proofs may be found.'</em> How much wisdom isn't embedded
       in this single line! If we did not quote, then we had to explore or
@@ -27,9 +27,9 @@
       linking. For instance, you can cut a piece of text and put into your own
       page. Like this:</p>
 
-      <a rel="viewer" title="Quotation like much better things has its abuses One may quote till one compiles." href="http://books.google.com/books?id=duUQAAAAYAAJ&amp;pg=PA54&amp;img=1&amp;zoom=3&amp;hl=en&amp;sig=ACfU3U18wMKXLnxI-TBSM7IJ4VUTCz8bhQ&amp;ci=150%2C1240%2C753%2C64&amp;edge=0" style="margin-left:10%;text-align:center;"><img src="http://books.google.com/books?id=duUQAAAAYAAJ&amp;pg=PA54&amp;img=1&amp;zoom=3&amp;hl=en&amp;sig=ACfU3U18wMKXLnxI-TBSM7IJ4VUTCz8bhQ&amp;ci=150%2C1240%2C753%2C64&amp;edge=0" border="0" alt="Quotation, like much better things, has its abuses. One may quote till one compiles."/>
-	</a><div><small><a href="http://books.google.com/books?id=duUQAAAAYAAJ&amp;pg=PA54&amp;ci=150%2C1240%2C753%2C64&amp;source=bookclip">Quotation like much better things has its abuses One may quote till one compiles.
-	    </a></small></div>
+      <blockquote><a rel="viewer" title="Quotation like much better things has its abuses One may quote till one compiles." href="https://books.google.com/books?id=duUQAAAAYAAJ&amp;pg=PA54&amp;img=1&amp;zoom=3&amp;hl=en&amp;sig=ACfU3U18wMKXLnxI-TBSM7IJ4VUTCz8bhQ&amp;ci=150%2C1240%2C753%2C64&amp;edge=0" style="margin-left:10%;text-align:center;"><img src="https://books.google.com/books?id=duUQAAAAYAAJ&amp;pg=PA54&amp;img=1&amp;zoom=3&amp;hl=en&amp;sig=ACfU3U18wMKXLnxI-TBSM7IJ4VUTCz8bhQ&amp;ci=150%2C1240%2C753%2C64&amp;edge=0" border="0" alt="Quotation, like much better things, has its abuses. One may quote till one compiles."/>
+	</a><div><small><a href="https://books.google.com/books?id=duUQAAAAYAAJ&amp;pg=PA54&amp;ci=150%2C1240%2C753%2C64&amp;source=bookclip">Quotation like much better things has its abuses One may quote till one compiles.
+	    </a></small></div></blockquote>
 
       <p>There are dangers of quoting, as D'Israeli makes clear. When you you
       cut and paste too much, you're no longer authoring. You're
@@ -41,7 +41,7 @@
       page in a text, how we can highlight an area in an image and also quote
       by cutting a snippet out of an image. The single points, areas or ranges
       in an object which can be used for referencing is in my world called
-      <a href="http://scholar.google.se/scholar?q=%22annotation+anchor%22&amp;hl=en&amp;btnG=S%C3%B6k">annotation anchor</a>s.</p>
+      <a href="https://scholar.google.se/scholar?q=%22annotation+anchor%22&amp;hl=en&amp;btnG=S%C3%B6k">annotation anchor</a>s.</p>
 
       <p>In text we anchor a reference by using a unique sequence of tokens.
       In this particular text, <em>unique sequence of tokens</em> could have
@@ -57,17 +57,17 @@
       <p>Any user interface for searching and navigating parts of an object
       requires new thinking when it comes to persistence policies.  The
       libraries' HTTP hostile resolution procedures fails utterly. There is
-      also much less research in the area <a href="http://scholar.google.se/scholar?q=%22annotation+anchor%22+persistence&amp;hl=en&amp;btnG=Sök">persistence
+      also much less research in the area <a href="https://scholar.google.se/scholar?q=%22annotation+anchor%22+persistence&amp;hl=en&amp;btnG=Sök">persistence
       and annotation anchors</a>.</p>
 
-      <p>Very competent search and navigation systems, such as the <a href="http://www.cdlib.org/inside/projects/xtf/">eXtensible Text
+      <p>Very competent search and navigation systems, such as the <a href="https://xtf.cdlib.org/">eXtensible Text
       Framework</a> (XTF) from California Digital Library, allow users to
       search, navigate and link to arbitrary parts of a document. XTF is used
       to deliver the following document: <a href="http://ark.cdlib.org/ark:/13030/ft8r29p2ss">http://ark.cdlib.org/ark:/13030/ft8r29p2ss</a>.</p>
 
       <p>Now, here we have <em>extremely good</em> facilities for navigation
       and search, facilities that goes far beyond what can be delivered by
-      Google. But, alas, the <a href="http://www.cdlib.org/inside/diglib/ark/">ark based</a> persistent
+      Google. But, alas, the <a href="https://escholarship.org/uc/item/3bg2w3vs">ark based</a> persistent
       identification layer isn't used for those facilities, and any linking or
       quotations or references pointing into the document might die
       with this particular implementation.</p>
@@ -79,7 +79,7 @@
 
       <p>I don't think anyone involved in current web development has escaped
       the linked data bandwagon. Linked data and the semantic web is believed
-      by many to become the core of Web 3.0. Tim Berners-Lee <a href="http://www.w3.org/DesignIssues/LinkedData.html">lists four
+      by many to become the core of Web 3.0. Tim Berners-Lee <a href="https://www.w3.org/DesignIssues/LinkedData.html">lists four
       characteristics</a> of the web of data.</p>
 
       <em>
@@ -95,7 +95,7 @@
 
       <p>Anyone who wants to jump the bandwagon by means anything else on than
       than good old cool URIs does so at his or her own risk, and I
-      won't. For, <a href="http://books.google.com/books?id=duUQAAAAYAAJ&amp;pg=PA59&amp;ci=137%2C351%2C711%2C137&amp;source=bookclip">as
+      won't. For, <a href="https://books.google.com/books?id=duUQAAAAYAAJ&amp;pg=PA59&amp;ci=137%2C351%2C711%2C137&amp;source=bookclip">as
       D'Israeli puts it,</a> <em>'the art of quotation requires more delicacy
       in the practice than those conceive, who can see nothing more in a
       quotation than an extract.'</em></p>
