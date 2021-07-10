@@ -7,7 +7,7 @@
 	      </div>
     <div>
       <p>The previous object is something that came or occurred before the
-      one at hand. The <a href="http://sigfrid-lundberg.se/entries/2010/04/atomlink/">previous
+      one at hand. The <a href="https://sigfrid-lundberg.se/entries/2010/04/atomlink/">previous
       installment</a> of my digital object series addressed the vocabulary
       used in the Atom link tag describing relations between
       URI's.</p>
@@ -24,10 +24,10 @@
 
       <p>The National Library of Australia. <em>Australian METS Profile
       TYPE attribute vocabulary.  Version 1.0</em>
-      <a href="http://www.nla.gov.au/standards/type-attribute-vocabulary">http://www.nla.gov.au/standards/type-attribute-vocabulary</a></p>
+      <a href="https://www.nla.gov.au/standards/type-attribute-vocabulary">https://www.nla.gov.au/standards/type-attribute-vocabulary</a></p>
 
       <p>This list gives terms that can be used to describe content
-      structure. The vocabulary is organized for the use in conjunc with <a href="http://www.loc.gov/standards/mets/">Metadata Encoding and
+      structure. The vocabulary is organized for the use in conjunc with <a href="https://www.loc.gov/standards/mets/">Metadata Encoding and
       Transmission Standard</a> (METS). Using this approach permits
       Australians to write stuff like:</p>
 
@@ -47,7 +47,7 @@
       <p>Having your content organized like this makes sense. All of a sudden
       you know the meaning of next.</p>
 
-      <p>This entry is part of my series <a href="http://sigfrid-lundberg.se/entries/2010/04/readings/">Readings on
+      <p>This entry is part of my series <a href="https://sigfrid-lundberg.se/entries/2010/04/readings/">Readings on
       digital objects</a></p>
 
     </div>

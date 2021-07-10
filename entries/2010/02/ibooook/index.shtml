@@ -20,11 +20,20 @@
       protection promoted by Adobe.</p>
 
       <div style="float: left;width:70%;text-align:center;">
-      <script type="text/javascript" src="http://www.gmodules.com/ig/ifr?url=http%3A%2F%2Fwww.google.com%2Fig%2Fmodules%2Fgoogle_insightsforsearch_interestovertime_searchterms.xml&amp;up__property=empty&amp;up__search_terms=tablet+pc&amp;up__location=empty&amp;up__category=0&amp;up__time_range=empty&amp;up__compare_to_category=false&amp;synd=ig&amp;w=320&amp;h=350&amp;lang=sv&amp;title=Google+Trender&amp;border=%23ffffff%7C3px%2C1px+solid+%23999999&amp;output=js">
 
-</script>
-      <p><small>Fig. 1. The search interest for "tablet pc" in Google. It has
-      been declining until very recently :-)</small></p>
+	<script type="text/javascript" src="https://ssl.gstatic.com/trends_nrtr/2578_RC02/embed_loader.js">
+	  //
+	</script>
+	
+	<script type="text/javascript">
+	  //<!--
+	  trends.embed.renderExploreWidget("TIMESERIES", {"comparisonItem":[{"keyword":"tablet pc","geo":"","time":"2004-01-01 2021-07-10"}],"category":0,"property":""}, {"exploreQuery":"date=all&q=tablet%20pc","guestPath":"https://trends.google.com:443/trends/embed/"});
+	  //-->
+	</script>
+
+	<p><small>Fig. 1. The search interest for "tablet pc" in Google. It has
+	been declining until very recently :-)</small></p>
+	
       </div>
 
       <h3>II</h3>

@@ -9,8 +9,8 @@
 
       <p>If you're involved in what goes on on the Net at a technical level
       then you will at some stage run into acronyms asuch ISOC, IESG and
-      IETF. They are, respectively, short for <a href="http://www.isoc.org/">Internet Society</a>, <a href="http://www.ietf.org/iesg/">Internet Engineering Steering Group</a>
-      and <a href="http://www.ietf.org/">Internet Engineering Task
+      IETF. They are, respectively, short for <a href="https://www.internetsociety.org/">Internet Society</a>, <a href="https://www.ietf.org/about/groups/iesg/">Internet Engineering Steering Group</a>
+      and <a href="https://www.ietf.org/">Internet Engineering Task
       Force</a>.</p>
 
       <p>Even if industry has contributed a lot to the development of Internet
@@ -21,16 +21,16 @@
       California at Berkeley.</p>
 
       <p>These organizations keep track of their histories. Indeed the best
-      Internet history comes from the IETF in <a href="http://tools.ietf.org/html/rfc2235">Request For Comments
+      Internet history comes from the IETF in <a href="https://datatracker.ietf.org/doc/html/rfc2235">Request For Comments
       2235</a>.</p>
 
       <h3>IANA</h3>
 
-      <p>There is another important entity on the Internet. The <a href="http://www.iana.org">Internet Assigned Numbers Authority</a>
+      <p>There is another important entity on the Internet. The <a href="https://www.iana.org">Internet Assigned Numbers Authority</a>
       (IANA). This organization has in its care the <em>Internet Root
       Zone</em>, that is it owns the name server that rules them all.</p>
 
-      <p>IANA is also keeping track of <strong>the list</strong> of MIME <a href="http://www.iana.org/assignments/media-types/">media types</a>. To
+      <p>IANA is also keeping track of <strong>the list</strong> of MIME <a href="https://www.iana.org/assignments/media-types/media-types.xhtml">media types</a>. To
       explain the significance of this list, you have to think about all those
       times when you've failed to open some file sent to you with
       e-mail. That's what happens when the sender's message header contains an
@@ -38,7 +38,7 @@
 
       <p>Laurent Romary and myself have spent quite some time this week
       writing an Internet draft.  The purpose of that draft is to add a single
-      line on the list of media types, containing the string <a href="http://sigfrid-lundberg.se/entries/2010/03/teimime/">application/tei+xml</a>.</p>
+      line on the list of media types, containing the string <a href="https://www.iana.org/assignments/media-types/application/tei+xml">application/tei+xml</a>.</p>
 
     </div>
   <div style="clear:both"> 

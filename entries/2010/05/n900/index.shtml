@@ -32,15 +32,17 @@
       site from my CVS repository and I'm able to run the entire rebuild
       machinery. This is a computer that allows creativity.</p>
 
-      <p>I did try to install emacs and nxml mode but that wasn't trivial. The
-      OS is called <a href="http://maemo.org/">Maemo</a>, which is a Debian
-      based Linux maintained by a community sponsored by Nokia. The
-      development is promising since Nokia and Intel are joining forces and
-      are merging forces. Their respective mobile OSes will merge into <a href="http://meego.com/">Meego</a> maintained by Linux foundation.</p>
+      <p>I did try to install emacs and nxml mode but that wasn't
+      trivial. The OS is called <a href="http://maemo.org/">Maemo</a>,
+      which is a Debian based Linux maintained by a community
+      sponsored by Nokia. The development is promising since Nokia and
+      Intel are joining forces and are merging forces. Their
+      respective mobile OSes will merge into Meego maintained by Linux
+      foundation.</p>
 
       <div style="float:right;width:60%;margin:0.5em;">
-	<a rel="viewer" href="http://sigfrid-lundberg.se/entries/2010/05/n900/smaller20100504446.jpg" title="A phone for an old nerd?"><img src="http://sigfrid-lundberg.se/entries/2010/05/n900/smaller20100504446.jpg" alt="A phone for an old nerd?"/>
-	</a><div><small><a href="http://sigfrid-lundberg.se/entries/2010/05/n900/20100504446.jpg">A phone for an old nerd?
+	<a rel="viewer" href="https://sigfrid-lundberg.se/entries/2010/05/n900/smaller20100504446.jpg" title="A phone for an old nerd?"><img src="https://sigfrid-lundberg.se/entries/2010/05/n900/smaller20100504446.jpg" alt="A phone for an old nerd?"/>
+	</a><div><small><a href="https://sigfrid-lundberg.se/entries/2010/05/n900/20100504446.jpg">A phone for an old nerd?
 	    </a></small></div>
 	<p><small>The N900 is about as large as a state of the art smart
 	phone, a bit larger when the keyboard is slid open. It is twice a

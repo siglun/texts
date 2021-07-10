@@ -9,7 +9,7 @@
 
       <p>Today I gave a presentation on our metadata work. It was meant to be
       about METS and MODS, but it became more of a justification for our work
-      than about. As usual I had <a href="http://sigfrid-lundberg.se/2009/nov30/presentation.xml">too many
+      than about. As usual I had <a href="https://sigfrid-lundberg.se/2009/nov30/presentation.xml">too many
       slides</a>. My main idea was to use google images instead of slides, but
       then I had to add some slides anyway because the navigation overhead was
       too high and I had difficulties to remember which images to click on.</p>
@@ -24,21 +24,21 @@
       <p>Please find below an annotated list of links to searches I like:</p>
 
       <div style="float: left; width: 50%; margin-left:0.5em;margin-right:0.5em;">
-	<a rel="viewer" href="http://www.w3.org/2001/tag/2004/webarch-20041021/uri-res-rep.png" title="Architecture of the worldwide web"><img src="http://www.w3.org/2001/tag/2004/webarch-20041021/uri-res-rep.png" width="90%" border="0" alt="URI &amp; representations &amp; resources"/>
-	</a><div><small><a href="http://www.w3.org/TR/webarch/">Architecture of the worldwide web
+	<a rel="viewer" href="https://www.w3.org/2001/tag/2004/webarch-20041021/uri-res-rep.png" title="Architecture of the worldwide web"><img src="https://www.w3.org/2001/tag/2004/webarch-20041021/uri-res-rep.png" width="90%" border="0" alt="URI &amp; representations &amp; resources"/>
+	</a><div><small><a href="https://www.w3.org/TR/webarch/">Architecture of the worldwide web
 	    </a></small></div>
 	<p><small>Figure 1</small></p>
 
       </div>
 
-      <h2><a href="http://images.google.com/images?gbv=2&amp;hl=en&amp;um=1&amp;sa=1&amp;q=architecture+of+the+worldwide+web&amp;aq=f&amp;oq=&amp;aqi=&amp;start=0">Architecture of the worldwide web</a></h2>
+      <h2><a href="https://images.google.com/images?gbv=2&amp;hl=en&amp;um=1&amp;sa=1&amp;q=architecture+of+the+worldwide+web&amp;aq=f&amp;oq=&amp;aqi=&amp;start=0">Architecture of the worldwide web</a></h2>
 
       <p>First hit is Figure 1, from <a href="http://www.w3.org/TR/webarch/">the appropriate W3
       recommendation</a>. Then there are fifteen polar bears belonging to the
-      cover of <q>Information Architecture for the World Wide Web</q>, a title
-      that I think I should read when I get the opportunity.</p>
+      cover of <q>Information Architecture for the World Wide Web</q>, <a href="https://www.oreilly.com/library/view/information-architecture-for/1565922824/">a title
+      that I think I should read</a> when I get the opportunity.</p>
 
-      <h2><a href="http://images.google.com/images?gbv=2&amp;hl=en&amp;sa=1&amp;q=library+catalog&amp;aq=f&amp;oq=&amp;aqi=g1&amp;start=0">Library
+      <h2><a href="https://images.google.com/images?gbv=2&amp;hl=en&amp;sa=1&amp;q=library+catalog&amp;aq=f&amp;oq=&amp;aqi=g1&amp;start=0">Library
       catalog</a></h2>
 
       <p>This one isn't as spectacular as the architecture, but it
@@ -46,8 +46,8 @@
       comes to what libraries and cataloging is about.</p>
 
       <div style="float: right; width: 50%; margin-left:0.5em;margin-right:0.5em;">
-	<a rel="viewer" href="http://www.library.nd.edu/daiad/morgan/musings/ngc/ngo.gif" title="Eric Lease Morgan's musings on next generation catalog"><img src="http://www.library.nd.edu/daiad/morgan/musings/ngc/ngo.gif" width="100%" border="0" alt="Eric Lease Morgan's musings on next generation catalog"/>
-	</a><div><small><a href="http://www.library.nd.edu/daiad/morgan/musings/ngc/">Eric Lease Morgan's musings on next generation catalog
+	<a rel="viewer" href="http://infomotions.com/musings/ngc/ngo.gif" title="Eric Lease Morgan's musings on next generation catalog"><img src="http://infomotions.com/musings/ngc/ngo.gif" width="100%" border="0" alt="Eric Lease Morgan's musings on next generation catalog"/>
+	</a><div><small><a href="http://infomotions.com/musings/ngc/">Eric Lease Morgan's musings on next generation catalog
 	    </a></small></div>
 	  <p><small>Figure 2. Eric Lease Morgan's musing on the Next
 	  Generation Opac</small></p>
@@ -59,34 +59,34 @@
       of protocols to support, and the list of metadata formats are the
       same. The ideas doesn't change that fast.</p>
 
-      <h2><a href="http://images.google.com/images?gbv=2&amp;hl=en&amp;q=circulation+desk&amp;sa=N&amp;start=0&amp;ndsp=20">Circulation desk</a></h2>
+      <h2><a href="https://images.google.com/images?gbv=2&amp;hl=en&amp;q=circulation+desk&amp;sa=N&amp;start=0&amp;ndsp=20">Circulation desk</a></h2>
 
       <p>All libraries I know have a circulation desk. Searching for it in
       Google images yields 978000 hits. Adding quotation marks reduces the
       number to 34400. None of them are particularly interesting, except
-      perhaps the one at <a href="http://www.flickr.com/photos/army_arch/2691906687/">Doheny
+      perhaps the one at <a href="https://www.flickr.com/photos/army_arch/2691906687/">Doheny
       Library</a>.</p>
 
       <p>My fascination is more due to fact that they are all there, all these
       desks. I mean, how interesting is a circulation desk?</p>
 
       <div style="float: right; width: 50%; margin-left:0.5em;margin-right:0.5em;">
-	<a rel="viewer" href="http://library.web.cern.ch/library/Webzine/10/papers/1/figure3.jpg"><img src="http://library.web.cern.ch/library/Webzine/10/papers/1/figure3.jpg" width="90%" border="0" alt="Works, expressions, manifestations and relations"/>
-	</a><div><small><a href="http://library.web.cern.ch/library/Webzine/10/papers/1/">
+	<a rel="viewer" href="https://web.archive.org/web/20101117093845im_/http://library.web.cern.ch/library/Webzine/10/papers/1/figure3.jpg"><img src="https://web.archive.org/web/20101117093845im_/http://library.web.cern.ch/library/Webzine/10/papers/1/figure3.jpg" width="90%" border="0" alt="Works, expressions, manifestations and relations"/>
+	</a><div><small><a href="https://web.archive.org/web/20101111130421/http://library.web.cern.ch/library/Webzine/10/papers/1/">
 	    </a></small></div>
 
 	<p><small>Figure 3. Knut Hegna (2004) <q>Using FRBR</q></small></p>
 
       </div>
 
-      <h2><a href="http://images.google.com/images?hl=en&amp;source=hp&amp;q=work+expression+manifestation+item&amp;gbv=2&amp;aq=f&amp;oq=&amp;aqi=">work expression manifestation item</a></h2>
+      <h2><a href="https://images.google.com/images?hl=en&amp;source=hp&amp;q=work+expression+manifestation+item&amp;gbv=2&amp;aq=f&amp;oq=&amp;aqi=">work expression manifestation item</a></h2>
 
       <p>This one hard core information science. <em>Work</em> is the
       ontological work, before it is expressed in a manuscript. The platonic
       blog entry, before it hits the web.</p>
 
-      <p>There are other hard core ones, such as <a href="http://images.google.com/images?gbv=2&amp;hl=en&amp;sa=1&amp;q=collect+preserve+organize+provide+access&amp;aq=f&amp;oq=&amp;aqi=&amp;start=0">collect
-      preserve organize provide access</a>. As a <a href="http://www.google.com/search?gbv=2&amp;hl=en&amp;q=collect%20preserve%20organize%20provide%20access&amp;ie=UTF-8&amp;sa=N&amp;tab=iw&amp;start=0">web
+      <p>There are other hard core ones, such as <a href="https://images.google.com/images?gbv=2&amp;hl=en&amp;sa=1&amp;q=collect+preserve+organize+provide+access&amp;aq=f&amp;oq=&amp;aqi=&amp;start=0">collect
+      preserve organize provide access</a>. As a <a href="https://www.google.com/search?gbv=2&amp;hl=en&amp;q=collect%20preserve%20organize%20provide%20access&amp;ie=UTF-8&amp;sa=N&amp;tab=iw&amp;start=0">web
       search</a>, it yields hits mainly in library &amp; archive mission
       statements.</p>
 
