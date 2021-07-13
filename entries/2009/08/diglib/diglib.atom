@@ -11,11 +11,11 @@
   <content type="xhtml">
     <div xmlns="http://www.w3.org/1999/xhtml">
 
-      <p><q cite="http://web.media.mit.edu/~nicholas/Wired/WIRED6-12.html">The
-      digital revolution is over</q> wrote <a href="http://web.media.mit.edu/~nicholas/Wired/WIRED6-12.html">Nicholas
-      Negroponte already 1998</a>. According to <a href="http://escherman.wordpress.com/2008/03/12/the-digital-revolution-is-over-nicholas-negroponte-in-1998/">one
+      <p><q cite="https://web.media.mit.edu/~nicholas/Wired/WIRED6-12.html">The
+      digital revolution is over</q> wrote <a href="https://web.media.mit.edu/~nicholas/Wired/WIRED6-12.html">Nicholas
+      Negroponte already 1998</a>. According to <a href="https://escherman.wordpress.com/2008/03/12/the-digital-revolution-is-over-nicholas-negroponte-in-1998/">one
       source</a>, whose credibility I have not evaluated, Douglas Adams once
-      described Nicholas Negroponte as someone who <q cite="http://escherman.wordpress.com/2008/03/12/the-digital-revolution-is-over-nicholas-negroponte-in-1998/">writes
+      described Nicholas Negroponte as someone who <q cite="https://escherman.wordpress.com/2008/03/12/the-digital-revolution-is-over-nicholas-negroponte-in-1998/">writes
       about the future with the authority of someone who has spent a great
       deal of time there.</q> The declaration of victory for the digital
       appeared in Negroponte's last regular column in the Wired Magazine. He
@@ -30,25 +30,25 @@
       <p>After the digital revolution, it was natural for the library
       community to create a vision of moving <em>The Library</em> onto the
       Internet. The libraries were rising new buildings all over the globe
-      called digital libraries. One particularly good one is <a href="http://www.cdlib.org/">California Digital Library</a>. CDL was
+      called digital libraries. One particularly good one is <a href="https://cdlib.org/">California Digital Library</a>. CDL was
       founded 1997, i.e., the year before the digital revolution ended. The
       CDL web site is very typical in many ways. In particular its home
       page. It starts with a corporate site, and on it there is a list of
       services <q>powered by CDL</q>. For example:
-      <a href="http://www.calisphere.universityofcalifornia.edu/">Calisphere</a>,
+      <a href="https://calisphere.org/">Calisphere</a>,
 
-      <a href="http://content.cdlib.org/escholarship/">eScholarship
+      <a href="https://publishing.cdlib.org/ucpressebooks/">eScholarship
       Editions</a>,
 
-      <a href="http://repositories.cdlib.org/escholarship/">eScholarship
+      <a href="https://escholarship.org/#home_repository">eScholarship
       Repository</a>,
 
-      <a href="http://www.marktwainproject.org/homepage.html">Mark Twain Project
+      <a href="https://www.marktwainproject.org/homepage.html">Mark Twain Project
       Online</a> 
 
       and 
 
-      <a href="http://www.oac.cdlib.org/">Online Archive of California
+      <a href="https://oac.cdlib.org/">Online Archive of California
       (OAC)</a>.
       </p>
 
@@ -109,5 +109,5 @@
   <dc:date>2009</dc:date>
   <category label="structuralwebdesign" term="Structural web design"/>
   <updated>2009-08-31T07:41:21+01:00</updated>
-  <id>http://www.sigfrid-lundberg.se/entries/2009/08/diglib/</id>
+  <id>https://sigfrid-lundberg.se/entries/2009/08/diglib/</id>
 </entry>
