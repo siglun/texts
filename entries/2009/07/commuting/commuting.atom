@@ -42,7 +42,7 @@
 
       <h2>A parking place</h2>
 
-      <img src="http://www.sigfrid-lundberg.se/galleri/200907-200907/smaller/cimg1352.jpg" style="margin-left:0.5em;float:left;margin-right:0.5em;" alt="Secure locking is essential"/>
+      <img src="https://sigfrid-lundberg.se/galleri/200907-200907/smaller/cimg1352.jpg" style="margin-left:0.5em;float:left;margin-right:0.5em;" alt="Secure locking is essential"/>
 
       <p>I have one serious problem. That is to find a secure parking place
       for my bike at the railway station. A lot of people who park there have
@@ -130,7 +130,7 @@
 
       <h2>Then comes the afternoon</h2>
 
-      <img src="http://www.sigfrid-lundberg.se/galleri/200907-200907/smaller/cimg1348.jpg" style="margin-left:0.5em;float:right;margin-right:0.5em;" alt="Secure locking is essential"/>
+      <img src="https://sigfrid-lundberg.se/galleri/200907-200907/smaller/cimg1348.jpg" style="margin-left:0.5em;float:right;margin-right:0.5em;" alt="Secure locking is essential"/>
 
       <p>In the afternoon I take the train back home. I embark the train and
       sit there reading something, or possibly writing texts like this one. I
@@ -168,6 +168,6 @@
   <category label="essays" term="Essays"/>
   <published>2009-07-27T14:26:00+01:00</published>
   <updated>2009-12-10T08:25:37+01:00</updated>
-  <id>http://www.sigfrid-lundberg.se/entries/2009/07/commuting/</id>
+  <id>https://sigfrid-lundberg.se/entries/2009/07/commuting/</id>
   <!-- $Id$ -->
 </entry>

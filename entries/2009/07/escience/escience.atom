@@ -25,7 +25,7 @@
       <p>Libraries have, traditionally, been occupied with four activities:
       They collect, preserve, organize and provide access to
       information. Indeed a <a
-      href="http://www.google.com/search?hl=en&amp;q=collect+preserve+organize+%22provide+access%22&amp;btnG=Search">search</a>
+      href="https://www.google.com/search?hl=en&amp;q=collect+preserve+organize+%22provide+access%22&amp;btnG=Search">search</a>
       for these four terms in Google seem to yield a search very focussed on
       mission statements for Northern American research libraries. <em>It
       isn't farfetched to conclude that we could extend this role to include
@@ -52,7 +52,7 @@
       web. Nothing less, nothing more.</p>
 
       <p>This is the vision of <a
-      href="http://www.w3.org/DesignIssues/LinkedData.html">linked data</a>
+      href="https://www.w3.org/DesignIssues/LinkedData.html">linked data</a>
       and the semantic web, rephrased in the context of scientific
       information.</p>
 
@@ -80,5 +80,5 @@
   <dc:date>2009</dc:date>
   <category label="escience" term="eScience"/>
   <updated>2009-07-15T14:53:45+01:00</updated>
-  <id>http://www.sigfrid-lundberg.se/entries/2009/07/escience/</id>
+  <id>https://sigfrid-lundberg.se/entries/2009/07/escience/</id>
 </entry>
