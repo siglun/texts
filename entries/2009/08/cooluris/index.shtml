@@ -10,7 +10,7 @@
     <div>
 
       <p>This comes to you as an afterthought. I killed other peoples' links
-      when <a href="http://sigfrid-lundberg.se/entries/2009/08/features/">I
+      when <a href="https://sigfrid-lundberg.se/entries/2009/08/features/">I
       last week moved a document</a>. I've felt guilt for this for a week
       now.</p>
 
@@ -30,7 +30,7 @@
 
       <p>Those who know me also know that I have very strong emotions about
       persistence. These emotions started long before I had read Tim
-      Berners-Lee's brilliant paper <a href="http://www.w3.org/Provider/Style/URI">Cool URIs don't
+      Berners-Lee's brilliant paper <a href="https://www.w3.org/Provider/Style/URI">Cool URIs don't
       change</a>. Tim did get one thing wrong in that paper: <em>URI's never
       ever change, people move (or remove) the documents.</em></p>
 
@@ -38,7 +38,7 @@
       networked information as we know it (or until the end of the world,
       whichever happens first).</p>
 
-      <p>By the end of the nineties, the <a href="http://www.kansalliskirjasto.fi/extra/muut/meta/">Nordic Metadata
+      <p>By the end of the nineties, the <a href="https://web.archive.org/web/20091012101121/http://www.kansalliskirjasto.fi/extra/muut/meta/">Nordic Metadata
       Project</a> had commissioned a technical solution where we in the Nordic
       Web index should identify all pages with DCMI metadata and in particular
       those that where using encoding scheme URN for identifier.</p>
@@ -50,10 +50,10 @@
       embedded in the cover page, and then <kbd>isPartOf</kbd> elements for
       each chapter.</p>
 
-      <p><a href="http://aronsson.se/">Lars Aronsson</a>, the main architect
+      <p><a href="https://web.archive.org/web/20100412113400/http://aronsson.se/">Lars Aronsson</a>, the main architect
       behind Project Runeberg, had made his homework. However, most of the
       DCMI identifiers with encoding scheme URN were found on the web site of
-      the <a href="http://www.kb.se/">Swedish National Library</a>. The only
+      the <a href="https://www.kb.se/">Swedish National Library</a>. The only
       snag here was that all of them contained the same value.</p>
 
       <p>I worked for a couple of weeks with this, but result was useless
@@ -61,7 +61,17 @@
       in Sweden. For some years to come, I sat on many meetings listening to
       them talking about the status of URN:NBN in Sweden, and for each time I
       heard about it my anger increased.</p>
-
+      <div>
+	(a) <a rel="viewer" href="pict01.png"><img src="pict01.png" alt="urn:nbn:de:gbv:7-isbn-90-6984-508-3-8"/>
+	</a><div><small><a href="pict01.png">
+	    </a></small></div>
+	<br/>
+	(b) <a rel="viewer" href="pict02.png"><img src="pict02.png" width="100%" alt="URN:NBN Resolver für Deutschland und Schweiz"/>
+	</a><div><small><a href="pict02.png">
+	    </a></small></div>
+	<p>Fig. 1. I added this July 13, 2021. Screenshots of (a) urn:nbn:de:gbv:7-isbn-90-6984-508-3-8 (b) Diese URN ist nicht auflösbar.</p>
+      </div>
+      
       <p>One document colleagues have wanted to discuss with me the last few
       years has the following URI:</p>
 
@@ -70,9 +80,11 @@
       </pre>
 
       <p>It leads to Hans-Werner Hilse and Jochen Kothe, 2006.
-      <em>Implementing Persistent Identifiers</em>, published by <a href="http://www.cerl,org/">Consortium of European Research Libraries,
-      London</a> and <a href="http://www.knaw.nl/ecpa">European Commission on
+      <em>Implementing Persistent Identifiers</em>, published by <a href="https://www.cerl.org/">Consortium of European Research Libraries,
+      London</a> and <a href="https://web.archive.org/web/20051231231612/http://www.knaw.nl/ecpa/">European Commission on
       Preservation and Access</a>.</p>
+
+      
 
       <p>Sending a HTTP HEAD request to the URI above yields the following
       response:</p>
