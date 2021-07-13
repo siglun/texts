@@ -22,7 +22,7 @@
       
       <p style="margin-left:0.5em;float:left;">
 	<img 
-	    src="http://www.sigfrid-lundberg.se/galleri/200902-200904/smaller/cimg1150.jpg" 
+	    src="https://sigfrid-lundberg.se/galleri/200902-200904/smaller/cimg1150.jpg" 
 	     alt="Mor i dörrent"/>
       </p>
 
@@ -122,5 +122,5 @@
   <dc:date>2009</dc:date>
   <category label="essays" term="Essays" />
   <updated>2009-06-28T23:33:00+01:00</updated>
-  <id>http://www.sigfrid-lundberg.se/entries/2009/06/mor/</id>
+  <id>https://sigfrid-lundberg.se/entries/2009/06/mor/</id>
 </entry>

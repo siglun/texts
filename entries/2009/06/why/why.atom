@@ -74,7 +74,7 @@
 
       <p>So I'll keep it, for the time being. I don't think my stuff
       contribute very much to the digital refuse spread over the net. I've
-      added an <a href="http://tools.ietf.org/html/rfc4287">ATOM syndication
+      added an <a href="https://datatracker.ietf.org/doc/html/rfc4287">ATOM syndication
       feed</a> for the garbage I decided to keep, a subject browsing based on
       the ATOM categories. Finally I've added some texts from the last few
       years. These are basically of the same kind as the rest of my
@@ -86,5 +86,5 @@
   <dc:date>2009</dc:date>
   <category label="structuralwebdesign" term="Structural web design" />
   <updated>2009-06-27T12:18:00+01:00</updated>
-  <id>http://www.sigfrid-lundberg.se/feed/why.xml</id>
+  <id>https://sigfrid-lundberg.se/feed/why.xml</id>
 </entry>

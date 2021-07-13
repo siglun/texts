@@ -3703,7 +3703,7 @@
       course, much hyped in the <a href="http://www.wired.com">Wired
       magazine</a>. I've just ordered it from Amazon, but I've been walking
       around thinking about Internet business models, open access and the
-      like. I've also <a href="http://sigfrid-lundberg.se/2004/biblioteket/">written at length
+      like. I've also <a href="https://sigfrid-lundberg.se/2004/biblioteket/">written at length
       about this</a> (in Swedish, I'm afraid).</p>
 
       <p>How is <em>Free</em> related to the situation for <em>The
@@ -3737,11 +3737,11 @@
 
       <p>On the other hand, much of the user's navigation will take place
       elsewhere, and many user's will not be exposed to your ads but Google's.
-      This lead to Jakob Nielsen's out-cry where he labelled them as <a href="http://www.useit.com/alertbox/search_engines.html">leeches</a>
+      This lead to Jakob Nielsen's out-cry where he labelled them as <a href="https://www.nngroup.com/articles/search-engines-as-leeches-on-the-web/">leeches</a>
       already a few years ago.</p>
 
-      <p><a href="http://www.nybooks.com/authors/71">Michael Massing</a>
-      discusses this and other issues in a <a href="http://www.nybooks.com/articles/22960">recent article</a> in The
+      <p><a href="https://www.nybooks.com/contributors/michael-massing/">Michael Massing</a>
+      discusses this and other issues in a <a href="https://www.nybooks.com/articles/2009/08/13/the-news-about-the-internet/">recent article</a> in The
       New York Review of Books. He quotes David Simon's statement in a
       testimony in front of the US Senate:</p>
       
@@ -3806,7 +3806,7 @@
       they are <em>Free</em>?</p>
 
       <p>I leave these questions as an exercise to the reader (hint: think
-      about the economics of blogging). And end this by quoting Google CEO <a href="http://www.wired.co.uk/wired-magazine/archive/2009/08/features/the-unstoppable-google.aspx">Eric Schmidt</a></p>
+      about the economics of blogging). And end this by quoting Google CEO <a href="https://www.wired.co.uk/article/the-unstoppable-google">Eric Schmidt</a></p>
 
       <blockquote>
 	<em>“We don’t have a big picture. We don’t have a five-year plan, we
@@ -3825,7 +3825,7 @@
   <category label="internet" term="Internet"/>
   <updated>2009-08-03T17:57:08+01:00</updated>
   <published>2009-07-31T07:48:53+01:00</published>
-  <id>http://www.sigfrid-lundberg.se/entries/2009/07/blogging/</id>
+  <id>https://sigfrid-lundberg.se/entries/2009/07/blogging/</id>
   <!-- $Id$ -->
 </entry><entry xmlns:dc="http://purl.org/dc/elements/1.1/">
   <author>
@@ -5592,7 +5592,7 @@
 
       <p>So I'll keep it, for the time being. I don't think my stuff
       contribute very much to the digital refuse spread over the net. I've
-      added an <a href="http://tools.ietf.org/html/rfc4287">ATOM syndication
+      added an <a href="https://datatracker.ietf.org/doc/html/rfc4287">ATOM syndication
       feed</a> for the garbage I decided to keep, a subject browsing based on
       the ATOM categories. Finally I've added some texts from the last few
       years. These are basically of the same kind as the rest of my
@@ -5604,7 +5604,7 @@
   <dc:date>2009</dc:date>
   <category label="structuralwebdesign" term="Structural web design"/>
   <updated>2009-06-27T12:18:00+01:00</updated>
-  <id>http://www.sigfrid-lundberg.se/feed/why.xml</id>
+  <id>https://sigfrid-lundberg.se/feed/why.xml</id>
 </entry><entry xmlns:dc="http://purl.org/dc/elements/1.1/">
   <author>
     <name>Sigfrid Lundberg</name>
@@ -5626,7 +5626,7 @@
       nästan exakt. Det blir alltid ett trevligt samtal.</p>
       
       <p style="margin-left:0.5em;float:left;">
-	<img src="http://www.sigfrid-lundberg.se/galleri/200902-200904/smaller/cimg1150.jpg" alt="Mor i dörrent"/>
+	<img src="https://sigfrid-lundberg.se/galleri/200902-200904/smaller/cimg1150.jpg" alt="Mor i dörrent"/>
       </p>
 
       <p>När det är dags att säga godnatt, återkomer hon ständigt till att man
@@ -5725,7 +5725,7 @@
   <dc:date>2009</dc:date>
   <category label="essays" term="Essays"/>
   <updated>2009-06-28T23:33:00+01:00</updated>
-  <id>http://www.sigfrid-lundberg.se/entries/2009/06/mor/</id>
+  <id>https://sigfrid-lundberg.se/entries/2009/06/mor/</id>
 </entry><entry xmlns:dc="http://purl.org/dc/elements/1.1/">
   <author>
     <name>Sigfrid Lundberg</name>
@@ -5741,7 +5741,7 @@
   <content type="xhtml">
     <div xmlns="http://www.w3.org/1999/xhtml">
 
-      <p>The <a href="http://tools.ietf.org/html/rfc4287">ATOM syndication
+      <p>The <a href="https://datatracker.ietf.org/doc/html/rfc4287">ATOM syndication
       format</a> has been around for almost five years. In comparison with the
       diverse fauna kept in the menagerie abbreviated to the three character
       acronym RSS, ATOM is a well kept standard and much more useful as
@@ -5777,7 +5777,7 @@
       <pre>
   &lt;author&gt;
     &lt;name&gt;Sigfrid Lundberg&lt;/name&gt;
-    &lt;uri&gt;http://www.sigfrid-lundberg.se/&lt;/uri&gt;
+    &lt;uri&gt;https://sigfrid-lundberg.se/&lt;/uri&gt;
   &lt;/author&gt;
       </pre>
 
@@ -5811,7 +5811,7 @@
       </pre>
 
       <p>These are shortcomings, but I can live with them. But expect changes
-      in this area. The semantic web is here already, and with <a href="http://www.w3.org/2004/02/skos/">SKOS</a> becoming a de facto
+      in this area. The semantic web is here already, and with <a href="https://www.w3.org/2004/02/skos/">SKOS</a> becoming a de facto
       standard on the internet, the syntactic communities will have to come up
       with something more clever for categorization of syndicated web
       resources.</p>
@@ -5822,7 +5822,7 @@
   <category label="structuralwebdesign" term="Structural web design"/>
   <category term="Metadata" label="metadata"/>
   <updated>2009-06-27T17:35:00+01:00</updated>
-  <id>http://www.sigfrid-lundberg.se/entries/2009/06/atom/</id>
+  <id>https://sigfrid-lundberg.se/entries/2009/06/atom/</id>
 </entry><entry xmlns:dc="http://purl.org/dc/elements/1.1/">
   <author>
     <name>Sigfrid Lundberg</name>
