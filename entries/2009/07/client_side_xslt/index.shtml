@@ -62,16 +62,15 @@
       then be able to use its usual HTML indexing techniques. For instance it
       would understand the title, and be able parse all hypertext links.</p>
 
-      <p>I made the search <a href="http://www.google.com/search?hl=en&amp;q=digital+humanities+infrastructure+%2Blundberg&amp;btnG=Search">digital
+      <p>I made the search <a href="https://www.google.com/search?hl=en&amp;q=digital+humanities+infrastructure+sigfrid+lundberg&amp;btnG=Search">digital
       humanities infrastructure +lundberg</a> and the results looks like
       "<strong>Digital Humanities Infrastructures 2008-06-12 Digital
       Humanities ...</strong> - Jun 5 ... Digital Humanities Infrastructures
-      Sigfrid Lundberg slu@kb.dk Digital .... Also McCarty's humanities
-      computing research infrastructure (or rather ..."</p>
+      Sigfrid Lundberg slu@kb.dk Digital"</p>
 
       <p>The machine is actually using a detagged incipit as the title, which
       is what I think it uses for PDF. This is very far from the ideas in
-      <a href="http://www.w3.org/TR/grddl/">Gleaning Resource Descriptions
+      <a href="https://www.w3.org/TR/grddl/">Gleaning Resource Descriptions
       from Dialects of Languages (GRDDL)</a> where providers of documents
       actually provide XSLT for the benefit of robots that could use that to
       extract descriptions in RDF.</p>
