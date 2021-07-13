@@ -15,7 +15,7 @@
   <content type="xhtml">
     <div xmlns="http://www.w3.org/1999/xhtml">
 
-      <p>The <a href="http://tools.ietf.org/html/rfc4287">ATOM syndication
+      <p>The <a href="https://datatracker.ietf.org/doc/html/rfc4287">ATOM syndication
       format</a> has been around for almost five years. In comparison with the
       diverse fauna kept in the menagerie abbreviated to the three character
       acronym RSS, ATOM is a well kept standard and much more useful as
@@ -52,7 +52,7 @@
       <pre>
   &lt;author>
     &lt;name>Sigfrid Lundberg&lt;/name>
-    &lt;uri>http://www.sigfrid-lundberg.se/&lt;/uri>
+    &lt;uri>https://sigfrid-lundberg.se/&lt;/uri>
   &lt;/author>
       </pre>
 
@@ -87,7 +87,7 @@
 
       <p>These are shortcomings, but I can live with them. But expect changes
       in this area. The semantic web is here already, and with <a
-      href="http://www.w3.org/2004/02/skos/">SKOS</a> becoming a de facto
+      href="https://www.w3.org/2004/02/skos/">SKOS</a> becoming a de facto
       standard on the internet, the syntactic communities will have to come up
       with something more clever for categorization of syndicated web
       resources.</p>
@@ -98,5 +98,5 @@
   <category label="structuralwebdesign" term="Structural web design" />
   <category term="Metadata" label="metadata"/>
   <updated>2009-06-27T17:35:00+01:00</updated>
-  <id>http://www.sigfrid-lundberg.se/entries/2009/06/atom/</id>
+  <id>https://sigfrid-lundberg.se/entries/2009/06/atom/</id>
 </entry>
