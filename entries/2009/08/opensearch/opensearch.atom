@@ -12,6 +12,8 @@
   <content type="xhtml">
     <div xmlns="http://www.w3.org/1999/xhtml">
 
+      <h1>a tonne of broken links below! to mend them would be a project on its own.</h1>
+      
       <p>Some time ago I discussed our architecture for <a href="https://sigfrid-lundberg.se/entries/2009/07/opml/">presenting some
       of our digitized material</a>. We use a combination of <a href="http://www.opml.org/">opml</a> and <a href="https://web.archive.org/web/20120121170137/http://www.opensearch.org/Home">OpenSearch</a> for letting our users
       search and navigate our <a href="http://www5.kb.dk/editions/any/2009/jul/editions/en/">Digital
@@ -204,6 +206,6 @@
   <category label="metadataprocessing" term="Metadata processing"/>
   <updated>2009-09-27T12:23:52+01:00</updated>
   <published>2009-09-23T18:03:30+01:00</published>
-  <id>http://www.sigfrid-lundberg.se/entries/2009/08/opensearch/</id>
+  <id>https://sigfrid-lundberg.se/entries/2009/08/opensearch/</id>
   <!-- $Id$ -->
 </entry>
