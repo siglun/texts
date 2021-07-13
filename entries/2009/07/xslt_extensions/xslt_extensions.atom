@@ -29,7 +29,7 @@
       cannot see why. And nobody would ask me to write ANSI SQL in spite of
       the fact that we use Oracle.</p>
 
-      <p>Now, it has been proven mathematically that xslt is a <a href="http://www.ibm.com/developerworks/library/x-xalanextensions.html">Turing
+      <p>Now, it has been proven mathematically that xslt is a <a href="https://web.archive.org/web/20090217155545/http://www.ibm.com/developerworks/library/x-xalanextensions.html">Turing
       complete</a> programming language. That means that it is possible to
       program <strong>anything</strong> which is possible to program with such
       a language. I.e., you have theoretically the same possibilities as in
@@ -61,6 +61,6 @@
   <dc:date>2009</dc:date>
   <category label="xmlprocessing" term="XML processing"/>
   <updated>2009-07-21T18:01:19+01:00</updated>
-  <id>http://www.sigfrid-lundberg.se/entries/2009/07/xslt_extensions/</id>
+  <id>https://sigfrid-lundberg.se/entries/2009/07/xslt_extensions/</id>
   <!-- $Id$ -->
 </entry>
