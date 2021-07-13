@@ -10,7 +10,7 @@
       <p>The market has forced the major browser manufacturers to converge on
       standards. Microsoft cannot afford to produce a browser that won't work
       on google apps, and the Linux based netbooks and netboxes make a
-      difference. If <a href="http://en.wikipedia.org/wiki/Software_as_a_service">software is a
+      difference. If <a href="https://en.wikipedia.org/wiki/Software_as_a_service">software is a
       service</a>, what is the client? Obviously the web client, the
       browser. But why are the search engines lagging behind?  Browsers are
       capable of AJAX and advanced XML processing, but the search engines are
@@ -19,7 +19,7 @@
       <p>I have quite a few documents on this site that are written in raw
       XML, such as the <a href="/2008/dighum/digital_humanities.xml">Digital
       Humanities Infrastructures</a> position paper from last year. Since it
-      is about digital humanities and text encoding, I wrote it in <a href="http://www.tei-c.org/">TEI</a> XML. The paper is presented using
+      is about digital humanities and text encoding, I wrote it in <a href="https://www.tei-c.org/">TEI</a> XML. The paper is presented using
       client side XSLT. Just view source on that note, and you'll see my
       markup. The document is a blatant show-off; it is written in nerdcore
       vanity. At the top you'll see</p>
@@ -33,7 +33,7 @@
       browsser, which then retrieves the stylesheet <a href="/2008/dighum/render.xsl">render.xsl</a>. Without any further ado
       it is then transformed into html, rendered using the CSS indicated by my
       XSLT script for you to read. You can even inspect the resulting html
-      using <a href="http://getfirebug.com/">firebug</a>, if you've got a
+      using <a href="https://getfirebug.com/">firebug</a>, if you've got a
       modern installation.</p>
 
       <h2>What does Google do when indexing XML?</h2>
@@ -41,9 +41,9 @@
       <p>There is almost certainly a range of XML formats that is actually
       interpreted by Google. Which formats, well we don't know but in practice
       can hardly expect anything more exotic than common syndication formats
-      (such as RSS and ATOM ), <a href="http://google.com/support/webmasters/bin/answer.py?hl=en&amp;answer=99170">microformats
+      (such as RSS and ATOM ), <a href="https://developers.google.com/search/docs/advanced/structured-data/intro-structured-data?visit_id=637617879822425792-817531875&amp;hl=en&amp;rd=1">microformats
       and RDFa</a>. I have noticed that Google has been doing OAI harvesting
-      for many years, most likely for the benefit of <a href="http://scholar.google.com/">Scholar</a>.</p>
+      for many years, most likely for the benefit of <a href="https://scholar.google.com/">Scholar</a>.</p>
 
       <p>One could envisage a number of viable indexing strategies for a
       general search engine for a document like my Digital Infrastructure

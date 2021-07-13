@@ -9,13 +9,13 @@
 	      </div>
     <div>
 
-      <p>At the <a href="http://www.kb.dk/">Royal Library</a> we have been
+      <p>At the <a href="https://www.kb.dk/">Royal Library</a> we have been
       working with the building of an infrastructure for publishing of
       digitized material. It is collections of digital images, usually with
       very little textual content to go with it.</p>
 
       <p>The cataloging of the images has been made by library staff using the
-      image database system Cumulus from <a href="http://www.canto.com/">Canto</a>.  Cumulus is designed as digital
+      image database system Cumulus from <a href="https://www.canto.com/">Canto</a>.  Cumulus is designed as digital
       asset management system for people within graphical industry. Canto is
       producing an advanced Web user interface, but it is rather poor as
       regards dissemination of the collections on the web. For example, images
@@ -24,15 +24,15 @@
       any concept of standardized metadata, which is essential for all
       collaboration between institutions in the library communities.</p>
 
-    
-      <div style="float: left;margin-left:5px;margin-right:5px;">
+      
+      <div style="float: left;margin-left:5px;margin-right:5px;"><s>
 	<div style="height:350px;width:300px;">
 	  <a rel="viewer" href="http://static.grazr.com/images/grazrbadge.png"><img alt="Grazr" src="http://static.grazr.com/images/grazrbadge.png" style="border:none"/>
 	</a><div><small><a href="http://static.grazr.com/gzpanel.html?view=s&amp;file=http://www.kb.dk/opml_category_service/danmarksbilleder/?opml_mode=shallow&amp;subject=8">
 	    </a></small></div>
 	  <script defer="defer" type="text/javascript" src="http://static.grazr.com/gzloader.js?view=s&amp;file=http://www.kb.dk/opml_category_service/danmarksbilleder/?opml_mode=shallow&amp;subject=8">
 	  </script>
-	</div>
+	</div></s>
       </div>
 
       <p>To take advantage of the relative ease of use for the people handling
