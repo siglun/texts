@@ -3026,7 +3026,7 @@
       cannot see why. And nobody would ask me to write ANSI SQL in spite of
       the fact that we use Oracle.</p>
 
-      <p>Now, it has been proven mathematically that xslt is a <a href="http://www.ibm.com/developerworks/library/x-xalanextensions.html">Turing
+      <p>Now, it has been proven mathematically that xslt is a <a href="https://web.archive.org/web/20090217155545/http://www.ibm.com/developerworks/library/x-xalanextensions.html">Turing
       complete</a> programming language. That means that it is possible to
       program <strong>anything</strong> which is possible to program with such
       a language. I.e., you have theoretically the same possibilities as in
@@ -3058,7 +3058,7 @@
   <dc:date>2009</dc:date>
   <category label="xmlprocessing" term="XML processing"/>
   <updated>2009-07-21T18:01:19+01:00</updated>
-  <id>http://www.sigfrid-lundberg.se/entries/2009/07/xslt_extensions/</id>
+  <id>https://sigfrid-lundberg.se/entries/2009/07/xslt_extensions/</id>
   <!-- $Id$ -->
 </entry><entry xmlns:dc="http://purl.org/dc/elements/1.1/">
   <author>
@@ -3256,16 +3256,16 @@
       the term classification systems for centuries, I suppose, and more
       recently we have started to talk about ontologies and knowledge
       organization. There are a lot of theory and a plethora of standards in
-      this area. Systems like <a href="http://en.wikipedia.org/wiki/Topic_Maps">topic maps</a> (see also
-      <a href="http://www.topicmaps.org/">topicmaps.org</a>) and more recently
-      Simple Knowledge Organization System <a href="http://www.w3.org/2004/02/skos/">SKOS</a>) are available for those
+      this area. Systems like <a href="https://en.wikipedia.org/wiki/Topic_Maps">topic maps</a> (see also
+      <a href="https://www.topicmaps.org/">topicmaps.org</a>) and more recently
+      Simple Knowledge Organization System <a href="https://www.w3.org/2004/02/skos/">SKOS</a>) are available for those
       who need a standard for knowledge organization.</p>
 
       <p>On a very down to earth level, I tend to think of controlled
       vocabularies as filters and navigators. The latter are trees and may
       contain many terms arranged into a tree of arbitrary depth. The filters
       are lists of controlled terms, which may be whereabout in the tree we
-      are. Think of Yahoo Directory. You can browse into <a href="http://dir.yahoo.com/Regional/Countries/Italy/Regions/Tuscany/">Tuscany</a>
+      are. Think of Yahoo Directory. You can browse into <a href="https://web.archive.org/web/20120616063005/http://dir.yahoo.com/Regional/Countries/Italy/Regions/Tuscany/">Tuscany</a>
       and get a very long list of resources. Then there is a menu at the top
       where you can choose between "Business and Shopping", "Entertainment and
       Arts", "Recreation and Sports", "Travel and Transportation" and so
@@ -3303,7 +3303,7 @@
       digital resources, such as electronic books, are trees as well. In the
       theory of text this model is called OHCO (ordered hierarchy of content
       objects). That view has been questioned, and it is for instance claimed
-      that any ordinary text consists of many, <a href="http://www.stg.brown.edu/resources/stg/monographs/ohco.html">overlapping
+      that any ordinary text consists of many, <a href="https://cds.library.brown.edu/resources/stg/monographs/ohco.html">overlapping
       hierarchies</a>. I just love overlapping hierarchies. They are great
       fun.</p>
 
@@ -3839,10 +3839,10 @@
   <content type="xhtml">
     <div xmlns="http://www.w3.org/1999/xhtml">
       <div style="float: left;margin-left: 3px;margin-right:3px;">
-	<img src="http://www.sigfrid-lundberg.se/galleri/200907-200907/smaller/cimg1345.jpg" alt="an excavator on top of a demolished building"/>
+	<img src="https://sigfrid-lundberg.se/galleri/200907-200907/smaller/cimg1345.jpg" alt="an excavator on top of a demolished building"/>
       </div>
 
-      <p>Is this <a href="http://en.wikipedia.org/wiki/Smaug">Smaug</a>
+      <p>Is this <a href="https://en.wikipedia.org/wiki/Smaug">Smaug</a>
       resting on a pile of gold? Or a predator resting after a victorius
       battle with a powerful prey?</p>
 
@@ -3862,7 +3862,7 @@
   <dc:date>2009</dc:date>
   <category label="essays" term="Essays"/>
   <updated>2009-07-13T10:46:29+01:00</updated>
-  <id>http://www.sigfrid-lundberg.se/entries/2009/07/victory/</id>
+  <id>https://sigfrid-lundberg.se/entries/2009/07/victory/</id>
   <!--
       $Id$
   -->
@@ -4730,7 +4730,7 @@
 	(a) <a href="pict01.png"><img src="pict01.png" alt="urn:nbn:de:gbv:7-isbn-90-6984-508-3-8"/></a>
 	<br/>
 	(b) <a href="pict02_v1.jpg"><img src="pict02_v1.jpg" width="100%" alt="URN:NBN Resolver für Deutschland und Schweiz"/></a>
-	<p>Fig. 1. I added this July 13, 2021. Screenshots of (a) urn:nbn:de:gbv:7-isbn-90-6984-508-3-8 (b) Diese URN ist nicht auflösbar.</p>
+	<p>Figure 1. I added this July 13, 2021. Screenshots of (a) urn:nbn:de:gbv:7-isbn-90-6984-508-3-8 (b) Diese URN ist nicht auflösbar.</p>
       </div>
       
       <p>One document colleagues have wanted to discuss with me the last few
@@ -4743,7 +4743,7 @@
       <p>It leads to Hans-Werner Hilse and Jochen Kothe, 2006.
       <em>Implementing Persistent Identifiers</em>, published by <a href="https://www.cerl.org/">Consortium of European Research Libraries,
       London</a> and <a href="https://web.archive.org/web/20051231231612/http://www.knaw.nl/ecpa/">European Commission on
-      Preservation and Access</a>.</p>
+      Preservation and Access</a>. It is still available on the net (as of July 2021), but the URN:NBN is broken and cannot be resolved (See Figure 1.)</p>
 
       
 
@@ -4795,7 +4795,7 @@
   <dc:date>2009</dc:date>
   <category label="structuralwebdesign" term="Structural web design"/>
   <updated>2009-08-15T14:11:54+01:00</updated>
-  <id>http://www.sigfrid-lundberg.se/entries/2009/08/cooluris/</id>
+  <id>https://sigfrid-lundberg.se/entries/2009/08/cooluris/</id>
 </entry><entry xmlns:dc="http://purl.org/dc/elements/1.1/">
   <author>
     <name>Sigfrid Lundberg</name>
