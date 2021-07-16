@@ -170,13 +170,7 @@
 			 alt="Subscribe to Stuff from Sigfrid Lundberg"
 			 border="0"/>
 		    <xsl:text>Subscribe to more Stuff</xsl:text>
-		  </a><br/>
-		  <a href="http://sigfridlundbergsstuff.disqus.com/latest.rss"
-		     type="application/rss+xml"
-		     class="feed-link">
-		    <img src="/images/Newsfeed-Atom.png" 
-			 alt="Subscribe to Stuff from Sigfrid Lundberg"
-			 border="0"/>Subscribe to discussion feed</a>
+		  </a>
 		</p>
 		<xsl:comment>#include virtual="/subjects.xml" </xsl:comment>
 		<xsl:comment>#include virtual="/me.xml" </xsl:comment>
