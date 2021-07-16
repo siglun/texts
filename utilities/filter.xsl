@@ -49,7 +49,7 @@
 	    <xsl:value-of select="@href"/>
 	  </xsl:when>
 	  <xsl:otherwise>
-	    <xsl:value-of select="concat('http://sigfrid-lundberg.se',@href)"/>
+	    <xsl:value-of select="concat('https://sigfrid-lundberg.se',@href)"/>
 	  </xsl:otherwise>
 	</xsl:choose>
       </xsl:attribute>

@@ -37,7 +37,7 @@
 	</title>
 
 
-	<link href="https://feeds.feedburner.com/SigfridLundbergsStuff?format=xml"
+	<link href="http://feeds.feedburner.com/SigfridLundbergsStuff?format=xml"
 	      type="application/atom+xml"
 	      title="Sigfrid Lundberg's Stuff"
 	      rel="alternate"/>
@@ -98,17 +98,17 @@
 		<!--xsl:attribute name="addthis:description"><xsl:value-of select="f:summary"/></xsl:attribute-->
 		<xsl:attribute name="addthis:url">
 		  <xsl:value-of 
-		      select="concat('http://sigfrid-lundberg.se',f:link/@href)"/>
+		      select="concat('https://sigfrid-lundberg.se',f:link/@href)"/>
 		</xsl:attribute>
-		<xsl:attribute name="href">http://www.addthis.com/bookmark.php?v=250&amp;pub=siggelundberg</xsl:attribute>
-		<img src="http://s7.addthis.com/static/btn/v2/lg-share-en.gif"
+		<xsl:attribute name="href">https://www.addthis.com/bookmark.php?v=250&amp;pub=siggelundberg</xsl:attribute>
+		<img src="https://s7.addthis.com/static/btn/v2/lg-share-en.gif"
 		     width="125" 
 		     height="16" 
 		     alt="Bookmark and Share" 
 		     style="border:0"/>
 	      </xsl:element>
 	      <script type="text/javascript" 
-		      src="http://s7.addthis.com/js/250/addthis_widget.js?pub=siggelundberg">
+		      src="https://s7.addthis.com/js/250/addthis_widget.js?pub=siggelundberg">
 		<xsl:text>
 		</xsl:text>
 	      </script>
@@ -139,7 +139,7 @@
 		<a href="/"><strong>Home</strong></a>
 	      </p>
 	      <p>
-		<a href="https://feeds.feedburner.com/SigfridLundbergsStuff?format=xml"
+		<a href="http://feeds.feedburner.com/SigfridLundbergsStuff?format=xml"
 		   type="application/atom+xml"
 		   class="feed-link">
 		  <img src="/images/Newsfeed-Atom.png" 
@@ -163,18 +163,18 @@
 		  property="dct:title"> <xsl:value-of
 		  select="f:title"/></span></em>) within Sigfrid Lundberg's Stuff,
 
-		  by <a xmlns:cc="http://creativecommons.org/ns#" 
+		  by <a xmlns:cc="https://creativecommons.org/ns#" 
 		  property="cc:attributionName" 
 		  rel="cc:attributionURL">
 		  <xsl:attribute name="href">
 		    <xsl:value-of 
-			select="concat('http://sigfrid-lundberg.se',f:link/@href)"/>
+			select="concat('https://sigfrid-lundberg.se',f:link/@href)"/>
 		  </xsl:attribute>
 		  Sigfrid Lundberg
 		</a>
 		is licensed under a 
 		<a rel="license"
-		   href="http://creativecommons.org/licenses/by-sa/3.0/">Creative Commons
+		   href="https://creativecommons.org/licenses/by-sa/3.0/">Creative Commons
 		Attribution-ShareAlike 3.0 Unported License</a>.
 	      </small></p>
 
