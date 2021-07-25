@@ -174,7 +174,7 @@
 		     href="https://creativecommons.org/licenses/by-sa/3.0/">
 		    <img alt="Creative Commons License" 
 			 style="border-width:0" 
-			 src="https://i.creativecommons.org/l/by-sa/3.0/88x31.png" />
+			 src="https://licensebuttons.net/l/by-sa/3.0/88x31.png" />
 		  </a>
 		  <br />
 		  This entry (<em><span xmlns:dct="http://purl.org/dc/terms/"
