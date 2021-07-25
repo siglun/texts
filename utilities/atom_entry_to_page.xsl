@@ -42,6 +42,17 @@
 	      title="Sigfrid Lundberg's Stuff"
 	      rel="alternate"/>
 
+	<xsl:element name="link">
+	  <xsl:attribute name="rel">canonical</xsl:attribute>
+	  <xsl:attribute name="href">
+	    <xsl:value-of 
+		select="concat('https://sigfrid-lundberg.se',f:link/@href)"/>
+	  </xsl:attribute>
+	</xsl:element>
+
+
+
+	
 	<meta http-equiv="Content-Type"
 	      content="application/xhtml+xml;charset=UTF-8" />
 
@@ -55,6 +66,13 @@
 	<meta http-equiv="Content-Type" 
 	      content="text/html;charset=UTF-8"/>
 
+	<xsl:element name="meta">
+	  <xsl:attribute name="name">description</xsl:attribute>
+	  <xsl:attribute name="content">
+	    <xsl:value-of select="f:summary"/>
+	  </xsl:attribute>
+	</xsl:element>
+	
 	<style type="text/css" >
 	  <xsl:comment>#include virtual="/css-style/html.css" </xsl:comment>
 	</style>
