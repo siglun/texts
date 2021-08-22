@@ -1,7 +1,7 @@
 #!/usr/bin/perl
 
 my $groff = "".
-    "groff -T ps -U -stp -M ~/documents/tmac -mgs lub-settings.ms";
+    "groff -T ps -U -stp -M ~/Dropbox/documents/tmac -mgs lub-settings.ms";
 
 #
 # Process document using using XSLT

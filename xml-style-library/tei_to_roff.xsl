@@ -1,5 +1,5 @@
 <?xml version='1.0' encoding="ISO-8859-1" ?>
-<!DOCTYPE xsl:transform SYSTEM 'http://www.w3.org/People/cmsmcq/1999/xslt10.dtd'
+<!DOCTYPE xsl:transform 
 [
 <!ENTITY mdash  "\(em" >
 <!ENTITY ndash  "\(en" >

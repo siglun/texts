@@ -11,7 +11,7 @@ my $xslt = XML::LibXSLT->new();
 #$parser->keep_blanks(0);
 my $source = $parser->parse_file($ARGV[0]);
 
-my $xsltfile='/home/sigge/WWW/xml-style-library/tei_to_roff.xsl';
+my $xsltfile='../../xml-style-library/tei_to_roff.xsl';
 
 my $style_doc = $parser->parse_file($xsltfile);
 my $stylesheet = $xslt->parse_stylesheet($style_doc);

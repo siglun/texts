@@ -2,7 +2,7 @@
 .ds ABSTRACT SAMMANFATTNING
 .fam BA
 .hla se
-.hpf hyphen.se
+.hpf /usr/share/groff/current/tmac/hyphen.sv
 .de normal
 .nr VS 14
 .nr PS 12
