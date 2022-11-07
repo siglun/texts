@@ -74,14 +74,16 @@
 		 alt="Subscribe to Stuff from Sigfrid Lundberg"
 		 border="0"/>Subscribe to my stuff</a><br/>
 
-	      <a href="https://www.flickriver.com/photos/sigfridlundberg/popular-interesting/">
-		my photostream @ flickriver
-		</a><br/>
+	  <a href="https://www.flickriver.com/photos/sigfridlundberg/popular-interesting/">
+	    my photostream @ flickriver
+	  </a><br/>
 
-		<a href="https://www.flickr.com/photos/sigfridlundberg/">
-		  my photostream @ flickr
-		</a>
+	  <a href="https://www.flickr.com/photos/sigfridlundberg/">
+	    my photostream @ flickr
+	  </a>
 
+	  <a rel="me" href="https://mastodon.se/web/@sigfridlundberg">@sigfridlundberg on mastodon</a>
+	  
 	</p>
 
 	<?php
