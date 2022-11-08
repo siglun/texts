@@ -80,7 +80,7 @@
 
 	  <a href="https://www.flickr.com/photos/sigfridlundberg/">
 	    my photostream @ flickr
-	  </a>
+	  </a><br/>
 
 	  <a rel="me" href="https://mastodon.se/web/@sigfridlundberg">@sigfridlundberg on mastodon</a>
 	  
