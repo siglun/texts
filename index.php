@@ -82,7 +82,7 @@
 	    my photostream @ flickr
 	  </a><br/>
 
-	  <a rel="me" href="https://mastodon.se/web/@sigfridlundberg">@sigfridlundberg on mastodon</a>
+	  <a rel="me" href="https://mastodon.se/@sigfridlundberg">@sigfridlundberg on mastodon</a>
 	  
 	</p>
 
