@@ -9,7 +9,7 @@
 
     <div class="left_box">
       <p><a href="../">2003</a></p>
-      <!--#include virtual="../navigation.html" -->
+      <!-- include virtual="../navigation.html" -->
     </div>
 
     <div class="right_box">

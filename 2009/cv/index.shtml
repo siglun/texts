@@ -15,7 +15,7 @@
 
     <div class="left_box">
       <a href="..">2009</a>
-      <!--#include virtual="../navigation.html" -->
+      <!-- include virtual="../navigation.html" -->
     </div>
 
     <div class="right_box">
