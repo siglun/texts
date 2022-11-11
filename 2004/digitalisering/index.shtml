@@ -7,10 +7,6 @@
   </head>
   <body>
 
-    <div class="top_left_box">
-      <!--#include virtual="../navigation.html" -->
-    </div>
-
     <div class="top_right_box">
 
       <h1>Diverse texter om digitalisering</h1>

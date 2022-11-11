@@ -7,10 +7,6 @@
   </head>
   <body>
 
-    <div class="left_box">
-      <a href="..">2004</a>
-      <!--#include virtual="../navigation.html" -->
-    </div>
     <div class="right_box">
 
       <h1>"Metadata makes the world going round" - en kurs om metadata och
