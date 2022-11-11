@@ -4,18 +4,14 @@
     <title>Ediffah</title>
     <link rel="stylesheet" href="/css-style/html.css" />
     <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1"/>
   </head>
   <body>
 
-    <div class="left_box">
-      <a href="..">2004</a>
-      <!-- include virtual="../navigation.html" -->
-    </div>
-    
     <div class="right_box">
-
-      <a href="http://www.ediffah.org/"><img src="ediffah.jpg" align="right"
-      border="0" alt=""/></a>
+      <p><a href="..">2004</a></p>
+      <a href="https://web.archive.org/web/20120112201201/http://www.ediffah.org/"><img src="ediffah_smaller.jpg" align="right"
+      border="0" alt="Ediffah"/></a>
 
       <h1>Ediffah - En digital infrastruktur för forskningsbibliotekens arkiv- och
       handskriftssamlingar</h1> 
@@ -23,9 +19,13 @@
       <p>Projektets centrala uppgift är att skapa ett nätverk som tillsammans
       kan skapa riktliner för katalogisering av arkiv- och handskrifter, och
       ett sökgränssnitt för som passar för detta material. Idén är att använda
-      EAD för det ändamålet. Ytterligare information om projektet finns på <a
-      href="http://www.ediffah.org/">projektsajten</a> och i <a
-      href="../arkiv_bibliotek">ansökan</a>.</p>
+	EAD för det ändamålet. Ytterligare information om projektet finns på</p>
+
+	<ul>
+	  <li><a
+		  href="https://web.archive.org/web/20120112201201/http://www.ediffah.org/">projektsajten</a></li>
+	  <li>och i <a href="../arkiv_bibliotek">ansökan</a></li>
+	</ul>
 
     </div>
   </body>
