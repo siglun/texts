@@ -7,6 +7,11 @@
   </head>
   <body>
 
+    <div class="left_box">
+      <a href="..">2004</a>
+      <!-- include virtual="../navigation.html" -->
+    </div>
+    
     <div class="right_box">
 
       <a href="http://www.ediffah.org/"><img src="ediffah.jpg" align="right"
