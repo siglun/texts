@@ -82,7 +82,7 @@
 	</style>
 
 	<xsl:comment>#include virtual="/js/colorbox_include.html" </xsl:comment>
-
+	<xsl:comment>#include virtual="/js/google_analytics_four.html" </xsl:comment>
       </head>
 
      
