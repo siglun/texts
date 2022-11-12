@@ -34,6 +34,14 @@
       }
     ?>
 
+    <?php
+      $file = "./js/google_analytics_four.html";
+      if (file_exists($file)) {
+      readfile($file);
+      }
+    ?>
+
+    
   </head>
   <body>
     <div class="section group">
