@@ -39,6 +39,7 @@ my $stylesheet = $xslt->parse_stylesheet($style_doc);
 open my($h), $entry_doc;
 my $entry      = $parser->parse_fh($h);
 my $result     = $stylesheet->transform($entry,'tdoc' => "'". $source ."'");
+close $h;
 
 binmode STDOUT,':raw';
 print $result->toString();

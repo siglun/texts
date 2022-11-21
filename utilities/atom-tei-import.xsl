@@ -5,13 +5,12 @@
                xmlns="http://www.w3.org/1999/xhtml"
                xmlns:a="http://www.w3.org/2005/Atom"
                xmlns:dc="http://purl.org/dc/elements/1.1/"
-               extension-element-prefixes="exsl"
-               xmlns:exsl="http://exslt.org/common"
+	       exclude-result-prefixes="a h t"
                version="1.0">
 
   <xsl:import href="render.xsl"/>
   <xsl:param name="tdoc" select="''"/>
-  <!-- xsl:param name="teidoc" select="exsl:node-set(document($tdoc))"/ -->
+
   <xsl:variable name="teidoc" select="document($tdoc)"/>
 
   <xsl:template match="/a:entry">
