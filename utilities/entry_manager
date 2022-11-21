@@ -51,7 +51,7 @@ $directory =~ s|/*$||;
 
 
 #
-# Boring localtime() gymnsastics
+# Boring localtime() gymnastics
 #
 
 my ($sec,$min,$hour,$mday,$mon,$year,$wday,$yday,$isdst) = localtime(time);
