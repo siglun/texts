@@ -1,0 +1,51 @@
+#!/usr/bin/perl
+
+use strict;
+use File::Path;
+use XML::LibXML;
+use XML::LibXSLT;
+use Getopt::Long;
+
+my $parser      = new XML::LibXML; 
+
+# Constants 
+my $xml_version = '1.0';
+my $char_encod  = 'UTF-8';
+my $atomNS      = 'http://www.w3.org/2005/Atom';
+my $dcNS        = 'http://purl.org/dc/elements/1.1/';
+
+# The time zone may, or may not, also be regarded as a constant
+my $zone        = '+01:00';
+
+# Options and default values
+my $template    = 'utilities/atom_entry_template.xml';
+my $base_uri    = 'https://sigfrid-lundberg.se';
+my $directory   = '';
+my $entry_doc       = '';
+my $source      = '';
+
+# Get options from command line
+my $result = GetOptions ("entry=s"     => \$entry_doc,  
+			 "directory=s" => \$directory,
+			 "base_uri=s"  => \$base_uri,
+			 "template=s"  => \$template,
+			 "source=s"    => $source);
+
+my $transform_sheet = 'utilities/atom-tei-import.xsl';
+
+my $parser     = new XML::LibXML; 
+my $xslt       = new XML::LibXSLT;
+my $style_doc  = $parser->parse_file($transform_sheet);
+my $stylesheet = $xslt->parse_stylesheet($style_doc);
+
+open my($h), $entry_doc;
+my $entry      = $parser->parse_fh($h);
+
+my $result     = $stylesheet->transform($entry);
+
+binmode STDOUT,':raw';
+print $result->toString();
+
+
+
+
