@@ -20,16 +20,14 @@ my $zone        = '+01:00';
 # Options and default values
 my $template    = 'utilities/atom_entry_template.xml';
 my $base_uri    = 'https://sigfrid-lundberg.se';
-my $directory   = '';
-my $entry_doc       = '';
+my $entry_doc   = '';
 my $source      = '';
 
 # Get options from command line
-my $result = GetOptions ("entry=s"     => \$entry_doc,  
-			 "directory=s" => \$directory,
-			 "base_uri=s"  => \$base_uri,
-			 "template=s"  => \$template,
-			 "source=s"    => $source);
+my $result = GetOptions ("entry=s"     => \$entry_doc,
+			 "source=s"    => \$source,
+			 "base_uri=s"  => \$base_uri);
+
 
 my $transform_sheet = 'utilities/atom-tei-import.xsl';
 
@@ -40,8 +38,7 @@ my $stylesheet = $xslt->parse_stylesheet($style_doc);
 
 open my($h), $entry_doc;
 my $entry      = $parser->parse_fh($h);
-
-my $result     = $stylesheet->transform($entry);
+my $result     = $stylesheet->transform($entry,'teidoc' => "'". $source ."'");
 
 binmode STDOUT,':raw';
 print $result->toString();
