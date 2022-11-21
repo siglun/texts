@@ -28,7 +28,7 @@ my $zone        = '+01:00';
 
 # Options and default values
 my $template    = 'utilities/atom_entry_template.xml';
-my $base_uri    = 'http://www.sigfrid-lundberg.se';
+my $base_uri    = 'https://sigfrid-lundberg.se';
 my $directory   = '';
 my $entry       = '';
 my $create      = '';
@@ -51,7 +51,7 @@ $directory =~ s|/*$||;
 
 
 #
-# Boring localtime() gymnsastics
+# Boring localtime() gymnastics
 #
 
 my ($sec,$min,$hour,$mday,$mon,$year,$wday,$yday,$isdst) = localtime(time);
