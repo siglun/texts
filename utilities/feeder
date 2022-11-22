@@ -55,6 +55,13 @@ while(my $entryFile = <$find>) {
     if(-f "$directory/hide") {
 	next unless $show_hidden;
     }
+
+    my $html_file = "$directory/index.shtml";
+
+    # don't rebuild what hasn't changed
+    
+    next if -e $html_file && (-M $entryFile < -M $html_file );
+    
     open my($h), $entryFile;
     my $entry = $parser->parse_fh($h);
     close $h;
@@ -64,7 +71,7 @@ while(my $entryFile = <$find>) {
     } else {
 	$results = $stylesheet->transform($entry);
     }
-    open my $out, ">$directory/index.shtml";
+    open my $out, ">$html_file";
     binmode $out,':raw'; 
     $results->toFH($out);
     close $out;
