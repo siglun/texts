@@ -41,8 +41,9 @@ my $entry      = $parser->parse_fh($h);
 my $result     = $stylesheet->transform($entry,'tdoc' => "'". $source ."'");
 close $h;
 
-binmode STDOUT,':raw';
-print $result->toString();
+open my($h), ">$entry_doc";
+binmode $h,':raw';
+print $h $result->toString();
 
 
 
