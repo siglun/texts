@@ -1,8 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <entry xmlns="http://www.w3.org/2005/Atom" xmlns:dc="http://purl.org/dc/elements/1.1/"><author>
     <name>Sigfrid Lundberg</name>
-  </author><title>Why do I keep this site?</title><link href="/entries/2022/11/sonnets/"/><summary>Having had a web site for about 15 years, I start to wonder why I
-  keep it in the first place.</summary><content type="xhtml"><div xmlns="http://www.w3.org/1999/xhtml"><!--  shit comes below --><h1 class="title">Sex, death and sonnets<br/>Musings of a software developer</h1><p class="author">Sigfrid Lundberg<br/>slu@kb.dk<br/>Digital Transformation<br/>Royal Danish Library<br/>Post box 2149<br/>1016 Copenhagen K<br/>Denmark<br/></p><blockquote class="abstract"><h3>Abstract</h3>
+    </author><title>Sex, death and sonnets</title>
+    <link href="/entries/2022/11/sonnets/"/>
+    <summary>A note on how to analyse poetry encoded in Text Encoding Initiative XML</summary>
+    <content type="xhtml">
+      <div xmlns="http://www.w3.org/1999/xhtml"><!--  shit comes below --><h1 class="title">Sex, death and sonnets<br/>Musings of a software developer</h1><p class="author">Sigfrid Lundberg<br/>slu@kb.dk<br/>Digital Transformation<br/>Royal Danish Library<br/>Post box 2149<br/>1016 Copenhagen K<br/>Denmark<br/></p><blockquote class="abstract"><h3>Abstract</h3>
 	<p>This note discusses how software can recognize sonnets, by
 	analysis of text length, strophe structure and number of syllables
 	per line. It also makes a simple content analysis based on
@@ -661,4 +664,12 @@
       Passages of Verse or Drama. In: <em>TEI P5: Guidelines for Electronic Text Encoding and Interchange</em>. <a href="https://tei-c.org/release/doc/tei-p5-doc/en/html/CO.html#CODV">https://tei-c.org/release/doc/tei-p5-doc/en/html/CO.html#CODV</a></p>
       
 
-    </div></content><dc:date>2022</dc:date><category label="structuralwebdesign" term="Structural web design"/><updated>2022-11-22T10:13:05+01:00</updated><id>https://sigfrid-lundberg.se/entries/2022/11/sonnets/</id></entry>
+    </div>
+  </content>
+  <dc:date>2022</dc:date>
+  <category label="literature" term="Literature"/>
+  <category label="poetry"     term="Poetry"/>
+  <category label="essays"     term="Essays"/>
+  <updated>2022-11-22T10:13:05+01:00</updated>
+  <id>https://sigfrid-lundberg.se/entries/2022/11/sonnets/</id>
+</entry>

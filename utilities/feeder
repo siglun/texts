@@ -59,8 +59,10 @@ while(my $entryFile = <$find>) {
     my $html_file = "$directory/index.shtml";
 
     # don't rebuild what hasn't changed
-    
-    next if -e $html_file && (-M $entryFile < -M $html_file );
+    #
+    # next if -e $html_file && (-M $entryFile > -M $html_file );
+    #
+    # works, but fails to rebuild navigation
     
     open my($h), $entryFile;
     my $entry = $parser->parse_fh($h);

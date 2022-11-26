@@ -78,7 +78,7 @@
 		  select="f:entry[not(f:category/@label = 'aboutme')][1]/f:link/@href"/>
 	    </xsl:attribute>
 	    <xsl:value-of 
-		select="concat('http://sigfrid-lundberg.se',
+		select="concat('https://sigfrid-lundberg.se',
 			f:entry[not(f:category/@label = 'aboutme')][1]/f:link/@href)"/>
 	  </xsl:element>
 	</p>
@@ -87,7 +87,7 @@
       </div>
 
       <div>
-	<h1>Other, not yet obsolete stuff</h1>
+	<h1>Other, not far too obsolete stuff</h1>
 
 	<table class="news">
 	  <xsl:for-each select="f:entry[not(f:category/@label = 'aboutme')]
