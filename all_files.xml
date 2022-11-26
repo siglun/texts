@@ -701,11 +701,11 @@
     <id>https://sigfrid-lundberg.se/2009/cv/publications.html</id>
   </entry>
 
-  <entry xmlns="http://www.w3.org/2005/Atom" xmlns:dc="http://purl.org/dc/elements/1.1/">
+  <!-- entry xmlns="http://www.w3.org/2005/Atom" xmlns:dc="http://purl.org/dc/elements/1.1/">
   <author>
     <name>Sigfrid Lundberg</name>
   </author>
-  <title>Add footnotes to my pages -- a prototype text annotation
+  <title>Add footnotes to my pages a prototype text annotation
   interface</title>
   <link href="/footnotes/"/>
   <summary>I've had a javascript based forum with thread for each entry. That
@@ -824,7 +824,7 @@
       </pre>
 
       <p>The rest of the features are readily visible on this page. You have
-      to reaload the page to see the new footnote -- if I implement this I'll
+      to reaload the page to see the new footnote  if I implement this I'll
       will refresh those asynchronously.</p>
 
     </div>
@@ -835,7 +835,7 @@
   <updated>2009-09-19T15:13:49+01:00</updated>
   <id>https://sigfrid-lundberg.se/footnotes/</id>
 
-</entry>
+</entry -->
 
 
 </feed>
