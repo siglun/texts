@@ -701,11 +701,11 @@
     <id>https://sigfrid-lundberg.se/2009/cv/publications.html</id>
   </entry>
 
-  <entry xmlns="http://www.w3.org/2005/Atom" xmlns:dc="http://purl.org/dc/elements/1.1/">
+  <!-- entry xmlns="http://www.w3.org/2005/Atom" xmlns:dc="http://purl.org/dc/elements/1.1/">
   <author>
     <name>Sigfrid Lundberg</name>
   </author>
-  <title>Add footnotes to my pages -- a prototype text annotation
+  <title>Add footnotes to my pages a prototype text annotation
   interface</title>
   <link href="/footnotes/"/>
   <summary>I've had a javascript based forum with thread for each entry. That
@@ -715,7 +715,8 @@
   <content type="xhtml">
     <div xmlns="http://www.w3.org/1999/xhtml">
 
-      <p>In order to understand what's going on here, you have have to <a href="https://sigfrid-lundberg.se/footnotes/">visit the
+      <p>In order to understand what's going on here, you have have to <a
+      href="https://sigfrid-lundberg.se/footnotes/">visit the
       resource</a>. There is a some scripting going on which cannot be
       syndicated. If you're reading this, you are on the wrong
       page. Sorry.</p>
@@ -752,9 +753,11 @@
       <p id="anchor55018b510.584488500647474">In order to add footnotes to a
       text, we need to be able to address individual positions in it. These
       positions are what I'd like to call annotation anchors. I've already
-      briefly discussed the problem on how to create identifiers (see a <a href="https://sigfrid-lundberg.se/entries/2009/08/quotations/">A
+      briefly discussed the problem on how to create identifiers (see a <a
+      href="https://sigfrid-lundberg.se/entries/2009/08/quotations/">A
       quotation is much more than an extract</a>). For this entry I've
-      extended the xslt script such that it can <a href="https://exslt.org/str/functions/tokenize/">tokenize</a> html text
+      extended the xslt script such that it can <a
+      href="https://exslt.org/str/functions/tokenize/">tokenize</a> html text
       embedded in atom entry documents. It can also add anchors (id
       attributes) on each individual word (produced by the tokenize function)
       in the whole text. We also implement a javascript which expose these
@@ -765,16 +768,17 @@
       drawback in this procedure; once you have processed your text and the
       anchors are there, then you <strong>must not</strong> change them. Each
       word has become a resource on the internet. Please view the source of
-      this document, before you use the stylesheet <kbd><a href="https://sigfrid-lundberg.se/footnotes/atom_anchor_id.xsl">atom_anchor_id.xsl</a></kbd>.</p>
+      this document, before you use the stylesheet <kbd><a
+      href="https://sigfrid-lundberg.se/footnotes/atom_anchor_id.xsl">atom_anchor_id.xsl</a></kbd>.</p>
 
       <pre>
-	&lt;span id="anchor54764"&gt;Would&lt;/span&gt;
-	&lt;span id="anchor54766"&gt;you&lt;/span&gt;
-	&lt;span id="anchor54768"&gt;like&lt;/span&gt;
-	&lt;span id="anchor54770"&gt;to&lt;/span&gt;
-	&lt;span id="anchor54772"&gt;edit&lt;/span&gt;
-	&lt;span id="anchor54774"&gt;this&lt;/span&gt;
-	&lt;span id="anchor54778"&gt;text?&lt;/span&gt;
+	&lt;span id="anchor54764">Would&lt;/span>
+	&lt;span id="anchor54766">you&lt;/span>
+	&lt;span id="anchor54768">like&lt;/span>
+	&lt;span id="anchor54770">to&lt;/span>
+	&lt;span id="anchor54772">edit&lt;/span>
+	&lt;span id="anchor54774">this&lt;/span>
+	&lt;span id="anchor54778">text?&lt;/span>
       </pre>
 
       <p>See what I mean? I cannot author prose like that in my XML
@@ -798,7 +802,7 @@
       notes.</p>
 
       <pre>
-      &lt;script type="text/javascript"&gt;
+      &lt;script type="text/javascript">
 	    var usedAnchorIds = new Array();
 	    var noteTexts     = new Array();
 	    
@@ -816,11 +820,11 @@
 
 	    printNotes(usedAnchorIds,noteTexts);
 
-    &lt;/script&gt;
+    &lt;/script>
       </pre>
 
       <p>The rest of the features are readily visible on this page. You have
-      to reaload the page to see the new footnote -- if I implement this I'll
+      to reaload the page to see the new footnote  if I implement this I'll
       will refresh those asynchronously.</p>
 
     </div>
@@ -831,7 +835,7 @@
   <updated>2009-09-19T15:13:49+01:00</updated>
   <id>https://sigfrid-lundberg.se/footnotes/</id>
 
-</entry>
+</entry -->
 
 
 <entry xmlns:dc="http://purl.org/dc/elements/1.1/">
