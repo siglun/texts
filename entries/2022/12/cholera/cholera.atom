@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<entry xmlns="http://www.w3.org/2005/Atom" xmlns:dc="http://purl.org/dc/elements/1.1/">
+  <author>
+    <name>Sigfrid Lundberg</name>
+  </author>
+  <title>The Copenhagen cholera epidemic 1853 in contemporary
+Danish newspaper prose: Some back-of-an-envelope calculations</title>
+  <link href="/entries/2022/12/cholera/"/>
+  <summary>Inspired by the fact that we were all hiding away from the
+  Covid-19 2020 – 2021, I wanted to take a closer look at some other
+  epidemic. My hope was to find patterns of change in lan- guage use
+  mirroring sentiments and attitudes expressed in words, bigrams and
+  trigrams and frequency distributions. I started to write this May
+  2020 and completed it about two years later.</summary>
+  <content type="xhtml">
+    <div xmlns="http://www.w3.org/1999/xhtml">
+      <p>A tentative analysis of how the cholera epidemic 1853 is covered
+      in contemporary Danish newspapers. Words related to the
+      epidemics increases rapidly in frequency at the outbreaks, but
+      decreases much more slowly. Obviously the public was not
+      prepared for the appearance, but the discussions of the outbreak
+      continues several years after. The temporal distribution of
+      trigrams containing locations (likec holerainplace name) and
+      temporal info (lik ec holera er,harorhavde, i.e., is, has and
+      had follo wed by some word, often an adjective) follow the
+      outbreak as well.</p>
+      <p>
+        <a href="https://raw.githubusercontent.com/siglun/traces-of-historical-plagues/master/bar_diagram.pdf">PDF file</a><br/>
+        <a href="https://github.com/siglun/traces-of-historical-plagues">github project</a> 
+      </p>
+    </div>
+  </content>
+  <dc:date>2022</dc:date>
+  <category label="essays" term="Essays"/>
+  <category label="stories" term="Stories"/>
+  <category label="media" term="Media"/>
+  <updated>2022-12-02T12:52:03+01:00</updated>
+  <id>https://sigfrid-lundberg.se/entries/2022/12/cholera/</id>
+</entry>
